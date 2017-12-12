@@ -1,0 +1,32 @@
+language: python
+
+sudo: false
+
+python:
+    - 3.6
+
+before_install:
+    - LILYPOND_SCRIPT=lilypond-2.19.80-1.linux-64.sh
+    - LILYPOND_URL=http://download.linuxaudio.org/lilypond/binaries/linux-64
+    - LILYPOND_URL=$LILYPOND_URL/$LILYPOND_SCRIPT
+    - wget -q $LILYPOND_URL
+    - sh $LILYPOND_SCRIPT --batch
+    - git clone https://github.com/Abjad/abjad.git;
+    - cd abjad; git checkout trevor/dev; pip install -e .[development]
+    - echo `git branch`
+    - cd ..
+    - pip install --upgrade pip
+
+install:
+    - pip install -e git://github.com/Abjad/ide.git#egg=ide
+    - pip install -e git://github.com/trevorbaca/baca.git#egg=baca
+    - pip install -r requirements.txt
+    - pip install -e .
+    - PACKAGE=animales
+
+script:
+    - ajv doctest --external-modules=baca ./$PACKAGE
+    - py.test -rf ./$PACKAGE
+
+notifications:
+    email: false
