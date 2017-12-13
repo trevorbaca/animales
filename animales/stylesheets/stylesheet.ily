@@ -14,7 +14,11 @@
             \fontsize #3
             \override #'(font-name . "Palatino")
             \concat {
-                Animales desconocidos
+                \override #'(font-name . "Palatino Italic")
+                Animales
+                \hspace #1.5
+                \override #'(font-name . "Palatino Italic")
+                desconocidos
                 \hspace #3
                 —
                 \hspace #3
@@ -64,25 +68,31 @@
 }
 
 \header {
-    composer = \markup {
+    composer =
+        \markup
         \override #'(font-name . "Palatino")
         \fontsize #5
         \line { Trevor Bača (*1975) \hspace #15 }
-    }
-    tagline = \markup { "" }
-    title = \markup \column {
-        \center-align {
+    tagline =
+        \markup
+        \null
+    title =
+        \markup
+        \column
+        \center-align
+        {
             \override #'(font-name . "Palatino")
-            \fontsize #14 {
-               \line { ANIMALES DESCONOCIDOS }
+            \fontsize #14
+            {
+                ANIMALES
+                " "
+                DESCONOCIDOS
             }
             " "
             \override #'(font-name . "Palatino Italic")
-            \fontsize #3 {
-               " for the Wisconsin Youth Symphony Orchestras "
-            }
+            \fontsize #3
+            "for the Wisconsin Youth Symphony Orchestras"
         }
-    }
 }
 
 \layout {

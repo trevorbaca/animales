@@ -27,6 +27,7 @@ instruments = abjad.InstrumentDictionary([
     (
         'clarinet',
         abjad.ClarinetInBFlat(
+            name='clarinet',
             name_markup=baca.markup.instrument('Clarinet'),
             short_name_markup=baca.markup.short_instrument('Cl.'),
             )
@@ -41,6 +42,7 @@ instruments = abjad.InstrumentDictionary([
     (
         'english horn',
         abjad.EnglishHorn(
+            name='english horn',
             name_markup=baca.markup.instrument('English horn'),
             short_name_markup=baca.markup.short_instrument('Eng. hn.'),
             )
@@ -99,6 +101,7 @@ instruments = abjad.InstrumentDictionary([
     (
         'trombone',
         abjad.TenorTrombone(
+            name='trombone',
             name_markup=baca.markup.instrument('Trombone'),
             short_name_markup=baca.markup.short_instrument('Trb.'),
             )
