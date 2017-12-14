@@ -2,7 +2,7 @@ TO-DO
 =====
 
 1.  Generalize clef metadata context retrieval.
-    Change end_clefs_by_staff to end_clefs_by_context.
+    Change end_clefs_by_context to end_clefs_by_context.
 
 2.  Set ...
 
