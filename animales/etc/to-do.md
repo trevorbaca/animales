@@ -4,36 +4,28 @@ TO-DO
 1.  Extend animales.ScoreTemplate initializer with a staff count 
     for each instrument in orchestra.
 
-2.  Extend baca.ScoreTemplate to check context name uniqueness.
-
-3.  Test concatentation of segments with differing staff structures.
+2.  Test concatentation of segments with differing staff structures.
     _ with max wind staves only;
     A with four three flute staves only;
     B with max wind staves only;
     Concatenate in ledger score and see if contexts work.
 
-4.  Move builds-segments directories in existing scores to build directories.
+3.  Move builds-segments directories in existing scores to build directories.
     Teach IDE to forget about builds (plural) segments directories.
     Teach IDE to use build (singular) segments directories instead.
 
-5.  Clean up existing build directories.
+4.  Clean up existing build directories.
     Treat every collection of parts as a separate build.
     Redo existing front covers in XeTeX.
     Clean up parts-making process on disk in existing scores.
     
-6.  Remove TimeSignatureEngraver from global context in parts.
+5.  Remove TimeSignatureEngraver from global context in parts.
     Include TimeSignatureEngraver in staves in parts.
 
-7.  Model margin markup explicitly.
-    Implement baca.MarginMarkup class: markup, short markup.
-    Implement baca.margin() factory.
-    Teach SegmentMaker to write end-margin-markup to metadata.
+6.  Teach SegmentMaker to write end-margin-markup to metadata.
     Teach IDE how to activate and deactivate margin markup.
 
-8.  Build baca.TagCommand and a baca.tag() factory.
-    Implement baca.TagCommand in parallel to baca.VoltaCommand.
-
-9.  Tagging and part-making: single-staff divisi.
+7.  Tagging and part-making: single-staff divisi.
     _.1: first violins non divisi (on a single staff).
     _.2: divisi a due (8 + 10; on a single staff).
     _.3: divisi a tre (6 + 6 + 6; on a single staff).
@@ -42,7 +34,7 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-10. Tagging and part-making: multistaff divisi.
+8.  Tagging and part-making: multistaff divisi.
     A.1: first violins non divisi on a single staff ("Violins I").
     A.2: divisi a due (8 + 10) on two staves:
                     1-8
@@ -56,7 +48,7 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-11. Tagging and part-making: mixed divisi.
+9.  Tagging and part-making: mixed divisi.
     B.1: first violins non divisi on a single staff
     B.2: divisi a tre (6 + 6 + 6) on three staves
     B.3: divisi a quattro (6 + (2 + 4) + 6) on three staves
@@ -64,23 +56,23 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-12. Implement horizontal spacing part overrides.
+10. Implement horizontal spacing part overrides.
     Space 18 violin parts by hand.
 
-13. Write SegmentMaker.clefs examples.
+11. Write SegmentMaker.clefs examples.
     Write SegmentMaker.dynamics examples.
     Write SegmentMaker.margin_markup examples.
     Write SegmentMaker.metronome_marks examples.
     Write SegmentMaker.staff_lines examples.
 
-14. Write SegmentMaker.clefs example with two clefs active on one staff.
+12. Write SegmentMaker.clefs example with two clefs active on one staff.
     Write SegmentMaker.dynamics example with two dynamics active on one staff.
     Write SegmentMaker.instruments example with two instruments on one staff.
     Write SegmentMaker.margin_markup percussion staff example
         * two instruments active on one staff
         * independent margin markup ("Percussion I") unrelated to instruments
 
-15. Read about LilyPond \book, \bookOutputSuffix commands.
+13. Read about LilyPond \book, \bookOutputSuffix commands.
     Read LilyPond document structure chapters.
 
-16. Implement IDE part-management commands.
+14. Implement IDE part-management commands.
