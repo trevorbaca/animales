@@ -82,10 +82,19 @@
         \override VerticalAxisGroup.minimum-Y-extent = #'(-4 . 4)
     }
 
+    % STAFF GROUP
+    \context {
+        \StaffGroup
+        \override StaffGroup.SystemStartBracket.collapse-height = #4
+        \override Score.SystemStartBar.collapse-height = #4
+    }
+
     % PIANO STAFF
     \context {
         \PianoStaff
         \remove "Keep_alive_together_engraver" 
+        \override PianoStaff.SystemStartBrace.collapse-height = #4
+        \override Score.SystemStartBar.collapse-height = #4
     }
 
     % STAFF
@@ -102,11 +111,10 @@
 
     % MUSIC CONTEXT
     \context {
-        \StaffGroup
+        \ChoirStaff
         \name MusicContext
         \type Engraver_group
-        \alias StaffGroup
-        \accepts EnsembleStaffGroup
+        \alias ChoirStaff
         systemStartDelimiter = #'SystemStartBar
     }
 

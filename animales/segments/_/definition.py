@@ -27,6 +27,6 @@ maker.validate_measures_per_stage()
 ### FIRST VIOLINS ###
 
 maker(
-    baca.scope('FirstViolin1MusicVoice', 1, 2),
+    baca.scope('Flute1MusicVoice', 1, 2),
     baca.make_tied_repeated_durations((1, 4)),
     )

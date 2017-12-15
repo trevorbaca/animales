@@ -29,7 +29,9 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>
             \context MusicContext = "MusicContext" <<
                 \context StaffGroup = "WindSectionStaffGroup" <<
-                    \context StaffGroup = "FluteSectionStaffGroup" <<
+                    \context StaffGroup = "FluteSectionStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag piccolo
                         \context Staff = "PiccoloMusicStaff" {
                             \context Voice = "PiccoloMusicVoice" {
@@ -47,7 +49,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 s1
                             }
                         }
-                        \context StaffGroup = "FluteStaffGroup" <<
+                        \context StaffGroup = "FluteStaffGroup" \with {
+                            systemStartDelimiter = #'SystemStartSquare
+                        } <<
                             \tag flutes
                             \context Staff = "Flute1MusicStaff" {
                                 \context Voice = "Flute1MusicVoice" {
@@ -101,8 +105,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                             }
                         >>
                     >>
-                    \context StaffGroup = "OboeSectionStaffGroup" <<
-                        \context StaffGroup = "OboeStaffGroup" <<
+                    \context StaffGroup = "OboeSectionStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
+                        \context StaffGroup = "OboeStaffGroup" \with {
+                            systemStartDelimiter = #'SystemStartSquare
+                        } <<
                             \tag oboes
                             \context Staff = "Oboe1MusicStaff" {
                                 \context Voice = "Oboe1MusicVoice" {
@@ -181,8 +189,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                             }
                         }
                     >>
-                    \context StaffGroup = "ClarinetSectionStaffGroup" <<
-                        \context StaffGroup = "ClarinetStaffGroup" <<
+                    \context StaffGroup = "ClarinetSectionStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
+                        \context StaffGroup = "ClarinetStaffGroup" \with {
+                            systemStartDelimiter = #'SystemStartSquare
+                        } <<
                             \tag clarinets
                             \context Staff = "Clarinet1MusicStaff" {
                                 \context Voice = "Clarinet1MusicVoice" {
@@ -261,7 +273,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                             }
                         }
                     >>
-                    \context StaffGroup = "BassoonSectionStaffGroup" <<
+                    \context StaffGroup = "BassoonSectionStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag bassoons
                         \context Staff = "Bassoon1MusicStaff" {
                             \context Voice = "Bassoon1MusicVoice" {
@@ -299,7 +313,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                     >>
                 >>
                 \context StaffGroup = "BrassSectionStaffGroup" <<
-                    \context StaffGroup = "HornSectionStaffGroup" <<
+                    \context StaffGroup = "HornSectionStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag horns
                         \context Staff = "Horn1MusicStaff" {
                             \context Voice = "Horn1MusicVoice" {
@@ -369,7 +385,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                             }
                         }
                     >>
-                    \context StaffGroup = "TrumpetSectionStaffGroup" <<
+                    \context StaffGroup = "TrumpetSectionStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag trumpets
                         \context Staff = "Trumpet1MusicStaff" {
                             \context Voice = "Trumpet1MusicVoice" {
@@ -439,7 +457,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                             }
                         }
                     >>
-                    \context StaffGroup = "TromboneSectionStaffGroup" <<
+                    \context StaffGroup = "TromboneSectionStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag trombones
                         \context Staff = "Trombone1MusicStaff" {
                             \context Voice = "Trombone1MusicVoice" {
@@ -527,16 +547,16 @@ class ScoreTemplate(baca.ScoreTemplate):
                         }
                     }
                 >>
-                \context StaffGroup = "PercussionSectionStaffGroup" <<
-                    \tag harp
-                    \context Staff = "HarpMusicStaff" {
-                        \context Voice = "HarpMusicVoice" {
-                            \set Staff.instrumentName = \markup {
+                \tag harp
+                \context PianoStaff = "HarpStaffGroup" <<
+                    \context Staff = "HarpRHMusicStaff" {
+                        \context Voice = "HarpRHMusicVoice" {
+                            \set PianoStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Harp
                                 }
-                            \set Staff.shortInstrumentName = \markup {
+                            \set PianoStaff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Hp.
@@ -545,15 +565,23 @@ class ScoreTemplate(baca.ScoreTemplate):
                             s1
                         }
                     }
-                    \tag piano
-                    \context Staff = "PianoMusicStaff" {
-                        \context Voice = "PianoMusicVoice" {
-                            \set Staff.instrumentName = \markup {
+                    \context Staff = "HarpLHMusicStaff" {
+                        \context Voice = "HarpLHMusicVoice" {
+                            \clef "treble"
+                            s1
+                        }
+                    }
+                >>
+                \tag piano
+                \context PianoStaff = "PianoStaffGroup" <<
+                    \context Staff = "PianoRHMusicStaff" {
+                        \context Voice = "PianoRHMusicVoice" {
+                            \set PianoStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Piano
                                 }
-                            \set Staff.shortInstrumentName = \markup {
+                            \set PianoStaff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Pf.
@@ -562,79 +590,87 @@ class ScoreTemplate(baca.ScoreTemplate):
                             s1
                         }
                     }
-                    \context StaffGroup = "PercussionStaffGroup" <<
-                        \tag percussion
-                        \context Staff = "Percussion1MusicStaff" {
-                            \context Voice = "Percussion1MusicVoice" {
-                                \set Staff.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        Percussion
-                                    }
-                                \set Staff.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        Perc.
-                                    }
-                                \clef "percussion"
-                                s1
-                            }
+                    \context Staff = "PianoLHMusicStaff" {
+                        \context Voice = "PianoLHMusicVoice" {
+                            \clef "treble"
+                            s1
                         }
-                        \tag percussion
-                        \context Staff = "Percussion2MusicStaff" {
-                            \context Voice = "Percussion2MusicVoice" {
-                                \set Staff.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        Percussion
-                                    }
-                                \set Staff.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        Perc.
-                                    }
-                                \clef "percussion"
-                                s1
-                            }
+                    }
+                >>
+                \context StaffGroup = "PercussionStaffGroup" <<
+                    \tag percussion
+                    \context Staff = "Percussion1MusicStaff" {
+                        \context Voice = "Percussion1MusicVoice" {
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Percussion
+                                }
+                            \set Staff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Perc.
+                                }
+                            \clef "percussion"
+                            s1
                         }
-                        \tag percussion
-                        \context Staff = "Percussion3MusicStaff" {
-                            \context Voice = "Percussion3MusicVoice" {
-                                \set Staff.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        Percussion
-                                    }
-                                \set Staff.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        Perc.
-                                    }
-                                \clef "percussion"
-                                s1
-                            }
+                    }
+                    \tag percussion
+                    \context Staff = "Percussion2MusicStaff" {
+                        \context Voice = "Percussion2MusicVoice" {
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Percussion
+                                }
+                            \set Staff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Perc.
+                                }
+                            \clef "percussion"
+                            s1
                         }
-                        \tag percussion
-                        \context Staff = "Percussion4MusicStaff" {
-                            \context Voice = "Percussion4MusicVoice" {
-                                \set Staff.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        Percussion
-                                    }
-                                \set Staff.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        Perc.
-                                    }
-                                \clef "percussion"
-                                s1
-                            }
+                    }
+                    \tag percussion
+                    \context Staff = "Percussion3MusicStaff" {
+                        \context Voice = "Percussion3MusicVoice" {
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Percussion
+                                }
+                            \set Staff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Perc.
+                                }
+                            \clef "percussion"
+                            s1
                         }
-                    >>
+                    }
+                    \tag percussion
+                    \context Staff = "Percussion4MusicStaff" {
+                        \context Voice = "Percussion4MusicVoice" {
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Percussion
+                                }
+                            \set Staff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Perc.
+                                }
+                            \clef "percussion"
+                            s1
+                        }
+                    }
                 >>
                 \context StaffGroup = "StringSectionStaffGroup" <<
-                    \context StaffGroup = "FirstViolinSectionStaffGroup" <<
+                    \context StaffGroup = "FirstViolinSectionStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag strings.first_violins
                         \context Staff = "FirstViolin1MusicStaff" {
                             \context Voice = "FirstViolin1MusicVoice" {
@@ -942,7 +978,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                             }
                         }
                     >>
-                    \context StaffGroup = "SecondViolinSectionStaffGroup" <<
+                    \context StaffGroup = "SecondViolinSectionStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag strings.second_violins
                         \context Staff = "SecondViolin1MusicStaff" {
                             \context Voice = "SecondViolin1MusicVoice" {
@@ -1250,7 +1288,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                             }
                         }
                     >>
-                    \context StaffGroup = "ViolaSectionStaffGroup" <<
+                    \context StaffGroup = "ViolaSectionStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag strings.violas
                         \context Staff = "Viola1MusicStaff" {
                             \context Voice = "Viola1MusicVoice" {
@@ -1558,7 +1598,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                             }
                         }
                     >>
-                    \context StaffGroup = "CelloSectionStaffGroup" <<
+                    \context StaffGroup = "CelloSectionStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag strings.cellos
                         \context Staff = "Cello1MusicStaff" {
                             \context Voice = "Cello1MusicVoice" {
@@ -1798,7 +1840,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                             }
                         }
                     >>
-                    \context StaffGroup = "ContrabassSectionStaffGroup" <<
+                    \context StaffGroup = "ContrabassSectionStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag strings.contrabasses
                         \context Staff = "Contrabass1MusicStaff" {
                             \context Voice = "Contrabass1MusicVoice" {
@@ -1976,6 +2020,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             flute_music_staves,
             name='FluteStaffGroup',
             )
+        self._set_square_delimiter(flute_staff_group)
 
         # FLUTE SECTION
         flute_section_staff_group = abjad.StaffGroup(
@@ -1985,6 +2030,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 ],
             name='FluteSectionStaffGroup',
             )
+        self._set_square_delimiter(flute_section_staff_group)
 
         # OBOES (3)
         oboe_music_staves = []
@@ -2004,6 +2050,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             oboe_music_staves,
             name='OboeStaffGroup',
             )
+        self._set_square_delimiter(oboe_staff_group)
 
         # ENGLISH HORN
         english_horn_music_staff = abjad.Staff(
@@ -2025,6 +2072,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 ],
             name='OboeSectionStaffGroup',
             )
+        self._set_square_delimiter(oboe_section_staff_group)
 
         # CLARINETS (3)
         clarinet_music_staves = []
@@ -2044,6 +2092,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             clarinet_music_staves,
             name='ClarinetStaffGroup',
             )
+        self._set_square_delimiter(clarinet_staff_group)
 
         # BASS CLARINET
         bass_clarinet_music_staff = abjad.Staff(
@@ -2065,6 +2114,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 ],
             name='ClarinetSectionStaffGroup',
             )
+        self._set_square_delimiter(clarinet_section_staff_group)
 
         # BASSOONS (2)
         bassoon_music_staves = []
@@ -2084,6 +2134,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             bassoon_music_staves,
             name='BassoonSectionStaffGroup',
             )
+        self._set_square_delimiter(bassoon_staff_group)
 
         # WIND SECTION
         wind_section_staff_group = abjad.StaffGroup(
@@ -2110,12 +2161,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                 )
             self._attach_tag('horns', staff)
             horn_music_staves.append(staff)
-
-        # HORN SECTION
         horn_section_staff_group = abjad.StaffGroup(
             horn_music_staves,
             name='HornSectionStaffGroup',
             )
+        self._set_square_delimiter(horn_section_staff_group)
 
         # TRUMPETS (4)
         trumpet_music_staves = []
@@ -2131,12 +2181,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                 )
             self._attach_tag('trumpets', staff)
             trumpet_music_staves.append(staff)
-
-        # TRUMPET SECTION
         trumpet_section_staff_group = abjad.StaffGroup(
             trumpet_music_staves,
             name='TrumpetSectionStaffGroup',
             )
+        self._set_square_delimiter(trumpet_section_staff_group)
 
         # TROMBONES (4)
         trombone_music_staves = []
@@ -2152,12 +2201,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                 )
             self._attach_tag('trombones', staff)
             trombone_music_staves.append(staff)
-
-        # TROMBONE SECTION
         trombone_section_staff_group = abjad.StaffGroup(
             trombone_music_staves,
             name='TromboneSectionStaffGroup',
             )
+        self._set_square_delimiter(trombone_section_staff_group)
 
         tuba_music_staff = abjad.Staff(
             [abjad.Voice(name='TubaMusicVoice')],
@@ -2182,28 +2230,46 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
 
         # HARP
-        harp_music_staff = abjad.Staff(
-            [abjad.Voice(name='HarpMusicVoice')],
-            name='HarpMusicStaff',
+        harp_rh_music_staff = abjad.Staff(
+            [abjad.Voice(name='HarpRHMusicVoice')],
+            name='HarpRHMusicStaff',
+            )
+        harp_lh_music_staff= abjad.Staff(
+            [abjad.Voice(name='HarpLHMusicVoice')],
+            name='HarpLHMusicStaff',
+            )
+        harp_staff_group = abjad.StaffGroup(
+            [harp_rh_music_staff, harp_lh_music_staff],
+            context_name='PianoStaff',
+            name='HarpStaffGroup',
             )
         abjad.annotate(
-            harp_music_staff,
+            harp_staff_group,
             'default_instrument',
             animales.instruments['harp'],
             )
-        self._attach_tag('harp', harp_music_staff)
+        self._attach_tag('harp', harp_staff_group)
 
         # PIANO
-        piano_music_staff = abjad.Staff(
-            [abjad.Voice(name='PianoMusicVoice')],
-            name='PianoMusicStaff',
+        piano_rh_music_staff = abjad.Staff(
+            [abjad.Voice(name='PianoRHMusicVoice')],
+            name='PianoRHMusicStaff',
+            )
+        piano_lh_music_staff = abjad.Staff(
+            [abjad.Voice(name='PianoLHMusicVoice')],
+            name='PianoLHMusicStaff',
+            )
+        piano_staff_group = abjad.StaffGroup(
+            [piano_rh_music_staff, piano_lh_music_staff],
+            context_name='PianoStaff',
+            name='PianoStaffGroup',
             )
         abjad.annotate(
-            piano_music_staff,
+            piano_staff_group,
             'default_instrument',
             animales.instruments['piano'],
             )
-        self._attach_tag('piano', piano_music_staff)
+        self._attach_tag('piano', piano_staff_group)
 
         # PERCUSSION (4)
         percussion_music_staves = []
@@ -2219,19 +2285,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                 )
             self._attach_tag('percussion', staff)
             percussion_music_staves.append(staff)
-        percussion_staff_group = abjad.StaffGroup(
+        percussion_section_staff_group = abjad.StaffGroup(
             percussion_music_staves,
             name='PercussionStaffGroup',
-            )
-
-        # PERCUSSION SECTION
-        percussion_section_staff_group = abjad.StaffGroup(
-            [
-                harp_music_staff,
-                piano_music_staff,
-                percussion_staff_group,
-                ],
-            name='PercussionSectionStaffGroup',
             )
 
         # FIRST VIOLINS (18)
@@ -2248,12 +2304,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                 )
             self._attach_tag('strings.first_violins', staff)
             first_violin_music_staves.append(staff)
-
-        # FIRST VIOLIN SECTION
         first_violin_section_staff_group = abjad.StaffGroup(
             first_violin_music_staves,
             name='FirstViolinSectionStaffGroup',
             )
+        self._set_square_delimiter(first_violin_section_staff_group)
 
         # SECOND VIOLINS (18)
         second_violin_music_staves = []
@@ -2269,12 +2324,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                 )
             self._attach_tag('strings.second_violins', staff)
             second_violin_music_staves.append(staff)
-
-        # SECOND VIOLIN SECTION
         second_violin_section_staff_group = abjad.StaffGroup(
             second_violin_music_staves,
             name='SecondViolinSectionStaffGroup',
             )
+        self._set_square_delimiter(second_violin_section_staff_group)
 
         # VIOLAS (18)
         viola_music_staves = []
@@ -2290,12 +2344,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                 )
             self._attach_tag('strings.violas', staff)
             viola_music_staves.append(staff)
-
-        # VIOLA SECTION
         viola_section_staff_group = abjad.StaffGroup(
             viola_music_staves,
             name='ViolaSectionStaffGroup',
             )
+        self._set_square_delimiter(viola_section_staff_group)
 
         # CELLOS (14)
         cello_music_staves = []
@@ -2311,12 +2364,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                 )
             self._attach_tag('strings.cellos', staff)
             cello_music_staves.append(staff)
-
-        # CELLO SECTION
         cello_section_staff_group = abjad.StaffGroup(
             cello_music_staves,
             name='CelloSectionStaffGroup',
             )
+        self._set_square_delimiter(cello_section_staff_group)
 
         # CONTRABASSES (6)
         contrabass_music_staves = []
@@ -2332,12 +2384,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                 )
             self._attach_tag('strings.contrabasses', staff)
             contrabass_music_staves.append(staff)
-
-        # CONTRABASS SECTION
         contrabass_section_staff_group = abjad.StaffGroup(
             contrabass_music_staves,
             name='ContrabassSectionStaffGroup',
             )
+        self._set_square_delimiter(contrabass_section_staff_group)
 
         # STRING SECTION
         string_section_staff_group = abjad.StaffGroup(
@@ -2356,6 +2407,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             [
                 wind_section_staff_group,
                 brass_section_staff_group,
+                harp_staff_group,
+                piano_staff_group,
                 percussion_section_staff_group,
                 string_section_staff_group,
                 ],

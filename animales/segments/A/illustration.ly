@@ -111,7 +111,9 @@
         >>
         \context MusicContext = "MusicContext" <<
             \context StaffGroup = "WindSectionStaffGroup" <<
-                \context StaffGroup = "FluteSectionStaffGroup" <<
+                \context StaffGroup = "FluteSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag piccolo
                     \context Staff = "PiccoloMusicStaff" {
                         \context Voice = "PiccoloMusicVoice" {
@@ -185,7 +187,9 @@
                             
                         }
                     }
-                    \context StaffGroup = "FluteStaffGroup" <<
+                    \context StaffGroup = "FluteStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag flutes
                         \context Staff = "Flute1MusicStaff" {
                             \context Voice = "Flute1MusicVoice" {
@@ -407,8 +411,12 @@
                         }
                     >>
                 >>
-                \context StaffGroup = "OboeSectionStaffGroup" <<
-                    \context StaffGroup = "OboeStaffGroup" <<
+                \context StaffGroup = "OboeSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
+                    \context StaffGroup = "OboeStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag oboes
                         \context Staff = "Oboe1MusicStaff" {
                             \context Voice = "Oboe1MusicVoice" {
@@ -719,8 +727,12 @@
                         }
                     }
                 >>
-                \context StaffGroup = "ClarinetSectionStaffGroup" <<
-                    \context StaffGroup = "ClarinetStaffGroup" <<
+                \context StaffGroup = "ClarinetSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
+                    \context StaffGroup = "ClarinetStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag clarinets
                         \context Staff = "Clarinet1MusicStaff" {
                             \context Voice = "Clarinet1MusicVoice" {
@@ -1031,7 +1043,9 @@
                         }
                     }
                 >>
-                \context StaffGroup = "BassoonSectionStaffGroup" <<
+                \context StaffGroup = "BassoonSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag bassoons
                     \context Staff = "Bassoon1MusicStaff" {
                         \context Voice = "Bassoon1MusicVoice" {
@@ -1181,7 +1195,9 @@
                 >>
             >>
             \context StaffGroup = "BrassSectionStaffGroup" <<
-                \context StaffGroup = "HornSectionStaffGroup" <<
+                \context StaffGroup = "HornSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag horns
                     \context Staff = "Horn1MusicStaff" {
                         \context Voice = "Horn1MusicVoice" {
@@ -1475,7 +1491,9 @@
                         }
                     }
                 >>
-                \context StaffGroup = "TrumpetSectionStaffGroup" <<
+                \context StaffGroup = "TrumpetSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag trumpets
                     \context Staff = "Trumpet1MusicStaff" {
                         \context Voice = "Trumpet1MusicVoice" {
@@ -1769,7 +1787,9 @@
                         }
                     }
                 >>
-                \context StaffGroup = "TromboneSectionStaffGroup" <<
+                \context StaffGroup = "TromboneSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag trombones
                     \context Staff = "Trombone1MusicStaff" {
                         \context Voice = "Trombone1MusicVoice" {
@@ -2137,24 +2157,24 @@
                     }
                 }
             >>
-            \context StaffGroup = "PercussionSectionStaffGroup" <<
-                \tag harp
-                \context Staff = "HarpMusicStaff" {
-                    \context Voice = "HarpMusicVoice" {
+            \tag harp
+            \context PianoStaff = "HarpStaffGroup" <<
+                \context Staff = "HarpRHMusicStaff" {
+                    \context Voice = "HarpRHMusicVoice" {
                         
-                        %%% HarpMusicVoice [measure 9] %%%
-                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
+                        %%% HarpRHMusicVoice [measure 9] %%%
+                        \set PianoStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
                             \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 Harp %! REAPPLIED_INSTRUMENT_COMMAND:2
                             } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
+                        \set PianoStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
                             \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 Hp. %! REAPPLIED_INSTRUMENT_COMMAND:2
                             } %! REAPPLIED_INSTRUMENT_COMMAND:2
                         \clef "treble" %! REAPPLIED_CLEF_COMMAND:10
-                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
+                        \once \override PianoStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                         \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
                         %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
                         \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
@@ -2180,54 +2200,85 @@
                                         } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
                                 }
                             }
-                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                        \set PianoStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 Harp %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                        \set PianoStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 Hp. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                        \override PianoStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
                         \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
                         
-                        %%% HarpMusicVoice [measure 10] %%%
+                        %%% HarpRHMusicVoice [measure 10] %%%
                         R1 * 1
                         
-                        %%% HarpMusicVoice [measure 11] %%%
+                        %%% HarpRHMusicVoice [measure 11] %%%
                         R1 * 1/2
                         
-                        %%% HarpMusicVoice [measure 12] %%%
+                        %%% HarpRHMusicVoice [measure 12] %%%
                         R1 * 3/4
                         
-                        %%% HarpMusicVoice [measure 13] %%%
+                        %%% HarpRHMusicVoice [measure 13] %%%
                         R1 * 3/4
                         
-                        %%% HarpMusicVoice [measure 14] %%%
+                        %%% HarpRHMusicVoice [measure 14] %%%
                         R1 * 1
                         \bar "|."
                         
                     }
                 }
-                \tag piano
-                \context Staff = "PianoMusicStaff" {
-                    \context Voice = "PianoMusicVoice" {
+                \context Staff = "HarpLHMusicStaff" {
+                    \context Voice = "HarpLHMusicVoice" {
                         
-                        %%% PianoMusicVoice [measure 9] %%%
-                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
+                        %%% HarpLHMusicVoice [measure 9] %%%
+                        \clef "treble" %! REAPPLIED_CLEF_COMMAND:4
+                        \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                        %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
+                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:3
+                        R1 * 1
+                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:5
+                        
+                        %%% HarpLHMusicVoice [measure 10] %%%
+                        R1 * 1
+                        
+                        %%% HarpLHMusicVoice [measure 11] %%%
+                        R1 * 1/2
+                        
+                        %%% HarpLHMusicVoice [measure 12] %%%
+                        R1 * 3/4
+                        
+                        %%% HarpLHMusicVoice [measure 13] %%%
+                        R1 * 3/4
+                        
+                        %%% HarpLHMusicVoice [measure 14] %%%
+                        R1 * 1
+                        \bar "|."
+                        
+                    }
+                }
+            >>
+            \tag piano
+            \context PianoStaff = "PianoStaffGroup" <<
+                \context Staff = "PianoRHMusicStaff" {
+                    \context Voice = "PianoRHMusicVoice" {
+                        
+                        %%% PianoRHMusicVoice [measure 9] %%%
+                        \set PianoStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
                             \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 Piano %! REAPPLIED_INSTRUMENT_COMMAND:2
                             } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
+                        \set PianoStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
                             \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 Pf. %! REAPPLIED_INSTRUMENT_COMMAND:2
                             } %! REAPPLIED_INSTRUMENT_COMMAND:2
                         \clef "treble" %! REAPPLIED_CLEF_COMMAND:10
-                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
+                        \once \override PianoStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                         \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
                         %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
                         \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
@@ -2253,334 +2304,365 @@
                                         } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
                                 }
                             }
-                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                        \set PianoStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 Piano %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                        \set PianoStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 Pf. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                        \override PianoStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
                         \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
                         
-                        %%% PianoMusicVoice [measure 10] %%%
+                        %%% PianoRHMusicVoice [measure 10] %%%
                         R1 * 1
                         
-                        %%% PianoMusicVoice [measure 11] %%%
+                        %%% PianoRHMusicVoice [measure 11] %%%
                         R1 * 1/2
                         
-                        %%% PianoMusicVoice [measure 12] %%%
+                        %%% PianoRHMusicVoice [measure 12] %%%
                         R1 * 3/4
                         
-                        %%% PianoMusicVoice [measure 13] %%%
+                        %%% PianoRHMusicVoice [measure 13] %%%
                         R1 * 3/4
                         
-                        %%% PianoMusicVoice [measure 14] %%%
+                        %%% PianoRHMusicVoice [measure 14] %%%
                         R1 * 1
                         \bar "|."
                         
                     }
                 }
-                \context StaffGroup = "PercussionStaffGroup" <<
-                    \tag percussion
-                    \context Staff = "Percussion1MusicStaff" {
-                        \context Voice = "Percussion1MusicVoice" {
-                            
-                            %%% Percussion1MusicVoice [measure 9] %%%
-                            \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    Percussion %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    Perc. %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \clef "percussion" %! REAPPLIED_CLEF_COMMAND:10
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
-                            %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
-                            \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
-                            R1 * 1
-                            ^ \markup {
-                                \column
-                                    {
-                                        %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%                 percussion %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                    \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                        \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                            percussion %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                    }
-                                }
-                            \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    Percussion %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                            \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    Perc. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
-                            
-                            %%% Percussion1MusicVoice [measure 10] %%%
-                            R1 * 1
-                            
-                            %%% Percussion1MusicVoice [measure 11] %%%
-                            R1 * 1/2
-                            
-                            %%% Percussion1MusicVoice [measure 12] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion1MusicVoice [measure 13] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion1MusicVoice [measure 14] %%%
-                            R1 * 1
-                            \bar "|."
-                            
-                        }
+                \context Staff = "PianoLHMusicStaff" {
+                    \context Voice = "PianoLHMusicVoice" {
+                        
+                        %%% PianoLHMusicVoice [measure 9] %%%
+                        \clef "treble" %! REAPPLIED_CLEF_COMMAND:4
+                        \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                        %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
+                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:3
+                        R1 * 1
+                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:5
+                        
+                        %%% PianoLHMusicVoice [measure 10] %%%
+                        R1 * 1
+                        
+                        %%% PianoLHMusicVoice [measure 11] %%%
+                        R1 * 1/2
+                        
+                        %%% PianoLHMusicVoice [measure 12] %%%
+                        R1 * 3/4
+                        
+                        %%% PianoLHMusicVoice [measure 13] %%%
+                        R1 * 3/4
+                        
+                        %%% PianoLHMusicVoice [measure 14] %%%
+                        R1 * 1
+                        \bar "|."
+                        
                     }
-                    \tag percussion
-                    \context Staff = "Percussion2MusicStaff" {
-                        \context Voice = "Percussion2MusicVoice" {
-                            
-                            %%% Percussion2MusicVoice [measure 9] %%%
-                            \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    Percussion %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    Perc. %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \clef "percussion" %! REAPPLIED_CLEF_COMMAND:10
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
-                            %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
-                            \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
-                            R1 * 1
-                            ^ \markup {
-                                \column
-                                    {
-                                        %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%                 percussion %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                    \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                        \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                            percussion %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                    }
+                }
+            >>
+            \context StaffGroup = "PercussionStaffGroup" <<
+                \tag percussion
+                \context Staff = "Percussion1MusicStaff" {
+                    \context Voice = "Percussion1MusicVoice" {
+                        
+                        %%% Percussion1MusicVoice [measure 9] %%%
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                Percussion %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                Perc. %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
+                        \clef "percussion" %! REAPPLIED_CLEF_COMMAND:10
+                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
+                        \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
+                        %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
+                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
+                        R1 * 1
+                        ^ \markup {
+                            \column
+                                {
+                                    %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%                 percussion %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                        { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                            \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                    #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                    \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                        percussion %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                        } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
                                 }
-                            \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    Percussion %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                            \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    Perc. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
-                            
-                            %%% Percussion2MusicVoice [measure 10] %%%
-                            R1 * 1
-                            
-                            %%% Percussion2MusicVoice [measure 11] %%%
-                            R1 * 1/2
-                            
-                            %%% Percussion2MusicVoice [measure 12] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion2MusicVoice [measure 13] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion2MusicVoice [measure 14] %%%
-                            R1 * 1
-                            \bar "|."
-                            
-                        }
+                            }
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                Percussion %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                Perc. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
+                        
+                        %%% Percussion1MusicVoice [measure 10] %%%
+                        R1 * 1
+                        
+                        %%% Percussion1MusicVoice [measure 11] %%%
+                        R1 * 1/2
+                        
+                        %%% Percussion1MusicVoice [measure 12] %%%
+                        R1 * 3/4
+                        
+                        %%% Percussion1MusicVoice [measure 13] %%%
+                        R1 * 3/4
+                        
+                        %%% Percussion1MusicVoice [measure 14] %%%
+                        R1 * 1
+                        \bar "|."
+                        
                     }
-                    \tag percussion
-                    \context Staff = "Percussion3MusicStaff" {
-                        \context Voice = "Percussion3MusicVoice" {
-                            
-                            %%% Percussion3MusicVoice [measure 9] %%%
-                            \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    Percussion %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    Perc. %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \clef "percussion" %! REAPPLIED_CLEF_COMMAND:10
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
-                            %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
-                            \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
-                            R1 * 1
-                            ^ \markup {
-                                \column
-                                    {
-                                        %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%                 percussion %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                    \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                        \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                            percussion %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                    }
+                }
+                \tag percussion
+                \context Staff = "Percussion2MusicStaff" {
+                    \context Voice = "Percussion2MusicVoice" {
+                        
+                        %%% Percussion2MusicVoice [measure 9] %%%
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                Percussion %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                Perc. %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
+                        \clef "percussion" %! REAPPLIED_CLEF_COMMAND:10
+                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
+                        \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
+                        %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
+                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
+                        R1 * 1
+                        ^ \markup {
+                            \column
+                                {
+                                    %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%                 percussion %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                        { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                            \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                    #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                    \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                        percussion %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                        } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
                                 }
-                            \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    Percussion %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                            \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    Perc. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
-                            
-                            %%% Percussion3MusicVoice [measure 10] %%%
-                            R1 * 1
-                            
-                            %%% Percussion3MusicVoice [measure 11] %%%
-                            R1 * 1/2
-                            
-                            %%% Percussion3MusicVoice [measure 12] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion3MusicVoice [measure 13] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion3MusicVoice [measure 14] %%%
-                            R1 * 1
-                            \bar "|."
-                            
-                        }
+                            }
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                Percussion %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                Perc. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
+                        
+                        %%% Percussion2MusicVoice [measure 10] %%%
+                        R1 * 1
+                        
+                        %%% Percussion2MusicVoice [measure 11] %%%
+                        R1 * 1/2
+                        
+                        %%% Percussion2MusicVoice [measure 12] %%%
+                        R1 * 3/4
+                        
+                        %%% Percussion2MusicVoice [measure 13] %%%
+                        R1 * 3/4
+                        
+                        %%% Percussion2MusicVoice [measure 14] %%%
+                        R1 * 1
+                        \bar "|."
+                        
                     }
-                    \tag percussion
-                    \context Staff = "Percussion4MusicStaff" {
-                        \context Voice = "Percussion4MusicVoice" {
-                            
-                            %%% Percussion4MusicVoice [measure 9] %%%
-                            \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    Percussion %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                    Perc. %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \clef "percussion" %! REAPPLIED_CLEF_COMMAND:10
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
-                            %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
-                            \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
-                            R1 * 1
-                            ^ \markup {
-                                \column
-                                    {
-                                        %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%                 percussion %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
-                                        \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                    \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                        \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                            percussion %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                    }
+                }
+                \tag percussion
+                \context Staff = "Percussion3MusicStaff" {
+                    \context Voice = "Percussion3MusicVoice" {
+                        
+                        %%% Percussion3MusicVoice [measure 9] %%%
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                Percussion %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                Perc. %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
+                        \clef "percussion" %! REAPPLIED_CLEF_COMMAND:10
+                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
+                        \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
+                        %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
+                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
+                        R1 * 1
+                        ^ \markup {
+                            \column
+                                {
+                                    %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%                 percussion %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                        { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                            \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                    #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                    \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                        percussion %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                        } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
                                 }
-                            \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    Percussion %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                            \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                    Perc. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
-                            
-                            %%% Percussion4MusicVoice [measure 10] %%%
-                            R1 * 1
-                            
-                            %%% Percussion4MusicVoice [measure 11] %%%
-                            R1 * 1/2
-                            
-                            %%% Percussion4MusicVoice [measure 12] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion4MusicVoice [measure 13] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion4MusicVoice [measure 14] %%%
-                            R1 * 1
-                            \bar "|."
-                            
-                        }
+                            }
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                Percussion %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                Perc. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
+                        
+                        %%% Percussion3MusicVoice [measure 10] %%%
+                        R1 * 1
+                        
+                        %%% Percussion3MusicVoice [measure 11] %%%
+                        R1 * 1/2
+                        
+                        %%% Percussion3MusicVoice [measure 12] %%%
+                        R1 * 3/4
+                        
+                        %%% Percussion3MusicVoice [measure 13] %%%
+                        R1 * 3/4
+                        
+                        %%% Percussion3MusicVoice [measure 14] %%%
+                        R1 * 1
+                        \bar "|."
+                        
                     }
-                >>
+                }
+                \tag percussion
+                \context Staff = "Percussion4MusicStaff" {
+                    \context Voice = "Percussion4MusicVoice" {
+                        
+                        %%% Percussion4MusicVoice [measure 9] %%%
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                Percussion %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                Perc. %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
+                        \clef "percussion" %! REAPPLIED_CLEF_COMMAND:10
+                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
+                        \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
+                        %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
+                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
+                        R1 * 1
+                        ^ \markup {
+                            \column
+                                {
+                                    %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%                 percussion %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:5
+                                    \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                        { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                            \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                    #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                    \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                                        percussion %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                        } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                }
+                            }
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                Percussion %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                                Perc. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
+                        
+                        %%% Percussion4MusicVoice [measure 10] %%%
+                        R1 * 1
+                        
+                        %%% Percussion4MusicVoice [measure 11] %%%
+                        R1 * 1/2
+                        
+                        %%% Percussion4MusicVoice [measure 12] %%%
+                        R1 * 3/4
+                        
+                        %%% Percussion4MusicVoice [measure 13] %%%
+                        R1 * 3/4
+                        
+                        %%% Percussion4MusicVoice [measure 14] %%%
+                        R1 * 1
+                        \bar "|."
+                        
+                    }
+                }
             >>
             \context StaffGroup = "StringSectionStaffGroup" <<
-                \context StaffGroup = "FirstViolinSectionStaffGroup" <<
+                \context StaffGroup = "FirstViolinSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag strings.first_violins
                     \context Staff = "FirstViolin1MusicStaff" {
                         \context Voice = "FirstViolin1MusicVoice" {
@@ -4043,7 +4125,9 @@
                         }
                     }
                 >>
-                \context StaffGroup = "SecondViolinSectionStaffGroup" <<
+                \context StaffGroup = "SecondViolinSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag strings.second_violins
                     \context Staff = "SecondViolin1MusicStaff" {
                         \context Voice = "SecondViolin1MusicVoice" {
@@ -5359,7 +5443,9 @@
                         }
                     }
                 >>
-                \context StaffGroup = "ViolaSectionStaffGroup" <<
+                \context StaffGroup = "ViolaSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag strings.violas
                     \context Staff = "Viola1MusicStaff" {
                         \context Voice = "Viola1MusicVoice" {
@@ -6675,7 +6761,9 @@
                         }
                     }
                 >>
-                \context StaffGroup = "CelloSectionStaffGroup" <<
+                \context StaffGroup = "CelloSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag strings.cellos
                     \context Staff = "Cello1MusicStaff" {
                         \context Voice = "Cello1MusicVoice" {
@@ -7699,7 +7787,9 @@
                         }
                     }
                 >>
-                \context StaffGroup = "ContrabassSectionStaffGroup" <<
+                \context StaffGroup = "ContrabassSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag strings.contrabasses
                     \context Staff = "Contrabass1MusicStaff" {
                         \context Voice = "Contrabass1MusicVoice" {

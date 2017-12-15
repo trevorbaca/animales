@@ -120,7 +120,9 @@
         >>
         \context MusicContext = "MusicContext" <<
             \context StaffGroup = "WindSectionStaffGroup" <<
-                \context StaffGroup = "FluteSectionStaffGroup" <<
+                \context StaffGroup = "FluteSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag piccolo
                     \context Staff = "PiccoloMusicStaff" {
                         \context Voice = "PiccoloMusicVoice" {
@@ -179,12 +181,19 @@
                             
                         }
                     }
-                    \context StaffGroup = "FluteStaffGroup" <<
+                    \context StaffGroup = "FluteStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag flutes
                         \context Staff = "Flute1MusicStaff" {
                             \context Voice = "Flute1MusicVoice" {
                                 
                                 %%% Flute1MusicVoice [measure 1] %%%
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
                                 \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                         #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -200,7 +209,7 @@
                                 \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
                                 %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
                                 \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:7
-                                R1 * 1
+                                c'4
                                 \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                     \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                         #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
@@ -214,26 +223,228 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                                 \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                                 
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
                                 %%% Flute1MusicVoice [measure 2] %%%
-                                R1 * 1
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
                                 
                                 %%% Flute1MusicVoice [measure 3] %%%
-                                R1 * 1
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
                                 
                                 %%% Flute1MusicVoice [measure 4] %%%
-                                R1 * 3/4
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
                                 
                                 %%% Flute1MusicVoice [measure 5] %%%
-                                R1 * 3/4
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
                                 
                                 %%% Flute1MusicVoice [measure 6] %%%
-                                R1 * 1
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
                                 
                                 %%% Flute1MusicVoice [measure 7] %%%
-                                R1 * 1
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
                                 
                                 %%% Flute1MusicVoice [measure 8] %%%
-                                R1 * 1/2
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
+                                
+                                \once \override Beam.color = #blue
+                                \once \override Dots.color = #blue
+                                \once \override Flag.color = #blue
+                                \once \override NoteHead.color = #blue
+                                \once \override Stem.color = #blue
+                                c'4
+                                \repeatTie
                                 \bar "|"
                                 
                             }
@@ -356,8 +567,12 @@
                         }
                     >>
                 >>
-                \context StaffGroup = "OboeSectionStaffGroup" <<
-                    \context StaffGroup = "OboeStaffGroup" <<
+                \context StaffGroup = "OboeSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
+                    \context StaffGroup = "OboeStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag oboes
                         \context Staff = "Oboe1MusicStaff" {
                             \context Voice = "Oboe1MusicVoice" {
@@ -608,8 +823,12 @@
                         }
                     }
                 >>
-                \context StaffGroup = "ClarinetSectionStaffGroup" <<
-                    \context StaffGroup = "ClarinetStaffGroup" <<
+                \context StaffGroup = "ClarinetSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
+                    \context StaffGroup = "ClarinetStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
                         \tag clarinets
                         \context Staff = "Clarinet1MusicStaff" {
                             \context Voice = "Clarinet1MusicVoice" {
@@ -860,7 +1079,9 @@
                         }
                     }
                 >>
-                \context StaffGroup = "BassoonSectionStaffGroup" <<
+                \context StaffGroup = "BassoonSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag bassoons
                     \context Staff = "Bassoon1MusicStaff" {
                         \context Voice = "Bassoon1MusicVoice" {
@@ -980,7 +1201,9 @@
                 >>
             >>
             \context StaffGroup = "BrassSectionStaffGroup" <<
-                \context StaffGroup = "HornSectionStaffGroup" <<
+                \context StaffGroup = "HornSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag horns
                     \context Staff = "Horn1MusicStaff" {
                         \context Voice = "Horn1MusicVoice" {
@@ -1214,7 +1437,9 @@
                         }
                     }
                 >>
-                \context StaffGroup = "TrumpetSectionStaffGroup" <<
+                \context StaffGroup = "TrumpetSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag trumpets
                     \context Staff = "Trumpet1MusicStaff" {
                         \context Voice = "Trumpet1MusicVoice" {
@@ -1448,7 +1673,9 @@
                         }
                     }
                 >>
-                \context StaffGroup = "TromboneSectionStaffGroup" <<
+                \context StaffGroup = "TromboneSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag trombones
                     \context Staff = "Trombone1MusicStaff" {
                         \context Voice = "Trombone1MusicVoice" {
@@ -1741,81 +1968,213 @@
                     }
                 }
             >>
-            \context StaffGroup = "PercussionSectionStaffGroup" <<
-                \tag harp
-                \context Staff = "HarpMusicStaff" {
-                    \context Voice = "HarpMusicVoice" {
+            \tag harp
+            \context PianoStaff = "HarpStaffGroup" <<
+                \context Staff = "HarpRHMusicStaff" {
+                    \context Voice = "HarpRHMusicVoice" {
                         
-                        %%% HarpMusicVoice [measure 1] %%%
-                        \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        %%% HarpRHMusicVoice [measure 1] %%%
+                        \set PianoStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                             \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 Harp %! EXPLICIT_INSTRUMENT_COMMAND:2
                             } %! EXPLICIT_INSTRUMENT_COMMAND:2
-                        \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \set PianoStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                             \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 Hp. %! EXPLICIT_INSTRUMENT_COMMAND:2
                             } %! EXPLICIT_INSTRUMENT_COMMAND:2
                         \clef "treble" %! EXPLICIT_CLEF_COMMAND:8
-                        \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
+                        \once \override PianoStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
                         \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:7
                         R1 * 1
-                        \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                        \set PianoStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                 #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                 Harp %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                        \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                        \set PianoStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                 #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                 Hp. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                        \override PianoStaff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                         \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                         
-                        %%% HarpMusicVoice [measure 2] %%%
+                        %%% HarpRHMusicVoice [measure 2] %%%
                         R1 * 1
                         
-                        %%% HarpMusicVoice [measure 3] %%%
+                        %%% HarpRHMusicVoice [measure 3] %%%
                         R1 * 1
                         
-                        %%% HarpMusicVoice [measure 4] %%%
+                        %%% HarpRHMusicVoice [measure 4] %%%
                         R1 * 3/4
                         
-                        %%% HarpMusicVoice [measure 5] %%%
+                        %%% HarpRHMusicVoice [measure 5] %%%
                         R1 * 3/4
                         
-                        %%% HarpMusicVoice [measure 6] %%%
+                        %%% HarpRHMusicVoice [measure 6] %%%
                         R1 * 1
                         
-                        %%% HarpMusicVoice [measure 7] %%%
+                        %%% HarpRHMusicVoice [measure 7] %%%
                         R1 * 1
                         
-                        %%% HarpMusicVoice [measure 8] %%%
+                        %%% HarpRHMusicVoice [measure 8] %%%
                         R1 * 1/2
                         \bar "|"
                         
                     }
                 }
-                \tag piano
-                \context Staff = "PianoMusicStaff" {
-                    \context Voice = "PianoMusicVoice" {
+                \context Staff = "HarpLHMusicStaff" {
+                    \context Voice = "HarpLHMusicVoice" {
                         
-                        %%% PianoMusicVoice [measure 1] %%%
-                        \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        %%% HarpLHMusicVoice [measure 1] %%%
+                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
+                        \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                        %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                        R1 * 1
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
+                        
+                        %%% HarpLHMusicVoice [measure 2] %%%
+                        R1 * 1
+                        
+                        %%% HarpLHMusicVoice [measure 3] %%%
+                        R1 * 1
+                        
+                        %%% HarpLHMusicVoice [measure 4] %%%
+                        R1 * 3/4
+                        
+                        %%% HarpLHMusicVoice [measure 5] %%%
+                        R1 * 3/4
+                        
+                        %%% HarpLHMusicVoice [measure 6] %%%
+                        R1 * 1
+                        
+                        %%% HarpLHMusicVoice [measure 7] %%%
+                        R1 * 1
+                        
+                        %%% HarpLHMusicVoice [measure 8] %%%
+                        R1 * 1/2
+                        \bar "|"
+                        
+                    }
+                }
+            >>
+            \tag piano
+            \context PianoStaff = "PianoStaffGroup" <<
+                \context Staff = "PianoRHMusicStaff" {
+                    \context Voice = "PianoRHMusicVoice" {
+                        
+                        %%% PianoRHMusicVoice [measure 1] %%%
+                        \set PianoStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                             \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 Piano %! EXPLICIT_INSTRUMENT_COMMAND:2
                             } %! EXPLICIT_INSTRUMENT_COMMAND:2
-                        \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \set PianoStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                             \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 Pf. %! EXPLICIT_INSTRUMENT_COMMAND:2
                             } %! EXPLICIT_INSTRUMENT_COMMAND:2
                         \clef "treble" %! EXPLICIT_CLEF_COMMAND:8
+                        \once \override PianoStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
+                        \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
+                        %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:7
+                        R1 * 1
+                        \set PianoStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                Piano %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                        \set PianoStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                Pf. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                        \override PianoStaff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
+                        
+                        %%% PianoRHMusicVoice [measure 2] %%%
+                        R1 * 1
+                        
+                        %%% PianoRHMusicVoice [measure 3] %%%
+                        R1 * 1
+                        
+                        %%% PianoRHMusicVoice [measure 4] %%%
+                        R1 * 3/4
+                        
+                        %%% PianoRHMusicVoice [measure 5] %%%
+                        R1 * 3/4
+                        
+                        %%% PianoRHMusicVoice [measure 6] %%%
+                        R1 * 1
+                        
+                        %%% PianoRHMusicVoice [measure 7] %%%
+                        R1 * 1
+                        
+                        %%% PianoRHMusicVoice [measure 8] %%%
+                        R1 * 1/2
+                        \bar "|"
+                        
+                    }
+                }
+                \context Staff = "PianoLHMusicStaff" {
+                    \context Voice = "PianoLHMusicVoice" {
+                        
+                        %%% PianoLHMusicVoice [measure 1] %%%
+                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
+                        \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                        %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                        R1 * 1
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
+                        
+                        %%% PianoLHMusicVoice [measure 2] %%%
+                        R1 * 1
+                        
+                        %%% PianoLHMusicVoice [measure 3] %%%
+                        R1 * 1
+                        
+                        %%% PianoLHMusicVoice [measure 4] %%%
+                        R1 * 3/4
+                        
+                        %%% PianoLHMusicVoice [measure 5] %%%
+                        R1 * 3/4
+                        
+                        %%% PianoLHMusicVoice [measure 6] %%%
+                        R1 * 1
+                        
+                        %%% PianoLHMusicVoice [measure 7] %%%
+                        R1 * 1
+                        
+                        %%% PianoLHMusicVoice [measure 8] %%%
+                        R1 * 1/2
+                        \bar "|"
+                        
+                    }
+                }
+            >>
+            \context StaffGroup = "PercussionStaffGroup" <<
+                \tag percussion
+                \context Staff = "Percussion1MusicStaff" {
+                    \context Voice = "Percussion1MusicVoice" {
+                        
+                        %%% Percussion1MusicVoice [measure 1] %%%
+                        \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                Percussion %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                Perc. %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \clef "percussion" %! EXPLICIT_CLEF_COMMAND:8
                         \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
@@ -1824,287 +2183,224 @@
                         \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                 #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                Piano %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                Percussion %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                 #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                Pf. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                Perc. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                         \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                         
-                        %%% PianoMusicVoice [measure 2] %%%
+                        %%% Percussion1MusicVoice [measure 2] %%%
                         R1 * 1
                         
-                        %%% PianoMusicVoice [measure 3] %%%
+                        %%% Percussion1MusicVoice [measure 3] %%%
                         R1 * 1
                         
-                        %%% PianoMusicVoice [measure 4] %%%
+                        %%% Percussion1MusicVoice [measure 4] %%%
                         R1 * 3/4
                         
-                        %%% PianoMusicVoice [measure 5] %%%
+                        %%% Percussion1MusicVoice [measure 5] %%%
                         R1 * 3/4
                         
-                        %%% PianoMusicVoice [measure 6] %%%
+                        %%% Percussion1MusicVoice [measure 6] %%%
                         R1 * 1
                         
-                        %%% PianoMusicVoice [measure 7] %%%
+                        %%% Percussion1MusicVoice [measure 7] %%%
                         R1 * 1
                         
-                        %%% PianoMusicVoice [measure 8] %%%
+                        %%% Percussion1MusicVoice [measure 8] %%%
                         R1 * 1/2
                         \bar "|"
                         
                     }
                 }
-                \context StaffGroup = "PercussionStaffGroup" <<
-                    \tag percussion
-                    \context Staff = "Percussion1MusicStaff" {
-                        \context Voice = "Percussion1MusicVoice" {
-                            
-                            %%% Percussion1MusicVoice [measure 1] %%%
-                            \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    Percussion %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                } %! EXPLICIT_INSTRUMENT_COMMAND:2
-                            \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    Perc. %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                } %! EXPLICIT_INSTRUMENT_COMMAND:2
-                            \clef "percussion" %! EXPLICIT_CLEF_COMMAND:8
-                            \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
-                            \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
-                            %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
-                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:7
-                            R1 * 1
-                            \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    Percussion %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                            \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    Perc. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
-                            
-                            %%% Percussion1MusicVoice [measure 2] %%%
-                            R1 * 1
-                            
-                            %%% Percussion1MusicVoice [measure 3] %%%
-                            R1 * 1
-                            
-                            %%% Percussion1MusicVoice [measure 4] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion1MusicVoice [measure 5] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion1MusicVoice [measure 6] %%%
-                            R1 * 1
-                            
-                            %%% Percussion1MusicVoice [measure 7] %%%
-                            R1 * 1
-                            
-                            %%% Percussion1MusicVoice [measure 8] %%%
-                            R1 * 1/2
-                            \bar "|"
-                            
-                        }
+                \tag percussion
+                \context Staff = "Percussion2MusicStaff" {
+                    \context Voice = "Percussion2MusicVoice" {
+                        
+                        %%% Percussion2MusicVoice [measure 1] %%%
+                        \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                Percussion %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                Perc. %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \clef "percussion" %! EXPLICIT_CLEF_COMMAND:8
+                        \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
+                        \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
+                        %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:7
+                        R1 * 1
+                        \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                Percussion %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                        \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                Perc. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
+                        
+                        %%% Percussion2MusicVoice [measure 2] %%%
+                        R1 * 1
+                        
+                        %%% Percussion2MusicVoice [measure 3] %%%
+                        R1 * 1
+                        
+                        %%% Percussion2MusicVoice [measure 4] %%%
+                        R1 * 3/4
+                        
+                        %%% Percussion2MusicVoice [measure 5] %%%
+                        R1 * 3/4
+                        
+                        %%% Percussion2MusicVoice [measure 6] %%%
+                        R1 * 1
+                        
+                        %%% Percussion2MusicVoice [measure 7] %%%
+                        R1 * 1
+                        
+                        %%% Percussion2MusicVoice [measure 8] %%%
+                        R1 * 1/2
+                        \bar "|"
+                        
                     }
-                    \tag percussion
-                    \context Staff = "Percussion2MusicStaff" {
-                        \context Voice = "Percussion2MusicVoice" {
-                            
-                            %%% Percussion2MusicVoice [measure 1] %%%
-                            \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    Percussion %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                } %! EXPLICIT_INSTRUMENT_COMMAND:2
-                            \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    Perc. %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                } %! EXPLICIT_INSTRUMENT_COMMAND:2
-                            \clef "percussion" %! EXPLICIT_CLEF_COMMAND:8
-                            \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
-                            \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
-                            %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
-                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:7
-                            R1 * 1
-                            \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    Percussion %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                            \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    Perc. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
-                            
-                            %%% Percussion2MusicVoice [measure 2] %%%
-                            R1 * 1
-                            
-                            %%% Percussion2MusicVoice [measure 3] %%%
-                            R1 * 1
-                            
-                            %%% Percussion2MusicVoice [measure 4] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion2MusicVoice [measure 5] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion2MusicVoice [measure 6] %%%
-                            R1 * 1
-                            
-                            %%% Percussion2MusicVoice [measure 7] %%%
-                            R1 * 1
-                            
-                            %%% Percussion2MusicVoice [measure 8] %%%
-                            R1 * 1/2
-                            \bar "|"
-                            
-                        }
+                }
+                \tag percussion
+                \context Staff = "Percussion3MusicStaff" {
+                    \context Voice = "Percussion3MusicVoice" {
+                        
+                        %%% Percussion3MusicVoice [measure 1] %%%
+                        \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                Percussion %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                Perc. %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \clef "percussion" %! EXPLICIT_CLEF_COMMAND:8
+                        \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
+                        \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
+                        %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:7
+                        R1 * 1
+                        \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                Percussion %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                        \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                Perc. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
+                        
+                        %%% Percussion3MusicVoice [measure 2] %%%
+                        R1 * 1
+                        
+                        %%% Percussion3MusicVoice [measure 3] %%%
+                        R1 * 1
+                        
+                        %%% Percussion3MusicVoice [measure 4] %%%
+                        R1 * 3/4
+                        
+                        %%% Percussion3MusicVoice [measure 5] %%%
+                        R1 * 3/4
+                        
+                        %%% Percussion3MusicVoice [measure 6] %%%
+                        R1 * 1
+                        
+                        %%% Percussion3MusicVoice [measure 7] %%%
+                        R1 * 1
+                        
+                        %%% Percussion3MusicVoice [measure 8] %%%
+                        R1 * 1/2
+                        \bar "|"
+                        
                     }
-                    \tag percussion
-                    \context Staff = "Percussion3MusicStaff" {
-                        \context Voice = "Percussion3MusicVoice" {
-                            
-                            %%% Percussion3MusicVoice [measure 1] %%%
-                            \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    Percussion %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                } %! EXPLICIT_INSTRUMENT_COMMAND:2
-                            \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    Perc. %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                } %! EXPLICIT_INSTRUMENT_COMMAND:2
-                            \clef "percussion" %! EXPLICIT_CLEF_COMMAND:8
-                            \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
-                            \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
-                            %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
-                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:7
-                            R1 * 1
-                            \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    Percussion %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                            \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    Perc. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
-                            
-                            %%% Percussion3MusicVoice [measure 2] %%%
-                            R1 * 1
-                            
-                            %%% Percussion3MusicVoice [measure 3] %%%
-                            R1 * 1
-                            
-                            %%% Percussion3MusicVoice [measure 4] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion3MusicVoice [measure 5] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion3MusicVoice [measure 6] %%%
-                            R1 * 1
-                            
-                            %%% Percussion3MusicVoice [measure 7] %%%
-                            R1 * 1
-                            
-                            %%% Percussion3MusicVoice [measure 8] %%%
-                            R1 * 1/2
-                            \bar "|"
-                            
-                        }
+                }
+                \tag percussion
+                \context Staff = "Percussion4MusicStaff" {
+                    \context Voice = "Percussion4MusicVoice" {
+                        
+                        %%% Percussion4MusicVoice [measure 1] %%%
+                        \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                Percussion %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                Perc. %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \clef "percussion" %! EXPLICIT_CLEF_COMMAND:8
+                        \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
+                        \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
+                        %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:7
+                        R1 * 1
+                        \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                Percussion %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                        \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                Perc. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                            } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
+                        
+                        %%% Percussion4MusicVoice [measure 2] %%%
+                        R1 * 1
+                        
+                        %%% Percussion4MusicVoice [measure 3] %%%
+                        R1 * 1
+                        
+                        %%% Percussion4MusicVoice [measure 4] %%%
+                        R1 * 3/4
+                        
+                        %%% Percussion4MusicVoice [measure 5] %%%
+                        R1 * 3/4
+                        
+                        %%% Percussion4MusicVoice [measure 6] %%%
+                        R1 * 1
+                        
+                        %%% Percussion4MusicVoice [measure 7] %%%
+                        R1 * 1
+                        
+                        %%% Percussion4MusicVoice [measure 8] %%%
+                        R1 * 1/2
+                        \bar "|"
+                        
                     }
-                    \tag percussion
-                    \context Staff = "Percussion4MusicStaff" {
-                        \context Voice = "Percussion4MusicVoice" {
-                            
-                            %%% Percussion4MusicVoice [measure 1] %%%
-                            \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    Percussion %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                } %! EXPLICIT_INSTRUMENT_COMMAND:2
-                            \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    Perc. %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                } %! EXPLICIT_INSTRUMENT_COMMAND:2
-                            \clef "percussion" %! EXPLICIT_CLEF_COMMAND:8
-                            \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
-                            \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
-                            %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
-                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:7
-                            R1 * 1
-                            \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    Percussion %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                            \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    Perc. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
-                            
-                            %%% Percussion4MusicVoice [measure 2] %%%
-                            R1 * 1
-                            
-                            %%% Percussion4MusicVoice [measure 3] %%%
-                            R1 * 1
-                            
-                            %%% Percussion4MusicVoice [measure 4] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion4MusicVoice [measure 5] %%%
-                            R1 * 3/4
-                            
-                            %%% Percussion4MusicVoice [measure 6] %%%
-                            R1 * 1
-                            
-                            %%% Percussion4MusicVoice [measure 7] %%%
-                            R1 * 1
-                            
-                            %%% Percussion4MusicVoice [measure 8] %%%
-                            R1 * 1/2
-                            \bar "|"
-                            
-                        }
-                    }
-                >>
+                }
             >>
             \context StaffGroup = "StringSectionStaffGroup" <<
-                \context StaffGroup = "FirstViolinSectionStaffGroup" <<
+                \context StaffGroup = "FirstViolinSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag strings.first_violins
                     \context Staff = "FirstViolin1MusicStaff" {
                         \context Voice = "FirstViolin1MusicVoice" {
                             
                             %%% FirstViolin1MusicVoice [measure 1] %%%
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2120,7 +2416,7 @@
                             \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
                             %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
                             \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:7
-                            c'4
+                            R1 * 1
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                     #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
@@ -2134,228 +2430,26 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
                             %%% FirstViolin1MusicVoice [measure 2] %%%
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
+                            R1 * 1
                             
                             %%% FirstViolin1MusicVoice [measure 3] %%%
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
+                            R1 * 1
                             
                             %%% FirstViolin1MusicVoice [measure 4] %%%
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
+                            R1 * 3/4
                             
                             %%% FirstViolin1MusicVoice [measure 5] %%%
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
+                            R1 * 3/4
                             
                             %%% FirstViolin1MusicVoice [measure 6] %%%
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
+                            R1 * 1
                             
                             %%% FirstViolin1MusicVoice [measure 7] %%%
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
+                            R1 * 1
                             
                             %%% FirstViolin1MusicVoice [measure 8] %%%
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
+                            R1 * 1/2
                             \bar "|"
                             
                         }
@@ -3347,7 +3441,9 @@
                         }
                     }
                 >>
-                \context StaffGroup = "SecondViolinSectionStaffGroup" <<
+                \context StaffGroup = "SecondViolinSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag strings.second_violins
                     \context Staff = "SecondViolin1MusicStaff" {
                         \context Voice = "SecondViolin1MusicVoice" {
@@ -4393,7 +4489,9 @@
                         }
                     }
                 >>
-                \context StaffGroup = "ViolaSectionStaffGroup" <<
+                \context StaffGroup = "ViolaSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag strings.violas
                     \context Staff = "Viola1MusicStaff" {
                         \context Voice = "Viola1MusicVoice" {
@@ -5439,7 +5537,9 @@
                         }
                     }
                 >>
-                \context StaffGroup = "CelloSectionStaffGroup" <<
+                \context StaffGroup = "CelloSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag strings.cellos
                     \context Staff = "Cello1MusicStaff" {
                         \context Voice = "Cello1MusicVoice" {
@@ -6253,7 +6353,9 @@
                         }
                     }
                 >>
-                \context StaffGroup = "ContrabassSectionStaffGroup" <<
+                \context StaffGroup = "ContrabassSectionStaffGroup" \with {
+                    systemStartDelimiter = #'SystemStartSquare
+                } <<
                     \tag strings.contrabasses
                     \context Staff = "Contrabass1MusicStaff" {
                         \context Voice = "Contrabass1MusicVoice" {

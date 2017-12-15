@@ -200,8 +200,12 @@ metadata = abjad.TypedOrderedDict(
                         ('treble', 'Flute3MusicVoice'),
                         ),
                     (
-                        'HarpMusicStaff',
-                        ('treble', 'HarpMusicVoice'),
+                        'HarpLHMusicStaff',
+                        ('treble', 'HarpLHMusicVoice'),
+                        ),
+                    (
+                        'HarpRHMusicStaff',
+                        ('treble', 'HarpRHMusicVoice'),
                         ),
                     (
                         'Horn1MusicStaff',
@@ -248,8 +252,12 @@ metadata = abjad.TypedOrderedDict(
                         ('percussion', 'Percussion4MusicVoice'),
                         ),
                     (
-                        'PianoMusicStaff',
-                        ('treble', 'PianoMusicVoice'),
+                        'PianoLHMusicStaff',
+                        ('treble', 'PianoLHMusicVoice'),
+                        ),
+                    (
+                        'PianoRHMusicStaff',
+                        ('treble', 'PianoRHMusicVoice'),
                         ),
                     (
                         'PiccoloMusicStaff',
@@ -497,7 +505,7 @@ metadata = abjad.TypedOrderedDict(
                     ('Flute1MusicStaff', 'flute'),
                     ('Flute2MusicStaff', 'flute'),
                     ('Flute3MusicStaff', 'flute'),
-                    ('HarpMusicStaff', 'harp'),
+                    ('HarpStaffGroup', 'harp'),
                     ('Horn1MusicStaff', 'horn'),
                     ('Horn2MusicStaff', 'horn'),
                     ('Horn3MusicStaff', 'horn'),
@@ -509,7 +517,7 @@ metadata = abjad.TypedOrderedDict(
                     ('Percussion2MusicStaff', 'percussion'),
                     ('Percussion3MusicStaff', 'percussion'),
                     ('Percussion4MusicStaff', 'percussion'),
-                    ('PianoMusicStaff', 'piano'),
+                    ('PianoStaffGroup', 'piano'),
                     ('PiccoloMusicStaff', 'piccolo'),
                     ('SecondViolin10MusicStaff', 'violin'),
                     ('SecondViolin11MusicStaff', 'violin'),
