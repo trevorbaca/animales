@@ -9,7 +9,7 @@
     \context Score = "Score" \with {
         currentBarNumber = #1
     } <<
-        \tag piccolo.flutes.oboes.english_horn.clarinets.bass_clarinet.bassoons.horns.trumpets.trombones.tuba.harp.piano.percussion.first_violins.second_violins.violas.cellos.contrabasses
+        \tag Piccolo.FluteI.FluteII.FluteIII.OboeI.OboeII.OboeIII.EnglishHorn.ClarinetI.ClarinetII.ClarinetIII.BassClarinet.BassoonI.BassoonII.HornI.HornII.HornIII.HornIV.TrumpetI.TrumpetII.TrumpetIII.TrumpetIV.TromboneI.TromboneII.TromboneIII.TromboneIV.HornI.HornII.HornIII.HornIV.Tuba.Harp.Piano.PercussionI.PercussionII.PercussionIII.PercussionIV.FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX.FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII.SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX.SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII.ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX.ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII.CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV.ContrabassI.ContrabassII.ContrabassIII.ContrabassIV.ContrabassV.ContrabassVI
         \context GlobalContext = "GlobalContext" <<
             \context GlobalSkips = "GlobalSkips" {
                 
@@ -123,8 +123,8 @@
                 \context StaffGroup = "FluteSectionStaffGroup" \with {
                     systemStartDelimiter = #'SystemStartSquare
                 } <<
-                    \tag piccolo
                     \context Staff = "PiccoloMusicStaff" {
+                        \tag Piccolo
                         \context Voice = "PiccoloMusicVoice" {
                             
                             %%% PiccoloMusicVoice [measure 1] %%%
@@ -184,276 +184,11 @@
                     \context StaffGroup = "FluteStaffGroup" \with {
                         systemStartDelimiter = #'SystemStartSquare
                     } <<
-                        \tag flutes
-                        \context Staff = "Flute1MusicStaff" {
-                            \context Voice = "Flute1MusicVoice" {
+                        \context Staff = "FluteIMusicStaff" {
+                            \tag FluteI
+                            \context Voice = "FluteIMusicVoice" {
                                 
-                                %%% Flute1MusicVoice [measure 1] %%%
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                        #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                        Flute %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    } %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                        #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                        Fl. %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                    } %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:8
-                                \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
-                                \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
-                                %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
-                                \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:7
-                                c'4
-                                \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                        #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                        Flute %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                        #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                        Fl. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                    } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                %%% Flute1MusicVoice [measure 2] %%%
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                %%% Flute1MusicVoice [measure 3] %%%
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                %%% Flute1MusicVoice [measure 4] %%%
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                %%% Flute1MusicVoice [measure 5] %%%
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                %%% Flute1MusicVoice [measure 6] %%%
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                %%% Flute1MusicVoice [measure 7] %%%
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                %%% Flute1MusicVoice [measure 8] %%%
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Beam.color = #blue
-                                \once \override Dots.color = #blue
-                                \once \override Flag.color = #blue
-                                \once \override NoteHead.color = #blue
-                                \once \override Stem.color = #blue
-                                c'4
-                                \repeatTie
-                                \bar "|"
-                                
-                            }
-                        }
-                        \tag flutes
-                        \context Staff = "Flute2MusicStaff" {
-                            \context Voice = "Flute2MusicVoice" {
-                                
-                                %%% Flute2MusicVoice [measure 1] %%%
+                                %%% FluteIMusicVoice [measure 1] %%%
                                 \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                         #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -483,35 +218,35 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                                 \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                                 
-                                %%% Flute2MusicVoice [measure 2] %%%
+                                %%% FluteIMusicVoice [measure 2] %%%
                                 R1 * 1
                                 
-                                %%% Flute2MusicVoice [measure 3] %%%
+                                %%% FluteIMusicVoice [measure 3] %%%
                                 R1 * 1
                                 
-                                %%% Flute2MusicVoice [measure 4] %%%
+                                %%% FluteIMusicVoice [measure 4] %%%
                                 R1 * 3/4
                                 
-                                %%% Flute2MusicVoice [measure 5] %%%
+                                %%% FluteIMusicVoice [measure 5] %%%
                                 R1 * 3/4
                                 
-                                %%% Flute2MusicVoice [measure 6] %%%
+                                %%% FluteIMusicVoice [measure 6] %%%
                                 R1 * 1
                                 
-                                %%% Flute2MusicVoice [measure 7] %%%
+                                %%% FluteIMusicVoice [measure 7] %%%
                                 R1 * 1
                                 
-                                %%% Flute2MusicVoice [measure 8] %%%
+                                %%% FluteIMusicVoice [measure 8] %%%
                                 R1 * 1/2
                                 \bar "|"
                                 
                             }
                         }
-                        \tag flutes
-                        \context Staff = "Flute3MusicStaff" {
-                            \context Voice = "Flute3MusicVoice" {
+                        \context Staff = "FluteIIMusicStaff" {
+                            \tag FluteII
+                            \context Voice = "FluteIIMusicVoice" {
                                 
-                                %%% Flute3MusicVoice [measure 1] %%%
+                                %%% FluteIIMusicVoice [measure 1] %%%
                                 \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                         #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -541,25 +276,83 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                                 \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                                 
-                                %%% Flute3MusicVoice [measure 2] %%%
+                                %%% FluteIIMusicVoice [measure 2] %%%
                                 R1 * 1
                                 
-                                %%% Flute3MusicVoice [measure 3] %%%
+                                %%% FluteIIMusicVoice [measure 3] %%%
                                 R1 * 1
                                 
-                                %%% Flute3MusicVoice [measure 4] %%%
+                                %%% FluteIIMusicVoice [measure 4] %%%
                                 R1 * 3/4
                                 
-                                %%% Flute3MusicVoice [measure 5] %%%
+                                %%% FluteIIMusicVoice [measure 5] %%%
                                 R1 * 3/4
                                 
-                                %%% Flute3MusicVoice [measure 6] %%%
+                                %%% FluteIIMusicVoice [measure 6] %%%
                                 R1 * 1
                                 
-                                %%% Flute3MusicVoice [measure 7] %%%
+                                %%% FluteIIMusicVoice [measure 7] %%%
                                 R1 * 1
                                 
-                                %%% Flute3MusicVoice [measure 8] %%%
+                                %%% FluteIIMusicVoice [measure 8] %%%
+                                R1 * 1/2
+                                \bar "|"
+                                
+                            }
+                        }
+                        \context Staff = "FluteIIIMusicStaff" {
+                            \tag FluteIII
+                            \context Voice = "FluteIIIMusicVoice" {
+                                
+                                %%% FluteIIIMusicVoice [measure 1] %%%
+                                \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                    \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                        #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                        Flute %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                    } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                    \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                        #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                        Fl. %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                    } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:8
+                                \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
+                                \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
+                                %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
+                                \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:7
+                                R1 * 1
+                                \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                    \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                        #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                        Flute %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                    } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                \set Staff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                    \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                        #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                        Fl. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                    } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
+                                
+                                %%% FluteIIIMusicVoice [measure 2] %%%
+                                R1 * 1
+                                
+                                %%% FluteIIIMusicVoice [measure 3] %%%
+                                R1 * 1
+                                
+                                %%% FluteIIIMusicVoice [measure 4] %%%
+                                R1 * 3/4
+                                
+                                %%% FluteIIIMusicVoice [measure 5] %%%
+                                R1 * 3/4
+                                
+                                %%% FluteIIIMusicVoice [measure 6] %%%
+                                R1 * 1
+                                
+                                %%% FluteIIIMusicVoice [measure 7] %%%
+                                R1 * 1
+                                
+                                %%% FluteIIIMusicVoice [measure 8] %%%
                                 R1 * 1/2
                                 \bar "|"
                                 
@@ -573,11 +366,11 @@
                     \context StaffGroup = "OboeStaffGroup" \with {
                         systemStartDelimiter = #'SystemStartSquare
                     } <<
-                        \tag oboes
-                        \context Staff = "Oboe1MusicStaff" {
-                            \context Voice = "Oboe1MusicVoice" {
+                        \context Staff = "OboeIMusicStaff" {
+                            \tag OboeI
+                            \context Voice = "OboeIMusicVoice" {
                                 
-                                %%% Oboe1MusicVoice [measure 1] %%%
+                                %%% OboeIMusicVoice [measure 1] %%%
                                 \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                         #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -607,35 +400,35 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                                 \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                                 
-                                %%% Oboe1MusicVoice [measure 2] %%%
+                                %%% OboeIMusicVoice [measure 2] %%%
                                 R1 * 1
                                 
-                                %%% Oboe1MusicVoice [measure 3] %%%
+                                %%% OboeIMusicVoice [measure 3] %%%
                                 R1 * 1
                                 
-                                %%% Oboe1MusicVoice [measure 4] %%%
+                                %%% OboeIMusicVoice [measure 4] %%%
                                 R1 * 3/4
                                 
-                                %%% Oboe1MusicVoice [measure 5] %%%
+                                %%% OboeIMusicVoice [measure 5] %%%
                                 R1 * 3/4
                                 
-                                %%% Oboe1MusicVoice [measure 6] %%%
+                                %%% OboeIMusicVoice [measure 6] %%%
                                 R1 * 1
                                 
-                                %%% Oboe1MusicVoice [measure 7] %%%
+                                %%% OboeIMusicVoice [measure 7] %%%
                                 R1 * 1
                                 
-                                %%% Oboe1MusicVoice [measure 8] %%%
+                                %%% OboeIMusicVoice [measure 8] %%%
                                 R1 * 1/2
                                 \bar "|"
                                 
                             }
                         }
-                        \tag oboes
-                        \context Staff = "Oboe2MusicStaff" {
-                            \context Voice = "Oboe2MusicVoice" {
+                        \context Staff = "OboeIIMusicStaff" {
+                            \tag OboeII
+                            \context Voice = "OboeIIMusicVoice" {
                                 
-                                %%% Oboe2MusicVoice [measure 1] %%%
+                                %%% OboeIIMusicVoice [measure 1] %%%
                                 \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                         #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -665,35 +458,35 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                                 \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                                 
-                                %%% Oboe2MusicVoice [measure 2] %%%
+                                %%% OboeIIMusicVoice [measure 2] %%%
                                 R1 * 1
                                 
-                                %%% Oboe2MusicVoice [measure 3] %%%
+                                %%% OboeIIMusicVoice [measure 3] %%%
                                 R1 * 1
                                 
-                                %%% Oboe2MusicVoice [measure 4] %%%
+                                %%% OboeIIMusicVoice [measure 4] %%%
                                 R1 * 3/4
                                 
-                                %%% Oboe2MusicVoice [measure 5] %%%
+                                %%% OboeIIMusicVoice [measure 5] %%%
                                 R1 * 3/4
                                 
-                                %%% Oboe2MusicVoice [measure 6] %%%
+                                %%% OboeIIMusicVoice [measure 6] %%%
                                 R1 * 1
                                 
-                                %%% Oboe2MusicVoice [measure 7] %%%
+                                %%% OboeIIMusicVoice [measure 7] %%%
                                 R1 * 1
                                 
-                                %%% Oboe2MusicVoice [measure 8] %%%
+                                %%% OboeIIMusicVoice [measure 8] %%%
                                 R1 * 1/2
                                 \bar "|"
                                 
                             }
                         }
-                        \tag oboes
-                        \context Staff = "Oboe3MusicStaff" {
-                            \context Voice = "Oboe3MusicVoice" {
+                        \context Staff = "OboeIIIMusicStaff" {
+                            \tag OboeIII
+                            \context Voice = "OboeIIIMusicVoice" {
                                 
-                                %%% Oboe3MusicVoice [measure 1] %%%
+                                %%% OboeIIIMusicVoice [measure 1] %%%
                                 \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                         #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -723,33 +516,33 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                                 \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                                 
-                                %%% Oboe3MusicVoice [measure 2] %%%
+                                %%% OboeIIIMusicVoice [measure 2] %%%
                                 R1 * 1
                                 
-                                %%% Oboe3MusicVoice [measure 3] %%%
+                                %%% OboeIIIMusicVoice [measure 3] %%%
                                 R1 * 1
                                 
-                                %%% Oboe3MusicVoice [measure 4] %%%
+                                %%% OboeIIIMusicVoice [measure 4] %%%
                                 R1 * 3/4
                                 
-                                %%% Oboe3MusicVoice [measure 5] %%%
+                                %%% OboeIIIMusicVoice [measure 5] %%%
                                 R1 * 3/4
                                 
-                                %%% Oboe3MusicVoice [measure 6] %%%
+                                %%% OboeIIIMusicVoice [measure 6] %%%
                                 R1 * 1
                                 
-                                %%% Oboe3MusicVoice [measure 7] %%%
+                                %%% OboeIIIMusicVoice [measure 7] %%%
                                 R1 * 1
                                 
-                                %%% Oboe3MusicVoice [measure 8] %%%
+                                %%% OboeIIIMusicVoice [measure 8] %%%
                                 R1 * 1/2
                                 \bar "|"
                                 
                             }
                         }
                     >>
-                    \tag english_horn
                     \context Staff = "EnglishHornMusicStaff" {
+                        \tag EnglishHorn
                         \context Voice = "EnglishHornMusicVoice" {
                             
                             %%% EnglishHornMusicVoice [measure 1] %%%
@@ -829,11 +622,11 @@
                     \context StaffGroup = "ClarinetStaffGroup" \with {
                         systemStartDelimiter = #'SystemStartSquare
                     } <<
-                        \tag clarinets
-                        \context Staff = "Clarinet1MusicStaff" {
-                            \context Voice = "Clarinet1MusicVoice" {
+                        \context Staff = "ClarinetIMusicStaff" {
+                            \tag ClarinetI
+                            \context Voice = "ClarinetIMusicVoice" {
                                 
-                                %%% Clarinet1MusicVoice [measure 1] %%%
+                                %%% ClarinetIMusicVoice [measure 1] %%%
                                 \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                         #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -863,35 +656,35 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                                 \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                                 
-                                %%% Clarinet1MusicVoice [measure 2] %%%
+                                %%% ClarinetIMusicVoice [measure 2] %%%
                                 R1 * 1
                                 
-                                %%% Clarinet1MusicVoice [measure 3] %%%
+                                %%% ClarinetIMusicVoice [measure 3] %%%
                                 R1 * 1
                                 
-                                %%% Clarinet1MusicVoice [measure 4] %%%
+                                %%% ClarinetIMusicVoice [measure 4] %%%
                                 R1 * 3/4
                                 
-                                %%% Clarinet1MusicVoice [measure 5] %%%
+                                %%% ClarinetIMusicVoice [measure 5] %%%
                                 R1 * 3/4
                                 
-                                %%% Clarinet1MusicVoice [measure 6] %%%
+                                %%% ClarinetIMusicVoice [measure 6] %%%
                                 R1 * 1
                                 
-                                %%% Clarinet1MusicVoice [measure 7] %%%
+                                %%% ClarinetIMusicVoice [measure 7] %%%
                                 R1 * 1
                                 
-                                %%% Clarinet1MusicVoice [measure 8] %%%
+                                %%% ClarinetIMusicVoice [measure 8] %%%
                                 R1 * 1/2
                                 \bar "|"
                                 
                             }
                         }
-                        \tag clarinets
-                        \context Staff = "Clarinet2MusicStaff" {
-                            \context Voice = "Clarinet2MusicVoice" {
+                        \context Staff = "ClarinetIIMusicStaff" {
+                            \tag ClarinetII
+                            \context Voice = "ClarinetIIMusicVoice" {
                                 
-                                %%% Clarinet2MusicVoice [measure 1] %%%
+                                %%% ClarinetIIMusicVoice [measure 1] %%%
                                 \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                         #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -921,35 +714,35 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                                 \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                                 
-                                %%% Clarinet2MusicVoice [measure 2] %%%
+                                %%% ClarinetIIMusicVoice [measure 2] %%%
                                 R1 * 1
                                 
-                                %%% Clarinet2MusicVoice [measure 3] %%%
+                                %%% ClarinetIIMusicVoice [measure 3] %%%
                                 R1 * 1
                                 
-                                %%% Clarinet2MusicVoice [measure 4] %%%
+                                %%% ClarinetIIMusicVoice [measure 4] %%%
                                 R1 * 3/4
                                 
-                                %%% Clarinet2MusicVoice [measure 5] %%%
+                                %%% ClarinetIIMusicVoice [measure 5] %%%
                                 R1 * 3/4
                                 
-                                %%% Clarinet2MusicVoice [measure 6] %%%
+                                %%% ClarinetIIMusicVoice [measure 6] %%%
                                 R1 * 1
                                 
-                                %%% Clarinet2MusicVoice [measure 7] %%%
+                                %%% ClarinetIIMusicVoice [measure 7] %%%
                                 R1 * 1
                                 
-                                %%% Clarinet2MusicVoice [measure 8] %%%
+                                %%% ClarinetIIMusicVoice [measure 8] %%%
                                 R1 * 1/2
                                 \bar "|"
                                 
                             }
                         }
-                        \tag clarinets
-                        \context Staff = "Clarinet3MusicStaff" {
-                            \context Voice = "Clarinet3MusicVoice" {
+                        \context Staff = "ClarinetIIIMusicStaff" {
+                            \tag ClarinetIII
+                            \context Voice = "ClarinetIIIMusicVoice" {
                                 
-                                %%% Clarinet3MusicVoice [measure 1] %%%
+                                %%% ClarinetIIIMusicVoice [measure 1] %%%
                                 \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                         #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -979,33 +772,33 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                                 \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                                 
-                                %%% Clarinet3MusicVoice [measure 2] %%%
+                                %%% ClarinetIIIMusicVoice [measure 2] %%%
                                 R1 * 1
                                 
-                                %%% Clarinet3MusicVoice [measure 3] %%%
+                                %%% ClarinetIIIMusicVoice [measure 3] %%%
                                 R1 * 1
                                 
-                                %%% Clarinet3MusicVoice [measure 4] %%%
+                                %%% ClarinetIIIMusicVoice [measure 4] %%%
                                 R1 * 3/4
                                 
-                                %%% Clarinet3MusicVoice [measure 5] %%%
+                                %%% ClarinetIIIMusicVoice [measure 5] %%%
                                 R1 * 3/4
                                 
-                                %%% Clarinet3MusicVoice [measure 6] %%%
+                                %%% ClarinetIIIMusicVoice [measure 6] %%%
                                 R1 * 1
                                 
-                                %%% Clarinet3MusicVoice [measure 7] %%%
+                                %%% ClarinetIIIMusicVoice [measure 7] %%%
                                 R1 * 1
                                 
-                                %%% Clarinet3MusicVoice [measure 8] %%%
+                                %%% ClarinetIIIMusicVoice [measure 8] %%%
                                 R1 * 1/2
                                 \bar "|"
                                 
                             }
                         }
                     >>
-                    \tag bass_clarinet
                     \context Staff = "BassClarinetMusicStaff" {
+                        \tag BassClarinet
                         \context Voice = "BassClarinetMusicVoice" {
                             
                             %%% BassClarinetMusicVoice [measure 1] %%%
@@ -1082,11 +875,11 @@
                 \context StaffGroup = "BassoonSectionStaffGroup" \with {
                     systemStartDelimiter = #'SystemStartSquare
                 } <<
-                    \tag bassoons
-                    \context Staff = "Bassoon1MusicStaff" {
-                        \context Voice = "Bassoon1MusicVoice" {
+                    \context Staff = "BassoonIMusicStaff" {
+                        \tag BassoonI
+                        \context Voice = "BassoonIMusicVoice" {
                             
-                            %%% Bassoon1MusicVoice [measure 1] %%%
+                            %%% BassoonIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -1116,35 +909,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Bassoon1MusicVoice [measure 2] %%%
+                            %%% BassoonIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Bassoon1MusicVoice [measure 3] %%%
+                            %%% BassoonIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Bassoon1MusicVoice [measure 4] %%%
+                            %%% BassoonIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Bassoon1MusicVoice [measure 5] %%%
+                            %%% BassoonIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Bassoon1MusicVoice [measure 6] %%%
+                            %%% BassoonIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Bassoon1MusicVoice [measure 7] %%%
+                            %%% BassoonIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Bassoon1MusicVoice [measure 8] %%%
+                            %%% BassoonIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag bassoons
-                    \context Staff = "Bassoon2MusicStaff" {
-                        \context Voice = "Bassoon2MusicVoice" {
+                    \context Staff = "BassoonIIMusicStaff" {
+                        \tag BassoonII
+                        \context Voice = "BassoonIIMusicVoice" {
                             
-                            %%% Bassoon2MusicVoice [measure 1] %%%
+                            %%% BassoonIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -1174,25 +967,25 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Bassoon2MusicVoice [measure 2] %%%
+                            %%% BassoonIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Bassoon2MusicVoice [measure 3] %%%
+                            %%% BassoonIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Bassoon2MusicVoice [measure 4] %%%
+                            %%% BassoonIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Bassoon2MusicVoice [measure 5] %%%
+                            %%% BassoonIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Bassoon2MusicVoice [measure 6] %%%
+                            %%% BassoonIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Bassoon2MusicVoice [measure 7] %%%
+                            %%% BassoonIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Bassoon2MusicVoice [measure 8] %%%
+                            %%% BassoonIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
@@ -1204,11 +997,11 @@
                 \context StaffGroup = "HornSectionStaffGroup" \with {
                     systemStartDelimiter = #'SystemStartSquare
                 } <<
-                    \tag horns
-                    \context Staff = "Horn1MusicStaff" {
-                        \context Voice = "Horn1MusicVoice" {
+                    \context Staff = "HornIMusicStaff" {
+                        \tag HornI
+                        \context Voice = "HornIMusicVoice" {
                             
-                            %%% Horn1MusicVoice [measure 1] %%%
+                            %%% HornIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -1238,35 +1031,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Horn1MusicVoice [measure 2] %%%
+                            %%% HornIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Horn1MusicVoice [measure 3] %%%
+                            %%% HornIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Horn1MusicVoice [measure 4] %%%
+                            %%% HornIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Horn1MusicVoice [measure 5] %%%
+                            %%% HornIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Horn1MusicVoice [measure 6] %%%
+                            %%% HornIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Horn1MusicVoice [measure 7] %%%
+                            %%% HornIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Horn1MusicVoice [measure 8] %%%
+                            %%% HornIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag horns
-                    \context Staff = "Horn2MusicStaff" {
-                        \context Voice = "Horn2MusicVoice" {
+                    \context Staff = "HornIIMusicStaff" {
+                        \tag HornII
+                        \context Voice = "HornIIMusicVoice" {
                             
-                            %%% Horn2MusicVoice [measure 1] %%%
+                            %%% HornIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -1296,35 +1089,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Horn2MusicVoice [measure 2] %%%
+                            %%% HornIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Horn2MusicVoice [measure 3] %%%
+                            %%% HornIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Horn2MusicVoice [measure 4] %%%
+                            %%% HornIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Horn2MusicVoice [measure 5] %%%
+                            %%% HornIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Horn2MusicVoice [measure 6] %%%
+                            %%% HornIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Horn2MusicVoice [measure 7] %%%
+                            %%% HornIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Horn2MusicVoice [measure 8] %%%
+                            %%% HornIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag horns
-                    \context Staff = "Horn3MusicStaff" {
-                        \context Voice = "Horn3MusicVoice" {
+                    \context Staff = "HornIIIMusicStaff" {
+                        \tag HornIII
+                        \context Voice = "HornIIIMusicVoice" {
                             
-                            %%% Horn3MusicVoice [measure 1] %%%
+                            %%% HornIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -1354,35 +1147,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Horn3MusicVoice [measure 2] %%%
+                            %%% HornIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Horn3MusicVoice [measure 3] %%%
+                            %%% HornIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Horn3MusicVoice [measure 4] %%%
+                            %%% HornIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Horn3MusicVoice [measure 5] %%%
+                            %%% HornIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Horn3MusicVoice [measure 6] %%%
+                            %%% HornIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Horn3MusicVoice [measure 7] %%%
+                            %%% HornIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Horn3MusicVoice [measure 8] %%%
+                            %%% HornIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag horns
-                    \context Staff = "Horn4MusicStaff" {
-                        \context Voice = "Horn4MusicVoice" {
+                    \context Staff = "HornIVMusicStaff" {
+                        \tag HornIV
+                        \context Voice = "HornIVMusicVoice" {
                             
-                            %%% Horn4MusicVoice [measure 1] %%%
+                            %%% HornIVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -1412,25 +1205,25 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Horn4MusicVoice [measure 2] %%%
+                            %%% HornIVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Horn4MusicVoice [measure 3] %%%
+                            %%% HornIVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Horn4MusicVoice [measure 4] %%%
+                            %%% HornIVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Horn4MusicVoice [measure 5] %%%
+                            %%% HornIVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Horn4MusicVoice [measure 6] %%%
+                            %%% HornIVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Horn4MusicVoice [measure 7] %%%
+                            %%% HornIVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Horn4MusicVoice [measure 8] %%%
+                            %%% HornIVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
@@ -1440,11 +1233,11 @@
                 \context StaffGroup = "TrumpetSectionStaffGroup" \with {
                     systemStartDelimiter = #'SystemStartSquare
                 } <<
-                    \tag trumpets
-                    \context Staff = "Trumpet1MusicStaff" {
-                        \context Voice = "Trumpet1MusicVoice" {
+                    \tag TrumpetI
+                    \context Staff = "TrumpetIMusicStaff" {
+                        \context Voice = "TrumpetIMusicVoice" {
                             
-                            %%% Trumpet1MusicVoice [measure 1] %%%
+                            %%% TrumpetIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -1474,35 +1267,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Trumpet1MusicVoice [measure 2] %%%
+                            %%% TrumpetIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Trumpet1MusicVoice [measure 3] %%%
+                            %%% TrumpetIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Trumpet1MusicVoice [measure 4] %%%
+                            %%% TrumpetIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Trumpet1MusicVoice [measure 5] %%%
+                            %%% TrumpetIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Trumpet1MusicVoice [measure 6] %%%
+                            %%% TrumpetIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Trumpet1MusicVoice [measure 7] %%%
+                            %%% TrumpetIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Trumpet1MusicVoice [measure 8] %%%
+                            %%% TrumpetIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag trumpets
-                    \context Staff = "Trumpet2MusicStaff" {
-                        \context Voice = "Trumpet2MusicVoice" {
+                    \tag TrumpetII
+                    \context Staff = "TrumpetIIMusicStaff" {
+                        \context Voice = "TrumpetIIMusicVoice" {
                             
-                            %%% Trumpet2MusicVoice [measure 1] %%%
+                            %%% TrumpetIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -1532,35 +1325,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Trumpet2MusicVoice [measure 2] %%%
+                            %%% TrumpetIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Trumpet2MusicVoice [measure 3] %%%
+                            %%% TrumpetIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Trumpet2MusicVoice [measure 4] %%%
+                            %%% TrumpetIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Trumpet2MusicVoice [measure 5] %%%
+                            %%% TrumpetIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Trumpet2MusicVoice [measure 6] %%%
+                            %%% TrumpetIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Trumpet2MusicVoice [measure 7] %%%
+                            %%% TrumpetIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Trumpet2MusicVoice [measure 8] %%%
+                            %%% TrumpetIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag trumpets
-                    \context Staff = "Trumpet3MusicStaff" {
-                        \context Voice = "Trumpet3MusicVoice" {
+                    \tag TrumpetIII
+                    \context Staff = "TrumpetIIIMusicStaff" {
+                        \context Voice = "TrumpetIIIMusicVoice" {
                             
-                            %%% Trumpet3MusicVoice [measure 1] %%%
+                            %%% TrumpetIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -1590,35 +1383,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Trumpet3MusicVoice [measure 2] %%%
+                            %%% TrumpetIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Trumpet3MusicVoice [measure 3] %%%
+                            %%% TrumpetIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Trumpet3MusicVoice [measure 4] %%%
+                            %%% TrumpetIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Trumpet3MusicVoice [measure 5] %%%
+                            %%% TrumpetIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Trumpet3MusicVoice [measure 6] %%%
+                            %%% TrumpetIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Trumpet3MusicVoice [measure 7] %%%
+                            %%% TrumpetIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Trumpet3MusicVoice [measure 8] %%%
+                            %%% TrumpetIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag trumpets
-                    \context Staff = "Trumpet4MusicStaff" {
-                        \context Voice = "Trumpet4MusicVoice" {
+                    \tag TrumpetIV
+                    \context Staff = "TrumpetIVMusicStaff" {
+                        \context Voice = "TrumpetIVMusicVoice" {
                             
-                            %%% Trumpet4MusicVoice [measure 1] %%%
+                            %%% TrumpetIVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -1648,25 +1441,25 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Trumpet4MusicVoice [measure 2] %%%
+                            %%% TrumpetIVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Trumpet4MusicVoice [measure 3] %%%
+                            %%% TrumpetIVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Trumpet4MusicVoice [measure 4] %%%
+                            %%% TrumpetIVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Trumpet4MusicVoice [measure 5] %%%
+                            %%% TrumpetIVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Trumpet4MusicVoice [measure 6] %%%
+                            %%% TrumpetIVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Trumpet4MusicVoice [measure 7] %%%
+                            %%% TrumpetIVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Trumpet4MusicVoice [measure 8] %%%
+                            %%% TrumpetIVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
@@ -1676,11 +1469,11 @@
                 \context StaffGroup = "TromboneSectionStaffGroup" \with {
                     systemStartDelimiter = #'SystemStartSquare
                 } <<
-                    \tag trombones
-                    \context Staff = "Trombone1MusicStaff" {
-                        \context Voice = "Trombone1MusicVoice" {
+                    \context Staff = "TromboneIMusicStaff" {
+                        \tag TromboneI
+                        \context Voice = "TromboneIMusicVoice" {
                             
-                            %%% Trombone1MusicVoice [measure 1] %%%
+                            %%% TromboneIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -1710,35 +1503,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Trombone1MusicVoice [measure 2] %%%
+                            %%% TromboneIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Trombone1MusicVoice [measure 3] %%%
+                            %%% TromboneIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Trombone1MusicVoice [measure 4] %%%
+                            %%% TromboneIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Trombone1MusicVoice [measure 5] %%%
+                            %%% TromboneIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Trombone1MusicVoice [measure 6] %%%
+                            %%% TromboneIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Trombone1MusicVoice [measure 7] %%%
+                            %%% TromboneIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Trombone1MusicVoice [measure 8] %%%
+                            %%% TromboneIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag trombones
-                    \context Staff = "Trombone2MusicStaff" {
-                        \context Voice = "Trombone2MusicVoice" {
+                    \context Staff = "TromboneIIMusicStaff" {
+                        \tag TromboneII
+                        \context Voice = "TromboneIIMusicVoice" {
                             
-                            %%% Trombone2MusicVoice [measure 1] %%%
+                            %%% TromboneIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -1768,35 +1561,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Trombone2MusicVoice [measure 2] %%%
+                            %%% TromboneIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Trombone2MusicVoice [measure 3] %%%
+                            %%% TromboneIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Trombone2MusicVoice [measure 4] %%%
+                            %%% TromboneIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Trombone2MusicVoice [measure 5] %%%
+                            %%% TromboneIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Trombone2MusicVoice [measure 6] %%%
+                            %%% TromboneIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Trombone2MusicVoice [measure 7] %%%
+                            %%% TromboneIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Trombone2MusicVoice [measure 8] %%%
+                            %%% TromboneIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag trombones
-                    \context Staff = "Trombone3MusicStaff" {
-                        \context Voice = "Trombone3MusicVoice" {
+                    \context Staff = "TromboneIIIMusicStaff" {
+                        \tag TromboneIII
+                        \context Voice = "TromboneIIIMusicVoice" {
                             
-                            %%% Trombone3MusicVoice [measure 1] %%%
+                            %%% TromboneIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -1826,36 +1619,36 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Trombone3MusicVoice [measure 2] %%%
+                            %%% TromboneIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Trombone3MusicVoice [measure 3] %%%
+                            %%% TromboneIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Trombone3MusicVoice [measure 4] %%%
+                            %%% TromboneIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Trombone3MusicVoice [measure 5] %%%
+                            %%% TromboneIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Trombone3MusicVoice [measure 6] %%%
+                            %%% TromboneIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Trombone3MusicVoice [measure 7] %%%
+                            %%% TromboneIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Trombone3MusicVoice [measure 8] %%%
+                            %%% TromboneIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag trombones
-                    \tag tuba
-                    \context Staff = "Trombone4MusicStaff" {
-                        \context Voice = "Trombone4MusicVoice" {
+                    \context Staff = "TromboneIVMusicStaff" {
+                        \tag TromboneIV
+                        \tag Tuba
+                        \context Voice = "TromboneIVMusicVoice" {
                             
-                            %%% Trombone4MusicVoice [measure 1] %%%
+                            %%% TromboneIVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -1885,25 +1678,25 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Trombone4MusicVoice [measure 2] %%%
+                            %%% TromboneIVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Trombone4MusicVoice [measure 3] %%%
+                            %%% TromboneIVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Trombone4MusicVoice [measure 4] %%%
+                            %%% TromboneIVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Trombone4MusicVoice [measure 5] %%%
+                            %%% TromboneIVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Trombone4MusicVoice [measure 6] %%%
+                            %%% TromboneIVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Trombone4MusicVoice [measure 7] %%%
+                            %%% TromboneIVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Trombone4MusicVoice [measure 8] %%%
+                            %%% TromboneIVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
@@ -1968,7 +1761,7 @@
                     }
                 }
             >>
-            \tag harp
+            \tag Harp
             \context PianoStaff = "HarpStaffGroup" <<
                 \context Staff = "HarpRHMusicStaff" {
                     \context Voice = "HarpRHMusicVoice" {
@@ -2063,7 +1856,7 @@
                     }
                 }
             >>
-            \tag piano
+            \tag Piano
             \context PianoStaff = "PianoStaffGroup" <<
                 \context Staff = "PianoRHMusicStaff" {
                     \context Voice = "PianoRHMusicVoice" {
@@ -2159,11 +1952,11 @@
                 }
             >>
             \context StaffGroup = "PercussionStaffGroup" <<
-                \tag percussion
-                \context Staff = "Percussion1MusicStaff" {
-                    \context Voice = "Percussion1MusicVoice" {
+                \context Staff = "PercussionIMusicStaff" {
+                    \tag PercussionI
+                    \context Voice = "PercussionIMusicVoice" {
                         
-                        %%% Percussion1MusicVoice [measure 1] %%%
+                        %%% PercussionIMusicVoice [measure 1] %%%
                         \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                             \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2193,35 +1986,35 @@
                         \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                         \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                         
-                        %%% Percussion1MusicVoice [measure 2] %%%
+                        %%% PercussionIMusicVoice [measure 2] %%%
                         R1 * 1
                         
-                        %%% Percussion1MusicVoice [measure 3] %%%
+                        %%% PercussionIMusicVoice [measure 3] %%%
                         R1 * 1
                         
-                        %%% Percussion1MusicVoice [measure 4] %%%
+                        %%% PercussionIMusicVoice [measure 4] %%%
                         R1 * 3/4
                         
-                        %%% Percussion1MusicVoice [measure 5] %%%
+                        %%% PercussionIMusicVoice [measure 5] %%%
                         R1 * 3/4
                         
-                        %%% Percussion1MusicVoice [measure 6] %%%
+                        %%% PercussionIMusicVoice [measure 6] %%%
                         R1 * 1
                         
-                        %%% Percussion1MusicVoice [measure 7] %%%
+                        %%% PercussionIMusicVoice [measure 7] %%%
                         R1 * 1
                         
-                        %%% Percussion1MusicVoice [measure 8] %%%
+                        %%% PercussionIMusicVoice [measure 8] %%%
                         R1 * 1/2
                         \bar "|"
                         
                     }
                 }
-                \tag percussion
-                \context Staff = "Percussion2MusicStaff" {
-                    \context Voice = "Percussion2MusicVoice" {
+                \context Staff = "PercussionIIMusicStaff" {
+                    \tag PercussionII
+                    \context Voice = "PercussionIIMusicVoice" {
                         
-                        %%% Percussion2MusicVoice [measure 1] %%%
+                        %%% PercussionIIMusicVoice [measure 1] %%%
                         \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                             \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2251,35 +2044,35 @@
                         \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                         \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                         
-                        %%% Percussion2MusicVoice [measure 2] %%%
+                        %%% PercussionIIMusicVoice [measure 2] %%%
                         R1 * 1
                         
-                        %%% Percussion2MusicVoice [measure 3] %%%
+                        %%% PercussionIIMusicVoice [measure 3] %%%
                         R1 * 1
                         
-                        %%% Percussion2MusicVoice [measure 4] %%%
+                        %%% PercussionIIMusicVoice [measure 4] %%%
                         R1 * 3/4
                         
-                        %%% Percussion2MusicVoice [measure 5] %%%
+                        %%% PercussionIIMusicVoice [measure 5] %%%
                         R1 * 3/4
                         
-                        %%% Percussion2MusicVoice [measure 6] %%%
+                        %%% PercussionIIMusicVoice [measure 6] %%%
                         R1 * 1
                         
-                        %%% Percussion2MusicVoice [measure 7] %%%
+                        %%% PercussionIIMusicVoice [measure 7] %%%
                         R1 * 1
                         
-                        %%% Percussion2MusicVoice [measure 8] %%%
+                        %%% PercussionIIMusicVoice [measure 8] %%%
                         R1 * 1/2
                         \bar "|"
                         
                     }
                 }
-                \tag percussion
-                \context Staff = "Percussion3MusicStaff" {
-                    \context Voice = "Percussion3MusicVoice" {
+                \context Staff = "PercussionIIIMusicStaff" {
+                    \tag PercussionIII
+                    \context Voice = "PercussionIIIMusicVoice" {
                         
-                        %%% Percussion3MusicVoice [measure 1] %%%
+                        %%% PercussionIIIMusicVoice [measure 1] %%%
                         \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                             \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2309,35 +2102,35 @@
                         \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                         \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                         
-                        %%% Percussion3MusicVoice [measure 2] %%%
+                        %%% PercussionIIIMusicVoice [measure 2] %%%
                         R1 * 1
                         
-                        %%% Percussion3MusicVoice [measure 3] %%%
+                        %%% PercussionIIIMusicVoice [measure 3] %%%
                         R1 * 1
                         
-                        %%% Percussion3MusicVoice [measure 4] %%%
+                        %%% PercussionIIIMusicVoice [measure 4] %%%
                         R1 * 3/4
                         
-                        %%% Percussion3MusicVoice [measure 5] %%%
+                        %%% PercussionIIIMusicVoice [measure 5] %%%
                         R1 * 3/4
                         
-                        %%% Percussion3MusicVoice [measure 6] %%%
+                        %%% PercussionIIIMusicVoice [measure 6] %%%
                         R1 * 1
                         
-                        %%% Percussion3MusicVoice [measure 7] %%%
+                        %%% PercussionIIIMusicVoice [measure 7] %%%
                         R1 * 1
                         
-                        %%% Percussion3MusicVoice [measure 8] %%%
+                        %%% PercussionIIIMusicVoice [measure 8] %%%
                         R1 * 1/2
                         \bar "|"
                         
                     }
                 }
-                \tag percussion
-                \context Staff = "Percussion4MusicStaff" {
-                    \context Voice = "Percussion4MusicVoice" {
+                \context Staff = "PercussionIVMusicStaff" {
+                    \tag PercussionIV
+                    \context Voice = "PercussionIVMusicVoice" {
                         
-                        %%% Percussion4MusicVoice [measure 1] %%%
+                        %%% PercussionIVMusicVoice [measure 1] %%%
                         \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                             \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2367,25 +2160,25 @@
                         \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                         \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                         
-                        %%% Percussion4MusicVoice [measure 2] %%%
+                        %%% PercussionIVMusicVoice [measure 2] %%%
                         R1 * 1
                         
-                        %%% Percussion4MusicVoice [measure 3] %%%
+                        %%% PercussionIVMusicVoice [measure 3] %%%
                         R1 * 1
                         
-                        %%% Percussion4MusicVoice [measure 4] %%%
+                        %%% PercussionIVMusicVoice [measure 4] %%%
                         R1 * 3/4
                         
-                        %%% Percussion4MusicVoice [measure 5] %%%
+                        %%% PercussionIVMusicVoice [measure 5] %%%
                         R1 * 3/4
                         
-                        %%% Percussion4MusicVoice [measure 6] %%%
+                        %%% PercussionIVMusicVoice [measure 6] %%%
                         R1 * 1
                         
-                        %%% Percussion4MusicVoice [measure 7] %%%
+                        %%% PercussionIVMusicVoice [measure 7] %%%
                         R1 * 1
                         
-                        %%% Percussion4MusicVoice [measure 8] %%%
+                        %%% PercussionIVMusicVoice [measure 8] %%%
                         R1 * 1/2
                         \bar "|"
                         
@@ -2396,11 +2189,11 @@
                 \context StaffGroup = "FirstViolinSectionStaffGroup" \with {
                     systemStartDelimiter = #'SystemStartSquare
                 } <<
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin1MusicStaff" {
-                        \context Voice = "FirstViolin1MusicVoice" {
+                    \context Staff = "FirstViolinIMusicStaff" {
+                        \tag FirstViolinI
+                        \context Voice = "FirstViolinIMusicVoice" {
                             
-                            %%% FirstViolin1MusicVoice [measure 1] %%%
+                            %%% FirstViolinIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2430,35 +2223,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin1MusicVoice [measure 2] %%%
+                            %%% FirstViolinIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin1MusicVoice [measure 3] %%%
+                            %%% FirstViolinIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin1MusicVoice [measure 4] %%%
+                            %%% FirstViolinIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin1MusicVoice [measure 5] %%%
+                            %%% FirstViolinIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin1MusicVoice [measure 6] %%%
+                            %%% FirstViolinIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin1MusicVoice [measure 7] %%%
+                            %%% FirstViolinIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin1MusicVoice [measure 8] %%%
+                            %%% FirstViolinIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin2MusicStaff" {
-                        \context Voice = "FirstViolin2MusicVoice" {
+                    \context Staff = "FirstViolinIIMusicStaff" {
+                        \tag FirstViolinII
+                        \context Voice = "FirstViolinIIMusicVoice" {
                             
-                            %%% FirstViolin2MusicVoice [measure 1] %%%
+                            %%% FirstViolinIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2488,35 +2281,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin2MusicVoice [measure 2] %%%
+                            %%% FirstViolinIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin2MusicVoice [measure 3] %%%
+                            %%% FirstViolinIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin2MusicVoice [measure 4] %%%
+                            %%% FirstViolinIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin2MusicVoice [measure 5] %%%
+                            %%% FirstViolinIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin2MusicVoice [measure 6] %%%
+                            %%% FirstViolinIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin2MusicVoice [measure 7] %%%
+                            %%% FirstViolinIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin2MusicVoice [measure 8] %%%
+                            %%% FirstViolinIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin3MusicStaff" {
-                        \context Voice = "FirstViolin3MusicVoice" {
+                    \context Staff = "FirstViolinIIIMusicStaff" {
+                        \tag FirstViolinIII
+                        \context Voice = "FirstViolinIIIMusicVoice" {
                             
-                            %%% FirstViolin3MusicVoice [measure 1] %%%
+                            %%% FirstViolinIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2546,35 +2339,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin3MusicVoice [measure 2] %%%
+                            %%% FirstViolinIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin3MusicVoice [measure 3] %%%
+                            %%% FirstViolinIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin3MusicVoice [measure 4] %%%
+                            %%% FirstViolinIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin3MusicVoice [measure 5] %%%
+                            %%% FirstViolinIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin3MusicVoice [measure 6] %%%
+                            %%% FirstViolinIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin3MusicVoice [measure 7] %%%
+                            %%% FirstViolinIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin3MusicVoice [measure 8] %%%
+                            %%% FirstViolinIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin4MusicStaff" {
-                        \context Voice = "FirstViolin4MusicVoice" {
+                    \context Staff = "FirstViolinIVMusicStaff" {
+                        \tag FirstViolinIV
+                        \context Voice = "FirstViolinIVMusicVoice" {
                             
-                            %%% FirstViolin4MusicVoice [measure 1] %%%
+                            %%% FirstViolinIVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2604,35 +2397,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin4MusicVoice [measure 2] %%%
+                            %%% FirstViolinIVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin4MusicVoice [measure 3] %%%
+                            %%% FirstViolinIVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin4MusicVoice [measure 4] %%%
+                            %%% FirstViolinIVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin4MusicVoice [measure 5] %%%
+                            %%% FirstViolinIVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin4MusicVoice [measure 6] %%%
+                            %%% FirstViolinIVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin4MusicVoice [measure 7] %%%
+                            %%% FirstViolinIVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin4MusicVoice [measure 8] %%%
+                            %%% FirstViolinIVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin5MusicStaff" {
-                        \context Voice = "FirstViolin5MusicVoice" {
+                    \context Staff = "FirstViolinVMusicStaff" {
+                        \tag FirstViolinV
+                        \context Voice = "FirstViolinVMusicVoice" {
                             
-                            %%% FirstViolin5MusicVoice [measure 1] %%%
+                            %%% FirstViolinVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2662,35 +2455,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin5MusicVoice [measure 2] %%%
+                            %%% FirstViolinVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin5MusicVoice [measure 3] %%%
+                            %%% FirstViolinVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin5MusicVoice [measure 4] %%%
+                            %%% FirstViolinVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin5MusicVoice [measure 5] %%%
+                            %%% FirstViolinVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin5MusicVoice [measure 6] %%%
+                            %%% FirstViolinVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin5MusicVoice [measure 7] %%%
+                            %%% FirstViolinVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin5MusicVoice [measure 8] %%%
+                            %%% FirstViolinVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin6MusicStaff" {
-                        \context Voice = "FirstViolin6MusicVoice" {
+                    \context Staff = "FirstViolinVIMusicStaff" {
+                        \tag FirstViolinVI
+                        \context Voice = "FirstViolinVIMusicVoice" {
                             
-                            %%% FirstViolin6MusicVoice [measure 1] %%%
+                            %%% FirstViolinVIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2720,35 +2513,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin6MusicVoice [measure 2] %%%
+                            %%% FirstViolinVIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin6MusicVoice [measure 3] %%%
+                            %%% FirstViolinVIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin6MusicVoice [measure 4] %%%
+                            %%% FirstViolinVIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin6MusicVoice [measure 5] %%%
+                            %%% FirstViolinVIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin6MusicVoice [measure 6] %%%
+                            %%% FirstViolinVIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin6MusicVoice [measure 7] %%%
+                            %%% FirstViolinVIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin6MusicVoice [measure 8] %%%
+                            %%% FirstViolinVIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin7MusicStaff" {
-                        \context Voice = "FirstViolin7MusicVoice" {
+                    \context Staff = "FirstViolinVIIMusicStaff" {
+                        \tag FirstViolinVII
+                        \context Voice = "FirstViolinVIIMusicVoice" {
                             
-                            %%% FirstViolin7MusicVoice [measure 1] %%%
+                            %%% FirstViolinVIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2778,35 +2571,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin7MusicVoice [measure 2] %%%
+                            %%% FirstViolinVIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin7MusicVoice [measure 3] %%%
+                            %%% FirstViolinVIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin7MusicVoice [measure 4] %%%
+                            %%% FirstViolinVIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin7MusicVoice [measure 5] %%%
+                            %%% FirstViolinVIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin7MusicVoice [measure 6] %%%
+                            %%% FirstViolinVIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin7MusicVoice [measure 7] %%%
+                            %%% FirstViolinVIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin7MusicVoice [measure 8] %%%
+                            %%% FirstViolinVIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin8MusicStaff" {
-                        \context Voice = "FirstViolin8MusicVoice" {
+                    \context Staff = "FirstViolinVIIIMusicStaff" {
+                        \tag FirstViolinVIII
+                        \context Voice = "FirstViolinVIIIMusicVoice" {
                             
-                            %%% FirstViolin8MusicVoice [measure 1] %%%
+                            %%% FirstViolinVIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2836,35 +2629,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin8MusicVoice [measure 2] %%%
+                            %%% FirstViolinVIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin8MusicVoice [measure 3] %%%
+                            %%% FirstViolinVIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin8MusicVoice [measure 4] %%%
+                            %%% FirstViolinVIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin8MusicVoice [measure 5] %%%
+                            %%% FirstViolinVIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin8MusicVoice [measure 6] %%%
+                            %%% FirstViolinVIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin8MusicVoice [measure 7] %%%
+                            %%% FirstViolinVIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin8MusicVoice [measure 8] %%%
+                            %%% FirstViolinVIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin9MusicStaff" {
-                        \context Voice = "FirstViolin9MusicVoice" {
+                    \context Staff = "FirstViolinIXMusicStaff" {
+                        \tag FirstViolinIX
+                        \context Voice = "FirstViolinIXMusicVoice" {
                             
-                            %%% FirstViolin9MusicVoice [measure 1] %%%
+                            %%% FirstViolinIXMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2894,35 +2687,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin9MusicVoice [measure 2] %%%
+                            %%% FirstViolinIXMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin9MusicVoice [measure 3] %%%
+                            %%% FirstViolinIXMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin9MusicVoice [measure 4] %%%
+                            %%% FirstViolinIXMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin9MusicVoice [measure 5] %%%
+                            %%% FirstViolinIXMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin9MusicVoice [measure 6] %%%
+                            %%% FirstViolinIXMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin9MusicVoice [measure 7] %%%
+                            %%% FirstViolinIXMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin9MusicVoice [measure 8] %%%
+                            %%% FirstViolinIXMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin10MusicStaff" {
-                        \context Voice = "FirstViolin10MusicVoice" {
+                    \context Staff = "FirstViolinXMusicStaff" {
+                        \tag FirstViolinX
+                        \context Voice = "FirstViolinXMusicVoice" {
                             
-                            %%% FirstViolin10MusicVoice [measure 1] %%%
+                            %%% FirstViolinXMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -2952,35 +2745,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin10MusicVoice [measure 2] %%%
+                            %%% FirstViolinXMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin10MusicVoice [measure 3] %%%
+                            %%% FirstViolinXMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin10MusicVoice [measure 4] %%%
+                            %%% FirstViolinXMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin10MusicVoice [measure 5] %%%
+                            %%% FirstViolinXMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin10MusicVoice [measure 6] %%%
+                            %%% FirstViolinXMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin10MusicVoice [measure 7] %%%
+                            %%% FirstViolinXMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin10MusicVoice [measure 8] %%%
+                            %%% FirstViolinXMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin11MusicStaff" {
-                        \context Voice = "FirstViolin11MusicVoice" {
+                    \context Staff = "FirstViolinXIMusicStaff" {
+                        \tag FirstViolinXI
+                        \context Voice = "FirstViolinXIMusicVoice" {
                             
-                            %%% FirstViolin11MusicVoice [measure 1] %%%
+                            %%% FirstViolinXIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3010,35 +2803,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin11MusicVoice [measure 2] %%%
+                            %%% FirstViolinXIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin11MusicVoice [measure 3] %%%
+                            %%% FirstViolinXIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin11MusicVoice [measure 4] %%%
+                            %%% FirstViolinXIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin11MusicVoice [measure 5] %%%
+                            %%% FirstViolinXIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin11MusicVoice [measure 6] %%%
+                            %%% FirstViolinXIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin11MusicVoice [measure 7] %%%
+                            %%% FirstViolinXIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin11MusicVoice [measure 8] %%%
+                            %%% FirstViolinXIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin12MusicStaff" {
-                        \context Voice = "FirstViolin12MusicVoice" {
+                    \context Staff = "FirstViolinXIIMusicStaff" {
+                        \tag FirstViolinXII
+                        \context Voice = "FirstViolinXIIMusicVoice" {
                             
-                            %%% FirstViolin12MusicVoice [measure 1] %%%
+                            %%% FirstViolinXIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3068,35 +2861,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin12MusicVoice [measure 2] %%%
+                            %%% FirstViolinXIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin12MusicVoice [measure 3] %%%
+                            %%% FirstViolinXIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin12MusicVoice [measure 4] %%%
+                            %%% FirstViolinXIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin12MusicVoice [measure 5] %%%
+                            %%% FirstViolinXIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin12MusicVoice [measure 6] %%%
+                            %%% FirstViolinXIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin12MusicVoice [measure 7] %%%
+                            %%% FirstViolinXIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin12MusicVoice [measure 8] %%%
+                            %%% FirstViolinXIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin13MusicStaff" {
-                        \context Voice = "FirstViolin13MusicVoice" {
+                    \context Staff = "FirstViolinXIIIMusicStaff" {
+                        \tag FirstViolinXIII
+                        \context Voice = "FirstViolinXIIIMusicVoice" {
                             
-                            %%% FirstViolin13MusicVoice [measure 1] %%%
+                            %%% FirstViolinXIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3126,35 +2919,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin13MusicVoice [measure 2] %%%
+                            %%% FirstViolinXIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin13MusicVoice [measure 3] %%%
+                            %%% FirstViolinXIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin13MusicVoice [measure 4] %%%
+                            %%% FirstViolinXIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin13MusicVoice [measure 5] %%%
+                            %%% FirstViolinXIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin13MusicVoice [measure 6] %%%
+                            %%% FirstViolinXIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin13MusicVoice [measure 7] %%%
+                            %%% FirstViolinXIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin13MusicVoice [measure 8] %%%
+                            %%% FirstViolinXIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin14MusicStaff" {
-                        \context Voice = "FirstViolin14MusicVoice" {
+                    \context Staff = "FirstViolinXIVMusicStaff" {
+                        \tag FirstViolinXIV
+                        \context Voice = "FirstViolinXIVMusicVoice" {
                             
-                            %%% FirstViolin14MusicVoice [measure 1] %%%
+                            %%% FirstViolinXIVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3184,35 +2977,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin14MusicVoice [measure 2] %%%
+                            %%% FirstViolinXIVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin14MusicVoice [measure 3] %%%
+                            %%% FirstViolinXIVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin14MusicVoice [measure 4] %%%
+                            %%% FirstViolinXIVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin14MusicVoice [measure 5] %%%
+                            %%% FirstViolinXIVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin14MusicVoice [measure 6] %%%
+                            %%% FirstViolinXIVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin14MusicVoice [measure 7] %%%
+                            %%% FirstViolinXIVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin14MusicVoice [measure 8] %%%
+                            %%% FirstViolinXIVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin15MusicStaff" {
-                        \context Voice = "FirstViolin15MusicVoice" {
+                    \context Staff = "FirstViolinXVMusicStaff" {
+                        \tag FirstViolinXV
+                        \context Voice = "FirstViolinXVMusicVoice" {
                             
-                            %%% FirstViolin15MusicVoice [measure 1] %%%
+                            %%% FirstViolinXVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3242,35 +3035,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin15MusicVoice [measure 2] %%%
+                            %%% FirstViolinXVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin15MusicVoice [measure 3] %%%
+                            %%% FirstViolinXVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin15MusicVoice [measure 4] %%%
+                            %%% FirstViolinXVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin15MusicVoice [measure 5] %%%
+                            %%% FirstViolinXVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin15MusicVoice [measure 6] %%%
+                            %%% FirstViolinXVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin15MusicVoice [measure 7] %%%
+                            %%% FirstViolinXVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin15MusicVoice [measure 8] %%%
+                            %%% FirstViolinXVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin16MusicStaff" {
-                        \context Voice = "FirstViolin16MusicVoice" {
+                    \context Staff = "FirstViolinXVIMusicStaff" {
+                        \tag FirstViolinXVI
+                        \context Voice = "FirstViolinXVIMusicVoice" {
                             
-                            %%% FirstViolin16MusicVoice [measure 1] %%%
+                            %%% FirstViolinXVIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3300,35 +3093,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin16MusicVoice [measure 2] %%%
+                            %%% FirstViolinXVIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin16MusicVoice [measure 3] %%%
+                            %%% FirstViolinXVIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin16MusicVoice [measure 4] %%%
+                            %%% FirstViolinXVIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin16MusicVoice [measure 5] %%%
+                            %%% FirstViolinXVIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin16MusicVoice [measure 6] %%%
+                            %%% FirstViolinXVIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin16MusicVoice [measure 7] %%%
+                            %%% FirstViolinXVIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin16MusicVoice [measure 8] %%%
+                            %%% FirstViolinXVIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin17MusicStaff" {
-                        \context Voice = "FirstViolin17MusicVoice" {
+                    \context Staff = "FirstViolinXVIIMusicStaff" {
+                        \tag FirstViolinXVII
+                        \context Voice = "FirstViolinXVIIMusicVoice" {
                             
-                            %%% FirstViolin17MusicVoice [measure 1] %%%
+                            %%% FirstViolinXVIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3358,35 +3151,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin17MusicVoice [measure 2] %%%
+                            %%% FirstViolinXVIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin17MusicVoice [measure 3] %%%
+                            %%% FirstViolinXVIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin17MusicVoice [measure 4] %%%
+                            %%% FirstViolinXVIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin17MusicVoice [measure 5] %%%
+                            %%% FirstViolinXVIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin17MusicVoice [measure 6] %%%
+                            %%% FirstViolinXVIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin17MusicVoice [measure 7] %%%
+                            %%% FirstViolinXVIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin17MusicVoice [measure 8] %%%
+                            %%% FirstViolinXVIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.first_violins
-                    \context Staff = "FirstViolin18MusicStaff" {
-                        \context Voice = "FirstViolin18MusicVoice" {
+                    \context Staff = "FirstViolinXVIIIMusicStaff" {
+                        \tag FirstViolinXVIII
+                        \context Voice = "FirstViolinXVIIIMusicVoice" {
                             
-                            %%% FirstViolin18MusicVoice [measure 1] %%%
+                            %%% FirstViolinXVIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3416,25 +3209,25 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% FirstViolin18MusicVoice [measure 2] %%%
+                            %%% FirstViolinXVIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% FirstViolin18MusicVoice [measure 3] %%%
+                            %%% FirstViolinXVIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% FirstViolin18MusicVoice [measure 4] %%%
+                            %%% FirstViolinXVIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin18MusicVoice [measure 5] %%%
+                            %%% FirstViolinXVIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% FirstViolin18MusicVoice [measure 6] %%%
+                            %%% FirstViolinXVIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% FirstViolin18MusicVoice [measure 7] %%%
+                            %%% FirstViolinXVIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% FirstViolin18MusicVoice [measure 8] %%%
+                            %%% FirstViolinXVIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
@@ -3444,11 +3237,11 @@
                 \context StaffGroup = "SecondViolinSectionStaffGroup" \with {
                     systemStartDelimiter = #'SystemStartSquare
                 } <<
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin1MusicStaff" {
-                        \context Voice = "SecondViolin1MusicVoice" {
+                    \context Staff = "SecondViolinIMusicStaff" {
+                        \tag SecondViolinI
+                        \context Voice = "SecondViolinIMusicVoice" {
                             
-                            %%% SecondViolin1MusicVoice [measure 1] %%%
+                            %%% SecondViolinIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3478,35 +3271,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin1MusicVoice [measure 2] %%%
+                            %%% SecondViolinIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin1MusicVoice [measure 3] %%%
+                            %%% SecondViolinIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin1MusicVoice [measure 4] %%%
+                            %%% SecondViolinIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin1MusicVoice [measure 5] %%%
+                            %%% SecondViolinIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin1MusicVoice [measure 6] %%%
+                            %%% SecondViolinIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin1MusicVoice [measure 7] %%%
+                            %%% SecondViolinIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin1MusicVoice [measure 8] %%%
+                            %%% SecondViolinIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin2MusicStaff" {
-                        \context Voice = "SecondViolin2MusicVoice" {
+                    \context Staff = "SecondViolinIIMusicStaff" {
+                        \tag SecondViolinII
+                        \context Voice = "SecondViolinIIMusicVoice" {
                             
-                            %%% SecondViolin2MusicVoice [measure 1] %%%
+                            %%% SecondViolinIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3536,35 +3329,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin2MusicVoice [measure 2] %%%
+                            %%% SecondViolinIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin2MusicVoice [measure 3] %%%
+                            %%% SecondViolinIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin2MusicVoice [measure 4] %%%
+                            %%% SecondViolinIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin2MusicVoice [measure 5] %%%
+                            %%% SecondViolinIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin2MusicVoice [measure 6] %%%
+                            %%% SecondViolinIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin2MusicVoice [measure 7] %%%
+                            %%% SecondViolinIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin2MusicVoice [measure 8] %%%
+                            %%% SecondViolinIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin3MusicStaff" {
-                        \context Voice = "SecondViolin3MusicVoice" {
+                    \context Staff = "SecondViolinIIIMusicStaff" {
+                        \tag SecondViolinIII
+                        \context Voice = "SecondViolinIIIMusicVoice" {
                             
-                            %%% SecondViolin3MusicVoice [measure 1] %%%
+                            %%% SecondViolinIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3594,35 +3387,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin3MusicVoice [measure 2] %%%
+                            %%% SecondViolinIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin3MusicVoice [measure 3] %%%
+                            %%% SecondViolinIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin3MusicVoice [measure 4] %%%
+                            %%% SecondViolinIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin3MusicVoice [measure 5] %%%
+                            %%% SecondViolinIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin3MusicVoice [measure 6] %%%
+                            %%% SecondViolinIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin3MusicVoice [measure 7] %%%
+                            %%% SecondViolinIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin3MusicVoice [measure 8] %%%
+                            %%% SecondViolinIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin4MusicStaff" {
-                        \context Voice = "SecondViolin4MusicVoice" {
+                    \context Staff = "SecondViolinIVMusicStaff" {
+                        \tag SecondViolinIV
+                        \context Voice = "SecondViolinIVMusicVoice" {
                             
-                            %%% SecondViolin4MusicVoice [measure 1] %%%
+                            %%% SecondViolinIVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3652,35 +3445,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin4MusicVoice [measure 2] %%%
+                            %%% SecondViolinIVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin4MusicVoice [measure 3] %%%
+                            %%% SecondViolinIVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin4MusicVoice [measure 4] %%%
+                            %%% SecondViolinIVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin4MusicVoice [measure 5] %%%
+                            %%% SecondViolinIVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin4MusicVoice [measure 6] %%%
+                            %%% SecondViolinIVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin4MusicVoice [measure 7] %%%
+                            %%% SecondViolinIVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin4MusicVoice [measure 8] %%%
+                            %%% SecondViolinIVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin5MusicStaff" {
-                        \context Voice = "SecondViolin5MusicVoice" {
+                    \context Staff = "SecondViolinVMusicStaff" {
+                        \tag SecondViolinV
+                        \context Voice = "SecondViolinVMusicVoice" {
                             
-                            %%% SecondViolin5MusicVoice [measure 1] %%%
+                            %%% SecondViolinVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3710,35 +3503,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin5MusicVoice [measure 2] %%%
+                            %%% SecondViolinVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin5MusicVoice [measure 3] %%%
+                            %%% SecondViolinVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin5MusicVoice [measure 4] %%%
+                            %%% SecondViolinVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin5MusicVoice [measure 5] %%%
+                            %%% SecondViolinVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin5MusicVoice [measure 6] %%%
+                            %%% SecondViolinVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin5MusicVoice [measure 7] %%%
+                            %%% SecondViolinVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin5MusicVoice [measure 8] %%%
+                            %%% SecondViolinVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin6MusicStaff" {
-                        \context Voice = "SecondViolin6MusicVoice" {
+                    \context Staff = "SecondViolinVIMusicStaff" {
+                        \tag SecondViolinVI
+                        \context Voice = "SecondViolinVIMusicVoice" {
                             
-                            %%% SecondViolin6MusicVoice [measure 1] %%%
+                            %%% SecondViolinVIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3768,35 +3561,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin6MusicVoice [measure 2] %%%
+                            %%% SecondViolinVIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin6MusicVoice [measure 3] %%%
+                            %%% SecondViolinVIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin6MusicVoice [measure 4] %%%
+                            %%% SecondViolinVIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin6MusicVoice [measure 5] %%%
+                            %%% SecondViolinVIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin6MusicVoice [measure 6] %%%
+                            %%% SecondViolinVIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin6MusicVoice [measure 7] %%%
+                            %%% SecondViolinVIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin6MusicVoice [measure 8] %%%
+                            %%% SecondViolinVIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin7MusicStaff" {
-                        \context Voice = "SecondViolin7MusicVoice" {
+                    \context Staff = "SecondViolinVIIMusicStaff" {
+                        \tag SecondViolinVII
+                        \context Voice = "SecondViolinVIIMusicVoice" {
                             
-                            %%% SecondViolin7MusicVoice [measure 1] %%%
+                            %%% SecondViolinVIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3826,35 +3619,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin7MusicVoice [measure 2] %%%
+                            %%% SecondViolinVIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin7MusicVoice [measure 3] %%%
+                            %%% SecondViolinVIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin7MusicVoice [measure 4] %%%
+                            %%% SecondViolinVIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin7MusicVoice [measure 5] %%%
+                            %%% SecondViolinVIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin7MusicVoice [measure 6] %%%
+                            %%% SecondViolinVIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin7MusicVoice [measure 7] %%%
+                            %%% SecondViolinVIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin7MusicVoice [measure 8] %%%
+                            %%% SecondViolinVIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin8MusicStaff" {
-                        \context Voice = "SecondViolin8MusicVoice" {
+                    \context Staff = "SecondViolinVIIIMusicStaff" {
+                        \tag SecondViolinVIII
+                        \context Voice = "SecondViolinVIIIMusicVoice" {
                             
-                            %%% SecondViolin8MusicVoice [measure 1] %%%
+                            %%% SecondViolinVIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3884,35 +3677,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin8MusicVoice [measure 2] %%%
+                            %%% SecondViolinVIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin8MusicVoice [measure 3] %%%
+                            %%% SecondViolinVIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin8MusicVoice [measure 4] %%%
+                            %%% SecondViolinVIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin8MusicVoice [measure 5] %%%
+                            %%% SecondViolinVIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin8MusicVoice [measure 6] %%%
+                            %%% SecondViolinVIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin8MusicVoice [measure 7] %%%
+                            %%% SecondViolinVIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin8MusicVoice [measure 8] %%%
+                            %%% SecondViolinVIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin9MusicStaff" {
-                        \context Voice = "SecondViolin9MusicVoice" {
+                    \context Staff = "SecondViolinIXMusicStaff" {
+                        \tag SecondViolinIX
+                        \context Voice = "SecondViolinIXMusicVoice" {
                             
-                            %%% SecondViolin9MusicVoice [measure 1] %%%
+                            %%% SecondViolinIXMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -3942,35 +3735,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin9MusicVoice [measure 2] %%%
+                            %%% SecondViolinIXMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin9MusicVoice [measure 3] %%%
+                            %%% SecondViolinIXMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin9MusicVoice [measure 4] %%%
+                            %%% SecondViolinIXMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin9MusicVoice [measure 5] %%%
+                            %%% SecondViolinIXMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin9MusicVoice [measure 6] %%%
+                            %%% SecondViolinIXMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin9MusicVoice [measure 7] %%%
+                            %%% SecondViolinIXMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin9MusicVoice [measure 8] %%%
+                            %%% SecondViolinIXMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin10MusicStaff" {
-                        \context Voice = "SecondViolin10MusicVoice" {
+                    \context Staff = "SecondViolinXMusicStaff" {
+                        \tag SecondViolinX
+                        \context Voice = "SecondViolinXMusicVoice" {
                             
-                            %%% SecondViolin10MusicVoice [measure 1] %%%
+                            %%% SecondViolinXMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4000,35 +3793,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin10MusicVoice [measure 2] %%%
+                            %%% SecondViolinXMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin10MusicVoice [measure 3] %%%
+                            %%% SecondViolinXMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin10MusicVoice [measure 4] %%%
+                            %%% SecondViolinXMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin10MusicVoice [measure 5] %%%
+                            %%% SecondViolinXMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin10MusicVoice [measure 6] %%%
+                            %%% SecondViolinXMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin10MusicVoice [measure 7] %%%
+                            %%% SecondViolinXMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin10MusicVoice [measure 8] %%%
+                            %%% SecondViolinXMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin11MusicStaff" {
-                        \context Voice = "SecondViolin11MusicVoice" {
+                    \context Staff = "SecondViolinXIMusicStaff" {
+                        \tag SecondViolinXI
+                        \context Voice = "SecondViolinXIMusicVoice" {
                             
-                            %%% SecondViolin11MusicVoice [measure 1] %%%
+                            %%% SecondViolinXIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4058,35 +3851,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin11MusicVoice [measure 2] %%%
+                            %%% SecondViolinXIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin11MusicVoice [measure 3] %%%
+                            %%% SecondViolinXIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin11MusicVoice [measure 4] %%%
+                            %%% SecondViolinXIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin11MusicVoice [measure 5] %%%
+                            %%% SecondViolinXIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin11MusicVoice [measure 6] %%%
+                            %%% SecondViolinXIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin11MusicVoice [measure 7] %%%
+                            %%% SecondViolinXIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin11MusicVoice [measure 8] %%%
+                            %%% SecondViolinXIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin12MusicStaff" {
-                        \context Voice = "SecondViolin12MusicVoice" {
+                    \context Staff = "SecondViolinXIIMusicStaff" {
+                        \tag SecondViolinXII
+                        \context Voice = "SecondViolinXIIMusicVoice" {
                             
-                            %%% SecondViolin12MusicVoice [measure 1] %%%
+                            %%% SecondViolinXIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4116,35 +3909,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin12MusicVoice [measure 2] %%%
+                            %%% SecondViolinXIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin12MusicVoice [measure 3] %%%
+                            %%% SecondViolinXIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin12MusicVoice [measure 4] %%%
+                            %%% SecondViolinXIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin12MusicVoice [measure 5] %%%
+                            %%% SecondViolinXIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin12MusicVoice [measure 6] %%%
+                            %%% SecondViolinXIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin12MusicVoice [measure 7] %%%
+                            %%% SecondViolinXIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin12MusicVoice [measure 8] %%%
+                            %%% SecondViolinXIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin13MusicStaff" {
-                        \context Voice = "SecondViolin13MusicVoice" {
+                    \context Staff = "SecondViolinXIIIMusicStaff" {
+                        \tag SecondViolinXIII
+                        \context Voice = "SecondViolinXIIIMusicVoice" {
                             
-                            %%% SecondViolin13MusicVoice [measure 1] %%%
+                            %%% SecondViolinXIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4174,35 +3967,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin13MusicVoice [measure 2] %%%
+                            %%% SecondViolinXIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin13MusicVoice [measure 3] %%%
+                            %%% SecondViolinXIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin13MusicVoice [measure 4] %%%
+                            %%% SecondViolinXIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin13MusicVoice [measure 5] %%%
+                            %%% SecondViolinXIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin13MusicVoice [measure 6] %%%
+                            %%% SecondViolinXIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin13MusicVoice [measure 7] %%%
+                            %%% SecondViolinXIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin13MusicVoice [measure 8] %%%
+                            %%% SecondViolinXIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin14MusicStaff" {
-                        \context Voice = "SecondViolin14MusicVoice" {
+                    \context Staff = "SecondViolinXIVMusicStaff" {
+                        \tag SecondViolinXIV
+                        \context Voice = "SecondViolinXIVMusicVoice" {
                             
-                            %%% SecondViolin14MusicVoice [measure 1] %%%
+                            %%% SecondViolinXIVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4232,35 +4025,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin14MusicVoice [measure 2] %%%
+                            %%% SecondViolinXIVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin14MusicVoice [measure 3] %%%
+                            %%% SecondViolinXIVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin14MusicVoice [measure 4] %%%
+                            %%% SecondViolinXIVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin14MusicVoice [measure 5] %%%
+                            %%% SecondViolinXIVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin14MusicVoice [measure 6] %%%
+                            %%% SecondViolinXIVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin14MusicVoice [measure 7] %%%
+                            %%% SecondViolinXIVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin14MusicVoice [measure 8] %%%
+                            %%% SecondViolinXIVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin15MusicStaff" {
-                        \context Voice = "SecondViolin15MusicVoice" {
+                    \context Staff = "SecondViolinXVMusicStaff" {
+                        \tag SecondViolinXV
+                        \context Voice = "SecondViolinXVMusicVoice" {
                             
-                            %%% SecondViolin15MusicVoice [measure 1] %%%
+                            %%% SecondViolinXVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4290,35 +4083,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin15MusicVoice [measure 2] %%%
+                            %%% SecondViolinXVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin15MusicVoice [measure 3] %%%
+                            %%% SecondViolinXVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin15MusicVoice [measure 4] %%%
+                            %%% SecondViolinXVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin15MusicVoice [measure 5] %%%
+                            %%% SecondViolinXVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin15MusicVoice [measure 6] %%%
+                            %%% SecondViolinXVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin15MusicVoice [measure 7] %%%
+                            %%% SecondViolinXVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin15MusicVoice [measure 8] %%%
+                            %%% SecondViolinXVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin16MusicStaff" {
-                        \context Voice = "SecondViolin16MusicVoice" {
+                    \context Staff = "SecondViolinXVIMusicStaff" {
+                        \tag SecondViolinXVI
+                        \context Voice = "SecondViolinXVIMusicVoice" {
                             
-                            %%% SecondViolin16MusicVoice [measure 1] %%%
+                            %%% SecondViolinXVIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4348,35 +4141,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin16MusicVoice [measure 2] %%%
+                            %%% SecondViolinXVIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin16MusicVoice [measure 3] %%%
+                            %%% SecondViolinXVIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin16MusicVoice [measure 4] %%%
+                            %%% SecondViolinXVIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin16MusicVoice [measure 5] %%%
+                            %%% SecondViolinXVIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin16MusicVoice [measure 6] %%%
+                            %%% SecondViolinXVIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin16MusicVoice [measure 7] %%%
+                            %%% SecondViolinXVIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin16MusicVoice [measure 8] %%%
+                            %%% SecondViolinXVIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin17MusicStaff" {
-                        \context Voice = "SecondViolin17MusicVoice" {
+                    \context Staff = "SecondViolinXVIIMusicStaff" {
+                        \tag SecondViolinXVII
+                        \context Voice = "SecondViolinXVIIMusicVoice" {
                             
-                            %%% SecondViolin17MusicVoice [measure 1] %%%
+                            %%% SecondViolinXVIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4406,35 +4199,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin17MusicVoice [measure 2] %%%
+                            %%% SecondViolinXVIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin17MusicVoice [measure 3] %%%
+                            %%% SecondViolinXVIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin17MusicVoice [measure 4] %%%
+                            %%% SecondViolinXVIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin17MusicVoice [measure 5] %%%
+                            %%% SecondViolinXVIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin17MusicVoice [measure 6] %%%
+                            %%% SecondViolinXVIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin17MusicVoice [measure 7] %%%
+                            %%% SecondViolinXVIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin17MusicVoice [measure 8] %%%
+                            %%% SecondViolinXVIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.second_violins
-                    \context Staff = "SecondViolin18MusicStaff" {
-                        \context Voice = "SecondViolin18MusicVoice" {
+                    \context Staff = "SecondViolinXVIIIMusicStaff" {
+                        \tag SecondViolinXVIII
+                        \context Voice = "SecondViolinXVIIIMusicVoice" {
                             
-                            %%% SecondViolin18MusicVoice [measure 1] %%%
+                            %%% SecondViolinXVIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4464,25 +4257,25 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% SecondViolin18MusicVoice [measure 2] %%%
+                            %%% SecondViolinXVIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% SecondViolin18MusicVoice [measure 3] %%%
+                            %%% SecondViolinXVIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% SecondViolin18MusicVoice [measure 4] %%%
+                            %%% SecondViolinXVIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin18MusicVoice [measure 5] %%%
+                            %%% SecondViolinXVIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% SecondViolin18MusicVoice [measure 6] %%%
+                            %%% SecondViolinXVIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% SecondViolin18MusicVoice [measure 7] %%%
+                            %%% SecondViolinXVIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% SecondViolin18MusicVoice [measure 8] %%%
+                            %%% SecondViolinXVIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
@@ -4492,11 +4285,11 @@
                 \context StaffGroup = "ViolaSectionStaffGroup" \with {
                     systemStartDelimiter = #'SystemStartSquare
                 } <<
-                    \tag strings.violas
-                    \context Staff = "Viola1MusicStaff" {
-                        \context Voice = "Viola1MusicVoice" {
+                    \context Staff = "ViolaIMusicStaff" {
+                        \tag ViolaI
+                        \context Voice = "ViolaIMusicVoice" {
                             
-                            %%% Viola1MusicVoice [measure 1] %%%
+                            %%% ViolaIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4526,35 +4319,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola1MusicVoice [measure 2] %%%
+                            %%% ViolaIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola1MusicVoice [measure 3] %%%
+                            %%% ViolaIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola1MusicVoice [measure 4] %%%
+                            %%% ViolaIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola1MusicVoice [measure 5] %%%
+                            %%% ViolaIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola1MusicVoice [measure 6] %%%
+                            %%% ViolaIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola1MusicVoice [measure 7] %%%
+                            %%% ViolaIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola1MusicVoice [measure 8] %%%
+                            %%% ViolaIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola2MusicStaff" {
-                        \context Voice = "Viola2MusicVoice" {
+                    \context Staff = "ViolaIIMusicStaff" {
+                        \tag ViolaII
+                        \context Voice = "ViolaIIMusicVoice" {
                             
-                            %%% Viola2MusicVoice [measure 1] %%%
+                            %%% ViolaIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4584,35 +4377,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola2MusicVoice [measure 2] %%%
+                            %%% ViolaIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola2MusicVoice [measure 3] %%%
+                            %%% ViolaIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola2MusicVoice [measure 4] %%%
+                            %%% ViolaIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola2MusicVoice [measure 5] %%%
+                            %%% ViolaIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola2MusicVoice [measure 6] %%%
+                            %%% ViolaIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola2MusicVoice [measure 7] %%%
+                            %%% ViolaIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola2MusicVoice [measure 8] %%%
+                            %%% ViolaIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola3MusicStaff" {
-                        \context Voice = "Viola3MusicVoice" {
+                    \context Staff = "ViolaIIIMusicStaff" {
+                        \tag ViolaIII
+                        \context Voice = "ViolaIIIMusicVoice" {
                             
-                            %%% Viola3MusicVoice [measure 1] %%%
+                            %%% ViolaIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4642,35 +4435,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola3MusicVoice [measure 2] %%%
+                            %%% ViolaIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola3MusicVoice [measure 3] %%%
+                            %%% ViolaIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola3MusicVoice [measure 4] %%%
+                            %%% ViolaIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola3MusicVoice [measure 5] %%%
+                            %%% ViolaIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola3MusicVoice [measure 6] %%%
+                            %%% ViolaIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola3MusicVoice [measure 7] %%%
+                            %%% ViolaIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola3MusicVoice [measure 8] %%%
+                            %%% ViolaIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola4MusicStaff" {
-                        \context Voice = "Viola4MusicVoice" {
+                    \context Staff = "ViolaIVMusicStaff" {
+                        \tag ViolaIV
+                        \context Voice = "ViolaIVMusicVoice" {
                             
-                            %%% Viola4MusicVoice [measure 1] %%%
+                            %%% ViolaIVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4700,35 +4493,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola4MusicVoice [measure 2] %%%
+                            %%% ViolaIVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola4MusicVoice [measure 3] %%%
+                            %%% ViolaIVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola4MusicVoice [measure 4] %%%
+                            %%% ViolaIVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola4MusicVoice [measure 5] %%%
+                            %%% ViolaIVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola4MusicVoice [measure 6] %%%
+                            %%% ViolaIVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola4MusicVoice [measure 7] %%%
+                            %%% ViolaIVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola4MusicVoice [measure 8] %%%
+                            %%% ViolaIVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola5MusicStaff" {
-                        \context Voice = "Viola5MusicVoice" {
+                    \context Staff = "ViolaVMusicStaff" {
+                        \tag ViolaV
+                        \context Voice = "ViolaVMusicVoice" {
                             
-                            %%% Viola5MusicVoice [measure 1] %%%
+                            %%% ViolaVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4758,35 +4551,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola5MusicVoice [measure 2] %%%
+                            %%% ViolaVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola5MusicVoice [measure 3] %%%
+                            %%% ViolaVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola5MusicVoice [measure 4] %%%
+                            %%% ViolaVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola5MusicVoice [measure 5] %%%
+                            %%% ViolaVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola5MusicVoice [measure 6] %%%
+                            %%% ViolaVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola5MusicVoice [measure 7] %%%
+                            %%% ViolaVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola5MusicVoice [measure 8] %%%
+                            %%% ViolaVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola6MusicStaff" {
-                        \context Voice = "Viola6MusicVoice" {
+                    \context Staff = "ViolaVIMusicStaff" {
+                        \tag ViolaVI
+                        \context Voice = "ViolaVIMusicVoice" {
                             
-                            %%% Viola6MusicVoice [measure 1] %%%
+                            %%% ViolaVIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4816,35 +4609,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola6MusicVoice [measure 2] %%%
+                            %%% ViolaVIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola6MusicVoice [measure 3] %%%
+                            %%% ViolaVIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola6MusicVoice [measure 4] %%%
+                            %%% ViolaVIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola6MusicVoice [measure 5] %%%
+                            %%% ViolaVIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola6MusicVoice [measure 6] %%%
+                            %%% ViolaVIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola6MusicVoice [measure 7] %%%
+                            %%% ViolaVIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola6MusicVoice [measure 8] %%%
+                            %%% ViolaVIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola7MusicStaff" {
-                        \context Voice = "Viola7MusicVoice" {
+                    \context Staff = "ViolaVIIMusicStaff" {
+                        \tag ViolaVII
+                        \context Voice = "ViolaVIIMusicVoice" {
                             
-                            %%% Viola7MusicVoice [measure 1] %%%
+                            %%% ViolaVIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4874,35 +4667,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola7MusicVoice [measure 2] %%%
+                            %%% ViolaVIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola7MusicVoice [measure 3] %%%
+                            %%% ViolaVIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola7MusicVoice [measure 4] %%%
+                            %%% ViolaVIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola7MusicVoice [measure 5] %%%
+                            %%% ViolaVIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola7MusicVoice [measure 6] %%%
+                            %%% ViolaVIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola7MusicVoice [measure 7] %%%
+                            %%% ViolaVIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola7MusicVoice [measure 8] %%%
+                            %%% ViolaVIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola8MusicStaff" {
-                        \context Voice = "Viola8MusicVoice" {
+                    \context Staff = "ViolaVIIIMusicStaff" {
+                        \tag ViolaVIII
+                        \context Voice = "ViolaVIIIMusicVoice" {
                             
-                            %%% Viola8MusicVoice [measure 1] %%%
+                            %%% ViolaVIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4932,35 +4725,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola8MusicVoice [measure 2] %%%
+                            %%% ViolaVIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola8MusicVoice [measure 3] %%%
+                            %%% ViolaVIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola8MusicVoice [measure 4] %%%
+                            %%% ViolaVIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola8MusicVoice [measure 5] %%%
+                            %%% ViolaVIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola8MusicVoice [measure 6] %%%
+                            %%% ViolaVIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola8MusicVoice [measure 7] %%%
+                            %%% ViolaVIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola8MusicVoice [measure 8] %%%
+                            %%% ViolaVIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola9MusicStaff" {
-                        \context Voice = "Viola9MusicVoice" {
+                    \context Staff = "ViolaIXMusicStaff" {
+                        \tag ViolaIX
+                        \context Voice = "ViolaIXMusicVoice" {
                             
-                            %%% Viola9MusicVoice [measure 1] %%%
+                            %%% ViolaIXMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -4990,35 +4783,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola9MusicVoice [measure 2] %%%
+                            %%% ViolaIXMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola9MusicVoice [measure 3] %%%
+                            %%% ViolaIXMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola9MusicVoice [measure 4] %%%
+                            %%% ViolaIXMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola9MusicVoice [measure 5] %%%
+                            %%% ViolaIXMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola9MusicVoice [measure 6] %%%
+                            %%% ViolaIXMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola9MusicVoice [measure 7] %%%
+                            %%% ViolaIXMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola9MusicVoice [measure 8] %%%
+                            %%% ViolaIXMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola10MusicStaff" {
-                        \context Voice = "Viola10MusicVoice" {
+                    \context Staff = "ViolaXMusicStaff" {
+                        \tag ViolaX
+                        \context Voice = "ViolaXMusicVoice" {
                             
-                            %%% Viola10MusicVoice [measure 1] %%%
+                            %%% ViolaXMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5048,35 +4841,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola10MusicVoice [measure 2] %%%
+                            %%% ViolaXMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola10MusicVoice [measure 3] %%%
+                            %%% ViolaXMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola10MusicVoice [measure 4] %%%
+                            %%% ViolaXMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola10MusicVoice [measure 5] %%%
+                            %%% ViolaXMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola10MusicVoice [measure 6] %%%
+                            %%% ViolaXMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola10MusicVoice [measure 7] %%%
+                            %%% ViolaXMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola10MusicVoice [measure 8] %%%
+                            %%% ViolaXMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola11MusicStaff" {
-                        \context Voice = "Viola11MusicVoice" {
+                    \context Staff = "ViolaXIMusicStaff" {
+                        \tag ViolaXI
+                        \context Voice = "ViolaXIMusicVoice" {
                             
-                            %%% Viola11MusicVoice [measure 1] %%%
+                            %%% ViolaXIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5106,35 +4899,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola11MusicVoice [measure 2] %%%
+                            %%% ViolaXIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola11MusicVoice [measure 3] %%%
+                            %%% ViolaXIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola11MusicVoice [measure 4] %%%
+                            %%% ViolaXIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola11MusicVoice [measure 5] %%%
+                            %%% ViolaXIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola11MusicVoice [measure 6] %%%
+                            %%% ViolaXIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola11MusicVoice [measure 7] %%%
+                            %%% ViolaXIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola11MusicVoice [measure 8] %%%
+                            %%% ViolaXIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola12MusicStaff" {
-                        \context Voice = "Viola12MusicVoice" {
+                    \context Staff = "ViolaXIIMusicStaff" {
+                        \tag ViolaXII
+                        \context Voice = "ViolaXIIMusicVoice" {
                             
-                            %%% Viola12MusicVoice [measure 1] %%%
+                            %%% ViolaXIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5164,35 +4957,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola12MusicVoice [measure 2] %%%
+                            %%% ViolaXIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola12MusicVoice [measure 3] %%%
+                            %%% ViolaXIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola12MusicVoice [measure 4] %%%
+                            %%% ViolaXIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola12MusicVoice [measure 5] %%%
+                            %%% ViolaXIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola12MusicVoice [measure 6] %%%
+                            %%% ViolaXIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola12MusicVoice [measure 7] %%%
+                            %%% ViolaXIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola12MusicVoice [measure 8] %%%
+                            %%% ViolaXIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola13MusicStaff" {
-                        \context Voice = "Viola13MusicVoice" {
+                    \context Staff = "ViolaXIIIMusicStaff" {
+                        \tag ViolaXIII
+                        \context Voice = "ViolaXIIIMusicVoice" {
                             
-                            %%% Viola13MusicVoice [measure 1] %%%
+                            %%% ViolaXIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5222,35 +5015,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola13MusicVoice [measure 2] %%%
+                            %%% ViolaXIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola13MusicVoice [measure 3] %%%
+                            %%% ViolaXIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola13MusicVoice [measure 4] %%%
+                            %%% ViolaXIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola13MusicVoice [measure 5] %%%
+                            %%% ViolaXIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola13MusicVoice [measure 6] %%%
+                            %%% ViolaXIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola13MusicVoice [measure 7] %%%
+                            %%% ViolaXIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola13MusicVoice [measure 8] %%%
+                            %%% ViolaXIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola14MusicStaff" {
-                        \context Voice = "Viola14MusicVoice" {
+                    \context Staff = "ViolaXIVMusicStaff" {
+                        \tag ViolaXIV
+                        \context Voice = "ViolaXIVMusicVoice" {
                             
-                            %%% Viola14MusicVoice [measure 1] %%%
+                            %%% ViolaXIVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5280,35 +5073,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola14MusicVoice [measure 2] %%%
+                            %%% ViolaXIVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola14MusicVoice [measure 3] %%%
+                            %%% ViolaXIVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola14MusicVoice [measure 4] %%%
+                            %%% ViolaXIVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola14MusicVoice [measure 5] %%%
+                            %%% ViolaXIVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola14MusicVoice [measure 6] %%%
+                            %%% ViolaXIVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola14MusicVoice [measure 7] %%%
+                            %%% ViolaXIVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola14MusicVoice [measure 8] %%%
+                            %%% ViolaXIVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola15MusicStaff" {
-                        \context Voice = "Viola15MusicVoice" {
+                    \context Staff = "ViolaXVMusicStaff" {
+                        \tag ViolaXV
+                        \context Voice = "ViolaXVMusicVoice" {
                             
-                            %%% Viola15MusicVoice [measure 1] %%%
+                            %%% ViolaXVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5338,35 +5131,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola15MusicVoice [measure 2] %%%
+                            %%% ViolaXVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola15MusicVoice [measure 3] %%%
+                            %%% ViolaXVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola15MusicVoice [measure 4] %%%
+                            %%% ViolaXVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola15MusicVoice [measure 5] %%%
+                            %%% ViolaXVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola15MusicVoice [measure 6] %%%
+                            %%% ViolaXVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola15MusicVoice [measure 7] %%%
+                            %%% ViolaXVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola15MusicVoice [measure 8] %%%
+                            %%% ViolaXVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola16MusicStaff" {
-                        \context Voice = "Viola16MusicVoice" {
+                    \context Staff = "ViolaXVIMusicStaff" {
+                        \tag ViolaXVI
+                        \context Voice = "ViolaXVIMusicVoice" {
                             
-                            %%% Viola16MusicVoice [measure 1] %%%
+                            %%% ViolaXVIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5396,35 +5189,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola16MusicVoice [measure 2] %%%
+                            %%% ViolaXVIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola16MusicVoice [measure 3] %%%
+                            %%% ViolaXVIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola16MusicVoice [measure 4] %%%
+                            %%% ViolaXVIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola16MusicVoice [measure 5] %%%
+                            %%% ViolaXVIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola16MusicVoice [measure 6] %%%
+                            %%% ViolaXVIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola16MusicVoice [measure 7] %%%
+                            %%% ViolaXVIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola16MusicVoice [measure 8] %%%
+                            %%% ViolaXVIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola17MusicStaff" {
-                        \context Voice = "Viola17MusicVoice" {
+                    \context Staff = "ViolaXVIIMusicStaff" {
+                        \tag ViolaXVII
+                        \context Voice = "ViolaXVIIMusicVoice" {
                             
-                            %%% Viola17MusicVoice [measure 1] %%%
+                            %%% ViolaXVIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5454,35 +5247,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola17MusicVoice [measure 2] %%%
+                            %%% ViolaXVIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola17MusicVoice [measure 3] %%%
+                            %%% ViolaXVIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola17MusicVoice [measure 4] %%%
+                            %%% ViolaXVIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola17MusicVoice [measure 5] %%%
+                            %%% ViolaXVIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola17MusicVoice [measure 6] %%%
+                            %%% ViolaXVIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola17MusicVoice [measure 7] %%%
+                            %%% ViolaXVIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola17MusicVoice [measure 8] %%%
+                            %%% ViolaXVIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.violas
-                    \context Staff = "Viola18MusicStaff" {
-                        \context Voice = "Viola18MusicVoice" {
+                    \context Staff = "ViolaXVIIIMusicStaff" {
+                        \tag ViolaXVIII
+                        \context Voice = "ViolaXVIIIMusicVoice" {
                             
-                            %%% Viola18MusicVoice [measure 1] %%%
+                            %%% ViolaXVIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5512,25 +5305,25 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Viola18MusicVoice [measure 2] %%%
+                            %%% ViolaXVIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Viola18MusicVoice [measure 3] %%%
+                            %%% ViolaXVIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Viola18MusicVoice [measure 4] %%%
+                            %%% ViolaXVIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Viola18MusicVoice [measure 5] %%%
+                            %%% ViolaXVIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Viola18MusicVoice [measure 6] %%%
+                            %%% ViolaXVIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Viola18MusicVoice [measure 7] %%%
+                            %%% ViolaXVIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Viola18MusicVoice [measure 8] %%%
+                            %%% ViolaXVIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
@@ -5540,11 +5333,11 @@
                 \context StaffGroup = "CelloSectionStaffGroup" \with {
                     systemStartDelimiter = #'SystemStartSquare
                 } <<
-                    \tag strings.cellos
-                    \context Staff = "Cello1MusicStaff" {
-                        \context Voice = "Cello1MusicVoice" {
+                    \context Staff = "CelloIMusicStaff" {
+                        \tag CelloI
+                        \context Voice = "CelloIMusicVoice" {
                             
-                            %%% Cello1MusicVoice [measure 1] %%%
+                            %%% CelloIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5574,35 +5367,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Cello1MusicVoice [measure 2] %%%
+                            %%% CelloIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Cello1MusicVoice [measure 3] %%%
+                            %%% CelloIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Cello1MusicVoice [measure 4] %%%
+                            %%% CelloIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Cello1MusicVoice [measure 5] %%%
+                            %%% CelloIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Cello1MusicVoice [measure 6] %%%
+                            %%% CelloIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Cello1MusicVoice [measure 7] %%%
+                            %%% CelloIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Cello1MusicVoice [measure 8] %%%
+                            %%% CelloIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.cellos
-                    \context Staff = "Cello2MusicStaff" {
-                        \context Voice = "Cello2MusicVoice" {
+                    \context Staff = "CelloIIMusicStaff" {
+                        \tag CelloII
+                        \context Voice = "CelloIIMusicVoice" {
                             
-                            %%% Cello2MusicVoice [measure 1] %%%
+                            %%% CelloIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5632,35 +5425,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Cello2MusicVoice [measure 2] %%%
+                            %%% CelloIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Cello2MusicVoice [measure 3] %%%
+                            %%% CelloIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Cello2MusicVoice [measure 4] %%%
+                            %%% CelloIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Cello2MusicVoice [measure 5] %%%
+                            %%% CelloIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Cello2MusicVoice [measure 6] %%%
+                            %%% CelloIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Cello2MusicVoice [measure 7] %%%
+                            %%% CelloIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Cello2MusicVoice [measure 8] %%%
+                            %%% CelloIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.cellos
-                    \context Staff = "Cello3MusicStaff" {
-                        \context Voice = "Cello3MusicVoice" {
+                    \context Staff = "CelloIIIMusicStaff" {
+                        \tag CelloIII
+                        \context Voice = "CelloIIIMusicVoice" {
                             
-                            %%% Cello3MusicVoice [measure 1] %%%
+                            %%% CelloIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5690,35 +5483,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Cello3MusicVoice [measure 2] %%%
+                            %%% CelloIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Cello3MusicVoice [measure 3] %%%
+                            %%% CelloIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Cello3MusicVoice [measure 4] %%%
+                            %%% CelloIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Cello3MusicVoice [measure 5] %%%
+                            %%% CelloIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Cello3MusicVoice [measure 6] %%%
+                            %%% CelloIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Cello3MusicVoice [measure 7] %%%
+                            %%% CelloIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Cello3MusicVoice [measure 8] %%%
+                            %%% CelloIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.cellos
-                    \context Staff = "Cello4MusicStaff" {
-                        \context Voice = "Cello4MusicVoice" {
+                    \context Staff = "CelloIVMusicStaff" {
+                        \tag CelloIV
+                        \context Voice = "CelloIVMusicVoice" {
                             
-                            %%% Cello4MusicVoice [measure 1] %%%
+                            %%% CelloIVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5748,35 +5541,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Cello4MusicVoice [measure 2] %%%
+                            %%% CelloIVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Cello4MusicVoice [measure 3] %%%
+                            %%% CelloIVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Cello4MusicVoice [measure 4] %%%
+                            %%% CelloIVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Cello4MusicVoice [measure 5] %%%
+                            %%% CelloIVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Cello4MusicVoice [measure 6] %%%
+                            %%% CelloIVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Cello4MusicVoice [measure 7] %%%
+                            %%% CelloIVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Cello4MusicVoice [measure 8] %%%
+                            %%% CelloIVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.cellos
-                    \context Staff = "Cello5MusicStaff" {
-                        \context Voice = "Cello5MusicVoice" {
+                    \context Staff = "CelloVMusicStaff" {
+                        \tag CelloV
+                        \context Voice = "CelloVMusicVoice" {
                             
-                            %%% Cello5MusicVoice [measure 1] %%%
+                            %%% CelloVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5806,35 +5599,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Cello5MusicVoice [measure 2] %%%
+                            %%% CelloVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Cello5MusicVoice [measure 3] %%%
+                            %%% CelloVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Cello5MusicVoice [measure 4] %%%
+                            %%% CelloVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Cello5MusicVoice [measure 5] %%%
+                            %%% CelloVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Cello5MusicVoice [measure 6] %%%
+                            %%% CelloVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Cello5MusicVoice [measure 7] %%%
+                            %%% CelloVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Cello5MusicVoice [measure 8] %%%
+                            %%% CelloVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.cellos
-                    \context Staff = "Cello6MusicStaff" {
-                        \context Voice = "Cello6MusicVoice" {
+                    \context Staff = "CelloVIMusicStaff" {
+                        \tag CelloVI
+                        \context Voice = "CelloVIMusicVoice" {
                             
-                            %%% Cello6MusicVoice [measure 1] %%%
+                            %%% CelloVIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5864,35 +5657,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Cello6MusicVoice [measure 2] %%%
+                            %%% CelloVIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Cello6MusicVoice [measure 3] %%%
+                            %%% CelloVIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Cello6MusicVoice [measure 4] %%%
+                            %%% CelloVIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Cello6MusicVoice [measure 5] %%%
+                            %%% CelloVIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Cello6MusicVoice [measure 6] %%%
+                            %%% CelloVIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Cello6MusicVoice [measure 7] %%%
+                            %%% CelloVIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Cello6MusicVoice [measure 8] %%%
+                            %%% CelloVIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.cellos
-                    \context Staff = "Cello7MusicStaff" {
-                        \context Voice = "Cello7MusicVoice" {
+                    \context Staff = "CelloVIIMusicStaff" {
+                        \tag CelloVII
+                        \context Voice = "CelloVIIMusicVoice" {
                             
-                            %%% Cello7MusicVoice [measure 1] %%%
+                            %%% CelloVIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5922,35 +5715,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Cello7MusicVoice [measure 2] %%%
+                            %%% CelloVIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Cello7MusicVoice [measure 3] %%%
+                            %%% CelloVIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Cello7MusicVoice [measure 4] %%%
+                            %%% CelloVIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Cello7MusicVoice [measure 5] %%%
+                            %%% CelloVIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Cello7MusicVoice [measure 6] %%%
+                            %%% CelloVIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Cello7MusicVoice [measure 7] %%%
+                            %%% CelloVIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Cello7MusicVoice [measure 8] %%%
+                            %%% CelloVIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.cellos
-                    \context Staff = "Cello8MusicStaff" {
-                        \context Voice = "Cello8MusicVoice" {
+                    \context Staff = "CelloVIIIMusicStaff" {
+                        \tag CelloVIII
+                        \context Voice = "CelloVIIIMusicVoice" {
                             
-                            %%% Cello8MusicVoice [measure 1] %%%
+                            %%% CelloVIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -5980,35 +5773,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Cello8MusicVoice [measure 2] %%%
+                            %%% CelloVIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Cello8MusicVoice [measure 3] %%%
+                            %%% CelloVIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Cello8MusicVoice [measure 4] %%%
+                            %%% CelloVIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Cello8MusicVoice [measure 5] %%%
+                            %%% CelloVIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Cello8MusicVoice [measure 6] %%%
+                            %%% CelloVIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Cello8MusicVoice [measure 7] %%%
+                            %%% CelloVIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Cello8MusicVoice [measure 8] %%%
+                            %%% CelloVIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.cellos
-                    \context Staff = "Cello9MusicStaff" {
-                        \context Voice = "Cello9MusicVoice" {
+                    \context Staff = "CelloIXMusicStaff" {
+                        \tag CelloIX
+                        \context Voice = "CelloIXMusicVoice" {
                             
-                            %%% Cello9MusicVoice [measure 1] %%%
+                            %%% CelloIXMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -6038,35 +5831,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Cello9MusicVoice [measure 2] %%%
+                            %%% CelloIXMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Cello9MusicVoice [measure 3] %%%
+                            %%% CelloIXMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Cello9MusicVoice [measure 4] %%%
+                            %%% CelloIXMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Cello9MusicVoice [measure 5] %%%
+                            %%% CelloIXMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Cello9MusicVoice [measure 6] %%%
+                            %%% CelloIXMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Cello9MusicVoice [measure 7] %%%
+                            %%% CelloIXMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Cello9MusicVoice [measure 8] %%%
+                            %%% CelloIXMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.cellos
-                    \context Staff = "Cello10MusicStaff" {
-                        \context Voice = "Cello10MusicVoice" {
+                    \context Staff = "CelloXMusicStaff" {
+                        \tag CelloX
+                        \context Voice = "CelloXMusicVoice" {
                             
-                            %%% Cello10MusicVoice [measure 1] %%%
+                            %%% CelloXMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -6096,35 +5889,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Cello10MusicVoice [measure 2] %%%
+                            %%% CelloXMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Cello10MusicVoice [measure 3] %%%
+                            %%% CelloXMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Cello10MusicVoice [measure 4] %%%
+                            %%% CelloXMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Cello10MusicVoice [measure 5] %%%
+                            %%% CelloXMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Cello10MusicVoice [measure 6] %%%
+                            %%% CelloXMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Cello10MusicVoice [measure 7] %%%
+                            %%% CelloXMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Cello10MusicVoice [measure 8] %%%
+                            %%% CelloXMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.cellos
-                    \context Staff = "Cello11MusicStaff" {
-                        \context Voice = "Cello11MusicVoice" {
+                    \context Staff = "CelloXIMusicStaff" {
+                        \tag CelloXI
+                        \context Voice = "CelloXIMusicVoice" {
                             
-                            %%% Cello11MusicVoice [measure 1] %%%
+                            %%% CelloXIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -6154,35 +5947,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Cello11MusicVoice [measure 2] %%%
+                            %%% CelloXIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Cello11MusicVoice [measure 3] %%%
+                            %%% CelloXIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Cello11MusicVoice [measure 4] %%%
+                            %%% CelloXIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Cello11MusicVoice [measure 5] %%%
+                            %%% CelloXIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Cello11MusicVoice [measure 6] %%%
+                            %%% CelloXIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Cello11MusicVoice [measure 7] %%%
+                            %%% CelloXIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Cello11MusicVoice [measure 8] %%%
+                            %%% CelloXIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.cellos
-                    \context Staff = "Cello12MusicStaff" {
-                        \context Voice = "Cello12MusicVoice" {
+                    \context Staff = "CelloXIIMusicStaff" {
+                        \tag CelloXII
+                        \context Voice = "CelloXIIMusicVoice" {
                             
-                            %%% Cello12MusicVoice [measure 1] %%%
+                            %%% CelloXIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -6212,35 +6005,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Cello12MusicVoice [measure 2] %%%
+                            %%% CelloXIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Cello12MusicVoice [measure 3] %%%
+                            %%% CelloXIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Cello12MusicVoice [measure 4] %%%
+                            %%% CelloXIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Cello12MusicVoice [measure 5] %%%
+                            %%% CelloXIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Cello12MusicVoice [measure 6] %%%
+                            %%% CelloXIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Cello12MusicVoice [measure 7] %%%
+                            %%% CelloXIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Cello12MusicVoice [measure 8] %%%
+                            %%% CelloXIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.cellos
-                    \context Staff = "Cello13MusicStaff" {
-                        \context Voice = "Cello13MusicVoice" {
+                    \context Staff = "CelloXIIIMusicStaff" {
+                        \tag CelloXIII
+                        \context Voice = "CelloXIIIMusicVoice" {
                             
-                            %%% Cello13MusicVoice [measure 1] %%%
+                            %%% CelloXIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -6270,35 +6063,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Cello13MusicVoice [measure 2] %%%
+                            %%% CelloXIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Cello13MusicVoice [measure 3] %%%
+                            %%% CelloXIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Cello13MusicVoice [measure 4] %%%
+                            %%% CelloXIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Cello13MusicVoice [measure 5] %%%
+                            %%% CelloXIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Cello13MusicVoice [measure 6] %%%
+                            %%% CelloXIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Cello13MusicVoice [measure 7] %%%
+                            %%% CelloXIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Cello13MusicVoice [measure 8] %%%
+                            %%% CelloXIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.cellos
-                    \context Staff = "Cello14MusicStaff" {
-                        \context Voice = "Cello14MusicVoice" {
+                    \context Staff = "CelloXIVMusicStaff" {
+                        \tag CelloXIV
+                        \context Voice = "CelloXIVMusicVoice" {
                             
-                            %%% Cello14MusicVoice [measure 1] %%%
+                            %%% CelloXIVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -6328,25 +6121,25 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Cello14MusicVoice [measure 2] %%%
+                            %%% CelloXIVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Cello14MusicVoice [measure 3] %%%
+                            %%% CelloXIVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Cello14MusicVoice [measure 4] %%%
+                            %%% CelloXIVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Cello14MusicVoice [measure 5] %%%
+                            %%% CelloXIVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Cello14MusicVoice [measure 6] %%%
+                            %%% CelloXIVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Cello14MusicVoice [measure 7] %%%
+                            %%% CelloXIVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Cello14MusicVoice [measure 8] %%%
+                            %%% CelloXIVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
@@ -6356,11 +6149,11 @@
                 \context StaffGroup = "ContrabassSectionStaffGroup" \with {
                     systemStartDelimiter = #'SystemStartSquare
                 } <<
-                    \tag strings.contrabasses
-                    \context Staff = "Contrabass1MusicStaff" {
-                        \context Voice = "Contrabass1MusicVoice" {
+                    \context Staff = "ContrabassIMusicStaff" {
+                        \tag ContrabassI
+                        \context Voice = "ContrabassIMusicVoice" {
                             
-                            %%% Contrabass1MusicVoice [measure 1] %%%
+                            %%% ContrabassIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -6390,35 +6183,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Contrabass1MusicVoice [measure 2] %%%
+                            %%% ContrabassIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Contrabass1MusicVoice [measure 3] %%%
+                            %%% ContrabassIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Contrabass1MusicVoice [measure 4] %%%
+                            %%% ContrabassIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Contrabass1MusicVoice [measure 5] %%%
+                            %%% ContrabassIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Contrabass1MusicVoice [measure 6] %%%
+                            %%% ContrabassIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Contrabass1MusicVoice [measure 7] %%%
+                            %%% ContrabassIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Contrabass1MusicVoice [measure 8] %%%
+                            %%% ContrabassIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.contrabasses
-                    \context Staff = "Contrabass2MusicStaff" {
-                        \context Voice = "Contrabass2MusicVoice" {
+                    \context Staff = "ContrabassIIMusicStaff" {
+                        \tag ContrabassII
+                        \context Voice = "ContrabassIIMusicVoice" {
                             
-                            %%% Contrabass2MusicVoice [measure 1] %%%
+                            %%% ContrabassIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -6448,35 +6241,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Contrabass2MusicVoice [measure 2] %%%
+                            %%% ContrabassIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Contrabass2MusicVoice [measure 3] %%%
+                            %%% ContrabassIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Contrabass2MusicVoice [measure 4] %%%
+                            %%% ContrabassIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Contrabass2MusicVoice [measure 5] %%%
+                            %%% ContrabassIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Contrabass2MusicVoice [measure 6] %%%
+                            %%% ContrabassIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Contrabass2MusicVoice [measure 7] %%%
+                            %%% ContrabassIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Contrabass2MusicVoice [measure 8] %%%
+                            %%% ContrabassIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.contrabasses
-                    \context Staff = "Contrabass3MusicStaff" {
-                        \context Voice = "Contrabass3MusicVoice" {
+                    \context Staff = "ContrabassIIIMusicStaff" {
+                        \tag ContrabassIII
+                        \context Voice = "ContrabassIIIMusicVoice" {
                             
-                            %%% Contrabass3MusicVoice [measure 1] %%%
+                            %%% ContrabassIIIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -6506,35 +6299,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Contrabass3MusicVoice [measure 2] %%%
+                            %%% ContrabassIIIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Contrabass3MusicVoice [measure 3] %%%
+                            %%% ContrabassIIIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Contrabass3MusicVoice [measure 4] %%%
+                            %%% ContrabassIIIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Contrabass3MusicVoice [measure 5] %%%
+                            %%% ContrabassIIIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Contrabass3MusicVoice [measure 6] %%%
+                            %%% ContrabassIIIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Contrabass3MusicVoice [measure 7] %%%
+                            %%% ContrabassIIIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Contrabass3MusicVoice [measure 8] %%%
+                            %%% ContrabassIIIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.contrabasses
-                    \context Staff = "Contrabass4MusicStaff" {
-                        \context Voice = "Contrabass4MusicVoice" {
+                    \context Staff = "ContrabassIVMusicStaff" {
+                        \tag ContrabassIV
+                        \context Voice = "ContrabassIVMusicVoice" {
                             
-                            %%% Contrabass4MusicVoice [measure 1] %%%
+                            %%% ContrabassIVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -6564,35 +6357,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Contrabass4MusicVoice [measure 2] %%%
+                            %%% ContrabassIVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Contrabass4MusicVoice [measure 3] %%%
+                            %%% ContrabassIVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Contrabass4MusicVoice [measure 4] %%%
+                            %%% ContrabassIVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Contrabass4MusicVoice [measure 5] %%%
+                            %%% ContrabassIVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Contrabass4MusicVoice [measure 6] %%%
+                            %%% ContrabassIVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Contrabass4MusicVoice [measure 7] %%%
+                            %%% ContrabassIVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Contrabass4MusicVoice [measure 8] %%%
+                            %%% ContrabassIVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.contrabasses
-                    \context Staff = "Contrabass5MusicStaff" {
-                        \context Voice = "Contrabass5MusicVoice" {
+                    \context Staff = "ContrabassVMusicStaff" {
+                        \tag ContrabassV
+                        \context Voice = "ContrabassVMusicVoice" {
                             
-                            %%% Contrabass5MusicVoice [measure 1] %%%
+                            %%% ContrabassVMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -6622,35 +6415,35 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Contrabass5MusicVoice [measure 2] %%%
+                            %%% ContrabassVMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Contrabass5MusicVoice [measure 3] %%%
+                            %%% ContrabassVMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Contrabass5MusicVoice [measure 4] %%%
+                            %%% ContrabassVMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Contrabass5MusicVoice [measure 5] %%%
+                            %%% ContrabassVMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Contrabass5MusicVoice [measure 6] %%%
+                            %%% ContrabassVMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Contrabass5MusicVoice [measure 7] %%%
+                            %%% ContrabassVMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Contrabass5MusicVoice [measure 8] %%%
+                            %%% ContrabassVMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
                         }
                     }
-                    \tag strings.contrabasses
-                    \context Staff = "Contrabass6MusicStaff" {
-                        \context Voice = "Contrabass6MusicVoice" {
+                    \context Staff = "ContrabassVIMusicStaff" {
+                        \tag ContrabassVI
+                        \context Voice = "ContrabassVIMusicVoice" {
                             
-                            %%% Contrabass6MusicVoice [measure 1] %%%
+                            %%% ContrabassVIMusicVoice [measure 1] %%%
                             \set Staff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                 \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -6680,25 +6473,25 @@
                             \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                             \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                             
-                            %%% Contrabass6MusicVoice [measure 2] %%%
+                            %%% ContrabassVIMusicVoice [measure 2] %%%
                             R1 * 1
                             
-                            %%% Contrabass6MusicVoice [measure 3] %%%
+                            %%% ContrabassVIMusicVoice [measure 3] %%%
                             R1 * 1
                             
-                            %%% Contrabass6MusicVoice [measure 4] %%%
+                            %%% ContrabassVIMusicVoice [measure 4] %%%
                             R1 * 3/4
                             
-                            %%% Contrabass6MusicVoice [measure 5] %%%
+                            %%% ContrabassVIMusicVoice [measure 5] %%%
                             R1 * 3/4
                             
-                            %%% Contrabass6MusicVoice [measure 6] %%%
+                            %%% ContrabassVIMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Contrabass6MusicVoice [measure 7] %%%
+                            %%% ContrabassVIMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Contrabass6MusicVoice [measure 8] %%%
+                            %%% ContrabassVIMusicVoice [measure 8] %%%
                             R1 * 1/2
                             \bar "|"
                             
