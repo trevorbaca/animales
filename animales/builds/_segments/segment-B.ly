@@ -1,26 +1,27 @@
 \context Score = "Score" \with {
-    currentBarNumber = #9
+    currentBarNumber = #15
 } <<
     \tag Piccolo.FluteI.FluteII.FluteIII.OboeI.OboeII.OboeIII.EnglishHorn.ClarinetI.ClarinetII.ClarinetIII.BassClarinet.BassoonI.BassoonII.HornI.HornII.HornIII.HornIV.TrumpetI.TrumpetII.TrumpetIII.TrumpetIV.TromboneI.TromboneII.TromboneIII.TromboneIV.HornI.HornII.HornIII.HornIV.Tuba.Harp.Piano.PercussionI.PercussionII.PercussionIII.PercussionIV.FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX.FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII.SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX.SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII.ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX.ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII.CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV.ContrabassI.ContrabassII.ContrabassIII.ContrabassIV.ContrabassV.ContrabassVI
     \context GlobalContext = "GlobalContext" <<
         \context GlobalSkips = "GlobalSkips" {
             
-            %%% GlobalSkips [measure 9] %%%
-            \time 4/4
-            \mark #1
+            %%% GlobalSkips [measure 15] %%%
+            \time 4/4 %! REDUNDANT_TIME_SIGNATURE_COMMAND:4
+            \mark #2
             %%% \bar "" %! EMPTY_START_BAR:1
+            \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:3
             s1 * 1
-            %%% ^ \markup { %! CLOCK_TIME_MARKUP:3
-                %%% \fontsize %! CLOCK_TIME_MARKUP:3
-                    %%% #-2 %! CLOCK_TIME_MARKUP:3
-                    %%% 0'15'' %! CLOCK_TIME_MARKUP:3
-                %%% } %! CLOCK_TIME_MARKUP:3
+            %%% ^ \markup { %! CLOCK_TIME_MARKUP:5
+                %%% \fontsize %! CLOCK_TIME_MARKUP:5
+                    %%% #-2 %! CLOCK_TIME_MARKUP:5
+                    %%% 0'31'' %! CLOCK_TIME_MARKUP:5
+                %%% } %! CLOCK_TIME_MARKUP:5
             %%% - \markup { %! STAGE_NUMBER_MARKUP:2
                 %%% \fontsize %! STAGE_NUMBER_MARKUP:2
                     %%% #-3 %! STAGE_NUMBER_MARKUP:2
                     %%% \with-color %! STAGE_NUMBER_MARKUP:2
                         %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:2
-                        %%% [A.1] %! STAGE_NUMBER_MARKUP:2
+                        %%% [B.1] %! STAGE_NUMBER_MARKUP:2
                 %%% } %! STAGE_NUMBER_MARKUP:2
             ^ \markup {
                 \fontsize
@@ -35,80 +36,121 @@
                 \upright
                     {
                         =
-                        72
+                        108
                     }
                 }
             
-            %%% GlobalSkips [measure 10] %%%
+            %%% GlobalSkips [measure 16] %%%
             \time 4/4
             s1 * 1
             %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                 %%% \fontsize %! CLOCK_TIME_MARKUP:1
                     %%% #-2 %! CLOCK_TIME_MARKUP:1
-                    %%% 0'18'' %! CLOCK_TIME_MARKUP:1
+                    %%% 0'33'' %! CLOCK_TIME_MARKUP:1
                 %%% } %! CLOCK_TIME_MARKUP:1
             
-            %%% GlobalSkips [measure 11] %%%
+            %%% GlobalSkips [measure 17] %%%
+            \time 4/4
+            s1 * 1
+            %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                    %%% #-2 %! CLOCK_TIME_MARKUP:1
+                    %%% 0'35'' %! CLOCK_TIME_MARKUP:1
+                %%% } %! CLOCK_TIME_MARKUP:1
+            
+            %%% GlobalSkips [measure 18] %%%
+            \time 3/4
+            s1 * 3/4
+            %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                    %%% #-2 %! CLOCK_TIME_MARKUP:1
+                    %%% 0'37'' %! CLOCK_TIME_MARKUP:1
+                %%% } %! CLOCK_TIME_MARKUP:1
+            
+            %%% GlobalSkips [measure 19] %%%
+            \time 3/4
+            s1 * 3/4
+            %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
+                %%% \fontsize %! CLOCK_TIME_MARKUP:2
+                    %%% #-2 %! CLOCK_TIME_MARKUP:2
+                    %%% 0'39'' %! CLOCK_TIME_MARKUP:2
+                %%% } %! CLOCK_TIME_MARKUP:2
+            %%% - \markup { %! STAGE_NUMBER_MARKUP:1
+                %%% \fontsize %! STAGE_NUMBER_MARKUP:1
+                    %%% #-3 %! STAGE_NUMBER_MARKUP:1
+                    %%% \with-color %! STAGE_NUMBER_MARKUP:1
+                        %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:1
+                        %%% [B.2] %! STAGE_NUMBER_MARKUP:1
+                %%% } %! STAGE_NUMBER_MARKUP:1
+            
+            %%% GlobalSkips [measure 20] %%%
+            \time 4/4
+            s1 * 1
+            %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                    %%% #-2 %! CLOCK_TIME_MARKUP:1
+                    %%% 0'41'' %! CLOCK_TIME_MARKUP:1
+                %%% } %! CLOCK_TIME_MARKUP:1
+            
+            %%% GlobalSkips [measure 21] %%%
+            \time 4/4
+            s1 * 1
+            %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                    %%% #-2 %! CLOCK_TIME_MARKUP:1
+                    %%% 0'43'' %! CLOCK_TIME_MARKUP:1
+                %%% } %! CLOCK_TIME_MARKUP:1
+            
+            %%% GlobalSkips [measure 22] %%%
             \time 2/4
             s1 * 1/2
-            %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
-                %%% \fontsize %! CLOCK_TIME_MARKUP:2
-                    %%% #-2 %! CLOCK_TIME_MARKUP:2
-                    %%% 0'21'' %! CLOCK_TIME_MARKUP:2
-                %%% } %! CLOCK_TIME_MARKUP:2
-            %%% - \markup { %! STAGE_NUMBER_MARKUP:1
-                %%% \fontsize %! STAGE_NUMBER_MARKUP:1
-                    %%% #-3 %! STAGE_NUMBER_MARKUP:1
-                    %%% \with-color %! STAGE_NUMBER_MARKUP:1
-                        %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:1
-                        %%% [A.2] %! STAGE_NUMBER_MARKUP:1
-                %%% } %! STAGE_NUMBER_MARKUP:1
-            
-            %%% GlobalSkips [measure 12] %%%
-            \time 3/4
-            s1 * 3/4
             %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                 %%% \fontsize %! CLOCK_TIME_MARKUP:1
                     %%% #-2 %! CLOCK_TIME_MARKUP:1
-                    %%% 0'23'' %! CLOCK_TIME_MARKUP:1
-                %%% } %! CLOCK_TIME_MARKUP:1
-            
-            %%% GlobalSkips [measure 13] %%%
-            \time 3/4
-            s1 * 3/4
-            %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
-                %%% \fontsize %! CLOCK_TIME_MARKUP:2
-                    %%% #-2 %! CLOCK_TIME_MARKUP:2
-                    %%% 0'25'' %! CLOCK_TIME_MARKUP:2
-                %%% } %! CLOCK_TIME_MARKUP:2
-            %%% - \markup { %! STAGE_NUMBER_MARKUP:1
-                %%% \fontsize %! STAGE_NUMBER_MARKUP:1
-                    %%% #-3 %! STAGE_NUMBER_MARKUP:1
-                    %%% \with-color %! STAGE_NUMBER_MARKUP:1
-                        %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:1
-                        %%% [A.3] %! STAGE_NUMBER_MARKUP:1
-                %%% } %! STAGE_NUMBER_MARKUP:1
-            
-            %%% GlobalSkips [measure 14] %%%
-            \time 4/4
-            s1 * 1
-            %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
-                %%% \fontsize %! CLOCK_TIME_MARKUP:1
-                    %%% #-2 %! CLOCK_TIME_MARKUP:1
-                    %%% 0'28'' %! CLOCK_TIME_MARKUP:1
+                    %%% 0'45'' %! CLOCK_TIME_MARKUP:1
                 %%% } %! CLOCK_TIME_MARKUP:1
             
         }
     >>
     \context MusicContext = "MusicContext" <<
         \context StaffGroup = "WindStaffGroup" <<
+            \context Staff = "PiccoloStaffI" {
+                \context Voice = "PiccoloVoiceI" {
+                    
+                    %%% PiccoloVoiceI [measure 15] %%%
+                    R1 * 1
+                    
+                    %%% PiccoloVoiceI [measure 16] %%%
+                    R1 * 1
+                    
+                    %%% PiccoloVoiceI [measure 17] %%%
+                    R1 * 1
+                    
+                    %%% PiccoloVoiceI [measure 18] %%%
+                    R1 * 3/4
+                    
+                    %%% PiccoloVoiceI [measure 19] %%%
+                    R1 * 3/4
+                    
+                    %%% PiccoloVoiceI [measure 20] %%%
+                    R1 * 1
+                    
+                    %%% PiccoloVoiceI [measure 21] %%%
+                    R1 * 1
+                    
+                    %%% PiccoloVoiceI [measure 22] %%%
+                    R1 * 1/2
+                    \bar "|."
+                    
+                }
+            }
             \context StaffGroup = "FluteSquareStaffGroup" \with {
                 systemStartDelimiter = #'SystemStartSquare
             } <<
                 \context Staff = "FluteStaffI" <<
                     \context Voice = "FluteVoiceI" {
                         
-                        %%% FluteVoiceI [measure 9] %%%
+                        %%% FluteVoiceI [measure 15] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -188,7 +230,7 @@
                         c'4
                         \repeatTie
                         
-                        %%% FluteVoiceI [measure 10] %%%
+                        %%% FluteVoiceI [measure 16] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -221,74 +263,7 @@
                         c'4
                         \repeatTie
                         
-                        %%% FluteVoiceI [measure 11] %%%
-                        \once \override Beam.color = #blue
-                        \once \override Dots.color = #blue
-                        \once \override Flag.color = #blue
-                        \once \override NoteHead.color = #blue
-                        \once \override Stem.color = #blue
-                        c'4
-                        \repeatTie
-                        
-                        \once \override Beam.color = #blue
-                        \once \override Dots.color = #blue
-                        \once \override Flag.color = #blue
-                        \once \override NoteHead.color = #blue
-                        \once \override Stem.color = #blue
-                        c'4
-                        \repeatTie
-                        
-                        %%% FluteVoiceI [measure 12] %%%
-                        \once \override Beam.color = #blue
-                        \once \override Dots.color = #blue
-                        \once \override Flag.color = #blue
-                        \once \override NoteHead.color = #blue
-                        \once \override Stem.color = #blue
-                        c'4
-                        \repeatTie
-                        
-                        \once \override Beam.color = #blue
-                        \once \override Dots.color = #blue
-                        \once \override Flag.color = #blue
-                        \once \override NoteHead.color = #blue
-                        \once \override Stem.color = #blue
-                        c'4
-                        \repeatTie
-                        
-                        \once \override Beam.color = #blue
-                        \once \override Dots.color = #blue
-                        \once \override Flag.color = #blue
-                        \once \override NoteHead.color = #blue
-                        \once \override Stem.color = #blue
-                        c'4
-                        \repeatTie
-                        
-                        %%% FluteVoiceI [measure 13] %%%
-                        \once \override Beam.color = #blue
-                        \once \override Dots.color = #blue
-                        \once \override Flag.color = #blue
-                        \once \override NoteHead.color = #blue
-                        \once \override Stem.color = #blue
-                        c'4
-                        \repeatTie
-                        
-                        \once \override Beam.color = #blue
-                        \once \override Dots.color = #blue
-                        \once \override Flag.color = #blue
-                        \once \override NoteHead.color = #blue
-                        \once \override Stem.color = #blue
-                        c'4
-                        \repeatTie
-                        
-                        \once \override Beam.color = #blue
-                        \once \override Dots.color = #blue
-                        \once \override Flag.color = #blue
-                        \once \override NoteHead.color = #blue
-                        \once \override Stem.color = #blue
-                        c'4
-                        \repeatTie
-                        
-                        %%% FluteVoiceI [measure 14] %%%
+                        %%% FluteVoiceI [measure 17] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -320,36 +295,175 @@
                         \once \override Stem.color = #blue
                         c'4
                         \repeatTie
-                        \bar "|"
+                        
+                        %%% FluteVoiceI [measure 18] %%%
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        %%% FluteVoiceI [measure 19] %%%
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        %%% FluteVoiceI [measure 20] %%%
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        %%% FluteVoiceI [measure 21] %%%
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        %%% FluteVoiceI [measure 22] %%%
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4
+                        \repeatTie
+                        \bar "|."
                         
                     }
                     \context Voice = "FluteVoiceII" {
                         
-                        %%% FluteVoiceII [measure 9] %%%
+                        %%% FluteVoiceII [measure 15] %%%
                         R1 * 1
                         
-                        %%% FluteVoiceII [measure 10] %%%
+                        %%% FluteVoiceII [measure 16] %%%
                         R1 * 1
                         
-                        %%% FluteVoiceII [measure 11] %%%
+                        %%% FluteVoiceII [measure 17] %%%
+                        R1 * 1
+                        
+                        %%% FluteVoiceII [measure 18] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteVoiceII [measure 19] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteVoiceII [measure 20] %%%
+                        R1 * 1
+                        
+                        %%% FluteVoiceII [measure 21] %%%
+                        R1 * 1
+                        
+                        %%% FluteVoiceII [measure 22] %%%
                         R1 * 1/2
-                        
-                        %%% FluteVoiceII [measure 12] %%%
-                        R1 * 3/4
-                        
-                        %%% FluteVoiceII [measure 13] %%%
-                        R1 * 3/4
-                        
-                        %%% FluteVoiceII [measure 14] %%%
-                        R1 * 1
-                        \bar "|"
+                        \bar "|."
                         
                     }
                 >>
                 \context Staff = "FluteStaffII" <<
                     \context Voice = "FluteVoiceIII" {
                         
-                        %%% FluteVoiceIII [measure 9] %%%
+                        %%% FluteVoiceIII [measure 15] %%%
                         \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
                             \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
@@ -400,43 +514,55 @@
                         \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
                         \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
                         
-                        %%% FluteVoiceIII [measure 10] %%%
+                        %%% FluteVoiceIII [measure 16] %%%
                         R1 * 1
                         
-                        %%% FluteVoiceIII [measure 11] %%%
+                        %%% FluteVoiceIII [measure 17] %%%
+                        R1 * 1
+                        
+                        %%% FluteVoiceIII [measure 18] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteVoiceIII [measure 19] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteVoiceIII [measure 20] %%%
+                        R1 * 1
+                        
+                        %%% FluteVoiceIII [measure 21] %%%
+                        R1 * 1
+                        
+                        %%% FluteVoiceIII [measure 22] %%%
                         R1 * 1/2
-                        
-                        %%% FluteVoiceIII [measure 12] %%%
-                        R1 * 3/4
-                        
-                        %%% FluteVoiceIII [measure 13] %%%
-                        R1 * 3/4
-                        
-                        %%% FluteVoiceIII [measure 14] %%%
-                        R1 * 1
-                        \bar "|"
+                        \bar "|."
                         
                     }
                     \context Voice = "FluteVoiceIV" {
                         
-                        %%% FluteVoiceIV [measure 9] %%%
+                        %%% FluteVoiceIV [measure 15] %%%
                         R1 * 1
                         
-                        %%% FluteVoiceIV [measure 10] %%%
+                        %%% FluteVoiceIV [measure 16] %%%
                         R1 * 1
                         
-                        %%% FluteVoiceIV [measure 11] %%%
+                        %%% FluteVoiceIV [measure 17] %%%
+                        R1 * 1
+                        
+                        %%% FluteVoiceIV [measure 18] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteVoiceIV [measure 19] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteVoiceIV [measure 20] %%%
+                        R1 * 1
+                        
+                        %%% FluteVoiceIV [measure 21] %%%
+                        R1 * 1
+                        
+                        %%% FluteVoiceIV [measure 22] %%%
                         R1 * 1/2
-                        
-                        %%% FluteVoiceIV [measure 12] %%%
-                        R1 * 3/4
-                        
-                        %%% FluteVoiceIV [measure 13] %%%
-                        R1 * 3/4
-                        
-                        %%% FluteVoiceIV [measure 14] %%%
-                        R1 * 1
-                        \bar "|"
+                        \bar "|."
                         
                     }
                 >>
@@ -446,7 +572,7 @@
             \context Staff = "FirstViolinStaffI" <<
                 \context Voice = "FirstViolinVoiceI" {
                     
-                    %%% FirstViolinVoiceI [measure 9] %%%
+                    %%% FirstViolinVoiceI [measure 15] %%%
                     \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
                         \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
                             #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
@@ -497,43 +623,55 @@
                     \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
                     \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
                     
-                    %%% FirstViolinVoiceI [measure 10] %%%
+                    %%% FirstViolinVoiceI [measure 16] %%%
                     R1 * 1
                     
-                    %%% FirstViolinVoiceI [measure 11] %%%
+                    %%% FirstViolinVoiceI [measure 17] %%%
+                    R1 * 1
+                    
+                    %%% FirstViolinVoiceI [measure 18] %%%
+                    R1 * 3/4
+                    
+                    %%% FirstViolinVoiceI [measure 19] %%%
+                    R1 * 3/4
+                    
+                    %%% FirstViolinVoiceI [measure 20] %%%
+                    R1 * 1
+                    
+                    %%% FirstViolinVoiceI [measure 21] %%%
+                    R1 * 1
+                    
+                    %%% FirstViolinVoiceI [measure 22] %%%
                     R1 * 1/2
-                    
-                    %%% FirstViolinVoiceI [measure 12] %%%
-                    R1 * 3/4
-                    
-                    %%% FirstViolinVoiceI [measure 13] %%%
-                    R1 * 3/4
-                    
-                    %%% FirstViolinVoiceI [measure 14] %%%
-                    R1 * 1
-                    \bar "|"
+                    \bar "|."
                     
                 }
                 \context Voice = "FirstViolinVoiceII" {
                     
-                    %%% FirstViolinVoiceII [measure 9] %%%
+                    %%% FirstViolinVoiceII [measure 15] %%%
                     R1 * 1
                     
-                    %%% FirstViolinVoiceII [measure 10] %%%
+                    %%% FirstViolinVoiceII [measure 16] %%%
                     R1 * 1
                     
-                    %%% FirstViolinVoiceII [measure 11] %%%
+                    %%% FirstViolinVoiceII [measure 17] %%%
+                    R1 * 1
+                    
+                    %%% FirstViolinVoiceII [measure 18] %%%
+                    R1 * 3/4
+                    
+                    %%% FirstViolinVoiceII [measure 19] %%%
+                    R1 * 3/4
+                    
+                    %%% FirstViolinVoiceII [measure 20] %%%
+                    R1 * 1
+                    
+                    %%% FirstViolinVoiceII [measure 21] %%%
+                    R1 * 1
+                    
+                    %%% FirstViolinVoiceII [measure 22] %%%
                     R1 * 1/2
-                    
-                    %%% FirstViolinVoiceII [measure 12] %%%
-                    R1 * 3/4
-                    
-                    %%% FirstViolinVoiceII [measure 13] %%%
-                    R1 * 3/4
-                    
-                    %%% FirstViolinVoiceII [measure 14] %%%
-                    R1 * 1
-                    \bar "|"
+                    \bar "|."
                     
                 }
             >>
@@ -543,7 +681,7 @@
                 \context Staff = "SecondViolinStaffI" {
                     \context Voice = "SecondViolinVoiceI" {
                         
-                        %%% SecondViolinVoiceI [measure 9] %%%
+                        %%% SecondViolinVoiceI [measure 15] %%%
                         \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
                             \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
@@ -594,28 +732,34 @@
                         \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
                         \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
                         
-                        %%% SecondViolinVoiceI [measure 10] %%%
+                        %%% SecondViolinVoiceI [measure 16] %%%
                         R1 * 1
                         
-                        %%% SecondViolinVoiceI [measure 11] %%%
+                        %%% SecondViolinVoiceI [measure 17] %%%
+                        R1 * 1
+                        
+                        %%% SecondViolinVoiceI [measure 18] %%%
+                        R1 * 3/4
+                        
+                        %%% SecondViolinVoiceI [measure 19] %%%
+                        R1 * 3/4
+                        
+                        %%% SecondViolinVoiceI [measure 20] %%%
+                        R1 * 1
+                        
+                        %%% SecondViolinVoiceI [measure 21] %%%
+                        R1 * 1
+                        
+                        %%% SecondViolinVoiceI [measure 22] %%%
                         R1 * 1/2
-                        
-                        %%% SecondViolinVoiceI [measure 12] %%%
-                        R1 * 3/4
-                        
-                        %%% SecondViolinVoiceI [measure 13] %%%
-                        R1 * 3/4
-                        
-                        %%% SecondViolinVoiceI [measure 14] %%%
-                        R1 * 1
-                        \bar "|"
+                        \bar "|."
                         
                     }
                 }
                 \context Staff = "SecondViolinStaffII" {
                     \context Voice = "SecondViolinVoiceII" {
                         
-                        %%% SecondViolinVoiceII [measure 9] %%%
+                        %%% SecondViolinVoiceII [measure 15] %%%
                         \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
                             \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
@@ -666,25 +810,121 @@
                         \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
                         \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
                         
-                        %%% SecondViolinVoiceII [measure 10] %%%
+                        %%% SecondViolinVoiceII [measure 16] %%%
                         R1 * 1
                         
-                        %%% SecondViolinVoiceII [measure 11] %%%
+                        %%% SecondViolinVoiceII [measure 17] %%%
+                        R1 * 1
+                        
+                        %%% SecondViolinVoiceII [measure 18] %%%
+                        R1 * 3/4
+                        
+                        %%% SecondViolinVoiceII [measure 19] %%%
+                        R1 * 3/4
+                        
+                        %%% SecondViolinVoiceII [measure 20] %%%
+                        R1 * 1
+                        
+                        %%% SecondViolinVoiceII [measure 21] %%%
+                        R1 * 1
+                        
+                        %%% SecondViolinVoiceII [measure 22] %%%
                         R1 * 1/2
-                        
-                        %%% SecondViolinVoiceII [measure 12] %%%
-                        R1 * 3/4
-                        
-                        %%% SecondViolinVoiceII [measure 13] %%%
-                        R1 * 3/4
-                        
-                        %%% SecondViolinVoiceII [measure 14] %%%
-                        R1 * 1
-                        \bar "|"
+                        \bar "|."
                         
                     }
                 }
             >>
+            \context Staff = "ViolaStaffI" {
+                \context Voice = "ViolaVoiceI" {
+                    
+                    %%% ViolaVoiceI [measure 15] %%%
+                    R1 * 1
+                    
+                    %%% ViolaVoiceI [measure 16] %%%
+                    R1 * 1
+                    
+                    %%% ViolaVoiceI [measure 17] %%%
+                    R1 * 1
+                    
+                    %%% ViolaVoiceI [measure 18] %%%
+                    R1 * 3/4
+                    
+                    %%% ViolaVoiceI [measure 19] %%%
+                    R1 * 3/4
+                    
+                    %%% ViolaVoiceI [measure 20] %%%
+                    R1 * 1
+                    
+                    %%% ViolaVoiceI [measure 21] %%%
+                    R1 * 1
+                    
+                    %%% ViolaVoiceI [measure 22] %%%
+                    R1 * 1/2
+                    \bar "|."
+                    
+                }
+            }
+            \context Staff = "CelloStaffI" {
+                \context Voice = "CelloVoiceI" {
+                    
+                    %%% CelloVoiceI [measure 15] %%%
+                    R1 * 1
+                    
+                    %%% CelloVoiceI [measure 16] %%%
+                    R1 * 1
+                    
+                    %%% CelloVoiceI [measure 17] %%%
+                    R1 * 1
+                    
+                    %%% CelloVoiceI [measure 18] %%%
+                    R1 * 3/4
+                    
+                    %%% CelloVoiceI [measure 19] %%%
+                    R1 * 3/4
+                    
+                    %%% CelloVoiceI [measure 20] %%%
+                    R1 * 1
+                    
+                    %%% CelloVoiceI [measure 21] %%%
+                    R1 * 1
+                    
+                    %%% CelloVoiceI [measure 22] %%%
+                    R1 * 1/2
+                    \bar "|."
+                    
+                }
+            }
+            \context Staff = "ContrabassStaffI" {
+                \context Voice = "ContrabassVoiceI" {
+                    
+                    %%% ContrabassVoiceI [measure 15] %%%
+                    R1 * 1
+                    
+                    %%% ContrabassVoiceI [measure 16] %%%
+                    R1 * 1
+                    
+                    %%% ContrabassVoiceI [measure 17] %%%
+                    R1 * 1
+                    
+                    %%% ContrabassVoiceI [measure 18] %%%
+                    R1 * 3/4
+                    
+                    %%% ContrabassVoiceI [measure 19] %%%
+                    R1 * 3/4
+                    
+                    %%% ContrabassVoiceI [measure 20] %%%
+                    R1 * 1
+                    
+                    %%% ContrabassVoiceI [measure 21] %%%
+                    R1 * 1
+                    
+                    %%% ContrabassVoiceI [measure 22] %%%
+                    R1 * 1/2
+                    \bar "|."
+                    
+                }
+            }
         >>
     >>
 >>
