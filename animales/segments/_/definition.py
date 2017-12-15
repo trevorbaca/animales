@@ -12,7 +12,15 @@ maker = baca.SegmentMaker(
     instruments=animales.instruments,
     measures_per_stage=[4, 4],
     metronome_marks=animales.metronome_marks,
-    score_template=animales.ScoreTemplate(),
+    score_template=animales.ScoreTemplate(
+        piccolo=[1],
+        flute=[2, 2],
+        first_violin=[2],
+        second_violin=[1, 1],
+        viola=[1],
+        cello=[1],
+        contrabass=[1],
+        ),
     metronome_mark_measure_map=[
         (1, animales.metronome_marks['108']),
         ],
@@ -27,6 +35,6 @@ maker.validate_measures_per_stage()
 ### FIRST VIOLINS ###
 
 maker(
-    baca.scope('Flute1MusicVoice', 1, 2),
+    baca.scope('FluteVoiceI', 1, 2),
     baca.make_tied_repeated_durations((1, 4)),
     )
