@@ -7,113 +7,434 @@ metadata = abjad.TypedOrderedDict(
             'end_clefs_by_context',
             abjad.TypedOrderedDict(
                 [
-                    ('BassClarinetMusicStaff', 'treble'),
-                    ('Bassoon1MusicStaff', 'bass'),
-                    ('Bassoon2MusicStaff', 'bass'),
-                    ('Cello10MusicStaff', 'bass'),
-                    ('Cello11MusicStaff', 'bass'),
-                    ('Cello12MusicStaff', 'bass'),
-                    ('Cello13MusicStaff', 'bass'),
-                    ('Cello14MusicStaff', 'bass'),
-                    ('Cello1MusicStaff', 'bass'),
-                    ('Cello2MusicStaff', 'bass'),
-                    ('Cello3MusicStaff', 'bass'),
-                    ('Cello4MusicStaff', 'bass'),
-                    ('Cello5MusicStaff', 'bass'),
-                    ('Cello6MusicStaff', 'bass'),
-                    ('Cello7MusicStaff', 'bass'),
-                    ('Cello8MusicStaff', 'bass'),
-                    ('Cello9MusicStaff', 'bass'),
-                    ('Clarinet1MusicStaff', 'treble'),
-                    ('Clarinet2MusicStaff', 'treble'),
-                    ('Clarinet3MusicStaff', 'treble'),
-                    ('Contrabass1MusicStaff', 'bass'),
-                    ('Contrabass2MusicStaff', 'bass'),
-                    ('Contrabass3MusicStaff', 'bass'),
-                    ('Contrabass4MusicStaff', 'bass'),
-                    ('Contrabass5MusicStaff', 'bass'),
-                    ('Contrabass6MusicStaff', 'bass'),
-                    ('EnglishHornMusicStaff', 'treble'),
-                    ('FirstViolin10MusicStaff', 'treble'),
-                    ('FirstViolin11MusicStaff', 'treble'),
-                    ('FirstViolin12MusicStaff', 'treble'),
-                    ('FirstViolin13MusicStaff', 'treble'),
-                    ('FirstViolin14MusicStaff', 'treble'),
-                    ('FirstViolin15MusicStaff', 'treble'),
-                    ('FirstViolin16MusicStaff', 'treble'),
-                    ('FirstViolin17MusicStaff', 'treble'),
-                    ('FirstViolin18MusicStaff', 'treble'),
-                    ('FirstViolin1MusicStaff', 'treble'),
-                    ('FirstViolin2MusicStaff', 'treble'),
-                    ('FirstViolin3MusicStaff', 'treble'),
-                    ('FirstViolin4MusicStaff', 'treble'),
-                    ('FirstViolin5MusicStaff', 'treble'),
-                    ('FirstViolin6MusicStaff', 'treble'),
-                    ('FirstViolin7MusicStaff', 'treble'),
-                    ('FirstViolin8MusicStaff', 'treble'),
-                    ('FirstViolin9MusicStaff', 'treble'),
-                    ('Flute1MusicStaff', 'treble'),
-                    ('Flute2MusicStaff', 'treble'),
-                    ('Flute3MusicStaff', 'treble'),
-                    ('HarpMusicStaff', 'treble'),
-                    ('Horn1MusicStaff', 'bass'),
-                    ('Horn2MusicStaff', 'bass'),
-                    ('Horn3MusicStaff', 'bass'),
-                    ('Horn4MusicStaff', 'bass'),
-                    ('Oboe1MusicStaff', 'treble'),
-                    ('Oboe2MusicStaff', 'treble'),
-                    ('Oboe3MusicStaff', 'treble'),
-                    ('Percussion1MusicStaff', 'percussion'),
-                    ('Percussion2MusicStaff', 'percussion'),
-                    ('Percussion3MusicStaff', 'percussion'),
-                    ('Percussion4MusicStaff', 'percussion'),
-                    ('PianoMusicStaff', 'treble'),
-                    ('PiccoloMusicStaff', 'treble'),
-                    ('SecondViolin10MusicStaff', 'treble'),
-                    ('SecondViolin11MusicStaff', 'treble'),
-                    ('SecondViolin12MusicStaff', 'treble'),
-                    ('SecondViolin13MusicStaff', 'treble'),
-                    ('SecondViolin14MusicStaff', 'treble'),
-                    ('SecondViolin15MusicStaff', 'treble'),
-                    ('SecondViolin16MusicStaff', 'treble'),
-                    ('SecondViolin17MusicStaff', 'treble'),
-                    ('SecondViolin18MusicStaff', 'treble'),
-                    ('SecondViolin1MusicStaff', 'treble'),
-                    ('SecondViolin2MusicStaff', 'treble'),
-                    ('SecondViolin3MusicStaff', 'treble'),
-                    ('SecondViolin4MusicStaff', 'treble'),
-                    ('SecondViolin5MusicStaff', 'treble'),
-                    ('SecondViolin6MusicStaff', 'treble'),
-                    ('SecondViolin7MusicStaff', 'treble'),
-                    ('SecondViolin8MusicStaff', 'treble'),
-                    ('SecondViolin9MusicStaff', 'treble'),
-                    ('Trombone1MusicStaff', 'tenor'),
-                    ('Trombone2MusicStaff', 'tenor'),
-                    ('Trombone3MusicStaff', 'tenor'),
-                    ('Trombone4MusicStaff', 'tenor'),
-                    ('Trumpet1MusicStaff', 'treble'),
-                    ('Trumpet2MusicStaff', 'treble'),
-                    ('Trumpet3MusicStaff', 'treble'),
-                    ('Trumpet4MusicStaff', 'treble'),
-                    ('TumbaMusicStaff', 'bass'),
-                    ('Viola10MusicStaff', 'alto'),
-                    ('Viola11MusicStaff', 'alto'),
-                    ('Viola12MusicStaff', 'alto'),
-                    ('Viola13MusicStaff', 'alto'),
-                    ('Viola14MusicStaff', 'alto'),
-                    ('Viola15MusicStaff', 'alto'),
-                    ('Viola16MusicStaff', 'alto'),
-                    ('Viola17MusicStaff', 'alto'),
-                    ('Viola18MusicStaff', 'alto'),
-                    ('Viola1MusicStaff', 'alto'),
-                    ('Viola2MusicStaff', 'alto'),
-                    ('Viola3MusicStaff', 'alto'),
-                    ('Viola4MusicStaff', 'alto'),
-                    ('Viola5MusicStaff', 'alto'),
-                    ('Viola6MusicStaff', 'alto'),
-                    ('Viola7MusicStaff', 'alto'),
-                    ('Viola8MusicStaff', 'alto'),
-                    ('Viola9MusicStaff', 'alto'),
+                    (
+                        'BassClarinetMusicStaff',
+                        ('treble', 'BassClarinetMusicVoice'),
+                        ),
+                    (
+                        'Bassoon1MusicStaff',
+                        ('bass', 'Bassoon1MusicVoice'),
+                        ),
+                    (
+                        'Bassoon2MusicStaff',
+                        ('bass', 'Bassoon2MusicVoice'),
+                        ),
+                    (
+                        'Cello10MusicStaff',
+                        ('bass', 'Cello10MusicVoice'),
+                        ),
+                    (
+                        'Cello11MusicStaff',
+                        ('bass', 'Cello11MusicVoice'),
+                        ),
+                    (
+                        'Cello12MusicStaff',
+                        ('bass', 'Cello12MusicVoice'),
+                        ),
+                    (
+                        'Cello13MusicStaff',
+                        ('bass', 'Cello13MusicVoice'),
+                        ),
+                    (
+                        'Cello14MusicStaff',
+                        ('bass', 'Cello14MusicVoice'),
+                        ),
+                    (
+                        'Cello1MusicStaff',
+                        ('bass', 'Cello1MusicVoice'),
+                        ),
+                    (
+                        'Cello2MusicStaff',
+                        ('bass', 'Cello2MusicVoice'),
+                        ),
+                    (
+                        'Cello3MusicStaff',
+                        ('bass', 'Cello3MusicVoice'),
+                        ),
+                    (
+                        'Cello4MusicStaff',
+                        ('bass', 'Cello4MusicVoice'),
+                        ),
+                    (
+                        'Cello5MusicStaff',
+                        ('bass', 'Cello5MusicVoice'),
+                        ),
+                    (
+                        'Cello6MusicStaff',
+                        ('bass', 'Cello6MusicVoice'),
+                        ),
+                    (
+                        'Cello7MusicStaff',
+                        ('bass', 'Cello7MusicVoice'),
+                        ),
+                    (
+                        'Cello8MusicStaff',
+                        ('bass', 'Cello8MusicVoice'),
+                        ),
+                    (
+                        'Cello9MusicStaff',
+                        ('bass', 'Cello9MusicVoice'),
+                        ),
+                    (
+                        'Clarinet1MusicStaff',
+                        ('treble', 'Clarinet1MusicVoice'),
+                        ),
+                    (
+                        'Clarinet2MusicStaff',
+                        ('treble', 'Clarinet2MusicVoice'),
+                        ),
+                    (
+                        'Clarinet3MusicStaff',
+                        ('treble', 'Clarinet3MusicVoice'),
+                        ),
+                    (
+                        'Contrabass1MusicStaff',
+                        ('bass', 'Contrabass1MusicVoice'),
+                        ),
+                    (
+                        'Contrabass2MusicStaff',
+                        ('bass', 'Contrabass2MusicVoice'),
+                        ),
+                    (
+                        'Contrabass3MusicStaff',
+                        ('bass', 'Contrabass3MusicVoice'),
+                        ),
+                    (
+                        'Contrabass4MusicStaff',
+                        ('bass', 'Contrabass4MusicVoice'),
+                        ),
+                    (
+                        'Contrabass5MusicStaff',
+                        ('bass', 'Contrabass5MusicVoice'),
+                        ),
+                    (
+                        'Contrabass6MusicStaff',
+                        ('bass', 'Contrabass6MusicVoice'),
+                        ),
+                    (
+                        'EnglishHornMusicStaff',
+                        ('treble', 'EnglishHornMusicVoice'),
+                        ),
+                    (
+                        'FirstViolin10MusicStaff',
+                        ('treble', 'FirstViolin10MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin11MusicStaff',
+                        ('treble', 'FirstViolin11MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin12MusicStaff',
+                        ('treble', 'FirstViolin12MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin13MusicStaff',
+                        ('treble', 'FirstViolin13MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin14MusicStaff',
+                        ('treble', 'FirstViolin14MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin15MusicStaff',
+                        ('treble', 'FirstViolin15MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin16MusicStaff',
+                        ('treble', 'FirstViolin16MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin17MusicStaff',
+                        ('treble', 'FirstViolin17MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin18MusicStaff',
+                        ('treble', 'FirstViolin18MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin1MusicStaff',
+                        ('treble', 'FirstViolin1MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin2MusicStaff',
+                        ('treble', 'FirstViolin2MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin3MusicStaff',
+                        ('treble', 'FirstViolin3MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin4MusicStaff',
+                        ('treble', 'FirstViolin4MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin5MusicStaff',
+                        ('treble', 'FirstViolin5MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin6MusicStaff',
+                        ('treble', 'FirstViolin6MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin7MusicStaff',
+                        ('treble', 'FirstViolin7MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin8MusicStaff',
+                        ('treble', 'FirstViolin8MusicVoice'),
+                        ),
+                    (
+                        'FirstViolin9MusicStaff',
+                        ('treble', 'FirstViolin9MusicVoice'),
+                        ),
+                    (
+                        'Flute1MusicStaff',
+                        ('treble', 'Flute1MusicVoice'),
+                        ),
+                    (
+                        'Flute2MusicStaff',
+                        ('treble', 'Flute2MusicVoice'),
+                        ),
+                    (
+                        'Flute3MusicStaff',
+                        ('treble', 'Flute3MusicVoice'),
+                        ),
+                    (
+                        'HarpMusicStaff',
+                        ('treble', 'HarpMusicVoice'),
+                        ),
+                    (
+                        'Horn1MusicStaff',
+                        ('bass', 'Horn1MusicVoice'),
+                        ),
+                    (
+                        'Horn2MusicStaff',
+                        ('bass', 'Horn2MusicVoice'),
+                        ),
+                    (
+                        'Horn3MusicStaff',
+                        ('bass', 'Horn3MusicVoice'),
+                        ),
+                    (
+                        'Horn4MusicStaff',
+                        ('bass', 'Horn4MusicVoice'),
+                        ),
+                    (
+                        'Oboe1MusicStaff',
+                        ('treble', 'Oboe1MusicVoice'),
+                        ),
+                    (
+                        'Oboe2MusicStaff',
+                        ('treble', 'Oboe2MusicVoice'),
+                        ),
+                    (
+                        'Oboe3MusicStaff',
+                        ('treble', 'Oboe3MusicVoice'),
+                        ),
+                    (
+                        'Percussion1MusicStaff',
+                        ('percussion', 'Percussion1MusicVoice'),
+                        ),
+                    (
+                        'Percussion2MusicStaff',
+                        ('percussion', 'Percussion2MusicVoice'),
+                        ),
+                    (
+                        'Percussion3MusicStaff',
+                        ('percussion', 'Percussion3MusicVoice'),
+                        ),
+                    (
+                        'Percussion4MusicStaff',
+                        ('percussion', 'Percussion4MusicVoice'),
+                        ),
+                    (
+                        'PianoMusicStaff',
+                        ('treble', 'PianoMusicVoice'),
+                        ),
+                    (
+                        'PiccoloMusicStaff',
+                        ('treble', 'PiccoloMusicVoice'),
+                        ),
+                    (
+                        'SecondViolin10MusicStaff',
+                        ('treble', 'SecondViolin10MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin11MusicStaff',
+                        ('treble', 'SecondViolin11MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin12MusicStaff',
+                        ('treble', 'SecondViolin12MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin13MusicStaff',
+                        ('treble', 'SecondViolin13MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin14MusicStaff',
+                        ('treble', 'SecondViolin14MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin15MusicStaff',
+                        ('treble', 'SecondViolin15MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin16MusicStaff',
+                        ('treble', 'SecondViolin16MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin17MusicStaff',
+                        ('treble', 'SecondViolin17MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin18MusicStaff',
+                        ('treble', 'SecondViolin18MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin1MusicStaff',
+                        ('treble', 'SecondViolin1MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin2MusicStaff',
+                        ('treble', 'SecondViolin2MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin3MusicStaff',
+                        ('treble', 'SecondViolin3MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin4MusicStaff',
+                        ('treble', 'SecondViolin4MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin5MusicStaff',
+                        ('treble', 'SecondViolin5MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin6MusicStaff',
+                        ('treble', 'SecondViolin6MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin7MusicStaff',
+                        ('treble', 'SecondViolin7MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin8MusicStaff',
+                        ('treble', 'SecondViolin8MusicVoice'),
+                        ),
+                    (
+                        'SecondViolin9MusicStaff',
+                        ('treble', 'SecondViolin9MusicVoice'),
+                        ),
+                    (
+                        'Trombone1MusicStaff',
+                        ('tenor', 'Trombone1MusicVoice'),
+                        ),
+                    (
+                        'Trombone2MusicStaff',
+                        ('tenor', 'Trombone2MusicVoice'),
+                        ),
+                    (
+                        'Trombone3MusicStaff',
+                        ('tenor', 'Trombone3MusicVoice'),
+                        ),
+                    (
+                        'Trombone4MusicStaff',
+                        ('tenor', 'Trombone4MusicVoice'),
+                        ),
+                    (
+                        'Trumpet1MusicStaff',
+                        ('treble', 'Trumpet1MusicVoice'),
+                        ),
+                    (
+                        'Trumpet2MusicStaff',
+                        ('treble', 'Trumpet2MusicVoice'),
+                        ),
+                    (
+                        'Trumpet3MusicStaff',
+                        ('treble', 'Trumpet3MusicVoice'),
+                        ),
+                    (
+                        'Trumpet4MusicStaff',
+                        ('treble', 'Trumpet4MusicVoice'),
+                        ),
+                    (
+                        'TumbaMusicStaff',
+                        ('bass', 'TubaMusicVoice'),
+                        ),
+                    (
+                        'Viola10MusicStaff',
+                        ('alto', 'Viola10MusicVoice'),
+                        ),
+                    (
+                        'Viola11MusicStaff',
+                        ('alto', 'Viola11MusicVoice'),
+                        ),
+                    (
+                        'Viola12MusicStaff',
+                        ('alto', 'Viola12MusicVoice'),
+                        ),
+                    (
+                        'Viola13MusicStaff',
+                        ('alto', 'Viola13MusicVoice'),
+                        ),
+                    (
+                        'Viola14MusicStaff',
+                        ('alto', 'Viola14MusicVoice'),
+                        ),
+                    (
+                        'Viola15MusicStaff',
+                        ('alto', 'Viola15MusicVoice'),
+                        ),
+                    (
+                        'Viola16MusicStaff',
+                        ('alto', 'Viola16MusicVoice'),
+                        ),
+                    (
+                        'Viola17MusicStaff',
+                        ('alto', 'Viola17MusicVoice'),
+                        ),
+                    (
+                        'Viola18MusicStaff',
+                        ('alto', 'Viola18MusicVoice'),
+                        ),
+                    (
+                        'Viola1MusicStaff',
+                        ('alto', 'Viola1MusicVoice'),
+                        ),
+                    (
+                        'Viola2MusicStaff',
+                        ('alto', 'Viola2MusicVoice'),
+                        ),
+                    (
+                        'Viola3MusicStaff',
+                        ('alto', 'Viola3MusicVoice'),
+                        ),
+                    (
+                        'Viola4MusicStaff',
+                        ('alto', 'Viola4MusicVoice'),
+                        ),
+                    (
+                        'Viola5MusicStaff',
+                        ('alto', 'Viola5MusicVoice'),
+                        ),
+                    (
+                        'Viola6MusicStaff',
+                        ('alto', 'Viola6MusicVoice'),
+                        ),
+                    (
+                        'Viola7MusicStaff',
+                        ('alto', 'Viola7MusicVoice'),
+                        ),
+                    (
+                        'Viola8MusicStaff',
+                        ('alto', 'Viola8MusicVoice'),
+                        ),
+                    (
+                        'Viola9MusicStaff',
+                        ('alto', 'Viola9MusicVoice'),
+                        ),
                     ]
                 ),
             ),
