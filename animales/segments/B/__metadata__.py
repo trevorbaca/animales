@@ -8,14 +8,6 @@ metadata = abjad.TypedOrderedDict(
             abjad.TypedOrderedDict(
                 [
                     (
-                        'CelloStaffI',
-                        ('bass', 'CelloVoiceI'),
-                        ),
-                    (
-                        'ContrabassStaffI',
-                        ('bass', 'ContrabassVoiceI'),
-                        ),
-                    (
                         'FirstViolinStaffI',
                         ('treble', 'FirstViolinVoiceI'),
                         ),
@@ -28,10 +20,6 @@ metadata = abjad.TypedOrderedDict(
                         ('treble', 'FluteVoiceIII'),
                         ),
                     (
-                        'PiccoloStaffI',
-                        ('treble', 'PiccoloVoiceI'),
-                        ),
-                    (
                         'SecondViolinStaffI',
                         ('treble', 'SecondViolinVoiceI'),
                         ),
@@ -39,14 +27,10 @@ metadata = abjad.TypedOrderedDict(
                         'SecondViolinStaffII',
                         ('treble', 'SecondViolinVoiceII'),
                         ),
-                    (
-                        'ViolaStaffI',
-                        ('alto', 'ViolaVoiceI'),
-                        ),
                     ]
                 ),
             ),
-        ('end_clock_time', "0'15''"),
+        ('end_clock_time', "0'46''"),
         (
             'end_dynamics_by_context',
             abjad.TypedOrderedDict(
@@ -57,15 +41,11 @@ metadata = abjad.TypedOrderedDict(
             'end_instruments_by_context',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloStaffI', 'cello'),
-                    ('ContrabassStaffI', 'contrabass'),
                     ('FirstViolinStaffI', 'violin'),
                     ('FluteStaffI', 'flute'),
                     ('FluteStaffII', 'flute'),
-                    ('PiccoloStaffI', 'piccolo'),
                     ('SecondViolinStaffI', 'violin'),
                     ('SecondViolinStaffII', 'violin'),
-                    ('ViolaStaffI', 'viola'),
                     ]
                 ),
             ),
@@ -77,10 +57,10 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         ('end_time_signature', '2/4'),
-        ('first_bar_number', 1),
+        ('first_bar_number', 15),
         ('measure_count', 8),
         ('segment_count', 3),
-        ('segment_number', 1),
+        ('segment_number', 3),
         (
             'time_signatures',
             [
