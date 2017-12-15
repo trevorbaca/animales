@@ -119,9 +119,7 @@
             }
         >>
         \context MusicContext = "MusicContext" <<
-            \context StaffGroup = "FluteFamilySquareStaffGroup" \with {
-                systemStartDelimiter = #'SystemStartSquare
-            } <<
+            \context StaffGroup = "WindStaffGroup" <<
                 \context Staff = "PiccoloStaffI" {
                     \context Voice = "PiccoloVoiceI" {
                         
@@ -561,9 +559,7 @@
                     >>
                 >>
             >>
-            \context StaffGroup = "StringStaffGroup" \with {
-                systemStartDelimiter = #'SystemStartSquare
-            } <<
+            \context StaffGroup = "StringStaffGroup" <<
                 \context Staff = "FirstViolinStaffI" <<
                     \context Voice = "FirstViolinVoiceI" {
                         

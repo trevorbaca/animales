@@ -36,9 +36,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 }
             >>
             \context MusicContext = "MusicContext" <<
-                \context StaffGroup = "FluteFamilySquareStaffGroup" \with {
-                    systemStartDelimiter = #'SystemStartSquare
-                } <<
+                \context StaffGroup = "WindStaffGroup" <<
                     \context Staff = "PiccoloStaffI" {
                         \context Voice = "PiccoloVoiceI" {
                             \set Staff.instrumentName = \markup {
@@ -98,9 +96,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                         >>
                     >>
                 >>
-                \context StaffGroup = "StringStaffGroup" \with {
-                    systemStartDelimiter = #'SystemStartSquare
-                } <<
+                \context StaffGroup = "StringStaffGroup" <<
                     \context Staff = "FirstViolinStaffI" <<
                         \context Voice = "FirstViolinVoiceI" {
                             \set Staff.instrumentName = \markup {
@@ -479,28 +475,42 @@ class ScoreTemplate(baca.ScoreTemplate):
         music_context = self.make_music_context(
             self.make_staff_group(
                 'Wind',
-                self.make_square_staff_group(
-                    'FluteFamily',
-                    self.make_square_staff_group('Piccolo', *piccolo_staves),
-                    self.make_square_staff_group('Flute', *flute_staves),
-                    ),
-                self.make_square_staff_group(
-                    'OboeFamily',
-                    self.make_square_staff_group('Oboe', *oboe_staves),
-                    self.make_square_staff_group(
-                        'EnglishHorn',
-                        *english_horn_staves,
+                *self.group_families(
+                    (
+                        'FluteFamily',
+                        self.make_square_staff_group(
+                            'Piccolo',
+                            *piccolo_staves,
+                            ),
+                        self.make_square_staff_group(
+                            'Flute',
+                            *flute_staves,
+                            ),
                         ),
-                    ),
-                self.make_square_staff_group(
-                    'Clarinet',
-                    self.make_square_staff_group('Clarinet', *clarinet_staves),
-                    self.make_square_staff_group(
-                        'BassClarinet',
-                        *bass_clarinet_staves,
+                    (
+                        'OboeFamily',
+                        self.make_square_staff_group(
+                            'Oboe',
+                            *oboe_staves,
+                            ),
+                        self.make_square_staff_group(
+                            'EnglishHorn',
+                            *english_horn_staves,
+                            ),
                         ),
+                    (
+                        'ClarinetFamily',
+                        self.make_square_staff_group(
+                            'Clarinet',
+                            *clarinet_staves,
+                            ),
+                        self.make_square_staff_group(
+                            'BassClarinet',
+                            *bass_clarinet_staves,
+                            ),
+                        ),
+                    self.make_square_staff_group('Bassoon', *bassoon_staves),
                     ),
-                self.make_square_staff_group('Bassoon', *bassoon_staves),
                 ),
             self.make_staff_group(
                 'Brass',
