@@ -52,15 +52,42 @@ metadata = abjad.TypedOrderedDict(
             'end_instruments',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloStaffI', 'cello'),
-                    ('ContrabassStaffI', 'contrabass'),
-                    ('FirstViolinStaffI', 'violin'),
-                    ('FluteStaffI', 'flute'),
-                    ('FluteStaffII', 'flute'),
-                    ('PiccoloStaffI', 'piccolo'),
-                    ('SecondViolinStaffI', 'violin'),
-                    ('SecondViolinStaffII', 'violin'),
-                    ('ViolaStaffI', 'viola'),
+                    (
+                        'CelloStaffI',
+                        ('cello', 'CelloVoiceI'),
+                        ),
+                    (
+                        'ContrabassStaffI',
+                        ('contrabass', 'ContrabassVoiceI'),
+                        ),
+                    (
+                        'FirstViolinStaffI',
+                        ('violin', 'FirstViolinVoiceI'),
+                        ),
+                    (
+                        'FluteStaffI',
+                        ('flute', 'FluteVoiceI'),
+                        ),
+                    (
+                        'FluteStaffII',
+                        ('flute', 'FluteVoiceIII'),
+                        ),
+                    (
+                        'PiccoloStaffI',
+                        ('piccolo', 'PiccoloVoiceI'),
+                        ),
+                    (
+                        'SecondViolinStaffI',
+                        ('violin', 'SecondViolinVoiceI'),
+                        ),
+                    (
+                        'SecondViolinStaffII',
+                        ('violin', 'SecondViolinVoiceII'),
+                        ),
+                    (
+                        'ViolaStaffI',
+                        ('viola', 'ViolaVoiceI'),
+                        ),
                     ]
                 ),
             ),
@@ -107,7 +134,17 @@ metadata = abjad.TypedOrderedDict(
                     ]
                 ),
             ),
-        ('end_metronome_mark', '108'),
+        (
+            'end_metronome_marks',
+            abjad.TypedOrderedDict(
+                [
+                    (
+                        'Score',
+                        ('108', 'GlobalSkips'),
+                        ),
+                    ]
+                ),
+            ),
         ('end_staff_lines', None),
         ('first_measure_number', 1),
         ('segment_number', 1),
