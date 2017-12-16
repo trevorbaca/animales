@@ -12,12 +12,12 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         >>> template = animales.ScoreTemplate(
         ...     piccolo=[1],
-        ...     flute=[2, 2],
-        ...     first_violin=[2],
-        ...     second_violin=[1, 1],
-        ...     viola=[1],
-        ...     cello=[1],
-        ...     contrabass=[1],
+        ...     flutes=[2, 2],
+        ...     first_violins=[2],
+        ...     second_violins=[1, 1],
+        ...     violas=[1],
+        ...     cellos=[1],
+        ...     contrabasses=[1],
         ...     )
         >>> path = abjad.Path('animales', 'stylesheets', 'contexts.ily')
         >>> lilypond_file = template.__illustrate__(
@@ -239,44 +239,44 @@ class ScoreTemplate(baca.ScoreTemplate):
     def __init__(
         self,
         piccolo=0,
-        flute=0,
-        oboe=0,
+        flutes=0,
+        oboes=0,
         english_horn=0,
-        clarinet=0,
+        clarinets=0,
         bass_clarinet=0,
-        bassoon=0,
-        horn=0,
-        trumpet=0,
-        trombone=0,
+        bassoons=0,
+        horns=0,
+        trumpets=0,
+        trombones=0,
         tuba=0,
         harp=0,
         piano=0,
         percussion=0,
-        first_violin=0,
-        second_violin=0,
-        viola=0,
-        cello=0,
-        contrabass=0,
+        first_violins=0,
+        second_violins=0,
+        violas=0,
+        cellos=0,
+        contrabasses=0,
         ):
         self.piccolo = piccolo
-        self.flute = flute
-        self.oboe = oboe
+        self.flutes = flutes
+        self.oboes = oboes
         self.english_horn = english_horn
-        self.clarinet = clarinet
+        self.clarinets = clarinets
         self.bass_clarinet = bass_clarinet
-        self.bassoon = bassoon
-        self.horn = horn
-        self.trumpet = trumpet
-        self.trombone = trombone
+        self.bassoons = bassoons
+        self.horns = horns
+        self.trumpets = trumpets
+        self.trombones = trombones
         self.tuba = tuba
         self.harp = harp
         self.piano = piano
         self.percussion = percussion
-        self.first_violin = first_violin
-        self.second_violin = second_violin
-        self.viola = viola
-        self.cello = cello
-        self.contrabass = contrabass
+        self.first_violins = first_violins
+        self.second_violins = second_violins
+        self.violas = violas
+        self.cellos = cellos
+        self.contrabasses = contrabasses
 
     ### SPECIAL METHODS ###
 
@@ -294,12 +294,12 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         flute_staves = self._make_staves(
             'Flute',
-            self.flute,
+            self.flutes,
             animales.instruments['flute'],
             )
         oboe_staves = self._make_staves(
             'Oboe',
-            self.oboe,
+            self.oboes,
             animales.instruments['oboe'],
             )
         english_horn_staves = self._make_staves(
@@ -309,7 +309,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         clarinet_staves = self._make_staves(
             'Clarinet',
-            self.clarinet,
+            self.clarinets,
             animales.instruments['clarinet'],
             )
         bass_clarinet_staves = self._make_staves(
@@ -319,22 +319,22 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         bassoon_staves = self._make_staves(
             'Bassoon',
-            self.bassoon,
+            self.bassoons,
             animales.instruments['bassoon'],
             )
         horn_staves = self._make_staves(
             'Horn',
-            self.horn,
+            self.horns,
             animales.instruments['horn'],
             )
         trumpet_staves = self._make_staves(
             'Trumpet',
-            self.trumpet,
+            self.trumpets,
             animales.instruments['trumpet'],
             )
         trombone_staves = self._make_staves(
             'Trombone',
-            self.trombone,
+            self.trombones,
             animales.instruments['trombone'],
             )
         tuba_staves = self._make_staves(
@@ -359,27 +359,27 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         first_violin_staves = self._make_staves(
             'FirstViolin',
-            self.first_violin,
+            self.first_violins,
             animales.instruments['violin'],
             )
         second_violin_staves = self._make_staves(
             'SecondViolin',
-            self.second_violin,
+            self.second_violins,
             animales.instruments['violin'],
             )
         viola_staves = self._make_staves(
             'Viola',
-            self.viola,
+            self.violas,
             animales.instruments['viola'],
             )
         cello_staves = self._make_staves(
             'Cello',
-            self.cello,
+            self.cellos,
             animales.instruments['cello'],
             )
         contrabass_staves = self._make_staves(
             'Contrabass',
-            self.contrabass,
+            self.contrabasses,
             animales.instruments['contrabass'],
             )
         music_context = self.make_music_context(

@@ -14,12 +14,12 @@ maker = baca.SegmentMaker(
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
         piccolo=[1],
-        flute=[2, 2],
-        first_violin=[2],
-        second_violin=[1, 1],
-        viola=[1],
-        cello=[1],
-        contrabass=[1],
+        flutes=[2, 2],
+        first_violins=[2],
+        second_violins=[1, 1],
+        violas=[1],
+        cellos=[1],
+        contrabasses=[1],
         ),
     metronome_mark_measure_map=[
         (1, animales.metronome_marks['108']),
