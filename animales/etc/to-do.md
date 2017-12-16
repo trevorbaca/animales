@@ -1,8 +1,20 @@
 TO-DO
 =====
 
-1.  Neuter Animales instrument margin markup.
-    Set Animales margin markup explicitly.
+    score_template=animales.ScoreTemplate(
+        piccolo=[1],
+#        flutes=baca.group(
+#            'Fl.',
+#            baca.staff('I+II', 1, 2),
+#            baca.staff('III+IV', 3, 4),
+#            ),
+        first_violins=[(1, 2)],
+        second_violins=[1, 1],
+        violas=[1],
+        cellos=[1],
+        contrabasses=[1],
+
+1.  Set Animales margin markup explicitly.
     Teach SegmentMaker to write end-margin-markup to metadata.
     Teach IDE how to activate and deactivate margin markup.
 
