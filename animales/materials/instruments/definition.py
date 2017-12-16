@@ -5,131 +5,74 @@ import baca
 instruments = abjad.InstrumentDictionary([
     (
         'bass clarinet',
-        abjad.BassClarinet(
-            name_markup=baca.markup.instrument('Bass clarinet'),
-            short_name_markup=baca.markup.short_instrument('Bass cl.'),
-            )
+        abjad.BassClarinet(suppress_markup=True),
         ),
     (
         'bassoon',
-        abjad.Bassoon(
-            name_markup=baca.markup.instrument('Bassoon'),
-            short_name_markup=baca.markup.short_instrument('Bsn.'),
-            )
+        abjad.Bassoon(suppress_markup=True),
         ),
     (
         'cello',
-        abjad.Cello(
-            name_markup=baca.markup.instrument('Cello'),
-            short_name_markup=baca.markup.short_instrument('Vc.'),
-            )
+        abjad.Cello(suppress_markup=True),
         ),
     (
         'clarinet',
-        abjad.ClarinetInBFlat(
-            name='clarinet',
-            name_markup=baca.markup.instrument('Clarinet'),
-            short_name_markup=baca.markup.short_instrument('Cl.'),
-            )
+        abjad.ClarinetInBFlat(suppress_markup=True),
         ),
     (
         'contrabass',
-        abjad.Contrabass(
-            name_markup=baca.markup.instrument('Contrabass'),
-            short_name_markup=baca.markup.short_instrument('Cb.'),
-            )
+        abjad.Contrabass(suppress_markup=True),
         ),
     (
         'english horn',
-        abjad.EnglishHorn(
-            name='english horn',
-            name_markup=baca.markup.instrument('English horn'),
-            short_name_markup=baca.markup.short_instrument('Eng. hn.'),
-            )
+        abjad.EnglishHorn(suppress_markup=True),
         ),
     (
         'flute',
-        abjad.Flute(
-            name_markup=baca.markup.instrument('Flute'),
-            short_name_markup=baca.markup.short_instrument('Fl.'),
-            )
+        abjad.Flute(suppress_markup=True),
         ),
     (
         'harp',
-        abjad.Harp(
-            name_markup=baca.markup.instrument('Harp'),
-            short_name_markup=baca.markup.short_instrument('Hp.'),
-            ),
+        abjad.Harp(suppress_markup=True),
         ),
     (
         'horn',
-        abjad.FrenchHorn(
-            name_markup=baca.markup.instrument('Horn'),
-            short_name_markup=baca.markup.short_instrument('Hn.'),
-            )
+        abjad.FrenchHorn(suppress_markup=True),
         ),
     (
         'oboe',
-        abjad.Oboe(
-            name_markup=baca.markup.instrument('Oboe'),
-            short_name_markup=baca.markup.short_instrument('Ob.'),
-            )
+        abjad.Oboe(suppress_markup=True),
         ),
     (
         'percussion',
-        abjad.Percussion(
-            name_markup=baca.markup.instrument('Percussion'),
-            short_name_markup=baca.markup.short_instrument('Perc.'),
-            )
+        abjad.Percussion(suppress_markup=True),
         ),
     (
         'piano',
-        abjad.Piano(
-            name_markup=baca.markup.instrument('Piano'),
-            short_name_markup=baca.markup.short_instrument('Pf.'),
-            ),
+        abjad.Piano(suppress_markup=True),
         ),
     (
         'piccolo',
-        abjad.Piccolo(
-            name_markup=baca.markup.instrument('Piccolo'),
-            short_name_markup=baca.markup.short_instrument('Picc.'),
-            )
+        abjad.Piccolo(suppress_markup=True),
         ),
     (
         'trombone',
-        abjad.TenorTrombone(
-            name='trombone',
-            name_markup=baca.markup.instrument('Trombone'),
-            short_name_markup=baca.markup.short_instrument('Trb.'),
-            )
+        abjad.TenorTrombone(suppress_markup=True),
         ),
     (
         'trumpet',
-        abjad.Trumpet(
-            name_markup=baca.markup.instrument('Trumpet'),
-            short_name_markup=baca.markup.short_instrument('Tp.'),
-            )
+        abjad.Trumpet(suppress_markup=True),
         ),
     (
         'tuba',
-        abjad.Tuba(
-            name_markup=baca.markup.instrument('Tuba'),
-            short_name_markup=baca.markup.short_instrument('Tub.'),
-            )
+        abjad.Tuba(suppress_markup=True),
         ),
     (
         'viola',
-        abjad.Viola(
-            name_markup=baca.markup.instrument('Viola'),
-            short_name_markup=baca.markup.short_instrument('Va.'),
-            )
+        abjad.Viola(suppress_markup=True),
         ),
     (
         'violin',
-        abjad.Violin(
-            name_markup=baca.markup.instrument('Violin'),
-            short_name_markup=baca.markup.short_instrument('Vn.'),
-            )
+        abjad.Violin(suppress_markup=True),
         ),
     ])

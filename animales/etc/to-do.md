@@ -1,8 +1,7 @@
 TO-DO
 =====
 
-1.  Add abjad.Instrument property to suppress margin markup.
-    Neuter Animales instrument margin markup.
+1.  Neuter Animales instrument margin markup.
     Set Animales margin markup explicitly.
     Teach SegmentMaker to write end-margin-markup to metadata.
     Teach IDE how to activate and deactivate margin markup.
