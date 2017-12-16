@@ -36,16 +36,41 @@ metadata = abjad.TypedOrderedDict(
             'end_instruments',
             abjad.TypedOrderedDict(
                 [
-                    ('FirstViolinStaffI', 'violin'),
-                    ('FluteStaffI', 'flute'),
-                    ('FluteStaffII', 'flute'),
-                    ('SecondViolinStaffI', 'violin'),
-                    ('SecondViolinStaffII', 'violin'),
+                    (
+                        'FirstViolinStaffI',
+                        ('violin', 'FirstViolinVoiceI'),
+                        ),
+                    (
+                        'FluteStaffI',
+                        ('flute', 'FluteVoiceI'),
+                        ),
+                    (
+                        'FluteStaffII',
+                        ('flute', 'FluteVoiceIII'),
+                        ),
+                    (
+                        'SecondViolinStaffI',
+                        ('violin', 'SecondViolinVoiceI'),
+                        ),
+                    (
+                        'SecondViolinStaffII',
+                        ('violin', 'SecondViolinVoiceII'),
+                        ),
                     ]
                 ),
             ),
         ('end_margin_markup', None),
-        ('end_metronome_mark', '108'),
+        (
+            'end_metronome_marks',
+            abjad.TypedOrderedDict(
+                [
+                    (
+                        'Score',
+                        ('108', 'GlobalSkips'),
+                        ),
+                    ]
+                ),
+            ),
         ('end_staff_lines', None),
         ('first_measure_number', 15),
         ('segment_number', 3),
