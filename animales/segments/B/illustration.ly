@@ -149,7 +149,7 @@
                         
                         %%% PiccoloVoiceI [measure 22] %%%
                         R1 * 1/2
-                        \bar "|."
+                        \bar "|"
                         
                     }
                 }
@@ -417,7 +417,7 @@
                             \once \override Stem.color = #blue
                             c'4
                             \repeatTie
-                            \bar "|."
+                            \bar "|"
                             
                         }
                         \context Voice = "FluteVoiceII" {
@@ -445,7 +445,7 @@
                             
                             %%% FluteVoiceII [measure 22] %%%
                             R1 * 1/2
-                            \bar "|."
+                            \bar "|"
                             
                         }
                     >>
@@ -503,7 +503,7 @@
                             
                             %%% FluteVoiceIII [measure 22] %%%
                             R1 * 1/2
-                            \bar "|."
+                            \bar "|"
                             
                         }
                         \context Voice = "FluteVoiceIV" {
@@ -531,7 +531,7 @@
                             
                             %%% FluteVoiceIV [measure 22] %%%
                             R1 * 1/2
-                            \bar "|."
+                            \bar "|"
                             
                         }
                     >>
@@ -592,7 +592,7 @@
                         
                         %%% FirstViolinVoiceI [measure 22] %%%
                         R1 * 1/2
-                        \bar "|."
+                        \bar "|"
                         
                     }
                     \context Voice = "FirstViolinVoiceII" {
@@ -620,7 +620,7 @@
                         
                         %%% FirstViolinVoiceII [measure 22] %%%
                         R1 * 1/2
-                        \bar "|."
+                        \bar "|"
                         
                     }
                 >>
@@ -681,7 +681,7 @@
                             
                             %%% SecondViolinVoiceI [measure 22] %%%
                             R1 * 1/2
-                            \bar "|."
+                            \bar "|"
                             
                         }
                     }
@@ -739,7 +739,7 @@
                             
                             %%% SecondViolinVoiceII [measure 22] %%%
                             R1 * 1/2
-                            \bar "|."
+                            \bar "|"
                             
                         }
                     }
@@ -770,7 +770,7 @@
                         
                         %%% ViolaVoiceI [measure 22] %%%
                         R1 * 1/2
-                        \bar "|."
+                        \bar "|"
                         
                     }
                 }
@@ -800,7 +800,7 @@
                         
                         %%% CelloVoiceI [measure 22] %%%
                         R1 * 1/2
-                        \bar "|."
+                        \bar "|"
                         
                     }
                 }
@@ -830,7 +830,7 @@
                         
                         %%% ContrabassVoiceI [measure 22] %%%
                         R1 * 1/2
-                        \bar "|."
+                        \bar "|"
                         
                     }
                 }
