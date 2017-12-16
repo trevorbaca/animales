@@ -31,12 +31,7 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         ('end_clock_time', "0'31''"),
-        (
-            'end_dynamics',
-            abjad.TypedOrderedDict(
-                []
-                ),
-            ),
+        ('end_dynamics', None),
         (
             'end_instruments',
             abjad.TypedOrderedDict(
@@ -49,13 +44,9 @@ metadata = abjad.TypedOrderedDict(
                     ]
                 ),
             ),
+        ('end_margin_markup', None),
         ('end_metronome_mark', '72'),
-        (
-            'end_staff_lines',
-            abjad.TypedOrderedDict(
-                []
-                ),
-            ),
+        ('end_staff_lines', None),
         ('end_time_signature', '4/4'),
         ('first_bar_number', 9),
         ('measure_count', 6),

@@ -47,12 +47,7 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         ('end_clock_time', "0'15''"),
-        (
-            'end_dynamics',
-            abjad.TypedOrderedDict(
-                []
-                ),
-            ),
+        ('end_dynamics', None),
         (
             'end_instruments',
             abjad.TypedOrderedDict(
@@ -69,13 +64,51 @@ metadata = abjad.TypedOrderedDict(
                     ]
                 ),
             ),
-        ('end_metronome_mark', '108'),
         (
-            'end_staff_lines',
+            'end_margin_markup',
             abjad.TypedOrderedDict(
-                []
+                [
+                    (
+                        'CelloStaffI',
+                        ('Vc.', 'CelloVoiceI'),
+                        ),
+                    (
+                        'ContrabassStaffI',
+                        ('Cb.', 'ContrabassVoiceI'),
+                        ),
+                    (
+                        'FirstViolinStaffI',
+                        ('Vni. I', 'FirstViolinVoiceI'),
+                        ),
+                    (
+                        'FluteStaffI',
+                        ('Fl.', 'FluteVoiceI'),
+                        ),
+                    (
+                        'FluteStaffII',
+                        ('Fl.', 'FluteVoiceIII'),
+                        ),
+                    (
+                        'PiccoloStaffI',
+                        ('Picc.', 'PiccoloVoiceI'),
+                        ),
+                    (
+                        'SecondViolinStaffI',
+                        ('Vni. II', 'SecondViolinVoiceI'),
+                        ),
+                    (
+                        'SecondViolinStaffII',
+                        ('Vni. II', 'SecondViolinVoiceII'),
+                        ),
+                    (
+                        'ViolaStaffI',
+                        ('Vle.', 'ViolaVoiceI'),
+                        ),
+                    ]
                 ),
             ),
+        ('end_metronome_mark', '108'),
+        ('end_staff_lines', None),
         ('end_time_signature', '2/4'),
         ('first_bar_number', 1),
         ('measure_count', 8),
