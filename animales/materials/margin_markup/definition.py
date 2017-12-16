@@ -4,10 +4,10 @@ import baca
 
 margin_markup = abjad.TypedOrderedDict([
     (
-        'Bass cl.',
+        'B. cl.',
         baca.MarginMarkup(
             markup=baca.markup.instrument('Bass clarinet'),
-            short_markup=baca.markup.short_instrument('Bass cl.'),
+            short_markup=baca.markup.short_instrument('B. cl.'),
             )
         ),
     (
@@ -18,10 +18,10 @@ margin_markup = abjad.TypedOrderedDict([
             )
         ),
     (
-        'Vce.',
+        'Vc.',
         baca.MarginMarkup(
             markup=baca.markup.instrument('Cellos'),
-            short_markup=baca.markup.short_instrument('Vce.'),
+            short_markup=baca.markup.short_instrument('Vc.'),
             )
         ),
     (
@@ -116,10 +116,10 @@ margin_markup = abjad.TypedOrderedDict([
             )
         ),
     (
-        'Ve.',
+        'Vle.',
         baca.MarginMarkup(
             markup=baca.markup.instrument('Violas'),
-            short_markup=baca.markup.short_instrument('Ve.'),
+            short_markup=baca.markup.short_instrument('Vle.'),
             )
         ),
     (
@@ -127,6 +127,20 @@ margin_markup = abjad.TypedOrderedDict([
         baca.MarginMarkup(
             markup=baca.markup.instrument('Violins'),
             short_markup=baca.markup.short_instrument('Vni.'),
+            )
+        ),
+    (
+        'Vni. I',
+        baca.MarginMarkup(
+            markup=baca.markup.instrument('Violins I'),
+            short_markup=baca.markup.short_instrument('Vni. I'),
+            )
+        ),
+    (
+        'Vni. II',
+        baca.MarginMarkup(
+            markup=baca.markup.instrument('Violins II'),
+            short_markup=baca.markup.short_instrument('Vni. II'),
             )
         ),
     ])
