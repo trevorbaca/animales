@@ -3,9 +3,8 @@ import abjad
 
 metadata = abjad.TypedOrderedDict(
     [
-        ('duration', "0'15''"),
         (
-            'end_clefs',
+            'abjad.Clef',
             abjad.TypedOrderedDict(
                 [
                     (
@@ -47,9 +46,9 @@ metadata = abjad.TypedOrderedDict(
                     ]
                 ),
             ),
-        ('end_dynamics', None),
+        ('abjad.Dynamic', None),
         (
-            'end_instruments',
+            'abjad.Instrument',
             abjad.TypedOrderedDict(
                 [
                     (
@@ -92,7 +91,29 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         (
-            'end_margin_markup',
+            'abjad.MetronomeMark',
+            abjad.TypedOrderedDict(
+                [
+                    (
+                        'Score',
+                        ('108', 'GlobalSkips'),
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'abjad.TimeSignature',
+            abjad.TypedOrderedDict(
+                [
+                    (
+                        'Score',
+                        ('2/4', 'GlobalSkips'),
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'baca.MarginMarkup',
             abjad.TypedOrderedDict(
                 [
                     (
@@ -134,29 +155,8 @@ metadata = abjad.TypedOrderedDict(
                     ]
                 ),
             ),
-        (
-            'end_metronome_marks',
-            abjad.TypedOrderedDict(
-                [
-                    (
-                        'Score',
-                        ('108', 'GlobalSkips'),
-                        ),
-                    ]
-                ),
-            ),
+        ('duration', "0'15''"),
         ('end_staff_lines', None),
-        (
-            'end_time_signatures',
-            abjad.TypedOrderedDict(
-                [
-                    (
-                        'Score',
-                        ('2/4', 'GlobalSkips'),
-                        ),
-                    ]
-                ),
-            ),
         ('first_measure_number', 1),
         ('segment_number', 1),
         ('start_clock_time', "0'00''"),
