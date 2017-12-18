@@ -155,8 +155,8 @@ metadata = abjad.TypedOrderedDict(
                     ]
                 ),
             ),
+        ('baca.StaffLines', None),
         ('duration', "0'15''"),
-        ('end_staff_lines', None),
         ('first_measure_number', 1),
         ('segment_number', 1),
         ('start_clock_time', "0'00''"),
