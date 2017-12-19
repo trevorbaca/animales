@@ -15,10 +15,10 @@
             \context GlobalSkips = "GlobalSkips" {
                 
                 %%% GlobalSkips [measure 15] %%%
-                \time 4/4 %! REMINDER_TIME_SIGNATURE_COMMAND:4
+                \time 4/4 %! PERSISTENT_TIME_SIGNATURE_COMMAND:4
                 \mark #2
                 \bar "" %! EMPTY_START_BAR:1
-                \once \override Score.TimeSignature.color = #(x11-color 'green) %! REMINDER_TIME_SIGNATURE_COLOR:3
+                \once \override Score.TimeSignature.color = #(x11-color 'green) %! PERSISTENT_TIME_SIGNATURE_COLOR:3
                 s1 * 1
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:5
                     %%% \fontsize %! CLOCK_TIME_MARKUP:5
@@ -165,35 +165,35 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            \clef "treble" %! REMINDER_CLEF_COMMAND:4
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! REMINDER_CLEF_COLOR:1
-                            %%% \override Staff.Clef.color = ##f %! REMINDER_CLEF_UNCOLOR:2
-                            \set Staff.forceClef = ##t %! REMINDER_CLEF_COMMAND:3
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REMINDER_INSTRUMENT_COLOR:6
+                            \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
+                            \once \override Staff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
+                            %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
+                            \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
                             c'4
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     { %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%         \override %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             #'(box-padding . 0.75) %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             \box %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%                 flute %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     } %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        \line %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            { %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \with-color %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    #(x11-color 'green) %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    \override %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        #'(box-padding . 0.75) %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        \box %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                            flute %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            } %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%                 flute %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                            flute %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
                                     }
                                 }
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REMINDER_CLEF_SHADOW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REMINDER_INSTRUMENT_SHADOW_COLOR:8
+                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
                             
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -453,35 +453,35 @@
                         \context Voice = "FluteVoiceIII" {
                             
                             %%% FluteVoiceIII [measure 15] %%%
-                            \clef "treble" %! REMINDER_CLEF_COMMAND:4
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! REMINDER_CLEF_COLOR:1
-                            %%% \override Staff.Clef.color = ##f %! REMINDER_CLEF_UNCOLOR:2
-                            \set Staff.forceClef = ##t %! REMINDER_CLEF_COMMAND:3
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REMINDER_INSTRUMENT_COLOR:6
+                            \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
+                            \once \override Staff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
+                            %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
+                            \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
                             R1 * 1
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     { %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%         \override %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             #'(box-padding . 0.75) %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             \box %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%                 flute %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     } %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        \line %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            { %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \with-color %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    #(x11-color 'green) %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    \override %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        #'(box-padding . 0.75) %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        \box %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                            flute %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            } %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%                 flute %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                            flute %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
                                     }
                                 }
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REMINDER_CLEF_SHADOW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REMINDER_INSTRUMENT_SHADOW_COLOR:8
+                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
                             
                             %%% FluteVoiceIII [measure 16] %%%
                             R1 * 1
@@ -542,35 +542,35 @@
                     \context Voice = "FirstViolinVoiceI" {
                         
                         %%% FirstViolinVoiceI [measure 15] %%%
-                        \clef "treble" %! REMINDER_CLEF_COMMAND:4
-                        \once \override Staff.Clef.color = #(x11-color 'green) %! REMINDER_CLEF_COLOR:1
-                        %%% \override Staff.Clef.color = ##f %! REMINDER_CLEF_UNCOLOR:2
-                        \set Staff.forceClef = ##t %! REMINDER_CLEF_COMMAND:3
-                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REMINDER_INSTRUMENT_COLOR:6
+                        \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
+                        \once \override Staff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
+                        %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
+                        \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
+                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
                         R1 * 1
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                    %%%     { %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                    %%%         \override %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                    %%%             #'(box-padding . 0.75) %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                    %%%             \box %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                    %%%                 violin %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                    %%%     } %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                    \line %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                        { %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            \with-color %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                #(x11-color 'green) %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \override %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    #'(box-padding . 0.75) %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    \box %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        violin %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                        } %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                    %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                    %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                    %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                    %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                    %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                    %%%                 violin %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                    %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                    \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                        { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                            \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                    #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                    \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                        violin %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                        } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
                                 }
                             }
-                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REMINDER_CLEF_SHADOW_COLOR:5
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REMINDER_INSTRUMENT_SHADOW_COLOR:8
+                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
                         
                         %%% FirstViolinVoiceI [measure 16] %%%
                         R1 * 1
@@ -631,35 +631,35 @@
                         \context Voice = "SecondViolinVoiceI" {
                             
                             %%% SecondViolinVoiceI [measure 15] %%%
-                            \clef "treble" %! REMINDER_CLEF_COMMAND:4
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! REMINDER_CLEF_COLOR:1
-                            %%% \override Staff.Clef.color = ##f %! REMINDER_CLEF_UNCOLOR:2
-                            \set Staff.forceClef = ##t %! REMINDER_CLEF_COMMAND:3
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REMINDER_INSTRUMENT_COLOR:6
+                            \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
+                            \once \override Staff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
+                            %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
+                            \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
                             R1 * 1
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     { %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%         \override %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             #'(box-padding . 0.75) %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             \box %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%                 violin %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     } %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        \line %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            { %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \with-color %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    #(x11-color 'green) %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    \override %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        #'(box-padding . 0.75) %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        \box %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                            violin %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            } %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%                 violin %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                            violin %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
                                     }
                                 }
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REMINDER_CLEF_SHADOW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REMINDER_INSTRUMENT_SHADOW_COLOR:8
+                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
                             
                             %%% SecondViolinVoiceI [measure 16] %%%
                             R1 * 1
@@ -689,35 +689,35 @@
                         \context Voice = "SecondViolinVoiceII" {
                             
                             %%% SecondViolinVoiceII [measure 15] %%%
-                            \clef "treble" %! REMINDER_CLEF_COMMAND:4
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! REMINDER_CLEF_COLOR:1
-                            %%% \override Staff.Clef.color = ##f %! REMINDER_CLEF_UNCOLOR:2
-                            \set Staff.forceClef = ##t %! REMINDER_CLEF_COMMAND:3
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REMINDER_INSTRUMENT_COLOR:6
+                            \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
+                            \once \override Staff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
+                            %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
+                            \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
                             R1 * 1
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     { %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%         \override %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             #'(box-padding . 0.75) %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             \box %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%                 violin %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     } %! REMINDER_INSTRUMENT_CHANGE_MARKUP:10
-                                        \line %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            { %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \with-color %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    #(x11-color 'green) %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    \override %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        #'(box-padding . 0.75) %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        \box %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                            violin %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            } %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%                 violin %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
+                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                                            violin %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
                                     }
                                 }
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REMINDER_CLEF_SHADOW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REMINDER_INSTRUMENT_SHADOW_COLOR:8
+                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
                             
                             %%% SecondViolinVoiceII [measure 16] %%%
                             R1 * 1
