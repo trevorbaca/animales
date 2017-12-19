@@ -4,75 +4,75 @@ import baca
 
 instruments = abjad.InstrumentDictionary([
     (
-        'bass clarinet',
+        'BassClarinet',
         abjad.BassClarinet(suppress_markup=True),
         ),
     (
-        'bassoon',
+        'Bassoon',
         abjad.Bassoon(suppress_markup=True),
         ),
     (
-        'cello',
+        'Cello',
         abjad.Cello(suppress_markup=True),
         ),
     (
-        'clarinet',
+        'Clarinet',
         abjad.ClarinetInBFlat(suppress_markup=True),
         ),
     (
-        'contrabass',
+        'Contrabass',
         abjad.Contrabass(suppress_markup=True),
         ),
     (
-        'english horn',
+        'EnglishHorn',
         abjad.EnglishHorn(suppress_markup=True),
         ),
     (
-        'flute',
+        'Flute',
         abjad.Flute(suppress_markup=True),
         ),
     (
-        'harp',
+        'Harp',
         abjad.Harp(suppress_markup=True),
         ),
     (
-        'horn',
+        'Horn',
         abjad.FrenchHorn(suppress_markup=True),
         ),
     (
-        'oboe',
+        'Oboe',
         abjad.Oboe(suppress_markup=True),
         ),
     (
-        'percussion',
+        'Percussion',
         abjad.Percussion(suppress_markup=True),
         ),
     (
-        'piano',
+        'Piano',
         abjad.Piano(suppress_markup=True),
         ),
     (
-        'piccolo',
+        'Piccolo',
         abjad.Piccolo(suppress_markup=True),
         ),
     (
-        'trombone',
+        'Trombone',
         abjad.TenorTrombone(suppress_markup=True),
         ),
     (
-        'trumpet',
+        'Trumpet',
         abjad.Trumpet(suppress_markup=True),
         ),
     (
-        'tuba',
+        'Tuba',
         abjad.Tuba(suppress_markup=True),
         ),
     (
-        'viola',
+        'Viola',
         abjad.Viola(suppress_markup=True),
         ),
     (
-        'violin',
+        'Violin',
         abjad.Violin(suppress_markup=True),
         ),
     ])
