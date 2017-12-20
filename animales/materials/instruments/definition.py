@@ -5,74 +5,74 @@ import baca
 instruments = abjad.InstrumentDictionary([
     (
         'BassClarinet',
-        abjad.BassClarinet(suppress_markup=True),
+        abjad.BassClarinet(suppress=True),
         ),
     (
         'Bassoon',
-        abjad.Bassoon(suppress_markup=True),
+        abjad.Bassoon(suppress=True),
         ),
     (
         'Cello',
-        abjad.Cello(suppress_markup=True),
+        abjad.Cello(suppress=True),
         ),
     (
         'Clarinet',
-        abjad.ClarinetInBFlat(suppress_markup=True),
+        abjad.ClarinetInBFlat(suppress=True),
         ),
     (
         'Contrabass',
-        abjad.Contrabass(suppress_markup=True),
+        abjad.Contrabass(suppress=True),
         ),
     (
         'EnglishHorn',
-        abjad.EnglishHorn(suppress_markup=True),
+        abjad.EnglishHorn(suppress=True),
         ),
     (
         'Flute',
-        abjad.Flute(suppress_markup=True),
+        abjad.Flute(suppress=True),
         ),
     (
         'Harp',
-        abjad.Harp(suppress_markup=True),
+        abjad.Harp(suppress=True),
         ),
     (
         'Horn',
-        abjad.FrenchHorn(suppress_markup=True),
+        abjad.FrenchHorn(suppress=True),
         ),
     (
         'Oboe',
-        abjad.Oboe(suppress_markup=True),
+        abjad.Oboe(suppress=True),
         ),
     (
         'Percussion',
-        abjad.Percussion(suppress_markup=True),
+        abjad.Percussion(suppress=True),
         ),
     (
         'Piano',
-        abjad.Piano(suppress_markup=True),
+        abjad.Piano(suppress=True),
         ),
     (
         'Piccolo',
-        abjad.Piccolo(suppress_markup=True),
+        abjad.Piccolo(suppress=True),
         ),
     (
         'Trombone',
-        abjad.TenorTrombone(suppress_markup=True),
+        abjad.TenorTrombone(suppress=True),
         ),
     (
         'Trumpet',
-        abjad.Trumpet(suppress_markup=True),
+        abjad.Trumpet(suppress=True),
         ),
     (
         'Tuba',
-        abjad.Tuba(suppress_markup=True),
+        abjad.Tuba(suppress=True),
         ),
     (
         'Viola',
-        abjad.Viola(suppress_markup=True),
+        abjad.Viola(suppress=True),
         ),
     (
         'Violin',
-        abjad.Violin(suppress_markup=True),
+        abjad.Violin(suppress=True),
         ),
     ])
