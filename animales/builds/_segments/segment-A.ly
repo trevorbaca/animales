@@ -114,21 +114,21 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                Flute %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                Fl. %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \clef "treble" %! REAPPLIED_CLEF_COMMAND:10
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:2
+                                #16 %! REAPPLIED_INSTRUMENT:2
+                                Flute %! REAPPLIED_INSTRUMENT:2
+                            } %! REAPPLIED_INSTRUMENT:2
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:2
+                                #10 %! REAPPLIED_INSTRUMENT:2
+                                Fl. %! REAPPLIED_INSTRUMENT:2
+                            } %! REAPPLIED_INSTRUMENT:2
+                        \clef "treble" %! REAPPLIED_CLEF:10
                         \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                         \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
                         %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
-                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
+                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF:9
                         c'4
                         ^ \markup {
                             \column
@@ -151,18 +151,18 @@
                                         } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
                                 }
                             }
-                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                #16 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                Flute %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                #10 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                Fl. %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_REDRAW_COLOR:3
-                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_REDRAW_COLOR:11
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                #16 %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                Flute %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:4
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                #10 %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                Fl. %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:4
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:11
                         
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -350,21 +350,21 @@
                     \context Voice = "FluteVoiceIII" {
                         
                         %%% FluteVoiceIII [measure 9] %%%
-                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                Flute %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                Fl. %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \clef "treble" %! REAPPLIED_CLEF_COMMAND:10
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:2
+                                #16 %! REAPPLIED_INSTRUMENT:2
+                                Flute %! REAPPLIED_INSTRUMENT:2
+                            } %! REAPPLIED_INSTRUMENT:2
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:2
+                                #10 %! REAPPLIED_INSTRUMENT:2
+                                Fl. %! REAPPLIED_INSTRUMENT:2
+                            } %! REAPPLIED_INSTRUMENT:2
+                        \clef "treble" %! REAPPLIED_CLEF:10
                         \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                         \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
                         %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
-                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
+                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF:9
                         R1 * 1
                         ^ \markup {
                             \column
@@ -387,18 +387,18 @@
                                         } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
                                 }
                             }
-                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                #16 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                Flute %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                #10 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                Fl. %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_REDRAW_COLOR:3
-                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_REDRAW_COLOR:11
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                #16 %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                Flute %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:4
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                #10 %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                Fl. %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:4
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:11
                         
                         %%% FluteVoiceIII [measure 10] %%%
                         R1 * 1
@@ -447,21 +447,21 @@
                 \context Voice = "FirstViolinVoiceI" {
                     
                     %%% FirstViolinVoiceI [measure 9] %%%
-                    \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            Violin %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                    \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            Vn. %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                    \clef "treble" %! REAPPLIED_CLEF_COMMAND:10
+                    \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT:2
+                        \hcenter-in %! REAPPLIED_INSTRUMENT:2
+                            #16 %! REAPPLIED_INSTRUMENT:2
+                            Violin %! REAPPLIED_INSTRUMENT:2
+                        } %! REAPPLIED_INSTRUMENT:2
+                    \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT:2
+                        \hcenter-in %! REAPPLIED_INSTRUMENT:2
+                            #10 %! REAPPLIED_INSTRUMENT:2
+                            Vn. %! REAPPLIED_INSTRUMENT:2
+                        } %! REAPPLIED_INSTRUMENT:2
+                    \clef "treble" %! REAPPLIED_CLEF:10
                     \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                     \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
                     %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
-                    \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
+                    \set Staff.forceClef = ##t %! REAPPLIED_CLEF:9
                     R1 * 1
                     ^ \markup {
                         \column
@@ -484,18 +484,18 @@
                                     } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
                             }
                         }
-                    \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                        \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            #16 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            Violin %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                        } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                    \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                        \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            #10 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            Vn. %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                        } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                    \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_REDRAW_COLOR:3
-                    \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_REDRAW_COLOR:11
+                    \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:4
+                        \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            #16 %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            Violin %! REAPPLIED_INSTRUMENT_REDRAW:4
+                        } %! REAPPLIED_INSTRUMENT_REDRAW:4
+                    \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:4
+                        \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            #10 %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            Vn. %! REAPPLIED_INSTRUMENT_REDRAW:4
+                        } %! REAPPLIED_INSTRUMENT_REDRAW:4
+                    \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:11
                     
                     %%% FirstViolinVoiceI [measure 10] %%%
                     R1 * 1
@@ -544,21 +544,21 @@
                     \context Voice = "SecondViolinVoiceI" {
                         
                         %%% SecondViolinVoiceI [measure 9] %%%
-                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                Violin %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                Vn. %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \clef "treble" %! REAPPLIED_CLEF_COMMAND:10
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:2
+                                #16 %! REAPPLIED_INSTRUMENT:2
+                                Violin %! REAPPLIED_INSTRUMENT:2
+                            } %! REAPPLIED_INSTRUMENT:2
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:2
+                                #10 %! REAPPLIED_INSTRUMENT:2
+                                Vn. %! REAPPLIED_INSTRUMENT:2
+                            } %! REAPPLIED_INSTRUMENT:2
+                        \clef "treble" %! REAPPLIED_CLEF:10
                         \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                         \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
                         %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
-                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
+                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF:9
                         R1 * 1
                         ^ \markup {
                             \column
@@ -581,18 +581,18 @@
                                         } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
                                 }
                             }
-                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                #16 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                Violin %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                #10 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                Vn. %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_REDRAW_COLOR:3
-                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_REDRAW_COLOR:11
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                #16 %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                Violin %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:4
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                #10 %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                Vn. %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:4
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:11
                         
                         %%% SecondViolinVoiceI [measure 10] %%%
                         R1 * 1
@@ -616,21 +616,21 @@
                     \context Voice = "SecondViolinVoiceII" {
                         
                         %%% SecondViolinVoiceII [measure 9] %%%
-                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                Violin %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
-                                Vn. %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \clef "treble" %! REAPPLIED_CLEF_COMMAND:10
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:2
+                                #16 %! REAPPLIED_INSTRUMENT:2
+                                Violin %! REAPPLIED_INSTRUMENT:2
+                            } %! REAPPLIED_INSTRUMENT:2
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT:2
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:2
+                                #10 %! REAPPLIED_INSTRUMENT:2
+                                Vn. %! REAPPLIED_INSTRUMENT:2
+                            } %! REAPPLIED_INSTRUMENT:2
+                        \clef "treble" %! REAPPLIED_CLEF:10
                         \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                         \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:7
                         %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:8
-                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:9
+                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF:9
                         R1 * 1
                         ^ \markup {
                             \column
@@ -653,18 +653,18 @@
                                         } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:6
                                 }
                             }
-                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                #16 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                Violin %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                #10 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                                Vn. %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:4
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_REDRAW_COLOR:3
-                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_REDRAW_COLOR:11
+                        \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                #16 %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                Violin %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:4
+                        \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                #10 %! REAPPLIED_INSTRUMENT_REDRAW:4
+                                Vn. %! REAPPLIED_INSTRUMENT_REDRAW:4
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:4
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:11
                         
                         %%% SecondViolinVoiceII [measure 10] %%%
                         R1 * 1

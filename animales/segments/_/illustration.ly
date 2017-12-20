@@ -126,16 +126,16 @@
                             \hcenter-in
                                 #16
                                 Piccolo
-                            } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
+                            } %! EXPLICIT_MARGIN_MARKUP:12
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Picc.
-                            } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
-                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
+                            } %! EXPLICIT_MARGIN_MARKUP:12
+                        \clef "treble" %! EXPLICIT_CLEF:4
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF:3
                         \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:6
                         \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:10
                         %%% \override Staff.InstrumentName.color = ##f %! EXPLICIT_MARGIN_MARKUP_UNCOLOR:11
@@ -165,14 +165,14 @@
                             \hcenter-in
                                 #16
                                 Piccolo
-                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
+                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Picc.
-                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_REDRAW_COLOR:13
+                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_COLOR_REDRAW:13
                         
                         %%% PiccoloVoiceI [measure 2] %%%
                         R1 * 1
@@ -209,21 +209,21 @@
                                 \hcenter-in
                                     #16
                                     Flutes
-                                } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
+                                } %! EXPLICIT_MARGIN_MARKUP:12
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Fl.
-                                } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
+                                } %! EXPLICIT_MARGIN_MARKUP:12
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
+                            \clef "treble" %! EXPLICIT_CLEF:4
                             \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                             %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF:3
                             \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:6
                             \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:10
                             %%% \override Staff.InstrumentName.color = ##f %! EXPLICIT_MARGIN_MARKUP_UNCOLOR:11
@@ -253,14 +253,14 @@
                                 \hcenter-in
                                     #16
                                     Flutes
-                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
+                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Fl.
-                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_REDRAW_COLOR:13
+                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
+                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_COLOR_REDRAW:13
                             
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -524,16 +524,16 @@
                                 \hcenter-in
                                     #16
                                     Flutes
-                                } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
+                                } %! EXPLICIT_MARGIN_MARKUP:12
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Fl.
-                                } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
-                            \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
+                                } %! EXPLICIT_MARGIN_MARKUP:12
+                            \clef "treble" %! EXPLICIT_CLEF:4
                             \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                             %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF:3
                             \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:6
                             \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:10
                             %%% \override Staff.InstrumentName.color = ##f %! EXPLICIT_MARGIN_MARKUP_UNCOLOR:11
@@ -563,14 +563,14 @@
                                 \hcenter-in
                                     #16
                                     Flutes
-                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
+                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Fl.
-                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_REDRAW_COLOR:13
+                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
+                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_COLOR_REDRAW:13
                             
                             %%% FluteVoiceIII [measure 2] %%%
                             R1 * 1
@@ -639,7 +639,7 @@
                                         Violins
                                         I
                                     }
-                            } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
+                            } %! EXPLICIT_MARGIN_MARKUP:12
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
@@ -648,11 +648,11 @@
                                         Vni.
                                         I
                                     }
-                            } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
-                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
+                            } %! EXPLICIT_MARGIN_MARKUP:12
+                        \clef "treble" %! EXPLICIT_CLEF:4
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF:3
                         \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:6
                         \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:10
                         %%% \override Staff.InstrumentName.color = ##f %! EXPLICIT_MARGIN_MARKUP_UNCOLOR:11
@@ -686,7 +686,7 @@
                                         Violins
                                         I
                                     }
-                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
+                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
@@ -695,9 +695,9 @@
                                         Vni.
                                         I
                                     }
-                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_REDRAW_COLOR:13
+                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_COLOR_REDRAW:13
                         
                         %%% FirstViolinVoiceI [measure 2] %%%
                         R1 * 1
@@ -766,7 +766,7 @@
                                             Violins
                                             II
                                         }
-                                } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
+                                } %! EXPLICIT_MARGIN_MARKUP:12
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -775,11 +775,11 @@
                                             Vni.
                                             II
                                         }
-                                } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
-                            \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
+                                } %! EXPLICIT_MARGIN_MARKUP:12
+                            \clef "treble" %! EXPLICIT_CLEF:4
                             \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                             %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF:3
                             \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:6
                             \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:10
                             %%% \override Staff.InstrumentName.color = ##f %! EXPLICIT_MARGIN_MARKUP_UNCOLOR:11
@@ -813,7 +813,7 @@
                                             Violins
                                             II
                                         }
-                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
+                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -822,9 +822,9 @@
                                             Vni.
                                             II
                                         }
-                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_REDRAW_COLOR:13
+                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
+                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_COLOR_REDRAW:13
                             
                             %%% SecondViolinVoiceI [measure 2] %%%
                             R1 * 1
@@ -862,7 +862,7 @@
                                             Violins
                                             II
                                         }
-                                } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
+                                } %! EXPLICIT_MARGIN_MARKUP:12
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -871,11 +871,11 @@
                                             Vni.
                                             II
                                         }
-                                } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
-                            \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
+                                } %! EXPLICIT_MARGIN_MARKUP:12
+                            \clef "treble" %! EXPLICIT_CLEF:4
                             \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                             %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF:3
                             \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:6
                             \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:10
                             %%% \override Staff.InstrumentName.color = ##f %! EXPLICIT_MARGIN_MARKUP_UNCOLOR:11
@@ -909,7 +909,7 @@
                                             Violins
                                             II
                                         }
-                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
+                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -918,9 +918,9 @@
                                             Vni.
                                             II
                                         }
-                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_REDRAW_COLOR:13
+                                } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
+                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_COLOR_REDRAW:13
                             
                             %%% SecondViolinVoiceII [measure 2] %%%
                             R1 * 1
@@ -955,16 +955,16 @@
                             \hcenter-in
                                 #16
                                 Violas
-                            } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
+                            } %! EXPLICIT_MARGIN_MARKUP:12
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Vle.
-                            } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
-                        \clef "alto" %! EXPLICIT_CLEF_COMMAND:4
+                            } %! EXPLICIT_MARGIN_MARKUP:12
+                        \clef "alto" %! EXPLICIT_CLEF:4
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF:3
                         \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:6
                         \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:10
                         %%% \override Staff.InstrumentName.color = ##f %! EXPLICIT_MARGIN_MARKUP_UNCOLOR:11
@@ -994,14 +994,14 @@
                             \hcenter-in
                                 #16
                                 Violas
-                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
+                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Vle.
-                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_REDRAW_COLOR:13
+                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_COLOR_REDRAW:13
                         
                         %%% ViolaVoiceI [measure 2] %%%
                         R1 * 1
@@ -1035,16 +1035,16 @@
                             \hcenter-in
                                 #16
                                 Cellos
-                            } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
+                            } %! EXPLICIT_MARGIN_MARKUP:12
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Vc.
-                            } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
-                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:4
+                            } %! EXPLICIT_MARGIN_MARKUP:12
+                        \clef "bass" %! EXPLICIT_CLEF:4
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF:3
                         \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:6
                         \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:10
                         %%% \override Staff.InstrumentName.color = ##f %! EXPLICIT_MARGIN_MARKUP_UNCOLOR:11
@@ -1074,14 +1074,14 @@
                             \hcenter-in
                                 #16
                                 Cellos
-                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
+                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Vc.
-                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_REDRAW_COLOR:13
+                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_COLOR_REDRAW:13
                         
                         %%% CelloVoiceI [measure 2] %%%
                         R1 * 1
@@ -1115,16 +1115,16 @@
                             \hcenter-in
                                 #16
                                 Contrabasses
-                            } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
+                            } %! EXPLICIT_MARGIN_MARKUP:12
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Cb.
-                            } %! EXPLICIT_MARGIN_MARKUP_COMMAND:12
-                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:4
+                            } %! EXPLICIT_MARGIN_MARKUP:12
+                        \clef "bass" %! EXPLICIT_CLEF:4
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF:3
                         \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:6
                         \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:10
                         %%% \override Staff.InstrumentName.color = ##f %! EXPLICIT_MARGIN_MARKUP_UNCOLOR:11
@@ -1154,14 +1154,14 @@
                             \hcenter-in
                                 #16
                                 Contrabasses
-                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
+                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Cb.
-                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW_COMMAND:14
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_REDRAW_COLOR:13
+                            } %! EXPLICIT_MARGIN_MARKUP_REDRAW:14
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_MARGIN_MARKUP_COLOR_REDRAW:13
                         
                         %%% ContrabassVoiceI [measure 2] %%%
                         R1 * 1
