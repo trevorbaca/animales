@@ -118,6 +118,16 @@
                         \context Voice = "FluteVoiceI" {
                             
                             %%% FluteVoiceI [measure 9] %%%
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Flutes
+                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
+                            \set Staff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Fl.
+                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -128,6 +138,8 @@
                             %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
                             \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
                             \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_MARGIN_MARKUP_COLOR:10
+                            %%% \override Staff.InstrumentName.color = ##f %! PERSISTENT_MARGIN_MARKUP_UNCOLOR:11
                             c'4
                             ^ \markup {
                                 \column
@@ -150,7 +162,18 @@
                                             } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                     }
                                 }
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Flutes
+                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
+                            \set Staff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Fl.
+                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
                             \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_MARGIN_MARKUP_SHADOW_COLOR:13
                             
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -338,11 +361,23 @@
                         \context Voice = "FluteVoiceIII" {
                             
                             %%% FluteVoiceIII [measure 9] %%%
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Flutes
+                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
+                            \set Staff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Fl.
+                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
                             \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
                             \once \override Staff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
                             %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
                             \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
                             \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_MARGIN_MARKUP_COLOR:10
+                            %%% \override Staff.InstrumentName.color = ##f %! PERSISTENT_MARGIN_MARKUP_UNCOLOR:11
                             R1 * 1
                             ^ \markup {
                                 \column
@@ -365,7 +400,18 @@
                                             } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                     }
                                 }
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Flutes
+                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
+                            \set Staff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Fl.
+                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
                             \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_MARGIN_MARKUP_SHADOW_COLOR:13
                             
                             %%% FluteVoiceIII [measure 10] %%%
                             R1 * 1
@@ -414,11 +460,31 @@
                     \context Voice = "FirstViolinVoiceI" {
                         
                         %%% FirstViolinVoiceI [measure 9] %%%
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        Violins
+                                        I
+                                    }
+                            } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \center-column
+                                    {
+                                        Vni.
+                                        I
+                                    }
+                            } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
                         \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
                         \once \override Staff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
                         %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
                         \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
                         \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
+                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_MARGIN_MARKUP_COLOR:10
+                        %%% \override Staff.InstrumentName.color = ##f %! PERSISTENT_MARGIN_MARKUP_UNCOLOR:11
                         R1 * 1
                         ^ \markup {
                             \column
@@ -441,7 +507,26 @@
                                         } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                 }
                             }
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        Violins
+                                        I
+                                    }
+                            } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \center-column
+                                    {
+                                        Vni.
+                                        I
+                                    }
+                            } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
                         \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_MARGIN_MARKUP_SHADOW_COLOR:13
                         
                         %%% FirstViolinVoiceI [measure 10] %%%
                         R1 * 1
@@ -490,11 +575,31 @@
                         \context Voice = "SecondViolinVoiceI" {
                             
                             %%% SecondViolinVoiceI [measure 9] %%%
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    \center-column
+                                        {
+                                            Violins
+                                            II
+                                        }
+                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
+                            \set Staff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    \center-column
+                                        {
+                                            Vni.
+                                            II
+                                        }
+                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
                             \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
                             \once \override Staff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
                             %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
                             \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
                             \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_MARGIN_MARKUP_COLOR:10
+                            %%% \override Staff.InstrumentName.color = ##f %! PERSISTENT_MARGIN_MARKUP_UNCOLOR:11
                             R1 * 1
                             ^ \markup {
                                 \column
@@ -517,7 +622,26 @@
                                             } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                     }
                                 }
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    \center-column
+                                        {
+                                            Violins
+                                            II
+                                        }
+                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
+                            \set Staff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    \center-column
+                                        {
+                                            Vni.
+                                            II
+                                        }
+                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
                             \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_MARGIN_MARKUP_SHADOW_COLOR:13
                             
                             %%% SecondViolinVoiceI [measure 10] %%%
                             R1 * 1
@@ -541,11 +665,31 @@
                         \context Voice = "SecondViolinVoiceII" {
                             
                             %%% SecondViolinVoiceII [measure 9] %%%
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    \center-column
+                                        {
+                                            Violins
+                                            II
+                                        }
+                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
+                            \set Staff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    \center-column
+                                        {
+                                            Vni.
+                                            II
+                                        }
+                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
                             \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
                             \once \override Staff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
                             %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
                             \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
                             \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_MARGIN_MARKUP_COLOR:10
+                            %%% \override Staff.InstrumentName.color = ##f %! PERSISTENT_MARGIN_MARKUP_UNCOLOR:11
                             R1 * 1
                             ^ \markup {
                                 \column
@@ -568,7 +712,26 @@
                                             } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                     }
                                 }
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    \center-column
+                                        {
+                                            Violins
+                                            II
+                                        }
+                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
+                            \set Staff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    \center-column
+                                        {
+                                            Vni.
+                                            II
+                                        }
+                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
                             \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_MARGIN_MARKUP_SHADOW_COLOR:13
                             
                             %%% SecondViolinVoiceII [measure 10] %%%
                             R1 * 1
