@@ -15,11 +15,11 @@
             \context GlobalSkips = "GlobalSkips" {
                 
                 %%% GlobalSkips [measure 15] %%%
-                \time 4/4 %! PERSISTENT_TIME_SIGNATURE_COMMAND:5
+                \time 4/4 %! REAPPLIED_TIME_SIGNATURE_COMMAND:5
                 \mark #2
                 \bar "" %! EMPTY_START_BAR:1
-                \once \override Score.TimeSignature.color = #(x11-color 'green) %! PERSISTENT_TIME_SIGNATURE_COLOR:3
-                %%% \override Score.TimeSignature.color = ##f %! PERSISTENT_TIME_SIGNATURE_UNCOLOR:4
+                \once \override Score.TimeSignature.color = #(x11-color 'green) %! REAPPLIED_TIME_SIGNATURE_COLOR:3
+                %%% \override Score.TimeSignature.color = ##f %! REAPPLIED_TIME_SIGNATURE_UNCOLOR:4
                 s1 * 1
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:7
                     %%% \fontsize %! CLOCK_TIME_MARKUP:7
@@ -49,7 +49,7 @@
                             108
                         }
                     }
-                \override Score.TimeSignature.color = #(x11-color 'DarkGreen) %! PERSISTENT_TIME_SIGNATURE_SHADOW_COLOR:6
+                \override Score.TimeSignature.color = #(x11-color 'DarkGreen) %! REAPPLIED_TIME_SIGNATURE_SHADOW_COLOR:6
                 
                 %%% GlobalSkips [measure 16] %%%
                 \time 4/4
@@ -166,58 +166,58 @@
                                 \hcenter-in
                                     #16
                                     Flutes
-                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
+                                } %! REAPPLIED_MARGIN_MARKUP_COMMAND:12
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Fl.
-                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
+                                } %! REAPPLIED_MARGIN_MARKUP_COMMAND:12
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
-                            %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
-                            \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_MARGIN_MARKUP_COLOR:10
-                            %%% \override Staff.InstrumentName.color = ##f %! PERSISTENT_MARGIN_MARKUP_UNCOLOR:11
+                            \clef "treble" %! REAPPLIED_CLEF_COMMAND:4
+                            \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                            %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
+                            \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:3
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
+                            %%% \override Staff.InstrumentName.color = ##f %! REAPPLIED_MARGIN_MARKUP_UNCOLOR:11
                             c'4
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%                 flute %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                            flute %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%                 flute %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                            flute %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                     }
                                 }
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Flutes
-                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
+                                } %! REAPPLIED_MARGIN_MARKUP_SHADOW_COMMAND:14
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Fl.
-                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_MARGIN_MARKUP_SHADOW_COLOR:13
+                                } %! REAPPLIED_MARGIN_MARKUP_SHADOW_COMMAND:14
+                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_MARGIN_MARKUP_SHADOW_COLOR:13
                             
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -481,53 +481,53 @@
                                 \hcenter-in
                                     #16
                                     Flutes
-                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
+                                } %! REAPPLIED_MARGIN_MARKUP_COMMAND:12
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Fl.
-                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
-                            \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
-                            %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
-                            \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_MARGIN_MARKUP_COLOR:10
-                            %%% \override Staff.InstrumentName.color = ##f %! PERSISTENT_MARGIN_MARKUP_UNCOLOR:11
+                                } %! REAPPLIED_MARGIN_MARKUP_COMMAND:12
+                            \clef "treble" %! REAPPLIED_CLEF_COMMAND:4
+                            \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                            %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
+                            \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:3
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
+                            %%% \override Staff.InstrumentName.color = ##f %! REAPPLIED_MARGIN_MARKUP_UNCOLOR:11
                             R1 * 1
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%                 flute %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                            flute %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%                 flute %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                            flute %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                     }
                                 }
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Flutes
-                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
+                                } %! REAPPLIED_MARGIN_MARKUP_SHADOW_COMMAND:14
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Fl.
-                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_MARGIN_MARKUP_SHADOW_COLOR:13
+                                } %! REAPPLIED_MARGIN_MARKUP_SHADOW_COMMAND:14
+                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_MARGIN_MARKUP_SHADOW_COLOR:13
                             
                             %%% FluteVoiceIII [measure 16] %%%
                             R1 * 1
@@ -596,7 +596,7 @@
                                         Violins
                                         I
                                     }
-                            } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
+                            } %! REAPPLIED_MARGIN_MARKUP_COMMAND:12
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
@@ -605,34 +605,34 @@
                                         Vni.
                                         I
                                     }
-                            } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
-                        \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
-                        \once \override Staff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
-                        %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
-                        \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
-                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
-                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_MARGIN_MARKUP_COLOR:10
-                        %%% \override Staff.InstrumentName.color = ##f %! PERSISTENT_MARGIN_MARKUP_UNCOLOR:11
+                            } %! REAPPLIED_MARGIN_MARKUP_COMMAND:12
+                        \clef "treble" %! REAPPLIED_CLEF_COMMAND:4
+                        \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                        %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
+                        \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:3
+                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
+                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
+                        %%% \override Staff.InstrumentName.color = ##f %! REAPPLIED_MARGIN_MARKUP_UNCOLOR:11
                         R1 * 1
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%                 violin %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                    \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        violin %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%                 violin %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                    \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        violin %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                 }
                             }
                         \set Staff.instrumentName = \markup {
@@ -643,7 +643,7 @@
                                         Violins
                                         I
                                     }
-                            } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
+                            } %! REAPPLIED_MARGIN_MARKUP_SHADOW_COMMAND:14
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
@@ -652,9 +652,9 @@
                                         Vni.
                                         I
                                     }
-                            } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
-                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_MARGIN_MARKUP_SHADOW_COLOR:13
+                            } %! REAPPLIED_MARGIN_MARKUP_SHADOW_COMMAND:14
+                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:5
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_MARGIN_MARKUP_SHADOW_COLOR:13
                         
                         %%% FirstViolinVoiceI [measure 16] %%%
                         R1 * 1
@@ -723,7 +723,7 @@
                                             Violins
                                             II
                                         }
-                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
+                                } %! REAPPLIED_MARGIN_MARKUP_COMMAND:12
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -732,34 +732,34 @@
                                             Vni.
                                             II
                                         }
-                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
-                            \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
-                            %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
-                            \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_MARGIN_MARKUP_COLOR:10
-                            %%% \override Staff.InstrumentName.color = ##f %! PERSISTENT_MARGIN_MARKUP_UNCOLOR:11
+                                } %! REAPPLIED_MARGIN_MARKUP_COMMAND:12
+                            \clef "treble" %! REAPPLIED_CLEF_COMMAND:4
+                            \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                            %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
+                            \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:3
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
+                            %%% \override Staff.InstrumentName.color = ##f %! REAPPLIED_MARGIN_MARKUP_UNCOLOR:11
                             R1 * 1
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%                 violin %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                            violin %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%                 violin %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                            violin %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                     }
                                 }
                             \set Staff.instrumentName = \markup {
@@ -770,7 +770,7 @@
                                             Violins
                                             II
                                         }
-                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
+                                } %! REAPPLIED_MARGIN_MARKUP_SHADOW_COMMAND:14
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -779,9 +779,9 @@
                                             Vni.
                                             II
                                         }
-                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_MARGIN_MARKUP_SHADOW_COLOR:13
+                                } %! REAPPLIED_MARGIN_MARKUP_SHADOW_COMMAND:14
+                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_MARGIN_MARKUP_SHADOW_COLOR:13
                             
                             %%% SecondViolinVoiceI [measure 16] %%%
                             R1 * 1
@@ -819,7 +819,7 @@
                                             Violins
                                             II
                                         }
-                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
+                                } %! REAPPLIED_MARGIN_MARKUP_COMMAND:12
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -828,34 +828,34 @@
                                             Vni.
                                             II
                                         }
-                                } %! PERSISTENT_MARGIN_MARKUP_COMMAND:12
-                            \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
-                            %%% \override Staff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
-                            \set Staff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_MARGIN_MARKUP_COLOR:10
-                            %%% \override Staff.InstrumentName.color = ##f %! PERSISTENT_MARGIN_MARKUP_UNCOLOR:11
+                                } %! REAPPLIED_MARGIN_MARKUP_COMMAND:12
+                            \clef "treble" %! REAPPLIED_CLEF_COMMAND:4
+                            \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                            %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
+                            \set Staff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:3
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
+                            %%% \override Staff.InstrumentName.color = ##f %! REAPPLIED_MARGIN_MARKUP_UNCOLOR:11
                             R1 * 1
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%                 violin %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                            violin %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%                 violin %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                            violin %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                     }
                                 }
                             \set Staff.instrumentName = \markup {
@@ -866,7 +866,7 @@
                                             Violins
                                             II
                                         }
-                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
+                                } %! REAPPLIED_MARGIN_MARKUP_SHADOW_COMMAND:14
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -875,9 +875,9 @@
                                             Vni.
                                             II
                                         }
-                                } %! PERSISTENT_MARGIN_MARKUP_SHADOW_COMMAND:14
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_MARGIN_MARKUP_SHADOW_COLOR:13
+                                } %! REAPPLIED_MARGIN_MARKUP_SHADOW_COMMAND:14
+                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:5
+                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_MARGIN_MARKUP_SHADOW_COLOR:13
                             
                             %%% SecondViolinVoiceII [measure 16] %%%
                             R1 * 1
