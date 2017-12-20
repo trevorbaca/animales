@@ -132,26 +132,25 @@
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%                 flute %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                            flute %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%                 flute %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                            flute %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                     }
                                 }
                             \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
                             
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -348,26 +347,25 @@
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%                 flute %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                            flute %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%                 flute %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                            flute %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                     }
                                 }
                             \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
                             
                             %%% FluteVoiceIII [measure 10] %%%
                             R1 * 1
@@ -425,26 +423,25 @@
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                    %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                    %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                    %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                    %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                    %%%                 violin %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                    %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                    \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                        { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        violin %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                        } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                    %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%                 violin %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                    \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        violin %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                 }
                             }
                         \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
                         
                         %%% FirstViolinVoiceI [measure 10] %%%
                         R1 * 1
@@ -502,26 +499,25 @@
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%                 violin %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                            violin %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%                 violin %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                            violin %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                     }
                                 }
                             \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
                             
                             %%% SecondViolinVoiceI [measure 10] %%%
                             R1 * 1
@@ -554,26 +550,25 @@
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%                 violin %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                            violin %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%                 violin %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                            violin %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                     }
                                 }
                             \override Staff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
                             
                             %%% SecondViolinVoiceII [measure 10] %%%
                             R1 * 1
