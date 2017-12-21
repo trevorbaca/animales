@@ -132,11 +132,11 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             \clef "treble" %! REAPPLIED_CLEF:4
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                            \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:1
                             %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
                             \set Staff.forceClef = ##t %! REAPPLIED_CLEF:3
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:6
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
                             c'4
                             ^ \markup {
                                 \column
@@ -148,7 +148,7 @@
                                         \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                 \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                     (“Flute”) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         %%% \line %! REAPPLIED_MARGIN_MARKUP_ALERT:11
@@ -172,7 +172,7 @@
                                         \line %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                             { %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                 \with-color %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
-                                                    #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
+                                                    #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                     { %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                         \vcenter %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                             [“Fl.” %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
@@ -203,8 +203,8 @@
                                     #10
                                     Fl.
                                 } %! REAPPLIED_REDRAW_MARGIN_MARKUP:15
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:14
+                            \override Staff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:5
+                            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:14
                             
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -403,11 +403,11 @@
                                     Fl.
                                 } %! REAPPLIED_MARGIN_MARKUP:13
                             \clef "treble" %! REAPPLIED_CLEF:4
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                            \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:1
                             %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
                             \set Staff.forceClef = ##t %! REAPPLIED_CLEF:3
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:6
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
                             R1 * 1
                             ^ \markup {
                                 \column
@@ -419,7 +419,7 @@
                                         \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                 \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                     (“Flute”) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         %%% \line %! REAPPLIED_MARGIN_MARKUP_ALERT:11
@@ -443,7 +443,7 @@
                                         \line %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                             { %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                 \with-color %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
-                                                    #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
+                                                    #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                     { %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                         \vcenter %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                             [“Fl.” %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
@@ -474,8 +474,8 @@
                                     #10
                                     Fl.
                                 } %! REAPPLIED_REDRAW_MARGIN_MARKUP:15
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:14
+                            \override Staff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:5
+                            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:14
                             
                             %%% FluteVoiceIII [measure 10] %%%
                             R1 * 1
@@ -543,11 +543,11 @@
                                     }
                             } %! REAPPLIED_MARGIN_MARKUP:13
                         \clef "treble" %! REAPPLIED_CLEF:4
-                        \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                        \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:1
                         %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
                         \set Staff.forceClef = ##t %! REAPPLIED_CLEF:3
-                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
-                        \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
+                        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:6
+                        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
                         R1 * 1
                         ^ \markup {
                             \column
@@ -559,7 +559,7 @@
                                     \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                 (“Violin”) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                     %%% \line %! REAPPLIED_MARGIN_MARKUP_ALERT:11
@@ -591,7 +591,7 @@
                                     \line %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                         { %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                             \with-color %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
-                                                #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
+                                                #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                 { %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                     \vcenter %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                         "[“Vni. I”" %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
@@ -638,8 +638,8 @@
                                         I
                                     }
                             } %! REAPPLIED_REDRAW_MARGIN_MARKUP:15
-                        \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:5
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:14
+                        \override Staff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:5
+                        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:14
                         
                         %%% FirstViolinVoiceI [measure 10] %%%
                         R1 * 1
@@ -707,11 +707,11 @@
                                         }
                                 } %! REAPPLIED_MARGIN_MARKUP:13
                             \clef "treble" %! REAPPLIED_CLEF:4
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                            \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:1
                             %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
                             \set Staff.forceClef = ##t %! REAPPLIED_CLEF:3
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:6
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
                             R1 * 1
                             ^ \markup {
                                 \column
@@ -723,7 +723,7 @@
                                         \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                 \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                     (“Violin”) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         %%% \line %! REAPPLIED_MARGIN_MARKUP_ALERT:11
@@ -755,7 +755,7 @@
                                         \line %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                             { %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                 \with-color %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
-                                                    #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
+                                                    #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                     { %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                         \vcenter %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                             "[“Vni. II”" %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
@@ -802,8 +802,8 @@
                                             II
                                         }
                                 } %! REAPPLIED_REDRAW_MARGIN_MARKUP:15
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:14
+                            \override Staff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:5
+                            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:14
                             
                             %%% SecondViolinVoiceI [measure 10] %%%
                             R1 * 1
@@ -846,11 +846,11 @@
                                         }
                                 } %! REAPPLIED_MARGIN_MARKUP:13
                             \clef "treble" %! REAPPLIED_CLEF:4
-                            \once \override Staff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                            \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:1
                             %%% \override Staff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
                             \set Staff.forceClef = ##t %! REAPPLIED_CLEF:3
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:6
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:10
                             R1 * 1
                             ^ \markup {
                                 \column
@@ -862,7 +862,7 @@
                                         \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                 \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                     (“Violin”) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         %%% \line %! REAPPLIED_MARGIN_MARKUP_ALERT:11
@@ -894,7 +894,7 @@
                                         \line %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                             { %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                 \with-color %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
-                                                    #(x11-color 'green) %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
+                                                    #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                     { %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                         \vcenter %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
                                                             "[“Vni. II”" %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:12
@@ -941,8 +941,8 @@
                                             II
                                         }
                                 } %! REAPPLIED_REDRAW_MARGIN_MARKUP:15
-                            \override Staff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:5
-                            \override Staff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:14
+                            \override Staff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:5
+                            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:14
                             
                             %%% SecondViolinVoiceII [measure 10] %%%
                             R1 * 1
