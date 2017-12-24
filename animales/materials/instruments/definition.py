@@ -5,74 +5,74 @@ import baca
 instruments = abjad.InstrumentDictionary([
     (
         'BassClarinet',
-        abjad.BassClarinet(suppress=True),
+        abjad.BassClarinet(hide=True),
         ),
     (
         'Bassoon',
-        abjad.Bassoon(suppress=True),
+        abjad.Bassoon(hide=True),
         ),
     (
         'Cello',
-        abjad.Cello(suppress=True),
+        abjad.Cello(hide=True),
         ),
     (
         'Clarinet',
-        abjad.ClarinetInBFlat(suppress=True),
+        abjad.ClarinetInBFlat(hide=True),
         ),
     (
         'Contrabass',
-        abjad.Contrabass(suppress=True),
+        abjad.Contrabass(hide=True),
         ),
     (
         'EnglishHorn',
-        abjad.EnglishHorn(suppress=True),
+        abjad.EnglishHorn(hide=True),
         ),
     (
         'Flute',
-        abjad.Flute(suppress=True),
+        abjad.Flute(hide=True),
         ),
     (
         'Harp',
-        abjad.Harp(suppress=True),
+        abjad.Harp(hide=True),
         ),
     (
         'Horn',
-        abjad.FrenchHorn(suppress=True),
+        abjad.FrenchHorn(hide=True),
         ),
     (
         'Oboe',
-        abjad.Oboe(suppress=True),
+        abjad.Oboe(hide=True),
         ),
     (
         'Percussion',
-        abjad.Percussion(suppress=True),
+        abjad.Percussion(hide=True),
         ),
     (
         'Piano',
-        abjad.Piano(suppress=True),
+        abjad.Piano(hide=True),
         ),
     (
         'Piccolo',
-        abjad.Piccolo(suppress=True),
+        abjad.Piccolo(hide=True),
         ),
     (
         'Trombone',
-        abjad.TenorTrombone(suppress=True),
+        abjad.TenorTrombone(hide=True),
         ),
     (
         'Trumpet',
-        abjad.Trumpet(suppress=True),
+        abjad.Trumpet(hide=True),
         ),
     (
         'Tuba',
-        abjad.Tuba(suppress=True),
+        abjad.Tuba(hide=True),
         ),
     (
         'Viola',
-        abjad.Viola(suppress=True),
+        abjad.Viola(hide=True),
         ),
     (
         'Violin',
-        abjad.Violin(suppress=True),
+        abjad.Violin(hide=True),
         ),
     ])
