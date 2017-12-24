@@ -128,12 +128,8 @@
                                 #10
                                 Picc.
                             } %! TEMPLATE_MARGIN_MARKUP:8
-                        \clef "treble" %! TEMPLATE_CLEF:14
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_MARGIN_MARKUP_COLOR:5
-                        \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:11
-                        %%% \override Staff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:12
-                        \set Staff.forceClef = ##t %! TEMPLATE_CLEF:13
                         R1 * 1
                         ^ \markup {
                             \column
@@ -201,7 +197,6 @@
                                 Picc.
                             } %! TEMPLATE_REDRAW_MARGIN_MARKUP:10
                         \override Staff.InstrumentName.color = #(x11-color 'violet) %! TEMPLATE_REDRAW_INSTRUMENT_COLOR:9
-                        \override Staff.Clef.color = #(x11-color 'violet) %! TEMPLATE_CLEF_COLOR_REDRAW:15
                         
                         %%% PiccoloVoiceI [measure 2] %%%
                         R1 * 1
@@ -249,12 +244,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            \clef "treble" %! TEMPLATE_CLEF:14
                             \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
                             \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_MARGIN_MARKUP_COLOR:5
-                            \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:11
-                            %%% \override Staff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:12
-                            \set Staff.forceClef = ##t %! TEMPLATE_CLEF:13
                             c'4
                             ^ \markup {
                                 \column
@@ -322,7 +313,6 @@
                                     Fl.
                                 } %! TEMPLATE_REDRAW_MARGIN_MARKUP:10
                             \override Staff.InstrumentName.color = #(x11-color 'violet) %! TEMPLATE_REDRAW_INSTRUMENT_COLOR:9
-                            \override Staff.Clef.color = #(x11-color 'violet) %! TEMPLATE_CLEF_COLOR_REDRAW:15
                             
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -592,12 +582,8 @@
                                     #10
                                     Fl.
                                 } %! TEMPLATE_MARGIN_MARKUP:8
-                            \clef "treble" %! TEMPLATE_CLEF:14
                             \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
                             \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_MARGIN_MARKUP_COLOR:5
-                            \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:11
-                            %%% \override Staff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:12
-                            \set Staff.forceClef = ##t %! TEMPLATE_CLEF:13
                             R1 * 1
                             ^ \markup {
                                 \column
@@ -665,7 +651,6 @@
                                     Fl.
                                 } %! TEMPLATE_REDRAW_MARGIN_MARKUP:10
                             \override Staff.InstrumentName.color = #(x11-color 'violet) %! TEMPLATE_REDRAW_INSTRUMENT_COLOR:9
-                            \override Staff.Clef.color = #(x11-color 'violet) %! TEMPLATE_CLEF_COLOR_REDRAW:15
                             
                             %%% FluteVoiceIII [measure 2] %%%
                             R1 * 1
@@ -744,12 +729,8 @@
                                         I
                                     }
                             } %! TEMPLATE_MARGIN_MARKUP:8
-                        \clef "treble" %! TEMPLATE_CLEF:14
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_MARGIN_MARKUP_COLOR:5
-                        \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:11
-                        %%% \override Staff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:12
-                        \set Staff.forceClef = ##t %! TEMPLATE_CLEF:13
                         R1 * 1
                         ^ \markup {
                             \column
@@ -841,7 +822,6 @@
                                     }
                             } %! TEMPLATE_REDRAW_MARGIN_MARKUP:10
                         \override Staff.InstrumentName.color = #(x11-color 'violet) %! TEMPLATE_REDRAW_INSTRUMENT_COLOR:9
-                        \override Staff.Clef.color = #(x11-color 'violet) %! TEMPLATE_CLEF_COLOR_REDRAW:15
                         
                         %%% FirstViolinVoiceI [measure 2] %%%
                         R1 * 1
@@ -920,12 +900,8 @@
                                             II
                                         }
                                 } %! TEMPLATE_MARGIN_MARKUP:8
-                            \clef "treble" %! TEMPLATE_CLEF:14
                             \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
                             \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_MARGIN_MARKUP_COLOR:5
-                            \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:11
-                            %%% \override Staff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:12
-                            \set Staff.forceClef = ##t %! TEMPLATE_CLEF:13
                             R1 * 1
                             ^ \markup {
                                 \column
@@ -1017,7 +993,6 @@
                                         }
                                 } %! TEMPLATE_REDRAW_MARGIN_MARKUP:10
                             \override Staff.InstrumentName.color = #(x11-color 'violet) %! TEMPLATE_REDRAW_INSTRUMENT_COLOR:9
-                            \override Staff.Clef.color = #(x11-color 'violet) %! TEMPLATE_CLEF_COLOR_REDRAW:15
                             
                             %%% SecondViolinVoiceI [measure 2] %%%
                             R1 * 1
@@ -1065,12 +1040,8 @@
                                             II
                                         }
                                 } %! TEMPLATE_MARGIN_MARKUP:8
-                            \clef "treble" %! TEMPLATE_CLEF:14
                             \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
                             \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_MARGIN_MARKUP_COLOR:5
-                            \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:11
-                            %%% \override Staff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:12
-                            \set Staff.forceClef = ##t %! TEMPLATE_CLEF:13
                             R1 * 1
                             ^ \markup {
                                 \column
@@ -1162,7 +1133,6 @@
                                         }
                                 } %! TEMPLATE_REDRAW_MARGIN_MARKUP:10
                             \override Staff.InstrumentName.color = #(x11-color 'violet) %! TEMPLATE_REDRAW_INSTRUMENT_COLOR:9
-                            \override Staff.Clef.color = #(x11-color 'violet) %! TEMPLATE_CLEF_COLOR_REDRAW:15
                             
                             %%% SecondViolinVoiceII [measure 2] %%%
                             R1 * 1

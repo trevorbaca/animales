@@ -49,7 +49,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #10
                                     Picc.
                                 }
-                            \clef "treble"
                             s1
                         }
                     }
@@ -68,7 +67,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #10
                                         Fl.
                                     }
-                                \clef "treble"
                                 s1
                             }
                             \context Voice = "FluteVoiceII" {
@@ -87,7 +85,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #10
                                         Fl.
                                     }
-                                \clef "treble"
                                 s1
                             }
                             \context Voice = "FluteVoiceIV" {
@@ -117,7 +114,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             I
                                         }
                                 }
-                            \clef "treble"
                             s1
                         }
                         \context Voice = "FirstViolinVoiceII" {
@@ -147,7 +143,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                                 II
                                             }
                                     }
-                                \clef "treble"
                                 s1
                             }
                         }
@@ -171,7 +166,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                                 II
                                             }
                                     }
-                                \clef "treble"
                                 s1
                             }
                         }
@@ -442,12 +436,14 @@ class ScoreTemplate(baca.ScoreTemplate):
             self.bassoons,
             animales.instruments['Bassoon'],
             animales.margin_markup['Bsn.'],
+            abjad.Clef('bass'),
             )
         horn_staves = self._make_staves(
             'Horn',
             self.horns,
             animales.instruments['Horn'],
             animales.margin_markup['Hn.'],
+            abjad.Clef('bass'),
             )
         trumpet_staves = self._make_staves(
             'Trumpet',
@@ -460,12 +456,14 @@ class ScoreTemplate(baca.ScoreTemplate):
             self.trombones,
             animales.instruments['Trombone'],
             animales.margin_markup['Trb.'],
+            abjad.Clef('tenor'),
             )
         tuba_staves = self._make_staves(
             'Tuba',
             self.tuba,
             animales.instruments['Tuba'],
             animales.margin_markup['Tub.'],
+            abjad.Clef('bass'),
             )
         harp_staves = self._make_staves(
             'Harp',
@@ -484,6 +482,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             self.percussion,
             animales.instruments['Percussion'],
             animales.margin_markup['Perc.'],
+            abjad.Clef('percussion'),
             )
         first_violin_staves = self._make_staves(
             'FirstViolin',
@@ -502,18 +501,21 @@ class ScoreTemplate(baca.ScoreTemplate):
             self.violas,
             animales.instruments['Viola'],
             animales.margin_markup['Vle.'],
+            abjad.Clef('alto'),
             )
         cello_staves = self._make_staves(
             'Cello',
             self.cellos,
             animales.instruments['Cello'],
             animales.margin_markup['Vc.'],
+            abjad.Clef('bass'),
             )
         contrabass_staves = self._make_staves(
             'Contrabass',
             self.contrabasses,
             animales.instruments['Contrabass'],
             animales.margin_markup['Cb.'],
+            abjad.Clef('bass'),
             )
         music_context = self.make_music_context(
             self.make_staff_group(
@@ -597,6 +599,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         specifier,
         default_instrument,
         default_margin_markup,
+        default_clef=None,
         ):
         staves = []
         if specifier:
@@ -624,5 +627,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                     'default_margin_markup',
                     default_margin_markup,
                     )
+                if default_clef is not None:
+                    abjad.annotate(
+                        staff,
+                        'default_clef',
+                        default_clef,
+                        )
                 staves.append(staff)
         return staves
