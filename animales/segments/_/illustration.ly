@@ -1173,12 +1173,12 @@
                                 #10
                                 Vle.
                             } %! TEMPLATE_MARGIN_MARKUP:8
+                        \set Staff.forceClef = ##t %! TEMPLATE_CLEF:13
                         \clef "alto" %! TEMPLATE_CLEF:14
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_MARGIN_MARKUP_COLOR:5
                         \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:11
                         %%% \override Staff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:12
-                        \set Staff.forceClef = ##t %! TEMPLATE_CLEF:13
                         R1 * 1
                         ^ \markup {
                             \column
@@ -1286,12 +1286,12 @@
                                 #10
                                 Vc.
                             } %! TEMPLATE_MARGIN_MARKUP:8
+                        \set Staff.forceClef = ##t %! TEMPLATE_CLEF:13
                         \clef "bass" %! TEMPLATE_CLEF:14
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_MARGIN_MARKUP_COLOR:5
                         \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:11
                         %%% \override Staff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:12
-                        \set Staff.forceClef = ##t %! TEMPLATE_CLEF:13
                         R1 * 1
                         ^ \markup {
                             \column
@@ -1399,12 +1399,12 @@
                                 #10
                                 Cb.
                             } %! TEMPLATE_MARGIN_MARKUP:8
+                        \set Staff.forceClef = ##t %! TEMPLATE_CLEF:13
                         \clef "bass" %! TEMPLATE_CLEF:14
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_MARGIN_MARKUP_COLOR:5
                         \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:11
                         %%% \override Staff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:12
-                        \set Staff.forceClef = ##t %! TEMPLATE_CLEF:13
                         R1 * 1
                         ^ \markup {
                             \column
