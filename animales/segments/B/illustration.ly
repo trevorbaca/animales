@@ -20,11 +20,38 @@
                 \bar "" %! EMPTY_START_BAR:1
                 \once \override Score.TimeSignature.color = #(x11-color 'green4) %! REAPPLIED_TIME_SIGNATURE_COLOR:3
                 s1 * 1
-                %%% ^ \markup { %! CLOCK_TIME_MARKUP:5
-                    %%% \fontsize %! CLOCK_TIME_MARKUP:5
-                        %%% #-2 %! CLOCK_TIME_MARKUP:5
-                        %%% 0'31'' %! CLOCK_TIME_MARKUP:5
-                    %%% } %! CLOCK_TIME_MARKUP:5
+                ^ \markup {
+                    \column
+                        {
+                            \line %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                { %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                    \with-color %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                        #(x11-color 'blue) %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                        { %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                            \fontsize %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                                #-6 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                                \general-align %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                                    #Y %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                                    #DOWN %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                                    \note-by-number %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                                        #2 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                                        #0 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                                        #1 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                            \upright %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                                { %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                                    = %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                                    108 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                                } %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                        } %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                                } %! EXPLICIT_METRONOME_MARK_WITH_COLOR:5
+                            %%% \line %! CLOCK_TIME_MARKUP:7
+                                %%% { %! CLOCK_TIME_MARKUP:7
+                                    %%% \fontsize %! CLOCK_TIME_MARKUP:7
+                                        %%% #-2 %! CLOCK_TIME_MARKUP:7
+                                        %%% 0'31'' %! CLOCK_TIME_MARKUP:7
+                                %%% } %! CLOCK_TIME_MARKUP:7
+                        }
+                    }
                 %%% - \markup { %! STAGE_NUMBER_MARKUP:2
                     %%% \fontsize %! STAGE_NUMBER_MARKUP:2
                         %%% #-3 %! STAGE_NUMBER_MARKUP:2
@@ -32,22 +59,22 @@
                             %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:2
                             %%% [B.1] %! STAGE_NUMBER_MARKUP:2
                     %%% } %! STAGE_NUMBER_MARKUP:2
-                ^ \markup {
-                    \fontsize
-                        #-6
-                        \general-align
-                            #Y
-                            #DOWN
-                            \note-by-number
-                                #2
-                                #0
-                                #1
-                    \upright
-                        {
-                            =
-                            108
-                        }
-                    }
+                %%% ^ \markup { %! EXPLICIT_METRONOME_MARK:6
+                %%%     \fontsize %! EXPLICIT_METRONOME_MARK:6
+                %%%         #-6 %! EXPLICIT_METRONOME_MARK:6
+                %%%         \general-align %! EXPLICIT_METRONOME_MARK:6
+                %%%             #Y %! EXPLICIT_METRONOME_MARK:6
+                %%%             #DOWN %! EXPLICIT_METRONOME_MARK:6
+                %%%             \note-by-number %! EXPLICIT_METRONOME_MARK:6
+                %%%                 #2 %! EXPLICIT_METRONOME_MARK:6
+                %%%                 #0 %! EXPLICIT_METRONOME_MARK:6
+                %%%                 #1 %! EXPLICIT_METRONOME_MARK:6
+                %%%     \upright %! EXPLICIT_METRONOME_MARK:6
+                %%%         { %! EXPLICIT_METRONOME_MARK:6
+                %%%             = %! EXPLICIT_METRONOME_MARK:6
+                %%%             108 %! EXPLICIT_METRONOME_MARK:6
+                %%%         } %! EXPLICIT_METRONOME_MARK:6
+                %%%     } %! EXPLICIT_METRONOME_MARK:6
                 
                 %%% GlobalSkips [measure 16] %%%
                 s1 * 1
