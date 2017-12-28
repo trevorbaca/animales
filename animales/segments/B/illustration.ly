@@ -14,141 +14,141 @@
         \context GlobalContext = "GlobalContext" <<
             \context GlobalSkips = "GlobalSkips" {
                 
-                %%% GlobalSkips [measure 15] %%%
-                \time 4/4                                                      %%! REAPPLIED_TIME_SIGNATURE
+                % GlobalSkips [measure 15]                                     %! SM4
+                \time 4/4                                                      %! REAPPLIED_TIME_SIGNATURE
                 \mark #2
-                \bar ""                                                        %%! EMPTY_START_BAR
-                \once \override Score.TimeSignature.color = #(x11-color 'green4) %%! REAPPLIED_TIME_SIGNATURE_COLOR
+                \bar ""                                                        %! EMPTY_START_BAR:SM2
+                \once \override Score.TimeSignature.color = #(x11-color 'green4) %! REAPPLIED_TIME_SIGNATURE_COLOR
                 s1 * 1
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! STAGE_NUMBER_MARKUP
-                            %%%     {                                          %%! STAGE_NUMBER_MARKUP
-                            %%%         \fontsize                              %%! STAGE_NUMBER_MARKUP
-                            %%%             #-3                                %%! STAGE_NUMBER_MARKUP
-                            %%%             \with-color                        %%! STAGE_NUMBER_MARKUP
-                            %%%                 #(x11-color 'DarkCyan)         %%! STAGE_NUMBER_MARKUP
-                            %%%                 [B.1]                          %%! STAGE_NUMBER_MARKUP
-                            %%%     }                                          %%! STAGE_NUMBER_MARKUP
-                            \line                                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                {                                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                    \with-color                                %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        #(x11-color 'blue)                     %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        {                                      %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \fontsize                          %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                #-6                            %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                \general-align                 %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #Y                         %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #DOWN                      %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    \note-by-number            %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #2                     %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #0                     %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #1                     %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \upright                           %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                {                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    =                          %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    108                        %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                }                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        }                                      %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                }                                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             0'31''                             %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     {                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%         \fontsize                              %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             #-3                                %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             \with-color                        %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 [B.1]                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
+                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    108                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             0'31''                             %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
                         }
                     }
-                %%% ^ \markup {                                                %%! EXPLICIT_METRONOME_MARK
-                %%%     \fontsize                                              %%! EXPLICIT_METRONOME_MARK
-                %%%         #-6                                                %%! EXPLICIT_METRONOME_MARK
-                %%%         \general-align                                     %%! EXPLICIT_METRONOME_MARK
-                %%%             #Y                                             %%! EXPLICIT_METRONOME_MARK
-                %%%             #DOWN                                          %%! EXPLICIT_METRONOME_MARK
-                %%%             \note-by-number                                %%! EXPLICIT_METRONOME_MARK
-                %%%                 #2                                         %%! EXPLICIT_METRONOME_MARK
-                %%%                 #0                                         %%! EXPLICIT_METRONOME_MARK
-                %%%                 #1                                         %%! EXPLICIT_METRONOME_MARK
-                %%%     \upright                                               %%! EXPLICIT_METRONOME_MARK
-                %%%         {                                                  %%! EXPLICIT_METRONOME_MARK
-                %%%             =                                              %%! EXPLICIT_METRONOME_MARK
-                %%%             108                                            %%! EXPLICIT_METRONOME_MARK
-                %%%         }                                                  %%! EXPLICIT_METRONOME_MARK
-                %%%     }                                                      %%! EXPLICIT_METRONOME_MARK
+                %%% ^ \markup {                                                %! EXPLICIT_METRONOME_MARK
+                %%%     \fontsize                                              %! EXPLICIT_METRONOME_MARK
+                %%%         #-6                                                %! EXPLICIT_METRONOME_MARK
+                %%%         \general-align                                     %! EXPLICIT_METRONOME_MARK
+                %%%             #Y                                             %! EXPLICIT_METRONOME_MARK
+                %%%             #DOWN                                          %! EXPLICIT_METRONOME_MARK
+                %%%             \note-by-number                                %! EXPLICIT_METRONOME_MARK
+                %%%                 #2                                         %! EXPLICIT_METRONOME_MARK
+                %%%                 #0                                         %! EXPLICIT_METRONOME_MARK
+                %%%                 #1                                         %! EXPLICIT_METRONOME_MARK
+                %%%     \upright                                               %! EXPLICIT_METRONOME_MARK
+                %%%         {                                                  %! EXPLICIT_METRONOME_MARK
+                %%%             =                                              %! EXPLICIT_METRONOME_MARK
+                %%%             108                                            %! EXPLICIT_METRONOME_MARK
+                %%%         }                                                  %! EXPLICIT_METRONOME_MARK
+                %%%     }                                                      %! EXPLICIT_METRONOME_MARK
                 
-                %%% GlobalSkips [measure 16] %%%
+                % GlobalSkips [measure 16]                                     %! SM4
                 s1 * 1
-                %%% ^ \markup {                                                %%! CLOCK_TIME_MARKUP
-                %%%     \fontsize                                              %%! CLOCK_TIME_MARKUP
-                %%%         #-2                                                %%! CLOCK_TIME_MARKUP
-                %%%         0'33''                                             %%! CLOCK_TIME_MARKUP
-                %%%     }                                                      %%! CLOCK_TIME_MARKUP
+                %%% ^ \markup {                                                %! CLOCK_TIME_MARKUP
+                %%%     \fontsize                                              %! CLOCK_TIME_MARKUP
+                %%%         #-2                                                %! CLOCK_TIME_MARKUP
+                %%%         0'33''                                             %! CLOCK_TIME_MARKUP
+                %%%     }                                                      %! CLOCK_TIME_MARKUP
                 
-                %%% GlobalSkips [measure 17] %%%
+                % GlobalSkips [measure 17]                                     %! SM4
                 s1 * 1
-                %%% ^ \markup {                                                %%! CLOCK_TIME_MARKUP
-                %%%     \fontsize                                              %%! CLOCK_TIME_MARKUP
-                %%%         #-2                                                %%! CLOCK_TIME_MARKUP
-                %%%         0'35''                                             %%! CLOCK_TIME_MARKUP
-                %%%     }                                                      %%! CLOCK_TIME_MARKUP
+                %%% ^ \markup {                                                %! CLOCK_TIME_MARKUP
+                %%%     \fontsize                                              %! CLOCK_TIME_MARKUP
+                %%%         #-2                                                %! CLOCK_TIME_MARKUP
+                %%%         0'35''                                             %! CLOCK_TIME_MARKUP
+                %%%     }                                                      %! CLOCK_TIME_MARKUP
                 
-                %%% GlobalSkips [measure 18] %%%
-                \time 3/4
+                % GlobalSkips [measure 18]                                     %! SM4
+                \time 3/4                                                      %! SM1
                 s1 * 3/4
-                %%% ^ \markup {                                                %%! CLOCK_TIME_MARKUP
-                %%%     \fontsize                                              %%! CLOCK_TIME_MARKUP
-                %%%         #-2                                                %%! CLOCK_TIME_MARKUP
-                %%%         0'37''                                             %%! CLOCK_TIME_MARKUP
-                %%%     }                                                      %%! CLOCK_TIME_MARKUP
+                %%% ^ \markup {                                                %! CLOCK_TIME_MARKUP
+                %%%     \fontsize                                              %! CLOCK_TIME_MARKUP
+                %%%         #-2                                                %! CLOCK_TIME_MARKUP
+                %%%         0'37''                                             %! CLOCK_TIME_MARKUP
+                %%%     }                                                      %! CLOCK_TIME_MARKUP
                 
-                %%% GlobalSkips [measure 19] %%%
+                % GlobalSkips [measure 19]                                     %! SM4
                 s1 * 3/4
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! STAGE_NUMBER_MARKUP
-                            %%%     {                                          %%! STAGE_NUMBER_MARKUP
-                            %%%         \fontsize                              %%! STAGE_NUMBER_MARKUP
-                            %%%             #-3                                %%! STAGE_NUMBER_MARKUP
-                            %%%             \with-color                        %%! STAGE_NUMBER_MARKUP
-                            %%%                 #(x11-color 'DarkCyan)         %%! STAGE_NUMBER_MARKUP
-                            %%%                 [B.2]                          %%! STAGE_NUMBER_MARKUP
-                            %%%     }                                          %%! STAGE_NUMBER_MARKUP
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             0'39''                             %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     {                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%         \fontsize                              %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             #-3                                %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             \with-color                        %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 [B.2]                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             0'39''                             %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 20] %%%
-                \time 4/4
+                % GlobalSkips [measure 20]                                     %! SM4
+                \time 4/4                                                      %! SM1
                 s1 * 1
-                %%% ^ \markup {                                                %%! CLOCK_TIME_MARKUP
-                %%%     \fontsize                                              %%! CLOCK_TIME_MARKUP
-                %%%         #-2                                                %%! CLOCK_TIME_MARKUP
-                %%%         0'41''                                             %%! CLOCK_TIME_MARKUP
-                %%%     }                                                      %%! CLOCK_TIME_MARKUP
+                %%% ^ \markup {                                                %! CLOCK_TIME_MARKUP
+                %%%     \fontsize                                              %! CLOCK_TIME_MARKUP
+                %%%         #-2                                                %! CLOCK_TIME_MARKUP
+                %%%         0'41''                                             %! CLOCK_TIME_MARKUP
+                %%%     }                                                      %! CLOCK_TIME_MARKUP
                 
-                %%% GlobalSkips [measure 21] %%%
+                % GlobalSkips [measure 21]                                     %! SM4
                 s1 * 1
-                %%% ^ \markup {                                                %%! CLOCK_TIME_MARKUP
-                %%%     \fontsize                                              %%! CLOCK_TIME_MARKUP
-                %%%         #-2                                                %%! CLOCK_TIME_MARKUP
-                %%%         0'43''                                             %%! CLOCK_TIME_MARKUP
-                %%%     }                                                      %%! CLOCK_TIME_MARKUP
+                %%% ^ \markup {                                                %! CLOCK_TIME_MARKUP
+                %%%     \fontsize                                              %! CLOCK_TIME_MARKUP
+                %%%         #-2                                                %! CLOCK_TIME_MARKUP
+                %%%         0'43''                                             %! CLOCK_TIME_MARKUP
+                %%%     }                                                      %! CLOCK_TIME_MARKUP
                 
-                %%% GlobalSkips [measure 22] %%%
-                \time 2/4
+                % GlobalSkips [measure 22]                                     %! SM4
+                \time 2/4                                                      %! SM1
                 s1 * 1/2
-                %%% ^ \markup {                                                %%! CLOCK_TIME_MARKUP
-                %%%     \fontsize                                              %%! CLOCK_TIME_MARKUP
-                %%%         #-2                                                %%! CLOCK_TIME_MARKUP
-                %%%         0'45''                                             %%! CLOCK_TIME_MARKUP
-                %%%     }                                                      %%! CLOCK_TIME_MARKUP
+                %%% ^ \markup {                                                %! CLOCK_TIME_MARKUP
+                %%%     \fontsize                                              %! CLOCK_TIME_MARKUP
+                %%%         #-2                                                %! CLOCK_TIME_MARKUP
+                %%%         0'45''                                             %! CLOCK_TIME_MARKUP
+                %%%     }                                                      %! CLOCK_TIME_MARKUP
                 
             }
         >>
@@ -157,28 +157,28 @@
                 \context Staff = "PiccoloStaffI" {
                     \context Voice = "PiccoloVoiceI" {
                         
-                        %%% PiccoloVoiceI [measure 15] %%%
+                        % PiccoloVoiceI [measure 15]                           %! SM4
                         R1 * 1
                         
-                        %%% PiccoloVoiceI [measure 16] %%%
+                        % PiccoloVoiceI [measure 16]                           %! SM4
                         R1 * 1
                         
-                        %%% PiccoloVoiceI [measure 17] %%%
+                        % PiccoloVoiceI [measure 17]                           %! SM4
                         R1 * 1
                         
-                        %%% PiccoloVoiceI [measure 18] %%%
+                        % PiccoloVoiceI [measure 18]                           %! SM4
                         R1 * 3/4
                         
-                        %%% PiccoloVoiceI [measure 19] %%%
+                        % PiccoloVoiceI [measure 19]                           %! SM4
                         R1 * 3/4
                         
-                        %%% PiccoloVoiceI [measure 20] %%%
+                        % PiccoloVoiceI [measure 20]                           %! SM4
                         R1 * 1
                         
-                        %%% PiccoloVoiceI [measure 21] %%%
+                        % PiccoloVoiceI [measure 21]                           %! SM4
                         R1 * 1
                         
-                        %%% PiccoloVoiceI [measure 22] %%%
+                        % PiccoloVoiceI [measure 22]                           %! SM4
                         R1 * 1/2
                         \bar "|"
                         
@@ -190,91 +190,91 @@
                     \context Staff = "FluteStaffI" <<
                         \context Voice = "FluteVoiceI" {
                             
-                            %%% FluteVoiceI [measure 15] %%%
+                            % FluteVoiceI [measure 15]                         %! SM4
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Flutes
-                                }                                              %%! REAPPLIED_MARGIN_MARKUP
+                                }                                              %! REAPPLIED_MARGIN_MARKUP
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Fl.
-                                }                                              %%! REAPPLIED_MARGIN_MARKUP
+                                }                                              %! REAPPLIED_MARGIN_MARKUP
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %%! REAPPLIED_INSTRUMENT_COLOR
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %%! REAPPLIED_MARGIN_MARKUP_COLOR
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR
                             c'4
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line                              %%! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%     {                              %%! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%         (“Flute”)                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%     }                              %%! REAPPLIED_INSTRUMENT_ALERT
-                                        \line                                  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            {                                  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                \with-color                    %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    #(x11-color 'green4)       %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    (“Flute”)                  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            }                                  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        %%% \line                              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%     {                              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%         \vcenter                   %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             [“Fl.”                 %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%         \vcenter                   %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             \hcenter-in            %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 #16                %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 Flutes             %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%         \concat                    %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             {                      %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 \vcenter           %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                     \hcenter-in    %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                         #10        %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                         Fl.        %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 \vcenter           %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                     ]              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             }                      %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%     }                              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        \line                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                            {                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                \with-color                    %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    #(x11-color 'green4)       %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    {                          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        \vcenter               %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            [“Fl.”             %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        \vcenter               %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            \hcenter-in        %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                #16            %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                Flutes         %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        \concat                %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            {                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                \vcenter       %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    \hcenter-in %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                        #10    %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                        Fl.    %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                \vcenter       %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    ]          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            }                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    }                          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                            }                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                        %%% \line                              %! REAPPLIED_INSTRUMENT_ALERT
+                                        %%%     {                              %! REAPPLIED_INSTRUMENT_ALERT
+                                        %%%         (“Flute”)                  %! REAPPLIED_INSTRUMENT_ALERT
+                                        %%%     }                              %! REAPPLIED_INSTRUMENT_ALERT
+                                        \line                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                            {                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                \with-color                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    #(x11-color 'green4)       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    (“Flute”)                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                            }                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        %%% \line                              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%     {                              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%         \vcenter                   %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             [“Fl.”                 %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%         \vcenter                   %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             \hcenter-in            %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 #16                %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 Flutes             %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%         \concat                    %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             {                      %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 \vcenter           %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                     \hcenter-in    %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                         #10        %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                         Fl.        %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 \vcenter           %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                     ]              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             }                      %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%     }                              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        \line                                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                            {                                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                \with-color                    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    #(x11-color 'green4)       %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    {                          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        \vcenter               %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            [“Fl.”             %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        \vcenter               %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            \hcenter-in        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                #16            %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                Flutes         %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        \concat                %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            {                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                \vcenter       %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    \hcenter-in %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                        #10    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                        Fl.    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                \vcenter       %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    ]          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            }                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    }                          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                            }                                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
                                     }
                                 }
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Flutes
-                                }                                              %%! REAPPLIED_REDRAW_MARGIN_MARKUP
+                                }                                              %! REAPPLIED_REDRAW_MARGIN_MARKUP
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Fl.
-                                }                                              %%! REAPPLIED_REDRAW_MARGIN_MARKUP
-                            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %%! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                                }                                              %! REAPPLIED_REDRAW_MARGIN_MARKUP
+                            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
                             
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -300,40 +300,7 @@
                             c'4
                             \repeatTie
                             
-                            %%% FluteVoiceI [measure 16] %%%
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            %%% FluteVoiceI [measure 17] %%%
+                            % FluteVoiceI [measure 16]                         %! SM4
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -366,57 +333,7 @@
                             c'4
                             \repeatTie
                             
-                            %%% FluteVoiceI [measure 18] %%%
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            %%% FluteVoiceI [measure 19] %%%
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            \once \override Beam.color = #blue
-                            \once \override Dots.color = #blue
-                            \once \override Flag.color = #blue
-                            \once \override NoteHead.color = #blue
-                            \once \override Stem.color = #blue
-                            c'4
-                            \repeatTie
-                            
-                            %%% FluteVoiceI [measure 20] %%%
+                            % FluteVoiceI [measure 17]                         %! SM4
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -449,7 +366,57 @@
                             c'4
                             \repeatTie
                             
-                            %%% FluteVoiceI [measure 21] %%%
+                            % FluteVoiceI [measure 18]                         %! SM4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \repeatTie
+                            
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \repeatTie
+                            
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \repeatTie
+                            
+                            % FluteVoiceI [measure 19]                         %! SM4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \repeatTie
+                            
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \repeatTie
+                            
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \repeatTie
+                            
+                            % FluteVoiceI [measure 20]                         %! SM4
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -482,7 +449,40 @@
                             c'4
                             \repeatTie
                             
-                            %%% FluteVoiceI [measure 22] %%%
+                            % FluteVoiceI [measure 21]                         %! SM4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \repeatTie
+                            
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \repeatTie
+                            
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \repeatTie
+                            
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \repeatTie
+                            
+                            % FluteVoiceI [measure 22]                         %! SM4
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -503,28 +503,28 @@
                         }
                         \context Voice = "FluteVoiceII" {
                             
-                            %%% FluteVoiceII [measure 15] %%%
+                            % FluteVoiceII [measure 15]                        %! SM4
                             R1 * 1
                             
-                            %%% FluteVoiceII [measure 16] %%%
+                            % FluteVoiceII [measure 16]                        %! SM4
                             R1 * 1
                             
-                            %%% FluteVoiceII [measure 17] %%%
+                            % FluteVoiceII [measure 17]                        %! SM4
                             R1 * 1
                             
-                            %%% FluteVoiceII [measure 18] %%%
+                            % FluteVoiceII [measure 18]                        %! SM4
                             R1 * 3/4
                             
-                            %%% FluteVoiceII [measure 19] %%%
+                            % FluteVoiceII [measure 19]                        %! SM4
                             R1 * 3/4
                             
-                            %%% FluteVoiceII [measure 20] %%%
+                            % FluteVoiceII [measure 20]                        %! SM4
                             R1 * 1
                             
-                            %%% FluteVoiceII [measure 21] %%%
+                            % FluteVoiceII [measure 21]                        %! SM4
                             R1 * 1
                             
-                            %%% FluteVoiceII [measure 22] %%%
+                            % FluteVoiceII [measure 22]                        %! SM4
                             R1 * 1/2
                             \bar "|"
                             
@@ -533,134 +533,134 @@
                     \context Staff = "FluteStaffII" <<
                         \context Voice = "FluteVoiceIII" {
                             
-                            %%% FluteVoiceIII [measure 15] %%%
+                            % FluteVoiceIII [measure 15]                       %! SM4
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Flutes
-                                }                                              %%! REAPPLIED_MARGIN_MARKUP
+                                }                                              %! REAPPLIED_MARGIN_MARKUP
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Fl.
-                                }                                              %%! REAPPLIED_MARGIN_MARKUP
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %%! REAPPLIED_INSTRUMENT_COLOR
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %%! REAPPLIED_MARGIN_MARKUP_COLOR
+                                }                                              %! REAPPLIED_MARGIN_MARKUP
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR
                             R1 * 1
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line                              %%! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%     {                              %%! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%         (“Flute”)                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%     }                              %%! REAPPLIED_INSTRUMENT_ALERT
-                                        \line                                  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            {                                  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                \with-color                    %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    #(x11-color 'green4)       %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    (“Flute”)                  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            }                                  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        %%% \line                              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%     {                              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%         \vcenter                   %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             [“Fl.”                 %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%         \vcenter                   %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             \hcenter-in            %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 #16                %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 Flutes             %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%         \concat                    %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             {                      %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 \vcenter           %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                     \hcenter-in    %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                         #10        %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                         Fl.        %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 \vcenter           %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                     ]              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             }                      %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%     }                              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        \line                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                            {                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                \with-color                    %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    #(x11-color 'green4)       %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    {                          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        \vcenter               %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            [“Fl.”             %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        \vcenter               %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            \hcenter-in        %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                #16            %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                Flutes         %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        \concat                %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            {                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                \vcenter       %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    \hcenter-in %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                        #10    %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                        Fl.    %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                \vcenter       %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    ]          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            }                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    }                          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                            }                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                        %%% \line                              %! REAPPLIED_INSTRUMENT_ALERT
+                                        %%%     {                              %! REAPPLIED_INSTRUMENT_ALERT
+                                        %%%         (“Flute”)                  %! REAPPLIED_INSTRUMENT_ALERT
+                                        %%%     }                              %! REAPPLIED_INSTRUMENT_ALERT
+                                        \line                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                            {                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                \with-color                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    #(x11-color 'green4)       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    (“Flute”)                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                            }                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        %%% \line                              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%     {                              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%         \vcenter                   %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             [“Fl.”                 %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%         \vcenter                   %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             \hcenter-in            %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 #16                %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 Flutes             %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%         \concat                    %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             {                      %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 \vcenter           %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                     \hcenter-in    %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                         #10        %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                         Fl.        %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 \vcenter           %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                     ]              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             }                      %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%     }                              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        \line                                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                            {                                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                \with-color                    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    #(x11-color 'green4)       %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    {                          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        \vcenter               %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            [“Fl.”             %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        \vcenter               %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            \hcenter-in        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                #16            %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                Flutes         %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        \concat                %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            {                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                \vcenter       %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    \hcenter-in %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                        #10    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                        Fl.    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                \vcenter       %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    ]          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            }                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    }                          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                            }                                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
                                     }
                                 }
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Flutes
-                                }                                              %%! REAPPLIED_REDRAW_MARGIN_MARKUP
+                                }                                              %! REAPPLIED_REDRAW_MARGIN_MARKUP
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Fl.
-                                }                                              %%! REAPPLIED_REDRAW_MARGIN_MARKUP
-                            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %%! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                                }                                              %! REAPPLIED_REDRAW_MARGIN_MARKUP
+                            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
                             
-                            %%% FluteVoiceIII [measure 16] %%%
+                            % FluteVoiceIII [measure 16]                       %! SM4
                             R1 * 1
                             
-                            %%% FluteVoiceIII [measure 17] %%%
+                            % FluteVoiceIII [measure 17]                       %! SM4
                             R1 * 1
                             
-                            %%% FluteVoiceIII [measure 18] %%%
+                            % FluteVoiceIII [measure 18]                       %! SM4
                             R1 * 3/4
                             
-                            %%% FluteVoiceIII [measure 19] %%%
+                            % FluteVoiceIII [measure 19]                       %! SM4
                             R1 * 3/4
                             
-                            %%% FluteVoiceIII [measure 20] %%%
+                            % FluteVoiceIII [measure 20]                       %! SM4
                             R1 * 1
                             
-                            %%% FluteVoiceIII [measure 21] %%%
+                            % FluteVoiceIII [measure 21]                       %! SM4
                             R1 * 1
                             
-                            %%% FluteVoiceIII [measure 22] %%%
+                            % FluteVoiceIII [measure 22]                       %! SM4
                             R1 * 1/2
                             \bar "|"
                             
                         }
                         \context Voice = "FluteVoiceIV" {
                             
-                            %%% FluteVoiceIV [measure 15] %%%
+                            % FluteVoiceIV [measure 15]                        %! SM4
                             R1 * 1
                             
-                            %%% FluteVoiceIV [measure 16] %%%
+                            % FluteVoiceIV [measure 16]                        %! SM4
                             R1 * 1
                             
-                            %%% FluteVoiceIV [measure 17] %%%
+                            % FluteVoiceIV [measure 17]                        %! SM4
                             R1 * 1
                             
-                            %%% FluteVoiceIV [measure 18] %%%
+                            % FluteVoiceIV [measure 18]                        %! SM4
                             R1 * 3/4
                             
-                            %%% FluteVoiceIV [measure 19] %%%
+                            % FluteVoiceIV [measure 19]                        %! SM4
                             R1 * 3/4
                             
-                            %%% FluteVoiceIV [measure 20] %%%
+                            % FluteVoiceIV [measure 20]                        %! SM4
                             R1 * 1
                             
-                            %%% FluteVoiceIV [measure 21] %%%
+                            % FluteVoiceIV [measure 21]                        %! SM4
                             R1 * 1
                             
-                            %%% FluteVoiceIV [measure 22] %%%
+                            % FluteVoiceIV [measure 22]                        %! SM4
                             R1 * 1/2
                             \bar "|"
                             
@@ -672,7 +672,7 @@
                 \context Staff = "FirstViolinStaffI" <<
                     \context Voice = "FirstViolinVoiceI" {
                         
-                        %%% FirstViolinVoiceI [measure 15] %%%
+                        % FirstViolinVoiceI [measure 15]                       %! SM4
                         \set Staff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -681,7 +681,7 @@
                                         Violins
                                         I
                                     }
-                            }                                                  %%! REAPPLIED_MARGIN_MARKUP
+                            }                                                  %! REAPPLIED_MARGIN_MARKUP
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
@@ -690,79 +690,79 @@
                                         Vni.
                                         I
                                     }
-                            }                                                  %%! REAPPLIED_MARGIN_MARKUP
-                        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %%! REAPPLIED_INSTRUMENT_COLOR
-                        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %%! REAPPLIED_MARGIN_MARKUP_COLOR
+                            }                                                  %! REAPPLIED_MARGIN_MARKUP
+                        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
+                        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR
                         R1 * 1
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     {                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         (“Violin”)                     %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     }                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    \line                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        {                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            \with-color                        %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                #(x11-color 'green4)           %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                (“Violin”)                     %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        }                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                    %%% \line                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%     {                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%         \vcenter                       %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%             "[“Vni. I”"                %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%         \vcenter                       %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%             \hcenter-in                %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                 #16                    %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                 \center-column         %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                     {                  %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                         Violins        %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                         I              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                     }                  %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%         \concat                        %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%             {                          %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                 \vcenter               %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                     \hcenter-in        %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                         #10            %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                         \center-column %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                             {          %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                                 Vni.   %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                                 I      %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                             }          %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                 \vcenter               %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%                     ]                  %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%             }                          %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    %%%     }                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                    \line                                      %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                        {                                      %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                            \with-color                        %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                #(x11-color 'green4)           %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                {                              %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    \vcenter                   %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        "[“Vni. I”"            %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    \vcenter                   %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        \hcenter-in            %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            #16                %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            \center-column     %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                {              %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    Violins    %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    I          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                }              %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    \concat                    %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        {                      %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            \vcenter           %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                \hcenter-in    %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    #10        %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    \center-column %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                        {      %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                            Vni. %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                            I  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                        }      %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            \vcenter           %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                ]              %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        }                      %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                }                              %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                        }                                      %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                    %%% \line                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%     {                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%         (“Violin”)                     %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%     }                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    \line                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        {                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                            \with-color                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                #(x11-color 'green4)           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                (“Violin”)                     %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        }                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                    %%% \line                                  %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%     {                                  %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%         \vcenter                       %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%             "[“Vni. I”"                %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%         \vcenter                       %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%             \hcenter-in                %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                 #16                    %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                 \center-column         %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                     {                  %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                         Violins        %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                         I              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                     }                  %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%         \concat                        %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%             {                          %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                 \vcenter               %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                     \hcenter-in        %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                         #10            %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                         \center-column %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                             {          %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                                 Vni.   %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                                 I      %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                             }          %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                 \vcenter               %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%                     ]                  %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%             }                          %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    %%%     }                                  %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                    \line                                      %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                        {                                      %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                            \with-color                        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                #(x11-color 'green4)           %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                {                              %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    \vcenter                   %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        "[“Vni. I”"            %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    \vcenter                   %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        \hcenter-in            %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            #16                %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            \center-column     %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                {              %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    Violins    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    I          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                }              %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    \concat                    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        {                      %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            \vcenter           %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                \hcenter-in    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    #10        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    \center-column %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                        {      %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                            Vni. %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                            I  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                        }      %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            \vcenter           %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                ]              %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        }                      %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                }                              %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                        }                                      %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
                                 }
                             }
                         \set Staff.instrumentName = \markup {
@@ -773,7 +773,7 @@
                                         Violins
                                         I
                                     }
-                            }                                                  %%! REAPPLIED_REDRAW_MARGIN_MARKUP
+                            }                                                  %! REAPPLIED_REDRAW_MARGIN_MARKUP
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
@@ -782,56 +782,56 @@
                                         Vni.
                                         I
                                     }
-                            }                                                  %%! REAPPLIED_REDRAW_MARGIN_MARKUP
-                        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %%! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                            }                                                  %! REAPPLIED_REDRAW_MARGIN_MARKUP
+                        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
                         
-                        %%% FirstViolinVoiceI [measure 16] %%%
+                        % FirstViolinVoiceI [measure 16]                       %! SM4
                         R1 * 1
                         
-                        %%% FirstViolinVoiceI [measure 17] %%%
+                        % FirstViolinVoiceI [measure 17]                       %! SM4
                         R1 * 1
                         
-                        %%% FirstViolinVoiceI [measure 18] %%%
+                        % FirstViolinVoiceI [measure 18]                       %! SM4
                         R1 * 3/4
                         
-                        %%% FirstViolinVoiceI [measure 19] %%%
+                        % FirstViolinVoiceI [measure 19]                       %! SM4
                         R1 * 3/4
                         
-                        %%% FirstViolinVoiceI [measure 20] %%%
+                        % FirstViolinVoiceI [measure 20]                       %! SM4
                         R1 * 1
                         
-                        %%% FirstViolinVoiceI [measure 21] %%%
+                        % FirstViolinVoiceI [measure 21]                       %! SM4
                         R1 * 1
                         
-                        %%% FirstViolinVoiceI [measure 22] %%%
+                        % FirstViolinVoiceI [measure 22]                       %! SM4
                         R1 * 1/2
                         \bar "|"
                         
                     }
                     \context Voice = "FirstViolinVoiceII" {
                         
-                        %%% FirstViolinVoiceII [measure 15] %%%
+                        % FirstViolinVoiceII [measure 15]                      %! SM4
                         R1 * 1
                         
-                        %%% FirstViolinVoiceII [measure 16] %%%
+                        % FirstViolinVoiceII [measure 16]                      %! SM4
                         R1 * 1
                         
-                        %%% FirstViolinVoiceII [measure 17] %%%
+                        % FirstViolinVoiceII [measure 17]                      %! SM4
                         R1 * 1
                         
-                        %%% FirstViolinVoiceII [measure 18] %%%
+                        % FirstViolinVoiceII [measure 18]                      %! SM4
                         R1 * 3/4
                         
-                        %%% FirstViolinVoiceII [measure 19] %%%
+                        % FirstViolinVoiceII [measure 19]                      %! SM4
                         R1 * 3/4
                         
-                        %%% FirstViolinVoiceII [measure 20] %%%
+                        % FirstViolinVoiceII [measure 20]                      %! SM4
                         R1 * 1
                         
-                        %%% FirstViolinVoiceII [measure 21] %%%
+                        % FirstViolinVoiceII [measure 21]                      %! SM4
                         R1 * 1
                         
-                        %%% FirstViolinVoiceII [measure 22] %%%
+                        % FirstViolinVoiceII [measure 22]                      %! SM4
                         R1 * 1/2
                         \bar "|"
                         
@@ -843,7 +843,7 @@
                     \context Staff = "SecondViolinStaffI" {
                         \context Voice = "SecondViolinVoiceI" {
                             
-                            %%% SecondViolinVoiceI [measure 15] %%%
+                            % SecondViolinVoiceI [measure 15]                  %! SM4
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -852,7 +852,7 @@
                                             Violins
                                             II
                                         }
-                                }                                              %%! REAPPLIED_MARGIN_MARKUP
+                                }                                              %! REAPPLIED_MARGIN_MARKUP
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -861,79 +861,79 @@
                                             Vni.
                                             II
                                         }
-                                }                                              %%! REAPPLIED_MARGIN_MARKUP
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %%! REAPPLIED_INSTRUMENT_COLOR
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %%! REAPPLIED_MARGIN_MARKUP_COLOR
+                                }                                              %! REAPPLIED_MARGIN_MARKUP
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR
                             R1 * 1
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line                              %%! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%     {                              %%! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%         (“Violin”)                 %%! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%     }                              %%! REAPPLIED_INSTRUMENT_ALERT
-                                        \line                                  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            {                                  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                \with-color                    %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    #(x11-color 'green4)       %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    (“Violin”)                 %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            }                                  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        %%% \line                              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%     {                              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%         \vcenter                   %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             "[“Vni. II”"           %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%         \vcenter                   %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             \hcenter-in            %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 #16                %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 \center-column     %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                     {              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                         Violins    %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                         II         %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                     }              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%         \concat                    %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             {                      %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 \vcenter           %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                     \hcenter-in    %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                         #10        %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                         \center-column %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                             {      %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                                 Vni. %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                                 II %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                             }      %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 \vcenter           %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                     ]              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             }                      %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%     }                              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        \line                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                            {                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                \with-color                    %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    #(x11-color 'green4)       %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    {                          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        \vcenter               %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            "[“Vni. II”"       %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        \vcenter               %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            \hcenter-in        %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                #16            %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                \center-column %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    {          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                        Violins %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                        II     %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    }          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        \concat                %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            {                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                \vcenter       %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    \hcenter-in %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                        #10    %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                        \center-column %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                            {  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                                Vni. %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                                II %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                            }  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                \vcenter       %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    ]          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            }                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    }                          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                            }                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                        %%% \line                              %! REAPPLIED_INSTRUMENT_ALERT
+                                        %%%     {                              %! REAPPLIED_INSTRUMENT_ALERT
+                                        %%%         (“Violin”)                 %! REAPPLIED_INSTRUMENT_ALERT
+                                        %%%     }                              %! REAPPLIED_INSTRUMENT_ALERT
+                                        \line                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                            {                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                \with-color                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    #(x11-color 'green4)       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    (“Violin”)                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                            }                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        %%% \line                              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%     {                              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%         \vcenter                   %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             "[“Vni. II”"           %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%         \vcenter                   %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             \hcenter-in            %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 #16                %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 \center-column     %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                     {              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                         Violins    %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                         II         %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                     }              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%         \concat                    %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             {                      %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 \vcenter           %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                     \hcenter-in    %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                         #10        %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                         \center-column %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                             {      %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                                 Vni. %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                                 II %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                             }      %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 \vcenter           %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                     ]              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             }                      %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%     }                              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        \line                                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                            {                                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                \with-color                    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    #(x11-color 'green4)       %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    {                          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        \vcenter               %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            "[“Vni. II”"       %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        \vcenter               %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            \hcenter-in        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                #16            %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                \center-column %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    {          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                        Violins %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                        II     %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    }          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        \concat                %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            {                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                \vcenter       %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    \hcenter-in %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                        #10    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                        \center-column %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                            {  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                                Vni. %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                                II %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                            }  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                \vcenter       %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    ]          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            }                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    }                          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                            }                                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
                                     }
                                 }
                             \set Staff.instrumentName = \markup {
@@ -944,7 +944,7 @@
                                             Violins
                                             II
                                         }
-                                }                                              %%! REAPPLIED_REDRAW_MARGIN_MARKUP
+                                }                                              %! REAPPLIED_REDRAW_MARGIN_MARKUP
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -953,28 +953,28 @@
                                             Vni.
                                             II
                                         }
-                                }                                              %%! REAPPLIED_REDRAW_MARGIN_MARKUP
-                            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %%! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                                }                                              %! REAPPLIED_REDRAW_MARGIN_MARKUP
+                            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
                             
-                            %%% SecondViolinVoiceI [measure 16] %%%
+                            % SecondViolinVoiceI [measure 16]                  %! SM4
                             R1 * 1
                             
-                            %%% SecondViolinVoiceI [measure 17] %%%
+                            % SecondViolinVoiceI [measure 17]                  %! SM4
                             R1 * 1
                             
-                            %%% SecondViolinVoiceI [measure 18] %%%
+                            % SecondViolinVoiceI [measure 18]                  %! SM4
                             R1 * 3/4
                             
-                            %%% SecondViolinVoiceI [measure 19] %%%
+                            % SecondViolinVoiceI [measure 19]                  %! SM4
                             R1 * 3/4
                             
-                            %%% SecondViolinVoiceI [measure 20] %%%
+                            % SecondViolinVoiceI [measure 20]                  %! SM4
                             R1 * 1
                             
-                            %%% SecondViolinVoiceI [measure 21] %%%
+                            % SecondViolinVoiceI [measure 21]                  %! SM4
                             R1 * 1
                             
-                            %%% SecondViolinVoiceI [measure 22] %%%
+                            % SecondViolinVoiceI [measure 22]                  %! SM4
                             R1 * 1/2
                             \bar "|"
                             
@@ -983,7 +983,7 @@
                     \context Staff = "SecondViolinStaffII" {
                         \context Voice = "SecondViolinVoiceII" {
                             
-                            %%% SecondViolinVoiceII [measure 15] %%%
+                            % SecondViolinVoiceII [measure 15]                 %! SM4
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -992,7 +992,7 @@
                                             Violins
                                             II
                                         }
-                                }                                              %%! REAPPLIED_MARGIN_MARKUP
+                                }                                              %! REAPPLIED_MARGIN_MARKUP
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -1001,79 +1001,79 @@
                                             Vni.
                                             II
                                         }
-                                }                                              %%! REAPPLIED_MARGIN_MARKUP
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %%! REAPPLIED_INSTRUMENT_COLOR
-                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %%! REAPPLIED_MARGIN_MARKUP_COLOR
+                                }                                              %! REAPPLIED_MARGIN_MARKUP
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
+                            \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR
                             R1 * 1
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line                              %%! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%     {                              %%! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%         (“Violin”)                 %%! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%     }                              %%! REAPPLIED_INSTRUMENT_ALERT
-                                        \line                                  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            {                                  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                \with-color                    %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    #(x11-color 'green4)       %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    (“Violin”)                 %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            }                                  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        %%% \line                              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%     {                              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%         \vcenter                   %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             "[“Vni. II”"           %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%         \vcenter                   %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             \hcenter-in            %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 #16                %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 \center-column     %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                     {              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                         Violins    %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                         II         %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                     }              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%         \concat                    %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             {                      %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 \vcenter           %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                     \hcenter-in    %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                         #10        %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                         \center-column %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                             {      %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                                 Vni. %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                                 II %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                             }      %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                 \vcenter           %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%                     ]              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%             }                      %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        %%%     }                              %%! REAPPLIED_MARGIN_MARKUP_ALERT
-                                        \line                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                            {                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                \with-color                    %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    #(x11-color 'green4)       %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    {                          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        \vcenter               %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            "[“Vni. II”"       %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        \vcenter               %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            \hcenter-in        %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                #16            %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                \center-column %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    {          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                        Violins %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                        II     %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    }          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                        \concat                %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            {                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                \vcenter       %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    \hcenter-in %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                        #10    %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                        \center-column %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                            {  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                                Vni. %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                                II %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                            }  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                \vcenter       %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                                    ]          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                            }                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                                    }                          %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
-                                            }                                  %%! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                        %%% \line                              %! REAPPLIED_INSTRUMENT_ALERT
+                                        %%%     {                              %! REAPPLIED_INSTRUMENT_ALERT
+                                        %%%         (“Violin”)                 %! REAPPLIED_INSTRUMENT_ALERT
+                                        %%%     }                              %! REAPPLIED_INSTRUMENT_ALERT
+                                        \line                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                            {                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                \with-color                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    #(x11-color 'green4)       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    (“Violin”)                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                            }                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        %%% \line                              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%     {                              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%         \vcenter                   %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             "[“Vni. II”"           %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%         \vcenter                   %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             \hcenter-in            %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 #16                %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 \center-column     %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                     {              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                         Violins    %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                         II         %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                     }              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%         \concat                    %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             {                      %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 \vcenter           %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                     \hcenter-in    %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                         #10        %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                         \center-column %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                             {      %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                                 Vni. %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                                 II %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                             }      %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                 \vcenter           %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%                     ]              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%             }                      %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        %%%     }                              %! REAPPLIED_MARGIN_MARKUP_ALERT
+                                        \line                                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                            {                                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                \with-color                    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    #(x11-color 'green4)       %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    {                          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        \vcenter               %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            "[“Vni. II”"       %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        \vcenter               %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            \hcenter-in        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                #16            %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                \center-column %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    {          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                        Violins %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                        II     %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    }          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                        \concat                %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            {                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                \vcenter       %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    \hcenter-in %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                        #10    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                        \center-column %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                            {  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                                Vni. %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                                II %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                            }  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                \vcenter       %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                                    ]          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                            }                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                                    }                          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
+                                            }                                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR
                                     }
                                 }
                             \set Staff.instrumentName = \markup {
@@ -1084,7 +1084,7 @@
                                             Violins
                                             II
                                         }
-                                }                                              %%! REAPPLIED_REDRAW_MARGIN_MARKUP
+                                }                                              %! REAPPLIED_REDRAW_MARGIN_MARKUP
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -1093,28 +1093,28 @@
                                             Vni.
                                             II
                                         }
-                                }                                              %%! REAPPLIED_REDRAW_MARGIN_MARKUP
-                            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %%! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                                }                                              %! REAPPLIED_REDRAW_MARGIN_MARKUP
+                            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
                             
-                            %%% SecondViolinVoiceII [measure 16] %%%
+                            % SecondViolinVoiceII [measure 16]                 %! SM4
                             R1 * 1
                             
-                            %%% SecondViolinVoiceII [measure 17] %%%
+                            % SecondViolinVoiceII [measure 17]                 %! SM4
                             R1 * 1
                             
-                            %%% SecondViolinVoiceII [measure 18] %%%
+                            % SecondViolinVoiceII [measure 18]                 %! SM4
                             R1 * 3/4
                             
-                            %%% SecondViolinVoiceII [measure 19] %%%
+                            % SecondViolinVoiceII [measure 19]                 %! SM4
                             R1 * 3/4
                             
-                            %%% SecondViolinVoiceII [measure 20] %%%
+                            % SecondViolinVoiceII [measure 20]                 %! SM4
                             R1 * 1
                             
-                            %%% SecondViolinVoiceII [measure 21] %%%
+                            % SecondViolinVoiceII [measure 21]                 %! SM4
                             R1 * 1
                             
-                            %%% SecondViolinVoiceII [measure 22] %%%
+                            % SecondViolinVoiceII [measure 22]                 %! SM4
                             R1 * 1/2
                             \bar "|"
                             
@@ -1124,28 +1124,28 @@
                 \context Staff = "ViolaStaffI" {
                     \context Voice = "ViolaVoiceI" {
                         
-                        %%% ViolaVoiceI [measure 15] %%%
+                        % ViolaVoiceI [measure 15]                             %! SM4
                         R1 * 1
                         
-                        %%% ViolaVoiceI [measure 16] %%%
+                        % ViolaVoiceI [measure 16]                             %! SM4
                         R1 * 1
                         
-                        %%% ViolaVoiceI [measure 17] %%%
+                        % ViolaVoiceI [measure 17]                             %! SM4
                         R1 * 1
                         
-                        %%% ViolaVoiceI [measure 18] %%%
+                        % ViolaVoiceI [measure 18]                             %! SM4
                         R1 * 3/4
                         
-                        %%% ViolaVoiceI [measure 19] %%%
+                        % ViolaVoiceI [measure 19]                             %! SM4
                         R1 * 3/4
                         
-                        %%% ViolaVoiceI [measure 20] %%%
+                        % ViolaVoiceI [measure 20]                             %! SM4
                         R1 * 1
                         
-                        %%% ViolaVoiceI [measure 21] %%%
+                        % ViolaVoiceI [measure 21]                             %! SM4
                         R1 * 1
                         
-                        %%% ViolaVoiceI [measure 22] %%%
+                        % ViolaVoiceI [measure 22]                             %! SM4
                         R1 * 1/2
                         \bar "|"
                         
@@ -1154,28 +1154,28 @@
                 \context Staff = "CelloStaffI" {
                     \context Voice = "CelloVoiceI" {
                         
-                        %%% CelloVoiceI [measure 15] %%%
+                        % CelloVoiceI [measure 15]                             %! SM4
                         R1 * 1
                         
-                        %%% CelloVoiceI [measure 16] %%%
+                        % CelloVoiceI [measure 16]                             %! SM4
                         R1 * 1
                         
-                        %%% CelloVoiceI [measure 17] %%%
+                        % CelloVoiceI [measure 17]                             %! SM4
                         R1 * 1
                         
-                        %%% CelloVoiceI [measure 18] %%%
+                        % CelloVoiceI [measure 18]                             %! SM4
                         R1 * 3/4
                         
-                        %%% CelloVoiceI [measure 19] %%%
+                        % CelloVoiceI [measure 19]                             %! SM4
                         R1 * 3/4
                         
-                        %%% CelloVoiceI [measure 20] %%%
+                        % CelloVoiceI [measure 20]                             %! SM4
                         R1 * 1
                         
-                        %%% CelloVoiceI [measure 21] %%%
+                        % CelloVoiceI [measure 21]                             %! SM4
                         R1 * 1
                         
-                        %%% CelloVoiceI [measure 22] %%%
+                        % CelloVoiceI [measure 22]                             %! SM4
                         R1 * 1/2
                         \bar "|"
                         
@@ -1184,28 +1184,28 @@
                 \context Staff = "ContrabassStaffI" {
                     \context Voice = "ContrabassVoiceI" {
                         
-                        %%% ContrabassVoiceI [measure 15] %%%
+                        % ContrabassVoiceI [measure 15]                        %! SM4
                         R1 * 1
                         
-                        %%% ContrabassVoiceI [measure 16] %%%
+                        % ContrabassVoiceI [measure 16]                        %! SM4
                         R1 * 1
                         
-                        %%% ContrabassVoiceI [measure 17] %%%
+                        % ContrabassVoiceI [measure 17]                        %! SM4
                         R1 * 1
                         
-                        %%% ContrabassVoiceI [measure 18] %%%
+                        % ContrabassVoiceI [measure 18]                        %! SM4
                         R1 * 3/4
                         
-                        %%% ContrabassVoiceI [measure 19] %%%
+                        % ContrabassVoiceI [measure 19]                        %! SM4
                         R1 * 3/4
                         
-                        %%% ContrabassVoiceI [measure 20] %%%
+                        % ContrabassVoiceI [measure 20]                        %! SM4
                         R1 * 1
                         
-                        %%% ContrabassVoiceI [measure 21] %%%
+                        % ContrabassVoiceI [measure 21]                        %! SM4
                         R1 * 1
                         
-                        %%% ContrabassVoiceI [measure 22] %%%
+                        % ContrabassVoiceI [measure 22]                        %! SM4
                         R1 * 1/2
                         \bar "|"
                         
