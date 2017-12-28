@@ -43,12 +43,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 \hcenter-in
                                     #16
                                     Piccolo
-                                }
+                                }    %! ST2
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Picc.
-                                }
+                                } %! ST2
                             s1
                         }
                     }
@@ -61,12 +61,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     \hcenter-in
                                         #16
                                         Flutes
-                                    }
+                                    }   %! ST2
                                 \set Staff.shortInstrumentName = \markup {
                                     \hcenter-in
                                         #10
                                         Fl.
-                                    }
+                                    } %! ST2
                                 s1
                             }
                             \context Voice = "FluteVoiceII" {
@@ -79,12 +79,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     \hcenter-in
                                         #16
                                         Flutes
-                                    }
+                                    }   %! ST2
                                 \set Staff.shortInstrumentName = \markup {
                                     \hcenter-in
                                         #10
                                         Fl.
-                                    }
+                                    } %! ST2
                                 s1
                             }
                             \context Voice = "FluteVoiceIV" {
@@ -104,7 +104,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             Violins
                                             I
                                         }
-                                }
+                                }   %! ST2
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -113,7 +113,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             Vni.
                                             I
                                         }
-                                }
+                                } %! ST2
                             s1
                         }
                         \context Voice = "FirstViolinVoiceII" {
@@ -133,7 +133,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                                 Violins
                                                 II
                                             }
-                                    }
+                                    }   %! ST2
                                 \set Staff.shortInstrumentName = \markup {
                                     \hcenter-in
                                         #10
@@ -142,7 +142,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                                 Vni.
                                                 II
                                             }
-                                    }
+                                    } %! ST2
                                 s1
                             }
                         }
@@ -156,7 +156,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                                 Violins
                                                 II
                                             }
-                                    }
+                                    }   %! ST2
                                 \set Staff.shortInstrumentName = \markup {
                                     \hcenter-in
                                         #10
@@ -165,7 +165,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                                 Vni.
                                                 II
                                             }
-                                    }
+                                    } %! ST2
                                 s1
                             }
                         }
@@ -176,13 +176,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 \hcenter-in
                                     #16
                                     Violas
-                                }
+                                }    %! ST2
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Vle.
-                                }
-                            \clef "alto"
+                                } %! ST2
+                            \clef "alto" %! ST3
                             s1
                         }
                     }
@@ -192,13 +192,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 \hcenter-in
                                     #16
                                     Cellos
-                                }
+                                }   %! ST2
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Vc.
-                                }
-                            \clef "bass"
+                                } %! ST2
+                            \clef "bass" %! ST3
                             s1
                         }
                     }
@@ -208,13 +208,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 \hcenter-in
                                     #16
                                     Contrabasses
-                                }
+                                } %! ST2
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Cb.
-                                }
-                            \clef "bass"
+                                }     %! ST2
+                            \clef "bass" %! ST3
                             s1
                         }
                     }
