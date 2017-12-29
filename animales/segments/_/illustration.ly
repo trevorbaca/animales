@@ -227,13 +227,13 @@
                             \hcenter-in
                                 #16
                                 Piccolo
-                            }                                                            %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
+                            }                                                            %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Picc.
-                            }                                                            %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
-                        \override Staff.InstrumentName.color = #(x11-color 'violet)      %! DEFAULT_REDRAW_INSTRUMENT_COLOR:SM6
+                            }                                                            %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                        \override Staff.InstrumentName.color = #(x11-color 'violet)      %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                         
                         % PiccoloVoiceI [measure 2]                                      %! SM4
                         R1 * 1
@@ -343,13 +343,13 @@
                                 \hcenter-in
                                     #16
                                     Flutes
-                                }                                                        %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
+                                }                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Fl.
-                                }                                                        %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
-                            \override Staff.InstrumentName.color = #(x11-color 'violet)  %! DEFAULT_REDRAW_INSTRUMENT_COLOR:SM6
+                                }                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                            \override Staff.InstrumentName.color = #(x11-color 'violet)  %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                             
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
@@ -706,13 +706,13 @@
                                 \hcenter-in
                                     #16
                                     Flutes
-                                }                                                        %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
+                                }                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Fl.
-                                }                                                        %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
-                            \override Staff.InstrumentName.color = #(x11-color 'violet)  %! DEFAULT_REDRAW_INSTRUMENT_COLOR:SM6
+                                }                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                            \override Staff.InstrumentName.color = #(x11-color 'violet)  %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                             
                             % FluteVoiceIII [measure 2]                                  %! SM4
                             R1 * 1
@@ -871,7 +871,7 @@
                                         Violins
                                         I
                                     }
-                            }                                                            %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
+                            }                                                            %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
@@ -880,8 +880,8 @@
                                         Vni.
                                         I
                                     }
-                            }                                                            %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
-                        \override Staff.InstrumentName.color = #(x11-color 'violet)      %! DEFAULT_REDRAW_INSTRUMENT_COLOR:SM6
+                            }                                                            %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                        \override Staff.InstrumentName.color = #(x11-color 'violet)      %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                         
                         % FirstViolinVoiceI [measure 2]                                  %! SM4
                         R1 * 1
@@ -1040,7 +1040,7 @@
                                             Violins
                                             II
                                         }
-                                }                                                        %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
+                                }                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -1049,8 +1049,8 @@
                                             Vni.
                                             II
                                         }
-                                }                                                        %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
-                            \override Staff.InstrumentName.color = #(x11-color 'violet)  %! DEFAULT_REDRAW_INSTRUMENT_COLOR:SM6
+                                }                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                            \override Staff.InstrumentName.color = #(x11-color 'violet)  %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                             
                             % SecondViolinVoiceI [measure 2]                             %! SM4
                             R1 * 1
@@ -1179,7 +1179,7 @@
                                             Violins
                                             II
                                         }
-                                }                                                        %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
+                                }                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
@@ -1188,8 +1188,8 @@
                                             Vni.
                                             II
                                         }
-                                }                                                        %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
-                            \override Staff.InstrumentName.color = #(x11-color 'violet)  %! DEFAULT_REDRAW_INSTRUMENT_COLOR:SM6
+                                }                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                            \override Staff.InstrumentName.color = #(x11-color 'violet)  %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                             
                             % SecondViolinVoiceII [measure 2]                            %! SM4
                             R1 * 1
@@ -1234,7 +1234,7 @@
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
                         \once \override Staff.Clef.color = #(x11-color 'DarkViolet)      %! DEFAULT_CLEF_COLOR:SM6
-                        %%% \override Staff.Clef.color = ##f                             %! DEFAULT_CLEF_UNCOLOR:SM7
+                        %%% \override Staff.Clef.color = ##f                             %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                         R1 * 1
                         ^ \markup {
                             \column
@@ -1295,14 +1295,14 @@
                             \hcenter-in
                                 #16
                                 Violas
-                            }                                                            %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
+                            }                                                            %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Vle.
-                            }                                                            %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
-                        \override Staff.InstrumentName.color = #(x11-color 'violet)      %! DEFAULT_REDRAW_INSTRUMENT_COLOR:SM6
-                        \override Staff.Clef.color = #(x11-color 'violet)                %! DEFAULT_CLEF_COLOR_REDRAW:SM6
+                            }                                                            %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                        \override Staff.InstrumentName.color = #(x11-color 'violet)      %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                        \override Staff.Clef.color = #(x11-color 'violet)                %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                         
                         % ViolaVoiceI [measure 2]                                        %! SM4
                         R1 * 1
@@ -1346,7 +1346,7 @@
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
                         \once \override Staff.Clef.color = #(x11-color 'DarkViolet)      %! DEFAULT_CLEF_COLOR:SM6
-                        %%% \override Staff.Clef.color = ##f                             %! DEFAULT_CLEF_UNCOLOR:SM7
+                        %%% \override Staff.Clef.color = ##f                             %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                         R1 * 1
                         ^ \markup {
                             \column
@@ -1407,14 +1407,14 @@
                             \hcenter-in
                                 #16
                                 Cellos
-                            }                                                            %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
+                            }                                                            %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Vc.
-                            }                                                            %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
-                        \override Staff.InstrumentName.color = #(x11-color 'violet)      %! DEFAULT_REDRAW_INSTRUMENT_COLOR:SM6
-                        \override Staff.Clef.color = #(x11-color 'violet)                %! DEFAULT_CLEF_COLOR_REDRAW:SM6
+                            }                                                            %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                        \override Staff.InstrumentName.color = #(x11-color 'violet)      %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                        \override Staff.Clef.color = #(x11-color 'violet)                %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                         
                         % CelloVoiceI [measure 2]                                        %! SM4
                         R1 * 1
@@ -1458,7 +1458,7 @@
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                         \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
                         \once \override Staff.Clef.color = #(x11-color 'DarkViolet)      %! DEFAULT_CLEF_COLOR:SM6
-                        %%% \override Staff.Clef.color = ##f                             %! DEFAULT_CLEF_UNCOLOR:SM7
+                        %%% \override Staff.Clef.color = ##f                             %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                         R1 * 1
                         ^ \markup {
                             \column
@@ -1519,14 +1519,14 @@
                             \hcenter-in
                                 #16
                                 Contrabasses
-                            }                                                            %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
+                            }                                                            %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                         \set Staff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Cb.
-                            }                                                            %! DEFAULT_REDRAW_MARGIN_MARKUP:SM8
-                        \override Staff.InstrumentName.color = #(x11-color 'violet)      %! DEFAULT_REDRAW_INSTRUMENT_COLOR:SM6
-                        \override Staff.Clef.color = #(x11-color 'violet)                %! DEFAULT_CLEF_COLOR_REDRAW:SM6
+                            }                                                            %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                        \override Staff.InstrumentName.color = #(x11-color 'violet)      %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                        \override Staff.Clef.color = #(x11-color 'violet)                %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                         
                         % ContrabassVoiceI [measure 2]                                   %! SM4
                         R1 * 1
