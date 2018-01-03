@@ -19,14 +19,14 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [1]                                      %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [1]                                          %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
                             \line                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                                 {                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                                     \with-color                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
@@ -48,12 +48,12 @@
                                                 }                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                                         }                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                                 }                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             0'00''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             0'00''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 %%% ^ \markup {                                                          %! EXPLICIT_METRONOME_MARK:SM27
@@ -76,30 +76,30 @@
                 % GlobalSkips [measure 2]                                                %! SM4
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
-                %%% ^ \markup {                                                          %! CLOCK_TIME_MARKUP:SM28
-                %%%     \fontsize                                                        %! CLOCK_TIME_MARKUP:SM28
-                %%%         #-2                                                          %! CLOCK_TIME_MARKUP:SM28
-                %%%         0'02''                                                       %! CLOCK_TIME_MARKUP:SM28
-                %%%     }                                                                %! CLOCK_TIME_MARKUP:SM28
+            %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
+            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         0'02''                                                           %! CLOCK_TIME_MARKUP:SM28
+            %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
                 % GlobalSkips [measure 3]                                                %! SM4
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
-                %%% ^ \markup {                                                          %! CLOCK_TIME_MARKUP:SM28
-                %%%     \fontsize                                                        %! CLOCK_TIME_MARKUP:SM28
-                %%%         #-2                                                          %! CLOCK_TIME_MARKUP:SM28
-                %%%         0'04''                                                       %! CLOCK_TIME_MARKUP:SM28
-                %%%     }                                                                %! CLOCK_TIME_MARKUP:SM28
+            %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
+            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         0'04''                                                           %! CLOCK_TIME_MARKUP:SM28
+            %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
                 % GlobalSkips [measure 4]                                                %! SM4
                 \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
-                %%% ^ \markup {                                                          %! CLOCK_TIME_MARKUP:SM28
-                %%%     \fontsize                                                        %! CLOCK_TIME_MARKUP:SM28
-                %%%         #-2                                                          %! CLOCK_TIME_MARKUP:SM28
-                %%%         0'06''                                                       %! CLOCK_TIME_MARKUP:SM28
-                %%%     }                                                                %! CLOCK_TIME_MARKUP:SM28
+            %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
+            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         0'06''                                                           %! CLOCK_TIME_MARKUP:SM28
+            %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
                 % GlobalSkips [measure 5]                                                %! SM4
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -107,20 +107,20 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [2]                                      %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             0'08''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [2]                                          %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             0'08''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -128,30 +128,30 @@
                 \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
-                %%% ^ \markup {                                                          %! CLOCK_TIME_MARKUP:SM28
-                %%%     \fontsize                                                        %! CLOCK_TIME_MARKUP:SM28
-                %%%         #-2                                                          %! CLOCK_TIME_MARKUP:SM28
-                %%%         0'10''                                                       %! CLOCK_TIME_MARKUP:SM28
-                %%%     }                                                                %! CLOCK_TIME_MARKUP:SM28
+            %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
+            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         0'10''                                                           %! CLOCK_TIME_MARKUP:SM28
+            %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
                 % GlobalSkips [measure 7]                                                %! SM4
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
-                %%% ^ \markup {                                                          %! CLOCK_TIME_MARKUP:SM28
-                %%%     \fontsize                                                        %! CLOCK_TIME_MARKUP:SM28
-                %%%         #-2                                                          %! CLOCK_TIME_MARKUP:SM28
-                %%%         0'12''                                                       %! CLOCK_TIME_MARKUP:SM28
-                %%%     }                                                                %! CLOCK_TIME_MARKUP:SM28
+            %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
+            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         0'12''                                                           %! CLOCK_TIME_MARKUP:SM28
+            %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
                 % GlobalSkips [measure 8]                                                %! SM4
                 \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
-                %%% ^ \markup {                                                          %! CLOCK_TIME_MARKUP:SM28
-                %%%     \fontsize                                                        %! CLOCK_TIME_MARKUP:SM28
-                %%%         #-2                                                          %! CLOCK_TIME_MARKUP:SM28
-                %%%         0'14''                                                       %! CLOCK_TIME_MARKUP:SM28
-                %%%     }                                                                %! CLOCK_TIME_MARKUP:SM28
+            %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
+            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         0'14''                                                           %! CLOCK_TIME_MARKUP:SM28
+            %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 \override Score.BarLine.transparent = ##f                                %! SM5
                 \bar "|"                                                                 %! SM5
                 
