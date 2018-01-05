@@ -14,11 +14,7 @@ TO-DO
         cellos=[1],
         contrabasses=[1],
 
-1.  Set Animales margin markup explicitly.
-    Teach SegmentMaker to write end-margin-markup to metadata.
-    Teach IDE how to activate and deactivate margin markup.
-
-2.  Clean up existing build directories.
+1.  Clean up existing build directories.
     Move builds-segments directories in existing scores to build directories.
     Teach IDE to forget about builds (plural) segments directories.
     Teach IDE to use build (singular) segments directories instead.
@@ -28,7 +24,7 @@ TO-DO
     Include TimeSignatureEngraver in staves in parts.
     Clean up parts-making process on disk in existing scores.
 
-3.  Tagging and part-making: single-staff divisi.
+2.  Tagging and part-making: single-staff divisi.
     _.1: first violins non divisi (on a single staff).
     _.2: divisi a due (8 + 10; on a single staff).
     _.3: divisi a tre (6 + 6 + 6; on a single staff).
@@ -37,7 +33,7 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-4.  Tagging and part-making: multistaff divisi.
+3.  Tagging and part-making: multistaff divisi.
     A.1: first violins non divisi on a single staff ("Violins I").
     A.2: divisi a due (8 + 10) on two staves:
                     1-8
@@ -51,7 +47,7 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-5.  Tagging and part-making: asymmetric divisi.
+4.  Tagging and part-making: asymmetric divisi.
     B.1: first violins non divisi on a single staff
     B.2: divisi a tre (6 + 6 + 6) on three staves
     B.3: divisi a quattro (6 + (2 + 4) + 6) on three staves
@@ -59,23 +55,23 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-6.  Implement horizontal spacing part overrides.
+5.  Implement horizontal spacing part overrides.
     Space 18 violin parts by hand.
 
-7.  Write SegmentMaker.clefs examples.
+6.  Write SegmentMaker.clefs examples.
     Write SegmentMaker.dynamics examples.
     Write SegmentMaker.margin_markup examples.
     Write SegmentMaker.metronome_marks examples.
     Write SegmentMaker.staff_lines examples.
 
-8.  Write SegmentMaker.clefs example with two clefs active on one staff.
+7.  Write SegmentMaker.clefs example with two clefs active on one staff.
     Write SegmentMaker.dynamics example with two dynamics active on one staff.
     Write SegmentMaker.instruments example with two instruments on one staff.
     Write SegmentMaker.margin_markup percussion staff example
         * two instruments active on one staff
         * independent margin markup ("Percussion I") unrelated to instruments
 
-9.  Read about LilyPond \book, \bookOutputSuffix commands.
+8.  Read about LilyPond \book, \bookOutputSuffix commands.
     Read LilyPond document structure chapters.
 
-10. Implement IDE part-management commands.
+9.  Implement IDE part-management commands.
