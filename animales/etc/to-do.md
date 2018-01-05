@@ -15,8 +15,6 @@ TO-DO
         contrabasses=[1],
 
 1.  Clean up existing build directories.
-    Remove TimeSignatureEngraver from global context in parts.
-    Include TimeSignatureEngraver in staves in parts.
     Clean up parts-making process on disk in existing scores.
 
 2.  Tagging and part-making: single-staff divisi.
