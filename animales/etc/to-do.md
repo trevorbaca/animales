@@ -15,9 +15,6 @@ TO-DO
         contrabasses=[1],
 
 1.  Clean up existing build directories.
-    Move builds-segments directories in existing scores to build directories.
-    Teach IDE to forget about builds (plural) segments directories.
-    Teach IDE to use build (singular) segments directories instead.
     Treat every collection of parts as a separate build.
     Redo existing front covers in XeTeX.
     Remove TimeSignatureEngraver from global context in parts.
