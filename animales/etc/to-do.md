@@ -15,8 +15,6 @@ TO-DO
         contrabasses=[1],
 
 1.  Clean up existing build directories.
-    Treat every collection of parts as a separate build.
-    Redo existing front covers in XeTeX.
     Remove TimeSignatureEngraver from global context in parts.
     Include TimeSignatureEngraver in staves in parts.
     Clean up parts-making process on disk in existing scores.
