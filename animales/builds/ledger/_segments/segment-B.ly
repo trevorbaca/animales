@@ -8,7 +8,7 @@
             %%% GlobalSkips [measure 15] %%%
             \time 4/4 %! REDUNDANT_TIME_SIGNATURE:4
             \mark #2
-            %%% \bar "" %! EMPTY_START_BAR:1
+            %%% \bar "" %! SEGMENT_EMPTY_START_BAR:1
             \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:3
             s1 * 1
             %%% ^ \markup { %! CLOCK_TIME_MARKUP:5
