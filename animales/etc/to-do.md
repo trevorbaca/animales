@@ -68,3 +68,6 @@ TO-DO
     Read LilyPond document structure chapters.
 
 9.  Implement IDE part-management commands.
+
+10. Adding timing marks to long glissandi
+    http://lilypond.org/doc/v2.19/Documentation/snippets/tweaks-and-overrides
