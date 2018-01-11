@@ -1,33 +1,30 @@
 TO-DO
 =====
 
-1.  Demote Command build prefix.
-    Move Command._build_prefix down to OverrideCommand, SpacingOverrideCommand.
-
-2.  Audit segment-specific tags.
+1.  Audit segment-specific tags.
     Check SEGMENT+ in all doctests and remove unnecessary
     calls to abjad.Tags.build().
 
-3.  Check the output types of abjad.Tags.FOO versus baca.Tags.FOO.
+2.  Check the output types of abjad.Tags.FOO versus baca.Tags.FOO.
     Reimplement both classes if there's any difference.
     In fact implement a separate class that wraps Enum and allows
     baca.Tags to subclass abjad.Tags.
 
-4.  Make multiple baca.build(..., baca.spacing())
+3.  Make multiple baca.build(..., baca.spacing())
     work regardless of (lexical) order.
 
-5.  Write baca.build() doctests.
+4.  Write baca.build() doctests.
 
-6.  Audit IDE segment collection tag handling.
+5.  Audit IDE segment collection tag handling.
     Make sure (lyc*) deactivates all SEGMENT+ tags.
     
-7.  Reread IDE 'layout - make (yom)' command.
+6.  Reread IDE 'layout - make (yom)' command.
     Reread boilerplate __make_layout_ly__.py.
 
-8.  Clean up existing build directories.
+7.  Clean up existing build directories.
     Clean up parts-making process on disk in existing scores.
 
-9.  Implement multiple-parts-per staff score template initialization.
+8.  Implement multiple-parts-per staff score template initialization.
 
         score_template=animales.ScoreTemplate(
             piccolo=[1],
@@ -42,7 +39,7 @@ TO-DO
             cellos=[1],
             contrabasses=[1],
 
-10. Tagging and part-making: single-staff divisi.
+9.  Tagging and part-making: single-staff divisi.
     _.1: first violins non divisi (on a single staff).
     _.2: divisi a due (8 + 10; on a single staff).
     _.3: divisi a tre (6 + 6 + 6; on a single staff).
@@ -51,7 +48,7 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-11. Tagging and part-making: multistaff divisi.
+10. Tagging and part-making: multistaff divisi.
     A.1: first violins non divisi on a single staff ("Violins I").
     A.2: divisi a due (8 + 10) on two staves:
                     1-8
@@ -65,7 +62,7 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-12. Tagging and part-making: asymmetric divisi.
+11. Tagging and part-making: asymmetric divisi.
     B.1: first violins non divisi on a single staff
     B.2: divisi a tre (6 + 6 + 6) on three staves
     B.3: divisi a quattro (6 + (2 + 4) + 6) on three staves
@@ -73,26 +70,26 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-13. Implement horizontal spacing part overrides.
+12. Implement horizontal spacing part overrides.
     Space 18 violin parts by hand.
 
-14. Write SegmentMaker.clefs examples.
+13. Write SegmentMaker.clefs examples.
     Write SegmentMaker.dynamics examples.
     Write SegmentMaker.margin_markup examples.
     Write SegmentMaker.metronome_marks examples.
     Write SegmentMaker.staff_lines examples.
 
-15. Write SegmentMaker.clefs example with two clefs active on one staff.
+14. Write SegmentMaker.clefs example with two clefs active on one staff.
     Write SegmentMaker.dynamics example with two dynamics active on one staff.
     Write SegmentMaker.instruments example with two instruments on one staff.
     Write SegmentMaker.margin_markup percussion staff example
         * two instruments active on one staff
         * independent margin markup ("Percussion I") unrelated to instruments
 
-16. Read about LilyPond \book, \bookOutputSuffix commands.
+15. Read about LilyPond \book, \bookOutputSuffix commands.
     Read LilyPond document structure chapters.
 
-17. Implement IDE part-management commands.
+16. Implement IDE part-management commands.
 
-18. Adding timing marks to long glissandi
+17. Adding timing marks to long glissandi
     http://lilypond.org/doc/v2.19/Documentation/snippets/tweaks-and-overrides
