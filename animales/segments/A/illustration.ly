@@ -88,7 +88,7 @@
                         %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #3                                               %! CLOCK_TIME_MARKUP:SM28
                         %%%             0'15''                                           %! CLOCK_TIME_MARKUP:SM28
                         %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
@@ -99,7 +99,7 @@
                 s1 * 1
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         0'18''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -121,7 +121,7 @@
                         %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #3                                               %! CLOCK_TIME_MARKUP:SM28
                         %%%             0'21''                                           %! CLOCK_TIME_MARKUP:SM28
                         %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
@@ -133,7 +133,7 @@
                 s1 * 3/4
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         0'23''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -154,7 +154,7 @@
                         %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #3                                               %! CLOCK_TIME_MARKUP:SM28
                         %%%             0'25''                                           %! CLOCK_TIME_MARKUP:SM28
                         %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
@@ -167,7 +167,7 @@
                 \stopTextSpan                                                            %! SM29
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         0'28''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 \override Score.BarLine.transparent = ##f                                %! SM5
