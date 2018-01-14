@@ -1,19 +1,17 @@
 TO-DO
 =====
 
-1.  Move break measures from builds metadata to build metadata.
+1.  Apply EOL spacing adjustments automatically in segment-maker.
 
-2.  Apply EOL spacing adjustments automatically in segment-maker.
+2.  Shift clefs automatically in segment-maker.
 
-3.  Shift clefs automatically in segment-maker.
+3.  Lay out ARCH-A again.
 
-4.  Lay out ARCH-A again.
+4.  Make parts.
 
-5.  Make parts.
+5.  Write baca.build() doctests.
 
-6.  Write baca.build() doctests.
-
-7.  Implement multiple-parts-per staff score template initialization.
+6.  Implement multiple-parts-per staff score template initialization.
 
         score_template=animales.ScoreTemplate(
             piccolo=[1],
@@ -28,7 +26,7 @@ TO-DO
             cellos=[1],
             contrabasses=[1],
 
-8.  Tagging and part-making: single-staff divisi.
+7.  Tagging and part-making: single-staff divisi.
     _.1: first violins non divisi (on a single staff).
     _.2: divisi a due (8 + 10; on a single staff).
     _.3: divisi a tre (6 + 6 + 6; on a single staff).
@@ -37,7 +35,7 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-9.  Tagging and part-making: multistaff divisi.
+8.  Tagging and part-making: multistaff divisi.
     A.1: first violins non divisi on a single staff ("Violins I").
     A.2: divisi a due (8 + 10) on two staves:
                     1-8
@@ -51,7 +49,7 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-10. Tagging and part-making: asymmetric divisi.
+9.  Tagging and part-making: asymmetric divisi.
     B.1: first violins non divisi on a single staff
     B.2: divisi a tre (6 + 6 + 6) on three staves
     B.3: divisi a quattro (6 + (2 + 4) + 6) on three staves
@@ -59,26 +57,26 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-11. Implement horizontal spacing part overrides.
+10. Implement horizontal spacing part overrides.
     Space 18 violin parts by hand.
 
-12. Write SegmentMaker.clefs examples.
+11. Write SegmentMaker.clefs examples.
     Write SegmentMaker.dynamics examples.
     Write SegmentMaker.margin_markup examples.
     Write SegmentMaker.metronome_marks examples.
     Write SegmentMaker.staff_lines examples.
 
-13. Write SegmentMaker.clefs example with two clefs active on one staff.
+12. Write SegmentMaker.clefs example with two clefs active on one staff.
     Write SegmentMaker.dynamics example with two dynamics active on one staff.
     Write SegmentMaker.instruments example with two instruments on one staff.
     Write SegmentMaker.margin_markup percussion staff example
         * two instruments active on one staff
         * independent margin markup ("Percussion I") unrelated to instruments
 
-14. Read about LilyPond \book, \bookOutputSuffix commands.
+13. Read about LilyPond \book, \bookOutputSuffix commands.
     Read LilyPond document structure chapters.
 
-15. Implement IDE part-management commands.
+14. Implement IDE part-management commands.
 
-16. Adding timing marks to long glissandi
+15. Adding timing marks to long glissandi
     http://lilypond.org/doc/v2.19/Documentation/snippets/tweaks-and-overrides
