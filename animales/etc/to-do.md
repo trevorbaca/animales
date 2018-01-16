@@ -1,9 +1,18 @@
 TO-DO
 =====
 
-1.  Lay out ARCH-A again.
+1.  Make parts.
+    (mg) for parts.
+    Add parts _assets directory with front-cover.tex and preface.tex.
+    Teach (fcg) about parts _assets directory.
+    Teach (pg) about parts _assets directory.
+    Remove 'score' commands from parts directories.
+    Add 'parts' commands to parts directories.
 
-2.  Make parts.
+2.  Write fermata measure numbers to metadata of each segment.
+    Copy fermata measure numbers to score metadata.
+    Add DocumentSpacingSpecifier.
+    Define DocumentSpacingSpecifier in each part layout.py file.
 
 3.  Write baca.build() doctests.
 
