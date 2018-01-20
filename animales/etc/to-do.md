@@ -1,11 +1,7 @@
 TO-DO
 =====
 
-1.  Remove Match in favor of local function definitions.
-    Remove '+' from abjad.deactivate().
-    Add abjad.Line.
-    Add abjad.Line.activate(), abjad.Line.deactivate().
-    Write activate(), deactivate() tests.
+1.  Remove '+' from abjad.deactivate().
 
 2.  PR to mainline.
 
