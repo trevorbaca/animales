@@ -1,10 +1,8 @@
 TO-DO
 =====
 
-1.  Document lone LilyPondLiteral items in LilyPondFile objects.
-    Create { \include "layout.ly" } as a container.
-    Enclose Score in << >> container.
-    Update PianoStaffSegmentMaker.
+1.  Update PianoStaffSegmentMaker.
+    Updated (lyc*).
     Rework Red Score.
 
 2.  Remove Match in favor of local function definitions.
