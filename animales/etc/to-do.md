@@ -2,12 +2,11 @@ TO-DO
 =====
 
 1.  Remove '+' from abjad.deactivate().
+    Move abjad.Tags to systemtools.
 
 2.  PR to mainline.
 
 3.  New commit.
-    Drop 3.4, 3.5 from Travis.
-    Move abjad.Tags to systemtools.
     Change Context.context_name to Context.lilypond_type.
     PR to mainline.
 
