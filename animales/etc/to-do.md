@@ -1,11 +1,10 @@
 TO-DO
 =====
 
-1.  Remove '+' from abjad.deactivate().
-    PR to mainline.
+1.  PR to mainline.
 
 2.  New commit.
-    Change Context.context_name to Context.lilypond_type.
+    Change Context.lilypond_type to Context.lilypond_type.
     PR to mainline.
 
 3.  Add Purple Score for bass clarinet, violin, viola, cello.
