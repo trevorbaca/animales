@@ -1,17 +1,14 @@
 TO-DO
 =====
 
-1.  Add Green Score for bass clarinet, violin, viola, cello.
-    Add build directory, parts directory.
-    Write (yle), (ylm), (ype), (ylt) tests.
-
-2.  Externalize encapsulated maker blocks.
+1.  Externalize encapsulated maker blocks.
     For __make_segment_pdf__, __make_layout_ly__.
     Move to abjad.Path.
     Harmonize with (lyc*) methods.
 
-3.  Write (pdfn) test.
-    Write b&w, color IDE tests.
+2.  Write (yle), (ylm), (ype), (ylt) tests.
+
+3.  Write b&w, color IDE tests.
     Write colored markup tests.
 
 4.  Change behavior of (cv) to replace existing paths.
