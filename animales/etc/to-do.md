@@ -1,25 +1,20 @@
 TO-DO
 =====
 
-1.  Externalize encapsulated maker blocks.
-    For __make_segment_pdf__, __make_layout_ly__.
-    Move to abjad.Path.
-    Harmonize with (lyc*) methods.
-
-2.  Write b&w, color IDE tests.
+1.  Write b&w, color IDE tests.
     Write colored markup tests.
 
-3.  Change behavior of (cv) to replace existing paths.
+2.  Change behavior of (cv) to replace existing paths.
     Change behavior of (^), (@), (+) to open first match.
     Change behavior of _, A, A2, B, B2 to go to segment directory.
 
-4.  Implement open tie, open hairpin, open metronome mark spanner commands.
+3.  Implement open tie, open hairpin, open metronome mark spanner commands.
     Add to Ikribu, add to Green Score.
 
-5.  Make parts.
+4.  Make parts.
     Define HorizontalSpacingSpecifier in each part layout.py file.
 
-6.  Implement multiple-parts-per staff score template initialization.
+5.  Implement multiple-parts-per staff score template initialization.
     Write tests in Green Score.
 
         score_template=animales.ScoreTemplate(
@@ -35,7 +30,7 @@ TO-DO
             cellos=[1],
             contrabasses=[1],
 
-7.  Tagging and part-making: single-staff divisi.
+6.  Tagging and part-making: single-staff divisi.
     _.1: first violins non divisi (on a single staff).
     _.2: divisi a due (8 + 10; on a single staff).
     _.3: divisi a tre (6 + 6 + 6; on a single staff).
@@ -44,7 +39,7 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-8.  Tagging and part-making: multistaff divisi.
+7.  Tagging and part-making: multistaff divisi.
     A.1: first violins non divisi on a single staff ("Violins I").
     A.2: divisi a due (8 + 10) on two staves:
                     1-8
@@ -58,7 +53,7 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-9.  Tagging and part-making: asymmetric divisi.
+8.  Tagging and part-making: asymmetric divisi.
     B.1: first violins non divisi on a single staff
     B.2: divisi a tre (6 + 6 + 6) on three staves
     B.3: divisi a quattro (6 + (2 + 4) + 6) on three staves
@@ -66,26 +61,26 @@ TO-DO
     Line-break and -detail segment and ledger score.
     Tag; line-break and -detail 18 violin parts.
 
-10. Implement horizontal spacing part overrides.
+9.  Implement horizontal spacing part overrides.
     Space 18 violin parts by hand.
 
-11. Write SegmentMaker.clefs examples.
+10. Write SegmentMaker.clefs examples.
     Write SegmentMaker.dynamics examples.
     Write SegmentMaker.margin_markup examples.
     Write SegmentMaker.metronome_marks examples.
     Write SegmentMaker.staff_lines examples.
 
-12. Write SegmentMaker.clefs example with two clefs active on one staff.
+11. Write SegmentMaker.clefs example with two clefs active on one staff.
     Write SegmentMaker.dynamics example with two dynamics active on one staff.
     Write SegmentMaker.instruments example with two instruments on one staff.
     Write SegmentMaker.margin_markup percussion staff example
         * two instruments active on one staff
         * independent margin markup ("Percussion I") unrelated to instruments
 
-13. Read about LilyPond \book, \bookOutputSuffix commands.
+12. Read about LilyPond \book, \bookOutputSuffix commands.
     Read LilyPond document structure chapters.
 
-14. Implement IDE part-management commands.
+13. Implement IDE part-management commands.
 
-15. Adding timing marks to long glissandi
+14. Adding timing marks to long glissandi
     http://lilypond.org/doc/v2.19/Documentation/snippets/tweaks-and-overrides
