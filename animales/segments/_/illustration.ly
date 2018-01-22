@@ -349,7 +349,7 @@
                     \context StaffGroup = "FluteSquareStaffGroup" \with {
                         systemStartDelimiter = #'SystemStartSquare
                     } <<
-                        \context Staff = "FlutesStaffI" <<
+                        \context Staff = "FlutesStaffI" {
                             \context Voice = "FlutesVoiceI" {
                                 
                                 % FlutesVoiceI [measure 1]                               %! SM4
@@ -451,29 +451,11 @@
                                 R1 * 3/4
                                 
                             }
+                        }
+                        \context Staff = "FlutesStaffII" {
                             \context Voice = "FlutesVoiceII" {
                                 
                                 % FlutesVoiceII [measure 1]                              %! SM4
-                                R1 * 1
-                                
-                                % FlutesVoiceII [measure 2]                              %! SM4
-                                R1 * 1
-                                
-                                % FlutesVoiceII [measure 3]                              %! SM4
-                                R1 * 1
-                                
-                                % FlutesVoiceII [measure 4]                              %! SM4
-                                R1 * 3/4
-                                
-                                % FlutesVoiceII [measure 5]                              %! SM4
-                                R1 * 3/4
-                                
-                            }
-                        >>
-                        \context Staff = "FlutesStaffII" <<
-                            \context Voice = "FlutesVoiceIII" {
-                                
-                                % FlutesVoiceIII [measure 1]                             %! SM4
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -559,286 +541,506 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                 
-                                % FlutesVoiceIII [measure 2]                             %! SM4
+                                % FlutesVoiceII [measure 2]                              %! SM4
                                 R1 * 1
                                 
-                                % FlutesVoiceIII [measure 3]                             %! SM4
+                                % FlutesVoiceII [measure 3]                              %! SM4
                                 R1 * 1
                                 
-                                % FlutesVoiceIII [measure 4]                             %! SM4
+                                % FlutesVoiceII [measure 4]                              %! SM4
                                 R1 * 3/4
                                 
-                                % FlutesVoiceIII [measure 5]                             %! SM4
-                                R1 * 3/4
-                                
-                            }
-                            \context Voice = "FlutesVoiceIV" {
-                                
-                                % FlutesVoiceIV [measure 1]                              %! SM4
-                                R1 * 1
-                                
-                                % FlutesVoiceIV [measure 2]                              %! SM4
-                                R1 * 1
-                                
-                                % FlutesVoiceIV [measure 3]                              %! SM4
-                                R1 * 1
-                                
-                                % FlutesVoiceIV [measure 4]                              %! SM4
-                                R1 * 3/4
-                                
-                                % FlutesVoiceIV [measure 5]                              %! SM4
+                                % FlutesVoiceII [measure 5]                              %! SM4
                                 R1 * 3/4
                                 
                             }
-                        >>
+                        }
                     >>
                 >>
                 \context StaffGroup = "StringStaffGroup" <<
-                    \context Staff = "FirstViolinsStaffI" <<
-                        \context Voice = "FirstViolinsVoiceI" {
-                            
-                            % FirstViolinsVoiceI [measure 1]                             %! SM4
-                            \override Stem.direction = #down                             %! OC
-                            \set Staff.forceClef = ##t                                   %! DEFAULT_CLEF:SM8
-                            \clef "treble"                                               %! DEFAULT_CLEF:SM8
-                            \once \override Staff.Clef.color = #(x11-color 'DarkViolet)  %! DEFAULT_CLEF_COLOR:SM6
-                        %@% \override Staff.Clef.color = ##f                             %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-                            g4
-                            \override Staff.Clef.color = #(x11-color 'violet)            %! DEFAULT_CLEF_REDRAW_COLOR:SM6
-                            
-                            af4
-                            
-                            g4
-                            
-                            af4
-                            
-                            % FirstViolinsVoiceI [measure 2]                             %! SM4
-                            g4
-                            
-                            af4
-                            
-                            g4
-                            
-                            af4
-                            
-                            % FirstViolinsVoiceI [measure 3]                             %! SM4
-                            g4
-                            
-                            af4
-                            
-                            g4
-                            
-                            af4
-                            
-                            % FirstViolinsVoiceI [measure 4]                             %! SM4
-                            g4
-                            
-                            af4
-                            
-                            g4
-                            
-                            % FirstViolinsVoiceI [measure 5]                             %! SM4
-                            af4
-                            
-                            g4
-                            
-                            af4
-                            \revert Stem.direction                                       %! OC
-                            
-                        }
-                        \context Voice = "FirstViolinsVoiceII" {
-                            
-                            % FirstViolinsVoiceII [measure 1]                            %! SM4
-                            R1 * 1
-                            
-                            % FirstViolinsVoiceII [measure 2]                            %! SM4
-                            \override Stem.direction = #up                               %! OC
-                            bf'8
-                            
-                            c''8
-                            
-                            d''8
-                            
-                            bf'8
-                            
-                            c''8
-                            
-                            d''8
-                            
-                            bf'8
-                            
-                            c''8
-                            
-                            % FirstViolinsVoiceII [measure 3]                            %! SM4
-                            d''8
-                            
-                            bf'8
-                            
-                            c''8
-                            
-                            d''8
-                            
-                            bf'8
-                            
-                            c''8
-                            
-                            d''8
-                            
-                            bf'8
-                            
-                            % FirstViolinsVoiceII [measure 4]                            %! SM4
-                            c''8
-                            
-                            d''8
-                            
-                            bf'8
-                            
-                            c''8
-                            
-                            d''8
-                            
-                            bf'8
-                            \revert Stem.direction                                       %! OC
-                            
-                            % FirstViolinsVoiceII [measure 5]                            %! SM4
-                            R1 * 3/4
-                            
-                        }
-                        \context Voice = "FirstViolinsVoiceIII" {
-                            
-                            % FirstViolinsVoiceIII [measure 1]                           %! SM4
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    \center-column
+                    \context StaffGroup = "FirstViolinSquareStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
+                        \context Staff = "FirstViolinsStaffI" {
+                            \context Voice = "FirstViolinsVoiceI" {
+                                
+                                % FirstViolinsVoiceI [measure 1]                         %! SM4
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Violins
+                                                I
+                                            }
+                                    }                                                    %! DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        \center-column
+                                            {
+                                                Vni.
+                                                I
+                                            }
+                                    }                                                    %! DEFAULT_MARGIN_MARKUP:SM8
+                                \override Stem.direction = #down                         %! OC
+                                \set Staff.forceClef = ##t                               %! DEFAULT_CLEF:SM8
+                                \clef "treble"                                           %! DEFAULT_CLEF:SM8
+                                \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
+                                \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
+                            %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                                g4
+                                ^ \markup {
+                                    \column
                                         {
-                                            Violins
-                                            I
+                                        %@% \line                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%     {                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%         (“Violin”)                           %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%     }                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            \line                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                {                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \with-color                          %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        #(x11-color 'DarkViolet)         %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        (“Violin”)                       %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                }                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        %@% \line                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%     {                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%         \vcenter                             %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             "[“Vni. I”"                      %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%         \vcenter                             %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             \hcenter-in                      %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 #16                          %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 \center-column               %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     {                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         Violins              %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         I                    %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     }                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%         \concat                              %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             {                                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     \hcenter-in              %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         #10                  %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         \center-column       %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                             {                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                                 Vni.         %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                                 I            %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                             }                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     ]                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             }                                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%     }                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                            \line                                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                {                                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                    \with-color                          %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                        #(x11-color 'DarkViolet)         %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                        {                                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                            \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                "[“Vni. I”"              %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                            \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                \hcenter-in              %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    #16                  %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    \center-column       %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        {                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            Violins      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            I            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        }                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                            \concat                      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                {                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    \vcenter             %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        \hcenter-in      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            #10          %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            \center-column %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                {        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                    Vni. %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                    I    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                }        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    \vcenter             %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        ]                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                }                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                        }                                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                }                                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                         }
-                                }                                                        %! DEFAULT_MARGIN_MARKUP:SM8
-                            \set Staff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    \center-column
-                                        {
-                                            Vni.
-                                            I
-                                        }
-                                }                                                        %! DEFAULT_MARGIN_MARKUP:SM8
-                            \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
-                            \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
-                            R1 * 1
-                            ^ \markup {
-                                \column
-                                    {
-                                    %@% \line                                            %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                    %@%     {                                            %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                    %@%         (“Violin”)                               %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                    %@%     }                                            %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                        \line                                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            {                                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \with-color                              %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    #(x11-color 'DarkViolet)             %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    (“Violin”)                           %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            }                                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                    %@% \line                                            %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%     {                                            %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%         \vcenter                                 %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%             "[“Vni. I”"                          %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%         \vcenter                                 %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%             \hcenter-in                          %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                 #16                              %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                 \center-column                   %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                     {                            %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                         Violins                  %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                         I                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                     }                            %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%         \concat                                  %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%             {                                    %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                 \vcenter                         %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                     \hcenter-in                  %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                         #10                      %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                         \center-column           %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                             {                    %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                                 Vni.             %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                                 I                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                             }                    %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                 \vcenter                         %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                     ]                            %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%             }                                    %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                    %@%     }                                            %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                        \line                                            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                            {                                            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                \with-color                              %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                    #(x11-color 'DarkViolet)             %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                        \vcenter                         %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                            "[“Vni. I”"                  %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                        \vcenter                         %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                            \hcenter-in                  %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                #16                      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                \center-column           %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                    {                    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                        Violins          %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                        I                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                    }                    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                        \concat                          %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                            {                            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                \vcenter                 %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                    \hcenter-in          %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                        #10              %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                        \center-column   %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                            {            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                                Vni.     %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                                I        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                            }            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                \vcenter                 %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                    ]                    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                            }                            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                            }                                            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                     }
-                                }
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    \center-column
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Violins
+                                                I
+                                            }
+                                    }                                                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        \center-column
+                                            {
+                                                Vni.
+                                                I
+                                            }
+                                    }                                                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                                \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
+                                
+                                af4
+                                
+                                g4
+                                
+                                af4
+                                
+                                % FirstViolinsVoiceI [measure 2]                         %! SM4
+                                g4
+                                
+                                af4
+                                
+                                g4
+                                
+                                af4
+                                
+                                % FirstViolinsVoiceI [measure 3]                         %! SM4
+                                g4
+                                
+                                af4
+                                
+                                g4
+                                
+                                af4
+                                
+                                % FirstViolinsVoiceI [measure 4]                         %! SM4
+                                g4
+                                
+                                af4
+                                
+                                g4
+                                
+                                % FirstViolinsVoiceI [measure 5]                         %! SM4
+                                af4
+                                
+                                g4
+                                
+                                af4
+                                \revert Stem.direction                                   %! OC
+                                
+                            }
+                        }
+                        \context Staff = "FirstViolinsStaffII" {
+                            \context Voice = "FirstViolinsVoiceII" {
+                                
+                                % FirstViolinsVoiceII [measure 1]                        %! SM4
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Violins
+                                                I
+                                            }
+                                    }                                                    %! DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        \center-column
+                                            {
+                                                Vni.
+                                                I
+                                            }
+                                    }                                                    %! DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.forceClef = ##t                               %! DEFAULT_CLEF:SM8
+                                \clef "treble"                                           %! DEFAULT_CLEF:SM8
+                                \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
+                                \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
+                            %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                                R1 * 1
+                                ^ \markup {
+                                    \column
                                         {
-                                            Violins
-                                            I
+                                        %@% \line                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%     {                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%         (“Violin”)                           %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%     }                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            \line                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                {                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \with-color                          %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        #(x11-color 'DarkViolet)         %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        (“Violin”)                       %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                }                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        %@% \line                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%     {                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%         \vcenter                             %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             "[“Vni. I”"                      %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%         \vcenter                             %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             \hcenter-in                      %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 #16                          %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 \center-column               %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     {                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         Violins              %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         I                    %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     }                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%         \concat                              %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             {                                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     \hcenter-in              %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         #10                  %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         \center-column       %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                             {                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                                 Vni.         %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                                 I            %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                             }                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     ]                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             }                                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%     }                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                            \line                                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                {                                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                    \with-color                          %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                        #(x11-color 'DarkViolet)         %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                        {                                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                            \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                "[“Vni. I”"              %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                            \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                \hcenter-in              %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    #16                  %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    \center-column       %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        {                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            Violins      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            I            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        }                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                            \concat                      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                {                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    \vcenter             %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        \hcenter-in      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            #10          %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            \center-column %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                {        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                    Vni. %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                    I    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                }        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    \vcenter             %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        ]                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                }                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                        }                                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                }                                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                         }
-                                }                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-                            \set Staff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    \center-column
+                                    }
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Violins
+                                                I
+                                            }
+                                    }                                                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        \center-column
+                                            {
+                                                Vni.
+                                                I
+                                            }
+                                    }                                                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                                \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
+                                
+                                % FirstViolinsVoiceII [measure 2]                        %! SM4
+                                \override Stem.direction = #up                           %! OC
+                                bf'8
+                                
+                                c''8
+                                
+                                d''8
+                                
+                                bf'8
+                                
+                                c''8
+                                
+                                d''8
+                                
+                                bf'8
+                                
+                                c''8
+                                
+                                % FirstViolinsVoiceII [measure 3]                        %! SM4
+                                d''8
+                                
+                                bf'8
+                                
+                                c''8
+                                
+                                d''8
+                                
+                                bf'8
+                                
+                                c''8
+                                
+                                d''8
+                                
+                                bf'8
+                                
+                                % FirstViolinsVoiceII [measure 4]                        %! SM4
+                                c''8
+                                
+                                d''8
+                                
+                                bf'8
+                                
+                                c''8
+                                
+                                d''8
+                                
+                                bf'8
+                                \revert Stem.direction                                   %! OC
+                                
+                                % FirstViolinsVoiceII [measure 5]                        %! SM4
+                                R1 * 3/4
+                                
+                            }
+                        }
+                        \context Staff = "FirstViolinsStaffIII" {
+                            \context Voice = "FirstViolinsVoiceIII" {
+                                
+                                % FirstViolinsVoiceIII [measure 1]                       %! SM4
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Violins
+                                                I
+                                            }
+                                    }                                                    %! DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        \center-column
+                                            {
+                                                Vni.
+                                                I
+                                            }
+                                    }                                                    %! DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.forceClef = ##t                               %! DEFAULT_CLEF:SM8
+                                \clef "treble"                                           %! DEFAULT_CLEF:SM8
+                                \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
+                                \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
+                            %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                                R1 * 1
+                                ^ \markup {
+                                    \column
                                         {
-                                            Vni.
-                                            I
+                                        %@% \line                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%     {                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%         (“Violin”)                           %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%     }                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            \line                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                {                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \with-color                          %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        #(x11-color 'DarkViolet)         %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        (“Violin”)                       %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                }                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        %@% \line                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%     {                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%         \vcenter                             %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             "[“Vni. I”"                      %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%         \vcenter                             %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             \hcenter-in                      %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 #16                          %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 \center-column               %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     {                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         Violins              %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         I                    %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     }                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%         \concat                              %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             {                                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     \hcenter-in              %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         #10                  %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         \center-column       %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                             {                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                                 Vni.         %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                                 I            %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                             }                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     ]                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             }                                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%     }                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                            \line                                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                {                                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                    \with-color                          %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                        #(x11-color 'DarkViolet)         %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                        {                                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                            \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                "[“Vni. I”"              %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                            \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                \hcenter-in              %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    #16                  %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    \center-column       %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        {                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            Violins      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            I            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        }                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                            \concat                      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                {                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    \vcenter             %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        \hcenter-in      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            #10          %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            \center-column %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                {        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                    Vni. %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                    I    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                }        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    \vcenter             %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        ]                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                }                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                        }                                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                }                                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                         }
-                                }                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-                            \override Staff.InstrumentName.color = #(x11-color 'violet)  %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
-                            
-                            % FirstViolinsVoiceIII [measure 2]                           %! SM4
-                            R1 * 1
-                            
-                            % FirstViolinsVoiceIII [measure 3]                           %! SM4
-                            \override Stem.direction = #up                               %! OC
-                            d''4
-                            
-                            e''4
-                            
-                            d''4
-                            
-                            e''4
-                            \revert Stem.direction                                       %! OC
-                            
-                            % FirstViolinsVoiceIII [measure 4]                           %! SM4
-                            R1 * 3/4
-                            
-                            % FirstViolinsVoiceIII [measure 5]                           %! SM4
-                            R1 * 3/4
-                            
+                                    }
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Violins
+                                                I
+                                            }
+                                    }                                                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        \center-column
+                                            {
+                                                Vni.
+                                                I
+                                            }
+                                    }                                                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                                \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
+                                
+                                % FirstViolinsVoiceIII [measure 2]                       %! SM4
+                                R1 * 1
+                                
+                                % FirstViolinsVoiceIII [measure 3]                       %! SM4
+                                \override Stem.direction = #up                           %! OC
+                                d''4
+                                
+                                e''4
+                                
+                                d''4
+                                
+                                e''4
+                                \revert Stem.direction                                   %! OC
+                                
+                                % FirstViolinsVoiceIII [measure 4]                       %! SM4
+                                R1 * 3/4
+                                
+                                % FirstViolinsVoiceIII [measure 5]                       %! SM4
+                                R1 * 3/4
+                                
+                            }
                         }
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup" \with {

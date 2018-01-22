@@ -4,52 +4,67 @@ import abjad
 metadata = abjad.TypedOrderedDict(
     [
         ('duration', "0'15''"),
-        ('first_measure_number', 15),
-        ('last_measure_number', 22),
+        ('first_measure_number', 12),
+        ('last_measure_number', 19),
         (
             'persistent_indicators',
             abjad.TypedOrderedDict(
                 [
                     (
-                        'FirstViolinStaffI',
+                        'FirstViolinsStaffI',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceI',
+                                context='FirstViolinsVoiceI',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
+                                context='FirstViolinsVoiceI',
                                 prototype='abjad.Instrument',
                                 value='Violin',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceI',
+                                context='FirstViolinsVoiceI',
                                 prototype='baca.MarginMarkup',
                                 value='Vni. I',
                                 ),
                             ],
                         ),
                     (
-                        'FluteStaffI',
+                        'FlutesStaffI',
                         [
                             abjad.Momento(
-                                context='FluteVoiceI',
+                                context='FlutesVoiceI',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
+                                context='FlutesVoiceI',
                                 prototype='abjad.Instrument',
                                 value='Flute',
                                 ),
                             abjad.Momento(
-                                context='FluteVoiceI',
+                                context='FlutesVoiceI',
                                 prototype='baca.MarginMarkup',
                                 value='Fl.',
                                 ),
                             ],
                         ),
                     (
-                        'FluteStaffII',
+                        'FlutesStaffII',
                         [
                             abjad.Momento(
-                                context='FluteVoiceIII',
+                                context='FlutesVoiceII',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
+                                context='FlutesVoiceII',
                                 prototype='abjad.Instrument',
                                 value='Flute',
                                 ),
                             abjad.Momento(
-                                context='FluteVoiceIII',
+                                context='FlutesVoiceII',
                                 prototype='baca.MarginMarkup',
                                 value='Fl.',
                                 ),
@@ -71,30 +86,20 @@ metadata = abjad.TypedOrderedDict(
                             ],
                         ),
                     (
-                        'SecondViolinStaffI',
+                        'SecondViolinsStaffI',
                         [
                             abjad.Momento(
-                                context='SecondViolinVoiceI',
+                                context='SecondViolinsVoiceI',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
+                                context='SecondViolinsVoiceI',
                                 prototype='abjad.Instrument',
                                 value='Violin',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceI',
-                                prototype='baca.MarginMarkup',
-                                value='Vni. II',
-                                ),
-                            ],
-                        ),
-                    (
-                        'SecondViolinStaffII',
-                        [
-                            abjad.Momento(
-                                context='SecondViolinVoiceII',
-                                prototype='abjad.Instrument',
-                                value='Violin',
-                                ),
-                            abjad.Momento(
-                                context='SecondViolinVoiceII',
+                                context='SecondViolinsVoiceI',
                                 prototype='baca.MarginMarkup',
                                 value='Vni. II',
                                 ),
@@ -104,8 +109,8 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         ('segment_number', 3),
-        ('start_clock_time', "0'31''"),
-        ('stop_clock_time', "0'46''"),
+        ('start_clock_time', "0'26''"),
+        ('stop_clock_time', "0'41''"),
         (
             'time_signatures',
             [
