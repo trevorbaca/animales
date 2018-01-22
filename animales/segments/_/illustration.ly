@@ -117,6 +117,14 @@
                             %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
                             %@%                 "[01 (2)]"                               %! MEASURE_NUMBER_MARKUP:SM31
                             %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
+                            %@% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
+                            %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
+                            %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [2]                                      %! STAGE_NUMBER_MARKUP:SM3
+                            %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%         \with-color                                      %! CLOCK_TIME_MARKUP:SM28
@@ -142,6 +150,14 @@
                             %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
                             %@%                 "[02 (3)]"                               %! MEASURE_NUMBER_MARKUP:SM31
                             %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
+                            %@% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
+                            %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
+                            %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [3]                                      %! STAGE_NUMBER_MARKUP:SM3
+                            %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%         \with-color                                      %! CLOCK_TIME_MARKUP:SM28
@@ -168,6 +184,14 @@
                             %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
                             %@%                 "[03 (4)]"                               %! MEASURE_NUMBER_MARKUP:SM31
                             %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
+                            %@% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
+                            %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
+                            %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [4]                                      %! STAGE_NUMBER_MARKUP:SM3
+                            %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%         \with-color                                      %! CLOCK_TIME_MARKUP:SM28
@@ -182,6 +206,7 @@
                     % GlobalSkips [measure 5]                                            %! SM4
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 3/4
+                    \stopTextSpan                                                        %! SM29
                     ^ \markup {
                         \column
                             {
@@ -199,7 +224,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [2]                                      %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [5]                                      %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
@@ -208,84 +233,6 @@
                             %@%             \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%                 #3                                       %! CLOCK_TIME_MARKUP:SM28
                             %@%                 [0'08'']                                 %! CLOCK_TIME_MARKUP:SM28
-                            %@%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            }
-                        }
-                    
-                    % GlobalSkips [measure 6]                                            %! SM4
-                    \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-                    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
-                    s1 * 1
-                    ^ \markup {
-                        \column
-                            {
-                            %@% \line                                                    %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%     {                                                    %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%         \fontsize                                        %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%             #3                                           %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%             \with-color                                  %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%                 "[05 (6)]"                               %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
-                            %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %@%         \with-color                                      %! CLOCK_TIME_MARKUP:SM28
-                            %@%             #(x11-color 'DarkCyan)                       %! CLOCK_TIME_MARKUP:SM28
-                            %@%             \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
-                            %@%                 #3                                       %! CLOCK_TIME_MARKUP:SM28
-                            %@%                 [0'10'']                                 %! CLOCK_TIME_MARKUP:SM28
-                            %@%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            }
-                        }
-                    
-                    % GlobalSkips [measure 7]                                            %! SM4
-                    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
-                    s1 * 1
-                    ^ \markup {
-                        \column
-                            {
-                            %@% \line                                                    %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%     {                                                    %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%         \fontsize                                        %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%             #3                                           %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%             \with-color                                  %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%                 "[06 (7)]"                               %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
-                            %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %@%         \with-color                                      %! CLOCK_TIME_MARKUP:SM28
-                            %@%             #(x11-color 'DarkCyan)                       %! CLOCK_TIME_MARKUP:SM28
-                            %@%             \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
-                            %@%                 #3                                       %! CLOCK_TIME_MARKUP:SM28
-                            %@%                 [0'12'']                                 %! CLOCK_TIME_MARKUP:SM28
-                            %@%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            }
-                        }
-                    
-                    % GlobalSkips [measure 8]                                            %! SM4
-                    \time 2/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-                    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
-                    s1 * 1/2
-                    \stopTextSpan                                                        %! SM29
-                    ^ \markup {
-                        \column
-                            {
-                            %@% \line                                                    %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%     {                                                    %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%         \fontsize                                        %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%             #3                                           %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%             \with-color                                  %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%                 "[07 (8)]"                               %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
-                            %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %@%         \with-color                                      %! CLOCK_TIME_MARKUP:SM28
-                            %@%             #(x11-color 'DarkCyan)                       %! CLOCK_TIME_MARKUP:SM28
-                            %@%             \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
-                            %@%                 #3                                       %! CLOCK_TIME_MARKUP:SM28
-                            %@%                 [0'14'']                                 %! CLOCK_TIME_MARKUP:SM28
                             %@%     }                                                    %! CLOCK_TIME_MARKUP:SM28
                             }
                         }
@@ -310,8 +257,12 @@
                                     #10
                                     Picc.
                                 }                                                        %! DEFAULT_MARGIN_MARKUP:SM8
+                            \set Staff.forceClef = ##t                                   %! DEFAULT_CLEF:SM8
+                            \clef "treble"                                               %! DEFAULT_CLEF:SM8
                             \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                             \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                            \once \override Staff.Clef.color = #(x11-color 'DarkViolet)  %! DEFAULT_CLEF_COLOR:SM6
+                        %@% \override Staff.Clef.color = ##f                             %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                             R1 * 1
                             ^ \markup {
                                 \column
@@ -379,6 +330,7 @@
                                     Picc.
                                 }                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                             \override Staff.InstrumentName.color = #(x11-color 'violet)  %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                            \override Staff.Clef.color = #(x11-color 'violet)            %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             
                             % PiccoloVoiceI [measure 2]                                  %! SM4
                             R1 * 1
@@ -392,24 +344,15 @@
                             % PiccoloVoiceI [measure 5]                                  %! SM4
                             R1 * 3/4
                             
-                            % PiccoloVoiceI [measure 6]                                  %! SM4
-                            R1 * 1
-                            
-                            % PiccoloVoiceI [measure 7]                                  %! SM4
-                            R1 * 1
-                            
-                            % PiccoloVoiceI [measure 8]                                  %! SM4
-                            R1 * 1/2
-                            
                         }
                     }
                     \context StaffGroup = "FluteSquareStaffGroup" \with {
                         systemStartDelimiter = #'SystemStartSquare
                     } <<
-                        \context Staff = "FluteStaffI" <<
-                            \context Voice = "FluteVoiceI" {
+                        \context Staff = "FlutesStaffI" <<
+                            \context Voice = "FlutesVoiceI" {
                                 
-                                % FluteVoiceI [measure 1]                                %! SM4
+                                % FlutesVoiceI [measure 1]                               %! SM4
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -420,15 +363,13 @@
                                         #10
                                         Fl.
                                     }                                                    %! DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.forceClef = ##t                               %! DEFAULT_CLEF:SM8
+                                \clef "treble"                                           %! DEFAULT_CLEF:SM8
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
+                                \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
+                            %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                                R1 * 1
                                 ^ \markup {
                                     \column
                                         {
@@ -495,290 +436,44 @@
                                         Fl.
                                     }                                                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                                 \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
+                                % FlutesVoiceI [measure 2]                               %! SM4
+                                R1 * 1
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
+                                % FlutesVoiceI [measure 3]                               %! SM4
+                                R1 * 1
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
+                                % FlutesVoiceI [measure 4]                               %! SM4
+                                R1 * 3/4
                                 
-                                % FluteVoiceI [measure 2]                                %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                % FluteVoiceI [measure 3]                                %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                % FluteVoiceI [measure 4]                                %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                % FluteVoiceI [measure 5]                                %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                % FluteVoiceI [measure 6]                                %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                % FluteVoiceI [measure 7]                                %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                % FluteVoiceI [measure 8]                                %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
-                                
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                \repeatTie
+                                % FlutesVoiceI [measure 5]                               %! SM4
+                                R1 * 3/4
                                 
                             }
-                            \context Voice = "FluteVoiceII" {
+                            \context Voice = "FlutesVoiceII" {
                                 
-                                % FluteVoiceII [measure 1]                               %! SM4
+                                % FlutesVoiceII [measure 1]                              %! SM4
                                 R1 * 1
                                 
-                                % FluteVoiceII [measure 2]                               %! SM4
+                                % FlutesVoiceII [measure 2]                              %! SM4
                                 R1 * 1
                                 
-                                % FluteVoiceII [measure 3]                               %! SM4
+                                % FlutesVoiceII [measure 3]                              %! SM4
                                 R1 * 1
                                 
-                                % FluteVoiceII [measure 4]                               %! SM4
+                                % FlutesVoiceII [measure 4]                              %! SM4
                                 R1 * 3/4
                                 
-                                % FluteVoiceII [measure 5]                               %! SM4
+                                % FlutesVoiceII [measure 5]                              %! SM4
                                 R1 * 3/4
-                                
-                                % FluteVoiceII [measure 6]                               %! SM4
-                                R1 * 1
-                                
-                                % FluteVoiceII [measure 7]                               %! SM4
-                                R1 * 1
-                                
-                                % FluteVoiceII [measure 8]                               %! SM4
-                                R1 * 1/2
                                 
                             }
                         >>
-                        \context Staff = "FluteStaffII" <<
-                            \context Voice = "FluteVoiceIII" {
+                        \context Staff = "FlutesStaffII" <<
+                            \context Voice = "FlutesVoiceIII" {
                                 
-                                % FluteVoiceIII [measure 1]                              %! SM4
+                                % FlutesVoiceIII [measure 1]                             %! SM4
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -789,8 +484,12 @@
                                         #10
                                         Fl.
                                     }                                                    %! DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.forceClef = ##t                               %! DEFAULT_CLEF:SM8
+                                \clef "treble"                                           %! DEFAULT_CLEF:SM8
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
+                            %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                                 R1 * 1
                                 ^ \markup {
                                     \column
@@ -858,64 +557,156 @@
                                         Fl.
                                     }                                                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                                 \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                 
-                                % FluteVoiceIII [measure 2]                              %! SM4
+                                % FlutesVoiceIII [measure 2]                             %! SM4
                                 R1 * 1
                                 
-                                % FluteVoiceIII [measure 3]                              %! SM4
+                                % FlutesVoiceIII [measure 3]                             %! SM4
                                 R1 * 1
                                 
-                                % FluteVoiceIII [measure 4]                              %! SM4
+                                % FlutesVoiceIII [measure 4]                             %! SM4
                                 R1 * 3/4
                                 
-                                % FluteVoiceIII [measure 5]                              %! SM4
+                                % FlutesVoiceIII [measure 5]                             %! SM4
                                 R1 * 3/4
-                                
-                                % FluteVoiceIII [measure 6]                              %! SM4
-                                R1 * 1
-                                
-                                % FluteVoiceIII [measure 7]                              %! SM4
-                                R1 * 1
-                                
-                                % FluteVoiceIII [measure 8]                              %! SM4
-                                R1 * 1/2
                                 
                             }
-                            \context Voice = "FluteVoiceIV" {
+                            \context Voice = "FlutesVoiceIV" {
                                 
-                                % FluteVoiceIV [measure 1]                               %! SM4
+                                % FlutesVoiceIV [measure 1]                              %! SM4
                                 R1 * 1
                                 
-                                % FluteVoiceIV [measure 2]                               %! SM4
+                                % FlutesVoiceIV [measure 2]                              %! SM4
                                 R1 * 1
                                 
-                                % FluteVoiceIV [measure 3]                               %! SM4
+                                % FlutesVoiceIV [measure 3]                              %! SM4
                                 R1 * 1
                                 
-                                % FluteVoiceIV [measure 4]                               %! SM4
+                                % FlutesVoiceIV [measure 4]                              %! SM4
                                 R1 * 3/4
                                 
-                                % FluteVoiceIV [measure 5]                               %! SM4
+                                % FlutesVoiceIV [measure 5]                              %! SM4
                                 R1 * 3/4
-                                
-                                % FluteVoiceIV [measure 6]                               %! SM4
-                                R1 * 1
-                                
-                                % FluteVoiceIV [measure 7]                               %! SM4
-                                R1 * 1
-                                
-                                % FluteVoiceIV [measure 8]                               %! SM4
-                                R1 * 1/2
                                 
                             }
                         >>
                     >>
                 >>
                 \context StaffGroup = "StringStaffGroup" <<
-                    \context Staff = "FirstViolinStaffI" <<
-                        \context Voice = "FirstViolinVoiceI" {
+                    \context Staff = "FirstViolinsStaffI" <<
+                        \context Voice = "FirstViolinsVoiceI" {
                             
-                            % FirstViolinVoiceI [measure 1]                              %! SM4
+                            % FirstViolinsVoiceI [measure 1]                             %! SM4
+                            \override Stem.direction = #down                             %! OC
+                            \set Staff.forceClef = ##t                                   %! DEFAULT_CLEF:SM8
+                            \clef "treble"                                               %! DEFAULT_CLEF:SM8
+                            \once \override Staff.Clef.color = #(x11-color 'DarkViolet)  %! DEFAULT_CLEF_COLOR:SM6
+                        %@% \override Staff.Clef.color = ##f                             %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                            g4
+                            \override Staff.Clef.color = #(x11-color 'violet)            %! DEFAULT_CLEF_REDRAW_COLOR:SM6
+                            
+                            af4
+                            
+                            g4
+                            
+                            af4
+                            
+                            % FirstViolinsVoiceI [measure 2]                             %! SM4
+                            g4
+                            
+                            af4
+                            
+                            g4
+                            
+                            af4
+                            
+                            % FirstViolinsVoiceI [measure 3]                             %! SM4
+                            g4
+                            
+                            af4
+                            
+                            g4
+                            
+                            af4
+                            
+                            % FirstViolinsVoiceI [measure 4]                             %! SM4
+                            g4
+                            
+                            af4
+                            
+                            g4
+                            
+                            % FirstViolinsVoiceI [measure 5]                             %! SM4
+                            af4
+                            
+                            g4
+                            
+                            af4
+                            \revert Stem.direction                                       %! OC
+                            
+                        }
+                        \context Voice = "FirstViolinsVoiceII" {
+                            
+                            % FirstViolinsVoiceII [measure 1]                            %! SM4
+                            R1 * 1
+                            
+                            % FirstViolinsVoiceII [measure 2]                            %! SM4
+                            \override Stem.direction = #up                               %! OC
+                            bf'8
+                            
+                            c''8
+                            
+                            d''8
+                            
+                            bf'8
+                            
+                            c''8
+                            
+                            d''8
+                            
+                            bf'8
+                            
+                            c''8
+                            
+                            % FirstViolinsVoiceII [measure 3]                            %! SM4
+                            d''8
+                            
+                            bf'8
+                            
+                            c''8
+                            
+                            d''8
+                            
+                            bf'8
+                            
+                            c''8
+                            
+                            d''8
+                            
+                            bf'8
+                            
+                            % FirstViolinsVoiceII [measure 4]                            %! SM4
+                            c''8
+                            
+                            d''8
+                            
+                            bf'8
+                            
+                            c''8
+                            
+                            d''8
+                            
+                            bf'8
+                            \revert Stem.direction                                       %! OC
+                            
+                            % FirstViolinsVoiceII [measure 5]                            %! SM4
+                            R1 * 3/4
+                            
+                        }
+                        \context Voice = "FirstViolinsVoiceIII" {
+                            
+                            % FirstViolinsVoiceIII [measure 1]                           %! SM4
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -1028,63 +819,35 @@
                                 }                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                             \override Staff.InstrumentName.color = #(x11-color 'violet)  %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                             
-                            % FirstViolinVoiceI [measure 2]                              %! SM4
+                            % FirstViolinsVoiceIII [measure 2]                           %! SM4
                             R1 * 1
                             
-                            % FirstViolinVoiceI [measure 3]                              %! SM4
-                            R1 * 1
+                            % FirstViolinsVoiceIII [measure 3]                           %! SM4
+                            \override Stem.direction = #up                               %! OC
+                            d''4
                             
-                            % FirstViolinVoiceI [measure 4]                              %! SM4
+                            e''4
+                            
+                            d''4
+                            
+                            e''4
+                            \revert Stem.direction                                       %! OC
+                            
+                            % FirstViolinsVoiceIII [measure 4]                           %! SM4
                             R1 * 3/4
                             
-                            % FirstViolinVoiceI [measure 5]                              %! SM4
+                            % FirstViolinsVoiceIII [measure 5]                           %! SM4
                             R1 * 3/4
-                            
-                            % FirstViolinVoiceI [measure 6]                              %! SM4
-                            R1 * 1
-                            
-                            % FirstViolinVoiceI [measure 7]                              %! SM4
-                            R1 * 1
-                            
-                            % FirstViolinVoiceI [measure 8]                              %! SM4
-                            R1 * 1/2
-                            
-                        }
-                        \context Voice = "FirstViolinVoiceII" {
-                            
-                            % FirstViolinVoiceII [measure 1]                             %! SM4
-                            R1 * 1
-                            
-                            % FirstViolinVoiceII [measure 2]                             %! SM4
-                            R1 * 1
-                            
-                            % FirstViolinVoiceII [measure 3]                             %! SM4
-                            R1 * 1
-                            
-                            % FirstViolinVoiceII [measure 4]                             %! SM4
-                            R1 * 3/4
-                            
-                            % FirstViolinVoiceII [measure 5]                             %! SM4
-                            R1 * 3/4
-                            
-                            % FirstViolinVoiceII [measure 6]                             %! SM4
-                            R1 * 1
-                            
-                            % FirstViolinVoiceII [measure 7]                             %! SM4
-                            R1 * 1
-                            
-                            % FirstViolinVoiceII [measure 8]                             %! SM4
-                            R1 * 1/2
                             
                         }
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup" \with {
                         systemStartDelimiter = #'SystemStartSquare
                     } <<
-                        \context Staff = "SecondViolinStaffI" {
-                            \context Voice = "SecondViolinVoiceI" {
+                        \context Staff = "SecondViolinsStaffI" {
+                            \context Voice = "SecondViolinsVoiceI" {
                                 
-                                % SecondViolinVoiceI [measure 1]                         %! SM4
+                                % SecondViolinsVoiceI [measure 1]                        %! SM4
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -1103,8 +866,12 @@
                                                 II
                                             }
                                     }                                                    %! DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.forceClef = ##t                               %! DEFAULT_CLEF:SM8
+                                \clef "treble"                                           %! DEFAULT_CLEF:SM8
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
+                            %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                                 R1 * 1
                                 ^ \markup {
                                     \column
@@ -1196,34 +963,26 @@
                                             }
                                     }                                                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                                 \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                 
-                                % SecondViolinVoiceI [measure 2]                         %! SM4
+                                % SecondViolinsVoiceI [measure 2]                        %! SM4
                                 R1 * 1
                                 
-                                % SecondViolinVoiceI [measure 3]                         %! SM4
+                                % SecondViolinsVoiceI [measure 3]                        %! SM4
                                 R1 * 1
                                 
-                                % SecondViolinVoiceI [measure 4]                         %! SM4
+                                % SecondViolinsVoiceI [measure 4]                        %! SM4
                                 R1 * 3/4
                                 
-                                % SecondViolinVoiceI [measure 5]                         %! SM4
+                                % SecondViolinsVoiceI [measure 5]                        %! SM4
                                 R1 * 3/4
-                                
-                                % SecondViolinVoiceI [measure 6]                         %! SM4
-                                R1 * 1
-                                
-                                % SecondViolinVoiceI [measure 7]                         %! SM4
-                                R1 * 1
-                                
-                                % SecondViolinVoiceI [measure 8]                         %! SM4
-                                R1 * 1/2
                                 
                             }
                         }
-                        \context Staff = "SecondViolinStaffII" {
-                            \context Voice = "SecondViolinVoiceII" {
+                        \context Staff = "SecondViolinsStaffII" {
+                            \context Voice = "SecondViolinsVoiceII" {
                                 
-                                % SecondViolinVoiceII [measure 1]                        %! SM4
+                                % SecondViolinsVoiceII [measure 1]                       %! SM4
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -1242,8 +1001,12 @@
                                                 II
                                             }
                                     }                                                    %! DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.forceClef = ##t                               %! DEFAULT_CLEF:SM8
+                                \clef "treble"                                           %! DEFAULT_CLEF:SM8
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
+                            %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                                 R1 * 1
                                 ^ \markup {
                                     \column
@@ -1335,35 +1098,27 @@
                                             }
                                     }                                                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                                 \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                 
-                                % SecondViolinVoiceII [measure 2]                        %! SM4
+                                % SecondViolinsVoiceII [measure 2]                       %! SM4
                                 R1 * 1
                                 
-                                % SecondViolinVoiceII [measure 3]                        %! SM4
+                                % SecondViolinsVoiceII [measure 3]                       %! SM4
                                 R1 * 1
                                 
-                                % SecondViolinVoiceII [measure 4]                        %! SM4
+                                % SecondViolinsVoiceII [measure 4]                       %! SM4
                                 R1 * 3/4
                                 
-                                % SecondViolinVoiceII [measure 5]                        %! SM4
+                                % SecondViolinsVoiceII [measure 5]                       %! SM4
                                 R1 * 3/4
-                                
-                                % SecondViolinVoiceII [measure 6]                        %! SM4
-                                R1 * 1
-                                
-                                % SecondViolinVoiceII [measure 7]                        %! SM4
-                                R1 * 1
-                                
-                                % SecondViolinVoiceII [measure 8]                        %! SM4
-                                R1 * 1/2
                                 
                             }
                         }
                     >>
-                    \context Staff = "ViolaStaffI" {
-                        \context Voice = "ViolaVoiceI" {
+                    \context Staff = "ViolasStaffI" {
+                        \context Voice = "ViolasVoiceI" {
                             
-                            % ViolaVoiceI [measure 1]                                    %! SM4
+                            % ViolasVoiceI [measure 1]                                   %! SM4
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -1449,33 +1204,24 @@
                             \override Staff.InstrumentName.color = #(x11-color 'violet)  %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                             \override Staff.Clef.color = #(x11-color 'violet)            %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             
-                            % ViolaVoiceI [measure 2]                                    %! SM4
+                            % ViolasVoiceI [measure 2]                                   %! SM4
                             R1 * 1
                             
-                            % ViolaVoiceI [measure 3]                                    %! SM4
+                            % ViolasVoiceI [measure 3]                                   %! SM4
                             R1 * 1
                             
-                            % ViolaVoiceI [measure 4]                                    %! SM4
+                            % ViolasVoiceI [measure 4]                                   %! SM4
                             R1 * 3/4
                             
-                            % ViolaVoiceI [measure 5]                                    %! SM4
+                            % ViolasVoiceI [measure 5]                                   %! SM4
                             R1 * 3/4
-                            
-                            % ViolaVoiceI [measure 6]                                    %! SM4
-                            R1 * 1
-                            
-                            % ViolaVoiceI [measure 7]                                    %! SM4
-                            R1 * 1
-                            
-                            % ViolaVoiceI [measure 8]                                    %! SM4
-                            R1 * 1/2
                             
                         }
                     }
-                    \context Staff = "CelloStaffI" {
-                        \context Voice = "CelloVoiceI" {
+                    \context Staff = "CellosStaffI" {
+                        \context Voice = "CellosVoiceI" {
                             
-                            % CelloVoiceI [measure 1]                                    %! SM4
+                            % CellosVoiceI [measure 1]                                   %! SM4
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -1561,33 +1307,24 @@
                             \override Staff.InstrumentName.color = #(x11-color 'violet)  %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                             \override Staff.Clef.color = #(x11-color 'violet)            %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             
-                            % CelloVoiceI [measure 2]                                    %! SM4
+                            % CellosVoiceI [measure 2]                                   %! SM4
                             R1 * 1
                             
-                            % CelloVoiceI [measure 3]                                    %! SM4
+                            % CellosVoiceI [measure 3]                                   %! SM4
                             R1 * 1
                             
-                            % CelloVoiceI [measure 4]                                    %! SM4
+                            % CellosVoiceI [measure 4]                                   %! SM4
                             R1 * 3/4
                             
-                            % CelloVoiceI [measure 5]                                    %! SM4
+                            % CellosVoiceI [measure 5]                                   %! SM4
                             R1 * 3/4
-                            
-                            % CelloVoiceI [measure 6]                                    %! SM4
-                            R1 * 1
-                            
-                            % CelloVoiceI [measure 7]                                    %! SM4
-                            R1 * 1
-                            
-                            % CelloVoiceI [measure 8]                                    %! SM4
-                            R1 * 1/2
                             
                         }
                     }
-                    \context Staff = "ContrabassStaffI" {
-                        \context Voice = "ContrabassVoiceI" {
+                    \context Staff = "ContrabassesStaffI" {
+                        \context Voice = "ContrabassesVoiceI" {
                             
-                            % ContrabassVoiceI [measure 1]                               %! SM4
+                            % ContrabassesVoiceI [measure 1]                             %! SM4
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -1673,26 +1410,17 @@
                             \override Staff.InstrumentName.color = #(x11-color 'violet)  %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                             \override Staff.Clef.color = #(x11-color 'violet)            %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             
-                            % ContrabassVoiceI [measure 2]                               %! SM4
+                            % ContrabassesVoiceI [measure 2]                             %! SM4
                             R1 * 1
                             
-                            % ContrabassVoiceI [measure 3]                               %! SM4
+                            % ContrabassesVoiceI [measure 3]                             %! SM4
                             R1 * 1
                             
-                            % ContrabassVoiceI [measure 4]                               %! SM4
+                            % ContrabassesVoiceI [measure 4]                             %! SM4
                             R1 * 3/4
                             
-                            % ContrabassVoiceI [measure 5]                               %! SM4
+                            % ContrabassesVoiceI [measure 5]                             %! SM4
                             R1 * 3/4
-                            
-                            % ContrabassVoiceI [measure 6]                               %! SM4
-                            R1 * 1
-                            
-                            % ContrabassVoiceI [measure 7]                               %! SM4
-                            R1 * 1
-                            
-                            % ContrabassVoiceI [measure 8]                               %! SM4
-                            R1 * 1/2
                             
                         }
                     }
