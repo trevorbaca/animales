@@ -11,12 +11,12 @@ from abjad import rhythmmakertools as rhythmos
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
     margin_markup=animales.margin_markup,
-    measures_per_stage=[4, 4],
+    measures_per_stage=[1, 1, 1, 1, 1],
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
         piccolo=[1],
         flutes=[2, 2],
-        first_violins=[2],
+        first_violins=[3],
         second_violins=[1, 1],
         violas=[1],
         cellos=[1],
@@ -25,17 +25,31 @@ maker = baca.SegmentMaker(
     metronome_mark_measure_map=[
         (1, animales.metronome_marks['108']),
         ],
-    time_signatures=animales.time_signatures[:8],
+    time_signatures=animales.time_signatures[:5],
     transpose_score=True,
     )
 
-maker.validate_measure_count(8)
-maker.validate_stage_count(2)
+maker.validate_measure_count(5)
+maker.validate_stage_count(5)
 maker.validate_measures_per_stage()
 
-### FIRST VIOLINS ###
+maker(
+    baca.scope('FirstViolinsVoiceI', 1, 5),
+    baca.make_repeated_durations((1, 4)),
+    baca.pitches([-5, -4]),
+    baca.stems_down(),
+    )
 
 maker(
-    baca.scope('FluteVoiceI', 1, 2),
-    baca.make_tied_repeated_durations((1, 4)),
+    baca.scope('FirstViolinsVoiceII', 2, 4),
+    baca.make_repeated_durations((1, 8)),
+    baca.pitches([10, 12, 14]),
+    baca.stems_up(),
+    )
+
+maker(
+    baca.scope('FirstViolinsVoiceIII', 3),
+    baca.make_repeated_durations((1, 4)),
+    baca.pitches([14, 16]),
+    baca.stems_up(),
     )
