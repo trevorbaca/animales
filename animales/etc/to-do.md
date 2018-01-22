@@ -2,7 +2,6 @@ TO-DO
 =====
 
 1.  Write b&w, color IDE tests.
-    Write colored markup tests.
 
 2.  Change behavior of (cv) to replace existing paths.
     Change behavior of (^), (@), (+) to open first match.
