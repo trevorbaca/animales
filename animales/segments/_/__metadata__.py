@@ -59,6 +59,46 @@ metadata = abjad.TypedOrderedDict(
                                 value='treble',
                                 ),
                             abjad.Momento(
+                                context='FirstViolinsVoiceI',
+                                prototype='abjad.Instrument',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
+                                context='FirstViolinsVoiceI',
+                                prototype='baca.MarginMarkup',
+                                value='Vni. I',
+                                ),
+                            ],
+                        ),
+                    (
+                        'FirstViolinsStaffII',
+                        [
+                            abjad.Momento(
+                                context='FirstViolinsVoiceII',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
+                                context='FirstViolinsVoiceII',
+                                prototype='abjad.Instrument',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
+                                context='FirstViolinsVoiceII',
+                                prototype='baca.MarginMarkup',
+                                value='Vni. I',
+                                ),
+                            ],
+                        ),
+                    (
+                        'FirstViolinsStaffIII',
+                        [
+                            abjad.Momento(
+                                context='FirstViolinsVoiceIII',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
                                 context='FirstViolinsVoiceIII',
                                 prototype='abjad.Instrument',
                                 value='Violin',
@@ -94,17 +134,17 @@ metadata = abjad.TypedOrderedDict(
                         'FlutesStaffII',
                         [
                             abjad.Momento(
-                                context='FlutesVoiceIII',
+                                context='FlutesVoiceII',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             abjad.Momento(
-                                context='FlutesVoiceIII',
+                                context='FlutesVoiceII',
                                 prototype='abjad.Instrument',
                                 value='Flute',
                                 ),
                             abjad.Momento(
-                                context='FlutesVoiceIII',
+                                context='FlutesVoiceII',
                                 prototype='baca.MarginMarkup',
                                 value='Fl.',
                                 ),
