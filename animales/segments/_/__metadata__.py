@@ -3,9 +3,9 @@ import abjad
 
 metadata = abjad.TypedOrderedDict(
     [
-        ('duration', "0'10''"),
+        ('duration', "0'11''"),
         ('first_measure_number', 1),
-        ('last_measure_number', 5),
+        ('last_measure_number', 6),
         (
             'persistent_indicators',
             abjad.TypedOrderedDict(
@@ -27,26 +27,6 @@ metadata = abjad.TypedOrderedDict(
                                 context='CellosVoiceI',
                                 prototype='baca.MarginMarkup',
                                 value='Vc.',
-                                ),
-                            ],
-                        ),
-                    (
-                        'ContrabassesStaffI',
-                        [
-                            abjad.Momento(
-                                context='ContrabassesVoiceI',
-                                prototype='abjad.Clef',
-                                value='bass',
-                                ),
-                            abjad.Momento(
-                                context='ContrabassesVoiceI',
-                                prototype='abjad.Instrument',
-                                value='Contrabass',
-                                ),
-                            abjad.Momento(
-                                context='ContrabassesVoiceI',
-                                prototype='baca.MarginMarkup',
-                                value='Cb.',
                                 ),
                             ],
                         ),
@@ -91,97 +71,17 @@ metadata = abjad.TypedOrderedDict(
                             ],
                         ),
                     (
-                        'FirstViolinsStaffIII',
-                        [
-                            abjad.Momento(
-                                context='FirstViolinsVoiceIII',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='FirstViolinsVoiceIII',
-                                prototype='abjad.Instrument',
-                                value='Violin',
-                                ),
-                            abjad.Momento(
-                                context='FirstViolinsVoiceIII',
-                                prototype='baca.MarginMarkup',
-                                value='Vni. I',
-                                ),
-                            ],
-                        ),
-                    (
-                        'FlutesStaffI',
-                        [
-                            abjad.Momento(
-                                context='FlutesVoiceI',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='FlutesVoiceI',
-                                prototype='abjad.Instrument',
-                                value='Flute',
-                                ),
-                            abjad.Momento(
-                                context='FlutesVoiceI',
-                                prototype='baca.MarginMarkup',
-                                value='Fl.',
-                                ),
-                            ],
-                        ),
-                    (
-                        'FlutesStaffII',
-                        [
-                            abjad.Momento(
-                                context='FlutesVoiceII',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='FlutesVoiceII',
-                                prototype='abjad.Instrument',
-                                value='Flute',
-                                ),
-                            abjad.Momento(
-                                context='FlutesVoiceII',
-                                prototype='baca.MarginMarkup',
-                                value='Fl.',
-                                ),
-                            ],
-                        ),
-                    (
-                        'PiccoloStaffI',
-                        [
-                            abjad.Momento(
-                                context='PiccoloVoiceI',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='PiccoloVoiceI',
-                                prototype='abjad.Instrument',
-                                value='Piccolo',
-                                ),
-                            abjad.Momento(
-                                context='PiccoloVoiceI',
-                                prototype='baca.MarginMarkup',
-                                value='Picc.',
-                                ),
-                            ],
-                        ),
-                    (
                         'Score',
                         [
                             abjad.Momento(
                                 context='GlobalSkips',
                                 prototype='abjad.MetronomeMark',
-                                value='108',
+                                value='114',
                                 ),
                             abjad.Momento(
                                 context='GlobalSkips',
                                 prototype='abjad.TimeSignature',
-                                value='3/4',
+                                value='4/4',
                                 ),
                             ],
                         ),
@@ -245,15 +145,35 @@ metadata = abjad.TypedOrderedDict(
                                 ),
                             ],
                         ),
+                    (
+                        'ViolasStaffII',
+                        [
+                            abjad.Momento(
+                                context='ViolasVoiceII',
+                                prototype='abjad.Clef',
+                                value='alto',
+                                ),
+                            abjad.Momento(
+                                context='ViolasVoiceII',
+                                prototype='abjad.Instrument',
+                                value='Viola',
+                                ),
+                            abjad.Momento(
+                                context='ViolasVoiceII',
+                                prototype='baca.MarginMarkup',
+                                value='Vle.',
+                                ),
+                            ],
+                        ),
                     ]
                 ),
             ),
         ('segment_number', 1),
         ('start_clock_time', "0'00''"),
-        ('stop_clock_time', "0'10''"),
+        ('stop_clock_time', "0'11''"),
         (
             'time_signatures',
-            ['4/4', '4/4', '4/4', '3/4', '3/4'],
+            ['4/4', '4/4', '4/4', '3/4', '3/4', '4/4'],
             ),
         ]
     )

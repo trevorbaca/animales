@@ -23,7 +23,7 @@ maker = baca.SegmentMaker(
         contrabasses=[1],
         ),
     metronome_mark_measure_map=[
-        (1, animales.metronome_marks['108']),
+        (1, animales.metronome_marks['114']),
         ],
     time_signatures=animales.time_signatures[:8],
     transpose_score=True,

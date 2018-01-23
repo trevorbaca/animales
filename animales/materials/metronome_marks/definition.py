@@ -11,8 +11,8 @@ metronome_marks = abjad.MetronomeMarkDictionary([
         abjad.MetronomeMark((1, 4), 60),
         ),
     (
-        '72',
-        abjad.MetronomeMark((1, 4), 72),
+        '76',
+        abjad.MetronomeMark((1, 4), 76),
         ),
     (
         '84',
@@ -23,8 +23,8 @@ metronome_marks = abjad.MetronomeMarkDictionary([
         abjad.MetronomeMark((1, 4), 96),
         ),
     (
-        '108',
-        abjad.MetronomeMark((1, 4), 108),
+        '114',
+        abjad.MetronomeMark((1, 4), 114),
         ),
     (
         '120',
