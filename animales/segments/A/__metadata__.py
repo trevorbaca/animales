@@ -3,9 +3,9 @@ import abjad
 
 metadata = abjad.TypedOrderedDict(
     [
-        ('duration', "0'16''"),
-        ('first_measure_number', 6),
-        ('last_measure_number', 11),
+        ('duration', "0'15''"),
+        ('first_measure_number', 7),
+        ('last_measure_number', 12),
         (
             'persistent_indicators',
             abjad.TypedOrderedDict(
@@ -31,52 +31,12 @@ metadata = abjad.TypedOrderedDict(
                             ],
                         ),
                     (
-                        'FlutesStaffI',
-                        [
-                            abjad.Momento(
-                                context='FlutesVoiceI',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='FlutesVoiceI',
-                                prototype='abjad.Instrument',
-                                value='Flute',
-                                ),
-                            abjad.Momento(
-                                context='FlutesVoiceI',
-                                prototype='baca.MarginMarkup',
-                                value='Fl.',
-                                ),
-                            ],
-                        ),
-                    (
-                        'FlutesStaffII',
-                        [
-                            abjad.Momento(
-                                context='FlutesVoiceII',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='FlutesVoiceII',
-                                prototype='abjad.Instrument',
-                                value='Flute',
-                                ),
-                            abjad.Momento(
-                                context='FlutesVoiceII',
-                                prototype='baca.MarginMarkup',
-                                value='Fl.',
-                                ),
-                            ],
-                        ),
-                    (
                         'Score',
                         [
                             abjad.Momento(
                                 context='GlobalSkips',
                                 prototype='abjad.MetronomeMark',
-                                value='72',
+                                value='76',
                                 ),
                             abjad.Momento(
                                 context='GlobalSkips',
@@ -109,7 +69,7 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         ('segment_number', 2),
-        ('start_clock_time', "0'10''"),
+        ('start_clock_time', "0'11''"),
         ('stop_clock_time', "0'26''"),
         (
             'time_signatures',
