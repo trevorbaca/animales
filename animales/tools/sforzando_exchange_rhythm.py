@@ -62,7 +62,7 @@ def sforzando_exchange_rhythm(this_part):
             ),
         tuplet_specifier=rhythmos.TupletSpecifier(
             flatten_trivial_tuplets=True,
-            simplify_redundant_tuplets=True,
+            trivialize=True,
             ),
         )
     return baca.RhythmCommand(
