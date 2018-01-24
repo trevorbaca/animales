@@ -308,7 +308,9 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-                                R1 * 1
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                a'1
+                                \sfz                                                     %! EXPLICIT_DYNAMIC:SM8
                                 ^ \markup {
                                     \column
                                         {
@@ -402,394 +404,196 @@
                                 \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                 
                                 % FirstViolinsVoiceI [measure 2]                         %! SM4
-                                R1 * 1
+                                a'2
+                                \repeatTie
+                                
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                a'2
+                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
                                 
                                 % FirstViolinsVoiceI [measure 3]                         %! SM4
-                                R1 * 1
+                                a'1
+                                \repeatTie
                                 
                                 % FirstViolinsVoiceI [measure 4]                         %! SM4
-                                R1 * 3/4
+                                a'2.
+                                \repeatTie
                                 
                                 % FirstViolinsVoiceI [measure 5]                         %! SM4
-                                R1 * 3/4
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                af'2.
+                                -\accent                                                 %! IC
+                                \sfz_p                                                   %! EXPLICIT_DYNAMIC:SM8
                                 
                                 % FirstViolinsVoiceI [measure 6]                         %! SM4
-                                R1 * 1
+                                af'1
+                                \repeatTie
                                 
                             }
                         }
                         \context Staff = "FirstViolinsStaffII" {
                             \context Voice = "FirstViolinsVoiceII" {
-                                \times 2/3 {
-                                    
-                                    % FirstViolinsVoiceII [measure 1]                    %! SM4
-                                    \set Staff.instrumentName = \markup {
-                                        \hcenter-in
-                                            #16
-                                            \center-column
-                                                {
-                                                    Violins
-                                                    I
-                                                }
-                                        }                                                %! DEFAULT_MARGIN_MARKUP:SM8
-                                    \set Staff.shortInstrumentName = \markup {
-                                        \hcenter-in
-                                            #10
-                                            \center-column
-                                                {
-                                                    Vni.
-                                                    I
-                                                }
-                                        }                                                %! DEFAULT_MARGIN_MARKUP:SM8
-                                    \set Staff.forceClef = ##t                           %! DEFAULT_CLEF:SM8
-                                    \clef "treble"                                       %! DEFAULT_CLEF:SM8
-                                    \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
-                                    \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
-                                    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
-                                %@% \override Staff.Clef.color = ##f                     %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                    ^ \markup {
-                                        \column
+                                
+                                % FirstViolinsVoiceII [measure 1]                        %! SM4
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
                                             {
-                                            %@% \line                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                            %@%     {                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                            %@%         (“Violin”)                       %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                            %@%     }                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                                \line                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \with-color                      %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            #(x11-color 'DarkViolet)     %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            (“Violin”)                   %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            %@% \line                                    %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%     {                                    %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%         \vcenter                         %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%             "[“Vni. I”"                  %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%         \vcenter                         %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%             \hcenter-in                  %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                 #16                      %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                 \center-column           %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                     {                    %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                         Violins          %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                         I                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                     }                    %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%         \concat                          %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%             {                            %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                 \vcenter                 %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                     \hcenter-in          %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                         #10              %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                         \center-column   %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                             {            %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                                 Vni.     %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                                 I        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                             }            %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                 \vcenter                 %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%                     ]                    %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%             }                            %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                            %@%     }                                    %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
-                                                \line                                    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                        \with-color                      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                            #(x11-color 'DarkViolet)     %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                            {                            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                \vcenter                 %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                    "[“Vni. I”"          %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                \vcenter                 %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                    \hcenter-in          %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                        #16              %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                        \center-column   %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                            {            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                                Violins  %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                                I        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                            }            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                \concat                  %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                    {                    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                        \vcenter         %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                            \hcenter-in  %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                                #10      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                                \center-column %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                                    {    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                                        Vni. %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                                        I %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                                    }    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                        \vcenter         %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                            ]            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                    }                    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                            }                            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                Violins
+                                                I
                                             }
+                                    }                                                    %! DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        \center-column
+                                            {
+                                                Vni.
+                                                I
+                                            }
+                                    }                                                    %! DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.forceClef = ##t                               %! DEFAULT_CLEF:SM8
+                                \clef "treble"                                           %! DEFAULT_CLEF:SM8
+                                \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
+                                \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
+                            %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                                a'4
+                                ^ \markup {
+                                    \column
+                                        {
+                                        %@% \line                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%     {                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%         (“Violin”)                           %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%     }                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            \line                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                {                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \with-color                          %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        #(x11-color 'DarkViolet)         %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        (“Violin”)                       %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                }                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        %@% \line                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%     {                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%         \vcenter                             %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             "[“Vni. I”"                      %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%         \vcenter                             %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             \hcenter-in                      %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 #16                          %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 \center-column               %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     {                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         Violins              %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         I                    %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     }                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%         \concat                              %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             {                                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     \hcenter-in              %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         #10                  %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                         \center-column       %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                             {                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                                 Vni.         %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                                 I            %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                             }                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                 \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%                     ]                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%             }                                %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                        %@%     }                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
+                                            \line                                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                {                                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                    \with-color                          %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                        #(x11-color 'DarkViolet)         %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                        {                                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                            \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                "[“Vni. I”"              %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                            \vcenter                     %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                \hcenter-in              %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    #16                  %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    \center-column       %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        {                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            Violins      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            I            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        }                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                            \concat                      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                {                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    \vcenter             %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        \hcenter-in      %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            #10          %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                            \center-column %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                {        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                    Vni. %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                    I    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                                }        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                    \vcenter             %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        ]                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                }                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                        }                                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                }                                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                         }
-                                    \set Staff.instrumentName = \markup {
-                                        \hcenter-in
-                                            #16
-                                            \center-column
-                                                {
-                                                    Violins
-                                                    I
-                                                }
-                                        }                                                %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-                                    \set Staff.shortInstrumentName = \markup {
-                                        \hcenter-in
-                                            #10
-                                            \center-column
-                                                {
-                                                    Vni.
-                                                    I
-                                                }
-                                        }                                                %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-                                    \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
-                                    \override Staff.Clef.color = #(x11-color 'violet)    %! DEFAULT_CLEF_REDRAW_COLOR:SM6
-                                }
+                                    }
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Violins
+                                                I
+                                            }
+                                    }                                                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        \center-column
+                                            {
+                                                Vni.
+                                                I
+                                            }
+                                    }                                                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+                                \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
+                                \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
+                                
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                a'2.
+                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
+                                
+                                % FirstViolinsVoiceII [measure 2]                        %! SM4
+                                a'2
+                                \repeatTie
                                 \times 2/3 {
                                     
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
+                                    a'8
+                                    \repeatTie
+                                    
+                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+                                    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                    a'4
+                                    \sfz_f                                               %! EXPLICIT_DYNAMIC:SM8
                                 }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    % FirstViolinsVoiceII [measure 2]                    %! SM4
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'8
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    % FirstViolinsVoiceII [measure 3]                    %! SM4
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    % FirstViolinsVoiceII [measure 4]                    %! SM4
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                }
-                                \times 2/3 {
-                                    
-                                    % FirstViolinsVoiceII [measure 5]                    %! SM4
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    % FirstViolinsVoiceII [measure 6]                    %! SM4
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    ~
-                                }
-                                \times 2/3 {
-                                    
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4.
-                                    
-                                }
+                                
+                                a'4
+                                \repeatTie
+                                
+                                % FirstViolinsVoiceII [measure 3]                        %! SM4
+                                a'1
+                                \repeatTie
+                                
+                                % FirstViolinsVoiceII [measure 4]                        %! SM4
+                                a'2.
+                                \repeatTie
+                                
+                                % FirstViolinsVoiceII [measure 5]                        %! SM4
+                                a'4
+                                \repeatTie
+                                
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                af'2
+                                -\accent                                                 %! IC
+                                \sfz_p                                                   %! EXPLICIT_DYNAMIC:SM8
+                                
+                                % FirstViolinsVoiceII [measure 6]                        %! SM4
+                                af'1
+                                \repeatTie
+                                
                             }
                         }
                     >>
@@ -824,7 +628,7 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-                                R1 * 1
+                                a'2
                                 ^ \markup {
                                     \column
                                         {
@@ -917,20 +721,46 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                 
+                                a'8
+                                \repeatTie
+                                
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                a'4.
+                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
+                                
                                 % SecondViolinsVoiceI [measure 2]                        %! SM4
-                                R1 * 1
+                                a'1
+                                \repeatTie
                                 
                                 % SecondViolinsVoiceI [measure 3]                        %! SM4
-                                R1 * 1
+                                a'8
+                                \repeatTie
+                                
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                a'2..
+                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
                                 
                                 % SecondViolinsVoiceI [measure 4]                        %! SM4
-                                R1 * 3/4
+                                a'2.
+                                \repeatTie
                                 
                                 % SecondViolinsVoiceI [measure 5]                        %! SM4
-                                R1 * 3/4
+                                a'2
+                                \repeatTie
+                                
+                                a'8
+                                \repeatTie
+                                [
+                                
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                af'8
+                                -\accent                                                 %! IC
+                                \sfz_p                                                   %! EXPLICIT_DYNAMIC:SM8
+                                ]
                                 
                                 % SecondViolinsVoiceI [measure 6]                        %! SM4
-                                R1 * 1
+                                af'1
+                                \repeatTie
                                 
                             }
                         }
@@ -962,7 +792,7 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-                                R1 * 1
+                                a'2
                                 ^ \markup {
                                     \column
                                         {
@@ -1054,21 +884,54 @@
                                     }                                                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                                 \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
+                                \times 2/3 {
+                                    
+                                    a'4
+                                    \repeatTie
+                                    
+                                    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                    a'8
+                                    \sfz_f                                               %! EXPLICIT_DYNAMIC:SM8
+                                }
+                                
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+                                a'4
+                                \repeatTie
                                 
                                 % SecondViolinsVoiceII [measure 2]                       %! SM4
-                                R1 * 1
+                                a'1
+                                \repeatTie
                                 
                                 % SecondViolinsVoiceII [measure 3]                       %! SM4
-                                R1 * 1
+                                a'4
+                                \repeatTie
+                                
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                a'2.
+                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
                                 
                                 % SecondViolinsVoiceII [measure 4]                       %! SM4
-                                R1 * 3/4
+                                a'2.
+                                \repeatTie
                                 
                                 % SecondViolinsVoiceII [measure 5]                       %! SM4
-                                R1 * 3/4
+                                a'2.
+                                \repeatTie
+                                \times 2/3 {
+                                    
+                                    % SecondViolinsVoiceII [measure 6]                   %! SM4
+                                    a'8
+                                    \repeatTie
+                                    
+                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+                                    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                    af'4
+                                    -\accent                                             %! IC
+                                    \sfz_p                                               %! EXPLICIT_DYNAMIC:SM8
+                                }
                                 
-                                % SecondViolinsVoiceII [measure 6]                       %! SM4
-                                R1 * 1
+                                af'2.
+                                \repeatTie
                                 
                             }
                         }
@@ -1096,7 +959,7 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-                                R1 * 1
+                                a'2.
                                 ^ \markup {
                                     \column
                                         {
@@ -1165,20 +1028,41 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                 
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                a'4
+                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
+                                
                                 % ViolasVoiceI [measure 2]                               %! SM4
-                                R1 * 1
+                                a'1
+                                \repeatTie
                                 
                                 % ViolasVoiceI [measure 3]                               %! SM4
-                                R1 * 1
+                                a'2..
+                                \repeatTie
+                                
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                a'8
+                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
                                 
                                 % ViolasVoiceI [measure 4]                               %! SM4
-                                R1 * 3/4
+                                a'2.
+                                \repeatTie
                                 
                                 % ViolasVoiceI [measure 5]                               %! SM4
-                                R1 * 3/4
+                                a'2.
+                                \repeatTie
                                 
                                 % ViolasVoiceI [measure 6]                               %! SM4
-                                R1 * 1
+                                a'2
+                                \repeatTie
+                                
+                                a'8
+                                \repeatTie
+                                
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                af'4.
+                                -\accent                                                 %! IC
+                                \sfz_p                                                   %! EXPLICIT_DYNAMIC:SM8
                                 
                             }
                         }
@@ -1202,7 +1086,7 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-                                R1 * 1
+                                a'1
                                 ^ \markup {
                                     \column
                                         {
@@ -1272,19 +1156,31 @@
                                 \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                 
                                 % ViolasVoiceII [measure 2]                              %! SM4
-                                R1 * 1
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                a'1
+                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
                                 
                                 % ViolasVoiceII [measure 3]                              %! SM4
-                                R1 * 1
+                                a'1
+                                \repeatTie
                                 
                                 % ViolasVoiceII [measure 4]                              %! SM4
-                                R1 * 3/4
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                a'2.
+                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
                                 
                                 % ViolasVoiceII [measure 5]                              %! SM4
-                                R1 * 3/4
+                                a'2.
+                                \repeatTie
                                 
                                 % ViolasVoiceII [measure 6]                              %! SM4
-                                R1 * 1
+                                a'2.
+                                \repeatTie
+                                
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                af'4
+                                -\accent                                                 %! IC
+                                \sfz_p                                                   %! EXPLICIT_DYNAMIC:SM8
                                 
                             }
                         }
@@ -1303,13 +1199,13 @@
                                     #10
                                     Vc.
                                 }                                                        %! DEFAULT_MARGIN_MARKUP:SM8
-                            \set Staff.forceClef = ##t                                   %! DEFAULT_CLEF:SM8
-                            \clef "bass"                                                 %! DEFAULT_CLEF:SM8
+                            \set Staff.forceClef = ##t                                   %! EXPLICIT_CLEF:SM8
+                            \clef "tenor"                                                %! EXPLICIT_CLEF:SM8
                             \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                             \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
-                            \once \override Staff.Clef.color = #(x11-color 'DarkViolet)  %! DEFAULT_CLEF_COLOR:SM6
-                        %@% \override Staff.Clef.color = ##f                             %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-                            R1 * 1
+                            \once \override Staff.Clef.color = #(x11-color 'blue)        %! EXPLICIT_CLEF_COLOR:SM6
+                        %@% \override Staff.Clef.color = ##f                             %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                            a'1
                             ^ \markup {
                                 \column
                                     {
@@ -1376,22 +1272,43 @@
                                     Vc.
                                 }                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                             \override Staff.InstrumentName.color = #(x11-color 'violet)  %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
-                            \override Staff.Clef.color = #(x11-color 'violet)            %! DEFAULT_CLEF_REDRAW_COLOR:SM6
+                            \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
                             % CellosVoiceI [measure 2]                                   %! SM4
-                            R1 * 1
+                            a'4.
+                            \repeatTie
+                            
+                            \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                            a'8
+                            \sfz_f                                                       %! EXPLICIT_DYNAMIC:SM8
+                            
+                            a'2
+                            \repeatTie
                             
                             % CellosVoiceI [measure 3]                                   %! SM4
-                            R1 * 1
+                            a'1
+                            \repeatTie
                             
                             % CellosVoiceI [measure 4]                                   %! SM4
-                            R1 * 3/4
+                            a'2
+                            \repeatTie
+                            
+                            a'8
+                            \repeatTie
+                            [
+                            
+                            \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                            a'8
+                            \sfz_f                                                       %! EXPLICIT_DYNAMIC:SM8
+                            ]
                             
                             % CellosVoiceI [measure 5]                                   %! SM4
-                            R1 * 3/4
+                            a'2.
+                            \repeatTie
                             
                             % CellosVoiceI [measure 6]                                   %! SM4
-                            R1 * 1
+                            a'1
+                            \repeatTie
                             
                         }
                     }

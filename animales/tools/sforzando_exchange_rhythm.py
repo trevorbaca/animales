@@ -20,14 +20,14 @@ def sforzando_exchange_rhythm(this_part):
     for part in part_to_pattern:
         part_to_indices[part] = []
 
-    retained_indices = []
+    sforzando_indices = []
     part = 0
     pattern = part_to_pattern[part]
     index = 0
     while True:
         if index % pattern.period in pattern.indices:
             part_to_indices[part].append(index)
-            retained_indices.append(index)
+            sforzando_indices.append((index, part))
             degrees = []
             for indices in part_to_indices.values():
                 talea = abjad.mathtools.difference_series(indices)
@@ -38,12 +38,16 @@ def sforzando_exchange_rhythm(this_part):
             part = (part + 1) % len(part_to_pattern)
             pattern = part_to_pattern[part]
         index += 1
-            
+
     part_to_counts = abjad.OrderedDict()
     for part, indices in part_to_indices.items():
         counts = abjad.mathtools.difference_series(indices)
         period = baca.sequence(counts).period_of_rotation()
         counts = counts[:period]
+        counts *= 10
+        offset = indices[0]
+        if 0 < offset:
+            counts.insert(0, offset)
         part_to_counts[part] = counts
     counts = part_to_counts[this_part]
 
@@ -54,7 +58,11 @@ def sforzando_exchange_rhythm(this_part):
             denominator=16,
             ),
         tie_specifier=rhythmos.TieSpecifier(
-            repeat_ties=False,
+            repeat_ties=True,
+            ),
+        tuplet_specifier=rhythmos.TupletSpecifier(
+            flatten_trivial_tuplets=True,
+            simplify_redundant_tuplets=True,
             ),
         )
     return baca.RhythmCommand(

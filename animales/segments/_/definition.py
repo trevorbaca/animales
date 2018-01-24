@@ -30,22 +30,74 @@ maker.validate_measure_count(6)
 maker.validate_stage_count(6)
 maker.validate_measures_per_stage()
 
-#maker(
-#    baca.scope('FirstViolinsVoiceI', 1, 6),
-#    animales.sforzando_exchange_rhythm(0),
-#    )
+maker(
+    baca.scope('FirstViolinsVoiceI', 1, 6),
+    animales.sforzando_exchange_rhythm(0),
+    )
 
 maker(
     baca.scope('FirstViolinsVoiceII', 1, 6),
     animales.sforzando_exchange_rhythm(1),
     )
 
-#maker(
-#    baca.scope('SecondViolinsVoiceI', 1, 6),
-#    animales.sforzando_exchange_rhythm(2),
-#    )
+maker(
+    baca.scope('SecondViolinsVoiceI', 1, 6),
+    animales.sforzando_exchange_rhythm(2),
+    )
 
-#maker(
-#    baca.scope('SecondViolinsVoiceII', 1, 6),
-#    animales.sforzando_exchange_rhythm(3),
-#    )
+maker(
+    baca.scope('SecondViolinsVoiceII', 1, 6),
+    animales.sforzando_exchange_rhythm(3),
+    )
+
+maker(
+    baca.scope('ViolasVoiceI', 1, 6),
+    animales.sforzando_exchange_rhythm(4),
+    )
+
+maker(
+    baca.scope('ViolasVoiceII', 1, 6),
+    animales.sforzando_exchange_rhythm(5),
+    )
+
+maker(
+    baca.scope('CellosVoiceI', 1, 6),
+    animales.sforzando_exchange_rhythm(6),
+    baca.clef('tenor'),
+    )
+
+strings = [
+    'FirstViolinsVoiceI',
+    'FirstViolinsVoiceII',
+    'SecondViolinsVoiceI',
+    'SecondViolinsVoiceII',
+    'ViolasVoiceI',
+    'ViolasVoiceII',
+    'CellosVoiceI',
+    ]
+
+maker(
+    baca.make_scopes(strings, [(1, 4)]),
+    baca.dynamic('sfz_f', selector=baca.pheads()[1:]),
+    )
+
+maker(
+    baca.scope('FirstViolinsVoiceI', 1),
+    baca.dynamic('sfz'),
+    )
+
+maker(
+    baca.make_scopes(strings, [(5, 6)]),
+    baca.dynamic('sfz_p', selector=baca.pheads()),
+    baca.accents(),
+    )
+
+maker(
+    baca.make_scopes(strings, [(1, 4)]),
+    baca.pitches([9], repeats=True),
+    )
+
+maker(
+    baca.make_scopes(strings, [(5, 6)]),
+    baca.pitches([8], repeats=True),
+    )

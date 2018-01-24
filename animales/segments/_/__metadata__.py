@@ -3,6 +3,10 @@ import abjad
 
 metadata = abjad.TypedOrderedDict(
     [
+        (
+            'bol_measure_numbers',
+            [1],
+            ),
         ('duration', "0'11''"),
         ('first_measure_number', 1),
         ('last_measure_number', 6),
@@ -16,7 +20,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='CellosVoiceI',
                                 prototype='abjad.Clef',
-                                value='bass',
+                                value='tenor',
                                 ),
                             abjad.Momento(
                                 context='CellosVoiceI',
@@ -27,6 +31,16 @@ metadata = abjad.TypedOrderedDict(
                                 context='CellosVoiceI',
                                 prototype='baca.MarginMarkup',
                                 value='Vc.',
+                                ),
+                            ],
+                        ),
+                    (
+                        'CellosVoiceI',
+                        [
+                            abjad.Momento(
+                                context='CellosVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='\\sfz_f',
                                 ),
                             ],
                         ),
@@ -67,6 +81,26 @@ metadata = abjad.TypedOrderedDict(
                                 context='FirstViolinsVoiceII',
                                 prototype='baca.MarginMarkup',
                                 value='Vni. I',
+                                ),
+                            ],
+                        ),
+                    (
+                        'FirstViolinsVoiceI',
+                        [
+                            abjad.Momento(
+                                context='FirstViolinsVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='\\sfz_p',
+                                ),
+                            ],
+                        ),
+                    (
+                        'FirstViolinsVoiceII',
+                        [
+                            abjad.Momento(
+                                context='FirstViolinsVoiceII',
+                                prototype='abjad.Dynamic',
+                                value='\\sfz_p',
                                 ),
                             ],
                         ),
@@ -126,6 +160,26 @@ metadata = abjad.TypedOrderedDict(
                             ],
                         ),
                     (
+                        'SecondViolinsVoiceI',
+                        [
+                            abjad.Momento(
+                                context='SecondViolinsVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='\\sfz_p',
+                                ),
+                            ],
+                        ),
+                    (
+                        'SecondViolinsVoiceII',
+                        [
+                            abjad.Momento(
+                                context='SecondViolinsVoiceII',
+                                prototype='abjad.Dynamic',
+                                value='\\sfz_p',
+                                ),
+                            ],
+                        ),
+                    (
                         'ViolasStaffI',
                         [
                             abjad.Momento(
@@ -162,6 +216,26 @@ metadata = abjad.TypedOrderedDict(
                                 context='ViolasVoiceII',
                                 prototype='baca.MarginMarkup',
                                 value='Vle.',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ViolasVoiceI',
+                        [
+                            abjad.Momento(
+                                context='ViolasVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='\\sfz_p',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ViolasVoiceII',
+                        [
+                            abjad.Momento(
+                                context='ViolasVoiceII',
+                                prototype='abjad.Dynamic',
+                                value='\\sfz_p',
                                 ),
                             ],
                         ),
