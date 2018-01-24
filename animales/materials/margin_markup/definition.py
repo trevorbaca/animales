@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-margin_markup = abjad.TypedOrderedDict([
+margin_markup = abjad.OrderedDict([
     (
         'B. cl.',
         baca.MarginMarkup(
