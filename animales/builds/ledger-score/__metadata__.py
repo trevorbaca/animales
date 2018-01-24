@@ -1,7 +1,7 @@
 import abjad
 
 
-metadata = abjad.TypedOrderedDict(
+metadata = abjad.OrderedDict(
     [
         ('catalog_number_suffix', 'ledger-score'),
         ('paper_size', 'ledger-score'),
