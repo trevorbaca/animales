@@ -389,7 +389,7 @@
                             \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                             \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                             R1 * 1
-                            \sfz_p                                                       %! REAPPLIED_DYNAMIC:SM8
+                            \p_sub_accents_continue_sffz                                 %! REAPPLIED_DYNAMIC:SM8
                             ^ \markup {
                                 \column
                                     {
@@ -529,7 +529,7 @@
                             \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                             \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                             R1 * 1
-                            \sfz_p                                                       %! REAPPLIED_DYNAMIC:SM8
+                            \p_sub_accents_continue_sffz                                 %! REAPPLIED_DYNAMIC:SM8
                             ^ \markup {
                                 \column
                                     {

@@ -78,20 +78,27 @@ strings = [
 
 maker(
     baca.make_scopes(strings, [(1, 4)]),
-    baca.dynamic('sfz_f', selector=baca.pheads()[1:]),
-    )
-
-maker(
-    baca.scope('FirstViolinsVoiceI', 1),
-    baca.dynamic('sfz'),
+    baca.dynamic('f_but_accents_sffz', baca.pleaf(0)),
     )
 
 maker(
     baca.make_scopes(strings, [(5, 6)]),
-    baca.dynamic('sfz_p', selector=baca.pheads()),
+    baca.dynamic('p_sub_accents_continue_sffz', baca.pleaf(0)),
+    )
+
+# first accents
+maker(
+    baca.make_scopes(strings, [(1, 6)]),
     baca.accents(),
     )
 
+# then untie
+maker(
+    baca.make_scopes(strings, [(5, 6)]),
+    baca.untie_to(selector=baca.pleaf(0)),
+    )
+
+# then pitch
 maker(
     baca.make_scopes(strings, [(1, 4)]),
     baca.pitches([9], repeats=True),

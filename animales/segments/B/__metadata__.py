@@ -36,7 +36,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinsVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='\\sfz_p',
+                                value='\\p_sub_accents_continue_sffz',
                                 ),
                             ],
                         ),
@@ -81,7 +81,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinsVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='\\sfz_p',
+                                value='\\p_sub_accents_continue_sffz',
                                 ),
                             ],
                         ),
