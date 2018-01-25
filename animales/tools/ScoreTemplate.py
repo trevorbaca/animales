@@ -618,6 +618,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         default_margin_markup,
         default_clef=None,
         ):
+        assert default_margin_markup is not None
         staves = []
         if specifier:
             voice_number = 1
