@@ -358,7 +358,8 @@
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'1
-                                \sfz                                                     %! EXPLICIT_DYNAMIC:SM8
+                                -\accent                                                 %! IC
+                                \f_but_accents_sffz                                      %! EXPLICIT_DYNAMIC:SM8
                                 ^ \markup {
                                     \column
                                         {
@@ -455,9 +456,8 @@
                                 a'2
                                 \repeatTie
                                 
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'2
-                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
+                                -\accent                                                 %! IC
                                 
                                 % FirstViolinsVoiceI [measure 3]                         %! SM4
                                 a'1
@@ -471,7 +471,7 @@
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 af'2.
                                 -\accent                                                 %! IC
-                                \sfz_p                                                   %! EXPLICIT_DYNAMIC:SM8
+                                \p_sub_accents_continue_sffz                             %! EXPLICIT_DYNAMIC:SM8
                                 
                                 % FirstViolinsVoiceI [measure 6]                         %! SM4
                                 af'1
@@ -507,7 +507,10 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'4
+                                -\accent                                                 %! IC
+                                \f_but_accents_sffz                                      %! EXPLICIT_DYNAMIC:SM8
                                 ^ \markup {
                                     \column
                                         {
@@ -600,9 +603,8 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                 
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'2.
-                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
+                                -\accent                                                 %! IC
                                 
                                 % FirstViolinsVoiceII [measure 2]                        %! SM4
                                 a'2
@@ -613,9 +615,8 @@
                                     \repeatTie
                                     
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-                                    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                     a'4
-                                    \sfz_f                                               %! EXPLICIT_DYNAMIC:SM8
+                                    -\accent                                             %! IC
                                 }
                                 
                                 a'4
@@ -630,13 +631,12 @@
                                 \repeatTie
                                 
                                 % FirstViolinsVoiceII [measure 5]                        %! SM4
-                                a'4
-                                \repeatTie
-                                
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                af'4
+                                \p_sub_accents_continue_sffz                             %! EXPLICIT_DYNAMIC:SM8
+                                
                                 af'2
                                 -\accent                                                 %! IC
-                                \sfz_p                                                   %! EXPLICIT_DYNAMIC:SM8
                                 
                                 % FirstViolinsVoiceII [measure 6]                        %! SM4
                                 af'1
@@ -676,7 +676,10 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'2
+                                -\accent                                                 %! IC
+                                \f_but_accents_sffz                                      %! EXPLICIT_DYNAMIC:SM8
                                 ^ \markup {
                                     \column
                                         {
@@ -772,9 +775,8 @@
                                 a'8
                                 \repeatTie
                                 
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'4.
-                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
+                                -\accent                                                 %! IC
                                 
                                 % SecondViolinsVoiceI [measure 2]                        %! SM4
                                 a'1
@@ -784,26 +786,24 @@
                                 a'8
                                 \repeatTie
                                 
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'2..
-                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
+                                -\accent                                                 %! IC
                                 
                                 % SecondViolinsVoiceI [measure 4]                        %! SM4
                                 a'2.
                                 \repeatTie
                                 
                                 % SecondViolinsVoiceI [measure 5]                        %! SM4
-                                a'2
-                                \repeatTie
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                af'2
+                                \p_sub_accents_continue_sffz                             %! EXPLICIT_DYNAMIC:SM8
                                 
-                                a'8
+                                af'8
                                 \repeatTie
                                 [
                                 
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 af'8
                                 -\accent                                                 %! IC
-                                \sfz_p                                                   %! EXPLICIT_DYNAMIC:SM8
                                 ]
                                 
                                 % SecondViolinsVoiceI [measure 6]                        %! SM4
@@ -840,7 +840,10 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'2
+                                -\accent                                                 %! IC
+                                \f_but_accents_sffz                                      %! EXPLICIT_DYNAMIC:SM8
                                 ^ \markup {
                                     \column
                                         {
@@ -937,9 +940,8 @@
                                     a'4
                                     \repeatTie
                                     
-                                    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                     a'8
-                                    \sfz_f                                               %! EXPLICIT_DYNAMIC:SM8
+                                    -\accent                                             %! IC
                                 }
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -954,28 +956,26 @@
                                 a'4
                                 \repeatTie
                                 
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'2.
-                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
+                                -\accent                                                 %! IC
                                 
                                 % SecondViolinsVoiceII [measure 4]                       %! SM4
                                 a'2.
                                 \repeatTie
                                 
                                 % SecondViolinsVoiceII [measure 5]                       %! SM4
-                                a'2.
-                                \repeatTie
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                af'2.
+                                \p_sub_accents_continue_sffz                             %! EXPLICIT_DYNAMIC:SM8
                                 \times 2/3 {
                                     
                                     % SecondViolinsVoiceII [measure 6]                   %! SM4
-                                    a'8
+                                    af'8
                                     \repeatTie
                                     
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-                                    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                     af'4
                                     -\accent                                             %! IC
-                                    \sfz_p                                               %! EXPLICIT_DYNAMIC:SM8
                                 }
                                 
                                 af'2.
@@ -1007,7 +1007,10 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'2.
+                                -\accent                                                 %! IC
+                                \f_but_accents_sffz                                      %! EXPLICIT_DYNAMIC:SM8
                                 ^ \markup {
                                     \column
                                         {
@@ -1076,9 +1079,8 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                 
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'4
-                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
+                                -\accent                                                 %! IC
                                 
                                 % ViolasVoiceI [measure 2]                               %! SM4
                                 a'1
@@ -1088,29 +1090,27 @@
                                 a'2..
                                 \repeatTie
                                 
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'8
-                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
+                                -\accent                                                 %! IC
                                 
                                 % ViolasVoiceI [measure 4]                               %! SM4
                                 a'2.
                                 \repeatTie
                                 
                                 % ViolasVoiceI [measure 5]                               %! SM4
-                                a'2.
-                                \repeatTie
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                af'2.
+                                \p_sub_accents_continue_sffz                             %! EXPLICIT_DYNAMIC:SM8
                                 
                                 % ViolasVoiceI [measure 6]                               %! SM4
-                                a'2
+                                af'2
                                 \repeatTie
                                 
-                                a'8
+                                af'8
                                 \repeatTie
                                 
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 af'4.
                                 -\accent                                                 %! IC
-                                \sfz_p                                                   %! EXPLICIT_DYNAMIC:SM8
                                 
                             }
                         }
@@ -1134,7 +1134,10 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'1
+                                -\accent                                                 %! IC
+                                \f_but_accents_sffz                                      %! EXPLICIT_DYNAMIC:SM8
                                 ^ \markup {
                                     \column
                                         {
@@ -1204,31 +1207,28 @@
                                 \override Staff.Clef.color = #(x11-color 'violet)        %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                 
                                 % ViolasVoiceII [measure 2]                              %! SM4
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'1
-                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
+                                -\accent                                                 %! IC
                                 
                                 % ViolasVoiceII [measure 3]                              %! SM4
                                 a'1
                                 \repeatTie
                                 
                                 % ViolasVoiceII [measure 4]                              %! SM4
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 a'2.
-                                \sfz_f                                                   %! EXPLICIT_DYNAMIC:SM8
+                                -\accent                                                 %! IC
                                 
                                 % ViolasVoiceII [measure 5]                              %! SM4
-                                a'2.
-                                \repeatTie
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                af'2.
+                                \p_sub_accents_continue_sffz                             %! EXPLICIT_DYNAMIC:SM8
                                 
                                 % ViolasVoiceII [measure 6]                              %! SM4
-                                a'2.
+                                af'2.
                                 \repeatTie
                                 
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 af'4
                                 -\accent                                                 %! IC
-                                \sfz_p                                                   %! EXPLICIT_DYNAMIC:SM8
                                 
                             }
                         }
@@ -1253,7 +1253,10 @@
                             \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:SM6
                             \once \override Staff.Clef.color = #(x11-color 'blue)        %! EXPLICIT_CLEF_COLOR:SM6
                         %@% \override Staff.Clef.color = ##f                             %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                            \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             a'1
+                            -\accent                                                     %! IC
+                            \f_but_accents_sffz                                          %! EXPLICIT_DYNAMIC:SM8
                             ^ \markup {
                                 \column
                                     {
@@ -1326,9 +1329,8 @@
                             a'4.
                             \repeatTie
                             
-                            \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             a'8
-                            \sfz_f                                                       %! EXPLICIT_DYNAMIC:SM8
+                            -\accent                                                     %! IC
                             
                             a'2
                             \repeatTie
@@ -1345,17 +1347,17 @@
                             \repeatTie
                             [
                             
-                            \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             a'8
-                            \sfz_f                                                       %! EXPLICIT_DYNAMIC:SM8
+                            -\accent                                                     %! IC
                             ]
                             
                             % CellosVoiceI [measure 5]                                   %! SM4
-                            a'2.
-                            \repeatTie
+                            \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                            af'2.
+                            \p_sub_accents_continue_sffz                                 %! EXPLICIT_DYNAMIC:SM8
                             
                             % CellosVoiceI [measure 6]                                   %! SM4
-                            a'1
+                            af'1
                             \repeatTie
                             
                         }
