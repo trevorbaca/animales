@@ -61,7 +61,7 @@ def sforzando_exchange_rhythm(this_part):
             repeat_ties=True,
             ),
         tuplet_specifier=rhythmos.TupletSpecifier(
-            flatten_trivial_tuplets=True,
+            extract_trivial=True,
             trivialize=True,
             ),
         )
