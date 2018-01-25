@@ -40,7 +40,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CellosVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='\\p_sub_accents_continue_sffz',
+                                value='\\p_sub_but_accents_continue_sffz',
                                 ),
                             ],
                         ),
@@ -60,7 +60,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinsVoiceI',
                                 prototype='baca.MarginMarkup',
-                                value='Vni. I',
+                                value='Vni. I (1-10)',
                                 ),
                             ],
                         ),
@@ -80,7 +80,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinsVoiceII',
                                 prototype='baca.MarginMarkup',
-                                value='Vni. I',
+                                value='Vni. I (11-18)',
                                 ),
                             ],
                         ),
@@ -90,7 +90,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinsVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='\\p_sub_accents_continue_sffz',
+                                value='\\p_sub_but_accents_continue_sffz',
                                 ),
                             ],
                         ),
@@ -100,7 +100,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinsVoiceII',
                                 prototype='abjad.Dynamic',
-                                value='\\p_sub_accents_continue_sffz',
+                                value='\\p_sub_but_accents_continue_sffz',
                                 ),
                             ],
                         ),
@@ -135,7 +135,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinsVoiceI',
                                 prototype='baca.MarginMarkup',
-                                value='Vni. II',
+                                value='Vni. II (1-10)',
                                 ),
                             ],
                         ),
@@ -155,7 +155,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinsVoiceII',
                                 prototype='baca.MarginMarkup',
-                                value='Vni. II',
+                                value='Vni. II (11-18)',
                                 ),
                             ],
                         ),
@@ -165,7 +165,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinsVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='\\p_sub_accents_continue_sffz',
+                                value='\\p_sub_but_accents_continue_sffz',
                                 ),
                             ],
                         ),
@@ -175,7 +175,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinsVoiceII',
                                 prototype='abjad.Dynamic',
-                                value='\\p_sub_accents_continue_sffz',
+                                value='\\p_sub_but_accents_continue_sffz',
                                 ),
                             ],
                         ),
@@ -195,7 +195,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolasVoiceI',
                                 prototype='baca.MarginMarkup',
-                                value='Vle.',
+                                value='Vle. (1-10)',
                                 ),
                             ],
                         ),
@@ -215,7 +215,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolasVoiceII',
                                 prototype='baca.MarginMarkup',
-                                value='Vle.',
+                                value='Vle. (11-18)',
                                 ),
                             ],
                         ),
@@ -225,7 +225,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolasVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='\\p_sub_accents_continue_sffz',
+                                value='\\p_sub_but_accents_continue_sffz',
                                 ),
                             ],
                         ),
@@ -235,7 +235,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolasVoiceII',
                                 prototype='abjad.Dynamic',
-                                value='\\p_sub_accents_continue_sffz',
+                                value='\\p_sub_but_accents_continue_sffz',
                                 ),
                             ],
                         ),
@@ -243,6 +243,20 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('segment_number', 1),
+        (
+            'sounds_during_segment',
+            abjad.OrderedDict(
+                [
+                    ('FirstViolinsVoiceI', True),
+                    ('FirstViolinsVoiceII', True),
+                    ('SecondViolinsVoiceI', True),
+                    ('SecondViolinsVoiceII', True),
+                    ('ViolasVoiceI', True),
+                    ('ViolasVoiceII', True),
+                    ('CellosVoiceI', True),
+                    ]
+                ),
+            ),
         ('start_clock_time', "0'00''"),
         ('stop_clock_time', "0'11''"),
         (

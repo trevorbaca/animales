@@ -25,6 +25,20 @@ margin_markup = abjad.OrderedDict([
             )
         ),
     (
+        'Vc. (1-8)',
+        baca.MarginMarkup(
+            markup=baca.markup.instrument('Cellos (1-8)'),
+            short_markup=baca.markup.short_instrument('Vc. (1-8)'),
+            )
+        ),
+    (
+        'Vc. (9-14)',
+        baca.MarginMarkup(
+            markup=baca.markup.instrument('Cellos (9-14)'),
+            short_markup=baca.markup.short_instrument('Vc. (9-14)'),
+            )
+        ),
+    (
         'Cl.',
         baca.MarginMarkup(
             markup=baca.markup.instrument('Clarinets'),
@@ -123,6 +137,20 @@ margin_markup = abjad.OrderedDict([
             )
         ),
     (
+        'Vle. (1-10)',
+        baca.MarginMarkup(
+            markup=baca.markup.instrument('Violas (1-10)'),
+            short_markup=baca.markup.short_instrument('Vle. (1-10)'),
+            )
+        ),
+    (
+        'Vle. (11-18)',
+        baca.MarginMarkup(
+            markup=baca.markup.instrument('Violas (11-18)'),
+            short_markup=baca.markup.short_instrument('Vle. (11-18)'),
+            )
+        ),
+    (
         'Vni.',
         baca.MarginMarkup(
             markup=baca.markup.instrument('Violins'),
@@ -137,10 +165,38 @@ margin_markup = abjad.OrderedDict([
             )
         ),
     (
+        'Vni. I (1-10)',
+        baca.MarginMarkup(
+            markup=baca.markup.instrument('Violins I (1-10)'),
+            short_markup=baca.markup.short_instrument('Vni. I (1-10)'),
+            )
+        ),
+    (
+        'Vni. I (11-18)',
+        baca.MarginMarkup(
+            markup=baca.markup.instrument('Violins I (11-18)'),
+            short_markup=baca.markup.short_instrument('Vni. I (11-18)'),
+            )
+        ),
+    (
         'Vni. II',
         baca.MarginMarkup(
             markup=baca.markup.instrument('Violins II'),
             short_markup=baca.markup.short_instrument('Vni. II'),
+            )
+        ),
+    (
+        'Vni. II (1-10)',
+        baca.MarginMarkup(
+            markup=baca.markup.instrument('Violins II (1-10)'),
+            short_markup=baca.markup.short_instrument('Vni. II (1-10)'),
+            )
+        ),
+    (
+        'Vni. II (11-18)',
+        baca.MarginMarkup(
+            markup=baca.markup.instrument('Violins II (11-18)'),
+            short_markup=baca.markup.short_instrument('Vni. II (11-18)'),
             )
         ),
     ])

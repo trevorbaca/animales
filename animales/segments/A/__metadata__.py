@@ -26,7 +26,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinsVoiceI',
                                 prototype='baca.MarginMarkup',
-                                value='Vni. I',
+                                value='Vni. I (1-10)',
                                 ),
                             ],
                         ),
@@ -36,7 +36,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinsVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='\\p_sub_accents_continue_sffz',
+                                value='\\p_sub_but_accents_continue_sffz',
                                 ),
                             ],
                         ),
@@ -71,7 +71,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinsVoiceI',
                                 prototype='baca.MarginMarkup',
-                                value='Vni. II',
+                                value='Vni. II (1-10)',
                                 ),
                             ],
                         ),
@@ -81,7 +81,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinsVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='\\p_sub_accents_continue_sffz',
+                                value='\\p_sub_but_accents_continue_sffz',
                                 ),
                             ],
                         ),
@@ -89,6 +89,17 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('segment_number', 2),
+        (
+            'sounds_during_segment',
+            abjad.OrderedDict(
+                [
+                    ('FlutesVoiceI', False),
+                    ('FlutesVoiceII', False),
+                    ('FirstViolinsVoiceI', False),
+                    ('SecondViolinsVoiceI', False),
+                    ]
+                ),
+            ),
         ('start_clock_time', "0'11''"),
         ('stop_clock_time', "0'26''"),
         (
