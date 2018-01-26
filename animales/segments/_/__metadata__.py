@@ -263,5 +263,103 @@ metadata = abjad.OrderedDict(
             'time_signatures',
             ['4/4', '4/4', '4/4', '3/4', '3/4', '4/4'],
             ),
+        (
+            'voice_metadata',
+            abjad.OrderedDict(
+                [
+                    (
+                        'FirstViolinsVoiceI',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'sforzando_exchange_rhythm',
+                                    [
+                                        ('talea_weight_consumed', 132),
+                                        ],
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'FirstViolinsVoiceII',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'sforzando_exchange_rhythm',
+                                    [
+                                        ('talea_weight_consumed', 132),
+                                        ],
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'SecondViolinsVoiceI',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'sforzando_exchange_rhythm',
+                                    [
+                                        ('talea_weight_consumed', 132),
+                                        ],
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'SecondViolinsVoiceII',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'sforzando_exchange_rhythm',
+                                    [
+                                        ('talea_weight_consumed', 132),
+                                        ],
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'ViolasVoiceI',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'sforzando_exchange_rhythm',
+                                    [
+                                        ('talea_weight_consumed', 132),
+                                        ],
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'ViolasVoiceII',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'sforzando_exchange_rhythm',
+                                    [
+                                        ('talea_weight_consumed', 132),
+                                        ],
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'CellosVoiceI',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'sforzando_exchange_rhythm',
+                                    [
+                                        ('talea_weight_consumed', 132),
+                                        ],
+                                    ),
+                                ]
+                            ),
+                        ),
+                    ]
+                ),
+            ),
         ]
     )
