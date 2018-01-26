@@ -52,26 +52,19 @@ def sforzando_exchange_rhythm(this_part: int) -> baca.RhythmCommand:
         period = baca.sequence(counts).period_of_rotation()
         counts = counts[:period]
         part_to_counts[part] = counts
+
     preamble = part_to_preamble[this_part]
     counts = part_to_counts[this_part]
-
     talea = rhythmos.Talea(
         counts=counts,
         denominator=16,
         preamble=preamble,
         )
-    abjad.f(talea)
 
     rhythm_maker = rhythmos.TaleaRhythmMaker(
         extra_counts_per_division=[2],
-        talea=rhythmos.Talea(
-            counts=counts,
-            denominator=16,
-            preamble=preamble,
-            ),
-        tie_specifier=rhythmos.TieSpecifier(
-            repeat_ties=True,
-            ),
+        talea=talea,
+        tie_specifier=rhythmos.TieSpecifier(repeat_ties=True),
         tuplet_specifier=rhythmos.TupletSpecifier(
             extract_trivial=True,
             trivialize=True,

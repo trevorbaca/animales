@@ -364,15 +364,11 @@
                             %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-                                \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
-                                \p_sub_but_accents_continue_sffz                         %! REAPPLIED_DYNAMIC:SM8
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                \pitchedTrill                                            %! SC
+                                gf'2
+                                \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                \startTrillSpan af'                                      %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -446,11 +442,6 @@
                                                                 }                        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                         }                                %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                 }                                        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                            \line
-                                                {
-                                                    \small
-                                                        12/24
-                                                }
                                         }
                                     }
                                 \set Staff.instrumentName = \markup {
@@ -476,91 +467,39 @@
                                 \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
-                                ^ \markup {
-                                    \small
-                                        36/24
-                                    }
+                                gf'2
+                                -\accent                                                 %! IC
                                 
                                 % FirstViolinsVoiceI [measure 8]                         %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
+                                gf'2
                                 \repeatTie
                                 
                                 % FirstViolinsVoiceI [measure 9]                         %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
+                                gf'2
                                 \repeatTie
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                ^ \markup {
-                                    \small
-                                        54/24
-                                    }
+                                gf'4
+                                -\accent                                                 %! IC
                                 
                                 % FirstViolinsVoiceI [measure 10]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2.
+                                gf'2.
                                 \repeatTie
                                 
                                 % FirstViolinsVoiceI [measure 11]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'1
-                                \repeatTie
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                \pitchedTrill                                            %! SC
+                                f'1
+                                \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                \stopTrillSpan                                           %! SC
+                                \startTrillSpan gf'                                      %! SC
                                 
                                 % FirstViolinsVoiceI [measure 12]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
+                                f'4
                                 \repeatTie
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                ^ \markup {
-                                    \small
-                                        6/24
-                                    }
+                                f'4
+                                -\accent                                                 %! IC
+                                \stopTrillSpan                                           %! SC
                                 
                             }
                         }
@@ -594,15 +533,11 @@
                             %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-                                \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2.
-                                \p_sub_but_accents_continue_sffz                         %! REAPPLIED_DYNAMIC:SM8
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                \pitchedTrill                                            %! SC
+                                gf'2.
+                                \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                \startTrillSpan af'                                      %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -676,11 +611,6 @@
                                                                 }                        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                         }                                %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                 }                                        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                            \line
-                                                {
-                                                    \small
-                                                        18/24
-                                                }
                                         }
                                     }
                                 \set Staff.instrumentName = \markup {
@@ -706,91 +636,42 @@
                                 \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                ^ \markup {
-                                    \small
-                                        32/24
-                                    }
+                                gf'4
+                                -\accent                                                 %! IC
                                 
                                 % FirstViolinsVoiceII [measure 8]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
+                                gf'2
                                 \repeatTie
                                 
                                 % FirstViolinsVoiceII [measure 9]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
+                                gf'2
                                 \repeatTie
                                 \times 2/3 {
                                     
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'8
+                                    gf'8
                                     \repeatTie
                                     
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4
-                                    ^ \markup {
-                                        \small
-                                            58/24
-                                        }
+                                    gf'4
+                                    -\accent                                             %! IC
                                 }
                                 
                                 % FirstViolinsVoiceII [measure 10]                       %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2.
+                                gf'2.
                                 \repeatTie
                                 
                                 % FirstViolinsVoiceII [measure 11]                       %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'1
-                                \repeatTie
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                \pitchedTrill                                            %! SC
+                                f'1
+                                \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                \stopTrillSpan                                           %! SC
+                                \startTrillSpan gf'                                      %! SC
                                 
                                 % FirstViolinsVoiceII [measure 12]                       %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
+                                f'2
                                 \repeatTie
+                                \stopTrillSpan                                           %! SC
                                 
                             }
                         }
@@ -828,15 +709,11 @@
                             %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-                                \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'1
-                                \p_sub_but_accents_continue_sffz                         %! REAPPLIED_DYNAMIC:SM8
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                \pitchedTrill                                            %! SC
+                                gf'1
+                                \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                \startTrillSpan af'                                      %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -910,11 +787,6 @@
                                                                 }                        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                         }                                %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                 }                                        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                            \line
-                                                {
-                                                    \small
-                                                        27/24
-                                                }
                                         }
                                     }
                                 \set Staff.instrumentName = \markup {
@@ -941,78 +813,35 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 
                                 % SecondViolinsVoiceI [measure 8]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'8
+                                gf'8
                                 \repeatTie
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4.
-                                ^ \markup {
-                                    \small
-                                        36/24
-                                    }
+                                gf'4.
+                                -\accent                                                 %! IC
                                 
                                 % SecondViolinsVoiceI [measure 9]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2.
+                                gf'2.
                                 \repeatTie
                                 
                                 % SecondViolinsVoiceI [measure 10]                       %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4.
+                                gf'4.
                                 \repeatTie
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4.
-                                ^ \markup {
-                                    \small
-                                        45/24
-                                    }
+                                gf'4.
+                                -\accent                                                 %! IC
                                 
                                 % SecondViolinsVoiceI [measure 11]                       %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'1
-                                \repeatTie
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                \pitchedTrill                                            %! SC
+                                f'1
+                                \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                \stopTrillSpan                                           %! SC
+                                \startTrillSpan gf'                                      %! SC
                                 
                                 % SecondViolinsVoiceI [measure 12]                       %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
+                                f'2
                                 \repeatTie
+                                \stopTrillSpan                                           %! SC
                                 
                             }
                         }
@@ -1046,15 +875,11 @@
                             %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-                                \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'1
-                                \p_sub_but_accents_continue_sffz                         %! REAPPLIED_DYNAMIC:SM8
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                \pitchedTrill                                            %! SC
+                                gf'1
+                                \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                \startTrillSpan af'                                      %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -1128,11 +953,6 @@
                                                                 }                        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                         }                                %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                 }                                        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                            \line
-                                                {
-                                                    \small
-                                                        28/24
-                                                }
                                         }
                                     }
                                 \set Staff.instrumentName = \markup {
@@ -1160,89 +980,40 @@
                                 \times 2/3 {
                                     
                                     % SecondViolinsVoiceII [measure 8]                   %! SM4
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'4
+                                    gf'4
                                     \repeatTie
                                     
-                                    \once \override Accidental.color = #blue             %! SM24
-                                    \once \override Beam.color = #blue                   %! SM24
-                                    \once \override Dots.color = #blue                   %! SM24
-                                    \once \override Flag.color = #blue                   %! SM24
-                                    \once \override NoteHead.color = #blue               %! SM24
-                                    \once \override Stem.color = #blue                   %! SM24
-                                    c'8
-                                    ^ \markup {
-                                        \small
-                                            38/24
-                                        }
+                                    gf'8
+                                    -\accent                                             %! IC
                                 }
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
+                                gf'4
                                 \repeatTie
                                 
                                 % SecondViolinsVoiceII [measure 9]                       %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2.
+                                gf'2.
                                 \repeatTie
                                 
                                 % SecondViolinsVoiceII [measure 10]                      %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
+                                gf'2
                                 \repeatTie
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                ^ \markup {
-                                    \small
-                                        42/24
-                                    }
+                                gf'4
+                                -\accent                                                 %! IC
                                 
                                 % SecondViolinsVoiceII [measure 11]                      %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'1
-                                \repeatTie
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                \pitchedTrill                                            %! SC
+                                f'1
+                                \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                \stopTrillSpan                                           %! SC
+                                \startTrillSpan gf'                                      %! SC
                                 
                                 % SecondViolinsVoiceII [measure 12]                      %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
+                                f'2
                                 \repeatTie
+                                \stopTrillSpan                                           %! SC
                                 
                             }
                         }
@@ -1278,15 +1049,11 @@
                             %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-                                \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'1
-                                \p_sub_but_accents_continue_sffz                         %! REAPPLIED_DYNAMIC:SM8
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                \pitchedTrill                                            %! SC
+                                gf'1
+                                \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                \startTrillSpan af'                                      %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -1356,11 +1123,6 @@
                                                                 }                        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                         }                                %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                 }                                        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                            \line
-                                                {
-                                                    \small
-                                                        30/24
-                                                }
                                         }
                                     }
                                 \set Staff.instrumentName = \markup {
@@ -1385,87 +1147,38 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 
                                 % ViolasVoiceI [measure 8]                               %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
+                                gf'4
                                 \repeatTie
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4
-                                ^ \markup {
-                                    \small
-                                        51/24
-                                    }
+                                gf'4
+                                -\accent                                                 %! IC
                                 
                                 % ViolasVoiceI [measure 9]                               %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2.
+                                gf'2.
                                 \repeatTie
                                 
                                 % ViolasVoiceI [measure 10]                              %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2.
+                                gf'2.
                                 \repeatTie
                                 
                                 % ViolasVoiceI [measure 11]                              %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'4.
-                                \repeatTie
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                \pitchedTrill                                            %! SC
+                                f'4.
+                                \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                \stopTrillSpan                                           %! SC
+                                \startTrillSpan gf'                                      %! SC
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'8
-                                ^ \markup {
-                                    \small
-                                        27/24
-                                    }
+                                f'8
+                                -\accent                                                 %! IC
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
+                                f'2
                                 \repeatTie
                                 
                                 % ViolasVoiceI [measure 12]                              %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
+                                f'2
                                 \repeatTie
+                                \stopTrillSpan                                           %! SC
                                 
                             }
                         }
@@ -1497,15 +1210,11 @@
                             %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-                                \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'1
-                                \p_sub_but_accents_continue_sffz                         %! REAPPLIED_DYNAMIC:SM8
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                \pitchedTrill                                            %! SC
+                                gf'1
+                                \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                \startTrillSpan af'                                      %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -1575,11 +1284,6 @@
                                                                 }                        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                         }                                %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                 }                                        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                            \line
-                                                {
-                                                    \small
-                                                        36/24
-                                                }
                                         }
                                     }
                                 \set Staff.instrumentName = \markup {
@@ -1604,69 +1308,32 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 
                                 % ViolasVoiceII [measure 8]                              %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
+                                gf'2
                                 \repeatTie
                                 
                                 % ViolasVoiceII [measure 9]                              %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2.
-                                ^ \markup {
-                                    \small
-                                        48/24
-                                    }
+                                gf'2.
+                                -\accent                                                 %! IC
                                 
                                 % ViolasVoiceII [measure 10]                             %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2.
+                                gf'2.
                                 \repeatTie
                                 
                                 % ViolasVoiceII [measure 11]                             %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
-                                \repeatTie
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                \pitchedTrill                                            %! SC
+                                f'2
+                                \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                \stopTrillSpan                                           %! SC
+                                \startTrillSpan gf'                                      %! SC
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
-                                ^ \markup {
-                                    \small
-                                        24/24
-                                    }
+                                f'2
+                                -\accent                                                 %! IC
                                 
                                 % ViolasVoiceII [measure 12]                             %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
-                                c'2
+                                f'2
                                 \repeatTie
+                                \stopTrillSpan                                           %! SC
                                 
                             }
                         }
@@ -1691,15 +1358,11 @@
                         %@% \override Staff.Clef.color = ##f                             %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                             \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-                            \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
-                            c'4.
-                            \p_sub_but_accents_continue_sffz                             %! REAPPLIED_DYNAMIC:SM8
+                            \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                            \pitchedTrill                                                %! SC
+                            gf'4.
+                            \f_sub_but_accents_continue_sffz                             %! EXPLICIT_DYNAMIC:SM8
+                            \startTrillSpan af'                                          %! SC
                             ^ \markup {
                                 \column
                                     {
@@ -1753,11 +1416,6 @@
                                                             }                            %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                     }                                    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                             }                                            %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                        \line
-                                            {
-                                                \small
-                                                    9/24
-                                            }
                                     }
                                 }
                             \set Staff.instrumentName = \markup {
@@ -1773,100 +1431,42 @@
                             \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
-                            c'8
-                            ^ \markup {
-                                \small
-                                    36/24
-                                }
+                            gf'8
+                            -\accent                                                     %! IC
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
-                            c'2
+                            gf'2
                             \repeatTie
                             
                             % CellosVoiceI [measure 8]                                   %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
-                            c'2
+                            gf'2
                             \repeatTie
                             
                             % CellosVoiceI [measure 9]                                   %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
-                            c'4.
+                            gf'4.
                             \repeatTie
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
-                            c'4.
-                            ^ \markup {
-                                \small
-                                    54/24
-                                }
+                            gf'4.
+                            -\accent                                                     %! IC
                             
                             % CellosVoiceI [measure 10]                                  %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
-                            c'2.
+                            gf'2.
                             \repeatTie
                             
                             % CellosVoiceI [measure 11]                                  %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
-                            c'1
-                            \repeatTie
+                            \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                            \pitchedTrill                                                %! SC
+                            f'1
+                            \p_sub_but_accents_continue_sffz                             %! EXPLICIT_DYNAMIC:SM8
+                            \stopTrillSpan                                               %! SC
+                            \startTrillSpan gf'                                          %! SC
                             
                             % CellosVoiceI [measure 12]                                  %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
-                            c'8
+                            f'8
                             \repeatTie
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
-                            c'4.
-                            ^ \markup {
-                                \small
-                                    9/24
-                                }
+                            f'4.
+                            -\accent                                                     %! IC
+                            \stopTrillSpan                                               %! SC
                             
                         }
                     }

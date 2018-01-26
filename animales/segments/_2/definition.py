@@ -75,10 +75,29 @@ strings = [
     'CellosVoiceI',
     ]
 
+# first accents ...
 maker(
     baca.make_scopes(strings, [(1, 6)]),
-    baca.label(
-        abjad.label().with_durations(denominator=24),
-        selector=baca.lts(),
-        ),
+    baca.accents(selector=baca.pheads()[1:]),
+    )
+
+# then untie ...
+maker(
+    baca.make_scopes(strings, [5]),
+    baca.untie_to(),
+    )
+
+# ... then pitch
+maker(
+    baca.make_scopes(strings, [(1, 4)]),
+    baca.dynamic('f_sub_but_accents_continue_sffz', baca.pleaf(0)),
+    baca.pitches(['Gb4'], repeats=True),
+    baca.trill(pitch='Ab4'),
+    )
+
+maker(
+    baca.make_scopes(strings, [(5, 6)]),
+    baca.dynamic('p_sub_but_accents_continue_sffz', baca.pleaf(0)),
+    baca.pitches(['F4'], repeats=True),
+    baca.trill(pitch='Gb4'),
     )
