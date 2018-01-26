@@ -108,11 +108,19 @@ maker(
 maker(
     baca.make_scopes(strings, [(1, 4)]),
     baca.pitches([9], repeats=True),
-    baca.trill(pitch='B4'),
+    #baca.trill(pitch='B4'),
     )
 
 maker(
     baca.make_scopes(strings, [(5, 6)]),
     baca.pitches([8], repeats=True),
-    baca.trill(pitch='A4'),
+    #baca.trill(pitch='A4'),
+    )
+
+maker(
+    baca.make_scopes(strings, [(1, 6)]),
+    baca.label(
+        abjad.label().with_durations(denominator=24),
+        selector=baca.lts(),
+        ),
     )
