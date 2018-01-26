@@ -39,16 +39,20 @@ def sforzando_exchange_rhythm(this_part: int) -> baca.RhythmCommand:
             pattern = part_to_pattern[part]
         index += 1
 
+    part_to_preamble = abjad.OrderedDict()
     part_to_counts = abjad.OrderedDict()
     for part, indices in part_to_indices.items():
+        offset = indices[0]
+        if offset == 0:
+            preamble = []
+        else:
+            preamble = [offset]
+        part_to_preamble[part] = preamble
         counts = abjad.mathtools.difference_series(indices)
         period = baca.sequence(counts).period_of_rotation()
         counts = counts[:period]
-        counts *= 10
-        offset = indices[0]
-        if 0 < offset:
-            counts.insert(0, offset)
         part_to_counts[part] = counts
+    preamble = part_to_preamble[this_part]
     counts = part_to_counts[this_part]
 
     rhythm_maker = rhythmos.TaleaRhythmMaker(
@@ -56,6 +60,7 @@ def sforzando_exchange_rhythm(this_part: int) -> baca.RhythmCommand:
         talea=rhythmos.Talea(
             counts=counts,
             denominator=16,
+            preamble=preamble,
             ),
         tie_specifier=rhythmos.TieSpecifier(
             repeat_ties=True,
