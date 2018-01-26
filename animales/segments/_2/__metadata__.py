@@ -106,5 +106,36 @@ metadata = abjad.OrderedDict(
             'time_signatures',
             ['4/4', '4/4', '2/4', '3/4', '3/4', '4/4'],
             ),
+        (
+            'voice_metadata',
+            abjad.OrderedDict(
+                [
+                    (
+                        'FlutesVoiceI',
+                        abjad.OrderedDict(
+                            []
+                            ),
+                        ),
+                    (
+                        'FlutesVoiceII',
+                        abjad.OrderedDict(
+                            []
+                            ),
+                        ),
+                    (
+                        'FirstViolinsVoiceI',
+                        abjad.OrderedDict(
+                            []
+                            ),
+                        ),
+                    (
+                        'SecondViolinsVoiceI',
+                        abjad.OrderedDict(
+                            []
+                            ),
+                        ),
+                    ]
+                ),
+            ),
         ]
     )
