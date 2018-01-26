@@ -120,5 +120,66 @@ metadata = abjad.OrderedDict(
                 '2/4',
                 ],
             ),
+        (
+            'voice_metadata',
+            abjad.OrderedDict(
+                [
+                    (
+                        'PiccoloVoiceI',
+                        abjad.OrderedDict(
+                            []
+                            ),
+                        ),
+                    (
+                        'FlutesVoiceI',
+                        abjad.OrderedDict(
+                            []
+                            ),
+                        ),
+                    (
+                        'FlutesVoiceII',
+                        abjad.OrderedDict(
+                            []
+                            ),
+                        ),
+                    (
+                        'FirstViolinsVoiceI',
+                        abjad.OrderedDict(
+                            []
+                            ),
+                        ),
+                    (
+                        'SecondViolinsVoiceI',
+                        abjad.OrderedDict(
+                            []
+                            ),
+                        ),
+                    (
+                        'SecondViolinsVoiceII',
+                        abjad.OrderedDict(
+                            []
+                            ),
+                        ),
+                    (
+                        'ViolasVoiceI',
+                        abjad.OrderedDict(
+                            []
+                            ),
+                        ),
+                    (
+                        'CellosVoiceI',
+                        abjad.OrderedDict(
+                            []
+                            ),
+                        ),
+                    (
+                        'ContrabassesVoiceI',
+                        abjad.OrderedDict(
+                            []
+                            ),
+                        ),
+                    ]
+                ),
+            ),
         ]
     )
