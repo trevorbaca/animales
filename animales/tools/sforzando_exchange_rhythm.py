@@ -55,6 +55,13 @@ def sforzando_exchange_rhythm(this_part: int) -> baca.RhythmCommand:
     preamble = part_to_preamble[this_part]
     counts = part_to_counts[this_part]
 
+    talea = rhythmos.Talea(
+        counts=counts,
+        denominator=16,
+        preamble=preamble,
+        )
+    abjad.f(talea)
+
     rhythm_maker = rhythmos.TaleaRhythmMaker(
         extra_counts_per_division=[2],
         talea=rhythmos.Talea(

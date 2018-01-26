@@ -11,6 +11,36 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
+                        'CellosStaffI',
+                        [
+                            abjad.Momento(
+                                context='CellosVoiceI',
+                                prototype='abjad.Clef',
+                                value='tenor',
+                                ),
+                            abjad.Momento(
+                                context='CellosVoiceI',
+                                prototype='abjad.Instrument',
+                                value='Cello',
+                                ),
+                            abjad.Momento(
+                                context='CellosVoiceI',
+                                prototype='baca.MarginMarkup',
+                                value='Vc.',
+                                ),
+                            ],
+                        ),
+                    (
+                        'CellosVoiceI',
+                        [
+                            abjad.Momento(
+                                context='CellosVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='\\p_sub_but_accents_continue_sffz',
+                                ),
+                            ],
+                        ),
+                    (
                         'FirstViolinsStaffI',
                         [
                             abjad.Momento(
@@ -76,10 +106,70 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'SecondViolinsStaffII',
+                        [
+                            abjad.Momento(
+                                context='SecondViolinsVoiceII',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
+                                context='SecondViolinsVoiceII',
+                                prototype='abjad.Instrument',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
+                                context='SecondViolinsVoiceII',
+                                prototype='baca.MarginMarkup',
+                                value='Vni. II (11-18)',
+                                ),
+                            ],
+                        ),
+                    (
                         'SecondViolinsVoiceI',
                         [
                             abjad.Momento(
                                 context='SecondViolinsVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='\\p_sub_but_accents_continue_sffz',
+                                ),
+                            ],
+                        ),
+                    (
+                        'SecondViolinsVoiceII',
+                        [
+                            abjad.Momento(
+                                context='SecondViolinsVoiceII',
+                                prototype='abjad.Dynamic',
+                                value='\\p_sub_but_accents_continue_sffz',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ViolasStaffI',
+                        [
+                            abjad.Momento(
+                                context='ViolasVoiceI',
+                                prototype='abjad.Clef',
+                                value='alto',
+                                ),
+                            abjad.Momento(
+                                context='ViolasVoiceI',
+                                prototype='abjad.Instrument',
+                                value='Viola',
+                                ),
+                            abjad.Momento(
+                                context='ViolasVoiceI',
+                                prototype='baca.MarginMarkup',
+                                value='Vle. (1-10)',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ViolasVoiceI',
+                        [
+                            abjad.Momento(
+                                context='ViolasVoiceI',
                                 prototype='abjad.Dynamic',
                                 value='\\p_sub_but_accents_continue_sffz',
                                 ),
@@ -105,8 +195,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "0'26''"),
-        ('stop_clock_time', "0'40''"),
+        ('start_clock_time', "0'20''"),
+        ('stop_clock_time', "0'34''"),
         (
             'time_signatures',
             [

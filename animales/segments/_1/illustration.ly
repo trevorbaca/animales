@@ -358,11 +358,9 @@
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
                                 a'1
                                 -\accent                                                 %! IC
                                 \f_but_accents_sffz                                      %! EXPLICIT_DYNAMIC:SM8
-                                \startTrillSpan b'                                       %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -376,6 +374,11 @@
                                                         #(x11-color 'DarkViolet)         %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                         (“Violin”)                       %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                 }                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            \line
+                                                {
+                                                    \small
+                                                        36/24
+                                                }
                                         %@% \line                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                         %@%     {                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                         %@%         \vcenter                             %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
@@ -467,6 +470,10 @@
                                 
                                 a'2
                                 -\accent                                                 %! IC
+                                ^ \markup {
+                                    \small
+                                        54/24
+                                    }
                                 
                                 % FirstViolinsVoiceI [measure 3]                         %! SM4
                                 a'1
@@ -478,17 +485,17 @@
                                 
                                 % FirstViolinsVoiceI [measure 5]                         %! SM4
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
                                 af'2.
                                 -\accent                                                 %! IC
                                 \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-                                \stopTrillSpan                                           %! SC
-                                \startTrillSpan a'                                       %! SC
+                                ^ \markup {
+                                    \small
+                                        42/24
+                                    }
                                 
                                 % FirstViolinsVoiceI [measure 6]                         %! SM4
                                 af'1
                                 \repeatTie
-                                \stopTrillSpan                                           %! SC
                                 
                             }
                         }
@@ -522,11 +529,9 @@
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
                                 a'4
                                 -\accent                                                 %! IC
                                 \f_but_accents_sffz                                      %! EXPLICIT_DYNAMIC:SM8
-                                \startTrillSpan b'                                       %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -540,6 +545,11 @@
                                                         #(x11-color 'DarkViolet)         %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                         (“Violin”)                       %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                 }                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            \line
+                                                {
+                                                    \small
+                                                        6/24
+                                                }
                                         %@% \line                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                         %@%     {                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                         %@%         \vcenter                             %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
@@ -627,6 +637,10 @@
                                 
                                 a'2.
                                 -\accent                                                 %! IC
+                                ^ \markup {
+                                    \small
+                                        32/24
+                                    }
                                 
                                 % FirstViolinsVoiceII [measure 2]                        %! SM4
                                 a'2
@@ -639,6 +653,10 @@
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
                                     a'4
                                     -\accent                                             %! IC
+                                    ^ \markup {
+                                        \small
+                                            52/24
+                                        }
                                 }
                                 
                                 a'4
@@ -654,19 +672,23 @@
                                 
                                 % FirstViolinsVoiceII [measure 5]                        %! SM4
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
                                 af'4
                                 \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-                                \stopTrillSpan                                           %! SC
-                                \startTrillSpan a'                                       %! SC
+                                ^ \markup {
+                                    \small
+                                        6/24
+                                    }
                                 
                                 af'2
                                 -\accent                                                 %! IC
+                                ^ \markup {
+                                    \small
+                                        36/24
+                                    }
                                 
                                 % FirstViolinsVoiceII [measure 6]                        %! SM4
                                 af'1
                                 \repeatTie
-                                \stopTrillSpan                                           %! SC
                                 
                             }
                         }
@@ -704,11 +726,9 @@
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
                                 a'2
                                 -\accent                                                 %! IC
                                 \f_but_accents_sffz                                      %! EXPLICIT_DYNAMIC:SM8
-                                \startTrillSpan b'                                       %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -722,6 +742,11 @@
                                                         #(x11-color 'DarkViolet)         %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                         (“Violin”)                       %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                 }                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            \line
+                                                {
+                                                    \small
+                                                        15/24
+                                                }
                                         %@% \line                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                         %@%     {                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                         %@%         \vcenter                             %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
@@ -812,6 +837,10 @@
                                 
                                 a'4.
                                 -\accent                                                 %! IC
+                                ^ \markup {
+                                    \small
+                                        36/24
+                                    }
                                 
                                 % SecondViolinsVoiceI [measure 2]                        %! SM4
                                 a'1
@@ -823,6 +852,10 @@
                                 
                                 a'2..
                                 -\accent                                                 %! IC
+                                ^ \markup {
+                                    \small
+                                        39/24
+                                    }
                                 
                                 % SecondViolinsVoiceI [measure 4]                        %! SM4
                                 a'2.
@@ -830,11 +863,12 @@
                                 
                                 % SecondViolinsVoiceI [measure 5]                        %! SM4
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
                                 af'2
                                 \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-                                \stopTrillSpan                                           %! SC
-                                \startTrillSpan a'                                       %! SC
+                                ^ \markup {
+                                    \small
+                                        15/24
+                                    }
                                 
                                 af'8
                                 \repeatTie
@@ -843,11 +877,14 @@
                                 af'8
                                 -\accent                                                 %! IC
                                 ]
+                                ^ \markup {
+                                    \small
+                                        27/24
+                                    }
                                 
                                 % SecondViolinsVoiceI [measure 6]                        %! SM4
                                 af'1
                                 \repeatTie
-                                \stopTrillSpan                                           %! SC
                                 
                             }
                         }
@@ -881,11 +918,9 @@
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
                                 a'2
                                 -\accent                                                 %! IC
                                 \f_but_accents_sffz                                      %! EXPLICIT_DYNAMIC:SM8
-                                \startTrillSpan b'                                       %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -899,6 +934,11 @@
                                                         #(x11-color 'DarkViolet)         %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                         (“Violin”)                       %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                 }                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            \line
+                                                {
+                                                    \small
+                                                        16/24
+                                                }
                                         %@% \line                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                         %@%     {                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                         %@%         \vcenter                             %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
@@ -990,6 +1030,10 @@
                                     
                                     a'8
                                     -\accent                                             %! IC
+                                    ^ \markup {
+                                        \small
+                                            38/24
+                                        }
                                 }
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -1006,6 +1050,10 @@
                                 
                                 a'2.
                                 -\accent                                                 %! IC
+                                ^ \markup {
+                                    \small
+                                        36/24
+                                    }
                                 
                                 % SecondViolinsVoiceII [measure 4]                       %! SM4
                                 a'2.
@@ -1013,11 +1061,12 @@
                                 
                                 % SecondViolinsVoiceII [measure 5]                       %! SM4
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
                                 af'2.
                                 \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-                                \stopTrillSpan                                           %! SC
-                                \startTrillSpan a'                                       %! SC
+                                ^ \markup {
+                                    \small
+                                        20/24
+                                    }
                                 \times 2/3 {
                                     
                                     % SecondViolinsVoiceII [measure 6]                   %! SM4
@@ -1027,11 +1076,14 @@
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
                                     af'4
                                     -\accent                                             %! IC
+                                    ^ \markup {
+                                        \small
+                                            22/24
+                                        }
                                 }
                                 
                                 af'2.
                                 \repeatTie
-                                \stopTrillSpan                                           %! SC
                                 
                             }
                         }
@@ -1067,11 +1119,9 @@
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
                                 a'2.
                                 -\accent                                                 %! IC
                                 \f_but_accents_sffz                                      %! EXPLICIT_DYNAMIC:SM8
-                                \startTrillSpan b'                                       %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -1085,6 +1135,11 @@
                                                         #(x11-color 'DarkViolet)         %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                         (“Viola”)                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                 }                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            \line
+                                                {
+                                                    \small
+                                                        18/24
+                                                }
                                         %@% \line                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                         %@%     {                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                         %@%         \vcenter                             %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
@@ -1166,6 +1221,10 @@
                                 
                                 a'4
                                 -\accent                                                 %! IC
+                                ^ \markup {
+                                    \small
+                                        51/24
+                                    }
                                 
                                 % ViolasVoiceI [measure 2]                               %! SM4
                                 a'1
@@ -1177,6 +1236,10 @@
                                 
                                 a'8
                                 -\accent                                                 %! IC
+                                ^ \markup {
+                                    \small
+                                        21/24
+                                    }
                                 
                                 % ViolasVoiceI [measure 4]                               %! SM4
                                 a'2.
@@ -1184,11 +1247,12 @@
                                 
                                 % ViolasVoiceI [measure 5]                               %! SM4
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
                                 af'2.
                                 \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-                                \stopTrillSpan                                           %! SC
-                                \startTrillSpan a'                                       %! SC
+                                ^ \markup {
+                                    \small
+                                        33/24
+                                    }
                                 
                                 % ViolasVoiceI [measure 6]                               %! SM4
                                 af'2
@@ -1199,7 +1263,10 @@
                                 
                                 af'4.
                                 -\accent                                                 %! IC
-                                \stopTrillSpan                                           %! SC
+                                ^ \markup {
+                                    \small
+                                        9/24
+                                    }
                                 
                             }
                         }
@@ -1231,11 +1298,9 @@
                             %@% \override Staff.Clef.color = ##f                         %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
                                 a'1
                                 -\accent                                                 %! IC
                                 \f_but_accents_sffz                                      %! EXPLICIT_DYNAMIC:SM8
-                                \startTrillSpan b'                                       %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -1249,6 +1314,11 @@
                                                         #(x11-color 'DarkViolet)         %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                         (“Viola”)                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                 }                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            \line
+                                                {
+                                                    \small
+                                                        24/24
+                                                }
                                         %@% \line                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                         %@%     {                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                         %@%         \vcenter                             %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
@@ -1331,6 +1401,10 @@
                                 % ViolasVoiceII [measure 2]                              %! SM4
                                 a'1
                                 -\accent                                                 %! IC
+                                ^ \markup {
+                                    \small
+                                        48/24
+                                    }
                                 
                                 % ViolasVoiceII [measure 3]                              %! SM4
                                 a'1
@@ -1339,14 +1413,19 @@
                                 % ViolasVoiceII [measure 4]                              %! SM4
                                 a'2.
                                 -\accent                                                 %! IC
+                                ^ \markup {
+                                    \small
+                                        18/24
+                                    }
                                 
                                 % ViolasVoiceII [measure 5]                              %! SM4
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
                                 af'2.
                                 \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-                                \stopTrillSpan                                           %! SC
-                                \startTrillSpan a'                                       %! SC
+                                ^ \markup {
+                                    \small
+                                        36/24
+                                    }
                                 
                                 % ViolasVoiceII [measure 6]                              %! SM4
                                 af'2.
@@ -1354,7 +1433,10 @@
                                 
                                 af'4
                                 -\accent                                                 %! IC
-                                \stopTrillSpan                                           %! SC
+                                ^ \markup {
+                                    \small
+                                        6/24
+                                    }
                                 
                             }
                         }
@@ -1380,11 +1462,9 @@
                             \once \override Staff.Clef.color = #(x11-color 'blue)        %! EXPLICIT_CLEF_COLOR:SM6
                         %@% \override Staff.Clef.color = ##f                             %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                             \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                            \pitchedTrill                                                %! SC
                             a'1
                             -\accent                                                     %! IC
                             \f_but_accents_sffz                                          %! EXPLICIT_DYNAMIC:SM8
-                            \startTrillSpan b'                                           %! SC
                             ^ \markup {
                                 \column
                                     {
@@ -1438,6 +1518,11 @@
                                                             }                            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                     }                                    %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                             }                                            %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                        \line
+                                            {
+                                                \small
+                                                    33/24
+                                            }
                                     }
                                 }
                             \set Staff.instrumentName = \markup {
@@ -1459,6 +1544,10 @@
                             
                             a'8
                             -\accent                                                     %! IC
+                            ^ \markup {
+                                \small
+                                    54/24
+                                }
                             
                             a'2
                             \repeatTie
@@ -1478,19 +1567,23 @@
                             a'8
                             -\accent                                                     %! IC
                             ]
+                            ^ \markup {
+                                \small
+                                    3/24
+                                }
                             
                             % CellosVoiceI [measure 5]                                   %! SM4
                             \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                            \pitchedTrill                                                %! SC
                             af'2.
                             \p_sub_but_accents_continue_sffz                             %! EXPLICIT_DYNAMIC:SM8
-                            \stopTrillSpan                                               %! SC
-                            \startTrillSpan a'                                           %! SC
+                            ^ \markup {
+                                \small
+                                    42/24
+                                }
                             
                             % CellosVoiceI [measure 6]                                   %! SM4
                             af'1
                             \repeatTie
-                            \stopTrillSpan                                               %! SC
                             
                         }
                     }
