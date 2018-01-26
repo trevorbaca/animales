@@ -82,20 +82,25 @@ strings = [
     'CellosVoiceI',
     ]
 
+#maker(
+#    baca.make_scopes(strings, [(1, 4)]),
+#    baca.dynamic('f_but_accents_sffz', baca.pleaf(0)),
+#    )
+
+#maker(
+#    baca.make_scopes(strings, [(5, 6)]),
+#    baca.dynamic('p_sub_but_accents_continue_sffz', baca.pleaf(0)),
+#    )
+
+# first accents ...
 maker(
-    baca.make_scopes(strings, [(1, 4)]),
-    baca.dynamic('f_but_accents_sffz', baca.pleaf(0)),
+    baca.scope('FirstViolinsVoiceI', 1),
+    baca.accents(selector=baca.phead(0)),
     )
 
-maker(
-    baca.make_scopes(strings, [(5, 6)]),
-    baca.dynamic('p_sub_but_accents_continue_sffz', baca.pleaf(0)),
-    )
-
-# accents ...
 maker(
     baca.make_scopes(strings, [(1, 6)]),
-    baca.accents(),
+    baca.accents(selector=baca.pheads()[1:]),
     )
 
 # then untie ...
@@ -107,20 +112,14 @@ maker(
 # ... then pitch
 maker(
     baca.make_scopes(strings, [(1, 4)]),
-    baca.pitches([9], repeats=True),
-    #baca.trill(pitch='B4'),
+    baca.dynamic('f_but_accents_sffz', baca.pleaf(0)),
+    baca.pitches(['A4'], repeats=True),
+    baca.trill(pitch='B4'),
     )
 
 maker(
     baca.make_scopes(strings, [(5, 6)]),
-    baca.pitches([8], repeats=True),
-    #baca.trill(pitch='A4'),
-    )
-
-maker(
-    baca.make_scopes(strings, [(1, 6)]),
-    baca.label(
-        abjad.label().with_durations(denominator=24),
-        selector=baca.lts(),
-        ),
+    baca.dynamic('p_sub_but_accents_continue_sffz', baca.pleaf(0)),
+    baca.pitches(['Ab4'], repeats=True),
+    baca.trill(pitch='A4'),
     )
