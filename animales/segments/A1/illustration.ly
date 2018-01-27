@@ -12,13 +12,13 @@
             \include "layout.ly"
         }
         \context Score = "Score" \with {
-            currentBarNumber = #13
+            currentBarNumber = #18
         } <<
             \tag Piccolo.FluteI.FluteII.FluteIII.OboeI.OboeII.OboeIII.EnglishHorn.ClarinetI.ClarinetII.ClarinetIII.BassClarinet.BassoonI.BassoonII.HornI.HornII.HornIII.HornIV.TrumpetI.TrumpetII.TrumpetIII.TrumpetIV.TromboneI.TromboneII.TromboneIII.TromboneIV.HornI.HornII.HornIII.HornIV.Tuba.Harp.Piano.PercussionI.PercussionII.PercussionIII.PercussionIV.FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX.FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII.SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX.SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII.ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX.ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII.CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV.ContrabassI.ContrabassII.ContrabassIII.ContrabassIV.ContrabassV.ContrabassVI %! ST4
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalSkips = "GlobalSkips" {
                     
-                    % GlobalSkips [measure 13]                                           %! SM4
+                    % GlobalSkips [measure 18]                                           %! SM4
                 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
                 %@% \markup {                                                            %! REAPPLIED_METRONOME_MARK:SM27
                 %@%     \fontsize                                                        %! REAPPLIED_METRONOME_MARK:SM27
@@ -86,7 +86,7 @@
                             %@%             #3                                           %! MEASURE_NUMBER_MARKUP:SM31
                             %@%             \with-color                                  %! MEASURE_NUMBER_MARKUP:SM31
                             %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%                 (13)                                     %! MEASURE_NUMBER_MARKUP:SM31
+                            %@%                 (18)                                     %! MEASURE_NUMBER_MARKUP:SM31
                             %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
                             %@% \line                                                    %! MEASURE_INDEX_MARKUP:SM32
                             %@%     {                                                    %! MEASURE_INDEX_MARKUP:SM32
@@ -102,7 +102,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.1]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [C.1]                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
@@ -110,12 +110,12 @@
                             %@%             #(x11-color 'DarkCyan)                       %! CLOCK_TIME_MARKUP:SM28
                             %@%             \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%                 #3                                       %! CLOCK_TIME_MARKUP:SM28
-                            %@%                 [0'20'']                                 %! CLOCK_TIME_MARKUP:SM28
+                            %@%                 [0'29'']                                 %! CLOCK_TIME_MARKUP:SM28
                             %@%     }                                                    %! CLOCK_TIME_MARKUP:SM28
                             }
                         }
                     
-                    % GlobalSkips [measure 14]                                           %! SM4
+                    % GlobalSkips [measure 19]                                           %! SM4
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
                     ^ \markup {
@@ -127,7 +127,7 @@
                             %@%             #3                                           %! MEASURE_NUMBER_MARKUP:SM31
                             %@%             \with-color                                  %! MEASURE_NUMBER_MARKUP:SM31
                             %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%                 (14)                                     %! MEASURE_NUMBER_MARKUP:SM31
+                            %@%                 (19)                                     %! MEASURE_NUMBER_MARKUP:SM31
                             %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
                             %@% \line                                                    %! MEASURE_INDEX_MARKUP:SM32
                             %@%     {                                                    %! MEASURE_INDEX_MARKUP:SM32
@@ -143,7 +143,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.2]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [C.2]                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
@@ -151,12 +151,13 @@
                             %@%             #(x11-color 'DarkCyan)                       %! CLOCK_TIME_MARKUP:SM28
                             %@%             \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%                 #3                                       %! CLOCK_TIME_MARKUP:SM28
-                            %@%                 [0'22'']                                 %! CLOCK_TIME_MARKUP:SM28
+                            %@%                 [0'31'']                                 %! CLOCK_TIME_MARKUP:SM28
                             %@%     }                                                    %! CLOCK_TIME_MARKUP:SM28
                             }
                         }
                     
-                    % GlobalSkips [measure 15]                                           %! SM4
+                    % GlobalSkips [measure 20]                                           %! SM4
+                    \mark #1                                                             %! IC
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
                     ^ \markup {
@@ -168,7 +169,7 @@
                             %@%             #3                                           %! MEASURE_NUMBER_MARKUP:SM31
                             %@%             \with-color                                  %! MEASURE_NUMBER_MARKUP:SM31
                             %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%                 (15)                                     %! MEASURE_NUMBER_MARKUP:SM31
+                            %@%                 (20)                                     %! MEASURE_NUMBER_MARKUP:SM31
                             %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
                             %@% \line                                                    %! MEASURE_INDEX_MARKUP:SM32
                             %@%     {                                                    %! MEASURE_INDEX_MARKUP:SM32
@@ -184,7 +185,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.3]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [C.3]                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
@@ -192,12 +193,12 @@
                             %@%             #(x11-color 'DarkCyan)                       %! CLOCK_TIME_MARKUP:SM28
                             %@%             \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%                 #3                                       %! CLOCK_TIME_MARKUP:SM28
-                            %@%                 [0'24'']                                 %! CLOCK_TIME_MARKUP:SM28
+                            %@%                 [0'33'']                                 %! CLOCK_TIME_MARKUP:SM28
                             %@%     }                                                    %! CLOCK_TIME_MARKUP:SM28
                             }
                         }
                     
-                    % GlobalSkips [measure 16]                                           %! SM4
+                    % GlobalSkips [measure 21]                                           %! SM4
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
                     ^ \markup {
@@ -209,7 +210,7 @@
                             %@%             #3                                           %! MEASURE_NUMBER_MARKUP:SM31
                             %@%             \with-color                                  %! MEASURE_NUMBER_MARKUP:SM31
                             %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%                 (16)                                     %! MEASURE_NUMBER_MARKUP:SM31
+                            %@%                 (21)                                     %! MEASURE_NUMBER_MARKUP:SM31
                             %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
                             %@% \line                                                    %! MEASURE_INDEX_MARKUP:SM32
                             %@%     {                                                    %! MEASURE_INDEX_MARKUP:SM32
@@ -225,7 +226,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.4]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [C.4]                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
@@ -233,16 +234,15 @@
                             %@%             #(x11-color 'DarkCyan)                       %! CLOCK_TIME_MARKUP:SM28
                             %@%             \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%                 #3                                       %! CLOCK_TIME_MARKUP:SM28
-                            %@%                 [0'26'']                                 %! CLOCK_TIME_MARKUP:SM28
+                            %@%                 [0'35'']                                 %! CLOCK_TIME_MARKUP:SM28
                             %@%     }                                                    %! CLOCK_TIME_MARKUP:SM28
                             }
                         }
                     
-                    % GlobalSkips [measure 17]                                           %! SM4
-                    \time 2/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
+                    % GlobalSkips [measure 22]                                           %! SM4
+                    \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
-                    s1 * 1/2
-                    \stopTextSpan                                                        %! SM29
+                    s1 * 3/4
                     ^ \markup {
                         \column
                             {
@@ -252,7 +252,7 @@
                             %@%             #3                                           %! MEASURE_NUMBER_MARKUP:SM31
                             %@%             \with-color                                  %! MEASURE_NUMBER_MARKUP:SM31
                             %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
-                            %@%                 (17)                                     %! MEASURE_NUMBER_MARKUP:SM31
+                            %@%                 (22)                                     %! MEASURE_NUMBER_MARKUP:SM31
                             %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
                             %@% \line                                                    %! MEASURE_INDEX_MARKUP:SM32
                             %@%     {                                                    %! MEASURE_INDEX_MARKUP:SM32
@@ -268,7 +268,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.5]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [C.5]                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
@@ -276,7 +276,49 @@
                             %@%             #(x11-color 'DarkCyan)                       %! CLOCK_TIME_MARKUP:SM28
                             %@%             \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%                 #3                                       %! CLOCK_TIME_MARKUP:SM28
-                            %@%                 [0'28'']                                 %! CLOCK_TIME_MARKUP:SM28
+                            %@%                 [0'37'']                                 %! CLOCK_TIME_MARKUP:SM28
+                            %@%     }                                                    %! CLOCK_TIME_MARKUP:SM28
+                            }
+                        }
+                    
+                    % GlobalSkips [measure 23]                                           %! SM4
+                    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
+                    s1 * 3/4
+                    \stopTextSpan                                                        %! SM29
+                    ^ \markup {
+                        \column
+                            {
+                            %@% \line                                                    %! MEASURE_NUMBER_MARKUP:SM31
+                            %@%     {                                                    %! MEASURE_NUMBER_MARKUP:SM31
+                            %@%         \fontsize                                        %! MEASURE_NUMBER_MARKUP:SM31
+                            %@%             #3                                           %! MEASURE_NUMBER_MARKUP:SM31
+                            %@%             \with-color                                  %! MEASURE_NUMBER_MARKUP:SM31
+                            %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
+                            %@%                 (23)                                     %! MEASURE_NUMBER_MARKUP:SM31
+                            %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
+                            %@% \line                                                    %! MEASURE_INDEX_MARKUP:SM32
+                            %@%     {                                                    %! MEASURE_INDEX_MARKUP:SM32
+                            %@%         \fontsize                                        %! MEASURE_INDEX_MARKUP:SM32
+                            %@%             #3                                           %! MEASURE_INDEX_MARKUP:SM32
+                            %@%             \with-color                                  %! MEASURE_INDEX_MARKUP:SM32
+                            %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_INDEX_MARKUP:SM32
+                            %@%                 <5>                                      %! MEASURE_INDEX_MARKUP:SM32
+                            %@%     }                                                    %! MEASURE_INDEX_MARKUP:SM32
+                            %@% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
+                            %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
+                            %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [C.6]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
+                            %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
+                            %@%         \with-color                                      %! CLOCK_TIME_MARKUP:SM28
+                            %@%             #(x11-color 'DarkCyan)                       %! CLOCK_TIME_MARKUP:SM28
+                            %@%             \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
+                            %@%                 #3                                       %! CLOCK_TIME_MARKUP:SM28
+                            %@%                 [0'39'']                                 %! CLOCK_TIME_MARKUP:SM28
                             %@%     }                                                    %! CLOCK_TIME_MARKUP:SM28
                             }
                         }
@@ -293,7 +335,7 @@
                         \context Staff = "FirstViolinsStaffI" {
                             \context Voice = "FirstViolinsVoiceI" {
                                 
-                                % FirstViolinsVoiceI [measure 13]                        %! SM4
+                                % FirstViolinsVoiceI [measure 18]                        %! SM4
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -323,9 +365,9 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 \pitchedTrill                                            %! SC
-                                e'1
+                                df'1
                                 \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-                                \startTrillSpan f'                                       %! SC
+                                \startTrillSpan ef'                                      %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -424,38 +466,38 @@
                                 \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 
-                                % FirstViolinsVoiceI [measure 14]                        %! SM4
-                                e'2
+                                % FirstViolinsVoiceI [measure 19]                        %! SM4
+                                df'2
                                 \repeatTie
                                 
-                                e'2
+                                df'2
                                 -\accent                                                 %! IC
                                 
-                                % FirstViolinsVoiceI [measure 15]                        %! SM4
-                                e'1
-                                \repeatTie
-                                
-                                % FirstViolinsVoiceI [measure 16]                        %! SM4
+                                % FirstViolinsVoiceI [measure 20]                        %! SM4
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
-                                ef'1
-                                -\accent                                                 %! IC
-                                \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                c'1
+                                \p_sub                                                   %! EXPLICIT_DYNAMIC:SM8
                                 \stopTrillSpan                                           %! SC
-                                \startTrillSpan e'                                       %! SC
-                                
-                                % FirstViolinsVoiceI [measure 17]                        %! SM4
-                                ef'2
-                                \repeatTie
-                                \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
+                                
+                                % FirstViolinsVoiceI [measure 21]                        %! SM4
+                                c'1
+                                \repeatTie
+                                
+                                % FirstViolinsVoiceI [measure 22]                        %! SM4
+                                c'2.
+                                \repeatTie
+                                
+                                % FirstViolinsVoiceI [measure 23]                        %! SM4
+                                c'2.
+                                \repeatTie
                                 
                             }
                         }
                         \context Staff = "FirstViolinsStaffII" {
                             \context Voice = "FirstViolinsVoiceII" {
                                 
-                                % FirstViolinsVoiceII [measure 13]                       %! SM4
+                                % FirstViolinsVoiceII [measure 18]                       %! SM4
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -485,9 +527,9 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 \pitchedTrill                                            %! SC
-                                e'1
+                                df'1
                                 \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-                                \startTrillSpan f'                                       %! SC
+                                \startTrillSpan ef'                                      %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -586,39 +628,31 @@
                                 \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 
-                                % FirstViolinsVoiceII [measure 14]                       %! SM4
-                                e'2.
+                                % FirstViolinsVoiceII [measure 19]                       %! SM4
+                                df'2.
                                 \repeatTie
                                 
-                                e'4
+                                df'4
                                 -\accent                                                 %! IC
                                 
-                                % FirstViolinsVoiceII [measure 15]                       %! SM4
-                                e'1
-                                \repeatTie
-                                \times 2/3 {
-                                    
-                                    % FirstViolinsVoiceII [measure 16]                   %! SM4
-                                    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                    \pitchedTrill                                        %! SC
-                                    ef'8
-                                    \p_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
-                                    \stopTrillSpan                                       %! SC
-                                    \startTrillSpan e'                                   %! SC
-                                    
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-                                    ef'4
-                                    -\accent                                             %! IC
-                                }
-                                
-                                ef'2.
-                                \repeatTie
-                                
-                                % FirstViolinsVoiceII [measure 17]                       %! SM4
-                                ef'2
-                                \repeatTie
-                                \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
+                                % FirstViolinsVoiceII [measure 20]                       %! SM4
+                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                                c'1
+                                \p_sub                                                   %! EXPLICIT_DYNAMIC:SM8
+                                \stopTrillSpan                                           %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
+                                
+                                % FirstViolinsVoiceII [measure 21]                       %! SM4
+                                c'1
+                                \repeatTie
+                                
+                                % FirstViolinsVoiceII [measure 22]                       %! SM4
+                                c'2.
+                                \repeatTie
+                                
+                                % FirstViolinsVoiceII [measure 23]                       %! SM4
+                                c'2.
+                                \repeatTie
                                 
                             }
                         }
@@ -629,7 +663,7 @@
                         \context Staff = "SecondViolinsStaffI" {
                             \context Voice = "SecondViolinsVoiceI" {
                                 
-                                % SecondViolinsVoiceI [measure 13]                       %! SM4
+                                % SecondViolinsVoiceI [measure 18]                       %! SM4
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -659,9 +693,9 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 \pitchedTrill                                            %! SC
-                                e'1
+                                df'1
                                 \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-                                \startTrillSpan f'                                       %! SC
+                                \startTrillSpan ef'                                      %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -760,36 +794,28 @@
                                 \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 
-                                % SecondViolinsVoiceI [measure 14]                       %! SM4
-                                e'1
+                                % SecondViolinsVoiceI [measure 19]                       %! SM4
+                                df'1
                                 \repeatTie
                                 
-                                % SecondViolinsVoiceI [measure 15]                       %! SM4
-                                e'8
-                                \repeatTie
-                                
-                                e'2..
-                                -\accent                                                 %! IC
-                                
-                                % SecondViolinsVoiceI [measure 16]                       %! SM4
+                                % SecondViolinsVoiceI [measure 20]                       %! SM4
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
-                                ef'2
-                                \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                c'1
+                                \p_sub                                                   %! EXPLICIT_DYNAMIC:SM8
                                 \stopTrillSpan                                           %! SC
-                                \startTrillSpan e'                                       %! SC
-                                
-                                ef'8
-                                \repeatTie
-                                
-                                ef'4.
-                                -\accent                                                 %! IC
-                                
-                                % SecondViolinsVoiceI [measure 17]                       %! SM4
-                                ef'2
-                                \repeatTie
-                                \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
+                                
+                                % SecondViolinsVoiceI [measure 21]                       %! SM4
+                                c'1
+                                \repeatTie
+                                
+                                % SecondViolinsVoiceI [measure 22]                       %! SM4
+                                c'2.
+                                \repeatTie
+                                
+                                % SecondViolinsVoiceI [measure 23]                       %! SM4
+                                c'2.
+                                \repeatTie
                                 
                             }
                         }
@@ -797,7 +823,7 @@
                             \context Voice = "SecondViolinsVoiceII" {
                                 \times 2/3 {
                                     
-                                    % SecondViolinsVoiceII [measure 13]                  %! SM4
+                                    % SecondViolinsVoiceII [measure 18]                  %! SM4
                                     \set Staff.instrumentName = \markup {
                                         \hcenter-in
                                             #16
@@ -827,9 +853,9 @@
                                     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                     \pitchedTrill                                        %! SC
-                                    e'8
+                                    df'8
                                     \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
-                                    \startTrillSpan f'                                   %! SC
+                                    \startTrillSpan ef'                                  %! SC
                                     ^ \markup {
                                         \column
                                             {
@@ -929,46 +955,35 @@
                                     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                     
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-                                    e'4
+                                    df'4
                                     -\accent                                             %! IC
                                 }
                                 
-                                e'2.
+                                df'2.
                                 \repeatTie
                                 
-                                % SecondViolinsVoiceII [measure 14]                      %! SM4
-                                e'1
-                                \repeatTie
-                                \times 2/3 {
-                                    
-                                    % SecondViolinsVoiceII [measure 15]                  %! SM4
-                                    e'4
-                                    \repeatTie
-                                    
-                                    e'8
-                                    -\accent                                             %! IC
-                                }
-                                
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                e'2.
+                                % SecondViolinsVoiceII [measure 19]                      %! SM4
+                                df'1
                                 \repeatTie
                                 
-                                % SecondViolinsVoiceII [measure 16]                      %! SM4
+                                % SecondViolinsVoiceII [measure 20]                      %! SM4
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
-                                ef'2.
-                                \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                c'1
+                                \p_sub                                                   %! EXPLICIT_DYNAMIC:SM8
                                 \stopTrillSpan                                           %! SC
-                                \startTrillSpan e'                                       %! SC
-                                
-                                ef'4
-                                -\accent                                                 %! IC
-                                
-                                % SecondViolinsVoiceII [measure 17]                      %! SM4
-                                ef'2
-                                \repeatTie
-                                \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
+                                
+                                % SecondViolinsVoiceII [measure 21]                      %! SM4
+                                c'1
+                                \repeatTie
+                                
+                                % SecondViolinsVoiceII [measure 22]                      %! SM4
+                                c'2.
+                                \repeatTie
+                                
+                                % SecondViolinsVoiceII [measure 23]                      %! SM4
+                                c'2.
+                                \repeatTie
                                 
                             }
                         }
@@ -979,7 +994,7 @@
                         \context Staff = "ViolasStaffI" {
                             \context Voice = "ViolasVoiceI" {
                                 
-                                % ViolasVoiceI [measure 13]                              %! SM4
+                                % ViolasVoiceI [measure 18]                              %! SM4
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -1007,9 +1022,9 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 \pitchedTrill                                            %! SC
-                                e'2
+                                df'2
                                 \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-                                \startTrillSpan f'                                       %! SC
+                                \startTrillSpan ef'                                      %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -1102,46 +1117,41 @@
                                 \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 
-                                e'8
+                                df'8
                                 \repeatTie
                                 
-                                e'4.
+                                df'4.
                                 -\accent                                                 %! IC
                                 
-                                % ViolasVoiceI [measure 14]                              %! SM4
-                                e'1
+                                % ViolasVoiceI [measure 19]                              %! SM4
+                                df'1
                                 \repeatTie
                                 
-                                % ViolasVoiceI [measure 15]                              %! SM4
-                                e'4
-                                \repeatTie
-                                
-                                e'2.
-                                -\accent                                                 %! IC
-                                
-                                % ViolasVoiceI [measure 16]                              %! SM4
+                                % ViolasVoiceI [measure 20]                              %! SM4
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
-                                ef'1
-                                \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                c'1
+                                \p_sub                                                   %! EXPLICIT_DYNAMIC:SM8
                                 \stopTrillSpan                                           %! SC
-                                \startTrillSpan e'                                       %! SC
+                                \revert TrillSpanner.staff-padding                       %! OC
                                 
-                                % ViolasVoiceI [measure 17]                              %! SM4
-                                ef'4.
+                                % ViolasVoiceI [measure 21]                              %! SM4
+                                c'1
                                 \repeatTie
                                 
-                                ef'8
-                                -\accent                                                 %! IC
-                                \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
-                                \revert TrillSpanner.staff-padding                       %! OC
+                                % ViolasVoiceI [measure 22]                              %! SM4
+                                c'2.
+                                \repeatTie
+                                
+                                % ViolasVoiceI [measure 23]                              %! SM4
+                                c'2.
+                                \repeatTie
                                 
                             }
                         }
                         \context Staff = "ViolasStaffII" {
                             \context Voice = "ViolasVoiceII" {
                                 
-                                % ViolasVoiceII [measure 13]                             %! SM4
+                                % ViolasVoiceII [measure 18]                             %! SM4
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -1169,9 +1179,9 @@
                                 \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 \pitchedTrill                                            %! SC
-                                e'2.
+                                df'2.
                                 \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-                                \startTrillSpan f'                                       %! SC
+                                \startTrillSpan ef'                                      %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -1264,33 +1274,31 @@
                                 \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 
-                                e'4
+                                df'4
                                 -\accent                                                 %! IC
                                 
-                                % ViolasVoiceII [measure 14]                             %! SM4
-                                e'1
+                                % ViolasVoiceII [measure 19]                             %! SM4
+                                df'1
                                 \repeatTie
                                 
-                                % ViolasVoiceII [measure 15]                             %! SM4
-                                e'2
-                                \repeatTie
-                                
-                                e'2
-                                -\accent                                                 %! IC
-                                
-                                % ViolasVoiceII [measure 16]                             %! SM4
+                                % ViolasVoiceII [measure 20]                             %! SM4
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                \pitchedTrill                                            %! SC
-                                ef'1
-                                \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+                                c'1
+                                \p_sub                                                   %! EXPLICIT_DYNAMIC:SM8
                                 \stopTrillSpan                                           %! SC
-                                \startTrillSpan e'                                       %! SC
-                                
-                                % ViolasVoiceII [measure 17]                             %! SM4
-                                ef'2
-                                \repeatTie
-                                \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
+                                
+                                % ViolasVoiceII [measure 21]                             %! SM4
+                                c'1
+                                \repeatTie
+                                
+                                % ViolasVoiceII [measure 22]                             %! SM4
+                                c'2.
+                                \repeatTie
+                                
+                                % ViolasVoiceII [measure 23]                             %! SM4
+                                c'2.
+                                \repeatTie
                                 
                             }
                         }
@@ -1298,7 +1306,7 @@
                     \context Staff = "CellosStaffI" {
                         \context Voice = "CellosVoiceI" {
                             
-                            % CellosVoiceI [measure 13]                                  %! SM4
+                            % CellosVoiceI [measure 18]                                  %! SM4
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -1318,9 +1326,9 @@
                             \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                             \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             \pitchedTrill                                                %! SC
-                            e'1
+                            df'1
                             \f_sub_but_accents_continue_sffz                             %! EXPLICIT_DYNAMIC:SM8
-                            \startTrillSpan f'                                           %! SC
+                            \startTrillSpan ef'                                          %! SC
                             ^ \markup {
                                 \column
                                     {
@@ -1389,36 +1397,57 @@
                             \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                             
-                            % CellosVoiceI [measure 14]                                  %! SM4
-                            e'4.
+                            % CellosVoiceI [measure 19]                                  %! SM4
+                            df'4.
                             \repeatTie
                             
-                            e'8
+                            df'8
                             -\accent                                                     %! IC
                             
-                            e'2
+                            df'2
                             \repeatTie
                             
-                            % CellosVoiceI [measure 15]                                  %! SM4
-                            e'2..
-                            \repeatTie
-                            
-                            e'8
-                            -\accent                                                     %! IC
-                            
-                            % CellosVoiceI [measure 16]                                  %! SM4
+                            % CellosVoiceI [measure 20]                                  %! SM4
                             \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                            \pitchedTrill                                                %! SC
-                            ef'1
-                            \p_sub_but_accents_continue_sffz                             %! EXPLICIT_DYNAMIC:SM8
+                            c'1
+                            \p_sub                                                       %! EXPLICIT_DYNAMIC:SM8
                             \stopTrillSpan                                               %! SC
-                            \startTrillSpan e'                                           %! SC
-                            
-                            % CellosVoiceI [measure 17]                                  %! SM4
-                            ef'2
-                            \repeatTie
-                            \stopTrillSpan                                               %! RIGHT_BROKEN_TRILL %! SC
                             \revert TrillSpanner.staff-padding                           %! OC
+                            
+                            % CellosVoiceI [measure 21]                                  %! SM4
+                            c'1
+                            \repeatTie
+                            
+                            % CellosVoiceI [measure 22]                                  %! SM4
+                            c'2.
+                            \repeatTie
+                            
+                            % CellosVoiceI [measure 23]                                  %! SM4
+                            c'2.
+                            \repeatTie
+                            
+                        }
+                    }
+                    \context Staff = "ContrabassesStaffI" {
+                        \context Voice = "ContrabassesVoiceI" {
+                            
+                            % ContrabassesVoiceI [measure 18]                            %! SM4
+                            R1 * 1
+                            
+                            % ContrabassesVoiceI [measure 19]                            %! SM4
+                            R1 * 1
+                            
+                            % ContrabassesVoiceI [measure 20]                            %! SM4
+                            R1 * 1
+                            
+                            % ContrabassesVoiceI [measure 21]                            %! SM4
+                            R1 * 1
+                            
+                            % ContrabassesVoiceI [measure 22]                            %! SM4
+                            R1 * 3/4
+                            
+                            % ContrabassesVoiceI [measure 23]                            %! SM4
+                            R1 * 3/4
                             
                         }
                     }
