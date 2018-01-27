@@ -1,5 +1,6 @@
 import abjad
 import baca
+from typing import List
 from abjad import rhythmmakertools as rhythmos
 
 
@@ -43,10 +44,9 @@ def sforzando_exchange_rhythm(this_part: int) -> baca.RhythmCommand:
     part_to_counts = abjad.OrderedDict()
     for part, indices in part_to_indices.items():
         offset = indices[0]
-        if offset == 0:
-            preamble = []
-        else:
-            preamble = [offset]
+        preamble: List[int] = []
+        if offset != 0:
+            preamble.append(offset)
         part_to_preamble[part] = preamble
         counts = abjad.mathtools.difference_series(indices)
         period = baca.sequence(counts).period_of_rotation()

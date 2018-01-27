@@ -11,7 +11,7 @@ from abjad import rhythmmakertools as rhythmos
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
     margin_markup=animales.margin_markup,
-    measures_per_stage=[1, 1, 1, 1, 1],
+    measures_per_stage=True,
     metronome_marks=animales.metronome_marks,
     rehearsal_letter='',
     score_template=animales.ScoreTemplate(
@@ -20,8 +20,6 @@ maker = baca.SegmentMaker(
         violas=[1, 1],
         cellos=[1],
         ),
-    metronome_mark_measure_map=[
-        ],
     time_signatures=animales.time_signatures[12:17],
     transpose_score=True,
     )
