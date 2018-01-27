@@ -22,9 +22,8 @@ maker = baca.SegmentMaker(
         ),
     time_signatures=animales.time_signatures[12:17],
     transpose_score=True,
+    validate_measure_count=5,
     )
-
-maker.validate_measure_count(5)
 
 maker(
     baca.scope('FirstViolinsVoiceI', 1, 5),

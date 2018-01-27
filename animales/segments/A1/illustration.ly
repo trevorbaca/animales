@@ -1128,6 +1128,7 @@
                                 \repeatTie
                                 
                                 % ViolasVoiceI [measure 20]                              %! SM4
+                                \override RepeatTie.direction = #up                      %! OC
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 c'1
                                 \p_sub                                                   %! EXPLICIT_DYNAMIC:SM8
@@ -1145,6 +1146,7 @@
                                 % ViolasVoiceI [measure 23]                              %! SM4
                                 c'2.
                                 \repeatTie
+                                \revert RepeatTie.direction                              %! OC
                                 
                             }
                         }
@@ -1282,6 +1284,7 @@
                                 \repeatTie
                                 
                                 % ViolasVoiceII [measure 20]                             %! SM4
+                                \override RepeatTie.direction = #up                      %! OC
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 c'1
                                 \p_sub                                                   %! EXPLICIT_DYNAMIC:SM8
@@ -1299,6 +1302,7 @@
                                 % ViolasVoiceII [measure 23]                             %! SM4
                                 c'2.
                                 \repeatTie
+                                \revert RepeatTie.direction                              %! OC
                                 
                             }
                         }
@@ -1425,29 +1429,6 @@
                             % CellosVoiceI [measure 23]                                  %! SM4
                             c'2.
                             \repeatTie
-                            
-                        }
-                    }
-                    \context Staff = "ContrabassesStaffI" {
-                        \context Voice = "ContrabassesVoiceI" {
-                            
-                            % ContrabassesVoiceI [measure 18]                            %! SM4
-                            R1 * 1
-                            
-                            % ContrabassesVoiceI [measure 19]                            %! SM4
-                            R1 * 1
-                            
-                            % ContrabassesVoiceI [measure 20]                            %! SM4
-                            R1 * 1
-                            
-                            % ContrabassesVoiceI [measure 21]                            %! SM4
-                            R1 * 1
-                            
-                            % ContrabassesVoiceI [measure 22]                            %! SM4
-                            R1 * 3/4
-                            
-                            % ContrabassesVoiceI [measure 23]                            %! SM4
-                            R1 * 3/4
                             
                         }
                     }

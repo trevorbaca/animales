@@ -3,6 +3,10 @@ import abjad
 
 metadata = abjad.OrderedDict(
     [
+        (
+            'bol_measure_numbers',
+            [18],
+            ),
         ('duration', "0'11''"),
         ('first_measure_number', 18),
         ('last_measure_number', 23),
@@ -250,7 +254,6 @@ metadata = abjad.OrderedDict(
                     ('ViolasVoiceI', True),
                     ('ViolasVoiceII', True),
                     ('CellosVoiceI', True),
-                    ('ContrabassesVoiceI', False),
                     ]
                 ),
             ),
