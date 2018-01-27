@@ -19,13 +19,11 @@ maker = baca.SegmentMaker(
         second_violins=[1, 1],
         violas=[1, 1],
         cellos=[1],
-        contrabasses=[1],
         ),
     time_signatures=animales.time_signatures[18:24],
     transpose_score=True,
+    validate_measure_count=6,
     )
-
-maker.validate_measure_count(6)
 
 maker(
     baca.scope('GlobalSkips', 3),
@@ -113,4 +111,12 @@ maker(
     baca.subito_dynamic('p'),
     baca.make_tied_notes(repeat_ties=True),
     baca.pitch(0),
+    )
+
+maker(
+    baca.scopes(
+        ('ViolasVoiceI', 3, 6),
+        ('ViolasVoiceII', 3, 6),
+        ),
+    baca.repeat_ties_up(),
     )

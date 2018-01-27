@@ -21,9 +21,8 @@ maker = baca.SegmentMaker(
         ),
     time_signatures=animales.time_signatures[:6],
     transpose_score=True,
+    validate_measure_count=6,
     )
-
-maker.validate_measure_count(6)
 
 maker(
     baca.scope('GlobalSkips', 1),
