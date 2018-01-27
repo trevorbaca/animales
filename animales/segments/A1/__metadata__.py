@@ -7,7 +7,7 @@ metadata = abjad.OrderedDict(
             'bol_measure_numbers',
             [18],
             ),
-        ('duration', "0'11''"),
+        ('duration', "0'12''"),
         ('first_measure_number', 18),
         ('last_measure_number', 23),
         (
@@ -100,7 +100,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinsVoiceII',
                                 prototype='abjad.Dynamic',
-                                value='\\p_sub',
+                                value='\\f_sub_but_accents_continue_sffz',
                                 ),
                             ],
                         ),
@@ -175,7 +175,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinsVoiceII',
                                 prototype='abjad.Dynamic',
-                                value='\\p_sub',
+                                value='\\f_sub_but_accents_continue_sffz',
                                 ),
                             ],
                         ),
@@ -235,7 +235,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolasVoiceII',
                                 prototype='abjad.Dynamic',
-                                value='\\p_sub',
+                                value='\\f_sub_but_accents_continue_sffz',
                                 ),
                             ],
                         ),
@@ -258,10 +258,10 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('start_clock_time', "0'29''"),
-        ('stop_clock_time', "0'40''"),
+        ('stop_clock_time', "0'41''"),
         (
             'time_signatures',
-            ['4/4', '4/4', '4/4', '4/4', '3/4', '3/4'],
+            ['4/4', '4/4', '4/4', '4/4', '4/4', '3/4'],
             ),
         (
             'voice_metadata',
