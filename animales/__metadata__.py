@@ -17,6 +17,10 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
+                        'A1',
+                        ['4/4', '4/4'],
+                        ),
+                    (
                         '_1',
                         ['4/4', '4/4', '4/4', '3/4', '3/4', '4/4'],
                         ),
