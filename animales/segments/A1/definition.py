@@ -8,6 +8,10 @@ from abjad import rhythmmakertools as rhythmos
 ##################################### [A1] ####################################
 ###############################################################################
 
+metadata = baca.metadata(__file__)
+start = metadata.get('last_measure_number')
+assert start == 17
+
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
     margin_markup=animales.margin_markup,
@@ -20,7 +24,7 @@ maker = baca.SegmentMaker(
         violas=[1, 1],
         cellos=[1],
         ),
-    time_signatures=animales.time_signatures[18:24],
+    time_signatures=animales.time_signatures[start:start + 6],
     transpose_score=True,
     validate_measure_count=6,
     )
@@ -106,17 +110,21 @@ maker(
     baca.trill_spanner_staff_padding(4),
     )
 
+non_divisi = [
+    'FirstViolinsVoiceI',
+    'SecondViolinsVoiceI',
+    'ViolasVoiceI',
+    'CellosVoiceI',
+    ]
+
 maker(
-    baca.make_scopes(strings, [(3, 6)]),
+    baca.make_scopes(non_divisi, [(3, 6)]),
     baca.subito_dynamic('p'),
     baca.make_tied_notes(repeat_ties=True),
     baca.pitch(0),
     )
 
 maker(
-    baca.scopes(
-        ('ViolasVoiceI', 3, 6),
-        ('ViolasVoiceII', 3, 6),
-        ),
+    baca.scope('ViolasVoiceI', 3, 6),
     baca.repeat_ties_up(),
     )

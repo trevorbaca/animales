@@ -240,9 +240,8 @@
                         }
                     
                     % GlobalSkips [measure 22]                                           %! SM4
-                    \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-                    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
-                    s1 * 3/4
+                    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
+                    s1 * 1
                     ^ \markup {
                         \column
                             {
@@ -282,7 +281,8 @@
                         }
                     
                     % GlobalSkips [measure 23]                                           %! SM4
-                    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
+                    \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
+                    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 3/4
                     \stopTextSpan                                                        %! SM29
                     ^ \markup {
@@ -485,7 +485,7 @@
                                 \repeatTie
                                 
                                 % FirstViolinsVoiceI [measure 22]                        %! SM4
-                                c'2.
+                                c'1
                                 \repeatTie
                                 
                                 % FirstViolinsVoiceI [measure 23]                        %! SM4
@@ -636,23 +636,18 @@
                                 -\accent                                                 %! IC
                                 
                                 % FirstViolinsVoiceII [measure 20]                       %! SM4
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                c'1
-                                \p_sub                                                   %! EXPLICIT_DYNAMIC:SM8
+                                R1 * 1
                                 \stopTrillSpan                                           %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
                                 
                                 % FirstViolinsVoiceII [measure 21]                       %! SM4
-                                c'1
-                                \repeatTie
+                                R1 * 1
                                 
                                 % FirstViolinsVoiceII [measure 22]                       %! SM4
-                                c'2.
-                                \repeatTie
+                                R1 * 1
                                 
                                 % FirstViolinsVoiceII [measure 23]                       %! SM4
-                                c'2.
-                                \repeatTie
+                                R1 * 3/4
                                 
                             }
                         }
@@ -810,7 +805,7 @@
                                 \repeatTie
                                 
                                 % SecondViolinsVoiceI [measure 22]                       %! SM4
-                                c'2.
+                                c'1
                                 \repeatTie
                                 
                                 % SecondViolinsVoiceI [measure 23]                       %! SM4
@@ -967,23 +962,18 @@
                                 \repeatTie
                                 
                                 % SecondViolinsVoiceII [measure 20]                      %! SM4
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                c'1
-                                \p_sub                                                   %! EXPLICIT_DYNAMIC:SM8
+                                R1 * 1
                                 \stopTrillSpan                                           %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
                                 
                                 % SecondViolinsVoiceII [measure 21]                      %! SM4
-                                c'1
-                                \repeatTie
+                                R1 * 1
                                 
                                 % SecondViolinsVoiceII [measure 22]                      %! SM4
-                                c'2.
-                                \repeatTie
+                                R1 * 1
                                 
                                 % SecondViolinsVoiceII [measure 23]                      %! SM4
-                                c'2.
-                                \repeatTie
+                                R1 * 3/4
                                 
                             }
                         }
@@ -1140,7 +1130,7 @@
                                 \repeatTie
                                 
                                 % ViolasVoiceI [measure 22]                              %! SM4
-                                c'2.
+                                c'1
                                 \repeatTie
                                 
                                 % ViolasVoiceI [measure 23]                              %! SM4
@@ -1284,25 +1274,18 @@
                                 \repeatTie
                                 
                                 % ViolasVoiceII [measure 20]                             %! SM4
-                                \override RepeatTie.direction = #up                      %! OC
-                                \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                                c'1
-                                \p_sub                                                   %! EXPLICIT_DYNAMIC:SM8
+                                R1 * 1
                                 \stopTrillSpan                                           %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
                                 
                                 % ViolasVoiceII [measure 21]                             %! SM4
-                                c'1
-                                \repeatTie
+                                R1 * 1
                                 
                                 % ViolasVoiceII [measure 22]                             %! SM4
-                                c'2.
-                                \repeatTie
+                                R1 * 1
                                 
                                 % ViolasVoiceII [measure 23]                             %! SM4
-                                c'2.
-                                \repeatTie
-                                \revert RepeatTie.direction                              %! OC
+                                R1 * 3/4
                                 
                             }
                         }
@@ -1423,7 +1406,7 @@
                             \repeatTie
                             
                             % CellosVoiceI [measure 22]                                  %! SM4
-                            c'2.
+                            c'1
                             \repeatTie
                             
                             % CellosVoiceI [measure 23]                                  %! SM4

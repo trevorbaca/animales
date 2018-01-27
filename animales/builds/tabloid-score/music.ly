@@ -17,6 +17,7 @@
         \include "_segments/segment--2.ly"
         \include "_segments/segment--3.ly"
         \include "_segments/segment-A1.ly"
+        \include "_segments/segment-A2.ly"
         }
     >>
 }

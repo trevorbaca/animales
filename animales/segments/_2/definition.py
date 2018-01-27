@@ -8,6 +8,10 @@ from abjad import rhythmmakertools as rhythmos
 #################################### [_2] #####################################
 ###############################################################################
 
+metadata = baca.metadata(__file__)
+start = metadata.get('last_measure_number')
+assert start == 6
+
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
     margin_markup=animales.margin_markup,
@@ -20,7 +24,7 @@ maker = baca.SegmentMaker(
         violas=[1, 1],
         cellos=[1],
         ),
-    time_signatures=animales.time_signatures[6:12],
+    time_signatures=animales.time_signatures[start:start + 6],
     transpose_score=True,
     validate_measure_count=6,
     )
