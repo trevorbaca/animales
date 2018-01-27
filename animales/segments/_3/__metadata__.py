@@ -3,9 +3,13 @@ import abjad
 
 metadata = abjad.OrderedDict(
     [
-        ('duration', "0'14''"),
+        (
+            'bol_measure_numbers',
+            [13],
+            ),
+        ('duration', "0'09''"),
         ('first_measure_number', 13),
-        ('last_measure_number', 20),
+        ('last_measure_number', 17),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -61,10 +65,40 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'FirstViolinsStaffII',
+                        [
+                            abjad.Momento(
+                                context='FirstViolinsVoiceII',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
+                                context='FirstViolinsVoiceII',
+                                prototype='abjad.Instrument',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
+                                context='FirstViolinsVoiceII',
+                                prototype='baca.MarginMarkup',
+                                value='Vni. I (11-18)',
+                                ),
+                            ],
+                        ),
+                    (
                         'FirstViolinsVoiceI',
                         [
                             abjad.Momento(
                                 context='FirstViolinsVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='\\p_sub_but_accents_continue_sffz',
+                                ),
+                            ],
+                        ),
+                    (
+                        'FirstViolinsVoiceII',
+                        [
+                            abjad.Momento(
+                                context='FirstViolinsVoiceII',
                                 prototype='abjad.Dynamic',
                                 value='\\p_sub_but_accents_continue_sffz',
                                 ),
@@ -166,10 +200,40 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'ViolasStaffII',
+                        [
+                            abjad.Momento(
+                                context='ViolasVoiceII',
+                                prototype='abjad.Clef',
+                                value='alto',
+                                ),
+                            abjad.Momento(
+                                context='ViolasVoiceII',
+                                prototype='abjad.Instrument',
+                                value='Viola',
+                                ),
+                            abjad.Momento(
+                                context='ViolasVoiceII',
+                                prototype='baca.MarginMarkup',
+                                value='Vle. (11-18)',
+                                ),
+                            ],
+                        ),
+                    (
                         'ViolasVoiceI',
                         [
                             abjad.Momento(
                                 context='ViolasVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='\\p_sub_but_accents_continue_sffz',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ViolasVoiceII',
+                        [
+                            abjad.Momento(
+                                context='ViolasVoiceII',
                                 prototype='abjad.Dynamic',
                                 value='\\p_sub_but_accents_continue_sffz',
                                 ),
@@ -183,89 +247,115 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
-                    ('PiccoloVoiceI', False),
-                    ('FlutesVoiceI', False),
-                    ('FlutesVoiceII', False),
-                    ('FirstViolinsVoiceI', False),
-                    ('SecondViolinsVoiceI', False),
-                    ('SecondViolinsVoiceII', False),
-                    ('ViolasVoiceI', False),
-                    ('CellosVoiceI', False),
-                    ('ContrabassesVoiceI', False),
+                    ('FirstViolinsVoiceI', True),
+                    ('FirstViolinsVoiceII', True),
+                    ('SecondViolinsVoiceI', True),
+                    ('SecondViolinsVoiceII', True),
+                    ('ViolasVoiceI', True),
+                    ('ViolasVoiceII', True),
+                    ('CellosVoiceI', True),
                     ]
                 ),
             ),
         ('start_clock_time', "0'20''"),
-        ('stop_clock_time', "0'34''"),
+        ('stop_clock_time', "0'29''"),
         (
             'time_signatures',
-            [
-                '4/4',
-                '4/4',
-                '4/4',
-                '3/4',
-                '3/4',
-                '4/4',
-                '4/4',
-                '2/4',
-                ],
+            ['4/4', '4/4', '4/4', '4/4', '2/4'],
             ),
         (
             'voice_metadata',
             abjad.OrderedDict(
                 [
                     (
-                        'PiccoloVoiceI',
-                        abjad.OrderedDict(
-                            []
-                            ),
-                        ),
-                    (
-                        'FlutesVoiceI',
-                        abjad.OrderedDict(
-                            []
-                            ),
-                        ),
-                    (
-                        'FlutesVoiceII',
-                        abjad.OrderedDict(
-                            []
-                            ),
-                        ),
-                    (
                         'FirstViolinsVoiceI',
                         abjad.OrderedDict(
-                            []
+                            [
+                                (
+                                    'sforzando_exchange_rhythm',
+                                    [
+                                        ('talea_weight_consumed', 108),
+                                        ],
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'FirstViolinsVoiceII',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'sforzando_exchange_rhythm',
+                                    [
+                                        ('talea_weight_consumed', 108),
+                                        ],
+                                    ),
+                                ]
                             ),
                         ),
                     (
                         'SecondViolinsVoiceI',
                         abjad.OrderedDict(
-                            []
+                            [
+                                (
+                                    'sforzando_exchange_rhythm',
+                                    [
+                                        ('talea_weight_consumed', 108),
+                                        ],
+                                    ),
+                                ]
                             ),
                         ),
                     (
                         'SecondViolinsVoiceII',
                         abjad.OrderedDict(
-                            []
+                            [
+                                (
+                                    'sforzando_exchange_rhythm',
+                                    [
+                                        ('talea_weight_consumed', 108),
+                                        ],
+                                    ),
+                                ]
                             ),
                         ),
                     (
                         'ViolasVoiceI',
                         abjad.OrderedDict(
-                            []
+                            [
+                                (
+                                    'sforzando_exchange_rhythm',
+                                    [
+                                        ('talea_weight_consumed', 108),
+                                        ],
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'ViolasVoiceII',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'sforzando_exchange_rhythm',
+                                    [
+                                        ('talea_weight_consumed', 108),
+                                        ],
+                                    ),
+                                ]
                             ),
                         ),
                     (
                         'CellosVoiceI',
                         abjad.OrderedDict(
-                            []
-                            ),
-                        ),
-                    (
-                        'ContrabassesVoiceI',
-                        abjad.OrderedDict(
-                            []
+                            [
+                                (
+                                    'sforzando_exchange_rhythm',
+                                    [
+                                        ('talea_weight_consumed', 108),
+                                        ],
+                                    ),
+                                ]
                             ),
                         ),
                     ]
