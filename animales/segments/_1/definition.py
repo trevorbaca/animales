@@ -24,8 +24,6 @@ maker = baca.SegmentMaker(
     )
 
 maker.validate_measure_count(6)
-#maker.validate_stage_count(6)
-#maker.validate_measures_per_stage()
 
 maker(
     baca.scope('GlobalSkips', 1),
