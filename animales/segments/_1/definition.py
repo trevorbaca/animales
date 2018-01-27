@@ -82,16 +82,6 @@ strings = [
     'CellosVoiceI',
     ]
 
-#maker(
-#    baca.make_scopes(strings, [(1, 4)]),
-#    baca.dynamic('f_but_accents_sffz', baca.pleaf(0)),
-#    )
-
-#maker(
-#    baca.make_scopes(strings, [(5, 6)]),
-#    baca.dynamic('p_sub_but_accents_continue_sffz', baca.pleaf(0)),
-#    )
-
 # first accents ...
 maker(
     baca.scope('FirstViolinsVoiceI', 1),
@@ -114,12 +104,35 @@ maker(
     baca.make_scopes(strings, [(1, 4)]),
     baca.dynamic('f_but_accents_sffz', baca.pleaf(0)),
     baca.pitches(['A4'], repeats=True),
-    baca.trill(pitch='B4'),
+    baca.trill('B4'),
     )
 
 maker(
     baca.make_scopes(strings, [(5, 6)]),
     baca.dynamic('p_sub_but_accents_continue_sffz', baca.pleaf(0)),
     baca.pitches(['Ab4'], repeats=True),
-    baca.trill(pitch='A4'),
+    baca.trill('A4', broken=abjad.Right),
+    )
+
+raised_trill = [
+    'FirstViolinsVoiceII',
+    'SecondViolinsVoiceII',
+    ]
+
+unraised_trill = [
+    'FirstViolinsVoiceI',
+    'SecondViolinsVoiceI',
+    'ViolasVoiceI',
+    'ViolasVoiceII',
+    'CellosVoiceI',
+    ]
+
+maker(
+    baca.make_scopes(raised_trill, [(1, 6)]),
+    baca.trill_spanner_staff_padding(6),
+    )
+
+maker(
+    baca.make_scopes(unraised_trill, [(1, 6)]),
+    baca.trill_spanner_staff_padding(4),
     )

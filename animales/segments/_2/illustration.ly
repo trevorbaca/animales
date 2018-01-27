@@ -358,6 +358,7 @@
                                                 (1-10)
                                             }
                                     }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
+                                \override TrillSpanner.staff-padding = #4                %! OC
                                 \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
                                 \clef "treble"                                           %! REAPPLIED_CLEF:SM8
                                 \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
@@ -499,7 +500,8 @@
                                 
                                 f'4
                                 -\accent                                                 %! IC
-                                \stopTrillSpan                                           %! SC
+                                \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
+                                \revert TrillSpanner.staff-padding                       %! OC
                                 
                             }
                         }
@@ -527,6 +529,7 @@
                                                 (11-18)
                                             }
                                     }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
+                                \override TrillSpanner.staff-padding = #6                %! OC
                                 \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
                                 \clef "treble"                                           %! REAPPLIED_CLEF:SM8
                                 \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
@@ -671,7 +674,8 @@
                                 % FirstViolinsVoiceII [measure 12]                       %! SM4
                                 f'2
                                 \repeatTie
-                                \stopTrillSpan                                           %! SC
+                                \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
+                                \revert TrillSpanner.staff-padding                       %! OC
                                 
                             }
                         }
@@ -703,6 +707,7 @@
                                                 (1-10)
                                             }
                                     }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
+                                \override TrillSpanner.staff-padding = #4                %! OC
                                 \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
                                 \clef "treble"                                           %! REAPPLIED_CLEF:SM8
                                 \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
@@ -841,7 +846,8 @@
                                 % SecondViolinsVoiceI [measure 12]                       %! SM4
                                 f'2
                                 \repeatTie
-                                \stopTrillSpan                                           %! SC
+                                \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
+                                \revert TrillSpanner.staff-padding                       %! OC
                                 
                             }
                         }
@@ -869,6 +875,7 @@
                                                 (11-18)
                                             }
                                     }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
+                                \override TrillSpanner.staff-padding = #6                %! OC
                                 \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
                                 \clef "treble"                                           %! REAPPLIED_CLEF:SM8
                                 \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
@@ -1013,7 +1020,8 @@
                                 % SecondViolinsVoiceII [measure 12]                      %! SM4
                                 f'2
                                 \repeatTie
-                                \stopTrillSpan                                           %! SC
+                                \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
+                                \revert TrillSpanner.staff-padding                       %! OC
                                 
                             }
                         }
@@ -1043,6 +1051,7 @@
                                                 (1-10)
                                             }
                                     }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
+                                \override TrillSpanner.staff-padding = #4                %! OC
                                 \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
                                 \clef "alto"                                             %! REAPPLIED_CLEF:SM8
                                 \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
@@ -1178,7 +1187,8 @@
                                 % ViolasVoiceI [measure 12]                              %! SM4
                                 f'2
                                 \repeatTie
-                                \stopTrillSpan                                           %! SC
+                                \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
+                                \revert TrillSpanner.staff-padding                       %! OC
                                 
                             }
                         }
@@ -1204,6 +1214,7 @@
                                                 (11-18)
                                             }
                                     }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
+                                \override TrillSpanner.staff-padding = #4                %! OC
                                 \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
                                 \clef "alto"                                             %! REAPPLIED_CLEF:SM8
                                 \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
@@ -1333,7 +1344,8 @@
                                 % ViolasVoiceII [measure 12]                             %! SM4
                                 f'2
                                 \repeatTie
-                                \stopTrillSpan                                           %! SC
+                                \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
+                                \revert TrillSpanner.staff-padding                       %! OC
                                 
                             }
                         }
@@ -1352,6 +1364,7 @@
                                     #10
                                     Vc.
                                 }                                                        %! REAPPLIED_MARGIN_MARKUP:SM8
+                            \override TrillSpanner.staff-padding = #4                    %! OC
                             \set Staff.forceClef = ##t                                   %! REAPPLIED_CLEF:SM8
                             \clef "tenor"                                                %! REAPPLIED_CLEF:SM8
                             \once \override Staff.Clef.color = #(x11-color 'green4)      %! REAPPLIED_CLEF_COLOR:SM6
@@ -1466,7 +1479,8 @@
                             
                             f'4.
                             -\accent                                                     %! IC
-                            \stopTrillSpan                                               %! SC
+                            \stopTrillSpan                                               %! RIGHT_BROKEN_TRILL %! SC
+                            \revert TrillSpanner.staff-padding                           %! OC
                             
                         }
                     }

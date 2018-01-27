@@ -32,7 +32,7 @@
             " "
     }
     evenHeaderMarkup = \markup \fill-line { " " }
-    left-margin = 20\mm
+    left-margin = 25\mm
     oddFooterMarkup = \evenFooterMarkup
     oddHeaderMarkup = \markup \fill-line { " " }
     print-first-page-number = ##f
@@ -97,7 +97,7 @@
 
 \layout {
     \accidentalStyle neo-modern
-    indent = 5
+    indent = 0
     ragged-bottom = ##t
     ragged-last = ##t
     ragged-right = ##t
