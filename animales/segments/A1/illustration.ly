@@ -102,7 +102,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [C.1]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [1]                                      %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
@@ -143,7 +143,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [C.2]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [2]                                      %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
@@ -185,7 +185,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [C.3]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [3]                                      %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
@@ -226,7 +226,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [C.4]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [4]                                      %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
@@ -267,7 +267,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [C.5]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [5]                                      %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
@@ -310,7 +310,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [C.6]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [6]                                      %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28

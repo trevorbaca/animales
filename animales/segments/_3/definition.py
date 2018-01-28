@@ -17,7 +17,6 @@ maker = baca.SegmentMaker(
     margin_markup=animales.margin_markup,
     measures_per_stage=True,
     metronome_marks=animales.metronome_marks,
-    rehearsal_letter='',
     score_template=animales.ScoreTemplate(
         first_violins=[1, 1],
         second_violins=[1, 1],
