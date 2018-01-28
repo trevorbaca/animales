@@ -105,7 +105,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinsVoiceI',
                                 prototype='abjad.MarginMarkup',
-                                value='Vni. II (1-10)',
+                                value='Vni. II',
                                 ),
                             ],
                         ),
@@ -135,7 +135,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolasVoiceI',
                                 prototype='abjad.MarginMarkup',
-                                value='Vle. (1-10)',
+                                value='Vle.',
                                 ),
                             ],
                         ),

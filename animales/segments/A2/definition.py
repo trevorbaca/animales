@@ -47,7 +47,7 @@ maker(
     )
 
 maker(
-    baca.scope('CellosVoiceI', 1, 2),
+    baca.scope('CellosVoiceI', 1, 6),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -61,4 +61,9 @@ strings = [
 maker(
     baca.make_scopes(strings, [(1, 6)]),
     baca.pitch('C4'),
+    )
+
+maker(
+    baca.scope('ViolasVoiceI', 3, 6),
+    baca.repeat_ties_up(),
     )
