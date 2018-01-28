@@ -636,18 +636,18 @@
                                 -\accent                                                 %! IC
                                 
                                 % FirstViolinsVoiceII [measure 20]                       %! SM4
-                                R1 * 1
+                                s1 * 1
                                 \stopTrillSpan                                           %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
                                 
                                 % FirstViolinsVoiceII [measure 21]                       %! SM4
-                                R1 * 1
+                                s1 * 1
                                 
                                 % FirstViolinsVoiceII [measure 22]                       %! SM4
-                                R1 * 1
+                                s1 * 1
                                 
                                 % FirstViolinsVoiceII [measure 23]                       %! SM4
-                                R1 * 3/4
+                                s1 * 3/4
                                 
                             }
                         }
@@ -962,18 +962,18 @@
                                 \repeatTie
                                 
                                 % SecondViolinsVoiceII [measure 20]                      %! SM4
-                                R1 * 1
+                                s1 * 1
                                 \stopTrillSpan                                           %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
                                 
                                 % SecondViolinsVoiceII [measure 21]                      %! SM4
-                                R1 * 1
+                                s1 * 1
                                 
                                 % SecondViolinsVoiceII [measure 22]                      %! SM4
-                                R1 * 1
+                                s1 * 1
                                 
                                 % SecondViolinsVoiceII [measure 23]                      %! SM4
-                                R1 * 3/4
+                                s1 * 3/4
                                 
                             }
                         }
@@ -1274,18 +1274,18 @@
                                 \repeatTie
                                 
                                 % ViolasVoiceII [measure 20]                             %! SM4
-                                R1 * 1
+                                s1 * 1
                                 \stopTrillSpan                                           %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
                                 
                                 % ViolasVoiceII [measure 21]                             %! SM4
-                                R1 * 1
+                                s1 * 1
                                 
                                 % ViolasVoiceII [measure 22]                             %! SM4
-                                R1 * 1
+                                s1 * 1
                                 
                                 % ViolasVoiceII [measure 23]                             %! SM4
-                                R1 * 3/4
+                                s1 * 3/4
                                 
                             }
                         }

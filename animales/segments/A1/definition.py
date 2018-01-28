@@ -109,6 +109,17 @@ maker(
     baca.trill_spanner_staff_padding(4),
     )
 
+divisi = [
+    'FirstViolinsVoiceII',
+    'SecondViolinsVoiceII',
+    'ViolasVoiceII',
+    ]
+
+maker(
+    baca.make_scopes(divisi, [(3, 6)]),
+    baca.make_skips(),
+    )
+
 non_divisi = [
     'FirstViolinsVoiceI',
     'SecondViolinsVoiceI',
