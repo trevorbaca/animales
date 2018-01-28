@@ -1,0 +1,25 @@
+% Animales desconocidos (2018) first violin xviii part
+
+\version "2.19.80"
+\language "english"
+
+#(ly:set-option 'relative-includes #t)
+\include "stylesheet.ily"
+
+
+\score {
+    <<
+        \keepWithTag FirstViolinXVIII 
+        {
+        \include "first-violin-xviii-layout.ly"
+        }
+        \keepWithTag FirstViolinXVIII 
+        {
+        \include "_segments/segment--1.ly"
+        \include "_segments/segment--2.ly"
+        \include "_segments/segment--3.ly"
+        \include "_segments/segment-A1.ly"
+        \include "_segments/segment-A2.ly"
+        }
+    >>
+}
