@@ -129,7 +129,26 @@ non_divisi = [
 
 maker(
     baca.scope('FirstViolinsVoiceI', 3),
-    baca.margin_markup(animales.margin_markup['Vni.']),
+    baca.margin_markup(
+        animales.margin_markup['Vni.'],
+        alert=baca.markup.non_div(),
+        ),
+    )
+
+maker(
+    baca.scope('SecondViolinsVoiceI', 3),
+    baca.margin_markup(
+        animales.margin_markup['Vni. II'],
+        alert=baca.markup.non_div(),
+        ),
+    )
+
+maker(
+    baca.scope('ViolasVoiceI', 3),
+    baca.margin_markup(
+        animales.margin_markup['Vle.'],
+        alert=baca.markup.non_div(),
+        ),
     )
 
 maker(
