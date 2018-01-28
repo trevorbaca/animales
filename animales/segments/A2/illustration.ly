@@ -386,22 +386,12 @@
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
-                                    \center-column
-                                        {
-                                            Violins
-                                            I
-                                            (1-10)
-                                        }
+                                    Violins
                                 }                                                        %! REAPPLIED_MARGIN_MARKUP:SM8
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
-                                    \center-column
-                                        {
-                                            Vni.
-                                            I
-                                            (1-10)
-                                        }
+                                    Vni.
                                 }                                                        %! REAPPLIED_MARGIN_MARKUP:SM8
                             \set Staff.forceClef = ##t                                   %! REAPPLIED_CLEF:SM8
                             \clef "treble"                                               %! REAPPLIED_CLEF:SM8
@@ -428,27 +418,17 @@
                                     %@% \line                                            %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
                                     %@%     {                                            %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
                                     %@%         \vcenter                                 %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
-                                    %@%             "[“Vni. I (1-10)”"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
+                                    %@%             [“Vni.”                              %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
                                     %@%         \vcenter                                 %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
                                     %@%             \hcenter-in                          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
                                     %@%                 #16                              %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                 \center-column                   %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                     {                            %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                         Violins                  %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                         I                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                         (1-10)                   %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                     }                            %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
+                                    %@%                 Violins                          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
                                     %@%         \concat                                  %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
                                     %@%             {                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
                                     %@%                 \vcenter                         %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
                                     %@%                     \hcenter-in                  %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
                                     %@%                         #10                      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                         \center-column           %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                             {                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                                 Vni.             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                                 I                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                                 (1-10)           %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
-                                    %@%                             }                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
+                                    %@%                         Vni.                     %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
                                     %@%                 \vcenter                         %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
                                     %@%                     ]                            %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
                                     %@%             }                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM10
@@ -459,27 +439,17 @@
                                                     #(x11-color 'green4)                 %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                     {                                    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                         \vcenter                         %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                            "[“Vni. I (1-10)”"           %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                            [“Vni.”                      %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                         \vcenter                         %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                             \hcenter-in                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                                 #16                      %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                \center-column           %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                    {                    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                        Violins          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                        I                %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                        (1-10)           %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                    }                    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                Violins                  %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                         \concat                          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                             {                            %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                                 \vcenter                 %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                                     \hcenter-in          %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                                         #10              %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                        \center-column   %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                            {            %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                                Vni.     %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                                I        %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                                (1-10)   %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                                                            }            %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
+                                                                        Vni.             %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                                 \vcenter                 %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                                     ]                    %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                             }                            %! REAPPLIED_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
@@ -490,22 +460,12 @@
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
-                                    \center-column
-                                        {
-                                            Violins
-                                            I
-                                            (1-10)
-                                        }
+                                    Violins
                                 }                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                             \set Staff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
-                                    \center-column
-                                        {
-                                            Vni.
-                                            I
-                                            (1-10)
-                                        }
+                                    Vni.
                                 }                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                             \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6

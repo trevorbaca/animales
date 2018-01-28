@@ -128,6 +128,11 @@ non_divisi = [
     ]
 
 maker(
+    baca.scope('FirstViolinsVoiceI', 3),
+    baca.margin_markup(animales.margin_markup['Vni.']),
+    )
+
+maker(
     baca.make_scopes(non_divisi, [(3, 6)]),
     baca.subito_dynamic('p'),
     baca.make_tied_notes(repeat_ties=True),
