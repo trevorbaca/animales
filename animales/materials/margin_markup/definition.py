@@ -13,7 +13,7 @@ margin_markup = abjad.OrderedDict([
     (
         'Bsn.',
         abjad.MarginMarkup(
-            markup=baca.markup.instrument('Bassoon'),
+            markup=baca.markup.instrument('Bassoons'),
             short_markup=baca.markup.short_instrument('Bsn.'),
             )
         ),
@@ -76,14 +76,14 @@ margin_markup = abjad.OrderedDict([
     (
         'Hn.',
         abjad.MarginMarkup(
-            markup=baca.markup.instrument('Horn'),
+            markup=baca.markup.instrument('Horns'),
             short_markup=baca.markup.short_instrument('Hn.'),
             )
         ),
     (
         'Ob.',
         abjad.MarginMarkup(
-            markup=baca.markup.instrument('Oboe'),
+            markup=baca.markup.instrument('Oboes'),
             short_markup=baca.markup.short_instrument('Ob.'),
             )
         ),
@@ -111,14 +111,14 @@ margin_markup = abjad.OrderedDict([
     (
         'Trb.',
         abjad.MarginMarkup(
-            markup=baca.markup.instrument('Trombone'),
+            markup=baca.markup.instrument('Trombones'),
             short_markup=baca.markup.short_instrument('Trb.'),
             )
         ),
     (
         'Tp.',
         abjad.MarginMarkup(
-            markup=baca.markup.instrument('Trumpet'),
+            markup=baca.markup.instrument('Trumpets'),
             short_markup=baca.markup.short_instrument('Tp.'),
             )
         ),

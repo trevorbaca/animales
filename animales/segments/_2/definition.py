@@ -29,55 +29,55 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('FirstViolinsVoiceI', 1, 6),
+    baca.scope('FirstViolinVoiceI', 1, 6),
     animales.lilypond_tag('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
     )
 
 maker(
-    baca.scope('FirstViolinsVoiceII', 1, 6),
+    baca.scope('FirstViolinVoiceII', 1, 6),
     animales.lilypond_tag('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
     )
 
 maker(
-    baca.scope('SecondViolinsVoiceI', 1, 6),
+    baca.scope('SecondViolinVoiceI', 1, 6),
     animales.lilypond_tag('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
     )
 
 maker(
-    baca.scope('SecondViolinsVoiceII', 1, 6),
+    baca.scope('SecondViolinVoiceII', 1, 6),
     animales.lilypond_tag('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
     )
 
 maker(
-    baca.scope('ViolasVoiceI', 1, 6),
+    baca.scope('ViolaVoiceI', 1, 6),
     animales.lilypond_tag('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
     )
 
 maker(
-    baca.scope('ViolasVoiceII', 1, 6),
+    baca.scope('ViolaVoiceII', 1, 6),
     animales.lilypond_tag('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
     )
 
 maker(
-    baca.scope('CellosVoiceI', 1, 6),
+    baca.scope('CelloVoiceI', 1, 6),
     animales.lilypond_tag('Cello'),
     animales.sforzando_exchange_rhythm(6),
     )
 
 strings = [
-    'FirstViolinsVoiceI',
-    'FirstViolinsVoiceII',
-    'SecondViolinsVoiceI',
-    'SecondViolinsVoiceII',
-    'ViolasVoiceI',
-    'ViolasVoiceII',
-    'CellosVoiceI',
+    'FirstViolinVoiceI',
+    'FirstViolinVoiceII',
+    'SecondViolinVoiceI',
+    'SecondViolinVoiceII',
+    'ViolaVoiceI',
+    'ViolaVoiceII',
+    'CelloVoiceI',
     ]
 
 # first accents ...
@@ -108,16 +108,16 @@ maker(
     )
     
 raised_trill = [
-    'FirstViolinsVoiceII',
-    'SecondViolinsVoiceII',
+    'FirstViolinVoiceII',
+    'SecondViolinVoiceII',
     ]
 
 unraised_trill = [
-    'FirstViolinsVoiceI',
-    'SecondViolinsVoiceI',
-    'ViolasVoiceI',
-    'ViolasVoiceII',
-    'CellosVoiceI',
+    'FirstViolinVoiceI',
+    'SecondViolinVoiceI',
+    'ViolaVoiceI',
+    'ViolaVoiceII',
+    'CelloVoiceI',
     ]
 
 maker(
