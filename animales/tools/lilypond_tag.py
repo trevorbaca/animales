@@ -5,24 +5,24 @@ import roman
 from typing import Union as U
 
 
-def part(stem: str, number: U[int, list, tuple] = None) -> str:
-    r'''Makes part tags.
+def lilypond_tag(stem: str, number: U[int, list, tuple] = None) -> str:
+    r'''Attaches LilyPond tag command.
 
     >>> import animales
 
     ..  container:: example
 
-        >>> animales.part('Horn', 1)
-        PartCommand(selector=baca.leaves(), part='HornI')
+        >>> animales.lilypond_tag('Horn', 1)
+        LilyPondTagCommand(selector=baca.leaves(), tag='HornI')
 
-        >>> animales.part('Horn', (1, 2))
-        PartCommand(selector=baca.leaves(), part='HornI.HornII')
+        >>> animales.lilypond_tag('Horn', (1, 2))
+        LilyPondTagCommand(selector=baca.leaves(), tag='HornI.HornII')
 
-        >>> animales.part('Horn', [1, 3])
-        PartCommand(selector=baca.leaves(), part='HornI.HornIII')
+        >>> animales.lilypond_tag('Horn', [1, 3])
+        LilyPondTagCommand(selector=baca.leaves(), tag='HornI.HornIII')
 
-        >>> animales.part('Horn')
-        PartCommand(selector=baca.leaves(), part='HornI.HornII.HornIII.HornIV')
+        >>> animales.lilypond_tag('Horn')
+        LilyPondTagCommand(selector=baca.leaves(), tag='HornI.HornII.HornIII.HornIV')
 
     '''
     score_template = animales.ScoreTemplate()
@@ -49,4 +49,4 @@ def part(stem: str, number: U[int, list, tuple] = None) -> str:
             part_name = stem + number
             part_names.append(part_name)
     tag = '.'.join(part_names)
-    return baca.part(tag)
+    return baca.lilypond_tag(tag)
