@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag PercussionI 
         {
         \include "percussion-i-layout.ly"
         }

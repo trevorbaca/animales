@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag Tuba 
         {
         \include "tuba-layout.ly"
         }

@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag FirstViolinIV 
         {
         \include "first-violin-iv-layout.ly"
         }

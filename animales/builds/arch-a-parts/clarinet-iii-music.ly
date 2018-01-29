@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag ClarinetIII 
         {
         \include "clarinet-iii-layout.ly"
         }

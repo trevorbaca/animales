@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag TromboneIV 
         {
         \include "trombone-iv-layout.ly"
         }

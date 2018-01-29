@@ -30,36 +30,43 @@ maker = baca.SegmentMaker(
 
 maker(
     baca.scope('FirstViolinsVoiceI', 1, 6),
+    animales.part('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
     )
 
 maker(
     baca.scope('FirstViolinsVoiceII', 1, 6),
+    animales.part('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
     )
 
 maker(
     baca.scope('SecondViolinsVoiceI', 1, 6),
+    animales.part('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
     )
 
 maker(
     baca.scope('SecondViolinsVoiceII', 1, 6),
+    animales.part('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
     )
 
 maker(
     baca.scope('ViolasVoiceI', 1, 6),
+    animales.part('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
     )
 
 maker(
     baca.scope('ViolasVoiceII', 1, 6),
+    animales.part('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
     )
 
 maker(
     baca.scope('CellosVoiceI', 1, 6),
+    animales.part('Cello'),
     animales.sforzando_exchange_rhythm(6),
     )
 

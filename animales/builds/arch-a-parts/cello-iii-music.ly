@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag CelloIII 
         {
         \include "cello-iii-layout.ly"
         }

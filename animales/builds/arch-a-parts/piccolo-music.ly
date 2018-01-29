@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag Piccolo 
         {
         \include "piccolo-layout.ly"
         }

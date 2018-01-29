@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag ViolaXVI 
         {
         \include "viola-xvi-layout.ly"
         }

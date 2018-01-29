@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag BassClarinet 
         {
         \include "bass-clarinet-layout.ly"
         }
