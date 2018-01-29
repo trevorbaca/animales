@@ -34,54 +34,54 @@ maker(
     )
 
 maker(
-    baca.scope('FirstViolinsVoiceI', 1, 2),
+    baca.scope('FirstViolinVoiceI', 1, 2),
     animales.lilypond_tag('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
     )
 
 maker(
-    baca.scope('FirstViolinsVoiceII', 1, 2),
+    baca.scope('FirstViolinVoiceII', 1, 2),
     animales.lilypond_tag('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
     )
 
 maker(
-    baca.scope('SecondViolinsVoiceI', 1, 2),
+    baca.scope('SecondViolinVoiceI', 1, 2),
     animales.lilypond_tag('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
     )
 
 maker(
-    baca.scope('SecondViolinsVoiceII', 1, 2),
+    baca.scope('SecondViolinVoiceII', 1, 2),
     animales.lilypond_tag('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
     )
 
 maker(
-    baca.scope('ViolasVoiceI', 1, 2),
+    baca.scope('ViolaVoiceI', 1, 2),
     animales.lilypond_tag('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
     )
 
 maker(
-    baca.scope('ViolasVoiceII', 1, 2),
+    baca.scope('ViolaVoiceII', 1, 2),
     animales.lilypond_tag('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
     )
 
 maker(
-    baca.scope('CellosVoiceI', 1, 2),
+    baca.scope('CelloVoiceI', 1, 2),
     animales.sforzando_exchange_rhythm(6),
     )
 
 strings = [
-    'FirstViolinsVoiceI',
-    'FirstViolinsVoiceII',
-    'SecondViolinsVoiceI',
-    'SecondViolinsVoiceII',
-    'ViolasVoiceI',
-    'ViolasVoiceII',
-    'CellosVoiceI',
+    'FirstViolinVoiceI',
+    'FirstViolinVoiceII',
+    'SecondViolinVoiceI',
+    'SecondViolinVoiceII',
+    'ViolaVoiceI',
+    'ViolaVoiceII',
+    'CelloVoiceI',
     ]
 
 maker(
@@ -93,16 +93,16 @@ maker(
     )
 
 raised_trill = [
-    'FirstViolinsVoiceII',
-    'SecondViolinsVoiceII',
+    'FirstViolinVoiceII',
+    'SecondViolinVoiceII',
     ]
 
 unraised_trill = [
-    'FirstViolinsVoiceI',
-    'SecondViolinsVoiceI',
-    'ViolasVoiceI',
-    'ViolasVoiceII',
-    'CellosVoiceI',
+    'FirstViolinVoiceI',
+    'SecondViolinVoiceI',
+    'ViolaVoiceI',
+    'ViolaVoiceII',
+    'CelloVoiceI',
     ]
 
 maker(
@@ -116,9 +116,9 @@ maker(
     )
 
 divisi = [
-    'FirstViolinsVoiceII',
-    'SecondViolinsVoiceII',
-    'ViolasVoiceII',
+    'FirstViolinVoiceII',
+    'SecondViolinVoiceII',
+    'ViolaVoiceII',
     ]
 
 maker(
@@ -127,14 +127,14 @@ maker(
     )
 
 non_divisi = [
-    'FirstViolinsVoiceI',
-    'SecondViolinsVoiceI',
-    'ViolasVoiceI',
-    'CellosVoiceI',
+    'FirstViolinVoiceI',
+    'SecondViolinVoiceI',
+    'ViolaVoiceI',
+    'CelloVoiceI',
     ]
 
 maker(
-    baca.scope('FirstViolinsVoiceI', 3, 6),
+    baca.scope('FirstViolinVoiceI', 3, 6),
     animales.lilypond_tag('FirstViolin'),
     baca.margin_markup(
         animales.margin_markup['Vni.'],
@@ -143,7 +143,7 @@ maker(
     )
 
 maker(
-    baca.scope('SecondViolinsVoiceI', 3, 6),
+    baca.scope('SecondViolinVoiceI', 3, 6),
     animales.lilypond_tag('SecondViolin'),
     baca.margin_markup(
         animales.margin_markup['Vni. II'],
@@ -152,7 +152,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolasVoiceI', 3, 6),
+    baca.scope('ViolaVoiceI', 3, 6),
     animales.lilypond_tag('Viola'),
     baca.margin_markup(
         animales.margin_markup['Vle.'],
@@ -168,11 +168,11 @@ maker(
     )
 
 maker(
-    baca.scope('ViolasVoiceI', 3, 6),
+    baca.scope('ViolaVoiceI', 3, 6),
     baca.repeat_ties_up(),
     )
 
 maker(
-    baca.scope('CellosVoiceI', 1, 6),
+    baca.scope('CelloVoiceI', 1, 6),
     animales.lilypond_tag('Cello'),
     )

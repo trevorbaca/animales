@@ -32,30 +32,30 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('FirstViolinsVoiceI', 1, 6),
+    baca.scope('FirstViolinVoiceI', 1, 6),
     baca.make_tied_notes(repeat_ties=True),
     )
 
 maker(
-    baca.scope('SecondViolinsVoiceI', 1, 6),
+    baca.scope('SecondViolinVoiceI', 1, 6),
     baca.make_tied_notes(repeat_ties=True),
     )
 
 maker(
-    baca.scope('ViolasVoiceI', 1, 6),
+    baca.scope('ViolaVoiceI', 1, 6),
     baca.make_tied_notes(repeat_ties=True),
     )
 
 maker(
-    baca.scope('CellosVoiceI', 1, 6),
+    baca.scope('CelloVoiceI', 1, 6),
     baca.make_tied_notes(repeat_ties=True),
     )
 
 strings = [
-    'FirstViolinsVoiceI',
-    'SecondViolinsVoiceI',
-    'ViolasVoiceI',
-    'CellosVoiceI',
+    'FirstViolinVoiceI',
+    'SecondViolinVoiceI',
+    'ViolaVoiceI',
+    'CelloVoiceI',
     ]
 
 maker(
@@ -64,6 +64,6 @@ maker(
     )
 
 maker(
-    baca.scope('ViolasVoiceI', 3, 6),
+    baca.scope('ViolaVoiceI', 3, 6),
     baca.repeat_ties_up(),
     )

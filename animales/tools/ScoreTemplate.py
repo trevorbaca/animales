@@ -55,8 +55,8 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \context StaffGroup = "FluteSquareStaffGroup" \with {
                         systemStartDelimiter = #'SystemStartSquare
                     } <<
-                        \context Staff = "FlutesStaffI" <<
-                            \context Voice = "FlutesVoiceI" {
+                        \context Staff = "FluteStaffI" <<
+                            \context Voice = "FluteVoiceI" {
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -70,12 +70,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 \clef "treble" %! ST3
                                 s1
                             }
-                            \context Voice = "FlutesVoiceII" {
+                            \context Voice = "FluteVoiceII" {
                                 s1
                             }
                         >>
-                        \context Staff = "FlutesStaffII" <<
-                            \context Voice = "FlutesVoiceIII" {
+                        \context Staff = "FluteStaffII" <<
+                            \context Voice = "FluteVoiceIII" {
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -89,15 +89,15 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 \clef "treble" %! ST3
                                 s1
                             }
-                            \context Voice = "FlutesVoiceIV" {
+                            \context Voice = "FluteVoiceIV" {
                                 s1
                             }
                         >>
                     >>
                 >>
                 \context StaffGroup = "StringStaffGroup" <<
-                    \context Staff = "FirstViolinsStaffI" <<
-                        \context Voice = "FirstViolinsVoiceI" {
+                    \context Staff = "FirstViolinStaffI" <<
+                        \context Voice = "FirstViolinVoiceI" {
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -119,15 +119,15 @@ class ScoreTemplate(baca.ScoreTemplate):
                             \clef "treble" %! ST3
                             s1
                         }
-                        \context Voice = "FirstViolinsVoiceII" {
+                        \context Voice = "FirstViolinVoiceII" {
                             s1
                         }
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup" \with {
                         systemStartDelimiter = #'SystemStartSquare
                     } <<
-                        \context Staff = "SecondViolinsStaffI" {
-                            \context Voice = "SecondViolinsVoiceI" {
+                        \context Staff = "SecondViolinStaffI" {
+                            \context Voice = "SecondViolinVoiceI" {
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -150,8 +150,8 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 s1
                             }
                         }
-                        \context Staff = "SecondViolinsStaffII" {
-                            \context Voice = "SecondViolinsVoiceII" {
+                        \context Staff = "SecondViolinStaffII" {
+                            \context Voice = "SecondViolinVoiceII" {
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -175,8 +175,8 @@ class ScoreTemplate(baca.ScoreTemplate):
                             }
                         }
                     >>
-                    \context Staff = "ViolasStaffI" {
-                        \context Voice = "ViolasVoiceI" {
+                    \context Staff = "ViolaStaffI" {
+                        \context Voice = "ViolaVoiceI" {
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -191,8 +191,8 @@ class ScoreTemplate(baca.ScoreTemplate):
                             s1
                         }
                     }
-                    \context Staff = "CellosStaffI" {
-                        \context Voice = "CellosVoiceI" {
+                    \context Staff = "CelloStaffI" {
+                        \context Voice = "CelloVoiceI" {
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -207,8 +207,8 @@ class ScoreTemplate(baca.ScoreTemplate):
                             s1
                         }
                     }
-                    \context Staff = "ContrabassesStaffI" {
-                        \context Voice = "ContrabassesVoiceI" {
+                    \context Staff = "ContrabassStaffI" {
+                        \context Voice = "ContrabassVoiceI" {
                             \set Staff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -404,14 +404,14 @@ class ScoreTemplate(baca.ScoreTemplate):
             abjad.Clef('treble'),
             )
         flute_staves = self._make_staves(
-            'Flutes',
+            'Flute',
             self.flutes,
             animales.instruments['Flute'],
             animales.margin_markup['Fl.'],
             abjad.Clef('treble'),
             )
         oboe_staves = self._make_staves(
-            'Oboes',
+            'Oboe',
             self.oboes,
             animales.instruments['Oboe'],
             animales.margin_markup['Ob.'],
@@ -425,7 +425,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             abjad.Clef('treble'),
             )
         clarinet_staves = self._make_staves(
-            'Clarinets',
+            'Clarinet',
             self.clarinets,
             animales.instruments['Clarinet'],
             animales.margin_markup['Cl.'],
@@ -439,28 +439,28 @@ class ScoreTemplate(baca.ScoreTemplate):
             abjad.Clef('treble'),
             )
         bassoon_staves = self._make_staves(
-            'Bassoons',
+            'Bassoon',
             self.bassoons,
             animales.instruments['Bassoon'],
             animales.margin_markup['Bsn.'],
             abjad.Clef('bass'),
             )
         horn_staves = self._make_staves(
-            'Horns',
+            'Horn',
             self.horns,
             animales.instruments['Horn'],
             animales.margin_markup['Hn.'],
             abjad.Clef('bass'),
             )
         trumpet_staves = self._make_staves(
-            'Trumpets',
+            'Trumpet',
             self.trumpets,
             animales.instruments['Trumpet'],
             animales.margin_markup['Tp.'],
             abjad.Clef('treble'),
             )
         trombone_staves = self._make_staves(
-            'Trombones',
+            'Trombone',
             self.trombones,
             animales.instruments['Trombone'],
             animales.margin_markup['Trb.'],
@@ -495,35 +495,35 @@ class ScoreTemplate(baca.ScoreTemplate):
             abjad.Clef('percussion'),
             )
         first_violin_staves = self._make_staves(
-            'FirstViolins',
+            'FirstViolin',
             self.first_violins,
             animales.instruments['Violin'],
             animales.margin_markup['Vni. I'],
             abjad.Clef('treble'),
             )
         second_violin_staves = self._make_staves(
-            'SecondViolins',
+            'SecondViolin',
             self.second_violins,
             animales.instruments['Violin'],
             animales.margin_markup['Vni. II'],
             abjad.Clef('treble'),
             )
         viola_staves = self._make_staves(
-            'Violas',
+            'Viola',
             self.violas,
             animales.instruments['Viola'],
             animales.margin_markup['Vle.'],
             abjad.Clef('alto'),
             )
         cello_staves = self._make_staves(
-            'Cellos',
+            'Cello',
             self.cellos,
             animales.instruments['Cello'],
             animales.margin_markup['Vc.'],
             abjad.Clef('bass'),
             )
         contrabass_staves = self._make_staves(
-            'Contrabasses',
+            'Contrabass',
             self.contrabasses,
             animales.instruments['Contrabass'],
             animales.margin_markup['Cb.'],

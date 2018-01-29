@@ -327,12 +327,12 @@
                     \context StaffGroup = "FirstViolinSquareStaffGroup" \with {
                         systemStartDelimiter = #'SystemStartSquare
                     } <<
-                        \context Staff = "FirstViolinsStaffI" {
-                            \context Voice = "FirstViolinsVoiceI" {
+                        \context Staff = "FirstViolinStaffI" {
+                            \context Voice = "FirstViolinVoiceI" {
                                 \tag FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX
                                 {
                                     
-                                    % FirstViolinsVoiceI [measure 1]                     %! SM4
+                                    % FirstViolinVoiceI [measure 1]                      %! SM4
                                     \set Staff.instrumentName = \markup {
                                         \hcenter-in
                                             #16
@@ -463,22 +463,22 @@
                                     \override Staff.Clef.color = #(x11-color 'violet)    %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                     
-                                    % FirstViolinsVoiceI [measure 2]                     %! SM4
+                                    % FirstViolinVoiceI [measure 2]                      %! SM4
                                     a'2
                                     \repeatTie
                                     
                                     a'2
                                     -\accent                                             %! IC
                                     
-                                    % FirstViolinsVoiceI [measure 3]                     %! SM4
+                                    % FirstViolinVoiceI [measure 3]                      %! SM4
                                     a'1
                                     \repeatTie
                                     
-                                    % FirstViolinsVoiceI [measure 4]                     %! SM4
+                                    % FirstViolinVoiceI [measure 4]                      %! SM4
                                     a'2.
                                     \repeatTie
                                     
-                                    % FirstViolinsVoiceI [measure 5]                     %! SM4
+                                    % FirstViolinVoiceI [measure 5]                      %! SM4
                                     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                     \pitchedTrill                                        %! SC
                                     af'2.
@@ -487,7 +487,7 @@
                                     \stopTrillSpan                                       %! SC
                                     \startTrillSpan a'                                   %! SC
                                     
-                                    % FirstViolinsVoiceI [measure 6]                     %! SM4
+                                    % FirstViolinVoiceI [measure 6]                      %! SM4
                                     af'1
                                     \repeatTie
                                     \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
@@ -496,12 +496,12 @@
                                 }
                             }
                         }
-                        \context Staff = "FirstViolinsStaffII" {
-                            \context Voice = "FirstViolinsVoiceII" {
+                        \context Staff = "FirstViolinStaffII" {
+                            \context Voice = "FirstViolinVoiceII" {
                                 \tag FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII
                                 {
                                     
-                                    % FirstViolinsVoiceII [measure 1]                    %! SM4
+                                    % FirstViolinVoiceII [measure 1]                     %! SM4
                                     \set Staff.instrumentName = \markup {
                                         \hcenter-in
                                             #16
@@ -634,7 +634,7 @@
                                     a'2.
                                     -\accent                                             %! IC
                                     
-                                    % FirstViolinsVoiceII [measure 2]                    %! SM4
+                                    % FirstViolinVoiceII [measure 2]                     %! SM4
                                     a'2
                                     \repeatTie
                                     \times 2/3 {
@@ -650,15 +650,15 @@
                                     a'4
                                     \repeatTie
                                     
-                                    % FirstViolinsVoiceII [measure 3]                    %! SM4
+                                    % FirstViolinVoiceII [measure 3]                     %! SM4
                                     a'1
                                     \repeatTie
                                     
-                                    % FirstViolinsVoiceII [measure 4]                    %! SM4
+                                    % FirstViolinVoiceII [measure 4]                     %! SM4
                                     a'2.
                                     \repeatTie
                                     
-                                    % FirstViolinsVoiceII [measure 5]                    %! SM4
+                                    % FirstViolinVoiceII [measure 5]                     %! SM4
                                     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                     \pitchedTrill                                        %! SC
                                     af'4
@@ -669,7 +669,7 @@
                                     af'2
                                     -\accent                                             %! IC
                                     
-                                    % FirstViolinsVoiceII [measure 6]                    %! SM4
+                                    % FirstViolinVoiceII [measure 6]                     %! SM4
                                     af'1
                                     \repeatTie
                                     \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
@@ -682,12 +682,12 @@
                     \context StaffGroup = "SecondViolinSquareStaffGroup" \with {
                         systemStartDelimiter = #'SystemStartSquare
                     } <<
-                        \context Staff = "SecondViolinsStaffI" {
-                            \context Voice = "SecondViolinsVoiceI" {
+                        \context Staff = "SecondViolinStaffI" {
+                            \context Voice = "SecondViolinVoiceI" {
                                 \tag SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX
                                 {
                                     
-                                    % SecondViolinsVoiceI [measure 1]                    %! SM4
+                                    % SecondViolinVoiceI [measure 1]                     %! SM4
                                     \set Staff.instrumentName = \markup {
                                         \hcenter-in
                                             #16
@@ -823,22 +823,22 @@
                                     a'4.
                                     -\accent                                             %! IC
                                     
-                                    % SecondViolinsVoiceI [measure 2]                    %! SM4
+                                    % SecondViolinVoiceI [measure 2]                     %! SM4
                                     a'1
                                     \repeatTie
                                     
-                                    % SecondViolinsVoiceI [measure 3]                    %! SM4
+                                    % SecondViolinVoiceI [measure 3]                     %! SM4
                                     a'8
                                     \repeatTie
                                     
                                     a'2..
                                     -\accent                                             %! IC
                                     
-                                    % SecondViolinsVoiceI [measure 4]                    %! SM4
+                                    % SecondViolinVoiceI [measure 4]                     %! SM4
                                     a'2.
                                     \repeatTie
                                     
-                                    % SecondViolinsVoiceI [measure 5]                    %! SM4
+                                    % SecondViolinVoiceI [measure 5]                     %! SM4
                                     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                     \pitchedTrill                                        %! SC
                                     af'2
@@ -854,7 +854,7 @@
                                     -\accent                                             %! IC
                                     ]
                                     
-                                    % SecondViolinsVoiceI [measure 6]                    %! SM4
+                                    % SecondViolinVoiceI [measure 6]                     %! SM4
                                     af'1
                                     \repeatTie
                                     \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
@@ -863,12 +863,12 @@
                                 }
                             }
                         }
-                        \context Staff = "SecondViolinsStaffII" {
-                            \context Voice = "SecondViolinsVoiceII" {
+                        \context Staff = "SecondViolinStaffII" {
+                            \context Voice = "SecondViolinVoiceII" {
                                 \tag SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII
                                 {
                                     
-                                    % SecondViolinsVoiceII [measure 1]                   %! SM4
+                                    % SecondViolinVoiceII [measure 1]                    %! SM4
                                     \set Staff.instrumentName = \markup {
                                         \hcenter-in
                                             #16
@@ -1010,22 +1010,22 @@
                                     a'4
                                     \repeatTie
                                     
-                                    % SecondViolinsVoiceII [measure 2]                   %! SM4
+                                    % SecondViolinVoiceII [measure 2]                    %! SM4
                                     a'1
                                     \repeatTie
                                     
-                                    % SecondViolinsVoiceII [measure 3]                   %! SM4
+                                    % SecondViolinVoiceII [measure 3]                    %! SM4
                                     a'4
                                     \repeatTie
                                     
                                     a'2.
                                     -\accent                                             %! IC
                                     
-                                    % SecondViolinsVoiceII [measure 4]                   %! SM4
+                                    % SecondViolinVoiceII [measure 4]                    %! SM4
                                     a'2.
                                     \repeatTie
                                     
-                                    % SecondViolinsVoiceII [measure 5]                   %! SM4
+                                    % SecondViolinVoiceII [measure 5]                    %! SM4
                                     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                     \pitchedTrill                                        %! SC
                                     af'2.
@@ -1034,7 +1034,7 @@
                                     \startTrillSpan a'                                   %! SC
                                     \times 2/3 {
                                         
-                                        % SecondViolinsVoiceII [measure 6]               %! SM4
+                                        % SecondViolinVoiceII [measure 6]                %! SM4
                                         af'8
                                         \repeatTie
                                         
@@ -1055,12 +1055,12 @@
                     \context StaffGroup = "ViolaSquareStaffGroup" \with {
                         systemStartDelimiter = #'SystemStartSquare
                     } <<
-                        \context Staff = "ViolasStaffI" {
-                            \context Voice = "ViolasVoiceI" {
+                        \context Staff = "ViolaStaffI" {
+                            \context Voice = "ViolaVoiceI" {
                                 \tag ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX
                                 {
                                     
-                                    % ViolasVoiceI [measure 1]                           %! SM4
+                                    % ViolaVoiceI [measure 1]                            %! SM4
                                     \set Staff.instrumentName = \markup {
                                         \hcenter-in
                                             #16
@@ -1185,22 +1185,22 @@
                                     a'4
                                     -\accent                                             %! IC
                                     
-                                    % ViolasVoiceI [measure 2]                           %! SM4
+                                    % ViolaVoiceI [measure 2]                            %! SM4
                                     a'1
                                     \repeatTie
                                     
-                                    % ViolasVoiceI [measure 3]                           %! SM4
+                                    % ViolaVoiceI [measure 3]                            %! SM4
                                     a'2..
                                     \repeatTie
                                     
                                     a'8
                                     -\accent                                             %! IC
                                     
-                                    % ViolasVoiceI [measure 4]                           %! SM4
+                                    % ViolaVoiceI [measure 4]                            %! SM4
                                     a'2.
                                     \repeatTie
                                     
-                                    % ViolasVoiceI [measure 5]                           %! SM4
+                                    % ViolaVoiceI [measure 5]                            %! SM4
                                     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                     \pitchedTrill                                        %! SC
                                     af'2.
@@ -1208,7 +1208,7 @@
                                     \stopTrillSpan                                       %! SC
                                     \startTrillSpan a'                                   %! SC
                                     
-                                    % ViolasVoiceI [measure 6]                           %! SM4
+                                    % ViolaVoiceI [measure 6]                            %! SM4
                                     af'2
                                     \repeatTie
                                     
@@ -1223,12 +1223,12 @@
                                 }
                             }
                         }
-                        \context Staff = "ViolasStaffII" {
-                            \context Voice = "ViolasVoiceII" {
+                        \context Staff = "ViolaStaffII" {
+                            \context Voice = "ViolaVoiceII" {
                                 \tag ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII
                                 {
                                     
-                                    % ViolasVoiceII [measure 1]                          %! SM4
+                                    % ViolaVoiceII [measure 1]                           %! SM4
                                     \set Staff.instrumentName = \markup {
                                         \hcenter-in
                                             #16
@@ -1350,19 +1350,19 @@
                                     \override Staff.Clef.color = #(x11-color 'violet)    %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                     
-                                    % ViolasVoiceII [measure 2]                          %! SM4
+                                    % ViolaVoiceII [measure 2]                           %! SM4
                                     a'1
                                     -\accent                                             %! IC
                                     
-                                    % ViolasVoiceII [measure 3]                          %! SM4
+                                    % ViolaVoiceII [measure 3]                           %! SM4
                                     a'1
                                     \repeatTie
                                     
-                                    % ViolasVoiceII [measure 4]                          %! SM4
+                                    % ViolaVoiceII [measure 4]                           %! SM4
                                     a'2.
                                     -\accent                                             %! IC
                                     
-                                    % ViolasVoiceII [measure 5]                          %! SM4
+                                    % ViolaVoiceII [measure 5]                           %! SM4
                                     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                     \pitchedTrill                                        %! SC
                                     af'2.
@@ -1370,7 +1370,7 @@
                                     \stopTrillSpan                                       %! SC
                                     \startTrillSpan a'                                   %! SC
                                     
-                                    % ViolasVoiceII [measure 6]                          %! SM4
+                                    % ViolaVoiceII [measure 6]                           %! SM4
                                     af'2.
                                     \repeatTie
                                     
@@ -1383,12 +1383,12 @@
                             }
                         }
                     >>
-                    \context Staff = "CellosStaffI" {
-                        \context Voice = "CellosVoiceI" {
+                    \context Staff = "CelloStaffI" {
+                        \context Voice = "CelloVoiceI" {
                             \tag CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV
                             {
                                 
-                                % CellosVoiceI [measure 1]                               %! SM4
+                                % CelloVoiceI [measure 1]                                %! SM4
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -1479,7 +1479,7 @@
                                 \override Staff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
                                 \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                                 
-                                % CellosVoiceI [measure 2]                               %! SM4
+                                % CelloVoiceI [measure 2]                                %! SM4
                                 a'4.
                                 \repeatTie
                                 
@@ -1489,11 +1489,11 @@
                                 a'2
                                 \repeatTie
                                 
-                                % CellosVoiceI [measure 3]                               %! SM4
+                                % CelloVoiceI [measure 3]                                %! SM4
                                 a'1
                                 \repeatTie
                                 
-                                % CellosVoiceI [measure 4]                               %! SM4
+                                % CelloVoiceI [measure 4]                                %! SM4
                                 a'2
                                 \repeatTie
                                 
@@ -1505,7 +1505,7 @@
                                 -\accent                                                 %! IC
                                 ]
                                 
-                                % CellosVoiceI [measure 5]                               %! SM4
+                                % CelloVoiceI [measure 5]                                %! SM4
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 \pitchedTrill                                            %! SC
                                 af'2.
@@ -1513,7 +1513,7 @@
                                 \stopTrillSpan                                           %! SC
                                 \startTrillSpan a'                                       %! SC
                                 
-                                % CellosVoiceI [measure 6]                               %! SM4
+                                % CelloVoiceI [measure 6]                                %! SM4
                                 af'1
                                 \repeatTie
                                 \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
