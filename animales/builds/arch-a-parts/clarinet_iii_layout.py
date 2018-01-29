@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'CL-3'
+part_abbreviation = 'CL_3'
 
 breaks = baca.breaks(
     baca.page( # 1

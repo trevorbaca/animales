@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'TP-1'
+part_abbreviation = 'TP_1'
 
 breaks = baca.breaks(
     baca.page( # 1

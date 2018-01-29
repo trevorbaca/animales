@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'HN-2'
+part_abbreviation = 'HN_2'
 
 breaks = baca.breaks(
     baca.page( # 1

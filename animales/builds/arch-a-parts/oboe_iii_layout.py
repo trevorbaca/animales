@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'OB-3'
+part_abbreviation = 'OB_3'
 
 breaks = baca.breaks(
     baca.page( # 1

@@ -11,13 +11,13 @@ class ScoreTemplate(baca.ScoreTemplate):
     ..  container:: example
 
         >>> template = animales.ScoreTemplate(
-        ...     piccolo=[1],
-        ...     flutes=[2, 2],
-        ...     first_violins=[2],
-        ...     second_violins=[1, 1],
-        ...     violas=[1],
-        ...     cellos=[1],
-        ...     contrabasses=[1],
+        ...     piccolo=True,
+        ...     flutes=[(1, 2), 3],
+        ...     first_violins=[(1, 10), (11, 18)],
+        ...     second_violins=[(1, 10), (11, 18)],
+        ...     violas=True,
+        ...     cellos=True,
+        ...     contrabasses=True,
         ...     )
         >>> path = abjad.Path('animales', 'stylesheets', 'contexts.ily')
         >>> lilypond_file = template.__illustrate__(
@@ -36,6 +36,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>
             \context MusicContext = "MusicContext" <<
                 \context StaffGroup = "WindStaffGroup" <<
+                    \tag Piccolo %! ST4
                     \context Staff = "PiccoloStaffI" {
                         \context Voice = "PiccoloVoiceI" {
                             \set Staff.instrumentName = \markup {
@@ -55,7 +56,8 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \context StaffGroup = "FluteSquareStaffGroup" \with {
                         systemStartDelimiter = #'SystemStartSquare
                     } <<
-                        \context Staff = "FluteStaffI" <<
+                        \tag FluteI.FluteII %! ST4
+                        \context Staff = "FluteStaffI" {
                             \context Voice = "FluteVoiceI" {
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
@@ -70,12 +72,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 \clef "treble" %! ST3
                                 s1
                             }
+                        }
+                        \tag FluteIII %! ST4
+                        \context Staff = "FluteStaffII" {
                             \context Voice = "FluteVoiceII" {
-                                s1
-                            }
-                        >>
-                        \context Staff = "FluteStaffII" <<
-                            \context Voice = "FluteVoiceIII" {
                                 \set Staff.instrumentName = \markup {
                                     \hcenter-in
                                         #16
@@ -89,43 +89,68 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 \clef "treble" %! ST3
                                 s1
                             }
-                            \context Voice = "FluteVoiceIV" {
-                                s1
-                            }
-                        >>
+                        }
                     >>
                 >>
                 \context StaffGroup = "StringStaffGroup" <<
-                    \context Staff = "FirstViolinStaffI" <<
-                        \context Voice = "FirstViolinVoiceI" {
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    \center-column
-                                        {
-                                            Violins
-                                            I
-                                        }
-                                }   %! ST2
-                            \set Staff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    \center-column
-                                        {
-                                            Vni.
-                                            I
-                                        }
-                                } %! ST2
-                            \clef "treble" %! ST3
-                            s1
+                    \context StaffGroup = "FirstViolinSquareStaffGroup" \with {
+                        systemStartDelimiter = #'SystemStartSquare
+                    } <<
+                        \tag FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX %! ST4
+                        \context Staff = "FirstViolinStaffI" {
+                            \context Voice = "FirstViolinVoiceI" {
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Violins
+                                                I
+                                            }
+                                    }   %! ST2
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        \center-column
+                                            {
+                                                Vni.
+                                                I
+                                            }
+                                    } %! ST2
+                                \clef "treble" %! ST3
+                                s1
+                            }
                         }
-                        \context Voice = "FirstViolinVoiceII" {
-                            s1
+                        \tag FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII %! ST4
+                        \context Staff = "FirstViolinStaffII" {
+                            \context Voice = "FirstViolinVoiceII" {
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Violins
+                                                I
+                                            }
+                                    }   %! ST2
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        \center-column
+                                            {
+                                                Vni.
+                                                I
+                                            }
+                                    } %! ST2
+                                \clef "treble" %! ST3
+                                s1
+                            }
                         }
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup" \with {
                         systemStartDelimiter = #'SystemStartSquare
                     } <<
+                        \tag SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX %! ST4
                         \context Staff = "SecondViolinStaffI" {
                             \context Voice = "SecondViolinVoiceI" {
                                 \set Staff.instrumentName = \markup {
@@ -150,6 +175,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 s1
                             }
                         }
+                        \tag SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII %! ST4
                         \context Staff = "SecondViolinStaffII" {
                             \context Voice = "SecondViolinVoiceII" {
                                 \set Staff.instrumentName = \markup {
@@ -175,6 +201,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                             }
                         }
                     >>
+                    \tag ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX.ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII %! ST4
                     \context Staff = "ViolaStaffI" {
                         \context Voice = "ViolaVoiceI" {
                             \set Staff.instrumentName = \markup {
@@ -191,6 +218,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                             s1
                         }
                     }
+                    \tag CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV %! ST4
                     \context Staff = "CelloStaffI" {
                         \context Voice = "CelloVoiceI" {
                             \set Staff.instrumentName = \markup {
@@ -207,6 +235,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                             s1
                         }
                     }
+                    \tag ContrabassI.ContrabassII.ContrabassIII.ContrabassIV.ContrabassV.ContrabassVI %! ST4
                     \context Staff = "ContrabassStaffI" {
                         \context Voice = "ContrabassVoiceI" {
                             \set Staff.instrumentName = \markup {
@@ -235,112 +264,112 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     _part_manifest = (
         ('Piccolo', 'PICC'),
-        ('FluteI', 'FL-1'),
-        ('FluteII', 'FL-2'),
-        ('FluteIII', 'FL-3'),
-        ('OboeI', 'OB-1'),
-        ('OboeII', 'OB-2'),
-        ('OboeIII', 'OB-3'),
+        ('FluteI', 'FL_1'),
+        ('FluteII', 'FL_2'),
+        ('FluteIII', 'FL_3'),
+        ('OboeI', 'OB_1'),
+        ('OboeII', 'OB_2'),
+        ('OboeIII', 'OB_3'),
         ('EnglishHorn', 'EH'),
-        ('ClarinetI', 'CL-1'),
-        ('ClarinetII', 'CL-2'),
-        ('ClarinetIII', 'CL-3'),
+        ('ClarinetI', 'CL_1'),
+        ('ClarinetII', 'CL_2'),
+        ('ClarinetIII', 'CL_3'),
         ('BassClarinet', 'BCL'),
-        ('BassoonI', 'BSN-1'),
-        ('BassoonII', 'BSN-2'),
-        ('HornI', 'HN-1'),
-        ('HornII', 'HN-2'),
-        ('HornIII', 'HN-3'),
-        ('HornIV', 'HN-4'),
-        ('TrumpetI', 'TP-1'),
-        ('TrumpetII', 'TP-2'),
-        ('TrumpetIII', 'TP-3'),
-        ('TrumpetIV', 'TP-4'),
-        ('TromboneI', 'TBN-1'),
-        ('TromboneII', 'TBN-2'),
-        ('TromboneIII', 'TBN-3'),
-        ('TromboneIV', 'TBN-4'),
+        ('BassoonI', 'BSN_1'),
+        ('BassoonII', 'BSN_2'),
+        ('HornI', 'HN_1'),
+        ('HornII', 'HN_2'),
+        ('HornIII', 'HN_3'),
+        ('HornIV', 'HN_4'),
+        ('TrumpetI', 'TP_1'),
+        ('TrumpetII', 'TP_2'),
+        ('TrumpetIII', 'TP_3'),
+        ('TrumpetIV', 'TP_4'),
+        ('TromboneI', 'TBN_1'),
+        ('TromboneII', 'TBN_2'),
+        ('TromboneIII', 'TBN_3'),
+        ('TromboneIV', 'TBN_4'),
         ('Tuba', 'TUB'),
         ('Harp', 'HP'),
         ('Piano', 'PF'),
-        ('PercussionI', 'PERC-1'),
-        ('PercussionII', 'PERC-2'),
-        ('PercussionIII', 'PERC-3'),
-        ('PercussionIV', 'PERC-4'),
-        ('FirstViolinI', 'VN1-1'),
-        ('FirstViolinII', 'VN1-2'),
-        ('FirstViolinIII', 'VN1-3'),
-        ('FirstViolinIV', 'VN1-4'),
-        ('FirstViolinV', 'VN1-5'),
-        ('FirstViolinVI', 'VN1-6'),
-        ('FirstViolinVII', 'VN1-7'),
-        ('FirstViolinVIII', 'VN1-8'),
-        ('FirstViolinIX', 'VN1-9'),
-        ('FirstViolinX', 'VN1-10'),
-        ('FirstViolinXI', 'VN1-11'),
-        ('FirstViolinXII', 'VN1-12'),
-        ('FirstViolinXIII', 'VN1-13'),
-        ('FirstViolinXIV', 'VN1-14'),
-        ('FirstViolinXV', 'VN1-15'),
-        ('FirstViolinXVI', 'VN1-16'),
-        ('FirstViolinXVII', 'VN1-17'),
-        ('FirstViolinXVIII', 'VN1-18'),
-        ('SecondViolinI', 'VN2-1'),
-        ('SecondViolinII', 'VN2-2'),
-        ('SecondViolinIII', 'VN2-3'),
-        ('SecondViolinIV', 'VN2-4'),
-        ('SecondViolinV', 'VN2-5'),
-        ('SecondViolinVI', 'VN2-6'),
-        ('SecondViolinVII', 'VN2-7'),
-        ('SecondViolinVIII', 'VN2-8'),
-        ('SecondViolinIX', 'VN2-9'),
-        ('SecondViolinX', 'VN2-10'),
-        ('SecondViolinXI', 'VN2-11'),
-        ('SecondViolinXII', 'VN2-12'),
-        ('SecondViolinXIII', 'VN2-13'),
-        ('SecondViolinXIV', 'VN2-14'),
-        ('SecondViolinXV', 'VN2-15'),
-        ('SecondViolinXVI', 'VN2-16'),
-        ('SecondViolinXVII', 'VN2-17'),
-        ('SecondViolinXVIII', 'VN2-18'),
-        ('ViolaI', 'VA-1'),
-        ('ViolaII', 'VA-2'),
-        ('ViolaIII', 'VA-3'),
-        ('ViolaIV', 'VA-4'),
-        ('ViolaV', 'VA-5'),
-        ('ViolaVI', 'VA-6'),
-        ('ViolaVII', 'VA-7'),
-        ('ViolaVIII', 'VA-8'),
-        ('ViolaIX', 'VA-9'),
-        ('ViolaX', 'VA-10'),
-        ('ViolaXI', 'VA-11'),
-        ('ViolaXII', 'VA-12'),
-        ('ViolaXIII', 'VA-13'),
-        ('ViolaXIV', 'VA-14'),
-        ('ViolaXV', 'VA-15'),
-        ('ViolaXVI', 'VA-16'),
-        ('ViolaXVII', 'VA-17'),
-        ('ViolaXVIII', 'VA-18'),
-        ('CelloI', 'VC-1'),
-        ('CelloII', 'VC-2'),
-        ('CelloIII', 'VC-3'),
-        ('CelloIV', 'VC-4'),
-        ('CelloV', 'VC-5'),
-        ('CelloVI', 'VC-6'),
-        ('CelloVII', 'VC-7'),
-        ('CelloVIII', 'VC-8'),
-        ('CelloIX', 'VC-9'),
-        ('CelloX', 'VC-10'),
-        ('CelloXI', 'VC-11'),
-        ('CelloXII', 'VC-12'),
-        ('CelloXIII', 'VC-13'),
-        ('CelloXIV', 'VC-14'),
-        ('ContrabassI', 'CB-1'),
-        ('ContrabassII', 'CB-2'),
-        ('ContrabassIII', 'CB-3'),
-        ('ContrabassIV', 'CB-4'),
-        ('ContrabassV', 'CB-5'),
-        ('ContrabassVI', 'CB-6'),
+        ('PercussionI', 'PERC_1'),
+        ('PercussionII', 'PERC_2'),
+        ('PercussionIII', 'PERC_3'),
+        ('PercussionIV', 'PERC_4'),
+        ('FirstViolinI', 'VN_1_1'),
+        ('FirstViolinII', 'VN_1_2'),
+        ('FirstViolinIII', 'VN_1_3'),
+        ('FirstViolinIV', 'VN_1_4'),
+        ('FirstViolinV', 'VN_1_5'),
+        ('FirstViolinVI', 'VN_1_6'),
+        ('FirstViolinVII', 'VN_1_7'),
+        ('FirstViolinVIII', 'VN_1_8'),
+        ('FirstViolinIX', 'VN_1_9'),
+        ('FirstViolinX', 'VN_1_10'),
+        ('FirstViolinXI', 'VN_1_11'),
+        ('FirstViolinXII', 'VN_1_12'),
+        ('FirstViolinXIII', 'VN_1_13'),
+        ('FirstViolinXIV', 'VN_1_14'),
+        ('FirstViolinXV', 'VN_1_15'),
+        ('FirstViolinXVI', 'VN_1_16'),
+        ('FirstViolinXVII', 'VN_1_17'),
+        ('FirstViolinXVIII', 'VN_1_18'),
+        ('SecondViolinI', 'VN_2_1'),
+        ('SecondViolinII', 'VN_2_2'),
+        ('SecondViolinIII', 'VN_2_3'),
+        ('SecondViolinIV', 'VN_2_4'),
+        ('SecondViolinV', 'VN_2_5'),
+        ('SecondViolinVI', 'VN_2_6'),
+        ('SecondViolinVII', 'VN_2_7'),
+        ('SecondViolinVIII', 'VN_2_8'),
+        ('SecondViolinIX', 'VN_2_9'),
+        ('SecondViolinX', 'VN_2_10'),
+        ('SecondViolinXI', 'VN_2_11'),
+        ('SecondViolinXII', 'VN_2_12'),
+        ('SecondViolinXIII', 'VN_2_13'),
+        ('SecondViolinXIV', 'VN_2_14'),
+        ('SecondViolinXV', 'VN_2_15'),
+        ('SecondViolinXVI', 'VN_2_16'),
+        ('SecondViolinXVII', 'VN_2_17'),
+        ('SecondViolinXVIII', 'VN_2_18'),
+        ('ViolaI', 'VA_1'),
+        ('ViolaII', 'VA_2'),
+        ('ViolaIII', 'VA_3'),
+        ('ViolaIV', 'VA_4'),
+        ('ViolaV', 'VA_5'),
+        ('ViolaVI', 'VA_6'),
+        ('ViolaVII', 'VA_7'),
+        ('ViolaVIII', 'VA_8'),
+        ('ViolaIX', 'VA_9'),
+        ('ViolaX', 'VA_10'),
+        ('ViolaXI', 'VA_11'),
+        ('ViolaXII', 'VA_12'),
+        ('ViolaXIII', 'VA_13'),
+        ('ViolaXIV', 'VA_14'),
+        ('ViolaXV', 'VA_15'),
+        ('ViolaXVI', 'VA_16'),
+        ('ViolaXVII', 'VA_17'),
+        ('ViolaXVIII', 'VA_18'),
+        ('CelloI', 'VC_1'),
+        ('CelloII', 'VC_2'),
+        ('CelloIII', 'VC_3'),
+        ('CelloIV', 'VC_4'),
+        ('CelloV', 'VC_5'),
+        ('CelloVI', 'VC_6'),
+        ('CelloVII', 'VC_7'),
+        ('CelloVIII', 'VC_8'),
+        ('CelloIX', 'VC_9'),
+        ('CelloX', 'VC_10'),
+        ('CelloXI', 'VC_11'),
+        ('CelloXII', 'VC_12'),
+        ('CelloXIII', 'VC_13'),
+        ('CelloXIV', 'VC_14'),
+        ('ContrabassI', 'CB_1'),
+        ('ContrabassII', 'CB_2'),
+        ('ContrabassIII', 'CB_3'),
+        ('ContrabassIV', 'CB_4'),
+        ('ContrabassV', 'CB_5'),
+        ('ContrabassVI', 'CB_6'),
         )
 
     ### INITIALIZER ###
@@ -617,19 +646,26 @@ class ScoreTemplate(baca.ScoreTemplate):
         staves = []
         if specifier:
             voice_number = 1
-            for staff_index, voice_count in enumerate(specifier):
+            if specifier is True:
+                specifier = [True]
+            for staff_index, divisi_token in enumerate(specifier):
+                assert isinstance(divisi_token, (bool, int, tuple))
                 staff_number = staff_index + 1
                 staff_numeral = self._to_roman(staff_number)
-                is_simultaneous = 1 < voice_count
                 staff = abjad.Staff(
-                    is_simultaneous=is_simultaneous,
+                    is_simultaneous=False,
                     name=f'{name}Staff{staff_numeral}',
                     )
-                for _ in range(voice_count):
-                    voice_numeral = self._to_roman(voice_number)
-                    voice = abjad.Voice(name=f'{name}Voice{voice_numeral}')
-                    staff.append(voice)
-                    voice_number += 1
+                if divisi_token is True:
+                    command = animales.lilypond_tag(name)
+                else:
+                    command = animales.lilypond_tag(name, divisi_token)
+                tag = command.tag
+                self._attach_tag(tag, staff)
+                voice_numeral = self._to_roman(voice_number)
+                voice = abjad.Voice(name=f'{name}Voice{voice_numeral}')
+                staff.append(voice)
+                voice_number += 1
                 abjad.annotate(
                     staff,
                     'default_instrument',

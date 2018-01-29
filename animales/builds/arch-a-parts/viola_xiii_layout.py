@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'VA-13'
+part_abbreviation = 'VA_13'
 
 breaks = baca.breaks(
     baca.page( # 1

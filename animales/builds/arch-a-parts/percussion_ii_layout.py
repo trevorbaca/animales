@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'PERC-2'
+part_abbreviation = 'PERC_2'
 
 breaks = baca.breaks(
     baca.page( # 1
