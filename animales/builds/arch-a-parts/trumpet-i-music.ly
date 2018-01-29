@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag TrumpetI 
         {
         \include "trumpet-i-layout.ly"
         }

@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag Harp 
         {
         \include "harp-layout.ly"
         }

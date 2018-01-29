@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag CelloV 
         {
         \include "cello-v-layout.ly"
         }

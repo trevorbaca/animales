@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag BassoonII 
         {
         \include "bassoon-ii-layout.ly"
         }

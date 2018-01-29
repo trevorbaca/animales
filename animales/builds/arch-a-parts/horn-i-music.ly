@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag HornI 
         {
         \include "horn-i-layout.ly"
         }

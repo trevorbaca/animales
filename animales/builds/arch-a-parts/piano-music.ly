@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag Piano 
         {
         \include "piano-layout.ly"
         }

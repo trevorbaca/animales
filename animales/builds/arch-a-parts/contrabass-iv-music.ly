@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag ContrabassIV 
         {
         \include "contrabass-iv-layout.ly"
         }

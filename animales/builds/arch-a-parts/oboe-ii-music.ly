@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag OboeII 
         {
         \include "oboe-ii-layout.ly"
         }

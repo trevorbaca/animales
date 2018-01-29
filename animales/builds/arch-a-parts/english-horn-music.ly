@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag EnglishHorn 
         {
         \include "english-horn-layout.ly"
         }

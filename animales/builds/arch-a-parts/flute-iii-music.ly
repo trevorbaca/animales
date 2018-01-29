@@ -9,7 +9,6 @@
 
 \score {
     <<
-        \keepWithTag FluteIII 
         {
         \include "flute-iii-layout.ly"
         }
