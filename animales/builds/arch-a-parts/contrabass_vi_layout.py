@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'CB-6'
+part_abbreviation = 'CB_6'
 
 breaks = baca.breaks(
     baca.page( # 1

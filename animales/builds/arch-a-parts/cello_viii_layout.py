@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'VC-8'
+part_abbreviation = 'VC_8'
 
 breaks = baca.breaks(
     baca.page( # 1

@@ -14,10 +14,10 @@ maker = baca.SegmentMaker(
     measures_per_stage=True,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
-        first_violins=[1, 1],
-        second_violins=[1, 1],
-        violas=[1, 1],
-        cellos=[1],
+        first_violins=[(1, 10), (11, 18)],
+        second_violins=[(1, 10), (11, 18)],
+        violas=[(1, 10), (11, 18)],
+        cellos=True,
         ),
     time_signatures=animales.time_signatures[:6],
     transpose_score=True,
@@ -31,7 +31,14 @@ maker(
 
 maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
-    baca.margin_markup(animales.margin_markup['Vni. I (1-10)']),
+#    baca.tag(
+#        '+ARCH_A_PARTS_VN_1_1',
+#        baca.margin_markup(animales.margin_markup['Vni. I (1)']),
+#        ),
+    baca.tag(
+        '+SEGMENT',
+        baca.margin_markup(animales.margin_markup['Vni. I (1-10)']),
+        ),
     animales.lilypond_tag('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
     )
