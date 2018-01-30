@@ -49,13 +49,15 @@
         \accepts GlobalSkips
         \accepts GlobalRests
         \accepts PageLayout
-        \override BarNumber.extra-offset = #'(-4 . -4)
+
         \override BarNumber.font-size = 1
+
         \override MetronomeMark.X-extent = #'(0 . 0)
         \override MetronomeMark.Y-extent = #'(0 . 0)
         \override MetronomeMark.break-align-symbols = #'(left-edge)
         \override MetronomeMark.extra-offset = #'(0 . 4)
         \override MetronomeMark.font-size = 3
+
         \override RehearsalMark.X-extent = #'(0 . 0)
         \override RehearsalMark.Y-extent = #'(0 . 0)
         \override RehearsalMark.break-align-symbols = #'(time-signature)
@@ -64,6 +66,7 @@
         \override RehearsalMark.font-size = 10
         \override RehearsalMark.outside-staff-priority = 200
         \override RehearsalMark.self-alignment-X = #center
+
         % prevents StaffSymbol from starting too early after cut-away measures:
         %\override TimeSignature.X-extent = #'(0 . 0)
         \override TimeSignature.X-extent = ##f
@@ -72,6 +75,7 @@
         \override TimeSignature.font-size = 3
         \override TimeSignature.space-alist.clef = #'(extra-space . 0.5)
         \override TimeSignature.style = #'numbered
+
         \override VerticalAxisGroup.default-staff-staff-spacing = #'(
             (basic-distance . 0)
             (minimum-distance . 12) % distance below time signature context
@@ -79,6 +83,7 @@
             (stretchability . 0)
         )
         \override VerticalAxisGroup.minimum-Y-extent = #'(-4 . 4)
+
     }
 
     % STAFF GROUP

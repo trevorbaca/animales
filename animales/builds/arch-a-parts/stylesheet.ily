@@ -33,10 +33,13 @@
         \GlobalContext
         \remove Time_signature_engraver
         \override RehearsalMark.font-size = 3
-        \override BarNumber.X-offset = -5.5
-        \override BarNumber.Y-offset = 4
+
+        \override BarNumber.X-offset = 0
+        \override BarNumber.Y-offset = 0
         \override BarNumber.font-size = 0
+
         \override RehearsalMark.self-alignment-X = #left
+
     }
 
     \context {
@@ -68,6 +71,7 @@
     \context {
         \Score
         \override BarLine.hair-thickness = 1.25
+
         \override TimeSignature.break-visibility = #end-of-line-invisible
         \override TimeSignature.style = #'numbered
     }
