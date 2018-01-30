@@ -661,7 +661,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 else:
                     command = animales.lilypond_tag(name, divisi_token)
                 tag = command.tag
-                self._attach_tag(tag, staff)
+                self._attach_lilypond_tag(tag, staff)
                 voice_numeral = self._to_roman(voice_number)
                 voice = abjad.Voice(name=f'{name}Voice{voice_numeral}')
                 staff.append(voice)
