@@ -386,16 +386,16 @@
                                     ^ \markup {
                                         \column
                                             {
-                                            %@% \line                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%     {                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%         (“Violin”)                       %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%     }                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                                \line                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \with-color                      %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            #(x11-color 'blue)           %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            (“Violin”)                   %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            %@% \line                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%     {                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%         (“Violin”)                       %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%     }                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                                \line                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \with-color                      %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            #(x11-color 'DarkViolet)     %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            (“Violin”)                   %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             }
                                         }
                                     \override Staff.Clef.color = #(x11-color 'violet)    %! DEFAULT_CLEF_REDRAW_COLOR:SM6
@@ -474,16 +474,16 @@
                                     ^ \markup {
                                         \column
                                             {
-                                            %@% \line                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%     {                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%         (“Violin”)                       %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%     }                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                                \line                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \with-color                      %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            #(x11-color 'blue)           %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            (“Violin”)                   %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            %@% \line                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%     {                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%         (“Violin”)                       %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%     }                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                                \line                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \with-color                      %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            #(x11-color 'DarkViolet)     %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            (“Violin”)                   %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             %@% \line                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                             %@%     {                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                             %@%         \vcenter                         %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
@@ -661,16 +661,16 @@
                                     ^ \markup {
                                         \column
                                             {
-                                            %@% \line                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%     {                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%         (“Violin”)                       %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%     }                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                                \line                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \with-color                      %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            #(x11-color 'blue)           %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            (“Violin”)                   %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            %@% \line                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%     {                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%         (“Violin”)                       %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%     }                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                                \line                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \with-color                      %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            #(x11-color 'DarkViolet)     %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            (“Violin”)                   %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             %@% \line                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                             %@%     {                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                             %@%         \vcenter                         %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
@@ -843,16 +843,16 @@
                                     ^ \markup {
                                         \column
                                             {
-                                            %@% \line                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%     {                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%         (“Violin”)                       %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%     }                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                                \line                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \with-color                      %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            #(x11-color 'blue)           %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            (“Violin”)                   %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            %@% \line                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%     {                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%         (“Violin”)                       %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%     }                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                                \line                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \with-color                      %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            #(x11-color 'DarkViolet)     %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            (“Violin”)                   %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             %@% \line                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                             %@%     {                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                             %@%         \vcenter                         %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
@@ -1034,16 +1034,16 @@
                                     ^ \markup {
                                         \column
                                             {
-                                            %@% \line                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%     {                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%         (“Viola”)                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%     }                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                                \line                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \with-color                      %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            #(x11-color 'blue)           %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            (“Viola”)                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            %@% \line                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%     {                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%         (“Viola”)                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%     }                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                                \line                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \with-color                      %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            #(x11-color 'DarkViolet)     %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            (“Viola”)                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             %@% \line                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                             %@%     {                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                             %@%         \vcenter                         %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
@@ -1203,16 +1203,16 @@
                                     ^ \markup {
                                         \column
                                             {
-                                            %@% \line                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%     {                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%         (“Viola”)                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            %@%     }                                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                                \line                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \with-color                      %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            #(x11-color 'blue)           %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            (“Viola”)                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            %@% \line                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%     {                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%         (“Viola”)                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            %@%     }                                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                                \line                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \with-color                      %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            #(x11-color 'DarkViolet)     %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            (“Viola”)                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             %@% \line                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                             %@%     {                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
                                             %@%         \vcenter                         %! EXPLICIT_MARGIN_MARKUP_ALERT:SM10
@@ -1356,6 +1356,16 @@
                                 ^ \markup {
                                     \column
                                         {
+                                        %@% \line                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%     {                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%         (“Cello”)                            %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                        %@%     }                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                            \line                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                {                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \with-color                          %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        #(x11-color 'DarkViolet)         %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        (“Cello”)                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                }                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         %@% \line                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
                                         %@%     {                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
                                         %@%         \vcenter                             %! DEFAULT_MARGIN_MARKUP_ALERT:SM10
@@ -1396,16 +1406,6 @@
                                                                 }                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                         }                                %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
                                                 }                                        %! DEFAULT_MARGIN_MARKUP_ALERT_WITH_COLOR:SM11
-                                        %@% \line                                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                        %@%     {                                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                        %@%         (“Cello”)                            %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                        %@%     }                                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                            \line                                        %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                {                                        %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    \with-color                          %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        #(x11-color 'blue)               %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        (“Cello”)                        %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                }                                        %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         }
                                     }
                                 \set Staff.instrumentName = \markup {                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
