@@ -20,7 +20,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloVoiceI',
                                 prototype='abjad.Clef',
-                                value='tenor',
+                                value='bass',
                                 ),
                             abjad.Momento(
                                 context='CelloVoiceI',
