@@ -334,24 +334,6 @@
                                 {
                                     
                                     % FirstViolinVoiceI [measure 1]                      %! SM4
-                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%                 (1)                                  %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%                 (1)                                  %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_1:IC
-                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_1:IC
                                     \set Staff.instrumentName = \markup {                %! +SEGMENT:IC
                                         \hcenter-in                                      %! +SEGMENT:IC
                                             #16                                          %! +SEGMENT:IC
@@ -382,12 +364,12 @@
                                     a'1
                                     -\accent                                             %! IC
                                     \f_but_accents_sffz                                  %! EXPLICIT_DYNAMIC:SM8
-                                    \startTrillSpan b'                                   %! SC
                                     ^ \markup {                                          %! DEFAULT_INSTRUMENT_ALERT:SM11
                                         \with-color                                      %! DEFAULT_INSTRUMENT_ALERT:SM11
                                             #(x11-color 'DarkViolet)                     %! DEFAULT_INSTRUMENT_ALERT:SM11
                                             (“Violin”)                                   %! DEFAULT_INSTRUMENT_ALERT:SM11
                                         }                                                %! DEFAULT_INSTRUMENT_ALERT:SM11
+                                    \startTrillSpan b'                                   %! SC
                                     \override Staff.Clef.color = #(x11-color 'violet)    %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                     
                                     % FirstViolinVoiceI [measure 2]                      %! SM4
@@ -460,7 +442,6 @@
                                     \pitchedTrill                                        %! SC
                                     a'4
                                     \f_but_accents_sffz                                  %! EXPLICIT_DYNAMIC:SM8
-                                    \startTrillSpan b'                                   %! SC
                                     ^ \markup {
                                         \column
                                             {
@@ -504,6 +485,7 @@
                                                     }                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             }
                                         }
+                                    \startTrillSpan b'                                   %! SC
                                     \set Staff.instrumentName = \markup {                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                             #16                                          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
@@ -615,7 +597,6 @@
                                     \pitchedTrill                                        %! SC
                                     a'2
                                     \f_but_accents_sffz                                  %! EXPLICIT_DYNAMIC:SM8
-                                    \startTrillSpan b'                                   %! SC
                                     ^ \markup {
                                         \column
                                             {
@@ -659,6 +640,7 @@
                                                     }                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             }
                                         }
+                                    \startTrillSpan b'                                   %! SC
                                     \set Staff.instrumentName = \markup {                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                             #16                                          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
@@ -765,7 +747,6 @@
                                     \pitchedTrill                                        %! SC
                                     a'2
                                     \f_but_accents_sffz                                  %! EXPLICIT_DYNAMIC:SM8
-                                    \startTrillSpan b'                                   %! SC
                                     ^ \markup {
                                         \column
                                             {
@@ -809,6 +790,7 @@
                                                     }                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             }
                                         }
+                                    \startTrillSpan b'                                   %! SC
                                     \set Staff.instrumentName = \markup {                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                             #16                                          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
@@ -924,7 +906,6 @@
                                     \pitchedTrill                                        %! SC
                                     a'2.
                                     \f_but_accents_sffz                                  %! EXPLICIT_DYNAMIC:SM8
-                                    \startTrillSpan b'                                   %! SC
                                     ^ \markup {
                                         \column
                                             {
@@ -966,6 +947,7 @@
                                                     }                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             }
                                         }
+                                    \startTrillSpan b'                                   %! SC
                                     \set Staff.instrumentName = \markup {                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                             #16                                          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
@@ -1063,7 +1045,6 @@
                                     \pitchedTrill                                        %! SC
                                     a'1
                                     \f_but_accents_sffz                                  %! EXPLICIT_DYNAMIC:SM8
-                                    \startTrillSpan b'                                   %! SC
                                     ^ \markup {
                                         \column
                                             {
@@ -1105,6 +1086,7 @@
                                                     }                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             }
                                         }
+                                    \startTrillSpan b'                                   %! SC
                                     \set Staff.instrumentName = \markup {                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                             #16                                          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
@@ -1186,7 +1168,6 @@
                                 \pitchedTrill                                            %! SC
                                 a'1
                                 \f_but_accents_sffz                                      %! EXPLICIT_DYNAMIC:SM8
-                                \startTrillSpan b'                                       %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -1220,6 +1201,7 @@
                                                 }                                        %! DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                         }
                                     }
+                                \startTrillSpan b'                                       %! SC
                                 \set Staff.instrumentName = \markup {                    %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                                     \hcenter-in                                          %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
                                         #16                                              %! REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
