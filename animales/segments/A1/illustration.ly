@@ -368,7 +368,6 @@
                                     \pitchedTrill                                        %! SC
                                     df'1
                                     \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
-                                    \startTrillSpan ef'                                  %! SC
                                     ^ \markup {
                                         \column
                                             {
@@ -412,6 +411,7 @@
                                                     }                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             }
                                         }
+                                    \startTrillSpan ef'                                  %! SC
                                     \set Staff.instrumentName = \markup {                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                                             #16                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
@@ -559,7 +559,6 @@
                                     \pitchedTrill                                        %! SC
                                     df'1
                                     \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
-                                    \startTrillSpan ef'                                  %! SC
                                     ^ \markup {
                                         \column
                                             {
@@ -603,6 +602,7 @@
                                                     }                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             }
                                         }
+                                    \startTrillSpan ef'                                  %! SC
                                     \set Staff.instrumentName = \markup {                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                                             #16                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
@@ -691,7 +691,6 @@
                                     \pitchedTrill                                        %! SC
                                     df'1
                                     \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
-                                    \startTrillSpan ef'                                  %! SC
                                     ^ \markup {
                                         \column
                                             {
@@ -735,6 +734,7 @@
                                                     }                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             }
                                         }
+                                    \startTrillSpan ef'                                  %! SC
                                     \set Staff.instrumentName = \markup {                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                                             #16                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
@@ -904,7 +904,6 @@
                                         \pitchedTrill                                    %! SC
                                         df'8
                                         \f_sub_but_accents_continue_sffz                 %! EXPLICIT_DYNAMIC:SM8
-                                        \startTrillSpan ef'                              %! SC
                                         ^ \markup {
                                             \column
                                                 {
@@ -948,6 +947,7 @@
                                                         }                                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                                 }
                                             }
+                                        \startTrillSpan ef'                              %! SC
                                         \set Staff.instrumentName = \markup {            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                                             \hcenter-in                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                                                 #16                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
@@ -1039,7 +1039,6 @@
                                     \pitchedTrill                                        %! SC
                                     df'2
                                     \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
-                                    \startTrillSpan ef'                                  %! SC
                                     ^ \markup {
                                         \column
                                             {
@@ -1081,6 +1080,7 @@
                                                     }                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             }
                                         }
+                                    \startTrillSpan ef'                                  %! SC
                                     \set Staff.instrumentName = \markup {                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                                             #16                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
@@ -1229,7 +1229,6 @@
                                     \pitchedTrill                                        %! SC
                                     df'2.
                                     \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
-                                    \startTrillSpan ef'                                  %! SC
                                     ^ \markup {
                                         \column
                                             {
@@ -1271,6 +1270,7 @@
                                                     }                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             }
                                         }
+                                    \startTrillSpan ef'                                  %! SC
                                     \set Staff.instrumentName = \markup {                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                                             #16                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
@@ -1344,7 +1344,6 @@
                                 \pitchedTrill                                            %! SC
                                 df'1
                                 \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-                                \startTrillSpan ef'                                      %! SC
                                 ^ \markup {
                                     \column
                                         {
@@ -1378,6 +1377,7 @@
                                                 }                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                         }
                                     }
+                                \startTrillSpan ef'                                      %! SC
                                 \set Staff.instrumentName = \markup {                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                                     \hcenter-in                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                                         #16                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
