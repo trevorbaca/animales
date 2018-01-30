@@ -12,6 +12,7 @@ maker = baca.SegmentMaker(
     instruments=animales.instruments,
     margin_markup=animales.margin_markup,
     measures_per_stage=True,
+    metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
         first_violins=[(1, 10), (11, 18)],
@@ -31,11 +32,11 @@ maker(
 
 maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
-#    baca.tag(
-#        '+ARCH_A_PARTS_VN_1_1',
-#        baca.margin_markup(animales.margin_markup['Vni. I (1)']),
-#        deactivate=True,
-#        ),
+    baca.tag(
+        '+ARCH_A_PARTS_VN_1_1',
+        baca.margin_markup(animales.margin_markup['Vni. I (1)']),
+        deactivate=True,
+        ),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(animales.margin_markup['Vni. I (1-10)']),

@@ -28,7 +28,7 @@
                 %@%             \note-by-number                                          %! REAPPLIED_METRONOME_MARK:SM27
                 %@%                 #2                                                   %! REAPPLIED_METRONOME_MARK:SM27
                 %@%                 #0                                                   %! REAPPLIED_METRONOME_MARK:SM27
-                %@%                 #1.5                                                 %! REAPPLIED_METRONOME_MARK:SM27
+                %@%                 #1                                                   %! REAPPLIED_METRONOME_MARK:SM27
                 %@%     \upright                                                         %! REAPPLIED_METRONOME_MARK:SM27
                 %@%         {                                                            %! REAPPLIED_METRONOME_MARK:SM27
                 %@%             =                                                        %! REAPPLIED_METRONOME_MARK:SM27
@@ -56,7 +56,7 @@
                                         \note-by-number                                  %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
                                             #2                                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
                                             #0                                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                            #1.5                                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                            #1                                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
                                 \upright                                                 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
                                     {                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
                                         =                                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
