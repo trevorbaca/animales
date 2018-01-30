@@ -20,7 +20,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloVoiceI',
                                 prototype='abjad.Clef',
-                                value='bass',
+                                value='tenor',
                                 ),
                             abjad.Momento(
                                 context='CelloVoiceI',
@@ -80,7 +80,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinVoiceII',
                                 prototype='abjad.MarginMarkup',
-                                value='Vni. I',
+                                value='Vni. I (11-18)',
                                 ),
                             ],
                         ),
@@ -155,7 +155,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinVoiceII',
                                 prototype='abjad.MarginMarkup',
-                                value='Vni. II',
+                                value='Vni. II (11-18)',
                                 ),
                             ],
                         ),
@@ -215,7 +215,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaVoiceII',
                                 prototype='abjad.MarginMarkup',
-                                value='Vle.',
+                                value='Vle. (11-18)',
                                 ),
                             ],
                         ),

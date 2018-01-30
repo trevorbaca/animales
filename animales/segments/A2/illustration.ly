@@ -769,7 +769,7 @@
                                     Vc.                                                  %! REAPPLIED_MARGIN_MARKUP:SM8
                                 }                                                        %! REAPPLIED_MARGIN_MARKUP:SM8
                             \set Staff.forceClef = ##t                                   %! REAPPLIED_CLEF:SM8
-                            \clef "bass"                                                 %! REAPPLIED_CLEF:SM8
+                            \clef "tenor"                                                %! REAPPLIED_CLEF:SM8
                             \once \override Staff.Clef.color = #(x11-color 'green4)      %! REAPPLIED_CLEF_COLOR:SM6
                         %@% \override Staff.Clef.color = ##f                             %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                             \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
