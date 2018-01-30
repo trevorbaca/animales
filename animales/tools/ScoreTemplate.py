@@ -39,16 +39,16 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag Piccolo %! ST4
                     \context Staff = "PiccoloStaffI" {
                         \context Voice = "PiccoloVoiceI" {
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Piccolo
-                                }    %! ST2
-                            \set Staff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Picc.
-                                } %! ST2
+                            \set Staff.instrumentName = \markup {      %! ST2
+                                \hcenter-in                            %! ST2
+                                    #16                                %! ST2
+                                    Piccolo                            %! ST2
+                                }                                      %! ST2
+                            \set Staff.shortInstrumentName = \markup { %! ST2
+                                \hcenter-in                            %! ST2
+                                    #10                                %! ST2
+                                    Picc.                              %! ST2
+                                }                                      %! ST2
                             \clef "treble" %! ST3
                             s1
                         }
@@ -59,16 +59,16 @@ class ScoreTemplate(baca.ScoreTemplate):
                         \tag FluteI.FluteII %! ST4
                         \context Staff = "FluteStaffI" {
                             \context Voice = "FluteVoiceI" {
-                                \set Staff.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        Flutes
-                                    }   %! ST2
-                                \set Staff.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        Fl.
-                                    } %! ST2
+                                \set Staff.instrumentName = \markup {      %! ST2
+                                    \hcenter-in                            %! ST2
+                                        #16                                %! ST2
+                                        Flutes                             %! ST2
+                                    }                                      %! ST2
+                                \set Staff.shortInstrumentName = \markup { %! ST2
+                                    \hcenter-in                            %! ST2
+                                        #10                                %! ST2
+                                        Fl.                                %! ST2
+                                    }                                      %! ST2
                                 \clef "treble" %! ST3
                                 s1
                             }
@@ -76,16 +76,16 @@ class ScoreTemplate(baca.ScoreTemplate):
                         \tag FluteIII %! ST4
                         \context Staff = "FluteStaffII" {
                             \context Voice = "FluteVoiceII" {
-                                \set Staff.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        Flutes
-                                    }   %! ST2
-                                \set Staff.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        Fl.
-                                    } %! ST2
+                                \set Staff.instrumentName = \markup {      %! ST2
+                                    \hcenter-in                            %! ST2
+                                        #16                                %! ST2
+                                        Flutes                             %! ST2
+                                    }                                      %! ST2
+                                \set Staff.shortInstrumentName = \markup { %! ST2
+                                    \hcenter-in                            %! ST2
+                                        #10                                %! ST2
+                                        Fl.                                %! ST2
+                                    }                                      %! ST2
                                 \clef "treble" %! ST3
                                 s1
                             }
@@ -99,24 +99,24 @@ class ScoreTemplate(baca.ScoreTemplate):
                         \tag FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX %! ST4
                         \context Staff = "FirstViolinStaffI" {
                             \context Voice = "FirstViolinVoiceI" {
-                                \set Staff.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        \center-column
-                                            {
-                                                Violins
-                                                I
-                                            }
-                                    }   %! ST2
-                                \set Staff.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        \center-column
-                                            {
-                                                Vni.
-                                                I
-                                            }
-                                    } %! ST2
+                                \set Staff.instrumentName = \markup {      %! ST2
+                                    \hcenter-in                            %! ST2
+                                        #16                                %! ST2
+                                        \center-column                     %! ST2
+                                            {                              %! ST2
+                                                Violins                    %! ST2
+                                                I                          %! ST2
+                                            }                              %! ST2
+                                    }                                      %! ST2
+                                \set Staff.shortInstrumentName = \markup { %! ST2
+                                    \hcenter-in                            %! ST2
+                                        #10                                %! ST2
+                                        \center-column                     %! ST2
+                                            {                              %! ST2
+                                                Vni.                       %! ST2
+                                                I                          %! ST2
+                                            }                              %! ST2
+                                    }                                      %! ST2
                                 \clef "treble" %! ST3
                                 s1
                             }
@@ -124,24 +124,24 @@ class ScoreTemplate(baca.ScoreTemplate):
                         \tag FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII %! ST4
                         \context Staff = "FirstViolinStaffII" {
                             \context Voice = "FirstViolinVoiceII" {
-                                \set Staff.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        \center-column
-                                            {
-                                                Violins
-                                                I
-                                            }
-                                    }   %! ST2
-                                \set Staff.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        \center-column
-                                            {
-                                                Vni.
-                                                I
-                                            }
-                                    } %! ST2
+                                \set Staff.instrumentName = \markup {      %! ST2
+                                    \hcenter-in                            %! ST2
+                                        #16                                %! ST2
+                                        \center-column                     %! ST2
+                                            {                              %! ST2
+                                                Violins                    %! ST2
+                                                I                          %! ST2
+                                            }                              %! ST2
+                                    }                                      %! ST2
+                                \set Staff.shortInstrumentName = \markup { %! ST2
+                                    \hcenter-in                            %! ST2
+                                        #10                                %! ST2
+                                        \center-column                     %! ST2
+                                            {                              %! ST2
+                                                Vni.                       %! ST2
+                                                I                          %! ST2
+                                            }                              %! ST2
+                                    }                                      %! ST2
                                 \clef "treble" %! ST3
                                 s1
                             }
@@ -153,24 +153,24 @@ class ScoreTemplate(baca.ScoreTemplate):
                         \tag SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX %! ST4
                         \context Staff = "SecondViolinStaffI" {
                             \context Voice = "SecondViolinVoiceI" {
-                                \set Staff.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        \center-column
-                                            {
-                                                Violins
-                                                II
-                                            }
-                                    }   %! ST2
-                                \set Staff.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        \center-column
-                                            {
-                                                Vni.
-                                                II
-                                            }
-                                    } %! ST2
+                                \set Staff.instrumentName = \markup {      %! ST2
+                                    \hcenter-in                            %! ST2
+                                        #16                                %! ST2
+                                        \center-column                     %! ST2
+                                            {                              %! ST2
+                                                Violins                    %! ST2
+                                                II                         %! ST2
+                                            }                              %! ST2
+                                    }                                      %! ST2
+                                \set Staff.shortInstrumentName = \markup { %! ST2
+                                    \hcenter-in                            %! ST2
+                                        #10                                %! ST2
+                                        \center-column                     %! ST2
+                                            {                              %! ST2
+                                                Vni.                       %! ST2
+                                                II                         %! ST2
+                                            }                              %! ST2
+                                    }                                      %! ST2
                                 \clef "treble" %! ST3
                                 s1
                             }
@@ -178,24 +178,24 @@ class ScoreTemplate(baca.ScoreTemplate):
                         \tag SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII %! ST4
                         \context Staff = "SecondViolinStaffII" {
                             \context Voice = "SecondViolinVoiceII" {
-                                \set Staff.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        \center-column
-                                            {
-                                                Violins
-                                                II
-                                            }
-                                    }   %! ST2
-                                \set Staff.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        \center-column
-                                            {
-                                                Vni.
-                                                II
-                                            }
-                                    } %! ST2
+                                \set Staff.instrumentName = \markup {      %! ST2
+                                    \hcenter-in                            %! ST2
+                                        #16                                %! ST2
+                                        \center-column                     %! ST2
+                                            {                              %! ST2
+                                                Violins                    %! ST2
+                                                II                         %! ST2
+                                            }                              %! ST2
+                                    }                                      %! ST2
+                                \set Staff.shortInstrumentName = \markup { %! ST2
+                                    \hcenter-in                            %! ST2
+                                        #10                                %! ST2
+                                        \center-column                     %! ST2
+                                            {                              %! ST2
+                                                Vni.                       %! ST2
+                                                II                         %! ST2
+                                            }                              %! ST2
+                                    }                                      %! ST2
                                 \clef "treble" %! ST3
                                 s1
                             }
@@ -204,16 +204,16 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX.ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII %! ST4
                     \context Staff = "ViolaStaffI" {
                         \context Voice = "ViolaVoiceI" {
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Violas
-                                }    %! ST2
-                            \set Staff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Vle.
-                                } %! ST2
+                            \set Staff.instrumentName = \markup {      %! ST2
+                                \hcenter-in                            %! ST2
+                                    #16                                %! ST2
+                                    Violas                             %! ST2
+                                }                                      %! ST2
+                            \set Staff.shortInstrumentName = \markup { %! ST2
+                                \hcenter-in                            %! ST2
+                                    #10                                %! ST2
+                                    Vle.                               %! ST2
+                                }                                      %! ST2
                             \clef "alto" %! ST3
                             s1
                         }
@@ -221,16 +221,16 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV %! ST4
                     \context Staff = "CelloStaffI" {
                         \context Voice = "CelloVoiceI" {
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Cellos
-                                }   %! ST2
-                            \set Staff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Vc.
-                                } %! ST2
+                            \set Staff.instrumentName = \markup {      %! ST2
+                                \hcenter-in                            %! ST2
+                                    #16                                %! ST2
+                                    Cellos                             %! ST2
+                                }                                      %! ST2
+                            \set Staff.shortInstrumentName = \markup { %! ST2
+                                \hcenter-in                            %! ST2
+                                    #10                                %! ST2
+                                    Vc.                                %! ST2
+                                }                                      %! ST2
                             \clef "bass" %! ST3
                             s1
                         }
@@ -238,16 +238,16 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag ContrabassI.ContrabassII.ContrabassIII.ContrabassIV.ContrabassV.ContrabassVI %! ST4
                     \context Staff = "ContrabassStaffI" {
                         \context Voice = "ContrabassVoiceI" {
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Contrabasses
-                                } %! ST2
-                            \set Staff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Cb.
-                                }     %! ST2
+                            \set Staff.instrumentName = \markup {      %! ST2
+                                \hcenter-in                            %! ST2
+                                    #16                                %! ST2
+                                    Contrabasses                       %! ST2
+                                }                                      %! ST2
+                            \set Staff.shortInstrumentName = \markup { %! ST2
+                                \hcenter-in                            %! ST2
+                                    #10                                %! ST2
+                                    Cb.                                %! ST2
+                                }                                      %! ST2
                             \clef "bass" %! ST3
                             s1
                         }
