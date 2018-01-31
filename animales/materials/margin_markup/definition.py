@@ -185,6 +185,16 @@ margin_markup = abjad.OrderedDict([
             )
         ),
     (
+        'Vni. I (3)',
+        abjad.MarginMarkup(
+            markup=baca.markup.instrument(['Violins I', '(3)']),
+            short_markup=baca.markup.short_instrument(
+                ['Vni. I', '(3)'],
+                hcenter_in=16,
+                ),
+            )
+        ),
+    (
         'Vni. I (1-10)',
         abjad.MarginMarkup(
             markup=baca.markup.instrument('Violins I (1-10)'),

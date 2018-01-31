@@ -1,4 +1,5 @@
 % Animales desconocidos (2018) piano part
+% part_abbreviation = 'PF'
 
 \version "2.19.81"
 \language "english"

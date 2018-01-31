@@ -1,4 +1,5 @@
 % Animales desconocidos (2018) trombone iii part
+% part_abbreviation = 'TBN_3'
 
 \version "2.19.81"
 \language "english"

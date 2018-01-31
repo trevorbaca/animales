@@ -1,4 +1,5 @@
 % Animales desconocidos (2018) second violin ii part
+% part_abbreviation = 'VN_2_2'
 
 \version "2.19.81"
 \language "english"

@@ -1,4 +1,5 @@
 % Animales desconocidos (2018) horn iii part
+% part_abbreviation = 'HN_3'
 
 \version "2.19.81"
 \language "english"

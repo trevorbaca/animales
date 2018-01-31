@@ -1,4 +1,5 @@
 % Animales desconocidos (2018) bassoon ii part
+% part_abbreviation = 'BSN_2'
 
 \version "2.19.81"
 \language "english"

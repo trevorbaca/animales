@@ -1,4 +1,5 @@
 % Animales desconocidos (2018) viola xii part
+% part_abbreviation = 'VA_12'
 
 \version "2.19.81"
 \language "english"
