@@ -1,4 +1,4 @@
-\version "2.19.80"
+\version "2.19.81"
 \language "english"
 
 \header {
@@ -31,7 +31,7 @@
             \tempo 4=60
             \break
             c'2
-            \tempo 4=72
+            \tempo 4=76
             \break
             c'2
             \tempo 4=84
@@ -40,7 +40,7 @@
             \tempo 4=96
             \break
             c'2
-            \tempo 4=108
+            \tempo 4=114
             \break
             c'2
             \tempo 4=120

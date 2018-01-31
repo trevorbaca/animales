@@ -17,7 +17,7 @@
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalSkips = "GlobalSkips" {
                     
-                    % GlobalSkips [measure 18]                                           %! SM4
+                    % [GlobalSkips measure 18]                                           %! SM4
                 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
                 %@% \markup {                                                            %! REAPPLIED_METRONOME_MARK:SM27
                 %@%     \fontsize                                                        %! REAPPLIED_METRONOME_MARK:SM27
@@ -114,7 +114,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 19]                                           %! SM4
+                    % [GlobalSkips measure 19]                                           %! SM4
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
                     ^ \markup {
@@ -155,7 +155,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 20]                                           %! SM4
+                    % [GlobalSkips measure 20]                                           %! SM4
                     \mark #1                                                             %! IC
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
@@ -197,7 +197,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 21]                                           %! SM4
+                    % [GlobalSkips measure 21]                                           %! SM4
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
                     ^ \markup {
@@ -238,7 +238,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 22]                                           %! SM4
+                    % [GlobalSkips measure 22]                                           %! SM4
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
                     ^ \markup {
@@ -279,7 +279,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 23]                                           %! SM4
+                    % [GlobalSkips measure 23]                                           %! SM4
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 3/4
@@ -337,7 +337,7 @@
                                 \tag FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX
                                 {
                                     
-                                    % FirstViolinVoiceI [measure 18]                     %! SM4
+                                    % [FirstViolinVoiceI measure 18]                     %! SM4
                                     \set Staff.instrumentName = \markup {                %! REAPPLIED_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REAPPLIED_MARGIN_MARKUP:SM8
                                             #16                                          %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -435,7 +435,7 @@
                                     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                     
-                                    % FirstViolinVoiceI [measure 19]                     %! SM4
+                                    % [FirstViolinVoiceI measure 19]                     %! SM4
                                     df'2
                                     \repeatTie
                                     
@@ -445,7 +445,7 @@
                                 \tag FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX.FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII
                                 {
                                     
-                                    % FirstViolinVoiceI [measure 20]                     %! SM4
+                                    % [FirstViolinVoiceI measure 20]                     %! SM4
                                     \set Staff.instrumentName = \markup {                %! EXPLICIT_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! EXPLICIT_MARGIN_MARKUP:SM8
                                             #16                                          %! EXPLICIT_MARGIN_MARKUP:SM8
@@ -507,15 +507,15 @@
                                     \revert TrillSpanner.staff-padding                   %! OC
                                     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                     
-                                    % FirstViolinVoiceI [measure 21]                     %! SM4
+                                    % [FirstViolinVoiceI measure 21]                     %! SM4
                                     c'1
                                     \repeatTie
                                     
-                                    % FirstViolinVoiceI [measure 22]                     %! SM4
+                                    % [FirstViolinVoiceI measure 22]                     %! SM4
                                     c'1
                                     \repeatTie
                                     
-                                    % FirstViolinVoiceI [measure 23]                     %! SM4
+                                    % [FirstViolinVoiceI measure 23]                     %! SM4
                                     c'2.
                                     \repeatTie
                                     
@@ -528,7 +528,7 @@
                                 \tag FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII
                                 {
                                     
-                                    % FirstViolinVoiceII [measure 18]                    %! SM4
+                                    % [FirstViolinVoiceII measure 18]                    %! SM4
                                     \set Staff.instrumentName = \markup {                %! REAPPLIED_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REAPPLIED_MARGIN_MARKUP:SM8
                                             #16                                          %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -626,7 +626,7 @@
                                     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                     
-                                    % FirstViolinVoiceII [measure 19]                    %! SM4
+                                    % [FirstViolinVoiceII measure 19]                    %! SM4
                                     df'2.
                                     \repeatTie
                                     
@@ -634,18 +634,18 @@
                                     -\accent                                             %! IC
                                 }
                                 
-                                % FirstViolinVoiceII [measure 20]                        %! SM4
+                                % [FirstViolinVoiceII measure 20]                        %! SM4
                                 s1 * 1
                                 \stopTrillSpan                                           %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
                                 
-                                % FirstViolinVoiceII [measure 21]                        %! SM4
+                                % [FirstViolinVoiceII measure 21]                        %! SM4
                                 s1 * 1
                                 
-                                % FirstViolinVoiceII [measure 22]                        %! SM4
+                                % [FirstViolinVoiceII measure 22]                        %! SM4
                                 s1 * 1
                                 
-                                % FirstViolinVoiceII [measure 23]                        %! SM4
+                                % [FirstViolinVoiceII measure 23]                        %! SM4
                                 s1 * 3/4
                                 
                             }
@@ -660,7 +660,7 @@
                                 \tag SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX
                                 {
                                     
-                                    % SecondViolinVoiceI [measure 18]                    %! SM4
+                                    % [SecondViolinVoiceI measure 18]                    %! SM4
                                     \set Staff.instrumentName = \markup {                %! REAPPLIED_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REAPPLIED_MARGIN_MARKUP:SM8
                                             #16                                          %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -758,14 +758,14 @@
                                     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                     
-                                    % SecondViolinVoiceI [measure 19]                    %! SM4
+                                    % [SecondViolinVoiceI measure 19]                    %! SM4
                                     df'1
                                     \repeatTie
                                 }
                                 \tag SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX.SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII
                                 {
                                     
-                                    % SecondViolinVoiceI [measure 20]                    %! SM4
+                                    % [SecondViolinVoiceI measure 20]                    %! SM4
                                     \set Staff.instrumentName = \markup {                %! EXPLICIT_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! EXPLICIT_MARGIN_MARKUP:SM8
                                             #16                                          %! EXPLICIT_MARGIN_MARKUP:SM8
@@ -851,15 +851,15 @@
                                     \revert TrillSpanner.staff-padding                   %! OC
                                     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                     
-                                    % SecondViolinVoiceI [measure 21]                    %! SM4
+                                    % [SecondViolinVoiceI measure 21]                    %! SM4
                                     c'1
                                     \repeatTie
                                     
-                                    % SecondViolinVoiceI [measure 22]                    %! SM4
+                                    % [SecondViolinVoiceI measure 22]                    %! SM4
                                     c'1
                                     \repeatTie
                                     
-                                    % SecondViolinVoiceI [measure 23]                    %! SM4
+                                    % [SecondViolinVoiceI measure 23]                    %! SM4
                                     c'2.
                                     \repeatTie
                                     
@@ -873,7 +873,7 @@
                                 {
                                     \times 2/3 {
                                         
-                                        % SecondViolinVoiceII [measure 18]               %! SM4
+                                        % [SecondViolinVoiceII measure 18]               %! SM4
                                         \set Staff.instrumentName = \markup {            %! REAPPLIED_MARGIN_MARKUP:SM8
                                             \hcenter-in                                  %! REAPPLIED_MARGIN_MARKUP:SM8
                                                 #16                                      %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -979,23 +979,23 @@
                                     df'2.
                                     \repeatTie
                                     
-                                    % SecondViolinVoiceII [measure 19]                   %! SM4
+                                    % [SecondViolinVoiceII measure 19]                   %! SM4
                                     df'1
                                     \repeatTie
                                 }
                                 
-                                % SecondViolinVoiceII [measure 20]                       %! SM4
+                                % [SecondViolinVoiceII measure 20]                       %! SM4
                                 s1 * 1
                                 \stopTrillSpan                                           %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
                                 
-                                % SecondViolinVoiceII [measure 21]                       %! SM4
+                                % [SecondViolinVoiceII measure 21]                       %! SM4
                                 s1 * 1
                                 
-                                % SecondViolinVoiceII [measure 22]                       %! SM4
+                                % [SecondViolinVoiceII measure 22]                       %! SM4
                                 s1 * 1
                                 
-                                % SecondViolinVoiceII [measure 23]                       %! SM4
+                                % [SecondViolinVoiceII measure 23]                       %! SM4
                                 s1 * 3/4
                                 
                             }
@@ -1010,7 +1010,7 @@
                                 \tag ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX
                                 {
                                     
-                                    % ViolaVoiceI [measure 18]                           %! SM4
+                                    % [ViolaVoiceI measure 18]                           %! SM4
                                     \set Staff.instrumentName = \markup {                %! REAPPLIED_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REAPPLIED_MARGIN_MARKUP:SM8
                                             #16                                          %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -1108,14 +1108,14 @@
                                     df'4.
                                     -\accent                                             %! IC
                                     
-                                    % ViolaVoiceI [measure 19]                           %! SM4
+                                    % [ViolaVoiceI measure 19]                           %! SM4
                                     df'1
                                     \repeatTie
                                 }
                                 \tag ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX.ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII
                                 {
                                     
-                                    % ViolaVoiceI [measure 20]                           %! SM4
+                                    % [ViolaVoiceI measure 20]                           %! SM4
                                     \set Staff.instrumentName = \markup {                %! EXPLICIT_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! EXPLICIT_MARGIN_MARKUP:SM8
                                             #16                                          %! EXPLICIT_MARGIN_MARKUP:SM8
@@ -1178,15 +1178,15 @@
                                     \revert TrillSpanner.staff-padding                   %! OC
                                     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                     
-                                    % ViolaVoiceI [measure 21]                           %! SM4
+                                    % [ViolaVoiceI measure 21]                           %! SM4
                                     c'1
                                     \repeatTie
                                     
-                                    % ViolaVoiceI [measure 22]                           %! SM4
+                                    % [ViolaVoiceI measure 22]                           %! SM4
                                     c'1
                                     \repeatTie
                                     
-                                    % ViolaVoiceI [measure 23]                           %! SM4
+                                    % [ViolaVoiceI measure 23]                           %! SM4
                                     c'2.
                                     \repeatTie
                                     \revert RepeatTie.direction                          %! OC
@@ -1200,7 +1200,7 @@
                                 \tag ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII
                                 {
                                     
-                                    % ViolaVoiceII [measure 18]                          %! SM4
+                                    % [ViolaVoiceII measure 18]                          %! SM4
                                     \set Staff.instrumentName = \markup {                %! REAPPLIED_MARGIN_MARKUP:SM8
                                         \hcenter-in                                      %! REAPPLIED_MARGIN_MARKUP:SM8
                                             #16                                          %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -1295,23 +1295,23 @@
                                     df'4
                                     -\accent                                             %! IC
                                     
-                                    % ViolaVoiceII [measure 19]                          %! SM4
+                                    % [ViolaVoiceII measure 19]                          %! SM4
                                     df'1
                                     \repeatTie
                                 }
                                 
-                                % ViolaVoiceII [measure 20]                              %! SM4
+                                % [ViolaVoiceII measure 20]                              %! SM4
                                 s1 * 1
                                 \stopTrillSpan                                           %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
                                 
-                                % ViolaVoiceII [measure 21]                              %! SM4
+                                % [ViolaVoiceII measure 21]                              %! SM4
                                 s1 * 1
                                 
-                                % ViolaVoiceII [measure 22]                              %! SM4
+                                % [ViolaVoiceII measure 22]                              %! SM4
                                 s1 * 1
                                 
-                                % ViolaVoiceII [measure 23]                              %! SM4
+                                % [ViolaVoiceII measure 23]                              %! SM4
                                 s1 * 3/4
                                 
                             }
@@ -1323,7 +1323,7 @@
                             \tag CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV
                             {
                                 
-                                % CelloVoiceI [measure 18]                               %! SM4
+                                % [CelloVoiceI measure 18]                               %! SM4
                                 \set Staff.instrumentName = \markup {                    %! REAPPLIED_MARGIN_MARKUP:SM8
                                     \hcenter-in                                          %! REAPPLIED_MARGIN_MARKUP:SM8
                                         #16                                              %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -1391,7 +1391,7 @@
                                 \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                                 
-                                % CelloVoiceI [measure 19]                               %! SM4
+                                % [CelloVoiceI measure 19]                               %! SM4
                                 df'4.
                                 \repeatTie
                                 
@@ -1401,22 +1401,22 @@
                                 df'2
                                 \repeatTie
                                 
-                                % CelloVoiceI [measure 20]                               %! SM4
+                                % [CelloVoiceI measure 20]                               %! SM4
                                 \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 c'1
                                 \p_sub                                                   %! EXPLICIT_DYNAMIC:SM8
                                 \stopTrillSpan                                           %! SC
                                 \revert TrillSpanner.staff-padding                       %! OC
                                 
-                                % CelloVoiceI [measure 21]                               %! SM4
+                                % [CelloVoiceI measure 21]                               %! SM4
                                 c'1
                                 \repeatTie
                                 
-                                % CelloVoiceI [measure 22]                               %! SM4
+                                % [CelloVoiceI measure 22]                               %! SM4
                                 c'1
                                 \repeatTie
                                 
-                                % CelloVoiceI [measure 23]                               %! SM4
+                                % [CelloVoiceI measure 23]                               %! SM4
                                 c'2.
                                 \repeatTie
                                 
