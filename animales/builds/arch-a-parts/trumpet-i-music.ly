@@ -1,4 +1,5 @@
 % Animales desconocidos (2018) trumpet i part
+% part_abbreviation = 'TP_1'
 
 \version "2.19.81"
 \language "english"

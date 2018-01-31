@@ -32,14 +32,19 @@ maker(
 
 maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
-#    baca.tag(
-#        '+ARCH_A_PARTS_VN_1_1',
-#        baca.margin_markup(animales.margin_markup['Vni. I (1)']),
-#        deactivate=True,
-#        ),
+    baca.tag(
+        '+ARCH_A_PARTS_VN_1_1',
+        baca.margin_markup(animales.margin_markup['Vni. I (1)']),
+        deactivate=True,
+        ),
     baca.tag(
         '+ARCH_A_PARTS_VN_1_2',
         baca.margin_markup(animales.margin_markup['Vni. I (2)']),
+        deactivate=True,
+        ),
+    baca.tag(
+        '+ARCH_A_PARTS_VN_1_3',
+        baca.margin_markup(animales.margin_markup['Vni. I (3)']),
         deactivate=True,
         ),
     baca.tag(

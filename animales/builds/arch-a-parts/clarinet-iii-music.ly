@@ -1,4 +1,5 @@
 % Animales desconocidos (2018) clarinet iii part
+% part_abbreviation = 'CL_3'
 
 \version "2.19.81"
 \language "english"
