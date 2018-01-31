@@ -17,7 +17,7 @@
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalSkips = "GlobalSkips" {
                     
-                    % GlobalSkips [measure 24]                                           %! SM4
+                    % [GlobalSkips measure 24]                                           %! SM4
                 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
                 %@% \markup {                                                            %! REAPPLIED_METRONOME_MARK:SM27
                 %@%     \fontsize                                                        %! REAPPLIED_METRONOME_MARK:SM27
@@ -114,7 +114,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 25]                                           %! SM4
+                    % [GlobalSkips measure 25]                                           %! SM4
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
@@ -156,7 +156,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 26]                                           %! SM4
+                    % [GlobalSkips measure 26]                                           %! SM4
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
                     ^ \markup {
@@ -197,7 +197,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 27]                                           %! SM4
+                    % [GlobalSkips measure 27]                                           %! SM4
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
                     ^ \markup {
@@ -238,7 +238,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 28]                                           %! SM4
+                    % [GlobalSkips measure 28]                                           %! SM4
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 3/4
@@ -280,7 +280,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 29]                                           %! SM4
+                    % [GlobalSkips measure 29]                                           %! SM4
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 3/4
                     \stopTextSpan                                                        %! SM29
@@ -332,22 +332,22 @@
                     \context Staff = "TromboneStaffI" {
                         \context Voice = "TromboneVoiceI" {
                             
-                            % TromboneVoiceI [measure 24]                                %! SM4
+                            % [TromboneVoiceI measure 24]                                %! SM4
                             R1 * 3/4
                             
-                            % TromboneVoiceI [measure 25]                                %! SM4
+                            % [TromboneVoiceI measure 25]                                %! SM4
                             R1 * 1
                             
-                            % TromboneVoiceI [measure 26]                                %! SM4
+                            % [TromboneVoiceI measure 26]                                %! SM4
                             R1 * 1
                             
-                            % TromboneVoiceI [measure 27]                                %! SM4
+                            % [TromboneVoiceI measure 27]                                %! SM4
                             R1 * 1
                             
-                            % TromboneVoiceI [measure 28]                                %! SM4
+                            % [TromboneVoiceI measure 28]                                %! SM4
                             R1 * 3/4
                             
-                            % TromboneVoiceI [measure 29]                                %! SM4
+                            % [TromboneVoiceI measure 29]                                %! SM4
                             R1 * 3/4
                             
                         }
@@ -358,22 +358,22 @@
                     \context Staff = "PercussionStaffI" {
                         \context Voice = "PercussionVoiceI" {
                             
-                            % PercussionVoiceI [measure 24]                              %! SM4
+                            % [PercussionVoiceI measure 24]                              %! SM4
                             R1 * 3/4
                             
-                            % PercussionVoiceI [measure 25]                              %! SM4
+                            % [PercussionVoiceI measure 25]                              %! SM4
                             R1 * 1
                             
-                            % PercussionVoiceI [measure 26]                              %! SM4
+                            % [PercussionVoiceI measure 26]                              %! SM4
                             R1 * 1
                             
-                            % PercussionVoiceI [measure 27]                              %! SM4
+                            % [PercussionVoiceI measure 27]                              %! SM4
                             R1 * 1
                             
-                            % PercussionVoiceI [measure 28]                              %! SM4
+                            % [PercussionVoiceI measure 28]                              %! SM4
                             R1 * 3/4
                             
-                            % PercussionVoiceI [measure 29]                              %! SM4
+                            % [PercussionVoiceI measure 29]                              %! SM4
                             R1 * 3/4
                             
                         }
@@ -384,7 +384,7 @@
                     \context Staff = "FirstViolinStaffI" {
                         \context Voice = "FirstViolinVoiceI" {
                             
-                            % FirstViolinVoiceI [measure 24]                             %! SM4
+                            % [FirstViolinVoiceI measure 24]                             %! SM4
                             \set Staff.instrumentName = \markup {                        %! REAPPLIED_MARGIN_MARKUP:SM8
                                 \hcenter-in                                              %! REAPPLIED_MARGIN_MARKUP:SM8
                                     #16                                                  %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -449,23 +449,23 @@
                             \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                             
-                            % FirstViolinVoiceI [measure 25]                             %! SM4
+                            % [FirstViolinVoiceI measure 25]                             %! SM4
                             c'1
                             \repeatTie
                             
-                            % FirstViolinVoiceI [measure 26]                             %! SM4
+                            % [FirstViolinVoiceI measure 26]                             %! SM4
                             c'1
                             \repeatTie
                             
-                            % FirstViolinVoiceI [measure 27]                             %! SM4
+                            % [FirstViolinVoiceI measure 27]                             %! SM4
                             c'1
                             \repeatTie
                             
-                            % FirstViolinVoiceI [measure 28]                             %! SM4
+                            % [FirstViolinVoiceI measure 28]                             %! SM4
                             c'2.
                             \repeatTie
                             
-                            % FirstViolinVoiceI [measure 29]                             %! SM4
+                            % [FirstViolinVoiceI measure 29]                             %! SM4
                             c'2.
                             \repeatTie
                             
@@ -475,7 +475,7 @@
                     \context Staff = "SecondViolinStaffI" {
                         \context Voice = "SecondViolinVoiceI" {
                             
-                            % SecondViolinVoiceI [measure 24]                            %! SM4
+                            % [SecondViolinVoiceI measure 24]                            %! SM4
                             \set Staff.instrumentName = \markup {                        %! REAPPLIED_MARGIN_MARKUP:SM8
                                 \hcenter-in                                              %! REAPPLIED_MARGIN_MARKUP:SM8
                                     #16                                                  %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -564,23 +564,23 @@
                             \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                             
-                            % SecondViolinVoiceI [measure 25]                            %! SM4
+                            % [SecondViolinVoiceI measure 25]                            %! SM4
                             c'1
                             \repeatTie
                             
-                            % SecondViolinVoiceI [measure 26]                            %! SM4
+                            % [SecondViolinVoiceI measure 26]                            %! SM4
                             c'1
                             \repeatTie
                             
-                            % SecondViolinVoiceI [measure 27]                            %! SM4
+                            % [SecondViolinVoiceI measure 27]                            %! SM4
                             c'1
                             \repeatTie
                             
-                            % SecondViolinVoiceI [measure 28]                            %! SM4
+                            % [SecondViolinVoiceI measure 28]                            %! SM4
                             c'2.
                             \repeatTie
                             
-                            % SecondViolinVoiceI [measure 29]                            %! SM4
+                            % [SecondViolinVoiceI measure 29]                            %! SM4
                             c'2.
                             \repeatTie
                             
@@ -590,7 +590,7 @@
                     \context Staff = "ViolaStaffI" {
                         \context Voice = "ViolaVoiceI" {
                             
-                            % ViolaVoiceI [measure 24]                                   %! SM4
+                            % [ViolaVoiceI measure 24]                                   %! SM4
                             \set Staff.instrumentName = \markup {                        %! REAPPLIED_MARGIN_MARKUP:SM8
                                 \hcenter-in                                              %! REAPPLIED_MARGIN_MARKUP:SM8
                                     #16                                                  %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -655,24 +655,24 @@
                             \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                             
-                            % ViolaVoiceI [measure 25]                                   %! SM4
+                            % [ViolaVoiceI measure 25]                                   %! SM4
                             c'1
                             \repeatTie
                             
-                            % ViolaVoiceI [measure 26]                                   %! SM4
+                            % [ViolaVoiceI measure 26]                                   %! SM4
                             \override RepeatTie.direction = #up                          %! OC
                             c'1
                             \repeatTie
                             
-                            % ViolaVoiceI [measure 27]                                   %! SM4
+                            % [ViolaVoiceI measure 27]                                   %! SM4
                             c'1
                             \repeatTie
                             
-                            % ViolaVoiceI [measure 28]                                   %! SM4
+                            % [ViolaVoiceI measure 28]                                   %! SM4
                             c'2.
                             \repeatTie
                             
-                            % ViolaVoiceI [measure 29]                                   %! SM4
+                            % [ViolaVoiceI measure 29]                                   %! SM4
                             c'2.
                             \repeatTie
                             \revert RepeatTie.direction                                  %! OC
@@ -683,7 +683,7 @@
                     \context Staff = "CelloStaffI" {
                         \context Voice = "CelloVoiceI" {
                             
-                            % CelloVoiceI [measure 24]                                   %! SM4
+                            % [CelloVoiceI measure 24]                                   %! SM4
                             \set Staff.instrumentName = \markup {                        %! REAPPLIED_MARGIN_MARKUP:SM8
                                 \hcenter-in                                              %! REAPPLIED_MARGIN_MARKUP:SM8
                                     #16                                                  %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -748,23 +748,23 @@
                             \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
                             
-                            % CelloVoiceI [measure 25]                                   %! SM4
+                            % [CelloVoiceI measure 25]                                   %! SM4
                             c'1
                             \repeatTie
                             
-                            % CelloVoiceI [measure 26]                                   %! SM4
+                            % [CelloVoiceI measure 26]                                   %! SM4
                             c'1
                             \repeatTie
                             
-                            % CelloVoiceI [measure 27]                                   %! SM4
+                            % [CelloVoiceI measure 27]                                   %! SM4
                             c'1
                             \repeatTie
                             
-                            % CelloVoiceI [measure 28]                                   %! SM4
+                            % [CelloVoiceI measure 28]                                   %! SM4
                             c'2.
                             \repeatTie
                             
-                            % CelloVoiceI [measure 29]                                   %! SM4
+                            % [CelloVoiceI measure 29]                                   %! SM4
                             c'2.
                             \repeatTie
                             
@@ -774,22 +774,22 @@
                     \context Staff = "ContrabassStaffI" {
                         \context Voice = "ContrabassVoiceI" {
                             
-                            % ContrabassVoiceI [measure 24]                              %! SM4
+                            % [ContrabassVoiceI measure 24]                              %! SM4
                             R1 * 3/4
                             
-                            % ContrabassVoiceI [measure 25]                              %! SM4
+                            % [ContrabassVoiceI measure 25]                              %! SM4
                             R1 * 1
                             
-                            % ContrabassVoiceI [measure 26]                              %! SM4
+                            % [ContrabassVoiceI measure 26]                              %! SM4
                             R1 * 1
                             
-                            % ContrabassVoiceI [measure 27]                              %! SM4
+                            % [ContrabassVoiceI measure 27]                              %! SM4
                             R1 * 1
                             
-                            % ContrabassVoiceI [measure 28]                              %! SM4
+                            % [ContrabassVoiceI measure 28]                              %! SM4
                             R1 * 3/4
                             
-                            % ContrabassVoiceI [measure 29]                              %! SM4
+                            % [ContrabassVoiceI measure 29]                              %! SM4
                             R1 * 3/4
                             
                         }
