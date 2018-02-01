@@ -327,58 +327,6 @@
                 }
             >>
             \context MusicContext = "MusicContext" <<
-                \context StaffGroup = "BrassStaffGroup" <<
-                    \tag TromboneI.TromboneII.TromboneIII.TromboneIV                     %! ST4
-                    \context Staff = "TromboneStaffI" {
-                        \context Voice = "TromboneVoiceI" {
-                            
-                            % [TromboneVoiceI measure 24]                                %! SM4
-                            R1 * 3/4
-                            
-                            % [TromboneVoiceI measure 25]                                %! SM4
-                            R1 * 1
-                            
-                            % [TromboneVoiceI measure 26]                                %! SM4
-                            R1 * 1
-                            
-                            % [TromboneVoiceI measure 27]                                %! SM4
-                            R1 * 1
-                            
-                            % [TromboneVoiceI measure 28]                                %! SM4
-                            R1 * 3/4
-                            
-                            % [TromboneVoiceI measure 29]                                %! SM4
-                            R1 * 3/4
-                            
-                        }
-                    }
-                >>
-                \context StaffGroup = "PercussionStaffGroup" <<
-                    \tag PercussionI.PercussionII.PercussionIII.PercussionIV             %! ST4
-                    \context Staff = "PercussionStaffI" {
-                        \context Voice = "PercussionVoiceI" {
-                            
-                            % [PercussionVoiceI measure 24]                              %! SM4
-                            R1 * 3/4
-                            
-                            % [PercussionVoiceI measure 25]                              %! SM4
-                            R1 * 1
-                            
-                            % [PercussionVoiceI measure 26]                              %! SM4
-                            R1 * 1
-                            
-                            % [PercussionVoiceI measure 27]                              %! SM4
-                            R1 * 1
-                            
-                            % [PercussionVoiceI measure 28]                              %! SM4
-                            R1 * 3/4
-                            
-                            % [PercussionVoiceI measure 29]                              %! SM4
-                            R1 * 3/4
-                            
-                        }
-                    }
-                >>
                 \context StaffGroup = "StringStaffGroup" <<
                     \tag FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX.FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII %! ST4
                     \context Staff = "FirstViolinStaffI" {
@@ -767,30 +715,6 @@
                             % [CelloVoiceI measure 29]                                   %! SM4
                             c'2.
                             \repeatTie
-                            
-                        }
-                    }
-                    \tag ContrabassI.ContrabassII.ContrabassIII.ContrabassIV.ContrabassV.ContrabassVI %! ST4
-                    \context Staff = "ContrabassStaffI" {
-                        \context Voice = "ContrabassVoiceI" {
-                            
-                            % [ContrabassVoiceI measure 24]                              %! SM4
-                            R1 * 3/4
-                            
-                            % [ContrabassVoiceI measure 25]                              %! SM4
-                            R1 * 1
-                            
-                            % [ContrabassVoiceI measure 26]                              %! SM4
-                            R1 * 1
-                            
-                            % [ContrabassVoiceI measure 27]                              %! SM4
-                            R1 * 1
-                            
-                            % [ContrabassVoiceI measure 28]                              %! SM4
-                            R1 * 3/4
-                            
-                            % [ContrabassVoiceI measure 29]                              %! SM4
-                            R1 * 3/4
                             
                         }
                     }

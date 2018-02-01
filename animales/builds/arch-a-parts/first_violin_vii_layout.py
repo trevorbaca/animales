@@ -11,8 +11,8 @@ breaks = baca.breaks(
         [1, start, (padding,)],
         [7, start + 1 * separation, (padding,)],
         [13, start + 2 * separation, (padding,)],
-        [21, start + 3 * separation, (padding,)],
-        [28, start + 4 * separation, (padding,)],
+        [18, start + 3 * separation, (padding,)],
+        [24, start + 4 * separation, (padding,)],
         ),
     )
 

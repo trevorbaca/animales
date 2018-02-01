@@ -334,6 +334,26 @@
                                 {
                                     
                                     % [FirstViolinVoiceI measure 1]                      %! SM4
+                                    \set Staff.instrumentName = \markup {                %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                        \hcenter-in                                      %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                            #16                                          %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                            \center-column                               %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                                {                                        %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                                    Violins                              %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                                    I                                    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                                    (1-10)                               %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                                }                                        %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                        }                                                %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                        \hcenter-in                                      %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                            #10                                          %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                            \center-column                               %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                                {                                        %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                                    Vni.                                 %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                                    I                                    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                                    (1-10)                               %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                                }                                        %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                        }                                                %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
                                 %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_1:EXPLICIT_MARGIN_MARKUP:SM8
                                 %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_1:EXPLICIT_MARGIN_MARKUP:SM8
                                 %@%         #16                                          %! +ARCH_A_PARTS_VN_1_1:EXPLICIT_MARGIN_MARKUP:SM8
@@ -388,35 +408,148 @@
                                 %@%                 (3)                                  %! +ARCH_A_PARTS_VN_1_3:EXPLICIT_MARGIN_MARKUP:SM8
                                 %@%             }                                        %! +ARCH_A_PARTS_VN_1_3:EXPLICIT_MARGIN_MARKUP:SM8
                                 %@%     }                                                %! +ARCH_A_PARTS_VN_1_3:EXPLICIT_MARGIN_MARKUP:SM8
-                                    \set Staff.instrumentName = \markup {                %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                        \hcenter-in                                      %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                            #16                                          %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                            \center-column                               %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                                {                                        %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                                    Violins                              %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                                    I                                    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                                    (1-10)                               %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                                }                                        %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                        }                                                %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                        \hcenter-in                                      %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                            #10                                          %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                            \center-column                               %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                                {                                        %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                                    Vni.                                 %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                                    I                                    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                                    (1-10)                               %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                                }                                        %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-                                        }                                                %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (4)                                  %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (4)                                  %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (5)                                  %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (5)                                  %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (6)                                  %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (6)                                  %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (7)                                  %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (7)                                  %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (8)                                  %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (8)                                  %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (9)                                  %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (9)                                  %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (10)                                 %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (10)                                 %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP:SM8
                                     \override TrillSpanner.staff-padding = #4            %! OC
                                     \set Staff.forceClef = ##t                           %! DEFAULT_CLEF:SM8
                                     \clef "treble"                                       %! DEFAULT_CLEF:SM8
                                     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
                                 %@% \override Staff.Clef.color = ##f                     %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                                    \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                 %@% \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +ARCH_A_PARTS_VN_1_1:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                 %@% \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +ARCH_A_PARTS_VN_1_2:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                 %@% \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +ARCH_A_PARTS_VN_1_3:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
-                                    \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+                                %@% \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+                                %@% \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+                                %@% \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+                                %@% \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+                                %@% \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+                                %@% \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+                                %@% \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                     \pitchedTrill                                        %! SC
                                     a'1
@@ -431,6 +564,38 @@
                                                             #(x11-color 'DarkViolet)     %! DEFAULT_INSTRUMENT_ALERT:SM11
                                                             (“Violin”)                   %! DEFAULT_INSTRUMENT_ALERT:SM11
                                                     }                                    %! DEFAULT_INSTRUMENT_ALERT:SM11
+                                                \line                                    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                    {                                    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                        \with-color                      %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                            #(x11-color 'blue)           %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                            {                            %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                \vcenter                 %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                    "[“Vni. I (1-10)”"   %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                \vcenter                 %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                    \hcenter-in          %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                        #16              %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                        \center-column   %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                            {            %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                                Violins  %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                                I        %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                                (1-10)   %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                            }            %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                \concat                  %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                    {                    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                        \vcenter         %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                            \hcenter-in  %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                                #10      %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                                \center-column %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                                    {    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                                        Vni. %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                                        I %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                                        (1-10) %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                                    }    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                        \vcenter         %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                            ]            %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                                    }                    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                            }                            %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                    }                                    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             %@% \line                                    %! +ARCH_A_PARTS_VN_1_1:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             %@%     {                                    %! +ARCH_A_PARTS_VN_1_1:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             %@%         \with-color                      %! +ARCH_A_PARTS_VN_1_1:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
@@ -521,41 +686,239 @@
                                             %@%                     }                    %! +ARCH_A_PARTS_VN_1_3:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             %@%             }                            %! +ARCH_A_PARTS_VN_1_3:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             %@%     }                                    %! +ARCH_A_PARTS_VN_1_3:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                \line                                    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                    {                                    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        \with-color                      %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                            #(x11-color 'blue)           %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                            {                            %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                \vcenter                 %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                    "[“Vni. I (1-10)”"   %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                \vcenter                 %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                    \hcenter-in          %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                        #16              %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                        \center-column   %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                            {            %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                                Violins  %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                                I        %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                                (1-10)   %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                            }            %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                \concat                  %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                    {                    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                        \vcenter         %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                            \hcenter-in  %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                                #10      %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                                \center-column %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                                    {    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                                        Vni. %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                                        I %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                                        (1-10) %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                                    }    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                        \vcenter         %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                            ]            %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                                    }                    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                            }                            %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                    }                                    %! +SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@% \line                                    %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%     {                                    %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%         \with-color                      %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             #(x11-color 'blue)           %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             {                            %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \vcenter                 %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     "[“Vni. I (4)”"      %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \vcenter                 %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     \hcenter-in          %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         #16              %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \center-column   %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             {            %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 "Violins I" %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 (4)      %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             }            %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \concat                  %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     {                    %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \vcenter         %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             \hcenter-in  %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 #16      %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 \center-column %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                     {    %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                         "Vni. I" %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                         (4) %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                     }    %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \vcenter         %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             ]            %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     }                    %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             }                            %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%     }                                    %! +ARCH_A_PARTS_VN_1_4:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@% \line                                    %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%     {                                    %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%         \with-color                      %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             #(x11-color 'blue)           %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             {                            %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \vcenter                 %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     "[“Vni. I (5)”"      %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \vcenter                 %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     \hcenter-in          %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         #16              %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \center-column   %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             {            %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 "Violins I" %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 (5)      %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             }            %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \concat                  %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     {                    %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \vcenter         %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             \hcenter-in  %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 #16      %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 \center-column %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                     {    %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                         "Vni. I" %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                         (5) %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                     }    %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \vcenter         %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             ]            %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     }                    %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             }                            %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%     }                                    %! +ARCH_A_PARTS_VN_1_5:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@% \line                                    %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%     {                                    %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%         \with-color                      %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             #(x11-color 'blue)           %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             {                            %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \vcenter                 %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     "[“Vni. I (6)”"      %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \vcenter                 %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     \hcenter-in          %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         #16              %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \center-column   %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             {            %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 "Violins I" %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 (6)      %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             }            %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \concat                  %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     {                    %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \vcenter         %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             \hcenter-in  %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 #16      %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 \center-column %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                     {    %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                         "Vni. I" %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                         (6) %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                     }    %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \vcenter         %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             ]            %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     }                    %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             }                            %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%     }                                    %! +ARCH_A_PARTS_VN_1_6:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@% \line                                    %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%     {                                    %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%         \with-color                      %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             #(x11-color 'blue)           %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             {                            %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \vcenter                 %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     "[“Vni. I (7)”"      %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \vcenter                 %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     \hcenter-in          %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         #16              %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \center-column   %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             {            %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 "Violins I" %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 (7)      %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             }            %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \concat                  %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     {                    %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \vcenter         %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             \hcenter-in  %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 #16      %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 \center-column %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                     {    %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                         "Vni. I" %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                         (7) %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                     }    %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \vcenter         %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             ]            %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     }                    %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             }                            %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%     }                                    %! +ARCH_A_PARTS_VN_1_7:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@% \line                                    %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%     {                                    %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%         \with-color                      %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             #(x11-color 'blue)           %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             {                            %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \vcenter                 %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     "[“Vni. I (8)”"      %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \vcenter                 %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     \hcenter-in          %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         #16              %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \center-column   %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             {            %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 "Violins I" %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 (8)      %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             }            %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \concat                  %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     {                    %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \vcenter         %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             \hcenter-in  %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 #16      %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 \center-column %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                     {    %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                         "Vni. I" %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                         (8) %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                     }    %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \vcenter         %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             ]            %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     }                    %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             }                            %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%     }                                    %! +ARCH_A_PARTS_VN_1_8:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@% \line                                    %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%     {                                    %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%         \with-color                      %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             #(x11-color 'blue)           %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             {                            %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \vcenter                 %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     "[“Vni. I (9)”"      %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \vcenter                 %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     \hcenter-in          %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         #16              %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \center-column   %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             {            %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 "Violins I" %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 (9)      %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             }            %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \concat                  %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     {                    %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \vcenter         %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             \hcenter-in  %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 #16      %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 \center-column %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                     {    %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                         "Vni. I" %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                         (9) %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                     }    %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \vcenter         %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             ]            %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     }                    %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             }                            %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%     }                                    %! +ARCH_A_PARTS_VN_1_9:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@% \line                                    %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%     {                                    %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%         \with-color                      %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             #(x11-color 'blue)           %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             {                            %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \vcenter                 %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     "[“Vni. I (10)”"     %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \vcenter                 %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     \hcenter-in          %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         #16              %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \center-column   %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             {            %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 "Violins I" %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 (10)     %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             }            %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                 \concat                  %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     {                    %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \vcenter         %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             \hcenter-in  %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 #16      %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                 \center-column %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                     {    %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                         "Vni. I" %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                         (10) %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                                     }    %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                         \vcenter         %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                             ]            %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%                     }                    %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%             }                            %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                            %@%     }                                    %! +ARCH_A_PARTS_VN_1_10:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             }
                                         }
                                     \startTrillSpan b'                                   %! SC
+                                    \set Staff.instrumentName = \markup {                %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                        \hcenter-in                                      %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                            #16                                          %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                            \center-column                               %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                                {                                        %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                                    Violins                              %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                                    I                                    %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                                    (1-10)                               %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                                }                                        %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                        }                                                %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                        \hcenter-in                                      %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                            #10                                          %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                            \center-column                               %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                                {                                        %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                                    Vni.                                 %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                                    I                                    %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                                    (1-10)                               %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                                }                                        %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                        }                                                %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                 %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_1:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                 %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_1:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                 %@%         #16                                          %! +ARCH_A_PARTS_VN_1_1:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
@@ -610,31 +973,144 @@
                                 %@%                 (3)                                  %! +ARCH_A_PARTS_VN_1_3:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                 %@%             }                                        %! +ARCH_A_PARTS_VN_1_3:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                 %@%     }                                                %! +ARCH_A_PARTS_VN_1_3:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                    \set Staff.instrumentName = \markup {                %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                        \hcenter-in                                      %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                            #16                                          %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                            \center-column                               %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                                {                                        %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                                    Violins                              %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                                    I                                    %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                                    (1-10)                               %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                                }                                        %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                        }                                                %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                        \hcenter-in                                      %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                            #10                                          %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                            \center-column                               %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                                {                                        %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                                    Vni.                                 %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                                    I                                    %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                                    (1-10)                               %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                                }                                        %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-                                        }                                                %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (4)                                  %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (4)                                  %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (5)                                  %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (5)                                  %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (6)                                  %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (6)                                  %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (7)                                  %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (7)                                  %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (8)                                  %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (8)                                  %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (9)                                  %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (9)                                  %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.instrumentName = \markup {                %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Violins I"                          %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (10)                                 %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@% \set Staff.shortInstrumentName = \markup {           %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     \hcenter-in                                      %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         #16                                          %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%         \center-column                               %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             {                                        %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 "Vni. I"                             %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%                 (10)                                 %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%             }                                        %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+                                %@%     }                                                %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                                     \override Staff.Clef.color = #(x11-color 'violet)    %! DEFAULT_CLEF_REDRAW_COLOR:SM6
+                                    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                 %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +ARCH_A_PARTS_VN_1_1:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                 %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +ARCH_A_PARTS_VN_1_2:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                 %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +ARCH_A_PARTS_VN_1_3:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
-                                    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+                                %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +ARCH_A_PARTS_VN_1_4:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+                                %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +ARCH_A_PARTS_VN_1_5:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+                                %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +ARCH_A_PARTS_VN_1_6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+                                %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +ARCH_A_PARTS_VN_1_7:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+                                %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +ARCH_A_PARTS_VN_1_8:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+                                %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +ARCH_A_PARTS_VN_1_9:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+                                %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +ARCH_A_PARTS_VN_1_10:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
                                     
                                     % [FirstViolinVoiceI measure 2]                      %! SM4
                                     a'2

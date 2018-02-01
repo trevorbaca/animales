@@ -19,9 +19,9 @@ maker = baca.SegmentMaker(
     metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
-        first_violins=[True, True],
-        second_violins=[True, True],
-        violas=[True, True],
+        first_violins=[True, (11, 18)],
+        second_violins=[True, (11, 18)],
+        violas=[True, (11, 18)],
         cellos=True,
         ),
     time_signatures=animales.time_signatures[start:start + 6],
@@ -124,6 +124,7 @@ divisi = [
 
 maker(
     baca.make_scopes(divisi, [(3, 6)]),
+    baca.lilypond_tag('EMPTY'),
     baca.make_skips(),
     )
 
@@ -137,27 +138,36 @@ non_divisi = [
 maker(
     baca.scope('FirstViolinVoiceI', 3, 6),
     animales.lilypond_tag('FirstViolin'),
-    baca.margin_markup(
-        animales.margin_markup['Vni.'],
-        alert=baca.markup.non_div(),
+    baca.tag(
+        '+SEGMENT',
+        baca.margin_markup(
+            animales.margin_markup['Vni.'],
+            alert=baca.markup.non_div(),
+            ),
         ),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 3, 6),
     animales.lilypond_tag('SecondViolin'),
-    baca.margin_markup(
-        animales.margin_markup['Vni. II'],
-        alert=baca.markup.non_div(),
+    baca.tag(
+        '+SEGMENT',
+        baca.margin_markup(
+            animales.margin_markup['Vni. II'],
+            alert=baca.markup.non_div(),
+            ),
         ),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 3, 6),
     animales.lilypond_tag('Viola'),
-    baca.margin_markup(
-        animales.margin_markup['Vle.'],
-        alert=baca.markup.non_div(),
+    baca.tag(
+        '+SEGMENT',
+        baca.margin_markup(
+            animales.margin_markup['Vle.'],
+            alert=baca.markup.non_div(),
+            ),
         ),
     )
 

@@ -30,27 +30,24 @@ maker(
     baca.metronome_mark('114'),
     )
 
+tag_commands = []
+for i in range(1, 10 + 1):
+    tag = f'+ARCH_A_PARTS_VN_1_{i}'
+    key = f'Vni. I ({i})'
+    tag_command = baca.tag(
+        tag,
+        baca.margin_markup(animales.margin_markup[key]),
+        deactivate=True,
+        )
+    tag_commands.append(tag_command)
+
 maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
-    baca.tag(
-        '+ARCH_A_PARTS_VN_1_1',
-        baca.margin_markup(animales.margin_markup['Vni. I (1)']),
-        deactivate=True,
-        ),
-    baca.tag(
-        '+ARCH_A_PARTS_VN_1_2',
-        baca.margin_markup(animales.margin_markup['Vni. I (2)']),
-        deactivate=True,
-        ),
-    baca.tag(
-        '+ARCH_A_PARTS_VN_1_3',
-        baca.margin_markup(animales.margin_markup['Vni. I (3)']),
-        deactivate=True,
-        ),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(animales.margin_markup['Vni. I (1-10)']),
         ),
+    *tag_commands,
     animales.lilypond_tag('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
     )
