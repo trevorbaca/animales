@@ -9,7 +9,7 @@ metadata = abjad.OrderedDict(
                 [
                     (
                         'bol_measure_numbers',
-                        [1, 7, 13, 21, 28],
+                        [1, 7, 13, 18, 24],
                         ),
                     ]
                 ),
@@ -108,7 +108,7 @@ metadata = abjad.OrderedDict(
                 [
                     (
                         'bol_measure_numbers',
-                        [1, 7, 13, 21, 28],
+                        [1, 7, 13, 18, 24],
                         ),
                     ]
                 ),
@@ -119,7 +119,7 @@ metadata = abjad.OrderedDict(
                 [
                     (
                         'bol_measure_numbers',
-                        [1, 7, 13, 21, 28],
+                        [1, 7, 13, 18, 24],
                         ),
                     ]
                 ),
@@ -130,7 +130,7 @@ metadata = abjad.OrderedDict(
                 [
                     (
                         'bol_measure_numbers',
-                        [1, 7, 13, 21, 28],
+                        [1, 7, 13, 18, 24],
                         ),
                     ]
                 ),
@@ -141,7 +141,7 @@ metadata = abjad.OrderedDict(
                 [
                     (
                         'bol_measure_numbers',
-                        [1, 7, 13, 21, 28],
+                        [1, 7, 13, 18, 24],
                         ),
                     ]
                 ),
@@ -152,7 +152,7 @@ metadata = abjad.OrderedDict(
                 [
                     (
                         'bol_measure_numbers',
-                        [1, 7, 13, 21, 28],
+                        [1, 7, 13, 18, 24],
                         ),
                     ]
                 ),
@@ -163,7 +163,7 @@ metadata = abjad.OrderedDict(
                 [
                     (
                         'bol_measure_numbers',
-                        [1, 7, 13, 21, 28],
+                        [1, 7, 13, 18, 24],
                         ),
                     ]
                 ),
@@ -174,7 +174,7 @@ metadata = abjad.OrderedDict(
                 [
                     (
                         'bol_measure_numbers',
-                        [1, 7, 13, 21, 28],
+                        [1, 7, 13, 18, 24],
                         ),
                     ]
                 ),
@@ -185,7 +185,7 @@ metadata = abjad.OrderedDict(
                 [
                     (
                         'bol_measure_numbers',
-                        [1, 7, 13, 21, 28],
+                        [1, 7, 13, 18, 24],
                         ),
                     ]
                 ),
@@ -196,7 +196,7 @@ metadata = abjad.OrderedDict(
                 [
                     (
                         'bol_measure_numbers',
-                        [1, 7, 13, 21, 28],
+                        [1, 7, 13, 18, 24],
                         ),
                     ]
                 ),

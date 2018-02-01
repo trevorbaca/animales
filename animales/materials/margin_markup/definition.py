@@ -165,36 +165,6 @@ margin_markup = abjad.OrderedDict([
             )
         ),
     (
-        'Vni. I (1)',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument(['Violins I', '(1)']),
-            short_markup=baca.markup.short_instrument(
-                ['Vni. I', '(1)'],
-                hcenter_in=16,
-                ),
-            )
-        ),
-    (
-        'Vni. I (2)',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument(['Violins I', '(2)']),
-            short_markup=baca.markup.short_instrument(
-                ['Vni. I', '(2)'],
-                hcenter_in=16,
-                ),
-            )
-        ),
-    (
-        'Vni. I (3)',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument(['Violins I', '(3)']),
-            short_markup=baca.markup.short_instrument(
-                ['Vni. I', '(3)'],
-                hcenter_in=16,
-                ),
-            )
-        ),
-    (
         'Vni. I (1-10)',
         abjad.MarginMarkup(
             markup=baca.markup.instrument('Violins I (1-10)'),
@@ -230,3 +200,14 @@ margin_markup = abjad.OrderedDict([
             )
         ),
     ])
+
+for i in range(1, 18 + 1):
+    key = f'Vni. I ({i})'
+    value = abjad.MarginMarkup(
+        markup=baca.markup.instrument(['Violins I', f'({i})']),
+        short_markup=baca.markup.short_instrument(
+            ['Vni. I', f'({i})'],
+            hcenter_in=16,
+            ),
+        )
+    margin_markup[key] = value
