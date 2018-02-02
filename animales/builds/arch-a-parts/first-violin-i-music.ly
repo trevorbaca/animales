@@ -25,13 +25,21 @@
         {
         \include "first-violin-i-layout.ly"
         }
-        \keepWithTag FirstViolinI 
         {
-        \include "_segments/segment--1.ly"
-        \include "_segments/segment--2.ly"
-        \include "_segments/segment--3.ly"
-        \include "_segments/segment-A1.ly"
-        \include "_segments/segment-A2.ly"
+
+        \keepWithTag FirstViolinI 
+        \context MusicContext {
+            \context Staff {
+                \context Voice {
+                    \include "_segments/segment--1.ly"
+                }
+            }
+        }
+
+        %\include "_segments/segment--2.ly"
+        %\include "_segments/segment--3.ly"
+        %\include "_segments/segment-A1.ly"
+        %\include "_segments/segment-A2.ly"
         }
     >>
 }

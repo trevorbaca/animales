@@ -47,7 +47,7 @@ maker(
         '+SEGMENT',
         baca.margin_markup(animales.margin_markup['Vni. I (1-10)']),
         ),
-    *tag_commands,
+    #*tag_commands,
     animales.lilypond_tag('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
     )
