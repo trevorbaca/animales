@@ -10,9 +10,12 @@
         {
             \include "layout.ly"
         }
-        \context Score = "Score" <<
-            \context GlobalContext = "GlobalContext" <<
-                \context GlobalSkips = "GlobalSkips" {
+        \context Score = "Score"
+        <<
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalSkips = "GlobalSkips"
+                {
                     
                     % [_1 GlobalSkips measure 1]                                         %! SM4
                 %@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
@@ -322,14 +325,21 @@
                     
                 }
             >>
-            \context MusicContext = "MusicContext" <<
-                \context StaffGroup = "StringStaffGroup" <<
-                    \context StaffGroup = "FirstViolinSquareStaffGroup" \with {
+            \context MusicContext = "MusicContext"
+            <<
+                \context StaffGroup = "StringStaffGroup"
+                <<
+                    \context StaffGroup = "FirstViolinSquareStaffGroup"
+                    \with
+                    {
                         systemStartDelimiter = #'SystemStartSquare
-                    } <<
+                    }
+                    <<
                         \tag FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX %! ST4
-                        \context Staff = "FirstViolinStaffI" {
-                            \context Voice = "FirstViolinVoiceI" {
+                        \context Staff = "FirstViolinStaffI"
+                        {
+                            \context Voice = "FirstViolinVoiceI"
+                            {
                                 \tag FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX
                                 {
                                     
@@ -466,8 +476,10 @@
                             }
                         }
                         \tag FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII %! ST4
-                        \context Staff = "FirstViolinStaffII" {
-                            \context Voice = "FirstViolinVoiceII" {
+                        \context Staff = "FirstViolinStaffII"
+                        {
+                            \context Voice = "FirstViolinVoiceII"
+                            {
                                 \tag FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII
                                 {
                                     
@@ -617,12 +629,17 @@
                             }
                         }
                     >>
-                    \context StaffGroup = "SecondViolinSquareStaffGroup" \with {
+                    \context StaffGroup = "SecondViolinSquareStaffGroup"
+                    \with
+                    {
                         systemStartDelimiter = #'SystemStartSquare
-                    } <<
+                    }
+                    <<
                         \tag SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX %! ST4
-                        \context Staff = "SecondViolinStaffI" {
-                            \context Voice = "SecondViolinVoiceI" {
+                        \context Staff = "SecondViolinStaffI"
+                        {
+                            \context Voice = "SecondViolinVoiceI"
+                            {
                                 \tag SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX
                                 {
                                     
@@ -771,8 +788,10 @@
                             }
                         }
                         \tag SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII %! ST4
-                        \context Staff = "SecondViolinStaffII" {
-                            \context Voice = "SecondViolinVoiceII" {
+                        \context Staff = "SecondViolinStaffII"
+                        {
+                            \context Voice = "SecondViolinVoiceII"
+                            {
                                 \tag SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII
                                 {
                                     
@@ -928,12 +947,17 @@
                             }
                         }
                     >>
-                    \context StaffGroup = "ViolaSquareStaffGroup" \with {
+                    \context StaffGroup = "ViolaSquareStaffGroup"
+                    \with
+                    {
                         systemStartDelimiter = #'SystemStartSquare
-                    } <<
+                    }
+                    <<
                         \tag ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX %! ST4
-                        \context Staff = "ViolaStaffI" {
-                            \context Voice = "ViolaVoiceI" {
+                        \context Staff = "ViolaStaffI"
+                        {
+                            \context Voice = "ViolaVoiceI"
+                            {
                                 \tag ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX
                                 {
                                     
@@ -1071,8 +1095,10 @@
                             }
                         }
                         \tag ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII %! ST4
-                        \context Staff = "ViolaStaffII" {
-                            \context Voice = "ViolaVoiceII" {
+                        \context Staff = "ViolaStaffII"
+                        {
+                            \context Voice = "ViolaVoiceII"
+                            {
                                 \tag ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII
                                 {
                                     
@@ -1202,8 +1228,10 @@
                         }
                     >>
                     \tag CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV %! ST4
-                    \context Staff = "CelloStaffI" {
-                        \context Voice = "CelloVoiceI" {
+                    \context Staff = "CelloStaffI"
+                    {
+                        \context Voice = "CelloVoiceI"
+                        {
                             \tag CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV
                             {
                                 

@@ -11,11 +11,16 @@
         {
             \include "layout.ly"
         }
-        \context Score = "Score" \with {
+        \context Score = "Score"
+        \with
+        {
             currentBarNumber = #24
-        } <<
-            \context GlobalContext = "GlobalContext" <<
-                \context GlobalSkips = "GlobalSkips" {
+        }
+        <<
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalSkips = "GlobalSkips"
+                {
                     
                     % [A2 GlobalSkips measure 24]                                        %! SM4
                 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
@@ -326,11 +331,15 @@
                     
                 }
             >>
-            \context MusicContext = "MusicContext" <<
-                \context StaffGroup = "StringStaffGroup" <<
+            \context MusicContext = "MusicContext"
+            <<
+                \context StaffGroup = "StringStaffGroup"
+                <<
                     \tag FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX.FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII %! ST4
-                    \context Staff = "FirstViolinStaffI" {
-                        \context Voice = "FirstViolinVoiceI" {
+                    \context Staff = "FirstViolinStaffI"
+                    {
+                        \context Voice = "FirstViolinVoiceI"
+                        {
                             
                             % [A2 FirstViolinVoiceI measure 24]                          %! SM4
                             \set Staff.instrumentName = \markup {                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -420,8 +429,10 @@
                         }
                     }
                     \tag SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX.SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII %! ST4
-                    \context Staff = "SecondViolinStaffI" {
-                        \context Voice = "SecondViolinVoiceI" {
+                    \context Staff = "SecondViolinStaffI"
+                    {
+                        \context Voice = "SecondViolinVoiceI"
+                        {
                             
                             % [A2 SecondViolinVoiceI measure 24]                         %! SM4
                             \set Staff.instrumentName = \markup {                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -535,8 +546,10 @@
                         }
                     }
                     \tag ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX.ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII %! ST4
-                    \context Staff = "ViolaStaffI" {
-                        \context Voice = "ViolaVoiceI" {
+                    \context Staff = "ViolaStaffI"
+                    {
+                        \context Voice = "ViolaVoiceI"
+                        {
                             
                             % [A2 ViolaVoiceI measure 24]                                %! SM4
                             \set Staff.instrumentName = \markup {                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -628,8 +641,10 @@
                         }
                     }
                     \tag CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV %! ST4
-                    \context Staff = "CelloStaffI" {
-                        \context Voice = "CelloVoiceI" {
+                    \context Staff = "CelloStaffI"
+                    {
+                        \context Voice = "CelloVoiceI"
+                        {
                             
                             % [A2 CelloVoiceI measure 24]                                %! SM4
                             \set Staff.instrumentName = \markup {                        %! REAPPLIED_MARGIN_MARKUP:SM8

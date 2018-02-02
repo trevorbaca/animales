@@ -1,8 +1,13 @@
-\context Score = "Score" \with {
+\context Score = "Score"
+\with
+{
     currentBarNumber = #13
-} <<
-    \context GlobalContext = "GlobalContext" <<
-        \context PageLayout = "PageLayout" {
+}
+<<
+    \context GlobalContext = "GlobalContext"
+    <<
+        \context PageLayout = "PageLayout"
+        {
             
             % [PageLayout measure 13]                                                    %! SM4
             \newSpacingSection                                                           %! SPACING:HSS1
