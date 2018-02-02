@@ -7,6 +7,18 @@
 #(ly:set-option 'relative-includes #t)
 \include "stylesheet.ily"
 
+\header {
+    subtitle =
+        \markup
+        \override #'(font-name . "Palatino Italic")
+        \column
+        \center-align
+        {
+            \line { first violin 1 }
+            \line { (part) }
+        }
+}
+
 
 \score {
     <<

@@ -40,6 +40,7 @@
     ragged-bottom = ##t
     ragged-last-bottom = ##t
     right-margin = 5\mm
+    markup-markup-spacing.minimum-distance = 80
     markup-system-spacing = #'(
         (basic-distance . 0)
         (minimum-distance . 40)

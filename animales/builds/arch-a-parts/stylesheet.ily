@@ -17,11 +17,15 @@
     }
     title = \markup 
         \override #'(font-name . "Palatino")
-        \fontsize #8
         \column {
             \center-align {
+                \fontsize #8
                 \line { ANIMALES }
+                \fontsize #8
+                " "
+                \fontsize #8
                 \line { DESCONOCIDOS }
+                \fontsize #8
                 " "
             }
         }
