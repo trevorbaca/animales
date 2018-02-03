@@ -30,67 +30,56 @@ maker(
     baca.metronome_mark('114'),
     )
 
-tag_commands = []
-for i in range(1, 10 + 1):
-    tag = f'+ARCH_A_PARTS_VN_1_{i}'
-    key = f'Vni. I ({i})'
-    tag_command = baca.tag(
-        tag,
-        baca.margin_markup(animales.margin_markup[key]),
-        deactivate=True,
-        )
-    tag_commands.append(tag_command)
-
 maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
+    animales.sforzando_exchange_rhythm(0),
+    baca.lilypond_tag('FOO', 'FOO'),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(animales.margin_markup['Vni. I (1-10)']),
         ),
-    #*tag_commands,
-    animales.lilypond_tag('FirstViolin', (1, 10)),
-    animales.sforzando_exchange_rhythm(0),
     )
 
 maker(
     baca.scope('FirstViolinVoiceII', 1, 6),
-    baca.margin_markup(animales.margin_markup['Vni. I (11-18)']),
-    animales.lilypond_tag('FirstViolin', (11, 18)),
+    #animales.lilypond_tag('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
+    #baca.lilypond_tag('BAR', 'BAR'),
+    baca.margin_markup(animales.margin_markup['Vni. I (11-18)']),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 1, 6),
-    baca.margin_markup(animales.margin_markup['Vni. II (1-10)']),
-    animales.lilypond_tag('SecondViolin', (1, 10)),
+    #animales.lilypond_tag('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
+    baca.margin_markup(animales.margin_markup['Vni. II (1-10)']),
     )
 
 maker(
     baca.scope('SecondViolinVoiceII', 1, 6),
-    baca.margin_markup(animales.margin_markup['Vni. II (11-18)']),
-    animales.lilypond_tag('SecondViolin', (11, 18)),
+    #animales.lilypond_tag('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
+    baca.margin_markup(animales.margin_markup['Vni. II (11-18)']),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 1, 6),
-    baca.margin_markup(animales.margin_markup['Vle. (1-10)']),
-    animales.lilypond_tag('Viola', (1, 10)),
+    #animales.lilypond_tag('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
+    baca.margin_markup(animales.margin_markup['Vle. (1-10)']),
     )
 
 maker(
     baca.scope('ViolaVoiceII', 1, 6),
-    baca.margin_markup(animales.margin_markup['Vle. (11-18)']),
-    animales.lilypond_tag('Viola', (11, 18)),
+    #animales.lilypond_tag('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
+    baca.margin_markup(animales.margin_markup['Vle. (11-18)']),
     )
 
 maker(
     baca.scope('CelloVoiceI', 1, 6),
+    #animales.lilypond_tag('Cello'),
     animales.sforzando_exchange_rhythm(6),
-    animales.lilypond_tag('Cello'),
     baca.clef('tenor'),
     )
 
