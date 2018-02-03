@@ -31,43 +31,43 @@ maker = baca.SegmentMaker(
 
 maker(
     baca.scope('FirstViolinVoiceI', 1, 5),
-    animales.lilypond_tag('FirstViolin', (1, 10)),
+    animales.extern('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
     )
 
 maker(
     baca.scope('FirstViolinVoiceII', 1, 5),
-    animales.lilypond_tag('FirstViolin', (11, 18)),
+    animales.extern('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 1, 5),
-    animales.lilypond_tag('SecondViolin', (1, 10)),
+    animales.extern('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
     )
 
 maker(
     baca.scope('SecondViolinVoiceII', 1, 5),
-    animales.lilypond_tag('SecondViolin', (11, 18)),
+    animales.extern('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 1, 5),
-    animales.lilypond_tag('Viola', (1, 10)),
+    animales.extern('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
     )
 
 maker(
     baca.scope('ViolaVoiceII', 1, 5),
-    animales.lilypond_tag('Viola', (11, 18)),
+    animales.extern('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
     )
 
 maker(
     baca.scope('CelloVoiceI', 1, 5),
-    animales.lilypond_tag('Cello'),
+    animales.extern('Cello'),
     animales.sforzando_exchange_rhythm(6),
     )
 

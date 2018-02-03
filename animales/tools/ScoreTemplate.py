@@ -683,11 +683,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                     name=f'{name}Staff{staff_numeral}',
                     )
 #                if divisi_token is True:
-#                    command = animales.lilypond_tag(name)
+#                    command = animales.extern(name)
 #                else:
-#                    command = animales.lilypond_tag(name, divisi_token)
+#                    command = animales.extern(name, divisi_token)
 #                tag = command.tag
-#                self._attach_lilypond_tag(tag, staff)
+#                self._attach_extern(tag, staff)
                 voice_numeral = self._to_roman(voice_number)
                 voice = abjad.Voice(name=f'{name}Voice{voice_numeral}')
                 staff.append(voice)

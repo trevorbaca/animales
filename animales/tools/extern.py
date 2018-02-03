@@ -2,27 +2,27 @@ import abjad
 import animales
 import baca
 import roman
-from typing import Union as U
+from typing import Union
 
 
-def lilypond_tag(stem: str, number: U[int, list, tuple] = None) -> str:
-    r'''Attaches LilyPond tag command.
+def extern(stem: str, number: Union[int, list, tuple] = None) -> str:
+    r'''Attaches extern command.
 
     >>> import animales
 
     ..  container:: example
 
-        >>> animales.lilypond_tag('Horn', 1)
-        LilyPondTagCommand(selector=baca.leaves(), tag='HornI')
+        >>> animales.extern('Horn', 1)
+        ExternCommand(selector=baca.leaves(), string='HornI')
 
-        >>> animales.lilypond_tag('Horn', (1, 2))
-        LilyPondTagCommand(selector=baca.leaves(), tag='HornI.HornII')
+        >>> animales.extern('Horn', (1, 2))
+        ExternCommand(selector=baca.leaves(), string='HornI.HornII')
 
-        >>> animales.lilypond_tag('Horn', [1, 3])
-        LilyPondTagCommand(selector=baca.leaves(), tag='HornI.HornIII')
+        >>> animales.extern('Horn', [1, 3])
+        ExternCommand(selector=baca.leaves(), string='HornI.HornIII')
 
-        >>> animales.lilypond_tag('Horn')
-        LilyPondTagCommand(selector=baca.leaves(), tag='HornI.HornII.HornIII.HornIV')
+        >>> animales.extern('Horn')
+        ExternCommand(selector=baca.leaves(), string='HornI.HornII.HornIII.HornIV')
 
     '''
     score_template = animales.ScoreTemplate()
@@ -48,5 +48,5 @@ def lilypond_tag(stem: str, number: U[int, list, tuple] = None) -> str:
             number = roman.toRoman(number)
             part_name = stem + number
             part_names.append(part_name)
-    tag = '.'.join(part_names)
-    return baca.lilypond_tag(tag)
+    string = '.'.join(part_names)
+    return baca.extern(string)

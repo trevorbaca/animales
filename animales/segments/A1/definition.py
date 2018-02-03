@@ -36,37 +36,37 @@ maker(
 
 maker(
     baca.scope('FirstViolinVoiceI', 1, 2),
-    animales.lilypond_tag('FirstViolin', (1, 10)),
+    animales.extern('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
     )
 
 maker(
     baca.scope('FirstViolinVoiceII', 1, 2),
-    animales.lilypond_tag('FirstViolin', (11, 18)),
+    animales.extern('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 1, 2),
-    animales.lilypond_tag('SecondViolin', (1, 10)),
+    animales.extern('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
     )
 
 maker(
     baca.scope('SecondViolinVoiceII', 1, 2),
-    animales.lilypond_tag('SecondViolin', (11, 18)),
+    animales.extern('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 1, 2),
-    animales.lilypond_tag('Viola', (1, 10)),
+    animales.extern('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
     )
 
 maker(
     baca.scope('ViolaVoiceII', 1, 2),
-    animales.lilypond_tag('Viola', (11, 18)),
+    animales.extern('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
     )
 
@@ -124,7 +124,7 @@ divisi = [
 
 maker(
     baca.make_scopes(divisi, [(3, 6)]),
-    baca.lilypond_tag('EMPTY'),
+    baca.extern('EMPTY'),
     baca.make_skips(),
     )
 
@@ -137,7 +137,7 @@ non_divisi = [
 
 maker(
     baca.scope('FirstViolinVoiceI', 3, 6),
-    animales.lilypond_tag('FirstViolin'),
+    animales.extern('FirstViolin'),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(
@@ -149,7 +149,7 @@ maker(
 
 maker(
     baca.scope('SecondViolinVoiceI', 3, 6),
-    animales.lilypond_tag('SecondViolin'),
+    animales.extern('SecondViolin'),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(
@@ -161,7 +161,7 @@ maker(
 
 maker(
     baca.scope('ViolaVoiceI', 3, 6),
-    animales.lilypond_tag('Viola'),
+    animales.extern('Viola'),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(
@@ -185,5 +185,5 @@ maker(
 
 maker(
     baca.scope('CelloVoiceI', 1, 6),
-    animales.lilypond_tag('Cello'),
+    animales.extern('Cello'),
     )
