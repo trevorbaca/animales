@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% A2GlobalSkips
                     
                     % [A2 GlobalSkips measure 24]                                        %! SM4
                 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
@@ -329,7 +329,7 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% A2GlobalSkips
             >>
             \context MusicContext = "MusicContext"
             <<
@@ -339,7 +339,7 @@
                     \context Staff = "FirstViolinStaffI"
                     {
                         \context Voice = "FirstViolinVoiceI"
-                        {
+                        {   %*% A2FirstViolinVoiceI
                             
                             % [A2 FirstViolinVoiceI measure 24]                          %! SM4
                             \set Staff.instrumentName = \markup {                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -426,13 +426,13 @@
                             c'2.
                             \repeatTie
                             
-                        }
+                        }   %*% A2FirstViolinVoiceI
                     }
                     \tag SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX.SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII %! ST4
                     \context Staff = "SecondViolinStaffI"
                     {
                         \context Voice = "SecondViolinVoiceI"
-                        {
+                        {   %*% A2SecondViolinVoiceI
                             
                             % [A2 SecondViolinVoiceI measure 24]                         %! SM4
                             \set Staff.instrumentName = \markup {                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -543,13 +543,13 @@
                             c'2.
                             \repeatTie
                             
-                        }
+                        }   %*% A2SecondViolinVoiceI
                     }
                     \tag ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX.ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII %! ST4
                     \context Staff = "ViolaStaffI"
                     {
                         \context Voice = "ViolaVoiceI"
-                        {
+                        {   %*% A2ViolaVoiceI
                             
                             % [A2 ViolaVoiceI measure 24]                                %! SM4
                             \set Staff.instrumentName = \markup {                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -638,13 +638,13 @@
                             \repeatTie
                             \revert RepeatTie.direction                                  %! OC
                             
-                        }
+                        }   %*% A2ViolaVoiceI
                     }
                     \tag CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV %! ST4
                     \context Staff = "CelloStaffI"
                     {
                         \context Voice = "CelloVoiceI"
-                        {
+                        {   %*% A2CelloVoiceI
                             
                             % [A2 CelloVoiceI measure 24]                                %! SM4
                             \set Staff.instrumentName = \markup {                        %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -731,7 +731,7 @@
                             c'2.
                             \repeatTie
                             
-                        }
+                        }   %*% A2CelloVoiceI
                     }
                 >>
             >>

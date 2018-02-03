@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% i2GlobalSkips
                     
                     % [_2 GlobalSkips measure 7]                                         %! SM4
                 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
@@ -331,7 +331,7 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% i2GlobalSkips
             >>
             \context MusicContext = "MusicContext"
             <<
@@ -347,7 +347,7 @@
                         \context Staff = "FirstViolinStaffI"
                         {
                             \context Voice = "FirstViolinVoiceI"
-                            {
+                            {   %*% i2FirstViolinVoiceI
                                 \tag FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX
                                 {
                                     
@@ -485,13 +485,13 @@
                                     \revert TrillSpanner.staff-padding                   %! OC
                                     
                                 }
-                            }
+                            }   %*% i2FirstViolinVoiceI
                         }
                         \tag FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII %! ST4
                         \context Staff = "FirstViolinStaffII"
                         {
                             \context Voice = "FirstViolinVoiceII"
-                            {
+                            {   %*% i2FirstViolinVoiceII
                                 \tag FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII
                                 {
                                     
@@ -632,7 +632,7 @@
                                     \revert TrillSpanner.staff-padding                   %! OC
                                     
                                 }
-                            }
+                            }   %*% i2FirstViolinVoiceII
                         }
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup"
@@ -645,7 +645,7 @@
                         \context Staff = "SecondViolinStaffI"
                         {
                             \context Voice = "SecondViolinVoiceI"
-                            {
+                            {   %*% i2SecondViolinVoiceI
                                 \tag SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX
                                 {
                                     
@@ -780,13 +780,13 @@
                                     \revert TrillSpanner.staff-padding                   %! OC
                                     
                                 }
-                            }
+                            }   %*% i2SecondViolinVoiceI
                         }
                         \tag SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII %! ST4
                         \context Staff = "SecondViolinStaffII"
                         {
                             \context Voice = "SecondViolinVoiceII"
-                            {
+                            {   %*% i2SecondViolinVoiceII
                                 \tag SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII
                                 {
                                     
@@ -927,7 +927,7 @@
                                     \revert TrillSpanner.staff-padding                   %! OC
                                     
                                 }
-                            }
+                            }   %*% i2SecondViolinVoiceII
                         }
                     >>
                     \context StaffGroup = "ViolaSquareStaffGroup"
@@ -940,7 +940,7 @@
                         \context Staff = "ViolaStaffI"
                         {
                             \context Voice = "ViolaVoiceI"
-                            {
+                            {   %*% i2ViolaVoiceI
                                 \tag ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX
                                 {
                                     
@@ -1072,13 +1072,13 @@
                                     \revert TrillSpanner.staff-padding                   %! OC
                                     
                                 }
-                            }
+                            }   %*% i2ViolaVoiceI
                         }
                         \tag ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII %! ST4
                         \context Staff = "ViolaStaffII"
                         {
                             \context Voice = "ViolaVoiceII"
-                            {
+                            {   %*% i2ViolaVoiceII
                                 \tag ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII
                                 {
                                     
@@ -1204,14 +1204,14 @@
                                     \revert TrillSpanner.staff-padding                   %! OC
                                     
                                 }
-                            }
+                            }   %*% i2ViolaVoiceII
                         }
                     >>
                     \tag CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV %! ST4
                     \context Staff = "CelloStaffI"
                     {
                         \context Voice = "CelloVoiceI"
-                        {
+                        {   %*% i2CelloVoiceI
                             \tag CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV
                             {
                                 
@@ -1322,7 +1322,7 @@
                                 \revert TrillSpanner.staff-padding                       %! OC
                                 
                             }
-                        }
+                        }   %*% i2CelloVoiceI
                     }
                 >>
             >>
