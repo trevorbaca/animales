@@ -36,37 +36,43 @@ maker(
 
 maker(
     baca.scope('FirstViolinVoiceI', 1, 2),
-    animales.extern('FirstViolin', (1, 10)),
+    #animales.extern('FirstViolin', (1, 10)),
+    baca.extern('AAA'),
     animales.sforzando_exchange_rhythm(0),
     )
 
 maker(
     baca.scope('FirstViolinVoiceII', 1, 2),
-    animales.extern('FirstViolin', (11, 18)),
+    #animales.extern('FirstViolin', (11, 18)),
+    baca.extern('BBB'),
     animales.sforzando_exchange_rhythm(1),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 1, 2),
-    animales.extern('SecondViolin', (1, 10)),
+    #animales.extern('SecondViolin', (1, 10)),
+    baca.extern('CCC'),
     animales.sforzando_exchange_rhythm(2),
     )
 
 maker(
     baca.scope('SecondViolinVoiceII', 1, 2),
-    animales.extern('SecondViolin', (11, 18)),
+    #animales.extern('SecondViolin', (11, 18)),
+    baca.extern('DDD'),
     animales.sforzando_exchange_rhythm(3),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 1, 2),
-    animales.extern('Viola', (1, 10)),
+    #animales.extern('Viola', (1, 10)),
+    baca.extern('EEE'),
     animales.sforzando_exchange_rhythm(4),
     )
 
 maker(
     baca.scope('ViolaVoiceII', 1, 2),
-    animales.extern('Viola', (11, 18)),
+    #animales.extern('Viola', (11, 18)),
+    baca.extern('FFF'),
     animales.sforzando_exchange_rhythm(5),
     )
 
@@ -137,7 +143,8 @@ non_divisi = [
 
 maker(
     baca.scope('FirstViolinVoiceI', 3, 6),
-    animales.extern('FirstViolin'),
+    #animales.extern('FirstViolin'),
+    baca.extern('GGG'),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(
@@ -149,7 +156,8 @@ maker(
 
 maker(
     baca.scope('SecondViolinVoiceI', 3, 6),
-    animales.extern('SecondViolin'),
+    #animales.extern('SecondViolin'),
+    baca.extern('HHH'),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(
@@ -161,7 +169,8 @@ maker(
 
 maker(
     baca.scope('ViolaVoiceI', 3, 6),
-    animales.extern('Viola'),
+    #animales.extern('Viola'),
+    baca.extern('III'),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(
@@ -185,5 +194,6 @@ maker(
 
 maker(
     baca.scope('CelloVoiceI', 1, 6),
-    animales.extern('Cello'),
+    #animales.extern('Cello'),
+    baca.extern('JJJ'),
     )
