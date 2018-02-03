@@ -27,18 +27,25 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.show(lilypond_file) # doctest: +SKIP
 
         >>> abjad.f(lilypond_file[abjad.Score])
-        \context Score = "Score" <<
-            \context GlobalContext = "GlobalContext" <<
-                \context GlobalRests = "GlobalRests" {
+        \context Score = "Score"
+        <<
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalRests = "GlobalRests"
+                {
                 }
-                \context GlobalSkips = "GlobalSkips" {
+                \context GlobalSkips = "GlobalSkips"
+                {
                 }
             >>
-            \context MusicContext = "MusicContext" <<
-                \context StaffGroup = "WindStaffGroup" <<
-                    \tag Piccolo %! ST4
-                    \context Staff = "PiccoloStaffI" {
-                        \context Voice = "PiccoloVoiceI" {
+            \context MusicContext = "MusicContext"
+            <<
+                \context StaffGroup = "WindStaffGroup"
+                <<
+                    \context Staff = "PiccoloStaffI"
+                    {
+                        \context Voice = "PiccoloVoiceI"
+                        {
                             \set Staff.instrumentName = \markup {      %! ST2
                                 \hcenter-in                            %! ST2
                                     #16                                %! ST2
@@ -53,12 +60,16 @@ class ScoreTemplate(baca.ScoreTemplate):
                             s1
                         }
                     }
-                    \context StaffGroup = "FluteSquareStaffGroup" \with {
+                    \context StaffGroup = "FluteSquareStaffGroup"
+                    \with
+                    {
                         systemStartDelimiter = #'SystemStartSquare
-                    } <<
-                        \tag FluteI.FluteII %! ST4
-                        \context Staff = "FluteStaffI" {
-                            \context Voice = "FluteVoiceI" {
+                    }
+                    <<
+                        \context Staff = "FluteStaffI"
+                        {
+                            \context Voice = "FluteVoiceI"
+                            {
                                 \set Staff.instrumentName = \markup {      %! ST2
                                     \hcenter-in                            %! ST2
                                         #16                                %! ST2
@@ -73,9 +84,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 s1
                             }
                         }
-                        \tag FluteIII %! ST4
-                        \context Staff = "FluteStaffII" {
-                            \context Voice = "FluteVoiceII" {
+                        \context Staff = "FluteStaffII"
+                        {
+                            \context Voice = "FluteVoiceII"
+                            {
                                 \set Staff.instrumentName = \markup {      %! ST2
                                     \hcenter-in                            %! ST2
                                         #16                                %! ST2
@@ -92,13 +104,18 @@ class ScoreTemplate(baca.ScoreTemplate):
                         }
                     >>
                 >>
-                \context StaffGroup = "StringStaffGroup" <<
-                    \context StaffGroup = "FirstViolinSquareStaffGroup" \with {
+                \context StaffGroup = "StringStaffGroup"
+                <<
+                    \context StaffGroup = "FirstViolinSquareStaffGroup"
+                    \with
+                    {
                         systemStartDelimiter = #'SystemStartSquare
-                    } <<
-                        \tag FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX %! ST4
-                        \context Staff = "FirstViolinStaffI" {
-                            \context Voice = "FirstViolinVoiceI" {
+                    }
+                    <<
+                        \context Staff = "FirstViolinStaffI"
+                        {
+                            \context Voice = "FirstViolinVoiceI"
+                            {
                                 \set Staff.instrumentName = \markup {      %! ST2
                                     \hcenter-in                            %! ST2
                                         #16                                %! ST2
@@ -121,9 +138,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 s1
                             }
                         }
-                        \tag FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII %! ST4
-                        \context Staff = "FirstViolinStaffII" {
-                            \context Voice = "FirstViolinVoiceII" {
+                        \context Staff = "FirstViolinStaffII"
+                        {
+                            \context Voice = "FirstViolinVoiceII"
+                            {
                                 \set Staff.instrumentName = \markup {      %! ST2
                                     \hcenter-in                            %! ST2
                                         #16                                %! ST2
@@ -147,12 +165,16 @@ class ScoreTemplate(baca.ScoreTemplate):
                             }
                         }
                     >>
-                    \context StaffGroup = "SecondViolinSquareStaffGroup" \with {
+                    \context StaffGroup = "SecondViolinSquareStaffGroup"
+                    \with
+                    {
                         systemStartDelimiter = #'SystemStartSquare
-                    } <<
-                        \tag SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX %! ST4
-                        \context Staff = "SecondViolinStaffI" {
-                            \context Voice = "SecondViolinVoiceI" {
+                    }
+                    <<
+                        \context Staff = "SecondViolinStaffI"
+                        {
+                            \context Voice = "SecondViolinVoiceI"
+                            {
                                 \set Staff.instrumentName = \markup {      %! ST2
                                     \hcenter-in                            %! ST2
                                         #16                                %! ST2
@@ -175,9 +197,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 s1
                             }
                         }
-                        \tag SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII %! ST4
-                        \context Staff = "SecondViolinStaffII" {
-                            \context Voice = "SecondViolinVoiceII" {
+                        \context Staff = "SecondViolinStaffII"
+                        {
+                            \context Voice = "SecondViolinVoiceII"
+                            {
                                 \set Staff.instrumentName = \markup {      %! ST2
                                     \hcenter-in                            %! ST2
                                         #16                                %! ST2
@@ -201,9 +224,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                             }
                         }
                     >>
-                    \tag ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX.ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII %! ST4
-                    \context Staff = "ViolaStaffI" {
-                        \context Voice = "ViolaVoiceI" {
+                    \context Staff = "ViolaStaffI"
+                    {
+                        \context Voice = "ViolaVoiceI"
+                        {
                             \set Staff.instrumentName = \markup {      %! ST2
                                 \hcenter-in                            %! ST2
                                     #16                                %! ST2
@@ -218,9 +242,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                             s1
                         }
                     }
-                    \tag CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV %! ST4
-                    \context Staff = "CelloStaffI" {
-                        \context Voice = "CelloVoiceI" {
+                    \context Staff = "CelloStaffI"
+                    {
+                        \context Voice = "CelloVoiceI"
+                        {
                             \set Staff.instrumentName = \markup {      %! ST2
                                 \hcenter-in                            %! ST2
                                     #16                                %! ST2
@@ -235,9 +260,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                             s1
                         }
                     }
-                    \tag ContrabassI.ContrabassII.ContrabassIII.ContrabassIV.ContrabassV.ContrabassVI %! ST4
-                    \context Staff = "ContrabassStaffI" {
-                        \context Voice = "ContrabassVoiceI" {
+                    \context Staff = "ContrabassStaffI"
+                    {
+                        \context Voice = "ContrabassVoiceI"
+                        {
                             \set Staff.instrumentName = \markup {      %! ST2
                                 \hcenter-in                            %! ST2
                                     #16                                %! ST2
@@ -656,12 +682,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                     is_simultaneous=False,
                     name=f'{name}Staff{staff_numeral}',
                     )
-                if divisi_token is True:
-                    command = animales.lilypond_tag(name)
-                else:
-                    command = animales.lilypond_tag(name, divisi_token)
-                tag = command.tag
-                self._attach_lilypond_tag(tag, staff)
+#                if divisi_token is True:
+#                    command = animales.lilypond_tag(name)
+#                else:
+#                    command = animales.lilypond_tag(name, divisi_token)
+#                tag = command.tag
+#                self._attach_lilypond_tag(tag, staff)
                 voice_numeral = self._to_roman(voice_number)
                 voice = abjad.Voice(name=f'{name}Voice{voice_numeral}')
                 staff.append(voice)

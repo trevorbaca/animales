@@ -335,7 +335,6 @@
             <<
                 \context StaffGroup = "StringStaffGroup"
                 <<
-                    \tag FirstViolinI.FirstViolinII.FirstViolinIII.FirstViolinIV.FirstViolinV.FirstViolinVI.FirstViolinVII.FirstViolinVIII.FirstViolinIX.FirstViolinX.FirstViolinXI.FirstViolinXII.FirstViolinXIII.FirstViolinXIV.FirstViolinXV.FirstViolinXVI.FirstViolinXVII.FirstViolinXVIII %! ST4
                     \context Staff = "FirstViolinStaffI"
                     {
                         \context Voice = "FirstViolinVoiceI"
@@ -428,7 +427,6 @@
                             
                         }   %*% A2FirstViolinVoiceI
                     }
-                    \tag SecondViolinI.SecondViolinII.SecondViolinIII.SecondViolinIV.SecondViolinV.SecondViolinVI.SecondViolinVII.SecondViolinVIII.SecondViolinIX.SecondViolinX.SecondViolinXI.SecondViolinXII.SecondViolinXIII.SecondViolinXIV.SecondViolinXV.SecondViolinXVI.SecondViolinXVII.SecondViolinXVIII %! ST4
                     \context Staff = "SecondViolinStaffI"
                     {
                         \context Voice = "SecondViolinVoiceI"
@@ -545,7 +543,6 @@
                             
                         }   %*% A2SecondViolinVoiceI
                     }
-                    \tag ViolaI.ViolaII.ViolaIII.ViolaIV.ViolaV.ViolaVI.ViolaVII.ViolaVIII.ViolaIX.ViolaX.ViolaXI.ViolaXII.ViolaXIII.ViolaXIV.ViolaXV.ViolaXVI.ViolaXVII.ViolaXVIII %! ST4
                     \context Staff = "ViolaStaffI"
                     {
                         \context Voice = "ViolaVoiceI"
@@ -640,7 +637,6 @@
                             
                         }   %*% A2ViolaVoiceI
                     }
-                    \tag CelloI.CelloII.CelloIII.CelloIV.CelloV.CelloVI.CelloVII.CelloVIII.CelloIX.CelloX.CelloXI.CelloXII.CelloXIII.CelloXIV %! ST4
                     \context Staff = "CelloStaffI"
                     {
                         \context Voice = "CelloVoiceI"
