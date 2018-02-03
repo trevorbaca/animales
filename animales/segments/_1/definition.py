@@ -33,7 +33,7 @@ maker(
 maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
     animales.sforzando_exchange_rhythm(0),
-    baca.lilypond_tag('FOO', 'FOO'),
+    baca.lilypond_tag('FOO'),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(animales.margin_markup['Vni. I (1-10)']),
@@ -44,7 +44,7 @@ maker(
     baca.scope('FirstViolinVoiceII', 1, 6),
     #animales.lilypond_tag('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
-    #baca.lilypond_tag('BAR', 'BAR'),
+    #baca.lilypond_tag('BAR'),
     baca.margin_markup(animales.margin_markup['Vni. I (11-18)']),
     )
 
