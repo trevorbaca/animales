@@ -5,12 +5,6 @@ metadata = abjad.OrderedDict(
     [
         ('catalog_number', 'AWN-018'),
         ('composer', 'Bača'),
-        (
-            'fermata_measure_numbers',
-            abjad.OrderedDict(
-                []
-                ),
-            ),
         ('forces_tagline', 'for orchestra'),
         (
             'time_signatures',
