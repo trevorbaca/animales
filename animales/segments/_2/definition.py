@@ -33,6 +33,7 @@ maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
     #animales.extern('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
+    baca.extern('ibFirstViolinVoiceIA'),
     )
 
 maker(

@@ -5,8 +5,9 @@
 #(set-global-staff-size 16)
 
 \paper {
-    top-markup-spacing.minimum-distance = 8
+    left-margin = 20\mm
     markup-system-spacing.minimum-distance = 60
+    top-markup-spacing.minimum-distance = 8
 }
 
 \header {

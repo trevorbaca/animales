@@ -310,7 +310,7 @@ AaGlobalSkips = {
 }
 
 
-AAA = {
+AaFirstViolinVoiceIA = {
     
     % [A1 FirstViolinVoiceI measure 18]                  %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -419,7 +419,7 @@ AAA = {
 }
 
 
-GGG = {
+AaFirstViolinVoiceIB = {
     
     % [A1 FirstViolinVoiceI measure 20]                  %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
@@ -499,8 +499,8 @@ GGG = {
 
 
 AaFirstViolinVoiceI = {
-    \AAA
-    \GGG
+    \AaFirstViolinVoiceIA
+    \AaFirstViolinVoiceIB
 }
 
 

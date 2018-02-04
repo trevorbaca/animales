@@ -37,7 +37,7 @@ maker(
 maker(
     baca.scope('FirstViolinVoiceI', 1, 2),
     #animales.extern('FirstViolin', (1, 10)),
-    baca.extern('AAA'),
+    baca.extern('AaFirstViolinVoiceIA'),
     animales.sforzando_exchange_rhythm(0),
     )
 
@@ -144,7 +144,7 @@ non_divisi = [
 maker(
     baca.scope('FirstViolinVoiceI', 3, 6),
     #animales.extern('FirstViolin'),
-    baca.extern('GGG'),
+    baca.extern('AaFirstViolinVoiceIB'),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(
