@@ -5,24 +5,24 @@ import roman
 from typing import Union
 
 
-def extern(stem: str, number: Union[int, list, tuple] = None) -> str:
-    r'''Attaches extern command.
+def parts(stem: str, number: Union[int, list, tuple] = None) -> str:
+    r'''Designates parts.
 
     >>> import animales
 
     ..  container:: example
 
-        >>> animales.extern('Horn', 1)
-        ExternCommand(selector=baca.leaves(), string='HornI')
+        >>> animales.parts('Horn', 1)
+        ContainerCommand(selector=baca.leaves(), string='HornI')
 
-        >>> animales.extern('Horn', (1, 2))
-        ExternCommand(selector=baca.leaves(), string='HornI.HornII')
+        >>> animales.parts('Horn', (1, 2))
+        ContainerCommand(selector=baca.leaves(), string='HornI.HornII')
 
-        >>> animales.extern('Horn', [1, 3])
-        ExternCommand(selector=baca.leaves(), string='HornI.HornIII')
+        >>> animales.parts('Horn', [1, 3])
+        ContainerCommand(selector=baca.leaves(), string='HornI.HornIII')
 
-        >>> animales.extern('Horn')
-        ExternCommand(selector=baca.leaves(), string='HornI.HornII.HornIII.HornIV')
+        >>> animales.parts('Horn')
+        ContainerCommand(selector=baca.leaves(), string='HornI.HornII.HornIII.HornIV')
 
     '''
     score_template = animales.ScoreTemplate()
@@ -49,4 +49,4 @@ def extern(stem: str, number: Union[int, list, tuple] = None) -> str:
             part_name = stem + number
             part_names.append(part_name)
     string = '.'.join(part_names)
-    return baca.extern(string)
+    return baca.container(string)

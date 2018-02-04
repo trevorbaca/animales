@@ -31,44 +31,44 @@ maker = baca.SegmentMaker(
 
 maker(
     baca.scope('FirstViolinVoiceI', 1, 5),
-    #animales.extern('FirstViolin', (1, 10)),
+    #animales.parts('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
-    baca.extern('icFirstViolinVoiceIA'),
+    baca.container('icFirstViolinVoiceIA'),
     )
 
 maker(
     baca.scope('FirstViolinVoiceII', 1, 5),
-    #animales.extern('FirstViolin', (11, 18)),
+    #animales.parts('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 1, 5),
-    #animales.extern('SecondViolin', (1, 10)),
+    #animales.parts('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
     )
 
 maker(
     baca.scope('SecondViolinVoiceII', 1, 5),
-    #animales.extern('SecondViolin', (11, 18)),
+    #animales.parts('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 1, 5),
-    #animales.extern('Viola', (1, 10)),
+    #animales.parts('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
     )
 
 maker(
     baca.scope('ViolaVoiceII', 1, 5),
-    #animales.extern('Viola', (11, 18)),
+    #animales.parts('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
     )
 
 maker(
     baca.scope('CelloVoiceI', 1, 5),
-    #animales.extern('Cello'),
+    #animales.parts('Cello'),
     animales.sforzando_exchange_rhythm(6),
     )
 

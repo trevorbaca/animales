@@ -2,8 +2,6 @@ TO-DO
 =====
 
 1.  Track part variable sequence.
-    Change ExternCommand, baca.extern() to ContainerCommand, baca.container().
-    Add is_lilypond_identifier() check to ContainerCommand.
     Extend baca.container() with animales.parts().
     Allow compact animales.parts() arguments: ('FirstViolin', (1, 10)).
     Determine animales.parts() container names programmatically.

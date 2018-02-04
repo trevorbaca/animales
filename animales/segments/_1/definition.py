@@ -33,7 +33,7 @@ maker(
 maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
     animales.sforzando_exchange_rhythm(0),
-    baca.extern('iaFirstViolinVoiceIA'),
+    baca.container('iaFirstViolinVoiceIA'),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(animales.margin_markup['Vni. I (1-10)']),
@@ -42,43 +42,43 @@ maker(
 
 maker(
     baca.scope('FirstViolinVoiceII', 1, 6),
-    #animales.extern('FirstViolin', (11, 18)),
+    #animales.parts('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
-    #baca.extern('BAR'),
+    #baca.container('BAR'),
     baca.margin_markup(animales.margin_markup['Vni. I (11-18)']),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 1, 6),
-    #animales.extern('SecondViolin', (1, 10)),
+    #animales.parts('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
     baca.margin_markup(animales.margin_markup['Vni. II (1-10)']),
     )
 
 maker(
     baca.scope('SecondViolinVoiceII', 1, 6),
-    #animales.extern('SecondViolin', (11, 18)),
+    #animales.parts('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
     baca.margin_markup(animales.margin_markup['Vni. II (11-18)']),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 1, 6),
-    #animales.extern('Viola', (1, 10)),
+    #animales.parts('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
     baca.margin_markup(animales.margin_markup['Vle. (1-10)']),
     )
 
 maker(
     baca.scope('ViolaVoiceII', 1, 6),
-    #animales.extern('Viola', (11, 18)),
+    #animales.parts('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
     baca.margin_markup(animales.margin_markup['Vle. (11-18)']),
     )
 
 maker(
     baca.scope('CelloVoiceI', 1, 6),
-    #animales.extern('Cello'),
+    #animales.parts('Cello'),
     animales.sforzando_exchange_rhythm(6),
     baca.clef('tenor'),
     )

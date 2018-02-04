@@ -34,7 +34,7 @@ maker = baca.SegmentMaker(
 
 maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
-    baca.extern('AbFirstViolinVoiceIA'),
+    baca.container('AbFirstViolinVoiceIA'),
     baca.make_tied_notes(repeat_ties=True),
     )
 
