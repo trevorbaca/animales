@@ -6,40 +6,71 @@
 
 #(ly:set-option 'relative-includes #t)
 \include "stylesheet.ily"
+\include "_segments/segment--1.ily"
+\include "_segments/segment--2.ily"
+\include "_segments/segment--3.ily"
+\include "_segments/segment-A1.ily"
+\include "_segments/segment-A2.ily"
 
 \header {
     subtitle =
         \markup
-        \override #'(font-name . "Palatino Italic")
         \column
         \center-align
         {
-            \line { first violin 1 }
-            \line { (part) }
+            \override #'(font-name . "Palatino Italic")
+            \fontsize #3
+            {
+                \line { first violin (1) }
+                \line { part }
+            }
         }
 }
+
+instrumentName =
+    \markup
+    \hcenter-in #12
+    \center-column
+    {
+        "Vni. I"
+        (1)
+    }
 
 
 \score {
     <<
         {
-        \include "first-violin-i-layout.ly"
+            \include "first-violin-i-layout.ly"
         }
         {
-
-        \keepWithTag FirstViolinI 
-        \context MusicContext {
-            \context Staff {
-                \context Voice {
-                    \include "_segments/segment--1.ly"
+            \context Score = "Score"
+            <<
+                \context GlobalContext = "GlobalContext"
+                <<
+                    \context GlobalSkips = "GlobalSkips"
+                    {
+                        \iaGlobalSkips
+                        \ibGlobalSkips
+                        \icGlobalSkips
+                        \AaGlobalSkips
+                        \AbGlobalSkips
+                    }
+                >> 
+                \context MusicContext = "MusicContext"
+                {
+                    \context Staff = "Staff"
+                    {
+                        \set Staff.instrumentName = \instrumentName
+                        \set Staff.shortInstrumentName = \instrumentName
+                        \iaFirstViolinVoiceIA
+                        \ibFirstViolinVoiceIA
+                        \icFirstViolinVoiceIA
+                        \AaFirstViolinVoiceIA
+                        \AaFirstViolinVoiceIB
+                        \AbFirstViolinVoiceIA
+                    }
                 }
-            }
-        }
-
-        %\include "_segments/segment--2.ly"
-        %\include "_segments/segment--3.ly"
-        %\include "_segments/segment-A1.ly"
-        %\include "_segments/segment-A2.ly"
+            >>
         }
     >>
 }

@@ -33,7 +33,7 @@ maker(
 maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
     animales.sforzando_exchange_rhythm(0),
-    baca.extern('FOO'),
+    baca.extern('iaFirstViolinVoiceIA'),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(animales.margin_markup['Vni. I (1-10)']),
