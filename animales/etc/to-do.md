@@ -82,5 +82,7 @@ TO-DO
     Build trombone, percussion, contrabass parts by hand.
     Build empty piccolo part by hand.
 
-12. Regenerate 107 music.ly files with (mlg).
+12. Set repeat-tie-into on string parts at start of A2.
+
+13. Regenerate 107 music.ly files with (mlg).
     Rebuild 107 part.pdf files with (ppb).
