@@ -1,15 +1,7 @@
 TO-DO
 =====
 
-1.  Track part variable sequence.
-    Extend baca.container() with animales.parts().
-    Allow compact animales.parts() arguments: ('FirstViolin', (1, 10)).
-    Determine animales.parts() container names programmatically.
-    Add lower / upper keyword to _base_26().
-    Move _base_26() to abjad.String.base_26().
-    Change abjad.Container.bracket_comment to abjad.Container.identifier.
-    Preserve lower 26 at start of container identifier.
-    Use upper 26 at end of container identifier.
+1.  Track part containers.
     Add container identifier uniqueness check to WellformednessManager.
     Teach _collect_metadata to write part_containers to segment metadata.
     Allow compact part_containers keys: ('FirstViolin', (1, 10)).

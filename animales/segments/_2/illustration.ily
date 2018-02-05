@@ -1,4 +1,4 @@
-ibGlobalSkips = {
+iB_GlobalSkips = {
     
     % [_2 GlobalSkips measure 7]                                         %! SM4
 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
@@ -312,7 +312,7 @@ ibGlobalSkips = {
 }
 
 
-ibFirstViolinVoiceIA = {
+iB_FirstViolinVoiceI_A = {
     
     % [_2 FirstViolinVoiceI measure 7]                   %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -450,119 +450,119 @@ ibFirstViolinVoiceIA = {
 }
 
 
-ibFirstViolinVoiceI = {
-    \ibFirstViolinVoiceIA
+iB_FirstViolinVoiceI = {
+    \iB_FirstViolinVoiceI_A
 }
 
 
-ibFirstViolinVoiceII = {
+iB_FirstViolinVoiceII_A = {
     
-    % [_2 FirstViolinVoiceII measure 7]                      %! SM4
-    \set Staff.instrumentName = \markup {                    %! REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                              %! REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-                    Violins                                  %! REAPPLIED_MARGIN_MARKUP:SM8
-                    I                                        %! REAPPLIED_MARGIN_MARKUP:SM8
-                    (11-18)                                  %! REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {               %! REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-                    Vni.                                     %! REAPPLIED_MARGIN_MARKUP:SM8
-                    I                                        %! REAPPLIED_MARGIN_MARKUP:SM8
-                    (11-18)                                  %! REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
-    \override TrillSpanner.staff-padding = #6                %! OC
-    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
-    \clef "treble"                                           %! REAPPLIED_CLEF:SM8
-    \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
-%@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    % [_2 FirstViolinVoiceII measure 7]                  %! SM4
+    \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    Violins                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    I                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    (11-18)                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #10                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    Vni.                                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    I                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    (11-18)                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \override TrillSpanner.staff-padding = #6            %! OC
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
+    \clef "treble"                                       %! REAPPLIED_CLEF:SM8
+    \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+%@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-    \pitchedTrill                                            %! SC
+    \pitchedTrill                                        %! SC
     gf'2.
-    \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+    \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
     ^ \markup {
         \column
             {
-                \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                    {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                        \with-color                          %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                            #(x11-color 'green4)             %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                            (“Violin”)                       %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                    }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                \line                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    {                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                        \with-color                          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            #(x11-color 'green4)             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            {                                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                     %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    "[“Vni. I (11-18)”"      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                     %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    \hcenter-in              %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        #16                  %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \center-column       %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            {                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                Violins      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                I            %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                (11-18)      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            }                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \concat                      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    {                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            \hcenter-in      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                #10          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                \center-column %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                    {        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                        Vni. %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                        I    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                        (11-18) %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                    }        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            ]                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    }                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            }                                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    }                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                \line                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    {                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                        \with-color                      %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            #(x11-color 'green4)         %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            (“Violin”)                   %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    }                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                \line                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    {                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                        \with-color                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            #(x11-color 'green4)         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            {                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \vcenter                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    "[“Vni. I (11-18)”"  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \vcenter                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    \hcenter-in          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        #16              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \center-column   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            {            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                Violins  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                I        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                (11-18)  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            }            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \concat                  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    {                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \vcenter         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            \hcenter-in  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                #10      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                \center-column %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                    {    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                        Vni. %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                        I %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                        (11-18) %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                    }    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \vcenter         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            ]            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    }                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            }                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    }                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
             }
         }
-    \startTrillSpan af'                                      %! SC
-    \set Staff.instrumentName = \markup {                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    Violins                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    I                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    (11-18)                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    Vni.                                     %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    I                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    (11-18)                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    \startTrillSpan af'                                  %! SC
+    \set Staff.instrumentName = \markup {                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    Violins                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    I                                    %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    (11-18)                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #10                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    Vni.                                 %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    I                                    %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    (11-18)                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \override Staff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     
     gf'4
-    -\accent                                                 %! IC
+    -\accent                                             %! IC
     
-    % [_2 FirstViolinVoiceII measure 8]                      %! SM4
+    % [_2 FirstViolinVoiceII measure 8]                  %! SM4
     gf'2
     \repeatTie
     
-    % [_2 FirstViolinVoiceII measure 9]                      %! SM4
+    % [_2 FirstViolinVoiceII measure 9]                  %! SM4
     gf'2
     \repeatTie
     \times 2/3 {
@@ -572,468 +572,611 @@ ibFirstViolinVoiceII = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
         gf'4
-        -\accent                                             %! IC
+        -\accent                                         %! IC
     }
     
-    % [_2 FirstViolinVoiceII measure 10]                     %! SM4
+    % [_2 FirstViolinVoiceII measure 10]                 %! SM4
     gf'2.
     \repeatTie
     
-    % [_2 FirstViolinVoiceII measure 11]                     %! SM4
+    % [_2 FirstViolinVoiceII measure 11]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-    \pitchedTrill                                            %! SC
+    \pitchedTrill                                        %! SC
     f'1
-    \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-    \stopTrillSpan                                           %! SC
-    \startTrillSpan gf'                                      %! SC
+    \p_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \stopTrillSpan                                       %! SC
+    \startTrillSpan gf'                                  %! SC
     
-    % [_2 FirstViolinVoiceII measure 12]                     %! SM4
+    % [_2 FirstViolinVoiceII measure 12]                 %! SM4
     f'2
     \repeatTie
-    \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
-    \revert TrillSpanner.staff-padding                       %! OC
+    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \revert TrillSpanner.staff-padding                   %! OC
     
 }
 
 
-ibSecondViolinVoiceI = {
+iB_FirstViolinVoiceII = {
+    \iB_FirstViolinVoiceII_A
+}
+
+
+iB_SecondViolinVoiceI_A = {
     
-    % [_2 SecondViolinVoiceI measure 7]                      %! SM4
-    \set Staff.instrumentName = \markup {                    %! REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                              %! REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-                    Violins                                  %! REAPPLIED_MARGIN_MARKUP:SM8
-                    II                                       %! REAPPLIED_MARGIN_MARKUP:SM8
-                    (1-10)                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {               %! REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-                    Vni.                                     %! REAPPLIED_MARGIN_MARKUP:SM8
-                    II                                       %! REAPPLIED_MARGIN_MARKUP:SM8
-                    (1-10)                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
-    \override TrillSpanner.staff-padding = #4                %! OC
-    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
-    \clef "treble"                                           %! REAPPLIED_CLEF:SM8
-    \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
-%@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    % [_2 SecondViolinVoiceI measure 7]                  %! SM4
+    \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    Violins                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    II                                   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    (1-10)                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #10                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    Vni.                                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    II                                   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    (1-10)                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \override TrillSpanner.staff-padding = #4            %! OC
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
+    \clef "treble"                                       %! REAPPLIED_CLEF:SM8
+    \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+%@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-    \pitchedTrill                                            %! SC
+    \pitchedTrill                                        %! SC
     gf'1
-    \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+    \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
     ^ \markup {
         \column
             {
-                \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                    {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                        \with-color                          %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                            #(x11-color 'green4)             %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                            (“Violin”)                       %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                    }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                \line                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    {                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                        \with-color                          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            #(x11-color 'green4)             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            {                                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                     %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    "[“Vni. II (1-10)”"      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                     %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    \hcenter-in              %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        #16                  %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \center-column       %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            {                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                Violins      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                II           %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                (1-10)       %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            }                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \concat                      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    {                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            \hcenter-in      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                #10          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                \center-column %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                    {        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                        Vni. %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                        II   %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                        (1-10) %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                    }        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            ]                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    }                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            }                                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    }                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                \line                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    {                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                        \with-color                      %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            #(x11-color 'green4)         %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            (“Violin”)                   %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    }                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                \line                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    {                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                        \with-color                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            #(x11-color 'green4)         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            {                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \vcenter                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    "[“Vni. II (1-10)”"  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \vcenter                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    \hcenter-in          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        #16              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \center-column   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            {            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                Violins  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                II       %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                (1-10)   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            }            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \concat                  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    {                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \vcenter         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            \hcenter-in  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                #10      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                \center-column %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                    {    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                        Vni. %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                        II %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                        (1-10) %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                    }    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \vcenter         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            ]            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    }                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            }                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    }                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
             }
         }
-    \startTrillSpan af'                                      %! SC
-    \set Staff.instrumentName = \markup {                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    Violins                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    II                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    (1-10)                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    Vni.                                     %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    II                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    (1-10)                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    \startTrillSpan af'                                  %! SC
+    \set Staff.instrumentName = \markup {                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    Violins                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    II                                   %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    (1-10)                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #10                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    Vni.                                 %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    II                                   %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    (1-10)                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \override Staff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     
-    % [_2 SecondViolinVoiceI measure 8]                      %! SM4
+    % [_2 SecondViolinVoiceI measure 8]                  %! SM4
     gf'8
     \repeatTie
     
     gf'4.
-    -\accent                                                 %! IC
+    -\accent                                             %! IC
     
-    % [_2 SecondViolinVoiceI measure 9]                      %! SM4
+    % [_2 SecondViolinVoiceI measure 9]                  %! SM4
     gf'2.
     \repeatTie
     
-    % [_2 SecondViolinVoiceI measure 10]                     %! SM4
+    % [_2 SecondViolinVoiceI measure 10]                 %! SM4
     gf'4.
     \repeatTie
     
     gf'4.
-    -\accent                                                 %! IC
+    -\accent                                             %! IC
     
-    % [_2 SecondViolinVoiceI measure 11]                     %! SM4
+    % [_2 SecondViolinVoiceI measure 11]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-    \pitchedTrill                                            %! SC
+    \pitchedTrill                                        %! SC
     f'1
-    \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-    \stopTrillSpan                                           %! SC
-    \startTrillSpan gf'                                      %! SC
+    \p_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \stopTrillSpan                                       %! SC
+    \startTrillSpan gf'                                  %! SC
     
-    % [_2 SecondViolinVoiceI measure 12]                     %! SM4
+    % [_2 SecondViolinVoiceI measure 12]                 %! SM4
     f'2
     \repeatTie
-    \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
-    \revert TrillSpanner.staff-padding                       %! OC
+    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \revert TrillSpanner.staff-padding                   %! OC
     
 }
 
 
-ibSecondViolinVoiceII = {
+iB_SecondViolinVoiceI = {
+    \iB_SecondViolinVoiceI_A
+}
+
+
+iB_SecondViolinVoiceII_A = {
     
-    % [_2 SecondViolinVoiceII measure 7]                     %! SM4
-    \set Staff.instrumentName = \markup {                    %! REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                              %! REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-                    Violins                                  %! REAPPLIED_MARGIN_MARKUP:SM8
-                    II                                       %! REAPPLIED_MARGIN_MARKUP:SM8
-                    (11-18)                                  %! REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {               %! REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-                    Vni.                                     %! REAPPLIED_MARGIN_MARKUP:SM8
-                    II                                       %! REAPPLIED_MARGIN_MARKUP:SM8
-                    (11-18)                                  %! REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
-    \override TrillSpanner.staff-padding = #6                %! OC
-    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
-    \clef "treble"                                           %! REAPPLIED_CLEF:SM8
-    \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
-%@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    % [_2 SecondViolinVoiceII measure 7]                 %! SM4
+    \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    Violins                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    II                                   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    (11-18)                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #10                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    Vni.                                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    II                                   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    (11-18)                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \override TrillSpanner.staff-padding = #6            %! OC
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
+    \clef "treble"                                       %! REAPPLIED_CLEF:SM8
+    \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+%@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-    \pitchedTrill                                            %! SC
+    \pitchedTrill                                        %! SC
     gf'1
-    \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+    \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
     ^ \markup {
         \column
             {
-                \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                    {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                        \with-color                          %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                            #(x11-color 'green4)             %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                            (“Violin”)                       %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                    }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                \line                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    {                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                        \with-color                          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            #(x11-color 'green4)             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            {                                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                     %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    "[“Vni. II (11-18)”"     %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                     %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    \hcenter-in              %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        #16                  %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \center-column       %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            {                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                Violins      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                II           %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                (11-18)      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            }                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \concat                      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    {                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            \hcenter-in      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                #10          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                \center-column %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                    {        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                        Vni. %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                        II   %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                        (11-18) %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                    }        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            ]                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    }                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            }                                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    }                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                \line                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    {                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                        \with-color                      %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            #(x11-color 'green4)         %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            (“Violin”)                   %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    }                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                \line                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    {                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                        \with-color                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            #(x11-color 'green4)         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            {                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \vcenter                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    "[“Vni. II (11-18)”" %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \vcenter                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    \hcenter-in          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        #16              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \center-column   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            {            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                Violins  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                II       %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                (11-18)  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            }            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \concat                  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    {                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \vcenter         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            \hcenter-in  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                #10      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                \center-column %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                    {    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                        Vni. %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                        II %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                        (11-18) %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                    }    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \vcenter         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            ]            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    }                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            }                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    }                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
             }
         }
-    \startTrillSpan af'                                      %! SC
-    \set Staff.instrumentName = \markup {                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    Violins                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    II                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    (11-18)                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    Vni.                                     %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    II                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    (11-18)                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    \startTrillSpan af'                                  %! SC
+    \set Staff.instrumentName = \markup {                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    Violins                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    II                                   %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    (11-18)                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #10                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    Vni.                                 %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    II                                   %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    (11-18)                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \override Staff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \times 2/3 {
         
-        % [_2 SecondViolinVoiceII measure 8]                 %! SM4
+        % [_2 SecondViolinVoiceII measure 8]             %! SM4
         gf'4
         \repeatTie
         
         gf'8
-        -\accent                                             %! IC
+        -\accent                                         %! IC
     }
     
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
     gf'4
     \repeatTie
     
-    % [_2 SecondViolinVoiceII measure 9]                     %! SM4
+    % [_2 SecondViolinVoiceII measure 9]                 %! SM4
     gf'2.
     \repeatTie
     
-    % [_2 SecondViolinVoiceII measure 10]                    %! SM4
+    % [_2 SecondViolinVoiceII measure 10]                %! SM4
     gf'2
     \repeatTie
     
     gf'4
-    -\accent                                                 %! IC
+    -\accent                                             %! IC
     
-    % [_2 SecondViolinVoiceII measure 11]                    %! SM4
+    % [_2 SecondViolinVoiceII measure 11]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-    \pitchedTrill                                            %! SC
+    \pitchedTrill                                        %! SC
     f'1
-    \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-    \stopTrillSpan                                           %! SC
-    \startTrillSpan gf'                                      %! SC
+    \p_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \stopTrillSpan                                       %! SC
+    \startTrillSpan gf'                                  %! SC
     
-    % [_2 SecondViolinVoiceII measure 12]                    %! SM4
+    % [_2 SecondViolinVoiceII measure 12]                %! SM4
     f'2
     \repeatTie
-    \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
-    \revert TrillSpanner.staff-padding                       %! OC
+    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \revert TrillSpanner.staff-padding                   %! OC
     
 }
 
 
-ibViolaVoiceI = {
+iB_SecondViolinVoiceII = {
+    \iB_SecondViolinVoiceII_A
+}
+
+
+iB_ViolaVoiceI_A = {
     
-    % [_2 ViolaVoiceI measure 7]                             %! SM4
-    \set Staff.instrumentName = \markup {                    %! REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                              %! REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-                    Violas                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                    (1-10)                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {               %! REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-                    Vle.                                     %! REAPPLIED_MARGIN_MARKUP:SM8
-                    (1-10)                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
-    \override TrillSpanner.staff-padding = #4                %! OC
-    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
-    \clef "alto"                                             %! REAPPLIED_CLEF:SM8
-    \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
-%@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    % [_2 ViolaVoiceI measure 7]                         %! SM4
+    \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    Violas                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    (1-10)                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #10                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    Vle.                                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    (1-10)                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \override TrillSpanner.staff-padding = #4            %! OC
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
+    \clef "alto"                                         %! REAPPLIED_CLEF:SM8
+    \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+%@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-    \pitchedTrill                                            %! SC
+    \pitchedTrill                                        %! SC
     gf'1
-    \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+    \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
     ^ \markup {
         \column
             {
-                \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                    {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                        \with-color                          %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                            #(x11-color 'green4)             %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                            (“Viola”)                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                    }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                \line                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    {                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                        \with-color                          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            #(x11-color 'green4)             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            {                                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                     %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    "[“Vle. (1-10)”"         %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                     %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    \hcenter-in              %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        #16                  %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \center-column       %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            {                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                Violas       %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                (1-10)       %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            }                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \concat                      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    {                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            \hcenter-in      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                #10          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                \center-column %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                    {        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                        Vle. %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                        (1-10) %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                    }        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            ]                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    }                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            }                                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    }                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                \line                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    {                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                        \with-color                      %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            #(x11-color 'green4)         %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            (“Viola”)                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    }                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                \line                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    {                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                        \with-color                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            #(x11-color 'green4)         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            {                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \vcenter                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    "[“Vle. (1-10)”"     %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \vcenter                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    \hcenter-in          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        #16              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \center-column   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            {            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                Violas   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                (1-10)   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            }            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \concat                  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    {                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \vcenter         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            \hcenter-in  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                #10      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                \center-column %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                    {    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                        Vle. %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                        (1-10) %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                    }    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \vcenter         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            ]            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    }                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            }                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    }                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
             }
         }
-    \startTrillSpan af'                                      %! SC
-    \set Staff.instrumentName = \markup {                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    Violas                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    (1-10)                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    Vle.                                     %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    (1-10)                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    \startTrillSpan af'                                  %! SC
+    \set Staff.instrumentName = \markup {                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    Violas                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    (1-10)                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #10                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    Vle.                                 %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    (1-10)                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \override Staff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     
-    % [_2 ViolaVoiceI measure 8]                             %! SM4
+    % [_2 ViolaVoiceI measure 8]                         %! SM4
     gf'4
     \repeatTie
     
     gf'4
-    -\accent                                                 %! IC
+    -\accent                                             %! IC
     
-    % [_2 ViolaVoiceI measure 9]                             %! SM4
+    % [_2 ViolaVoiceI measure 9]                         %! SM4
     gf'2.
     \repeatTie
     
-    % [_2 ViolaVoiceI measure 10]                            %! SM4
+    % [_2 ViolaVoiceI measure 10]                        %! SM4
     gf'2.
     \repeatTie
     
-    % [_2 ViolaVoiceI measure 11]                            %! SM4
+    % [_2 ViolaVoiceI measure 11]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-    \pitchedTrill                                            %! SC
+    \pitchedTrill                                        %! SC
     f'4.
-    \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-    \stopTrillSpan                                           %! SC
-    \startTrillSpan gf'                                      %! SC
+    \p_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \stopTrillSpan                                       %! SC
+    \startTrillSpan gf'                                  %! SC
     
     f'8
-    -\accent                                                 %! IC
+    -\accent                                             %! IC
     
     f'2
     \repeatTie
     
-    % [_2 ViolaVoiceI measure 12]                            %! SM4
+    % [_2 ViolaVoiceI measure 12]                        %! SM4
     f'2
     \repeatTie
-    \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
-    \revert TrillSpanner.staff-padding                       %! OC
+    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \revert TrillSpanner.staff-padding                   %! OC
     
 }
 
 
-ibViolaVoiceII = {
+iB_ViolaVoiceI = {
+    \iB_ViolaVoiceI_A
+}
+
+
+iB_ViolaVoiceII_A = {
     
-    % [_2 ViolaVoiceII measure 7]                            %! SM4
+    % [_2 ViolaVoiceII measure 7]                        %! SM4
+    \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    Violas                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    (11-18)                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #10                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    Vle.                                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    (11-18)                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \override TrillSpanner.staff-padding = #4            %! OC
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
+    \clef "alto"                                         %! REAPPLIED_CLEF:SM8
+    \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+%@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \pitchedTrill                                        %! SC
+    gf'1
+    \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    ^ \markup {
+        \column
+            {
+                \line                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    {                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                        \with-color                      %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            #(x11-color 'green4)         %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            (“Viola”)                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    }                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                \line                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    {                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                        \with-color                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            #(x11-color 'green4)         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            {                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \vcenter                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    "[“Vle. (11-18)”"    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \vcenter                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    \hcenter-in          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        #16              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \center-column   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            {            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                Violas   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                (11-18)  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            }            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \concat                  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    {                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \vcenter         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            \hcenter-in  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                #10      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                \center-column %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                    {    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                        Vle. %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                        (11-18) %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                    }    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \vcenter         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            ]            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    }                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            }                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    }                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+            }
+        }
+    \startTrillSpan af'                                  %! SC
+    \set Staff.instrumentName = \markup {                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    Violas                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    (11-18)                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #10                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            \center-column                               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                {                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    Vle.                                 %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    (11-18)                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                }                                        %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \override Staff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    
+    % [_2 ViolaVoiceII measure 8]                        %! SM4
+    gf'2
+    \repeatTie
+    
+    % [_2 ViolaVoiceII measure 9]                        %! SM4
+    gf'2.
+    -\accent                                             %! IC
+    
+    % [_2 ViolaVoiceII measure 10]                       %! SM4
+    gf'2.
+    \repeatTie
+    
+    % [_2 ViolaVoiceII measure 11]                       %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \pitchedTrill                                        %! SC
+    f'2
+    \p_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \stopTrillSpan                                       %! SC
+    \startTrillSpan gf'                                  %! SC
+    
+    f'2
+    -\accent                                             %! IC
+    
+    % [_2 ViolaVoiceII measure 12]                       %! SM4
+    f'2
+    \repeatTie
+    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \revert TrillSpanner.staff-padding                   %! OC
+    
+}
+
+
+iB_ViolaVoiceII = {
+    \iB_ViolaVoiceII_A
+}
+
+
+iB_CelloVoiceI_A = {
+    
+    % [_2 CelloVoiceI measure 7]                             %! SM4
     \set Staff.instrumentName = \markup {                    %! REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! REAPPLIED_MARGIN_MARKUP:SM8
             #16                                              %! REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-                    Violas                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                    (11-18)                                  %! REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REAPPLIED_MARGIN_MARKUP:SM8
+            Cellos                                           %! REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! REAPPLIED_MARGIN_MARKUP:SM8
             #10                                              %! REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REAPPLIED_MARGIN_MARKUP:SM8
-                    Vle.                                     %! REAPPLIED_MARGIN_MARKUP:SM8
-                    (11-18)                                  %! REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REAPPLIED_MARGIN_MARKUP:SM8
+            Vc.                                              %! REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #4                %! OC
     \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
-    \clef "alto"                                             %! REAPPLIED_CLEF:SM8
+    \clef "tenor"                                            %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                            %! SC
-    gf'1
+    gf'4.
     \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
     ^ \markup {
         \column
@@ -1042,7 +1185,7 @@ ibViolaVoiceII = {
                     {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
                         \with-color                          %! REAPPLIED_INSTRUMENT_ALERT:SM11
                             #(x11-color 'green4)             %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                            (“Viola”)                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            (“Cello”)                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
                     }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
                 \line                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                     {                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
@@ -1050,25 +1193,17 @@ ibViolaVoiceII = {
                             #(x11-color 'green4)             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                             {                                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                 \vcenter                     %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    "[“Vle. (11-18)”"        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    [“Vc.”                   %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                 \vcenter                     %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                     \hcenter-in              %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                         #16                  %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \center-column       %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            {                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                Violas       %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                (11-18)      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            }                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        Cellos               %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                 \concat                      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                     {                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                                 #10          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                \center-column %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                    {        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                        Vle. %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                        (11-18) %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                    }        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                Vc.          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter             %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             ]                %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                     }                        %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
@@ -1080,162 +1215,57 @@ ibViolaVoiceII = {
     \set Staff.instrumentName = \markup {                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
             #16                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    Violas                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    (11-18)                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            Cellos                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
             #10                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            \center-column                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                {                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    Vle.                                     %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    (11-18)                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                }                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            Vc.                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-    
-    % [_2 ViolaVoiceII measure 8]                            %! SM4
-    gf'2
-    \repeatTie
-    
-    % [_2 ViolaVoiceII measure 9]                            %! SM4
-    gf'2.
-    -\accent                                                 %! IC
-    
-    % [_2 ViolaVoiceII measure 10]                           %! SM4
-    gf'2.
-    \repeatTie
-    
-    % [_2 ViolaVoiceII measure 11]                           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-    \pitchedTrill                                            %! SC
-    f'2
-    \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
-    \stopTrillSpan                                           %! SC
-    \startTrillSpan gf'                                      %! SC
-    
-    f'2
-    -\accent                                                 %! IC
-    
-    % [_2 ViolaVoiceII measure 12]                           %! SM4
-    f'2
-    \repeatTie
-    \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
-    \revert TrillSpanner.staff-padding                       %! OC
-    
-}
-
-
-ibCelloVoiceI = {
-    
-    % [_2 CelloVoiceI measure 7]                                 %! SM4
-    \set Staff.instrumentName = \markup {                        %! REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                              %! REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                                  %! REAPPLIED_MARGIN_MARKUP:SM8
-            Cellos                                               %! REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                        %! REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {                   %! REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                              %! REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                                  %! REAPPLIED_MARGIN_MARKUP:SM8
-            Vc.                                                  %! REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                        %! REAPPLIED_MARGIN_MARKUP:SM8
-    \override TrillSpanner.staff-padding = #4                    %! OC
-    \set Staff.forceClef = ##t                                   %! REAPPLIED_CLEF:SM8
-    \clef "tenor"                                                %! REAPPLIED_CLEF:SM8
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! REAPPLIED_CLEF_COLOR:SM6
-%@% \override Staff.Clef.color = ##f                             %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-    \pitchedTrill                                                %! SC
-    gf'4.
-    \f_sub_but_accents_continue_sffz                             %! EXPLICIT_DYNAMIC:SM8
-    ^ \markup {
-        \column
-            {
-                \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                    {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                        \with-color                              %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                            #(x11-color 'green4)                 %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                            (“Cello”)                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                    }                                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                \line                                            %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    {                                            %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                        \with-color                              %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            #(x11-color 'green4)                 %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            {                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                         %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    [“Vc.”                       %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                         %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    \hcenter-in                  %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        #16                      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        Cellos                   %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \concat                          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    {                            %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter                 %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            \hcenter-in          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                #10              %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                Vc.              %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter                 %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            ]                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    }                            %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            }                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    }                                            %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-            }
-        }
-    \startTrillSpan af'                                          %! SC
-    \set Staff.instrumentName = \markup {                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            Cellos                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            Vc.                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     
     gf'8
-    -\accent                                                     %! IC
+    -\accent                                                 %! IC
     
     gf'2
     \repeatTie
     
-    % [_2 CelloVoiceI measure 8]                                 %! SM4
+    % [_2 CelloVoiceI measure 8]                             %! SM4
     gf'2
     \repeatTie
     
-    % [_2 CelloVoiceI measure 9]                                 %! SM4
+    % [_2 CelloVoiceI measure 9]                             %! SM4
     gf'4.
     \repeatTie
     
     gf'4.
-    -\accent                                                     %! IC
+    -\accent                                                 %! IC
     
-    % [_2 CelloVoiceI measure 10]                                %! SM4
+    % [_2 CelloVoiceI measure 10]                            %! SM4
     gf'2.
     \repeatTie
     
-    % [_2 CelloVoiceI measure 11]                                %! SM4
+    % [_2 CelloVoiceI measure 11]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-    \pitchedTrill                                                %! SC
+    \pitchedTrill                                            %! SC
     f'1
-    \p_sub_but_accents_continue_sffz                             %! EXPLICIT_DYNAMIC:SM8
-    \stopTrillSpan                                               %! SC
-    \startTrillSpan gf'                                          %! SC
+    \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+    \stopTrillSpan                                           %! SC
+    \startTrillSpan gf'                                      %! SC
     
-    % [_2 CelloVoiceI measure 12]                                %! SM4
+    % [_2 CelloVoiceI measure 12]                            %! SM4
     f'8
     \repeatTie
     
     f'4.
-    -\accent                                                     %! IC
-    \stopTrillSpan                                               %! RIGHT_BROKEN_TRILL %! SC
-    \revert TrillSpanner.staff-padding                           %! OC
+    -\accent                                                 %! IC
+    \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
+    \revert TrillSpanner.staff-padding                       %! OC
     
+}
+
+
+iB_CelloVoiceI = {
+    \iB_CelloVoiceI_A
 }
