@@ -7,6 +7,41 @@ metadata = abjad.OrderedDict(
             'bol_measure_numbers',
             [1],
             ),
+        (
+            'container_to_part',
+            abjad.OrderedDict(
+                [
+                    (
+                        'iA_FirstViolinVoiceI_A',
+                        abjad.Part('FirstViolin', (1, 10)),
+                        ),
+                    (
+                        'iA_FirstViolinVoiceII_A',
+                        abjad.Part('FirstViolin', (11, 18)),
+                        ),
+                    (
+                        'iA_SecondViolinVoiceI_A',
+                        abjad.Part('SecondViolin', (1, 10)),
+                        ),
+                    (
+                        'iA_SecondViolinVoiceII_A',
+                        abjad.Part('SecondViolin', (11, 18)),
+                        ),
+                    (
+                        'iA_ViolaVoiceI_A',
+                        abjad.Part('Viola', (1, 10)),
+                        ),
+                    (
+                        'iA_ViolaVoiceII_A',
+                        abjad.Part('Viola', (11, 18)),
+                        ),
+                    (
+                        'iA_CelloVoiceI_A',
+                        abjad.Part('Cello'),
+                        ),
+                    ]
+                ),
+            ),
         ('duration', "0'11''"),
         ('first_measure_number', 1),
         ('last_measure_number', 6),

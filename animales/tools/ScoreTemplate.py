@@ -398,6 +398,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         ('ContrabassVI', 'CB_6'),
         )
 
+    all_music_in_part_containers = True
+
     ### INITIALIZER ###
 
     def __init__(

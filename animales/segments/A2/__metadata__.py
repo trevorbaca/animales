@@ -7,6 +7,29 @@ metadata = abjad.OrderedDict(
             'bol_measure_numbers',
             [24],
             ),
+        (
+            'container_to_part',
+            abjad.OrderedDict(
+                [
+                    (
+                        'AB_FirstViolinVoiceI_A',
+                        abjad.Part('FirstViolin'),
+                        ),
+                    (
+                        'AB_SecondViolinVoiceI_A',
+                        abjad.Part('SecondViolin'),
+                        ),
+                    (
+                        'AB_ViolaVoiceI_A',
+                        abjad.Part('Viola'),
+                        ),
+                    (
+                        'AB_CelloVoiceI_A',
+                        abjad.Part('Cello'),
+                        ),
+                    ]
+                ),
+            ),
         ('duration', "0'11''"),
         ('first_measure_number', 24),
         ('last_measure_number', 29),
