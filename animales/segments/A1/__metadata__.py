@@ -7,6 +7,57 @@ metadata = abjad.OrderedDict(
             'bol_measure_numbers',
             [18],
             ),
+        (
+            'container_to_part',
+            abjad.OrderedDict(
+                [
+                    (
+                        'AA_FirstViolinVoiceI_A',
+                        abjad.Part('FirstViolin', (1, 10)),
+                        ),
+                    (
+                        'AA_FirstViolinVoiceI_B',
+                        abjad.Part('FirstViolin'),
+                        ),
+                    (
+                        'AA_FirstViolinVoiceII_A',
+                        abjad.Part('FirstViolin', (11, 18)),
+                        ),
+                    (
+                        'AA_SecondViolinVoiceI_A',
+                        abjad.Part('SecondViolin', (1, 10)),
+                        ),
+                    (
+                        'AA_SecondViolinVoiceI_B',
+                        abjad.Part('SecondViolin'),
+                        ),
+                    (
+                        'AA_SecondViolinVoiceII_A',
+                        abjad.Part('SecondViolin', (11, 18)),
+                        ),
+                    (
+                        'AA_ViolaVoiceI_A',
+                        abjad.Part('Viola', (1, 10)),
+                        ),
+                    (
+                        'AA_ViolaVoiceI_B',
+                        abjad.Part('Viola'),
+                        ),
+                    (
+                        'AA_ViolaVoiceII_A',
+                        abjad.Part('Viola', (11, 18)),
+                        ),
+                    (
+                        'AA_CelloVoiceI_A',
+                        abjad.Part('Cello'),
+                        ),
+                    (
+                        'AA_CelloVoiceI_B',
+                        abjad.Part('Cello'),
+                        ),
+                    ]
+                ),
+            ),
         ('duration', "0'12''"),
         ('first_measure_number', 18),
         ('last_measure_number', 23),
