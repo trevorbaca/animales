@@ -17,7 +17,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                \iaGlobalSkips
+                \iA_GlobalSkips
             >>
             \context MusicContext = "MusicContext"
             <<
@@ -32,12 +32,12 @@
                         \context Staff = "FirstViolinStaffI"
                         {
                             \context Voice = "FirstViolinVoiceI"
-                            \iaFirstViolinVoiceI
+                            \iA_FirstViolinVoiceI
                         }
                         \context Staff = "FirstViolinStaffII"
                         {
                             \context Voice = "FirstViolinVoiceII"
-                            \iaFirstViolinVoiceII
+                            \iA_FirstViolinVoiceII
                         }
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup"
@@ -49,12 +49,12 @@
                         \context Staff = "SecondViolinStaffI"
                         {
                             \context Voice = "SecondViolinVoiceI"
-                            \iaSecondViolinVoiceI
+                            \iA_SecondViolinVoiceI
                         }
                         \context Staff = "SecondViolinStaffII"
                         {
                             \context Voice = "SecondViolinVoiceII"
-                            \iaSecondViolinVoiceII
+                            \iA_SecondViolinVoiceII
                         }
                     >>
                     \context StaffGroup = "ViolaSquareStaffGroup"
@@ -66,18 +66,18 @@
                         \context Staff = "ViolaStaffI"
                         {
                             \context Voice = "ViolaVoiceI"
-                            \iaViolaVoiceI
+                            \iA_ViolaVoiceI
                         }
                         \context Staff = "ViolaStaffII"
                         {
                             \context Voice = "ViolaVoiceII"
-                            \iaViolaVoiceII
+                            \iA_ViolaVoiceII
                         }
                     >>
                     \context Staff = "CelloStaffI"
                     {
                         \context Voice = "CelloVoiceI"
-                        \iaCelloVoiceI
+                        \iA_CelloVoiceI
                     }
                 >>
             >>

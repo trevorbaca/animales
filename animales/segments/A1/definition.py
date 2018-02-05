@@ -36,48 +36,43 @@ maker(
 
 maker(
     baca.scope('FirstViolinVoiceI', 1, 2),
-    #animales.parts('FirstViolin', (1, 10)),
-    baca.container('AaFirstViolinVoiceIA'),
+    animales.parts('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
     )
 
 maker(
     baca.scope('FirstViolinVoiceII', 1, 2),
-    #animales.parts('FirstViolin', (11, 18)),
-    baca.container('BBB'),
+    animales.parts('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 1, 2),
-    #animales.parts('SecondViolin', (1, 10)),
-    baca.container('CCC'),
+    animales.parts('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
     )
 
 maker(
     baca.scope('SecondViolinVoiceII', 1, 2),
-    #animales.parts('SecondViolin', (11, 18)),
-    baca.container('DDD'),
+    animales.parts('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 1, 2),
-    #animales.parts('Viola', (1, 10)),
-    baca.container('EEE'),
+    animales.parts('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
     )
 
 maker(
     baca.scope('ViolaVoiceII', 1, 2),
-    #animales.parts('Viola', (11, 18)),
-    baca.container('FFF'),
+    animales.parts('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
     )
 
 maker(
     baca.scope('CelloVoiceI', 1, 2),
+    animales.parts('Cello'),
     animales.sforzando_exchange_rhythm(6),
     )
 
@@ -130,7 +125,6 @@ divisi = [
 
 maker(
     baca.make_scopes(divisi, [(3, 6)]),
-    baca.container('EMPTY'),
     baca.make_skips(),
     )
 
@@ -143,8 +137,7 @@ non_divisi = [
 
 maker(
     baca.scope('FirstViolinVoiceI', 3, 6),
-    #animales.parts('FirstViolin'),
-    baca.container('AaFirstViolinVoiceIB'),
+    animales.parts('FirstViolin'),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(
@@ -156,8 +149,7 @@ maker(
 
 maker(
     baca.scope('SecondViolinVoiceI', 3, 6),
-    #animales.parts('SecondViolin'),
-    baca.container('HHH'),
+    animales.parts('SecondViolin'),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(
@@ -169,8 +161,7 @@ maker(
 
 maker(
     baca.scope('ViolaVoiceI', 3, 6),
-    #animales.parts('Viola'),
-    baca.container('III'),
+    animales.parts('Viola'),
     baca.tag(
         '+SEGMENT',
         baca.margin_markup(
@@ -194,6 +185,5 @@ maker(
 
 maker(
     baca.scope('CelloVoiceI', 1, 6),
-    #animales.parts('Cello'),
-    baca.container('JJJ'),
+    animales.parts('Cello'),
     )
