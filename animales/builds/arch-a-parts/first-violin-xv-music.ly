@@ -51,8 +51,8 @@
                     \i_a_FirstViolinVoiceII_a
                     \i_b_FirstViolinVoiceII_a
                     \i_c_FirstViolinVoiceII_a
-                    \A_a_FirstViolinVoiceI_b
                     \A_a_FirstViolinVoiceII_a
+                    \A_a_FirstViolinVoiceI_b
                     \A_b_FirstViolinVoiceI_a
                     }
                 }
