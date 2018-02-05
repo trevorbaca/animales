@@ -1,3 +1,23 @@
+i_c_GlobalRests = {
+    
+    % [_3 GlobalRests measure 13]                                        %! SM4
+    R1 * 1
+    
+    % [_3 GlobalRests measure 14]                                        %! SM4
+    R1 * 1
+    
+    % [_3 GlobalRests measure 15]                                        %! SM4
+    R1 * 1
+    
+    % [_3 GlobalRests measure 16]                                        %! SM4
+    R1 * 1
+    
+    % [_3 GlobalRests measure 17]                                        %! SM4
+    R1 * 1/2
+    
+}
+
+
 i_c_GlobalSkips = {
     
     % [_3 GlobalSkips measure 13]                                        %! SM4

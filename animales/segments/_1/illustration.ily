@@ -1,3 +1,26 @@
+i_a_GlobalRests = {
+    
+    % [_1 GlobalRests measure 1]                                         %! SM4
+    R1 * 1
+    
+    % [_1 GlobalRests measure 2]                                         %! SM4
+    R1 * 1
+    
+    % [_1 GlobalRests measure 3]                                         %! SM4
+    R1 * 1
+    
+    % [_1 GlobalRests measure 4]                                         %! SM4
+    R1 * 3/4
+    
+    % [_1 GlobalRests measure 5]                                         %! SM4
+    R1 * 3/4
+    
+    % [_1 GlobalRests measure 6]                                         %! SM4
+    R1 * 1
+    
+}
+
+
 i_a_GlobalSkips = {
     
     % [_1 GlobalSkips measure 1]                                         %! SM4

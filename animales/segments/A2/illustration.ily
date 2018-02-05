@@ -1,3 +1,26 @@
+A_b_GlobalRests = {
+    
+    % [A2 GlobalRests measure 24]                                        %! SM4
+    R1 * 3/4
+    
+    % [A2 GlobalRests measure 25]                                        %! SM4
+    R1 * 1
+    
+    % [A2 GlobalRests measure 26]                                        %! SM4
+    R1 * 1
+    
+    % [A2 GlobalRests measure 27]                                        %! SM4
+    R1 * 1
+    
+    % [A2 GlobalRests measure 28]                                        %! SM4
+    R1 * 3/4
+    
+    % [A2 GlobalRests measure 29]                                        %! SM4
+    R1 * 3/4
+    
+}
+
+
 A_b_GlobalSkips = {
     
     % [A2 GlobalSkips measure 24]                                        %! SM4
