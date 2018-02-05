@@ -1,4 +1,4 @@
-iC_GlobalSkips = {
+i_c_GlobalSkips = {
     
     % [_3 GlobalSkips measure 13]                                        %! SM4
 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
@@ -268,7 +268,7 @@ iC_GlobalSkips = {
 }
 
 
-iC_FirstViolinVoiceI_A = {
+i_c_FirstViolinVoiceI_a = {
     
     % [_3 FirstViolinVoiceI measure 13]                  %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -397,12 +397,12 @@ iC_FirstViolinVoiceI_A = {
 }
 
 
-iC_FirstViolinVoiceI = {
-    \iC_FirstViolinVoiceI_A
+i_c_FirstViolinVoiceI = {
+    \i_c_FirstViolinVoiceI_a
 }
 
 
-iC_FirstViolinVoiceII_A = {
+i_c_FirstViolinVoiceII_a = {
     
     % [_3 FirstViolinVoiceII measure 13]                 %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -539,12 +539,12 @@ iC_FirstViolinVoiceII_A = {
 }
 
 
-iC_FirstViolinVoiceII = {
-    \iC_FirstViolinVoiceII_A
+i_c_FirstViolinVoiceII = {
+    \i_c_FirstViolinVoiceII_a
 }
 
 
-iC_SecondViolinVoiceI_A = {
+i_c_SecondViolinVoiceI_a = {
     
     % [_3 SecondViolinVoiceI measure 13]                 %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -678,12 +678,12 @@ iC_SecondViolinVoiceI_A = {
 }
 
 
-iC_SecondViolinVoiceI = {
-    \iC_SecondViolinVoiceI_A
+i_c_SecondViolinVoiceI = {
+    \i_c_SecondViolinVoiceI_a
 }
 
 
-iC_SecondViolinVoiceII_A = {
+i_c_SecondViolinVoiceII_a = {
     \times 2/3 {
         
         % [_3 SecondViolinVoiceII measure 13]            %! SM4
@@ -829,12 +829,12 @@ iC_SecondViolinVoiceII_A = {
 }
 
 
-iC_SecondViolinVoiceII = {
-    \iC_SecondViolinVoiceII_A
+i_c_SecondViolinVoiceII = {
+    \i_c_SecondViolinVoiceII_a
 }
 
 
-iC_ViolaVoiceI_A = {
+i_c_ViolaVoiceI_a = {
     
     % [_3 ViolaVoiceI measure 13]                        %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -965,12 +965,12 @@ iC_ViolaVoiceI_A = {
 }
 
 
-iC_ViolaVoiceI = {
-    \iC_ViolaVoiceI_A
+i_c_ViolaVoiceI = {
+    \i_c_ViolaVoiceI_a
 }
 
 
-iC_ViolaVoiceII_A = {
+i_c_ViolaVoiceII_a = {
     
     % [_3 ViolaVoiceII measure 13]                       %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -1095,12 +1095,12 @@ iC_ViolaVoiceII_A = {
 }
 
 
-iC_ViolaVoiceII = {
-    \iC_ViolaVoiceII_A
+i_c_ViolaVoiceII = {
+    \i_c_ViolaVoiceII_a
 }
 
 
-iC_CelloVoiceI_A = {
+i_c_CelloVoiceI_a = {
     
     % [_3 CelloVoiceI measure 13]                            %! SM4
     \set Staff.instrumentName = \markup {                    %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -1204,6 +1204,6 @@ iC_CelloVoiceI_A = {
 }
 
 
-iC_CelloVoiceI = {
-    \iC_CelloVoiceI_A
+i_c_CelloVoiceI = {
+    \i_c_CelloVoiceI_a
 }

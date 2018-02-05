@@ -14,12 +14,9 @@
 
 \header {
     subtitle =
-        \markup
-        \column
-        \center-align
+        \markup \column \center-align
         {
-            \override #'(font-name . "Palatino Italic")
-            \fontsize #3
+            \override #'(font-name . "Palatino Italic") \fontsize #3
             {
                 \line { first violin (1) }
                 \line { part }
@@ -27,20 +24,11 @@
         }
 }
 
-instrumentName =
-    \markup
-    \hcenter-in #12
-    \center-column
-    {
-        "Vni. I"
-        (1)
-    }
-
 
 \score {
     <<
         {
-            \include "first-violin-i-layout.ly"
+        \include "first-violin-i-layout.ly"
         }
         {
             \context Score = "Score"
@@ -49,25 +37,23 @@ instrumentName =
                 <<
                     \context GlobalSkips = "GlobalSkips"
                     {
-                        \iaGlobalSkips
-                        \ibGlobalSkips
-                        \icGlobalSkips
-                        \AaGlobalSkips
-                        \AbGlobalSkips
+                    \i_a_GlobalSkips
+                    \i_b_GlobalSkips
+                    \i_c_GlobalSkips
+                    \A_a_GlobalSkips
+                    \A_b_GlobalSkips
                     }
                 >> 
                 \context MusicContext = "MusicContext"
                 {
                     \context Staff = "Staff"
                     {
-                        \set Staff.instrumentName = \instrumentName
-                        \set Staff.shortInstrumentName = \instrumentName
-                        \iaFirstViolinVoiceIA
-                        \ibFirstViolinVoiceIA
-                        \icFirstViolinVoiceIA
-                        \AaFirstViolinVoiceIA
-                        \AaFirstViolinVoiceIB
-                        \AbFirstViolinVoiceIA
+                    \i_a_FirstViolinVoiceI_a
+                    \i_b_FirstViolinVoiceI_a
+                    \i_c_FirstViolinVoiceI_a
+                    \A_a_FirstViolinVoiceI_a
+                    \A_a_FirstViolinVoiceI_b
+                    \A_b_FirstViolinVoiceI_a
                     }
                 }
             >>

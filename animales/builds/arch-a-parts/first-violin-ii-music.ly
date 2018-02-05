@@ -12,6 +12,18 @@
 \include "_segments/segment-A1.ily"
 \include "_segments/segment-A2.ily"
 
+\header {
+    subtitle =
+        \markup \column \center-align
+        {
+            \override #'(font-name . "Palatino Italic") \fontsize #3
+            {
+                \line { first violin (2) }
+                \line { part }
+            }
+        }
+}
+
 
 \score {
     <<
@@ -19,12 +31,32 @@
         \include "first-violin-ii-layout.ly"
         }
         {
-        \iA_FirstViolinVoiceI_A
-        \iB_FirstViolinVoiceI_A
-        \iC_FirstViolinVoiceI_A
-        \AA_FirstViolinVoiceI_A
-        \AA_FirstViolinVoiceI_B
-        \AB_FirstViolinVoiceI_A
+            \context Score = "Score"
+            <<
+                \context GlobalContext = "GlobalContext"
+                <<
+                    \context GlobalSkips = "GlobalSkips"
+                    {
+                    \i_a_GlobalSkips
+                    \i_b_GlobalSkips
+                    \i_c_GlobalSkips
+                    \A_a_GlobalSkips
+                    \A_b_GlobalSkips
+                    }
+                >> 
+                \context MusicContext = "MusicContext"
+                {
+                    \context Staff = "Staff"
+                    {
+                    \i_a_FirstViolinVoiceI_a
+                    \i_b_FirstViolinVoiceI_a
+                    \i_c_FirstViolinVoiceI_a
+                    \A_a_FirstViolinVoiceI_a
+                    \A_a_FirstViolinVoiceI_b
+                    \A_b_FirstViolinVoiceI_a
+                    }
+                }
+            >>
         }
     >>
 }

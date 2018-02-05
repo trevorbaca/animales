@@ -12,19 +12,19 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
-                        'AB_FirstViolinVoiceI_A',
+                        'A_b_FirstViolinVoiceI_a',
                         abjad.Part('FirstViolin'),
                         ),
                     (
-                        'AB_SecondViolinVoiceI_A',
+                        'A_b_SecondViolinVoiceI_a',
                         abjad.Part('SecondViolin'),
                         ),
                     (
-                        'AB_ViolaVoiceI_A',
+                        'A_b_ViolaVoiceI_a',
                         abjad.Part('Viola'),
                         ),
                     (
-                        'AB_CelloVoiceI_A',
+                        'A_b_CelloVoiceI_a',
                         abjad.Part('Cello'),
                         ),
                     ]

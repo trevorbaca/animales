@@ -14,31 +14,31 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'iA_FirstViolinVoiceI_A',
+                                    'i_a_FirstViolinVoiceI_a',
                                     abjad.Part('FirstViolin', (1, 10)),
                                     ),
                                 (
-                                    'iA_FirstViolinVoiceII_A',
+                                    'i_a_FirstViolinVoiceII_a',
                                     abjad.Part('FirstViolin', (11, 18)),
                                     ),
                                 (
-                                    'iA_SecondViolinVoiceI_A',
+                                    'i_a_SecondViolinVoiceI_a',
                                     abjad.Part('SecondViolin', (1, 10)),
                                     ),
                                 (
-                                    'iA_SecondViolinVoiceII_A',
+                                    'i_a_SecondViolinVoiceII_a',
                                     abjad.Part('SecondViolin', (11, 18)),
                                     ),
                                 (
-                                    'iA_ViolaVoiceI_A',
+                                    'i_a_ViolaVoiceI_a',
                                     abjad.Part('Viola', (1, 10)),
                                     ),
                                 (
-                                    'iA_ViolaVoiceII_A',
+                                    'i_a_ViolaVoiceII_a',
                                     abjad.Part('Viola', (11, 18)),
                                     ),
                                 (
-                                    'iA_CelloVoiceI_A',
+                                    'i_a_CelloVoiceI_a',
                                     abjad.Part('Cello'),
                                     ),
                                 ]
@@ -49,31 +49,31 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'iB_FirstViolinVoiceI_A',
+                                    'i_b_FirstViolinVoiceI_a',
                                     abjad.Part('FirstViolin', (1, 10)),
                                     ),
                                 (
-                                    'iB_FirstViolinVoiceII_A',
+                                    'i_b_FirstViolinVoiceII_a',
                                     abjad.Part('FirstViolin', (11, 18)),
                                     ),
                                 (
-                                    'iB_SecondViolinVoiceI_A',
+                                    'i_b_SecondViolinVoiceI_a',
                                     abjad.Part('SecondViolin', (1, 10)),
                                     ),
                                 (
-                                    'iB_SecondViolinVoiceII_A',
+                                    'i_b_SecondViolinVoiceII_a',
                                     abjad.Part('SecondViolin', (11, 18)),
                                     ),
                                 (
-                                    'iB_ViolaVoiceI_A',
+                                    'i_b_ViolaVoiceI_a',
                                     abjad.Part('Viola', (1, 10)),
                                     ),
                                 (
-                                    'iB_ViolaVoiceII_A',
+                                    'i_b_ViolaVoiceII_a',
                                     abjad.Part('Viola', (11, 18)),
                                     ),
                                 (
-                                    'iB_CelloVoiceI_A',
+                                    'i_b_CelloVoiceI_a',
                                     abjad.Part('Cello'),
                                     ),
                                 ]
@@ -84,31 +84,31 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'iC_FirstViolinVoiceI_A',
+                                    'i_c_FirstViolinVoiceI_a',
                                     abjad.Part('FirstViolin', (1, 10)),
                                     ),
                                 (
-                                    'iC_FirstViolinVoiceII_A',
+                                    'i_c_FirstViolinVoiceII_a',
                                     abjad.Part('FirstViolin', (11, 18)),
                                     ),
                                 (
-                                    'iC_SecondViolinVoiceI_A',
+                                    'i_c_SecondViolinVoiceI_a',
                                     abjad.Part('SecondViolin', (1, 10)),
                                     ),
                                 (
-                                    'iC_SecondViolinVoiceII_A',
+                                    'i_c_SecondViolinVoiceII_a',
                                     abjad.Part('SecondViolin', (11, 18)),
                                     ),
                                 (
-                                    'iC_ViolaVoiceI_A',
+                                    'i_c_ViolaVoiceI_a',
                                     abjad.Part('Viola', (1, 10)),
                                     ),
                                 (
-                                    'iC_ViolaVoiceII_A',
+                                    'i_c_ViolaVoiceII_a',
                                     abjad.Part('Viola', (11, 18)),
                                     ),
                                 (
-                                    'iC_CelloVoiceI_A',
+                                    'i_c_CelloVoiceI_a',
                                     abjad.Part('Cello'),
                                     ),
                                 ]
@@ -119,47 +119,47 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'AA_FirstViolinVoiceI_A',
+                                    'A_a_FirstViolinVoiceI_a',
                                     abjad.Part('FirstViolin', (1, 10)),
                                     ),
                                 (
-                                    'AA_FirstViolinVoiceI_B',
+                                    'A_a_FirstViolinVoiceI_b',
                                     abjad.Part('FirstViolin'),
                                     ),
                                 (
-                                    'AA_FirstViolinVoiceII_A',
+                                    'A_a_FirstViolinVoiceII_a',
                                     abjad.Part('FirstViolin', (11, 18)),
                                     ),
                                 (
-                                    'AA_SecondViolinVoiceI_A',
+                                    'A_a_SecondViolinVoiceI_a',
                                     abjad.Part('SecondViolin', (1, 10)),
                                     ),
                                 (
-                                    'AA_SecondViolinVoiceI_B',
+                                    'A_a_SecondViolinVoiceI_b',
                                     abjad.Part('SecondViolin'),
                                     ),
                                 (
-                                    'AA_SecondViolinVoiceII_A',
+                                    'A_a_SecondViolinVoiceII_a',
                                     abjad.Part('SecondViolin', (11, 18)),
                                     ),
                                 (
-                                    'AA_ViolaVoiceI_A',
+                                    'A_a_ViolaVoiceI_a',
                                     abjad.Part('Viola', (1, 10)),
                                     ),
                                 (
-                                    'AA_ViolaVoiceI_B',
+                                    'A_a_ViolaVoiceI_b',
                                     abjad.Part('Viola'),
                                     ),
                                 (
-                                    'AA_ViolaVoiceII_A',
+                                    'A_a_ViolaVoiceII_a',
                                     abjad.Part('Viola', (11, 18)),
                                     ),
                                 (
-                                    'AA_CelloVoiceI_A',
+                                    'A_a_CelloVoiceI_a',
                                     abjad.Part('Cello'),
                                     ),
                                 (
-                                    'AA_CelloVoiceI_B',
+                                    'A_a_CelloVoiceI_b',
                                     abjad.Part('Cello'),
                                     ),
                                 ]
@@ -170,19 +170,19 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'AB_FirstViolinVoiceI_A',
+                                    'A_b_FirstViolinVoiceI_a',
                                     abjad.Part('FirstViolin'),
                                     ),
                                 (
-                                    'AB_SecondViolinVoiceI_A',
+                                    'A_b_SecondViolinVoiceI_a',
                                     abjad.Part('SecondViolin'),
                                     ),
                                 (
-                                    'AB_ViolaVoiceI_A',
+                                    'A_b_ViolaVoiceI_a',
                                     abjad.Part('Viola'),
                                     ),
                                 (
-                                    'AB_CelloVoiceI_A',
+                                    'A_b_CelloVoiceI_a',
                                     abjad.Part('Cello'),
                                     ),
                                 ]

@@ -22,7 +22,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                \AB_GlobalSkips
+                \A_b_GlobalSkips
             >>
             \context MusicContext = "MusicContext"
             <<
@@ -31,22 +31,22 @@
                     \context Staff = "FirstViolinStaffI"
                     {
                         \context Voice = "FirstViolinVoiceI"
-                        \AB_FirstViolinVoiceI
+                        \A_b_FirstViolinVoiceI
                     }
                     \context Staff = "SecondViolinStaffI"
                     {
                         \context Voice = "SecondViolinVoiceI"
-                        \AB_SecondViolinVoiceI
+                        \A_b_SecondViolinVoiceI
                     }
                     \context Staff = "ViolaStaffI"
                     {
                         \context Voice = "ViolaVoiceI"
-                        \AB_ViolaVoiceI
+                        \A_b_ViolaVoiceI
                     }
                     \context Staff = "CelloStaffI"
                     {
                         \context Voice = "CelloVoiceI"
-                        \AB_CelloVoiceI
+                        \A_b_CelloVoiceI
                     }
                 >>
             >>

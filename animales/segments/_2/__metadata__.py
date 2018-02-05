@@ -12,31 +12,31 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
-                        'iB_FirstViolinVoiceI_A',
+                        'i_b_FirstViolinVoiceI_a',
                         abjad.Part('FirstViolin', (1, 10)),
                         ),
                     (
-                        'iB_FirstViolinVoiceII_A',
+                        'i_b_FirstViolinVoiceII_a',
                         abjad.Part('FirstViolin', (11, 18)),
                         ),
                     (
-                        'iB_SecondViolinVoiceI_A',
+                        'i_b_SecondViolinVoiceI_a',
                         abjad.Part('SecondViolin', (1, 10)),
                         ),
                     (
-                        'iB_SecondViolinVoiceII_A',
+                        'i_b_SecondViolinVoiceII_a',
                         abjad.Part('SecondViolin', (11, 18)),
                         ),
                     (
-                        'iB_ViolaVoiceI_A',
+                        'i_b_ViolaVoiceI_a',
                         abjad.Part('Viola', (1, 10)),
                         ),
                     (
-                        'iB_ViolaVoiceII_A',
+                        'i_b_ViolaVoiceII_a',
                         abjad.Part('Viola', (11, 18)),
                         ),
                     (
-                        'iB_CelloVoiceI_A',
+                        'i_b_CelloVoiceI_a',
                         abjad.Part('Cello'),
                         ),
                     ]
