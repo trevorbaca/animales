@@ -1,4 +1,4 @@
-AA_GlobalSkips = {
+A_a_GlobalSkips = {
     
     % [A1 GlobalSkips measure 18]                                        %! SM4
 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
@@ -310,7 +310,7 @@ AA_GlobalSkips = {
 }
 
 
-AA_FirstViolinVoiceI_A = {
+A_a_FirstViolinVoiceI_a = {
     
     % [A1 FirstViolinVoiceI measure 18]                  %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -419,7 +419,7 @@ AA_FirstViolinVoiceI_A = {
 }
 
 
-AA_FirstViolinVoiceI_B = {
+A_a_FirstViolinVoiceI_b = {
     
     % [A1 FirstViolinVoiceI measure 20]                  %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
@@ -498,13 +498,13 @@ AA_FirstViolinVoiceI_B = {
 }
 
 
-AA_FirstViolinVoiceI = {
-    \AA_FirstViolinVoiceI_A
-    \AA_FirstViolinVoiceI_B
+A_a_FirstViolinVoiceI = {
+    \A_a_FirstViolinVoiceI_a
+    \A_a_FirstViolinVoiceI_b
 }
 
 
-AA_FirstViolinVoiceII_A = {
+A_a_FirstViolinVoiceII_a = {
     
     % [A1 FirstViolinVoiceII measure 18]                 %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -613,8 +613,8 @@ AA_FirstViolinVoiceII_A = {
 }
 
 
-AA_FirstViolinVoiceII = {
-    \AA_FirstViolinVoiceII_A
+A_a_FirstViolinVoiceII = {
+    \A_a_FirstViolinVoiceII_a
     
     % [A1 FirstViolinVoiceII measure 20]                     %! SM4
     s1 * 1
@@ -633,7 +633,7 @@ AA_FirstViolinVoiceII = {
 }
 
 
-AA_SecondViolinVoiceI_A = {
+A_a_SecondViolinVoiceI_a = {
     
     % [A1 SecondViolinVoiceI measure 18]                 %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -739,7 +739,7 @@ AA_SecondViolinVoiceI_A = {
 }
 
 
-AA_SecondViolinVoiceI_B = {
+A_a_SecondViolinVoiceI_b = {
     
     % [A1 SecondViolinVoiceI measure 20]                 %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
@@ -842,13 +842,13 @@ AA_SecondViolinVoiceI_B = {
 }
 
 
-AA_SecondViolinVoiceI = {
-    \AA_SecondViolinVoiceI_A
-    \AA_SecondViolinVoiceI_B
+A_a_SecondViolinVoiceI = {
+    \A_a_SecondViolinVoiceI_a
+    \A_a_SecondViolinVoiceI_b
 }
 
 
-AA_SecondViolinVoiceII_A = {
+A_a_SecondViolinVoiceII_a = {
     \times 2/3 {
         
         % [A1 SecondViolinVoiceII measure 18]            %! SM4
@@ -963,8 +963,8 @@ AA_SecondViolinVoiceII_A = {
 }
 
 
-AA_SecondViolinVoiceII = {
-    \AA_SecondViolinVoiceII_A
+A_a_SecondViolinVoiceII = {
+    \A_a_SecondViolinVoiceII_a
     
     % [A1 SecondViolinVoiceII measure 20]                    %! SM4
     s1 * 1
@@ -983,7 +983,7 @@ AA_SecondViolinVoiceII = {
 }
 
 
-AA_ViolaVoiceI_A = {
+A_a_ViolaVoiceI_a = {
     
     % [A1 ViolaVoiceI measure 18]                        %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -1089,7 +1089,7 @@ AA_ViolaVoiceI_A = {
 }
 
 
-AA_ViolaVoiceI_B = {
+A_a_ViolaVoiceI_b = {
     
     % [A1 ViolaVoiceI measure 20]                        %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
@@ -1170,13 +1170,13 @@ AA_ViolaVoiceI_B = {
 }
 
 
-AA_ViolaVoiceI = {
-    \AA_ViolaVoiceI_A
-    \AA_ViolaVoiceI_B
+A_a_ViolaVoiceI = {
+    \A_a_ViolaVoiceI_a
+    \A_a_ViolaVoiceI_b
 }
 
 
-AA_ViolaVoiceII_A = {
+A_a_ViolaVoiceII_a = {
     
     % [A1 ViolaVoiceII measure 18]                       %! SM4
     \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -1279,8 +1279,8 @@ AA_ViolaVoiceII_A = {
 }
 
 
-AA_ViolaVoiceII = {
-    \AA_ViolaVoiceII_A
+A_a_ViolaVoiceII = {
+    \A_a_ViolaVoiceII_a
     
     % [A1 ViolaVoiceII measure 20]                           %! SM4
     s1 * 1
@@ -1299,7 +1299,7 @@ AA_ViolaVoiceII = {
 }
 
 
-AA_CelloVoiceI_B = {
+A_a_CelloVoiceI_b = {
     
     % [A1 CelloVoiceI measure 18]                        %! SM4
     \set Staff.instrumentName = \markup {                %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -1381,8 +1381,8 @@ AA_CelloVoiceI_B = {
 }
 
 
-AA_CelloVoiceI_A = {
-    \AA_CelloVoiceI_B
+A_a_CelloVoiceI_a = {
+    \A_a_CelloVoiceI_b
     
     % [A1 CelloVoiceI measure 20]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1406,6 +1406,6 @@ AA_CelloVoiceI_A = {
 }
 
 
-AA_CelloVoiceI = {
-    \AA_CelloVoiceI_A
+A_a_CelloVoiceI = {
+    \A_a_CelloVoiceI_a
 }

@@ -1,4 +1,4 @@
-AB_GlobalSkips = {
+A_b_GlobalSkips = {
     
     % [A2 GlobalSkips measure 24]                                        %! SM4
 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
@@ -310,7 +310,7 @@ AB_GlobalSkips = {
 }
 
 
-AB_FirstViolinVoiceI_A = {
+A_b_FirstViolinVoiceI_a = {
     
     % [A2 FirstViolinVoiceI measure 24]                      %! SM4
     \set Staff.instrumentName = \markup {                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -400,12 +400,12 @@ AB_FirstViolinVoiceI_A = {
 }
 
 
-AB_FirstViolinVoiceI = {
-    \AB_FirstViolinVoiceI_A
+A_b_FirstViolinVoiceI = {
+    \A_b_FirstViolinVoiceI_a
 }
 
 
-AB_SecondViolinVoiceI_A = {
+A_b_SecondViolinVoiceI_a = {
     
     % [A2 SecondViolinVoiceI measure 24]                     %! SM4
     \set Staff.instrumentName = \markup {                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -519,12 +519,12 @@ AB_SecondViolinVoiceI_A = {
 }
 
 
-AB_SecondViolinVoiceI = {
-    \AB_SecondViolinVoiceI_A
+A_b_SecondViolinVoiceI = {
+    \A_b_SecondViolinVoiceI_a
 }
 
 
-AB_ViolaVoiceI_A = {
+A_b_ViolaVoiceI_a = {
     
     % [A2 ViolaVoiceI measure 24]                            %! SM4
     \set Staff.instrumentName = \markup {                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -616,12 +616,12 @@ AB_ViolaVoiceI_A = {
 }
 
 
-AB_ViolaVoiceI = {
-    \AB_ViolaVoiceI_A
+A_b_ViolaVoiceI = {
+    \A_b_ViolaVoiceI_a
 }
 
 
-AB_CelloVoiceI_A = {
+A_b_CelloVoiceI_a = {
     
     % [A2 CelloVoiceI measure 24]                            %! SM4
     \set Staff.instrumentName = \markup {                    %! REAPPLIED_MARGIN_MARKUP:SM8
@@ -711,6 +711,6 @@ AB_CelloVoiceI_A = {
 }
 
 
-AB_CelloVoiceI = {
-    \AB_CelloVoiceI_A
+A_b_CelloVoiceI = {
+    \A_b_CelloVoiceI_a
 }

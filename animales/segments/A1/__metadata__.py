@@ -12,47 +12,47 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
-                        'AA_FirstViolinVoiceI_A',
+                        'A_a_FirstViolinVoiceI_a',
                         abjad.Part('FirstViolin', (1, 10)),
                         ),
                     (
-                        'AA_FirstViolinVoiceI_B',
+                        'A_a_FirstViolinVoiceI_b',
                         abjad.Part('FirstViolin'),
                         ),
                     (
-                        'AA_FirstViolinVoiceII_A',
+                        'A_a_FirstViolinVoiceII_a',
                         abjad.Part('FirstViolin', (11, 18)),
                         ),
                     (
-                        'AA_SecondViolinVoiceI_A',
+                        'A_a_SecondViolinVoiceI_a',
                         abjad.Part('SecondViolin', (1, 10)),
                         ),
                     (
-                        'AA_SecondViolinVoiceI_B',
+                        'A_a_SecondViolinVoiceI_b',
                         abjad.Part('SecondViolin'),
                         ),
                     (
-                        'AA_SecondViolinVoiceII_A',
+                        'A_a_SecondViolinVoiceII_a',
                         abjad.Part('SecondViolin', (11, 18)),
                         ),
                     (
-                        'AA_ViolaVoiceI_A',
+                        'A_a_ViolaVoiceI_a',
                         abjad.Part('Viola', (1, 10)),
                         ),
                     (
-                        'AA_ViolaVoiceI_B',
+                        'A_a_ViolaVoiceI_b',
                         abjad.Part('Viola'),
                         ),
                     (
-                        'AA_ViolaVoiceII_A',
+                        'A_a_ViolaVoiceII_a',
                         abjad.Part('Viola', (11, 18)),
                         ),
                     (
-                        'AA_CelloVoiceI_A',
+                        'A_a_CelloVoiceI_a',
                         abjad.Part('Cello'),
                         ),
                     (
-                        'AA_CelloVoiceI_B',
+                        'A_a_CelloVoiceI_b',
                         abjad.Part('Cello'),
                         ),
                     ]
