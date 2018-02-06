@@ -354,6 +354,7 @@ A_b_FirstViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     c'2.
     \p_sub                                                   %! REAPPLIED_DYNAMIC:SM8
+%@% \repeatTie                                               %! LEFT_BROKEN_REPEAT_TIE %! TCC
     ^ \markup {
         \column
             {
@@ -402,23 +403,23 @@ A_b_FirstViolinVoiceI_a = {
     
     % [A2 FirstViolinVoiceI measure 25]                      %! SM4
     c'1
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 FirstViolinVoiceI measure 26]                      %! SM4
     c'1
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 FirstViolinVoiceI measure 27]                      %! SM4
     c'1
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 FirstViolinVoiceI measure 28]                      %! SM4
     c'2.
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 FirstViolinVoiceI measure 29]                      %! SM4
     c'2.
-    \repeatTie
+    \repeatTie                                               %! TCC
     
 }
 
@@ -457,6 +458,7 @@ A_b_SecondViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     c'2.
     \p_sub                                                   %! REAPPLIED_DYNAMIC:SM8
+%@% \repeatTie                                               %! LEFT_BROKEN_REPEAT_TIE %! TCC
     ^ \markup {
         \column
             {
@@ -521,23 +523,23 @@ A_b_SecondViolinVoiceI_a = {
     
     % [A2 SecondViolinVoiceI measure 25]                     %! SM4
     c'1
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 SecondViolinVoiceI measure 26]                     %! SM4
     c'1
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 SecondViolinVoiceI measure 27]                     %! SM4
     c'1
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 SecondViolinVoiceI measure 28]                     %! SM4
     c'2.
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 SecondViolinVoiceI measure 29]                     %! SM4
     c'2.
-    \repeatTie
+    \repeatTie                                               %! TCC
     
 }
 
@@ -568,6 +570,7 @@ A_b_ViolaVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     c'2.
     \p_sub                                                   %! REAPPLIED_DYNAMIC:SM8
+%@% \repeatTie                                               %! LEFT_BROKEN_REPEAT_TIE %! TCC
     ^ \markup {
         \column
             {
@@ -616,24 +619,24 @@ A_b_ViolaVoiceI_a = {
     
     % [A2 ViolaVoiceI measure 25]                            %! SM4
     c'1
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 ViolaVoiceI measure 26]                            %! SM4
     \override RepeatTie.direction = #up                      %! OC
     c'1
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 ViolaVoiceI measure 27]                            %! SM4
     c'1
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 ViolaVoiceI measure 28]                            %! SM4
     c'2.
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 ViolaVoiceI measure 29]                            %! SM4
     c'2.
-    \repeatTie
+    \repeatTie                                               %! TCC
     \revert RepeatTie.direction                              %! OC
     
 }
@@ -665,6 +668,7 @@ A_b_CelloVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     c'2.
     \p_sub                                                   %! REAPPLIED_DYNAMIC:SM8
+%@% \repeatTie                                               %! LEFT_BROKEN_REPEAT_TIE %! TCC
     ^ \markup {
         \column
             {
@@ -713,23 +717,23 @@ A_b_CelloVoiceI_a = {
     
     % [A2 CelloVoiceI measure 25]                            %! SM4
     c'1
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 CelloVoiceI measure 26]                            %! SM4
     c'1
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 CelloVoiceI measure 27]                            %! SM4
     c'1
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 CelloVoiceI measure 28]                            %! SM4
     c'2.
-    \repeatTie
+    \repeatTie                                               %! TCC
     
     % [A2 CelloVoiceI measure 29]                            %! SM4
     c'2.
-    \repeatTie
+    \repeatTie                                               %! TCC
     
 }
 
