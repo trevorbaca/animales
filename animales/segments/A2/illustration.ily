@@ -339,11 +339,11 @@ A_b_TromboneVoiceI_a = {
     \set Staff.instrumentName = \markup {                    %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
             #16                                              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
-            Trombones                                        %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
+            Trb.                                             %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
-            #10                                              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
+            #16                                              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
             Trb.                                             %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
     \set Staff.forceClef = ##t                               %! DEFAULT_CLEF:SM8
@@ -372,12 +372,12 @@ A_b_TromboneVoiceI_a = {
                                 \vcenter                     %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                     \hcenter-in              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                         #16                  %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                        Trombones            %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                                        Trb.                 %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                 \concat                      %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                     {                        %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter             %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in      %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                                #10          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                                                #16          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                                 Trb.         %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter             %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                             ]                %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
@@ -389,11 +389,11 @@ A_b_TromboneVoiceI_a = {
     \set Staff.instrumentName = \markup {                    %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
             #16                                              %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            Trombones                                        %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            Trb.                                             %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            #10                                              %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            #16                                              %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
             Trb.                                             %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
     \override Staff.InstrumentName.color = #(x11-color 'violet) %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
@@ -438,11 +438,11 @@ A_b_PercussionVoiceI = {
     \set Staff.instrumentName = \markup {                        %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
         \hcenter-in                                              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
             #16                                                  %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
-            Percussion                                           %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
+            Perc.                                                %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
         }                                                        %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {                   %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
         \hcenter-in                                              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
-            #10                                                  %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
+            #16                                                  %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
             Perc.                                                %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
         }                                                        %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
     \set Staff.forceClef = ##t                                   %! DEFAULT_CLEF:SM8
@@ -470,12 +470,12 @@ A_b_PercussionVoiceI = {
                                 \vcenter                         %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                     \hcenter-in                  %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                         #16                      %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                        Percussion               %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                                        Perc.                    %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                 \concat                          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                     {                            %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter                 %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                                #10              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                                                #16              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                                 Perc.            %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter                 %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                             ]                    %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
@@ -487,11 +487,11 @@ A_b_PercussionVoiceI = {
     \set Staff.instrumentName = \markup {                        %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         \hcenter-in                                              %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
             #16                                                  %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            Percussion                                           %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            Perc.                                                %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         }                                                        %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {                   %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         \hcenter-in                                              %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            #10                                                  %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            #16                                                  %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
             Perc.                                                %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         }                                                        %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
     \override Staff.InstrumentName.color = #(x11-color 'violet)  %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
@@ -521,11 +521,11 @@ A_b_FirstViolinVoiceI_a = {
     \set Staff.instrumentName = \markup {                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
             #16                                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-            Violins                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            Vni.                                             %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
             Vni.                                             %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
@@ -556,12 +556,12 @@ A_b_FirstViolinVoiceI_a = {
                                 \vcenter                     %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                     \hcenter-in              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                         #16                  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        Violins              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        Vni.                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                 \concat                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                     {                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter             %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                #10          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                #16          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                                 Vni.         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter             %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             ]                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
@@ -573,11 +573,11 @@ A_b_FirstViolinVoiceI_a = {
     \set Staff.instrumentName = \markup {                    %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
             #16                                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            Violins                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            Vni.                                             %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
             Vni.                                             %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
@@ -619,13 +619,13 @@ A_b_SecondViolinVoiceI_a = {
             #16                                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
             \center-column                                   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                 {                                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-                    Violins                                  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    Vni.                                     %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                     II                                       %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                 }                                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
             \center-column                                   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                 {                                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                     Vni.                                     %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -662,14 +662,14 @@ A_b_SecondViolinVoiceI_a = {
                                         #16                  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                         \center-column       %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                Violins      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                Vni.         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                                 II           %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             }                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                 \concat                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                     {                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter             %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                #10          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                #16          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                                 \center-column %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                                     {        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                                         Vni. %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
@@ -687,13 +687,13 @@ A_b_SecondViolinVoiceI_a = {
             #16                                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
             \center-column                                   %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                 {                                            %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-                    Violins                                  %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    Vni.                                     %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                     II                                       %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                 }                                            %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
             \center-column                                   %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                 {                                            %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                     Vni.                                     %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
@@ -737,11 +737,11 @@ A_b_ViolaVoiceI_a = {
     \set Staff.instrumentName = \markup {                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
             #16                                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-            Violas                                           %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            Vle.                                             %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
             Vle.                                             %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
@@ -772,12 +772,12 @@ A_b_ViolaVoiceI_a = {
                                 \vcenter                     %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                     \hcenter-in              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                         #16                  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        Violas               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        Vle.                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                 \concat                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                     {                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter             %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                #10          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                #16          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                                 Vle.         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter             %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             ]                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
@@ -789,11 +789,11 @@ A_b_ViolaVoiceI_a = {
     \set Staff.instrumentName = \markup {                    %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
             #16                                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            Violas                                           %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            Vle.                                             %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
             Vle.                                             %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
@@ -839,7 +839,7 @@ A_b_CelloVoiceI_a = {
         }                                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                              %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
             Vc.                                              %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
@@ -875,7 +875,7 @@ A_b_CelloVoiceI_a = {
                                     {                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter             %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in      %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                #10          %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                #16          %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                                 Vc.          %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter             %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                                             ]                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
@@ -891,7 +891,7 @@ A_b_CelloVoiceI_a = {
         }                                                    %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                              %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
             Vc.                                              %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
@@ -931,11 +931,11 @@ A_b_ContrabassVoiceI = {
     \set Staff.instrumentName = \markup {                        %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
         \hcenter-in                                              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
             #16                                                  %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
-            Contrabasses                                         %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
+            Cb.                                                  %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
         }                                                        %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {                   %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
         \hcenter-in                                              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
-            #10                                                  %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
+            #16                                                  %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
             Cb.                                                  %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
         }                                                        %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
     \set Staff.forceClef = ##t                                   %! DEFAULT_CLEF:SM8
@@ -963,12 +963,12 @@ A_b_ContrabassVoiceI = {
                                 \vcenter                         %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                     \hcenter-in                  %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                         #16                      %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                        Contrabasses             %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                                        Cb.                      %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                 \concat                          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                     {                            %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter                 %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                                #10              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                                                #16              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                                 Cb.              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter                 %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                             ]                    %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
@@ -980,11 +980,11 @@ A_b_ContrabassVoiceI = {
     \set Staff.instrumentName = \markup {                        %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         \hcenter-in                                              %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
             #16                                                  %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            Contrabasses                                         %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            Cb.                                                  %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         }                                                        %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {                   %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         \hcenter-in                                              %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            #10                                                  %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            #16                                                  %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
             Cb.                                                  %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         }                                                        %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
     \override Staff.InstrumentName.color = #(x11-color 'violet)  %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6

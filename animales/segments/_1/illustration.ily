@@ -347,7 +347,7 @@ i_a_FirstViolinVoiceI_a = {
         }                                                %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
         \hcenter-in                                      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-            #10                                          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
             \center-column                               %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
                 {                                        %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
                     Vni.                                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
@@ -395,7 +395,7 @@ i_a_FirstViolinVoiceI_a = {
                                     {                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                #10      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                #16      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                 \center-column %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                     {    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                         Vni. %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
@@ -422,7 +422,7 @@ i_a_FirstViolinVoiceI_a = {
         }                                                %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
         \hcenter-in                                      %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-            #10                                          %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
             \center-column                               %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                 {                                        %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                     Vni.                                 %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
@@ -486,7 +486,7 @@ i_a_FirstViolinVoiceII_a = {
         }                                                %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
         \hcenter-in                                      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-            #10                                          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
             \center-column                               %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
                 {                                        %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
                     Vni.                                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
@@ -533,7 +533,7 @@ i_a_FirstViolinVoiceII_a = {
                                     {                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                #10      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                #16      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                 \center-column %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                     {    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                         Vni. %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
@@ -560,7 +560,7 @@ i_a_FirstViolinVoiceII_a = {
         }                                                %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
         \hcenter-in                                      %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-            #10                                          %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
             \center-column                               %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                 {                                        %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                     Vni.                                 %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
@@ -638,7 +638,7 @@ i_a_SecondViolinVoiceI_a = {
         }                                                %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
         \hcenter-in                                      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-            #10                                          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
             \center-column                               %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
                 {                                        %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
                     Vni.                                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
@@ -685,7 +685,7 @@ i_a_SecondViolinVoiceI_a = {
                                     {                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                #10      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                #16      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                 \center-column %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                     {    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                         Vni. %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
@@ -712,7 +712,7 @@ i_a_SecondViolinVoiceI_a = {
         }                                                %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
         \hcenter-in                                      %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-            #10                                          %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
             \center-column                               %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                 {                                        %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                     Vni.                                 %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
@@ -789,7 +789,7 @@ i_a_SecondViolinVoiceII_a = {
         }                                                %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
         \hcenter-in                                      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-            #10                                          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
             \center-column                               %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
                 {                                        %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
                     Vni.                                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
@@ -836,7 +836,7 @@ i_a_SecondViolinVoiceII_a = {
                                     {                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                #10      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                #16      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                 \center-column %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                     {    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                         Vni. %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
@@ -863,7 +863,7 @@ i_a_SecondViolinVoiceII_a = {
         }                                                %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
         \hcenter-in                                      %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-            #10                                          %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
             \center-column                               %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                 {                                        %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                     Vni.                                 %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
@@ -946,7 +946,7 @@ i_a_ViolaVoiceI_a = {
         }                                                %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
         \hcenter-in                                      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-            #10                                          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
             \center-column                               %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
                 {                                        %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
                     Vle.                                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
@@ -991,7 +991,7 @@ i_a_ViolaVoiceI_a = {
                                     {                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                #10      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                #16      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                 \center-column %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                     {    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                         Vle. %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
@@ -1016,7 +1016,7 @@ i_a_ViolaVoiceI_a = {
         }                                                %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
         \hcenter-in                                      %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-            #10                                          %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
             \center-column                               %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                 {                                        %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                     Vle.                                 %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
@@ -1086,7 +1086,7 @@ i_a_ViolaVoiceII_a = {
         }                                                %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
         \hcenter-in                                      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
-            #10                                          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
             \center-column                               %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
                 {                                        %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
                     Vle.                                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP:SM8
@@ -1131,7 +1131,7 @@ i_a_ViolaVoiceII_a = {
                                     {                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                #10      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                                                #16      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                 \center-column %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                     {    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                                                         Vle. %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
@@ -1156,7 +1156,7 @@ i_a_ViolaVoiceII_a = {
         }                                                %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
         \hcenter-in                                      %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-            #10                                          %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
             \center-column                               %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                 {                                        %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                     Vle.                                 %! +SCORE:+SEGMENT:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
@@ -1213,7 +1213,7 @@ i_a_CelloVoiceI_a = {
         }                                                    %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
-            #10                                              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
+            #16                                              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
             Vc.                                              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #4                %! OC
@@ -1250,7 +1250,7 @@ i_a_CelloVoiceI_a = {
                                     {                        %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter             %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                             \hcenter-in      %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                                #10          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                                                #16          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                                 Vc.          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                         \vcenter             %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                                             ]                %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
@@ -1267,7 +1267,7 @@ i_a_CelloVoiceI_a = {
         }                                                    %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         \hcenter-in                                          %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            #10                                              %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            #16                                              %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
             Vc.                                              %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
     \override Staff.InstrumentName.color = #(x11-color 'violet) %! +SCORE:+SEGMENT:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
