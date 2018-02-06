@@ -146,6 +146,7 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='CelloVoiceI',
+                                document='+SEGMENT',
                                 prototype='abjad.MarginMarkup',
                                 value='Vc.',
                                 ),

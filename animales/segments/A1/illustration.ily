@@ -1325,22 +1325,22 @@ A_a_ViolaVoiceII = {
 A_a_CelloVoiceI_b = {
     
     % [A1 CelloVoiceI measure 18]                        %! SM4
-    \set Staff.instrumentName = \markup {                %! REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                      %! REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                          %! REAPPLIED_MARGIN_MARKUP:SM8
-            Cellos                                       %! REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                %! REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {           %! REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                      %! REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                          %! REAPPLIED_MARGIN_MARKUP:SM8
-            Vc.                                          %! REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                %! REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.instrumentName = \markup {                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            Cellos                                       %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #10                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            Vc.                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #4            %! OC
     \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \clef "tenor"                                        %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
     df'1
@@ -1354,43 +1354,43 @@ A_a_CelloVoiceI_b = {
                             #(x11-color 'green4)         %! REAPPLIED_INSTRUMENT_ALERT:SM11
                             (“Cello”)                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
                     }                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                \line                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    {                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                        \with-color                      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            #(x11-color 'green4)         %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            {                            %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                 %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    [“Vc.”               %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                 %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    \hcenter-in          %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        #16              %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        Cellos           %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \concat                  %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    {                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter         %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            \hcenter-in  %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                #10      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                Vc.      %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter         %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            ]            %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    }                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            }                            %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    }                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                \line                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    {                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                        \with-color                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            #(x11-color 'green4)         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            {                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \vcenter                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    [“Vc.”               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \vcenter                 %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    \hcenter-in          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        #16              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        Cellos           %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \concat                  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    {                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \vcenter         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            \hcenter-in  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                #10      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                Vc.      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \vcenter         %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            ]            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    }                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            }                            %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    }                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
             }
         }
     \startTrillSpan ef'                                  %! SC
-    \set Staff.instrumentName = \markup {                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            Cellos                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            Vc.                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.instrumentName = \markup {                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            Cellos                                       %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #10                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            Vc.                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     
     % [A1 CelloVoiceI measure 19]                        %! SM4
     df'4.
