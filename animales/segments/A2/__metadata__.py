@@ -113,7 +113,7 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='CelloVoiceI',
-                                document='+SEGMENT',
+                                document='+SCORE:+SEGMENT',
                                 prototype='abjad.MarginMarkup',
                                 value='Vc.',
                                 ),
@@ -144,7 +144,7 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='ContrabassVoiceI',
-                                document='+SEGMENT',
+                                document='+SCORE:+SEGMENT',
                                 prototype='abjad.MarginMarkup',
                                 value='Cb.',
                                 ),
@@ -196,7 +196,7 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='PercussionVoiceI',
-                                document='+SEGMENT',
+                                document='+SCORE:+SEGMENT',
                                 prototype='abjad.MarginMarkup',
                                 value='Perc.',
                                 ),
@@ -263,7 +263,7 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='TromboneVoiceI',
-                                document='+SEGMENT',
+                                document='+SCORE:+SEGMENT',
                                 prototype='abjad.MarginMarkup',
                                 value='Trb.',
                                 ),
