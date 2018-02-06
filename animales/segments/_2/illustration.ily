@@ -1181,22 +1181,22 @@ i_b_ViolaVoiceII = {
 i_b_CelloVoiceI_a = {
     
     % [_2 CelloVoiceI measure 7]                             %! SM4
-    \set Staff.instrumentName = \markup {                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-            Cellos                                           %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-            Vc.                                              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! +SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.instrumentName = \markup {                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                          %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                              %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            Cellos                                           %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {               %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                          %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #10                                              %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            Vc.                                              %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #4                %! OC
     \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \clef "tenor"                                            %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                            %! SC
     gf'4.
@@ -1210,43 +1210,43 @@ i_b_CelloVoiceI_a = {
                             #(x11-color 'green4)             %! REAPPLIED_INSTRUMENT_ALERT:SM11
                             (“Cello”)                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
                     }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
-                \line                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    {                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                        \with-color                          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            #(x11-color 'green4)             %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            {                                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                     %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    [“Vc.”                   %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                     %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    \hcenter-in              %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        #16                  %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        Cellos               %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                \concat                      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    {                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter             %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            \hcenter-in      %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                #10          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                                Vc.          %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter             %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                            ]                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                                    }                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            }                                %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    }                                        %! +SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                \line                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    {                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                        \with-color                          %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            #(x11-color 'green4)             %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            {                                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \vcenter                     %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    [“Vc.”                   %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \vcenter                     %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    \hcenter-in              %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        #16                  %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        Cellos               %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                \concat                      %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    {                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \vcenter             %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            \hcenter-in      %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                #10          %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                                Vc.          %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                        \vcenter             %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                            ]                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                                    }                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            }                                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    }                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
             }
         }
     \startTrillSpan af'                                      %! SC
-    \set Staff.instrumentName = \markup {                    %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            Cellos                                           %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {               %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #10                                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            Vc.                                              %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                    %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.instrumentName = \markup {                    %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                          %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                              %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            Cellos                                           %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                    %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {               %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                          %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #10                                              %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            Vc.                                              %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                    %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! +SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     
     gf'8
     -\accent                                                 %! IC
