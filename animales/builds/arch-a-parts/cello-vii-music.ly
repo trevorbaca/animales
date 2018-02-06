@@ -1,4 +1,4 @@
-% Animales desconocidos (2018) cello vii part
+% Animales desconocidos (2018) cello 7 part
 % part_abbreviation = 'VC_7'
 
 \version "2.19.81"
@@ -6,6 +6,23 @@
 
 #(ly:set-option 'relative-includes #t)
 \include "stylesheet.ily"
+\include "_segments/segment--1.ily"
+\include "_segments/segment--2.ily"
+\include "_segments/segment--3.ily"
+\include "_segments/segment-A1.ily"
+\include "_segments/segment-A2.ily"
+
+\header {
+    subtitle =
+        \markup \column \center-align
+        {
+            \override #'(font-name . "Palatino Italic") \fontsize #3
+            {
+                \line { cello (7) }
+                \line { part }
+            }
+        }
+}
 
 
 \score {
@@ -13,13 +30,33 @@
         {
         \include "cello-vii-layout.ly"
         }
-        \keepWithTag CelloVII 
         {
-        \include "_segments/segment--1.ly"
-        \include "_segments/segment--2.ly"
-        \include "_segments/segment--3.ly"
-        \include "_segments/segment-A1.ly"
-        \include "_segments/segment-A2.ly"
+            \context Score = "Score"
+            <<
+                \context GlobalContext = "GlobalContext"
+                <<
+                    \context GlobalSkips = "GlobalSkips"
+                    {
+                    \i_a_GlobalSkips
+                    \i_b_GlobalSkips
+                    \i_c_GlobalSkips
+                    \A_a_GlobalSkips
+                    \A_b_GlobalSkips
+                    }
+                >>
+                \context MusicContext = "MusicContext"
+                {
+                    \context Staff = "Staff"
+                    {
+                    \i_a_CelloVoiceI_a
+                    \i_b_CelloVoiceI_a
+                    \i_c_CelloVoiceI_a
+                    \A_a_CelloVoiceI_b
+                    \A_a_CelloVoiceI_a
+                    \A_b_CelloVoiceI_a
+                    }
+                }
+            >>
         }
     >>
 }

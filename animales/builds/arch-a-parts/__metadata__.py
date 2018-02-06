@@ -4,7 +4,7 @@ import abjad
 metadata = abjad.OrderedDict(
     [
         (
-            'ARCH_A_PARTS_VN_1_10_VN_1_10',
+            'ARCH_A_PARTS_BCL',
             abjad.OrderedDict(
                 [
                     (
@@ -15,7 +15,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_11_VN_1_11',
+            'ARCH_A_PARTS_BSN_1',
             abjad.OrderedDict(
                 [
                     (
@@ -26,7 +26,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_12_VN_1_12',
+            'ARCH_A_PARTS_BSN_2',
             abjad.OrderedDict(
                 [
                     (
@@ -37,7 +37,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_13_VN_1_13',
+            'ARCH_A_PARTS_CB_1',
             abjad.OrderedDict(
                 [
                     (
@@ -48,7 +48,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_14_VN_1_14',
+            'ARCH_A_PARTS_CB_2',
             abjad.OrderedDict(
                 [
                     (
@@ -59,7 +59,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_15_VN_1_15',
+            'ARCH_A_PARTS_CB_3',
             abjad.OrderedDict(
                 [
                     (
@@ -70,7 +70,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_16_VN_1_16',
+            'ARCH_A_PARTS_CB_4',
             abjad.OrderedDict(
                 [
                     (
@@ -81,7 +81,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_17_VN_1_17',
+            'ARCH_A_PARTS_CB_5',
             abjad.OrderedDict(
                 [
                     (
@@ -92,7 +92,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_18_VN_1_18',
+            'ARCH_A_PARTS_CB_6',
             abjad.OrderedDict(
                 [
                     (
@@ -103,7 +103,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_1_VN_1_1',
+            'ARCH_A_PARTS_CL_1',
             abjad.OrderedDict(
                 [
                     (
@@ -114,7 +114,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_2_VN_1_2',
+            'ARCH_A_PARTS_CL_2',
             abjad.OrderedDict(
                 [
                     (
@@ -125,7 +125,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_3_VN_1_3',
+            'ARCH_A_PARTS_CL_3',
             abjad.OrderedDict(
                 [
                     (
@@ -136,7 +136,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_4_VN_1_4',
+            'ARCH_A_PARTS_EH',
             abjad.OrderedDict(
                 [
                     (
@@ -147,7 +147,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_5_VN_1_5',
+            'ARCH_A_PARTS_FL_1',
             abjad.OrderedDict(
                 [
                     (
@@ -158,7 +158,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_6_VN_1_6',
+            'ARCH_A_PARTS_FL_2',
             abjad.OrderedDict(
                 [
                     (
@@ -169,7 +169,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_7_VN_1_7',
+            'ARCH_A_PARTS_FL_3',
             abjad.OrderedDict(
                 [
                     (
@@ -180,7 +180,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_8_VN_1_8',
+            'ARCH_A_PARTS_HN_1',
             abjad.OrderedDict(
                 [
                     (
@@ -191,7 +191,986 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         (
-            'ARCH_A_PARTS_VN_1_9_VN_1_9',
+            'ARCH_A_PARTS_HN_2',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_HN_3',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_HN_4',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_HP',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_OB_1',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_OB_2',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_OB_3',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_PERC_1',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_PERC_2',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_PERC_3',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_PERC_4',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_PF',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_PICC',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_TBN_1',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_TBN_2',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_TBN_3',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_TBN_4',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_TP_1',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_TP_2',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_TP_3',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_TP_4',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_TUB',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_1',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_10',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_11',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_12',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_13',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_14',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_15',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_16',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_17',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_18',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_2',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_3',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_4',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_5',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_6',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_7',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_8',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VA_9',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VC_1',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VC_10',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VC_11',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VC_12',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VC_13',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VC_14',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VC_2',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VC_3',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VC_4',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VC_5',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VC_6',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VC_7',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VC_8',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VC_9',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_1',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_10',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_11',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_12',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_13',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_14',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_15',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_16',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_17',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_18',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_2',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_3',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_4',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_5',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_6',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_7',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_8',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_1_9',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_1',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_10',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_11',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_12',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_13',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_14',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_15',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_16',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_17',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_18',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_2',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_3',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_4',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_5',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_6',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_7',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_8',
+            abjad.OrderedDict(
+                [
+                    (
+                        'bol_measure_numbers',
+                        [1, 7, 13, 18, 24],
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'ARCH_A_PARTS_VN_2_9',
             abjad.OrderedDict(
                 [
                     (
