@@ -29,6 +29,10 @@
             \context MusicContext = "MusicContext"
             <<
                 \context StaffGroup = "BrassStaffGroup"
+                \with
+                {
+                    alignAboveContext = #"FirstViolinStaffI"
+                }
                 <<
                     \context Staff = "TromboneStaffI"
                     {
@@ -37,6 +41,10 @@
                     }
                 >>
                 \context StaffGroup = "PercussionStaffGroup"
+                \with
+                {
+                    alignAboveContext = #"FirstViolinStaffI"
+                }
                 <<
                     \context Staff = "PercussionStaffI"
                     {
