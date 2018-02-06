@@ -35,7 +35,7 @@ maker(
     animales.parts('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
     baca.tag(
-        '+SEGMENT',
+        ['+SEGMENT', '+SCORE'],
         baca.margin_markup(animales.margin_markup['Vni. I (1-10)']),
         ),
     )
@@ -45,7 +45,7 @@ maker(
     animales.parts('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
     baca.tag(
-        '+SEGMENT',
+        ['+SEGMENT', '+SCORE'],
         baca.margin_markup(animales.margin_markup['Vni. I (11-18)']),
         ),
     )
@@ -55,7 +55,7 @@ maker(
     animales.parts('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
     baca.tag(
-        '+SEGMENT',
+        ['+SEGMENT', '+SCORE'],
         baca.margin_markup(animales.margin_markup['Vni. II (1-10)']),
         ),
     )
@@ -65,7 +65,7 @@ maker(
     animales.parts('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
     baca.tag(
-        '+SEGMENT',
+        ['+SEGMENT', '+SCORE'],
         baca.margin_markup(animales.margin_markup['Vni. II (11-18)']),
         ),
     )
@@ -75,7 +75,7 @@ maker(
     animales.parts('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
     baca.tag(
-        '+SEGMENT',
+        ['+SEGMENT', '+SCORE'],
         baca.margin_markup(animales.margin_markup['Vle. (1-10)']),
         ),
     )
@@ -85,7 +85,7 @@ maker(
     animales.parts('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
     baca.tag(
-        '+SEGMENT',
+        ['+SEGMENT', '+SCORE'],
         baca.margin_markup(animales.margin_markup['Vle. (11-18)']),
         ),
     )
