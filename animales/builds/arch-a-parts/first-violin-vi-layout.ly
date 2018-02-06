@@ -1,9 +1,12 @@
+% measure_count = 29
+
+
 \context Score = "Score"
 <<
     \context GlobalContext = "GlobalContext"
     <<
         \context PageLayout = "PageLayout"
-        {   %*% _PageLayout
+        {   %*% PageLayout
             
             % [PageLayout measure 1]                                                     %! SM4
             \newSpacingSection                                                           %! SPACING:HSS1
@@ -804,6 +807,6 @@
                     }
                 }
             
-        }   %*% _PageLayout
+        }   %*% PageLayout
     >>
 >>
