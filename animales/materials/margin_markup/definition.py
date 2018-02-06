@@ -2,212 +2,137 @@ import abjad
 import baca
 
 
+def _make_margin_markup(short_markup, markup=None):
+    if markup is None:
+        markup = short_markup
+    return abjad.MarginMarkup(
+        markup=baca.markup.instrument(markup, hcenter_in=16),
+        short_markup=baca.markup.short_instrument(short_markup, hcenter_in=16),
+        )
+
 margin_markup = abjad.OrderedDict([
     (
         'B. cl.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Bass clarinet'),
-            short_markup=baca.markup.short_instrument('B. cl.'),
-            )
+        _make_margin_markup('B. cl.'),
         ),
     (
         'Bsn.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Bassoons'),
-            short_markup=baca.markup.short_instrument('Bsn.'),
-            )
+        _make_margin_markup('Bsn.'),
         ),
     (
+        # first page
         'Vc.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Cellos'),
-            short_markup=baca.markup.short_instrument('Vc.'),
-            )
+        _make_margin_markup('Vc.', 'Cellos'),
         ),
     (
         'Vc. (1-8)',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Cellos (1-8)'),
-            short_markup=baca.markup.short_instrument('Vc. (1-8)'),
-            )
+        _make_margin_markup('Vc. (1-8)'),
         ),
     (
         'Vc. (9-14)',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Cellos (9-14)'),
-            short_markup=baca.markup.short_instrument('Vc. (9-14)'),
-            )
+        _make_margin_markup('Vc. (9-14)'),
         ),
     (
         'Cl.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Clarinets'),
-            short_markup=baca.markup.short_instrument('Cl.'),
-            )
+        _make_margin_markup('Cl.'),
         ),
     (
         'Cb.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Contrabasses'),
-            short_markup=baca.markup.short_instrument('Cb.'),
-            )
+        _make_margin_markup('Cb.'),
         ),
     (
         'Eng. hn.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('English horn'),
-            short_markup=baca.markup.short_instrument('Eng. hn.'),
-            )
+        _make_margin_markup('Eng. hn.'),
         ),
     (
         'Fl.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Flutes'),
-            short_markup=baca.markup.short_instrument('Fl.'),
-            )
+        _make_margin_markup('Fl.'),
         ),
     (
         'Hp.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Harp'),
-            short_markup=baca.markup.short_instrument('Hp.'),
-            ),
+        _make_margin_markup('Hp.'),
         ),
     (
         'Hn.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Horns'),
-            short_markup=baca.markup.short_instrument('Hn.'),
-            )
+        _make_margin_markup('Hn.'),
         ),
     (
         'Ob.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Oboes'),
-            short_markup=baca.markup.short_instrument('Ob.'),
-            )
+        _make_margin_markup('Ob.'),
         ),
     (
         'Perc.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Percussion'),
-            short_markup=baca.markup.short_instrument('Perc.'),
-            )
+        _make_margin_markup('Perc.'),
         ),
     (
         'Pf.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Piano'),
-            short_markup=baca.markup.short_instrument('Pf.'),
-            ),
+        _make_margin_markup('Pf.'),
         ),
     (
         'Picc.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Piccolo'),
-            short_markup=baca.markup.short_instrument('Picc.'),
-            )
+        _make_margin_markup('Picc.'),
         ),
     (
         'Trb.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Trombones'),
-            short_markup=baca.markup.short_instrument('Trb.'),
-            )
+        _make_margin_markup('Trb.'),
         ),
     (
         'Tp.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Trumpets'),
-            short_markup=baca.markup.short_instrument('Tp.'),
-            )
+        _make_margin_markup('Tp.'),
         ),
     (
         'Tub.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Tuba'),
-            short_markup=baca.markup.short_instrument('Tub.'),
-            )
+        _make_margin_markup('Tub.'),
         ),
     (
         'Vle.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Violas'),
-            short_markup=baca.markup.short_instrument('Vle.'),
-            )
+        _make_margin_markup('Vle.'),
         ),
     (
+        # first page
         'Vle. (1-10)',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Violas (1-10)'),
-            short_markup=baca.markup.short_instrument('Vle. (1-10)'),
-            )
+        _make_margin_markup('Vle. (1-10)', 'Violas (1-10)')
         ),
     (
+        # first page
         'Vle. (11-18)',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Violas (11-18)'),
-            short_markup=baca.markup.short_instrument('Vle. (11-18)'),
-            )
+        _make_margin_markup('Vle. (11-18)', 'Violas (11-18)'),
         ),
     (
         'Vni.',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Violins'),
-            short_markup=baca.markup.short_instrument('Vni.'),
-            )
+        _make_margin_markup('Vni.'),
         ),
     (
         'Vni. I',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Violins I'),
-            short_markup=baca.markup.short_instrument('Vni. I'),
-            )
+        _make_margin_markup('Vni. I'),
         ),
     (
+        # first page
         'Vni. I (1-10)',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Violins I (1-10)'),
-            short_markup=baca.markup.short_instrument('Vni. I (1-10)'),
-            )
+        _make_margin_markup('Vni. I (1-10)', 'Violins I (1-10)'),
         ),
     (
+        # first page
         'Vni. I (11-18)',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Violins I (11-18)'),
-            short_markup=baca.markup.short_instrument('Vni. I (11-18)'),
-            )
+        _make_margin_markup('Vni. I (11-18)', 'Violins I (11-18)'),
         ),
     (
         'Vni. II',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Violins II'),
-            short_markup=baca.markup.short_instrument('Vni. II'),
-            )
+        _make_margin_markup('Vni. II'),
         ),
     (
+        # first page
         'Vni. II (1-10)',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Violins II (1-10)'),
-            short_markup=baca.markup.short_instrument('Vni. II (1-10)'),
-            )
+        _make_margin_markup('Vni. II (1-10)', 'Violins II (1-10)'),
         ),
     (
+        # first page
         'Vni. II (11-18)',
-        abjad.MarginMarkup(
-            markup=baca.markup.instrument('Violins II (11-18)'),
-            short_markup=baca.markup.short_instrument('Vni. II (11-18)'),
-            )
+        _make_margin_markup('Vni. II (11-18)', 'Violins II (11-18)'),
         ),
     ])
 
 for i in range(1, 18 + 1):
     key = f'Vni. I ({i})'
-    value = abjad.MarginMarkup(
-        markup=baca.markup.instrument(['Violins I', f'({i})']),
-        short_markup=baca.markup.short_instrument(
-            ['Vni. I', f'({i})'],
-            hcenter_in=16,
-            ),
-        )
+    value = _make_margin_markup(['Vni. I', f'({i})']),
     margin_markup[key] = value
