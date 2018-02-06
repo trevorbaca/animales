@@ -3,7 +3,7 @@
     \context GlobalContext = "GlobalContext"
     <<
         \context PageLayout = "PageLayout"
-        {   %*% _PageLayout
+        {   %*% PageLayout
             
             % [PageLayout measure 1]                                                     %! SM4
             \newSpacingSection                                                           %! SPACING:HSS1
@@ -644,8 +644,8 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! SPACING:HSS1
             \noBreak                                                                     %! BREAK:BMM2
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! BREAK:IC
-            #'((Y-offset . 170) (alignment-distances . (6)))                             %! BREAK:IC
-            \break                                                                       %! BREAK:IC
+            #'((Y-offset . 0) (alignment-distances . (6)))                               %! BREAK:IC
+            \pageBreak                                                                   %! BREAK:IC
             s1 * 3/4
             ^ \markup {
                 \column
@@ -804,6 +804,6 @@
                     }
                 }
             
-        }   %*% _PageLayout
+        }   %*% PageLayout
     >>
 >>

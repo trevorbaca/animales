@@ -12,6 +12,35 @@
 \include "_segments/segment-A1.ily"
 \include "_segments/segment-A2.ily"
 
+\paper {
+    evenFooterMarkup =
+        \markup
+        \on-the-fly #print-page-number-check-first
+        \fill-line {
+            " "
+            \bold
+            \fontsize #3
+            \override #'(font-name . "Palatino")
+            \line {
+                \override #'(font-name . "Palatino Italic")
+                { Animales desconocidos }
+                \hspace #1.5
+                —
+                \hspace #1.5
+                \on-the-fly #print-page-number-check-first
+                \fromproperty #'page:page-number-string
+                \hspace #1.5
+                —
+                \hspace #1.5
+                \override #'(font-name . "Palatino Italic")
+                { first violin 8 part }
+                \hspace #1.5
+            }
+            " "
+        }
+    oddFooterMarkup = \evenFooterMarkup
+}
+
 \header {
     subtitle =
         \markup \column \center-align
