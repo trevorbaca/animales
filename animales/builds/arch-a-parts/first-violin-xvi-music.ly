@@ -1,4 +1,4 @@
-% Animales desconocidos (2018) first violin xvi part
+% Animales desconocidos (2018) first violin 16 part
 % part_abbreviation = 'VN_1_16'
 
 \version "2.19.81"
@@ -43,7 +43,7 @@
                     \A_a_GlobalSkips
                     \A_b_GlobalSkips
                     }
-                >> 
+                >>
                 \context MusicContext = "MusicContext"
                 {
                     \context Staff = "Staff"

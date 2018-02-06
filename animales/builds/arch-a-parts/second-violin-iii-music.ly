@@ -1,4 +1,4 @@
-% Animales desconocidos (2018) second violin iii part
+% Animales desconocidos (2018) second violin 3 part
 % part_abbreviation = 'VN_2_3'
 
 \version "2.19.81"
@@ -6,6 +6,23 @@
 
 #(ly:set-option 'relative-includes #t)
 \include "stylesheet.ily"
+\include "_segments/segment--1.ily"
+\include "_segments/segment--2.ily"
+\include "_segments/segment--3.ily"
+\include "_segments/segment-A1.ily"
+\include "_segments/segment-A2.ily"
+
+\header {
+    subtitle =
+        \markup \column \center-align
+        {
+            \override #'(font-name . "Palatino Italic") \fontsize #3
+            {
+                \line { second violin (3) }
+                \line { part }
+            }
+        }
+}
 
 
 \score {
@@ -13,13 +30,33 @@
         {
         \include "second-violin-iii-layout.ly"
         }
-        \keepWithTag SecondViolinIII 
         {
-        \include "_segments/segment--1.ly"
-        \include "_segments/segment--2.ly"
-        \include "_segments/segment--3.ly"
-        \include "_segments/segment-A1.ly"
-        \include "_segments/segment-A2.ly"
+            \context Score = "Score"
+            <<
+                \context GlobalContext = "GlobalContext"
+                <<
+                    \context GlobalSkips = "GlobalSkips"
+                    {
+                    \i_a_GlobalSkips
+                    \i_b_GlobalSkips
+                    \i_c_GlobalSkips
+                    \A_a_GlobalSkips
+                    \A_b_GlobalSkips
+                    }
+                >>
+                \context MusicContext = "MusicContext"
+                {
+                    \context Staff = "Staff"
+                    {
+                    \i_a_SecondViolinVoiceI_a
+                    \i_b_SecondViolinVoiceI_a
+                    \i_c_SecondViolinVoiceI_a
+                    \A_a_SecondViolinVoiceI_a
+                    \A_a_SecondViolinVoiceI_b
+                    \A_b_SecondViolinVoiceI_a
+                    }
+                }
+            >>
         }
     >>
 }
