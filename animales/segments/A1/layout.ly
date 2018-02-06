@@ -1,3 +1,6 @@
+% measure_count = 6
+
+
 \context Score = "Score"
 \with
 {
