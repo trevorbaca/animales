@@ -19,17 +19,23 @@ maker = baca.SegmentMaker(
     metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
-        #trombones=True,
-        #percussion=True,
+        trombones=True,
+        percussion=True,
         first_violins=True,
         second_violins=True,
         violas=True,
         cellos=True,
-        #contrabasses=True,
+        contrabasses=True,
         ),
     time_signatures=animales.time_signatures[start:start + 6],
     transpose_score=True,
     validate_measure_count=6,
+    )
+
+maker(
+    baca.scope('TromboneVoiceI', 1, 6),
+    animales.parts('Trombone'),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 maker(

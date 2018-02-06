@@ -28,6 +28,22 @@
             >>
             \context MusicContext = "MusicContext"
             <<
+                \context StaffGroup = "BrassStaffGroup"
+                <<
+                    \context Staff = "TromboneStaffI"
+                    {
+                        \context Voice = "TromboneVoiceI"
+                        \A_b_TromboneVoiceI
+                    }
+                >>
+                \context StaffGroup = "PercussionStaffGroup"
+                <<
+                    \context Staff = "PercussionStaffI"
+                    {
+                        \context Voice = "PercussionVoiceI"
+                        \A_b_PercussionVoiceI
+                    }
+                >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
                     \context Staff = "FirstViolinStaffI"
@@ -49,6 +65,11 @@
                     {
                         \context Voice = "CelloVoiceI"
                         \A_b_CelloVoiceI
+                    }
+                    \context Staff = "ContrabassStaffI"
+                    {
+                        \context Voice = "ContrabassVoiceI"
+                        \A_b_ContrabassVoiceI
                     }
                 >>
             >>
