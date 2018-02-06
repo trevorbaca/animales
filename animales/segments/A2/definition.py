@@ -36,24 +36,28 @@ maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
     animales.parts('FirstViolin'),
     baca.make_tied_notes(repeat_ties=True),
+    baca.tie_to(repeat=True),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 1, 6),
     animales.parts('SecondViolin'),
     baca.make_tied_notes(repeat_ties=True),
+    baca.tie_to(repeat=True),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 1, 6),
     animales.parts('Viola'),
     baca.make_tied_notes(repeat_ties=True),
+    baca.tie_to(repeat=True),
     )
 
 maker(
     baca.scope('CelloVoiceI', 1, 6),
     animales.parts('Cello'),
     baca.make_tied_notes(repeat_ties=True),
+    baca.tie_to(repeat=True),
     )
 
 strings = [
