@@ -14,7 +14,7 @@ assert start == 17
 
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
-    margin_markup=animales.margin_markup,
+    margin_markups=animales.margin_markups,
     measures_per_stage=True,
     metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,
@@ -137,38 +137,20 @@ non_divisi = [
 
 maker(
     baca.scope('FirstViolinVoiceI', 3, 6),
+    animales.margin_markup('Vni. I', alert=baca.markup.non_div()),
     animales.parts('FirstViolin'),
-    baca.tag(
-        '+SEGMENT',
-        baca.margin_markup(
-            animales.margin_markup['Vni.'],
-            alert=baca.markup.non_div(),
-            ),
-        ),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 3, 6),
+    animales.margin_markup('Vni. II', alert=baca.markup.non_div()),
     animales.parts('SecondViolin'),
-    baca.tag(
-        '+SEGMENT',
-        baca.margin_markup(
-            animales.margin_markup['Vni. II'],
-            alert=baca.markup.non_div(),
-            ),
-        ),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 3, 6),
+    animales.margin_markup('Vle.', alert=baca.markup.non_div()),
     animales.parts('Viola'),
-    baca.tag(
-        '+SEGMENT',
-        baca.margin_markup(
-            animales.margin_markup['Vle.'],
-            alert=baca.markup.non_div(),
-            ),
-        ),
     )
 
 maker(

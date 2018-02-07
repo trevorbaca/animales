@@ -459,133 +459,133 @@ class ScoreTemplate(baca.ScoreTemplate):
             'Piccolo',
             self.piccolo,
             animales.instruments['Piccolo'],
-            animales.margin_markup['Picc.'],
+            animales.margin_markups['Picc.'],
             abjad.Clef('treble'),
             )
         flute_staves = self._make_staves(
             'Flute',
             self.flutes,
             animales.instruments['Flute'],
-            animales.margin_markup['Fl.'],
+            animales.margin_markups['Fl.'],
             abjad.Clef('treble'),
             )
         oboe_staves = self._make_staves(
             'Oboe',
             self.oboes,
             animales.instruments['Oboe'],
-            animales.margin_markup['Ob.'],
+            animales.margin_markups['Ob.'],
             abjad.Clef('treble'),
             )
         english_horn_staves = self._make_staves(
             'EnglishHorn',
             self.english_horn,
             animales.instruments['EnglishHorn'],
-            animales.margin_markup['Eng. hn.'],
+            animales.margin_markups['Eng. hn.'],
             abjad.Clef('treble'),
             )
         clarinet_staves = self._make_staves(
             'Clarinet',
             self.clarinets,
             animales.instruments['Clarinet'],
-            animales.margin_markup['Cl.'],
+            animales.margin_markups['Cl.'],
             abjad.Clef('treble'),
             )
         bass_clarinet_staves = self._make_staves(
             'BassClarinet',
             self.bass_clarinet,
             animales.instruments['BassClarinet'],
-            animales.margin_markup['B. cl.'],
+            animales.margin_markups['B. cl.'],
             abjad.Clef('treble'),
             )
         bassoon_staves = self._make_staves(
             'Bassoon',
             self.bassoons,
             animales.instruments['Bassoon'],
-            animales.margin_markup['Bsn.'],
+            animales.margin_markups['Bsn.'],
             abjad.Clef('bass'),
             )
         horn_staves = self._make_staves(
             'Horn',
             self.horns,
             animales.instruments['Horn'],
-            animales.margin_markup['Hn.'],
+            animales.margin_markups['Hn.'],
             abjad.Clef('bass'),
             )
         trumpet_staves = self._make_staves(
             'Trumpet',
             self.trumpets,
             animales.instruments['Trumpet'],
-            animales.margin_markup['Tp.'],
+            animales.margin_markups['Tp.'],
             abjad.Clef('treble'),
             )
         trombone_staves = self._make_staves(
             'Trombone',
             self.trombones,
             animales.instruments['Trombone'],
-            animales.margin_markup['Trb.'],
+            animales.margin_markups['Trb.'],
             abjad.Clef('tenor'),
             )
         tuba_staves = self._make_staves(
             'Tuba',
             self.tuba,
             animales.instruments['Tuba'],
-            animales.margin_markup['Tub.'],
+            animales.margin_markups['Tub.'],
             abjad.Clef('bass'),
             )
         harp_staves = self._make_staves(
             'Harp',
             self.harp,
             animales.instruments['Harp'],
-            animales.margin_markup['Hp.'],
+            animales.margin_markups['Hp.'],
             abjad.Clef('treble'),
             )
         piano_staves = self._make_staves(
             'Piano',
             self.piano,
             animales.instruments['Piano'],
-            animales.margin_markup['Pf.'],
+            animales.margin_markups['Pf.'],
             abjad.Clef('treble'),
             )
         percussion_staves = self._make_staves(
             'Percussion',
             self.percussion,
             animales.instruments['Percussion'],
-            animales.margin_markup['Perc.'],
+            animales.margin_markups['Perc.'],
             abjad.Clef('percussion'),
             )
         first_violin_staves = self._make_staves(
             'FirstViolin',
             self.first_violins,
             animales.instruments['Violin'],
-            animales.margin_markup['Vni. I'],
+            animales.margin_markups['Vni. I'],
             abjad.Clef('treble'),
             )
         second_violin_staves = self._make_staves(
             'SecondViolin',
             self.second_violins,
             animales.instruments['Violin'],
-            animales.margin_markup['Vni. II'],
+            animales.margin_markups['Vni. II'],
             abjad.Clef('treble'),
             )
         viola_staves = self._make_staves(
             'Viola',
             self.violas,
             animales.instruments['Viola'],
-            animales.margin_markup['Vle.'],
+            animales.margin_markups['Vle.'],
             abjad.Clef('alto'),
             )
         cello_staves = self._make_staves(
             'Cello',
             self.cellos,
             animales.instruments['Cello'],
-            animales.margin_markup['Vc.'],
+            animales.margin_markups['Vc.'],
             abjad.Clef('bass'),
             )
         contrabass_staves = self._make_staves(
             'Contrabass',
             self.contrabasses,
             animales.instruments['Contrabass'],
-            animales.margin_markup['Cb.'],
+            animales.margin_markups['Cb.'],
             abjad.Clef('bass'),
             )
         music_context = self.make_music_context(
