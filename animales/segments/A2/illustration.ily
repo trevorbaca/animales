@@ -493,6 +493,7 @@ A_b_FirstViolinVoiceI_a = {
                 {                                            %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                     Vni.                                     %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                     I                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    (2-18)                                   %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
@@ -502,6 +503,7 @@ A_b_FirstViolinVoiceI_a = {
                 {                                            %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                     Vni.                                     %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                     I                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+                    (2-18)                                   %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
@@ -526,7 +528,7 @@ A_b_FirstViolinVoiceI_a = {
                     {                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                         \with-color                          %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                             #(x11-color 'green4)             %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            "[“Vni. I”]"                     %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            "[“Vni. I (2-18)”]"              %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                     }                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
             }
         }
@@ -537,6 +539,7 @@ A_b_FirstViolinVoiceI_a = {
                 {                                            %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                     Vni.                                     %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                     I                                        %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    (2-18)                                   %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
     \set Staff.shortInstrumentName = \markup {               %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
@@ -546,6 +549,7 @@ A_b_FirstViolinVoiceI_a = {
                 {                                            %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                     Vni.                                     %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                     I                                        %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+                    (2-18)                                   %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6

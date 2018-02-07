@@ -36,6 +36,11 @@
                         systemStartDelimiter = #'SystemStartSquare
                     }
                     <<
+                        \context Staff = "FirstViolinStaffIII"
+                        {
+                            \context Voice = "FirstViolinVoiceIII"
+                            \A_a_FirstViolinVoiceIII
+                        }
                         \context Staff = "FirstViolinStaffI"
                         {
                             \context Voice = "FirstViolinVoiceI"
