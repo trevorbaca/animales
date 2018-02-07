@@ -74,9 +74,9 @@ i_c_GlobalSkips = {
     \once \override TextSpanner.bound-details.right.padding = 0          %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.dash-period = 0                          %! METRONOME_MARK_SPANNER:SM29
-    \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
+    \time 4/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
     \bar ""                                                              %! +SEGMENT:EMPTY_START_BAR:SM2
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     \startTextSpan                                                       %! METRONOME_MARK_SPANNER:SM29
     ^ \markup {
@@ -118,7 +118,7 @@ i_c_GlobalSkips = {
         }
     
     % [_3 GlobalSkips measure 14]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM1:REDUNDANT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     ^ \markup {
         \column
@@ -159,7 +159,7 @@ i_c_GlobalSkips = {
         }
     
     % [_3 GlobalSkips measure 15]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM1:REDUNDANT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     ^ \markup {
         \column
@@ -200,7 +200,7 @@ i_c_GlobalSkips = {
         }
     
     % [_3 GlobalSkips measure 16]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM1:REDUNDANT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     ^ \markup {
         \column
@@ -241,8 +241,8 @@ i_c_GlobalSkips = {
         }
     
     % [_3 GlobalSkips measure 17]                                        %! SM4
-    \time 2/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 2/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/2
     \stopTextSpan                                                        %! METRONOME_MARK_SPANNER:SM29
     ^ \markup {
@@ -317,10 +317,10 @@ i_c_FirstViolinVoiceI_a = {
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
     e'1
-    \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \f_sub_but_accents_continue_sffz                     %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {
         \column
             {
@@ -374,11 +374,11 @@ i_c_FirstViolinVoiceI_a = {
     \repeatTie
     
     % [_3 FirstViolinVoiceI measure 16]                  %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
     ef'1
     -\accent                                             %! IC
-    \p_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \p_sub_but_accents_continue_sffz                     %! IC:EXPLICIT_DYNAMIC:SM8
     \stopTrillSpan                                       %! SC
     \startTrillSpan e'                                   %! SC
     
@@ -425,10 +425,10 @@ i_c_FirstViolinVoiceII_a = {
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
     e'1
-    \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \f_sub_but_accents_continue_sffz                     %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {
         \column
             {
@@ -483,10 +483,10 @@ i_c_FirstViolinVoiceII_a = {
     \times 2/3 {
         
         % [_3 FirstViolinVoiceII measure 16]             %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
         \pitchedTrill                                    %! SC
         ef'8
-        \p_sub_but_accents_continue_sffz                 %! EXPLICIT_DYNAMIC:SM8
+        \p_sub_but_accents_continue_sffz                 %! IC:EXPLICIT_DYNAMIC:SM8
         \stopTrillSpan                                   %! SC
         \startTrillSpan e'                               %! SC
         
@@ -541,10 +541,10 @@ i_c_SecondViolinVoiceI_a = {
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
     e'1
-    \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \f_sub_but_accents_continue_sffz                     %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {
         \column
             {
@@ -598,10 +598,10 @@ i_c_SecondViolinVoiceI_a = {
     -\accent                                             %! IC
     
     % [_3 SecondViolinVoiceI measure 16]                 %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
     ef'2
-    \p_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \p_sub_but_accents_continue_sffz                     %! IC:EXPLICIT_DYNAMIC:SM8
     \stopTrillSpan                                       %! SC
     \startTrillSpan e'                                   %! SC
     
@@ -655,10 +655,10 @@ i_c_SecondViolinVoiceII_a = {
         \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
     %@% \override Staff.Clef.color = ##f                 %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
         \pitchedTrill                                    %! SC
         e'8
-        \f_sub_but_accents_continue_sffz                 %! EXPLICIT_DYNAMIC:SM8
+        \f_sub_but_accents_continue_sffz                 %! IC:EXPLICIT_DYNAMIC:SM8
         ^ \markup {
             \column
                 {
@@ -726,10 +726,10 @@ i_c_SecondViolinVoiceII_a = {
     \repeatTie
     
     % [_3 SecondViolinVoiceII measure 16]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
     ef'2.
-    \p_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \p_sub_but_accents_continue_sffz                     %! IC:EXPLICIT_DYNAMIC:SM8
     \stopTrillSpan                                       %! SC
     \startTrillSpan e'                                   %! SC
     
@@ -777,10 +777,10 @@ i_c_ViolaVoiceI_a = {
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
     e'2
-    \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \f_sub_but_accents_continue_sffz                     %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {
         \column
             {
@@ -838,10 +838,10 @@ i_c_ViolaVoiceI_a = {
     -\accent                                             %! IC
     
     % [_3 ViolaVoiceI measure 16]                        %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
     ef'1
-    \p_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \p_sub_but_accents_continue_sffz                     %! IC:EXPLICIT_DYNAMIC:SM8
     \stopTrillSpan                                       %! SC
     \startTrillSpan e'                                   %! SC
     
@@ -889,10 +889,10 @@ i_c_ViolaVoiceII_a = {
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
     e'2.
-    \f_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \f_sub_but_accents_continue_sffz                     %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {
         \column
             {
@@ -947,10 +947,10 @@ i_c_ViolaVoiceII_a = {
     -\accent                                             %! IC
     
     % [_3 ViolaVoiceII measure 16]                       %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
     ef'1
-    \p_sub_but_accents_continue_sffz                     %! EXPLICIT_DYNAMIC:SM8
+    \p_sub_but_accents_continue_sffz                     %! IC:EXPLICIT_DYNAMIC:SM8
     \stopTrillSpan                                       %! SC
     \startTrillSpan e'                                   %! SC
     
@@ -987,10 +987,10 @@ i_c_CelloVoiceI_a = {
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                            %! SC
     e'1
-    \f_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+    \f_sub_but_accents_continue_sffz                         %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {
         \column
             {
@@ -1040,10 +1040,10 @@ i_c_CelloVoiceI_a = {
     -\accent                                                 %! IC
     
     % [_3 CelloVoiceI measure 16]                            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                            %! SC
     ef'1
-    \p_sub_but_accents_continue_sffz                         %! EXPLICIT_DYNAMIC:SM8
+    \p_sub_but_accents_continue_sffz                         %! IC:EXPLICIT_DYNAMIC:SM8
     \stopTrillSpan                                           %! SC
     \startTrillSpan e'                                       %! SC
     
