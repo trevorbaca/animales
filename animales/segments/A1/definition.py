@@ -19,7 +19,11 @@ maker = baca.SegmentMaker(
     metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
-        first_violins=[(1, [1]), (2, [2])],
+        first_violins=[
+            (3, [3]), # empty / solo
+            (1, [1]), # 1-10 / 2-18
+            (2, [2]), # 11-18 / empty
+            ],
         second_violins=[(1, [1]), (2, [2])],
         violas=[(1, [1]), (2, [2])],
         cellos=[(1, [1])],
@@ -117,6 +121,19 @@ maker(
     baca.trill_spanner_staff_padding(4),
     )
 
+# HERE
+# SOLO:
+maker(
+    baca.scope('FirstViolinVoiceIII', 3, 6),
+    animales.parts('FirstViolin', 1),
+    baca.make_tied_notes(repeat_ties=True),
+    animales.margin_markup(
+        'Vni. I (1)',
+        alert=baca.markup('solo (first violin)'),
+        ),
+    baca.pitch(0),
+    )
+
 divisi = [
     'FirstViolinVoiceII',
     'SecondViolinVoiceII',
@@ -137,8 +154,8 @@ non_divisi = [
 
 maker(
     baca.scope('FirstViolinVoiceI', 3, 6),
-    animales.margin_markup('Vni. I', alert=baca.markup.non_div()),
-    animales.parts('FirstViolin'),
+    animales.margin_markup('Vni. I (2-18)', alert=baca.markup.non_div()),
+    animales.parts('FirstViolin', (2, 18)),
     )
 
 maker(
