@@ -1,9 +1,7 @@
 TO-DO
 =====
 
-1.  Shorten instrument alerts.
-    Shorten margin markup alerts.
-    Change SegmentMaker.margin_markup to margin_markups.
+1.  Change SegmentMaker.margin_markup to margin_markups.
     Change animales.margin_markup to margin_markups.
     Add animales.margin_markup() with '+SCORE:+SEGMENT'.
 
