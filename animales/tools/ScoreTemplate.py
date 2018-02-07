@@ -11,13 +11,13 @@ class ScoreTemplate(baca.ScoreTemplate):
     ..  container:: example
 
         >>> template = animales.ScoreTemplate(
-        ...     piccolo=True,
-        ...     flutes=[(1, 2), 3],
-        ...     first_violins=[(1, 10), (11, 18)],
-        ...     second_violins=[(1, 10), (11, 18)],
-        ...     violas=True,
-        ...     cellos=True,
-        ...     contrabasses=True,
+        ...     piccolo=[(1, [1])],
+        ...     flutes=[(1, [1, 2]), (2, [3])],
+        ...     first_violins=[(1, [1]), (2, [1])],
+        ...     second_violins=[(1, [1]), (2, [1])],
+        ...     violas=[(1, [1])],
+        ...     cellos=[(1, [1])],
+        ...     contrabasses=[(1, [1])],
         ...     )
         >>> path = abjad.Path('animales', 'stylesheets', 'contexts.ily')
         >>> lilypond_file = template.__illustrate__(
@@ -67,7 +67,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                     }
                     <<
                         \context Staff = "FluteStaffI"
-                        {
+                        <<
                             \context Voice = "FluteVoiceI"
                             {
                                 \set Staff.instrumentName = \markup {      %! +SCORE:+SEGMENT:ST2
@@ -83,10 +83,14 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 \clef "treble" %! ST3
                                 s1
                             }
-                        }
+                            \context Voice = "FluteVoiceII"
+                            {
+                                s1
+                            }
+                        >>
                         \context Staff = "FluteStaffII"
                         {
-                            \context Voice = "FluteVoiceII"
+                            \context Voice = "FluteVoiceIII"
                             {
                                 \set Staff.instrumentName = \markup {      %! +SCORE:+SEGMENT:ST2
                                     \hcenter-in                            %! +SCORE:+SEGMENT:ST2
@@ -140,7 +144,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                         }
                         \context Staff = "FirstViolinStaffII"
                         {
-                            \context Voice = "FirstViolinVoiceII"
+                            \context Voice = "FirstViolinVoiceI"
                             {
                                 \set Staff.instrumentName = \markup {      %! +SCORE:+SEGMENT:ST2
                                     \hcenter-in                            %! +SCORE:+SEGMENT:ST2
@@ -199,7 +203,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                         }
                         \context Staff = "SecondViolinStaffII"
                         {
-                            \context Voice = "SecondViolinVoiceII"
+                            \context Voice = "SecondViolinVoiceI"
                             {
                                 \set Staff.instrumentName = \markup {      %! +SCORE:+SEGMENT:ST2
                                     \hcenter-in                            %! +SCORE:+SEGMENT:ST2
@@ -281,6 +285,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 >>
             >>
         >>
+
 
     '''
 
@@ -667,50 +672,50 @@ class ScoreTemplate(baca.ScoreTemplate):
     def _make_staves(
         self,
         name,
-        specifier,
+        staff_specifiers,
         default_instrument,
         default_margin_markup,
         default_clef=None,
         ):
         assert default_margin_markup is not None
         staves = []
-        if specifier:
-            voice_number = 1
-            if specifier is True:
-                specifier = [True]
-            for staff_index, divisi_token in enumerate(specifier):
-                assert isinstance(divisi_token, (bool, int, tuple))
-                staff_number = staff_index + 1
-                staff_numeral = self._to_roman(staff_number)
-                staff = abjad.Staff(
-                    is_simultaneous=False,
-                    name=f'{name}Staff{staff_numeral}',
-                    )
-#                if divisi_token is True:
-#                    command = animales.parts(name)
-#                else:
-#                    command = animales.parts(name, divisi_token)
-#                tag = command.tag
-#                self._attach_part(tag, staff)
+        if not bool(staff_specifiers):
+            return staves
+        assert isinstance(staff_specifiers, list), repr(staff_specifiers)
+        for staff_specifier in staff_specifiers:
+            assert isinstance(staff_specifier, tuple), repr(staff_specifier)
+            assert len(staff_specifier) == 2, repr(staff_specifier)
+            staff_number, voices = staff_specifier
+            assert isinstance(staff_number, int), repr(staff_number)
+            assert isinstance(voices, list), repr(voices)
+            staff_numeral = self._to_roman(staff_number)
+            if len(voices) == 1:
+                is_simultaneous = False
+            else:
+                is_simultaneous = True
+            staff = abjad.Staff(
+                is_simultaneous=is_simultaneous,
+                name=f'{name}Staff{staff_numeral}',
+                )
+            for voice_number in voices:
                 voice_numeral = self._to_roman(voice_number)
                 voice = abjad.Voice(name=f'{name}Voice{voice_numeral}')
                 staff.append(voice)
-                voice_number += 1
+            abjad.annotate(
+                staff,
+                'default_instrument',
+                default_instrument,
+                )
+            abjad.annotate(
+                staff,
+                'default_margin_markup',
+                default_margin_markup,
+                )
+            if default_clef is not None:
                 abjad.annotate(
                     staff,
-                    'default_instrument',
-                    default_instrument,
+                    'default_clef',
+                    default_clef,
                     )
-                abjad.annotate(
-                    staff,
-                    'default_margin_markup',
-                    default_margin_markup,
-                    )
-                if default_clef is not None:
-                    abjad.annotate(
-                        staff,
-                        'default_clef',
-                        default_clef,
-                        )
-                staves.append(staff)
+            staves.append(staff)
         return staves
