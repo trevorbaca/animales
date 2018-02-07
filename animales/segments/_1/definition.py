@@ -10,7 +10,7 @@ from abjad import rhythmmakertools as rhythmos
 
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
-    margin_markup=animales.margin_markup,
+    margin_markups=animales.margin_markups,
     measures_per_stage=True,
     metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,
@@ -32,62 +32,44 @@ maker(
 
 maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
+    animales.margin_markup('Vni. I (1-10)'),
     animales.parts('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
-    baca.tag(
-        ['+SEGMENT', '+SCORE'],
-        baca.margin_markup(animales.margin_markup['Vni. I (1-10)']),
-        ),
     )
 
 maker(
     baca.scope('FirstViolinVoiceII', 1, 6),
+    animales.margin_markup('Vni. I (11-18)'),
     animales.parts('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
-    baca.tag(
-        ['+SEGMENT', '+SCORE'],
-        baca.margin_markup(animales.margin_markup['Vni. I (11-18)']),
-        ),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 1, 6),
+    animales.margin_markup('Vni. II (1-10)'),
     animales.parts('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
-    baca.tag(
-        ['+SEGMENT', '+SCORE'],
-        baca.margin_markup(animales.margin_markup['Vni. II (1-10)']),
-        ),
     )
 
 maker(
     baca.scope('SecondViolinVoiceII', 1, 6),
+    animales.margin_markup('Vni. II (11-18)'),
     animales.parts('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
-    baca.tag(
-        ['+SEGMENT', '+SCORE'],
-        baca.margin_markup(animales.margin_markup['Vni. II (11-18)']),
-        ),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 1, 6),
+    animales.margin_markup('Vle. (1-10)'),
     animales.parts('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
-    baca.tag(
-        ['+SEGMENT', '+SCORE'],
-        baca.margin_markup(animales.margin_markup['Vle. (1-10)']),
-        ),
     )
 
 maker(
     baca.scope('ViolaVoiceII', 1, 6),
+    animales.margin_markup('Vle. (11-18)'),
     animales.parts('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
-    baca.tag(
-        ['+SEGMENT', '+SCORE'],
-        baca.margin_markup(animales.margin_markup['Vle. (11-18)']),
-        ),
     )
 
 maker(

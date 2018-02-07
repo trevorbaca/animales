@@ -14,7 +14,7 @@ assert start == 23
 
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
-    margin_markup=animales.margin_markup,
+    margin_markups=animales.margin_markups,
     measures_per_stage=True,
     metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,

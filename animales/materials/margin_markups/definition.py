@@ -10,7 +10,7 @@ def _make_margin_markup(short_markup, markup=None):
         short_markup=baca.markup.short_instrument(short_markup, hcenter_in=16),
         )
 
-margin_markup = abjad.OrderedDict([
+margin_markups = abjad.OrderedDict([
     (
         'B. cl.',
         _make_margin_markup('B. cl.'),
@@ -135,4 +135,4 @@ margin_markup = abjad.OrderedDict([
 for i in range(1, 18 + 1):
     key = f'Vni. I ({i})'
     value = _make_margin_markup(['Vni. I', f'({i})']),
-    margin_markup[key] = value
+    margin_markups[key] = value
