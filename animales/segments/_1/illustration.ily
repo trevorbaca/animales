@@ -379,33 +379,7 @@ i_a_FirstViolinVoiceI_a = {
                     {                                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                         \with-color                      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                             #(x11-color 'blue)           %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                            {                            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    "[“Vni. I (1-10)”"   %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    \hcenter-in          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        #16              %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \center-column   %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            {            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                Violins  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                I        %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                (1-10)   %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            }            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \concat                  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    {                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            \hcenter-in  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                #16      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                \center-column %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                    {    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        Vni. %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        I %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        (1-10) %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                    }    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            ]            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    }                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                            }                            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                            "[“Vni. I (1-10)”]"          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                     }                                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
             }
         }
@@ -517,33 +491,7 @@ i_a_FirstViolinVoiceII_a = {
                     {                                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                         \with-color                      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                             #(x11-color 'blue)           %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                            {                            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    "[“Vni. I (11-18)”"  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    \hcenter-in          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        #16              %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \center-column   %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            {            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                Violins  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                I        %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                (11-18)  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            }            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \concat                  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    {                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            \hcenter-in  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                #16      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                \center-column %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                    {    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        Vni. %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        I %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        (11-18) %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                    }    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            ]            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    }                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                            }                            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                            "[“Vni. I (11-18)”]"         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                     }                                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
             }
         }
@@ -669,33 +617,7 @@ i_a_SecondViolinVoiceI_a = {
                     {                                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                         \with-color                      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                             #(x11-color 'blue)           %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                            {                            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    "[“Vni. II (1-10)”"  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    \hcenter-in          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        #16              %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \center-column   %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            {            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                Violins  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                II       %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                (1-10)   %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            }            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \concat                  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    {                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            \hcenter-in  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                #16      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                \center-column %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                    {    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        Vni. %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        II %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        (1-10) %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                    }    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            ]            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    }                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                            }                            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                            "[“Vni. II (1-10)”]"         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                     }                                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
             }
         }
@@ -820,33 +742,7 @@ i_a_SecondViolinVoiceII_a = {
                     {                                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                         \with-color                      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                             #(x11-color 'blue)           %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                            {                            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    "[“Vni. II (11-18)”" %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    \hcenter-in          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        #16              %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \center-column   %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            {            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                Violins  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                II       %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                (11-18)  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            }            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \concat                  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    {                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            \hcenter-in  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                #16      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                \center-column %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                    {    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        Vni. %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        II %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        (11-18) %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                    }    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            ]            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    }                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                            }                            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                            "[“Vni. II (11-18)”]"        %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                     }                                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
             }
         }
@@ -976,31 +872,7 @@ i_a_ViolaVoiceI_a = {
                     {                                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                         \with-color                      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                             #(x11-color 'blue)           %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                            {                            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    "[“Vle. (1-10)”"     %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    \hcenter-in          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        #16              %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \center-column   %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            {            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                Violas   %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                (1-10)   %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            }            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \concat                  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    {                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            \hcenter-in  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                #16      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                \center-column %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                    {    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        Vle. %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        (1-10) %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                    }    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            ]            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    }                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                            }                            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                            "[“Vle. (1-10)”]"            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                     }                                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
             }
         }
@@ -1116,31 +988,7 @@ i_a_ViolaVoiceII_a = {
                     {                                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                         \with-color                      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                             #(x11-color 'blue)           %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                            {                            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    "[“Vle. (11-18)”"    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                 %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    \hcenter-in          %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        #16              %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \center-column   %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            {            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                Violas   %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                (11-18)  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            }            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                \concat                  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    {                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            \hcenter-in  %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                #16      %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                \center-column %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                    {    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        Vle. %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                        (11-18) %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                                    }    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter         %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                            ]            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                                    }                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
-                            }                            %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
+                            "[“Vle. (11-18)”]"           %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
                     }                                    %! +SCORE:+SEGMENT:EXPLICIT_MARGIN_MARKUP_ALERT:SM11
             }
         }
@@ -1239,23 +1087,7 @@ i_a_CelloVoiceI_a = {
                     {                                        %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                         \with-color                          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                             #(x11-color 'DarkViolet)         %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                            {                                %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                     %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                    [“Vc.”                   %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                \vcenter                     %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                    \hcenter-in              %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                        #16                  %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                        Cellos               %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                \concat                      %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                    {                        %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter             %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                            \hcenter-in      %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                                #16          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                                Vc.          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                        \vcenter             %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                            ]                %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                                    }                        %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                            }                                %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                            [“Vc.”]                          %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
                     }                                        %! +SCORE:+SEGMENT:DEFAULT_MARGIN_MARKUP_ALERT:SM11
             }
         }
