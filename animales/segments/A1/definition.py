@@ -129,6 +129,8 @@ maker(
         alert=baca.markup('solo (first violin)'),
         ),
     animales.parts('FirstViolin', 1),
+    baca.hairpin('p < f', baca.notes().group_by_measure()[0]),
+    baca.hairpin('f > p', baca.notes().group_by_measure()[-1]),
     baca.suite([
         baca.untie_to(baca.leaves()),
         animales.glissando_pitches(reverse=True),

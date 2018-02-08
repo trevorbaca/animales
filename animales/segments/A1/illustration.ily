@@ -355,8 +355,11 @@ A_a_FirstViolinVoiceIII_a = {
                 }                                        %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     a''2
     \glissando                                           %! SC
+    \<
+    \p
     ^ \markup {
         \column
             {
@@ -402,7 +405,9 @@ A_a_FirstViolinVoiceIII_a = {
     ]
     \glissando                                           %! SC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     a'4
+    \f
     \glissando                                           %! SC
     
     % [A1 FirstViolinVoiceIII measure 21]                %! SM4
@@ -446,13 +451,18 @@ A_a_FirstViolinVoiceIII_a = {
     \glissando                                           %! SC
     
     % [A1 FirstViolinVoiceIII measure 23]                %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     a'''4
     \glissando                                           %! SC
+    \>
+    \f
     
     c'''8
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     c'''4.
     \repeatTie                                           %! SC
+    \p
     
 }
 
