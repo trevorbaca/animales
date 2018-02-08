@@ -28,6 +28,34 @@
             >>
             \context MusicContext = "MusicContext"
             <<
+                \context StaffGroup = "BrassStaffGroup"
+                \with
+                {
+                    alignAboveContext = #"FirstViolinStaffI"
+                }
+                <<
+                    \context StaffGroup = "TromboneSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "TromboneStaffI"
+                        <<
+                            \context Voice = "TromboneVoiceI"
+                            \A_a_TromboneVoiceI
+                            \context Voice = "TromboneVoiceIII"
+                            \A_a_TromboneVoiceIII
+                        >>
+                        \context Staff = "TromboneStaffII"
+                        <<
+                            \context Voice = "TromboneVoiceII"
+                            \A_a_TromboneVoiceII
+                            \context Voice = "TromboneVoiceIV"
+                            \A_a_TromboneVoiceIV
+                        >>
+                    >>
+                >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
                     \context StaffGroup = "FirstViolinSquareStaffGroup"

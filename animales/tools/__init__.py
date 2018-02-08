@@ -1,4 +1,5 @@
 from .ScoreTemplate import ScoreTemplate
+from .downbeat_attack import downbeat_attack
 from .glissando_rhythm import glissando_rhythm
 from .glissando_pitches import glissando_pitches
 from .margin_markup import margin_markup

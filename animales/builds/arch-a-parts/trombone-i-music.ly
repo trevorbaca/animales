@@ -80,7 +80,7 @@
                     \i_a_GlobalRests
                     \i_b_GlobalRests
                     \i_c_GlobalRests
-                    \A_a_GlobalRests
+                    \A_a_TromboneVoiceI_a
                     \A_b_TromboneVoiceI_a
                     }
                 }
