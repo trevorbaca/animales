@@ -138,6 +138,7 @@ maker(
         baca.repeat_tie_repeat_pitches(),
         baca.glissando(),
         ]),
+    baca.tag('+PARTS', baca.literal(r'\stopTrillSpan', format_slot='after')),
     )
 
 divisi = [

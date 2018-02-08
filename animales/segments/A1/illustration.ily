@@ -395,6 +395,7 @@ A_a_FirstViolinVoiceIII_a = {
                     (1)                                  %! +SCORE:+SEGMENT:IC:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                 }                                        %! +SCORE:+SEGMENT:IC:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:IC:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
+%%% \stopTrillSpan                                       %! +PARTS:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +SCORE:+SEGMENT:IC:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
     
     b'8
