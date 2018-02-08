@@ -335,222 +335,217 @@ A_a_GlobalSkips = {
 
 A_a_TromboneVoiceI_a = {
     
+    % [A1 TromboneVoiceI measure 18]                     %! SM4
+    \set Staff.forceClef = ##t                           %! ST3:DEFAULT_CLEF:SM8
+    \clef "tenor"                                        %! ST3:DEFAULT_CLEF:SM8
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
+%@% \override Staff.Clef.color = ##f                     %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+    \voiceOne                                            %! -PARTS:IC
+    R1 * 1
+    \override Staff.Clef.color = #(x11-color 'violet)    %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
+    
+    % [A1 TromboneVoiceI measure 19]                     %! SM4
+    R1 * 1
+    
     % [A1 TromboneVoiceI measure 20]                     %! SM4
-    \voiceOne                                            %! +SCORE:+SEGMENT:IC
-    \set Staff.forceClef = ##t                           %! IC:REDUNDANT_CLEF:SM8
-    \clef "tenor"                                        %! IC:REDUNDANT_CLEF:SM8
-    \once \override Staff.Clef.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_CLEF_COLOR:SM6
-%@% \override Staff.Clef.color = ##f                     %! IC:REDUNDANT_CLEF_COLOR_CANCELLATION:SM7
     g'8
     -\marcato                                            %! IC
-    \override Staff.Clef.color = #(x11-color 'DeepPink4) %! IC:REDUNDANT_CLEF_REDRAW_COLOR:SM6
     
     r2..
+    
+    % [A1 TromboneVoiceI measure 21]                     %! SM4
+    R1 * 1
+    
+    % [A1 TromboneVoiceI measure 22]                     %! SM4
+    R1 * 1
+    
+    % [A1 TromboneVoiceI measure 23]                     %! SM4
+    R1 * 3/4
+    
 }
 
 
 A_a_TromboneVoiceI = {
-    
-    % [A1 TromboneVoiceI measure 18]                         %! SM4
-    \set Staff.forceClef = ##t                               %! ST3:DEFAULT_CLEF:SM8
-    \clef "tenor"                                            %! ST3:DEFAULT_CLEF:SM8
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
-%@% \override Staff.Clef.color = ##f                         %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    R1 * 1
-    \override Staff.Clef.color = #(x11-color 'violet)        %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
-    
-    % [A1 TromboneVoiceI measure 19]                         %! SM4
-    R1 * 1
     \A_a_TromboneVoiceI_a
-    
-    % [A1 TromboneVoiceI measure 21]                         %! SM4
-    R1 * 1
-    
-    % [A1 TromboneVoiceI measure 22]                         %! SM4
-    R1 * 1
-    
-    % [A1 TromboneVoiceI measure 23]                         %! SM4
-    R1 * 3/4
-    
 }
 
 
 A_a_TromboneVoiceIII_a = {
     
-    % [A1 TromboneVoiceIII measure 20]                   %! SM4
-    \voiceTwo                                            %! IC
-    c'8
-    -\marcato                                            %! IC
-    
-    r2..
-}
-
-
-A_a_TromboneVoiceIII = {
-    
-    % [A1 TromboneVoiceIII measure 18]                       %! SM4
-    \set Staff.instrumentName = \markup {                    %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-            #16                                              %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-            Trb.                                             %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-        }                                                    %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {               %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-            #16                                              %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-            Trb.                                             %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-        }                                                    %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+    % [A1 TromboneVoiceIII measure 18]                   %! SM4
+    \set Staff.instrumentName = \markup {                %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+            Trb.                                         %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+        }                                                %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+            Trb.                                         %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+        }                                                %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_COLOR:SM6
+    \voiceTwo                                            %! -PARTS:IC
     R1 * 1
     ^ \markup {
         \column
             {
-                \line                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                    {                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                        \with-color                          %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                            #(x11-color 'DarkViolet)         %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                            (“Trombone”)                     %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                    }                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                \line                                        %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                    {                                        %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                        \with-color                          %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                            #(x11-color 'DarkViolet)         %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                            [“Trb.”]                         %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                    }                                        %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                \line                                    %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+                    {                                    %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+                        \with-color                      %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+                            #(x11-color 'DarkViolet)     %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+                            (“Trombone”)                 %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+                    }                                    %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+                \line                                    %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                    {                                    %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                        \with-color                      %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                            #(x11-color 'DarkViolet)     %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                            [“Trb.”]                     %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                    }                                    %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
             }
         }
-    \set Staff.instrumentName = \markup {                    %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            #16                                              %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            Trb.                                             %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-        }                                                    %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {               %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            #16                                              %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            Trb.                                             %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-        }                                                    %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+    \set Staff.instrumentName = \markup {                %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            Trb.                                         %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+        }                                                %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            Trb.                                         %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+        }                                                %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
     \override Staff.InstrumentName.color = #(x11-color 'violet) %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
     
-    % [A1 TromboneVoiceIII measure 19]                       %! SM4
-    R1 * 1
-    \A_a_TromboneVoiceIII_a
-    
-    % [A1 TromboneVoiceIII measure 21]                       %! SM4
+    % [A1 TromboneVoiceIII measure 19]                   %! SM4
     R1 * 1
     
-    % [A1 TromboneVoiceIII measure 22]                       %! SM4
+    % [A1 TromboneVoiceIII measure 20]                   %! SM4
+    c'8
+    -\marcato                                            %! IC
+    
+    r2..
+    
+    % [A1 TromboneVoiceIII measure 21]                   %! SM4
     R1 * 1
     
-    % [A1 TromboneVoiceIII measure 23]                       %! SM4
+    % [A1 TromboneVoiceIII measure 22]                   %! SM4
+    R1 * 1
+    
+    % [A1 TromboneVoiceIII measure 23]                   %! SM4
     R1 * 3/4
     
+}
+
+
+A_a_TromboneVoiceIII = {
+    \A_a_TromboneVoiceIII_a
 }
 
 
 A_a_TromboneVoiceII_a = {
     
+    % [A1 TromboneVoiceII measure 18]                    %! SM4
+    \set Staff.forceClef = ##t                           %! ST3:DEFAULT_CLEF:SM8
+    \clef "tenor"                                        %! ST3:DEFAULT_CLEF:SM8
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
+%@% \override Staff.Clef.color = ##f                     %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+    \voiceOne                                            %! -PARTS:IC
+    R1 * 1
+    \override Staff.Clef.color = #(x11-color 'violet)    %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
+    
+    % [A1 TromboneVoiceII measure 19]                    %! SM4
+    R1 * 1
+    
     % [A1 TromboneVoiceII measure 20]                    %! SM4
-    \voiceOne                                            %! IC
     df'8
     -\marcato                                            %! IC
     
     r2..
+    
+    % [A1 TromboneVoiceII measure 21]                    %! SM4
+    R1 * 1
+    
+    % [A1 TromboneVoiceII measure 22]                    %! SM4
+    R1 * 1
+    
+    % [A1 TromboneVoiceII measure 23]                    %! SM4
+    R1 * 3/4
+    
 }
 
 
 A_a_TromboneVoiceII = {
-    
-    % [A1 TromboneVoiceII measure 18]                        %! SM4
-    \set Staff.forceClef = ##t                               %! ST3:DEFAULT_CLEF:SM8
-    \clef "tenor"                                            %! ST3:DEFAULT_CLEF:SM8
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
-%@% \override Staff.Clef.color = ##f                         %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    R1 * 1
-    \override Staff.Clef.color = #(x11-color 'violet)        %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
-    
-    % [A1 TromboneVoiceII measure 19]                        %! SM4
-    R1 * 1
     \A_a_TromboneVoiceII_a
-    
-    % [A1 TromboneVoiceII measure 21]                        %! SM4
-    R1 * 1
-    
-    % [A1 TromboneVoiceII measure 22]                        %! SM4
-    R1 * 1
-    
-    % [A1 TromboneVoiceII measure 23]                        %! SM4
-    R1 * 3/4
-    
 }
 
 
 A_a_TromboneVoiceIV_a = {
     
-    % [A1 TromboneVoiceIV measure 20]                    %! SM4
-    \voiceTwo                                            %! IC
-    b8
-    -\marcato                                            %! IC
-    
-    r2..
-}
-
-
-A_a_TromboneVoiceIV = {
-    
-    % [A1 TromboneVoiceIV measure 18]                        %! SM4
-    \set Staff.instrumentName = \markup {                    %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-            #16                                              %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-            Trb.                                             %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-        }                                                    %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {               %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-            #16                                              %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-            Trb.                                             %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-        }                                                    %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+    % [A1 TromboneVoiceIV measure 18]                    %! SM4
+    \set Staff.instrumentName = \markup {                %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+            Trb.                                         %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+        }                                                %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+            Trb.                                         %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
+        }                                                %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_COLOR:SM6
+    \voiceTwo                                            %! -PARTS:IC
     R1 * 1
     ^ \markup {
         \column
             {
-                \line                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                    {                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                        \with-color                          %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                            #(x11-color 'DarkViolet)         %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                            (“Trombone”)                     %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                    }                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                \line                                        %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                    {                                        %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                        \with-color                          %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                            #(x11-color 'DarkViolet)         %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                            [“Trb.”]                         %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
-                    }                                        %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                \line                                    %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+                    {                                    %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+                        \with-color                      %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+                            #(x11-color 'DarkViolet)     %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+                            (“Trombone”)                 %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+                    }                                    %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+                \line                                    %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                    {                                    %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                        \with-color                      %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                            #(x11-color 'DarkViolet)     %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                            [“Trb.”]                     %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
+                    }                                    %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_ALERT:SM11
             }
         }
-    \set Staff.instrumentName = \markup {                    %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            #16                                              %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            Trb.                                             %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-        }                                                    %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {               %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-        \hcenter-in                                          %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            #16                                              %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-            Trb.                                             %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
-        }                                                    %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+    \set Staff.instrumentName = \markup {                %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            Trb.                                         %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+        }                                                %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {           %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+        \hcenter-in                                      %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            #16                                          %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+            Trb.                                         %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+        }                                                %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
     \override Staff.InstrumentName.color = #(x11-color 'violet) %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
     
-    % [A1 TromboneVoiceIV measure 19]                        %! SM4
-    R1 * 1
-    \A_a_TromboneVoiceIV_a
-    
-    % [A1 TromboneVoiceIV measure 21]                        %! SM4
+    % [A1 TromboneVoiceIV measure 19]                    %! SM4
     R1 * 1
     
-    % [A1 TromboneVoiceIV measure 22]                        %! SM4
+    % [A1 TromboneVoiceIV measure 20]                    %! SM4
+    b8
+    -\marcato                                            %! IC
+    
+    r2..
+    
+    % [A1 TromboneVoiceIV measure 21]                    %! SM4
     R1 * 1
     
-    % [A1 TromboneVoiceIV measure 23]                        %! SM4
+    % [A1 TromboneVoiceIV measure 22]                    %! SM4
+    R1 * 1
+    
+    % [A1 TromboneVoiceIV measure 23]                    %! SM4
     R1 * 3/4
     
+}
+
+
+A_a_TromboneVoiceIV = {
+    \A_a_TromboneVoiceIV_a
 }
 
 

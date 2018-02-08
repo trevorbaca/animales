@@ -249,8 +249,8 @@ metadata = abjad.OrderedDict(
                                     (
                                         abjad.Part('Trombone', 1),
                                         abjad.Timespan(
-                                            start_offset=abjad.Offset(2, 1),
-                                            stop_offset=abjad.Offset(3, 1),
+                                            start_offset=abjad.Offset(0, 1),
+                                            stop_offset=abjad.Offset(23, 4),
                                             ),
                                         ),
                                     ),
@@ -259,8 +259,8 @@ metadata = abjad.OrderedDict(
                                     (
                                         abjad.Part('Trombone', 3),
                                         abjad.Timespan(
-                                            start_offset=abjad.Offset(2, 1),
-                                            stop_offset=abjad.Offset(3, 1),
+                                            start_offset=abjad.Offset(0, 1),
+                                            stop_offset=abjad.Offset(23, 4),
                                             ),
                                         ),
                                     ),
@@ -269,8 +269,8 @@ metadata = abjad.OrderedDict(
                                     (
                                         abjad.Part('Trombone', 2),
                                         abjad.Timespan(
-                                            start_offset=abjad.Offset(2, 1),
-                                            stop_offset=abjad.Offset(3, 1),
+                                            start_offset=abjad.Offset(0, 1),
+                                            stop_offset=abjad.Offset(23, 4),
                                             ),
                                         ),
                                     ),
@@ -279,8 +279,8 @@ metadata = abjad.OrderedDict(
                                     (
                                         abjad.Part('Trombone', 4),
                                         abjad.Timespan(
-                                            start_offset=abjad.Offset(2, 1),
-                                            stop_offset=abjad.Offset(3, 1),
+                                            start_offset=abjad.Offset(0, 1),
+                                            stop_offset=abjad.Offset(23, 4),
                                             ),
                                         ),
                                     ),
