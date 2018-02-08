@@ -463,6 +463,48 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'TromboneVoiceI',
+                        [
+                            abjad.Momento(
+                                context='TromboneVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='sffz',
+                                ),
+                            ],
+                        ),
+                    (
+                        'TromboneVoiceII',
+                        [
+                            abjad.Momento(
+                                context='TromboneVoiceII',
+                                prototype='abjad.Dynamic',
+                                value='sffz',
+                                ),
+                            ],
+                        ),
+                    (
+                        'TromboneVoiceIII',
+                        [
+                            abjad.Momento(
+                                context='TromboneVoiceIII',
+                                document='+PARTS',
+                                prototype='abjad.Dynamic',
+                                value='sffz',
+                                ),
+                            ],
+                        ),
+                    (
+                        'TromboneVoiceIV',
+                        [
+                            abjad.Momento(
+                                context='TromboneVoiceIV',
+                                document='+PARTS',
+                                prototype='abjad.Dynamic',
+                                value='sffz',
+                                ),
+                            ],
+                        ),
+                    (
                         'ViolaStaffI',
                         [
                             abjad.Momento(
