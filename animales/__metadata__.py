@@ -245,6 +245,86 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
+                                    'A_a_HornVoiceI_a',
+                                    (
+                                        abjad.Part('Horn', 1),
+                                        abjad.Timespan(
+                                            start_offset=abjad.Offset(0, 1),
+                                            stop_offset=abjad.Offset(23, 4),
+                                            ),
+                                        ),
+                                    ),
+                                (
+                                    'A_a_HornVoiceIII_a',
+                                    (
+                                        abjad.Part('Horn', 3),
+                                        abjad.Timespan(
+                                            start_offset=abjad.Offset(0, 1),
+                                            stop_offset=abjad.Offset(23, 4),
+                                            ),
+                                        ),
+                                    ),
+                                (
+                                    'A_a_HornVoiceII_a',
+                                    (
+                                        abjad.Part('Horn', 2),
+                                        abjad.Timespan(
+                                            start_offset=abjad.Offset(0, 1),
+                                            stop_offset=abjad.Offset(23, 4),
+                                            ),
+                                        ),
+                                    ),
+                                (
+                                    'A_a_HornVoiceIV_a',
+                                    (
+                                        abjad.Part('Horn', 4),
+                                        abjad.Timespan(
+                                            start_offset=abjad.Offset(0, 1),
+                                            stop_offset=abjad.Offset(23, 4),
+                                            ),
+                                        ),
+                                    ),
+                                (
+                                    'A_a_TrumpetVoiceI_a',
+                                    (
+                                        abjad.Part('Trumpet', 1),
+                                        abjad.Timespan(
+                                            start_offset=abjad.Offset(0, 1),
+                                            stop_offset=abjad.Offset(23, 4),
+                                            ),
+                                        ),
+                                    ),
+                                (
+                                    'A_a_TrumpetVoiceIII_a',
+                                    (
+                                        abjad.Part('Trumpet', 3),
+                                        abjad.Timespan(
+                                            start_offset=abjad.Offset(0, 1),
+                                            stop_offset=abjad.Offset(23, 4),
+                                            ),
+                                        ),
+                                    ),
+                                (
+                                    'A_a_TrumpetVoiceII_a',
+                                    (
+                                        abjad.Part('Trumpet', 2),
+                                        abjad.Timespan(
+                                            start_offset=abjad.Offset(0, 1),
+                                            stop_offset=abjad.Offset(23, 4),
+                                            ),
+                                        ),
+                                    ),
+                                (
+                                    'A_a_TrumpetVoiceIV_a',
+                                    (
+                                        abjad.Part('Trumpet', 4),
+                                        abjad.Timespan(
+                                            start_offset=abjad.Offset(0, 1),
+                                            stop_offset=abjad.Offset(23, 4),
+                                            ),
+                                        ),
+                                    ),
+                                (
                                     'A_a_TromboneVoiceI_a',
                                     (
                                         abjad.Part('Trombone', 1),
