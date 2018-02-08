@@ -208,30 +208,29 @@ maker(
     )
 
 maker(
-    baca.scope('TromboneVoiceI', 3),
+    baca.scope('TromboneVoiceI', 1, 6),
     animales.parts('Trombone', 1),
-    baca.clef('tenor'),
-    baca.tag(['+SCORE', '+SEGMENT'], baca.literal(r'\voiceOne')),
     baca.pitch('G4'),
+    baca.tag('-PARTS', baca.voice_one()),
     )
 
 maker(
-    baca.scope('TromboneVoiceIII', 3),
+    baca.scope('TromboneVoiceIII', 1, 6),
     animales.parts('Trombone', 3),
-    baca.literal(r'\voiceTwo'),
     baca.pitch('C4'),
+    baca.tag('-PARTS', baca.voice_two()),
     )
 
 maker(
-    baca.scope('TromboneVoiceII', 3),
+    baca.scope('TromboneVoiceII', 1, 6),
     animales.parts('Trombone', 2),
-    baca.literal(r'\voiceOne'),
     baca.pitch('Db4'),
+    baca.tag('-PARTS', baca.voice_one()),
     )
 
 maker(
-    baca.scope('TromboneVoiceIV', 3),
+    baca.scope('TromboneVoiceIV', 1, 6),
     animales.parts('Trombone', 4),
-    baca.literal(r'\voiceTwo'),
     baca.pitch('B3'),
+    baca.tag('-PARTS', baca.voice_two()),
     )
