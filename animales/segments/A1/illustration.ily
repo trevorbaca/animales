@@ -355,7 +355,8 @@ A_a_FirstViolinVoiceIII_a = {
                 }                                        %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
-    c'1
+    a''2
+    \glissando                                           %! SC
     ^ \markup {
         \column
             {
@@ -393,17 +394,65 @@ A_a_FirstViolinVoiceIII_a = {
         }                                                %! +SCORE:+SEGMENT:IC:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +SCORE:+SEGMENT:IC:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
     
+    b'8
+    \glissando                                           %! SC
+    [
+    
+    g''8
+    ]
+    \glissando                                           %! SC
+    
+    a'4
+    \glissando                                           %! SC
+    
     % [A1 FirstViolinVoiceIII measure 21]                %! SM4
-    c'1
-    \repeatTie
+    d'''8
+    \glissando                                           %! SC
+    [
+    
+    e''8
+    ]
+    \glissando                                           %! SC
+    
+    c'''2
+    \glissando                                           %! SC
+    
+    d''8
+    \glissando                                           %! SC
+    [
+    
+    g'''8
+    ]
+    \glissando                                           %! SC
     
     % [A1 FirstViolinVoiceIII measure 22]                %! SM4
-    c'1
-    \repeatTie
+    a''8
+    \glissando                                           %! SC
+    [
+    
+    f'''8
+    ]
+    \glissando                                           %! SC
+    
+    g''2
+    \glissando                                           %! SC
+    
+    b'''8
+    \glissando                                           %! SC
+    [
+    
+    d'''8
+    ]
+    \glissando                                           %! SC
     
     % [A1 FirstViolinVoiceIII measure 23]                %! SM4
-    c'2.
-    \repeatTie
+    a'''4
+    \glissando                                           %! SC
+    
+    c'''8
+    
+    c'''4.
+    \repeatTie                                           %! SC
     
 }
 
