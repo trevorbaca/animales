@@ -34,6 +34,48 @@
                     alignAboveContext = #"FirstViolinStaffI"
                 }
                 <<
+                    \context StaffGroup = "HornSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "HornStaffI"
+                        <<
+                            \context Voice = "HornVoiceI"
+                            \A_a_HornVoiceI
+                            \context Voice = "HornVoiceIII"
+                            \A_a_HornVoiceIII
+                        >>
+                        \context Staff = "HornStaffII"
+                        <<
+                            \context Voice = "HornVoiceII"
+                            \A_a_HornVoiceII
+                            \context Voice = "HornVoiceIV"
+                            \A_a_HornVoiceIV
+                        >>
+                    >>
+                    \context StaffGroup = "TrumpetSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "TrumpetStaffI"
+                        <<
+                            \context Voice = "TrumpetVoiceI"
+                            \A_a_TrumpetVoiceI
+                            \context Voice = "TrumpetVoiceIII"
+                            \A_a_TrumpetVoiceIII
+                        >>
+                        \context Staff = "TrumpetStaffII"
+                        <<
+                            \context Voice = "TrumpetVoiceII"
+                            \A_a_TrumpetVoiceII
+                            \context Voice = "TrumpetVoiceIV"
+                            \A_a_TrumpetVoiceIV
+                        >>
+                    >>
                     \context StaffGroup = "TromboneSquareStaffGroup"
                     \with
                     {
@@ -64,16 +106,13 @@
                         systemStartDelimiter = #'SystemStartSquare
                     }
                     <<
-                        \context Staff = "FirstViolinStaffIII"
-                        {
+                        \context Staff = "FirstViolinStaffI"
+                        <<
                             \context Voice = "FirstViolinVoiceIII"
                             \A_a_FirstViolinVoiceIII
-                        }
-                        \context Staff = "FirstViolinStaffI"
-                        {
                             \context Voice = "FirstViolinVoiceI"
                             \A_a_FirstViolinVoiceI
-                        }
+                        >>
                         \context Staff = "FirstViolinStaffII"
                         {
                             \context Voice = "FirstViolinVoiceII"

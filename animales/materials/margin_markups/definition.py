@@ -57,6 +57,14 @@ margin_markups = abjad.OrderedDict([
         _make_margin_markup('Hn.'),
         ),
     (
+        'Hn. (1+3)',
+        _make_margin_markup('Hn. (1+3)'),
+        ),
+    (
+        'Hn. (2+4)',
+        _make_margin_markup('Hn. (2+4)'),
+        ),
+    (
         'Ob.',
         _make_margin_markup('Ob.'),
         ),
@@ -77,8 +85,24 @@ margin_markups = abjad.OrderedDict([
         _make_margin_markup('Trb.'),
         ),
     (
+        'Trb. (1+3)',
+        _make_margin_markup('Trb. (1+3)'),
+        ),
+    (
+        'Trb. (2+4)',
+        _make_margin_markup('Trb. (2+4)'),
+        ),
+    (
         'Tp.',
         _make_margin_markup('Tp.'),
+        ),
+    (
+        'Tp. (1+3)',
+        _make_margin_markup('Tp. (1+3)'),
+        ),
+    (
+        'Tp. (2+4)',
+        _make_margin_markup('Tp. (2+4)'),
         ),
     (
         'Tub.',
