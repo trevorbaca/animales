@@ -77,10 +77,10 @@
                 {
                     \context Staff = "Staff"
                     {
-                    \i_a_GlobalRests
+                    \i_a_GlobalRests_Trombone_defaults
                     \i_b_GlobalRests
                     \i_c_GlobalRests
-                    \A_a_GlobalRests
+                    \A_a_TromboneVoiceIII_a
                     \A_b_TromboneVoiceI_a
                     }
                 }
