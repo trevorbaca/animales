@@ -121,17 +121,21 @@ maker(
     baca.trill_spanner_staff_padding(4),
     )
 
-# HERE
-# SOLO:
 maker(
     baca.scope('FirstViolinVoiceIII', 3, 6),
-    animales.parts('FirstViolin', 1),
-    baca.make_tied_notes(repeat_ties=True),
+    animales.glissando_rhythm(),
     animales.margin_markup(
         'Vni. I (1)',
         alert=baca.markup('solo (first violin)'),
         ),
-    baca.pitch(0),
+    animales.parts('FirstViolin', 1),
+    baca.suite([
+        baca.untie_to(baca.leaves()),
+        animales.glissando_pitches(reverse=True),
+        baca.pitch('C6', baca.pleaf(-1)),
+        baca.repeat_tie_repeat_pitches(),
+        baca.glissando(),
+        ]),
     )
 
 divisi = [
