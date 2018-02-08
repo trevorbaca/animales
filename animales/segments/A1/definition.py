@@ -19,6 +19,7 @@ maker = baca.SegmentMaker(
     metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
+        trombones=[(1, [1, 3]), (2, [2, 4])],
         first_violins=[
             (3, [3]), # empty / solo
             (1, [1]), # 1-10 / 2-18
@@ -192,4 +193,45 @@ maker(
 maker(
     baca.scope('CelloVoiceI', 1, 6),
     animales.parts('Cello'),
+    )
+
+maker(
+    baca.scopes(
+        ('TromboneVoiceI', 3),
+        ('TromboneVoiceII', 3),
+        ('TromboneVoiceIII', 3),
+        ('TromboneVoiceIV', 3),
+    ),
+    animales.downbeat_attack(),
+    baca.marcati(),
+    #baca.dynamic('sffz'),
+    )
+
+maker(
+    baca.scope('TromboneVoiceI', 3),
+    animales.parts('Trombone', 1),
+    baca.clef('tenor'),
+    baca.tag(['+SCORE', '+SEGMENT'], baca.literal(r'\voiceOne')),
+    baca.pitch('G4'),
+    )
+
+maker(
+    baca.scope('TromboneVoiceIII', 3),
+    animales.parts('Trombone', 3),
+    baca.literal(r'\voiceTwo'),
+    baca.pitch('C4'),
+    )
+
+maker(
+    baca.scope('TromboneVoiceII', 3),
+    animales.parts('Trombone', 2),
+    baca.literal(r'\voiceOne'),
+    baca.pitch('Db4'),
+    )
+
+maker(
+    baca.scope('TromboneVoiceIV', 3),
+    animales.parts('Trombone', 4),
+    baca.literal(r'\voiceTwo'),
+    baca.pitch('B3'),
     )
