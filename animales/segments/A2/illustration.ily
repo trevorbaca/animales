@@ -346,11 +346,11 @@ A_b_TromboneVoiceI_a = {
             #16                                              %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
             Trb.                                             %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                               %! ST3:DEFAULT_CLEF:SM8
-    \clef "tenor"                                            %! ST3:DEFAULT_CLEF:SM8
+    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
+    \clef "tenor"                                            %! REAPPLIED_CLEF:SM8
+    \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
+%@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! +SCORE:+SEGMENT:ST2:DEFAULT_MARGIN_MARKUP_COLOR:SM6
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
-%@% \override Staff.Clef.color = ##f                         %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
     \makeBlue                                                %! SM24
     c'2.
     ^ \markup {
@@ -380,8 +380,8 @@ A_b_TromboneVoiceI_a = {
             #16                                              %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
             Trb.                                             %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP:SM8
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
     \override Staff.InstrumentName.color = #(x11-color 'violet) %! +SCORE:+SEGMENT:ST2:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:SM6
-    \override Staff.Clef.color = #(x11-color 'violet)        %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
     
     % [A2 TromboneVoiceI measure 25]                         %! SM4
     \makeBlue                                                %! SM24
