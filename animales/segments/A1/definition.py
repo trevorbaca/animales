@@ -204,7 +204,22 @@ maker(
     ),
     animales.downbeat_attack(),
     baca.marcati(),
-    #baca.dynamic('sffz'),
+    )
+
+maker(
+    baca.scopes(
+        ('TromboneVoiceI', 3),
+        ('TromboneVoiceII', 3),
+    ),
+    baca.dynamic('sffz'),
+    )
+
+maker(
+    baca.scopes(
+        ('TromboneVoiceIII', 3),
+        ('TromboneVoiceIV', 3),
+    ),
+    baca.tag('+PARTS', baca.dynamic('sffz')),
     )
 
 maker(

@@ -348,8 +348,10 @@ A_a_TromboneVoiceI_a = {
     R1 * 1
     
     % [A1 TromboneVoiceI measure 20]                     %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     g'8
     -\marcato                                            %! IC
+    \sffz                                                %! IC:EXPLICIT_DYNAMIC:SM8
     
     r2..
     
@@ -419,8 +421,10 @@ A_a_TromboneVoiceIII_a = {
     R1 * 1
     
     % [A1 TromboneVoiceIII measure 20]                   %! SM4
+%%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! +PARTS:IC:EXPLICIT_DYNAMIC_COLOR:SM6
     c'8
     -\marcato                                            %! IC
+%%% \sffz                                                %! +PARTS:IC:EXPLICIT_DYNAMIC:SM8
     
     r2..
     
@@ -456,8 +460,10 @@ A_a_TromboneVoiceII_a = {
     R1 * 1
     
     % [A1 TromboneVoiceII measure 20]                    %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     df'8
     -\marcato                                            %! IC
+    \sffz                                                %! IC:EXPLICIT_DYNAMIC:SM8
     
     r2..
     
@@ -527,8 +533,10 @@ A_a_TromboneVoiceIV_a = {
     R1 * 1
     
     % [A1 TromboneVoiceIV measure 20]                    %! SM4
+%%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! +PARTS:IC:EXPLICIT_DYNAMIC_COLOR:SM6
     b8
     -\marcato                                            %! IC
+%%% \sffz                                                %! +PARTS:IC:EXPLICIT_DYNAMIC:SM8
     
     r2..
     
