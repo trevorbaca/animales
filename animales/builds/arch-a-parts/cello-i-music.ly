@@ -6,6 +6,7 @@
 
 #(ly:set-option 'relative-includes #t)
 \include "stylesheet.ily"
+\include "_segments/first-segment-defaults.ily"
 \include "_segments/segment--1.ily"
 \include "_segments/segment--2.ily"
 \include "_segments/segment--3.ily"
