@@ -286,6 +286,16 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'FirstViolinVoiceIII',
+                        [
+                            abjad.Momento(
+                                context='FirstViolinVoiceIII',
+                                prototype='abjad.Dynamic',
+                                value='p',
+                                ),
+                            ],
+                        ),
+                    (
                         'Score',
                         [
                             abjad.Momento(
