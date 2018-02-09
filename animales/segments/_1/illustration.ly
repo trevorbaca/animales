@@ -32,15 +32,9 @@
                     }
                     <<
                         \context Staff = "FirstViolinStaffI"
-                        {
-                            \context Voice = "FirstViolinVoiceI"
-                            \i_a_FirstViolinVoiceI
-                        }
+                        \i_a_FirstViolinStaffI
                         \context Staff = "FirstViolinStaffII"
-                        {
-                            \context Voice = "FirstViolinVoiceII"
-                            \i_a_FirstViolinVoiceII
-                        }
+                        \i_a_FirstViolinStaffII
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup"
                     \with
@@ -49,15 +43,9 @@
                     }
                     <<
                         \context Staff = "SecondViolinStaffI"
-                        {
-                            \context Voice = "SecondViolinVoiceI"
-                            \i_a_SecondViolinVoiceI
-                        }
+                        \i_a_SecondViolinStaffI
                         \context Staff = "SecondViolinStaffII"
-                        {
-                            \context Voice = "SecondViolinVoiceII"
-                            \i_a_SecondViolinVoiceII
-                        }
+                        \i_a_SecondViolinStaffII
                     >>
                     \context StaffGroup = "ViolaSquareStaffGroup"
                     \with
@@ -66,21 +54,12 @@
                     }
                     <<
                         \context Staff = "ViolaStaffI"
-                        {
-                            \context Voice = "ViolaVoiceI"
-                            \i_a_ViolaVoiceI
-                        }
+                        \i_a_ViolaStaffI
                         \context Staff = "ViolaStaffII"
-                        {
-                            \context Voice = "ViolaVoiceII"
-                            \i_a_ViolaVoiceII
-                        }
+                        \i_a_ViolaStaffII
                     >>
                     \context Staff = "CelloStaffI"
-                    {
-                        \context Voice = "CelloVoiceI"
-                        \i_a_CelloVoiceI
-                    }
+                    \i_a_CelloStaffI
                 >>
             >>
         >>

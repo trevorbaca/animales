@@ -396,6 +396,12 @@ i_c_FirstViolinVoiceI = {
 }
 
 
+i_c_FirstViolinStaffI = {
+    \context Voice = "FirstViolinVoiceI"
+    \i_c_FirstViolinVoiceI
+}
+
+
 i_c_FirstViolinVoiceII_a = {
     
     % [_3 FirstViolinVoiceII measure 13]                 %! SM4
@@ -512,6 +518,12 @@ i_c_FirstViolinVoiceII = {
 }
 
 
+i_c_FirstViolinStaffII = {
+    \context Voice = "FirstViolinVoiceII"
+    \i_c_FirstViolinVoiceII
+}
+
+
 i_c_SecondViolinVoiceI_a = {
     
     % [_3 SecondViolinVoiceI measure 13]                 %! SM4
@@ -622,6 +634,12 @@ i_c_SecondViolinVoiceI_a = {
 
 i_c_SecondViolinVoiceI = {
     \i_c_SecondViolinVoiceI_a
+}
+
+
+i_c_SecondViolinStaffI = {
+    \context Voice = "SecondViolinVoiceI"
+    \i_c_SecondViolinVoiceI
 }
 
 
@@ -750,6 +768,12 @@ i_c_SecondViolinVoiceII = {
 }
 
 
+i_c_SecondViolinStaffII = {
+    \context Voice = "SecondViolinVoiceII"
+    \i_c_SecondViolinVoiceII
+}
+
+
 i_c_ViolaVoiceI_a = {
     
     % [_3 ViolaVoiceI measure 13]                        %! SM4
@@ -862,6 +886,12 @@ i_c_ViolaVoiceI = {
 }
 
 
+i_c_ViolaStaffI = {
+    \context Voice = "ViolaVoiceI"
+    \i_c_ViolaVoiceI
+}
+
+
 i_c_ViolaVoiceII_a = {
     
     % [_3 ViolaVoiceII measure 13]                       %! SM4
@@ -968,6 +998,12 @@ i_c_ViolaVoiceII = {
 }
 
 
+i_c_ViolaStaffII = {
+    \context Voice = "ViolaVoiceII"
+    \i_c_ViolaVoiceII
+}
+
+
 i_c_CelloVoiceI_a = {
     
     % [_3 CelloVoiceI measure 13]                            %! SM4
@@ -1058,4 +1094,10 @@ i_c_CelloVoiceI_a = {
 
 i_c_CelloVoiceI = {
     \i_c_CelloVoiceI_a
+}
+
+
+i_c_CelloStaffI = {
+    \context Voice = "CelloVoiceI"
+    \i_c_CelloVoiceI
 }

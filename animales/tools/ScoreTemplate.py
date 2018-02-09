@@ -286,7 +286,6 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>
         >>
 
-
     '''
 
     ### CLASS VARIABLES ###

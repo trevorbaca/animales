@@ -443,6 +443,12 @@ A_a_ClarinetVoiceI = {
 }
 
 
+A_a_ClarinetStaffI = {
+    \context Voice = "ClarinetVoiceI"
+    \A_a_ClarinetVoiceI
+}
+
+
 A_a_HornVoiceI_a = {
     
     % [A1 HornVoiceI measure 18]                         %! SM4
@@ -608,6 +614,14 @@ A_a_HornVoiceIII_a = {
 A_a_HornVoiceIII = {
     \A_a_HornVoiceIII_a
 }
+
+
+A_a_HornStaffI = <<
+    \context Voice = "HornVoiceI"
+    \A_a_HornVoiceI
+    \context Voice = "HornVoiceIII"
+    \A_a_HornVoiceIII
+>>
 
 
 A_a_HornVoiceII_a = {
@@ -777,6 +791,14 @@ A_a_HornVoiceIV = {
 }
 
 
+A_a_HornStaffII = <<
+    \context Voice = "HornVoiceII"
+    \A_a_HornVoiceII
+    \context Voice = "HornVoiceIV"
+    \A_a_HornVoiceIV
+>>
+
+
 A_a_TrumpetVoiceI_a = {
     
     % [A1 TrumpetVoiceI measure 18]                      %! SM4
@@ -942,6 +964,14 @@ A_a_TrumpetVoiceIII_a = {
 A_a_TrumpetVoiceIII = {
     \A_a_TrumpetVoiceIII_a
 }
+
+
+A_a_TrumpetStaffI = <<
+    \context Voice = "TrumpetVoiceI"
+    \A_a_TrumpetVoiceI
+    \context Voice = "TrumpetVoiceIII"
+    \A_a_TrumpetVoiceIII
+>>
 
 
 A_a_TrumpetVoiceII_a = {
@@ -1111,6 +1141,14 @@ A_a_TrumpetVoiceIV = {
 }
 
 
+A_a_TrumpetStaffII = <<
+    \context Voice = "TrumpetVoiceII"
+    \A_a_TrumpetVoiceII
+    \context Voice = "TrumpetVoiceIV"
+    \A_a_TrumpetVoiceIV
+>>
+
+
 A_a_TromboneVoiceI_a = {
     
     % [A1 TromboneVoiceI measure 18]                     %! SM4
@@ -1276,6 +1314,14 @@ A_a_TromboneVoiceIII_a = {
 A_a_TromboneVoiceIII = {
     \A_a_TromboneVoiceIII_a
 }
+
+
+A_a_TromboneStaffI = <<
+    \context Voice = "TromboneVoiceI"
+    \A_a_TromboneVoiceI
+    \context Voice = "TromboneVoiceIII"
+    \A_a_TromboneVoiceIII
+>>
 
 
 A_a_TromboneVoiceII_a = {
@@ -1445,6 +1491,14 @@ A_a_TromboneVoiceIV = {
 }
 
 
+A_a_TromboneStaffII = <<
+    \context Voice = "TromboneVoiceII"
+    \A_a_TromboneVoiceII
+    \context Voice = "TromboneVoiceIV"
+    \A_a_TromboneVoiceIV
+>>
+
+
 A_a_PercussionVoiceI_a = {
     
     % [A1 PercussionVoiceI measure 18]                       %! SM4
@@ -1594,6 +1648,12 @@ A_a_PercussionVoiceI = {
 }
 
 
+A_a_PercussionStaffI = {
+    \context Voice = "PercussionVoiceI"
+    \A_a_PercussionVoiceI
+}
+
+
 A_a_PercussionVoiceII_a = {
     
     % [A1 PercussionVoiceII measure 18]                      %! SM4
@@ -1740,6 +1800,12 @@ A_a_PercussionVoiceII_a = {
 
 A_a_PercussionVoiceII = {
     \A_a_PercussionVoiceII_a
+}
+
+
+A_a_PercussionStaffII = {
+    \context Voice = "PercussionVoiceII"
+    \A_a_PercussionVoiceII
 }
 
 
@@ -2020,6 +2086,14 @@ A_a_FirstViolinVoiceI = {
 }
 
 
+A_a_FirstViolinStaffI = <<
+    \context Voice = "FirstViolinVoiceIII"
+    \A_a_FirstViolinVoiceIII
+    \context Voice = "FirstViolinVoiceI"
+    \A_a_FirstViolinVoiceI
+>>
+
+
 A_a_FirstViolinVoiceII_a = {
     
     % [A1 FirstViolinVoiceII measure 18]                 %! SM4
@@ -2120,6 +2194,12 @@ A_a_FirstViolinVoiceII = {
     % [A1 FirstViolinVoiceII measure 23]                     %! SM4
     s1 * 3/4
     
+}
+
+
+A_a_FirstViolinStaffII = {
+    \context Voice = "FirstViolinVoiceII"
+    \A_a_FirstViolinVoiceII
 }
 
 
@@ -2288,6 +2368,12 @@ A_a_SecondViolinVoiceI = {
 }
 
 
+A_a_SecondViolinStaffI = {
+    \context Voice = "SecondViolinVoiceI"
+    \A_a_SecondViolinVoiceI
+}
+
+
 A_a_SecondViolinVoiceII_a = {
     \times 2/3 {
         
@@ -2394,6 +2480,12 @@ A_a_SecondViolinVoiceII = {
     % [A1 SecondViolinVoiceII measure 23]                    %! SM4
     s1 * 3/4
     
+}
+
+
+A_a_SecondViolinStaffII = {
+    \context Voice = "SecondViolinVoiceII"
+    \A_a_SecondViolinVoiceII
 }
 
 
@@ -2550,6 +2642,12 @@ A_a_ViolaVoiceI = {
 }
 
 
+A_a_ViolaStaffI = {
+    \context Voice = "ViolaVoiceI"
+    \A_a_ViolaVoiceI
+}
+
+
 A_a_ViolaVoiceII_a = {
     
     % [A1 ViolaVoiceII measure 18]                       %! SM4
@@ -2649,6 +2747,12 @@ A_a_ViolaVoiceII = {
 }
 
 
+A_a_ViolaStaffII = {
+    \context Voice = "ViolaVoiceII"
+    \A_a_ViolaVoiceII
+}
+
+
 A_a_CelloVoiceI_b = {
     
     % [A1 CelloVoiceI measure 18]                        %! SM4
@@ -2745,6 +2849,12 @@ A_a_CelloVoiceI = {
 }
 
 
+A_a_CelloStaffI = {
+    \context Voice = "CelloVoiceI"
+    \A_a_CelloVoiceI
+}
+
+
 A_a_ContrabassVoiceI_a = {
     
     % [A1 ContrabassVoiceI measure 18]                       %! SM4
@@ -2822,4 +2932,10 @@ A_a_ContrabassVoiceI_a = {
 
 A_a_ContrabassVoiceI = {
     \A_a_ContrabassVoiceI_a
+}
+
+
+A_a_ContrabassStaffI = {
+    \context Voice = "ContrabassVoiceI"
+    \A_a_ContrabassVoiceI
 }
