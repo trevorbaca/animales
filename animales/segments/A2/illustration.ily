@@ -440,6 +440,12 @@ A_b_ClarinetVoiceI = {
 }
 
 
+A_b_ClarinetStaffI = {
+    \context Voice = "ClarinetVoiceI"
+    \A_b_ClarinetVoiceI
+}
+
+
 A_b_PercussionVoiceI_a = {
     
     % [A2 PercussionVoiceI measure 24]                       %! SM4
@@ -548,6 +554,12 @@ A_b_PercussionVoiceI_a = {
 
 A_b_PercussionVoiceI = {
     \A_b_PercussionVoiceI_a
+}
+
+
+A_b_PercussionStaffI = {
+    \context Voice = "PercussionVoiceI"
+    \A_b_PercussionVoiceI
 }
 
 
@@ -662,6 +674,12 @@ A_b_PercussionVoiceII = {
 }
 
 
+A_b_PercussionStaffII = {
+    \context Voice = "PercussionVoiceII"
+    \A_b_PercussionVoiceII
+}
+
+
 A_b_FirstViolinVoiceI = {
     
     % [A2 FirstViolinVoiceI measure 24]                      %! SM4
@@ -744,6 +762,12 @@ A_b_FirstViolinVoiceI = {
     % [A2 FirstViolinVoiceI measure 29]                      %! SM4
     R1 * 3/4
     
+}
+
+
+A_b_FirstViolinStaffI = {
+    \context Voice = "FirstViolinVoiceI"
+    \A_b_FirstViolinVoiceI
 }
 
 
@@ -836,6 +860,12 @@ A_b_FirstViolinVoiceII = {
 }
 
 
+A_b_FirstViolinStaffII = {
+    \context Voice = "FirstViolinVoiceII"
+    \A_b_FirstViolinVoiceII
+}
+
+
 A_b_SecondViolinVoiceI = {
     
     % [A2 SecondViolinVoiceI measure 24]                     %! SM4
@@ -918,6 +948,12 @@ A_b_SecondViolinVoiceI = {
     % [A2 SecondViolinVoiceI measure 29]                     %! SM4
     R1 * 3/4
     
+}
+
+
+A_b_SecondViolinStaffI = {
+    \context Voice = "SecondViolinVoiceI"
+    \A_b_SecondViolinVoiceI
 }
 
 
@@ -1010,6 +1046,12 @@ A_b_SecondViolinVoiceII = {
 }
 
 
+A_b_SecondViolinStaffII = {
+    \context Voice = "SecondViolinVoiceII"
+    \A_b_SecondViolinVoiceII
+}
+
+
 A_b_ViolaVoiceI = {
     
     % [A2 ViolaVoiceI measure 24]                            %! SM4
@@ -1076,6 +1118,12 @@ A_b_ViolaVoiceI = {
     % [A2 ViolaVoiceI measure 29]                            %! SM4
     R1 * 3/4
     
+}
+
+
+A_b_ViolaStaffI = {
+    \context Voice = "ViolaVoiceI"
+    \A_b_ViolaVoiceI
 }
 
 
@@ -1164,6 +1212,12 @@ A_b_ViolaVoiceII = {
 }
 
 
+A_b_ViolaStaffII = {
+    \context Voice = "ViolaVoiceII"
+    \A_b_ViolaVoiceII
+}
+
+
 A_b_CelloVoiceI = {
     
     % [A2 CelloVoiceI measure 24]                                %! SM4
@@ -1233,6 +1287,12 @@ A_b_CelloVoiceI = {
 }
 
 
+A_b_CelloStaffI = {
+    \context Voice = "CelloVoiceI"
+    \A_b_CelloVoiceI
+}
+
+
 A_b_ContrabassVoiceI = {
     
     % [A2 ContrabassVoiceI measure 24]                           %! SM4
@@ -1299,4 +1359,10 @@ A_b_ContrabassVoiceI = {
     % [A2 ContrabassVoiceI measure 29]                           %! SM4
     R1 * 3/4
     
+}
+
+
+A_b_ContrabassStaffI = {
+    \context Voice = "ContrabassVoiceI"
+    \A_b_ContrabassVoiceI
 }
