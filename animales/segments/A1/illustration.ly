@@ -158,6 +158,11 @@
                         \context Voice = "CelloVoiceI"
                         \A_a_CelloVoiceI
                     }
+                    \context Staff = "ContrabassStaffI"
+                    {
+                        \context Voice = "ContrabassVoiceI"
+                        \A_a_ContrabassVoiceI
+                    }
                 >>
             >>
         >>

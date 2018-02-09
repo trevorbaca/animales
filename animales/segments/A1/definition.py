@@ -44,6 +44,7 @@ maker = baca.SegmentMaker(
             (2, [2]),
             ],
         cellos=[(1, [1])],
+        contrabasses=[(1, [1])],
         ),
     time_signatures=animales.time_signatures[start:start + 6],
     transpose_score=True,
@@ -380,4 +381,18 @@ maker(
     animales.parts('Horn', 4),
     baca.pitch('E3'),
     baca.tag('-PARTS', baca.voice_two()),
+    )
+
+# contrabass
+
+maker(
+    baca.scope('ContrabassVoiceI', 3, 6),
+    baca.hairpin('p < mf'),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('C2'),
+    )
+
+maker(
+    baca.scope('ContrabassVoiceI', 1, 6),
+    animales.parts('Contrabass'),
     )
