@@ -533,7 +533,7 @@
             
             % [PageLayout measure 20]                                                    %! SM4
             \newSpacingSection                                                           %! SPACING:HSS1
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! SPACING:HSS1
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! SPACING:HSS1
             \noBreak                                                                     %! BREAK:BMM2
             s1 * 1
             ^ \markup {
@@ -553,14 +553,14 @@
                     %@%             #(x11-color 'ForestGreen)                            %! SPACING_MARKUP:HSS2
                     %@%             \fontsize                                            %! SPACING_MARKUP:HSS2
                     %@%                 #3                                               %! SPACING_MARKUP:HSS2
-                    %@%                 [1/8]                                            %! SPACING_MARKUP:HSS2
+                    %@%                 [1/20]                                           %! SPACING_MARKUP:HSS2
                     %@%     }                                                            %! SPACING_MARKUP:HSS2
                     }
                 }
             
             % [PageLayout measure 21]                                                    %! SM4
             \newSpacingSection                                                           %! SPACING:HSS1
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! SPACING:HSS1
+            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! SPACING:HSS1
             \noBreak                                                                     %! BREAK:BMM2
             s1 * 1
             ^ \markup {
@@ -580,15 +580,18 @@
                     %@%             #(x11-color 'ForestGreen)                            %! SPACING_MARKUP:HSS2
                     %@%             \fontsize                                            %! SPACING_MARKUP:HSS2
                     %@%                 #3                                               %! SPACING_MARKUP:HSS2
-                    %@%                 [1/8]                                            %! SPACING_MARKUP:HSS2
+                    %@%                 [[35/480]]                                       %! SPACING_MARKUP:HSS2
                     %@%     }                                                            %! SPACING_MARKUP:HSS2
                     }
                 }
             
             % [PageLayout measure 22]                                                    %! SM4
             \newSpacingSection                                                           %! SPACING:HSS1
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! SPACING:HSS1
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! SPACING:HSS1
             \noBreak                                                                     %! BREAK:BMM2
+            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! BREAK:IC
+            #'((Y-offset . 0) (alignment-distances . (20 18)))                           %! BREAK:IC
+            \pageBreak                                                                   %! BREAK:IC
             s1 * 1
             ^ \markup {
                 \column
@@ -607,14 +610,14 @@
                     %@%             #(x11-color 'ForestGreen)                            %! SPACING_MARKUP:HSS2
                     %@%             \fontsize                                            %! SPACING_MARKUP:HSS2
                     %@%                 #3                                               %! SPACING_MARKUP:HSS2
-                    %@%                 [1/8]                                            %! SPACING_MARKUP:HSS2
+                    %@%                 [1/20]                                           %! SPACING_MARKUP:HSS2
                     %@%     }                                                            %! SPACING_MARKUP:HSS2
                     }
                 }
             
             % [PageLayout measure 23]                                                    %! SM4
             \newSpacingSection                                                           %! SPACING:HSS1
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 192)           %! SPACING:HSS1
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! SPACING:HSS1
             \noBreak                                                                     %! BREAK:BMM2
             s1 * 3/4
             ^ \markup {
@@ -634,18 +637,15 @@
                     %@%             #(x11-color 'ForestGreen)                            %! SPACING_MARKUP:HSS2
                     %@%             \fontsize                                            %! SPACING_MARKUP:HSS2
                     %@%                 #3                                               %! SPACING_MARKUP:HSS2
-                    %@%                 [[35/192]]                                       %! SPACING_MARKUP:HSS2
+                    %@%                 [1/20]                                           %! SPACING_MARKUP:HSS2
                     %@%     }                                                            %! SPACING_MARKUP:HSS2
                     }
                 }
             
             % [PageLayout measure 24]                                                    %! SM4
             \newSpacingSection                                                           %! SPACING:HSS1
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! SPACING:HSS1
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! SPACING:HSS1
             \noBreak                                                                     %! BREAK:BMM2
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! BREAK:IC
-            #'((Y-offset . 170) (alignment-distances . (20 18)))                         %! BREAK:IC
-            \break                                                                       %! BREAK:IC
             s1 * 3/4
             ^ \markup {
                 \column
@@ -664,14 +664,14 @@
                     %@%             #(x11-color 'ForestGreen)                            %! SPACING_MARKUP:HSS2
                     %@%             \fontsize                                            %! SPACING_MARKUP:HSS2
                     %@%                 #3                                               %! SPACING_MARKUP:HSS2
-                    %@%                 [1/8]                                            %! SPACING_MARKUP:HSS2
+                    %@%                 [1/20]                                           %! SPACING_MARKUP:HSS2
                     %@%     }                                                            %! SPACING_MARKUP:HSS2
                     }
                 }
             
             % [PageLayout measure 25]                                                    %! SM4
             \newSpacingSection                                                           %! SPACING:HSS1
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! SPACING:HSS1
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! SPACING:HSS1
             \noBreak                                                                     %! BREAK:BMM2
             s1 * 1
             ^ \markup {
@@ -691,14 +691,14 @@
                     %@%             #(x11-color 'ForestGreen)                            %! SPACING_MARKUP:HSS2
                     %@%             \fontsize                                            %! SPACING_MARKUP:HSS2
                     %@%                 #3                                               %! SPACING_MARKUP:HSS2
-                    %@%                 [1/8]                                            %! SPACING_MARKUP:HSS2
+                    %@%                 [1/20]                                           %! SPACING_MARKUP:HSS2
                     %@%     }                                                            %! SPACING_MARKUP:HSS2
                     }
                 }
             
             % [PageLayout measure 26]                                                    %! SM4
             \newSpacingSection                                                           %! SPACING:HSS1
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! SPACING:HSS1
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! SPACING:HSS1
             \noBreak                                                                     %! BREAK:BMM2
             s1 * 1
             ^ \markup {
@@ -718,14 +718,14 @@
                     %@%             #(x11-color 'ForestGreen)                            %! SPACING_MARKUP:HSS2
                     %@%             \fontsize                                            %! SPACING_MARKUP:HSS2
                     %@%                 #3                                               %! SPACING_MARKUP:HSS2
-                    %@%                 [1/8]                                            %! SPACING_MARKUP:HSS2
+                    %@%                 [1/20]                                           %! SPACING_MARKUP:HSS2
                     %@%     }                                                            %! SPACING_MARKUP:HSS2
                     }
                 }
             
             % [PageLayout measure 27]                                                    %! SM4
             \newSpacingSection                                                           %! SPACING:HSS1
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! SPACING:HSS1
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! SPACING:HSS1
             \noBreak                                                                     %! BREAK:BMM2
             s1 * 1
             ^ \markup {
@@ -745,14 +745,14 @@
                     %@%             #(x11-color 'ForestGreen)                            %! SPACING_MARKUP:HSS2
                     %@%             \fontsize                                            %! SPACING_MARKUP:HSS2
                     %@%                 #3                                               %! SPACING_MARKUP:HSS2
-                    %@%                 [1/8]                                            %! SPACING_MARKUP:HSS2
+                    %@%                 [1/20]                                           %! SPACING_MARKUP:HSS2
                     %@%     }                                                            %! SPACING_MARKUP:HSS2
                     }
                 }
             
             % [PageLayout measure 28]                                                    %! SM4
             \newSpacingSection                                                           %! SPACING:HSS1
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! SPACING:HSS1
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! SPACING:HSS1
             \noBreak                                                                     %! BREAK:BMM2
             s1 * 3/4
             ^ \markup {
@@ -772,14 +772,14 @@
                     %@%             #(x11-color 'ForestGreen)                            %! SPACING_MARKUP:HSS2
                     %@%             \fontsize                                            %! SPACING_MARKUP:HSS2
                     %@%                 #3                                               %! SPACING_MARKUP:HSS2
-                    %@%                 [1/8]                                            %! SPACING_MARKUP:HSS2
+                    %@%                 [1/20]                                           %! SPACING_MARKUP:HSS2
                     %@%     }                                                            %! SPACING_MARKUP:HSS2
                     }
                 }
             
             % [PageLayout measure 29]                                                    %! SM4
             \newSpacingSection                                                           %! SPACING:HSS1
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 192)           %! SPACING:HSS1
+            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! SPACING:HSS1
             \noBreak                                                                     %! BREAK:BMM2
             s1 * 3/4
             ^ \markup {
@@ -799,7 +799,7 @@
                     %@%             #(x11-color 'ForestGreen)                            %! SPACING_MARKUP:HSS2
                     %@%             \fontsize                                            %! SPACING_MARKUP:HSS2
                     %@%                 #3                                               %! SPACING_MARKUP:HSS2
-                    %@%                 [[35/192]]                                       %! SPACING_MARKUP:HSS2
+                    %@%                 [[35/480]]                                       %! SPACING_MARKUP:HSS2
                     %@%     }                                                            %! SPACING_MARKUP:HSS2
                     }
                 }

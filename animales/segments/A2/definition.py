@@ -19,13 +19,31 @@ maker = baca.SegmentMaker(
     metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
-        trombones=[(1, [1])],
-        percussion=[(1, [1])],
-        first_violins=[(1, [1])],
-        second_violins=[(1, [1])],
-        violas=[(1, [1])],
-        cellos=[(1, [1])],
-        contrabasses=[(1, [1])],
+        clarinets=[
+            (1, [1]),
+            ],
+        percussion=[
+            (1, [1]),
+            (2, [2]),
+            ],
+        first_violins=[
+            (1, [1]),
+            (2, [2]),
+            ],
+        second_violins=[
+            (1, [1]),
+            (2, [2]),
+            ],
+        violas=[
+            (1, [1]),
+            (2, [2]),
+            ],
+        cellos=[
+            (1, [1]),
+            ],
+        contrabasses=[
+            (1, [1]),
+            ],
         ),
     time_signatures=animales.time_signatures[start:start + 6],
     transpose_score=True,
@@ -33,52 +51,86 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('TromboneVoiceI', 1, 6),
-    animales.parts('Trombone'),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.scope('ClarinetVoiceI', 1, 6),
+    animales.margin_markup('Cl. 2'),
+    animales.parts('Clarinet', 2),
+    baca.dynamic('mp'),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('C#5'),
+    baca.tag('-PARTS', baca.markup('solo (cl. 2)')),
+    baca.tag('+PARTS', baca.markup('solo')),
     )
 
 maker(
-    baca.scope('FirstViolinVoiceI', 1, 6),
-    animales.parts('FirstViolin'),
-    baca.make_tied_notes(repeat_ties=True),
-    baca.tie_to(repeat=True),
-    )
-
-maker(
-    baca.scope('SecondViolinVoiceI', 1, 6),
-    animales.parts('SecondViolin'),
-    baca.make_tied_notes(repeat_ties=True),
-    baca.tie_to(repeat=True),
-    )
-
-maker(
-    baca.scope('ViolaVoiceI', 1, 6),
-    animales.parts('Viola'),
-    baca.make_tied_notes(repeat_ties=True),
-    baca.tie_to(repeat=True),
-    )
-
-maker(
-    baca.scope('CelloVoiceI', 1, 6),
-    animales.parts('Cello'),
-    baca.make_tied_notes(repeat_ties=True),
-    baca.tie_to(repeat=True),
-    )
-
-strings = [
-    'FirstViolinVoiceI',
-    'SecondViolinVoiceI',
-    'ViolaVoiceI',
-    'CelloVoiceI',
-    ]
-
-maker(
-    baca.make_scopes(strings, [(1, 6)]),
-    baca.pitch('C4'),
-    )
-
-maker(
-    baca.scope('ViolaVoiceI', 3, 6),
+    baca.scope('PercussionVoiceI', 1, 6),
+    animales.parts('Percussion', 1),
+    baca.make_repeat_tied_notes(),
+    baca.staff_position(0),
+    baca.repeat_tie_to(),
     baca.repeat_ties_up(),
+    baca.stem_tremolo(),
+    baca.tag(
+        '-PARTS',
+        baca.bar_extent((0, 0), after=True, selector=baca.leaves()),
+        ),
+    baca.tag(
+        '-PARTS',
+        baca.bar_extent((0, 0), after=True, selector=baca.leaf(-1)),
+        ),
     )
+
+maker(
+    baca.scope('PercussionVoiceII', 1, 6),
+    animales.parts('Percussion', 2),
+    baca.make_repeat_tied_notes(),
+    baca.staff_position(0),
+    baca.repeat_tie_to(),
+    baca.repeat_ties_up(),
+    baca.stem_tremolo(),
+    baca.tag(
+        '-PARTS',
+        baca.bar_extent((0, 0), after=True, selector=baca.leaves()),
+        ),
+    baca.tag(
+        '-PARTS',
+        baca.bar_extent((0, 0), after=True, selector=baca.leaf(-1)),
+        ),
+    )
+
+#maker(
+#    baca.scope('SecondViolinVoiceI', 1, 6),
+#    animales.parts('SecondViolin'),
+#    baca.make_tied_notes(repeat_ties=True),
+#    baca.tie_to(repeat=True),
+#    )
+#
+#maker(
+#    baca.scope('ViolaVoiceI', 1, 6),
+#    animales.parts('Viola'),
+#    baca.make_tied_notes(repeat_ties=True),
+#    baca.tie_to(repeat=True),
+#    )
+#
+#maker(
+#    baca.scope('CelloVoiceI', 1, 6),
+#    animales.parts('Cello'),
+#    baca.make_tied_notes(repeat_ties=True),
+#    baca.tie_to(repeat=True),
+#    )
+#
+#strings = [
+#    'FirstViolinVoiceI',
+#    'SecondViolinVoiceI',
+#    'ViolaVoiceI',
+#    'CelloVoiceI',
+#    ]
+#
+#maker(
+#    baca.make_scopes(strings, [(1, 6)]),
+#    baca.pitch('C4'),
+#    )
+#
+#maker(
+#    baca.scope('ViolaVoiceI', 3, 6),
+#    baca.repeat_ties_up(),
+#    )
