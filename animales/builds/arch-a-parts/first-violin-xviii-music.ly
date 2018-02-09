@@ -68,10 +68,10 @@
                     \context GlobalSkips = "GlobalSkips"
                     {
                     \i_a_GlobalSkips
-                    \i_b_GlobalSkips
-                    \i_c_GlobalSkips
-                    \A_a_GlobalSkips
-                    \A_b_GlobalSkips
+                        \i_b_GlobalSkips
+                        \i_c_GlobalSkips
+                        \A_a_GlobalSkips
+                        \A_b_GlobalSkips
                     }
                 >>
                 \context MusicContext = "MusicContext"
@@ -79,11 +79,11 @@
                     \context Staff = "Staff"
                     {
                     \i_a_FirstViolinVoiceII_a
-                    \i_b_FirstViolinVoiceII_a
-                    \i_c_FirstViolinVoiceII_a
-                    \A_a_FirstViolinVoiceII_a
-                    \A_a_FirstViolinVoiceI_b
-                    \A_b_FirstViolinVoiceI_a
+                        \i_b_FirstViolinVoiceII_a
+                        \i_c_FirstViolinVoiceII_a
+                        \A_a_FirstViolinVoiceII_a
+                        \A_a_FirstViolinVoiceI_b
+                        \A_b_GlobalRests
                     }
                 }
             >>
