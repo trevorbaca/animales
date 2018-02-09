@@ -81,7 +81,7 @@
                     \i_a_GlobalRests_Contrabass_defaults
                     \i_b_GlobalRests
                     \i_c_GlobalRests
-                    \A_a_GlobalRests
+                    \A_a_ContrabassVoiceI_a
                     \A_b_GlobalRests
                     }
                 }
