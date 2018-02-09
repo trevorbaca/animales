@@ -718,3 +718,208 @@ class ScoreTemplate(baca.ScoreTemplate):
                     )
             staves.append(staff)
         return staves
+
+    ### PUBLIC METHODS ###
+
+    @staticmethod
+    def full_score() -> abjad.Score:
+        r'''Makes full score.
+
+        ..  container:: example
+
+            >>> score = animales.ScoreTemplate.full_score()
+            >>> abjad.f(score)
+            \context Score = "Score"
+            <<
+                \context GlobalContext = "GlobalContext"
+                <<
+                    \context GlobalRests = "GlobalRests"
+                    {
+                    }
+                    \context GlobalSkips = "GlobalSkips"
+                    {
+                    }
+                >>
+                \context MusicContext = "MusicContext"
+                <<
+                    \context StaffGroup = "WindStaffGroup"
+                    <<
+                        \context StaffGroup = "FluteFamilySquareStaffGroup"
+                        \with
+                        {
+                            systemStartDelimiter = #'SystemStartSquare
+                        }
+                        <<
+                            \context StaffGroup = "PiccoloSquareStaffGroup"
+                            \with
+                            {
+                                systemStartDelimiter = #'SystemStartSquare
+                            }
+                            <<
+                            >>
+                            \context StaffGroup = "FluteSquareStaffGroup"
+                            \with
+                            {
+                                systemStartDelimiter = #'SystemStartSquare
+                            }
+                            <<
+                            >>
+                        >>
+                        \context StaffGroup = "OboeFamilySquareStaffGroup"
+                        \with
+                        {
+                            systemStartDelimiter = #'SystemStartSquare
+                        }
+                        <<
+                            \context StaffGroup = "OboeSquareStaffGroup"
+                            \with
+                            {
+                                systemStartDelimiter = #'SystemStartSquare
+                            }
+                            <<
+                            >>
+                            \context StaffGroup = "EnglishHornSquareStaffGroup"
+                            \with
+                            {
+                                systemStartDelimiter = #'SystemStartSquare
+                            }
+                            <<
+                            >>
+                        >>
+                        \context StaffGroup = "ClarinetFamilySquareStaffGroup"
+                        \with
+                        {
+                            systemStartDelimiter = #'SystemStartSquare
+                        }
+                        <<
+                            \context StaffGroup = "ClarinetSquareStaffGroup"
+                            \with
+                            {
+                                systemStartDelimiter = #'SystemStartSquare
+                            }
+                            <<
+                            >>
+                            \context StaffGroup = "BassClarinetSquareStaffGroup"
+                            \with
+                            {
+                                systemStartDelimiter = #'SystemStartSquare
+                            }
+                            <<
+                            >>
+                        >>
+                        \context StaffGroup = "BassoonSquareStaffGroup"
+                        \with
+                        {
+                            systemStartDelimiter = #'SystemStartSquare
+                        }
+                        <<
+                        >>
+                    >>
+                    \context StaffGroup = "BrassStaffGroup"
+                    <<
+                        \context StaffGroup = "HornSquareStaffGroup"
+                        \with
+                        {
+                            systemStartDelimiter = #'SystemStartSquare
+                        }
+                        <<
+                        >>
+                        \context StaffGroup = "TrumpetSquareStaffGroup"
+                        \with
+                        {
+                            systemStartDelimiter = #'SystemStartSquare
+                        }
+                        <<
+                        >>
+                        \context StaffGroup = "TromboneSquareStaffGroup"
+                        \with
+                        {
+                            systemStartDelimiter = #'SystemStartSquare
+                        }
+                        <<
+                        >>
+                        \context StaffGroup = "TubaSquareStaffGroup"
+                        \with
+                        {
+                            systemStartDelimiter = #'SystemStartSquare
+                        }
+                        <<
+                        >>
+                    >>
+                    \context StaffGroup = "PianoPianoStaff"
+                    <<
+                    >>
+                    \context StaffGroup = "HarpPianoStaff"
+                    <<
+                    >>
+                    \context StaffGroup = "PercussionStaffGroup"
+                    <<
+                    >>
+                    \context StaffGroup = "StringStaffGroup"
+                    <<
+                        \context StaffGroup = "FirstViolinSquareStaffGroup"
+                        \with
+                        {
+                            systemStartDelimiter = #'SystemStartSquare
+                        }
+                        <<
+                        >>
+                        \context StaffGroup = "SecondViolinSquareStaffGroup"
+                        \with
+                        {
+                            systemStartDelimiter = #'SystemStartSquare
+                        }
+                        <<
+                        >>
+                        \context StaffGroup = "ViolaSquareStaffGroup"
+                        \with
+                        {
+                            systemStartDelimiter = #'SystemStartSquare
+                        }
+                        <<
+                        >>
+                        \context StaffGroup = "CelloSquareStaffGroup"
+                        \with
+                        {
+                            systemStartDelimiter = #'SystemStartSquare
+                        }
+                        <<
+                        >>
+                        \context StaffGroup = "ContrabassSquareStaffGroup"
+                        \with
+                        {
+                            systemStartDelimiter = #'SystemStartSquare
+                        }
+                        <<
+                        >>
+                    >>
+                >>
+            >>
+
+        '''
+        two_staff_token = [(1, [1]), (2, [2])]
+        score_template = ScoreTemplate(
+            piccolo=two_staff_token,
+            flutes=two_staff_token,
+            oboes=two_staff_token,
+            english_horn=two_staff_token,
+            clarinets=two_staff_token,
+            bass_clarinet=two_staff_token,
+            bassoons=two_staff_token,
+            horns=two_staff_token,
+            trumpets=two_staff_token,
+            trombones=two_staff_token,
+            tuba=two_staff_token,
+            harp=two_staff_token,
+            piano=two_staff_token,
+            percussion=two_staff_token,
+            first_violins=two_staff_token,
+            second_violins=two_staff_token,
+            violas=two_staff_token,
+            cellos=two_staff_token,
+            contrabasses=two_staff_token,
+            )
+        score = score_template()
+        for staff in abjad.select(score).components(abjad.Staff):
+            del(score[staff.name])
+        return score

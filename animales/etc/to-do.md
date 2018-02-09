@@ -5,16 +5,6 @@ TO-DO
 
     Instantiate score template with all staff groups but with no staves:
 
-        * Add ScoreTemplate.maximal_staff_groups():
-
-            \context StaffGroup = "HornSquareStaffGroup"
-            \with
-            {
-                systemStartDelimiter = #'SystemStartSquare
-            }
-            <<
-            >>
-
         * Iterate lowest-level ("square" / section) staff groups
 
             \context StaffGroup = "HornSquareStaffGroup"
@@ -26,7 +16,7 @@ TO-DO
                 [... music for all horn staves here ...]
             >>
 
-        * Add one sequential expression per staff:
+        * Add one sequence of expressions per staff:
 
             \context StaffGroup = "HornSquareStaffGroup"
             \with
@@ -43,7 +33,7 @@ TO-DO
                 [... horn staves III and greater ...]
             >>
 
-        * Realize each sequential expression like this:
+        * Populate each sequence:
 
             \context StaffGroup = "HornSquareStaffGroup"
             \with
