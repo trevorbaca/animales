@@ -33,6 +33,11 @@ metadata = abjad.OrderedDict(
                 'TromboneStaffII',
                 'TromboneVoiceII',
                 'TromboneVoiceIV',
+                'PercussionStaffGroup',
+                'PercussionStaffI',
+                'PercussionVoiceI',
+                'PercussionStaffII',
+                'PercussionVoiceII',
                 'StringStaffGroup',
                 'FirstViolinSquareStaffGroup',
                 'FirstViolinStaffI',
@@ -178,6 +183,26 @@ metadata = abjad.OrderedDict(
                         'A_a_TromboneVoiceIV_a',
                         (
                             abjad.Part('Trombone', 4),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(23, 4),
+                                ),
+                            ),
+                        ),
+                    (
+                        'A_a_PercussionVoiceI_a',
+                        (
+                            abjad.Part('Percussion', 1),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(23, 4),
+                                ),
+                            ),
+                        ),
+                    (
+                        'A_a_PercussionVoiceII_a',
+                        (
+                            abjad.Part('Percussion', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(23, 4),
@@ -543,6 +568,78 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'PercussionStaffI',
+                        [
+                            abjad.Momento(
+                                context='PercussionVoiceI',
+                                prototype='abjad.Clef',
+                                value='percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceI',
+                                prototype='abjad.Instrument',
+                                value='Percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceI',
+                                document='+SCORE:+SEGMENT',
+                                prototype='abjad.MarginMarkup',
+                                value='Perc. 1',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceI',
+                                prototype='baca.StaffLines',
+                                value=1,
+                                ),
+                            ],
+                        ),
+                    (
+                        'PercussionStaffII',
+                        [
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='abjad.Clef',
+                                value='percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='abjad.Instrument',
+                                value='Percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                document='+SCORE:+SEGMENT',
+                                prototype='abjad.MarginMarkup',
+                                value='Perc. 2',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='baca.StaffLines',
+                                value=1,
+                                ),
+                            ],
+                        ),
+                    (
+                        'PercussionVoiceI',
+                        [
+                            abjad.Momento(
+                                context='PercussionVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='p',
+                                ),
+                            ],
+                        ),
+                    (
+                        'PercussionVoiceII',
+                        [
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='abjad.Dynamic',
+                                value='p',
+                                ),
+                            ],
+                        ),
+                    (
                         'Score',
                         [
                             abjad.Momento(
@@ -870,6 +967,8 @@ metadata = abjad.OrderedDict(
                     ('TromboneVoiceIII', True),
                     ('TromboneVoiceII', True),
                     ('TromboneVoiceIV', True),
+                    ('PercussionVoiceI', True),
+                    ('PercussionVoiceII', True),
                     ('FirstViolinVoiceIII', True),
                     ('FirstViolinVoiceI', True),
                     ('FirstViolinVoiceII', True),

@@ -160,6 +160,11 @@ margin_markups = abjad.OrderedDict([
         ),
     ])
 
+for i in range(1, 4 + 1):
+    key = f'Perc. {i}'
+    value = _make_margin_markup(key)
+    margin_markups[key] = value
+
 for i in range(1, 18 + 1):
     key = f'Vni. I ({i})'
     value = _make_margin_markup(['Vni. I', f'({i})'])

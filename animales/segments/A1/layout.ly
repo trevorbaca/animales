@@ -18,7 +18,7 @@
             \autoPageBreaksOff                                                           %! BREAK:BMM1
             \noBreak                                                                     %! BREAK:BMM2
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! BREAK:IC
-            #'((Y-offset . 0) (alignment-distances . (20 20)))                           %! BREAK:IC
+            #'((Y-offset . 0) (alignment-distances . (20 18 20 18 20 18 25 15 25 18)))   %! BREAK:IC
             \pageBreak                                                                   %! BREAK:IC
             s1 * 1
             ^ \markup {

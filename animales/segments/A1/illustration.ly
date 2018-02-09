@@ -98,6 +98,23 @@
                         >>
                     >>
                 >>
+                \context StaffGroup = "PercussionStaffGroup"
+                \with
+                {
+                    alignAboveContext = #"FirstViolinStaffI"
+                }
+                <<
+                    \context Staff = "PercussionStaffI"
+                    {
+                        \context Voice = "PercussionVoiceI"
+                        \A_a_PercussionVoiceI
+                    }
+                    \context Staff = "PercussionStaffII"
+                    {
+                        \context Voice = "PercussionVoiceII"
+                        \A_a_PercussionVoiceII
+                    }
+                >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
                     \context StaffGroup = "FirstViolinSquareStaffGroup"
