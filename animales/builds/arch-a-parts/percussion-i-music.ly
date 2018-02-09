@@ -68,10 +68,10 @@
                     \context GlobalSkips = "GlobalSkips"
                     {
                     \i_a_GlobalSkips
-                    \i_b_GlobalSkips
-                    \i_c_GlobalSkips
-                    \A_a_GlobalSkips
-                    \A_b_GlobalSkips
+                        \i_b_GlobalSkips
+                        \i_c_GlobalSkips
+                        \A_a_GlobalSkips
+                        \A_b_GlobalSkips
                     }
                 >>
                 \context MusicContext = "MusicContext"
@@ -79,10 +79,10 @@
                     \context Staff = "Staff"
                     {
                     \i_a_GlobalRests_Percussion_defaults
-                    \i_b_GlobalRests
-                    \i_c_GlobalRests
-                    \A_a_PercussionVoiceI_a
-                    \A_b_PercussionVoiceI_a
+                        \i_b_GlobalRests
+                        \i_c_GlobalRests
+                        \A_a_PercussionVoiceI_a
+                        \A_b_PercussionVoiceI_a
                     }
                 }
             >>
