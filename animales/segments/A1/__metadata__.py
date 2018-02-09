@@ -11,6 +11,9 @@ metadata = abjad.OrderedDict(
                 'GlobalRests',
                 'GlobalSkips',
                 'MusicContext',
+                'WindStaffGroup',
+                'ClarinetStaffI',
+                'ClarinetVoiceI',
                 'BrassStaffGroup',
                 'HornSquareStaffGroup',
                 'HornStaffI',
@@ -69,6 +72,16 @@ metadata = abjad.OrderedDict(
             'container_to_part',
             abjad.OrderedDict(
                 [
+                    (
+                        'A_a_ClarinetVoiceI_a',
+                        (
+                            abjad.Part('Clarinet', 3),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(23, 4),
+                                ),
+                            ),
+                        ),
                     (
                         'A_a_HornVoiceI_a',
                         (
@@ -377,6 +390,37 @@ metadata = abjad.OrderedDict(
                                 context='CelloVoiceI',
                                 prototype='abjad.Dynamic',
                                 value='\\p_sub',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ClarinetStaffI',
+                        [
+                            abjad.Momento(
+                                context='ClarinetVoiceI',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
+                                context='ClarinetVoiceI',
+                                prototype='abjad.Instrument',
+                                value='Clarinet',
+                                ),
+                            abjad.Momento(
+                                context='ClarinetVoiceI',
+                                document='+SCORE:+SEGMENT',
+                                prototype='abjad.MarginMarkup',
+                                value='Cl. 3',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ClarinetVoiceI',
+                        [
+                            abjad.Momento(
+                                context='ClarinetVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -955,6 +999,7 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
+                    ('ClarinetVoiceI', True),
                     ('HornVoiceI', True),
                     ('HornVoiceIII', True),
                     ('HornVoiceII', True),

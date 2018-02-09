@@ -19,6 +19,9 @@ maker = baca.SegmentMaker(
     metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
+        clarinets=[
+            (1, [1]),
+            ],
         horns=[
             (1, [1, 3]),
             (2, [2, 4]),
@@ -454,4 +457,21 @@ maker(
 maker(
     baca.scope('PercussionVoiceII', 1, 6),
     animales.parts('Percussion', 2),
+    )
+
+# clarinet
+
+maker(
+    baca.scope('ClarinetVoiceI', 3, 6),
+    baca.dynamic('mp'),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('C5'),
+    baca.tag('-PARTS', baca.markup('solo (cl. 3)')),
+    baca.tag('+PARTS', baca.markup('solo')),
+    )
+
+maker(
+    baca.scope('ClarinetVoiceI', 1, 6),
+    animales.margin_markup('Cl. 3'),
+    animales.parts('Clarinet', 3),
     )
