@@ -31,6 +31,10 @@ maker = baca.SegmentMaker(
             (1, [1, 3]),
             (2, [2, 4]),
             ],
+        percussion=[
+            (1, [1]),
+            (2, [2]),
+            ],
         first_violins=[
             (1, [3, 1]),
             (2, [2]),
@@ -383,7 +387,7 @@ maker(
     baca.tag('-PARTS', baca.voice_two()),
     )
 
-# contrabass
+# contrabasses
 
 maker(
     baca.scope('ContrabassVoiceI', 3, 6),
@@ -395,4 +399,59 @@ maker(
 maker(
     baca.scope('ContrabassVoiceI', 1, 6),
     animales.parts('Contrabass'),
+    )
+
+# percussion
+
+maker(
+    baca.scopes(
+        ('PercussionVoiceI', 3, 6),
+        ('PercussionVoiceII', 3, 6),
+        ),
+    baca.dynamic('p'),
+    baca.make_repeat_tied_notes(),
+    baca.repeat_ties_up(),
+    baca.staff_lines(1),
+    baca.staff_positions([0]),
+    baca.stem_tremolo(),
+    )
+
+maker(
+    baca.scope('PercussionVoiceI', 3, 6),
+    baca.bar_extent((-2, 2)),
+    baca.markup.boxed('triangle (small beater)'),
+    baca.tag('-PARTS', animales.margin_markup('Perc. 1')),
+    baca.tag(
+        '-PARTS',
+        baca.bar_extent((0, 0), after=True, selector=baca.leaves()),
+        ),
+    baca.tag(
+        '-PARTS',
+        baca.bar_extent((0, 0), after=True, selector=baca.leaf(-1)),
+        ),
+    )
+
+maker(
+    baca.scope('PercussionVoiceII', 3, 6),
+    baca.bar_extent((-2, 2)),
+    baca.markup.boxed('suspended cymbal (soft yarn mallets: attackless sound)'),
+    baca.tag('-PARTS', animales.margin_markup('Perc. 2')),
+    baca.tag(
+        '-PARTS',
+        baca.bar_extent((0, 0), after=True, selector=baca.leaves()),
+        ),
+    baca.tag(
+        '-PARTS',
+        baca.bar_extent((0, 0), after=True, selector=baca.leaf(-1)),
+        ),
+    )
+
+maker(
+    baca.scope('PercussionVoiceI', 1, 6),
+    animales.parts('Percussion', 1),
+    )
+
+maker(
+    baca.scope('PercussionVoiceII', 1, 6),
+    animales.parts('Percussion', 2),
     )
