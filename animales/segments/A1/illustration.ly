@@ -28,6 +28,18 @@
             >>
             \context MusicContext = "MusicContext"
             <<
+                \context StaffGroup = "WindStaffGroup"
+                \with
+                {
+                    alignAboveContext = #"FirstViolinStaffI"
+                }
+                <<
+                    \context Staff = "ClarinetStaffI"
+                    {
+                        \context Voice = "ClarinetVoiceI"
+                        \A_a_ClarinetVoiceI
+                    }
+                >>
                 \context StaffGroup = "BrassStaffGroup"
                 \with
                 {

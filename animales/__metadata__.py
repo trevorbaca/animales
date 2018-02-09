@@ -245,6 +245,16 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
+                                    'A_a_ClarinetVoiceI_a',
+                                    (
+                                        abjad.Part('Clarinet', 3),
+                                        abjad.Timespan(
+                                            start_offset=abjad.Offset(0, 1),
+                                            stop_offset=abjad.Offset(23, 4),
+                                            ),
+                                        ),
+                                    ),
+                                (
                                     'A_a_HornVoiceI_a',
                                     (
                                         abjad.Part('Horn', 1),
