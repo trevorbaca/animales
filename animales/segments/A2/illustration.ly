@@ -28,43 +28,80 @@
             >>
             \context MusicContext = "MusicContext"
             <<
-                \context StaffGroup = "BrassStaffGroup"
+                \context StaffGroup = "WindStaffGroup"
                 <<
-                    \context Staff = "TromboneStaffI"
+                    \context Staff = "ClarinetStaffI"
                     {
-                        \context Voice = "TromboneVoiceI"
-                        \A_b_TromboneVoiceI
+                        \context Voice = "ClarinetVoiceI"
+                        \A_b_ClarinetVoiceI
                     }
                 >>
                 \context StaffGroup = "PercussionStaffGroup"
-                \with
-                {
-                    alignAboveContext = #"FirstViolinStaffI"
-                }
                 <<
                     \context Staff = "PercussionStaffI"
                     {
                         \context Voice = "PercussionVoiceI"
                         \A_b_PercussionVoiceI
                     }
+                    \context Staff = "PercussionStaffII"
+                    {
+                        \context Voice = "PercussionVoiceII"
+                        \A_b_PercussionVoiceII
+                    }
                 >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
-                    \context Staff = "FirstViolinStaffI"
+                    \context StaffGroup = "FirstViolinSquareStaffGroup"
+                    \with
                     {
-                        \context Voice = "FirstViolinVoiceI"
-                        \A_b_FirstViolinVoiceI
+                        systemStartDelimiter = #'SystemStartSquare
                     }
-                    \context Staff = "SecondViolinStaffI"
+                    <<
+                        \context Staff = "FirstViolinStaffI"
+                        {
+                            \context Voice = "FirstViolinVoiceI"
+                            \A_b_FirstViolinVoiceI
+                        }
+                        \context Staff = "FirstViolinStaffII"
+                        {
+                            \context Voice = "FirstViolinVoiceII"
+                            \A_b_FirstViolinVoiceII
+                        }
+                    >>
+                    \context StaffGroup = "SecondViolinSquareStaffGroup"
+                    \with
                     {
-                        \context Voice = "SecondViolinVoiceI"
-                        \A_b_SecondViolinVoiceI
+                        systemStartDelimiter = #'SystemStartSquare
                     }
-                    \context Staff = "ViolaStaffI"
+                    <<
+                        \context Staff = "SecondViolinStaffI"
+                        {
+                            \context Voice = "SecondViolinVoiceI"
+                            \A_b_SecondViolinVoiceI
+                        }
+                        \context Staff = "SecondViolinStaffII"
+                        {
+                            \context Voice = "SecondViolinVoiceII"
+                            \A_b_SecondViolinVoiceII
+                        }
+                    >>
+                    \context StaffGroup = "ViolaSquareStaffGroup"
+                    \with
                     {
-                        \context Voice = "ViolaVoiceI"
-                        \A_b_ViolaVoiceI
+                        systemStartDelimiter = #'SystemStartSquare
                     }
+                    <<
+                        \context Staff = "ViolaStaffI"
+                        {
+                            \context Voice = "ViolaVoiceI"
+                            \A_b_ViolaVoiceI
+                        }
+                        \context Staff = "ViolaStaffII"
+                        {
+                            \context Voice = "ViolaVoiceII"
+                            \A_b_ViolaVoiceII
+                        }
+                    >>
                     \context Staff = "CelloStaffI"
                     {
                         \context Voice = "CelloVoiceI"
