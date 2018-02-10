@@ -1,8 +1,7 @@
 TO-DO
 =====
 
-1.  Clean up clef default application in parts.
-    Cache first-in-score margin markup, per staff.
+1.  Cache first-in-score margin markup, per staff.
     Apply score-initial margin markup in tabloid score.
 
 2.  Change 'document-specific' to 'edition-specific'.

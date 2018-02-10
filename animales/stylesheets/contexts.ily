@@ -135,7 +135,6 @@
         \remove Mark_engraver
         \remove Metronome_mark_engraver
         \remove System_start_delimiter_engraver
-        \RemoveAllEmptyStaves
 
         \override BarLine.space-alist = #'(
             (time-signature extra-space . 0.0)
