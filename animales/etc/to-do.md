@@ -1,9 +1,7 @@
 TO-DO
 =====
 
-1.  Apply score-initial clef defaults in tabloid score.
-    Clean up clef default application in parts.
-    Clean up clef default application in tabloid score.
+1.  Clean up clef default application in parts.
     Cache first-in-score margin markup, per staff.
     Apply score-initial margin markup in tabloid score.
 

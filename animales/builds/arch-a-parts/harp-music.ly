@@ -67,7 +67,7 @@
                 <<
                     \context GlobalSkips = "GlobalSkips"
                     {
-                    \i_a_GlobalSkips
+                        \i_a_GlobalSkips
                         \i_b_GlobalSkips
                         \i_c_GlobalSkips
                         \A_a_GlobalSkips
@@ -78,7 +78,7 @@
                 {
                     \context Staff = "Staff"
                     {
-                    \i_a_GlobalRests_Harp_defaults
+                        \i_a_GlobalRests_Harp_defaults
                         \i_b_GlobalRests
                         \i_c_GlobalRests
                         \A_a_GlobalRests

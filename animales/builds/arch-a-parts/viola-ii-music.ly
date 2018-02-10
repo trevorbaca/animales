@@ -67,7 +67,7 @@
                 <<
                     \context GlobalSkips = "GlobalSkips"
                     {
-                    \i_a_GlobalSkips
+                        \i_a_GlobalSkips
                         \i_b_GlobalSkips
                         \i_c_GlobalSkips
                         \A_a_GlobalSkips
@@ -78,7 +78,7 @@
                 {
                     \context Staff = "Staff"
                     {
-                    \i_a_ViolaVoiceI_a
+                        \i_a_ViolaVoiceI_a
                         \i_b_ViolaVoiceI_a
                         \i_c_ViolaVoiceI_a
                         \A_a_ViolaVoiceI_a
