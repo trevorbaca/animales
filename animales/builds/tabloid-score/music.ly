@@ -99,6 +99,7 @@
                         <<
                             {
                                 \context Staff = "ClarinetStaffI"
+                                \clef "treble"
                                 \i_a_GlobalRests
                                 \context Staff = "ClarinetStaffI"
                                 \i_b_GlobalRests
@@ -136,6 +137,7 @@
                     <<
                         {
                             \context Staff = "HornStaffI"
+                            \clef "bass"
                             \i_a_GlobalRests
                             \context Staff = "HornStaffI"
                             \i_b_GlobalRests
@@ -148,6 +150,7 @@
                         }
                         {
                             \context Staff = "HornStaffII"
+                            \clef "bass"
                             \i_a_GlobalRests
                             \context Staff = "HornStaffII"
                             \i_b_GlobalRests
@@ -167,6 +170,7 @@
                     <<
                         {
                             \context Staff = "TrumpetStaffI"
+                            \clef "treble"
                             \i_a_GlobalRests
                             \context Staff = "TrumpetStaffI"
                             \i_b_GlobalRests
@@ -179,6 +183,7 @@
                         }
                         {
                             \context Staff = "TrumpetStaffII"
+                            \clef "treble"
                             \i_a_GlobalRests
                             \context Staff = "TrumpetStaffII"
                             \i_b_GlobalRests
@@ -198,6 +203,7 @@
                     <<
                         {
                             \context Staff = "TromboneStaffI"
+                            \clef "tenor"
                             \i_a_GlobalRests
                             \context Staff = "TromboneStaffI"
                             \i_b_GlobalRests
@@ -210,6 +216,7 @@
                         }
                         {
                             \context Staff = "TromboneStaffII"
+                            \clef "tenor"
                             \i_a_GlobalRests
                             \context Staff = "TromboneStaffII"
                             \i_b_GlobalRests
@@ -239,6 +246,7 @@
                 <<
                     {
                         \context Staff = "PercussionStaffI"
+                        \clef "percussion"
                         \i_a_GlobalRests
                         \context Staff = "PercussionStaffI"
                         \i_b_GlobalRests
@@ -251,6 +259,7 @@
                     }
                     {
                         \context Staff = "PercussionStaffII"
+                        \clef "percussion"
                         \i_a_GlobalRests
                         \context Staff = "PercussionStaffII"
                         \i_b_GlobalRests
@@ -272,6 +281,7 @@
                     <<
                         {
                             \context Staff = "FirstViolinStaffI"
+                            \clef "treble"
                             \i_a_FirstViolinStaffI
                             \context Staff = "FirstViolinStaffI"
                             \i_b_FirstViolinStaffI
@@ -284,6 +294,7 @@
                         }
                         {
                             \context Staff = "FirstViolinStaffII"
+                            \clef "treble"
                             \i_a_FirstViolinStaffII
                             \context Staff = "FirstViolinStaffII"
                             \i_b_FirstViolinStaffII
@@ -303,6 +314,7 @@
                     <<
                         {
                             \context Staff = "SecondViolinStaffI"
+                            \clef "treble"
                             \i_a_SecondViolinStaffI
                             \context Staff = "SecondViolinStaffI"
                             \i_b_SecondViolinStaffI
@@ -315,6 +327,7 @@
                         }
                         {
                             \context Staff = "SecondViolinStaffII"
+                            \clef "treble"
                             \i_a_SecondViolinStaffII
                             \context Staff = "SecondViolinStaffII"
                             \i_b_SecondViolinStaffII
@@ -334,6 +347,7 @@
                     <<
                         {
                             \context Staff = "ViolaStaffI"
+                            \clef "alto"
                             \i_a_ViolaStaffI
                             \context Staff = "ViolaStaffI"
                             \i_b_ViolaStaffI
@@ -346,6 +360,7 @@
                         }
                         {
                             \context Staff = "ViolaStaffII"
+                            \clef "alto"
                             \i_a_ViolaStaffII
                             \context Staff = "ViolaStaffII"
                             \i_b_ViolaStaffII
@@ -365,6 +380,7 @@
                     <<
                         {
                             \context Staff = "CelloStaffI"
+                            \clef "bass"
                             \i_a_CelloStaffI
                             \context Staff = "CelloStaffI"
                             \i_b_CelloStaffI
@@ -384,6 +400,7 @@
                     <<
                         {
                             \context Staff = "ContrabassStaffI"
+                            \clef "bass"
                             \i_a_GlobalRests
                             \context Staff = "ContrabassStaffI"
                             \i_b_GlobalRests
