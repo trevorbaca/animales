@@ -125,13 +125,11 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='ClarinetVoiceI',
-                                document='+SEGMENT',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             abjad.Momento(
                                 context='ClarinetVoiceI',
-                                document='+SEGMENT',
                                 prototype='abjad.Instrument',
                                 value='Clarinet',
                                 ),
@@ -158,19 +156,17 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='ContrabassVoiceI',
-                                document='+SEGMENT',
                                 prototype='abjad.Clef',
                                 value='bass',
                                 ),
                             abjad.Momento(
                                 context='ContrabassVoiceI',
-                                document='+SEGMENT',
                                 prototype='abjad.Instrument',
                                 value='Contrabass',
                                 ),
                             abjad.Momento(
                                 context='ContrabassVoiceI',
-                                document='+SCORE:+SEGMENT:+SEGMENT',
+                                document='+SCORE:+SEGMENT',
                                 prototype='abjad.MarginMarkup',
                                 value='Cb.',
                                 ),
@@ -253,13 +249,11 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='PercussionVoiceI',
-                                document='+SEGMENT',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             abjad.Momento(
                                 context='PercussionVoiceI',
-                                document='+SEGMENT',
                                 prototype='abjad.Instrument',
                                 value='Percussion',
                                 ),
@@ -281,13 +275,11 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='PercussionVoiceII',
-                                document='+SEGMENT',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             abjad.Momento(
                                 context='PercussionVoiceII',
-                                document='+SEGMENT',
                                 prototype='abjad.Instrument',
                                 value='Percussion',
                                 ),
