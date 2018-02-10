@@ -6,7 +6,6 @@
 
 #(ly:set-option 'relative-includes #t)
 \include "stylesheet.ily"
-\include "_segments/first-segment-defaults.ily"
 \include "_segments/segment--1.ily"
 \include "_segments/segment--2.ily"
 \include "_segments/segment--3.ily"
@@ -78,7 +77,8 @@
                 {
                     \context Staff = "Staff"
                     {
-                        \i_a_GlobalRests_Clarinet_defaults
+                        \clef "treble"
+                        \i_a_GlobalRests
                         \i_b_GlobalRests
                         \i_c_GlobalRests
                         \A_a_ClarinetVoiceI_a

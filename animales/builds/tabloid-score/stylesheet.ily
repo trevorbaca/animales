@@ -7,3 +7,10 @@
 \paper {
     top-markup-spacing.minimum-distance = 20
 }
+
+\layout {
+    \context {
+        \Score
+        \RemoveAllEmptyStaves
+    }
+}
