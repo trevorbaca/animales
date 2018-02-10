@@ -354,10 +354,10 @@ A_b_ClarinetVoiceI_a = {
                     2                                        %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                               %! +SEGMENT:REAPPLIED_CLEF:SM8
-    \clef "treble"                                           %! +SEGMENT:REAPPLIED_CLEF:SM8
-    \once \override Staff.Clef.color = #(x11-color 'green4)  %! +SEGMENT:REAPPLIED_CLEF_COLOR:SM6
-    \override Staff.Clef.color = ##f                         %! +SEGMENT:REAPPLIED_CLEF_COLOR_CANCELLATION:SM7 %@%
+    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
+    \clef "treble"                                           %! REAPPLIED_CLEF:SM8
+    \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
+%@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
     ds''2.
@@ -365,12 +365,12 @@ A_b_ClarinetVoiceI_a = {
     ^ \markup {
         \column
             {
-                \line                                        %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                    {                                        %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                        \with-color                          %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                            #(x11-color 'green4)             %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                            (“Clarinet”)                     %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                    }                                        %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
+                \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                        \with-color                          %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            #(x11-color 'green4)             %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            (“Clarinet”)                     %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
                 \line                                        %! -PARTS:IC
                     {                                        %! -PARTS:IC
                         \whiteout                            %! -PARTS:IC
@@ -409,7 +409,7 @@ A_b_ClarinetVoiceI_a = {
                     2                                        %! +SCORE:+SEGMENT:IC:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:IC:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:IC:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM8
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! +SEGMENT:REAPPLIED_CLEF_REDRAW_COLOR:SM6
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! +SCORE:+SEGMENT:IC:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:SM6
     
     % [A2 ClarinetVoiceI measure 25]                         %! SM4
@@ -471,10 +471,10 @@ A_b_PercussionVoiceI_a = {
     \once \override Staff.StaffSymbol.line-count = 1         %! REAPPLIED_STAFF_LINES:SM8
     \startStaff                                              %! REAPPLIED_STAFF_LINES:SM8
     \override RepeatTie.direction = #up                      %! OC
-    \set Staff.forceClef = ##t                               %! +SEGMENT:REAPPLIED_CLEF:SM8
-    \clef "percussion"                                       %! +SEGMENT:REAPPLIED_CLEF:SM8
-    \once \override Staff.Clef.color = #(x11-color 'green4)  %! +SEGMENT:REAPPLIED_CLEF_COLOR:SM6
-    \override Staff.Clef.color = ##f                         %! +SEGMENT:REAPPLIED_CLEF_COLOR_CANCELLATION:SM7 %@%
+    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
+    \clef "percussion"                                       %! REAPPLIED_CLEF:SM8
+    \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
+%@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -485,12 +485,12 @@ A_b_PercussionVoiceI_a = {
     ^ \markup {
         \column
             {
-                \line                                        %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                    {                                        %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                        \with-color                          %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                            #(x11-color 'green4)             %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                            (“Percussion”)                   %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                    }                                        %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
+                \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                        \with-color                          %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            #(x11-color 'green4)             %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            (“Percussion”)                   %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
                 \line                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                     {                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                         \with-color                          %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
@@ -517,7 +517,7 @@ A_b_PercussionVoiceI_a = {
                     1                                        %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! +SEGMENT:REAPPLIED_CLEF_REDRAW_COLOR:SM6
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \override Staff.BarLine.bar-extent = #'(0 . 0)           %! -PARTS:OC
     
@@ -588,10 +588,10 @@ A_b_PercussionVoiceII_a = {
     \once \override Staff.StaffSymbol.line-count = 1         %! REAPPLIED_STAFF_LINES:SM8
     \startStaff                                              %! REAPPLIED_STAFF_LINES:SM8
     \override RepeatTie.direction = #up                      %! OC
-    \set Staff.forceClef = ##t                               %! +SEGMENT:REAPPLIED_CLEF:SM8
-    \clef "percussion"                                       %! +SEGMENT:REAPPLIED_CLEF:SM8
-    \once \override Staff.Clef.color = #(x11-color 'green4)  %! +SEGMENT:REAPPLIED_CLEF_COLOR:SM6
-    \override Staff.Clef.color = ##f                         %! +SEGMENT:REAPPLIED_CLEF_COLOR_CANCELLATION:SM7 %@%
+    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
+    \clef "percussion"                                       %! REAPPLIED_CLEF:SM8
+    \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
+%@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -602,12 +602,12 @@ A_b_PercussionVoiceII_a = {
     ^ \markup {
         \column
             {
-                \line                                        %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                    {                                        %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                        \with-color                          %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                            #(x11-color 'green4)             %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                            (“Percussion”)                   %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                    }                                        %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
+                \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                        \with-color                          %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            #(x11-color 'green4)             %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            (“Percussion”)                   %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
                 \line                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                     {                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
                         \with-color                          %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
@@ -634,7 +634,7 @@ A_b_PercussionVoiceII_a = {
                     2                                        %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! +SEGMENT:REAPPLIED_CLEF_REDRAW_COLOR:SM6
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \override Staff.BarLine.bar-extent = #'(0 . 0)           %! -PARTS:OC
     
@@ -1296,53 +1296,53 @@ A_b_CelloStaffI = {
 A_b_ContrabassVoiceI = {
     
     % [A2 ContrabassVoiceI measure 24]                           %! SM4
-    \set Staff.instrumentName = \markup {                        %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                              %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                                  %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-            Cb.                                                  %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                        %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {                   %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                              %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                                  %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-            Cb.                                                  %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                        %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                                   %! +SEGMENT:REAPPLIED_CLEF:SM8
-    \clef "bass"                                                 %! +SEGMENT:REAPPLIED_CLEF:SM8
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! +SEGMENT:REAPPLIED_CLEF_COLOR:SM6
-    \override Staff.Clef.color = ##f                             %! +SEGMENT:REAPPLIED_CLEF_COLOR_CANCELLATION:SM7 %@%
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    \set Staff.instrumentName = \markup {                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                              %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                                  %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            Cb.                                                  %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {                   %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                              %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                                  %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+            Cb.                                                  %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.forceClef = ##t                                   %! REAPPLIED_CLEF:SM8
+    \clef "bass"                                                 %! REAPPLIED_CLEF:SM8
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! REAPPLIED_CLEF_COLOR:SM6
+%@% \override Staff.Clef.color = ##f                             %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     R1 * 3/4
     \mf                                                          %! REAPPLIED_DYNAMIC:SM8
     ^ \markup {
         \column
             {
-                \line                                            %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                    {                                            %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                        \with-color                              %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                            #(x11-color 'green4)                 %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                            (“Contrabass”)                       %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                    }                                            %! +SEGMENT:REAPPLIED_INSTRUMENT_ALERT:SM11
-                \line                                            %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    {                                            %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                        \with-color                              %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            #(x11-color 'green4)                 %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                            [“Cb.”]                              %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
-                    }                                            %! +SCORE:+SEGMENT:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                        \with-color                              %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            #(x11-color 'green4)                 %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            (“Contrabass”)                       %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                    }                                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                \line                                            %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    {                                            %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                        \with-color                              %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            #(x11-color 'green4)                 %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                            [“Cb.”]                              %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
+                    }                                            %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_ALERT:SM11
             }
         }
-    \set Staff.instrumentName = \markup {                        %! +SCORE:+SEGMENT:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                              %! +SCORE:+SEGMENT:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                                  %! +SCORE:+SEGMENT:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            Cb.                                                  %! +SCORE:+SEGMENT:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                        %! +SCORE:+SEGMENT:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.shortInstrumentName = \markup {                   %! +SCORE:+SEGMENT:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        \hcenter-in                                              %! +SCORE:+SEGMENT:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            #16                                                  %! +SCORE:+SEGMENT:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-            Cb.                                                  %! +SCORE:+SEGMENT:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-        }                                                        %! +SCORE:+SEGMENT:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! +SEGMENT:REAPPLIED_CLEF_REDRAW_COLOR:SM6
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! +SCORE:+SEGMENT:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
+    \set Staff.instrumentName = \markup {                        %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                              %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                                  %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            Cb.                                                  %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                        %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \set Staff.shortInstrumentName = \markup {                   %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        \hcenter-in                                              %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            #16                                                  %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+            Cb.                                                  %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+        }                                                        %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM8
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! +SCORE:+SEGMENT:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     
     % [A2 ContrabassVoiceI measure 25]                           %! SM4
     R1 * 1
