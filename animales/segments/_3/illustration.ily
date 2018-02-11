@@ -312,10 +312,10 @@ i_c_FirstViolinVoiceI_a = {
                 }                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #4            %! OC
-    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \clef "treble"                                       %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
@@ -426,10 +426,10 @@ i_c_FirstViolinVoiceII_a = {
                 }                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #6            %! OC
-    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \clef "treble"                                       %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
@@ -548,10 +548,10 @@ i_c_SecondViolinVoiceI_a = {
                 }                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #4            %! OC
-    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \clef "treble"                                       %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
@@ -668,10 +668,10 @@ i_c_SecondViolinVoiceII_a = {
                     }                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
             }                                            %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         \override TrillSpanner.staff-padding = #6        %! OC
-        \set Staff.forceClef = ##t                       %! REAPPLIED_CLEF:SM8
         \clef "treble"                                   %! REAPPLIED_CLEF:SM8
         \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
     %@% \override Staff.Clef.color = ##f                 %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+        \set Staff.forceClef = ##t                       %! REAPPLIED_CLEF:SM8
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
         \pitchedTrill                                    %! SC
@@ -796,10 +796,10 @@ i_c_ViolaVoiceI_a = {
                 }                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #4            %! OC
-    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \clef "alto"                                         %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
@@ -914,10 +914,10 @@ i_c_ViolaVoiceII_a = {
                 }                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #4            %! OC
-    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \clef "alto"                                         %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
@@ -1018,10 +1018,10 @@ i_c_CelloVoiceI_a = {
             Vc.                                              %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #4                %! OC
-    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \clef "tenor"                                            %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                            %! SC

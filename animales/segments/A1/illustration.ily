@@ -354,10 +354,10 @@ A_a_ClarinetVoiceI_a = {
                     3                                        %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                               %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \clef "treble"                                           %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
     R1 * 1
     ^ \markup {
@@ -452,10 +452,10 @@ A_a_ClarinetStaffI = {
 A_a_HornVoiceI_a = {
     
     % [A1 HornVoiceI measure 18]                         %! SM4
-    \set Staff.forceClef = ##t                           %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \clef "bass"                                         %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \voiceOne                                            %! -PARTS:IC
     R1 * 1
     \override Staff.Clef.color = #(x11-color 'violet)    %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_REDRAW_COLOR:SM6
@@ -627,10 +627,10 @@ A_a_HornStaffI = <<
 A_a_HornVoiceII_a = {
     
     % [A1 HornVoiceII measure 18]                        %! SM4
-    \set Staff.forceClef = ##t                           %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \clef "bass"                                         %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \voiceOne                                            %! -PARTS:IC
     R1 * 1
     \override Staff.Clef.color = #(x11-color 'violet)    %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_REDRAW_COLOR:SM6
@@ -802,10 +802,10 @@ A_a_HornStaffII = <<
 A_a_TrumpetVoiceI_a = {
     
     % [A1 TrumpetVoiceI measure 18]                      %! SM4
-    \set Staff.forceClef = ##t                           %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \clef "treble"                                       %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \voiceOne                                            %! -PARTS:IC
     R1 * 1
     \override Staff.Clef.color = #(x11-color 'violet)    %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_REDRAW_COLOR:SM6
@@ -977,10 +977,10 @@ A_a_TrumpetStaffI = <<
 A_a_TrumpetVoiceII_a = {
     
     % [A1 TrumpetVoiceII measure 18]                     %! SM4
-    \set Staff.forceClef = ##t                           %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \clef "treble"                                       %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \voiceOne                                            %! -PARTS:IC
     R1 * 1
     \override Staff.Clef.color = #(x11-color 'violet)    %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_REDRAW_COLOR:SM6
@@ -1152,10 +1152,10 @@ A_a_TrumpetStaffII = <<
 A_a_TromboneVoiceI_a = {
     
     % [A1 TromboneVoiceI measure 18]                     %! SM4
-    \set Staff.forceClef = ##t                           %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \clef "tenor"                                        %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \voiceOne                                            %! -PARTS:IC
     R1 * 1
     \override Staff.Clef.color = #(x11-color 'violet)    %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_REDRAW_COLOR:SM6
@@ -1327,10 +1327,10 @@ A_a_TromboneStaffI = <<
 A_a_TromboneVoiceII_a = {
     
     % [A1 TromboneVoiceII measure 18]                    %! SM4
-    \set Staff.forceClef = ##t                           %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \clef "tenor"                                        %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \voiceOne                                            %! -PARTS:IC
     R1 * 1
     \override Staff.Clef.color = #(x11-color 'violet)    %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_REDRAW_COLOR:SM6
@@ -1512,11 +1512,11 @@ A_a_PercussionVoiceI_a = {
             #16                                              %! +SCORE:+SEGMENT:ST2:-PARTS:-SCORE:DEFAULT_MARGIN_MARKUP:SM8
             Perc.                                            %! +SCORE:+SEGMENT:ST2:-PARTS:-SCORE:DEFAULT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:ST2:-PARTS:-SCORE:DEFAULT_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                               %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \clef "percussion"                                       %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! +SCORE:+SEGMENT:ST2:-PARTS:-SCORE:DEFAULT_MARGIN_MARKUP_COLOR:SM6
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     R1 * 1
     ^ \markup {
         \column
@@ -1667,11 +1667,11 @@ A_a_PercussionVoiceII_a = {
             #16                                              %! +SCORE:+SEGMENT:ST2:-PARTS:-SCORE:DEFAULT_MARGIN_MARKUP:SM8
             Perc.                                            %! +SCORE:+SEGMENT:ST2:-PARTS:-SCORE:DEFAULT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:ST2:-PARTS:-SCORE:DEFAULT_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                               %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \clef "percussion"                                       %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! +SCORE:+SEGMENT:ST2:-PARTS:-SCORE:DEFAULT_MARGIN_MARKUP_COLOR:SM6
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     R1 * 1
     ^ \markup {
         \column
@@ -1912,10 +1912,10 @@ A_a_FirstViolinVoiceIII_a = {
 A_a_FirstViolinVoiceIII = {
     
     % [A1 FirstViolinVoiceIII measure 18]                    %! SM4
-    \set Staff.forceClef = ##t                               %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \clef "treble"                                           %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     R1 * 1
     \override Staff.Clef.color = #(x11-color 'violet)        %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_REDRAW_COLOR:SM6
     
@@ -1949,10 +1949,10 @@ A_a_FirstViolinVoiceI_a = {
                 }                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #4            %! OC
-    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \clef "treble"                                       %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
@@ -2118,10 +2118,10 @@ A_a_FirstViolinVoiceII_a = {
                 }                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #6            %! OC
-    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \clef "treble"                                       %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
@@ -2227,10 +2227,10 @@ A_a_SecondViolinVoiceI_a = {
                 }                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #4            %! OC
-    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \clef "treble"                                       %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
@@ -2399,10 +2399,10 @@ A_a_SecondViolinVoiceII_a = {
                     }                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
             }                                            %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         \override TrillSpanner.staff-padding = #6        %! OC
-        \set Staff.forceClef = ##t                       %! REAPPLIED_CLEF:SM8
         \clef "treble"                                   %! REAPPLIED_CLEF:SM8
         \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
     %@% \override Staff.Clef.color = ##f                 %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+        \set Staff.forceClef = ##t                       %! REAPPLIED_CLEF:SM8
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
         \pitchedTrill                                    %! SC
@@ -2511,10 +2511,10 @@ A_a_ViolaVoiceI_a = {
                 }                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #4            %! OC
-    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \clef "alto"                                         %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
@@ -2670,10 +2670,10 @@ A_a_ViolaVoiceII_a = {
                 }                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #4            %! OC
-    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \clef "alto"                                         %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
@@ -2767,10 +2767,10 @@ A_a_CelloVoiceI_b = {
             Vc.                                          %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
     \override TrillSpanner.staff-padding = #4            %! OC
-    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \clef "tenor"                                        %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                        %! SC
@@ -2868,11 +2868,11 @@ A_a_ContrabassVoiceI_a = {
             #16                                              %! +SCORE:+SEGMENT:ST2:-PARTS:-SCORE:DEFAULT_MARGIN_MARKUP:SM8
             Cb.                                              %! +SCORE:+SEGMENT:ST2:-PARTS:-SCORE:DEFAULT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:ST2:-PARTS:-SCORE:DEFAULT_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                               %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \clef "bass"                                             %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! +SCORE:+SEGMENT:ST2:-PARTS:-SCORE:DEFAULT_MARGIN_MARKUP_COLOR:SM6
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! ST3:-PARTS:-SCORE:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! ST3:-PARTS:-SCORE:DEFAULT_CLEF:SM8
     R1 * 1
     ^ \markup {
         \column
