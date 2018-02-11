@@ -354,10 +354,10 @@ A_b_ClarinetVoiceI_a = {
                     2                                        %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \clef "treble"                                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_DYNAMIC_COLOR:SM6
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! +SCORE:+SEGMENT:IC:EXPLICIT_MARGIN_MARKUP_COLOR:SM6
     ds''2.
@@ -471,10 +471,10 @@ A_b_PercussionVoiceI_a = {
     \once \override Staff.StaffSymbol.line-count = 1         %! REAPPLIED_STAFF_LINES:SM8
     \startStaff                                              %! REAPPLIED_STAFF_LINES:SM8
     \override RepeatTie.direction = #up                      %! OC
-    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \clef "percussion"                                       %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -588,10 +588,10 @@ A_b_PercussionVoiceII_a = {
     \once \override Staff.StaffSymbol.line-count = 1         %! REAPPLIED_STAFF_LINES:SM8
     \startStaff                                              %! REAPPLIED_STAFF_LINES:SM8
     \override RepeatTie.direction = #up                      %! OC
-    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \clef "percussion"                                       %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -701,10 +701,10 @@ A_b_FirstViolinVoiceI = {
                     I                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \clef "treble"                                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     R1 * 3/4
@@ -794,10 +794,10 @@ A_b_FirstViolinVoiceII = {
                     (11-18)                                  %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \clef "treble"                                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     R1 * 3/4
@@ -887,10 +887,10 @@ A_b_SecondViolinVoiceI = {
                     II                                       %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \clef "treble"                                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     R1 * 3/4
@@ -980,10 +980,10 @@ A_b_SecondViolinVoiceII = {
                     (11-18)                                  %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \clef "treble"                                           %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     R1 * 3/4
@@ -1065,10 +1065,10 @@ A_b_ViolaVoiceI = {
             #16                                              %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
             Vle.                                             %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \clef "alto"                                             %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     R1 * 3/4
@@ -1148,10 +1148,10 @@ A_b_ViolaVoiceII = {
                     (11-18)                                  %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
                 }                                            %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \clef "alto"                                             %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                               %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     R1 * 3/4
@@ -1231,10 +1231,10 @@ A_b_CelloVoiceI = {
             #16                                                  %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
             Vc.                                                  %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                                   %! REAPPLIED_CLEF:SM8
     \clef "tenor"                                                %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                             %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                                   %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     R1 * 3/4
@@ -1306,10 +1306,10 @@ A_b_ContrabassVoiceI = {
             #16                                                  %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
             Cb.                                                  %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                        %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP:SM8
-    \set Staff.forceClef = ##t                                   %! REAPPLIED_CLEF:SM8
     \clef "bass"                                                 %! REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                             %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set Staff.forceClef = ##t                                   %! REAPPLIED_CLEF:SM8
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! +SCORE:+SEGMENT:REAPPLIED_MARGIN_MARKUP_COLOR:SM6
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     R1 * 3/4
