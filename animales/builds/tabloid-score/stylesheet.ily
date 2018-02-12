@@ -10,7 +10,7 @@
 
 \layout {
     \context {
-        \Score
+        \MusicContext
         \RemoveAllEmptyStaves
     }
 }
