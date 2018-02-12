@@ -36,6 +36,8 @@ metadata = abjad.OrderedDict(
                 'TromboneStaffII',
                 'TromboneVoiceII',
                 'TromboneVoiceIV',
+                'TubaStaffI',
+                'TubaVoiceI',
                 'PercussionStaffGroup',
                 'PercussionStaffI',
                 'PercussionVoiceI',
@@ -196,6 +198,16 @@ metadata = abjad.OrderedDict(
                         'A_a_TromboneVoiceIV_a',
                         (
                             abjad.Part('Trombone', 4),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(23, 4),
+                                ),
+                            ),
+                        ),
+                    (
+                        'A_a_TubaVoiceI_a',
+                        (
+                            abjad.Part('Tuba', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(23, 4),
@@ -541,10 +553,10 @@ metadata = abjad.OrderedDict(
                                 value='Horn',
                                 ),
                             abjad.Momento(
-                                context='HornVoiceI',
+                                context='HornVoiceIII',
                                 document='+SCORE:+SEGMENT',
                                 prototype='abjad.MarginMarkup',
-                                value='Hn. (1+3)',
+                                value='Hn.',
                                 ),
                             ],
                         ),
@@ -562,10 +574,10 @@ metadata = abjad.OrderedDict(
                                 value='Horn',
                                 ),
                             abjad.Momento(
-                                context='HornVoiceII',
+                                context='HornVoiceIV',
                                 document='+SCORE:+SEGMENT',
                                 prototype='abjad.MarginMarkup',
-                                value='Hn. (2+4)',
+                                value='Hn.',
                                 ),
                             ],
                         ),
@@ -774,10 +786,10 @@ metadata = abjad.OrderedDict(
                                 value='Trombone',
                                 ),
                             abjad.Momento(
-                                context='TromboneVoiceI',
+                                context='TromboneVoiceIII',
                                 document='+SCORE:+SEGMENT',
                                 prototype='abjad.MarginMarkup',
-                                value='Trb. (1+3)',
+                                value='Trb.',
                                 ),
                             ],
                         ),
@@ -795,10 +807,10 @@ metadata = abjad.OrderedDict(
                                 value='Trombone',
                                 ),
                             abjad.Momento(
-                                context='TromboneVoiceII',
+                                context='TromboneVoiceIV',
                                 document='+SCORE:+SEGMENT',
                                 prototype='abjad.MarginMarkup',
-                                value='Trb. (2+4)',
+                                value='Trb.',
                                 ),
                             ],
                         ),
@@ -858,10 +870,10 @@ metadata = abjad.OrderedDict(
                                 value='Trumpet',
                                 ),
                             abjad.Momento(
-                                context='TrumpetVoiceI',
+                                context='TrumpetVoiceIII',
                                 document='+SCORE:+SEGMENT',
                                 prototype='abjad.MarginMarkup',
-                                value='Tp. (1+3)',
+                                value='Tp.',
                                 ),
                             ],
                         ),
@@ -879,10 +891,10 @@ metadata = abjad.OrderedDict(
                                 value='Trumpet',
                                 ),
                             abjad.Momento(
-                                context='TrumpetVoiceII',
+                                context='TrumpetVoiceIV',
                                 document='+SCORE:+SEGMENT',
                                 prototype='abjad.MarginMarkup',
-                                value='Tp. (2+4)',
+                                value='Tp.',
                                 ),
                             ],
                         ),
@@ -923,6 +935,37 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='TrumpetVoiceIV',
                                 document='+PARTS',
+                                prototype='abjad.Dynamic',
+                                value='sffz',
+                                ),
+                            ],
+                        ),
+                    (
+                        'TubaStaffI',
+                        [
+                            abjad.Momento(
+                                context='TubaVoiceI',
+                                prototype='abjad.Clef',
+                                value='bass',
+                                ),
+                            abjad.Momento(
+                                context='TubaVoiceI',
+                                prototype='abjad.Instrument',
+                                value='Tuba',
+                                ),
+                            abjad.Momento(
+                                context='TubaVoiceI',
+                                document='+SCORE:+SEGMENT',
+                                prototype='abjad.MarginMarkup',
+                                value='Tub.',
+                                ),
+                            ],
+                        ),
+                    (
+                        'TubaVoiceI',
+                        [
+                            abjad.Momento(
+                                context='TubaVoiceI',
                                 prototype='abjad.Dynamic',
                                 value='sffz',
                                 ),
@@ -1012,6 +1055,7 @@ metadata = abjad.OrderedDict(
                     ('TromboneVoiceIII', True),
                     ('TromboneVoiceII', True),
                     ('TromboneVoiceIV', True),
+                    ('TubaVoiceI', True),
                     ('PercussionVoiceI', True),
                     ('PercussionVoiceII', True),
                     ('FirstViolinVoiceIII', True),

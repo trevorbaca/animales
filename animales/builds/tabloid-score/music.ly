@@ -234,6 +234,19 @@
                         systemStartDelimiter = #'SystemStartSquare
                     }
                     <<
+                        {
+                            \context Staff = "TubaStaffI"
+                            \clef "bass"
+                            \i_a_GlobalRests
+                            \context Staff = "TubaStaffI"
+                            \i_b_GlobalRests
+                            \context Staff = "TubaStaffI"
+                            \i_c_GlobalRests
+                            \context Staff = "TubaStaffI"
+                            \A_a_TubaStaffI
+                            \context Staff = "TubaStaffI"
+                            \A_b_GlobalRests
+                        }
                     >>
                 >>
                 \context StaffGroup = "PianoPianoStaff"

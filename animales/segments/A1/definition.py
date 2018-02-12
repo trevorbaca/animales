@@ -34,6 +34,9 @@ maker = baca.SegmentMaker(
             (1, [1, 3]),
             (2, [2, 4]),
             ],
+        tuba=[
+            (1, [1]),
+            ],
         percussion=[
             (1, [1]),
             (2, [2]),
@@ -234,6 +237,7 @@ maker(
         ('TromboneVoiceII', 3),
         ('TromboneVoiceIII', 3),
         ('TromboneVoiceIV', 3),
+        ('TubaVoiceI', 3),
     ),
     animales.downbeat_attack(),
     baca.marcati(),
@@ -243,13 +247,11 @@ maker(
 
 maker(
     baca.scope('TrumpetVoiceI', 3),
-    animales.margin_markup('Tp. (1+3)', alert=baca.markup.divisi_1_plus_3()),
     baca.dynamic('sffz'),
     )
 
 maker(
     baca.scope('TrumpetVoiceII', 3),
-    animales.margin_markup('Tp. (2+4)', alert=baca.markup.divisi_2_plus_4()),
     baca.dynamic('sffz'),
     )
 
@@ -263,6 +265,7 @@ maker(
 
 maker(
     baca.scope('TrumpetVoiceI', 1, 6),
+    #animales.margin_markup('Tp. (1+3)'),
     animales.parts('Trumpet', 1),
     baca.pitch('D5'),
     baca.tag('-PARTS', baca.voice_one()),
@@ -277,6 +280,7 @@ maker(
 
 maker(
     baca.scope('TrumpetVoiceII', 1, 6),
+    #animales.margin_markup('Tp. (2+4)'),
     animales.parts('Trumpet', 2),
     baca.pitch('Ab4'),
     baca.tag('-PARTS', baca.voice_one()),
@@ -293,13 +297,11 @@ maker(
 
 maker(
     baca.scope('TromboneVoiceI', 3),
-    animales.margin_markup('Trb. (1+3)', alert=baca.markup.divisi_1_plus_3()),
     baca.dynamic('sffz'),
     )
 
 maker(
     baca.scope('TromboneVoiceII', 3),
-    animales.margin_markup('Trb. (2+4)', alert=baca.markup.divisi_2_plus_4()),
     baca.dynamic('sffz'),
     )
 
@@ -313,6 +315,7 @@ maker(
 
 maker(
     baca.scope('TromboneVoiceI', 1, 6),
+    #animales.margin_markup('Trb. (1+3)'),
     animales.parts('Trombone', 1),
     baca.pitch('G4'),
     baca.tag('-PARTS', baca.voice_one()),
@@ -327,6 +330,7 @@ maker(
 
 maker(
     baca.scope('TromboneVoiceII', 1, 6),
+    #animales.margin_markup('Trb. (2+4)'),
     animales.parts('Trombone', 2),
     baca.pitch('Db4'),
     baca.tag('-PARTS', baca.voice_one()),
@@ -339,18 +343,15 @@ maker(
     baca.tag('-PARTS', baca.voice_two()),
     )
 
-
 # horns
 
 maker(
     baca.scope('HornVoiceI', 3),
-    animales.margin_markup('Hn. (1+3)', alert=baca.markup.divisi_1_plus_3()),
     baca.dynamic('sffz'),
     )
 
 maker(
     baca.scope('HornVoiceII', 3),
-    animales.margin_markup('Hn. (2+4)', alert=baca.markup.divisi_2_plus_4()),
     baca.dynamic('sffz'),
     )
 
@@ -364,6 +365,7 @@ maker(
 
 maker(
     baca.scope('HornVoiceI', 1, 6),
+    #animales.margin_markup('Hn. (1+3)'),
     animales.parts('Horn', 1),
     baca.pitch('C4'),
     baca.tag('-PARTS', baca.voice_one()),
@@ -378,6 +380,7 @@ maker(
 
 maker(
     baca.scope('HornVoiceII', 1, 6),
+    #animales.margin_markup('Hn. (2+4)'),
     animales.parts('Horn', 2),
     baca.pitch('Gb3'),
     baca.tag('-PARTS', baca.voice_one()),
@@ -388,6 +391,19 @@ maker(
     animales.parts('Horn', 4),
     baca.pitch('E3'),
     baca.tag('-PARTS', baca.voice_two()),
+    )
+
+# tuba
+
+maker(
+    baca.scope('TubaVoiceI', 3),
+    baca.dynamic('sffz'),
+    )
+
+maker(
+    baca.scope('TubaVoiceI', 1, 6),
+    animales.parts('Tuba', 1),
+    baca.pitch('C2'),
     )
 
 # contrabasses
@@ -423,7 +439,6 @@ maker(
     baca.scope('PercussionVoiceI', 3, 6),
     baca.bar_extent((-2, 2)),
     baca.markup.boxed('triangle (small beater)'),
-    baca.tag('-PARTS', animales.margin_markup('Perc. 1')),
     baca.tag(
         '-PARTS',
         baca.bar_extent((0, 0), after=True, selector=baca.leaves()),
@@ -438,7 +453,6 @@ maker(
     baca.scope('PercussionVoiceII', 3, 6),
     baca.bar_extent((-2, 2)),
     baca.markup.boxed('suspended cymbal (soft yarn mallets: attackless sound)'),
-    baca.tag('-PARTS', animales.margin_markup('Perc. 2')),
     baca.tag(
         '-PARTS',
         baca.bar_extent((0, 0), after=True, selector=baca.leaves()),
@@ -451,11 +465,13 @@ maker(
 
 maker(
     baca.scope('PercussionVoiceI', 1, 6),
+    animales.margin_markup('Perc. 1'),
     animales.parts('Percussion', 1),
     )
 
 maker(
     baca.scope('PercussionVoiceII', 1, 6),
+    animales.margin_markup('Perc. 2'),
     animales.parts('Percussion', 2),
     )
 
