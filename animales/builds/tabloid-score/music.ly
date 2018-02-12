@@ -99,6 +99,19 @@
                         <<
                             {
                                 \context Staff = "ClarinetStaffI"
+                                \with
+                                {
+                                    shortInstrumentName =
+                                    \markup {
+                                        \hcenter-in
+                                            #16
+                                            \center-column
+                                                {
+                                                    Cl.
+                                                    3
+                                                }
+                                        }
+                                }
                                 \clef "treble"
                                 \i_a_GlobalRests
                                 \context Staff = "ClarinetStaffI"
@@ -137,6 +150,19 @@
                     <<
                         {
                             \context Staff = "HornStaffI"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Hn.
+                                                (1+3)
+                                            }
+                                    }
+                            }
                             \clef "bass"
                             \i_a_GlobalRests
                             \context Staff = "HornStaffI"
@@ -150,6 +176,19 @@
                         }
                         {
                             \context Staff = "HornStaffII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Hn.
+                                                (2+4)
+                                            }
+                                    }
+                            }
                             \clef "bass"
                             \i_a_GlobalRests
                             \context Staff = "HornStaffII"
@@ -170,6 +209,19 @@
                     <<
                         {
                             \context Staff = "TrumpetStaffI"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Tp.
+                                                (1+3)
+                                            }
+                                    }
+                            }
                             \clef "treble"
                             \i_a_GlobalRests
                             \context Staff = "TrumpetStaffI"
@@ -183,6 +235,19 @@
                         }
                         {
                             \context Staff = "TrumpetStaffII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Tp.
+                                                (2+4)
+                                            }
+                                    }
+                            }
                             \clef "treble"
                             \i_a_GlobalRests
                             \context Staff = "TrumpetStaffII"
@@ -203,6 +268,19 @@
                     <<
                         {
                             \context Staff = "TromboneStaffI"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Trb.
+                                                (1+3)
+                                            }
+                                    }
+                            }
                             \clef "tenor"
                             \i_a_GlobalRests
                             \context Staff = "TromboneStaffI"
@@ -216,6 +294,19 @@
                         }
                         {
                             \context Staff = "TromboneStaffII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Trb.
+                                                (2+4)
+                                            }
+                                    }
+                            }
                             \clef "tenor"
                             \i_a_GlobalRests
                             \context Staff = "TromboneStaffII"
@@ -236,6 +327,15 @@
                     <<
                         {
                             \context Staff = "TubaStaffI"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Tub.
+                                    }
+                            }
                             \clef "bass"
                             \i_a_GlobalRests
                             \context Staff = "TubaStaffI"
@@ -259,6 +359,19 @@
                 <<
                     {
                         \context Staff = "PercussionStaffI"
+                        \with
+                        {
+                            shortInstrumentName =
+                            \markup {
+                                \hcenter-in
+                                    #16
+                                    \center-column
+                                        {
+                                            Perc.
+                                            1
+                                        }
+                                }
+                        }
                         \clef "percussion"
                         \i_a_GlobalRests
                         \context Staff = "PercussionStaffI"
@@ -272,6 +385,19 @@
                     }
                     {
                         \context Staff = "PercussionStaffII"
+                        \with
+                        {
+                            shortInstrumentName =
+                            \markup {
+                                \hcenter-in
+                                    #16
+                                    \center-column
+                                        {
+                                            Perc.
+                                            2
+                                        }
+                                }
+                        }
                         \clef "percussion"
                         \i_a_GlobalRests
                         \context Staff = "PercussionStaffII"
@@ -413,6 +539,15 @@
                     <<
                         {
                             \context Staff = "ContrabassStaffI"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Cb.
+                                    }
+                            }
                             \clef "bass"
                             \i_a_GlobalRests
                             \context Staff = "ContrabassStaffI"
