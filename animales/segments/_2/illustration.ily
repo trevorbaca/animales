@@ -358,7 +358,7 @@ i_b_FirstViolinVoiceI_a = {
                     (1-10)                               %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
                 }                                        %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
-    \override TrillSpanner.staff-padding = #4            %! OC
+    \override TrillSpanner.staff-padding = #4            %! OC1
     \clef "treble"                                       %! SM37:REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM37:REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! SM37:REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
@@ -442,7 +442,7 @@ i_b_FirstViolinVoiceI_a = {
     f'4
     -\accent                                             %! IC
     \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
-    \revert TrillSpanner.staff-padding                   %! OC
+    \revert TrillSpanner.staff-padding                   %! OC2
     
 }
 
@@ -481,7 +481,7 @@ i_b_FirstViolinVoiceII_a = {
                     (11-18)                              %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
                 }                                        %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
-    \override TrillSpanner.staff-padding = #6            %! OC
+    \override TrillSpanner.staff-padding = #6            %! OC1
     \clef "treble"                                       %! SM37:REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM37:REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! SM37:REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
@@ -568,7 +568,7 @@ i_b_FirstViolinVoiceII_a = {
     f'2
     \repeatTie
     \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
-    \revert TrillSpanner.staff-padding                   %! OC
+    \revert TrillSpanner.staff-padding                   %! OC2
     
 }
 
@@ -607,7 +607,7 @@ i_b_SecondViolinVoiceI_a = {
                     (1-10)                               %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
                 }                                        %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
-    \override TrillSpanner.staff-padding = #4            %! OC
+    \override TrillSpanner.staff-padding = #4            %! OC1
     \clef "treble"                                       %! SM37:REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM37:REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! SM37:REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
@@ -688,7 +688,7 @@ i_b_SecondViolinVoiceI_a = {
     f'2
     \repeatTie
     \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
-    \revert TrillSpanner.staff-padding                   %! OC
+    \revert TrillSpanner.staff-padding                   %! OC2
     
 }
 
@@ -727,7 +727,7 @@ i_b_SecondViolinVoiceII_a = {
                     (11-18)                              %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
                 }                                        %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
-    \override TrillSpanner.staff-padding = #6            %! OC
+    \override TrillSpanner.staff-padding = #6            %! OC1
     \clef "treble"                                       %! SM37:REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM37:REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! SM37:REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
@@ -814,7 +814,7 @@ i_b_SecondViolinVoiceII_a = {
     f'2
     \repeatTie
     \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
-    \revert TrillSpanner.staff-padding                   %! OC
+    \revert TrillSpanner.staff-padding                   %! OC2
     
 }
 
@@ -851,7 +851,7 @@ i_b_ViolaVoiceI_a = {
                     (1-10)                               %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
                 }                                        %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
-    \override TrillSpanner.staff-padding = #4            %! OC
+    \override TrillSpanner.staff-padding = #4            %! OC1
     \clef "alto"                                         %! SM37:REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM37:REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! SM37:REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
@@ -933,7 +933,7 @@ i_b_ViolaVoiceI_a = {
     f'2
     \repeatTie
     \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
-    \revert TrillSpanner.staff-padding                   %! OC
+    \revert TrillSpanner.staff-padding                   %! OC2
     
 }
 
@@ -970,7 +970,7 @@ i_b_ViolaVoiceII_a = {
                     (11-18)                              %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
                 }                                        %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
-    \override TrillSpanner.staff-padding = #4            %! OC
+    \override TrillSpanner.staff-padding = #4            %! OC1
     \clef "alto"                                         %! SM37:REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM37:REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                     %! SM37:REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
@@ -1046,7 +1046,7 @@ i_b_ViolaVoiceII_a = {
     f'2
     \repeatTie
     \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
-    \revert TrillSpanner.staff-padding                   %! OC
+    \revert TrillSpanner.staff-padding                   %! OC2
     
 }
 
@@ -1075,7 +1075,7 @@ i_b_CelloVoiceI_a = {
             #16                                              %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
             Vc.                                              %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
         }                                                    %! +SCORE:+SEGMENT:SM37:REAPPLIED_MARGIN_MARKUP:SM8
-    \override TrillSpanner.staff-padding = #4                %! OC
+    \override TrillSpanner.staff-padding = #4                %! OC1
     \clef "tenor"                                            %! SM37:REAPPLIED_CLEF:SM8
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM37:REAPPLIED_CLEF_COLOR:SM6
 %@% \override Staff.Clef.color = ##f                         %! SM37:REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
@@ -1152,7 +1152,7 @@ i_b_CelloVoiceI_a = {
     f'4.
     -\accent                                                 %! IC
     \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
-    \revert TrillSpanner.staff-padding                       %! OC
+    \revert TrillSpanner.staff-padding                       %! OC2
     
 }
 
