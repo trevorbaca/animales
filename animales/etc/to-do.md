@@ -1,15 +1,13 @@
 TO-DO
 =====
 
-1.  Make score-build (mli) call (ggc) and (mlg) as always-run preconditions.
-
-2.  Change 'document-specific' to 'edition-specific'.
+1.  Change 'document-specific' to 'edition-specific'.
     Add baca.markup.edition('solo (cl. 2)', 'solo').
 
-3.  Add baca.score() as baca.tag('-PARTS', ...).
+2.  Add baca.score() as baca.tag('-PARTS', ...).
     Add baca.parts() as baca.tag('+PARTS', ...).
 
-4.  Add encaspulated bar extent command.
+3.  Add encaspulated bar extent command.
     baca.bar_extent_zero():
         baca.suite(
             baca.bar_extent((0, 0), after=True, selector=baca.leaves()),
@@ -17,6 +15,6 @@ TO-DO
             )
     Then baca.score(baca.bar_extent_zero()).
 
-5.  Cb crescendo to fff by end of A2.
+4.  Cb crescendo to fff by end of A2.
     Triangle pp pedal governs all of A.
     Suspended cymbal roll governs A, B, parts of C.
