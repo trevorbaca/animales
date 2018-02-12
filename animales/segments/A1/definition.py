@@ -265,7 +265,7 @@ maker(
 
 maker(
     baca.scope('TrumpetVoiceI', 1, 6),
-    #animales.margin_markup('Tp. (1+3)'),
+    animales.margin_markup('Tp. (1+3)'),
     animales.parts('Trumpet', 1),
     baca.pitch('D5'),
     baca.tag('-PARTS', baca.voice_one()),
@@ -280,7 +280,7 @@ maker(
 
 maker(
     baca.scope('TrumpetVoiceII', 1, 6),
-    #animales.margin_markup('Tp. (2+4)'),
+    animales.margin_markup('Tp. (2+4)'),
     animales.parts('Trumpet', 2),
     baca.pitch('Ab4'),
     baca.tag('-PARTS', baca.voice_one()),
@@ -315,7 +315,7 @@ maker(
 
 maker(
     baca.scope('TromboneVoiceI', 1, 6),
-    #animales.margin_markup('Trb. (1+3)'),
+    animales.margin_markup('Trb. (1+3)'),
     animales.parts('Trombone', 1),
     baca.pitch('G4'),
     baca.tag('-PARTS', baca.voice_one()),
@@ -330,7 +330,7 @@ maker(
 
 maker(
     baca.scope('TromboneVoiceII', 1, 6),
-    #animales.margin_markup('Trb. (2+4)'),
+    animales.margin_markup('Trb. (2+4)'),
     animales.parts('Trombone', 2),
     baca.pitch('Db4'),
     baca.tag('-PARTS', baca.voice_one()),
@@ -365,7 +365,7 @@ maker(
 
 maker(
     baca.scope('HornVoiceI', 1, 6),
-    #animales.margin_markup('Hn. (1+3)'),
+    animales.margin_markup('Hn. (1+3)'),
     animales.parts('Horn', 1),
     baca.pitch('C4'),
     baca.tag('-PARTS', baca.voice_one()),
@@ -380,7 +380,7 @@ maker(
 
 maker(
     baca.scope('HornVoiceII', 1, 6),
-    #animales.margin_markup('Hn. (2+4)'),
+    animales.margin_markup('Hn. (2+4)'),
     animales.parts('Horn', 2),
     baca.pitch('Gb3'),
     baca.tag('-PARTS', baca.voice_one()),
