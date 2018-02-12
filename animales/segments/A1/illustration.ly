@@ -76,6 +76,8 @@
                         \context Staff = "TromboneStaffII"
                         \A_a_TromboneStaffII
                     >>
+                    \context Staff = "TubaStaffI"
+                    \A_a_TubaStaffI
                 >>
                 \context StaffGroup = "PercussionStaffGroup"
                 \with
