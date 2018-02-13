@@ -119,3 +119,11 @@ maker(
 #    baca.scope('ViolaVoiceI', 3, 6),
 #    baca.repeat_ties_up(),
 #    )
+
+maker(
+    baca.scope('ContrabassVoiceI', 1, 6),
+    animales.parts('Contrabass'),
+    baca.hairpin('< ff', left_broken=True),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('B1'),
+    )

@@ -571,6 +571,16 @@ metadata = abjad.OrderedDict(
                                             ),
                                         ),
                                     ),
+                                (
+                                    'A_b_ContrabassVoiceI_a',
+                                    (
+                                        abjad.Part('Contrabass'),
+                                        abjad.Timespan(
+                                            start_offset=abjad.Offset(0, 1),
+                                            stop_offset=abjad.Offset(21, 4),
+                                            ),
+                                        ),
+                                    ),
                                 ]
                             ),
                         ),
