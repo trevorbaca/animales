@@ -162,11 +162,11 @@ maker(
         baca.tie_repeat_pitches(),
         baca.glissando(),
         ]),
-    baca.tag('-PARTS', baca.dynamic_line_spanner_up()),
-    baca.tag('-PARTS', baca.markup('solo (first violin)')),
-    baca.tag('-PARTS', baca.voice_one()),
-    baca.tag('+PARTS', baca.literal(r'\stopTrillSpan', format_slot='after')),
-    baca.tag('+PARTS', baca.markup('solo')),
+    baca.parts(baca.literal(r'\stopTrillSpan', format_slot='after')),
+    baca.parts(baca.markup('solo')),
+    baca.score(baca.dynamic_line_spanner_up()),
+    baca.score(baca.markup('solo (first violin)')),
+    baca.score(baca.voice_one()),
     )
 
 divisi = [
