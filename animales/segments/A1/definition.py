@@ -426,9 +426,11 @@ maker(
         ('PercussionVoiceI', 3, 6),
         ('PercussionVoiceII', 3, 6),
         ),
+    baca.bar_extent((-2, 2)),
     baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
     baca.repeat_ties_up(),
+    baca.score(baca.bar_extent_zero()),
     baca.staff_lines(1),
     baca.staff_positions([0]),
     baca.stem_tremolo(),
@@ -436,18 +438,14 @@ maker(
 
 maker(
     baca.scope('PercussionVoiceI', 3, 6),
-    baca.bar_extent((-2, 2)),
     baca.markup.boxed('triangle (small beater)'),
-    baca.score(baca.bar_extent((0, 0), after=True, selector=baca.leaves())),
-    baca.score(baca.bar_extent((0, 0), after=True, selector=baca.leaf(-1))),
     )
 
 maker(
     baca.scope('PercussionVoiceII', 3, 6),
-    baca.bar_extent((-2, 2)),
-    baca.markup.boxed('suspended cymbal (soft yarn mallets: attackless sound)'),
-    baca.score(baca.bar_extent((0, 0), after=True, selector=baca.leaves())),
-    baca.score(baca.bar_extent((0, 0), after=True, selector=baca.leaf(-1))),
+    baca.markup.boxed(
+        'suspended cymbal (soft yarn mallets: attackless sound)',
+        ),
     )
 
 maker(
