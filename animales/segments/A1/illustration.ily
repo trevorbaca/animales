@@ -2661,10 +2661,9 @@ A_a_ContrabassVoiceI_a = {
     \repeatTie
     
     % [A1 ContrabassVoiceI measure 23]                       %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! HC3:EXPLICIT_DYNAMIC_COLOR:SM6
     c2.
     \repeatTie
-    \mf                                                      %! HC1
+    \!                                                       %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
     
 }
 

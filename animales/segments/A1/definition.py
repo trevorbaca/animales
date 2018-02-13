@@ -409,7 +409,7 @@ maker(
 
 maker(
     baca.scope('ContrabassVoiceI', 3, 6),
-    baca.hairpin('p < mf'),
+    baca.hairpin('p <', right_broken=True),
     baca.make_repeat_tied_notes(),
     baca.pitch('C2'),
     )
