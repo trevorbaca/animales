@@ -5,12 +5,12 @@ from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
-##################################### [A2] ####################################
+##################################### [B1] ####################################
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
 start = metadata.get('last_measure_number')
-assert start == 23
+assert start == 29
 
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
@@ -54,11 +54,11 @@ maker = baca.SegmentMaker(
 
 maker(
     baca.scope('ClarinetVoiceI', 1, 6),
-    animales.margin_markup('Cl. 2'),
-    animales.parts('Clarinet', 2),
+    animales.margin_markup('Cl. 3'),
+    animales.parts('Clarinet', 3),
     baca.dynamic('mp'),
     baca.make_repeat_tied_notes(),
-    baca.markup.edition('solo (cl. 2)', 'solo'),
+    baca.markup.edition('solo (cl. 3)', 'solo'),
     baca.pitch('C#5'),
     )
 
@@ -91,69 +91,63 @@ maker(
 maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
     animales.parts('FirstViolin', (1, 10)),
-    animales.sforzando_exchange_rhythm(0),
+    baca.make_repeated_durations([(1, 4)]),
     )
 
 maker(
     baca.scope('FirstViolinVoiceII', 1, 6),
     animales.parts('FirstViolin', (2, 18)),
-    animales.sforzando_exchange_rhythm(1),
+    baca.make_repeated_durations([(1, 4)]),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 1, 6),
     animales.parts('SecondViolin', (1, 10)),
-    animales.sforzando_exchange_rhythm(2),
+    baca.make_repeated_durations([(1, 4)]),
     )
 
 maker(
     baca.scope('SecondViolinVoiceII', 1, 6),
     animales.parts('SecondViolin', (2, 18)),
-    animales.sforzando_exchange_rhythm(3),
+    baca.make_repeated_durations([(1, 4)]),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 1, 6),
     animales.parts('Viola', (1, 10)),
-    animales.sforzando_exchange_rhythm(4),
+    baca.make_repeated_durations([(1, 4)]),
     )
 
 maker(
     baca.scope('ViolaVoiceII', 1, 6),
     animales.parts('Viola', (2, 18)),
-    animales.sforzando_exchange_rhythm(5),
+    baca.make_repeated_durations([(1, 4)]),
     )
 
 maker(
     baca.scope('CelloVoiceI', 1, 6),
     animales.parts('Cello'),
-    animales.sforzando_exchange_rhythm(6),
+    baca.make_repeated_durations([(1, 4)]),
     )
-
-strings = [
-    'FirstViolinVoiceI',
-    'FirstViolinVoiceII',
-    'SecondViolinVoiceI',
-    'SecondViolinVoiceII',
-    'ViolaVoiceI',
-    'ViolaVoiceII',
-    'CelloVoiceI',
-    ]
-
-maker(
-    baca.make_scopes(strings, [(1, 6)]),
-    baca.accents(selector=baca.pheads()[1:]),
-    baca.dynamic('f_but_accents_sffz', baca.pleaf(0)),
-    baca.pitch('B3'),
-    baca.trill('C4', broken=abjad.Right),
-    )
-
-# contrabasses
 
 maker(
     baca.scope('ContrabassVoiceI', 1, 6),
     animales.parts('Contrabass'),
-    baca.hairpin('< ff', baca.pleaves()[:4], left_broken=True),
-    baca.make_repeat_tied_notes(),
-    baca.pitch('B1'),
+    baca.make_repeated_durations([(1, 4)]),
+    )
+
+#strings = [
+#    'FirstViolinVoiceI',
+#    'FirstViolinVoiceII',
+#    'SecondViolinVoiceI',
+#    'SecondViolinVoiceII',
+#    'ViolaVoiceI',
+#    'ViolaVoiceII',
+#    'CelloVoiceI',
+#    'ContrabassVoiceI',
+#    ]
+
+maker(
+    baca.scope('FirstViolinVoiceI', 1, 6),
+    baca.pitch('Bb6'),
     )
