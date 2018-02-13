@@ -149,5 +149,10 @@ maker(
 
 maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
-    baca.pitch('Bb6'),
+    baca.glissando(),
+    baca.pitches([
+        -1, 0, 2, 4, 5, 7, 7, 9, 11, 12, 14, 14, 16, 17, 19,
+        21, 21, 23, 24, 26, 28, 29, 31, 32],
+        repeats=True,
+        ),
     )
