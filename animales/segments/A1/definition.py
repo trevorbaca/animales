@@ -122,7 +122,7 @@ maker(
     baca.make_scopes(strings, [(1, 2)]),
     baca.accents(selector=baca.pheads()[1:]),
     baca.dynamic('f_sub_but_accents_continue_sffz', baca.pleaf(0)),
-    baca.pitches(['Db4'], repeats=True),
+    baca.pitch('Db4'),
     baca.trill('Eb4'),
     )
 

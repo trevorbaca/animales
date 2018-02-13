@@ -97,14 +97,14 @@ maker(
 maker(
     baca.make_scopes(strings, [(1, 3)]),
     baca.dynamic('f_sub_but_accents_continue_sffz', baca.pleaf(0)),
-    baca.pitches(['E4'], repeats=True),
+    baca.pitch('E4'),
     baca.trill('F4'),
     )
 
 maker(
     baca.make_scopes(strings, [(4, 5)]),
     baca.dynamic('p_sub_but_accents_continue_sffz', baca.pleaf(0)),
-    baca.pitches(['Eb4'], repeats=True),
+    baca.pitch('Eb4'),
     baca.trill('E4', broken=abjad.Right),
     )
     
