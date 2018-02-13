@@ -1561,18 +1561,18 @@ A_a_FirstViolinVoiceIII_a = {
     ^ \markup {
         \column
             {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 solo                     %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
                 \line                                    %! IC:-PARTS
                     {                                    %! IC:-PARTS
                         \whiteout                        %! IC:-PARTS
                             \upright                     %! IC:-PARTS
                                 "solo (first violin)"    %! IC:-PARTS
                     }                                    %! IC:-PARTS
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 solo                     %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
             }
         }
 %%% \stopTrillSpan                                       %! IC:+PARTS

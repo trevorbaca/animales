@@ -56,9 +56,8 @@ maker(
     animales.parts('Clarinet', 2),
     baca.dynamic('mp'),
     baca.make_repeat_tied_notes(),
+    baca.markup.edition('solo (cl. 2)', 'solo'),
     baca.pitch('C#5'),
-    baca.tag('-PARTS', baca.markup('solo (cl. 2)')),
-    baca.tag('+PARTS', baca.markup('solo')),
     )
 
 maker(
@@ -69,14 +68,9 @@ maker(
     baca.repeat_tie_to(),
     baca.repeat_ties_up(),
     baca.stem_tremolo(),
-    baca.tag(
-        '-PARTS',
-        baca.bar_extent((0, 0), after=True, selector=baca.leaves()),
-        ),
-    baca.tag(
-        '-PARTS',
-        baca.bar_extent((0, 0), after=True, selector=baca.leaf(-1)),
-        ),
+    baca.score(baca.bar_extent((0, 0), after=True, selector=baca.leaves())),
+    baca.score(baca.bar_extent((0, 0), after=True, selector=baca.leaf(-1))),
+    #baca.score(baca.bar_extent_zero()),
     )
 
 maker(
@@ -87,14 +81,8 @@ maker(
     baca.repeat_tie_to(),
     baca.repeat_ties_up(),
     baca.stem_tremolo(),
-    baca.tag(
-        '-PARTS',
-        baca.bar_extent((0, 0), after=True, selector=baca.leaves()),
-        ),
-    baca.tag(
-        '-PARTS',
-        baca.bar_extent((0, 0), after=True, selector=baca.leaf(-1)),
-        ),
+    baca.score(baca.bar_extent((0, 0), after=True, selector=baca.leaves())),
+    baca.score(baca.bar_extent((0, 0), after=True, selector=baca.leaf(-1))),
     )
 
 #maker(
