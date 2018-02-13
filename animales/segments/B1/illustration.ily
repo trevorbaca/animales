@@ -708,8 +708,9 @@ B_a_FirstViolinVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    bf'''4
+    b4
     \f_but_accents_sffz                                  %! SM8:REAPPLIED_DYNAMIC:SM37
+    \glissando                                           %! SC
     ^ \markup {
         \column
             {
@@ -748,48 +749,63 @@ B_a_FirstViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    bf'''4
+    c'4
+    \glissando                                           %! SC
     
-    bf'''4
+    d'4
+    \glissando                                           %! SC
     
-    bf'''4
+    e'4
+    \glissando                                           %! SC
     
     % [B1 FirstViolinVoiceI measure 31]                  %! SM4
-    bf'''4
+    f'4
+    \glissando                                           %! SC
     
-    bf'''4
+    g'4
     
-    bf'''4
+    g'4
+    \glissando                                           %! SC
     
-    bf'''4
+    a'4
+    \glissando                                           %! SC
     
     % [B1 FirstViolinVoiceI measure 32]                  %! SM4
-    bf'''4
+    b'4
+    \glissando                                           %! SC
     
-    bf'''4
+    c''4
+    \glissando                                           %! SC
     
     % [B1 FirstViolinVoiceI measure 33]                  %! SM4
-    bf'''4
+    d''4
     
-    bf'''4
+    d''4
+    \glissando                                           %! SC
     
-    bf'''4
+    e''4
+    \glissando                                           %! SC
     
     % [B1 FirstViolinVoiceI measure 34]                  %! SM4
-    bf'''4
+    f''4
+    \glissando                                           %! SC
     
-    bf'''4
+    g''4
+    \glissando                                           %! SC
     
-    bf'''4
+    a''4
     
     % [B1 FirstViolinVoiceI measure 35]                  %! SM4
-    bf'''4
+    a''4
+    \glissando                                           %! SC
     
-    bf'''4
+    b''4
+    \glissando                                           %! SC
     
-    bf'''4
+    c'''4
+    \glissando                                           %! SC
     
-    bf'''4
+    d'''4
     
 }
 
