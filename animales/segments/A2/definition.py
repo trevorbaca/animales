@@ -145,7 +145,7 @@ maker(
     baca.accents(selector=baca.pheads()[1:]),
     baca.dynamic('f_but_accents_sffz', baca.pleaf(0)),
     baca.pitch('B3'),
-    baca.trill('C4', broken=abjad.Right),
+    baca.trill('C4', right_broken=True),
     )
 
 # contrabasses

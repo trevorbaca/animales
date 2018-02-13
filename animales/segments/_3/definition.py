@@ -105,7 +105,7 @@ maker(
     baca.make_scopes(strings, [(4, 5)]),
     baca.dynamic('p_sub_but_accents_continue_sffz', baca.pleaf(0)),
     baca.pitch('Eb4'),
-    baca.trill('E4', broken=abjad.Right),
+    baca.trill('E4', right_broken=True),
     )
     
 raised_trill = [
