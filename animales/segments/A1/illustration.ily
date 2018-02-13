@@ -1378,8 +1378,8 @@ A_a_PercussionVoiceI_a = {
     \stopStaff                                               %! IC:EXPLICIT_STAFF_LINES:SM8
     \once \override Staff.StaffSymbol.line-count = 1         %! IC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                              %! IC:EXPLICIT_STAFF_LINES:SM8
-    \override RepeatTie.direction = #up                      %! OC1
     \once \override Staff.BarLine.bar-extent = #'(-2 . 2)    %! OC1
+    \override RepeatTie.direction = #up                      %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! IC:EXPLICIT_STAFF_LINES_COLOR:SM6
     c'1
@@ -1499,8 +1499,8 @@ A_a_PercussionVoiceII_a = {
     \stopStaff                                               %! IC:EXPLICIT_STAFF_LINES:SM8
     \once \override Staff.StaffSymbol.line-count = 1         %! IC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                              %! IC:EXPLICIT_STAFF_LINES:SM8
-    \override RepeatTie.direction = #up                      %! OC1
     \once \override Staff.BarLine.bar-extent = #'(-2 . 2)    %! OC1
+    \override RepeatTie.direction = #up                      %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! IC:EXPLICIT_STAFF_LINES_COLOR:SM6
     c'1

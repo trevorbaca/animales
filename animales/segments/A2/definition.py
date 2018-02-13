@@ -67,10 +67,8 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie_to(),
     baca.repeat_ties_up(),
+    baca.score(baca.bar_extent_zero()),
     baca.stem_tremolo(),
-    baca.score(baca.bar_extent((0, 0), after=True, selector=baca.leaves())),
-    baca.score(baca.bar_extent((0, 0), after=True, selector=baca.leaf(-1))),
-    #baca.score(baca.bar_extent_zero()),
     )
 
 maker(
@@ -80,9 +78,8 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie_to(),
     baca.repeat_ties_up(),
+    baca.score(baca.bar_extent_zero()),
     baca.stem_tremolo(),
-    baca.score(baca.bar_extent((0, 0), after=True, selector=baca.leaves())),
-    baca.score(baca.bar_extent((0, 0), after=True, selector=baca.leaf(-1))),
     )
 
 #maker(
