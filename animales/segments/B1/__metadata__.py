@@ -402,7 +402,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='GlobalSkips',
                                 prototype='abjad.MetronomeMark',
-                                value='114',
+                                value='\\markup {\n    \\large\n        \\upright\n            rit.\n    }',
                                 ),
                             abjad.Momento(
                                 context='GlobalSkips',

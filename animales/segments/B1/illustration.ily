@@ -44,6 +44,7 @@ B_a_GlobalSkips = {
 %@%         #1                                                           %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@%     }                                                                %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left-broken.text = \markup {
         \null
@@ -72,11 +73,14 @@ B_a_GlobalSkips = {
                     #1                                                   %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
             }                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
         }                                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \mark #2                                                             %! IC
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR

@@ -18,54 +18,54 @@ C_a_GlobalRests = {
 C_a_GlobalSkips = {
     
     % [C1 GlobalSkips measure 36]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@% \markup {                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%     \fontsize                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%         #-6                                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%         \general-align                                               %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%             #Y                                                       %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%             #DOWN                                                    %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%             \note-by-number                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%                 #2                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%                 #0                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%                 #1                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%     \upright                                                         %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%         {                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%             =                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%             114                                                      %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%         }                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%     \hspace                                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%         #1                                                           %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%     }                                                                %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             76                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left-broken.text = \markup {
         \null
         }                                                                %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-    \markup {                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-        \with-color                                                      %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-            #(x11-color 'green4)                                         %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-            {                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                \fontsize                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                    #-6                                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                    \general-align                                       %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                        #Y                                               %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                        #DOWN                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                        \note-by-number                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                            #2                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                            #0                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                            #1                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                \upright                                                 %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                    {                                                    %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                        =                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                        114                                              %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                    }                                                    %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                \hspace                                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                    #1                                                   %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-            }                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-        }                                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        76                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
@@ -193,7 +193,7 @@ C_a_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [1'05'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [1'06'']                                 %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -235,7 +235,7 @@ C_a_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [1'07'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [1'09'']                                 %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -248,31 +248,31 @@ C_a_GlobalSkips = {
 C_a_ClarinetVoiceI_a = {
     
     % [C1 ClarinetVoiceI measure 36]                         %! SM4
-    \set Staff.instrumentName = \markup {                    %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-        \hcenter-in                                          %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-            #16                                              %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-            \center-column                                   %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-                {                                            %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-                    Cl.                                      %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-                    3                                        %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-                }                                            %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-        }                                                    %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-    \set Staff.shortInstrumentName = \markup {               %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-        \hcenter-in                                          %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-            #16                                              %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-            \center-column                                   %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-                {                                            %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-                    Cl.                                      %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-                    3                                        %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-                }                                            %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
-        }                                                    %! SM8:REDUNDANT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+    \set Staff.instrumentName = \markup {                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+        \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+            #16                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+            \center-column                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+                {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+                    Cl.                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+                    1                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+                }                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+        }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+    \set Staff.shortInstrumentName = \markup {               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+        \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+            #16                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+            \center-column                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+                {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+                    Cl.                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+                    1                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+                }                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
+        }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:+SCORE:+SEGMENT
     \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_MARGIN_MARKUP_COLOR:IC:+SCORE:+SEGMENT
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    ds''2
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:+SCORE:+SEGMENT
+    e''2
     \mp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -283,17 +283,11 @@ C_a_ClarinetVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                             (“Clarinet”)                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                     }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                        %! SM11:REDUNDANT_MARGIN_MARKUP_ALERT:IC:+SCORE:+SEGMENT
-                    {                                        %! SM11:REDUNDANT_MARGIN_MARKUP_ALERT:IC:+SCORE:+SEGMENT
-                        \with-color                          %! SM11:REDUNDANT_MARGIN_MARKUP_ALERT:IC:+SCORE:+SEGMENT
-                            #(x11-color 'DeepPink1)          %! SM11:REDUNDANT_MARGIN_MARKUP_ALERT:IC:+SCORE:+SEGMENT
-                            "[“Cl. 3”]"                      %! SM11:REDUNDANT_MARGIN_MARKUP_ALERT:IC:+SCORE:+SEGMENT
-                    }                                        %! SM11:REDUNDANT_MARGIN_MARKUP_ALERT:IC:+SCORE:+SEGMENT
                 \line                                        %! IC:-PARTS
                     {                                        %! IC:-PARTS
                         \whiteout                            %! IC:-PARTS
                             \upright                         %! IC:-PARTS
-                                "solo (cl. 3)"               %! IC:-PARTS
+                                "solo (cl. 1)"               %! IC:-PARTS
                     }                                        %! IC:-PARTS
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
@@ -301,39 +295,45 @@ C_a_ClarinetVoiceI_a = {
             %%%             \upright                         %! IC:+PARTS
             %%%                 solo                         %! IC:+PARTS
             %%%     }                                        %! IC:+PARTS
+                \line                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:+SCORE:+SEGMENT
+                    {                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:+SCORE:+SEGMENT
+                        \with-color                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:+SCORE:+SEGMENT
+                            #(x11-color 'blue)               %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:+SCORE:+SEGMENT
+                            "[“Cl. 1”]"                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:+SCORE:+SEGMENT
+                    }                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:+SCORE:+SEGMENT
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'DeepPink4) %! SM6:REDRAWN_REDUNDANT_MARGIN_MARKUP_COLOR:IC:+SCORE:+SEGMENT
-    \set Staff.instrumentName = \markup {                    %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-        \hcenter-in                                          %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-            #16                                              %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-            \center-column                                   %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-                {                                            %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-                    Cl.                                      %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-                    3                                        %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-                }                                            %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-        }                                                    %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-    \set Staff.shortInstrumentName = \markup {               %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-        \hcenter-in                                          %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-            #16                                              %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-            \center-column                                   %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-                {                                            %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-                    Cl.                                      %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-                    3                                        %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-                }                                            %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
-        }                                                    %! SM8:REDRAWN_REDUNDANT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:+SCORE:+SEGMENT
+    \set Staff.instrumentName = \markup {                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+        \hcenter-in                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+            #16                                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+            \center-column                                   %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+                {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+                    Cl.                                      %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+                    1                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+                }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+        }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+    \set Staff.shortInstrumentName = \markup {               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+        \hcenter-in                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+            #16                                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+            \center-column                                   %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+                {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+                    Cl.                                      %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+                    1                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+                }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
+        }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:+SCORE:+SEGMENT
     
     % [C1 ClarinetVoiceI measure 37]                         %! SM4
-    ds''1
+    e''1
     \repeatTie
     
     % [C1 ClarinetVoiceI measure 38]                         %! SM4
-    ds''1
+    e''1
     \repeatTie
     
     % [C1 ClarinetVoiceI measure 39]                         %! SM4
-    ds''1
+    e''1
     \repeatTie
     
 }

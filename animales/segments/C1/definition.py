@@ -52,6 +52,7 @@ maker = baca.SegmentMaker(
 
 maker(
     baca.scope('GlobalSkips', 1),
+    baca.metronome_mark('76'),
     baca.rehearsal_mark(3),
     )
 
@@ -59,12 +60,12 @@ maker(
 
 maker(
     baca.scope('ClarinetVoiceI', 1, 4),
-    animales.margin_markup('Cl. 3'),
-    animales.parts('Clarinet', 3),
+    animales.margin_markup('Cl. 1'),
+    animales.parts('Clarinet', 1),
     baca.dynamic('mp'),
     baca.make_repeat_tied_notes(),
-    baca.markup.edition('solo (cl. 3)', 'solo'),
-    baca.pitch('C#5'),
+    baca.markup.edition('solo (cl. 1)', 'solo'),
+    baca.pitch('D5'),
     )
 
 # percussion
