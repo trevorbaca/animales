@@ -708,10 +708,11 @@ B_a_FirstViolinVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b4
-    \f_but_accents_sffz                                  %! SM8:REAPPLIED_DYNAMIC:SM37
     \glissando                                           %! SC
+    \>                                                   %! HC1
+    \f                                                   %! HC1
     ^ \markup {
         \column
             {
@@ -784,39 +785,40 @@ B_a_FirstViolinVoiceI_a = {
     \glissando                                           %! SC
     
     % [B1 FirstViolinVoiceI measure 33]                  %! SM4
-    e''4
-    \glissando                                           %! SC
-    
     f''4
     \glissando                                           %! SC
     
     g''4
     \glissando                                           %! SC
     
-    % [B1 FirstViolinVoiceI measure 34]                  %! SM4
     a''4
     \glissando                                           %! SC
     
+    % [B1 FirstViolinVoiceI measure 34]                  %! SM4
     b''4
     \glissando                                           %! SC
     
     c'''4
     \glissando                                           %! SC
     
-    % [B1 FirstViolinVoiceI measure 35]                  %! SM4
     d'''4
     \glissando                                           %! SC
     
+    % [B1 FirstViolinVoiceI measure 35]                  %! SM4
     e'''4
     \glissando                                           %! SC
     
     f'''4
     \glissando                                           %! SC
     
+    g'''4
+    \glissando                                           %! SC
+    
     \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
     \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
     \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    g'''4
+    a'''4
+    \!                                                   %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
 %@% \glissando                                           %! RIGHT_BROKEN_GLISSANDO %! SC
 %@% \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO %! SC
 %@% \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO %! SC
@@ -864,10 +866,11 @@ B_a_FirstViolinVoiceII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                            %! SM24
-    c'4
-    \f_but_accents_sffz                                  %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    b4
+    \glissando                                           %! SC
+    \>                                                   %! HC1
+    \f                                                   %! HC1
     ^ \markup {
         \column
             {
@@ -909,67 +912,77 @@ B_a_FirstViolinVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    \makeBlue                                            %! SM24
+    \hide NoteHead                                       %! SC
+    \override NoteColumn.glissando-skip = ##t            %! SC
+    \override NoteHead.no-ledgers = ##t                  %! SC
     c'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    d'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    e'4
+    \glissando                                           %! SC
     
     % [B1 FirstViolinVoiceII measure 31]                 %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    f'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    g'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    a'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    b'4
+    \glissando                                           %! SC
     
     % [B1 FirstViolinVoiceII measure 32]                 %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    c''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    d''4
+    \glissando                                           %! SC
     
     % [B1 FirstViolinVoiceII measure 33]                 %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    f''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    g''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    a''4
+    \glissando                                           %! SC
     
     % [B1 FirstViolinVoiceII measure 34]                 %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    b''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    c'''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    d'''4
+    \glissando                                           %! SC
     
     % [B1 FirstViolinVoiceII measure 35]                 %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    e'''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    f'''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    g'''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    a'''4
+    \!                                                   %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
+%@% \glissando                                           %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO %! SC
     
 }
 
@@ -1011,10 +1024,11 @@ B_a_SecondViolinVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                            %! SM24
-    c'4
-    \f_but_accents_sffz                                  %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    b4
+    \glissando                                           %! SC
+    \>                                                   %! HC1
+    \f                                                   %! HC1
     ^ \markup {
         \column
             {
@@ -1054,67 +1068,77 @@ B_a_SecondViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    \makeBlue                                            %! SM24
-    c'4
+    \hide NoteHead                                       %! SC
+    \override NoteColumn.glissando-skip = ##t            %! SC
+    \override NoteHead.no-ledgers = ##t                  %! SC
+    b4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
     c'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    d'4
+    \glissando                                           %! SC
     
     % [B1 SecondViolinVoiceI measure 31]                 %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    d'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    e'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    f'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    f'4
+    \glissando                                           %! SC
     
     % [B1 SecondViolinVoiceI measure 32]                 %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    g'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    a'4
+    \glissando                                           %! SC
     
     % [B1 SecondViolinVoiceI measure 33]                 %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    b'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    b'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    c''4
+    \glissando                                           %! SC
     
     % [B1 SecondViolinVoiceI measure 34]                 %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    d''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    d''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    e''4
+    \glissando                                           %! SC
     
     % [B1 SecondViolinVoiceI measure 35]                 %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    f''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    f''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    g''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    a''4
+    \!                                                   %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
+%@% \glissando                                           %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO %! SC
     
 }
 
@@ -1158,10 +1182,11 @@ B_a_SecondViolinVoiceII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                            %! SM24
-    c'4
-    \f_but_accents_sffz                                  %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    b4
+    \glissando                                           %! SC
+    \>                                                   %! HC1
+    \f                                                   %! HC1
     ^ \markup {
         \column
             {
@@ -1203,67 +1228,77 @@ B_a_SecondViolinVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    \makeBlue                                            %! SM24
-    c'4
+    \hide NoteHead                                       %! SC
+    \override NoteColumn.glissando-skip = ##t            %! SC
+    \override NoteHead.no-ledgers = ##t                  %! SC
+    b4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
     c'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    d'4
+    \glissando                                           %! SC
     
     % [B1 SecondViolinVoiceII measure 31]                %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    d'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    e'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    f'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    f'4
+    \glissando                                           %! SC
     
     % [B1 SecondViolinVoiceII measure 32]                %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    g'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    a'4
+    \glissando                                           %! SC
     
     % [B1 SecondViolinVoiceII measure 33]                %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    b'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    b'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    c''4
+    \glissando                                           %! SC
     
     % [B1 SecondViolinVoiceII measure 34]                %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    d''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    d''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    e''4
+    \glissando                                           %! SC
     
     % [B1 SecondViolinVoiceII measure 35]                %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    f''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    f''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    g''4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    a''4
+    \!                                                   %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
+%@% \glissando                                           %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO %! SC
     
 }
 
@@ -1297,10 +1332,11 @@ B_a_ViolaVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                            %! SM24
-    c'4
-    \f_but_accents_sffz                                  %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    b4
+    \glissando                                           %! SC
+    \>                                                   %! HC1
+    \f                                                   %! HC1
     ^ \markup {
         \column
             {
@@ -1332,67 +1368,77 @@ B_a_ViolaVoiceI_a = {
             Vle.                                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    \makeBlue                                            %! SM24
-    c'4
+    \hide NoteHead                                       %! SC
+    \override NoteColumn.glissando-skip = ##t            %! SC
+    \override NoteHead.no-ledgers = ##t                  %! SC
+    b4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    b4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
     c'4
+    \glissando                                           %! SC
     
     % [B1 ViolaVoiceI measure 31]                        %! SM4
-    \makeBlue                                            %! SM24
     c'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
     c'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    d'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    d'4
+    \glissando                                           %! SC
     
     % [B1 ViolaVoiceI measure 32]                        %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    d'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    e'4
+    \glissando                                           %! SC
     
     % [B1 ViolaVoiceI measure 33]                        %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    e'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    e'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    f'4
+    \glissando                                           %! SC
     
     % [B1 ViolaVoiceI measure 34]                        %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    f'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    f'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    g'4
+    \glissando                                           %! SC
     
     % [B1 ViolaVoiceI measure 35]                        %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    g'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    g'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    a'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    a'4
+    \!                                                   %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
+%@% \glissando                                           %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO %! SC
     
 }
 
@@ -1434,10 +1480,11 @@ B_a_ViolaVoiceII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                            %! SM24
-    c'4
-    \f_but_accents_sffz                                  %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    b4
+    \glissando                                           %! SC
+    \>                                                   %! HC1
+    \f                                                   %! HC1
     ^ \markup {
         \column
             {
@@ -1477,67 +1524,77 @@ B_a_ViolaVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    \makeBlue                                            %! SM24
-    c'4
+    \hide NoteHead                                       %! SC
+    \override NoteColumn.glissando-skip = ##t            %! SC
+    \override NoteHead.no-ledgers = ##t                  %! SC
+    b4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    b4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
     c'4
+    \glissando                                           %! SC
     
     % [B1 ViolaVoiceII measure 31]                       %! SM4
-    \makeBlue                                            %! SM24
     c'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
     c'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    d'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    d'4
+    \glissando                                           %! SC
     
     % [B1 ViolaVoiceII measure 32]                       %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    d'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    e'4
+    \glissando                                           %! SC
     
     % [B1 ViolaVoiceII measure 33]                       %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    e'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    e'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    f'4
+    \glissando                                           %! SC
     
     % [B1 ViolaVoiceII measure 34]                       %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    f'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    f'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    g'4
+    \glissando                                           %! SC
     
     % [B1 ViolaVoiceII measure 35]                       %! SM4
-    \makeBlue                                            %! SM24
-    c'4
+    g'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    g'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    a'4
+    \glissando                                           %! SC
     
-    \makeBlue                                            %! SM24
-    c'4
+    \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    a'4
+    \!                                                   %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
+%@% \glissando                                           %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO %! SC
     
 }
 
@@ -1566,15 +1623,16 @@ B_a_CelloVoiceI_a = {
             #16                                              %! SM8:REAPPLIED_MARGIN_MARKUP:+SCORE:+SEGMENT:SM37
             Vc.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:+SCORE:+SEGMENT:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:+SCORE:+SEGMENT:SM37
-    \clef "tenor"                                            %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \clef "bass"                                             %! SM8:EXPLICIT_CLEF:IC
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                                %! SM24
-    c'4
-    \f_but_accents_sffz                                      %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Staff.Clef.color = #(x11-color 'blue)    %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                         %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                               %! SM8:EXPLICIT_CLEF:SM33:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    b4
+    \glissando                                               %! SC
+    \>                                                       %! HC1
+    \f                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1593,7 +1651,6 @@ B_a_CelloVoiceI_a = {
             }
         }
 %%% \stopTrillSpan                                           %! IC:-SEGMENT
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
     \set Staff.instrumentName = \markup {                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
@@ -1605,68 +1662,79 @@ B_a_CelloVoiceI_a = {
             #16                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
             Vc.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
-    \makeBlue                                                %! SM24
-    c'4
+    \hide NoteHead                                           %! SC
+    \override NoteColumn.glissando-skip = ##t                %! SC
+    \override NoteHead.no-ledgers = ##t                      %! SC
+    a4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c'4
+    a4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c'4
+    a4
+    \glissando                                               %! SC
     
     % [B1 CelloVoiceI measure 31]                            %! SM4
-    \makeBlue                                                %! SM24
-    c'4
+    g4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c'4
+    g4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c'4
+    g4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c'4
+    f4
+    \glissando                                               %! SC
     
     % [B1 CelloVoiceI measure 32]                            %! SM4
-    \makeBlue                                                %! SM24
-    c'4
+    f4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c'4
+    f4
+    \glissando                                               %! SC
     
     % [B1 CelloVoiceI measure 33]                            %! SM4
-    \makeBlue                                                %! SM24
-    c'4
+    f4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c'4
+    e4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c'4
+    e4
+    \glissando                                               %! SC
     
     % [B1 CelloVoiceI measure 34]                            %! SM4
-    \makeBlue                                                %! SM24
-    c'4
+    e4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c'4
+    d4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c'4
+    d4
+    \glissando                                               %! SC
     
     % [B1 CelloVoiceI measure 35]                            %! SM4
-    \makeBlue                                                %! SM24
-    c'4
+    d4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c'4
+    c4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c'4
+    c4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c'4
+    \revert NoteColumn.glissando-skip                        %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteHead.no-ledgers                              %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \undo \hide NoteHead                                     %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    c4
+    \!                                                       %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
+%@% \glissando                                               %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \revert NoteColumn.glissando-skip                        %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \undo \hide NoteHead                                     %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \revert NoteHead.no-ledgers                              %! RIGHT_BROKEN_GLISSANDO %! SC
     
 }
 
@@ -1700,10 +1768,11 @@ B_a_ContrabassVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                                %! SM24
-    c''4
-    \ff                                                      %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    b,4
+    \glissando                                               %! SC
+    \>                                                       %! HC1
+    \ff                                                      %! HC1
     ^ \markup {
         \column
             {
@@ -1734,67 +1803,77 @@ B_a_ContrabassVoiceI_a = {
             Cb.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    \makeBlue                                                %! SM24
-    c''4
+    \hide NoteHead                                           %! SC
+    \override NoteColumn.glissando-skip = ##t                %! SC
+    \override NoteHead.no-ledgers = ##t                      %! SC
+    a,4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
     % [B1 ContrabassVoiceI measure 31]                       %! SM4
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
     % [B1 ContrabassVoiceI measure 32]                       %! SM4
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
     % [B1 ContrabassVoiceI measure 33]                       %! SM4
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
     % [B1 ContrabassVoiceI measure 34]                       %! SM4
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
     % [B1 ContrabassVoiceI measure 35]                       %! SM4
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c''4
+    a,4
+    \glissando                                               %! SC
     
-    \makeBlue                                                %! SM24
-    c''4
+    \revert NoteColumn.glissando-skip                        %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteHead.no-ledgers                              %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \undo \hide NoteHead                                     %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    a,4
+    \!                                                       %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
+%@% \glissando                                               %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \revert NoteColumn.glissando-skip                        %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \undo \hide NoteHead                                     %! RIGHT_BROKEN_GLISSANDO %! SC
+%@% \revert NoteHead.no-ledgers                              %! RIGHT_BROKEN_GLISSANDO %! SC
     
 }
 
