@@ -165,6 +165,7 @@ metadata = abjad.OrderedDict(
         ('duration', "0'10''"),
         ('first_measure_number', 30),
         ('last_measure_number', 35),
+        ('metronome_mark_spanner_right_broken', True),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -402,7 +403,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='GlobalSkips',
                                 prototype='abjad.MetronomeMark',
-                                value='\\markup {\n    \\large\n        \\upright\n            rit.\n    }',
+                                value='abjad.Ritardando()',
                                 ),
                             abjad.Momento(
                                 context='GlobalSkips',

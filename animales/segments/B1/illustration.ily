@@ -295,7 +295,7 @@ B_a_GlobalSkips = {
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \stopTextSpan                                                        %! RIGHT_BROKEN_METRONOME_MARK_SPANNER %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {

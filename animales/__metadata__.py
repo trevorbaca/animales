@@ -778,7 +778,7 @@ metadata = abjad.OrderedDict(
                                 (
                                     'C_a_ClarinetVoiceI_a',
                                     (
-                                        abjad.Part('Clarinet', 3),
+                                        abjad.Part('Clarinet', 1),
                                         abjad.Timespan(
                                             start_offset=abjad.Offset(0, 1),
                                             stop_offset=abjad.Offset(7, 2),
