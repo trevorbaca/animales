@@ -52,7 +52,7 @@ metadata = abjad.OrderedDict(
                     (
                         'C_a_ClarinetVoiceI_a',
                         (
-                            abjad.Part('Clarinet', 3),
+                            abjad.Part('Clarinet', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(7, 2),
@@ -162,7 +162,7 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('duration', "0'07''"),
+        ('duration', "0'11''"),
         ('first_measure_number', 36),
         ('last_measure_number', 39),
         (
@@ -217,7 +217,7 @@ metadata = abjad.OrderedDict(
                                 context='ClarinetVoiceI',
                                 edition=abjad.Tag('+SCORE:+SEGMENT'),
                                 prototype='abjad.MarginMarkup',
-                                value='Cl. 3',
+                                value='Cl. 1',
                                 ),
                             ],
                         ),
@@ -402,7 +402,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='GlobalSkips',
                                 prototype='abjad.MetronomeMark',
-                                value='114',
+                                value='76',
                                 ),
                             abjad.Momento(
                                 context='GlobalSkips',
@@ -559,7 +559,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('start_clock_time', "1'02''"),
-        ('stop_clock_time', "1'09''"),
+        ('stop_clock_time', "1'13''"),
         (
             'time_signatures',
             ['2/4', '4/4', '4/4', '4/4'],
