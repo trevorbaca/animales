@@ -163,7 +163,7 @@ maker(
         baca.tie_repeat_pitches(),
         baca.glissando(),
         ]),
-    baca.parts(baca.literal(r'\stopTrillSpan', format_slot='after')),
+    baca.parts(baca.stop_trill()),
     baca.score(baca.dynamic_line_spanner_up()),
     baca.score(baca.voice_one()),
     )
