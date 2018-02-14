@@ -128,6 +128,7 @@ maker(
     baca.scope('CelloVoiceI', 1, 6),
     animales.parts('Cello'),
     animales.sforzando_exchange_rhythm(6),
+    baca.clef('bass'),
     )
 
 strings = [
