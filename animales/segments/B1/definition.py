@@ -161,67 +161,68 @@ maker(
         ('FirstViolinVoiceI', 1, 6),
         ('FirstViolinVoiceII', 1, 6),
         ),
-    baca.glissando(right_broken=True, stems=True),
+    baca.glissando(allow_repeats=True, right_broken=True, stems=True),
+    baca.hairpin('f >', right_broken=True),
     baca.staff_positions(
-        [-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+        [-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 4, 5, 6, 7, 8, 9,
+            10, 11, 12, 13],
         exact=True,
         repeats=True,
         ),
     baca.pitch('B3', baca.pleaf(0)),
     )
 
-#maker(
-#    baca.scope('FirstViolinVoiceI', 1, 6),
-#    baca.glissando(right_broken=True, stems=True),
-#    baca.staff_positions(
-#        [-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-#        exact=True,
-#        repeats=True,
-#        ),
-#    baca.pitch('B3', baca.pleaf(0)),
-#    )
-#
-#maker(
-#    baca.scope('FirstViolinVoiceI', 1, 6),
-#    baca.glissando(right_broken=True, stems=True),
-#    baca.staff_positions(
-#        [-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-#        exact=True,
-#        repeats=True,
-#        ),
-#    baca.pitch('B3', baca.pleaf(0)),
-#    )
-#
-#maker(
-#    baca.scope('FirstViolinVoiceI', 1, 6),
-#    baca.glissando(right_broken=True, stems=True),
-#    baca.staff_positions(
-#        [-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-#        exact=True,
-#        repeats=True,
-#        ),
-#    baca.pitch('B3', baca.pleaf(0)),
-#    )
-#
-#maker(
-#    baca.scope('FirstViolinVoiceI', 1, 6),
-#    baca.glissando(right_broken=True, stems=True),
-#    baca.staff_positions(
-#        [-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-#        exact=True,
-#        repeats=True,
-#        ),
-#    baca.pitch('B3', baca.pleaf(0)),
-#    )
-#
-#maker(
-#    baca.scope('FirstViolinVoiceI', 1, 6),
-#    baca.glissando(right_broken=True, stems=True),
-#    baca.staff_positions(
-#        [-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-#        exact=True,
-#        repeats=True,
-#        ),
-#    baca.pitch('B3', baca.pleaf(0)),
-#    )
-#
+maker(
+    baca.scopes(
+        ('SecondViolinVoiceI', 1, 6),
+        ('SecondViolinVoiceII', 1, 6),
+        ),
+    baca.glissando(allow_repeats=True, right_broken=True, stems=True),
+    baca.hairpin('f >', right_broken=True),
+    baca.staff_positions(
+        [-7, -7, -6, -5, -5, -4, -3, -3, -2, -1, 0, 0, 1, 2, 2, 3, 4, 4, 5, 6],
+        exact=True,
+        repeats=True,
+        ),
+    baca.pitch('B3', baca.pleaf(0)),
+    )
+
+maker(
+    baca.scopes(
+        ('ViolaVoiceI', 1, 6),
+        ('ViolaVoiceII', 1, 6),
+        ),
+    baca.glissando(allow_repeats=True, right_broken=True, stems=True),
+    baca.hairpin('f >', right_broken=True),
+    baca.staff_positions(
+        [-1, -1, -1, 0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5],
+        exact=True,
+        repeats=True,
+        ),
+    #baca.pitch('B3', baca.pleaf(0)),
+    )
+
+maker(
+    baca.scope('CelloVoiceI', 1, 6),
+    baca.clef('bass'),
+    baca.glissando(allow_repeats=True, right_broken=True, stems=True),
+    baca.hairpin('f >', right_broken=True),
+    baca.staff_positions(
+        [5, 4, 4, 4, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 0, 0, 0, -1, -1, -1],
+        exact=True,
+        repeats=True,
+        ),
+    baca.pitch('B3', baca.pleaf(0)),
+    )
+
+maker(
+    baca.scope('ContrabassVoiceI', 1, 6),
+    baca.glissando(allow_repeats=True, right_broken=True, stems=True),
+    baca.hairpin('ff >', right_broken=True),
+    baca.staff_positions(
+        [-2, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3,
+            -3, -3, -3, -3, -3, -3, -3, -3, -3],
+        exact=True,
+        repeats=True,
+        ),
+    )

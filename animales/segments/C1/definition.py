@@ -141,16 +141,16 @@ maker(
     baca.make_repeated_durations([(1, 4)]),
     )
 
-#strings = [
-#    'FirstViolinVoiceI',
-#    'FirstViolinVoiceII',
-#    'SecondViolinVoiceI',
-#    'SecondViolinVoiceII',
-#    'ViolaVoiceI',
-#    'ViolaVoiceII',
-#    'CelloVoiceI',
-#    'ContrabassVoiceI',
-#    ]
+strings = [
+    'FirstViolinVoiceI',
+    'FirstViolinVoiceII',
+    'SecondViolinVoiceI',
+    'SecondViolinVoiceII',
+    'ViolaVoiceI',
+    'ViolaVoiceII',
+    'CelloVoiceI',
+    #'ContrabassVoiceI',
+    ]
 
 maker(
     baca.scopes(
@@ -178,11 +178,31 @@ maker(
 
 maker(
     baca.scope('CelloVoiceI', 1, 4),
-    baca.clef('bass'),
-    baca.pitch('Bb3'),
+    baca.pitch('Bb2'),
     )
 
 maker(
     baca.scope('ContrabassVoiceI', 1, 4),
-    baca.pitch('Bb2'),
+    baca.pitch('A#1'),
+    )
+
+strings = [
+    'FirstViolinVoiceI',
+    'FirstViolinVoiceII',
+    'SecondViolinVoiceI',
+    'SecondViolinVoiceII',
+    'ViolaVoiceI',
+    'ViolaVoiceII',
+    'CelloVoiceI',
+    #'ContrabassVoiceI',
+    ]
+
+maker(
+    baca.make_scopes(strings, [1]),
+    baca.dynamic('pp'),
+    )
+
+maker(
+    baca.scope('ContrabassVoiceI', 1),
+    baca.dynamic('p'),
     )
