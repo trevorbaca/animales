@@ -96,49 +96,49 @@ maker(
 maker(
     baca.scope('FirstViolinVoiceI', 1, 4),
     animales.parts('FirstViolin', (1, 10)),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('FirstViolinVoiceII', 1, 4),
     animales.parts('FirstViolin', (2, 18)),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 1, 4),
     animales.parts('SecondViolin', (1, 10)),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('SecondViolinVoiceII', 1, 4),
     animales.parts('SecondViolin', (2, 18)),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 1, 4),
     animales.parts('Viola', (1, 10)),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ViolaVoiceII', 1, 4),
     animales.parts('Viola', (2, 18)),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('CelloVoiceI', 1, 4),
     animales.parts('Cello'),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ContrabassVoiceI', 1, 4),
     animales.parts('Contrabass'),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeat_tied_notes(),
     )
 
 strings = [
@@ -181,12 +181,32 @@ maker(
     baca.pitch('Bb2'),
     )
 
+warning = abjad.Markup.line([
+    abjad.Markup.concat([
+        '(',
+        'B',
+        abjad.Markup.flat().scale((0.65, 0.65)).raise_(0.5),
+        ]),
+    abjad.Markup('='),
+    abjad.Markup.concat([
+        'A',
+        abjad.Markup.sharp().scale((0.55, 0.55)).raise_(0.8),
+        ')',
+        ]),
+    ])
+warning = warning.scale((1.25, 1.25))
 maker(
     baca.scope('ContrabassVoiceI', 1, 4),
-    baca.pitch('A#1'),
+    baca.suite([
+        baca.untie_to(baca.leaf(1)),
+        baca.pitch('A#1', baca.pleaf(0)),
+        baca.pitch('Bb1', baca.leaves()[1:]),
+        baca.repeat_tie_to(baca.leaf(1)),
+        baca.markup(warning, baca.leaf(1)),
+        ]),
     )
 
-strings = [
+upper_strings = [
     'FirstViolinVoiceI',
     'FirstViolinVoiceII',
     'SecondViolinVoiceI',
@@ -194,15 +214,16 @@ strings = [
     'ViolaVoiceI',
     'ViolaVoiceII',
     'CelloVoiceI',
-    #'ContrabassVoiceI',
     ]
 
 maker(
-    baca.make_scopes(strings, [1]),
+    baca.make_scopes(upper_strings, [1]),
     baca.dynamic('pp'),
+    baca.markup('still (non vibrato)'),
     )
 
 maker(
     baca.scope('ContrabassVoiceI', 1),
     baca.dynamic('p'),
+    baca.markup('still (non vibrato)'),
     )

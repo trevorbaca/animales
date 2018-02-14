@@ -591,7 +591,7 @@ C_a_FirstViolinVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bf'''4
+    bf'''2
     \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -608,6 +608,12 @@ C_a_FirstViolinVoiceI_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                             "[“Vni. I”]"                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
+                \line                                    %! IC
+                    {                                    %! IC
+                        \whiteout                        %! IC
+                            \upright                     %! IC
+                                "still (non vibrato)"    %! IC
+                    }                                    %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -631,34 +637,17 @@ C_a_FirstViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    bf'''4
-    
     % [C1 FirstViolinVoiceI measure 37]                  %! SM4
-    bf'''4
-    
-    bf'''4
-    
-    bf'''4
-    
-    bf'''4
+    bf'''1
+    \repeatTie
     
     % [C1 FirstViolinVoiceI measure 38]                  %! SM4
-    bf'''4
-    
-    bf'''4
-    
-    bf'''4
-    
-    bf'''4
+    bf'''1
+    \repeatTie
     
     % [C1 FirstViolinVoiceI measure 39]                  %! SM4
-    bf'''4
-    
-    bf'''4
-    
-    bf'''4
-    
-    bf'''4
+    bf'''1
+    \repeatTie
     
 }
 
@@ -703,7 +692,7 @@ C_a_FirstViolinVoiceII_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bf'''4
+    bf'''2
     \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -720,6 +709,12 @@ C_a_FirstViolinVoiceII_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                             "[“Vni. I (11-18)”]"         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
+                \line                                    %! IC
+                    {                                    %! IC
+                        \whiteout                        %! IC
+                            \upright                     %! IC
+                                "still (non vibrato)"    %! IC
+                    }                                    %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -745,34 +740,17 @@ C_a_FirstViolinVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    bf'''4
-    
     % [C1 FirstViolinVoiceII measure 37]                 %! SM4
-    bf'''4
-    
-    bf'''4
-    
-    bf'''4
-    
-    bf'''4
+    bf'''1
+    \repeatTie
     
     % [C1 FirstViolinVoiceII measure 38]                 %! SM4
-    bf'''4
-    
-    bf'''4
-    
-    bf'''4
-    
-    bf'''4
+    bf'''1
+    \repeatTie
     
     % [C1 FirstViolinVoiceII measure 39]                 %! SM4
-    bf'''4
-    
-    bf'''4
-    
-    bf'''4
-    
-    bf'''4
+    bf'''1
+    \repeatTie
     
 }
 
@@ -815,7 +793,7 @@ C_a_SecondViolinVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bf''4
+    bf''2
     \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -832,6 +810,12 @@ C_a_SecondViolinVoiceI_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                             "[“Vni. II”]"                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
+                \line                                    %! IC
+                    {                                    %! IC
+                        \whiteout                        %! IC
+                            \upright                     %! IC
+                                "still (non vibrato)"    %! IC
+                    }                                    %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -855,34 +839,17 @@ C_a_SecondViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    bf''4
-    
     % [C1 SecondViolinVoiceI measure 37]                 %! SM4
-    bf''4
-    
-    bf''4
-    
-    bf''4
-    
-    bf''4
+    bf''1
+    \repeatTie
     
     % [C1 SecondViolinVoiceI measure 38]                 %! SM4
-    bf''4
-    
-    bf''4
-    
-    bf''4
-    
-    bf''4
+    bf''1
+    \repeatTie
     
     % [C1 SecondViolinVoiceI measure 39]                 %! SM4
-    bf''4
-    
-    bf''4
-    
-    bf''4
-    
-    bf''4
+    bf''1
+    \repeatTie
     
 }
 
@@ -927,7 +894,7 @@ C_a_SecondViolinVoiceII_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bf''4
+    bf''2
     \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -944,6 +911,12 @@ C_a_SecondViolinVoiceII_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                             "[“Vni. II (11-18)”]"        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
+                \line                                    %! IC
+                    {                                    %! IC
+                        \whiteout                        %! IC
+                            \upright                     %! IC
+                                "still (non vibrato)"    %! IC
+                    }                                    %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -969,34 +942,17 @@ C_a_SecondViolinVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    bf''4
-    
     % [C1 SecondViolinVoiceII measure 37]                %! SM4
-    bf''4
-    
-    bf''4
-    
-    bf''4
-    
-    bf''4
+    bf''1
+    \repeatTie
     
     % [C1 SecondViolinVoiceII measure 38]                %! SM4
-    bf''4
-    
-    bf''4
-    
-    bf''4
-    
-    bf''4
+    bf''1
+    \repeatTie
     
     % [C1 SecondViolinVoiceII measure 39]                %! SM4
-    bf''4
-    
-    bf''4
-    
-    bf''4
-    
-    bf''4
+    bf''1
+    \repeatTie
     
 }
 
@@ -1031,7 +987,7 @@ C_a_ViolaVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bf'4
+    bf'2
     \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -1048,6 +1004,12 @@ C_a_ViolaVoiceI_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                             [“Vle.”]                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
+                \line                                    %! IC
+                    {                                    %! IC
+                        \whiteout                        %! IC
+                            \upright                     %! IC
+                                "still (non vibrato)"    %! IC
+                    }                                    %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1063,34 +1025,17 @@ C_a_ViolaVoiceI_a = {
             Vle.                                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    bf'4
-    
     % [C1 ViolaVoiceI measure 37]                        %! SM4
-    bf'4
-    
-    bf'4
-    
-    bf'4
-    
-    bf'4
+    bf'1
+    \repeatTie
     
     % [C1 ViolaVoiceI measure 38]                        %! SM4
-    bf'4
-    
-    bf'4
-    
-    bf'4
-    
-    bf'4
+    bf'1
+    \repeatTie
     
     % [C1 ViolaVoiceI measure 39]                        %! SM4
-    bf'4
-    
-    bf'4
-    
-    bf'4
-    
-    bf'4
+    bf'1
+    \repeatTie
     
 }
 
@@ -1133,7 +1078,7 @@ C_a_ViolaVoiceII_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bf'4
+    bf'2
     \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -1150,6 +1095,12 @@ C_a_ViolaVoiceII_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                             "[“Vle. (11-18)”]"           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
+                \line                                    %! IC
+                    {                                    %! IC
+                        \whiteout                        %! IC
+                            \upright                     %! IC
+                                "still (non vibrato)"    %! IC
+                    }                                    %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1173,34 +1124,17 @@ C_a_ViolaVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    bf'4
-    
     % [C1 ViolaVoiceII measure 37]                       %! SM4
-    bf'4
-    
-    bf'4
-    
-    bf'4
-    
-    bf'4
+    bf'1
+    \repeatTie
     
     % [C1 ViolaVoiceII measure 38]                       %! SM4
-    bf'4
-    
-    bf'4
-    
-    bf'4
-    
-    bf'4
+    bf'1
+    \repeatTie
     
     % [C1 ViolaVoiceII measure 39]                       %! SM4
-    bf'4
-    
-    bf'4
-    
-    bf'4
-    
-    bf'4
+    bf'1
+    \repeatTie
     
 }
 
@@ -1235,7 +1169,7 @@ C_a_CelloVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bf,4
+    bf,2
     \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -1252,6 +1186,12 @@ C_a_CelloVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                             [“Vc.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
+                \line                                        %! IC
+                    {                                        %! IC
+                        \whiteout                            %! IC
+                            \upright                         %! IC
+                                "still (non vibrato)"        %! IC
+                    }                                        %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1267,34 +1207,17 @@ C_a_CelloVoiceI_a = {
             Vc.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    bf,4
-    
     % [C1 CelloVoiceI measure 37]                            %! SM4
-    bf,4
-    
-    bf,4
-    
-    bf,4
-    
-    bf,4
+    bf,1
+    \repeatTie
     
     % [C1 CelloVoiceI measure 38]                            %! SM4
-    bf,4
-    
-    bf,4
-    
-    bf,4
-    
-    bf,4
+    bf,1
+    \repeatTie
     
     % [C1 CelloVoiceI measure 39]                            %! SM4
-    bf,4
-    
-    bf,4
-    
-    bf,4
-    
-    bf,4
+    bf,1
+    \repeatTie
     
 }
 
@@ -1329,7 +1252,7 @@ C_a_ContrabassVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    as,4
+    as,2
     \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -1346,6 +1269,12 @@ C_a_ContrabassVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                             [“Cb.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:+SCORE:+SEGMENT:SM37
+                \line                                        %! IC
+                    {                                        %! IC
+                        \whiteout                            %! IC
+                            \upright                         %! IC
+                                "still (non vibrato)"        %! IC
+                    }                                        %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1361,34 +1290,47 @@ C_a_ContrabassVoiceI_a = {
             Cb.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:+SCORE:+SEGMENT:SM37
     
-    as,4
-    
     % [C1 ContrabassVoiceI measure 37]                       %! SM4
-    as,4
-    
-    as,4
-    
-    as,4
-    
-    as,4
+    bf,1
+    \repeatTie                                               %! TCC
+    ^ \markup {                                              %! IC
+        \whiteout                                            %! IC
+            \upright                                         %! IC
+                \scale                                       %! IC
+                    #'(1.25 . 1.25)                          %! IC
+                    \line                                    %! IC
+                        {                                    %! IC
+                            \concat                          %! IC
+                                {                            %! IC
+                                    (                        %! IC
+                                    B                        %! IC
+                                    \raise                   %! IC
+                                        #0.5                 %! IC
+                                        \scale               %! IC
+                                            #'(0.65 . 0.65)  %! IC
+                                            \flat            %! IC
+                                }                            %! IC
+                            =                                %! IC
+                            \concat                          %! IC
+                                {                            %! IC
+                                    A                        %! IC
+                                    \raise                   %! IC
+                                        #0.8                 %! IC
+                                        \scale               %! IC
+                                            #'(0.55 . 0.55)  %! IC
+                                            \sharp           %! IC
+                                    )                        %! IC
+                                }                            %! IC
+                        }                                    %! IC
+        }                                                    %! IC
     
     % [C1 ContrabassVoiceI measure 38]                       %! SM4
-    as,4
-    
-    as,4
-    
-    as,4
-    
-    as,4
+    bf,1
+    \repeatTie                                               %! TCC
     
     % [C1 ContrabassVoiceI measure 39]                       %! SM4
-    as,4
-    
-    as,4
-    
-    as,4
-    
-    as,4
+    bf,1
+    \repeatTie                                               %! TCC
     
 }
 
