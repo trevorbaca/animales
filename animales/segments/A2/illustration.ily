@@ -482,7 +482,7 @@ A_b_PercussionVoiceI_a = {
     c'2.
     :32                                                      %! IC
     \p                                                       %! SM8:REAPPLIED_DYNAMIC:SM37
-%@% \repeatTie                                               %! LEFT_BROKEN_REPEAT_TIE %! TCC
+%@% \repeatTie                                               %! BROKEN_SPANNER_SHOW %! TCC
     ^ \markup {
         \column
             {
@@ -599,7 +599,7 @@ A_b_PercussionVoiceII_a = {
     c'2.
     :32                                                      %! IC
     \p                                                       %! SM8:REAPPLIED_DYNAMIC:SM37
-%@% \repeatTie                                               %! LEFT_BROKEN_REPEAT_TIE %! TCC
+%@% \repeatTie                                               %! BROKEN_SPANNER_SHOW %! TCC
     ^ \markup {
         \column
             {
@@ -772,7 +772,7 @@ A_b_FirstViolinVoiceI_a = {
     % [A2 FirstViolinVoiceI measure 29]                  %! SM4
     b2.
     \repeatTie
-    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \stopTrillSpan                                       %! BROKEN_SPANNER_HIDE %! SC
     
 }
 
@@ -886,7 +886,7 @@ A_b_FirstViolinVoiceII_a = {
     % [A2 FirstViolinVoiceII measure 29]                 %! SM4
     b2.
     \repeatTie
-    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \stopTrillSpan                                       %! BROKEN_SPANNER_HIDE %! SC
     
 }
 
@@ -1012,7 +1012,7 @@ A_b_SecondViolinVoiceI_a = {
     
     b2
     \repeatTie
-    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \stopTrillSpan                                       %! BROKEN_SPANNER_HIDE %! SC
     
 }
 
@@ -1141,7 +1141,7 @@ A_b_SecondViolinVoiceII_a = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
     b2
     \repeatTie
-    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \stopTrillSpan                                       %! BROKEN_SPANNER_HIDE %! SC
     
 }
 
@@ -1241,7 +1241,7 @@ A_b_ViolaVoiceI_a = {
     
     b2
     -\accent                                             %! IC
-    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \stopTrillSpan                                       %! BROKEN_SPANNER_HIDE %! SC
     
 }
 
@@ -1354,7 +1354,7 @@ A_b_ViolaVoiceII_a = {
     
     b4
     -\accent                                             %! IC
-    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \stopTrillSpan                                       %! BROKEN_SPANNER_HIDE %! SC
     
 }
 
@@ -1453,7 +1453,7 @@ A_b_CelloVoiceI_a = {
     % [A2 CelloVoiceI measure 29]                            %! SM4
     b2.
     \repeatTie
-    \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
+    \stopTrillSpan                                           %! BROKEN_SPANNER_HIDE %! SC
     
 }
 
@@ -1488,7 +1488,7 @@ A_b_ContrabassVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
     b,2.
-    \<                                                       %! LEFT_BROKEN_HAIRPIN_START %! HC1
+    \<                                                       %! BROKEN_SPANNER_HIDE %! HC1
     ^ \markup {
         \column
             {

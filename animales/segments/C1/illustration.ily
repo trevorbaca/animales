@@ -77,7 +77,7 @@ C_a_GlobalSkips = {
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
-%@% \stopTextSpan                                                        %! LEFT_BROKEN_METRONOME_MARK_SPANNER_STOP %! SM29:METRONOME_MARK_SPANNER
+%@% \stopTextSpan                                                        %! BROKEN_SPANNER_SHOW %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -387,7 +387,7 @@ C_a_PercussionVoiceI_a = {
     c'2
     :32                                                      %! IC
     \p                                                       %! SM8:REAPPLIED_DYNAMIC:SM37
-%@% \repeatTie                                               %! LEFT_BROKEN_REPEAT_TIE %! TCC
+%@% \repeatTie                                               %! BROKEN_SPANNER_SHOW %! TCC
     ^ \markup {
         \column
             {
@@ -494,7 +494,7 @@ C_a_PercussionVoiceII_a = {
     c'2
     :32                                                      %! IC
     \p                                                       %! SM8:REAPPLIED_DYNAMIC:SM37
-%@% \repeatTie                                               %! LEFT_BROKEN_REPEAT_TIE %! TCC
+%@% \repeatTie                                               %! BROKEN_SPANNER_SHOW %! TCC
     ^ \markup {
         \column
             {

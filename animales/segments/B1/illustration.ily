@@ -296,7 +296,7 @@ B_a_GlobalSkips = {
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
-    \stopTextSpan                                                        %! RIGHT_BROKEN_METRONOME_MARK_SPANNER_STOP %! SM29:METRONOME_MARK_SPANNER
+    \stopTextSpan                                                        %! BROKEN_SPANNER_HIDE %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -488,7 +488,7 @@ B_a_PercussionVoiceI_a = {
     c'1
     :32                                                      %! IC
     \p                                                       %! SM8:REAPPLIED_DYNAMIC:SM37
-%@% \repeatTie                                               %! LEFT_BROKEN_REPEAT_TIE %! TCC
+%@% \repeatTie                                               %! BROKEN_SPANNER_SHOW %! TCC
     ^ \markup {
         \column
             {
@@ -605,7 +605,7 @@ B_a_PercussionVoiceII_a = {
     c'1
     :32                                                      %! IC
     \p                                                       %! SM8:REAPPLIED_DYNAMIC:SM37
-%@% \repeatTie                                               %! LEFT_BROKEN_REPEAT_TIE %! TCC
+%@% \repeatTie                                               %! BROKEN_SPANNER_SHOW %! TCC
     ^ \markup {
         \column
             {
@@ -717,7 +717,7 @@ B_a_FirstViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b4
     -\trill                                              %! IC
-%@% \repeatTie                                           %! LEFT_BROKEN_REPEAT_TIE %! TCC
+%@% \repeatTie                                           %! BROKEN_SPANNER_SHOW %! TCC
     \glissando                                           %! SC
     \>                                                   %! HC1
     \f                                                   %! HC1
@@ -823,15 +823,15 @@ B_a_FirstViolinVoiceI_a = {
     \glissando                                           %! SC
     
     \revert Glissando.style                              %! SC
-    \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteColumn.glissando-skip                    %! BROKEN_SPANNER_HIDE %! SC
+    \revert NoteHead.no-ledgers                          %! BROKEN_SPANNER_HIDE %! SC
+    \undo \hide NoteHead                                 %! BROKEN_SPANNER_HIDE %! SC
     a'''4
-    \!                                                   %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
-%@% \glissando                                           %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO %! SC
+    \!                                                   %! BROKEN_SPANNER_HIDE %! HC1
+%@% \glissando                                           %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteColumn.glissando-skip                    %! BROKEN_SPANNER_SHOW %! SC
+%@% \undo \hide NoteHead                                 %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteHead.no-ledgers                          %! BROKEN_SPANNER_SHOW %! SC
     
 }
 
@@ -879,7 +879,7 @@ B_a_FirstViolinVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b4
     -\trill                                              %! IC
-%@% \repeatTie                                           %! LEFT_BROKEN_REPEAT_TIE %! TCC
+%@% \repeatTie                                           %! BROKEN_SPANNER_SHOW %! TCC
     \glissando                                           %! SC
     \>                                                   %! HC1
     \f                                                   %! HC1
@@ -987,15 +987,15 @@ B_a_FirstViolinVoiceII_a = {
     \glissando                                           %! SC
     
     \revert Glissando.style                              %! SC
-    \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteColumn.glissando-skip                    %! BROKEN_SPANNER_HIDE %! SC
+    \revert NoteHead.no-ledgers                          %! BROKEN_SPANNER_HIDE %! SC
+    \undo \hide NoteHead                                 %! BROKEN_SPANNER_HIDE %! SC
     a'''4
-    \!                                                   %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
-%@% \glissando                                           %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO %! SC
+    \!                                                   %! BROKEN_SPANNER_HIDE %! HC1
+%@% \glissando                                           %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteColumn.glissando-skip                    %! BROKEN_SPANNER_SHOW %! SC
+%@% \undo \hide NoteHead                                 %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteHead.no-ledgers                          %! BROKEN_SPANNER_SHOW %! SC
     
 }
 
@@ -1041,7 +1041,7 @@ B_a_SecondViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b4
     -\trill                                              %! IC
-%@% \repeatTie                                           %! LEFT_BROKEN_REPEAT_TIE %! TCC
+%@% \repeatTie                                           %! BROKEN_SPANNER_SHOW %! TCC
     \glissando                                           %! SC
     \>                                                   %! HC1
     \f                                                   %! HC1
@@ -1147,15 +1147,15 @@ B_a_SecondViolinVoiceI_a = {
     \glissando                                           %! SC
     
     \revert Glissando.style                              %! SC
-    \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteColumn.glissando-skip                    %! BROKEN_SPANNER_HIDE %! SC
+    \revert NoteHead.no-ledgers                          %! BROKEN_SPANNER_HIDE %! SC
+    \undo \hide NoteHead                                 %! BROKEN_SPANNER_HIDE %! SC
     a''4
-    \!                                                   %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
-%@% \glissando                                           %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO %! SC
+    \!                                                   %! BROKEN_SPANNER_HIDE %! HC1
+%@% \glissando                                           %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteColumn.glissando-skip                    %! BROKEN_SPANNER_SHOW %! SC
+%@% \undo \hide NoteHead                                 %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteHead.no-ledgers                          %! BROKEN_SPANNER_SHOW %! SC
     
 }
 
@@ -1203,7 +1203,7 @@ B_a_SecondViolinVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b4
     -\trill                                              %! IC
-%@% \repeatTie                                           %! LEFT_BROKEN_REPEAT_TIE %! TCC
+%@% \repeatTie                                           %! BROKEN_SPANNER_SHOW %! TCC
     \glissando                                           %! SC
     \>                                                   %! HC1
     \f                                                   %! HC1
@@ -1311,15 +1311,15 @@ B_a_SecondViolinVoiceII_a = {
     \glissando                                           %! SC
     
     \revert Glissando.style                              %! SC
-    \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteColumn.glissando-skip                    %! BROKEN_SPANNER_HIDE %! SC
+    \revert NoteHead.no-ledgers                          %! BROKEN_SPANNER_HIDE %! SC
+    \undo \hide NoteHead                                 %! BROKEN_SPANNER_HIDE %! SC
     a''4
-    \!                                                   %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
-%@% \glissando                                           %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO %! SC
+    \!                                                   %! BROKEN_SPANNER_HIDE %! HC1
+%@% \glissando                                           %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteColumn.glissando-skip                    %! BROKEN_SPANNER_SHOW %! SC
+%@% \undo \hide NoteHead                                 %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteHead.no-ledgers                          %! BROKEN_SPANNER_SHOW %! SC
     
 }
 
@@ -1357,7 +1357,7 @@ B_a_ViolaVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b4
     -\trill                                              %! IC
-%@% \repeatTie                                           %! LEFT_BROKEN_REPEAT_TIE %! TCC
+%@% \repeatTie                                           %! BROKEN_SPANNER_SHOW %! TCC
     \glissando                                           %! SC
     \>                                                   %! HC1
     \f                                                   %! HC1
@@ -1455,15 +1455,15 @@ B_a_ViolaVoiceI_a = {
     \glissando                                           %! SC
     
     \revert Glissando.style                              %! SC
-    \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteColumn.glissando-skip                    %! BROKEN_SPANNER_HIDE %! SC
+    \revert NoteHead.no-ledgers                          %! BROKEN_SPANNER_HIDE %! SC
+    \undo \hide NoteHead                                 %! BROKEN_SPANNER_HIDE %! SC
     a'4
-    \!                                                   %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
-%@% \glissando                                           %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO %! SC
+    \!                                                   %! BROKEN_SPANNER_HIDE %! HC1
+%@% \glissando                                           %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteColumn.glissando-skip                    %! BROKEN_SPANNER_SHOW %! SC
+%@% \undo \hide NoteHead                                 %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteHead.no-ledgers                          %! BROKEN_SPANNER_SHOW %! SC
     
 }
 
@@ -1509,7 +1509,7 @@ B_a_ViolaVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b4
     -\trill                                              %! IC
-%@% \repeatTie                                           %! LEFT_BROKEN_REPEAT_TIE %! TCC
+%@% \repeatTie                                           %! BROKEN_SPANNER_SHOW %! TCC
     \glissando                                           %! SC
     \>                                                   %! HC1
     \f                                                   %! HC1
@@ -1615,15 +1615,15 @@ B_a_ViolaVoiceII_a = {
     \glissando                                           %! SC
     
     \revert Glissando.style                              %! SC
-    \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteColumn.glissando-skip                    %! BROKEN_SPANNER_HIDE %! SC
+    \revert NoteHead.no-ledgers                          %! BROKEN_SPANNER_HIDE %! SC
+    \undo \hide NoteHead                                 %! BROKEN_SPANNER_HIDE %! SC
     a'4
-    \!                                                   %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
-%@% \glissando                                           %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteColumn.glissando-skip                    %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \undo \hide NoteHead                                 %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteHead.no-ledgers                          %! RIGHT_BROKEN_GLISSANDO %! SC
+    \!                                                   %! BROKEN_SPANNER_HIDE %! HC1
+%@% \glissando                                           %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteColumn.glissando-skip                    %! BROKEN_SPANNER_SHOW %! SC
+%@% \undo \hide NoteHead                                 %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteHead.no-ledgers                          %! BROKEN_SPANNER_SHOW %! SC
     
 }
 
@@ -1661,7 +1661,7 @@ B_a_CelloVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b4
     -\trill                                                  %! IC
-%@% \repeatTie                                               %! LEFT_BROKEN_REPEAT_TIE %! TCC
+%@% \repeatTie                                               %! BROKEN_SPANNER_SHOW %! TCC
     \glissando                                               %! SC
     \>                                                       %! HC1
     \f                                                       %! HC1
@@ -1759,15 +1759,15 @@ B_a_CelloVoiceI_a = {
     \glissando                                               %! SC
     
     \revert Glissando.style                                  %! SC
-    \revert NoteColumn.glissando-skip                        %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \revert NoteHead.no-ledgers                              %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \undo \hide NoteHead                                     %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteColumn.glissando-skip                        %! BROKEN_SPANNER_HIDE %! SC
+    \revert NoteHead.no-ledgers                              %! BROKEN_SPANNER_HIDE %! SC
+    \undo \hide NoteHead                                     %! BROKEN_SPANNER_HIDE %! SC
     c4
-    \!                                                       %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
-%@% \glissando                                               %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteColumn.glissando-skip                        %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \undo \hide NoteHead                                     %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteHead.no-ledgers                              %! RIGHT_BROKEN_GLISSANDO %! SC
+    \!                                                       %! BROKEN_SPANNER_HIDE %! HC1
+%@% \glissando                                               %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteColumn.glissando-skip                        %! BROKEN_SPANNER_SHOW %! SC
+%@% \undo \hide NoteHead                                     %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteHead.no-ledgers                              %! BROKEN_SPANNER_SHOW %! SC
     
 }
 
@@ -1803,7 +1803,7 @@ B_a_ContrabassVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b,4
-%@% \repeatTie                                               %! LEFT_BROKEN_REPEAT_TIE %! TCC
+%@% \repeatTie                                               %! BROKEN_SPANNER_SHOW %! TCC
     \glissando                                               %! SC
     \>                                                       %! HC1
     \ff                                                      %! HC1
@@ -1899,15 +1899,15 @@ B_a_ContrabassVoiceI_a = {
     a,4
     \glissando                                               %! SC
     
-    \revert NoteColumn.glissando-skip                        %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \revert NoteHead.no-ledgers                              %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
-    \undo \hide NoteHead                                     %! RIGHT_BROKEN_GLISSANDO_SEGMENT_ONLY %! SC
+    \revert NoteColumn.glissando-skip                        %! BROKEN_SPANNER_HIDE %! SC
+    \revert NoteHead.no-ledgers                              %! BROKEN_SPANNER_HIDE %! SC
+    \undo \hide NoteHead                                     %! BROKEN_SPANNER_HIDE %! SC
     a,4
-    \!                                                       %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
-%@% \glissando                                               %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteColumn.glissando-skip                        %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \undo \hide NoteHead                                     %! RIGHT_BROKEN_GLISSANDO %! SC
-%@% \revert NoteHead.no-ledgers                              %! RIGHT_BROKEN_GLISSANDO %! SC
+    \!                                                       %! BROKEN_SPANNER_HIDE %! HC1
+%@% \glissando                                               %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteColumn.glissando-skip                        %! BROKEN_SPANNER_SHOW %! SC
+%@% \undo \hide NoteHead                                     %! BROKEN_SPANNER_SHOW %! SC
+%@% \revert NoteHead.no-ledgers                              %! BROKEN_SPANNER_SHOW %! SC
     
 }
 

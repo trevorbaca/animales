@@ -386,7 +386,7 @@ i_c_FirstViolinVoiceI_a = {
     % [_3 FirstViolinVoiceI measure 17]                  %! SM4
     ef'2
     \repeatTie
-    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \stopTrillSpan                                       %! BROKEN_SPANNER_HIDE %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -508,7 +508,7 @@ i_c_FirstViolinVoiceII_a = {
     % [_3 FirstViolinVoiceII measure 17]                 %! SM4
     ef'2
     \repeatTie
-    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \stopTrillSpan                                       %! BROKEN_SPANNER_HIDE %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -627,7 +627,7 @@ i_c_SecondViolinVoiceI_a = {
     % [_3 SecondViolinVoiceI measure 17]                 %! SM4
     ef'2
     \repeatTie
-    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \stopTrillSpan                                       %! BROKEN_SPANNER_HIDE %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -758,7 +758,7 @@ i_c_SecondViolinVoiceII_a = {
     % [_3 SecondViolinVoiceII measure 17]                %! SM4
     ef'2
     \repeatTie
-    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \stopTrillSpan                                       %! BROKEN_SPANNER_HIDE %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -876,7 +876,7 @@ i_c_ViolaVoiceI_a = {
     
     ef'8
     -\accent                                             %! IC
-    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \stopTrillSpan                                       %! BROKEN_SPANNER_HIDE %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -988,7 +988,7 @@ i_c_ViolaVoiceII_a = {
     % [_3 ViolaVoiceII measure 17]                       %! SM4
     ef'2
     \repeatTie
-    \stopTrillSpan                                       %! RIGHT_BROKEN_TRILL %! SC
+    \stopTrillSpan                                       %! BROKEN_SPANNER_HIDE %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -1087,7 +1087,7 @@ i_c_CelloVoiceI_a = {
     % [_3 CelloVoiceI measure 17]                            %! SM4
     ef'2
     \repeatTie
-    \stopTrillSpan                                           %! RIGHT_BROKEN_TRILL %! SC
+    \stopTrillSpan                                           %! BROKEN_SPANNER_HIDE %! SC
     \revert TrillSpanner.staff-padding                       %! OC2
     
 }

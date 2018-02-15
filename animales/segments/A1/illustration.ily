@@ -2664,7 +2664,7 @@ A_a_ContrabassVoiceI_a = {
     % [A1 ContrabassVoiceI measure 23]                       %! SM4
     c2.
     \repeatTie
-    \!                                                       %! RIGHT_BROKEN_HAIRPIN_STOP %! HC1
+    \!                                                       %! BROKEN_SPANNER_HIDE %! HC1
     
 }
 
