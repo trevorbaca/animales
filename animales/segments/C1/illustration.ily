@@ -38,10 +38,11 @@ C_a_GlobalSkips = {
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = \markup {
+    \once \override TextSpanner.bound-details.left-broken.text =
+    \markup {
         \null
         }                                                                %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
     \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -76,6 +77,7 @@ C_a_GlobalSkips = {
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+%@% \stopTextSpan                                                        %! LEFT_BROKEN_METRONOME_MARK_SPANNER_STOP %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
