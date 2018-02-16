@@ -53,8 +53,11 @@ maker = baca.SegmentMaker(
 maker(
     baca.scope('GlobalSkips', 1, abjad.Infinity),
     baca.metronome_mark('76'),
-    # TODO: uncomment:
-    #baca.rehearsal_mark(3),
+    baca.rehearsal_mark(3),
+    baca.tag(
+        '+TABLOID_SCORE',
+        baca.rehearsal_mark_extra_offset((0, 6)),
+        ),
     )
 
 # clarinet

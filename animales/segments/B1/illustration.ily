@@ -24,6 +24,7 @@ B_a_GlobalRests = {
 B_a_GlobalSkips = {
     
     % [B1 GlobalSkips measure 30]                                        %! SM4
+%%% \once \override GlobalContext.RehearsalMark.extra-offset = #'(0 . 6) %! OC1:+TABLOID_SCORE
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \large                                                           %! SM27:EXPLICIT_METRONOME_MARK
