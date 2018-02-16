@@ -107,7 +107,7 @@ C_a_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [1'02'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'00'']                                 %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -150,7 +150,7 @@ C_a_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [1'03'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'01'']                                 %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -191,7 +191,7 @@ C_a_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [1'06'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'04'']                                 %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -233,7 +233,7 @@ C_a_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [1'09'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'07'']                                 %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
