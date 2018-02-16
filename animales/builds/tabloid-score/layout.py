@@ -1,21 +1,21 @@
 import baca
 
 
+after_time_signatures = 10
 breaks = baca.breaks(
     baca.page( # 1
-        [1, 80, (20, 20)],
-        [8, 230, (20, 20)],
+        [1, 90, (after_time_signatures + 2, 20)],
+        [8, 240, (after_time_signatures + 2, 20)],
         ),
     baca.page( # 2
-        [16, 0, (20, 20)],
+        [16, 15, (after_time_signatures, 20)],
         ),
     baca.page( # 3
-        [22, 0, (20, 18)],
-        [28, 200, (20, 18)],
+        [22, 0, (after_time_signatures, 18)],
+        [28, 200, (after_time_signatures, 18)],
         ),
     baca.page( # 4
-        [35, 0, (20, 18)],
-        #[36, 200, (20, 18)],
+        [35, 15, (after_time_signatures, 18)],
         ),
     )
 

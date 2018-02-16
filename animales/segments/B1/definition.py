@@ -55,6 +55,10 @@ maker(
     baca.scope('GlobalSkips', 1, 6),
     baca.metronome_mark(abjad.Ritardando(), baca.leaf(0)),
     baca.rehearsal_mark(2),
+    baca.tag(
+        '+TABLOID_SCORE',
+        baca.rehearsal_mark_extra_offset((0, 6)),
+        ),
     )
 
 # clarinet

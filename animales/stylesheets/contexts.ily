@@ -54,6 +54,7 @@
         \accepts GlobalRests
         \accepts PageLayout
 
+        \override BarNumber.X-offset = -11
         \override BarNumber.font-size = 1
 
         \override MetronomeMark.X-extent = #'(0 . 0)
