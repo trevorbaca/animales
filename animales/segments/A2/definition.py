@@ -27,7 +27,7 @@ maker = baca.SegmentMaker(
             (2, [2]),
             ],
         first_violins=[
-            (1, [1]),
+            (1, [3, 1]),
             (2, [2]),
             ],
         second_violins=[
@@ -89,14 +89,34 @@ maker(
 # strings
 
 maker(
+    baca.scope('FirstViolinVoiceIII', 1, 6),
+    animales.glissando_rhythm(),
+    animales.parts('FirstViolin', 1),
+    baca.hairpin('p < f', baca.notes().group_by_measure()[0].rleak()),
+    baca.hairpin('f > p', baca.notes().group_by_measure()[-1].lleak()),
+    baca.suite([
+        baca.untie_to(baca.leaves()),
+        animales.glissando_positions(transpose=-1),
+        baca.pitch('B4', baca.pleaf(0)),
+        baca.pitch('B3', baca.pleaf(-1)),
+        baca.tie_repeat_pitches(),
+        baca.glissando(),
+        ]),
+    baca.parts(baca.stop_trill()),
+    baca.score(baca.dynamic_line_spanner_up()),
+    baca.score(baca.voice_one()),
+    )
+
+maker(
     baca.scope('FirstViolinVoiceI', 1, 6),
-    animales.parts('FirstViolin', (1, 10)),
+    animales.parts('FirstViolin', (2, 10)),
     animales.sforzando_exchange_rhythm(0),
+    baca.score(baca.voice_two()),
     )
 
 maker(
     baca.scope('FirstViolinVoiceII', 1, 6),
-    animales.parts('FirstViolin', (2, 18)),
+    animales.parts('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
     )
 
@@ -108,7 +128,7 @@ maker(
 
 maker(
     baca.scope('SecondViolinVoiceII', 1, 6),
-    animales.parts('SecondViolin', (2, 18)),
+    animales.parts('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
     )
 
@@ -120,7 +140,7 @@ maker(
 
 maker(
     baca.scope('ViolaVoiceII', 1, 6),
-    animales.parts('Viola', (2, 18)),
+    animales.parts('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
     )
 

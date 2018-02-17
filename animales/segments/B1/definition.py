@@ -107,7 +107,7 @@ maker(
 
 maker(
     baca.scope('FirstViolinVoiceII', 1, 6),
-    animales.parts('FirstViolin', (2, 18)),
+    animales.parts('FirstViolin', (11, 18)),
     baca.make_repeated_durations([(1, 4)]),
     )
 
@@ -119,7 +119,7 @@ maker(
 
 maker(
     baca.scope('SecondViolinVoiceII', 1, 6),
-    animales.parts('SecondViolin', (2, 18)),
+    animales.parts('SecondViolin', (11, 18)),
     baca.make_repeated_durations([(1, 4)]),
     )
 
@@ -131,7 +131,7 @@ maker(
 
 maker(
     baca.scope('ViolaVoiceII', 1, 6),
-    animales.parts('Viola', (2, 18)),
+    animales.parts('Viola', (11, 18)),
     baca.make_repeated_durations([(1, 4)]),
     )
 
