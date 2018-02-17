@@ -68,43 +68,36 @@ maker(
 
 maker(
     baca.scope('FirstViolinVoiceI', 1, 2),
-    #animales.parts('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
     )
 
 maker(
     baca.scope('FirstViolinVoiceII', 1, 2),
-    #animales.parts('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 1, 2),
-    #animales.parts('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
     )
 
 maker(
     baca.scope('SecondViolinVoiceII', 1, 2),
-    #animales.parts('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 1, 2),
-    #animales.parts('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
     )
 
 maker(
     baca.scope('ViolaVoiceII', 1, 2),
-    #animales.parts('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
     )
 
 maker(
     baca.scope('CelloVoiceI', 1, 2),
-    #animales.parts('Cello'),
     animales.sforzando_exchange_rhythm(6),
     )
 
@@ -194,7 +187,7 @@ maker(
 
 maker(
     baca.scope('FirstViolinVoiceII', 1, 6),
-    animales.parts('FirstViolin', (2, 18)),
+    animales.parts('FirstViolin', (11, 18)),
     )
 
 maker(
@@ -204,7 +197,7 @@ maker(
 
 maker(
     baca.scope('SecondViolinVoiceII', 1, 6),
-    animales.parts('SecondViolin', (2, 18)),
+    animales.parts('SecondViolin', (11, 18)),
     )
 
 maker(
@@ -214,7 +207,7 @@ maker(
 
 maker(
     baca.scope('ViolaVoiceII', 1, 6),
-    animales.parts('Viola', (2, 18)),
+    animales.parts('Viola', (11, 18)),
     )
 
 maker(

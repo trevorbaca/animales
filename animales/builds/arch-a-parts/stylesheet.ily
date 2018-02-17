@@ -45,6 +45,8 @@
 
         \override RehearsalMark.self-alignment-X = #left
 
+        \override TextSpanner.padding = 8
+
     }
 
     \context {

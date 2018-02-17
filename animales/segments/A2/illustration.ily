@@ -677,6 +677,127 @@ A_b_PercussionStaffII = {
 }
 
 
+A_b_FirstViolinVoiceIII_a = {
+    
+    % [A2 FirstViolinVoiceIII measure 24]                %! SM4
+    \override DynamicLineSpanner.direction = #up         %! OC1:-PARTS
+    \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3:-PARTS:-SCORE
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3:-PARTS:-SCORE
+    \override Staff.Clef.color = ##f                     %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE %@%
+    \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3:-PARTS:-SCORE
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \voiceOne                                            %! IC:-PARTS
+    b'2
+    \glissando                                           %! SC
+    \<                                                   %! HC1
+    \p                                                   %! HC1
+%%% \stopTrillSpan                                       %! IC:+PARTS
+    \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3:-PARTS:-SCORE
+    
+    g'''8
+    \glissando                                           %! SC
+    [
+    
+    c'''8
+    ]
+    \glissando                                           %! SC
+    
+    % [A2 FirstViolinVoiceIII measure 25]                %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    a'''4
+    \f                                                   %! HC1
+    \glissando                                           %! SC
+    
+    f''8
+    \glissando                                           %! SC
+    [
+    
+    e'''8
+    ]
+    \glissando                                           %! SC
+    
+    b''2
+    \glissando                                           %! SC
+    
+    % [A2 FirstViolinVoiceIII measure 26]                %! SM4
+    f'''8
+    \glissando                                           %! SC
+    [
+    
+    c''8
+    \glissando                                           %! SC
+    
+    b''8
+    \glissando                                           %! SC
+    
+    d''8
+    ]
+    \glissando                                           %! SC
+    
+    c'''2
+    \glissando                                           %! SC
+    
+    % [A2 FirstViolinVoiceIII measure 27]                %! SM4
+    g'8
+    \glissando                                           %! SC
+    [
+    
+    f''8
+    ]
+    \glissando                                           %! SC
+    
+    a'4
+    \glissando                                           %! SC
+    
+    g''8
+    \glissando                                           %! SC
+    
+    b''4.
+    \glissando                                           %! SC
+    
+    % [A2 FirstViolinVoiceIII measure 28]                %! SM4
+    g'''4
+    \glissando                                           %! SC
+    
+    c'''8
+    \glissando                                           %! SC
+    [
+    
+    a'''8
+    \glissando                                           %! SC
+    
+    f''8
+    \glissando                                           %! SC
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    e'''8
+    ]
+    \glissando                                           %! SC
+    \>                                                   %! HC1
+    \f                                                   %! HC1
+    
+    % [A2 FirstViolinVoiceIII measure 29]                %! SM4
+    b''2
+    \glissando                                           %! SC
+    
+    f'''8
+    \glissando                                           %! SC
+    [
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    b8
+    \p                                                   %! HC1
+    ]
+    \revert DynamicLineSpanner.direction                 %! OC2:-PARTS
+    
+}
+
+
+A_b_FirstViolinVoiceIII = {
+    \A_b_FirstViolinVoiceIII_a
+}
+
+
 A_b_FirstViolinVoiceI_a = {
     
     % [A2 FirstViolinVoiceI measure 24]                  %! SM4
@@ -705,6 +826,7 @@ A_b_FirstViolinVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:+SCORE:+SEGMENT:SM37
+    \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     b2.
@@ -782,10 +904,12 @@ A_b_FirstViolinVoiceI = {
 }
 
 
-A_b_FirstViolinStaffI = {
+A_b_FirstViolinStaffI = <<
+    \context Voice = "FirstViolinVoiceIII"
+    \A_b_FirstViolinVoiceIII
     \context Voice = "FirstViolinVoiceI"
     \A_b_FirstViolinVoiceI
-}
+>>
 
 
 A_b_FirstViolinVoiceII_a = {
