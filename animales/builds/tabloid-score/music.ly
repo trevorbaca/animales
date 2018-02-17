@@ -455,6 +455,36 @@
                         \context Staff = "PercussionStaffII"
                         \C_a_PercussionStaffII
                     }
+                    {
+                        \context Staff = "PercussionStaffIII"
+                        \with
+                        {
+                            shortInstrumentName =
+                            \markup {
+                                \hcenter-in
+                                    #16
+                                    \center-column
+                                        {
+                                            Perc.
+                                            3
+                                        }
+                                }
+                        }
+                        \clef "percussion"
+                        \i_a_GlobalRests
+                        \context Staff = "PercussionStaffIII"
+                        \i_b_GlobalRests
+                        \context Staff = "PercussionStaffIII"
+                        \i_c_GlobalRests
+                        \context Staff = "PercussionStaffIII"
+                        \A_a_GlobalRests
+                        \context Staff = "PercussionStaffIII"
+                        \A_b_GlobalRests
+                        \context Staff = "PercussionStaffIII"
+                        \B_a_GlobalRests
+                        \context Staff = "PercussionStaffIII"
+                        \C_a_PercussionStaffIII
+                    }
                 >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
@@ -494,9 +524,9 @@
                             \context Staff = "FirstViolinStaffII"
                             \A_b_FirstViolinStaffII
                             \context Staff = "FirstViolinStaffII"
-                            \B_a_FirstViolinStaffII
+                            \B_a_GlobalRests
                             \context Staff = "FirstViolinStaffII"
-                            \C_a_FirstViolinStaffII
+                            \C_a_GlobalRests
                         }
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup"
@@ -535,9 +565,9 @@
                             \context Staff = "SecondViolinStaffII"
                             \A_b_SecondViolinStaffII
                             \context Staff = "SecondViolinStaffII"
-                            \B_a_SecondViolinStaffII
+                            \B_a_GlobalRests
                             \context Staff = "SecondViolinStaffII"
-                            \C_a_SecondViolinStaffII
+                            \C_a_GlobalRests
                         }
                     >>
                     \context StaffGroup = "ViolaSquareStaffGroup"
@@ -576,9 +606,9 @@
                             \context Staff = "ViolaStaffII"
                             \A_b_ViolaStaffII
                             \context Staff = "ViolaStaffII"
-                            \B_a_ViolaStaffII
+                            \B_a_GlobalRests
                             \context Staff = "ViolaStaffII"
-                            \C_a_ViolaStaffII
+                            \C_a_GlobalRests
                         }
                     >>
                     \context StaffGroup = "CelloSquareStaffGroup"

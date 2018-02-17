@@ -39,42 +39,17 @@
                     \C_a_PercussionStaffI
                     \context Staff = "PercussionStaffII"
                     \C_a_PercussionStaffII
+                    \context Staff = "PercussionStaffIII"
+                    \C_a_PercussionStaffIII
                 >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
-                    \context StaffGroup = "FirstViolinSquareStaffGroup"
-                    \with
-                    {
-                        systemStartDelimiter = #'SystemStartSquare
-                    }
-                    <<
-                        \context Staff = "FirstViolinStaffI"
-                        \C_a_FirstViolinStaffI
-                        \context Staff = "FirstViolinStaffII"
-                        \C_a_FirstViolinStaffII
-                    >>
-                    \context StaffGroup = "SecondViolinSquareStaffGroup"
-                    \with
-                    {
-                        systemStartDelimiter = #'SystemStartSquare
-                    }
-                    <<
-                        \context Staff = "SecondViolinStaffI"
-                        \C_a_SecondViolinStaffI
-                        \context Staff = "SecondViolinStaffII"
-                        \C_a_SecondViolinStaffII
-                    >>
-                    \context StaffGroup = "ViolaSquareStaffGroup"
-                    \with
-                    {
-                        systemStartDelimiter = #'SystemStartSquare
-                    }
-                    <<
-                        \context Staff = "ViolaStaffI"
-                        \C_a_ViolaStaffI
-                        \context Staff = "ViolaStaffII"
-                        \C_a_ViolaStaffII
-                    >>
+                    \context Staff = "FirstViolinStaffI"
+                    \C_a_FirstViolinStaffI
+                    \context Staff = "SecondViolinStaffI"
+                    \C_a_SecondViolinStaffI
+                    \context Staff = "ViolaStaffI"
+                    \C_a_ViolaStaffI
                     \context Staff = "CelloStaffI"
                     \C_a_CelloStaffI
                     \context Staff = "ContrabassStaffI"

@@ -68,6 +68,10 @@ instruments = abjad.InstrumentDictionary([
         abjad.Tuba(hide=True),
         ),
     (
+        'Vibraphone',
+        abjad.Vibraphone(hide=True),
+        ),
+    (
         'Viola',
         abjad.Viola(hide=True),
         ),
