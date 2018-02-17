@@ -33,6 +33,24 @@
                     \context Staff = "ClarinetStaffI"
                     \C_a_ClarinetStaffI
                 >>
+                \context StaffGroup = "PianoPianoStaff"
+                \with
+                {
+                    alignAboveContext = #"PercussionStaffI"
+                }
+                <<
+                    \context Staff = "PianoStaffI"
+                    \C_a_PianoStaffI
+                >>
+                \context StaffGroup = "HarpPianoStaff"
+                \with
+                {
+                    alignAboveContext = #"PercussionStaffI"
+                }
+                <<
+                    \context Staff = "HarpStaffI"
+                    \C_a_HarpStaffI
+                >>
                 \context StaffGroup = "PercussionStaffGroup"
                 <<
                     \context Staff = "PercussionStaffI"
@@ -52,8 +70,17 @@
                     \C_a_ViolaStaffI
                     \context Staff = "CelloStaffI"
                     \C_a_CelloStaffI
-                    \context Staff = "ContrabassStaffI"
-                    \C_a_ContrabassStaffI
+                    \context StaffGroup = "ContrabassSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "ContrabassStaffII"
+                        \C_a_ContrabassStaffII
+                        \context Staff = "ContrabassStaffI"
+                        \C_a_ContrabassStaffI
+                    >>
                 >>
             >>
         >>

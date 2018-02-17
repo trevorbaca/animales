@@ -389,9 +389,61 @@
                 >>
                 \context StaffGroup = "PianoPianoStaff"
                 <<
+                    {
+                        \context Staff = "PianoStaffI"
+                        \with
+                        {
+                            shortInstrumentName =
+                            \markup {
+                                \hcenter-in
+                                    #16
+                                    Pf.
+                                }
+                        }
+                        \clef "treble"
+                        \i_a_GlobalRests
+                        \context Staff = "PianoStaffI"
+                        \i_b_GlobalRests
+                        \context Staff = "PianoStaffI"
+                        \i_c_GlobalRests
+                        \context Staff = "PianoStaffI"
+                        \A_a_GlobalRests
+                        \context Staff = "PianoStaffI"
+                        \A_b_GlobalRests
+                        \context Staff = "PianoStaffI"
+                        \B_a_GlobalRests
+                        \context Staff = "PianoStaffI"
+                        \C_a_PianoStaffI
+                    }
                 >>
                 \context StaffGroup = "HarpPianoStaff"
                 <<
+                    {
+                        \context Staff = "HarpStaffI"
+                        \with
+                        {
+                            shortInstrumentName =
+                            \markup {
+                                \hcenter-in
+                                    #16
+                                    Hp.
+                                }
+                        }
+                        \clef "treble"
+                        \i_a_GlobalRests
+                        \context Staff = "HarpStaffI"
+                        \i_b_GlobalRests
+                        \context Staff = "HarpStaffI"
+                        \i_c_GlobalRests
+                        \context Staff = "HarpStaffI"
+                        \A_a_GlobalRests
+                        \context Staff = "HarpStaffI"
+                        \A_b_GlobalRests
+                        \context Staff = "HarpStaffI"
+                        \B_a_GlobalRests
+                        \context Staff = "HarpStaffI"
+                        \C_a_HarpStaffI
+                    }
                 >>
                 \context StaffGroup = "PercussionStaffGroup"
                 <<
@@ -666,6 +718,32 @@
                             \B_a_ContrabassStaffI
                             \context Staff = "ContrabassStaffI"
                             \C_a_ContrabassStaffI
+                        }
+                        {
+                            \context Staff = "ContrabassStaffII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Cb.
+                                    }
+                            }
+                            \clef "bass"
+                            \i_a_GlobalRests
+                            \context Staff = "ContrabassStaffII"
+                            \i_b_GlobalRests
+                            \context Staff = "ContrabassStaffII"
+                            \i_c_GlobalRests
+                            \context Staff = "ContrabassStaffII"
+                            \A_a_GlobalRests
+                            \context Staff = "ContrabassStaffII"
+                            \A_b_GlobalRests
+                            \context Staff = "ContrabassStaffII"
+                            \B_a_GlobalRests
+                            \context Staff = "ContrabassStaffII"
+                            \C_a_ContrabassStaffII
                         }
                     >>
                 >>
