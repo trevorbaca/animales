@@ -22,6 +22,12 @@ maker = baca.SegmentMaker(
         clarinets=[
             (1, [1]),
             ],
+        harp=[
+            (1, [1]),
+            ],
+        piano=[
+            (1, [1]),
+            ],
         percussion=[
             (1, [1]),
             (2, [2]),
@@ -40,12 +46,13 @@ maker = baca.SegmentMaker(
             (1, [1]),
             ],
         contrabasses=[
+            (2, [2]),
             (1, [1]),
             ],
         ),
-    time_signatures=animales.time_signatures[start:start + 4],
+    time_signatures=animales.time_signatures[start:start + 8],
     transpose_score=True,
-    validate_measure_count=4,
+    validate_measure_count=8,
     )
 
 maker(
@@ -60,13 +67,45 @@ maker(
 
 # clarinet
 
+# TODO: assign empty clarinet 1 part for end of segment
 maker(
-    baca.scope('ClarinetVoiceI', 'all'),
+    baca.scope('ClarinetVoiceI', (1, 4)),
     animales.margin_markup('Cl. 1'),
     animales.parts('Clarinet', 1),
     baca.dynamic('mp'),
     baca.make_repeat_tied_notes(),
     baca.markup.edition('solo (cl. 1)', 'solo'),
+    baca.pitch('D5'),
+    )
+
+# TODO: assign empty clarinet 2 part for beginning of segment
+maker(
+    baca.scope('ClarinetVoiceI', (5, 8)),
+    animales.margin_markup('Cl. 2'),
+    animales.parts('Clarinet', 2),
+    baca.dynamic('mp'),
+    baca.make_repeat_tied_notes(),
+    baca.markup.edition('solo (cl. 2)', 'solo'),
+    baca.pitch('Db5'),
+    )
+
+# harp
+
+maker(
+    baca.scope('HarpVoiceI', 'all'),
+    animales.parts('Harp'),
+    animales.harp_exchange_rhythm(2),
+    baca.laissez_vibrer(),
+    baca.pitch('D5'),
+    )
+
+# piano
+
+maker(
+    baca.scope('PianoVoiceI', 'all'),
+    animales.parts('Piano'),
+    animales.harp_exchange_rhythm(3),
+    baca.laissez_vibrer(),
     baca.pitch('D5'),
     )
 
@@ -95,8 +134,9 @@ maker(
     animales.instrument('Vibraphone'),
     animales.margin_markup('Perc. 3'),
     animales.parts('Percussion', 3),
+    animales.harp_exchange_rhythm(0),
     baca.clef('treble'),
-    baca.make_repeat_tied_notes(),
+    baca.laissez_vibrer(),
     baca.markup.boxed('vibraphone'),
     baca.pitch('D5'),
     )
@@ -133,7 +173,7 @@ maker(
 
 maker(
     baca.scope('ContrabassVoiceI', 'all'),
-    animales.parts('Contrabass'),
+    animales.parts('Contrabass', (2, 6)),
     baca.make_repeat_tied_notes(),
     )
 
@@ -179,4 +219,18 @@ maker(
     baca.scope('ContrabassVoiceI', 1),
     baca.dynamic('p'),
     baca.markup('still (non vibrato)'),
+    )
+
+# contrabass solo
+
+maker(
+    baca.scope('ContrabassVoiceII', 'all'),
+    animales.parts('Contrabass', 1),
+    animales.harp_exchange_rhythm(1),
+    baca.clef('treble'),
+    baca.laissez_vibrer(),
+    baca.markup('8th partial / III (harmonics at sounding pitch)'),
+    baca.markup.pizz(),
+    baca.natural_harmonics(),
+    baca.pitch('D4'), # sounding D5
     )

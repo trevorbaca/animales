@@ -21,7 +21,10 @@ instruments = abjad.InstrumentDictionary([
         ),
     (
         'Contrabass',
-        abjad.Contrabass(hide=True),
+        abjad.Contrabass(
+            hide=True,
+            pitch_range='[E1, D6]',
+            ),
         ),
     (
         'EnglishHorn',
