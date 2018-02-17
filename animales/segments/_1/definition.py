@@ -31,49 +31,49 @@ maker(
     )
 
 maker(
-    baca.scope('FirstViolinVoiceI', 1, 6),
+    baca.scope('FirstViolinVoiceI', 'all'),
     animales.margin_markup('Vni. I (1-10)'),
     animales.parts('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
     )
 
 maker(
-    baca.scope('FirstViolinVoiceII', 1, 6),
+    baca.scope('FirstViolinVoiceII', 'all'),
     animales.margin_markup('Vni. I (11-18)'),
     animales.parts('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
     )
 
 maker(
-    baca.scope('SecondViolinVoiceI', 1, 6),
+    baca.scope('SecondViolinVoiceI', 'all'),
     animales.margin_markup('Vni. II (1-10)'),
     animales.parts('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
     )
 
 maker(
-    baca.scope('SecondViolinVoiceII', 1, 6),
+    baca.scope('SecondViolinVoiceII', 'all'),
     animales.margin_markup('Vni. II (11-18)'),
     animales.parts('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
     )
 
 maker(
-    baca.scope('ViolaVoiceI', 1, 6),
+    baca.scope('ViolaVoiceI', 'all'),
     animales.margin_markup('Vle. (1-10)'),
     animales.parts('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
     )
 
 maker(
-    baca.scope('ViolaVoiceII', 1, 6),
+    baca.scope('ViolaVoiceII', 'all'),
     animales.margin_markup('Vle. (11-18)'),
     animales.parts('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
     )
 
 maker(
-    baca.scope('CelloVoiceI', 1, 6),
+    baca.scope('CelloVoiceI', 'all'),
     animales.parts('Cello'),
     animales.sforzando_exchange_rhythm(6),
     baca.clef('tenor'),
@@ -96,7 +96,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(strings, [(1, 6)]),
+    baca.make_scopes(strings, ['all']),
     baca.accents(baca.pheads()[1:]),
     )
 
@@ -135,11 +135,11 @@ unraised_trill = [
     ]
 
 maker(
-    baca.make_scopes(raised_trill, [(1, 6)]),
+    baca.make_scopes(raised_trill, ['all']),
     baca.trill_spanner_staff_padding(6),
     )
 
 maker(
-    baca.make_scopes(unraised_trill, [(1, 6)]),
+    baca.make_scopes(unraised_trill, ['all']),
     baca.trill_spanner_staff_padding(4),
     )

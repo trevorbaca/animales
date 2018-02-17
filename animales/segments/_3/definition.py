@@ -30,43 +30,43 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('FirstViolinVoiceI', 1, 5),
+    baca.scope('FirstViolinVoiceI', 'all'),
     animales.parts('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
     )
 
 maker(
-    baca.scope('FirstViolinVoiceII', 1, 5),
+    baca.scope('FirstViolinVoiceII', 'all'),
     animales.parts('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
     )
 
 maker(
-    baca.scope('SecondViolinVoiceI', 1, 5),
+    baca.scope('SecondViolinVoiceI', 'all'),
     animales.parts('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
     )
 
 maker(
-    baca.scope('SecondViolinVoiceII', 1, 5),
+    baca.scope('SecondViolinVoiceII', 'all'),
     animales.parts('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
     )
 
 maker(
-    baca.scope('ViolaVoiceI', 1, 5),
+    baca.scope('ViolaVoiceI', 'all'),
     animales.parts('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
     )
 
 maker(
-    baca.scope('ViolaVoiceII', 1, 5),
+    baca.scope('ViolaVoiceII', 'all'),
     animales.parts('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
     )
 
 maker(
-    baca.scope('CelloVoiceI', 1, 5),
+    baca.scope('CelloVoiceI', 'all'),
     animales.parts('Cello'),
     animales.sforzando_exchange_rhythm(6),
     )
@@ -83,7 +83,7 @@ strings = [
 
 # first accents ...
 maker(
-    baca.make_scopes(strings, [(1, 5)]),
+    baca.make_scopes(strings, ['all']),
     baca.accents(selector=baca.pheads()[1:]),
     )
 

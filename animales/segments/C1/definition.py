@@ -61,7 +61,7 @@ maker(
 # clarinet
 
 maker(
-    baca.scope('ClarinetVoiceI', (1, 4)),
+    baca.scope('ClarinetVoiceI', 'all'),
     animales.margin_markup('Cl. 1'),
     animales.parts('Clarinet', 1),
     baca.dynamic('mp'),
@@ -73,14 +73,14 @@ maker(
 # percussion
 
 maker(
-    baca.scope('PercussionVoiceI', (1, 4)),
+    baca.scope('PercussionVoiceI', 'all'),
     animales.parts('Percussion', 1),
     baca.hairpin('> niente', left_broken=True, selector=baca.leaf(0)),
     baca.score(baca.bar_extent_zero()),
     )
 
 maker(
-    baca.scope('PercussionVoiceII', (1, 4)),
+    baca.scope('PercussionVoiceII', 'all'),
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -91,7 +91,7 @@ maker(
     )
 
 maker(
-    baca.scope('PercussionVoiceIII', (1, 4)),
+    baca.scope('PercussionVoiceIII', 'all'),
     animales.instrument('Vibraphone'),
     animales.margin_markup('Perc. 3'),
     animales.parts('Percussion', 3),
@@ -104,35 +104,35 @@ maker(
 # strings
 
 maker(
-    baca.scope('FirstViolinVoiceI', (1, 4)),
+    baca.scope('FirstViolinVoiceI', 'all'),
     animales.parts('FirstViolin'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb6'),
     )
 
 maker(
-    baca.scope('SecondViolinVoiceI', (1, 4)),
+    baca.scope('SecondViolinVoiceI', 'all'),
     animales.parts('SecondViolin'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb5'),
     )
 
 maker(
-    baca.scope('ViolaVoiceI', (1, 4)),
+    baca.scope('ViolaVoiceI', 'all'),
     animales.parts('Viola'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb4'),
     )
 
 maker(
-    baca.scope('CelloVoiceI', (1, 4)),
+    baca.scope('CelloVoiceI', 'all'),
     animales.parts('Cello'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb2'),
     )
 
 maker(
-    baca.scope('ContrabassVoiceI', (1, 4)),
+    baca.scope('ContrabassVoiceI', 'all'),
     animales.parts('Contrabass'),
     baca.make_repeat_tied_notes(),
     )
@@ -152,7 +152,7 @@ warning = abjad.Markup.line([
     ])
 warning = warning.scale((1.25, 1.25))
 maker(
-    baca.scope('ContrabassVoiceI', (1, 4)),
+    baca.scope('ContrabassVoiceI', 'all'),
     baca.suite([
         baca.untie_to(baca.leaf(1)),
         baca.pitch('A#1', baca.pleaf(0)),
