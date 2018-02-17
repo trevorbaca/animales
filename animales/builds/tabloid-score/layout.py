@@ -12,10 +12,10 @@ breaks = baca.breaks(
         ),
     baca.page( # 3
         [22, 0, (after_time_signatures, 18)],
-        [28, 200, (after_time_signatures, 18)],
+        [30, 210, (after_time_signatures, 18)],
         ),
     baca.page( # 4
-        [36, 15, (after_time_signatures, 18)],
+        [38, 15, (after_time_signatures, 18)],
         ),
     )
 
@@ -24,4 +24,5 @@ spacing = baca.scorewide_spacing(
     breaks=breaks,
     fallback_duration=(1, 20),
     )
-spacing.override((30, 35), (1, 18))
+spacing.override((22, 29), (1, 16))
+spacing.override((30, 39), (1, 16))

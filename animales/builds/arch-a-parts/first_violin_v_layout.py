@@ -4,15 +4,20 @@ import baca
 part_abbreviation = 'VN_1_5'
 
 padding = 6
-start = 50
+first_part_start = 50
+start = 10
 separation = 30
 breaks = baca.breaks(
     baca.page( # 1
-        [1, start, (padding,)],
-        [7, start + 1 * separation, (padding,)],
-        [13, start + 2 * separation, (padding,)],
-        [18, start + 3 * separation, (padding,)],
-        [24, start + 4 * separation, (padding,)],
+        [1, first_part_start + 0 * separation, (padding,)],
+        [7, first_part_start + 1 * separation, (padding,)],
+        [13, first_part_start + 2 * separation, (padding,)],
+        [18, first_part_start + 3 * separation, (padding,)],
+        [24, first_part_start + 4 * separation, (padding,)],
+        ),
+    baca.page( # 2
+        [30, start + 0 * separation, (padding,)],
+        [37, start + 1 * separation, (padding,)],
         ),
     )
 
@@ -21,4 +26,5 @@ spacing = baca.scorewide_spacing(
     breaks=breaks,
     fallback_duration=(1, 12),
     )
-spacing.override((20, 29), (1, 8))
+spacing.override((20, 23), (1, 8))
+spacing.override((36, 39), (1, 4))
