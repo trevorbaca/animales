@@ -11,6 +11,8 @@
 \include "_segments/segment--3.ily"
 \include "_segments/segment-A1.ily"
 \include "_segments/segment-A2.ily"
+\include "_segments/segment-B1.ily"
+\include "_segments/segment-C1.ily"
 
 \paper {
     evenFooterMarkup =
@@ -57,7 +59,7 @@
 \score {
     <<
         {
-        \include "cello-i-layout.ly"
+        \include "cello-01-layout.ly"
         }
         {
             \context Score = "Score"
@@ -71,6 +73,8 @@
                         \i_c_GlobalSkips
                         \A_a_GlobalSkips
                         \A_b_GlobalSkips
+                        \B_a_GlobalSkips
+                        \C_a_GlobalSkips
                     }
                 >>
                 \context MusicContext = "MusicContext"
@@ -81,9 +85,10 @@
                         \i_a_CelloVoiceI_a
                         \i_b_CelloVoiceI_a
                         \i_c_CelloVoiceI_a
-                        \A_a_CelloVoiceI_b
                         \A_a_CelloVoiceI_a
-                        \A_b_GlobalRests
+                        \A_b_CelloVoiceI_a
+                        \B_a_CelloVoiceI_a
+                        \C_a_CelloVoiceI_a
                     }
                 }
             >>

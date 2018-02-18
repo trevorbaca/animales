@@ -11,6 +11,8 @@
 \include "_segments/segment--3.ily"
 \include "_segments/segment-A1.ily"
 \include "_segments/segment-A2.ily"
+\include "_segments/segment-B1.ily"
+\include "_segments/segment-C1.ily"
 
 \paper {
     evenFooterMarkup =
@@ -57,7 +59,7 @@
 \score {
     <<
         {
-        \include "horn-iii-layout.ly"
+        \include "horn-3-layout.ly"
         }
         {
             \context Score = "Score"
@@ -71,6 +73,8 @@
                         \i_c_GlobalSkips
                         \A_a_GlobalSkips
                         \A_b_GlobalSkips
+                        \B_a_GlobalSkips
+                        \C_a_GlobalSkips
                     }
                 >>
                 \context MusicContext = "MusicContext"
@@ -83,6 +87,8 @@
                         \i_c_GlobalRests
                         \A_a_HornVoiceIII_a
                         \A_b_GlobalRests
+                        \B_a_GlobalRests
+                        \C_a_GlobalRests
                     }
                 }
             >>

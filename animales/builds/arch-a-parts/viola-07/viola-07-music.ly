@@ -11,6 +11,8 @@
 \include "_segments/segment--3.ily"
 \include "_segments/segment-A1.ily"
 \include "_segments/segment-A2.ily"
+\include "_segments/segment-B1.ily"
+\include "_segments/segment-C1.ily"
 
 \paper {
     evenFooterMarkup =
@@ -57,7 +59,7 @@
 \score {
     <<
         {
-        \include "viola-vii-layout.ly"
+        \include "viola-07-layout.ly"
         }
         {
             \context Score = "Score"
@@ -71,6 +73,8 @@
                         \i_c_GlobalSkips
                         \A_a_GlobalSkips
                         \A_b_GlobalSkips
+                        \B_a_GlobalSkips
+                        \C_a_GlobalSkips
                     }
                 >>
                 \context MusicContext = "MusicContext"
@@ -82,8 +86,9 @@
                         \i_b_ViolaVoiceI_a
                         \i_c_ViolaVoiceI_a
                         \A_a_ViolaVoiceI_a
-                        \A_a_ViolaVoiceI_b
-                        \A_b_GlobalRests
+                        \A_b_ViolaVoiceI_a
+                        \B_a_ViolaVoiceI_a
+                        \C_a_ViolaVoiceI_a
                     }
                 }
             >>

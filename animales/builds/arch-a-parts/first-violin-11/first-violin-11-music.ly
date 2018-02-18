@@ -59,7 +59,7 @@
 \score {
     <<
         {
-        \include "first-violin-xi-layout.ly"
+        \include "first-violin-11-layout.ly"
         }
         {
             \context Score = "Score"
@@ -87,7 +87,7 @@
                         \i_c_FirstViolinVoiceII_a
                         \A_a_FirstViolinVoiceII_a
                         \A_b_FirstViolinVoiceII_a
-                        \B_a_FirstViolinVoiceII_a
+                        \B_a_FirstViolinVoiceI_a
                         \C_a_FirstViolinVoiceI_a
                     }
                 }
