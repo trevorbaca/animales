@@ -5,14 +5,14 @@
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
-\include "stylesheet.ily"
-\include "_segments/segment--1.ily"
-\include "_segments/segment--2.ily"
-\include "_segments/segment--3.ily"
-\include "_segments/segment-A1.ily"
-\include "_segments/segment-A2.ily"
-\include "_segments/segment-B1.ily"
-\include "_segments/segment-C1.ily"
+\include "../stylesheet.ily"
+\include "../_segments/segment--1.ily"
+\include "../_segments/segment--2.ily"
+\include "../_segments/segment--3.ily"
+\include "../_segments/segment-A1.ily"
+\include "../_segments/segment-A2.ily"
+\include "../_segments/segment-B1.ily"
+\include "../_segments/segment-C1.ily"
 
 \paper {
     evenFooterMarkup =
