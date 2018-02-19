@@ -337,7 +337,7 @@ i_a_FirstViolinVoiceI_a = {
             #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Violins                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+                    Vni.                                 %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     I                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     (1-10)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -352,6 +352,16 @@ i_a_FirstViolinVoiceI_a = {
                     (1-10)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+    \set Staff.instrumentName = \markup {
+        \hcenter-in
+            #16
+            \center-column
+                {
+                    Violins
+                    I
+                    (1-10)
+                }
+        }                                                %! IC
     \override TrillSpanner.staff-padding = #4            %! OC1
     \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -388,7 +398,7 @@ i_a_FirstViolinVoiceI_a = {
             #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Violins                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+                    Vni.                                 %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     I                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     (1-10)                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -456,7 +466,7 @@ i_a_FirstViolinVoiceII_a = {
             #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Violins                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+                    Vni.                                 %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     I                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     (11-18)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -471,6 +481,16 @@ i_a_FirstViolinVoiceII_a = {
                     (11-18)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+    \set Staff.instrumentName = \markup {
+        \hcenter-in
+            #16
+            \center-column
+                {
+                    Violins
+                    I
+                    (11-18)
+                }
+        }                                                %! IC
     \override TrillSpanner.staff-padding = #6            %! OC1
     \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -506,7 +526,7 @@ i_a_FirstViolinVoiceII_a = {
             #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Violins                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+                    Vni.                                 %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     I                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     (11-18)                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -588,7 +608,7 @@ i_a_SecondViolinVoiceI_a = {
             #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Violins                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+                    Vni.                                 %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     II                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     (1-10)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -603,6 +623,16 @@ i_a_SecondViolinVoiceI_a = {
                     (1-10)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+    \set Staff.instrumentName = \markup {
+        \hcenter-in
+            #16
+            \center-column
+                {
+                    Violins
+                    II
+                    (1-10)
+                }
+        }                                                %! IC
     \override TrillSpanner.staff-padding = #4            %! OC1
     \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -638,7 +668,7 @@ i_a_SecondViolinVoiceI_a = {
             #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Violins                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+                    Vni.                                 %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     II                                   %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     (1-10)                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -719,7 +749,7 @@ i_a_SecondViolinVoiceII_a = {
             #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Violins                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+                    Vni.                                 %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     II                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     (11-18)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -734,6 +764,16 @@ i_a_SecondViolinVoiceII_a = {
                     (11-18)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+    \set Staff.instrumentName = \markup {
+        \hcenter-in
+            #16
+            \center-column
+                {
+                    Violins
+                    II
+                    (11-18)
+                }
+        }                                                %! IC
     \override TrillSpanner.staff-padding = #6            %! OC1
     \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -769,7 +809,7 @@ i_a_SecondViolinVoiceII_a = {
             #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Violins                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+                    Vni.                                 %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     II                                   %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     (11-18)                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -857,7 +897,7 @@ i_a_ViolaVoiceI_a = {
             #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Violas                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+                    Vle.                                 %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     (1-10)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -870,6 +910,15 @@ i_a_ViolaVoiceI_a = {
                     (1-10)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+    \set Staff.instrumentName = \markup {
+        \hcenter-in
+            #16
+            \center-column
+                {
+                    Violas
+                    (1-10)
+                }
+        }                                                %! IC
     \override TrillSpanner.staff-padding = #4            %! OC1
     \clef "alto"                                         %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -905,7 +954,7 @@ i_a_ViolaVoiceI_a = {
             #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Violas                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+                    Vle.                                 %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     (1-10)                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -979,7 +1028,7 @@ i_a_ViolaVoiceII_a = {
             #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Violas                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+                    Vle.                                 %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     (11-18)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -992,6 +1041,15 @@ i_a_ViolaVoiceII_a = {
                     (11-18)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+    \set Staff.instrumentName = \markup {
+        \hcenter-in
+            #16
+            \center-column
+                {
+                    Violas
+                    (11-18)
+                }
+        }                                                %! IC
     \override TrillSpanner.staff-padding = #4            %! OC1
     \clef "alto"                                         %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -1027,7 +1085,7 @@ i_a_ViolaVoiceII_a = {
             #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Violas                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+                    Vle.                                 %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     (11-18)                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -1090,13 +1148,18 @@ i_a_CelloVoiceI_a = {
     \set Staff.instrumentName = \markup {                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
             #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            Cellos                                           %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            Vc.                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
     \set Staff.shortInstrumentName = \markup {               %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
             #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
             Vc.                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \set Staff.instrumentName = \markup {
+        \hcenter-in
+            #16
+            Cellos
+        }                                                    %! IC
     \override TrillSpanner.staff-padding = #4                %! OC1
     \clef "tenor"                                            %! SM8:EXPLICIT_CLEF:IC
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
@@ -1129,7 +1192,7 @@ i_a_CelloVoiceI_a = {
     \set Staff.instrumentName = \markup {                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
             #16                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            Cellos                                           %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            Vc.                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     \set Staff.shortInstrumentName = \markup {               %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
