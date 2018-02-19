@@ -855,6 +855,7 @@ C_a_PercussionVoiceI_a = {
                 {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     Perc.                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     1                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (tri.)                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \set Staff.shortInstrumentName =                         %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -865,6 +866,7 @@ C_a_PercussionVoiceI_a = {
                 {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     Perc.                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     1                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (tri.)                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -892,7 +894,7 @@ C_a_PercussionVoiceI_a = {
                     {                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
                         \with-color                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
-                            "[“Perc. 1”]"                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+                            "[“Perc. 1 (tri.)”]"             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
             }
         }
@@ -906,6 +908,7 @@ C_a_PercussionVoiceI_a = {
                 {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     Perc.                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     1                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (tri.)                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     \set Staff.shortInstrumentName =                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
@@ -916,6 +919,7 @@ C_a_PercussionVoiceI_a = {
                 {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     Perc.                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     1                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (tri.)                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     \override Staff.BarLine.bar-extent = #'(0 . 0)           %! OC1:-PARTS
@@ -968,6 +972,7 @@ C_a_PercussionVoiceII_a = {
                 {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     Perc.                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     2                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (cym.)                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \set Staff.shortInstrumentName =                         %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -978,6 +983,7 @@ C_a_PercussionVoiceII_a = {
                 {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     Perc.                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     2                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (cym.)                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -1008,7 +1014,7 @@ C_a_PercussionVoiceII_a = {
                     {                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
                         \with-color                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
-                            "[“Perc. 2”]"                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+                            "[“Perc. 2 (cym.)”]"             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
             }
         }
@@ -1022,6 +1028,7 @@ C_a_PercussionVoiceII_a = {
                 {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     Perc.                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     2                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (cym.)                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     \set Staff.shortInstrumentName =                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
@@ -1032,6 +1039,7 @@ C_a_PercussionVoiceII_a = {
                 {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     Perc.                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     2                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (cym.)                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     \override Staff.BarLine.bar-extent = #'(0 . 0)           %! OC1:-PARTS
@@ -1100,6 +1108,7 @@ C_a_PercussionVoiceIII_a = {
                     {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                         Perc.                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                         3                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+                        (vib.)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \set Staff.shortInstrumentName =                     %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -1110,6 +1119,7 @@ C_a_PercussionVoiceIII_a = {
                     {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                         Perc.                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                         3                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+                        (vib.)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \clef "treble"                                       %! SM8:EXPLICIT_CLEF:IC
@@ -1141,7 +1151,7 @@ C_a_PercussionVoiceIII_a = {
                         {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                             \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                                 #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-                                "[“Perc. 3”]"                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
+                                "[“Perc. 3 (vib.)”]"         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                         }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                 }
             }
@@ -1154,6 +1164,7 @@ C_a_PercussionVoiceIII_a = {
                     {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                         Perc.                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                         3                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+                        (vib.)                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -1164,6 +1175,7 @@ C_a_PercussionVoiceIII_a = {
                     {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                         Perc.                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                         3                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+                        (vib.)                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC

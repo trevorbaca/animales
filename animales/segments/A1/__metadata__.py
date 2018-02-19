@@ -350,8 +350,8 @@ metadata = abjad.OrderedDict(
                     ('TromboneStaffI', 'Trb. (1+3)'),
                     ('TromboneStaffII', 'Trb. (2+4)'),
                     ('TubaStaffI', 'Tub.'),
-                    ('PercussionStaffI', 'Perc. 1'),
-                    ('PercussionStaffII', 'Perc. 2'),
+                    ('PercussionStaffI', 'Perc. 1 (tri.)'),
+                    ('PercussionStaffII', 'Perc. 2 (cym.)'),
                     ('ContrabassStaffII', 'Cb.'),
                     ]
                 ),
@@ -620,7 +620,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionVoiceI',
                                 prototype='abjad.MarginMarkup',
-                                value='Perc. 1',
+                                value='Perc. 1 (tri.)',
                                 ),
                             abjad.Momento(
                                 context='PercussionVoiceI',
@@ -645,7 +645,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionVoiceII',
                                 prototype='abjad.MarginMarkup',
-                                value='Perc. 2',
+                                value='Perc. 2 (cym.)',
                                 ),
                             abjad.Momento(
                                 context='PercussionVoiceII',

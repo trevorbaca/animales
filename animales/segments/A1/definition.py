@@ -447,13 +447,13 @@ maker(
 
 maker(
     baca.scope('PercussionVoiceI', 'all'),
-    animales.margin_markup('Perc. 1'),
+    animales.margin_markup('Perc. 1 (tri.)'),
     animales.parts('Percussion', 1),
     )
 
 maker(
     baca.scope('PercussionVoiceII', 'all'),
-    animales.margin_markup('Perc. 2'),
+    animales.margin_markup('Perc. 2 (cym.)'),
     animales.parts('Percussion', 2),
     )
 
