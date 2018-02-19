@@ -20,9 +20,8 @@ margin_markups = abjad.OrderedDict([
         _make_margin_markup('Bsn.'),
         ),
     (
-        # first page
         'Vc.',
-        _make_margin_markup('Vc.', 'Cellos'),
+        _make_margin_markup('Vc.'),
         ),
     (
         'Vc. (1-8)',
@@ -117,14 +116,12 @@ margin_markups = abjad.OrderedDict([
         _make_margin_markup('Vle.'),
         ),
     (
-        # first page
         'Vle. (1-10)',
-        _make_margin_markup('Vle. (1-10)', 'Violas (1-10)')
+        _make_margin_markup('Vle. (1-10)'),
         ),
     (
-        # first page
         'Vle. (11-18)',
-        _make_margin_markup('Vle. (11-18)', 'Violas (11-18)'),
+        _make_margin_markup('Vle. (11-18)'),
         ),
     (
         'Vni.',
@@ -135,14 +132,12 @@ margin_markups = abjad.OrderedDict([
         _make_margin_markup('Vni. I'),
         ),
     (
-        # first page
         'Vni. I (1-10)',
-        _make_margin_markup('Vni. I (1-10)', 'Violins I (1-10)'),
+        _make_margin_markup('Vni. I (1-10)'),
         ),
     (
-        # first page
         'Vni. I (11-18)',
-        _make_margin_markup('Vni. I (11-18)', 'Violins I (11-18)'),
+        _make_margin_markup('Vni. I (11-18)'),
         ),
     (
         'Vni. I (2-18)',
@@ -153,14 +148,12 @@ margin_markups = abjad.OrderedDict([
         _make_margin_markup('Vni. II'),
         ),
     (
-        # first page
         'Vni. II (1-10)',
-        _make_margin_markup('Vni. II (1-10)', 'Violins II (1-10)'),
+        _make_margin_markup('Vni. II (1-10)'),
         ),
     (
-        # first page
         'Vni. II (11-18)',
-        _make_margin_markup('Vni. II (11-18)', 'Violins II (11-18)'),
+        _make_margin_markup('Vni. II (11-18)'),
         ),
     ])
 

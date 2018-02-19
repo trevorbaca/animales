@@ -293,7 +293,7 @@ i_c_FirstViolinVoiceI_a = {
             #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
             \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                    Violins                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Vni.                                 %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     I                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     (1-10)                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -343,7 +343,7 @@ i_c_FirstViolinVoiceI_a = {
             #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
             \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                    Violins                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Vni.                                 %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     I                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     (1-10)                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
@@ -407,7 +407,7 @@ i_c_FirstViolinVoiceII_a = {
             #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
             \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                    Violins                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Vni.                                 %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     I                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     (11-18)                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -457,7 +457,7 @@ i_c_FirstViolinVoiceII_a = {
             #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
             \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                    Violins                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Vni.                                 %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     I                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     (11-18)                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
@@ -529,7 +529,7 @@ i_c_SecondViolinVoiceI_a = {
             #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
             \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                    Violins                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Vni.                                 %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     II                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     (1-10)                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -579,7 +579,7 @@ i_c_SecondViolinVoiceI_a = {
             #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
             \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                    Violins                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Vni.                                 %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     II                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     (1-10)                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
@@ -649,7 +649,7 @@ i_c_SecondViolinVoiceII_a = {
                 #16                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 \center-column                           %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     {                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                        Violins                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                        Vni.                             %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                         II                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                         (11-18)                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     }                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -699,7 +699,7 @@ i_c_SecondViolinVoiceII_a = {
                 #16                                      %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 \center-column                           %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     {                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                        Violins                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                        Vni.                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                         II                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                         (11-18)                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     }                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
@@ -779,7 +779,7 @@ i_c_ViolaVoiceI_a = {
             #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
             \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                    Violas                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Vle.                                 %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     (1-10)                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -827,7 +827,7 @@ i_c_ViolaVoiceI_a = {
             #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
             \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                    Violas                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Vle.                                 %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     (1-10)                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
@@ -897,7 +897,7 @@ i_c_ViolaVoiceII_a = {
             #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
             \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                    Violas                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Vle.                                 %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     (11-18)                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -945,7 +945,7 @@ i_c_ViolaVoiceII_a = {
             #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
             \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                    Violas                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Vle.                                 %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     (11-18)                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
@@ -1007,7 +1007,7 @@ i_c_CelloVoiceI_a = {
     \set Staff.instrumentName = \markup {                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
             #16                                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-            Cellos                                           %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            Vc.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \set Staff.shortInstrumentName = \markup {               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1047,7 +1047,7 @@ i_c_CelloVoiceI_a = {
     \set Staff.instrumentName = \markup {                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
             #16                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-            Cellos                                           %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            Vc.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     \set Staff.shortInstrumentName = \markup {               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
