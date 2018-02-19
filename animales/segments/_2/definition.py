@@ -19,10 +19,21 @@ maker = baca.SegmentMaker(
     metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
-        first_violins=[(1, [1]), (2, [2])],
-        second_violins=[(1, [1]), (2, [2])],
-        violas=[(1, [1]), (2, [2])],
-        cellos=[(1, [1])],
+        first_violins=[
+            (1, [1]),
+            (2, [2]),
+            ],
+        second_violins=[
+            (1, [1]),
+            (2, [2]),
+            ],
+        violas=[
+            (1, [1]),
+            (2, [2]),
+            ],
+        cellos=[
+            (1, [1]),
+            ],
         ),
     time_signatures=animales.time_signatures[start:start + 6],
     transpose_score=True,

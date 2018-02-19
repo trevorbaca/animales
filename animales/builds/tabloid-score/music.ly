@@ -701,7 +701,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Cb.
+                                        \center-column
+                                            {
+                                                Cb.
+                                                1
+                                            }
                                     }
                             }
                             \clef "bass"
@@ -711,11 +715,11 @@
                             \context Staff = "ContrabassStaffI"
                             \i_c_GlobalRests
                             \context Staff = "ContrabassStaffI"
-                            \A_a_ContrabassStaffI
+                            \A_a_GlobalRests
                             \context Staff = "ContrabassStaffI"
-                            \A_b_ContrabassStaffI
+                            \A_b_GlobalRests
                             \context Staff = "ContrabassStaffI"
-                            \B_a_ContrabassStaffI
+                            \B_a_GlobalRests
                             \context Staff = "ContrabassStaffI"
                             \C_a_ContrabassStaffI
                         }
@@ -737,11 +741,11 @@
                             \context Staff = "ContrabassStaffII"
                             \i_c_GlobalRests
                             \context Staff = "ContrabassStaffII"
-                            \A_a_GlobalRests
+                            \A_a_ContrabassStaffII
                             \context Staff = "ContrabassStaffII"
-                            \A_b_GlobalRests
+                            \A_b_ContrabassStaffII
                             \context Staff = "ContrabassStaffII"
-                            \B_a_GlobalRests
+                            \B_a_ContrabassStaffII
                             \context Staff = "ContrabassStaffII"
                             \C_a_ContrabassStaffII
                         }

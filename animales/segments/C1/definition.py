@@ -46,8 +46,8 @@ maker = baca.SegmentMaker(
             (1, [1]),
             ],
         contrabasses=[
-            (2, [2]),
-            (1, [1]),
+            (1, [2]),
+            (2, [1]),
             ],
         ),
     time_signatures=animales.time_signatures[start:start + 8],
@@ -173,6 +173,10 @@ maker(
 
 maker(
     baca.scope('ContrabassVoiceI', 'all'),
+    animales.margin_markup(
+        'Cb. (2-6)',
+        alert=baca.markup('(cb. 2-6)'),
+        ),
     animales.parts('Contrabass', (2, 6)),
     baca.make_repeat_tied_notes(),
     )
@@ -227,6 +231,7 @@ maker(
     baca.scope('ContrabassVoiceII', 'all'),
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(1),
+    animales.margin_markup('Cb. 1'),
     baca.clef('treble'),
     baca.laissez_vibrer(),
     baca.markup('8th partial / III (harmonics at sounding pitch)'),

@@ -76,10 +76,10 @@
                         systemStartDelimiter = #'SystemStartSquare
                     }
                     <<
-                        \context Staff = "ContrabassStaffII"
-                        \C_a_ContrabassStaffII
                         \context Staff = "ContrabassStaffI"
                         \C_a_ContrabassStaffI
+                        \context Staff = "ContrabassStaffII"
+                        \C_a_ContrabassStaffII
                     >>
                 >>
             >>

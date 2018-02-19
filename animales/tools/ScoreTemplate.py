@@ -722,12 +722,12 @@ class ScoreTemplate(baca.ScoreTemplate):
     ### PUBLIC METHODS ###
 
     @staticmethod
-    def full_score() -> abjad.Score:
-        r'''Makes full score.
+    def skeleton() -> abjad.Score:
+        r'''Makes skeleton.
 
         ..  container:: example
 
-            >>> score = animales.ScoreTemplate.full_score()
+            >>> score = animales.ScoreTemplate.skeleton()
             >>> abjad.f(score)
             \context Score = "Score"
             <<

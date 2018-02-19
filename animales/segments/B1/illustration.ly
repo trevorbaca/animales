@@ -50,8 +50,8 @@
                     \B_a_ViolaStaffI
                     \context Staff = "CelloStaffI"
                     \B_a_CelloStaffI
-                    \context Staff = "ContrabassStaffI"
-                    \B_a_ContrabassStaffI
+                    \context Staff = "ContrabassStaffII"
+                    \B_a_ContrabassStaffII
                 >>
             >>
         >>
