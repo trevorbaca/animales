@@ -2,12 +2,9 @@ import abjad
 import baca
 
 
-def _make_margin_markup(short_markup, markup=None):
-    if markup is None:
-        markup = short_markup
+def _make_margin_markup(markup):
     return abjad.MarginMarkup(
         markup=baca.markup.instrument(markup, hcenter_in=16),
-        short_markup=baca.markup.short_instrument(short_markup, hcenter_in=16),
         )
 
 margin_markups = abjad.OrderedDict([
@@ -176,23 +173,3 @@ for abbreviation, count in [
         key = f'{abbreviation} {i}'
         value = _make_margin_markup(key)
         margin_markups[key] = value
-
-#for i in range(1, 3 + 1):
-#    key = f'Cl. {i}'
-#    value = _make_margin_markup(key)
-#    margin_markups[key] = value
-#
-#for i in range(1, 4 + 1):
-#    key = f'Perc. {i}'
-#    value = _make_margin_markup(key)
-#    margin_markups[key] = value
-#
-#for i in range(1, 18 + 1):
-#    key = f'Vni. I ({i})'
-#    value = _make_margin_markup(['Vni. I', f'({i})'])
-#    margin_markups[key] = value
-#
-#for i in range(1, 18 + 1):
-#    key = f'Vni. I ({i})'
-#    value = _make_margin_markup(['Vni. I', f'({i})'])
-#    margin_markups[key] = value
