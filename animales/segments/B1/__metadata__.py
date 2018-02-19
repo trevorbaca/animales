@@ -28,7 +28,7 @@ metadata = abjad.OrderedDict(
                 'ViolaVoiceI',
                 'CelloStaffI',
                 'CelloVoiceI',
-                'ContrabassStaffI',
+                'ContrabassStaffII',
                 'ContrabassVoiceI',
                 ],
             ),
@@ -191,7 +191,7 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
-                        'ContrabassStaffI',
+                        'ContrabassStaffII',
                         [
                             abjad.Momento(
                                 context='ContrabassVoiceI',

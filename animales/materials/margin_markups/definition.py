@@ -41,6 +41,10 @@ margin_markups = abjad.OrderedDict([
         _make_margin_markup('Cb.'),
         ),
     (
+        'Cb. (2-6)',
+        _make_margin_markup('Cb. (2-6)'),
+        ),
+    (
         'Eng. hn.',
         _make_margin_markup('Eng. hn.'),
         ),
@@ -160,17 +164,42 @@ margin_markups = abjad.OrderedDict([
         ),
     ])
 
-for i in range(1, 3 + 1):
-    key = f'Cl. {i}'
-    value = _make_margin_markup(key)
-    margin_markups[key] = value
+for abbreviation, count in [
+    ('Fl.', 3),
+    ('Ob.', 3),
+    ('Cl.', 3),
+    ('Bsn.', 2),
+    ('Hn.', 4),
+    ('Tp.', 4),
+    ('Trb.', 4),
+    ('Perc.', 4),
+    ('Vni. I', 18),
+    ('Vni. II', 18),
+    ('Vle.', 18),
+    ('Vc.', 14),
+    ('Cb.', 6),
+    ]:
+    for i in range(1, count + 1):
+        key = f'{abbreviation} {i}'
+        value = _make_margin_markup(key)
+        margin_markups[key] = value
 
-for i in range(1, 4 + 1):
-    key = f'Perc. {i}'
-    value = _make_margin_markup(key)
-    margin_markups[key] = value
-
-for i in range(1, 18 + 1):
-    key = f'Vni. I ({i})'
-    value = _make_margin_markup(['Vni. I', f'({i})'])
-    margin_markups[key] = value
+#for i in range(1, 3 + 1):
+#    key = f'Cl. {i}'
+#    value = _make_margin_markup(key)
+#    margin_markups[key] = value
+#
+#for i in range(1, 4 + 1):
+#    key = f'Perc. {i}'
+#    value = _make_margin_markup(key)
+#    margin_markups[key] = value
+#
+#for i in range(1, 18 + 1):
+#    key = f'Vni. I ({i})'
+#    value = _make_margin_markup(['Vni. I', f'({i})'])
+#    margin_markups[key] = value
+#
+#for i in range(1, 18 + 1):
+#    key = f'Vni. I ({i})'
+#    value = _make_margin_markup(['Vni. I', f'({i})'])
+#    margin_markups[key] = value

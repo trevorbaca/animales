@@ -1364,7 +1364,7 @@ B_a_ContrabassVoiceI = {
 }
 
 
-B_a_ContrabassStaffI = {
+B_a_ContrabassStaffII = {
     \context Voice = "ContrabassVoiceI"
     \B_a_ContrabassVoiceI
 }
