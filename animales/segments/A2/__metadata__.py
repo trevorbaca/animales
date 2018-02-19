@@ -174,14 +174,6 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('duration', "0'11''"),
-        (
-            'first_appearance_margin_markup',
-            abjad.OrderedDict(
-                [
-                    ('ContrabassStaffII', 'Cb.'),
-                    ]
-                ),
-            ),
         ('first_measure_number', 24),
         ('last_measure_number', 29),
         (

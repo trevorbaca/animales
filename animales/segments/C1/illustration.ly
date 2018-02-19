@@ -34,19 +34,11 @@
                     \C_a_ClarinetStaffI
                 >>
                 \context StaffGroup = "PianoPianoStaff"
-                \with
-                {
-                    alignAboveContext = #"PercussionStaffI"
-                }
                 <<
                     \context Staff = "PianoStaffI"
                     \C_a_PianoStaffI
                 >>
                 \context StaffGroup = "HarpPianoStaff"
-                \with
-                {
-                    alignAboveContext = #"PercussionStaffI"
-                }
                 <<
                     \context Staff = "HarpStaffI"
                     \C_a_HarpStaffI
