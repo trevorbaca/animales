@@ -45,159 +45,127 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [36],
+            [44],
             ),
         (
             'container_to_part',
             abjad.OrderedDict(
                 [
                     (
-                        'C_ClarinetVoiceI_a',
+                        'D_ClarinetVoiceI_a',
                         (
                             abjad.Part('Clarinet', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(7, 2),
+                                stop_offset=abjad.Offset(11, 2),
                                 ),
                             ),
                         ),
                     (
-                        'C_ClarinetVoiceI_b',
-                        (
-                            abjad.Part('Clarinet', 2),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(7, 2),
-                                stop_offset=abjad.Offset(7, 1),
-                                ),
-                            ),
-                        ),
-                    (
-                        'C_PianoVoiceI_a',
+                        'D_PianoVoiceI_a',
                         (
                             abjad.Part('Piano'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(7, 1),
+                                stop_offset=abjad.Offset(11, 2),
                                 ),
                             ),
                         ),
                     (
-                        'C_HarpVoiceI_a',
+                        'D_HarpVoiceI_a',
                         (
                             abjad.Part('Harp'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(7, 1),
+                                stop_offset=abjad.Offset(11, 2),
                                 ),
                             ),
                         ),
                     (
-                        'C_PercussionVoiceI_a',
-                        (
-                            abjad.Part('Percussion', 1),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(7, 1),
-                                ),
-                            ),
-                        ),
-                    (
-                        'C_PercussionVoiceII_a',
+                        'D_PercussionVoiceII_a',
                         (
                             abjad.Part('Percussion', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(7, 1),
+                                stop_offset=abjad.Offset(11, 2),
                                 ),
                             ),
                         ),
                     (
-                        'C_PercussionVoiceIII_a',
+                        'D_PercussionVoiceIII_a',
                         (
                             abjad.Part('Percussion', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(7, 1),
+                                stop_offset=abjad.Offset(11, 2),
                                 ),
                             ),
                         ),
                     (
-                        'C_FirstViolinVoiceI_a',
+                        'D_FirstViolinVoiceI_a',
                         (
                             abjad.Part('FirstViolin'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(7, 1),
+                                stop_offset=abjad.Offset(11, 2),
                                 ),
                             ),
                         ),
                     (
-                        'C_SecondViolinVoiceI_a',
+                        'D_SecondViolinVoiceI_a',
                         (
                             abjad.Part('SecondViolin'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(7, 1),
+                                stop_offset=abjad.Offset(11, 2),
                                 ),
                             ),
                         ),
                     (
-                        'C_ViolaVoiceI_a',
+                        'D_ViolaVoiceI_a',
                         (
                             abjad.Part('Viola'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(7, 1),
+                                stop_offset=abjad.Offset(11, 2),
                                 ),
                             ),
                         ),
                     (
-                        'C_CelloVoiceI_a',
+                        'D_CelloVoiceI_a',
                         (
                             abjad.Part('Cello'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(7, 1),
+                                stop_offset=abjad.Offset(11, 2),
                                 ),
                             ),
                         ),
                     (
-                        'C_ContrabassVoiceII_a',
+                        'D_ContrabassVoiceII_a',
                         (
                             abjad.Part('Contrabass', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(7, 1),
+                                stop_offset=abjad.Offset(11, 2),
                                 ),
                             ),
                         ),
                     (
-                        'C_ContrabassVoiceI_a',
+                        'D_ContrabassVoiceI_a',
                         (
-                            abjad.Part('Contrabass', (2, 6)),
+                            abjad.Part('Contrabass'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(7, 1),
+                                stop_offset=abjad.Offset(11, 2),
                                 ),
                             ),
                         ),
                     ]
                 ),
             ),
-        ('duration', "0'22''"),
-        (
-            'first_appearance_margin_markup',
-            abjad.OrderedDict(
-                [
-                    ('PianoStaffI', 'Pf.'),
-                    ('HarpStaffI', 'Hp.'),
-                    ('PercussionStaffIII', 'Perc. 3 (vib.)'),
-                    ('ContrabassStaffI', 'Cb. 1'),
-                    ]
-                ),
-            ),
-        ('first_measure_number', 36),
-        ('last_measure_number', 43),
+        ('first_measure_number', 44),
+        ('last_measure_number', 49),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -248,7 +216,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ClarinetVoiceI',
                                 prototype='abjad.MarginMarkup',
-                                value='Cl. 2',
+                                value='Cl. 1',
                                 ),
                             ],
                         ),
@@ -258,7 +226,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ClarinetVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='mf',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -308,7 +276,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ContrabassVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='p',
+                                value='pp',
                                 ),
                             ],
                         ),
@@ -473,7 +441,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionVoiceII',
                                 prototype='abjad.Dynamic',
-                                value='p',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -528,7 +496,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='GlobalSkips',
                                 prototype='abjad.MetronomeMark',
-                                value='76',
+                                value='abjad.Accelerando()',
                                 ),
                             abjad.Momento(
                                 context='GlobalSkips',
@@ -600,8 +568,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('segment_name', 'C'),
-        ('segment_number', 7),
+        ('segment_name', 'D'),
+        ('segment_number', 8),
         (
             'sounds_during_segment',
             abjad.OrderedDict(
@@ -621,20 +589,9 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "0'00''"),
-        ('stop_clock_time', "0'22''"),
         (
             'time_signatures',
-            [
-                '2/4',
-                '4/4',
-                '4/4',
-                '4/4',
-                '4/4',
-                '2/4',
-                '4/4',
-                '4/4',
-                ],
+            ['4/4', '4/4', '4/4', '3/4', '3/4', '4/4'],
             ),
         (
             'voice_metadata',
@@ -647,7 +604,7 @@ metadata = abjad.OrderedDict(
                                 (
                                     'harp_exchange_rhythm',
                                     [
-                                        ('talea_weight_consumed', 168),
+                                        ('talea_weight_consumed', 132),
                                         ],
                                     ),
                                 ]
@@ -660,7 +617,7 @@ metadata = abjad.OrderedDict(
                                 (
                                     'harp_exchange_rhythm',
                                     [
-                                        ('talea_weight_consumed', 168),
+                                        ('talea_weight_consumed', 132),
                                         ],
                                     ),
                                 ]
@@ -673,7 +630,7 @@ metadata = abjad.OrderedDict(
                                 (
                                     'harp_exchange_rhythm',
                                     [
-                                        ('talea_weight_consumed', 168),
+                                        ('talea_weight_consumed', 132),
                                         ],
                                     ),
                                 ]
@@ -686,7 +643,7 @@ metadata = abjad.OrderedDict(
                                 (
                                     'harp_exchange_rhythm',
                                     [
-                                        ('talea_weight_consumed', 168),
+                                        ('talea_weight_consumed', 132),
                                         ],
                                     ),
                                 ]
