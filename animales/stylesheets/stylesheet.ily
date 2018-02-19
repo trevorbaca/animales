@@ -28,6 +28,7 @@
                 —
                 \hspace #3
                 Bača
+                \hspace #10
             }
             " "
     }

@@ -134,7 +134,6 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='CelloVoiceI',
-                                edition=abjad.Tag('+SCORE:+SEGMENT'),
                                 prototype='abjad.MarginMarkup',
                                 value='Vc.',
                                 ),
@@ -165,7 +164,6 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='FirstViolinVoiceI',
-                                edition=abjad.Tag('+SCORE:+SEGMENT'),
                                 prototype='abjad.MarginMarkup',
                                 value='Vni. I (1-10)',
                                 ),
@@ -186,7 +184,6 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='FirstViolinVoiceII',
-                                edition=abjad.Tag('+SCORE:+SEGMENT'),
                                 prototype='abjad.MarginMarkup',
                                 value='Vni. I (11-18)',
                                 ),
@@ -242,7 +239,6 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='SecondViolinVoiceI',
-                                edition=abjad.Tag('+SCORE:+SEGMENT'),
                                 prototype='abjad.MarginMarkup',
                                 value='Vni. II (1-10)',
                                 ),
@@ -263,7 +259,6 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='SecondViolinVoiceII',
-                                edition=abjad.Tag('+SCORE:+SEGMENT'),
                                 prototype='abjad.MarginMarkup',
                                 value='Vni. II (11-18)',
                                 ),
@@ -304,7 +299,6 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='ViolaVoiceI',
-                                edition=abjad.Tag('+SCORE:+SEGMENT'),
                                 prototype='abjad.MarginMarkup',
                                 value='Vle. (1-10)',
                                 ),
@@ -325,7 +319,6 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='ViolaVoiceII',
-                                edition=abjad.Tag('+SCORE:+SEGMENT'),
                                 prototype='abjad.MarginMarkup',
                                 value='Vle. (11-18)',
                                 ),
