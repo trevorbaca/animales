@@ -72,7 +72,7 @@ maker(
     baca.scope('ClarinetVoiceI', (1, 4)),
     animales.margin_markup('Cl. 1'),
     animales.parts('Clarinet', 1),
-    baca.dynamic('mp'),
+    baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.markup.edition('solo (cl. 1)', 'solo'),
     baca.pitch('D5'),
@@ -83,7 +83,7 @@ maker(
     baca.scope('ClarinetVoiceI', (5, 8)),
     animales.margin_markup('Cl. 2'),
     animales.parts('Clarinet', 2),
-    baca.dynamic('mp'),
+    baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.markup.edition('solo (cl. 2)', 'solo'),
     baca.pitch('Db5'),
@@ -95,8 +95,18 @@ maker(
     baca.scope('HarpVoiceI', 'all'),
     animales.parts('Harp'),
     animales.harp_exchange_rhythm(2),
+    baca.dynamic('mf'),
     baca.laissez_vibrer(),
+    baca.markup.edition(
+        baca.markup.boxed('LH-damped près de la table'),
+        baca.markup.boxed_lines([
+            'LH-damped près de la table:',
+            'LH damps at soundboard; RH plucks string at usual position',
+            ]),
+        selector=baca.pleaf(0),
+        ),
     baca.pitch('D5'),
+    baca.stopped(),
     )
 
 # piano
@@ -105,8 +115,11 @@ maker(
     baca.scope('PianoVoiceI', 'all'),
     animales.parts('Piano'),
     animales.harp_exchange_rhythm(3),
+    baca.dynamic('mf'),
     baca.laissez_vibrer(),
+    baca.markup.boxed('mute with LH inside piano: dull thud', baca.pleaf(0)),
     baca.pitch('D5'),
+    baca.stopped(),
     )
 
 # percussion
@@ -136,6 +149,7 @@ maker(
     animales.parts('Percussion', 3),
     animales.harp_exchange_rhythm(0),
     baca.clef('treble'),
+    baca.dynamic('mp'),
     baca.laissez_vibrer(),
     baca.markup.boxed('vibraphone'),
     baca.pitch('D5'),
@@ -148,6 +162,7 @@ maker(
     animales.parts('FirstViolin'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb6'),
+    baca.repeat_ties_up(),
     )
 
 maker(
@@ -233,9 +248,10 @@ maker(
     animales.harp_exchange_rhythm(1),
     animales.margin_markup('Cb. 1'),
     baca.clef('treble'),
+    baca.dynamic('mf'),
     baca.laissez_vibrer(),
-    baca.markup('8th partial / III (harmonics at sounding pitch)'),
+    baca.markup('8th partial / D (harmonics at sounding pitch)'),
     baca.markup.pizz(),
     baca.natural_harmonics(),
-    baca.pitch('D4'), # sounding D5
+    baca.pitch('D5', do_not_transpose=True),
     )

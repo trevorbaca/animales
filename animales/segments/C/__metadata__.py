@@ -258,7 +258,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ClarinetVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='mf',
                                 ),
                             ],
                         ),
@@ -309,6 +309,16 @@ metadata = abjad.OrderedDict(
                                 context='ContrabassVoiceI',
                                 prototype='abjad.Dynamic',
                                 value='p',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ContrabassVoiceII',
+                        [
+                            abjad.Momento(
+                                context='ContrabassVoiceII',
+                                prototype='abjad.Dynamic',
+                                value='mf',
                                 ),
                             ],
                         ),
@@ -364,6 +374,16 @@ metadata = abjad.OrderedDict(
                                 context='HarpVoiceI',
                                 prototype='abjad.MarginMarkup',
                                 value='Hp.',
+                                ),
+                            ],
+                        ),
+                    (
+                        'HarpVoiceI',
+                        [
+                            abjad.Momento(
+                                context='HarpVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='mf',
                                 ),
                             ],
                         ),
@@ -458,6 +478,16 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'PercussionVoiceIII',
+                        [
+                            abjad.Momento(
+                                context='PercussionVoiceIII',
+                                prototype='abjad.Dynamic',
+                                value='mp',
+                                ),
+                            ],
+                        ),
+                    (
                         'PianoPianoStaff',
                         [
                             abjad.Momento(
@@ -479,6 +509,16 @@ metadata = abjad.OrderedDict(
                                 context='PianoVoiceI',
                                 prototype='abjad.MarginMarkup',
                                 value='Pf.',
+                                ),
+                            ],
+                        ),
+                    (
+                        'PianoVoiceI',
+                        [
+                            abjad.Momento(
+                                context='PianoVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='mf',
                                 ),
                             ],
                         ),

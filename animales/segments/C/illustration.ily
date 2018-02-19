@@ -450,10 +450,11 @@ C_ClarinetVoiceI_a = {
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e''2
-    \mp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
+    \<                                                       %! HC1
+    \mp                                                      %! HC1
     ^ \markup {
         \column
             {
@@ -515,8 +516,10 @@ C_ClarinetVoiceI_a = {
     \repeatTie
     
     % [C ClarinetVoiceI measure 39]                          %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     e''1
     \repeatTie
+    \mf                                                      %! HC1
 }
 
 
@@ -544,9 +547,10 @@ C_ClarinetVoiceI_b = {
                 }                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef''1
-    \mp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
+    \<                                                       %! HC1
+    \mp                                                      %! HC1
     ^ \markup {
         \column
             {
@@ -601,8 +605,10 @@ C_ClarinetVoiceI_b = {
     \repeatTie
     
     % [C ClarinetVoiceI measure 43]                          %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     ef''1
     \repeatTie
+    \mf                                                      %! HC1
     
 }
 
@@ -679,8 +685,19 @@ C_PianoVoiceI_a = {
         r8
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d''8
         -\laissezVibrer                                      %! IC
+        -\stopped                                            %! IC
+        \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC
+        ^ \markup {                                          %! IC
+            \whiteout                                        %! IC
+                \upright                                     %! IC
+                    \override                                %! IC
+                        #'(box-padding . 0.5)                %! IC
+                        \box                                 %! IC
+                            "mute with LH inside piano: dull thud" %! IC
+            }                                                %! IC
         
         r8
     }
@@ -696,6 +713,7 @@ C_PianoVoiceI_a = {
         
         d''8
         -\laissezVibrer                                      %! IC
+        -\stopped                                            %! IC
     }
     
     r4
@@ -713,6 +731,7 @@ C_PianoVoiceI_a = {
         % [C PianoVoiceI measure 43]                         %! SM4
         d''8
         -\laissezVibrer                                      %! IC
+        -\stopped                                            %! IC
         
         r4
     }
@@ -790,8 +809,38 @@ C_HarpVoiceI_a = {
     r2.
     \times 2/3 {
         
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d''8
         -\laissezVibrer                                      %! IC
+        -\stopped                                            %! IC
+        \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC
+        ^ \markup {
+            \column
+                {
+                    \line                                    %! IC:-PARTS
+                        {                                    %! IC:-PARTS
+                            \whiteout                        %! IC:-PARTS
+                                \upright                     %! IC:-PARTS
+                                    \override                %! IC:-PARTS
+                                        #'(box-padding . 0.5) %! IC:-PARTS
+                                        \box                 %! IC:-PARTS
+                                            "LH-damped près de la table" %! IC:-PARTS
+                        }                                    %! IC:-PARTS
+                %%% \line                                    %! IC:+PARTS
+                %%%     {                                    %! IC:+PARTS
+                %%%         \whiteout                        %! IC:+PARTS
+                %%%             \upright                     %! IC:+PARTS
+                %%%                 \override                %! IC:+PARTS
+                %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+                %%%                     \box                 %! IC:+PARTS
+                %%%                         \column          %! IC:+PARTS
+                %%%                             {            %! IC:+PARTS
+                %%%                                 "LH-damped près de la table:" %! IC:+PARTS
+                %%%                                 "LH damps at soundboard; RH plucks string at usual position" %! IC:+PARTS
+                %%%                             }            %! IC:+PARTS
+                %%%     }                                    %! IC:+PARTS
+                }
+            }
         
         r4
     }
@@ -805,6 +854,7 @@ C_HarpVoiceI_a = {
         
         d''8
         -\laissezVibrer                                      %! IC
+        -\stopped                                            %! IC
         
         r4
     }
@@ -823,6 +873,7 @@ C_HarpVoiceI_a = {
         
         d''8
         -\laissezVibrer                                      %! IC
+        -\stopped                                            %! IC
         
         r4
     }
@@ -1127,8 +1178,10 @@ C_PercussionVoiceIII_a = {
         \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
     %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
         \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d''8
         -\laissezVibrer                                      %! IC
+        \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup {
             \column
                 {
@@ -1257,6 +1310,7 @@ C_FirstViolinVoiceI_a = {
                     I                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \override RepeatTie.direction = #up                      %! OC1
     \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1338,6 +1392,7 @@ C_FirstViolinVoiceI_a = {
     % [C FirstViolinVoiceI measure 43]                       %! SM4
     bf'''1
     \repeatTie
+    \revert RepeatTie.direction                              %! OC2
     
 }
 
@@ -1750,8 +1805,10 @@ C_ContrabassVoiceII_a = {
         
         % [C ContrabassVoiceII measure 37]               %! SM4
         \override NoteHead.style = #'harmonic            %! OC1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d''8
         -\laissezVibrer                                  %! IC
+        \mf                                              %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup {
             \column
                 {
@@ -1759,7 +1816,7 @@ C_ContrabassVoiceII_a = {
                         {                                %! IC
                             \whiteout                    %! IC
                                 \upright                 %! IC
-                                    "8th partial / III (harmonics at sounding pitch)" %! IC
+                                    "8th partial / D (harmonics at sounding pitch)" %! IC
                         }                                %! IC
                     \line                                %! IC
                         {                                %! IC

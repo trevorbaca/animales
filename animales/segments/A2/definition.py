@@ -56,7 +56,7 @@ maker(
     baca.scope('ClarinetVoiceI', 'all'),
     animales.margin_markup('Cl. 2'),
     animales.parts('Clarinet', 2),
-    baca.dynamic('mp'),
+    baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.markup.edition('solo (cl. 2)', 'solo'),
     baca.pitch('C#5'),

@@ -357,10 +357,11 @@ A_b_ClarinetVoiceI_a = {
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     ds''2.
-    \mp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
+    \<                                                       %! HC1
+    \mp                                                      %! HC1
     ^ \markup {
         \column
             {
@@ -430,8 +431,10 @@ A_b_ClarinetVoiceI_a = {
     \repeatTie
     
     % [A2 ClarinetVoiceI measure 29]                         %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     ds''2.
     \repeatTie
+    \mf                                                      %! HC1
     
 }
 
@@ -703,7 +706,7 @@ A_b_FirstViolinVoiceIII_a = {
     \override DynamicLineSpanner.direction = #up         %! OC1:-PARTS
     \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3:-PARTS:-SCORE
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3:-PARTS:-SCORE
-%@% \override Staff.Clef.color = ##f                     %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE
+    \override Staff.Clef.color = ##f                     %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE %@%
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3:-PARTS:-SCORE
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \voiceOne                                            %! IC:-PARTS
