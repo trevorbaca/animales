@@ -1,35 +1,35 @@
-C_a_GlobalRests = {
+C_GlobalRests = {
     
-    % [C1 GlobalRests measure 36]                                        %! SM4
+    % [C GlobalRests measure 36]                                         %! SM4
     R1 * 1/2
     
-    % [C1 GlobalRests measure 37]                                        %! SM4
+    % [C GlobalRests measure 37]                                         %! SM4
     R1 * 1
     
-    % [C1 GlobalRests measure 38]                                        %! SM4
+    % [C GlobalRests measure 38]                                         %! SM4
     R1 * 1
     
-    % [C1 GlobalRests measure 39]                                        %! SM4
+    % [C GlobalRests measure 39]                                         %! SM4
     R1 * 1
     
-    % [C1 GlobalRests measure 40]                                        %! SM4
+    % [C GlobalRests measure 40]                                         %! SM4
     R1 * 1
     
-    % [C1 GlobalRests measure 41]                                        %! SM4
+    % [C GlobalRests measure 41]                                         %! SM4
     R1 * 1/2
     
-    % [C1 GlobalRests measure 42]                                        %! SM4
+    % [C GlobalRests measure 42]                                         %! SM4
     R1 * 1
     
-    % [C1 GlobalRests measure 43]                                        %! SM4
+    % [C GlobalRests measure 43]                                         %! SM4
     R1 * 1
     
 }
 
 
-C_a_GlobalSkips = {
+C_GlobalSkips = {
     
-    % [C1 GlobalSkips measure 36]                                        %! SM4
+    % [C GlobalSkips measure 36]                                         %! SM4
 %%% \once \override GlobalContext.RehearsalMark.extra-offset = #'(0 . 6) %! OC1:+TABLOID_SCORE
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
@@ -113,7 +113,7 @@ C_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C1.1]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [C.1]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -127,7 +127,7 @@ C_a_GlobalSkips = {
         }
 %%% \stopTextSpan                                                        %! SM39:-SEGMENT
     
-    % [C1 GlobalSkips measure 37]                                        %! SM4
+    % [C GlobalSkips measure 37]                                         %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -156,7 +156,7 @@ C_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C1.2]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [C.2]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -169,7 +169,7 @@ C_a_GlobalSkips = {
             }
         }
     
-    % [C1 GlobalSkips measure 38]                                        %! SM4
+    % [C GlobalSkips measure 38]                                         %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -197,7 +197,7 @@ C_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C1.3]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [C.3]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -210,7 +210,7 @@ C_a_GlobalSkips = {
             }
         }
     
-    % [C1 GlobalSkips measure 39]                                        %! SM4
+    % [C GlobalSkips measure 39]                                         %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -238,7 +238,7 @@ C_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C1.4]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [C.4]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -251,7 +251,7 @@ C_a_GlobalSkips = {
             }
         }
     
-    % [C1 GlobalSkips measure 40]                                        %! SM4
+    % [C GlobalSkips measure 40]                                         %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -279,7 +279,7 @@ C_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C1.5]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [C.5]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -292,7 +292,7 @@ C_a_GlobalSkips = {
             }
         }
     
-    % [C1 GlobalSkips measure 41]                                        %! SM4
+    % [C GlobalSkips measure 41]                                         %! SM4
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -321,7 +321,7 @@ C_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C1.6]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [C.6]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -334,7 +334,7 @@ C_a_GlobalSkips = {
             }
         }
     
-    % [C1 GlobalSkips measure 42]                                        %! SM4
+    % [C GlobalSkips measure 42]                                         %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -363,7 +363,7 @@ C_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C1.7]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [C.7]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -376,7 +376,7 @@ C_a_GlobalSkips = {
             }
         }
     
-    % [C1 GlobalSkips measure 43]                                        %! SM4
+    % [C GlobalSkips measure 43]                                         %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
@@ -405,7 +405,7 @@ C_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C1.8]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [C.8]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -423,9 +423,9 @@ C_a_GlobalSkips = {
 }
 
 
-C_a_ClarinetVoiceI_a = {
+C_ClarinetVoiceI_a = {
     
-    % [C1 ClarinetVoiceI measure 36]                         %! SM4
+    % [C ClarinetVoiceI measure 36]                          %! SM4
     \set Staff.instrumentName =                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -506,23 +506,23 @@ C_a_ClarinetVoiceI_a = {
                 }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [C1 ClarinetVoiceI measure 37]                         %! SM4
+    % [C ClarinetVoiceI measure 37]                          %! SM4
     e''1
     \repeatTie
     
-    % [C1 ClarinetVoiceI measure 38]                         %! SM4
+    % [C ClarinetVoiceI measure 38]                          %! SM4
     e''1
     \repeatTie
     
-    % [C1 ClarinetVoiceI measure 39]                         %! SM4
+    % [C ClarinetVoiceI measure 39]                          %! SM4
     e''1
     \repeatTie
 }
 
 
-C_a_ClarinetVoiceI_b = {
+C_ClarinetVoiceI_b = {
     
-    % [C1 ClarinetVoiceI measure 40]                         %! SM4
+    % [C ClarinetVoiceI measure 40]                          %! SM4
     \set Staff.instrumentName =                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -592,36 +592,36 @@ C_a_ClarinetVoiceI_b = {
                 }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [C1 ClarinetVoiceI measure 41]                         %! SM4
+    % [C ClarinetVoiceI measure 41]                          %! SM4
     ef''2
     \repeatTie
     
-    % [C1 ClarinetVoiceI measure 42]                         %! SM4
+    % [C ClarinetVoiceI measure 42]                          %! SM4
     ef''1
     \repeatTie
     
-    % [C1 ClarinetVoiceI measure 43]                         %! SM4
+    % [C ClarinetVoiceI measure 43]                          %! SM4
     ef''1
     \repeatTie
     
 }
 
 
-C_a_ClarinetVoiceI = {
-    \C_a_ClarinetVoiceI_a
-    \C_a_ClarinetVoiceI_b
+C_ClarinetVoiceI = {
+    \C_ClarinetVoiceI_a
+    \C_ClarinetVoiceI_b
 }
 
 
-C_a_ClarinetStaffI = {
+C_ClarinetStaffI = {
     \context Voice = "ClarinetVoiceI"
-    \C_a_ClarinetVoiceI
+    \C_ClarinetVoiceI
 }
 
 
-C_a_PianoVoiceI_a = {
+C_PianoVoiceI_a = {
     
-    % [C1 PianoVoiceI measure 36]                            %! SM4
+    % [C PianoVoiceI measure 36]                             %! SM4
     \set Staff.instrumentName =                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
     \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
         \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
@@ -637,7 +637,7 @@ C_a_PianoVoiceI_a = {
     \clef "treble"                                           %! SM8:DEFAULT_CLEF:ST3:-PARTS:-SCORE
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS:-SCORE
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3:-PARTS:-SCORE
-%@% \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE
+    \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE %@%
     \set Staff.forceClef = ##t                               %! SM8:DEFAULT_CLEF:SM33:ST3:-PARTS:-SCORE
     r2
     ^ \markup {
@@ -672,7 +672,7 @@ C_a_PianoVoiceI_a = {
         }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
     \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3:-PARTS:-SCORE
     
-    % [C1 PianoVoiceI measure 37]                            %! SM4
+    % [C PianoVoiceI measure 37]                             %! SM4
     r2.
     \times 2/3 {
         
@@ -685,10 +685,10 @@ C_a_PianoVoiceI_a = {
         r8
     }
     
-    % [C1 PianoVoiceI measure 38]                            %! SM4
+    % [C PianoVoiceI measure 38]                             %! SM4
     r1
     
-    % [C1 PianoVoiceI measure 39]                            %! SM4
+    % [C PianoVoiceI measure 39]                             %! SM4
     r2
     \times 2/3 {
         
@@ -700,17 +700,17 @@ C_a_PianoVoiceI_a = {
     
     r4
     
-    % [C1 PianoVoiceI measure 40]                            %! SM4
+    % [C PianoVoiceI measure 40]                             %! SM4
     r1
     
-    % [C1 PianoVoiceI measure 41]                            %! SM4
+    % [C PianoVoiceI measure 41]                             %! SM4
     r2
     
-    % [C1 PianoVoiceI measure 42]                            %! SM4
+    % [C PianoVoiceI measure 42]                             %! SM4
     r1
     \times 2/3 {
         
-        % [C1 PianoVoiceI measure 43]                        %! SM4
+        % [C PianoVoiceI measure 43]                         %! SM4
         d''8
         -\laissezVibrer                                      %! IC
         
@@ -722,20 +722,20 @@ C_a_PianoVoiceI_a = {
 }
 
 
-C_a_PianoVoiceI = {
-    \C_a_PianoVoiceI_a
+C_PianoVoiceI = {
+    \C_PianoVoiceI_a
 }
 
 
-C_a_PianoStaffI = {
+C_PianoStaffI = {
     \context Voice = "PianoVoiceI"
-    \C_a_PianoVoiceI
+    \C_PianoVoiceI
 }
 
 
-C_a_HarpVoiceI_a = {
+C_HarpVoiceI_a = {
     
-    % [C1 HarpVoiceI measure 36]                             %! SM4
+    % [C HarpVoiceI measure 36]                              %! SM4
     \set Staff.instrumentName =                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
     \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
         \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
@@ -751,7 +751,7 @@ C_a_HarpVoiceI_a = {
     \clef "treble"                                           %! SM8:DEFAULT_CLEF:ST3:-PARTS:-SCORE
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS:-SCORE
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3:-PARTS:-SCORE
-%@% \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE
+    \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE %@%
     \set Staff.forceClef = ##t                               %! SM8:DEFAULT_CLEF:SM33:ST3:-PARTS:-SCORE
     r2
     ^ \markup {
@@ -786,7 +786,7 @@ C_a_HarpVoiceI_a = {
         }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
     \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3:-PARTS:-SCORE
     
-    % [C1 HarpVoiceI measure 37]                             %! SM4
+    % [C HarpVoiceI measure 37]                              %! SM4
     r2.
     \times 2/3 {
         
@@ -796,10 +796,10 @@ C_a_HarpVoiceI_a = {
         r4
     }
     
-    % [C1 HarpVoiceI measure 38]                             %! SM4
+    % [C HarpVoiceI measure 38]                              %! SM4
     r1
     
-    % [C1 HarpVoiceI measure 39]                             %! SM4
+    % [C HarpVoiceI measure 39]                              %! SM4
     r4
     \times 2/3 {
         
@@ -811,13 +811,13 @@ C_a_HarpVoiceI_a = {
     
     r2
     
-    % [C1 HarpVoiceI measure 40]                             %! SM4
+    % [C HarpVoiceI measure 40]                              %! SM4
     r1
     
-    % [C1 HarpVoiceI measure 41]                             %! SM4
+    % [C HarpVoiceI measure 41]                              %! SM4
     r2
     
-    % [C1 HarpVoiceI measure 42]                             %! SM4
+    % [C HarpVoiceI measure 42]                              %! SM4
     r2.
     \times 2/3 {
         
@@ -827,26 +827,26 @@ C_a_HarpVoiceI_a = {
         r4
     }
     
-    % [C1 HarpVoiceI measure 43]                             %! SM4
+    % [C HarpVoiceI measure 43]                              %! SM4
     r1
     
 }
 
 
-C_a_HarpVoiceI = {
-    \C_a_HarpVoiceI_a
+C_HarpVoiceI = {
+    \C_HarpVoiceI_a
 }
 
 
-C_a_HarpStaffI = {
+C_HarpStaffI = {
     \context Voice = "HarpVoiceI"
-    \C_a_HarpVoiceI
+    \C_HarpVoiceI
 }
 
 
-C_a_PercussionVoiceI_a = {
+C_PercussionVoiceI_a = {
     
-    % [C1 PercussionVoiceI measure 36]                       %! SM4
+    % [C PercussionVoiceI measure 36]                        %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -924,25 +924,25 @@ C_a_PercussionVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     \override Staff.BarLine.bar-extent = #'(0 . 0)           %! OC1:-PARTS
     
-    % [C1 PercussionVoiceI measure 37]                       %! SM4
+    % [C PercussionVoiceI measure 37]                        %! SM4
     R1 * 1
     
-    % [C1 PercussionVoiceI measure 38]                       %! SM4
+    % [C PercussionVoiceI measure 38]                        %! SM4
     R1 * 1
     
-    % [C1 PercussionVoiceI measure 39]                       %! SM4
+    % [C PercussionVoiceI measure 39]                        %! SM4
     R1 * 1
     
-    % [C1 PercussionVoiceI measure 40]                       %! SM4
+    % [C PercussionVoiceI measure 40]                        %! SM4
     R1 * 1
     
-    % [C1 PercussionVoiceI measure 41]                       %! SM4
+    % [C PercussionVoiceI measure 41]                        %! SM4
     R1 * 1/2
     
-    % [C1 PercussionVoiceI measure 42]                       %! SM4
+    % [C PercussionVoiceI measure 42]                        %! SM4
     R1 * 1
     
-    % [C1 PercussionVoiceI measure 43]                       %! SM4
+    % [C PercussionVoiceI measure 43]                        %! SM4
     R1 * 1
     \revert Staff.BarLine.bar-extent                         %! OC2:-PARTS
     \once \override Staff.BarLine.bar-extent = #'(0 . 0)     %! OC1:-PARTS
@@ -950,20 +950,20 @@ C_a_PercussionVoiceI_a = {
 }
 
 
-C_a_PercussionVoiceI = {
-    \C_a_PercussionVoiceI_a
+C_PercussionVoiceI = {
+    \C_PercussionVoiceI_a
 }
 
 
-C_a_PercussionStaffI = {
+C_PercussionStaffI = {
     \context Voice = "PercussionVoiceI"
-    \C_a_PercussionVoiceI
+    \C_PercussionVoiceI
 }
 
 
-C_a_PercussionVoiceII_a = {
+C_PercussionVoiceII_a = {
     
-    % [C1 PercussionVoiceII measure 36]                      %! SM4
+    % [C PercussionVoiceII measure 36]                       %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1044,37 +1044,37 @@ C_a_PercussionVoiceII_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     \override Staff.BarLine.bar-extent = #'(0 . 0)           %! OC1:-PARTS
     
-    % [C1 PercussionVoiceII measure 37]                      %! SM4
+    % [C PercussionVoiceII measure 37]                       %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [C1 PercussionVoiceII measure 38]                      %! SM4
+    % [C PercussionVoiceII measure 38]                       %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [C1 PercussionVoiceII measure 39]                      %! SM4
+    % [C PercussionVoiceII measure 39]                       %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [C1 PercussionVoiceII measure 40]                      %! SM4
+    % [C PercussionVoiceII measure 40]                       %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [C1 PercussionVoiceII measure 41]                      %! SM4
+    % [C PercussionVoiceII measure 41]                       %! SM4
     c'2
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [C1 PercussionVoiceII measure 42]                      %! SM4
+    % [C PercussionVoiceII measure 42]                       %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [C1 PercussionVoiceII measure 43]                      %! SM4
+    % [C PercussionVoiceII measure 43]                       %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
@@ -1085,21 +1085,21 @@ C_a_PercussionVoiceII_a = {
 }
 
 
-C_a_PercussionVoiceII = {
-    \C_a_PercussionVoiceII_a
+C_PercussionVoiceII = {
+    \C_PercussionVoiceII_a
 }
 
 
-C_a_PercussionStaffII = {
+C_PercussionStaffII = {
     \context Voice = "PercussionVoiceII"
-    \C_a_PercussionVoiceII
+    \C_PercussionVoiceII
 }
 
 
-C_a_PercussionVoiceIII_a = {
+C_PercussionVoiceIII_a = {
     \times 2/3 {
         
-        % [C1 PercussionVoiceIII measure 36]                 %! SM4
+        % [C PercussionVoiceIII measure 36]                  %! SM4
         \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -1185,11 +1185,11 @@ C_a_PercussionVoiceIII_a = {
     
     r4
     
-    % [C1 PercussionVoiceIII measure 37]                     %! SM4
+    % [C PercussionVoiceIII measure 37]                      %! SM4
     r1
     \times 2/3 {
         
-        % [C1 PercussionVoiceIII measure 38]                 %! SM4
+        % [C PercussionVoiceIII measure 38]                  %! SM4
         d''8
         -\laissezVibrer                                      %! IC
         
@@ -1198,10 +1198,10 @@ C_a_PercussionVoiceIII_a = {
     
     r2.
     
-    % [C1 PercussionVoiceIII measure 39]                     %! SM4
+    % [C PercussionVoiceIII measure 39]                      %! SM4
     r1
     
-    % [C1 PercussionVoiceIII measure 40]                     %! SM4
+    % [C PercussionVoiceIII measure 40]                      %! SM4
     r2.
     \times 2/3 {
         
@@ -1211,32 +1211,32 @@ C_a_PercussionVoiceIII_a = {
         r4
     }
     
-    % [C1 PercussionVoiceIII measure 41]                     %! SM4
+    % [C PercussionVoiceIII measure 41]                      %! SM4
     r2
     
-    % [C1 PercussionVoiceIII measure 42]                     %! SM4
+    % [C PercussionVoiceIII measure 42]                      %! SM4
     r1
     
-    % [C1 PercussionVoiceIII measure 43]                     %! SM4
+    % [C PercussionVoiceIII measure 43]                      %! SM4
     r1
     
 }
 
 
-C_a_PercussionVoiceIII = {
-    \C_a_PercussionVoiceIII_a
+C_PercussionVoiceIII = {
+    \C_PercussionVoiceIII_a
 }
 
 
-C_a_PercussionStaffIII = {
+C_PercussionStaffIII = {
     \context Voice = "PercussionVoiceIII"
-    \C_a_PercussionVoiceIII
+    \C_PercussionVoiceIII
 }
 
 
-C_a_FirstViolinVoiceI_a = {
+C_FirstViolinVoiceI_a = {
     
-    % [C1 FirstViolinVoiceI measure 36]                      %! SM4
+    % [C FirstViolinVoiceI measure 36]                       %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1311,51 +1311,51 @@ C_a_FirstViolinVoiceI_a = {
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [C1 FirstViolinVoiceI measure 37]                      %! SM4
+    % [C FirstViolinVoiceI measure 37]                       %! SM4
     bf'''1
     \repeatTie
     
-    % [C1 FirstViolinVoiceI measure 38]                      %! SM4
+    % [C FirstViolinVoiceI measure 38]                       %! SM4
     bf'''1
     \repeatTie
     
-    % [C1 FirstViolinVoiceI measure 39]                      %! SM4
+    % [C FirstViolinVoiceI measure 39]                       %! SM4
     bf'''1
     \repeatTie
     
-    % [C1 FirstViolinVoiceI measure 40]                      %! SM4
+    % [C FirstViolinVoiceI measure 40]                       %! SM4
     bf'''1
     \repeatTie
     
-    % [C1 FirstViolinVoiceI measure 41]                      %! SM4
+    % [C FirstViolinVoiceI measure 41]                       %! SM4
     bf'''2
     \repeatTie
     
-    % [C1 FirstViolinVoiceI measure 42]                      %! SM4
+    % [C FirstViolinVoiceI measure 42]                       %! SM4
     bf'''1
     \repeatTie
     
-    % [C1 FirstViolinVoiceI measure 43]                      %! SM4
+    % [C FirstViolinVoiceI measure 43]                       %! SM4
     bf'''1
     \repeatTie
     
 }
 
 
-C_a_FirstViolinVoiceI = {
-    \C_a_FirstViolinVoiceI_a
+C_FirstViolinVoiceI = {
+    \C_FirstViolinVoiceI_a
 }
 
 
-C_a_FirstViolinStaffI = {
+C_FirstViolinStaffI = {
     \context Voice = "FirstViolinVoiceI"
-    \C_a_FirstViolinVoiceI
+    \C_FirstViolinVoiceI
 }
 
 
-C_a_SecondViolinVoiceI_a = {
+C_SecondViolinVoiceI_a = {
     
-    % [C1 SecondViolinVoiceI measure 36]                     %! SM4
+    % [C SecondViolinVoiceI measure 36]                      %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1430,51 +1430,51 @@ C_a_SecondViolinVoiceI_a = {
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [C1 SecondViolinVoiceI measure 37]                     %! SM4
+    % [C SecondViolinVoiceI measure 37]                      %! SM4
     bf''1
     \repeatTie
     
-    % [C1 SecondViolinVoiceI measure 38]                     %! SM4
+    % [C SecondViolinVoiceI measure 38]                      %! SM4
     bf''1
     \repeatTie
     
-    % [C1 SecondViolinVoiceI measure 39]                     %! SM4
+    % [C SecondViolinVoiceI measure 39]                      %! SM4
     bf''1
     \repeatTie
     
-    % [C1 SecondViolinVoiceI measure 40]                     %! SM4
+    % [C SecondViolinVoiceI measure 40]                      %! SM4
     bf''1
     \repeatTie
     
-    % [C1 SecondViolinVoiceI measure 41]                     %! SM4
+    % [C SecondViolinVoiceI measure 41]                      %! SM4
     bf''2
     \repeatTie
     
-    % [C1 SecondViolinVoiceI measure 42]                     %! SM4
+    % [C SecondViolinVoiceI measure 42]                      %! SM4
     bf''1
     \repeatTie
     
-    % [C1 SecondViolinVoiceI measure 43]                     %! SM4
+    % [C SecondViolinVoiceI measure 43]                      %! SM4
     bf''1
     \repeatTie
     
 }
 
 
-C_a_SecondViolinVoiceI = {
-    \C_a_SecondViolinVoiceI_a
+C_SecondViolinVoiceI = {
+    \C_SecondViolinVoiceI_a
 }
 
 
-C_a_SecondViolinStaffI = {
+C_SecondViolinStaffI = {
     \context Voice = "SecondViolinVoiceI"
-    \C_a_SecondViolinVoiceI
+    \C_SecondViolinVoiceI
 }
 
 
-C_a_ViolaVoiceI_a = {
+C_ViolaVoiceI_a = {
     
-    % [C1 ViolaVoiceI measure 36]                            %! SM4
+    % [C ViolaVoiceI measure 36]                             %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1533,51 +1533,51 @@ C_a_ViolaVoiceI_a = {
             Vle.                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [C1 ViolaVoiceI measure 37]                            %! SM4
+    % [C ViolaVoiceI measure 37]                             %! SM4
     bf'1
     \repeatTie
     
-    % [C1 ViolaVoiceI measure 38]                            %! SM4
+    % [C ViolaVoiceI measure 38]                             %! SM4
     bf'1
     \repeatTie
     
-    % [C1 ViolaVoiceI measure 39]                            %! SM4
+    % [C ViolaVoiceI measure 39]                             %! SM4
     bf'1
     \repeatTie
     
-    % [C1 ViolaVoiceI measure 40]                            %! SM4
+    % [C ViolaVoiceI measure 40]                             %! SM4
     bf'1
     \repeatTie
     
-    % [C1 ViolaVoiceI measure 41]                            %! SM4
+    % [C ViolaVoiceI measure 41]                             %! SM4
     bf'2
     \repeatTie
     
-    % [C1 ViolaVoiceI measure 42]                            %! SM4
+    % [C ViolaVoiceI measure 42]                             %! SM4
     bf'1
     \repeatTie
     
-    % [C1 ViolaVoiceI measure 43]                            %! SM4
+    % [C ViolaVoiceI measure 43]                             %! SM4
     bf'1
     \repeatTie
     
 }
 
 
-C_a_ViolaVoiceI = {
-    \C_a_ViolaVoiceI_a
+C_ViolaVoiceI = {
+    \C_ViolaVoiceI_a
 }
 
 
-C_a_ViolaStaffI = {
+C_ViolaStaffI = {
     \context Voice = "ViolaVoiceI"
-    \C_a_ViolaVoiceI
+    \C_ViolaVoiceI
 }
 
 
-C_a_CelloVoiceI_a = {
+C_CelloVoiceI_a = {
     
-    % [C1 CelloVoiceI measure 36]                            %! SM4
+    % [C CelloVoiceI measure 36]                             %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1636,51 +1636,51 @@ C_a_CelloVoiceI_a = {
             Vc.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [C1 CelloVoiceI measure 37]                            %! SM4
+    % [C CelloVoiceI measure 37]                             %! SM4
     bf,1
     \repeatTie
     
-    % [C1 CelloVoiceI measure 38]                            %! SM4
+    % [C CelloVoiceI measure 38]                             %! SM4
     bf,1
     \repeatTie
     
-    % [C1 CelloVoiceI measure 39]                            %! SM4
+    % [C CelloVoiceI measure 39]                             %! SM4
     bf,1
     \repeatTie
     
-    % [C1 CelloVoiceI measure 40]                            %! SM4
+    % [C CelloVoiceI measure 40]                             %! SM4
     bf,1
     \repeatTie
     
-    % [C1 CelloVoiceI measure 41]                            %! SM4
+    % [C CelloVoiceI measure 41]                             %! SM4
     bf,2
     \repeatTie
     
-    % [C1 CelloVoiceI measure 42]                            %! SM4
+    % [C CelloVoiceI measure 42]                             %! SM4
     bf,1
     \repeatTie
     
-    % [C1 CelloVoiceI measure 43]                            %! SM4
+    % [C CelloVoiceI measure 43]                             %! SM4
     bf,1
     \repeatTie
     
 }
 
 
-C_a_CelloVoiceI = {
-    \C_a_CelloVoiceI_a
+C_CelloVoiceI = {
+    \C_CelloVoiceI_a
 }
 
 
-C_a_CelloStaffI = {
+C_CelloStaffI = {
     \context Voice = "CelloVoiceI"
-    \C_a_CelloVoiceI
+    \C_CelloVoiceI
 }
 
 
-C_a_ContrabassVoiceII_a = {
+C_ContrabassVoiceII_a = {
     
-    % [C1 ContrabassVoiceII measure 36]                  %! SM4
+    % [C ContrabassVoiceII measure 36]                   %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -1748,7 +1748,7 @@ C_a_ContrabassVoiceII_a = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \times 2/3 {
         
-        % [C1 ContrabassVoiceII measure 37]              %! SM4
+        % [C ContrabassVoiceII measure 37]               %! SM4
         \override NoteHead.style = #'harmonic            %! OC1
         d''8
         -\laissezVibrer                                  %! IC
@@ -1775,7 +1775,7 @@ C_a_ContrabassVoiceII_a = {
     
     r2.
     
-    % [C1 ContrabassVoiceII measure 38]                  %! SM4
+    % [C ContrabassVoiceII measure 38]                   %! SM4
     r2
     \times 2/3 {
         
@@ -1787,14 +1787,14 @@ C_a_ContrabassVoiceII_a = {
     
     r4
     
-    % [C1 ContrabassVoiceII measure 39]                  %! SM4
+    % [C ContrabassVoiceII measure 39]                   %! SM4
     r1
     
-    % [C1 ContrabassVoiceII measure 40]                  %! SM4
+    % [C ContrabassVoiceII measure 40]                   %! SM4
     r1
     \times 2/3 {
         
-        % [C1 ContrabassVoiceII measure 41]              %! SM4
+        % [C ContrabassVoiceII measure 41]               %! SM4
         d''8
         -\laissezVibrer                                  %! IC
         \revert NoteHead.style                           %! OC2
@@ -1804,29 +1804,29 @@ C_a_ContrabassVoiceII_a = {
     
     r4
     
-    % [C1 ContrabassVoiceII measure 42]                  %! SM4
+    % [C ContrabassVoiceII measure 42]                   %! SM4
     r1
     
-    % [C1 ContrabassVoiceII measure 43]                  %! SM4
+    % [C ContrabassVoiceII measure 43]                   %! SM4
     r1
     
 }
 
 
-C_a_ContrabassVoiceII = {
-    \C_a_ContrabassVoiceII_a
+C_ContrabassVoiceII = {
+    \C_ContrabassVoiceII_a
 }
 
 
-C_a_ContrabassStaffI = {
+C_ContrabassStaffI = {
     \context Voice = "ContrabassVoiceII"
-    \C_a_ContrabassVoiceII
+    \C_ContrabassVoiceII
 }
 
 
-C_a_ContrabassVoiceI_a = {
+C_ContrabassVoiceI_a = {
     
-    % [C1 ContrabassVoiceI measure 36]                   %! SM4
+    % [C ContrabassVoiceI measure 36]                    %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -1907,7 +1907,7 @@ C_a_ContrabassVoiceI_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [C1 ContrabassVoiceI measure 37]                   %! SM4
+    % [C ContrabassVoiceI measure 37]                    %! SM4
     bf,1
     \repeatTie                                           %! TCC
     ^ \markup {                                          %! IC
@@ -1941,39 +1941,39 @@ C_a_ContrabassVoiceI_a = {
                         }                                %! IC
         }                                                %! IC
     
-    % [C1 ContrabassVoiceI measure 38]                   %! SM4
+    % [C ContrabassVoiceI measure 38]                    %! SM4
     bf,1
     \repeatTie                                           %! TCC
     
-    % [C1 ContrabassVoiceI measure 39]                   %! SM4
+    % [C ContrabassVoiceI measure 39]                    %! SM4
     bf,1
     \repeatTie                                           %! TCC
     
-    % [C1 ContrabassVoiceI measure 40]                   %! SM4
+    % [C ContrabassVoiceI measure 40]                    %! SM4
     bf,1
     \repeatTie                                           %! TCC
     
-    % [C1 ContrabassVoiceI measure 41]                   %! SM4
+    % [C ContrabassVoiceI measure 41]                    %! SM4
     bf,2
     \repeatTie                                           %! TCC
     
-    % [C1 ContrabassVoiceI measure 42]                   %! SM4
+    % [C ContrabassVoiceI measure 42]                    %! SM4
     bf,1
     \repeatTie                                           %! TCC
     
-    % [C1 ContrabassVoiceI measure 43]                   %! SM4
+    % [C ContrabassVoiceI measure 43]                    %! SM4
     bf,1
     \repeatTie                                           %! TCC
     
 }
 
 
-C_a_ContrabassVoiceI = {
-    \C_a_ContrabassVoiceI_a
+C_ContrabassVoiceI = {
+    \C_ContrabassVoiceI_a
 }
 
 
-C_a_ContrabassStaffII = {
+C_ContrabassStaffII = {
     \context Voice = "ContrabassVoiceI"
-    \C_a_ContrabassVoiceI
+    \C_ContrabassVoiceI
 }
