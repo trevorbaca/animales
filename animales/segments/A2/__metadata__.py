@@ -356,7 +356,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionVoiceI',
                                 prototype='abjad.MarginMarkup',
-                                value='Perc. 1',
+                                value='Perc. 1 (tri.)',
                                 ),
                             abjad.Momento(
                                 context='PercussionVoiceI',
@@ -381,7 +381,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionVoiceII',
                                 prototype='abjad.MarginMarkup',
-                                value='Perc. 2',
+                                value='Perc. 2 (cym.)',
                                 ),
                             abjad.Momento(
                                 context='PercussionVoiceII',

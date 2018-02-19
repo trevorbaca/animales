@@ -132,7 +132,7 @@ maker(
 maker(
     baca.scope('PercussionVoiceIII', 'all'),
     animales.instrument('Vibraphone'),
-    animales.margin_markup('Perc. 3'),
+    animales.margin_markup('Perc. 3 (vib.)'),
     animales.parts('Percussion', 3),
     animales.harp_exchange_rhythm(0),
     baca.clef('treble'),

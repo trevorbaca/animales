@@ -41,75 +41,72 @@ maker(
     baca.metronome_mark('114'),
     )
 
-
-markup = baca.markup.instrument('Violins I (1-10)', hcenter_in=16)
-string = rf'\set Staff.instrumentName = {markup}'
 maker(
     baca.scope('FirstViolinVoiceI', 'all'),
-    animales.margin_markup('Vni. I (1-10)'),
     animales.parts('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
-    baca.literal(string),
+    baca.suite([
+        animales.margin_markup('Vni. I (1-10)'),
+        baca.start_markup('Violins I (1-10)', hcenter_in=16),
+        ]),
     )
 
-markup = baca.markup.instrument('Violins I (11-18)', hcenter_in=16)
-string = rf'\set Staff.instrumentName = {markup}'
 maker(
     baca.scope('FirstViolinVoiceII', 'all'),
-    animales.margin_markup('Vni. I (11-18)'),
     animales.parts('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
-    baca.literal(string),
+    baca.suite([
+        animales.margin_markup('Vni. I (11-18)'),
+        baca.start_markup('Violins I (11-18)', hcenter_in=16),
+        ]),
     )
 
-markup = baca.markup.instrument('Violins II (1-10)', hcenter_in=16)
-string = rf'\set Staff.instrumentName = {markup}'
 maker(
     baca.scope('SecondViolinVoiceI', 'all'),
-    animales.margin_markup('Vni. II (1-10)'),
     animales.parts('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
-    baca.literal(string),
+    baca.suite([
+        animales.margin_markup('Vni. II (1-10)'),
+        baca.start_markup('Violins II (1-10)', hcenter_in=16),
+        ]),
     )
 
-markup = baca.markup.instrument('Violins II (11-18)', hcenter_in=16)
-string = rf'\set Staff.instrumentName = {markup}'
 maker(
     baca.scope('SecondViolinVoiceII', 'all'),
-    animales.margin_markup('Vni. II (11-18)'),
     animales.parts('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
-    baca.literal(string),
+    baca.suite([
+        animales.margin_markup('Vni. II (11-18)'),
+        baca.start_markup('Violins II (11-18)', hcenter_in=16),
+        ]),
     )
 
-markup = baca.markup.instrument('Violas (1-10)', hcenter_in=16)
-string = rf'\set Staff.instrumentName = {markup}'
 maker(
     baca.scope('ViolaVoiceI', 'all'),
-    animales.margin_markup('Vle. (1-10)'),
     animales.parts('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
-    baca.literal(string),
+    baca.suite([
+        animales.margin_markup('Vle. (1-10)'),
+        baca.start_markup('Violas (1-10)', hcenter_in=16),
+        ]),
     )
 
-markup = baca.markup.instrument('Violas (11-18)', hcenter_in=16)
-string = rf'\set Staff.instrumentName = {markup}'
 maker(
     baca.scope('ViolaVoiceII', 'all'),
-    animales.margin_markup('Vle. (11-18)'),
     animales.parts('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
-    baca.literal(string),
+    baca.suite([
+        animales.margin_markup('Vle. (11-18)'),
+        baca.start_markup('Violas (11-18)', hcenter_in=16),
+        ]),
     )
 
-markup = baca.markup.instrument('Cellos', hcenter_in=16)
-string = rf'\set Staff.instrumentName = {markup}'
 maker(
     baca.scope('CelloVoiceI', 'all'),
     animales.parts('Cello'),
     animales.sforzando_exchange_rhythm(6),
     baca.clef('tenor'),
-    baca.literal(string),
+    baca.start_markup('Cellos', hcenter_in=16),
     )
 
 strings = [
