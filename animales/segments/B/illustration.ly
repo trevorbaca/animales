@@ -22,36 +22,36 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalRests = "GlobalRests"
-                \B_a_GlobalRests
+                \B_GlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                \B_a_GlobalSkips
+                \B_GlobalSkips
             >>
             \context MusicContext = "MusicContext"
             <<
                 \context StaffGroup = "WindStaffGroup"
                 <<
                     \context Staff = "ClarinetStaffI"
-                    \B_a_ClarinetStaffI
+                    \B_ClarinetStaffI
                 >>
                 \context StaffGroup = "PercussionStaffGroup"
                 <<
                     \context Staff = "PercussionStaffI"
-                    \B_a_PercussionStaffI
+                    \B_PercussionStaffI
                     \context Staff = "PercussionStaffII"
-                    \B_a_PercussionStaffII
+                    \B_PercussionStaffII
                 >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
                     \context Staff = "FirstViolinStaffI"
-                    \B_a_FirstViolinStaffI
+                    \B_FirstViolinStaffI
                     \context Staff = "SecondViolinStaffI"
-                    \B_a_SecondViolinStaffI
+                    \B_SecondViolinStaffI
                     \context Staff = "ViolaStaffI"
-                    \B_a_ViolaStaffI
+                    \B_ViolaStaffI
                     \context Staff = "CelloStaffI"
-                    \B_a_CelloStaffI
+                    \B_CelloStaffI
                     \context Staff = "ContrabassStaffII"
-                    \B_a_ContrabassStaffII
+                    \B_ContrabassStaffII
                 >>
             >>
         >>

@@ -1,29 +1,29 @@
-B_a_GlobalRests = {
+B_GlobalRests = {
     
-    % [B1 GlobalRests measure 30]                                        %! SM4
+    % [B GlobalRests measure 30]                                         %! SM4
     R1 * 1
     
-    % [B1 GlobalRests measure 31]                                        %! SM4
+    % [B GlobalRests measure 31]                                         %! SM4
     R1 * 1
     
-    % [B1 GlobalRests measure 32]                                        %! SM4
+    % [B GlobalRests measure 32]                                         %! SM4
     R1 * 1/2
     
-    % [B1 GlobalRests measure 33]                                        %! SM4
+    % [B GlobalRests measure 33]                                         %! SM4
     R1 * 3/4
     
-    % [B1 GlobalRests measure 34]                                        %! SM4
+    % [B GlobalRests measure 34]                                         %! SM4
     R1 * 3/4
     
-    % [B1 GlobalRests measure 35]                                        %! SM4
+    % [B GlobalRests measure 35]                                         %! SM4
     R1 * 1
     
 }
 
 
-B_a_GlobalSkips = {
+B_GlobalSkips = {
     
-    % [B1 GlobalSkips measure 30]                                        %! SM4
+    % [B GlobalSkips measure 30]                                         %! SM4
 %%% \once \override GlobalContext.RehearsalMark.extra-offset = #'(0 . 6) %! OC1:+TABLOID_SCORE
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
@@ -88,12 +88,12 @@ B_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [B1.1]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [B.1]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             }
         }
     
-    % [B1 GlobalSkips measure 31]                                        %! SM4
+    % [B GlobalSkips measure 31]                                         %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -121,12 +121,12 @@ B_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [B1.2]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [B.2]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             }
         }
     
-    % [B1 GlobalSkips measure 32]                                        %! SM4
+    % [B GlobalSkips measure 32]                                         %! SM4
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -155,12 +155,12 @@ B_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [B1.3]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [B.3]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             }
         }
     
-    % [B1 GlobalSkips measure 33]                                        %! SM4
+    % [B GlobalSkips measure 33]                                         %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -189,12 +189,12 @@ B_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [B1.4]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [B.4]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             }
         }
     
-    % [B1 GlobalSkips measure 34]                                        %! SM4
+    % [B GlobalSkips measure 34]                                         %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -222,12 +222,12 @@ B_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [B1.5]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [B.5]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             }
         }
     
-    % [B1 GlobalSkips measure 35]                                        %! SM4
+    % [B GlobalSkips measure 35]                                         %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -257,7 +257,7 @@ B_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [B1.6]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [B.6]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             }
         }
@@ -267,9 +267,9 @@ B_a_GlobalSkips = {
 }
 
 
-B_a_ClarinetVoiceI_a = {
+B_ClarinetVoiceI_a = {
     
-    % [B1 ClarinetVoiceI measure 30]                         %! SM4
+    % [B ClarinetVoiceI measure 30]                          %! SM4
     \set Staff.instrumentName =                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -350,43 +350,43 @@ B_a_ClarinetVoiceI_a = {
                 }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [B1 ClarinetVoiceI measure 31]                         %! SM4
+    % [B ClarinetVoiceI measure 31]                          %! SM4
     ds''1
     \repeatTie
     
-    % [B1 ClarinetVoiceI measure 32]                         %! SM4
+    % [B ClarinetVoiceI measure 32]                          %! SM4
     ds''2
     \repeatTie
     
-    % [B1 ClarinetVoiceI measure 33]                         %! SM4
+    % [B ClarinetVoiceI measure 33]                          %! SM4
     ds''2.
     \repeatTie
     
-    % [B1 ClarinetVoiceI measure 34]                         %! SM4
+    % [B ClarinetVoiceI measure 34]                          %! SM4
     ds''2.
     \repeatTie
     
-    % [B1 ClarinetVoiceI measure 35]                         %! SM4
+    % [B ClarinetVoiceI measure 35]                          %! SM4
     ds''1
     \repeatTie
     
 }
 
 
-B_a_ClarinetVoiceI = {
-    \B_a_ClarinetVoiceI_a
+B_ClarinetVoiceI = {
+    \B_ClarinetVoiceI_a
 }
 
 
-B_a_ClarinetStaffI = {
+B_ClarinetStaffI = {
     \context Voice = "ClarinetVoiceI"
-    \B_a_ClarinetVoiceI
+    \B_ClarinetVoiceI
 }
 
 
-B_a_PercussionVoiceI_a = {
+B_PercussionVoiceI_a = {
     
-    % [B1 PercussionVoiceI measure 30]                       %! SM4
+    % [B PercussionVoiceI measure 30]                        %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -469,31 +469,31 @@ B_a_PercussionVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     \override Staff.BarLine.bar-extent = #'(0 . 0)           %! OC1:-PARTS
     
-    % [B1 PercussionVoiceI measure 31]                       %! SM4
+    % [B PercussionVoiceI measure 31]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [B1 PercussionVoiceI measure 32]                       %! SM4
+    % [B PercussionVoiceI measure 32]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
     c'2
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [B1 PercussionVoiceI measure 33]                       %! SM4
+    % [B PercussionVoiceI measure 33]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [B1 PercussionVoiceI measure 34]                       %! SM4
+    % [B PercussionVoiceI measure 34]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [B1 PercussionVoiceI measure 35]                       %! SM4
+    % [B PercussionVoiceI measure 35]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
     c'1
     :32                                                      %! IC
@@ -506,20 +506,20 @@ B_a_PercussionVoiceI_a = {
 }
 
 
-B_a_PercussionVoiceI = {
-    \B_a_PercussionVoiceI_a
+B_PercussionVoiceI = {
+    \B_PercussionVoiceI_a
 }
 
 
-B_a_PercussionStaffI = {
+B_PercussionStaffI = {
     \context Voice = "PercussionVoiceI"
-    \B_a_PercussionVoiceI
+    \B_PercussionVoiceI
 }
 
 
-B_a_PercussionVoiceII_a = {
+B_PercussionVoiceII_a = {
     
-    % [B1 PercussionVoiceII measure 30]                      %! SM4
+    % [B PercussionVoiceII measure 30]                       %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -600,27 +600,27 @@ B_a_PercussionVoiceII_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     \override Staff.BarLine.bar-extent = #'(0 . 0)           %! OC1:-PARTS
     
-    % [B1 PercussionVoiceII measure 31]                      %! SM4
+    % [B PercussionVoiceII measure 31]                       %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [B1 PercussionVoiceII measure 32]                      %! SM4
+    % [B PercussionVoiceII measure 32]                       %! SM4
     c'2
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [B1 PercussionVoiceII measure 33]                      %! SM4
+    % [B PercussionVoiceII measure 33]                       %! SM4
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [B1 PercussionVoiceII measure 34]                      %! SM4
+    % [B PercussionVoiceII measure 34]                       %! SM4
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [B1 PercussionVoiceII measure 35]                      %! SM4
+    % [B PercussionVoiceII measure 35]                       %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
@@ -631,20 +631,20 @@ B_a_PercussionVoiceII_a = {
 }
 
 
-B_a_PercussionVoiceII = {
-    \B_a_PercussionVoiceII_a
+B_PercussionVoiceII = {
+    \B_PercussionVoiceII_a
 }
 
 
-B_a_PercussionStaffII = {
+B_PercussionStaffII = {
     \context Voice = "PercussionVoiceII"
-    \B_a_PercussionVoiceII
+    \B_PercussionVoiceII
 }
 
 
-B_a_FirstViolinVoiceI_a = {
+B_FirstViolinVoiceI_a = {
     
-    % [B1 FirstViolinVoiceI measure 30]                      %! SM4
+    % [B FirstViolinVoiceI measure 30]                       %! SM4
     \set Staff.instrumentName =                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -731,7 +731,7 @@ B_a_FirstViolinVoiceI_a = {
     e'4
     \glissando                                               %! SC
     
-    % [B1 FirstViolinVoiceI measure 31]                      %! SM4
+    % [B FirstViolinVoiceI measure 31]                       %! SM4
     f'4
     \glissando                                               %! SC
     
@@ -744,14 +744,14 @@ B_a_FirstViolinVoiceI_a = {
     b'4
     \glissando                                               %! SC
     
-    % [B1 FirstViolinVoiceI measure 32]                      %! SM4
+    % [B FirstViolinVoiceI measure 32]                       %! SM4
     c''4
     \glissando                                               %! SC
     
     d''4
     \glissando                                               %! SC
     
-    % [B1 FirstViolinVoiceI measure 33]                      %! SM4
+    % [B FirstViolinVoiceI measure 33]                       %! SM4
     f''4
     \glissando                                               %! SC
     
@@ -761,7 +761,7 @@ B_a_FirstViolinVoiceI_a = {
     a''4
     \glissando                                               %! SC
     
-    % [B1 FirstViolinVoiceI measure 34]                      %! SM4
+    % [B FirstViolinVoiceI measure 34]                       %! SM4
     b''4
     \glissando                                               %! SC
     
@@ -771,7 +771,7 @@ B_a_FirstViolinVoiceI_a = {
     d'''4
     \glissando                                               %! SC
     
-    % [B1 FirstViolinVoiceI measure 35]                      %! SM4
+    % [B FirstViolinVoiceI measure 35]                       %! SM4
     e'''4
     \glissando                                               %! SC
     
@@ -795,20 +795,20 @@ B_a_FirstViolinVoiceI_a = {
 }
 
 
-B_a_FirstViolinVoiceI = {
-    \B_a_FirstViolinVoiceI_a
+B_FirstViolinVoiceI = {
+    \B_FirstViolinVoiceI_a
 }
 
 
-B_a_FirstViolinStaffI = {
+B_FirstViolinStaffI = {
     \context Voice = "FirstViolinVoiceI"
-    \B_a_FirstViolinVoiceI
+    \B_FirstViolinVoiceI
 }
 
 
-B_a_SecondViolinVoiceI_a = {
+B_SecondViolinVoiceI_a = {
     
-    % [B1 SecondViolinVoiceI measure 30]                     %! SM4
+    % [B SecondViolinVoiceI measure 30]                      %! SM4
     \set Staff.instrumentName =                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -895,7 +895,7 @@ B_a_SecondViolinVoiceI_a = {
     d'4
     \glissando                                               %! SC
     
-    % [B1 SecondViolinVoiceI measure 31]                     %! SM4
+    % [B SecondViolinVoiceI measure 31]                      %! SM4
     e'4
     \glissando                                               %! SC
     
@@ -908,14 +908,14 @@ B_a_SecondViolinVoiceI_a = {
     g'4
     \glissando                                               %! SC
     
-    % [B1 SecondViolinVoiceI measure 32]                     %! SM4
+    % [B SecondViolinVoiceI measure 32]                      %! SM4
     g'4
     \glissando                                               %! SC
     
     a'4
     \glissando                                               %! SC
     
-    % [B1 SecondViolinVoiceI measure 33]                     %! SM4
+    % [B SecondViolinVoiceI measure 33]                      %! SM4
     b'4
     \glissando                                               %! SC
     
@@ -925,7 +925,7 @@ B_a_SecondViolinVoiceI_a = {
     c''4
     \glissando                                               %! SC
     
-    % [B1 SecondViolinVoiceI measure 34]                     %! SM4
+    % [B SecondViolinVoiceI measure 34]                      %! SM4
     d''4
     \glissando                                               %! SC
     
@@ -935,7 +935,7 @@ B_a_SecondViolinVoiceI_a = {
     e''4
     \glissando                                               %! SC
     
-    % [B1 SecondViolinVoiceI measure 35]                     %! SM4
+    % [B SecondViolinVoiceI measure 35]                      %! SM4
     f''4
     \glissando                                               %! SC
     
@@ -959,20 +959,20 @@ B_a_SecondViolinVoiceI_a = {
 }
 
 
-B_a_SecondViolinVoiceI = {
-    \B_a_SecondViolinVoiceI_a
+B_SecondViolinVoiceI = {
+    \B_SecondViolinVoiceI_a
 }
 
 
-B_a_SecondViolinStaffI = {
+B_SecondViolinStaffI = {
     \context Voice = "SecondViolinVoiceI"
-    \B_a_SecondViolinVoiceI
+    \B_SecondViolinVoiceI
 }
 
 
-B_a_ViolaVoiceI_a = {
+B_ViolaVoiceI_a = {
     
-    % [B1 ViolaVoiceI measure 30]                            %! SM4
+    % [B ViolaVoiceI measure 30]                             %! SM4
     \set Staff.instrumentName =                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -1043,7 +1043,7 @@ B_a_ViolaVoiceI_a = {
     c'4
     \glissando                                               %! SC
     
-    % [B1 ViolaVoiceI measure 31]                            %! SM4
+    % [B ViolaVoiceI measure 31]                             %! SM4
     c'4
     \glissando                                               %! SC
     
@@ -1056,14 +1056,14 @@ B_a_ViolaVoiceI_a = {
     d'4
     \glissando                                               %! SC
     
-    % [B1 ViolaVoiceI measure 32]                            %! SM4
+    % [B ViolaVoiceI measure 32]                             %! SM4
     e'4
     \glissando                                               %! SC
     
     e'4
     \glissando                                               %! SC
     
-    % [B1 ViolaVoiceI measure 33]                            %! SM4
+    % [B ViolaVoiceI measure 33]                             %! SM4
     e'4
     \glissando                                               %! SC
     
@@ -1073,7 +1073,7 @@ B_a_ViolaVoiceI_a = {
     f'4
     \glissando                                               %! SC
     
-    % [B1 ViolaVoiceI measure 34]                            %! SM4
+    % [B ViolaVoiceI measure 34]                             %! SM4
     f'4
     \glissando                                               %! SC
     
@@ -1083,7 +1083,7 @@ B_a_ViolaVoiceI_a = {
     g'4
     \glissando                                               %! SC
     
-    % [B1 ViolaVoiceI measure 35]                            %! SM4
+    % [B ViolaVoiceI measure 35]                             %! SM4
     g'4
     \glissando                                               %! SC
     
@@ -1107,20 +1107,20 @@ B_a_ViolaVoiceI_a = {
 }
 
 
-B_a_ViolaVoiceI = {
-    \B_a_ViolaVoiceI_a
+B_ViolaVoiceI = {
+    \B_ViolaVoiceI_a
 }
 
 
-B_a_ViolaStaffI = {
+B_ViolaStaffI = {
     \context Voice = "ViolaVoiceI"
-    \B_a_ViolaVoiceI
+    \B_ViolaVoiceI
 }
 
 
-B_a_CelloVoiceI_a = {
+B_CelloVoiceI_a = {
     
-    % [B1 CelloVoiceI measure 30]                            %! SM4
+    % [B CelloVoiceI measure 30]                             %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1191,7 +1191,7 @@ B_a_CelloVoiceI_a = {
     a4
     \glissando                                               %! SC
     
-    % [B1 CelloVoiceI measure 31]                            %! SM4
+    % [B CelloVoiceI measure 31]                             %! SM4
     a4
     \glissando                                               %! SC
     
@@ -1204,14 +1204,14 @@ B_a_CelloVoiceI_a = {
     g4
     \glissando                                               %! SC
     
-    % [B1 CelloVoiceI measure 32]                            %! SM4
+    % [B CelloVoiceI measure 32]                             %! SM4
     f4
     \glissando                                               %! SC
     
     f4
     \glissando                                               %! SC
     
-    % [B1 CelloVoiceI measure 33]                            %! SM4
+    % [B CelloVoiceI measure 33]                             %! SM4
     f4
     \glissando                                               %! SC
     
@@ -1221,7 +1221,7 @@ B_a_CelloVoiceI_a = {
     e4
     \glissando                                               %! SC
     
-    % [B1 CelloVoiceI measure 34]                            %! SM4
+    % [B CelloVoiceI measure 34]                             %! SM4
     e4
     \glissando                                               %! SC
     
@@ -1231,7 +1231,7 @@ B_a_CelloVoiceI_a = {
     d4
     \glissando                                               %! SC
     
-    % [B1 CelloVoiceI measure 35]                            %! SM4
+    % [B CelloVoiceI measure 35]                             %! SM4
     d4
     \glissando                                               %! SC
     
@@ -1255,20 +1255,20 @@ B_a_CelloVoiceI_a = {
 }
 
 
-B_a_CelloVoiceI = {
-    \B_a_CelloVoiceI_a
+B_CelloVoiceI = {
+    \B_CelloVoiceI_a
 }
 
 
-B_a_CelloStaffI = {
+B_CelloStaffI = {
     \context Voice = "CelloVoiceI"
-    \B_a_CelloVoiceI
+    \B_CelloVoiceI
 }
 
 
-B_a_ContrabassVoiceI_a = {
+B_ContrabassVoiceI_a = {
     
-    % [B1 ContrabassVoiceI measure 30]                       %! SM4
+    % [B ContrabassVoiceI measure 30]                        %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1336,7 +1336,7 @@ B_a_ContrabassVoiceI_a = {
     b,4
     \glissando                                               %! SC
     
-    % [B1 ContrabassVoiceI measure 31]                       %! SM4
+    % [B ContrabassVoiceI measure 31]                        %! SM4
     b,4
     \glissando                                               %! SC
     
@@ -1349,14 +1349,14 @@ B_a_ContrabassVoiceI_a = {
     b,4
     \glissando                                               %! SC
     
-    % [B1 ContrabassVoiceI measure 32]                       %! SM4
+    % [B ContrabassVoiceI measure 32]                        %! SM4
     b,4
     \glissando                                               %! SC
     
     b,4
     \glissando                                               %! SC
     
-    % [B1 ContrabassVoiceI measure 33]                       %! SM4
+    % [B ContrabassVoiceI measure 33]                        %! SM4
     a,4
     \glissando                                               %! SC
     
@@ -1366,7 +1366,7 @@ B_a_ContrabassVoiceI_a = {
     a,4
     \glissando                                               %! SC
     
-    % [B1 ContrabassVoiceI measure 34]                       %! SM4
+    % [B ContrabassVoiceI measure 34]                        %! SM4
     a,4
     \glissando                                               %! SC
     
@@ -1376,7 +1376,7 @@ B_a_ContrabassVoiceI_a = {
     a,4
     \glissando                                               %! SC
     
-    % [B1 ContrabassVoiceI measure 35]                       %! SM4
+    % [B ContrabassVoiceI measure 35]                        %! SM4
     a,4
     \glissando                                               %! SC
     
@@ -1399,12 +1399,12 @@ B_a_ContrabassVoiceI_a = {
 }
 
 
-B_a_ContrabassVoiceI = {
-    \B_a_ContrabassVoiceI_a
+B_ContrabassVoiceI = {
+    \B_ContrabassVoiceI_a
 }
 
 
-B_a_ContrabassStaffII = {
+B_ContrabassStaffII = {
     \context Voice = "ContrabassVoiceI"
-    \B_a_ContrabassVoiceI
+    \B_ContrabassVoiceI
 }
