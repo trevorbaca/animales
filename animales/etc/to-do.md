@@ -8,7 +8,6 @@ TO-DO
 
 3.  Carry instrument names in percussion margin markup.
 
-
 4.  Teach segment-maker to check for duplicate part assignments.
 
 5.  Warn layout measure count / segment measure count segment interpretation.
