@@ -153,7 +153,7 @@ maker(
         ),
     baca.hairpin('pp <', right_broken=True),
     baca.interpolate_staff_positions('Bb6', 'B3'),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
@@ -168,7 +168,7 @@ maker(
         ),
     baca.hairpin('pp <', right_broken=True),
     baca.interpolate_staff_positions('Bb5', 'B3'),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
@@ -183,7 +183,7 @@ maker(
         ),
     baca.hairpin('pp <', right_broken=True),
     baca.interpolate_staff_positions('Bb4', 'B3'),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
@@ -198,7 +198,7 @@ maker(
         ),
     baca.hairpin('pp <', right_broken=True),
     baca.interpolate_staff_positions('Bb2', 'B3'),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
@@ -212,7 +212,7 @@ maker(
         ),
     baca.hairpin('pp <', right_broken=True),
     baca.interpolate_staff_positions('Bb1', 'A1'),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 # contrabass solo
