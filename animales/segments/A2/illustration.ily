@@ -704,10 +704,6 @@ A_b_FirstViolinVoiceIII_a = {
     
     % [A2 FirstViolinVoiceIII measure 24]                %! SM4
     \override DynamicLineSpanner.direction = #up         %! OC1:-PARTS
-    \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3:-PARTS:-SCORE
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3:-PARTS:-SCORE
-    \override Staff.Clef.color = ##f                     %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE %@%
-    \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3:-PARTS:-SCORE
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \voiceOne                                            %! IC:-PARTS
     b'2
@@ -715,7 +711,6 @@ A_b_FirstViolinVoiceIII_a = {
     \<                                                   %! HC1
     \p                                                   %! HC1
 %%% \stopTrillSpan                                       %! IC:+PARTS
-    \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3:-PARTS:-SCORE
     
     g'''8
     \glissando                                           %! SC

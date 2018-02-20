@@ -3,7 +3,7 @@ import baca
 from abjad import rhythmmakertools as rhythmos
 
 
-def brass_manifest_rhythm(part, delay=None, rotation=0):
+def brass_manifest_rhythm(part, preamble=None, rotation=0):
     r'''Makes brass manifest rhythm.
     '''
     
@@ -13,11 +13,6 @@ def brass_manifest_rhythm(part, delay=None, rotation=0):
         2: [14, 14, -4],
         3: [12, 12, 12, -4],
         }[part]
-
-    if delay is not None:
-        preamble = [-abs(delay)]
-    else:
-        preamble = None
 
     talea = rhythmos.Talea(
         counts=counts,
