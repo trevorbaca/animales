@@ -476,7 +476,7 @@ E_BassClarinetVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf1
+    b1
     \p                                                       %! HC1
     ^ \markup {
         \column
@@ -519,23 +519,23 @@ E_BassClarinetVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [E BassClarinetVoiceI measure 51]                      %! SM4
-    bf1
+    b1
     \repeatTie
     
     % [E BassClarinetVoiceI measure 52]                      %! SM4
-    bf2.
+    b2.
     \repeatTie
     
     % [E BassClarinetVoiceI measure 53]                      %! SM4
-    bf2.
+    b2.
     \repeatTie
     
     % [E BassClarinetVoiceI measure 54]                      %! SM4
-    bf1
+    b1
     \repeatTie
     
     % [E BassClarinetVoiceI measure 55]                      %! SM4
-    bf1
+    b1
     \repeatTie
     
 }

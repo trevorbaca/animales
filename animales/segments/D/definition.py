@@ -85,7 +85,7 @@ maker(
     baca.scope('BassClarinetVoiceI', (5, 6)),
     baca.hairpin('niente <', right_broken=True),
     baca.make_repeat_tied_notes(),
-    baca.pitch('Ab2'),
+    baca.pitch('A2'),
     )
 
 maker(
