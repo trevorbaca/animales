@@ -1699,12 +1699,7 @@ A_a_FirstViolinVoiceIII_a = {
 A_a_FirstViolinVoiceIII = {
     
     % [A1 FirstViolinVoiceIII measure 18]                    %! SM4
-    \clef "treble"                                           %! SM8:DEFAULT_CLEF:ST3:-PARTS:-SCORE
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3:-PARTS:-SCORE
-    \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE %@%
-    \set Staff.forceClef = ##t                               %! SM8:DEFAULT_CLEF:SM33:ST3:-PARTS:-SCORE
     R1 * 1
-    \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3:-PARTS:-SCORE
     
     % [A1 FirstViolinVoiceIII measure 19]                    %! SM4
     R1 * 1

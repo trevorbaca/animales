@@ -122,7 +122,6 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('duration', "0'11''"),
         ('first_measure_number', 62),
         ('last_measure_number', 67),
         (
@@ -360,7 +359,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='HornVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -390,7 +389,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='HornVoiceIV',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='ff',
                                 ),
                             ],
                         ),
@@ -465,7 +464,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='GlobalSkips',
                                 prototype='abjad.MetronomeMark',
-                                value='114',
+                                value='abjad.Ritardando()',
                                 ),
                             abjad.Momento(
                                 context='GlobalSkips',
@@ -728,8 +727,6 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "0'20''"),
-        ('stop_clock_time', "0'31''"),
         (
             'time_signatures',
             ['4/4', '4/4', '4/4', '2/4', '4/4', '4/4'],
