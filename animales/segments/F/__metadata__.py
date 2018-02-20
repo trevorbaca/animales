@@ -101,16 +101,6 @@ metadata = abjad.OrderedDict(
                                 ),
                             ),
                         ),
-                    (
-                        'F_HornVoiceIII_a',
-                        (
-                            abjad.Part('Horn', 3),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(9, 2),
-                                ),
-                            ),
-                        ),
                     ]
                 ),
             ),
@@ -345,14 +335,14 @@ metadata = abjad.OrderedDict(
                                 value='bass',
                                 ),
                             abjad.Momento(
-                                context='HornVoiceIII',
+                                context='HornVoiceI',
                                 prototype='abjad.Instrument',
                                 value='Horn',
                                 ),
                             abjad.Momento(
-                                context='HornVoiceIII',
+                                context='HornVoiceI',
                                 prototype='abjad.MarginMarkup',
-                                value='Hn.',
+                                value='Hn. (1+3)',
                                 ),
                             ],
                         ),
@@ -608,7 +598,7 @@ metadata = abjad.OrderedDict(
                     ('ClarinetVoiceI', True),
                     ('BassClarinetVoiceI', True),
                     ('HornVoiceI', True),
-                    ('HornVoiceIII', True),
+                    ('HornVoiceIII', False),
                     ('HornVoiceII', False),
                     ('HornVoiceIV', False),
                     ('TrumpetVoiceI', False),
