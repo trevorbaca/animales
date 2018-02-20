@@ -101,33 +101,33 @@ maker(
     baca.scope('FirstViolinVoiceI', 'all'),
     animales.margin_markup('Vni. I'),
     animales.parts('FirstViolin'),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', 'all'),
     animales.margin_markup('Vni. II'),
     animales.parts('SecondViolin'),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
     baca.scope('ViolaVoiceI', 'all'),
     animales.parts('Viola'),
     animales.margin_markup('Vle.'),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
     baca.scope('CelloVoiceI', 'all'),
     animales.parts('Cello'),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
     baca.scope('ContrabassVoiceI', 'all'),
     animales.parts('Contrabass'),
-    baca.make_repeated_durations([(1, 4)]),
+    baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 stop_trill = [

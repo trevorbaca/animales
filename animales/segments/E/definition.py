@@ -140,7 +140,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
     baca.pitch('Ab3'),
-    baca.trill('Bb3'),
+    baca.trill_spanner('Bb3'),
     )
 
 maker(

@@ -141,14 +141,14 @@ maker(
     baca.make_scopes(strings, [(1, 4)]),
     baca.dynamic('f_but_accents_sffz', baca.pleaf(0)),
     baca.pitch('A4'),
-    baca.trill('B4'),
+    baca.trill_spanner('B4'),
     )
 
 maker(
     baca.make_scopes(strings, [(5, 6)]),
     baca.dynamic('p_sub_but_accents_continue_sffz', baca.pleaf(0)),
     baca.pitch('Ab4'),
-    baca.trill('A4', right_broken=True),
+    baca.trill_spanner('A4', right_broken=True),
     )
 
 raised_trill = [
