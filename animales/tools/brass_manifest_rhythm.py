@@ -3,18 +3,19 @@ import baca
 from abjad import rhythmmakertools as rhythmos
 
 
-def brass_manifest_rhythm(prefix=None, rotation=0):
+def brass_manifest_rhythm(delay=None, rotation=0):
     r'''Makes brass manifest rhythm.
     '''
 
-    counts = [16, 16, -4]
-    if prefix is not None:
-        assert isinstance(prefix, int), repr(prefix)
-        counts.insert(0, prefix)
+    if delay is not None:
+        preamble = [-abs(delay)]
+    else:
+        preamble = None
 
     talea = rhythmos.Talea(
-        counts=counts,
+        counts=[16, 16, -4],
         denominator=16,
+        preamble=preamble,
         )
 
     extra_counts = baca.sequence([0, 0, 0, -1]).rotate(n=rotation)
@@ -24,6 +25,7 @@ def brass_manifest_rhythm(prefix=None, rotation=0):
         talea=talea,
         tuplet_specifier=rhythmos.TupletSpecifier(
             extract_trivial=True,
+            rewrite_rest_filled=True,
             trivialize=True,
             ),
         )

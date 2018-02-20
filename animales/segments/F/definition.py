@@ -105,37 +105,55 @@ maker(
 
 maker(
     baca.scope('HornVoiceI', 'all'),
+    animales.brass_manifest_rhythm(delay=8),
     animales.margin_markup('Hn. (1+3)'),
-    animales.brass_manifest_rhythm(),
     animales.parts('Horn', 1),
-    baca.pitches('A3 A3 Bb3', allow_repeats=True),
+    baca.map(
+        baca.hairpin('mp < mf'),
+        baca.runs(),
+        ),
+    baca.pitches('Bb3 Bb3 B3', allow_repeats=True),
+    baca.score(baca.dynamics_up()),
     baca.score(baca.voice_one()),
     )
 
-#maker(
-#    baca.scope('HornVoiceIII', 'all'),
-#    animales.brass_manifest_rhythm(prefix=-8),
-#    animales.parts('Horn', 3),
-#    baca.pitch('A3'),
-#    baca.score(baca.voice_two()),
-#    )
+maker(
+    baca.scope('HornVoiceIII', 'all'),
+    animales.brass_manifest_rhythm(),
+    animales.parts('Horn', 3),
+    baca.map(
+        baca.hairpin('mp < mf'),
+        baca.runs(),
+        ),
+    baca.pitches('A3 A3 Bb3', allow_repeats=True),
+    baca.score(baca.voice_two()),
+    )
 
-#maker(
-#    baca.scope('HornVoiceII', 'all'),
-#    animales.margin_markup('Hn. (2+4)'),
-#    animales.parts('Horn', 2),
-#    baca.make_repeated_duration_notes([(1, 8)]),
-#    baca.pitch('A3'),
-#    baca.score(baca.voice_one()),
-#    )
-#
-#maker(
-#    baca.scope('HornVoiceIV', 'all'),
-#    animales.parts('Horn', 4),
-#    baca.make_repeated_duration_notes([(1, 8)]),
-#    baca.pitch('A3'),
-#    baca.score(baca.voice_two()),
-#    )
+maker(
+    baca.scope('HornVoiceII', 'all'),
+    animales.brass_manifest_rhythm(delay=12, rotation=-1),
+    animales.margin_markup('Hn. (2+4)'),
+    animales.parts('Horn', 2),
+    baca.map(
+        baca.hairpin('mp < mf'),
+        baca.runs(),
+        ),
+    baca.pitches('Bb3 B3 B3', allow_repeats=True),
+    baca.score(baca.dynamics_up()),
+    baca.score(baca.voice_one()),
+    )
+
+maker(
+    baca.scope('HornVoiceIV', 'all'),
+    animales.brass_manifest_rhythm(delay=8, rotation=-1),
+    animales.parts('Horn', 4),
+    baca.map(
+        baca.hairpin('mp < mf'),
+        baca.runs(),
+        ),
+    baca.pitches('A3 Bb3 Bb3', allow_repeats=True),
+    baca.score(baca.voice_two()),
+    )
 
 ## trumpets
 #
