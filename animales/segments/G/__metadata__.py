@@ -80,9 +80,9 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'G_HornVoiceI_a',
+                        'G_TromboneVoiceI_a',
                         (
-                            abjad.Part('Horn', 1),
+                            abjad.Part('Trombone', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(11, 2),
@@ -90,9 +90,9 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'G_HornVoiceIII_a',
+                        'G_TromboneVoiceIII_a',
                         (
-                            abjad.Part('Horn', 3),
+                            abjad.Part('Trombone', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(11, 2),
@@ -100,9 +100,9 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'G_HornVoiceII_a',
+                        'G_TromboneVoiceII_a',
                         (
-                            abjad.Part('Horn', 2),
+                            abjad.Part('Trombone', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(11, 2),
@@ -110,9 +110,9 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'G_HornVoiceIV_a',
+                        'G_TromboneVoiceIV_a',
                         (
-                            abjad.Part('Horn', 4),
+                            abjad.Part('Trombone', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(11, 2),
@@ -359,7 +359,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='HornVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -369,7 +369,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='HornVoiceII',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -379,7 +379,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='HornVoiceIII',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -389,7 +389,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='HornVoiceIV',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -549,7 +549,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='TromboneVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='ff',
                                 ),
                             ],
                         ),
@@ -569,7 +569,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='TromboneVoiceIII',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='ff',
                                 ),
                             ],
                         ),
@@ -579,7 +579,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='TromboneVoiceIV',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='ff',
                                 ),
                             ],
                         ),
@@ -703,18 +703,18 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     ('ClarinetVoiceI', True),
-                    ('HornVoiceI', True),
-                    ('HornVoiceIII', True),
-                    ('HornVoiceII', True),
-                    ('HornVoiceIV', True),
+                    ('HornVoiceI', False),
+                    ('HornVoiceIII', False),
+                    ('HornVoiceII', False),
+                    ('HornVoiceIV', False),
                     ('TrumpetVoiceI', False),
                     ('TrumpetVoiceIII', False),
                     ('TrumpetVoiceII', False),
                     ('TrumpetVoiceIV', False),
-                    ('TromboneVoiceI', False),
-                    ('TromboneVoiceIII', False),
-                    ('TromboneVoiceII', False),
-                    ('TromboneVoiceIV', False),
+                    ('TromboneVoiceI', True),
+                    ('TromboneVoiceIII', True),
+                    ('TromboneVoiceII', True),
+                    ('TromboneVoiceIV', True),
                     ('PianoVoiceI', False),
                     ('HarpVoiceI', False),
                     ('PercussionVoiceIII', False),

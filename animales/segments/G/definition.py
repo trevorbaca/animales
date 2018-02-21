@@ -99,101 +99,108 @@ crescendi = baca.suite([
         ),
     ])
 
-maker(
-    baca.scope('HornVoiceI', 'all'),
-    animales.brass_manifest_rhythm(
-        1, counts=[16, -4, 16], preamble=[4], rotation=0),
-    animales.parts('Horn', 1),
-    baca.pitches('A3 B3'),
-    baca.score(baca.dynamics_up()),
-    baca.score(baca.voice_one()),
-    baca.repeat_tie_to(),
-    crescendi,
-    )
-
-maker(
-    baca.scope('HornVoiceIII', 'all'),
-    animales.brass_manifest_rhythm(
-        1, counts=[-4, 16, 16], preamble=[2], rotation=-1),
-    animales.parts('Horn', 3),
-    baca.pitches('Bb3 Ab3'),
-    baca.repeat_tie_to(),
-    baca.score(baca.voice_two()),
-    crescendi,
-    )
-
-maker(
-    baca.scope('HornVoiceII', 'all'),
-    animales.brass_manifest_rhythm(
-        1, counts=[16, -4, 16], preamble=[10], rotation=-2),
-    animales.parts('Horn', 2),
-    baca.pitches('A3 B3'),
-    baca.repeat_tie_to(),
-    baca.score(baca.dynamics_up()),
-    baca.score(baca.voice_one()),
-    crescendi,
-    )
-
-maker(
-    baca.scope('HornVoiceIV', 'all'),
-    animales.brass_manifest_rhythm(
-        1, counts=[-4, 16, 16], preamble=[8], rotation=-3),
-    animales.parts('Horn', 4),
-    baca.pitches('Bb3 Ab3'),
-    baca.score(baca.voice_two()),
-    crescendi,
-    )
+#maker(
+#    baca.scope('HornVoiceI', 'all'),
+#    animales.brass_manifest_rhythm(
+#        1, counts=[16, -4, 16], preamble=[4], rotation=0),
+#    animales.parts('Horn', 1),
+#    baca.pitches('A3 B3'),
+#    baca.score(baca.dynamics_up()),
+#    baca.score(baca.voice_one()),
+#    baca.repeat_tie_to(),
+#    crescendi,
+#    )
+#
+#maker(
+#    baca.scope('HornVoiceIII', 'all'),
+#    animales.brass_manifest_rhythm(
+#        1, counts=[-4, 16, 16], preamble=[2], rotation=-1),
+#    animales.parts('Horn', 3),
+#    baca.pitches('Bb3 Ab3'),
+#    baca.repeat_tie_to(),
+#    baca.score(baca.voice_two()),
+#    crescendi,
+#    )
+#
+#maker(
+#    baca.scope('HornVoiceII', 'all'),
+#    animales.brass_manifest_rhythm(
+#        1, counts=[16, -4, 16], preamble=[10], rotation=-2),
+#    animales.parts('Horn', 2),
+#    baca.pitches('A3 B3'),
+#    baca.repeat_tie_to(),
+#    baca.score(baca.dynamics_up()),
+#    baca.score(baca.voice_one()),
+#    crescendi,
+#    )
+#
+#maker(
+#    baca.scope('HornVoiceIV', 'all'),
+#    animales.brass_manifest_rhythm(
+#        1, counts=[-4, 16, 16], preamble=[8], rotation=-3),
+#    animales.parts('Horn', 4),
+#    baca.pitches('Bb3 Ab3'),
+#    baca.score(baca.voice_two()),
+#    crescendi,
+#    )
 
 ## trumpets
 #
 #maker(
 #    baca.scope('TrumpetVoiceI', 'all'),
-#    animales.brass_manifest_rhythm(2, rotation=0),
-#    animales.margin_markup('Tp. (1+3)'),
+#    animales.brass_manifest_rhythm(
+#        2, counts=[-4, 14, 14], preamble=[4], rotation=0),
 #    animales.parts('Trumpet', 1),
 #    baca.score(baca.dynamics_up()),
-#    baca.pitches('Ab4 Bb4'),
+#    baca.pitches('Bb4 Ab4'),
+#    baca.repeat_tie_to(),
 #    baca.score(baca.voice_one()),
 #    crescendi,
 #    )
 #
 #maker(
 #    baca.scope('TrumpetVoiceIII', 'all'),
-#    animales.brass_manifest_rhythm(2, rotation=-1),
+#    animales.brass_manifest_rhythm(
+#        2, counts=[14, -4, 14], preamble=[10], rotation=-1),
 #    animales.parts('Trumpet', 3),
 #    baca.pitches('G4 A4'),
+#    baca.repeat_tie_to(),
 #    baca.score(baca.voice_two()),
 #    crescendi,
 #    )
 #
 #maker(
 #    baca.scope('TrumpetVoiceII', 'all'),
-#    animales.brass_manifest_rhythm(2, rotation=-2),
-#    animales.margin_markup('Tp. (2+4)'),
+#    animales.brass_manifest_rhythm(
+#        2, counts=[-4, 14, 14], preamble=[13], rotation=-2),
 #    animales.parts('Trumpet', 2),
 #    baca.score(baca.dynamics_up()),
-#    baca.pitches('Ab4 Bb4'),
+#    baca.pitches('Bb4 Ab4'),
+#    baca.repeat_tie_to(),
 #    baca.score(baca.voice_one()),
 #    crescendi,
 #    )
 #
 #maker(
 #    baca.scope('TrumpetVoiceIV', 'all'),
-#    animales.brass_manifest_rhythm(2, rotation=-3),
+#    animales.brass_manifest_rhythm(
+#        2, counts=[-4, 14, 14], preamble=[1], rotation=-3),
 #    animales.parts('Trumpet', 4),
-#    baca.pitches('G4 A4'),
+#    baca.pitches('A4 G4'),
+#    baca.repeat_tie_to(),
 #    baca.score(baca.voice_two()),
 #    crescendi,
 #    )
-#
-### trombones
+
+## trombones
 #
 #maker(
 #    baca.scope('TromboneVoiceI', 'all'),
-#    animales.brass_manifest_rhythm(3, rotation=0),
-#    animales.margin_markup('Trb. (1+3)'),
+#    animales.brass_manifest_rhythm(
+#        3, counts=[12, 12, -4, 12], preamble=[2], rotation=0),
 #    animales.parts('Trombone', 1),
 #    baca.pitches('Ab3 Bb3'),
+#    baca.repeat_tie_to(),
 #    baca.score(baca.dynamics_up()),
 #    baca.score(baca.voice_one()),
 #    crescendi,
@@ -201,19 +208,22 @@ maker(
 #
 #maker(
 #    baca.scope('TromboneVoiceIII', 'all'),
-#    animales.brass_manifest_rhythm(3, rotation=-1),
+#    animales.brass_manifest_rhythm(
+#        3, counts=[-4, 12, 12, 12], preamble=[8], rotation=-1),
 #    animales.parts('Trombone', 3),
-#    baca.pitches('G3 A3'),
+#    baca.pitches('A3 G3'),
+#    baca.repeat_tie_to(),
 #    baca.score(baca.voice_two()),
 #    crescendi,
 #    )
 #
 #maker(
 #    baca.scope('TromboneVoiceII', 'all'),
-#    animales.brass_manifest_rhythm(3, rotation=-2),
-#    animales.margin_markup('Trb. (2+4)'),
+#    animales.brass_manifest_rhythm(
+#        3, counts=[12, 12, -4, 12], preamble=[11], rotation=-2),
 #    animales.parts('Trombone', 2),
-#    baca.pitches('Ab3 Bb3'),
+#    baca.pitches('Bb3 Ab3'),
+#    baca.repeat_tie_to(),
 #    baca.score(baca.dynamics_up()),
 #    baca.score(baca.voice_one()),
 #    crescendi,
@@ -221,13 +231,15 @@ maker(
 #
 #maker(
 #    baca.scope('TromboneVoiceIV', 'all'),
-#    animales.brass_manifest_rhythm(3, rotation=-3),
+#    animales.brass_manifest_rhythm(
+#        3, counts=[12, -4, 12, 12], preamble=[4], rotation=-3),
 #    animales.parts('Trombone', 4),
 #    baca.pitches('G3 A3'),
+#    baca.repeat_tie_to(),
 #    baca.score(baca.voice_two()),
 #    crescendi,
 #    )
-#
+
 ## harp
 #
 #maker(
