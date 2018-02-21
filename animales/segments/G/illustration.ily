@@ -438,15 +438,15 @@ G_HornVoiceI_a = {
     
     % [G HornVoiceI measure 63]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    fs'16
+    fs'8
     \f                                                   %! HC1
     
-    r8.
+    r8
     
-    r16
+    r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    e'8.
+    e'8
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
@@ -455,43 +455,38 @@ G_HornVoiceI_a = {
     ~
     
     % [G HornVoiceI measure 64]                          %! SM4
-    e'4
+    e'4..
+    
+    fs'16
     ~
     
-    e'16
-    [
-    
-    fs'8.
-    ]
-    
-    e'4
-    
-    fs'4
+    fs'2
+    ~
     
     % [G HornVoiceI measure 65]                          %! SM4
-    e'4
-    
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    fs'16
+    fs'2
     \ff                                                  %! HC1
     
-    r8.
-    
     % [G HornVoiceI measure 66]                          %! SM4
-    r16
+    r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    e'8.
+    e'2.
+    ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    fs'2.
-    ~
-    
     % [G HornVoiceI measure 67]                          %! SM4
-    fs'4
-    
     e'4
+    ~
+    \times 2/3 {
+        
+        e'8
+        
+        fs'4
+        ~
+    }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     fs'2
