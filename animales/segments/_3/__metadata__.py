@@ -379,9 +379,12 @@ metadata = abjad.OrderedDict(
                             [
                                 (
                                     'sforzando_exchange_rhythm',
-                                    [
-                                        ('talea_weight_consumed', 348),
-                                        ],
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 58),
+                                            ('talea_weight_consumed', 348),
+                                            ]
+                                        ),
                                     ),
                                 ]
                             ),
@@ -392,9 +395,12 @@ metadata = abjad.OrderedDict(
                             [
                                 (
                                     'sforzando_exchange_rhythm',
-                                    [
-                                        ('talea_weight_consumed', 348),
-                                        ],
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 58),
+                                            ('talea_weight_consumed', 348),
+                                            ]
+                                        ),
                                     ),
                                 ]
                             ),
@@ -405,9 +411,12 @@ metadata = abjad.OrderedDict(
                             [
                                 (
                                     'sforzando_exchange_rhythm',
-                                    [
-                                        ('talea_weight_consumed', 348),
-                                        ],
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 58),
+                                            ('talea_weight_consumed', 348),
+                                            ]
+                                        ),
                                     ),
                                 ]
                             ),
@@ -418,9 +427,12 @@ metadata = abjad.OrderedDict(
                             [
                                 (
                                     'sforzando_exchange_rhythm',
-                                    [
-                                        ('talea_weight_consumed', 348),
-                                        ],
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 58),
+                                            ('talea_weight_consumed', 348),
+                                            ]
+                                        ),
                                     ),
                                 ]
                             ),
@@ -431,9 +443,12 @@ metadata = abjad.OrderedDict(
                             [
                                 (
                                     'sforzando_exchange_rhythm',
-                                    [
-                                        ('talea_weight_consumed', 348),
-                                        ],
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 58),
+                                            ('talea_weight_consumed', 348),
+                                            ]
+                                        ),
                                     ),
                                 ]
                             ),
@@ -444,9 +459,12 @@ metadata = abjad.OrderedDict(
                             [
                                 (
                                     'sforzando_exchange_rhythm',
-                                    [
-                                        ('talea_weight_consumed', 348),
-                                        ],
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 58),
+                                            ('talea_weight_consumed', 348),
+                                            ]
+                                        ),
                                     ),
                                 ]
                             ),
@@ -457,9 +475,12 @@ metadata = abjad.OrderedDict(
                             [
                                 (
                                     'sforzando_exchange_rhythm',
-                                    [
-                                        ('talea_weight_consumed', 348),
-                                        ],
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 58),
+                                            ('talea_weight_consumed', 348),
+                                            ]
+                                        ),
                                     ),
                                 ]
                             ),

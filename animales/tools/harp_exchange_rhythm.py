@@ -85,10 +85,9 @@ def harp_exchange_rhythm(this_part: int) -> baca.RhythmCommand:
             trivialize=True,
             ),
         )
-    pair = ('harp_exchange_rhythm', ['talea_weight_consumed'])
     return baca.RhythmCommand(
         division_expression=baca.strict_quarter_divisions(),
-        voice_metadata_pairs=[pair],
         rewrite_meter=True,
-        rhythm_maker=rhythm_maker
+        rhythm_maker=rhythm_maker,
+        state_dictionary_name='harp_exchange_rhythm',
         )
