@@ -87,7 +87,7 @@ def harp_exchange_rhythm(this_part: int) -> baca.RhythmCommand:
         )
     return baca.RhythmCommand(
         division_expression=baca.strict_quarter_divisions(),
+        persist='harp_exchange_rhythm',
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
-        state_dictionary_name='harp_exchange_rhythm',
         )
