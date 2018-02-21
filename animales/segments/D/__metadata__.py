@@ -617,7 +617,7 @@ metadata = abjad.OrderedDict(
                                 (
                                     'harp_exchange_rhythm',
                                     [
-                                        ('talea_weight_consumed', 132),
+                                        ('talea_weight_consumed', 300),
                                         ],
                                     ),
                                 ]
@@ -630,7 +630,7 @@ metadata = abjad.OrderedDict(
                                 (
                                     'harp_exchange_rhythm',
                                     [
-                                        ('talea_weight_consumed', 132),
+                                        ('talea_weight_consumed', 300),
                                         ],
                                     ),
                                 ]
@@ -643,7 +643,7 @@ metadata = abjad.OrderedDict(
                                 (
                                     'harp_exchange_rhythm',
                                     [
-                                        ('talea_weight_consumed', 132),
+                                        ('talea_weight_consumed', 300),
                                         ],
                                     ),
                                 ]
@@ -656,7 +656,7 @@ metadata = abjad.OrderedDict(
                                 (
                                     'harp_exchange_rhythm',
                                     [
-                                        ('talea_weight_consumed', 132),
+                                        ('talea_weight_consumed', 300),
                                         ],
                                     ),
                                 ]
