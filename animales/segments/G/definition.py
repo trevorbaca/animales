@@ -102,9 +102,7 @@ crescendi = baca.suite([
 maker(
     baca.scope('HornVoiceI', 'all'),
     animales.brass_manifest_rhythm(
-        1, counts=[16, -4, 16], preamble=[1], rotation=0),
-#    animales.brass_manifest_rhythm(
-#        1, counts=[16, -4, 16], rotation=0),
+        1, counts=[16, -4, 16], preamble=[4], rotation=0),
     animales.parts('Horn', 1),
     baca.pitches('A3 B3'),
     baca.score(baca.dynamics_up()),
@@ -113,33 +111,38 @@ maker(
     crescendi,
     )
 
-#maker(
-#    baca.scope('HornVoiceIII', 'all'),
-#    animales.brass_manifest_rhythm(1, rotation=-1),
-#    animales.parts('Horn', 3),
-#    baca.pitches('Ab3 Bb3'),
-#    baca.score(baca.voice_two()),
-#    crescendi,
-#    )
-#
-#maker(
-#    baca.scope('HornVoiceII', 'all'),
-#    animales.brass_manifest_rhythm(1, rotation=-2),
-#    animales.parts('Horn', 2),
-#    baca.pitches('A3 B3'),
-#    baca.score(baca.dynamics_up()),
-#    baca.score(baca.voice_one()),
-#    crescendi,
-#    )
-#
-#maker(
-#    baca.scope('HornVoiceIV', 'all'),
-#    animales.brass_manifest_rhythm(1, rotation=-3),
-#    animales.parts('Horn', 4),
-#    baca.pitches('Ab3 Bb3'),
-#    baca.score(baca.voice_two()),
-#    crescendi,
-#    )
+maker(
+    baca.scope('HornVoiceIII', 'all'),
+    animales.brass_manifest_rhythm(
+        1, counts=[-4, 16, 16], preamble=[2], rotation=-1),
+    animales.parts('Horn', 3),
+    baca.pitches('Bb3 Ab3'),
+    baca.repeat_tie_to(),
+    baca.score(baca.voice_two()),
+    crescendi,
+    )
+
+maker(
+    baca.scope('HornVoiceII', 'all'),
+    animales.brass_manifest_rhythm(
+        1, counts=[16, -4, 16], preamble=[10], rotation=-2),
+    animales.parts('Horn', 2),
+    baca.pitches('A3 B3'),
+    baca.repeat_tie_to(),
+    baca.score(baca.dynamics_up()),
+    baca.score(baca.voice_one()),
+    crescendi,
+    )
+
+maker(
+    baca.scope('HornVoiceIV', 'all'),
+    animales.brass_manifest_rhythm(
+        1, counts=[-4, 16, 16], preamble=[8], rotation=-3),
+    animales.parts('Horn', 4),
+    baca.pitches('Bb3 Ab3'),
+    baca.score(baca.voice_two()),
+    crescendi,
+    )
 
 ## trumpets
 #
