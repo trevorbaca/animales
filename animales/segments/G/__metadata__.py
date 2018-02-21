@@ -89,6 +89,36 @@ metadata = abjad.OrderedDict(
                                 ),
                             ),
                         ),
+                    (
+                        'G_HornVoiceIII_a',
+                        (
+                            abjad.Part('Horn', 3),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(11, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'G_HornVoiceII_a',
+                        (
+                            abjad.Part('Horn', 2),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(11, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'G_HornVoiceIV_a',
+                        (
+                            abjad.Part('Horn', 4),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(11, 2),
+                                ),
+                            ),
+                        ),
                     ]
                 ),
             ),
@@ -339,7 +369,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='HornVoiceII',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='ff',
                                 ),
                             ],
                         ),
@@ -349,7 +379,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='HornVoiceIII',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='ff',
                                 ),
                             ],
                         ),
@@ -359,7 +389,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='HornVoiceIV',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='ff',
                                 ),
                             ],
                         ),
@@ -674,9 +704,9 @@ metadata = abjad.OrderedDict(
                 [
                     ('ClarinetVoiceI', True),
                     ('HornVoiceI', True),
-                    ('HornVoiceIII', False),
-                    ('HornVoiceII', False),
-                    ('HornVoiceIV', False),
+                    ('HornVoiceIII', True),
+                    ('HornVoiceII', True),
+                    ('HornVoiceIV', True),
                     ('TrumpetVoiceI', False),
                     ('TrumpetVoiceIII', False),
                     ('TrumpetVoiceII', False),
