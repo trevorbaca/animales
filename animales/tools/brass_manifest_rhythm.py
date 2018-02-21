@@ -24,7 +24,7 @@ def brass_manifest_rhythm(part, counts=None, preamble=None, rotation=0):
     extra_counts = baca.sequence([0, 0, 0, -1]).rotate(n=rotation)
 
     rhythm_maker = rhythmos.TaleaRhythmMaker(
-        #extra_counts_per_division=extra_counts,
+        extra_counts_per_division=extra_counts,
         talea=talea,
         tuplet_specifier=rhythmos.TupletSpecifier(
             extract_trivial=True,
