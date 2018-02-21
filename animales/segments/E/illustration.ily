@@ -573,7 +573,7 @@ E_PianoVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    r2
+    r2.
     \mf                                                      %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -608,14 +608,15 @@ E_PianoVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     \times 2/3 {
         
+        r8
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
         c''8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
         
-        r4
+        r8
     }
-    
-    r4
     
     % [E PianoVoiceI measure 51]                             %! SM4
     r1
@@ -624,11 +625,11 @@ E_PianoVoiceI_a = {
     r2
     \times 2/3 {
         
+        r4
+        
         c''8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
-        
-        r4
     }
     
     % [E PianoVoiceI measure 53]                             %! SM4
@@ -638,17 +639,7 @@ E_PianoVoiceI_a = {
     r1
     
     % [E PianoVoiceI measure 55]                             %! SM4
-    r2
-    \times 2/3 {
-        
-        c''8
-        -\laissezVibrer                                      %! IC
-        -\stopped                                            %! IC
-        
-        r4
-    }
-    
-    r4
+    r1
     
 }
 
@@ -685,7 +676,7 @@ E_HarpVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    r4
+    r2.
     \mf                                                      %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -727,29 +718,10 @@ E_HarpVoiceI_a = {
         r4
     }
     
-    r2
-    
     % [E HarpVoiceI measure 51]                              %! SM4
     r1
-    \times 2/3 {
-        
-        % [E HarpVoiceI measure 52]                          %! SM4
-        c''8
-        -\laissezVibrer                                      %! IC
-        -\stopped                                            %! IC
-        
-        r4
-    }
     
-    r2
-    
-    % [E HarpVoiceI measure 53]                              %! SM4
-    r2.
-    
-    % [E HarpVoiceI measure 54]                              %! SM4
-    r1
-    
-    % [E HarpVoiceI measure 55]                              %! SM4
+    % [E HarpVoiceI measure 52]                              %! SM4
     r4
     \times 2/3 {
         
@@ -760,8 +732,25 @@ E_HarpVoiceI_a = {
         r4
     }
     
-    r2
+    r4
     
+    % [E HarpVoiceI measure 53]                              %! SM4
+    r2.
+    
+    % [E HarpVoiceI measure 54]                              %! SM4
+    r1
+    
+    % [E HarpVoiceI measure 55]                              %! SM4
+    r2.
+    \times 2/3 {
+        
+        c''8
+        -\laissezVibrer                                      %! IC
+        -\stopped                                            %! IC
+        
+        r4
+        
+    }
 }
 
 
@@ -850,22 +839,25 @@ E_PercussionVoiceIII_a = {
                     (vib.)                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-    
-    % [E PercussionVoiceIII measure 51]                      %! SM4
-    r2.
     \times 2/3 {
         
+        % [E PercussionVoiceIII measure 51]                  %! SM4
         c''8
         -\laissezVibrer                                      %! IC
         
         r4
     }
+    
+    r2.
     
     % [E PercussionVoiceIII measure 52]                      %! SM4
     r2.
     
     % [E PercussionVoiceIII measure 53]                      %! SM4
-    r2
+    r2.
+    
+    % [E PercussionVoiceIII measure 54]                      %! SM4
+    r4
     \times 2/3 {
         
         c''8
@@ -874,8 +866,7 @@ E_PercussionVoiceIII_a = {
         r4
     }
     
-    % [E PercussionVoiceIII measure 54]                      %! SM4
-    r1
+    r2
     
     % [E PercussionVoiceIII measure 55]                      %! SM4
     r1
@@ -1426,13 +1417,10 @@ E_ContrabassVoiceII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [E ContrabassVoiceII measure 51]                   %! SM4
-    r2.
+    r2
     \times 2/3 {
         
-        r8
-        
         \override NoteHead.style = #'harmonic            %! OC1
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
         cqf''8
         -\laissezVibrer                                  %! IC
         ^ \markup {                                      %! IC
@@ -1441,25 +1429,29 @@ E_ContrabassVoiceII_a = {
                     "7th partial / D (sounds slightly flat)" %! IC
             }                                            %! IC
         
-        r8
+        r4
     }
+    
+    r4
     
     % [E ContrabassVoiceII measure 52]                   %! SM4
     r2.
     
     % [E ContrabassVoiceII measure 53]                   %! SM4
     r2.
+    
+    % [E ContrabassVoiceII measure 54]                   %! SM4
+    r2
     \times 2/3 {
-        
-        % [E ContrabassVoiceII measure 54]               %! SM4
-        r4
         
         cqf''8
         -\laissezVibrer                                  %! IC
         \revert NoteHead.style                           %! OC2
+        
+        r4
     }
     
-    r2.
+    r4
     
     % [E ContrabassVoiceII measure 55]                   %! SM4
     r1
