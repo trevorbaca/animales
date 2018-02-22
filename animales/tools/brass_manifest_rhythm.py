@@ -3,7 +3,7 @@ import baca
 from abjad import rhythmmakertools as rhythmos
 
 
-def brass_manifest_rhythm(part):
+def brass_manifest_rhythm(part, left_broken=False, right_broken=False):
     r'''Makes brass manifest rhythm.
     '''
 
@@ -46,7 +46,9 @@ def brass_manifest_rhythm(part):
 
     return baca.RhythmCommand(
         division_expression=baca.strict_quarter_divisions(),
+        left_broken=left_broken,
         persist='brass_manifest_rhythm',
         rewrite_meter=True,
+        right_broken=right_broken,
         rhythm_maker=rhythm_maker,
         )

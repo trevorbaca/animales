@@ -653,10 +653,11 @@ F_HornVoiceI_a = {
         e'4
         
         fs'8
-        ~
+        ~                                                %! TCC
     }
     
     fs'2
+%@% ~                                                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     
 }
@@ -717,6 +718,7 @@ F_HornVoiceIII_a = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef'2
+%@% ~                                                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
 %@% \<                                                   %! SHOW_TO_JOIN_BROKEN_SPANNERS %! HC1
     \mp                                                  %! HC1
     
@@ -849,6 +851,7 @@ F_HornVoiceII_a = {
         e'8
         
         fs'4
+    %@% ~                                                %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
         \!                                               %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
         
     }
@@ -926,6 +929,7 @@ F_HornVoiceIV_a = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef'8
+%@% ~                                                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
 %@% \<                                                   %! SHOW_TO_JOIN_BROKEN_SPANNERS %! HC1
     \mp                                                  %! HC1
     
@@ -1047,6 +1051,7 @@ F_TrumpetVoiceI_a = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af'4
+%@% ~                                                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
 %@% \<                                                   %! SHOW_TO_JOIN_BROKEN_SPANNERS %! HC1
     \mp                                                  %! HC1
     
@@ -1136,6 +1141,7 @@ F_TrumpetVoiceIII_a = {
     [
     
     a'8
+%@% ~                                                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ]
     
@@ -1343,6 +1349,7 @@ F_TrumpetVoiceIV_a = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2
+%@% ~                                                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
 %@% \<                                                   %! SHOW_TO_JOIN_BROKEN_SPANNERS %! HC1
     \mp                                                  %! HC1
     
@@ -1463,10 +1470,11 @@ F_TromboneVoiceI_a = {
         bf4
         
         af8
-        ~
+        ~                                                %! TCC
     }
     
     af2
+%@% ~                                                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     
 }
@@ -1681,6 +1689,7 @@ F_TromboneVoiceII_a = {
         bf8
         
         af4
+    %@% ~                                                %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
         \!                                               %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
         
     }
@@ -1751,6 +1760,7 @@ F_TromboneVoiceIV_a = {
     g2
     
     a2
+%@% ~                                                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     
 }
