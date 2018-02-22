@@ -588,6 +588,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 87),
+                                            ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 522),
                                             ]
                                         ),
@@ -604,6 +605,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 87),
+                                            ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 522),
                                             ]
                                         ),
@@ -620,6 +622,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 87),
+                                            ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 522),
                                             ]
                                         ),
@@ -636,6 +639,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 87),
+                                            ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 522),
                                             ]
                                         ),
@@ -652,6 +656,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 87),
+                                            ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 522),
                                             ]
                                         ),
@@ -684,6 +689,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 87),
+                                            ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 522),
                                             ]
                                         ),
