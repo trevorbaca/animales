@@ -1801,7 +1801,9 @@ F_PianoVoiceI_a = {
         \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-        r8
+        c''8
+        -\laissezVibrer                                      %! IC
+        -\stopped                                            %! IC
         \mf                                                  %! SM8:REAPPLIED_DYNAMIC:SM37
         ^ \markup {
             \column
