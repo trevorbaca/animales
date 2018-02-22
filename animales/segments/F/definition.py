@@ -5,7 +5,7 @@ from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
-##################################### [F] ####################################
+##################################### [F] #####################################
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
@@ -116,7 +116,7 @@ crescendi = baca.suite([
 
 maker(
     baca.scope('HornVoiceI', 'all'),
-    animales.brass_manifest_rhythm(1, preamble=[-18], rotation=0),
+    animales.brass_manifest_rhythm(1),
     animales.margin_markup('Hn. (1+3)'),
     animales.parts('Horn', 1),
     baca.pitches('A3 B3'),
@@ -127,7 +127,7 @@ maker(
 
 maker(
     baca.scope('HornVoiceIII', 'all'),
-    animales.brass_manifest_rhythm(1, rotation=-1),
+    animales.brass_manifest_rhythm(3),
     animales.parts('Horn', 3),
     baca.pitches('Ab3 Bb3'),
     baca.score(baca.voice_two()),
@@ -136,7 +136,7 @@ maker(
 
 maker(
     baca.scope('HornVoiceII', 'all'),
-    animales.brass_manifest_rhythm(1, preamble=[-26], rotation=-2),
+    animales.brass_manifest_rhythm(2),
     animales.margin_markup('Hn. (2+4)'),
     animales.parts('Horn', 2),
     baca.pitches('A3 B3'),
@@ -147,7 +147,7 @@ maker(
 
 maker(
     baca.scope('HornVoiceIV', 'all'),
-    animales.brass_manifest_rhythm(1, preamble=[-8], rotation=-3),
+    animales.brass_manifest_rhythm(4),
     animales.parts('Horn', 4),
     baca.pitches('Ab3 Bb3'),
     baca.score(baca.voice_two()),
@@ -158,7 +158,7 @@ maker(
 
 maker(
     baca.scope('TrumpetVoiceI', 'all'),
-    animales.brass_manifest_rhythm(2, preamble=[-12], rotation=0),
+    animales.brass_manifest_rhythm(5),
     animales.margin_markup('Tp. (1+3)'),
     animales.parts('Trumpet', 1),
     baca.score(baca.dynamics_up()),
@@ -169,7 +169,7 @@ maker(
 
 maker(
     baca.scope('TrumpetVoiceIII', 'all'),
-    animales.brass_manifest_rhythm(2, rotation=-1),
+    animales.brass_manifest_rhythm(7),
     animales.parts('Trumpet', 3),
     baca.pitches('G4 A4'),
     baca.score(baca.voice_two()),
@@ -178,7 +178,7 @@ maker(
 
 maker(
     baca.scope('TrumpetVoiceII', 'all'),
-    animales.brass_manifest_rhythm(2, preamble=[-20], rotation=-2),
+    animales.brass_manifest_rhythm(6),
     animales.margin_markup('Tp. (2+4)'),
     animales.parts('Trumpet', 2),
     baca.score(baca.dynamics_up()),
@@ -189,7 +189,7 @@ maker(
 
 maker(
     baca.scope('TrumpetVoiceIV', 'all'),
-    animales.brass_manifest_rhythm(2, preamble=[-8], rotation=-3),
+    animales.brass_manifest_rhythm(8),
     animales.parts('Trumpet', 4),
     baca.pitches('G4 A4'),
     baca.score(baca.voice_two()),
@@ -200,7 +200,7 @@ maker(
 
 maker(
     baca.scope('TromboneVoiceI', 'all'),
-    animales.brass_manifest_rhythm(3, preamble=[-18], rotation=0),
+    animales.brass_manifest_rhythm(9),
     animales.margin_markup('Trb. (1+3)'),
     animales.parts('Trombone', 1),
     baca.pitches('Ab3 Bb3'),
@@ -211,7 +211,7 @@ maker(
 
 maker(
     baca.scope('TromboneVoiceIII', 'all'),
-    animales.brass_manifest_rhythm(3, rotation=-1),
+    animales.brass_manifest_rhythm(11),
     animales.parts('Trombone', 3),
     baca.pitches('G3 A3'),
     baca.score(baca.voice_two()),
@@ -220,7 +220,7 @@ maker(
 
 maker(
     baca.scope('TromboneVoiceII', 'all'),
-    animales.brass_manifest_rhythm(3, preamble=[-26], rotation=-2),
+    animales.brass_manifest_rhythm(10),
     animales.margin_markup('Trb. (2+4)'),
     animales.parts('Trombone', 2),
     baca.pitches('Ab3 Bb3'),
@@ -231,7 +231,7 @@ maker(
 
 maker(
     baca.scope('TromboneVoiceIV', 'all'),
-    animales.brass_manifest_rhythm(3, preamble=[-8], rotation=-3),
+    animales.brass_manifest_rhythm(12),
     animales.parts('Trombone', 4),
     baca.pitches('G3 A3'),
     baca.score(baca.voice_two()),

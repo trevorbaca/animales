@@ -719,7 +719,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='TromboneVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -729,7 +729,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='TromboneVoiceII',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='ff',
                                 ),
                             ],
                         ),
@@ -749,7 +749,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='TromboneVoiceIV',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -809,7 +809,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='TrumpetVoiceII',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='ff',
                                 ),
                             ],
                         ),
@@ -905,6 +905,198 @@ metadata = abjad.OrderedDict(
             'voice_metadata',
             abjad.OrderedDict(
                 [
+                    (
+                        'HornVoiceI',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'brass_manifest_rhythm',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 40),
+                                            ('talea_weight_consumed', 90),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'HornVoiceIII',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'brass_manifest_rhythm',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 40),
+                                            ('talea_weight_consumed', 90),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'HornVoiceII',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'brass_manifest_rhythm',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 40),
+                                            ('talea_weight_consumed', 90),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'HornVoiceIV',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'brass_manifest_rhythm',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 40),
+                                            ('talea_weight_consumed', 90),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'TrumpetVoiceI',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'brass_manifest_rhythm',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 40),
+                                            ('talea_weight_consumed', 90),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'TrumpetVoiceIII',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'brass_manifest_rhythm',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 40),
+                                            ('talea_weight_consumed', 90),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'TrumpetVoiceII',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'brass_manifest_rhythm',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 40),
+                                            ('talea_weight_consumed', 90),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'TrumpetVoiceIV',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'brass_manifest_rhythm',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 40),
+                                            ('talea_weight_consumed', 90),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'TromboneVoiceI',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'brass_manifest_rhythm',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 40),
+                                            ('talea_weight_consumed', 90),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'TromboneVoiceIII',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'brass_manifest_rhythm',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 40),
+                                            ('talea_weight_consumed', 90),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'TromboneVoiceII',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'brass_manifest_rhythm',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 40),
+                                            ('talea_weight_consumed', 90),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'TromboneVoiceIV',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'brass_manifest_rhythm',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 40),
+                                            ('talea_weight_consumed', 90),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
                     (
                         'PianoVoiceI',
                         abjad.OrderedDict(
