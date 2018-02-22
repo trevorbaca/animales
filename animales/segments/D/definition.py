@@ -16,6 +16,7 @@ maker = baca.SegmentMaker(
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
     measures_per_stage=True,
+    metronome_mark_spanner_right_broken=True,
     metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
@@ -58,13 +59,13 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, 'end')),
+    baca.scope('GlobalSkips', 'all'),
     baca.metronome_mark(abjad.Accelerando()),
-    baca.rehearsal_mark(4),
-    #baca.tag(
-    #    '+TABLOID_SCORE',
-    #    baca.rehearsal_mark_extra_offset((0, 6)),
-    #    ),
+    baca.rehearsal_mark('D'),
+    baca.tag(
+        '+TABLOID_SCORE',
+        baca.rehearsal_mark_extra_offset((0, 6)),
+        ),
     )
 
 # clarinet

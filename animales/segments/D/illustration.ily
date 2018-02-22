@@ -24,6 +24,7 @@ D_GlobalRests = {
 D_GlobalSkips = {
     
     % [D GlobalSkips measure 44]                                         %! SM4
+%%% \once \override GlobalContext.RehearsalMark.extra-offset = #'(0 . 6) %! OC1:+TABLOID_SCORE
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \large                                                           %! SM27:EXPLICIT_METRONOME_MARK
@@ -229,7 +230,7 @@ D_GlobalSkips = {
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \stopTextSpan                                                        %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {

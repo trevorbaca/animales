@@ -24,6 +24,7 @@ E_GlobalRests = {
 E_GlobalSkips = {
     
     % [E GlobalSkips measure 50]                                         %! SM4
+%%% \once \override GlobalContext.RehearsalMark.extra-offset = #'(0 . 6) %! OC1:+TABLOID_SCORE
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -80,6 +81,7 @@ E_GlobalSkips = {
     \once \override Score.TimeSignature.color = #(x11-color 'green4)     %! SM6:REAPPLIED_TIME_SIGNATURE_COLOR:SM38:SM1
     s1 * 1
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+%@% \stopTextSpan                                                        %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -117,6 +119,7 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
+%%% \stopTextSpan                                                        %! SM39:-SEGMENT
     
     % [E GlobalSkips measure 51]                                         %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
