@@ -965,6 +965,14 @@ metadata = abjad.OrderedDict(
                                             ]
                                         ),
                                     ),
+                                (
+                                    'brass_pitches',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('pitches_consumed', 4),
+                                            ]
+                                        ),
+                                    ),
                                 ]
                             ),
                         ),
@@ -979,6 +987,14 @@ metadata = abjad.OrderedDict(
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 40),
+                                            ]
+                                        ),
+                                    ),
+                                (
+                                    'brass_pitches',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('pitches_consumed', 5),
                                             ]
                                         ),
                                     ),
@@ -999,6 +1015,14 @@ metadata = abjad.OrderedDict(
                                             ]
                                         ),
                                     ),
+                                (
+                                    'brass_pitches',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('pitches_consumed', 4),
+                                            ]
+                                        ),
+                                    ),
                                 ]
                             ),
                         ),
@@ -1013,6 +1037,14 @@ metadata = abjad.OrderedDict(
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 41),
+                                            ]
+                                        ),
+                                    ),
+                                (
+                                    'brass_pitches',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('pitches_consumed', 5),
                                             ]
                                         ),
                                     ),
@@ -1033,6 +1065,14 @@ metadata = abjad.OrderedDict(
                                             ]
                                         ),
                                     ),
+                                (
+                                    'brass_pitches',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('pitches_consumed', 5),
+                                            ]
+                                        ),
+                                    ),
                                 ]
                             ),
                         ),
@@ -1047,6 +1087,14 @@ metadata = abjad.OrderedDict(
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 40),
+                                            ]
+                                        ),
+                                    ),
+                                (
+                                    'brass_pitches',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('pitches_consumed', 6),
                                             ]
                                         ),
                                     ),
@@ -1067,6 +1115,14 @@ metadata = abjad.OrderedDict(
                                             ]
                                         ),
                                     ),
+                                (
+                                    'brass_pitches',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('pitches_consumed', 4),
+                                            ]
+                                        ),
+                                    ),
                                 ]
                             ),
                         ),
@@ -1081,6 +1137,14 @@ metadata = abjad.OrderedDict(
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 41),
+                                            ]
+                                        ),
+                                    ),
+                                (
+                                    'brass_pitches',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('pitches_consumed', 5),
                                             ]
                                         ),
                                     ),
@@ -1101,6 +1165,14 @@ metadata = abjad.OrderedDict(
                                             ]
                                         ),
                                     ),
+                                (
+                                    'brass_pitches',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('pitches_consumed', 5),
+                                            ]
+                                        ),
+                                    ),
                                 ]
                             ),
                         ),
@@ -1114,6 +1186,14 @@ metadata = abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 18),
                                             ('talea_weight_consumed', 40),
+                                            ]
+                                        ),
+                                    ),
+                                (
+                                    'brass_pitches',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('pitches_consumed', 6),
                                             ]
                                         ),
                                     ),
@@ -1134,6 +1214,14 @@ metadata = abjad.OrderedDict(
                                             ]
                                         ),
                                     ),
+                                (
+                                    'brass_pitches',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('pitches_consumed', 5),
+                                            ]
+                                        ),
+                                    ),
                                 ]
                             ),
                         ),
@@ -1148,6 +1236,14 @@ metadata = abjad.OrderedDict(
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 41),
+                                            ]
+                                        ),
+                                    ),
+                                (
+                                    'brass_pitches',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('pitches_consumed', 6),
                                             ]
                                         ),
                                     ),
