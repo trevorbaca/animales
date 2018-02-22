@@ -378,11 +378,11 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'sforzando_exchange_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 58),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 348),
                                             ]
                                         ),
@@ -395,11 +395,11 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'sforzando_exchange_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 58),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 348),
                                             ]
                                         ),
@@ -412,11 +412,11 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'sforzando_exchange_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 58),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 348),
                                             ]
                                         ),
@@ -429,11 +429,11 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'sforzando_exchange_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 58),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 348),
                                             ]
                                         ),
@@ -446,11 +446,11 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'sforzando_exchange_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 58),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 348),
                                             ]
                                         ),
@@ -463,11 +463,11 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'sforzando_exchange_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 58),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 348),
                                             ]
                                         ),
@@ -480,11 +480,11 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'sforzando_exchange_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 58),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 348),
                                             ]
                                         ),
