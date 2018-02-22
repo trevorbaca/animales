@@ -69,12 +69,8 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, 'end')),
+    baca.scope('GlobalSkips', 'all'),
     baca.rehearsal_mark('F'),
-    #baca.tag(
-    #    '+TABLOID_SCORE',
-    #    baca.rehearsal_mark_extra_offset((0, 6)),
-    #    ),
     )
 
 # clarinet

@@ -67,7 +67,7 @@ maker = baca.SegmentMaker(
 
 maker(
     baca.scope('GlobalSkips', 3),
-    baca.rehearsal_mark(1),
+    baca.rehearsal_mark('A'),
     )
 
 maker(

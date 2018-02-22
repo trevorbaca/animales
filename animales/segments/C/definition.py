@@ -56,9 +56,9 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, 'end')),
+    baca.scope('GlobalSkips', 'all'),
     baca.metronome_mark('76'),
-    baca.rehearsal_mark(3),
+    baca.rehearsal_mark('C'),
     baca.tag(
         '+TABLOID_SCORE',
         baca.rehearsal_mark_extra_offset((0, 6)),
