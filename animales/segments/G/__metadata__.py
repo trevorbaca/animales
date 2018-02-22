@@ -910,20 +910,20 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'brass_manifest_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 40),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 90),
                                             ]
                                         ),
                                     ),
                                 (
-                                    'brass_pitches',
+                                    'PITCH',
                                     abjad.OrderedDict(
                                         [
-                                            ('pitches_consumed', 11),
+                                            ('pitches_consumed', 10),
                                             ]
                                         ),
                                     ),
@@ -935,20 +935,19 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'brass_manifest_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 40),
-                                            ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 90),
                                             ]
                                         ),
                                     ),
                                 (
-                                    'brass_pitches',
+                                    'PITCH',
                                     abjad.OrderedDict(
                                         [
-                                            ('pitches_consumed', 11),
+                                            ('pitches_consumed', 10),
                                             ]
                                         ),
                                     ),
@@ -960,7 +959,7 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'brass_manifest_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 40),
@@ -969,10 +968,10 @@ metadata = abjad.OrderedDict(
                                         ),
                                     ),
                                 (
-                                    'brass_pitches',
+                                    'PITCH',
                                     abjad.OrderedDict(
                                         [
-                                            ('pitches_consumed', 10),
+                                            ('pitches_consumed', 9),
                                             ]
                                         ),
                                     ),
@@ -984,20 +983,20 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'brass_manifest_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 40),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 90),
                                             ]
                                         ),
                                     ),
                                 (
-                                    'brass_pitches',
+                                    'PITCH',
                                     abjad.OrderedDict(
                                         [
-                                            ('pitches_consumed', 11),
+                                            ('pitches_consumed', 10),
                                             ]
                                         ),
                                     ),
@@ -1009,20 +1008,20 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'brass_manifest_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 40),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 90),
                                             ]
                                         ),
                                     ),
                                 (
-                                    'brass_pitches',
+                                    'PITCH',
                                     abjad.OrderedDict(
                                         [
-                                            ('pitches_consumed', 12),
+                                            ('pitches_consumed', 11),
                                             ]
                                         ),
                                     ),
@@ -1034,20 +1033,20 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'brass_manifest_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 40),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 90),
                                             ]
                                         ),
                                     ),
                                 (
-                                    'brass_pitches',
+                                    'PITCH',
                                     abjad.OrderedDict(
                                         [
-                                            ('pitches_consumed', 13),
+                                            ('pitches_consumed', 12),
                                             ]
                                         ),
                                     ),
@@ -1059,7 +1058,7 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'brass_manifest_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 40),
@@ -1068,7 +1067,7 @@ metadata = abjad.OrderedDict(
                                         ),
                                     ),
                                 (
-                                    'brass_pitches',
+                                    'PITCH',
                                     abjad.OrderedDict(
                                         [
                                             ('pitches_consumed', 10),
@@ -1083,20 +1082,20 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'brass_manifest_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 40),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 90),
                                             ]
                                         ),
                                     ),
                                 (
-                                    'brass_pitches',
+                                    'PITCH',
                                     abjad.OrderedDict(
                                         [
-                                            ('pitches_consumed', 12),
+                                            ('pitches_consumed', 11),
                                             ]
                                         ),
                                     ),
@@ -1108,20 +1107,20 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'brass_manifest_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 40),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 90),
                                             ]
                                         ),
                                     ),
                                 (
-                                    'brass_pitches',
+                                    'PITCH',
                                     abjad.OrderedDict(
                                         [
-                                            ('pitches_consumed', 14),
+                                            ('pitches_consumed', 13),
                                             ]
                                         ),
                                     ),
@@ -1133,17 +1132,17 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'brass_manifest_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 40),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 90),
                                             ]
                                         ),
                                     ),
                                 (
-                                    'brass_pitches',
+                                    'PITCH',
                                     abjad.OrderedDict(
                                         [
                                             ('pitches_consumed', 14),
@@ -1158,20 +1157,20 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'brass_manifest_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 40),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 90),
                                             ]
                                         ),
                                     ),
                                 (
-                                    'brass_pitches',
+                                    'PITCH',
                                     abjad.OrderedDict(
                                         [
-                                            ('pitches_consumed', 13),
+                                            ('pitches_consumed', 12),
                                             ]
                                         ),
                                     ),
@@ -1183,20 +1182,20 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'brass_manifest_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 40),
-                                            ('incomplete_last_count', True),
+                                            ('incomplete_last_note', True),
                                             ('talea_weight_consumed', 90),
                                             ]
                                         ),
                                     ),
                                 (
-                                    'brass_pitches',
+                                    'PITCH',
                                     abjad.OrderedDict(
                                         [
-                                            ('pitches_consumed', 14),
+                                            ('pitches_consumed', 13),
                                             ]
                                         ),
                                     ),
@@ -1208,11 +1207,10 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'harp_exchange_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 112),
-                                            ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 672),
                                             ]
                                         ),
@@ -1225,11 +1223,10 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'harp_exchange_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 112),
-                                            ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 672),
                                             ]
                                         ),
@@ -1242,11 +1239,10 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'harp_exchange_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 112),
-                                            ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 672),
                                             ]
                                         ),
@@ -1259,11 +1255,10 @@ metadata = abjad.OrderedDict(
                         abjad.OrderedDict(
                             [
                                 (
-                                    'harp_exchange_rhythm',
+                                    'RHYTHM',
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 112),
-                                            ('incomplete_last_count', True),
                                             ('talea_weight_consumed', 672),
                                             ]
                                         ),
