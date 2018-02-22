@@ -961,6 +961,7 @@ metadata = abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_note', True),
+                                            ('logical_ties_produced', 9),
                                             ('talea_weight_consumed', 40),
                                             ]
                                         ),
@@ -986,6 +987,7 @@ metadata = abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_note', True),
+                                            ('logical_ties_produced', 7),
                                             ('talea_weight_consumed', 40),
                                             ]
                                         ),
@@ -1011,6 +1013,7 @@ metadata = abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_note', True),
+                                            ('logical_ties_produced', 11),
                                             ('talea_weight_consumed', 41),
                                             ]
                                         ),
@@ -1036,6 +1039,7 @@ metadata = abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_note', True),
+                                            ('logical_ties_produced', 11),
                                             ('talea_weight_consumed', 41),
                                             ]
                                         ),
@@ -1061,6 +1065,7 @@ metadata = abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_note', True),
+                                            ('logical_ties_produced', 10),
                                             ('talea_weight_consumed', 40),
                                             ]
                                         ),
@@ -1086,6 +1091,7 @@ metadata = abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_note', True),
+                                            ('logical_ties_produced', 9),
                                             ('talea_weight_consumed', 40),
                                             ]
                                         ),
@@ -1110,6 +1116,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 18),
+                                            ('logical_ties_produced', 12),
                                             ('talea_weight_consumed', 41),
                                             ]
                                         ),
@@ -1135,6 +1142,7 @@ metadata = abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_note', True),
+                                            ('logical_ties_produced', 9),
                                             ('talea_weight_consumed', 41),
                                             ]
                                         ),
@@ -1160,6 +1168,7 @@ metadata = abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_note', True),
+                                            ('logical_ties_produced', 10),
                                             ('talea_weight_consumed', 40),
                                             ]
                                         ),
@@ -1184,6 +1193,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 18),
+                                            ('logical_ties_produced', 8),
                                             ('talea_weight_consumed', 40),
                                             ]
                                         ),
@@ -1209,6 +1219,7 @@ metadata = abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_note', True),
+                                            ('logical_ties_produced', 13),
                                             ('talea_weight_consumed', 41),
                                             ]
                                         ),
@@ -1234,6 +1245,7 @@ metadata = abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 18),
                                             ('incomplete_last_note', True),
+                                            ('logical_ties_produced', 10),
                                             ('talea_weight_consumed', 41),
                                             ]
                                         ),
@@ -1258,6 +1270,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 90),
+                                            ('logical_ties_produced', 96),
                                             ('talea_weight_consumed', 540),
                                             ]
                                         ),
@@ -1274,6 +1287,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 90),
+                                            ('logical_ties_produced', 96),
                                             ('talea_weight_consumed', 540),
                                             ]
                                         ),
@@ -1290,6 +1304,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 90),
+                                            ('logical_ties_produced', 100),
                                             ('talea_weight_consumed', 540),
                                             ]
                                         ),
@@ -1306,6 +1321,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 90),
+                                            ('logical_ties_produced', 101),
                                             ('talea_weight_consumed', 540),
                                             ]
                                         ),
