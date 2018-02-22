@@ -404,6 +404,7 @@ G_HornVoiceI_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
     e'4
+    ~
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -432,66 +433,91 @@ G_HornVoiceI_a = {
                     (1+3)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \times 2/3 {
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        e'8
+        \f                                               %! HC1
+        
+        r4
+    }
     
-    fs'2.
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    fs'2
     ~
+    \<                                                   %! HC1
+    \mp                                                  %! HC1
     
     % [G HornVoiceI measure 63]                          %! SM4
     fs'4
     ~
+    \times 2/3 {
+        
+        fs'4
+        
+        e'8
+        ~
+    }
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    fs'16
-    \f                                                   %! HC1
-    
-    r8.
-    
-    r16
-    
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    e'4..
+    e'2
     ~
-    \<                                                   %! HC1
-    \mp                                                  %! HC1
     
     % [G HornVoiceI measure 64]                          %! SM4
-    e'2
+    e'4
     ~
-    
-    e'8
-    
-    fs'4.
-    ~
-    
-    % [G HornVoiceI measure 65]                          %! SM4
-    fs'2
-    ~
-    
-    % [G HornVoiceI measure 66]                          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    fs'8.
-    \ff                                                  %! HC1
-    
-    r16
-    
-    r4
+    \times 2/3 {
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        e'8
+        \ff                                              %! HC1
+        
+        r4
+    }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    e'2
+    fs'2
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [G HornVoiceI measure 67]                          %! SM4
-    e'2
+    % [G HornVoiceI measure 65]                          %! SM4
+    fs'4
     ~
+    \times 2/3 {
+        
+        fs'4
+        
+        e'8
+        ~
+    }
     
-    e'16
+    % [G HornVoiceI measure 66]                          %! SM4
+    e'2.
+    ~
+    \times 2/3 {
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        e'8
+        \ff                                              %! HC1
+        
+        r4
+    }
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    fs'4..
-    \ff                                                  %! HC1
-    
+    % [G HornVoiceI measure 67]                          %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    fs'2.
+    ~
+    \<                                                   %! HC1
+    \mp                                                  %! HC1
+    \times 2/3 {
+        
+        fs'4
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        e'8
+        \ff                                              %! HC1
+        
+    }
 }
 
 
@@ -504,57 +530,34 @@ G_HornVoiceIII_a = {
     
     % [G HornVoiceIII measure 62]                        %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    f'8
-    \f                                                   %! HC1
+    ef'4.
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    r8
-    
-    r8
-    
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ef'8
+    f'8
     ~
-    \<                                                   %! HC1
-    \mp                                                  %! HC1
     
-    ef'2
+    f'2
     ~
     
     % [G HornVoiceIII measure 63]                        %! SM4
-    ef'4..
-    
-    f'16
-    ~
-    
-    f'2
-    ~
-    
-    % [G HornVoiceIII measure 64]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    f'2
-    \ff                                                  %! HC1
+    f'4
+    \f                                                   %! HC1
     
     r4
     
-    r16
-    
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ef'8.
+    ef'2
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [G HornVoiceIII measure 65]                        %! SM4
-    ef'2
-    ~
-    
-    % [G HornVoiceIII measure 66]                        %! SM4
+    % [G HornVoiceIII measure 64]                        %! SM4
     ef'4.
     
     f'8
@@ -563,24 +566,28 @@ G_HornVoiceIII_a = {
     f'2
     ~
     
-    % [G HornVoiceIII measure 67]                        %! SM4
+    % [G HornVoiceIII measure 65]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    f'4..
+    f'4
     \ff                                                  %! HC1
     
-    r16
+    r4
     
-    r8.
-    
+    % [G HornVoiceIII measure 66]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ef'16
-    ~
+    ef'2..
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
+    f'8
+    ~
+    
+    % [G HornVoiceIII measure 67]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    ef'4
+    f'2.
     \ff                                                  %! HC1
+    
+    r4
     
 }
 
@@ -628,9 +635,9 @@ G_HornVoiceII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    e'2
-    ~                                                    %! TCC
-    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    e'2.
+    \f                                                   %! HC1
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -658,60 +665,78 @@ G_HornVoiceII_a = {
                     (2+4)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-    
-    e'8.
-    [
-    
-    fs'16
-    ~
-    ]
-    
-    fs'4
-    ~
-    
-    % [G HornVoiceII measure 63]                         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    fs'2.
-    \f                                                   %! HC1
-    
-    r4
-    
-    % [G HornVoiceII measure 64]                         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    e'1
-    ~
-    \<                                                   %! HC1
-    \mp                                                  %! HC1
-    
-    % [G HornVoiceII measure 65]                         %! SM4
-    e'16
-    
-    fs'4..
-    ~
-    
-    % [G HornVoiceII measure 66]                         %! SM4
-    fs'2
-    ~
-    
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    fs'8
-    \ff                                                  %! HC1
-    
-    r8
     \times 2/3 {
         
         r4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        e'8
+        fs'8
         ~
         \<                                               %! HC1
         \mp                                              %! HC1
     }
     
+    % [G HornVoiceII measure 63]                         %! SM4
+    fs'2.
+    ~
+    \times 2/3 {
+        
+        fs'8
+        
+        e'4
+        ~
+    }
+    
+    % [G HornVoiceII measure 64]                         %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    e'2.
+    \ff                                                  %! HC1
+    \times 2/3 {
+        
+        r4
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        fs'8
+        ~
+        \<                                               %! HC1
+        \mp                                              %! HC1
+    }
+    
+    % [G HornVoiceII measure 65]                         %! SM4
+    fs'2
+    ~
+    
+    % [G HornVoiceII measure 66]                         %! SM4
+    fs'4
+    ~
+    \times 2/3 {
+        
+        fs'8
+        
+        e'4
+        ~
+    }
+    
+    e'2
+    ~
+    
     % [G HornVoiceII measure 67]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    e'1
+    e'4
+    \ff                                                  %! HC1
+    \times 2/3 {
+        
+        r4
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        fs'8
+        ~
+        \<                                               %! HC1
+        \mp                                              %! HC1
+    }
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    fs'2
     \ff                                                  %! HC1
     
 }
@@ -726,8 +751,7 @@ G_HornVoiceIV_a = {
     
     % [G HornVoiceIV measure 62]                         %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    f'2
-    ~
+    ef'2.
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -735,59 +759,65 @@ G_HornVoiceIV_a = {
             (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    f'16
-    \f                                                   %! HC1
-    
-    r8.
-    
-    r16
-    
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ef'8.
+    f'4
     ~
-    \<                                                   %! HC1
-    \mp                                                  %! HC1
     
     % [G HornVoiceIV measure 63]                         %! SM4
-    ef'2..
-    
-    f'8
+    f'2
     ~
+    \times 2/3 {
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        f'4
+        \f                                               %! HC1
+        
+        r8
+    }
     
-    % [G HornVoiceIV measure 64]                         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    f'2...
-    \ff                                                  %! HC1
-    
-    r16
-    
-    % [G HornVoiceIV measure 65]                         %! SM4
-    r4
+    r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ef'4
+    ef'8
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [G HornVoiceIV measure 66]                         %! SM4
+    % [G HornVoiceIV measure 64]                         %! SM4
     ef'2.
+    
+    f'4
     ~
     
-    ef'16
-    [
-    
-    f'8.
+    % [G HornVoiceIV measure 65]                         %! SM4
+    f'2
     ~
-    ]
-    
-    % [G HornVoiceIV measure 67]                         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    f'2..
-    \ff                                                  %! HC1
+    \times 2/3 {
+        
+        % [G HornVoiceIV measure 66]                     %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        f'4
+        \ff                                              %! HC1
+        
+        r8
+    }
     
     r8
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    ef'8
+    ~
+    \<                                                   %! HC1
+    \mp                                                  %! HC1
+    
+    ef'2
+    ~
+    
+    % [G HornVoiceIV measure 67]                         %! SM4
+    ef'4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    f'2.
+    \ff                                                  %! HC1
     
 }
 
@@ -835,9 +865,8 @@ G_TrumpetVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf'4
-    \f                                                   %! HC1
+    af'2
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -866,7 +895,20 @@ G_TrumpetVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r4
+    bf'2
+    ~
+    
+    % [G TrumpetVoiceI measure 63]                       %! SM4
+    bf'4
+    ~
+    \times 2/3 {
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        bf'8
+        \f                                               %! HC1
+        
+        r4
+    }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af'2
@@ -874,16 +916,47 @@ G_TrumpetVoiceI_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [G TrumpetVoiceI measure 63]                       %! SM4
-    af'4..
-    
-    bf'16
+    % [G TrumpetVoiceI measure 64]                       %! SM4
+    af'4
     ~
+    \times 2/3 {
+        
+        af'8
+        
+        bf'4
+        ~
+    }
     
     bf'2
     ~
     
-    % [G TrumpetVoiceI measure 64]                       %! SM4
+    % [G TrumpetVoiceI measure 65]                       %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    bf'8
+    \ff                                                  %! HC1
+    
+    r8
+    \times 2/3 {
+        
+        r8
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        af'4
+        ~
+        \<                                               %! HC1
+        \mp                                              %! HC1
+    }
+    
+    % [G TrumpetVoiceI measure 66]                       %! SM4
+    af'2
+    ~
+    
+    af'8
+    
+    bf'4.
+    ~
+    
+    % [G TrumpetVoiceI measure 67]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     bf'4.
     \ff                                                  %! HC1
@@ -894,26 +967,6 @@ G_TrumpetVoiceI_a = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af'4.
-    ~
-    \<                                                   %! HC1
-    \mp                                                  %! HC1
-    
-    % [G TrumpetVoiceI measure 65]                       %! SM4
-    af'2
-    ~
-    
-    % [G TrumpetVoiceI measure 66]                       %! SM4
-    af'16
-    
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf'2...
-    \ff                                                  %! HC1
-    
-    % [G TrumpetVoiceI measure 67]                       %! SM4
-    r4
-    
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af'2.
     \mp                                                  %! HC1
     
 }
@@ -928,35 +981,69 @@ G_TrumpetVoiceIII_a = {
     
     % [G TrumpetVoiceIII measure 62]                     %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    g'2
-    ~                                                    %! TCC
+    a'2
+    ~
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \times 2/3 {
-        
-        g'4
-        
-        a'8
-        ~
-    }
     
-    a'4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    a'8
+    \f                                                   %! HC1
+    
+    r8
+    
+    r8
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    g'8
     ~
+    \<                                                   %! HC1
+    \mp                                                  %! HC1
     
     % [G TrumpetVoiceIII measure 63]                     %! SM4
+    g'2
+    ~
+    
+    g'8
+    
+    a'4.
+    ~
+    
+    % [G TrumpetVoiceIII measure 64]                     %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    a'4.
+    \ff                                                  %! HC1
+    
+    r8
+    
+    r8
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    g'4.
+    ~
+    \<                                                   %! HC1
+    \mp                                                  %! HC1
+    
+    % [G TrumpetVoiceIII measure 65]                     %! SM4
+    g'4.
+    
+    a'8
+    ~
+    
+    % [G TrumpetVoiceIII measure 66]                     %! SM4
     a'2
     ~
     \times 2/3 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        a'8
-        \f                                               %! HC1
+        a'4
+        \ff                                              %! HC1
         
-        r4
+        r8
     }
     
     r8
@@ -967,42 +1054,19 @@ G_TrumpetVoiceIII_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [G TrumpetVoiceIII measure 64]                     %! SM4
-    g'2.
-    ~
-    
-    g'16
-    [
-    
-    a'8.
-    ~
-    ]
-    
-    % [G TrumpetVoiceIII measure 65]                     %! SM4
-    a'2
-    ~
-    
-    % [G TrumpetVoiceIII measure 66]                     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    a'4
-    \ff                                                  %! HC1
-    
-    r4
-    
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    % [G TrumpetVoiceIII measure 67]                     %! SM4
     g'2
     ~
-    \<                                                   %! HC1
-    \mp                                                  %! HC1
-    
-    % [G TrumpetVoiceIII measure 67]                     %! SM4
-    g'4..
-    
-    a'16
-    ~
+    \times 2/3 {
+        
+        g'4
+        
+        a'8
+        ~
+    }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    a'2
+    a'4
     \ff                                                  %! HC1
     
 }
@@ -1049,11 +1113,11 @@ G_TrumpetVoiceII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf'2..
-    \f                                                   %! HC1
+    r8
+    \mp                                                  %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -1082,65 +1146,61 @@ G_TrumpetVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8
-    
-    % [G TrumpetVoiceII measure 63]                      %! SM4
-    r8
-    
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af'2..
+    af'8
     ~
-    \<                                                   %! HC1
-    \mp                                                  %! HC1
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     
-    % [G TrumpetVoiceII measure 64]                      %! SM4
-    af'16
-    
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf'2...
-    \ff                                                  %! HC1
-    
-    % [G TrumpetVoiceII measure 65]                      %! SM4
-    r4
-    
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af'4
-    ~
-    \<                                                   %! HC1
-    \mp                                                  %! HC1
-    
-    % [G TrumpetVoiceII measure 66]                      %! SM4
     af'2
     ~
+    \times 2/3 {
+        
+        af'4
+        
+        bf'8
+        ~
+    }
     
-    af'8.
-    [
-    
-    bf'16
-    ~
-    ]
-    
-    bf'4
-    ~
-    
-    % [G TrumpetVoiceII measure 67]                      %! SM4
-    bf'2
-    ~
-    
+    % [G TrumpetVoiceII measure 63]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf'8
-    \ff                                                  %! HC1
-    
-    r8
+    bf'2.
+    \f                                                   %! HC1
     \times 2/3 {
         
         r4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         af'8
+        ~
+        \<                                               %! HC1
         \mp                                              %! HC1
-        
     }
+    
+    % [G TrumpetVoiceII measure 64]                      %! SM4
+    af'2.
+    
+    bf'4
+    ~
+    
+    % [G TrumpetVoiceII measure 65]                      %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    bf'2
+    \ff                                                  %! HC1
+    
+    % [G TrumpetVoiceII measure 66]                      %! SM4
+    r4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    af'2.
+    \<                                                   %! HC1
+    \mp                                                  %! HC1
+    
+    % [G TrumpetVoiceII measure 67]                      %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    bf'2.
+    \ff                                                  %! HC1
+    
+    r4
+    
 }
 
 
@@ -1150,78 +1210,60 @@ G_TrumpetVoiceII = {
 
 
 G_TrumpetVoiceIV_a = {
-    \times 2/3 {
-        
-        % [G TrumpetVoiceIV measure 62]                  %! SM4
-        \voiceTwo                                        %! IC:-PARTS
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        a'8
-        \f                                               %! HC1
-        ^ \markup {                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            \with-color                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                #(x11-color 'green4)                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                (“Trumpet”)                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        
-        r4
-    }
     
-    r8
+    % [G TrumpetVoiceIV measure 62]                      %! SM4
+    \voiceTwo                                            %! IC:-PARTS
+    a'4
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    g'2.
+    \f                                                   %! HC1
+    
+    % [G TrumpetVoiceIV measure 63]                      %! SM4
+    r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    g'8
-    ~
+    a'2.
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    g'2
-    ~
-    
-    % [G TrumpetVoiceIV measure 63]                      %! SM4
-    g'4
-    ~
-    
-    g'16
-    [
-    
-    a'8.
-    ~
-    ]
-    
-    a'2
-    ~
-    
     % [G TrumpetVoiceIV measure 64]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    a'4
+    g'2.
     \ff                                                  %! HC1
     
     r4
     
+    % [G TrumpetVoiceIV measure 65]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    g'2
+    a'2
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [G TrumpetVoiceIV measure 65]                      %! SM4
-    g'4..
-    
-    a'16
-    ~
-    
     % [G TrumpetVoiceIV measure 66]                      %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    a'2..
-    \ff                                                  %! HC1
+    a'4
     
-    r8
-    
-    % [G TrumpetVoiceIV measure 67]                      %! SM4
-    r8
+    g'2.
+    ~
+    \times 2/3 {
+        
+        % [G TrumpetVoiceIV measure 67]                  %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        g'8
+        \ff                                              %! HC1
+        
+        r4
+    }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    g'2..
+    a'2.
     \mp                                                  %! HC1
     
 }
@@ -1305,78 +1347,69 @@ G_TromboneVoiceI_a = {
     ~
     ]
     
-    bf2
-    ~
-    \times 2/3 {
-        
-        bf4
-        
-        af8
-        ~
-    }
-    
-    % [G TromboneVoiceI measure 63]                      %! SM4
-    af2
-    ~
-    
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    af8.
+    bf2
     \f                                                   %! HC1
-    
-    r16
     
     r4
     
-    % [G TromboneVoiceI measure 64]                      %! SM4
+    % [G TromboneVoiceI measure 63]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    bf2.
+    af2
+    ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    af4
+    af8
+    
+    bf4.
     ~
+    
+    % [G TromboneVoiceI measure 64]                      %! SM4
+    bf4
+    ~
+    \times 2/3 {
+        
+        bf8
+        
+        af4
+        ~
+    }
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    af2
+    \ff                                                  %! HC1
     
     % [G TromboneVoiceI measure 65]                      %! SM4
-    af2
-    ~
-    
-    % [G TromboneVoiceI measure 66]                      %! SM4
-    af16
-    [
-    
-    bf8.
-    ~
-    ]
-    
-    bf2
-    ~
-    
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf8
-    \ff                                                  %! HC1
-    
-    r8
-    
-    % [G TromboneVoiceI measure 67]                      %! SM4
-    r8
+    r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af8
+    bf4
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    af2
+    % [G TromboneVoiceI measure 66]                      %! SM4
+    bf4.
+    
+    af8
     ~
     
-    af8.
-    [
+    af2
     
+    % [G TromboneVoiceI measure 67]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf16
+    bf2.
     \ff                                                  %! HC1
-    ]
-    
+    \times 2/3 {
+        
+        r4
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        af8
+        \mp                                              %! HC1
+        
+    }
 }
 
 
@@ -1389,77 +1422,84 @@ G_TromboneVoiceIII_a = {
     
     % [G TromboneVoiceIII measure 62]                    %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a2
-    \f                                                   %! HC1
+    ~
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Trombone”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    r4
+    a8
     
-    r16
-    
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    g8.
+    g4.
     ~
-    \<                                                   %! HC1
-    \mp                                                  %! HC1
     
     % [G TromboneVoiceIII measure 63]                    %! SM4
+    g4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    a2.
+    \f                                                   %! HC1
+    \times 2/3 {
+        
+        % [G TromboneVoiceIII measure 64]                %! SM4
+        r4
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        g8
+        ~
+        \<                                               %! HC1
+        \mp                                              %! HC1
+    }
+    
+    g2
+    ~
+    
+    g8
+    [
+    
+    a8
+    ~
+    ]
+    
+    % [G TromboneVoiceIII measure 65]                    %! SM4
+    a2
+    
+    % [G TromboneVoiceIII measure 66]                    %! SM4
     g2
     ~
     \times 2/3 {
         
-        g8
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        g4
+        \ff                                              %! HC1
         
-        a4
-        ~
+        r8
     }
     
-    a4
-    ~
-    
-    % [G TromboneVoiceIII measure 64]                    %! SM4
-    a4.
-    
-    g8
-    ~
-    
-    g2
-    ~
-    
-    % [G TromboneVoiceIII measure 65]                    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    g8.
-    \ff                                                  %! HC1
-    
-    r16
-    
-    r8.
+    r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    a16
+    a8
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [G TromboneVoiceIII measure 66]                    %! SM4
-    a2.
-    
-    g4
-    ~
-    
     % [G TromboneVoiceIII measure 67]                    %! SM4
-    g2
+    a2
     ~
-    
-    g16
+    \times 2/3 {
+        
+        a8
+        
+        g4
+        ~
+    }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    a4..
+    g4
     \ff                                                  %! HC1
     
 }
@@ -1508,7 +1548,7 @@ G_TromboneVoiceII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    bf2.
+    af2
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -1538,39 +1578,54 @@ G_TromboneVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    af4
+    bf2
     ~
     
     % [G TromboneVoiceII measure 63]                     %! SM4
-    af2
-    ~
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    bf8
+    \f                                                   %! HC1
     
-    af16
-    
-    bf4..
-    ~
-    
-    % [G TromboneVoiceII measure 64]                     %! SM4
-    bf4
-    ~
-    \times 2/3 {
-        
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        bf8
-        \f                                               %! HC1
-        
-        r4
-    }
+    r8
     
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af4.
+    af8
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
+    af2
+    
+    % [G TromboneVoiceII measure 64]                     %! SM4
+    bf2.
+    
+    af4
+    ~
+    
     % [G TromboneVoiceII measure 65]                     %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    af4.
+    \ff                                                  %! HC1
+    
+    r8
+    
+    % [G TromboneVoiceII measure 66]                     %! SM4
+    r8
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    bf8
+    ~
+    \<                                                   %! HC1
+    \mp                                                  %! HC1
+    
+    bf2
+    
+    af4
+    ~
+    
+    % [G TromboneVoiceII measure 67]                     %! SM4
     af4
     ~
     \times 2/3 {
@@ -1581,30 +1636,9 @@ G_TromboneVoiceII_a = {
         ~
     }
     
-    % [G TromboneVoiceII measure 66]                     %! SM4
-    bf2
-    ~
-    
-    bf8.
-    [
-    
-    af16
-    ~
-    ]
-    
-    af4
-    ~
-    
-    % [G TromboneVoiceII measure 67]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    af2
+    bf2
     \ff                                                  %! HC1
-    
-    r4
-    
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    bf4
-    \mp                                                  %! HC1
     
 }
 
@@ -1618,33 +1652,16 @@ G_TromboneVoiceIV_a = {
     
     % [G TromboneVoiceIV measure 62]                     %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    g4
-    ~                                                    %! TCC
-    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    a8
+    \f                                                   %! HC1
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Trombone”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    g16
-    [
-    
-    a8.
-    ~
-    ]
-    
-    a2
-    ~
-    \times 2/3 {
-        
-        % [G TromboneVoiceIV measure 63]                 %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        a8
-        \f                                               %! HC1
-        
-        r4
-    }
+    r8
     
     r8
     
@@ -1655,57 +1672,68 @@ G_TromboneVoiceIV_a = {
     \mp                                                  %! HC1
     
     g2
+    
+    % [G TromboneVoiceIV measure 63]                     %! SM4
+    a2
     ~
     \times 2/3 {
         
-        % [G TromboneVoiceIV measure 64]                 %! SM4
-        g4
+        a4
         
-        a8
+        g8
         ~
     }
     
-    a2
-    ~
-    
-    a8.
-    [
-    
-    g16
-    ~
-    ]
-    
-    % [G TromboneVoiceIV measure 65]                     %! SM4
-    g2
-    ~
-    
-    % [G TromboneVoiceIV measure 66]                     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g4
+    ~
+    
+    % [G TromboneVoiceIV measure 64]                     %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    g4.
     \ff                                                  %! HC1
     
-    r4
+    r8
+    \times 2/3 {
+        
+        r8
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        a4
+        ~
+        \<                                               %! HC1
+        \mp                                              %! HC1
+    }
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    a2
-    ~
-    \<                                                   %! HC1
-    \mp                                                  %! HC1
-    
-    % [G TromboneVoiceIV measure 67]                     %! SM4
     a4
     ~
     
-    a16
-    [
+    % [G TromboneVoiceIV measure 65]                     %! SM4
+    a4
     
-    g8.
+    g4
     ~
-    ]
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    g2
-    \ff                                                  %! HC1
+    % [G TromboneVoiceIV measure 66]                     %! SM4
+    g4.
+    
+    a8
+    ~
+    
+    a2
+    ~
+    \times 2/3 {
+        
+        % [G TromboneVoiceIV measure 67]                 %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        a8
+        \ff                                              %! HC1
+        
+        r4
+    }
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    g2.
+    \mp                                                  %! HC1
     
 }
 
