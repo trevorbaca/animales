@@ -71,7 +71,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie_to(),
     baca.repeat_ties_up(),
-    baca.score(baca.bar_extent_zero()),
+    baca.not_parts(baca.bar_extent_zero()),
     baca.stem_tremolo(),
     )
 
@@ -82,7 +82,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie_to(),
     baca.repeat_ties_up(),
-    baca.score(baca.bar_extent_zero()),
+    baca.not_parts(baca.bar_extent_zero()),
     baca.stem_tremolo(),
     )
 
@@ -102,16 +102,16 @@ maker(
         baca.tie_repeat_pitches(),
         baca.glissando(),
         ]),
-    baca.parts(baca.stop_trill()),
-    baca.score(baca.dynamic_line_spanner_up()),
-    baca.score(baca.voice_one()),
+    baca.parts_only(baca.stop_trill()),
+    baca.not_parts(baca.dynamic_line_spanner_up()),
+    baca.not_parts(baca.voice_one()),
     )
 
 maker(
     baca.scope('FirstViolinVoiceI', 'all'),
     animales.parts('FirstViolin', (2, 10)),
     animales.sforzando_exchange_rhythm(0),
-    baca.score(baca.voice_two()),
+    baca.not_parts(baca.voice_two()),
     )
 
 maker(

@@ -101,38 +101,39 @@ maker(
     baca.scope('HornVoiceI', 'all'),
     animales.downbeat_attack(),
     animales.parts('Horn', 1),
-    #baca.dynamic('sfz'),
-    #baca.pitches('A3 B3', persist=True),
-    baca.score(baca.dynamics_up()),
-    baca.score(baca.voice_one()),
+    #baca.force_accidentals(),
+    baca.parts_only(baca.dynamic('sfz')),
+    baca.pitches('A3 B3', ignore_incomplete=True, persist='seconds'),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.force_accidentals()),
+    #baca.not_parts(baca.note_column_shift(1.7)),
+    baca.not_parts(baca.voice_one()),
     )
 
-#maker(
-#    baca.scope('HornVoiceIII', 'all'),
-#    animales.brass_manifest_rhythm(3),
-#    animales.parts('Horn', 3),
-#    baca.pitches('Ab3 Bb3', persist=True),
-#    baca.score(baca.voice_two()),
-#    crescendi,
-#    )
-#
+maker(
+    baca.scope('HornVoiceIII', 'all'),
+    animales.downbeat_attack(),
+    animales.parts('Horn', 3),
+    baca.dynamic('sfz'),
+    baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
+    baca.not_parts(baca.voice_two()),
+    )
+
 #maker(
 #    baca.scope('HornVoiceII', 'all'),
 #    animales.brass_manifest_rhythm(2),
 #    animales.parts('Horn', 2),
-#    baca.pitches('A3 B3', persist=True),
-#    baca.score(baca.dynamics_up()),
-#    baca.score(baca.voice_one()),
-#    crescendi,
+#    baca.pitches('A3 B3', ignore_incomplete=True, persist='seconds'),
+#    baca.not_parts(baca.dynamics_up()),
+#    baca.not_parts(baca.voice_one()),
 #    )
 #
 #maker(
 #    baca.scope('HornVoiceIV', 'all'),
 #    animales.brass_manifest_rhythm(4),
 #    animales.parts('Horn', 4),
-#    baca.pitches('Ab3 Bb3', persist=True),
-#    baca.score(baca.voice_two()),
-#    crescendi,
+#    baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
+#    baca.not_parts(baca.voice_two()),
 #    )
 #
 ## trumpets
@@ -141,38 +142,34 @@ maker(
 #    baca.scope('TrumpetVoiceI', 'all'),
 #    animales.brass_manifest_rhythm(5),
 #    animales.parts('Trumpet', 1),
-#    baca.score(baca.dynamics_up()),
-#    baca.pitches('Ab4 Bb4', persist=True),
-#    baca.score(baca.voice_one()),
-#    crescendi,
+#    baca.not_parts(baca.dynamics_up()),
+#    baca.pitches('Ab4 Bb4', ignore_incomplete=True, persist='seconds'),
+#    baca.not_parts(baca.voice_one()),
 #    )
 #
 #maker(
 #    baca.scope('TrumpetVoiceIII', 'all'),
 #    animales.brass_manifest_rhythm(7),
 #    animales.parts('Trumpet', 3),
-#    baca.pitches('G4 A4', persist=True),
-#    baca.score(baca.voice_two()),
-#    crescendi,
+#    baca.pitches('G4 A4', ignore_incomplete=True, persist='seconds'),
+#    baca.not_parts(baca.voice_two()),
 #    )
 #
 #maker(
 #    baca.scope('TrumpetVoiceII', 'all'),
 #    animales.brass_manifest_rhythm(6),
 #    animales.parts('Trumpet', 2),
-#    baca.score(baca.dynamics_up()),
-#    baca.pitches('Ab4 Bb4', persist=True),
-#    baca.score(baca.voice_one()),
-#    crescendi,
+#    baca.not_parts(baca.dynamics_up()),
+#    baca.pitches('Ab4 Bb4', ignore_incomplete=True, persist='seconds'),
+#    baca.not_parts(baca.voice_one()),
 #    )
 #
 #maker(
 #    baca.scope('TrumpetVoiceIV', 'all'),
 #    animales.brass_manifest_rhythm(8),
 #    animales.parts('Trumpet', 4),
-#    baca.pitches('G4 A4', persist=True),
-#    baca.score(baca.voice_two()),
-#    crescendi,
+#    baca.pitches('G4 A4', ignore_incomplete=True, persist='seconds'),
+#    baca.not_parts(baca.voice_two()),
 #    )
 #
 ## trombones
@@ -181,38 +178,34 @@ maker(
 #    baca.scope('TromboneVoiceI', 'all'),
 #    animales.brass_manifest_rhythm(9),
 #    animales.parts('Trombone', 1),
-#    baca.pitches('Ab3 Bb3', persist=True),
-#    baca.score(baca.dynamics_up()),
-#    baca.score(baca.voice_one()),
-#    crescendi,
+#    baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
+#    baca.not_parts(baca.dynamics_up()),
+#    baca.not_parts(baca.voice_one()),
 #    )
 #
 #maker(
 #    baca.scope('TromboneVoiceIII', 'all'),
 #    animales.brass_manifest_rhythm(11),
 #    animales.parts('Trombone', 3),
-#    baca.pitches('G3 A3', persist=True),
-#    baca.score(baca.voice_two()),
-#    crescendi,
+#    baca.pitches('G3 A3', ignore_incomplete=True, persist='seconds'),
+#    baca.not_parts(baca.voice_two()),
 #    )
 #
 #maker(
 #    baca.scope('TromboneVoiceII', 'all'),
 #    animales.brass_manifest_rhythm(10),
 #    animales.parts('Trombone', 2),
-#    baca.pitches('Ab3 Bb3', persist=True),
-#    baca.score(baca.dynamics_up()),
-#    baca.score(baca.voice_one()),
-#    crescendi,
+#    baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
+#    baca.not_parts(baca.dynamics_up()),
+#    baca.not_parts(baca.voice_one()),
 #    )
 #
 #maker(
 #    baca.scope('TromboneVoiceIV', 'all'),
 #    animales.brass_manifest_rhythm(12),
 #    animales.parts('Trombone', 4),
-#    baca.pitches('G3 A3', persist=True),
-#    baca.score(baca.voice_two()),
-#    crescendi,
+#    baca.pitches('G3 A3', ignore_incomplete=True, persist='seconds'),
+#    baca.not_parts(baca.voice_two()),
 #    )
 #
 ## harp
