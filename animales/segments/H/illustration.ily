@@ -622,11 +622,12 @@ H_HornVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    r1
-    \ff                                                  %! SM8:REAPPLIED_DYNAMIC:SM37
+%%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
+%%% e'8                                                  %! AJC:+PARTS
+    e'!8                                                 %! AJC:-PARTS %@%
+%%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -654,6 +655,8 @@ H_HornVoiceI_a = {
                     (1+3)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    
+    r2..
     
     % [H HornVoiceI measure 69]                          %! SM4
     r1
@@ -684,39 +687,47 @@ H_HornVoiceI = {
 }
 
 
+H_HornVoiceIII_a = {
+    
+    % [H HornVoiceIII measure 68]                        %! SM4
+    \voiceTwo                                            %! IC:-PARTS
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    ef'8
+    \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    
+    r2..
+    
+    % [H HornVoiceIII measure 69]                        %! SM4
+    r1
+    
+    % [H HornVoiceIII measure 70]                        %! SM4
+    r1
+    
+    % [H HornVoiceIII measure 71]                        %! SM4
+    r2.
+    
+    % [H HornVoiceIII measure 72]                        %! SM4
+    r2.
+    
+    % [H HornVoiceIII measure 73]                        %! SM4
+    r1
+    
+    % [H HornVoiceIII measure 74]                        %! SM4
+    r1
+    
+    % [H HornVoiceIII measure 75]                        %! SM4
+    r1
+    
+}
+
+
 H_HornVoiceIII = {
-    
-    % [H HornVoiceIII measure 68]                            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
-    \ff                                                      %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Horn”)                                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    
-    % [H HornVoiceIII measure 69]                            %! SM4
-    R1 * 1
-    
-    % [H HornVoiceIII measure 70]                            %! SM4
-    R1 * 1
-    
-    % [H HornVoiceIII measure 71]                            %! SM4
-    R1 * 3/4
-    
-    % [H HornVoiceIII measure 72]                            %! SM4
-    R1 * 3/4
-    
-    % [H HornVoiceIII measure 73]                            %! SM4
-    R1 * 1
-    
-    % [H HornVoiceIII measure 74]                            %! SM4
-    R1 * 1
-    
-    % [H HornVoiceIII measure 75]                            %! SM4
-    R1 * 1
-    
+    \H_HornVoiceIII_a
 }
 
 

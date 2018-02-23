@@ -128,7 +128,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie_to(),
     baca.repeat_ties_up(),
-    baca.score(baca.bar_extent_zero()),
+    baca.not_parts(baca.bar_extent_zero()),
     baca.stem_tremolo(),
     )
 

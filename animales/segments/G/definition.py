@@ -105,8 +105,8 @@ maker(
     animales.brass_manifest_rhythm(1),
     animales.parts('Horn', 1),
     baca.pitches('A3 B3', persist='seconds'),
-    baca.score(baca.dynamics_up()),
-    baca.score(baca.voice_one()),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
     crescendi,
     )
 
@@ -115,7 +115,7 @@ maker(
     animales.brass_manifest_rhythm(3),
     animales.parts('Horn', 3),
     baca.pitches('Ab3 Bb3', persist='seconds'),
-    baca.score(baca.voice_two()),
+    baca.not_parts(baca.voice_two()),
     crescendi,
     )
 
@@ -124,8 +124,8 @@ maker(
     animales.brass_manifest_rhythm(2),
     animales.parts('Horn', 2),
     baca.pitches('A3 B3', persist='seconds'),
-    baca.score(baca.dynamics_up()),
-    baca.score(baca.voice_one()),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
     crescendi,
     )
 
@@ -134,7 +134,7 @@ maker(
     animales.brass_manifest_rhythm(4),
     animales.parts('Horn', 4),
     baca.pitches('Ab3 Bb3', persist='seconds'),
-    baca.score(baca.voice_two()),
+    baca.not_parts(baca.voice_two()),
     crescendi,
     )
 
@@ -144,9 +144,9 @@ maker(
     baca.scope('TrumpetVoiceI', 'all'),
     animales.brass_manifest_rhythm(5),
     animales.parts('Trumpet', 1),
-    baca.score(baca.dynamics_up()),
+    baca.not_parts(baca.dynamics_up()),
     baca.pitches('Ab4 Bb4', persist='seconds'),
-    baca.score(baca.voice_one()),
+    baca.not_parts(baca.voice_one()),
     crescendi,
     )
 
@@ -155,7 +155,7 @@ maker(
     animales.brass_manifest_rhythm(7),
     animales.parts('Trumpet', 3),
     baca.pitches('G4 A4', persist='seconds'),
-    baca.score(baca.voice_two()),
+    baca.not_parts(baca.voice_two()),
     crescendi,
     )
 
@@ -163,9 +163,9 @@ maker(
     baca.scope('TrumpetVoiceII', 'all'),
     animales.brass_manifest_rhythm(6),
     animales.parts('Trumpet', 2),
-    baca.score(baca.dynamics_up()),
+    baca.not_parts(baca.dynamics_up()),
     baca.pitches('Ab4 Bb4', persist='seconds'),
-    baca.score(baca.voice_one()),
+    baca.not_parts(baca.voice_one()),
     crescendi,
     )
 
@@ -174,7 +174,7 @@ maker(
     animales.brass_manifest_rhythm(8),
     animales.parts('Trumpet', 4),
     baca.pitches('G4 A4', persist='seconds'),
-    baca.score(baca.voice_two()),
+    baca.not_parts(baca.voice_two()),
     crescendi,
     )
 
@@ -185,8 +185,8 @@ maker(
     animales.brass_manifest_rhythm(9),
     animales.parts('Trombone', 1),
     baca.pitches('Ab3 Bb3', persist='seconds'),
-    baca.score(baca.dynamics_up()),
-    baca.score(baca.voice_one()),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
     crescendi,
     )
 
@@ -195,7 +195,7 @@ maker(
     animales.brass_manifest_rhythm(11),
     animales.parts('Trombone', 3),
     baca.pitches('G3 A3', persist='seconds'),
-    baca.score(baca.voice_two()),
+    baca.not_parts(baca.voice_two()),
     crescendi,
     )
 
@@ -204,8 +204,8 @@ maker(
     animales.brass_manifest_rhythm(10),
     animales.parts('Trombone', 2),
     baca.pitches('Ab3 Bb3', persist='seconds'),
-    baca.score(baca.dynamics_up()),
-    baca.score(baca.voice_one()),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
     crescendi,
     )
 
@@ -214,7 +214,7 @@ maker(
     animales.brass_manifest_rhythm(12),
     animales.parts('Trombone', 4),
     baca.pitches('G3 A3', persist='seconds'),
-    baca.score(baca.voice_two()),
+    baca.not_parts(baca.voice_two()),
     crescendi,
     )
 
