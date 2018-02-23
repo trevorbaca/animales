@@ -420,6 +420,7 @@ E_ClarinetVoiceI = {
     \E_ClarinetVoiceI_a
     
     % [E ClarinetVoiceI measure 53]                              %! SM4
+%%% \once \override MultiMeasureRestText.extra-offset = #'(-6 . 0) %! OC1:+SCORE
     R1 * 3/4
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC

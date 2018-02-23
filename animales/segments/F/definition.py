@@ -115,9 +115,9 @@ maker(
     animales.brass_manifest_rhythm(1, right_broken=True),
     animales.margin_markup('Hn. (1+3)'),
     animales.parts('Horn', 1),
-    baca.pitches('A3 B3', persist='seconds'),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
+    baca.pitches('A3 B3', persist='seconds'),
     crescendi,
     )
 
@@ -125,8 +125,8 @@ maker(
     baca.scope('HornVoiceIII', 'all'),
     animales.brass_manifest_rhythm(3, right_broken=True),
     animales.parts('Horn', 3),
-    baca.pitches('Ab3 Bb3', persist='seconds'),
     baca.not_parts(baca.voice_two()),
+    baca.pitches('Ab3 Bb3', persist='seconds'),
     crescendi,
     )
 
@@ -135,18 +135,18 @@ maker(
     animales.brass_manifest_rhythm(2, right_broken=True),
     animales.margin_markup('Hn. (2+4)'),
     animales.parts('Horn', 2),
-    baca.pitches('A3 B3', persist='seconds'),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
+    baca.pitches('A3 B3', persist='seconds'),
     crescendi,
     )
 
 maker(
     baca.scope('HornVoiceIV', 'all'),
     animales.brass_manifest_rhythm(4, right_broken=True),
+    baca.not_parts(baca.voice_two()),
     animales.parts('Horn', 4),
     baca.pitches('Ab3 Bb3', persist='seconds'),
-    baca.not_parts(baca.voice_two()),
     crescendi,
     )
 
@@ -158,8 +158,8 @@ maker(
     animales.margin_markup('Tp. (1+3)'),
     animales.parts('Trumpet', 1),
     baca.not_parts(baca.dynamics_up()),
-    baca.pitches('Ab4 Bb4', persist='seconds'),
     baca.not_parts(baca.voice_one()),
+    baca.pitches('Ab4 Bb4', persist='seconds'),
     crescendi,
     )
 
@@ -167,8 +167,8 @@ maker(
     baca.scope('TrumpetVoiceIII', 'all'),
     animales.brass_manifest_rhythm(7, right_broken=True),
     animales.parts('Trumpet', 3),
-    baca.pitches('G4 A4', persist='seconds'),
     baca.not_parts(baca.voice_two()),
+    baca.pitches('G4 A4', persist='seconds'),
     crescendi,
     )
 
@@ -178,8 +178,8 @@ maker(
     animales.margin_markup('Tp. (2+4)'),
     animales.parts('Trumpet', 2),
     baca.not_parts(baca.dynamics_up()),
-    baca.pitches('Ab4 Bb4', persist='seconds'),
     baca.not_parts(baca.voice_one()),
+    baca.pitches('Ab4 Bb4', persist='seconds'),
     crescendi,
     )
 
@@ -187,8 +187,8 @@ maker(
     baca.scope('TrumpetVoiceIV', 'all'),
     animales.brass_manifest_rhythm(8, right_broken=True),
     animales.parts('Trumpet', 4),
-    baca.pitches('G4 A4', persist='seconds'),
     baca.not_parts(baca.voice_two()),
+    baca.pitches('G4 A4', persist='seconds'),
     crescendi,
     )
 
@@ -199,9 +199,9 @@ maker(
     animales.brass_manifest_rhythm(9, right_broken=True),
     animales.margin_markup('Trb. (1+3)'),
     animales.parts('Trombone', 1),
-    baca.pitches('Ab3 Bb3', persist='seconds'),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
+    baca.pitches('Ab3 Bb3', persist='seconds'),
     crescendi,
     )
 
@@ -209,8 +209,8 @@ maker(
     baca.scope('TromboneVoiceIII', 'all'),
     animales.brass_manifest_rhythm(11, right_broken=True),
     animales.parts('Trombone', 3),
-    baca.pitches('G3 A3', persist='seconds'),
     baca.not_parts(baca.voice_two()),
+    baca.pitches('G3 A3', persist='seconds'),
     crescendi,
     )
 
@@ -219,9 +219,9 @@ maker(
     animales.brass_manifest_rhythm(10, right_broken=True),
     animales.margin_markup('Trb. (2+4)'),
     animales.parts('Trombone', 2),
-    baca.pitches('Ab3 Bb3', persist='seconds'),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
+    baca.pitches('Ab3 Bb3', persist='seconds'),
     crescendi,
     )
 
@@ -229,8 +229,8 @@ maker(
     baca.scope('TromboneVoiceIV', 'all'),
     animales.brass_manifest_rhythm(12, right_broken=True),
     animales.parts('Trombone', 4),
-    baca.pitches('G3 A3', persist='seconds'),
     baca.not_parts(baca.voice_two()),
+    baca.pitches('G3 A3', persist='seconds'),
     crescendi,
     )
 
@@ -280,7 +280,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.hairpin('pp <', right_broken=True),
     baca.pitch('A3'),
-    baca.trill_spanner('Ab3'),
+    baca.trill_spanner('Ab3', right_broken=True),
     )
 
 maker(

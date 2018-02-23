@@ -68,10 +68,10 @@ maker(
     baca.scope('PercussionVoiceI', 'all'),
     animales.parts('Percussion', 1),
     baca.make_repeat_tied_notes(),
+    baca.not_parts(baca.bar_extent_zero()),
     baca.staff_position(0),
     baca.repeat_tie_to(),
     baca.repeat_ties_up(),
-    baca.not_parts(baca.bar_extent_zero()),
     baca.stem_tremolo(),
     )
 
@@ -79,10 +79,10 @@ maker(
     baca.scope('PercussionVoiceII', 'all'),
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
+    baca.not_parts(baca.bar_extent_zero()),
     baca.staff_position(0),
     baca.repeat_tie_to(),
     baca.repeat_ties_up(),
-    baca.not_parts(baca.bar_extent_zero()),
     baca.stem_tremolo(),
     )
 
@@ -94,6 +94,8 @@ maker(
     animales.parts('FirstViolin', 1),
     baca.hairpin('p < f', baca.notes().group_by_measure()[0].rleak()),
     baca.hairpin('f > p', baca.notes().group_by_measure()[-1].lleak()),
+    baca.not_parts(baca.dynamic_line_spanner_up()),
+    baca.not_parts(baca.voice_one()),
     baca.suite([
         baca.untie_to(baca.leaves()),
         animales.glissando_positions(transpose=-1),
@@ -103,8 +105,6 @@ maker(
         baca.glissando(),
         ]),
     baca.parts_only(baca.stop_trill()),
-    baca.not_parts(baca.dynamic_line_spanner_up()),
-    baca.not_parts(baca.voice_one()),
     )
 
 maker(

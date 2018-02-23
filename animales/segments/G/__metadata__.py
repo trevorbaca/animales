@@ -43,6 +43,8 @@ metadata = abjad.OrderedDict(
                 'HarpStaffI',
                 'HarpVoiceI',
                 'PercussionStaffGroup',
+                'PercussionStaffII',
+                'PercussionVoiceII',
                 'PercussionStaffIII',
                 'PercussionVoiceIII',
                 'StringStaffGroup',
@@ -173,6 +175,16 @@ metadata = abjad.OrderedDict(
                         'G_PercussionVoiceIII_a',
                         (
                             abjad.Part('Percussion', 3),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(11, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'G_PercussionVoiceII_a',
+                        (
+                            abjad.Part('Percussion', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(11, 2),
@@ -565,6 +577,31 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'PercussionStaffII',
+                        [
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='abjad.Clef',
+                                value='percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='abjad.Instrument',
+                                value='Percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='abjad.MarginMarkup',
+                                value='Perc.',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='baca.StaffLines',
+                                value=1,
+                                ),
+                            ],
+                        ),
+                    (
                         'PercussionStaffIII',
                         [
                             abjad.Momento(
@@ -581,6 +618,16 @@ metadata = abjad.OrderedDict(
                                 context='PercussionVoiceIII',
                                 prototype='abjad.MarginMarkup',
                                 value='Perc. 3 (vib.)',
+                                ),
+                            ],
+                        ),
+                    (
+                        'PercussionVoiceII',
+                        [
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='abjad.Dynamic',
+                                value='p',
                                 ),
                             ],
                         ),
@@ -883,6 +930,7 @@ metadata = abjad.OrderedDict(
                     ('HornVoiceII', True),
                     ('HornVoiceIII', True),
                     ('HornVoiceIV', True),
+                    ('PercussionVoiceII', True),
                     ('PercussionVoiceIII', True),
                     ('PianoVoiceI', True),
                     ('SecondViolinVoiceI', True),
