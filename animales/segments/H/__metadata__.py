@@ -684,28 +684,28 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
-                    ('ClarinetVoiceI', True),
-                    ('HornVoiceI', False),
-                    ('HornVoiceIII', False),
-                    ('HornVoiceII', False),
-                    ('HornVoiceIV', False),
-                    ('TrumpetVoiceI', False),
-                    ('TrumpetVoiceIII', False),
-                    ('TrumpetVoiceII', False),
-                    ('TrumpetVoiceIV', False),
-                    ('TromboneVoiceI', False),
-                    ('TromboneVoiceIII', False),
-                    ('TromboneVoiceII', False),
-                    ('TromboneVoiceIV', False),
-                    ('PianoVoiceI', False),
-                    ('HarpVoiceI', False),
-                    ('PercussionVoiceIII', False),
-                    ('FirstViolinVoiceI', False),
-                    ('SecondViolinVoiceI', False),
-                    ('ViolaVoiceI', False),
                     ('CelloVoiceI', False),
-                    ('ContrabassVoiceII', False),
+                    ('ClarinetVoiceI', True),
                     ('ContrabassVoiceI', False),
+                    ('ContrabassVoiceII', False),
+                    ('FirstViolinVoiceI', False),
+                    ('HarpVoiceI', False),
+                    ('HornVoiceI', False),
+                    ('HornVoiceII', False),
+                    ('HornVoiceIII', False),
+                    ('HornVoiceIV', False),
+                    ('PercussionVoiceIII', False),
+                    ('PianoVoiceI', False),
+                    ('SecondViolinVoiceI', False),
+                    ('TromboneVoiceI', False),
+                    ('TromboneVoiceII', False),
+                    ('TromboneVoiceIII', False),
+                    ('TromboneVoiceIV', False),
+                    ('TrumpetVoiceI', False),
+                    ('TrumpetVoiceII', False),
+                    ('TrumpetVoiceIII', False),
+                    ('TrumpetVoiceIV', False),
+                    ('ViolaVoiceI', False),
                     ]
                 ),
             ),
@@ -723,26 +723,6 @@ metadata = abjad.OrderedDict(
                 '4/4',
                 '4/4',
                 ],
-            ),
-        (
-            'voice_metadata',
-            abjad.OrderedDict(
-                [
-                    (
-                        'HornVoiceI',
-                        abjad.OrderedDict(
-                            [
-                                (
-                                    'PITCH',
-                                    abjad.OrderedDict(
-                                        []
-                                        ),
-                                    ),
-                                ]
-                            ),
-                        ),
-                    ]
-                ),
             ),
         ]
     )

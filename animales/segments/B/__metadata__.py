@@ -41,6 +41,16 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
+                        'B_CelloVoiceI_a',
+                        (
+                            abjad.Part('Cello'),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(5, 1),
+                                ),
+                            ),
+                        ),
+                    (
                         'B_ClarinetVoiceI_a',
                         (
                             abjad.Part('Clarinet', 3),
@@ -51,9 +61,19 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'B_PercussionVoiceI_a',
+                        'B_ContrabassVoiceI_a',
                         (
-                            abjad.Part('Percussion', 1),
+                            abjad.Part('Contrabass'),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(5, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'B_FirstViolinVoiceI_a',
+                        (
+                            abjad.Part('FirstViolin'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(5, 1),
@@ -71,9 +91,9 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'B_FirstViolinVoiceI_a',
+                        'B_PercussionVoiceI_a',
                         (
-                            abjad.Part('FirstViolin'),
+                            abjad.Part('Percussion', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(5, 1),
@@ -94,26 +114,6 @@ metadata = abjad.OrderedDict(
                         'B_ViolaVoiceI_a',
                         (
                             abjad.Part('Viola'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(5, 1),
-                                ),
-                            ),
-                        ),
-                    (
-                        'B_CelloVoiceI_a',
-                        (
-                            abjad.Part('Cello'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(5, 1),
-                                ),
-                            ),
-                        ),
-                    (
-                        'B_ContrabassVoiceI_a',
-                        (
-                            abjad.Part('Contrabass'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(5, 1),
@@ -404,14 +404,14 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
+                    ('CelloVoiceI', True),
                     ('ClarinetVoiceI', True),
+                    ('ContrabassVoiceI', True),
+                    ('FirstViolinVoiceI', True),
                     ('PercussionVoiceI', True),
                     ('PercussionVoiceII', True),
-                    ('FirstViolinVoiceI', True),
                     ('SecondViolinVoiceI', True),
                     ('ViolaVoiceI', True),
-                    ('CelloVoiceI', True),
-                    ('ContrabassVoiceI', True),
                     ]
                 ),
             ),
