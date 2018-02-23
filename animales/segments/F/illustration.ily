@@ -2193,7 +2193,7 @@ F_FirstViolinVoiceI_a = {
     a1
     \repeatTie
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    \stopTrillSpan                                           %! SC
+    \stopTrillSpan                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     
 }
 
@@ -2303,7 +2303,7 @@ F_SecondViolinVoiceI_a = {
     a1
     \repeatTie
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    \stopTrillSpan                                           %! SC
+    \stopTrillSpan                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     
 }
 
@@ -2397,7 +2397,7 @@ F_ViolaVoiceI_a = {
     a1
     \repeatTie
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    \stopTrillSpan                                           %! SC
+    \stopTrillSpan                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     
 }
 
@@ -2491,7 +2491,7 @@ F_CelloVoiceI_a = {
     a1
     \repeatTie
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    \stopTrillSpan                                           %! SC
+    \stopTrillSpan                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     
 }
 

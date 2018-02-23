@@ -2083,3 +2083,33 @@ LilyPond runtime: 1 second
 Segment-maker runtime: 23 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
+
+2018-02-23 15:30:18
+Segment-maker runtime: 41 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-23 15:34:45
+Segment-maker runtime: 46 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-23 15:40:34
+Segment-maker runtime: 46 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-23 15:44:36
+Segment-maker runtime: 50 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-23 15:46:08
+Segment-maker runtime: 45 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-23 15:54:44
+Segment-maker runtime: 44 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second

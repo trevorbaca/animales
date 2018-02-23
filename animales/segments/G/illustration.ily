@@ -1963,6 +1963,113 @@ G_HarpStaffI = {
 }
 
 
+G_PercussionVoiceII_a = {
+    
+    % [G PercussionVoiceII measure 62]                       %! SM4
+    \set Staff.instrumentName =                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+    \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+        \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+            #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+            Perc.                                            %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+        }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+    \set Staff.shortInstrumentName =                         %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+    \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+        \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+            #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+            Perc.                                            %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+        }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+    \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1         %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
+    \override RepeatTie.direction = #up                      %! OC1
+    \once \override Hairpin.circled-tip = ##t                %! HC1
+    \clef "percussion"                                       %! SM8:DEFAULT_CLEF:ST3:-PARTS:-SCORE
+    \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS:-SCORE
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3:-PARTS:-SCORE
+    \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE %@%
+    \set Staff.forceClef = ##t                               %! SM8:DEFAULT_CLEF:SM33:ST3:-PARTS:-SCORE
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    c'1
+    :32                                                      %! IC
+    \<                                                       %! HC1
+    ^ \markup {
+        \column
+            {
+                \line                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+                    {                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+                        \with-color                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+                            #(x11-color 'DarkViolet)         %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+                            (“Percussion”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+                    }                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+                \line                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS:-SCORE
+                    {                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS:-SCORE
+                        \with-color                          %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS:-SCORE
+                            #(x11-color 'DarkViolet)         %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS:-SCORE
+                            [“Perc.”]                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS:-SCORE
+                    }                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS:-SCORE
+            }
+        }
+    \override Staff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS:-SCORE
+    \set Staff.instrumentName =                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+    \markup {                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+        \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+            #16                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+            Perc.                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+        }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+    \set Staff.shortInstrumentName =                         %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+    \markup {                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+        \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+            #16                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+            Perc.                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+        }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+    \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3:-PARTS:-SCORE
+    \override Staff.BarLine.bar-extent = #'(0 . 0)           %! OC1:-PARTS
+    
+    % [G PercussionVoiceII measure 63]                       %! SM4
+    c'1
+    :32                                                      %! IC
+    \repeatTie
+    
+    % [G PercussionVoiceII measure 64]                       %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    c'1
+    :32                                                      %! IC
+    \repeatTie
+    \p                                                       %! HC1
+    
+    % [G PercussionVoiceII measure 65]                       %! SM4
+    c'2
+    :32                                                      %! IC
+    \repeatTie
+    
+    % [G PercussionVoiceII measure 66]                       %! SM4
+    c'1
+    :32                                                      %! IC
+    \repeatTie
+    
+    % [G PercussionVoiceII measure 67]                       %! SM4
+    c'1
+    :32                                                      %! IC
+    \repeatTie
+    \revert Staff.BarLine.bar-extent                         %! OC2:-PARTS
+    \once \override Staff.BarLine.bar-extent = #'(0 . 0)     %! OC1:-PARTS
+    \revert RepeatTie.direction                              %! OC2
+    
+}
+
+
+G_PercussionVoiceII = {
+    \G_PercussionVoiceII_a
+}
+
+
+G_PercussionStaffII = {
+    \context Voice = "PercussionVoiceII"
+    \G_PercussionVoiceII
+}
+
+
 G_PercussionVoiceIII_a = {
     
     % [G PercussionVoiceIII measure 62]                      %! SM4

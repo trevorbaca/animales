@@ -1,4 +1,4 @@
-% measure_count = 67
+% measure_count = 75
 
 
 \context Score = "Score"
@@ -31,7 +31,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -58,7 +58,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -85,7 +85,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -112,7 +112,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -139,7 +139,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -166,7 +166,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -193,7 +193,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [[35/480]]                                       %! HSS2:SPACING_MARKUP
@@ -223,7 +223,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -250,7 +250,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -277,7 +277,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -304,7 +304,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -331,7 +331,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -358,7 +358,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -385,7 +385,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -412,7 +412,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [[35/480]]                                       %! HSS2:SPACING_MARKUP
@@ -442,7 +442,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -469,7 +469,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -496,7 +496,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -523,7 +523,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -550,7 +550,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -577,7 +577,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [[35/480]]                                       %! HSS2:SPACING_MARKUP
@@ -607,7 +607,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
@@ -634,7 +634,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
@@ -661,7 +661,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
@@ -688,7 +688,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
@@ -715,7 +715,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
@@ -742,7 +742,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
@@ -769,7 +769,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
@@ -796,7 +796,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [[35/384]]                                       %! HSS2:SPACING_MARKUP
@@ -826,7 +826,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -853,7 +853,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -880,7 +880,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -907,7 +907,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -934,7 +934,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -961,7 +961,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -988,7 +988,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1015,7 +1015,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1042,7 +1042,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [[35/336]]                                       %! HSS2:SPACING_MARKUP
@@ -1055,7 +1055,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 18)))                          %! IC:BREAK
+            #'((Y-offset . 5) (alignment-distances . (10 16)))                           %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1
             ^ \markup {
@@ -1072,7 +1072,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1099,7 +1099,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1126,7 +1126,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1153,7 +1153,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1180,7 +1180,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1207,7 +1207,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1234,7 +1234,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1261,7 +1261,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [[35/336]]                                       %! HSS2:SPACING_MARKUP
@@ -1274,8 +1274,8 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 18)))                          %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            #'((Y-offset . 190) (alignment-distances . (10 16)))                         %! IC:BREAK
+            \break                                                                       %! IC:BREAK
             s1 * 3/4
             ^ \markup {
                 \column
@@ -1291,7 +1291,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1318,7 +1318,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1345,7 +1345,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1372,7 +1372,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1399,7 +1399,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1426,7 +1426,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1453,7 +1453,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1480,7 +1480,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
@@ -1507,7 +1507,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [[35/336]]                                       %! HSS2:SPACING_MARKUP
@@ -1517,7 +1517,7 @@
             
             % [PageLayout measure 56]                                                    %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
             #'((Y-offset . 15) (alignment-distances . (10 18)))                          %! IC:BREAK
@@ -1537,17 +1537,17 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
+                    %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
                     %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
             % [PageLayout measure 57]                                                    %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
             ^ \markup {
@@ -1564,17 +1564,17 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
+                    %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
                     %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
             % [PageLayout measure 58]                                                    %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
             ^ \markup {
@@ -1591,17 +1591,17 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
+                    %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
                     %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
             % [PageLayout measure 59]                                                    %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
             ^ \markup {
@@ -1618,17 +1618,17 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
+                    %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
                     %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
             % [PageLayout measure 60]                                                    %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/2
             ^ \markup {
@@ -1645,17 +1645,17 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
+                    %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
                     %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
             % [PageLayout measure 61]                                                    %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
             ^ \markup {
@@ -1672,17 +1672,17 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
+                    %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
                     %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
             % [PageLayout measure 62]                                                    %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
             ^ \markup {
@@ -1699,21 +1699,18 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [[35/480]]                                       %! HSS2:SPACING_MARKUP
+                    %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
                     %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
             % [PageLayout measure 63]                                                    %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 35 384)           %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 18)))                          %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
             s1 * 1
             ^ \markup {
                 \column
@@ -1729,18 +1726,21 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
+                    %@%                 [[35/384]]                                       %! HSS2:SPACING_MARKUP
                     %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
             % [PageLayout measure 64]                                                    %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
+            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
+            #'((Y-offset . 15) (alignment-distances . (10 18)))                          %! IC:BREAK
+            \pageBreak                                                                   %! IC:BREAK
             s1 * 1
             ^ \markup {
                 \column
@@ -1756,17 +1756,17 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
+                    %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
                     %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
             % [PageLayout measure 65]                                                    %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/2
             ^ \markup {
@@ -1783,17 +1783,17 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
+                    %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
                     %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
             % [PageLayout measure 66]                                                    %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
             ^ \markup {
@@ -1810,17 +1810,17 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
+                    %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
                     %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
             % [PageLayout measure 67]                                                    %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
             ^ \markup {
@@ -1837,10 +1837,229 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [[35/480]]                                       %! HSS2:SPACING_MARKUP
+                    %@%                 [1/16]                                           %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
+                    }
+                }
+            
+            % [PageLayout measure 68]                                                    %! SM4
+            \newSpacingSection                                                           %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
+            \noBreak                                                                     %! BMM2:BREAK
+            s1 * 1
+            ^ \markup {
+                \column
+                    {
+                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 <67>                                             %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
+                    }
+                }
+            
+            % [PageLayout measure 69]                                                    %! SM4
+            \newSpacingSection                                                           %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
+            \noBreak                                                                     %! BMM2:BREAK
+            s1 * 1
+            ^ \markup {
+                \column
+                    {
+                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 <68>                                             %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
+                    }
+                }
+            
+            % [PageLayout measure 70]                                                    %! SM4
+            \newSpacingSection                                                           %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 35 336)           %! HSS1:SPACING
+            \noBreak                                                                     %! BMM2:BREAK
+            s1 * 1
+            ^ \markup {
+                \column
+                    {
+                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 <69>                                             %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 [[35/336]]                                       %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
+                    }
+                }
+            
+            % [PageLayout measure 71]                                                    %! SM4
+            \newSpacingSection                                                           %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
+            \noBreak                                                                     %! BMM2:BREAK
+            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
+            #'((Y-offset . 15) (alignment-distances . (10 18)))                          %! IC:BREAK
+            \pageBreak                                                                   %! IC:BREAK
+            s1 * 3/4
+            ^ \markup {
+                \column
+                    {
+                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 <70>                                             %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
+                    }
+                }
+            
+            % [PageLayout measure 72]                                                    %! SM4
+            \newSpacingSection                                                           %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
+            \noBreak                                                                     %! BMM2:BREAK
+            s1 * 3/4
+            ^ \markup {
+                \column
+                    {
+                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 <71>                                             %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
+                    }
+                }
+            
+            % [PageLayout measure 73]                                                    %! SM4
+            \newSpacingSection                                                           %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
+            \noBreak                                                                     %! BMM2:BREAK
+            s1 * 1
+            ^ \markup {
+                \column
+                    {
+                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 <72>                                             %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
+                    }
+                }
+            
+            % [PageLayout measure 74]                                                    %! SM4
+            \newSpacingSection                                                           %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
+            \noBreak                                                                     %! BMM2:BREAK
+            s1 * 1
+            ^ \markup {
+                \column
+                    {
+                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 <73>                                             %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 [1/14]                                           %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
+                    }
+                }
+            
+            % [PageLayout measure 75]                                                    %! SM4
+            \newSpacingSection                                                           %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 35 336)           %! HSS1:SPACING
+            \noBreak                                                                     %! BMM2:BREAK
+            s1 * 1
+            ^ \markup {
+                \column
+                    {
+                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
+                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
+                    %@%                 <74>                                             %! SM32:MEASURE_INDEX_MARKUP
+                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 [[35/336]]                                       %! HSS2:SPACING_MARKUP
                     %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
