@@ -97,26 +97,14 @@ maker(
 
 # horns
 
-crescendi = baca.suite([
-    baca.map(
-        baca.hairpin('< f', left_broken=True),
-        baca.run(0),
-        ),
-    baca.map(
-        baca.hairpin('mp < ff'),
-        baca.runs()[1:],
-        ),
-    ])
-
 maker(
     baca.scope('HornVoiceI', 'all'),
     animales.downbeat_attack(),
     animales.parts('Horn', 1),
     #baca.dynamic('sfz'),
-    baca.pitches('A3 B3', persist=True),
+    #baca.pitches('A3 B3', persist=True),
     baca.score(baca.dynamics_up()),
     baca.score(baca.voice_one()),
-    #crescendi,
     )
 
 #maker(
