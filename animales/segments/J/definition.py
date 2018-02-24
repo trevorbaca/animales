@@ -5,12 +5,12 @@ from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
-##################################### [E] ####################################
+##################################### [J] ####################################
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
 start = metadata.get('last_measure_number')
-assert start == 49
+assert start == 81
 
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
@@ -60,7 +60,7 @@ maker = baca.SegmentMaker(
 maker(
     baca.scope('GlobalSkips', 'all'),
     baca.metronome_mark('114'),
-    baca.rehearsal_mark('E'),
+    baca.rehearsal_mark('J'),
     baca.tag(
         '+TABLOID_SCORE',
         baca.rehearsal_mark_extra_offset((0, 6)),
@@ -74,17 +74,13 @@ maker(
     animales.parts('Clarinet', 1),
     baca.hairpin('< ff', left_broken=True),
     baca.make_repeat_tied_notes(),
-    baca.pitch('F5'),
+    baca.pitch('Eb5'),
     )
 
 maker(
     baca.scope('ClarinetVoiceI', 4),
-    baca.markup.boxed_lines([
-        'choke sound suddenly:',
-        'touch tongue to reed',
-        'exactly on downbeat',
-        ]),
-    baca.score_only(baca.mmrest_text_extra_offset((-6, 0))),
+    baca.markup.boxed('choke sound suddenly'),
+    #baca.score_only(baca.mmrest_text_extra_offset((-6, 0))),
     )
 
 # bass clarinet
@@ -94,7 +90,7 @@ maker(
     animales.parts('BassClarinet'),
     baca.hairpin('< p', left_broken=True, selector=baca.pleaf(0)),
     baca.make_repeat_tied_notes(),
-    baca.pitch('A2'),
+    baca.pitch('G2'),
     )
 
 # harp
@@ -148,8 +144,8 @@ maker(
     animales.parts('FirstViolin'),
     baca.make_repeat_tied_notes(),
     baca.hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
-    baca.pitch('Ab3'),
-    baca.trill_spanner('Bb3'),
+    baca.pitch('G3'),
+    baca.trill_spanner('Ab3'),
     )
 
 maker(
@@ -172,7 +168,6 @@ maker(
     animales.parts('Cello'),
     )
 
-
 most_strings = [
     'FirstViolinVoiceI',
     'SecondViolinVoiceI',
@@ -192,7 +187,7 @@ maker(
     baca.scope('ContrabassVoiceI', (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
-    baca.pitch('Ab1'),
+    baca.pitch('G1'),
     )
 
 maker(
