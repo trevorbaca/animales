@@ -807,9 +807,9 @@ D_PercussionVoiceII_a = {
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    \revert RepeatTie.direction                              %! OC2
     \revert Staff.BarLine.bar-extent                         %! OC2:-PARTS
     \once \override Staff.BarLine.bar-extent = #'(0 . 0)     %! OC1:-PARTS
+    \revert RepeatTie.direction                              %! OC2
     
 }
 

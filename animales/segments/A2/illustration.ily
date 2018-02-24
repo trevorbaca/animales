@@ -557,9 +557,9 @@ A_b_PercussionVoiceI_a = {
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    \revert RepeatTie.direction                              %! OC2
     \revert Staff.BarLine.bar-extent                         %! OC2:-PARTS
     \once \override Staff.BarLine.bar-extent = #'(0 . 0)     %! OC1:-PARTS
+    \revert RepeatTie.direction                              %! OC2
     
 }
 
@@ -682,9 +682,9 @@ A_b_PercussionVoiceII_a = {
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    \revert RepeatTie.direction                              %! OC2
     \revert Staff.BarLine.bar-extent                         %! OC2:-PARTS
     \once \override Staff.BarLine.bar-extent = #'(0 . 0)     %! OC1:-PARTS
+    \revert RepeatTie.direction                              %! OC2
     
 }
 

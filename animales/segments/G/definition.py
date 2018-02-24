@@ -102,7 +102,7 @@ crescendi = baca.suite([
     ])
 
 maker(
-    baca.scope('HornVoiceI', 1),
+    baca.scope('HornVoiceI', 'all'),
     animales.brass_manifest_rhythm(1),
     animales.parts('Horn', 1),
     baca.not_parts(baca.dynamics_up()),
@@ -112,7 +112,7 @@ maker(
     )
 
 maker(
-    baca.scope('HornVoiceIII', 1'all'),
+    baca.scope('HornVoiceIII', 'all'),
     animales.brass_manifest_rhythm(3),
     animales.parts('Horn', 3),
     baca.not_parts(baca.voice_two()),
