@@ -133,11 +133,11 @@ unraised_trill = [
     ]
 
 maker(
-    baca.make_scopes(raised_trill, [(1, abjad.Infinity)]),
+    baca.make_scopes(raised_trill, ['all']),
     baca.trill_spanner_staff_padding(6),
     )
 
 maker(
-    baca.make_scopes(unraised_trill, [(1, abjad.Infinity)]),
+    baca.make_scopes(unraised_trill, ['all']),
     baca.trill_spanner_staff_padding(4),
     )
