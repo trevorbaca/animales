@@ -84,7 +84,7 @@ maker(
         'touch tongue to reed',
         'exactly on downbeat',
         ]),
-    baca.score_only(baca.mmrest_text_extra_offset((-6, 0))),
+    baca.only_score(baca.mmrest_text_extra_offset((-6, 0))),
     )
 
 # bass clarinet

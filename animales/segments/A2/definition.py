@@ -96,6 +96,7 @@ maker(
     baca.hairpin('f > p', baca.notes().group_by_measure()[-1].lleak()),
     baca.not_parts(baca.dynamic_line_spanner_up()),
     baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.stop_trill()),
     baca.suite([
         baca.untie_to(baca.leaves()),
         animales.glissando_positions(transpose=-1),
@@ -104,7 +105,6 @@ maker(
         baca.tie_repeat_pitches(),
         baca.glissando(),
         ]),
-    baca.parts_only(baca.stop_trill()),
     )
 
 maker(
