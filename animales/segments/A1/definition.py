@@ -155,6 +155,7 @@ maker(
     baca.markup.edition('solo (first violin)', 'solo'),
     baca.not_parts(baca.dynamic_line_spanner_up()),
     baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.stop_trill()),
     baca.suite([
         baca.untie_to(baca.leaves()),
         animales.glissando_positions(reverse=True),
@@ -163,7 +164,6 @@ maker(
         baca.tie_repeat_pitches(),
         baca.glissando(),
         ]),
-    baca.parts_only(baca.stop_trill()),
     )
 
 maker(
@@ -256,7 +256,7 @@ maker(
         ('TrumpetVoiceIII', 3),
         ('TrumpetVoiceIV', 3),
     ),
-    baca.parts_only(baca.dynamic('sffz')),
+    baca.only_parts(baca.dynamic('sffz')),
     )
 
 maker(
@@ -306,7 +306,7 @@ maker(
         ('TromboneVoiceIII', 3),
         ('TromboneVoiceIV', 3),
     ),
-    baca.parts_only(baca.dynamic('sffz')),
+    baca.only_parts(baca.dynamic('sffz')),
     )
 
 maker(
@@ -356,7 +356,7 @@ maker(
         ('HornVoiceIII', 3),
         ('HornVoiceIV', 3),
     ),
-    baca.parts_only(baca.dynamic('sffz')),
+    baca.only_parts(baca.dynamic('sffz')),
     )
 
 maker(

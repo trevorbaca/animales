@@ -106,7 +106,7 @@ maker(
     baca.not_parts(baca.force_accidentals()),
     baca.not_parts(baca.note_column_shift(1.7)),
     baca.not_parts(baca.voice_one()),
-    baca.parts_only(baca.dynamic('sfz')),
+    baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('A3 B3', ignore_incomplete=True, persist='seconds'),
     )
 
@@ -125,7 +125,7 @@ maker(
     animales.parts('Horn', 2),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
-    baca.parts_only(baca.dynamic('sfz')),
+    baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('A3 B3', ignore_incomplete=True, persist='seconds'),
     )
 
@@ -146,7 +146,7 @@ maker(
     animales.parts('Trumpet', 1),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
-    baca.parts_only(baca.dynamic('sfz')),
+    baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Ab4 Bb4', ignore_incomplete=True, persist='seconds'),
     )
 
@@ -165,7 +165,7 @@ maker(
     animales.parts('Trumpet', 2),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
-    baca.parts_only(baca.dynamic('sfz')),
+    baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Ab4 Bb4', ignore_incomplete=True, persist='seconds'),
     )
 
@@ -188,7 +188,7 @@ maker(
     animales.parts('Trombone', 1),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
-    baca.parts_only(baca.dynamic('sfz')),
+    baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
     )
 
@@ -207,7 +207,7 @@ maker(
     animales.parts('Trombone', 2),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
-    baca.parts_only(baca.dynamic('sfz')),
+    baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
     )
 

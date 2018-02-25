@@ -457,11 +457,11 @@ I_BassClarinetVoiceI_a = {
     % [I BassClarinetVoiceI measure 80]                      %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    a2
+    bf2
     \<                                                       %! HC1
     
     % [I BassClarinetVoiceI measure 81]                      %! SM4
-    a2.
+    bf2.
     \repeatTie
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     
