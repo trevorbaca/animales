@@ -35,7 +35,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -62,7 +62,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -89,7 +89,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -116,7 +116,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -128,6 +128,9 @@
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
+            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
+            #'((Y-offset . 215) (alignment-distances . (20 20)))                         %! IC:BREAK
+            \break                                                                       %! IC:BREAK
             s1 * 1
             ^ \markup {
                 \column
@@ -143,7 +146,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
@@ -170,7 +173,7 @@
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP
                     %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'DarkCyan)                               %! HSS2:SPACING_MARKUP
                     %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
                     %@%                 #3                                               %! HSS2:SPACING_MARKUP
                     %@%                 [[35/480]]                                       %! HSS2:SPACING_MARKUP

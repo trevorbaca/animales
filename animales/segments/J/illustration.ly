@@ -30,10 +30,28 @@
             <<
                 \context StaffGroup = "WindStaffGroup"
                 <<
-                    \context Staff = "ClarinetStaffI"
-                    \J_ClarinetStaffI
-                    \context Staff = "BassClarinetStaffI"
-                    \J_BassClarinetStaffI
+                    \context StaffGroup = "FluteSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "FluteStaffI"
+                        \J_FluteStaffI
+                        \context Staff = "FluteStaffII"
+                        \J_FluteStaffII
+                    >>
+                    \context StaffGroup = "ClarinetFamilySquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "ClarinetStaffI"
+                        \J_ClarinetStaffI
+                        \context Staff = "BassClarinetStaffI"
+                        \J_BassClarinetStaffI
+                    >>
                 >>
                 \context StaffGroup = "PianoPianoStaff"
                 <<
@@ -47,6 +65,8 @@
                 >>
                 \context StaffGroup = "PercussionStaffGroup"
                 <<
+                    \context Staff = "PercussionStaffI"
+                    \J_PercussionStaffI
                     \context Staff = "PercussionStaffII"
                     \J_PercussionStaffII
                     \context Staff = "PercussionStaffIII"

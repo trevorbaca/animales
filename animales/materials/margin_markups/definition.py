@@ -49,6 +49,14 @@ margin_markups = abjad.OrderedDict([
         _make_margin_markup('Fl.'),
         ),
     (
+        'Fl. (1+3)',
+        _make_margin_markup('Fl. (1+3)'),
+        ),
+    (
+        'Fl. (2+4)',
+        _make_margin_markup('Fl. (2+4)'),
+        ),
+    (
         'Hp.',
         _make_margin_markup('Hp.'),
         ),
