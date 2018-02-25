@@ -5,7 +5,21 @@ metadata = abjad.OrderedDict(
     [
         (
             'bol_measure_numbers',
-            [1, 8, 16, 22, 30, 39, 47, 56, 64, 71, 79],
+            [
+                1,
+                8,
+                16,
+                22,
+                30,
+                39,
+                47,
+                56,
+                64,
+                71,
+                79,
+                85,
+                90,
+                ],
             ),
         ('catalog_number_suffix', 'TAB'),
         ('paper_size', 'tabloid'),
