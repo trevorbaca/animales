@@ -7,4 +7,6 @@ from .glissando_positions import glissando_positions
 from .instrument import instrument
 from .margin_markup import margin_markup
 from .parts import parts
+from .pennant_pitches import pennant_pitches
+from .pennant_rhythm import pennant_rhythm
 from .sforzando_exchange_rhythm import sforzando_exchange_rhythm

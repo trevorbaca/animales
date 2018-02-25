@@ -19,6 +19,10 @@ maker = baca.SegmentMaker(
     metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
+        flutes=[
+            (1, [1, 3]),
+            (2, [2, 4]),
+            ],
         clarinets=[
             (1, [1]),
             ],
@@ -32,11 +36,12 @@ maker = baca.SegmentMaker(
             (1, [1]),
             ],
         percussion=[
+            (1, [1]),
             (2, [2]),
             (3, [3]),
             ],
         first_violins=[
-            (1, [1]),
+            (1, [3, 1]),
             ],
         second_violins=[
             (1, [1]),
@@ -65,6 +70,66 @@ maker(
         '+TABLOID_SCORE',
         baca.rehearsal_mark_extra_offset((0, 6)),
         ),
+    )
+
+# flutes
+
+maker(
+    baca.scope('FluteVoiceI', 'all'),
+    animales.parts('Flute', 1),
+    )
+
+maker(
+    baca.scope('FluteVoiceIII', 'all'),
+    animales.parts('Flute', 3),
+    )
+
+maker(
+    baca.scope('FluteVoiceII', 'all'),
+    animales.parts('Flute', 2),
+    )
+
+maker(
+    baca.scope('FluteVoiceIV', 'all'),
+    animales.parts('Flute', 4),
+    )
+
+maker(
+    baca.scope('FluteVoiceI', (1, 3)),
+    animales.margin_markup('Fl. (1+3)'),
+    animales.pennant_pitches('G5', [6]),
+    animales.pennant_rhythm([0, 0, -1, -1, 0], [0, 1, 2]),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.hairpin('mf < ff')),
+    baca.slur(),
+    )
+
+maker(
+    baca.scope('FluteVoiceIII', (1, 3)),
+    animales.pennant_pitches('F5', [6]),
+    animales.pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
+    baca.hairpin('mf < ff'),
+    baca.not_parts(baca.voice_two()),
+    baca.slur(),
+    )
+
+maker(
+    baca.scope('FluteVoiceII', (1, 3)),
+    animales.margin_markup('Fl. (2+4)'),
+    animales.pennant_pitches('Eb5', [6]),
+    animales.pennant_rhythm([0, -1, -1, 0], [0]),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.hairpin('mf < ff')),
+    baca.slur(),
+    )
+
+maker(
+    baca.scope('FluteVoiceIV', (1, 3)),
+    animales.pennant_pitches('D5', [6]),
+    animales.pennant_rhythm([0, 0, -1, -1]),
+    baca.hairpin('mf < ff'),
+    baca.not_parts(baca.voice_two()),
+    baca.slur(),
     )
 
 # clarinet
@@ -132,12 +197,41 @@ maker(
 
 # percussion
 
+# triangle
+
+maker(
+    baca.scope('PercussionVoiceI', 'all'),
+    animales.parts('Percussion', 1),
+    baca.not_parts(baca.bar_extent_zero()),
+    )
+
+maker(
+    baca.scope('PercussionVoiceI', (1, 3)),
+    baca.make_repeat_tied_notes(),
+    baca.repeat_tie_to(),
+    baca.repeat_ties_up(),
+    baca.staff_position(0),
+    baca.stem_tremolo(),
+    )
+
+# cymbal
+
 maker(
     baca.scope('PercussionVoiceII', 'all'),
     animales.parts('Percussion', 2),
-    baca.hairpin('> niente', left_broken=True, selector=baca.leaf(0)),
     baca.not_parts(baca.bar_extent_zero()),
     )
+
+maker(
+    baca.scope('PercussionVoiceII', (1, 3)),
+    baca.make_repeat_tied_notes(),
+    baca.repeat_tie_to(),
+    baca.repeat_ties_up(),
+    baca.staff_position(0),
+    baca.stem_tremolo(),
+    )
+
+# vibraphone
 
 maker(
     baca.scope('PercussionVoiceIII', 'all'),
@@ -147,6 +241,26 @@ maker(
     )
 
 # strings
+
+maker(
+    baca.scope('FirstViolinVoiceIII', (1, 3)),
+    animales.glissando_rhythm(rotate=-2),
+    animales.parts('FirstViolin', 1),
+    baca.hairpin('p < ff', baca.notes().group_by_measure()[0].rleak()),
+    baca.hairpin('ff > p', baca.notes().group_by_measure()[-1].lleak()),
+    baca.markup.edition('solo (first violin)', 'solo'),
+    baca.not_parts(baca.dynamic_line_spanner_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.stop_trill()),
+    baca.suite([
+        baca.untie_to(baca.leaves()),
+        animales.glissando_positions(transpose=-3),
+        baca.pitch('G4', baca.pleaf(0)),
+        baca.pitch('G4', baca.pleaf(-1)),
+        baca.tie_repeat_pitches(),
+        baca.glissando(),
+        ]),
+    )
 
 maker(
     baca.scopes(
@@ -164,7 +278,8 @@ maker(
 
 maker(
     baca.scope('FirstViolinVoiceI', 'all'),
-    animales.parts('FirstViolin'),
+    animales.parts('FirstViolin', (2, 18)),
+    baca.not_parts(baca.voice_two()),
     )
 
 maker(

@@ -30,6 +30,17 @@
             <<
                 \context StaffGroup = "WindStaffGroup"
                 <<
+                    \context StaffGroup = "FluteSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "FluteStaffI"
+                        \K_FluteStaffI
+                        \context Staff = "FluteStaffII"
+                        \K_FluteStaffII
+                    >>
                     \context Staff = "BassClarinetStaffI"
                     \K_BassClarinetStaffI
                 >>
@@ -45,6 +56,8 @@
                 >>
                 \context StaffGroup = "PercussionStaffGroup"
                 <<
+                    \context Staff = "PercussionStaffI"
+                    \K_PercussionStaffI
                     \context Staff = "PercussionStaffII"
                     \K_PercussionStaffII
                     \context Staff = "PercussionStaffIII"

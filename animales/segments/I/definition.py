@@ -33,6 +33,7 @@ maker = baca.SegmentMaker(
             (1, [1]),
             ],
         percussion=[
+            (1, [1]),
             (2, [2]),
             (3, [3]),
             ],
@@ -115,12 +116,25 @@ maker(
     baca.stopped(),
     )
 
-# percussion (cym., vib.)
+# triangle
+
+maker(
+    baca.scope('PercussionVoiceI', 'all'),
+    animales.parts('Percussion', 1),
+    baca.hairpin('niente < mp', selector=baca.pleaves()[:4]),
+    baca.make_repeat_tied_notes(),
+    baca.not_parts(baca.bar_extent_zero()),
+    baca.repeat_ties_up(),
+    baca.staff_lines(1),
+    baca.staff_position(0),
+    baca.stem_tremolo(),
+    )
+
+# cymbal
 
 maker(
     baca.scope('PercussionVoiceII', 'all'),
     animales.parts('Percussion', 2),
-    baca.hairpin('p >', right_broken='niente'),
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.bar_extent_zero()),
     baca.repeat_tie_to(),
@@ -128,6 +142,8 @@ maker(
     baca.staff_position(0),
     baca.stem_tremolo(),
     )
+
+# vibraphone
 
 maker(
     baca.scope('PercussionVoiceIII', 'all'),
