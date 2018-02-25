@@ -12,10 +12,17 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get('last_measure_number')
 assert start == 87
 
+metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
+    (7, abjad.Fermata()),
+    ])
+
+time_signatures = animales.time_signatures[start:start + 6] + ((1, 4),)
+
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
     measures_per_stage=True,
+    metronome_mark_measure_map=metronome_mark_measure_map,
     metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
@@ -54,14 +61,19 @@ maker = baca.SegmentMaker(
             (2, [1]),
             ],
         ),
-    time_signatures=animales.time_signatures[start:start + 6],
+    time_signatures=time_signatures,
     transpose_score=True,
-    validate_measure_count=6,
+    validate_measure_count=7,
     )
 
 maker(
     baca.scope('GlobalSkips', 'all'),
     baca.rehearsal_mark('K'),
+    )
+
+maker(
+    baca.scope('GlobalRests', 7),
+    baca.not_parts(baca.mmrest_text_extra_offset((0, -4))),
     )
 
 # flutes
@@ -138,7 +150,7 @@ maker(
     )
 
 maker(
-    baca.scope('BassClarinetVoiceI', (3, 'end')),
+    baca.scope('BassClarinetVoiceI', (3, 6)),
     baca.make_repeat_tied_notes(),
     )
 
@@ -147,6 +159,10 @@ maker(
 maker(
     baca.scope('HarpVoiceI', 'all'),
     animales.parts('Harp'),
+    )
+
+maker(
+    baca.scope('HarpVoiceI', (1, 6)),
     animales.harp_exchange_rhythm(2),
     baca.laissez_vibrer(),
     baca.pitch('Bb4'),
@@ -158,6 +174,10 @@ maker(
 maker(
     baca.scope('PianoVoiceI', 'all'),
     animales.parts('Piano'),
+    )
+
+maker(
+    baca.scope('PianoVoiceI', (1, 6)),
     animales.harp_exchange_rhythm(3),
     baca.laissez_vibrer(),
     baca.pitch('Bb4'),
@@ -205,6 +225,10 @@ maker(
 maker(
     baca.scope('PercussionVoiceIII', 'all'),
     animales.parts('Percussion', 3),
+    )
+
+maker(
+    baca.scope('PercussionVoiceIII', (1, 6)),
     animales.harp_exchange_rhythm(0),
     baca.laissez_vibrer(),
     baca.pitch('Bb4'),
@@ -302,6 +326,10 @@ maker(
 maker(
     baca.scope('ContrabassVoiceII', 'all'),
     animales.parts('Contrabass', 1),
+    )
+
+maker(
+    baca.scope('ContrabassVoiceII', (1, 6)),
     animales.harp_exchange_rhythm(1),
     baca.laissez_vibrer(),
     baca.pitch('Bb4', do_not_transpose=True),
