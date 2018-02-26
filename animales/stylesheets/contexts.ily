@@ -39,6 +39,8 @@
     \context {
         \name PageLayout
         \type Engraver_group
+        \consists Text_engraver
+        \consists Text_spanner_engraver
         }
 
     % GLOBAL CONTEXT
