@@ -598,6 +598,95 @@ L_OboeStaffI = {
 }
 
 
+L_BassoonVoiceI = {
+    
+    % [L BassoonVoiceI measure 95]                               %! SM4
+    \set Staff.instrumentName =                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+    \markup {                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+        \hcenter-in                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+            #16                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+            Bsn.                                                 %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+        }                                                        %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+    \set Staff.shortInstrumentName =                             %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+    \markup {                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+        \hcenter-in                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+            #16                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+            Bsn.                                                 %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+        }                                                        %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS:-SCORE
+    \clef "bass"                                                 %! SM8:DEFAULT_CLEF:ST3:-PARTS:-SCORE
+    \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS:-SCORE
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)  %! SM6:DEFAULT_CLEF_COLOR:ST3:-PARTS:-SCORE
+    \override Staff.Clef.color = ##f                             %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE %@%
+    \set Staff.forceClef = ##t                                   %! SM8:DEFAULT_CLEF:SM33:ST3:-PARTS:-SCORE
+    R1 * 3/4
+    ^ \markup {
+        \column
+            {
+                \line                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+                    {                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+                        \with-color                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+                            #(x11-color 'DarkViolet)             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+                            (“Bassoon”)                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+                    }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+                \line                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS:-SCORE
+                    {                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS:-SCORE
+                        \with-color                              %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS:-SCORE
+                            #(x11-color 'DarkViolet)             %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS:-SCORE
+                            [“Bsn.”]                             %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS:-SCORE
+                    }                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS:-SCORE
+            }
+        }
+    \override Staff.InstrumentName.color = #(x11-color 'violet)  %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS:-SCORE
+    \set Staff.instrumentName =                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+    \markup {                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+            #16                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+            Bsn.                                                 %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+        }                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+    \set Staff.shortInstrumentName =                             %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+    \markup {                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+            #16                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+            Bsn.                                                 %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+        }                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS:-SCORE
+    \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3:-PARTS:-SCORE
+    
+    % [L BassoonVoiceI measure 96]                               %! SM4
+    R1 * 3/4
+    
+    % [L BassoonVoiceI measure 97]                               %! SM4
+    R1 * 1
+    
+    % [L BassoonVoiceI measure 98]                               %! SM4
+    R1 * 1
+    
+    % [L BassoonVoiceI measure 99]                               %! SM4
+    R1 * 1
+    
+    % [L BassoonVoiceI measure 100]                              %! SM4
+    R1 * 3/4
+    
+    % [L BassoonVoiceI measure 101]                              %! SM4
+    R1 * 3/4
+    
+    % [L BassoonVoiceI measure 102]                              %! SM4
+    R1 * 1
+    
+    % [L BassoonVoiceI measure 103]                              %! SM4
+    R1 * 1
+    
+    % [L BassoonVoiceI measure 104]                              %! SM4
+    R1 * 1/2
+    
+}
+
+
+L_BassoonStaffI = {
+    \context Voice = "BassoonVoiceI"
+    \L_BassoonVoiceI
+}
+
+
 L_FirstViolinVoiceV = {
     
     % [L FirstViolinVoiceV measure 95]                       %! SM4
