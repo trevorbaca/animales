@@ -27,23 +27,23 @@ maker = baca.SegmentMaker(
             (1, [1]),
             ],
         first_violins=[
-            (1, [5]),
-            (2, [1, 2]),
-            (3, [3, 4]),
+            (1, [1, 3]),
+            (2, [2, 4]),
+            (3, [5]),
             ],
         second_violins=[
-            (1, [1, 2]),
-            (2, [3, 4]),
+            (1, [1, 3]),
+            (2, [2, 4]),
             ],
         violas=[
-            (1, [1, 2]),
-            (2, [3, 4]),
+            (1, [1, 3]),
+            (2, [2, 4]),
             ],
         cellos=[
             (1, [1, 2]),
             ],
         contrabasses=[
-            (1, [1]),
+            (2, [1]),
             ],
         ),
     time_signatures=animales.time_signatures[start:start + 10],
