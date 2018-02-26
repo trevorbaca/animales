@@ -550,61 +550,63 @@ F_BassClarinetStaffI = {
 F_HornVoiceI_a = {
     
     % [F HornVoiceI measure 56]                          %! SM4
-    \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Hn.                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    (1+3)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \set Staff.shortInstrumentName =                     %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Hn.                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    (1+3)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \clef "bass"                                         %! SM8:DEFAULT_CLEF:ST3:-PARTS:-SCORE
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3:-PARTS:-SCORE
-    \override Staff.Clef.color = ##f                     %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE %@%
-    \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3:-PARTS:-SCORE
+    \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Hn.                                  %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (1+3)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \set Staff.shortInstrumentName =                     %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Hn.                                  %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (1+3)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \clef "bass"                                         %! SM8:REAPPLIED_CLEF:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     r2
-    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-            "[“Hn. (1+3)”]"                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-    \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3:-PARTS:-SCORE
-    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
-    \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \markup {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        \hcenter-in                                      %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Hn.                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    (1+3)                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \markup {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        \hcenter-in                                      %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Hn.                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    (1+3)                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+    \sffz                                                %! SM8:REAPPLIED_DYNAMIC:SM37
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+            "[“Hn. (1+3)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \markup {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        \hcenter-in                                      %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Hn.                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (1+3)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \markup {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        \hcenter-in                                      %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Hn.                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (1+3)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [F HornVoiceI measure 57]                          %! SM4
     r2
@@ -677,11 +679,11 @@ F_HornVoiceIII_a = {
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-            (“Horn”)                                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [F HornVoiceIII measure 57]                        %! SM4
     ef'4.
@@ -741,61 +743,63 @@ F_HornStaffI = <<
 F_HornVoiceII_a = {
     
     % [F HornVoiceII measure 56]                         %! SM4
-    \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Hn.                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    (2+4)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \set Staff.shortInstrumentName =                     %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Hn.                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    (2+4)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \clef "bass"                                         %! SM8:DEFAULT_CLEF:ST3:-PARTS:-SCORE
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3:-PARTS:-SCORE
-    \override Staff.Clef.color = ##f                     %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE %@%
-    \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3:-PARTS:-SCORE
+    \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Hn.                                  %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (2+4)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \set Staff.shortInstrumentName =                     %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Hn.                                  %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (2+4)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \clef "bass"                                         %! SM8:REAPPLIED_CLEF:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     r2
-    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-            "[“Hn. (2+4)”]"                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-    \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3:-PARTS:-SCORE
-    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
-    \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \markup {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        \hcenter-in                                      %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Hn.                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    (2+4)                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \markup {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        \hcenter-in                                      %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Hn.                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    (2+4)                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+    \sffz                                                %! SM8:REAPPLIED_DYNAMIC:SM37
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+            "[“Hn. (2+4)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \markup {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        \hcenter-in                                      %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Hn.                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (2+4)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \markup {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        \hcenter-in                                      %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Hn.                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (2+4)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [F HornVoiceII measure 57]                         %! SM4
     r2.
@@ -866,13 +870,15 @@ F_HornVoiceII = {
 F_HornVoiceIV_a = {
     
     % [F HornVoiceIV measure 56]                         %! SM4
+%%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:+PARTS:SM37
     \voiceTwo                                            %! IC:-PARTS
     r4.
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-            (“Horn”)                                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+%%% \sffz                                                %! SM8:REAPPLIED_DYNAMIC:+PARTS:SM37
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef'8
@@ -952,61 +958,63 @@ F_HornStaffII = <<
 F_TrumpetVoiceI_a = {
     
     % [F TrumpetVoiceI measure 56]                       %! SM4
-    \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Tp.                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    (1+3)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \set Staff.shortInstrumentName =                     %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Tp.                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    (1+3)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3:-PARTS:-SCORE
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3:-PARTS:-SCORE
-    \override Staff.Clef.color = ##f                     %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE %@%
-    \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3:-PARTS:-SCORE
+    \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Tp.                                  %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (1+3)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \set Staff.shortInstrumentName =                     %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Tp.                                  %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (1+3)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     r2
-    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-            "[“Tp. (1+3)”]"                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-    \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3:-PARTS:-SCORE
-    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
-    \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \markup {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        \hcenter-in                                      %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Tp.                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    (1+3)                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \markup {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        \hcenter-in                                      %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Tp.                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    (1+3)                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+    \sffz                                                %! SM8:REAPPLIED_DYNAMIC:SM37
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+            "[“Tp. (1+3)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \markup {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        \hcenter-in                                      %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Tp.                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (1+3)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \markup {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        \hcenter-in                                      %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Tp.                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (1+3)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [F TrumpetVoiceI measure 57]                       %! SM4
     r4
@@ -1072,11 +1080,11 @@ F_TrumpetVoiceIII_a = {
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-            (“Trumpet”)                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [F TrumpetVoiceIII measure 57]                     %! SM4
     g'4
@@ -1164,61 +1172,63 @@ F_TrumpetStaffI = <<
 F_TrumpetVoiceII_a = {
     
     % [F TrumpetVoiceII measure 56]                      %! SM4
-    \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Tp.                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    (2+4)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \set Staff.shortInstrumentName =                     %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Tp.                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    (2+4)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3:-PARTS:-SCORE
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3:-PARTS:-SCORE
-    \override Staff.Clef.color = ##f                     %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE %@%
-    \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3:-PARTS:-SCORE
+    \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Tp.                                  %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (2+4)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \set Staff.shortInstrumentName =                     %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Tp.                                  %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (2+4)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     r2
-    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-            "[“Tp. (2+4)”]"                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-    \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3:-PARTS:-SCORE
-    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
-    \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \markup {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        \hcenter-in                                      %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Tp.                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    (2+4)                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \markup {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        \hcenter-in                                      %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Tp.                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    (2+4)                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+    \sffz                                                %! SM8:REAPPLIED_DYNAMIC:SM37
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+            "[“Tp. (2+4)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \markup {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        \hcenter-in                                      %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Tp.                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (2+4)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \markup {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        \hcenter-in                                      %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Tp.                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (2+4)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [F TrumpetVoiceII measure 57]                      %! SM4
     r2
@@ -1293,13 +1303,15 @@ F_TrumpetVoiceII = {
 F_TrumpetVoiceIV_a = {
     
     % [F TrumpetVoiceIV measure 56]                      %! SM4
+%%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:+PARTS:SM37
     \voiceTwo                                            %! IC:-PARTS
     r4.
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-            (“Trumpet”)                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+%%% \sffz                                                %! SM8:REAPPLIED_DYNAMIC:+PARTS:SM37
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'8
@@ -1372,61 +1384,63 @@ F_TrumpetStaffII = <<
 F_TromboneVoiceI_a = {
     
     % [F TromboneVoiceI measure 56]                      %! SM4
-    \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Trb.                                 %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    (1+3)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \set Staff.shortInstrumentName =                     %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Trb.                                 %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    (1+3)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \clef "tenor"                                        %! SM8:DEFAULT_CLEF:ST3:-PARTS:-SCORE
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3:-PARTS:-SCORE
-    \override Staff.Clef.color = ##f                     %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE %@%
-    \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3:-PARTS:-SCORE
+    \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Trb.                                 %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (1+3)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \set Staff.shortInstrumentName =                     %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Trb.                                 %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (1+3)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \clef "tenor"                                        %! SM8:REAPPLIED_CLEF:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     r2
-    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-            "[“Trb. (1+3)”]"                             %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-    \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3:-PARTS:-SCORE
-    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
-    \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \markup {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        \hcenter-in                                      %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Trb.                                 %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    (1+3)                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \markup {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        \hcenter-in                                      %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Trb.                                 %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    (1+3)                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+    \sffz                                                %! SM8:REAPPLIED_DYNAMIC:SM37
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+            "[“Trb. (1+3)”]"                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \markup {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        \hcenter-in                                      %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Trb.                                 %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (1+3)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \markup {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        \hcenter-in                                      %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Trb.                                 %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (1+3)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [F TromboneVoiceI measure 57]                      %! SM4
     r2
@@ -1494,11 +1508,11 @@ F_TromboneVoiceIII_a = {
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-            (“Trombone”)                                 %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Trombone”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     \times 2/3 {
         
         % [F TromboneVoiceIII measure 57]                %! SM4
@@ -1575,61 +1589,63 @@ F_TromboneStaffI = <<
 F_TromboneVoiceII_a = {
     
     % [F TromboneVoiceII measure 56]                     %! SM4
-    \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Trb.                                 %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    (2+4)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \set Staff.shortInstrumentName =                     %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-            \center-column                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                {                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Trb.                                 %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    (2+4)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-        }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \clef "tenor"                                        %! SM8:DEFAULT_CLEF:ST3:-PARTS:-SCORE
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3:-PARTS:-SCORE
-    \override Staff.Clef.color = ##f                     %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3:-PARTS:-SCORE %@%
-    \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3:-PARTS:-SCORE
+    \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Trb.                                 %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (2+4)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \set Staff.shortInstrumentName =                     %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    Trb.                                 %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    (2+4)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \clef "tenor"                                        %! SM8:REAPPLIED_CLEF:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     r2
-    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-            "[“Trb. (2+4)”]"                             %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-    \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3:-PARTS:-SCORE
-    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
-    \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \markup {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        \hcenter-in                                      %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Trb.                                 %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    (2+4)                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \markup {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        \hcenter-in                                      %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            #16                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-            \center-column                               %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                {                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Trb.                                 %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    (2+4)                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-        }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+    \sffz                                                %! SM8:REAPPLIED_DYNAMIC:SM37
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+            "[“Trb. (2+4)”]"                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \markup {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        \hcenter-in                                      %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Trb.                                 %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (2+4)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \markup {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        \hcenter-in                                      %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    Trb.                                 %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    (2+4)                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [F TromboneVoiceII measure 57]                     %! SM4
     r2.
@@ -1704,13 +1720,15 @@ F_TromboneVoiceII = {
 F_TromboneVoiceIV_a = {
     
     % [F TromboneVoiceIV measure 56]                     %! SM4
+%%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:+PARTS:SM37
     \voiceTwo                                            %! IC:-PARTS
     r4.
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-            (“Trombone”)                                 %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1:-PARTS:-SCORE
+%%% \sffz                                                %! SM8:REAPPLIED_DYNAMIC:+PARTS:SM37
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Trombone”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g8

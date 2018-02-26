@@ -482,12 +482,52 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'FirstViolinStaffII',
+                        [
+                            abjad.Momento(
+                                context='FirstViolinVoiceII',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
+                                context='FirstViolinVoiceII',
+                                prototype='abjad.Instrument',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
+                                context='FirstViolinVoiceII',
+                                prototype='abjad.MarginMarkup',
+                                value='Vni. I (11-18)',
+                                ),
+                            ],
+                        ),
+                    (
                         'FirstViolinVoiceI',
                         [
                             abjad.Momento(
                                 context='FirstViolinVoiceI',
                                 prototype='abjad.Dynamic',
                                 value='pp',
+                                ),
+                            ],
+                        ),
+                    (
+                        'FirstViolinVoiceII',
+                        [
+                            abjad.Momento(
+                                context='FirstViolinVoiceII',
+                                prototype='abjad.Dynamic',
+                                value='\\f_but_accents_sffz',
+                                ),
+                            ],
+                        ),
+                    (
+                        'FirstViolinVoiceIII',
+                        [
+                            abjad.Momento(
+                                context='FirstViolinVoiceIII',
+                                prototype='abjad.Dynamic',
+                                value='p',
                                 ),
                             ],
                         ),
@@ -607,6 +647,56 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'PercussionStaffI',
+                        [
+                            abjad.Momento(
+                                context='PercussionVoiceI',
+                                prototype='abjad.Clef',
+                                value='percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceI',
+                                prototype='abjad.Instrument',
+                                value='Percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceI',
+                                prototype='abjad.MarginMarkup',
+                                value='Perc. 1 (tri.)',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceI',
+                                prototype='baca.StaffLines',
+                                value=1,
+                                ),
+                            ],
+                        ),
+                    (
+                        'PercussionStaffII',
+                        [
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='abjad.Clef',
+                                value='percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='abjad.Instrument',
+                                value='Percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='abjad.MarginMarkup',
+                                value='Perc. 2 (cym.)',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='baca.StaffLines',
+                                value=1,
+                                ),
+                            ],
+                        ),
+                    (
                         'PercussionStaffIII',
                         [
                             abjad.Momento(
@@ -623,6 +713,26 @@ metadata = abjad.OrderedDict(
                                 context='PercussionVoiceIII',
                                 prototype='abjad.MarginMarkup',
                                 value='Perc. 3 (vib.)',
+                                ),
+                            ],
+                        ),
+                    (
+                        'PercussionVoiceI',
+                        [
+                            abjad.Momento(
+                                context='PercussionVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='niente',
+                                ),
+                            ],
+                        ),
+                    (
+                        'PercussionVoiceII',
+                        [
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='abjad.Dynamic',
+                                value='niente',
                                 ),
                             ],
                         ),
@@ -707,12 +817,42 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'SecondViolinStaffII',
+                        [
+                            abjad.Momento(
+                                context='SecondViolinVoiceII',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
+                                context='SecondViolinVoiceII',
+                                prototype='abjad.Instrument',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
+                                context='SecondViolinVoiceII',
+                                prototype='abjad.MarginMarkup',
+                                value='Vni. II (11-18)',
+                                ),
+                            ],
+                        ),
+                    (
                         'SecondViolinVoiceI',
                         [
                             abjad.Momento(
                                 context='SecondViolinVoiceI',
                                 prototype='abjad.Dynamic',
                                 value='pp',
+                                ),
+                            ],
+                        ),
+                    (
+                        'SecondViolinVoiceII',
+                        [
+                            abjad.Momento(
+                                context='SecondViolinVoiceII',
+                                prototype='abjad.Dynamic',
+                                value='\\f_but_accents_sffz',
                                 ),
                             ],
                         ),
@@ -877,6 +1017,36 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'TubaStaffI',
+                        [
+                            abjad.Momento(
+                                context='TubaVoiceI',
+                                prototype='abjad.Clef',
+                                value='bass',
+                                ),
+                            abjad.Momento(
+                                context='TubaVoiceI',
+                                prototype='abjad.Instrument',
+                                value='Tuba',
+                                ),
+                            abjad.Momento(
+                                context='TubaVoiceI',
+                                prototype='abjad.MarginMarkup',
+                                value='Tub.',
+                                ),
+                            ],
+                        ),
+                    (
+                        'TubaVoiceI',
+                        [
+                            abjad.Momento(
+                                context='TubaVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='sffz',
+                                ),
+                            ],
+                        ),
+                    (
                         'ViolaStaffI',
                         [
                             abjad.Momento(
@@ -897,12 +1067,42 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'ViolaStaffII',
+                        [
+                            abjad.Momento(
+                                context='ViolaVoiceII',
+                                prototype='abjad.Clef',
+                                value='alto',
+                                ),
+                            abjad.Momento(
+                                context='ViolaVoiceII',
+                                prototype='abjad.Instrument',
+                                value='Viola',
+                                ),
+                            abjad.Momento(
+                                context='ViolaVoiceII',
+                                prototype='abjad.MarginMarkup',
+                                value='Vle. (11-18)',
+                                ),
+                            ],
+                        ),
+                    (
                         'ViolaVoiceI',
                         [
                             abjad.Momento(
                                 context='ViolaVoiceI',
                                 prototype='abjad.Dynamic',
                                 value='pp',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ViolaVoiceII',
+                        [
+                            abjad.Momento(
+                                context='ViolaVoiceII',
+                                prototype='abjad.Dynamic',
+                                value='\\f_but_accents_sffz',
                                 ),
                             ],
                         ),

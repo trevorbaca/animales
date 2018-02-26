@@ -125,7 +125,6 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.bar_extent_zero()),
     baca.repeat_ties_up(),
-    baca.staff_lines(1),
     baca.staff_position(0),
     baca.stem_tremolo(),
     )
