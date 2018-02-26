@@ -14,6 +14,8 @@ metadata = abjad.OrderedDict(
                 'WindStaffGroup',
                 'OboeStaffI',
                 'OboeVoiceI',
+                'BassoonStaffI',
+                'BassoonVoiceI',
                 'StringStaffGroup',
                 'FirstViolinSquareStaffGroup',
                 'FirstViolinStaffI',
@@ -287,6 +289,26 @@ metadata = abjad.OrderedDict(
             'persistent_indicators',
             abjad.OrderedDict(
                 [
+                    (
+                        'BassoonStaffI',
+                        [
+                            abjad.Momento(
+                                context='BassoonVoiceI',
+                                prototype='abjad.Clef',
+                                value='bass',
+                                ),
+                            abjad.Momento(
+                                context='BassoonVoiceI',
+                                prototype='abjad.Instrument',
+                                value='Bassoon',
+                                ),
+                            abjad.Momento(
+                                context='BassoonVoiceI',
+                                prototype='abjad.MarginMarkup',
+                                value='Bsn.',
+                                ),
+                            ],
+                        ),
                     (
                         'CelloStaffI',
                         [
@@ -571,6 +593,7 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
+                    ('BassoonVoiceI', False),
                     ('CelloVoiceI', False),
                     ('CelloVoiceII', False),
                     ('ContrabassVoiceI', False),

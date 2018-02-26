@@ -598,6 +598,95 @@ M_OboeStaffI = {
 }
 
 
+M_BassoonVoiceI = {
+    
+    % [M BassoonVoiceI measure 105]                              %! SM4
+    \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            #16                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            Bsn.                                                 %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \set Staff.shortInstrumentName =                             %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            #16                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+            Bsn.                                                 %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \clef "bass"                                                 %! SM8:REAPPLIED_CLEF:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    R1 * 3/4
+    ^ \markup {
+        \column
+            {
+                \line                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                    {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            (“Bassoon”)                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                    }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+                    {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+                        \with-color                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+                            #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+                            [“Bsn.”]                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+                    }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:SM37
+    \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            #16                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            Bsn.                                                 %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \set Staff.shortInstrumentName =                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            #16                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+            Bsn.                                                 %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+    
+    % [M BassoonVoiceI measure 106]                              %! SM4
+    R1 * 3/4
+    
+    % [M BassoonVoiceI measure 107]                              %! SM4
+    R1 * 1
+    
+    % [M BassoonVoiceI measure 108]                              %! SM4
+    R1 * 1
+    
+    % [M BassoonVoiceI measure 109]                              %! SM4
+    R1 * 1
+    
+    % [M BassoonVoiceI measure 110]                              %! SM4
+    R1 * 3/4
+    
+    % [M BassoonVoiceI measure 111]                              %! SM4
+    R1 * 3/4
+    
+    % [M BassoonVoiceI measure 112]                              %! SM4
+    R1 * 1
+    
+    % [M BassoonVoiceI measure 113]                              %! SM4
+    R1 * 1
+    
+    % [M BassoonVoiceI measure 114]                              %! SM4
+    R1 * 1/2
+    
+}
+
+
+M_BassoonStaffI = {
+    \context Voice = "BassoonVoiceI"
+    \M_BassoonVoiceI
+}
+
+
 M_FirstViolinVoiceV = {
     
     % [M FirstViolinVoiceV measure 105]                      %! SM4

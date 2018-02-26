@@ -32,6 +32,8 @@
                 <<
                     \context Staff = "OboeStaffI"
                     \L_OboeStaffI
+                    \context Staff = "BassoonStaffI"
+                    \L_BassoonStaffI
                 >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
