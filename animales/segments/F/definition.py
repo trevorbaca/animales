@@ -113,7 +113,7 @@ crescendi = baca.suite([
 maker(
     baca.scope('HornVoiceI', 'all'),
     animales.brass_manifest_rhythm(1, right_broken=True),
-    animales.margin_markup('Hn. (1+3)'),
+    #animales.margin_markup('Hn. (1+3)'),
     animales.parts('Horn', 1),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
@@ -133,7 +133,7 @@ maker(
 maker(
     baca.scope('HornVoiceII', 'all'),
     animales.brass_manifest_rhythm(2, right_broken=True),
-    animales.margin_markup('Hn. (2+4)'),
+    #animales.margin_markup('Hn. (2+4)'),
     animales.parts('Horn', 2),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
@@ -155,7 +155,7 @@ maker(
 maker(
     baca.scope('TrumpetVoiceI', 'all'),
     animales.brass_manifest_rhythm(5, right_broken=True),
-    animales.margin_markup('Tp. (1+3)'),
+    #animales.margin_markup('Tp. (1+3)'),
     animales.parts('Trumpet', 1),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
@@ -175,7 +175,7 @@ maker(
 maker(
     baca.scope('TrumpetVoiceII', 'all'),
     animales.brass_manifest_rhythm(6, right_broken=True),
-    animales.margin_markup('Tp. (2+4)'),
+    #animales.margin_markup('Tp. (2+4)'),
     animales.parts('Trumpet', 2),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
@@ -197,7 +197,7 @@ maker(
 maker(
     baca.scope('TromboneVoiceI', 'all'),
     animales.brass_manifest_rhythm(9, right_broken=True),
-    animales.margin_markup('Trb. (1+3)'),
+    #animales.margin_markup('Trb. (1+3)'),
     animales.parts('Trombone', 1),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
@@ -217,7 +217,7 @@ maker(
 maker(
     baca.scope('TromboneVoiceII', 'all'),
     animales.brass_manifest_rhythm(10, right_broken=True),
-    animales.margin_markup('Trb. (2+4)'),
+    #animales.margin_markup('Trb. (2+4)'),
     animales.parts('Trombone', 2),
     baca.not_parts(baca.dynamics_up()),
     baca.not_parts(baca.voice_one()),
