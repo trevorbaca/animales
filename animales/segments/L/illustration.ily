@@ -119,14 +119,14 @@ L_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [L.1]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                        \with-color                                      %! SM28:CLOCK_TIME_MARKUP %@%
-                            #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP %@%
-                            \fontsize                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                                #3                                       %! SM28:CLOCK_TIME_MARKUP %@%
-                                [0'46'']                                 %! SM28:CLOCK_TIME_MARKUP %@%
-                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'46'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
@@ -160,14 +160,14 @@ L_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [L.2]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                        \with-color                                      %! SM28:CLOCK_TIME_MARKUP %@%
-                            #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP %@%
-                            \fontsize                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                                #3                                       %! SM28:CLOCK_TIME_MARKUP %@%
-                                [0'47'']                                 %! SM28:CLOCK_TIME_MARKUP %@%
-                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'47'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
@@ -202,14 +202,14 @@ L_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [L.3]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                        \with-color                                      %! SM28:CLOCK_TIME_MARKUP %@%
-                            #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP %@%
-                            \fontsize                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                                #3                                       %! SM28:CLOCK_TIME_MARKUP %@%
-                                [0'49'']                                 %! SM28:CLOCK_TIME_MARKUP %@%
-                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'49'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
@@ -243,14 +243,14 @@ L_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [L.4]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                        \with-color                                      %! SM28:CLOCK_TIME_MARKUP %@%
-                            #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP %@%
-                            \fontsize                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                                #3                                       %! SM28:CLOCK_TIME_MARKUP %@%
-                                [0'51'']                                 %! SM28:CLOCK_TIME_MARKUP %@%
-                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'51'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
@@ -284,14 +284,14 @@ L_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [L.5]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                        \with-color                                      %! SM28:CLOCK_TIME_MARKUP %@%
-                            #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP %@%
-                            \fontsize                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                                #3                                       %! SM28:CLOCK_TIME_MARKUP %@%
-                                [0'53'']                                 %! SM28:CLOCK_TIME_MARKUP %@%
-                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'53'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
@@ -326,14 +326,14 @@ L_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [L.6]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                        \with-color                                      %! SM28:CLOCK_TIME_MARKUP %@%
-                            #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP %@%
-                            \fontsize                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                                #3                                       %! SM28:CLOCK_TIME_MARKUP %@%
-                                [0'55'']                                 %! SM28:CLOCK_TIME_MARKUP %@%
-                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'55'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
@@ -367,14 +367,14 @@ L_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [L.7]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                        \with-color                                      %! SM28:CLOCK_TIME_MARKUP %@%
-                            #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP %@%
-                            \fontsize                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                                #3                                       %! SM28:CLOCK_TIME_MARKUP %@%
-                                [0'57'']                                 %! SM28:CLOCK_TIME_MARKUP %@%
-                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'57'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
@@ -409,14 +409,14 @@ L_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [L.8]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                        \with-color                                      %! SM28:CLOCK_TIME_MARKUP %@%
-                            #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP %@%
-                            \fontsize                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                                #3                                       %! SM28:CLOCK_TIME_MARKUP %@%
-                                [0'58'']                                 %! SM28:CLOCK_TIME_MARKUP %@%
-                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'58'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
@@ -450,14 +450,14 @@ L_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [L.9]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                        \with-color                                      %! SM28:CLOCK_TIME_MARKUP %@%
-                            #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP %@%
-                            \fontsize                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                                #3                                       %! SM28:CLOCK_TIME_MARKUP %@%
-                                [1'00'']                                 %! SM28:CLOCK_TIME_MARKUP %@%
-                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [1'00'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
@@ -493,14 +493,14 @@ L_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [L.10]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                        \with-color                                      %! SM28:CLOCK_TIME_MARKUP %@%
-                            #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP %@%
-                            \fontsize                                    %! SM28:CLOCK_TIME_MARKUP %@%
-                                #3                                       %! SM28:CLOCK_TIME_MARKUP %@%
-                                [1'02'']                                 %! SM28:CLOCK_TIME_MARKUP %@%
-                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [1'02'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     \override Score.BarLine.transparent = ##f                            %! SM5

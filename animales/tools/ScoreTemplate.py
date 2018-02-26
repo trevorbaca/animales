@@ -306,6 +306,60 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>
         >>
 
+    ..  container:: example
+
+        REGRESSION.
+
+        >>> template = animales.ScoreTemplate(
+        ...     bassoons=[(1, [1])],
+        ...     )
+        >>> path = abjad.Path('animales', 'stylesheets', 'contexts.ily')
+        >>> lilypond_file = template.__illustrate__(
+        ...     global_staff_size=8,
+        ...     includes=[path],
+        ...     )
+        >>> abjad.show(lilypond_file) # doctest: +SKIP
+
+        >>> abjad.f(lilypond_file[abjad.Score])
+        \context Score = "Score"
+        <<
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalRests = "GlobalRests"
+                {
+                }
+                \context GlobalSkips = "GlobalSkips"
+                {
+                }
+            >>
+            \context MusicContext = "MusicContext"
+            <<
+                \context StaffGroup = "WindStaffGroup"
+                <<
+                    \context Staff = "BassoonStaffI"
+                    {
+                        \context Voice = "BassoonVoiceI"
+                        {
+                            \set Staff.instrumentName =      %! ST2:-PARTS
+                            \markup {                        %! ST2:-PARTS
+                                \hcenter-in                  %! ST2:-PARTS
+                                    #16                      %! ST2:-PARTS
+                                    Bsn.                     %! ST2:-PARTS
+                                }                            %! ST2:-PARTS
+                            \set Staff.shortInstrumentName = %! ST2:-PARTS
+                            \markup {                        %! ST2:-PARTS
+                                \hcenter-in                  %! ST2:-PARTS
+                                    #16                      %! ST2:-PARTS
+                                    Bsn.                     %! ST2:-PARTS
+                                }                            %! ST2:-PARTS
+                            \clef "bass" %! ST3
+                            s1
+                        }
+                    }
+                >>
+            >>
+        >>
+
     '''
 
     ### CLASS VARIABLES ###
@@ -649,7 +703,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                             *bass_clarinet_staves,
                             ),
                         ),
-                    self.make_square_staff_group('Bassoon', *bassoon_staves),
+                    (
+                        'BassoonFamily',
+                        self.make_square_staff_group(
+                            'Bassoon',
+                            *bassoon_staves,
+                            ),
+                        ),
                     ),
                 ),
             self.make_staff_group(
