@@ -74,8 +74,8 @@
                     >>
                     \context Staff = "CelloStaffI"
                     \L_CelloStaffI
-                    \context Staff = "ContrabassStaffI"
-                    \L_ContrabassStaffI
+                    \context Staff = "ContrabassStaffII"
+                    \L_ContrabassStaffII
                 >>
             >>
         >>
