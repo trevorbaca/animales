@@ -1,27 +1,7 @@
 TO-DO
 =====
 
-1.  Right now (llm) effects EOL [[35/480]] spacing correctly with ...
-
-        breaks = baca.breaks(
-            baca.page(
-                [95, 0, (20, 20,)],
-                [99, 215, (20, 20,)],
-                ),
-            )
-
-    ... but not with ...
-
-        breaks = baca.breaks(
-            baca.page(
-                [1, 0, (20, 20,)],
-                [5, 215, (20, 20,)],
-                ),
-            )
-
-    ... this.
-
-    Teach (llm) to effect [[35/480]] with the second form.
+1.  Add -PARTS / +SEGMENT tag initializer restriction.
 
 2.  Change tutti string lv markup to show only first violins in score.
 
