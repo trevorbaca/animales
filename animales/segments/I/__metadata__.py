@@ -186,7 +186,7 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('duration', "0'23''"),
+        ('duration', "0'12''"),
         ('first_measure_number', 76),
         ('last_measure_number', 81),
         ('metronome_mark_spanner_right_broken', True),
@@ -1020,8 +1020,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "0'00''"),
-        ('stop_clock_time', "0'23''"),
+        ('start_clock_time', "2'35''"),
+        ('stop_clock_time', "2'47''"),
         (
             'time_signatures',
             ['3/4', '3/4', '4/4', '4/4', '2/4', '3/4'],

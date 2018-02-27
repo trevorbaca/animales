@@ -174,6 +174,7 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
+        ('duration', "0'13''"),
         (
             'first_appearance_margin_markup',
             abjad.OrderedDict(
@@ -1014,6 +1015,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
+        ('start_clock_time', "1'26''"),
+        ('stop_clock_time', "1'39''"),
         (
             'time_signatures',
             ['4/4', '4/4', '4/4', '3/4', '3/4', '4/4'],
