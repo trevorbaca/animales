@@ -970,7 +970,7 @@
                         \context Staff = "PercussionStaffII"
                         \E_PercussionStaffII
                         \context Staff = "PercussionStaffII"
-                        \F_GlobalRests
+                        \F_PercussionStaffII
                         \context Staff = "PercussionStaffII"
                         \G_PercussionStaffII
                         \context Staff = "PercussionStaffII"

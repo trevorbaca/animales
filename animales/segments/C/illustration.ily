@@ -1334,12 +1334,21 @@ C_FirstViolinVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
                             "[“Vni. I”]"                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
-                \line                                        %! IC
-                    {                                        %! IC
-                        \whiteout                            %! IC
-                            \upright                         %! IC
-                                "still (non vibrato)"        %! IC
-                    }                                        %! IC
+                \line                                        %! IC:-PARTS
+                    {                                        %! IC:-PARTS
+                        \whiteout                            %! IC:-PARTS
+                            \upright                         %! IC:-PARTS
+                                \override                    %! IC:-PARTS
+                                    #'(box-padding . 0.5)    %! IC:-PARTS
+                                    \box                     %! IC:-PARTS
+                                        "strings: still (non vib.)" %! IC:-PARTS
+                    }                                        %! IC:-PARTS
+            %%% \line                                        %! IC:+PARTS
+            %%%     {                                        %! IC:+PARTS
+            %%%         \whiteout                            %! IC:+PARTS
+            %%%             \upright                         %! IC:+PARTS
+            %%%                 "still (non vibrato)"        %! IC:+PARTS
+            %%%     }                                        %! IC:+PARTS
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1454,12 +1463,12 @@ C_SecondViolinVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
                             "[“Vni. II”]"                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
-                \line                                        %! IC
-                    {                                        %! IC
-                        \whiteout                            %! IC
-                            \upright                         %! IC
-                                "still (non vibrato)"        %! IC
-                    }                                        %! IC
+            %%% \line                                        %! IC:+PARTS
+            %%%     {                                        %! IC:+PARTS
+            %%%         \whiteout                            %! IC:+PARTS
+            %%%             \upright                         %! IC:+PARTS
+            %%%                 "still (non vibrato)"        %! IC:+PARTS
+            %%%     }                                        %! IC:+PARTS
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1565,12 +1574,12 @@ C_ViolaVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
                             [“Vle.”]                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
-                \line                                        %! IC
-                    {                                        %! IC
-                        \whiteout                            %! IC
-                            \upright                         %! IC
-                                "still (non vibrato)"        %! IC
-                    }                                        %! IC
+            %%% \line                                        %! IC:+PARTS
+            %%%     {                                        %! IC:+PARTS
+            %%%         \whiteout                            %! IC:+PARTS
+            %%%             \upright                         %! IC:+PARTS
+            %%%                 "still (non vibrato)"        %! IC:+PARTS
+            %%%     }                                        %! IC:+PARTS
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1668,12 +1677,12 @@ C_CelloVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
                             [“Vc.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
-                \line                                        %! IC
-                    {                                        %! IC
-                        \whiteout                            %! IC
-                            \upright                         %! IC
-                                "still (non vibrato)"        %! IC
-                    }                                        %! IC
+            %%% \line                                        %! IC:+PARTS
+            %%%     {                                        %! IC:+PARTS
+            %%%         \whiteout                            %! IC:+PARTS
+            %%%             \upright                         %! IC:+PARTS
+            %%%                 "still (non vibrato)"        %! IC:+PARTS
+            %%%     }                                        %! IC:+PARTS
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1927,12 +1936,12 @@ C_ContrabassVoiceI_a = {
                             \upright                     %! IC:-PARTS
                                 "(cb. 2-6)"              %! IC:-PARTS
                     }                                    %! IC:-PARTS
-                \line                                    %! IC
-                    {                                    %! IC
-                        \whiteout                        %! IC
-                            \upright                     %! IC
-                                "still (non vibrato)"    %! IC
-                    }                                    %! IC
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 "still (non vibrato)"    %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                         \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
@@ -1967,36 +1976,66 @@ C_ContrabassVoiceI_a = {
     % [C ContrabassVoiceI measure 37]                    %! SM4
     bf,1
     \repeatTie                                           %! TCC
-    ^ \markup {                                          %! IC
-        \whiteout                                        %! IC
-            \upright                                     %! IC
-                \scale                                   %! IC
-                    #'(1.25 . 1.25)                      %! IC
-                    \line                                %! IC
-                        {                                %! IC
-                            \concat                      %! IC
-                                {                        %! IC
-                                    (                    %! IC
-                                    B                    %! IC
-                                    \raise               %! IC
-                                        #0.5             %! IC
-                                        \scale           %! IC
-                                            #'(0.65 . 0.65) %! IC
-                                            \flat        %! IC
-                                }                        %! IC
-                            =                            %! IC
-                            \concat                      %! IC
-                                {                        %! IC
-                                    A                    %! IC
-                                    \raise               %! IC
-                                        #0.8             %! IC
-                                        \scale           %! IC
-                                            #'(0.55 . 0.55) %! IC
-                                            \sharp       %! IC
-                                    )                    %! IC
-                                }                        %! IC
-                        }                                %! IC
-        }                                                %! IC
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \scale                                   %! IC:+PARTS
+%%%                 #'(1.25 . 1.25)                      %! IC:+PARTS
+%%%                 \line                                %! IC:+PARTS
+%%%                     {                                %! IC:+PARTS
+%%%                         \concat                      %! IC:+PARTS
+%%%                             {                        %! IC:+PARTS
+%%%                                 (                    %! IC:+PARTS
+%%%                                 B                    %! IC:+PARTS
+%%%                                 \raise               %! IC:+PARTS
+%%%                                     #0.5             %! IC:+PARTS
+%%%                                     \scale           %! IC:+PARTS
+%%%                                         #'(0.65 . 0.65) %! IC:+PARTS
+%%%                                         \flat        %! IC:+PARTS
+%%%                             }                        %! IC:+PARTS
+%%%                         =                            %! IC:+PARTS
+%%%                         \concat                      %! IC:+PARTS
+%%%                             {                        %! IC:+PARTS
+%%%                                 A                    %! IC:+PARTS
+%%%                                 \raise               %! IC:+PARTS
+%%%                                     #0.8             %! IC:+PARTS
+%%%                                     \scale           %! IC:+PARTS
+%%%                                         #'(0.55 . 0.55) %! IC:+PARTS
+%%%                                         \sharp       %! IC:+PARTS
+%%%                                 )                    %! IC:+PARTS
+%%%                             }                        %! IC:+PARTS
+%%%                     }                                %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    _ \markup {                                          %! IC:-PARTS
+        \whiteout                                        %! IC:-PARTS
+            \upright                                     %! IC:-PARTS
+                \scale                                   %! IC:-PARTS
+                    #'(1.25 . 1.25)                      %! IC:-PARTS
+                    \line                                %! IC:-PARTS
+                        {                                %! IC:-PARTS
+                            \concat                      %! IC:-PARTS
+                                {                        %! IC:-PARTS
+                                    (                    %! IC:-PARTS
+                                    B                    %! IC:-PARTS
+                                    \raise               %! IC:-PARTS
+                                        #0.5             %! IC:-PARTS
+                                        \scale           %! IC:-PARTS
+                                            #'(0.65 . 0.65) %! IC:-PARTS
+                                            \flat        %! IC:-PARTS
+                                }                        %! IC:-PARTS
+                            =                            %! IC:-PARTS
+                            \concat                      %! IC:-PARTS
+                                {                        %! IC:-PARTS
+                                    A                    %! IC:-PARTS
+                                    \raise               %! IC:-PARTS
+                                        #0.8             %! IC:-PARTS
+                                        \scale           %! IC:-PARTS
+                                            #'(0.55 . 0.55) %! IC:-PARTS
+                                            \sharp       %! IC:-PARTS
+                                    )                    %! IC:-PARTS
+                                }                        %! IC:-PARTS
+                        }                                %! IC:-PARTS
+        }                                                %! IC:-PARTS
     
     % [C ContrabassVoiceI measure 38]                    %! SM4
     bf,1

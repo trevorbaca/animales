@@ -183,9 +183,20 @@ most_strings = [
 
 maker(
     baca.make_scopes(most_strings, [4]),
-    baca.markup.boxed_lines([
-        'suddenly ripped off;', 'las. vib. possibile',
-        ]),
+    baca.only_parts(
+        baca.markup.boxed_lines(
+            ['suddenly ripped off;', 'las. vib. poss.']
+            ),
+        ),
+    )
+
+maker(
+    baca.scope('FirstViolinVoiceI', 4),
+    baca.not_parts(
+        baca.markup.boxed_lines(
+            ['strings:', 'suddenly ripped off;', 'las. vib. poss.']
+            ),
+        ),
     )
 
 maker(

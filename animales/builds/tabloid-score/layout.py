@@ -12,7 +12,9 @@ breaks = baca.breaks(
         ),
     baca.page( # 3
         [22, 0, (after_time_signatures, 18)],
-        [30, 190, (after_time_signatures, 18)],
+        [30, 200, 
+            (after_time_signatures, (16, 16, 18), (14, 14, 22), (16,))
+            ],
         ),
     baca.page( # 4
         [39, 5, (after_time_signatures, 16)],

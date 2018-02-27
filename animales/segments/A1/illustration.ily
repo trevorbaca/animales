@@ -1801,11 +1801,23 @@ A_a_FirstViolinVoiceI_b = {
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-    ^ \markup {                                          %! IC
-        \whiteout                                        %! IC
-            \upright                                     %! IC
-                "still (non vibrato)"                    %! IC
-        }                                                %! IC
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             "still (non vibrato)"                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    _ \markup {                                          %! IC:-PARTS
+        \whiteout                                        %! IC:-PARTS
+            \upright                                     %! IC:-PARTS
+                \override                                %! IC:-PARTS
+                    #'(box-padding . 0.5)                %! IC:-PARTS
+                    \box                                 %! IC:-PARTS
+                        \column                          %! IC:-PARTS
+                            {                            %! IC:-PARTS
+                                "all other strings:"     %! IC:-PARTS
+                                "still (non vibrato)"    %! IC:-PARTS
+                            }                            %! IC:-PARTS
+        }                                                %! IC:-PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [A1 FirstViolinVoiceI measure 21]                  %! SM4
@@ -1927,11 +1939,11 @@ A_a_FirstViolinVoiceII_a = {
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-    ^ \markup {                                          %! IC
-        \whiteout                                        %! IC
-            \upright                                     %! IC
-                "still (non vibrato)"                    %! IC
-        }                                                %! IC
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             "still (non vibrato)"                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [A1 FirstViolinVoiceII measure 21]                 %! SM4
@@ -2050,11 +2062,11 @@ A_a_SecondViolinVoiceI_a = {
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-    ^ \markup {                                          %! IC
-        \whiteout                                        %! IC
-            \upright                                     %! IC
-                "still (non vibrato)"                    %! IC
-        }                                                %! IC
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             "still (non vibrato)"                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [A1 SecondViolinVoiceI measure 21]                 %! SM4
@@ -2170,11 +2182,11 @@ A_a_SecondViolinVoiceII_a = {
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-    ^ \markup {                                          %! IC
-        \whiteout                                        %! IC
-            \upright                                     %! IC
-                "still (non vibrato)"                    %! IC
-        }                                                %! IC
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             "still (non vibrato)"                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [A1 SecondViolinVoiceII measure 21]                %! SM4
@@ -2293,11 +2305,11 @@ A_a_ViolaVoiceI_a = {
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-    ^ \markup {                                          %! IC
-        \whiteout                                        %! IC
-            \upright                                     %! IC
-                "still (non vibrato)"                    %! IC
-        }                                                %! IC
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             "still (non vibrato)"                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [A1 ViolaVoiceI measure 21]                        %! SM4
@@ -2413,11 +2425,11 @@ A_a_ViolaVoiceII_a = {
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-    ^ \markup {                                          %! IC
-        \whiteout                                        %! IC
-            \upright                                     %! IC
-                "still (non vibrato)"                    %! IC
-        }                                                %! IC
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             "still (non vibrato)"                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [A1 ViolaVoiceII measure 21]                       %! SM4
@@ -2516,11 +2528,11 @@ A_a_CelloVoiceI_a = {
     c'1
     \p_sub                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                           %! SC
-    ^ \markup {                                              %! IC
-        \whiteout                                            %! IC
-            \upright                                         %! IC
-                "still (non vibrato)"                        %! IC
-        }                                                    %! IC
+%%% ^ \markup {                                              %! IC:+PARTS
+%%%     \whiteout                                            %! IC:+PARTS
+%%%         \upright                                         %! IC:+PARTS
+%%%             "still (non vibrato)"                        %! IC:+PARTS
+%%%     }                                                    %! IC:+PARTS
     \revert TrillSpanner.staff-padding                       %! OC2
     
     % [A1 CelloVoiceI measure 21]                            %! SM4

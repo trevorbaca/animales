@@ -170,7 +170,7 @@ maker(
     baca.make_scopes(strings, [(3, 6)]),
     baca.subito_dynamic('p'),
     baca.make_tied_notes(repeat_ties=True),
-    baca.markup('still (non vibrato)'),
+    baca.only_parts(baca.markup('still (non vibrato)')),
     baca.pitch(0),
     )
 
@@ -187,6 +187,12 @@ maker(
 maker(
     baca.scope('FirstViolinVoiceI', (3, 6)),
     animales.parts('FirstViolin', (2, 10)),
+    baca.not_parts(
+        baca.markup.boxed_lines(
+            ['all other strings:', 'still (non vibrato)'],
+            direction=abjad.Down,
+            )
+        ),
     )
 
 maker(
