@@ -1,13 +1,11 @@
 TO-DO
 =====
 
-1.  Debug uncolored clefs at L.
+1.  Make clocktime markup work at D, G, I.
 
-2.  Make clocktime markup work at D, G, I.
+2.  Teach segment-maker to show [[35/480]] as [[1/20 * 35/24]].
 
-3.  Teach segment-maker to show [[35/480]] as [[1/20 * 35/24]].
-
-4.  Right now (llm) effects EOL [[35/480]] spacing correctly with ...
+3.  Right now (llm) effects EOL [[35/480]] spacing correctly with ...
 
         breaks = baca.breaks(
             baca.page(
@@ -29,28 +27,28 @@ TO-DO
 
     Teach (llm) to effect [[35/480]] with the second form.
 
-5.  Change tutti string lv markup to show only first violins in score.
+4.  Change tutti string lv markup to show only first violins in score.
 
-6.  Equip OverrideCommand with mmrest check.
+5.  Equip OverrideCommand with mmrest check.
     Integrate in baca.mmrest_text_extra_offset(), etc.
     Integrate nonmmrest check into baca.text_script_extra_offset(), etc.
 
-7.  Constrain all \voiceOne, \voiceTwo commands by container.
+6.  Constrain all \voiceOne, \voiceTwo commands by container.
     FirstViolinVoiceI in A1, B, etc.
 
-8.  Warn layout measure count / segment measure count segment interpretation.
+7.  Warn layout measure count / segment measure count segment interpretation.
     Display layout measure count created during (llm).
     Allow for spacing.override((30, 'end'), (1, 16)).
     Fix: segment (llm), (ipo) fails after segment duplication.
     (ipo) needs to check and see if (llm) should run first.
 
-9.  Teach segment-maker to check for duplicate part assignments.
+8.  Teach segment-maker to check for duplicate part assignments.
 
-10. Model staff / part / instrument / margin markup relationships.
+9.  Model staff / part / instrument / margin markup relationships.
     Constrain part by staff.
     Constrain instrument by staff, part.
     Constrain margin markup by staff, part, instrument.
 
-11. Eventually implement cross-segment broken spanner checks.
+10. Eventually implement cross-segment broken spanner checks.
 
-12. Eventually color cross-segment broken spanners.
+11. Eventually color cross-segment broken spanners.
