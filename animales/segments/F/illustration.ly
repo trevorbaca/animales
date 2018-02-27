@@ -83,6 +83,8 @@
                 >>
                 \context StaffGroup = "PercussionStaffGroup"
                 <<
+                    \context Staff = "PercussionStaffII"
+                    \F_PercussionStaffII
                     \context Staff = "PercussionStaffIII"
                     \F_PercussionStaffIII
                 >>

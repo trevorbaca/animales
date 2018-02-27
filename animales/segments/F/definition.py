@@ -44,6 +44,7 @@ maker = baca.SegmentMaker(
             (1, [1]),
             ],
         percussion=[
+            (2, [2]),
             (3, [3]),
             ],
         first_violins=[
@@ -256,7 +257,16 @@ maker(
     baca.stopped(),
     )
 
-# percussion (vib.)
+# percussion
+
+# cymbal
+
+maker(
+    baca.scope('PercussionVoiceII', 'all'),
+    baca.not_parts(baca.bar_extent_zero()),
+    )
+
+# vibraphone
 
 maker(
     baca.scope('PercussionVoiceIII', 'all'),

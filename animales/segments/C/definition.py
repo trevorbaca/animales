@@ -161,6 +161,7 @@ maker(
     baca.scope('FirstViolinVoiceI', 'all'),
     animales.parts('FirstViolin'),
     baca.make_repeat_tied_notes(),
+    baca.not_parts(baca.markup.boxed('strings: still (non vib.)')),
     baca.pitch('Bb6'),
     baca.repeat_ties_up(),
     )
@@ -217,7 +218,11 @@ maker(
         baca.pitch('A#1', baca.pleaf(0)),
         baca.pitch('Bb1', baca.leaves()[1:]),
         baca.repeat_tie_to(baca.leaf(1)),
-        baca.markup(warning, baca.leaf(1)),
+        baca.markup.edition(
+            baca.markup(warning, selector=baca.leaf(0), direction=abjad.Down),
+            baca.markup(warning, selector=baca.leaf(0), direction=abjad.Up),
+            selector=baca.leaf(1),
+            ),
         ]),
     )
 
@@ -231,13 +236,13 @@ upper_strings = [
 maker(
     baca.make_scopes(upper_strings, [1]),
     baca.dynamic('pp'),
-    baca.markup('still (non vibrato)'),
+    baca.only_parts(baca.markup('still (non vibrato)')),
     )
 
 maker(
     baca.scope('ContrabassVoiceI', 1),
     baca.dynamic('p'),
-    baca.markup('still (non vibrato)'),
+    baca.only_parts(baca.markup('still (non vibrato)')),
     )
 
 # contrabass solo

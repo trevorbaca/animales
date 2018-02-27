@@ -1090,18 +1090,38 @@ E_FirstViolinVoiceI_a = {
     % [E FirstViolinVoiceI measure 53]                       %! SM4
     R1 * 3/4
     \stopTrillSpan                                           %! SC
-    ^ \markup {                                              %! IC
-        \whiteout                                            %! IC
-            \upright                                         %! IC
-                \override                                    %! IC
-                    #'(box-padding . 0.5)                    %! IC
-                    \box                                     %! IC
-                        \column                              %! IC
-                            {                                %! IC
-                                "suddenly ripped off;"       %! IC
-                                "las. vib. possibile"        %! IC
-                            }                                %! IC
-        }                                                    %! IC
+    ^ \markup {
+        \column
+            {
+            %%% \line                                        %! IC:+PARTS
+            %%%     {                                        %! IC:+PARTS
+            %%%         \whiteout                            %! IC:+PARTS
+            %%%             \upright                         %! IC:+PARTS
+            %%%                 \override                    %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5)    %! IC:+PARTS
+            %%%                     \box                     %! IC:+PARTS
+            %%%                         \column              %! IC:+PARTS
+            %%%                             {                %! IC:+PARTS
+            %%%                                 "suddenly ripped off;" %! IC:+PARTS
+            %%%                                 "las. vib. poss." %! IC:+PARTS
+            %%%                             }                %! IC:+PARTS
+            %%%     }                                        %! IC:+PARTS
+                \line                                        %! IC:-PARTS
+                    {                                        %! IC:-PARTS
+                        \whiteout                            %! IC:-PARTS
+                            \upright                         %! IC:-PARTS
+                                \override                    %! IC:-PARTS
+                                    #'(box-padding . 0.5)    %! IC:-PARTS
+                                    \box                     %! IC:-PARTS
+                                        \column              %! IC:-PARTS
+                                            {                %! IC:-PARTS
+                                                strings:     %! IC:-PARTS
+                                                "suddenly ripped off;" %! IC:-PARTS
+                                                "las. vib. poss." %! IC:-PARTS
+                                            }                %! IC:-PARTS
+                    }                                        %! IC:-PARTS
+            }
+        }
     
     % [E FirstViolinVoiceI measure 54]                       %! SM4
     R1 * 1
@@ -1213,18 +1233,18 @@ E_SecondViolinVoiceI_a = {
     % [E SecondViolinVoiceI measure 53]                      %! SM4
     R1 * 3/4
     \stopTrillSpan                                           %! SC
-    ^ \markup {                                              %! IC
-        \whiteout                                            %! IC
-            \upright                                         %! IC
-                \override                                    %! IC
-                    #'(box-padding . 0.5)                    %! IC
-                    \box                                     %! IC
-                        \column                              %! IC
-                            {                                %! IC
-                                "suddenly ripped off;"       %! IC
-                                "las. vib. possibile"        %! IC
-                            }                                %! IC
-        }                                                    %! IC
+%%% ^ \markup {                                              %! IC:+PARTS
+%%%     \whiteout                                            %! IC:+PARTS
+%%%         \upright                                         %! IC:+PARTS
+%%%             \override                                    %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                    %! IC:+PARTS
+%%%                 \box                                     %! IC:+PARTS
+%%%                     \column                              %! IC:+PARTS
+%%%                         {                                %! IC:+PARTS
+%%%                             "suddenly ripped off;"       %! IC:+PARTS
+%%%                             "las. vib. poss."            %! IC:+PARTS
+%%%                         }                                %! IC:+PARTS
+%%%     }                                                    %! IC:+PARTS
     
     % [E SecondViolinVoiceI measure 54]                      %! SM4
     R1 * 1
@@ -1320,18 +1340,18 @@ E_ViolaVoiceI_a = {
     % [E ViolaVoiceI measure 53]                             %! SM4
     R1 * 3/4
     \stopTrillSpan                                           %! SC
-    ^ \markup {                                              %! IC
-        \whiteout                                            %! IC
-            \upright                                         %! IC
-                \override                                    %! IC
-                    #'(box-padding . 0.5)                    %! IC
-                    \box                                     %! IC
-                        \column                              %! IC
-                            {                                %! IC
-                                "suddenly ripped off;"       %! IC
-                                "las. vib. possibile"        %! IC
-                            }                                %! IC
-        }                                                    %! IC
+%%% ^ \markup {                                              %! IC:+PARTS
+%%%     \whiteout                                            %! IC:+PARTS
+%%%         \upright                                         %! IC:+PARTS
+%%%             \override                                    %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                    %! IC:+PARTS
+%%%                 \box                                     %! IC:+PARTS
+%%%                     \column                              %! IC:+PARTS
+%%%                         {                                %! IC:+PARTS
+%%%                             "suddenly ripped off;"       %! IC:+PARTS
+%%%                             "las. vib. poss."            %! IC:+PARTS
+%%%                         }                                %! IC:+PARTS
+%%%     }                                                    %! IC:+PARTS
     
     % [E ViolaVoiceI measure 54]                             %! SM4
     R1 * 1
@@ -1427,18 +1447,18 @@ E_CelloVoiceI_a = {
     % [E CelloVoiceI measure 53]                             %! SM4
     R1 * 3/4
     \stopTrillSpan                                           %! SC
-    ^ \markup {                                              %! IC
-        \whiteout                                            %! IC
-            \upright                                         %! IC
-                \override                                    %! IC
-                    #'(box-padding . 0.5)                    %! IC
-                    \box                                     %! IC
-                        \column                              %! IC
-                            {                                %! IC
-                                "suddenly ripped off;"       %! IC
-                                "las. vib. possibile"        %! IC
-                            }                                %! IC
-        }                                                    %! IC
+%%% ^ \markup {                                              %! IC:+PARTS
+%%%     \whiteout                                            %! IC:+PARTS
+%%%         \upright                                         %! IC:+PARTS
+%%%             \override                                    %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                    %! IC:+PARTS
+%%%                 \box                                     %! IC:+PARTS
+%%%                     \column                              %! IC:+PARTS
+%%%                         {                                %! IC:+PARTS
+%%%                             "suddenly ripped off;"       %! IC:+PARTS
+%%%                             "las. vib. poss."            %! IC:+PARTS
+%%%                         }                                %! IC:+PARTS
+%%%     }                                                    %! IC:+PARTS
     
     % [E CelloVoiceI measure 54]                             %! SM4
     R1 * 1
@@ -1667,18 +1687,18 @@ E_ContrabassVoiceI_a = {
     
     % [E ContrabassVoiceI measure 53]                    %! SM4
     R1 * 3/4
-    ^ \markup {                                          %! IC
-        \whiteout                                        %! IC
-            \upright                                     %! IC
-                \override                                %! IC
-                    #'(box-padding . 0.5)                %! IC
-                    \box                                 %! IC
-                        \column                          %! IC
-                            {                            %! IC
-                                "suddenly ripped off;"   %! IC
-                                "las. vib. possibile"    %! IC
-                            }                            %! IC
-        }                                                %! IC
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     \column                          %! IC:+PARTS
+%%%                         {                            %! IC:+PARTS
+%%%                             "suddenly ripped off;"   %! IC:+PARTS
+%%%                             "las. vib. poss."        %! IC:+PARTS
+%%%                         }                            %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
     % [E ContrabassVoiceI measure 54]                    %! SM4
     R1 * 1
