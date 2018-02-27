@@ -32,14 +32,14 @@
                     %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
                     %@%                 <0>                                              %! SM32:MEASURE_INDEX_MARKUP
                     %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
-                        \line                                                            %! HSS2:SPACING_MARKUP %@%
-                            {                                                            %! HSS2:SPACING_MARKUP %@%
-                                \with-color                                              %! HSS2:SPACING_MARKUP %@%
-                                    #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP %@%
-                                    \fontsize                                            %! HSS2:SPACING_MARKUP %@%
-                                        #3                                               %! HSS2:SPACING_MARKUP %@%
-                                        [1/28]                                           %! HSS2:SPACING_MARKUP %@%
-                            }                                                            %! HSS2:SPACING_MARKUP %@%
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 [1/28]                                           %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
@@ -59,14 +59,14 @@
                     %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
                     %@%                 <1>                                              %! SM32:MEASURE_INDEX_MARKUP
                     %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
-                        \line                                                            %! HSS2:SPACING_MARKUP %@%
-                            {                                                            %! HSS2:SPACING_MARKUP %@%
-                                \with-color                                              %! HSS2:SPACING_MARKUP %@%
-                                    #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP %@%
-                                    \fontsize                                            %! HSS2:SPACING_MARKUP %@%
-                                        #3                                               %! HSS2:SPACING_MARKUP %@%
-                                        [1/28]                                           %! HSS2:SPACING_MARKUP %@%
-                            }                                                            %! HSS2:SPACING_MARKUP %@%
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 [1/28]                                           %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
@@ -86,14 +86,14 @@
                     %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
                     %@%                 <2>                                              %! SM32:MEASURE_INDEX_MARKUP
                     %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
-                        \line                                                            %! HSS2:SPACING_MARKUP %@%
-                            {                                                            %! HSS2:SPACING_MARKUP %@%
-                                \with-color                                              %! HSS2:SPACING_MARKUP %@%
-                                    #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP %@%
-                                    \fontsize                                            %! HSS2:SPACING_MARKUP %@%
-                                        #3                                               %! HSS2:SPACING_MARKUP %@%
-                                        [1/28]                                           %! HSS2:SPACING_MARKUP %@%
-                            }                                                            %! HSS2:SPACING_MARKUP %@%
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 [1/28]                                           %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
@@ -113,14 +113,14 @@
                     %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
                     %@%                 <3>                                              %! SM32:MEASURE_INDEX_MARKUP
                     %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
-                        \line                                                            %! HSS2:SPACING_MARKUP %@%
-                            {                                                            %! HSS2:SPACING_MARKUP %@%
-                                \with-color                                              %! HSS2:SPACING_MARKUP %@%
-                                    #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP %@%
-                                    \fontsize                                            %! HSS2:SPACING_MARKUP %@%
-                                        #3                                               %! HSS2:SPACING_MARKUP %@%
-                                        "[[1/20 * 35/24]]"                               %! HSS2:SPACING_MARKUP %@%
-                            }                                                            %! HSS2:SPACING_MARKUP %@%
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 "[[1/20 * 35/24]]"                               %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
@@ -143,14 +143,14 @@
                     %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
                     %@%                 <4>                                              %! SM32:MEASURE_INDEX_MARKUP
                     %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
-                        \line                                                            %! HSS2:SPACING_MARKUP %@%
-                            {                                                            %! HSS2:SPACING_MARKUP %@%
-                                \with-color                                              %! HSS2:SPACING_MARKUP %@%
-                                    #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP %@%
-                                    \fontsize                                            %! HSS2:SPACING_MARKUP %@%
-                                        #3                                               %! HSS2:SPACING_MARKUP %@%
-                                        [1/20]                                           %! HSS2:SPACING_MARKUP %@%
-                            }                                                            %! HSS2:SPACING_MARKUP %@%
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
@@ -170,14 +170,14 @@
                     %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
                     %@%                 <5>                                              %! SM32:MEASURE_INDEX_MARKUP
                     %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
-                        \line                                                            %! HSS2:SPACING_MARKUP %@%
-                            {                                                            %! HSS2:SPACING_MARKUP %@%
-                                \with-color                                              %! HSS2:SPACING_MARKUP %@%
-                                    #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP %@%
-                                    \fontsize                                            %! HSS2:SPACING_MARKUP %@%
-                                        #3                                               %! HSS2:SPACING_MARKUP %@%
-                                        [1/20]                                           %! HSS2:SPACING_MARKUP %@%
-                            }                                                            %! HSS2:SPACING_MARKUP %@%
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
@@ -197,14 +197,14 @@
                     %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
                     %@%                 <6>                                              %! SM32:MEASURE_INDEX_MARKUP
                     %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
-                        \line                                                            %! HSS2:SPACING_MARKUP %@%
-                            {                                                            %! HSS2:SPACING_MARKUP %@%
-                                \with-color                                              %! HSS2:SPACING_MARKUP %@%
-                                    #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP %@%
-                                    \fontsize                                            %! HSS2:SPACING_MARKUP %@%
-                                        #3                                               %! HSS2:SPACING_MARKUP %@%
-                                        "[[1/4 * 35/24]]"                                %! HSS2:SPACING_MARKUP %@%
-                            }                                                            %! HSS2:SPACING_MARKUP %@%
+                    %@% \line                                                            %! HSS2:SPACING_MARKUP
+                    %@%     {                                                            %! HSS2:SPACING_MARKUP
+                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
+                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
+                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
+                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
+                    %@%                 "[[1/4 * 35/24]]"                                %! HSS2:SPACING_MARKUP
+                    %@%     }                                                            %! HSS2:SPACING_MARKUP
                     }
                 }
             
