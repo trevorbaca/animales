@@ -91,6 +91,14 @@ I_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [I.1]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [2'35'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
 %%% \stopTextSpan                                                        %! SM39:-SEGMENT
@@ -125,6 +133,14 @@ I_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [I.2]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [2'36'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
@@ -159,6 +175,14 @@ I_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [I.3]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [2'38'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
@@ -192,6 +216,14 @@ I_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [I.4]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [2'41'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
@@ -226,6 +258,14 @@ I_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [I.5]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [2'43'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
@@ -261,6 +301,14 @@ I_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
             %@%                 [I.6]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [2'45'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     \override Score.BarLine.transparent = ##f                            %! SM5
