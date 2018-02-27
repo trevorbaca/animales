@@ -49,7 +49,7 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [95, 101],
+            [95, 100],
             ),
         (
             'container_to_part',
