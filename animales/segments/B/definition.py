@@ -103,6 +103,7 @@ maker(
     animales.margin_markup('Vni. I'),
     animales.parts('FirstViolin'),
     baca.make_repeated_duration_notes([(1, 4)]),
+    baca.not_parts(baca.one_voice()),
     )
 
 maker(
