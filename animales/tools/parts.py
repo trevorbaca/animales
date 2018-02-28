@@ -1,11 +1,14 @@
 import abjad
 import animales
 import baca
-import roman
-from typing import Union
+import roman # type: ignore
+import typing
 
 
-def parts(section: str, members: Union[int, list, tuple] = None) -> str:
+def parts(
+    section: str,
+    members: typing.Union[int, list, tuple] = None,
+    ) -> baca.ContainerCommand:
     r'''Designates parts.
 
     >>> import animales
@@ -29,4 +32,5 @@ def parts(section: str, members: Union[int, list, tuple] = None) -> str:
 
     '''
     part = abjad.Part(section=section, members=members)
-    return baca.container(identifier=str(part))
+    command = baca.container(identifier=str(part))
+    return command
