@@ -309,7 +309,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     ..  container:: example
 
-        REGRESSION.
+        REGRESSION. Bassoon staff appears correctly:
 
         >>> template = animales.ScoreTemplate(
         ...     bassoons=[(1, [1])],
@@ -1004,3 +1004,45 @@ class ScoreTemplate(baca.ScoreTemplate):
         for staff in abjad.select(score).components(abjad.Staff):
             del(score[staff.name])
         return score
+
+    def allows_part_assignment(
+        self,
+        voice_name: str,
+        part_assignment: abjad.PartAssignment,
+        ) -> bool:
+        r'''Is true when ``voice_name`` allows ``part_assignment``.
+
+        ..  container:: example
+
+            >>> template = animales.ScoreTemplate()
+
+            >>> template.allows_part_assignment(
+            ...     'FirstViolinVoiceII',
+            ...     abjad.PartAssignment('FirstViolin'),
+            ...     )
+            True
+
+
+            >>> template.allows_part_assignment(
+            ...     'FirstViolinVoiceII',
+            ...     abjad.PartAssignment('FirstViolin', (1, 10)),
+            ...     )
+            True
+
+            >>> template.allows_part_assignment(
+            ...     'FirstViolinVoiceII',
+            ...     abjad.PartAssignment('SecondViolin'),
+            ...     )
+            False
+
+            >>> template.allows_part_assignment(
+            ...     'FirstViolinVoiceII',
+            ...     abjad.PartAssignment('Violin'),
+            ...     )
+            False
+
+        '''
+        return super(ScoreTemplate, self).allows_part_assignment(
+            voice_name,
+            part_assignment,
+            )
