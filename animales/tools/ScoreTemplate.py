@@ -367,7 +367,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     __documentation_section__ = None
 
-    _part_manifest = (
+    _part_manifest = abjad.PartManifest(
         ('Piccolo', 'PICC'),
         ('Flute1', 'FL-1'),
         ('Flute2', 'FL-2'),
@@ -801,126 +801,6 @@ class ScoreTemplate(baca.ScoreTemplate):
         return staves
 
     ### PUBLIC METHODS ###
-
-    def part_names(self) -> typing.List[str]:
-        r'''Gets part names.
-
-        ..  container:: example
-
-            >>> template = animales.ScoreTemplate()
-            >>> for part_name in template.part_names():
-            ...     part_name
-            ...
-            'Piccolo'
-            'Flute1'
-            'Flute2'
-            'Flute3'
-            'Oboe1'
-            'Oboe2'
-            'Oboe3'
-            'EnglishHorn'
-            'Clarinet1'
-            'Clarinet2'
-            'Clarinet3'
-            'BassClarinet'
-            'Bassoon1'
-            'Bassoon2'
-            'Horn1'
-            'Horn2'
-            'Horn3'
-            'Horn4'
-            'Trumpet1'
-            'Trumpet2'
-            'Trumpet3'
-            'Trumpet4'
-            'Trombone1'
-            'Trombone2'
-            'Trombone3'
-            'Trombone4'
-            'Tuba'
-            'Harp'
-            'Piano'
-            'Percussion1'
-            'Percussion2'
-            'Percussion3'
-            'Percussion4'
-            'FirstViolin01'
-            'FirstViolin02'
-            'FirstViolin03'
-            'FirstViolin04'
-            'FirstViolin05'
-            'FirstViolin06'
-            'FirstViolin07'
-            'FirstViolin08'
-            'FirstViolin09'
-            'FirstViolin10'
-            'FirstViolin11'
-            'FirstViolin12'
-            'FirstViolin13'
-            'FirstViolin14'
-            'FirstViolin15'
-            'FirstViolin16'
-            'FirstViolin17'
-            'FirstViolin18'
-            'SecondViolin01'
-            'SecondViolin02'
-            'SecondViolin03'
-            'SecondViolin04'
-            'SecondViolin05'
-            'SecondViolin06'
-            'SecondViolin07'
-            'SecondViolin08'
-            'SecondViolin09'
-            'SecondViolin10'
-            'SecondViolin11'
-            'SecondViolin12'
-            'SecondViolin13'
-            'SecondViolin14'
-            'SecondViolin15'
-            'SecondViolin16'
-            'SecondViolin17'
-            'SecondViolin18'
-            'Viola01'
-            'Viola02'
-            'Viola03'
-            'Viola04'
-            'Viola05'
-            'Viola06'
-            'Viola07'
-            'Viola08'
-            'Viola09'
-            'Viola10'
-            'Viola11'
-            'Viola12'
-            'Viola13'
-            'Viola14'
-            'Viola15'
-            'Viola16'
-            'Viola17'
-            'Viola18'
-            'Cello01'
-            'Cello02'
-            'Cello03'
-            'Cello04'
-            'Cello05'
-            'Cello06'
-            'Cello07'
-            'Cello08'
-            'Cello09'
-            'Cello10'
-            'Cello11'
-            'Cello12'
-            'Cello13'
-            'Cello14'
-            'Contrabass1'
-            'Contrabass2'
-            'Contrabass3'
-            'Contrabass4'
-            'Contrabass5'
-            'Contrabass6'
-
-        '''
-        return super(ScoreTemplate, self).part_names()
 
     @staticmethod
     def skeleton() -> abjad.Score:

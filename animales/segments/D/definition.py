@@ -205,7 +205,7 @@ maker(
 
 maker(
     baca.scope('ContrabassVoiceI', 'all'),
-    animales.parts('Contrabass'),
+    animales.parts('Contrabass', (2, 6)),
     baca.articulation('trill'),
     baca.glissando(
         allow_repeats=True,
