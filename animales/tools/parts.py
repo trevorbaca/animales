@@ -31,6 +31,5 @@ def parts(
         ContainerCommand(identifier="PartAssignment('Horn', [1, 3])", selector=baca.leaves())
 
     '''
-    part = abjad.PartAssignment(section=section, members=members)
-    command = baca.container(identifier=str(part))
-    return command
+    part_assignment = abjad.PartAssignment(section=section, members=members)
+    return baca.part(part_assignment)
