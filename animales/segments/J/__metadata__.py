@@ -83,16 +83,6 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'J_CelloVoiceI_b',
-                        (
-                            abjad.PartAssignment('FirstViolin'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(9, 4),
-                                ),
-                            ),
-                        ),
-                    (
                         'J_ClarinetVoiceI_a',
                         (
                             abjad.PartAssignment('Clarinet', 1),
@@ -139,16 +129,6 @@ metadata = abjad.OrderedDict(
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(21, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'J_FirstViolinVoiceI_b',
-                        (
-                            abjad.PartAssignment('FirstViolin'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(9, 4),
                                 ),
                             ),
                         ),
@@ -253,32 +233,12 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'J_SecondViolinVoiceI_b',
-                        (
-                            abjad.PartAssignment('FirstViolin'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(9, 4),
-                                ),
-                            ),
-                        ),
-                    (
                         'J_ViolaVoiceI_a',
                         (
                             abjad.PartAssignment('Viola'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(21, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'J_ViolaVoiceI_b',
-                        (
-                            abjad.PartAssignment('FirstViolin'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(9, 4),
                                 ),
                             ),
                         ),

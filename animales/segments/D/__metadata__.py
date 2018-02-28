@@ -94,7 +94,7 @@ metadata = abjad.OrderedDict(
                     (
                         'D_ContrabassVoiceI_a',
                         (
-                            abjad.PartAssignment('Contrabass'),
+                            abjad.PartAssignment('Contrabass', (2, 6)),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(11, 2),

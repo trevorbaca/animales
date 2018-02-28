@@ -194,7 +194,6 @@ maker(
         alert=baca.markup('(cb. 2-6)'),
         ),
     animales.parts('Contrabass', (2, 6)),
-    #animales.parts('Contrabass'),
     baca.make_repeat_tied_notes(),
     )
 
