@@ -1005,6 +1005,86 @@ class ScoreTemplate(baca.ScoreTemplate):
             del(score[staff.name])
         return score
 
+    def allows_instrument(
+        self,
+        staff_name: str,
+        instrument: abjad.Instrument,
+        ) -> bool:
+        r'''Is true when ``staff_name`` allows ``instrument``.
+
+        ..  container:: example
+
+            >>> template = animales.ScoreTemplate()
+            >>> template.allows_instrument(
+            ...     'FirstViolinStaffI',
+            ...     animales.instruments['Violin'],
+            ...     )
+            True
+
+            >>> template = animales.ScoreTemplate()
+            >>> template.allows_instrument(
+            ...     'PercussionStaffI',
+            ...     animales.instruments['Percussion'],
+            ...     )
+            True
+
+            >>> template = animales.ScoreTemplate()
+            >>> template.allows_instrument(
+            ...     'PercussionStaffI',
+            ...     animales.instruments['Vibraphone'],
+            ...     )
+            False
+
+            >>> template = animales.ScoreTemplate()
+            >>> template.allows_instrument(
+            ...     'PercussionStaffIII',
+            ...     animales.instruments['Vibraphone'],
+            ...     )
+            True
+
+        '''
+        dictionary = abjad.OrderedDict([
+            ('Piccolo', [animales.instruments['Piccolo']]),
+            ('Flute', [animales.instruments['Flute']]),
+            ('Oboe', [animales.instruments['Oboe']]),
+            ('EnglishHorn', [animales.instruments['EnglishHorn']]),
+            ('Clarinet', [animales.instruments['Clarinet']]),
+            ('BassClarinet', [animales.instruments['BassClarinet']]),
+            ('Horn', [animales.instruments['Horn']]),
+            ('Trumpet', [animales.instruments['Trumpet']]),
+            ('Trombone', [animales.instruments['Trombone']]),
+            ('Tuba', [animales.instruments['Tuba']]),
+            ('Harp', [animales.instruments['Harp']]),
+            ('Piano', [animales.instruments['Piano']]),
+            ('PercussionStaffI', [
+                animales.instruments['Percussion'],
+                ]),
+            ('PercussionStaffII', [
+                animales.instruments['Percussion'],
+                ]),
+            ('PercussionStaffIII', [
+                animales.instruments['Vibraphone'],
+                ]),
+            ('PercussionStaffIV', [
+                animales.instruments['Percussion'],
+                ]),
+            ('FirstViolin', [animales.instruments['Violin']]),
+            ('SecondViolin', [animales.instruments['Violin']]),
+            ('Viola', [animales.instruments['Viola']]),
+            ('Cello', [animales.instruments['Cello']]),
+            ('Contrabass', [animales.instruments['Contrabass']]),
+            ])
+        staff_name_words = abjad.String(staff_name).delimit_words()
+        for key in dictionary:
+            key_words = abjad.String(key).delimit_words()
+            if staff_name_words[:len(key_words)] == key_words:
+                instruments = dictionary[key]
+                if instrument in instruments:
+                    return True
+                else:
+                    return False
+        raise Exception(f'Can not find {staff_name} in instrument dictionary.')
+        
     def allows_part_assignment(
         self,
         voice_name: str,

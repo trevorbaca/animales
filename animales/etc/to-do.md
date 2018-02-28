@@ -2,7 +2,6 @@ TO-DO
 =====
 
 1.  Model staff / part / instrument / margin markup relationships.
-    Constrain instrument by staff, part.
     Constrain margin markup by staff, part, instrument.
 
 2.  Eventually implement cross-segment broken spanner checks.

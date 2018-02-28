@@ -3,6 +3,6 @@ import baca
 
 
 def instrument(key):
-    r'''Makes instrument command.
+    r'''Makes instrument change command.
     '''
     return baca.instrument(animales.instruments[key])
