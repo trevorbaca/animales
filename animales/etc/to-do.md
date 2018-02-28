@@ -2,7 +2,6 @@ TO-DO
 =====
 
 1.  Model staff / part / instrument / margin markup relationships.
-    Constrain part by staff.
     Constrain instrument by staff, part.
     Constrain margin markup by staff, part, instrument.
 
