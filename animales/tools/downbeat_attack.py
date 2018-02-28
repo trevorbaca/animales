@@ -87,7 +87,7 @@ def downbeat_attack(count=1, denominator=8):
                         {
                             \context Voice = "HornVoiceI"
                             {
-                                {   %*% Part('Horn')
+                                {   %*% PartAssignment('Horn')
             <BLANKLINE>
                                     % [HornVoiceI measure 1]                                         %! SM4
                                     \set Staff.instrumentName =                                      %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
@@ -148,7 +148,7 @@ def downbeat_attack(count=1, denominator=8):
                                     % [HornVoiceI measure 3]                                         %! SM4
                                     r2
             <BLANKLINE>
-                                }   %*% Part('Horn')
+                                }   %*% PartAssignment('Horn')
                             }
                         }
                     >>
