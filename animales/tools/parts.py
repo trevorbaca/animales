@@ -16,19 +16,19 @@ def parts(
     ..  container:: example
 
         >>> animales.parts('Horn')
-        ContainerCommand(identifier="Part('Horn')", selector=baca.leaves())
+        ContainerCommand(identifier="PartAssignment('Horn')", selector=baca.leaves())
 
         >>> animales.parts('Horn', 1)
-        ContainerCommand(identifier="Part('Horn', 1)", selector=baca.leaves())
+        ContainerCommand(identifier="PartAssignment('Horn', 1)", selector=baca.leaves())
 
         >>> animales.parts('Horn', 2)
-        ContainerCommand(identifier="Part('Horn', 2)", selector=baca.leaves())
+        ContainerCommand(identifier="PartAssignment('Horn', 2)", selector=baca.leaves())
 
         >>> animales.parts('Horn', (3, 4))
-        ContainerCommand(identifier="Part('Horn', (3, 4))", selector=baca.leaves())
+        ContainerCommand(identifier="PartAssignment('Horn', (3, 4))", selector=baca.leaves())
 
         >>> animales.parts('Horn', [1, 3])
-        ContainerCommand(identifier="Part('Horn', [1, 3])", selector=baca.leaves())
+        ContainerCommand(identifier="PartAssignment('Horn', [1, 3])", selector=baca.leaves())
 
     '''
     part = abjad.PartAssignment(section=section, members=members)
