@@ -32,4 +32,4 @@ def parts(
 
     '''
     part_assignment = abjad.PartAssignment(section=section, members=members)
-    return baca.part(part_assignment)
+    return baca.parts(part_assignment)
