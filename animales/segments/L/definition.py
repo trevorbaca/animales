@@ -58,19 +58,23 @@ maker(
 
 # strings
 
-maker(
-    baca.scope('ContrabassVoiceII', 'all'),
-    animales.parts('Contrabass'),
+tremolo_suite = baca.suite([
     baca.accents(baca.pleaves()),
     baca.dynamic('ff'),
     baca.hairpin('ff > pp', selector=baca.pleaves()[2:-2]),
-    baca.make_repeat_tied_notes(),
     baca.markup.boxed('ext. ponticello: like acid'),
-    baca.pitch('G1'),
     baca.single_segment_transition(
         baca.markup('ext. pont.'),
         baca.markup('tasto'),
         selector=baca.pleaves()[2:-2].group(),
         ),
     baca.stem_tremolo(),
+    ])
+
+maker(
+    baca.scope('ContrabassVoiceII', 'all'),
+    animales.parts('Contrabass'),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('G1'),
+    tremolo_suite,
     )
