@@ -71,25 +71,81 @@ tremolo_suite = baca.suite([
     baca.stem_tremolo(),
     ])
 
+upper_voice_suite = baca.suite([
+    baca.not_parts(baca.dynamic_text_transparent(selector=baca.leaves())),
+    baca.not_parts(baca.hairpin_transparent()),
+    baca.not_parts(baca.text_spanner_transparent()),
+    baca.not_parts(baca.voice_one()),
+    ])
+
+lower_voice_suite = baca.suite([
+    baca.not_parts(baca.voice_two()),
+    baca.not_parts(baca.text_spanner_staff_padding(5)),
+    ])
+
+# violas 1-4 + 5-8 + 9-12 + 13-18
+
+maker(
+    baca.scope('ViolaVoiceI', 'all'),
+    animales.parts('Viola', (1, 4)),
+    baca.make_repeat_tied_notes(),
+    baca.not_parts(baca.markup('1-4 + 5-8')),
+    baca.pitch('D4'),
+    tremolo_suite,
+    upper_voice_suite,
+    )
+
+maker(
+    baca.scope('ViolaVoiceIII', 'all'),
+    animales.parts('Viola', (5, 8)),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('A3'),
+    lower_voice_suite,
+    tremolo_suite,
+    )
+
+maker(
+    baca.scope('ViolaVoiceII', 'all'),
+    animales.parts('Viola', (9, 12)),
+    baca.make_repeat_tied_notes(),
+    baca.not_parts(baca.markup('9-12 + 13-18')),
+    baca.pitch('B3'),
+    tremolo_suite,
+    upper_voice_suite,
+    )
+
+maker(
+    baca.scope('ViolaVoiceIV', 'all'),
+    animales.parts('Viola', (13, 18)),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('G3'),
+    lower_voice_suite,
+    tremolo_suite,
+    )
+
+# G, D, B, F, A, C#
+# cellos
+
 maker(
     baca.scope('CelloVoiceI', 'all'),
     animales.parts('Cello', (1, 6)),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.dynamic_text_transparent(selector=baca.leaves())),
-    baca.not_parts(baca.hairpin_transparent()),
-    baca.not_parts(baca.voice_one()),
+    baca.not_parts(baca.markup('1-6 + 7-14')),
     baca.pitch('D3'),
     tremolo_suite,
+    upper_voice_suite,
     )
 
 maker(
     baca.scope('CelloVoiceII', 'all'),
     animales.parts('Cello', (7, 14)),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.voice_two()),
     baca.pitch('G2'),
+    lower_voice_suite,
     tremolo_suite,
     )
+
+# contrabasses
 
 maker(
     baca.scope('ContrabassVoiceII', 'all'),

@@ -85,6 +85,46 @@ metadata = abjad.OrderedDict(
                                 ),
                             ),
                         ),
+                    (
+                        'L_ViolaVoiceIII_a',
+                        (
+                            abjad.PartAssignment('Viola', (5, 8)),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(17, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'L_ViolaVoiceII_a',
+                        (
+                            abjad.PartAssignment('Viola', (9, 12)),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(17, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'L_ViolaVoiceIV_a',
+                        (
+                            abjad.PartAssignment('Viola', (13, 18)),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(17, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'L_ViolaVoiceI_a',
+                        (
+                            abjad.PartAssignment('Viola', (1, 4)),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(17, 2),
+                                ),
+                            ),
+                        ),
                     ]
                 ),
             ),
@@ -1071,7 +1111,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='pp',
                                 ),
                             ],
                         ),
@@ -1081,7 +1121,27 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaVoiceII',
                                 prototype='abjad.Dynamic',
-                                value='\\f_but_accents_sffz',
+                                value='pp',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ViolaVoiceIII',
+                        [
+                            abjad.Momento(
+                                context='ViolaVoiceIII',
+                                prototype='abjad.Dynamic',
+                                value='pp',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ViolaVoiceIV',
+                        [
+                            abjad.Momento(
+                                context='ViolaVoiceIV',
+                                prototype='abjad.Dynamic',
+                                value='pp',
                                 ),
                             ],
                         ),
@@ -1108,10 +1168,10 @@ metadata = abjad.OrderedDict(
                     ('SecondViolinVoiceII', False),
                     ('SecondViolinVoiceIII', False),
                     ('SecondViolinVoiceIV', False),
-                    ('ViolaVoiceI', False),
-                    ('ViolaVoiceII', False),
-                    ('ViolaVoiceIII', False),
-                    ('ViolaVoiceIV', False),
+                    ('ViolaVoiceI', True),
+                    ('ViolaVoiceII', True),
+                    ('ViolaVoiceIII', True),
+                    ('ViolaVoiceIV', True),
                     ]
                 ),
             ),
