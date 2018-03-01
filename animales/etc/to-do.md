@@ -7,5 +7,3 @@ TO-DO
 2.  Eventually implement cross-segment broken spanner checks.
 
 3.  Eventually color cross-segment broken spanners.
-
-4.  Integrate staff magnification in baca.layout().
