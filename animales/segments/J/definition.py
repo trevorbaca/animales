@@ -53,8 +53,8 @@ maker = baca.SegmentMaker(
             (1, [1]),
             ],
         contrabasses=[
-            (1, [2]),
-            (2, [1]),
+            (1, [1]),
+            (2, [2]),
             ],
         ),
     time_signatures=animales.time_signatures[start:start + 6],
@@ -298,7 +298,7 @@ most_strings = [
     'SecondViolinVoiceI',
     'ViolaVoiceI',
     'CelloVoiceI',
-    'ContrabassVoiceI',
+    'ContrabassVoiceII',
     ]
 
 strings = ['suddenly ripped off;', 'las. vib. possibile']
@@ -314,12 +314,12 @@ maker(
     )
 
 maker(
-    baca.scope('ContrabassVoiceI', 'all'),
+    baca.scope('ContrabassVoiceII', 'all'),
     animales.parts('Contrabass', (2, 6)),
     )
 
 maker(
-    baca.scope('ContrabassVoiceI', (1, 3)),
+    baca.scope('ContrabassVoiceII', (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
     baca.pitch('G1'),
@@ -328,7 +328,7 @@ maker(
 # contrabass solo
 
 maker(
-    baca.scope('ContrabassVoiceII', 'all'),
+    baca.scope('ContrabassVoiceI', 'all'),
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(1),
     baca.laissez_vibrer(),

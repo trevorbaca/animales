@@ -2557,9 +2557,9 @@ A_a_CelloStaffI = {
 }
 
 
-A_a_ContrabassVoiceI_a = {
+A_a_ContrabassVoiceII_a = {
     
-    % [A1 ContrabassVoiceI measure 18]                       %! SM4
+    % [A1 ContrabassVoiceII measure 18]                      %! SM4
     \set Staff.instrumentName =                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
     \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
@@ -2610,24 +2610,24 @@ A_a_ContrabassVoiceI_a = {
         }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [A1 ContrabassVoiceI measure 19]                       %! SM4
+    % [A1 ContrabassVoiceII measure 19]                      %! SM4
     R1 * 1
     
-    % [A1 ContrabassVoiceI measure 20]                       %! SM4
+    % [A1 ContrabassVoiceII measure 20]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     c1
     \<                                                       %! HC1
     \p                                                       %! HC1
     
-    % [A1 ContrabassVoiceI measure 21]                       %! SM4
+    % [A1 ContrabassVoiceII measure 21]                      %! SM4
     c1
     \repeatTie
     
-    % [A1 ContrabassVoiceI measure 22]                       %! SM4
+    % [A1 ContrabassVoiceII measure 22]                      %! SM4
     c1
     \repeatTie
     
-    % [A1 ContrabassVoiceI measure 23]                       %! SM4
+    % [A1 ContrabassVoiceII measure 23]                      %! SM4
     c2.
     \repeatTie
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
@@ -2635,12 +2635,12 @@ A_a_ContrabassVoiceI_a = {
 }
 
 
-A_a_ContrabassVoiceI = {
-    \A_a_ContrabassVoiceI_a
+A_a_ContrabassVoiceII = {
+    \A_a_ContrabassVoiceII_a
 }
 
 
 A_a_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceI"
-    \A_a_ContrabassVoiceI
+    \context Voice = "ContrabassVoiceII"
+    \A_a_ContrabassVoiceII
 }

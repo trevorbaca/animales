@@ -2629,9 +2629,9 @@ F_CelloStaffI = {
 }
 
 
-F_ContrabassVoiceII_a = {
+F_ContrabassVoiceI_a = {
     
-    % [F ContrabassVoiceII measure 56]                   %! SM4
+    % [F ContrabassVoiceI measure 56]                    %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -2700,11 +2700,11 @@ F_ContrabassVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [F ContrabassVoiceII measure 57]                   %! SM4
+    % [F ContrabassVoiceI measure 57]                    %! SM4
     r2.
     \times 2/3 {
         
-        % [F ContrabassVoiceII measure 58]               %! SM4
+        % [F ContrabassVoiceI measure 58]                %! SM4
         r8
         
         \override NoteHead.style = #'harmonic            %! OC1
@@ -2717,11 +2717,11 @@ F_ContrabassVoiceII_a = {
     
     r2
     
-    % [F ContrabassVoiceII measure 59]                   %! SM4
+    % [F ContrabassVoiceI measure 59]                    %! SM4
     r1
     \times 2/3 {
         
-        % [F ContrabassVoiceII measure 60]               %! SM4
+        % [F ContrabassVoiceI measure 60]                %! SM4
         r4
         
         cqf''8
@@ -2731,26 +2731,26 @@ F_ContrabassVoiceII_a = {
     
     r4
     
-    % [F ContrabassVoiceII measure 61]                   %! SM4
+    % [F ContrabassVoiceI measure 61]                    %! SM4
     r1
     
 }
 
 
-F_ContrabassVoiceII = {
-    \F_ContrabassVoiceII_a
+F_ContrabassVoiceI = {
+    \F_ContrabassVoiceI_a
 }
 
 
 F_ContrabassStaffI = {
-    \context Voice = "ContrabassVoiceII"
-    \F_ContrabassVoiceII
+    \context Voice = "ContrabassVoiceI"
+    \F_ContrabassVoiceI
 }
 
 
-F_ContrabassVoiceI_a = {
+F_ContrabassVoiceII_a = {
     
-    % [F ContrabassVoiceI measure 56]                    %! SM4
+    % [F ContrabassVoiceII measure 56]                   %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -2820,23 +2820,23 @@ F_ContrabassVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [F ContrabassVoiceI measure 57]                    %! SM4
+    % [F ContrabassVoiceII measure 57]                   %! SM4
     a,2.
     \repeatTie
     
-    % [F ContrabassVoiceI measure 58]                    %! SM4
+    % [F ContrabassVoiceII measure 58]                   %! SM4
     a,2.
     \repeatTie
     
-    % [F ContrabassVoiceI measure 59]                    %! SM4
+    % [F ContrabassVoiceII measure 59]                   %! SM4
     a,1
     \repeatTie
     
-    % [F ContrabassVoiceI measure 60]                    %! SM4
+    % [F ContrabassVoiceII measure 60]                   %! SM4
     a,2
     \repeatTie
     
-    % [F ContrabassVoiceI measure 61]                    %! SM4
+    % [F ContrabassVoiceII measure 61]                   %! SM4
     a,1
     \repeatTie
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
@@ -2844,12 +2844,12 @@ F_ContrabassVoiceI_a = {
 }
 
 
-F_ContrabassVoiceI = {
-    \F_ContrabassVoiceI_a
+F_ContrabassVoiceII = {
+    \F_ContrabassVoiceII_a
 }
 
 
 F_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceI"
-    \F_ContrabassVoiceI
+    \context Voice = "ContrabassVoiceII"
+    \F_ContrabassVoiceII
 }

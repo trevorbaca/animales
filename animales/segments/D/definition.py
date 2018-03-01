@@ -50,8 +50,8 @@ maker = baca.SegmentMaker(
             (1, [1]),
             ],
         contrabasses=[
-            (1, [2]),
-            (2, [1]),
+            (1, [1]),
+            (2, [2]),
             ],
         ),
     time_signatures=animales.time_signatures[start:start + 6],
@@ -203,7 +203,7 @@ maker(
     )
 
 maker(
-    baca.scope('ContrabassVoiceI', 'all'),
+    baca.scope('ContrabassVoiceII', 'all'),
     animales.parts('Contrabass', (2, 6)),
     baca.articulation('trill'),
     baca.glissando(
@@ -219,7 +219,7 @@ maker(
 # contrabass solo
 
 maker(
-    baca.scope('ContrabassVoiceII', 'all'),
+    baca.scope('ContrabassVoiceI', 'all'),
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(1),
     baca.laissez_vibrer(),
