@@ -56,212 +56,12 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
-                        'K_BassClarinetVoiceI_a',
+                        'L_ContrabassVoiceII_a',
                         (
-                            abjad.PartAssignment('BassClarinet'),
+                            abjad.PartAssignment('Contrabass'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_CelloVoiceI_a',
-                        (
-                            abjad.PartAssignment('FirstViolin'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_CelloVoiceI_b',
-                        (
-                            abjad.PartAssignment('Cello'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_ContrabassVoiceII_a',
-                        (
-                            abjad.PartAssignment('Contrabass', 1),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_ContrabassVoiceI_a',
-                        (
-                            abjad.PartAssignment('Contrabass', (2, 6)),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_FirstViolinVoiceIII_a',
-                        (
-                            abjad.PartAssignment('FirstViolin', 1),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(5, 2),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_FirstViolinVoiceI_a',
-                        (
-                            abjad.PartAssignment('FirstViolin'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_FirstViolinVoiceI_b',
-                        (
-                            abjad.PartAssignment('FirstViolin', (2, 18)),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_FluteVoiceIII_a',
-                        (
-                            abjad.PartAssignment('Flute', 3),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_FluteVoiceII_a',
-                        (
-                            abjad.PartAssignment('Flute', 2),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_FluteVoiceIV_a',
-                        (
-                            abjad.PartAssignment('Flute', 4),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_FluteVoiceI_a',
-                        (
-                            abjad.PartAssignment('Flute', 1),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_HarpVoiceI_a',
-                        (
-                            abjad.PartAssignment('Harp'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_PercussionVoiceIII_a',
-                        (
-                            abjad.PartAssignment('Percussion', 3),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_PercussionVoiceII_a',
-                        (
-                            abjad.PartAssignment('Percussion', 2),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_PercussionVoiceI_a',
-                        (
-                            abjad.PartAssignment('Percussion', 1),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_PianoVoiceI_a',
-                        (
-                            abjad.PartAssignment('Piano'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_SecondViolinVoiceI_a',
-                        (
-                            abjad.PartAssignment('FirstViolin'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_SecondViolinVoiceI_b',
-                        (
-                            abjad.PartAssignment('SecondViolin'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_ViolaVoiceI_a',
-                        (
-                            abjad.PartAssignment('FirstViolin'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
-                                ),
-                            ),
-                        ),
-                    (
-                        'K_ViolaVoiceI_b',
-                        (
-                            abjad.PartAssignment('Viola'),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(23, 4),
+                                stop_offset=abjad.Offset(17, 2),
                                 ),
                             ),
                         ),
@@ -456,7 +256,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ContrabassVoiceII',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='pp',
                                 ),
                             ],
                         ),
@@ -1267,7 +1067,7 @@ metadata = abjad.OrderedDict(
                     ('BassoonVoiceI', False),
                     ('CelloVoiceI', False),
                     ('CelloVoiceII', False),
-                    ('ContrabassVoiceII', False),
+                    ('ContrabassVoiceII', True),
                     ('FirstViolinVoiceI', False),
                     ('FirstViolinVoiceII', False),
                     ('FirstViolinVoiceIII', False),
