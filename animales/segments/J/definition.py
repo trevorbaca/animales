@@ -202,7 +202,6 @@ maker(
 maker(
     baca.scope('PercussionVoiceI', 'all'),
     animales.parts('Percussion', 1),
-    baca.not_parts(baca.bar_extent_zero()),
     )
 
 maker(
@@ -219,7 +218,6 @@ maker(
 maker(
     baca.scope('PercussionVoiceII', 'all'),
     animales.parts('Percussion', 2),
-    baca.not_parts(baca.bar_extent_zero()),
     )
 
 maker(

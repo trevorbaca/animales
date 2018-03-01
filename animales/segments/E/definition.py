@@ -121,12 +121,15 @@ maker(
 
 # percussion
 
+# cymbal
+
 maker(
     baca.scope('PercussionVoiceII', 'all'),
     animales.parts('Percussion', 2),
     baca.hairpin('> niente', left_broken=True, selector=baca.leaf(0)),
-    baca.not_parts(baca.bar_extent_zero()),
     )
+
+# vibraphone
 
 maker(
     baca.scope('PercussionVoiceIII', 'all'),
