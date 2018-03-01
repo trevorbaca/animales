@@ -62,7 +62,7 @@ tremolo_suite = baca.suite([
     baca.accents(baca.pleaves()),
     baca.dynamic('ff'),
     baca.hairpin('ff > pp', selector=baca.pleaves()[2:-2]),
-    baca.markup.boxed('ext. ponticello: like acid'),
+    baca.only_parts(baca.markup.boxed('ext. ponticello: like acid')),
     baca.single_segment_transition(
         baca.markup('ext. pont.'),
         baca.markup('tasto'),
@@ -72,7 +72,28 @@ tremolo_suite = baca.suite([
     ])
 
 maker(
+    baca.scope('CelloVoiceI', 'all'),
+    animales.parts('Cello', (1, 6)),
+    baca.make_repeat_tied_notes(),
+    baca.not_parts(baca.dynamic_text_transparent(selector=baca.leaves())),
+    baca.not_parts(baca.hairpin_transparent()),
+    baca.not_parts(baca.voice_one()),
+    baca.pitch('D3'),
+    tremolo_suite,
+    )
+
+maker(
+    baca.scope('CelloVoiceII', 'all'),
+    animales.parts('Cello', (7, 14)),
+    baca.make_repeat_tied_notes(),
+    baca.not_parts(baca.voice_two()),
+    baca.pitch('G2'),
+    tremolo_suite,
+    )
+
+maker(
     baca.scope('ContrabassVoiceII', 'all'),
+    animales.margin_markup('Cb.'),
     animales.parts('Contrabass'),
     baca.make_repeat_tied_notes(),
     baca.pitch('G1'),
