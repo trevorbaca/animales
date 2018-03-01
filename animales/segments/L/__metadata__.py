@@ -49,12 +49,32 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [95, 100],
+            [95],
             ),
         (
             'container_to_part_assignment',
             abjad.OrderedDict(
                 [
+                    (
+                        'L_CelloVoiceII_a',
+                        (
+                            abjad.PartAssignment('Cello', (7, 14)),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(17, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'L_CelloVoiceI_a',
+                        (
+                            abjad.PartAssignment('Cello', (1, 6)),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(17, 2),
+                                ),
+                            ),
+                        ),
                     (
                         'L_ContrabassVoiceII_a',
                         (
@@ -166,7 +186,17 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='pp',
+                                ),
+                            ],
+                        ),
+                    (
+                        'CelloVoiceII',
+                        [
+                            abjad.Momento(
+                                context='CelloVoiceII',
+                                prototype='abjad.Dynamic',
+                                value='pp',
                                 ),
                             ],
                         ),
@@ -236,7 +266,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ContrabassVoiceII',
                                 prototype='abjad.MarginMarkup',
-                                value='Cb. (2-6)',
+                                value='Cb.',
                                 ),
                             ],
                         ),
@@ -1065,8 +1095,8 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     ('BassoonVoiceI', False),
-                    ('CelloVoiceI', False),
-                    ('CelloVoiceII', False),
+                    ('CelloVoiceI', True),
+                    ('CelloVoiceII', True),
                     ('ContrabassVoiceII', True),
                     ('FirstViolinVoiceI', False),
                     ('FirstViolinVoiceII', False),

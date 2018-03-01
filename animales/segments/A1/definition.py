@@ -153,7 +153,7 @@ maker(
     baca.hairpin('p < f', baca.notes().group_by_measure()[0].rleak()),
     baca.hairpin('f > p', baca.notes().group_by_measure()[-1].lleak()),
     baca.markup.edition('solo (first violin)', 'solo'),
-    baca.not_parts(baca.dynamic_line_spanner_up()),
+    baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
     baca.suite([
