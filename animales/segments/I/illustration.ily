@@ -1710,9 +1710,9 @@ I_CelloStaffI = {
 }
 
 
-I_ContrabassVoiceII_a = {
+I_ContrabassVoiceI_a = {
     
-    % [I ContrabassVoiceII measure 76]                   %! SM4
+    % [I ContrabassVoiceI measure 76]                    %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1789,14 +1789,14 @@ I_ContrabassVoiceII_a = {
         r4
     }
     
-    % [I ContrabassVoiceII measure 77]                   %! SM4
+    % [I ContrabassVoiceI measure 77]                    %! SM4
     r2.
     
-    % [I ContrabassVoiceII measure 78]                   %! SM4
+    % [I ContrabassVoiceI measure 78]                    %! SM4
     r1
     \times 2/3 {
         
-        % [I ContrabassVoiceII measure 79]               %! SM4
+        % [I ContrabassVoiceI measure 79]                %! SM4
         cqf''8
         -\laissezVibrer                                  %! IC
         \revert NoteHead.style                           %! OC2
@@ -1806,29 +1806,29 @@ I_ContrabassVoiceII_a = {
     
     r2.
     
-    % [I ContrabassVoiceII measure 80]                   %! SM4
+    % [I ContrabassVoiceI measure 80]                    %! SM4
     r2
     
-    % [I ContrabassVoiceII measure 81]                   %! SM4
+    % [I ContrabassVoiceI measure 81]                    %! SM4
     r2.
     
 }
 
 
-I_ContrabassVoiceII = {
-    \I_ContrabassVoiceII_a
+I_ContrabassVoiceI = {
+    \I_ContrabassVoiceI_a
 }
 
 
 I_ContrabassStaffI = {
-    \context Voice = "ContrabassVoiceII"
-    \I_ContrabassVoiceII
+    \context Voice = "ContrabassVoiceI"
+    \I_ContrabassVoiceI
 }
 
 
-I_ContrabassVoiceI_a = {
+I_ContrabassVoiceII_a = {
     
-    % [I ContrabassVoiceI measure 76]                    %! SM4
+    % [I ContrabassVoiceII measure 76]                   %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1909,7 +1909,7 @@ I_ContrabassVoiceI_a = {
     a,4
     \glissando                                           %! SC
     
-    % [I ContrabassVoiceI measure 77]                    %! SM4
+    % [I ContrabassVoiceII measure 77]                   %! SM4
     a,4
     \glissando                                           %! SC
     
@@ -1919,7 +1919,7 @@ I_ContrabassVoiceI_a = {
     a,4
     \glissando                                           %! SC
     
-    % [I ContrabassVoiceI measure 78]                    %! SM4
+    % [I ContrabassVoiceII measure 78]                   %! SM4
     a,4
     \glissando                                           %! SC
     
@@ -1932,7 +1932,7 @@ I_ContrabassVoiceI_a = {
     a,4
     \glissando                                           %! SC
     
-    % [I ContrabassVoiceI measure 79]                    %! SM4
+    % [I ContrabassVoiceII measure 79]                   %! SM4
     g,4
     \glissando                                           %! SC
     
@@ -1945,14 +1945,14 @@ I_ContrabassVoiceI_a = {
     g,4
     \glissando                                           %! SC
     
-    % [I ContrabassVoiceI measure 80]                    %! SM4
+    % [I ContrabassVoiceII measure 80]                   %! SM4
     g,4
     \glissando                                           %! SC
     
     g,4
     \glissando                                           %! SC
     
-    % [I ContrabassVoiceI measure 81]                    %! SM4
+    % [I ContrabassVoiceII measure 81]                   %! SM4
     g,4
     \glissando                                           %! SC
     
@@ -1972,12 +1972,12 @@ I_ContrabassVoiceI_a = {
 }
 
 
-I_ContrabassVoiceI = {
-    \I_ContrabassVoiceI_a
+I_ContrabassVoiceII = {
+    \I_ContrabassVoiceII_a
 }
 
 
 I_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceI"
-    \I_ContrabassVoiceI
+    \context Voice = "ContrabassVoiceII"
+    \I_ContrabassVoiceII
 }

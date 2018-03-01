@@ -46,8 +46,8 @@ maker = baca.SegmentMaker(
             (1, [1]),
             ],
         contrabasses=[
-            (1, [2]),
-            (2, [1]),
+            (1, [1]),
+            (2, [2]),
             ],
         ),
     time_signatures=animales.time_signatures[start:start + 8],
@@ -192,7 +192,7 @@ maker(
     )
 
 maker(
-    baca.scope('ContrabassVoiceI', 'all'),
+    baca.scope('ContrabassVoiceII', 'all'),
     animales.margin_markup(
         'Cb. (2-6)',
         alert=baca.markup('(cb. 2-6)'),
@@ -216,7 +216,7 @@ warning = abjad.Markup.line([
     ])
 warning = warning.scale((1.25, 1.25))
 maker(
-    baca.scope('ContrabassVoiceI', 'all'),
+    baca.scope('ContrabassVoiceII', 'all'),
     baca.suite([
         baca.untie_to(baca.leaf(1)),
         baca.pitch('A#1', baca.pleaf(0)),
@@ -244,7 +244,7 @@ maker(
     )
 
 maker(
-    baca.scope('ContrabassVoiceI', 1),
+    baca.scope('ContrabassVoiceII', 1),
     baca.dynamic('p'),
     baca.only_parts(baca.markup('still (non vibrato)')),
     )
@@ -252,7 +252,7 @@ maker(
 # contrabass solo
 
 maker(
-    baca.scope('ContrabassVoiceII', 'all'),
+    baca.scope('ContrabassVoiceI', 'all'),
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(1),
     animales.margin_markup('Cb. 1'),

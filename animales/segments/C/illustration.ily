@@ -1738,9 +1738,9 @@ C_CelloStaffI = {
 }
 
 
-C_ContrabassVoiceII_a = {
+C_ContrabassVoiceI_a = {
     
-    % [C ContrabassVoiceII measure 36]                   %! SM4
+    % [C ContrabassVoiceI measure 36]                    %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -1808,7 +1808,7 @@ C_ContrabassVoiceII_a = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \times 2/3 {
         
-        % [C ContrabassVoiceII measure 37]               %! SM4
+        % [C ContrabassVoiceI measure 37]                %! SM4
         \override NoteHead.style = #'harmonic            %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d''8
@@ -1837,7 +1837,7 @@ C_ContrabassVoiceII_a = {
     
     r2.
     
-    % [C ContrabassVoiceII measure 38]                   %! SM4
+    % [C ContrabassVoiceI measure 38]                    %! SM4
     r2
     \times 2/3 {
         
@@ -1849,14 +1849,14 @@ C_ContrabassVoiceII_a = {
     
     r4
     
-    % [C ContrabassVoiceII measure 39]                   %! SM4
+    % [C ContrabassVoiceI measure 39]                    %! SM4
     r1
     
-    % [C ContrabassVoiceII measure 40]                   %! SM4
+    % [C ContrabassVoiceI measure 40]                    %! SM4
     r1
     \times 2/3 {
         
-        % [C ContrabassVoiceII measure 41]               %! SM4
+        % [C ContrabassVoiceI measure 41]                %! SM4
         d''8
         -\laissezVibrer                                  %! IC
         \revert NoteHead.style                           %! OC2
@@ -1866,29 +1866,29 @@ C_ContrabassVoiceII_a = {
     
     r4
     
-    % [C ContrabassVoiceII measure 42]                   %! SM4
+    % [C ContrabassVoiceI measure 42]                    %! SM4
     r1
     
-    % [C ContrabassVoiceII measure 43]                   %! SM4
+    % [C ContrabassVoiceI measure 43]                    %! SM4
     r1
     
 }
 
 
-C_ContrabassVoiceII = {
-    \C_ContrabassVoiceII_a
+C_ContrabassVoiceI = {
+    \C_ContrabassVoiceI_a
 }
 
 
 C_ContrabassStaffI = {
-    \context Voice = "ContrabassVoiceII"
-    \C_ContrabassVoiceII
+    \context Voice = "ContrabassVoiceI"
+    \C_ContrabassVoiceI
 }
 
 
-C_ContrabassVoiceI_a = {
+C_ContrabassVoiceII_a = {
     
-    % [C ContrabassVoiceI measure 36]                    %! SM4
+    % [C ContrabassVoiceII measure 36]                   %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -1969,7 +1969,7 @@ C_ContrabassVoiceI_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [C ContrabassVoiceI measure 37]                    %! SM4
+    % [C ContrabassVoiceII measure 37]                   %! SM4
     bf,1
     \repeatTie                                           %! TCC
 %%% ^ \markup {                                          %! IC:+PARTS
@@ -2033,39 +2033,39 @@ C_ContrabassVoiceI_a = {
                         }                                %! IC:-PARTS
         }                                                %! IC:-PARTS
     
-    % [C ContrabassVoiceI measure 38]                    %! SM4
+    % [C ContrabassVoiceII measure 38]                   %! SM4
     bf,1
     \repeatTie                                           %! TCC
     
-    % [C ContrabassVoiceI measure 39]                    %! SM4
+    % [C ContrabassVoiceII measure 39]                   %! SM4
     bf,1
     \repeatTie                                           %! TCC
     
-    % [C ContrabassVoiceI measure 40]                    %! SM4
+    % [C ContrabassVoiceII measure 40]                   %! SM4
     bf,1
     \repeatTie                                           %! TCC
     
-    % [C ContrabassVoiceI measure 41]                    %! SM4
+    % [C ContrabassVoiceII measure 41]                   %! SM4
     bf,2
     \repeatTie                                           %! TCC
     
-    % [C ContrabassVoiceI measure 42]                    %! SM4
+    % [C ContrabassVoiceII measure 42]                   %! SM4
     bf,1
     \repeatTie                                           %! TCC
     
-    % [C ContrabassVoiceI measure 43]                    %! SM4
+    % [C ContrabassVoiceII measure 43]                   %! SM4
     bf,1
     \repeatTie                                           %! TCC
     
 }
 
 
-C_ContrabassVoiceI = {
-    \C_ContrabassVoiceI_a
+C_ContrabassVoiceII = {
+    \C_ContrabassVoiceII_a
 }
 
 
 C_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceI"
-    \C_ContrabassVoiceI
+    \context Voice = "ContrabassVoiceII"
+    \C_ContrabassVoiceII
 }

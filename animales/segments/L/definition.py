@@ -43,7 +43,7 @@ maker = baca.SegmentMaker(
             (1, [1, 2]),
             ],
         contrabasses=[
-            (2, [1]),
+            (2, [2]),
             ],
         ),
     time_signatures=animales.time_signatures[start:start + 10],
