@@ -169,7 +169,7 @@ maker(
 maker(
     baca.make_scopes(strings, [(3, 6)]),
     baca.subito_dynamic('p'),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     baca.only_parts(baca.markup('still (non vibrato)')),
     baca.pitch(0),
     )
