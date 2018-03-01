@@ -1415,6 +1415,7 @@ A_a_PercussionVoiceI_a = {
     R1 * 1
     
     % [A1 PercussionVoiceI measure 20]                       %! SM4
+    \override Staff.BarLine.bar-extent = #'(0 . 0)           %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:-PARTS
     \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1         %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -1433,7 +1434,6 @@ A_a_PercussionVoiceI_a = {
                     \box                                     %! IC
                         "triangle (small beater)"            %! IC
         }                                                    %! IC
-    \override Staff.BarLine.bar-extent = #'(0 . 0)           %! OC1:-PARTS
     
     % [A1 PercussionVoiceI measure 21]                       %! SM4
     c'1
@@ -1449,8 +1449,6 @@ A_a_PercussionVoiceI_a = {
     c'2.
     :32                                                      %! IC
     \repeatTie
-    \revert Staff.BarLine.bar-extent                         %! OC2:-PARTS
-    \once \override Staff.BarLine.bar-extent = #'(0 . 0)     %! OC1:-PARTS
     \revert RepeatTie.direction                              %! OC2
     
 }
@@ -1544,6 +1542,7 @@ A_a_PercussionVoiceII_a = {
     R1 * 1
     
     % [A1 PercussionVoiceII measure 20]                      %! SM4
+    \override Staff.BarLine.bar-extent = #'(0 . 0)           %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:-PARTS
     \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1         %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -1562,7 +1561,6 @@ A_a_PercussionVoiceII_a = {
                     \box                                     %! IC
                         "suspended cymbal (soft yarn mallets: attackless sound)" %! IC
         }                                                    %! IC
-    \override Staff.BarLine.bar-extent = #'(0 . 0)           %! OC1:-PARTS
     
     % [A1 PercussionVoiceII measure 21]                      %! SM4
     c'1
@@ -1578,8 +1576,6 @@ A_a_PercussionVoiceII_a = {
     c'2.
     :32                                                      %! IC
     \repeatTie
-    \revert Staff.BarLine.bar-extent                         %! OC2:-PARTS
-    \once \override Staff.BarLine.bar-extent = #'(0 . 0)     %! OC1:-PARTS
     \revert RepeatTie.direction                              %! OC2
     
 }

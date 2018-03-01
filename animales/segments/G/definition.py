@@ -251,7 +251,6 @@ maker(
     animales.parts('Percussion', 2),
     baca.hairpin('niente < p', selector=baca.pleaves()[:3]),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.bar_extent_zero()),
     baca.repeat_ties_up(),
     baca.staff_position(0),
     baca.stem_tremolo(),

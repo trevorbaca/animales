@@ -547,6 +547,17 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='PercussionVoiceI',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(0, 0),
+                                    ),
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceI',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -569,6 +580,17 @@ metadata = abjad.OrderedDict(
                                 context='PercussionVoiceII',
                                 prototype='abjad.MarginMarkup',
                                 value='Perc. 2 (cym.)',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceII',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(0, 0),
+                                    ),
                                 ),
                             abjad.Momento(
                                 context='PercussionVoiceII',

@@ -259,13 +259,6 @@ maker(
 
 # percussion
 
-# cymbal
-
-maker(
-    baca.scope('PercussionVoiceII', 'all'),
-    baca.not_parts(baca.bar_extent_zero()),
-    )
-
 # vibraphone
 
 maker(

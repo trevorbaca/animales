@@ -1353,6 +1353,7 @@ K_PercussionVoiceI_a = {
                     (tri.)                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \override Staff.BarLine.bar-extent = #'(0 . 0)           %! SM8:REAPPLIED_PERSISTENT_OVERRIDE:SM37
     \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -1409,7 +1410,6 @@ K_PercussionVoiceI_a = {
                     (tri.)                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-    \override Staff.BarLine.bar-extent = #'(0 . 0)           %! OC1:-PARTS
     
     % [K PercussionVoiceI measure 89]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -1435,8 +1435,6 @@ K_PercussionVoiceI_a = {
     
     % [K PercussionVoiceI measure 94]                        %! SM4
     R1 * 1/4
-    \revert Staff.BarLine.bar-extent                         %! OC2:-PARTS
-    \once \override Staff.BarLine.bar-extent = #'(0 . 0)     %! OC1:-PARTS
     
 }
 
@@ -1477,6 +1475,7 @@ K_PercussionVoiceII_a = {
                     (cym.)                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \override Staff.BarLine.bar-extent = #'(0 . 0)           %! SM8:REAPPLIED_PERSISTENT_OVERRIDE:SM37
     \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -1533,7 +1532,6 @@ K_PercussionVoiceII_a = {
                     (cym.)                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-    \override Staff.BarLine.bar-extent = #'(0 . 0)           %! OC1:-PARTS
     
     % [K PercussionVoiceII measure 89]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -1559,8 +1557,6 @@ K_PercussionVoiceII_a = {
     
     % [K PercussionVoiceII measure 94]                       %! SM4
     R1 * 1/4
-    \revert Staff.BarLine.bar-extent                         %! OC2:-PARTS
-    \once \override Staff.BarLine.bar-extent = #'(0 . 0)     %! OC1:-PARTS
     
 }
 

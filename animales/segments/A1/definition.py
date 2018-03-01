@@ -432,7 +432,7 @@ maker(
     baca.bar_extent((-2, 2)),
     baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.bar_extent_zero()),
+    baca.not_parts(baca.bar_extent_persistent((0, 0))),
     baca.repeat_ties_up(),
     baca.staff_lines(1),
     baca.staff_positions([0]),

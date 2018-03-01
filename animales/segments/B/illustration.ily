@@ -460,6 +460,7 @@ B_PercussionVoiceI_a = {
                     (tri.)                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \override Staff.BarLine.bar-extent = #'(0 . 0)           %! SM8:REAPPLIED_PERSISTENT_OVERRIDE:SM37
     \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -518,7 +519,6 @@ B_PercussionVoiceI_a = {
                     (tri.)                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-    \override Staff.BarLine.bar-extent = #'(0 . 0)           %! OC1:-PARTS
     
     % [B PercussionVoiceI measure 31]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -550,8 +550,6 @@ B_PercussionVoiceI_a = {
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    \revert Staff.BarLine.bar-extent                         %! OC2:-PARTS
-    \once \override Staff.BarLine.bar-extent = #'(0 . 0)     %! OC1:-PARTS
     \revert RepeatTie.direction                              %! OC2
     
 }
@@ -593,6 +591,7 @@ B_PercussionVoiceII_a = {
                     (cym.)                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+    \override Staff.BarLine.bar-extent = #'(0 . 0)           %! SM8:REAPPLIED_PERSISTENT_OVERRIDE:SM37
     \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -649,7 +648,6 @@ B_PercussionVoiceII_a = {
                     (cym.)                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-    \override Staff.BarLine.bar-extent = #'(0 . 0)           %! OC1:-PARTS
     
     % [B PercussionVoiceII measure 31]                       %! SM4
     c'1
@@ -675,8 +673,6 @@ B_PercussionVoiceII_a = {
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    \revert Staff.BarLine.bar-extent                         %! OC2:-PARTS
-    \once \override Staff.BarLine.bar-extent = #'(0 . 0)     %! OC1:-PARTS
     \revert RepeatTie.direction                              %! OC2
     
 }

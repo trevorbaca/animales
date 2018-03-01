@@ -8,7 +8,4 @@ TO-DO
 
 3.  Eventually color cross-segment broken spanners.
 
-4.  Extend baca.StaffLines.
-    Add baca.StaffLines.bar_extent property.
-
-5.  Integrate staff magnification in baca.layout().
+4.  Integrate staff magnification in baca.layout().
