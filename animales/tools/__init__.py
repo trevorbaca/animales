@@ -1,5 +1,6 @@
 from .ScoreTemplate import ScoreTemplate
 from .brass_manifest_rhythm import brass_manifest_rhythm
+from .clb_rhythm import clb_rhythm
 from .downbeat_attack import downbeat_attack
 from .harp_exchange_rhythm import harp_exchange_rhythm
 from .glissando_rhythm import glissando_rhythm
