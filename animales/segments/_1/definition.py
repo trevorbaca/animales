@@ -47,7 +47,7 @@ maker(
     animales.sforzando_exchange_rhythm(0),
     baca.suite([
         animales.margin_markup('Vni. I (1-10)'),
-        baca.start_markup('Violins I (1-10)', hcenter_in=16),
+        baca.start_markup(['Violins I', '(1-10)'], hcenter_in=16),
         ]),
     )
 
@@ -57,7 +57,7 @@ maker(
     animales.sforzando_exchange_rhythm(1),
     baca.suite([
         animales.margin_markup('Vni. I (11-18)'),
-        baca.start_markup('Violins I (11-18)', hcenter_in=16),
+        baca.start_markup(['Violins I', '(11-18)'], hcenter_in=16),
         ]),
     )
 
@@ -67,7 +67,7 @@ maker(
     animales.sforzando_exchange_rhythm(2),
     baca.suite([
         animales.margin_markup('Vni. II (1-10)'),
-        baca.start_markup('Violins II (1-10)', hcenter_in=16),
+        baca.start_markup(['Violins II', '(1-10)'], hcenter_in=16),
         ]),
     )
 
@@ -77,7 +77,7 @@ maker(
     animales.sforzando_exchange_rhythm(3),
     baca.suite([
         animales.margin_markup('Vni. II (11-18)'),
-        baca.start_markup('Violins II (11-18)', hcenter_in=16),
+        baca.start_markup(['Violins II', '(11-18)'], hcenter_in=16),
         ]),
     )
 
@@ -87,7 +87,7 @@ maker(
     animales.sforzando_exchange_rhythm(4),
     baca.suite([
         animales.margin_markup('Vle. (1-10)'),
-        baca.start_markup('Violas (1-10)', hcenter_in=16),
+        baca.start_markup(['Violas', '(1-10)'], hcenter_in=16),
         ]),
     )
 
@@ -97,7 +97,7 @@ maker(
     animales.sforzando_exchange_rhythm(5),
     baca.suite([
         animales.margin_markup('Vle. (11-18)'),
-        baca.start_markup('Violas (11-18)', hcenter_in=16),
+        baca.start_markup(['Violas', '(11-18)'], hcenter_in=16),
         ]),
     )
 

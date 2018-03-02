@@ -24,6 +24,7 @@
 \include "_segments/segment-L2.ily"
 \include "_segments/segment-M.ily"
 \include "_segments/segment-N.ily"
+\include "_segments/segment-O1.ily"
 
 
 \score {
@@ -57,6 +58,7 @@
                     \L_b_GlobalRests
                     \M_GlobalRests
                     \N_GlobalRests
+                    \O_a_GlobalRests
                 }
                 \context GlobalSkips = "GlobalSkips"
                 {
@@ -79,6 +81,7 @@
                     \L_b_GlobalSkips
                     \M_GlobalSkips
                     \N_GlobalSkips
+                    \O_a_GlobalSkips
                 }
             >>
             \context MusicContext = "MusicContext"
@@ -157,6 +160,8 @@
                                 \M_GlobalRests
                                 \context Staff = "FluteStaffI"
                                 \N_GlobalRests
+                                \context Staff = "FluteStaffI"
+                                \O_a_GlobalRests
                             }
                             {
                                 \context Staff = "FluteStaffII"
@@ -211,6 +216,8 @@
                                 \M_GlobalRests
                                 \context Staff = "FluteStaffII"
                                 \N_GlobalRests
+                                \context Staff = "FluteStaffII"
+                                \O_a_GlobalRests
                             }
                         >>
                     >>
@@ -275,6 +282,8 @@
                                 \M_OboeStaffI
                                 \context Staff = "OboeStaffI"
                                 \N_GlobalRests
+                                \context Staff = "OboeStaffI"
+                                \O_a_GlobalRests
                             }
                         >>
                         \context StaffGroup = "EnglishHornSquareStaffGroup"
@@ -332,6 +341,8 @@
                                 \M_EnglishHornStaffI
                                 \context Staff = "EnglishHornStaffI"
                                 \N_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \O_a_GlobalRests
                             }
                         >>
                     >>
@@ -400,6 +411,8 @@
                                 \M_GlobalRests
                                 \context Staff = "ClarinetStaffI"
                                 \N_GlobalRests
+                                \context Staff = "ClarinetStaffI"
+                                \O_a_GlobalRests
                             }
                         >>
                         \context StaffGroup = "BassClarinetSquareStaffGroup"
@@ -457,6 +470,8 @@
                                 \M_GlobalRests
                                 \context Staff = "BassClarinetStaffI"
                                 \N_GlobalRests
+                                \context Staff = "BassClarinetStaffI"
+                                \O_a_GlobalRests
                             }
                         >>
                     >>
@@ -515,6 +530,8 @@
                             \M_BassoonStaffI
                             \context Staff = "BassoonStaffI"
                             \N_GlobalRests
+                            \context Staff = "BassoonStaffI"
+                            \O_a_GlobalRests
                         }
                     >>
                 >>
@@ -579,6 +596,8 @@
                             \M_HornStaffI
                             \context Staff = "HornStaffI"
                             \N_HornStaffI
+                            \context Staff = "HornStaffI"
+                            \O_a_GlobalRests
                         }
                         {
                             \context Staff = "HornStaffII"
@@ -633,6 +652,8 @@
                             \M_HornStaffII
                             \context Staff = "HornStaffII"
                             \N_HornStaffII
+                            \context Staff = "HornStaffII"
+                            \O_a_GlobalRests
                         }
                     >>
                     \context StaffGroup = "TrumpetSquareStaffGroup"
@@ -694,6 +715,8 @@
                             \M_TrumpetStaffI
                             \context Staff = "TrumpetStaffI"
                             \N_TrumpetStaffI
+                            \context Staff = "TrumpetStaffI"
+                            \O_a_GlobalRests
                         }
                         {
                             \context Staff = "TrumpetStaffII"
@@ -748,6 +771,8 @@
                             \M_TrumpetStaffII
                             \context Staff = "TrumpetStaffII"
                             \N_TrumpetStaffII
+                            \context Staff = "TrumpetStaffII"
+                            \O_a_GlobalRests
                         }
                     >>
                     \context StaffGroup = "TromboneSquareStaffGroup"
@@ -809,6 +834,8 @@
                             \M_TromboneStaffI
                             \context Staff = "TromboneStaffI"
                             \N_TromboneStaffI
+                            \context Staff = "TromboneStaffI"
+                            \O_a_GlobalRests
                         }
                         {
                             \context Staff = "TromboneStaffII"
@@ -863,6 +890,8 @@
                             \M_TromboneStaffII
                             \context Staff = "TromboneStaffII"
                             \N_TromboneStaffII
+                            \context Staff = "TromboneStaffII"
+                            \O_a_GlobalRests
                         }
                     >>
                     \context StaffGroup = "TubaSquareStaffGroup"
@@ -920,6 +949,8 @@
                             \M_GlobalRests
                             \context Staff = "TubaStaffI"
                             \N_GlobalRests
+                            \context Staff = "TubaStaffI"
+                            \O_a_GlobalRests
                         }
                     >>
                 >>
@@ -974,6 +1005,8 @@
                         \M_GlobalRests
                         \context Staff = "PianoStaffI"
                         \N_GlobalRests
+                        \context Staff = "PianoStaffI"
+                        \O_a_GlobalRests
                     }
                 >>
                 \context StaffGroup = "HarpPianoStaff"
@@ -1027,6 +1060,8 @@
                         \M_GlobalRests
                         \context Staff = "HarpStaffI"
                         \N_GlobalRests
+                        \context Staff = "HarpStaffI"
+                        \O_a_GlobalRests
                     }
                 >>
                 \context StaffGroup = "PercussionStaffGroup"
@@ -1085,6 +1120,8 @@
                         \M_GlobalRests
                         \context Staff = "PercussionStaffI"
                         \N_GlobalRests
+                        \context Staff = "PercussionStaffI"
+                        \O_a_GlobalRests
                     }
                     {
                         \context Staff = "PercussionStaffII"
@@ -1140,6 +1177,8 @@
                         \M_GlobalRests
                         \context Staff = "PercussionStaffII"
                         \N_GlobalRests
+                        \context Staff = "PercussionStaffII"
+                        \O_a_GlobalRests
                     }
                     {
                         \context Staff = "PercussionStaffIII"
@@ -1195,6 +1234,8 @@
                         \M_GlobalRests
                         \context Staff = "PercussionStaffIII"
                         \N_GlobalRests
+                        \context Staff = "PercussionStaffIII"
+                        \O_a_GlobalRests
                     }
                 >>
                 \context StaffGroup = "StringStaffGroup"
@@ -1245,6 +1286,8 @@
                             \M_FirstViolinStaffI
                             \context Staff = "FirstViolinStaffI"
                             \N_FirstViolinStaffI
+                            \context Staff = "FirstViolinStaffI"
+                            \O_a_FirstViolinStaffI
                         }
                         {
                             \context Staff = "FirstViolinStaffII"
@@ -1286,6 +1329,8 @@
                             \M_FirstViolinStaffII
                             \context Staff = "FirstViolinStaffII"
                             \N_FirstViolinStaffII
+                            \context Staff = "FirstViolinStaffII"
+                            \O_a_FirstViolinStaffII
                         }
                         {
                             \context Staff = "FirstViolinStaffIII"
@@ -1340,6 +1385,320 @@
                             \M_FirstViolinStaffIII
                             \context Staff = "FirstViolinStaffIII"
                             \N_FirstViolinStaffIII
+                            \context Staff = "FirstViolinStaffIII"
+                            \O_a_FirstViolinStaffIII
+                        }
+                        {
+                            \context Staff = "FirstViolinStaffIV"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        "Vni. I"
+                                    }
+                            }
+                            \clef "treble"
+                            \i_a_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \i_b_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \i_c_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \A_a_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \A_b_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \B_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \C_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \D_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \E_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \F_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \G_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \H_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \I_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \J_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \K_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \L_a_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \L_b_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \M_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \N_GlobalRests
+                            \context Staff = "FirstViolinStaffIV"
+                            \O_a_FirstViolinStaffIV
+                        }
+                        {
+                            \context Staff = "FirstViolinStaffV"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        "Vni. I"
+                                    }
+                            }
+                            \clef "treble"
+                            \i_a_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \i_b_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \i_c_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \A_a_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \A_b_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \B_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \C_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \D_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \E_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \F_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \G_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \H_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \I_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \J_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \K_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \L_a_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \L_b_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \M_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \N_GlobalRests
+                            \context Staff = "FirstViolinStaffV"
+                            \O_a_FirstViolinStaffV
+                        }
+                        {
+                            \context Staff = "FirstViolinStaffVI"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        "Vni. I"
+                                    }
+                            }
+                            \clef "treble"
+                            \i_a_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \i_b_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \i_c_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \A_a_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \A_b_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \B_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \C_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \D_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \E_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \F_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \G_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \H_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \I_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \J_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \K_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \L_a_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \L_b_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \M_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \N_GlobalRests
+                            \context Staff = "FirstViolinStaffVI"
+                            \O_a_FirstViolinStaffVI
+                        }
+                        {
+                            \context Staff = "FirstViolinStaffVII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        "Vni. I"
+                                    }
+                            }
+                            \clef "treble"
+                            \i_a_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \i_b_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \i_c_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \A_a_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \A_b_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \B_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \C_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \D_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \E_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \F_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \G_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \H_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \I_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \J_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \K_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \L_a_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \L_b_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \M_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \N_GlobalRests
+                            \context Staff = "FirstViolinStaffVII"
+                            \O_a_FirstViolinStaffVII
+                        }
+                        {
+                            \context Staff = "FirstViolinStaffVIII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        "Vni. I"
+                                    }
+                            }
+                            \clef "treble"
+                            \i_a_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \i_b_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \i_c_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \A_a_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \A_b_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \B_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \C_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \D_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \E_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \F_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \G_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \H_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \I_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \J_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \K_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \L_a_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \L_b_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \M_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \N_GlobalRests
+                            \context Staff = "FirstViolinStaffVIII"
+                            \O_a_FirstViolinStaffVIII
+                        }
+                        {
+                            \context Staff = "FirstViolinStaffIX"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        "Vni. I"
+                                    }
+                            }
+                            \clef "treble"
+                            \i_a_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \i_b_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \i_c_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \A_a_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \A_b_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \B_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \C_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \D_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \E_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \F_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \G_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \H_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \I_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \J_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \K_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \L_a_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \L_b_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \M_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \N_GlobalRests
+                            \context Staff = "FirstViolinStaffIX"
+                            \O_a_FirstViolinStaffIX
                         }
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup"
@@ -1388,6 +1747,8 @@
                             \M_SecondViolinStaffI
                             \context Staff = "SecondViolinStaffI"
                             \N_SecondViolinStaffI
+                            \context Staff = "SecondViolinStaffI"
+                            \O_a_SecondViolinStaffI
                         }
                         {
                             \context Staff = "SecondViolinStaffII"
@@ -1429,6 +1790,372 @@
                             \M_SecondViolinStaffII
                             \context Staff = "SecondViolinStaffII"
                             \N_SecondViolinStaffII
+                            \context Staff = "SecondViolinStaffII"
+                            \O_a_SecondViolinStaffII
+                        }
+                        {
+                            \context Staff = "SecondViolinStaffIII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        "Vni. II"
+                                    }
+                            }
+                            \clef "treble"
+                            \i_a_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \i_b_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \i_c_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \A_a_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \A_b_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \B_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \C_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \D_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \E_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \F_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \G_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \H_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \I_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \J_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \K_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \L_a_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \L_b_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \M_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \N_GlobalRests
+                            \context Staff = "SecondViolinStaffIII"
+                            \O_a_SecondViolinStaffIII
+                        }
+                        {
+                            \context Staff = "SecondViolinStaffIV"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        "Vni. II"
+                                    }
+                            }
+                            \clef "treble"
+                            \i_a_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \i_b_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \i_c_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \A_a_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \A_b_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \B_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \C_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \D_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \E_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \F_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \G_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \H_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \I_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \J_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \K_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \L_a_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \L_b_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \M_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \N_GlobalRests
+                            \context Staff = "SecondViolinStaffIV"
+                            \O_a_SecondViolinStaffIV
+                        }
+                        {
+                            \context Staff = "SecondViolinStaffV"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        "Vni. II"
+                                    }
+                            }
+                            \clef "treble"
+                            \i_a_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \i_b_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \i_c_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \A_a_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \A_b_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \B_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \C_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \D_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \E_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \F_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \G_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \H_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \I_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \J_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \K_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \L_a_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \L_b_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \M_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \N_GlobalRests
+                            \context Staff = "SecondViolinStaffV"
+                            \O_a_SecondViolinStaffV
+                        }
+                        {
+                            \context Staff = "SecondViolinStaffVI"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        "Vni. II"
+                                    }
+                            }
+                            \clef "treble"
+                            \i_a_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \i_b_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \i_c_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \A_a_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \A_b_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \B_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \C_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \D_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \E_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \F_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \G_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \H_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \I_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \J_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \K_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \L_a_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \L_b_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \M_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \N_GlobalRests
+                            \context Staff = "SecondViolinStaffVI"
+                            \O_a_SecondViolinStaffVI
+                        }
+                        {
+                            \context Staff = "SecondViolinStaffVII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        "Vni. II"
+                                    }
+                            }
+                            \clef "treble"
+                            \i_a_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \i_b_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \i_c_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \A_a_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \A_b_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \B_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \C_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \D_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \E_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \F_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \G_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \H_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \I_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \J_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \K_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \L_a_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \L_b_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \M_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \N_GlobalRests
+                            \context Staff = "SecondViolinStaffVII"
+                            \O_a_SecondViolinStaffVII
+                        }
+                        {
+                            \context Staff = "SecondViolinStaffVIII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        "Vni. II"
+                                    }
+                            }
+                            \clef "treble"
+                            \i_a_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \i_b_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \i_c_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \A_a_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \A_b_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \B_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \C_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \D_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \E_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \F_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \G_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \H_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \I_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \J_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \K_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \L_a_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \L_b_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \M_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \N_GlobalRests
+                            \context Staff = "SecondViolinStaffVIII"
+                            \O_a_SecondViolinStaffVIII
+                        }
+                        {
+                            \context Staff = "SecondViolinStaffIX"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        "Vni. II"
+                                    }
+                            }
+                            \clef "treble"
+                            \i_a_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \i_b_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \i_c_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \A_a_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \A_b_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \B_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \C_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \D_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \E_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \F_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \G_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \H_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \I_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \J_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \K_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \L_a_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \L_b_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \M_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \N_GlobalRests
+                            \context Staff = "SecondViolinStaffIX"
+                            \O_a_SecondViolinStaffIX
                         }
                     >>
                     \context StaffGroup = "ViolaSquareStaffGroup"
@@ -1477,6 +2204,8 @@
                             \M_ViolaStaffI
                             \context Staff = "ViolaStaffI"
                             \N_ViolaStaffI
+                            \context Staff = "ViolaStaffI"
+                            \O_a_ViolaStaffI
                         }
                         {
                             \context Staff = "ViolaStaffII"
@@ -1518,6 +2247,372 @@
                             \M_ViolaStaffII
                             \context Staff = "ViolaStaffII"
                             \N_ViolaStaffII
+                            \context Staff = "ViolaStaffII"
+                            \O_a_ViolaStaffII
+                        }
+                        {
+                            \context Staff = "ViolaStaffIII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Vle.
+                                    }
+                            }
+                            \clef "alto"
+                            \i_a_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \i_b_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \i_c_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \A_a_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \A_b_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \B_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \C_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \D_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \E_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \F_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \G_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \H_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \I_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \J_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \K_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \L_a_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \L_b_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \M_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \N_GlobalRests
+                            \context Staff = "ViolaStaffIII"
+                            \O_a_ViolaStaffIII
+                        }
+                        {
+                            \context Staff = "ViolaStaffIV"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Vle.
+                                    }
+                            }
+                            \clef "alto"
+                            \i_a_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \i_b_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \i_c_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \A_a_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \A_b_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \B_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \C_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \D_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \E_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \F_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \G_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \H_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \I_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \J_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \K_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \L_a_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \L_b_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \M_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \N_GlobalRests
+                            \context Staff = "ViolaStaffIV"
+                            \O_a_ViolaStaffIV
+                        }
+                        {
+                            \context Staff = "ViolaStaffV"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Vle.
+                                    }
+                            }
+                            \clef "alto"
+                            \i_a_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \i_b_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \i_c_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \A_a_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \A_b_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \B_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \C_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \D_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \E_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \F_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \G_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \H_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \I_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \J_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \K_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \L_a_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \L_b_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \M_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \N_GlobalRests
+                            \context Staff = "ViolaStaffV"
+                            \O_a_ViolaStaffV
+                        }
+                        {
+                            \context Staff = "ViolaStaffVI"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Vle.
+                                    }
+                            }
+                            \clef "alto"
+                            \i_a_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \i_b_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \i_c_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \A_a_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \A_b_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \B_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \C_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \D_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \E_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \F_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \G_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \H_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \I_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \J_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \K_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \L_a_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \L_b_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \M_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \N_GlobalRests
+                            \context Staff = "ViolaStaffVI"
+                            \O_a_ViolaStaffVI
+                        }
+                        {
+                            \context Staff = "ViolaStaffVII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Vle.
+                                    }
+                            }
+                            \clef "alto"
+                            \i_a_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \i_b_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \i_c_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \A_a_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \A_b_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \B_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \C_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \D_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \E_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \F_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \G_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \H_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \I_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \J_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \K_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \L_a_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \L_b_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \M_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \N_GlobalRests
+                            \context Staff = "ViolaStaffVII"
+                            \O_a_ViolaStaffVII
+                        }
+                        {
+                            \context Staff = "ViolaStaffVIII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Vle.
+                                    }
+                            }
+                            \clef "alto"
+                            \i_a_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \i_b_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \i_c_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \A_a_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \A_b_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \B_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \C_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \D_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \E_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \F_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \G_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \H_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \I_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \J_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \K_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \L_a_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \L_b_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \M_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \N_GlobalRests
+                            \context Staff = "ViolaStaffVIII"
+                            \O_a_ViolaStaffVIII
+                        }
+                        {
+                            \context Staff = "ViolaStaffIX"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Vle.
+                                    }
+                            }
+                            \clef "alto"
+                            \i_a_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \i_b_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \i_c_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \A_a_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \A_b_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \B_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \C_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \D_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \E_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \F_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \G_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \H_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \I_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \J_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \K_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \L_a_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \L_b_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \M_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \N_GlobalRests
+                            \context Staff = "ViolaStaffIX"
+                            \O_a_ViolaStaffIX
                         }
                     >>
                     \context StaffGroup = "CelloSquareStaffGroup"
@@ -1566,6 +2661,320 @@
                             \M_CelloStaffI
                             \context Staff = "CelloStaffI"
                             \N_CelloStaffI
+                            \context Staff = "CelloStaffI"
+                            \O_a_CelloStaffI
+                        }
+                        {
+                            \context Staff = "CelloStaffII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Vc.
+                                    }
+                            }
+                            \clef "bass"
+                            \i_a_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \i_b_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \i_c_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \A_a_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \A_b_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \B_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \C_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \D_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \E_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \F_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \G_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \H_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \I_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \J_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \K_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \L_a_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \L_b_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \M_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \N_GlobalRests
+                            \context Staff = "CelloStaffII"
+                            \O_a_CelloStaffII
+                        }
+                        {
+                            \context Staff = "CelloStaffIII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Vc.
+                                    }
+                            }
+                            \clef "bass"
+                            \i_a_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \i_b_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \i_c_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \A_a_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \A_b_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \B_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \C_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \D_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \E_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \F_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \G_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \H_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \I_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \J_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \K_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \L_a_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \L_b_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \M_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \N_GlobalRests
+                            \context Staff = "CelloStaffIII"
+                            \O_a_CelloStaffIII
+                        }
+                        {
+                            \context Staff = "CelloStaffIV"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Vc.
+                                    }
+                            }
+                            \clef "bass"
+                            \i_a_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \i_b_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \i_c_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \A_a_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \A_b_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \B_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \C_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \D_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \E_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \F_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \G_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \H_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \I_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \J_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \K_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \L_a_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \L_b_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \M_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \N_GlobalRests
+                            \context Staff = "CelloStaffIV"
+                            \O_a_CelloStaffIV
+                        }
+                        {
+                            \context Staff = "CelloStaffV"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Vc.
+                                    }
+                            }
+                            \clef "bass"
+                            \i_a_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \i_b_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \i_c_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \A_a_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \A_b_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \B_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \C_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \D_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \E_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \F_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \G_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \H_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \I_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \J_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \K_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \L_a_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \L_b_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \M_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \N_GlobalRests
+                            \context Staff = "CelloStaffV"
+                            \O_a_CelloStaffV
+                        }
+                        {
+                            \context Staff = "CelloStaffVI"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Vc.
+                                    }
+                            }
+                            \clef "bass"
+                            \i_a_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \i_b_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \i_c_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \A_a_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \A_b_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \B_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \C_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \D_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \E_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \F_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \G_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \H_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \I_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \J_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \K_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \L_a_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \L_b_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \M_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \N_GlobalRests
+                            \context Staff = "CelloStaffVI"
+                            \O_a_CelloStaffVI
+                        }
+                        {
+                            \context Staff = "CelloStaffVII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Vc.
+                                    }
+                            }
+                            \clef "bass"
+                            \i_a_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \i_b_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \i_c_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \A_a_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \A_b_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \B_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \C_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \D_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \E_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \F_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \G_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \H_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \I_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \J_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \K_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \L_a_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \L_b_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \M_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \N_GlobalRests
+                            \context Staff = "CelloStaffVII"
+                            \O_a_CelloStaffVII
                         }
                     >>
                     \context StaffGroup = "ContrabassSquareStaffGroup"
@@ -1627,6 +3036,8 @@
                             \M_GlobalRests
                             \context Staff = "ContrabassStaffI"
                             \N_GlobalRests
+                            \context Staff = "ContrabassStaffI"
+                            \O_a_ContrabassStaffI
                         }
                         {
                             \context Staff = "ContrabassStaffII"
@@ -1677,6 +3088,60 @@
                             \M_ContrabassStaffII
                             \context Staff = "ContrabassStaffII"
                             \N_ContrabassStaffII
+                            \context Staff = "ContrabassStaffII"
+                            \O_a_ContrabassStaffII
+                        }
+                        {
+                            \context Staff = "ContrabassStaffIII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        Cb.
+                                    }
+                            }
+                            \clef "bass"
+                            \i_a_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \i_b_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \i_c_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \A_a_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \A_b_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \B_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \C_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \D_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \E_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \F_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \G_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \H_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \I_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \J_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \K_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \L_a_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \L_b_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \M_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \N_GlobalRests
+                            \context Staff = "ContrabassStaffIII"
+                            \O_a_ContrabassStaffIII
                         }
                     >>
                 >>
