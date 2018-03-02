@@ -343,6 +343,7 @@ maker(
     animales.margin_markup('Cb.'),
     animales.parts('Contrabass'),
     baca.make_repeat_tied_notes(),
+    baca.not_parts(baca.markup('Cb. tutti')),
     baca.pitch('G1'),
     tremolo_suite(),
     )
