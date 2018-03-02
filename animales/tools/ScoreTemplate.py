@@ -131,21 +131,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 \markup {                        %! ST2:-PARTS
                                     \hcenter-in                  %! ST2:-PARTS
                                         #16                      %! ST2:-PARTS
-                                        \center-column           %! ST2:-PARTS
-                                            {                    %! ST2:-PARTS
-                                                Vni.             %! ST2:-PARTS
-                                                I                %! ST2:-PARTS
-                                            }                    %! ST2:-PARTS
+                                        "Vni. I"                 %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
                                 \set Staff.shortInstrumentName = %! ST2:-PARTS
                                 \markup {                        %! ST2:-PARTS
                                     \hcenter-in                  %! ST2:-PARTS
                                         #16                      %! ST2:-PARTS
-                                        \center-column           %! ST2:-PARTS
-                                            {                    %! ST2:-PARTS
-                                                Vni.             %! ST2:-PARTS
-                                                I                %! ST2:-PARTS
-                                            }                    %! ST2:-PARTS
+                                        "Vni. I"                 %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
                                 \clef "treble" %! ST3
                                 s1
@@ -159,21 +151,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 \markup {                        %! ST2:-PARTS
                                     \hcenter-in                  %! ST2:-PARTS
                                         #16                      %! ST2:-PARTS
-                                        \center-column           %! ST2:-PARTS
-                                            {                    %! ST2:-PARTS
-                                                Vni.             %! ST2:-PARTS
-                                                I                %! ST2:-PARTS
-                                            }                    %! ST2:-PARTS
+                                        "Vni. I"                 %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
                                 \set Staff.shortInstrumentName = %! ST2:-PARTS
                                 \markup {                        %! ST2:-PARTS
                                     \hcenter-in                  %! ST2:-PARTS
                                         #16                      %! ST2:-PARTS
-                                        \center-column           %! ST2:-PARTS
-                                            {                    %! ST2:-PARTS
-                                                Vni.             %! ST2:-PARTS
-                                                I                %! ST2:-PARTS
-                                            }                    %! ST2:-PARTS
+                                        "Vni. I"                 %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
                                 \clef "treble" %! ST3
                                 s1
@@ -194,21 +178,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 \markup {                        %! ST2:-PARTS
                                     \hcenter-in                  %! ST2:-PARTS
                                         #16                      %! ST2:-PARTS
-                                        \center-column           %! ST2:-PARTS
-                                            {                    %! ST2:-PARTS
-                                                Vni.             %! ST2:-PARTS
-                                                II               %! ST2:-PARTS
-                                            }                    %! ST2:-PARTS
+                                        "Vni. II"                %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
                                 \set Staff.shortInstrumentName = %! ST2:-PARTS
                                 \markup {                        %! ST2:-PARTS
                                     \hcenter-in                  %! ST2:-PARTS
                                         #16                      %! ST2:-PARTS
-                                        \center-column           %! ST2:-PARTS
-                                            {                    %! ST2:-PARTS
-                                                Vni.             %! ST2:-PARTS
-                                                II               %! ST2:-PARTS
-                                            }                    %! ST2:-PARTS
+                                        "Vni. II"                %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
                                 \clef "treble" %! ST3
                                 s1
@@ -222,21 +198,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 \markup {                        %! ST2:-PARTS
                                     \hcenter-in                  %! ST2:-PARTS
                                         #16                      %! ST2:-PARTS
-                                        \center-column           %! ST2:-PARTS
-                                            {                    %! ST2:-PARTS
-                                                Vni.             %! ST2:-PARTS
-                                                II               %! ST2:-PARTS
-                                            }                    %! ST2:-PARTS
+                                        "Vni. II"                %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
                                 \set Staff.shortInstrumentName = %! ST2:-PARTS
                                 \markup {                        %! ST2:-PARTS
                                     \hcenter-in                  %! ST2:-PARTS
                                         #16                      %! ST2:-PARTS
-                                        \center-column           %! ST2:-PARTS
-                                            {                    %! ST2:-PARTS
-                                                Vni.             %! ST2:-PARTS
-                                                II               %! ST2:-PARTS
-                                            }                    %! ST2:-PARTS
+                                        "Vni. II"                %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
                                 \clef "treble" %! ST3
                                 s1
