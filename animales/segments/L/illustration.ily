@@ -509,86 +509,105 @@ L_GlobalSkips = {
 }
 
 
-L_OboeVoiceI = {
+L_OboeVoiceI_a = {
     
-    % [L OboeVoiceI measure 95]                                  %! SM4
-    \set Staff.instrumentName =                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \markup {                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        \hcenter-in                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            #16                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            Ob.                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        }                                                        %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \set Staff.shortInstrumentName =                             %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \markup {                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        \hcenter-in                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            #16                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            Ob.                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        }                                                        %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \clef "treble"                                               %! SM8:DEFAULT_CLEF:ST3
+    % [L OboeVoiceI measure 95]                          %! SM4
+    \set Staff.instrumentName =                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \markup {                                            %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        \hcenter-in                                      %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            #16                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            Ob.                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        }                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \set Staff.shortInstrumentName =                     %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \markup {                                            %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        \hcenter-in                                      %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            #16                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            Ob.                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        }                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \once \override Hairpin.circled-tip = ##t            %! PCW1
+    \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)  %! SM6:DEFAULT_CLEF_COLOR:ST3
-%@% \override Staff.Clef.color = ##f                             %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
-    \set Staff.forceClef = ##t                                   %! SM8:DEFAULT_CLEF:SM33:ST3
-    R1 * 3/4
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override Staff.Clef.color = ##f                     %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    a'2.
+    \<                                                   %! PCW1
     ^ \markup {
         \column
             {
-                \line                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Oboe”)                             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                \line                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                    {                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                        \with-color                              %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                            #(x11-color 'DarkViolet)             %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                            [“Ob.”]                              %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                    }                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Oboe”)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                \line                                    %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                    {                                    %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                        \with-color                      %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                            [“Ob.”]                      %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                    }                                    %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
             }
         }
-    \override Staff.InstrumentName.color = #(x11-color 'violet)  %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
-    \set Staff.instrumentName =                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \markup {                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            #16                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            Ob.                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        }                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \set Staff.shortInstrumentName =                             %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \markup {                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            #16                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            Ob.                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        }                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
+    \override Staff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
+    \set Staff.instrumentName =                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \markup {                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        \hcenter-in                                      %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            #16                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            Ob.                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \markup {                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        \hcenter-in                                      %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            #16                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            Ob.                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [L OboeVoiceI measure 96]                                  %! SM4
+    % [L OboeVoiceI measure 96]                          %! SM4
+    a'2.
+    \repeatTie
+    
+    % [L OboeVoiceI measure 97]                          %! SM4
+    \once \override Hairpin.circled-tip = ##t            %! PCW1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    a'1
+    \repeatTie
+    \f                                                   %! PCW1
+    \>                                                   %! PCW1
+    
+    % [L OboeVoiceI measure 98]                          %! SM4
+    a'1
+    \repeatTie
+    
+    % [L OboeVoiceI measure 99]                          %! SM4
+    a'1
+    \repeatTie
+    
+    % [L OboeVoiceI measure 100]                         %! SM4
+    a'2.
+    \repeatTie
+    
+    % [L OboeVoiceI measure 101]                         %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 3/4
+    \!                                                   %! PCW1
     
-    % [L OboeVoiceI measure 97]                                  %! SM4
+    % [L OboeVoiceI measure 102]                         %! SM4
     R1 * 1
     
-    % [L OboeVoiceI measure 98]                                  %! SM4
+    % [L OboeVoiceI measure 103]                         %! SM4
     R1 * 1
     
-    % [L OboeVoiceI measure 99]                                  %! SM4
-    R1 * 1
-    
-    % [L OboeVoiceI measure 100]                                 %! SM4
-    R1 * 3/4
-    
-    % [L OboeVoiceI measure 101]                                 %! SM4
-    R1 * 3/4
-    
-    % [L OboeVoiceI measure 102]                                 %! SM4
-    R1 * 1
-    
-    % [L OboeVoiceI measure 103]                                 %! SM4
-    R1 * 1
-    
-    % [L OboeVoiceI measure 104]                                 %! SM4
+    % [L OboeVoiceI measure 104]                         %! SM4
     R1 * 1/2
     
+}
+
+
+L_OboeVoiceI = {
+    \L_OboeVoiceI_a
 }
 
 
@@ -598,93 +617,278 @@ L_OboeStaffI = {
 }
 
 
-L_BassoonVoiceI = {
+L_EnglishHornVoiceI_a = {
     
-    % [L BassoonVoiceI measure 95]                               %! SM4
-    \set Staff.instrumentName =                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \markup {                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        \hcenter-in                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            #16                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            Bsn.                                                 %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        }                                                        %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \set Staff.shortInstrumentName =                             %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \markup {                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        \hcenter-in                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            #16                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            Bsn.                                                 %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        }                                                        %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \clef "bass"                                                 %! SM8:DEFAULT_CLEF:ST3
+    % [L EnglishHornVoiceI measure 95]                   %! SM4
+    \set Staff.instrumentName =                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \markup {                                            %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        \hcenter-in                                      %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            #16                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            "Eng. hn."                                   %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        }                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \set Staff.shortInstrumentName =                     %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \markup {                                            %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        \hcenter-in                                      %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            #16                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            "Eng. hn."                                   %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        }                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \once \override Hairpin.circled-tip = ##t            %! PCW1
+    \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)  %! SM6:DEFAULT_CLEF_COLOR:ST3
-%@% \override Staff.Clef.color = ##f                             %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
-    \set Staff.forceClef = ##t                                   %! SM8:DEFAULT_CLEF:SM33:ST3
-    R1 * 3/4
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override Staff.Clef.color = ##f                     %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    d'2.
+    \<                                                   %! PCW1
     ^ \markup {
         \column
             {
-                \line                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Bassoon”)                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                \line                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                    {                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                        \with-color                              %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                            #(x11-color 'DarkViolet)             %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                            [“Bsn.”]                             %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                    }                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“EnglishHorn”)              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                \line                                    %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                    {                                    %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                        \with-color                      %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                            "[“Eng. hn.”]"               %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                    }                                    %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
             }
         }
-    \override Staff.InstrumentName.color = #(x11-color 'violet)  %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
-    \set Staff.instrumentName =                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \markup {                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            #16                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            Bsn.                                                 %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        }                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \set Staff.shortInstrumentName =                             %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \markup {                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            #16                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            Bsn.                                                 %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        }                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
+    \override Staff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
+    \set Staff.instrumentName =                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \markup {                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        \hcenter-in                                      %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            #16                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            "Eng. hn."                                   %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \set Staff.shortInstrumentName =                     %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \markup {                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        \hcenter-in                                      %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            #16                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            "Eng. hn."                                   %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [L BassoonVoiceI measure 96]                               %! SM4
+    % [L EnglishHornVoiceI measure 96]                   %! SM4
+    d'2.
+    \repeatTie
+    
+    % [L EnglishHornVoiceI measure 97]                   %! SM4
+    \once \override Hairpin.circled-tip = ##t            %! PCW1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    d'1
+    \repeatTie
+    \f                                                   %! PCW1
+    \>                                                   %! PCW1
+    
+    % [L EnglishHornVoiceI measure 98]                   %! SM4
+    d'1
+    \repeatTie
+    
+    % [L EnglishHornVoiceI measure 99]                   %! SM4
+    d'1
+    \repeatTie
+    
+    % [L EnglishHornVoiceI measure 100]                  %! SM4
+    d'2.
+    \repeatTie
+    
+    % [L EnglishHornVoiceI measure 101]                  %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 3/4
+    \!                                                   %! PCW1
     
-    % [L BassoonVoiceI measure 97]                               %! SM4
+    % [L EnglishHornVoiceI measure 102]                  %! SM4
     R1 * 1
     
-    % [L BassoonVoiceI measure 98]                               %! SM4
+    % [L EnglishHornVoiceI measure 103]                  %! SM4
     R1 * 1
     
-    % [L BassoonVoiceI measure 99]                               %! SM4
-    R1 * 1
-    
-    % [L BassoonVoiceI measure 100]                              %! SM4
-    R1 * 3/4
-    
-    % [L BassoonVoiceI measure 101]                              %! SM4
-    R1 * 3/4
-    
-    % [L BassoonVoiceI measure 102]                              %! SM4
-    R1 * 1
-    
-    % [L BassoonVoiceI measure 103]                              %! SM4
-    R1 * 1
-    
-    % [L BassoonVoiceI measure 104]                              %! SM4
+    % [L EnglishHornVoiceI measure 104]                  %! SM4
     R1 * 1/2
     
 }
 
 
-L_BassoonStaffI = {
+L_EnglishHornVoiceI = {
+    \L_EnglishHornVoiceI_a
+}
+
+
+L_EnglishHornStaffI = {
+    \context Voice = "EnglishHornVoiceI"
+    \L_EnglishHornVoiceI
+}
+
+
+L_BassoonVoiceI_a = {
+    
+    % [L BassoonVoiceI measure 95]                           %! SM4
+%%% \once \override Hairpin.circled-tip = ##t                %! PCW1:+PARTS
+    \clef "bass"                                             %! SM8:DEFAULT_CLEF:ST3
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set Staff.forceClef = ##t                               %! SM8:DEFAULT_CLEF:SM33:ST3
+    \voiceOne                                                %! IC:-PARTS
+%%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3:+PARTS
+    b2.
+%%% \<                                                       %! PCW1:+PARTS
+    \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
+    
+    % [L BassoonVoiceI measure 96]                           %! SM4
+    b2.
+    \repeatTie
+    
+    % [L BassoonVoiceI measure 97]                           %! SM4
+%%% \once \override Hairpin.circled-tip = ##t                %! PCW1:+PARTS
+%%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3:+PARTS
+    b1
+    \repeatTie
+%%% \f                                                       %! PCW1:+PARTS
+%%% \>                                                       %! PCW1:+PARTS
+    
+    % [L BassoonVoiceI measure 98]                           %! SM4
+    b1
+    \repeatTie
+    
+    % [L BassoonVoiceI measure 99]                           %! SM4
+    b1
+    \repeatTie
+    
+    % [L BassoonVoiceI measure 100]                          %! SM4
+    b2.
+    \repeatTie
+    
+    % [L BassoonVoiceI measure 101]                          %! SM4
+%%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3:+PARTS
+    R1 * 3/4
+%%% \!                                                       %! PCW1:+PARTS
+    
+    % [L BassoonVoiceI measure 102]                          %! SM4
+    R1 * 1
+    
+    % [L BassoonVoiceI measure 103]                          %! SM4
+    R1 * 1
+    
+    % [L BassoonVoiceI measure 104]                          %! SM4
+    R1 * 1/2
+    
+}
+
+
+L_BassoonVoiceI = {
+    \L_BassoonVoiceI_a
+}
+
+
+L_BassoonVoiceII_a = {
+    
+    % [L BassoonVoiceII measure 95]                          %! SM4
+    \set Staff.instrumentName =                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            Bsn.                                             %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \set Staff.shortInstrumentName =                         %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            Bsn.                                             %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \once \override Hairpin.circled-tip = ##t                %! PCW1
+    \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
+    \voiceTwo                                                %! IC:-PARTS
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    g,2.
+    \<                                                       %! PCW1
+    ^ \markup {
+        \column
+            {
+                \line                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)         %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Bassoon”)                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                \line                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                    {                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                        \with-color                          %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                            #(x11-color 'DarkViolet)         %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                            [“Bsn.”]                         %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                    }                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+            }
+        }
+    \override Staff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
+    \set Staff.instrumentName =                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \markup {                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            #16                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            Bsn.                                             %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \set Staff.shortInstrumentName =                         %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \markup {                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            #16                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            Bsn.                                             %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    
+    % [L BassoonVoiceII measure 96]                          %! SM4
+    g,2.
+    \repeatTie
+    
+    % [L BassoonVoiceII measure 97]                          %! SM4
+    \once \override Hairpin.circled-tip = ##t                %! PCW1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    g,1
+    \repeatTie
+    \f                                                       %! PCW1
+    \>                                                       %! PCW1
+    
+    % [L BassoonVoiceII measure 98]                          %! SM4
+    g,1
+    \repeatTie
+    
+    % [L BassoonVoiceII measure 99]                          %! SM4
+    g,1
+    \repeatTie
+    
+    % [L BassoonVoiceII measure 100]                         %! SM4
+    g,2.
+    \repeatTie
+    
+    % [L BassoonVoiceII measure 101]                         %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    R1 * 3/4
+    \!                                                       %! PCW1
+    
+    % [L BassoonVoiceII measure 102]                         %! SM4
+    R1 * 1
+    
+    % [L BassoonVoiceII measure 103]                         %! SM4
+    R1 * 1
+    
+    % [L BassoonVoiceII measure 104]                         %! SM4
+    R1 * 1/2
+    
+}
+
+
+L_BassoonVoiceII = {
+    \L_BassoonVoiceII_a
+}
+
+
+L_BassoonStaffI = <<
     \context Voice = "BassoonVoiceI"
     \L_BassoonVoiceI
-}
+    \context Voice = "BassoonVoiceII"
+    \L_BassoonVoiceII
+>>
 
 
 L_FirstViolinVoiceI_a = {
@@ -735,6 +939,15 @@ L_FirstViolinVoiceI_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                             (“Violin”)                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                \line                                    %! IC:-PARTS
+                    {                                    %! IC:-PARTS
+                        \whiteout                        %! IC:-PARTS
+                            \upright                     %! IC:-PARTS
+                                \override                %! IC:-PARTS
+                                    #'(box-padding . 0.5) %! IC:-PARTS
+                                    \box                 %! IC:-PARTS
+                                        "tutti ext. ponticello: like acid" %! IC:-PARTS
+                    }                                    %! IC:-PARTS
                 \line                                    %! IC:-PARTS
                     {                                    %! IC:-PARTS
                         \whiteout                        %! IC:-PARTS

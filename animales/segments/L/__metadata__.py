@@ -12,10 +12,14 @@ metadata = abjad.OrderedDict(
                 'GlobalSkips',
                 'MusicContext',
                 'WindStaffGroup',
+                'OboeFamilySquareStaffGroup',
                 'OboeStaffI',
                 'OboeVoiceI',
+                'EnglishHornStaffI',
+                'EnglishHornVoiceI',
                 'BassoonStaffI',
                 'BassoonVoiceI',
+                'BassoonVoiceII',
                 'StringStaffGroup',
                 'FirstViolinSquareStaffGroup',
                 'FirstViolinStaffI',
@@ -56,6 +60,26 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
+                        'L_BassoonVoiceII_a',
+                        (
+                            abjad.PartAssignment('Bassoon', 2),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(17, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'L_BassoonVoiceI_a',
+                        (
+                            abjad.PartAssignment('Bassoon', 1),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(17, 2),
+                                ),
+                            ),
+                        ),
+                    (
                         'L_CelloVoiceII_a',
                         (
                             abjad.PartAssignment('Cello', (9, 14)),
@@ -79,6 +103,16 @@ metadata = abjad.OrderedDict(
                         'L_ContrabassVoiceII_a',
                         (
                             abjad.PartAssignment('Contrabass'),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(17, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'L_EnglishHornVoiceI_a',
+                        (
+                            abjad.PartAssignment('EnglishHorn'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(17, 2),
@@ -129,6 +163,16 @@ metadata = abjad.OrderedDict(
                         'L_FirstViolinVoiceV_a',
                         (
                             abjad.PartAssignment('FirstViolin', 18),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(17, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'L_OboeVoiceI_a',
+                        (
+                            abjad.PartAssignment('Oboe'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(17, 2),
@@ -228,6 +272,7 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     ('BassoonStaffI', 'Bsn.'),
+                    ('EnglishHornStaffI', 'Eng. hn.'),
                     ('FirstViolinStaffIII', 'Vni. I 18'),
                     ('OboeStaffI', 'Ob.'),
                     ]
@@ -279,14 +324,35 @@ metadata = abjad.OrderedDict(
                                 value='bass',
                                 ),
                             abjad.Momento(
-                                context='BassoonVoiceI',
+                                context='BassoonVoiceII',
                                 prototype='abjad.Instrument',
                                 value='Bassoon',
                                 ),
                             abjad.Momento(
-                                context='BassoonVoiceI',
+                                context='BassoonVoiceII',
                                 prototype='abjad.MarginMarkup',
                                 value='Bsn.',
+                                ),
+                            ],
+                        ),
+                    (
+                        'BassoonVoiceI',
+                        [
+                            abjad.Momento(
+                                context='BassoonVoiceI',
+                                edition=abjad.Tag('+PARTS'),
+                                prototype='abjad.Dynamic',
+                                value='niente',
+                                ),
+                            ],
+                        ),
+                    (
+                        'BassoonVoiceII',
+                        [
+                            abjad.Momento(
+                                context='BassoonVoiceII',
+                                prototype='abjad.Dynamic',
+                                value='niente',
                                 ),
                             ],
                         ),
@@ -417,6 +483,36 @@ metadata = abjad.OrderedDict(
                                 context='ContrabassVoiceII',
                                 prototype='abjad.Dynamic',
                                 value='pp',
+                                ),
+                            ],
+                        ),
+                    (
+                        'EnglishHornStaffI',
+                        [
+                            abjad.Momento(
+                                context='EnglishHornVoiceI',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
+                                context='EnglishHornVoiceI',
+                                prototype='abjad.Instrument',
+                                value='EnglishHorn',
+                                ),
+                            abjad.Momento(
+                                context='EnglishHornVoiceI',
+                                prototype='abjad.MarginMarkup',
+                                value='Eng. hn.',
+                                ),
+                            ],
+                        ),
+                    (
+                        'EnglishHornVoiceI',
+                        [
+                            abjad.Momento(
+                                context='EnglishHornVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='niente',
                                 ),
                             ],
                         ),
@@ -746,6 +842,16 @@ metadata = abjad.OrderedDict(
                                 context='OboeVoiceI',
                                 prototype='abjad.MarginMarkup',
                                 value='Ob.',
+                                ),
+                            ],
+                        ),
+                    (
+                        'OboeVoiceI',
+                        [
+                            abjad.Momento(
+                                context='OboeVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='niente',
                                 ),
                             ],
                         ),
@@ -1284,16 +1390,18 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
-                    ('BassoonVoiceI', False),
+                    ('BassoonVoiceI', True),
+                    ('BassoonVoiceII', True),
                     ('CelloVoiceI', True),
                     ('CelloVoiceII', True),
                     ('ContrabassVoiceII', True),
+                    ('EnglishHornVoiceI', True),
                     ('FirstViolinVoiceI', True),
                     ('FirstViolinVoiceII', True),
                     ('FirstViolinVoiceIII', True),
                     ('FirstViolinVoiceIV', True),
                     ('FirstViolinVoiceV', True),
-                    ('OboeVoiceI', False),
+                    ('OboeVoiceI', True),
                     ('SecondViolinVoiceI', True),
                     ('SecondViolinVoiceII', True),
                     ('SecondViolinVoiceIII', True),
