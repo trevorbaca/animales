@@ -30,12 +30,15 @@ maker = baca.SegmentMaker(
             ],
         first_violins=[
             (1, [1]),
+            (2, [2]),
             ],
         second_violins=[
             (1, [1]),
+            (2, [2]),
             ],
         violas=[
             (1, [1]),
+            (2, [2]),
             ],
         cellos=[
             (1, [1]),
@@ -130,7 +133,7 @@ maker(
     baca.make_repeated_duration_notes([(1, 4)]),
     )
 
-stop_trill = [
+left_broken = [
     'FirstViolinVoiceI',
     'SecondViolinVoiceI',
     'ViolaVoiceI',
@@ -138,9 +141,20 @@ stop_trill = [
     ]
 
 maker(
-    baca.make_scopes(stop_trill, [1]),
+    baca.make_scopes(left_broken, [1]),
     baca.build(baca.stop_trill()),
     baca.repeat_tie_to(),
+    )
+
+absent_left_broken = [
+    'FirstViolinVoiceII',
+    'SecondViolinVoiceII',
+    'ViolaVoiceII',
+    ]
+
+maker(
+    baca.make_scopes(absent_left_broken, [1]),
+    baca.build(baca.stop_trill()),
     )
 
 maker(
