@@ -27,7 +27,7 @@ maker = baca.SegmentMaker(
             (1, [1]),
             ],
         bassoons=[
-            (1, [1]),
+            (1, [1, 2]),
             ],
         first_violins=[
             (1, [1, 3]),
@@ -57,6 +57,88 @@ maker = baca.SegmentMaker(
 maker(
     baca.scope('GlobalSkips', 'all'),
     baca.rehearsal_mark('L'),
+    )
+
+# double reeds
+
+def swell():
+    return baca.piecewise(
+        abjad.Hairpin(),
+        baca.dynamics('niente f niente'),
+        baca.leaves().enchain([3, 5]),
+        bookend=True,
+        )
+
+# oboes
+
+maker(
+    baca.scope('OboeVoiceI', 'all'),
+    animales.parts('Oboe'),
+    )
+
+maker(
+    baca.scope('OboeVoiceI', (1, 6)),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('A4'),
+    )
+
+maker(
+    baca.scope('OboeVoiceI', (1, 7)),
+    swell(),
+    )
+
+# english horn
+
+maker(
+    baca.scope('EnglishHornVoiceI', 'all'),
+    animales.parts('EnglishHorn'),
+    )
+
+maker(
+    baca.scope('EnglishHornVoiceI', (1, 6)),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('G3'),
+    )
+
+maker(
+    baca.scope('EnglishHornVoiceI', (1, 7)),
+    swell(),
+    )
+
+# bassoons
+
+maker(
+    baca.scope('BassoonVoiceI', 'all'),
+    animales.parts('Bassoon', 1),
+    baca.not_parts(baca.voice_one()),
+    )
+
+maker(
+    baca.scope('BassoonVoiceII', 'all'),
+    animales.parts('Bassoon', 2),
+    baca.not_parts(baca.voice_two()),
+    )
+
+maker(
+    baca.scope('BassoonVoiceI', (1, 6)),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('B3'),
+    )
+
+maker(
+    baca.scope('BassoonVoiceI', (1, 7)),
+    baca.only_parts(swell()),
+    )
+
+maker(
+    baca.scope('BassoonVoiceII', (1, 6)),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('G2'),
+    )
+
+maker(
+    baca.scope('BassoonVoiceII', (1, 7)),
+    swell(),
     )
 
 # strings
@@ -110,6 +192,7 @@ maker(
     animales.margin_markup('Vni. I (1-4) (5-8)'),
     animales.parts('FirstViolin', (1, 4)),
     baca.make_repeat_tied_notes(),
+    baca.not_parts(baca.markup.boxed('tutti: ext. ponticello: like acid')),
     baca.not_parts(baca.markup('1-4 + 5-8')),
     baca.pitch('A5'),
     tremolo_suite,

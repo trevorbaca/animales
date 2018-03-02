@@ -30,8 +30,17 @@
             <<
                 \context StaffGroup = "WindStaffGroup"
                 <<
-                    \context Staff = "OboeStaffI"
-                    \L_OboeStaffI
+                    \context StaffGroup = "OboeFamilySquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "OboeStaffI"
+                        \L_OboeStaffI
+                        \context Staff = "EnglishHornStaffI"
+                        \L_EnglishHornStaffI
+                    >>
                     \context Staff = "BassoonStaffI"
                     \L_BassoonStaffI
                 >>
