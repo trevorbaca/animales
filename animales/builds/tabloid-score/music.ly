@@ -22,6 +22,7 @@
 \include "_segments/segment-K.ily"
 \include "_segments/segment-L1.ily"
 \include "_segments/segment-L2.ily"
+\include "_segments/segment-M.ily"
 
 
 \score {
@@ -53,6 +54,7 @@
                     \K_GlobalRests
                     \L_a_GlobalRests
                     \L_b_GlobalRests
+                    \M_GlobalRests
                 }
                 \context GlobalSkips = "GlobalSkips"
                 {
@@ -73,6 +75,7 @@
                     \K_GlobalSkips
                     \L_a_GlobalSkips
                     \L_b_GlobalSkips
+                    \M_GlobalSkips
                 }
             >>
             \context MusicContext = "MusicContext"
@@ -147,6 +150,8 @@
                                 \L_a_GlobalRests
                                 \context Staff = "FluteStaffI"
                                 \L_b_GlobalRests
+                                \context Staff = "FluteStaffI"
+                                \M_GlobalRests
                             }
                             {
                                 \context Staff = "FluteStaffII"
@@ -197,6 +202,8 @@
                                 \L_a_GlobalRests
                                 \context Staff = "FluteStaffII"
                                 \L_b_GlobalRests
+                                \context Staff = "FluteStaffII"
+                                \M_GlobalRests
                             }
                         >>
                     >>
@@ -257,6 +264,8 @@
                                 \L_a_OboeStaffI
                                 \context Staff = "OboeStaffI"
                                 \L_b_GlobalRests
+                                \context Staff = "OboeStaffI"
+                                \M_OboeStaffI
                             }
                         >>
                         \context StaffGroup = "EnglishHornSquareStaffGroup"
@@ -310,6 +319,8 @@
                                 \L_a_EnglishHornStaffI
                                 \context Staff = "EnglishHornStaffI"
                                 \L_b_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \M_EnglishHornStaffI
                             }
                         >>
                     >>
@@ -374,6 +385,8 @@
                                 \L_a_GlobalRests
                                 \context Staff = "ClarinetStaffI"
                                 \L_b_GlobalRests
+                                \context Staff = "ClarinetStaffI"
+                                \M_GlobalRests
                             }
                         >>
                         \context StaffGroup = "BassClarinetSquareStaffGroup"
@@ -427,6 +440,8 @@
                                 \L_a_GlobalRests
                                 \context Staff = "BassClarinetStaffI"
                                 \L_b_GlobalRests
+                                \context Staff = "BassClarinetStaffI"
+                                \M_GlobalRests
                             }
                         >>
                     >>
@@ -481,6 +496,8 @@
                             \L_a_BassoonStaffI
                             \context Staff = "BassoonStaffI"
                             \L_b_GlobalRests
+                            \context Staff = "BassoonStaffI"
+                            \M_BassoonStaffI
                         }
                     >>
                 >>
@@ -541,6 +558,8 @@
                             \L_a_GlobalRests
                             \context Staff = "HornStaffI"
                             \L_b_GlobalRests
+                            \context Staff = "HornStaffI"
+                            \M_GlobalRests
                         }
                         {
                             \context Staff = "HornStaffII"
@@ -591,6 +610,8 @@
                             \L_a_GlobalRests
                             \context Staff = "HornStaffII"
                             \L_b_GlobalRests
+                            \context Staff = "HornStaffII"
+                            \M_GlobalRests
                         }
                     >>
                     \context StaffGroup = "TrumpetSquareStaffGroup"
@@ -648,6 +669,8 @@
                             \L_a_GlobalRests
                             \context Staff = "TrumpetStaffI"
                             \L_b_GlobalRests
+                            \context Staff = "TrumpetStaffI"
+                            \M_GlobalRests
                         }
                         {
                             \context Staff = "TrumpetStaffII"
@@ -698,6 +721,8 @@
                             \L_a_GlobalRests
                             \context Staff = "TrumpetStaffII"
                             \L_b_GlobalRests
+                            \context Staff = "TrumpetStaffII"
+                            \M_GlobalRests
                         }
                     >>
                     \context StaffGroup = "TromboneSquareStaffGroup"
@@ -755,6 +780,8 @@
                             \L_a_GlobalRests
                             \context Staff = "TromboneStaffI"
                             \L_b_GlobalRests
+                            \context Staff = "TromboneStaffI"
+                            \M_GlobalRests
                         }
                         {
                             \context Staff = "TromboneStaffII"
@@ -805,6 +832,8 @@
                             \L_a_GlobalRests
                             \context Staff = "TromboneStaffII"
                             \L_b_GlobalRests
+                            \context Staff = "TromboneStaffII"
+                            \M_GlobalRests
                         }
                     >>
                     \context StaffGroup = "TubaSquareStaffGroup"
@@ -858,6 +887,8 @@
                             \L_a_GlobalRests
                             \context Staff = "TubaStaffI"
                             \L_b_GlobalRests
+                            \context Staff = "TubaStaffI"
+                            \M_GlobalRests
                         }
                     >>
                 >>
@@ -908,6 +939,8 @@
                         \L_a_GlobalRests
                         \context Staff = "PianoStaffI"
                         \L_b_GlobalRests
+                        \context Staff = "PianoStaffI"
+                        \M_GlobalRests
                     }
                 >>
                 \context StaffGroup = "HarpPianoStaff"
@@ -957,6 +990,8 @@
                         \L_a_GlobalRests
                         \context Staff = "HarpStaffI"
                         \L_b_GlobalRests
+                        \context Staff = "HarpStaffI"
+                        \M_GlobalRests
                     }
                 >>
                 \context StaffGroup = "PercussionStaffGroup"
@@ -1011,6 +1046,8 @@
                         \L_a_GlobalRests
                         \context Staff = "PercussionStaffI"
                         \L_b_GlobalRests
+                        \context Staff = "PercussionStaffI"
+                        \M_GlobalRests
                     }
                     {
                         \context Staff = "PercussionStaffII"
@@ -1062,6 +1099,8 @@
                         \L_a_GlobalRests
                         \context Staff = "PercussionStaffII"
                         \L_b_GlobalRests
+                        \context Staff = "PercussionStaffII"
+                        \M_GlobalRests
                     }
                     {
                         \context Staff = "PercussionStaffIII"
@@ -1113,6 +1152,8 @@
                         \L_a_GlobalRests
                         \context Staff = "PercussionStaffIII"
                         \L_b_GlobalRests
+                        \context Staff = "PercussionStaffIII"
+                        \M_GlobalRests
                     }
                 >>
                 \context StaffGroup = "StringStaffGroup"
@@ -1159,6 +1200,8 @@
                             \L_a_FirstViolinStaffI
                             \context Staff = "FirstViolinStaffI"
                             \L_b_GlobalRests
+                            \context Staff = "FirstViolinStaffI"
+                            \M_FirstViolinStaffI
                         }
                         {
                             \context Staff = "FirstViolinStaffII"
@@ -1196,6 +1239,8 @@
                             \L_a_FirstViolinStaffII
                             \context Staff = "FirstViolinStaffII"
                             \L_b_GlobalRests
+                            \context Staff = "FirstViolinStaffII"
+                            \M_FirstViolinStaffII
                         }
                         {
                             \context Staff = "FirstViolinStaffIII"
@@ -1246,6 +1291,8 @@
                             \L_a_FirstViolinStaffIII
                             \context Staff = "FirstViolinStaffIII"
                             \L_b_FirstViolinStaffIII
+                            \context Staff = "FirstViolinStaffIII"
+                            \M_FirstViolinStaffIII
                         }
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup"
@@ -1290,6 +1337,8 @@
                             \L_a_SecondViolinStaffI
                             \context Staff = "SecondViolinStaffI"
                             \L_b_GlobalRests
+                            \context Staff = "SecondViolinStaffI"
+                            \M_SecondViolinStaffI
                         }
                         {
                             \context Staff = "SecondViolinStaffII"
@@ -1327,6 +1376,8 @@
                             \L_a_SecondViolinStaffII
                             \context Staff = "SecondViolinStaffII"
                             \L_b_GlobalRests
+                            \context Staff = "SecondViolinStaffII"
+                            \M_SecondViolinStaffII
                         }
                     >>
                     \context StaffGroup = "ViolaSquareStaffGroup"
@@ -1371,6 +1422,8 @@
                             \L_a_ViolaStaffI
                             \context Staff = "ViolaStaffI"
                             \L_b_GlobalRests
+                            \context Staff = "ViolaStaffI"
+                            \M_ViolaStaffI
                         }
                         {
                             \context Staff = "ViolaStaffII"
@@ -1408,6 +1461,8 @@
                             \L_a_ViolaStaffII
                             \context Staff = "ViolaStaffII"
                             \L_b_GlobalRests
+                            \context Staff = "ViolaStaffII"
+                            \M_ViolaStaffII
                         }
                     >>
                     \context StaffGroup = "CelloSquareStaffGroup"
@@ -1452,6 +1507,8 @@
                             \L_a_CelloStaffI
                             \context Staff = "CelloStaffI"
                             \L_b_GlobalRests
+                            \context Staff = "CelloStaffI"
+                            \M_CelloStaffI
                         }
                     >>
                     \context StaffGroup = "ContrabassSquareStaffGroup"
@@ -1509,6 +1566,8 @@
                             \L_a_GlobalRests
                             \context Staff = "ContrabassStaffI"
                             \L_b_GlobalRests
+                            \context Staff = "ContrabassStaffI"
+                            \M_GlobalRests
                         }
                         {
                             \context Staff = "ContrabassStaffII"
@@ -1555,6 +1614,8 @@
                             \L_a_ContrabassStaffII
                             \context Staff = "ContrabassStaffII"
                             \L_b_GlobalRests
+                            \context Staff = "ContrabassStaffII"
+                            \M_ContrabassStaffII
                         }
                     >>
                 >>

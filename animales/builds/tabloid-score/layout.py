@@ -37,7 +37,9 @@ breaks = baca.breaks(
         ),
     baca.page( # 10
         [95, 15, (after_time_signatures, 20)],
-        [105, 300, (after_time_signatures, 20)],
+        ),
+    baca.page( # 11
+        [108, 15, (after_time_signatures, 20)],
         ),
     )
 
@@ -55,5 +57,4 @@ spacing.override((85, 87), (1, 8))
 spacing.override((88, 90), (1, 24))
 spacing.override((91, 93), (1, 4))
 spacing.override(94, (1, 4))
-spacing.override((95, 104), (1, 12))
-spacing.override((105, -1), (1, 20))
+spacing.override((95, -1), (1, 10))
