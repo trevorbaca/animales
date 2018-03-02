@@ -59,7 +59,7 @@ maker = baca.SegmentMaker(
             (1, [1, 2]),
             ],
         contrabasses=[
-            (2, [2]),
+            (2, [3]),
             ],
         ),
     time_signatures=time_signatures,
@@ -217,7 +217,7 @@ string_parts = {
     'ViolaVoiceIV': [(13, 18), False, 'G3'],
     'CelloVoiceI': [(1, 8), True, 'D3'],
     'CelloVoiceII': [(9, 14), False, 'G2'],
-    'ContrabassVoiceII': [(1, -1), None, 'G1'],
+    'ContrabassVoiceIII': [(1, -1), None, 'G1'],
     }
 
 def tremolo(peak='f'):

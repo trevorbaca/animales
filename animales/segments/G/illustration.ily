@@ -2990,9 +2990,9 @@ G_ContrabassStaffI = {
 }
 
 
-G_ContrabassVoiceII_a = {
+G_ContrabassVoiceIII_a = {
     
-    % [G ContrabassVoiceII measure 62]                   %! SM4
+    % [G ContrabassVoiceIII measure 62]                  %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -3075,7 +3075,7 @@ G_ContrabassVoiceII_a = {
     a,4
     \glissando                                           %! SC
     
-    % [G ContrabassVoiceII measure 63]                   %! SM4
+    % [G ContrabassVoiceIII measure 63]                  %! SM4
     a,4
     \glissando                                           %! SC
     
@@ -3088,7 +3088,7 @@ G_ContrabassVoiceII_a = {
     a,4
     \glissando                                           %! SC
     
-    % [G ContrabassVoiceII measure 64]                   %! SM4
+    % [G ContrabassVoiceIII measure 64]                  %! SM4
     a,4
     \glissando                                           %! SC
     
@@ -3101,14 +3101,14 @@ G_ContrabassVoiceII_a = {
     g,4
     \glissando                                           %! SC
     
-    % [G ContrabassVoiceII measure 65]                   %! SM4
+    % [G ContrabassVoiceIII measure 65]                  %! SM4
     g,4
     \glissando                                           %! SC
     
     g,4
     \glissando                                           %! SC
     
-    % [G ContrabassVoiceII measure 66]                   %! SM4
+    % [G ContrabassVoiceIII measure 66]                  %! SM4
     g,4
     \glissando                                           %! SC
     
@@ -3121,7 +3121,7 @@ G_ContrabassVoiceII_a = {
     g,4
     \glissando                                           %! SC
     
-    % [G ContrabassVoiceII measure 67]                   %! SM4
+    % [G ContrabassVoiceIII measure 67]                  %! SM4
     g,4
     \glissando                                           %! SC
     
@@ -3144,12 +3144,12 @@ G_ContrabassVoiceII_a = {
 }
 
 
-G_ContrabassVoiceII = {
-    \G_ContrabassVoiceII_a
+G_ContrabassVoiceIII = {
+    \G_ContrabassVoiceIII_a
 }
 
 
 G_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceII"
-    \G_ContrabassVoiceII
+    \context Voice = "ContrabassVoiceIII"
+    \G_ContrabassVoiceIII
 }

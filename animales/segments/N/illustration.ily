@@ -5071,9 +5071,9 @@ N_CelloStaffI = <<
 >>
 
 
-N_ContrabassVoiceII_a = {
+N_ContrabassVoiceIII_a = {
     
-    % [N ContrabassVoiceII measure 119]                      %! SM4
+    % [N ContrabassVoiceIII measure 119]                     %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -5126,13 +5126,13 @@ N_ContrabassVoiceII_a = {
             Cb.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [N ContrabassVoiceII measure 120]                      %! SM4
+    % [N ContrabassVoiceIII measure 120]                     %! SM4
     R1 * 3/4
     
-    % [N ContrabassVoiceII measure 121]                      %! SM4
+    % [N ContrabassVoiceIII measure 121]                     %! SM4
     R1 * 1/4
     
-    % [N ContrabassVoiceII measure 122]                      %! SM4
+    % [N ContrabassVoiceIII measure 122]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
@@ -5162,12 +5162,12 @@ N_ContrabassVoiceII_a = {
     \<                                                       %! PCW1
     \startTextSpan                                           %! PCW1
     
-    % [N ContrabassVoiceII measure 123]                      %! SM4
+    % [N ContrabassVoiceIII measure 123]                     %! SM4
     g,1
     :32                                                      %! IC
     \repeatTie
     
-    % [N ContrabassVoiceII measure 124]                      %! SM4
+    % [N ContrabassVoiceIII measure 124]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
@@ -5210,16 +5210,16 @@ N_ContrabassVoiceII_a = {
     \>                                                       %! PCW1
     \startTextSpan                                           %! PCW1
     
-    % [N ContrabassVoiceII measure 125]                      %! SM4
+    % [N ContrabassVoiceIII measure 125]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 3/4
     \!                                                       %! PCW1
     \stopTextSpan                                            %! PCW1
     
-    % [N ContrabassVoiceII measure 126]                      %! SM4
+    % [N ContrabassVoiceIII measure 126]                     %! SM4
     R1 * 1/4
     
-    % [N ContrabassVoiceII measure 127]                      %! SM4
+    % [N ContrabassVoiceIII measure 127]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
@@ -5249,12 +5249,12 @@ N_ContrabassVoiceII_a = {
     \<                                                       %! PCW1
     \startTextSpan                                           %! PCW1
     
-    % [N ContrabassVoiceII measure 128]                      %! SM4
+    % [N ContrabassVoiceIII measure 128]                     %! SM4
     g,1
     :32                                                      %! IC
     \repeatTie
     
-    % [N ContrabassVoiceII measure 129]                      %! SM4
+    % [N ContrabassVoiceIII measure 129]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
@@ -5297,7 +5297,7 @@ N_ContrabassVoiceII_a = {
     \>                                                       %! PCW1
     \startTextSpan                                           %! PCW1
     
-    % [N ContrabassVoiceII measure 130]                      %! SM4
+    % [N ContrabassVoiceIII measure 130]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 1/2
     \!                                                       %! PCW1
@@ -5306,12 +5306,12 @@ N_ContrabassVoiceII_a = {
 }
 
 
-N_ContrabassVoiceII = {
-    \N_ContrabassVoiceII_a
+N_ContrabassVoiceIII = {
+    \N_ContrabassVoiceIII_a
 }
 
 
 N_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceII"
-    \N_ContrabassVoiceII
+    \context Voice = "ContrabassVoiceIII"
+    \N_ContrabassVoiceIII
 }

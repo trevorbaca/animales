@@ -2291,9 +2291,9 @@ J_ContrabassStaffI = {
 }
 
 
-J_ContrabassVoiceII_a = {
+J_ContrabassVoiceIII_a = {
     
-    % [J ContrabassVoiceII measure 82]                   %! SM4
+    % [J ContrabassVoiceIII measure 82]                  %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -2361,17 +2361,17 @@ J_ContrabassVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [J ContrabassVoiceII measure 83]                   %! SM4
+    % [J ContrabassVoiceIII measure 83]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g,1
     \repeatTie
     \ff                                                  %! HC1
     
-    % [J ContrabassVoiceII measure 84]                   %! SM4
+    % [J ContrabassVoiceIII measure 84]                  %! SM4
     g,2
     \repeatTie
     
-    % [J ContrabassVoiceII measure 85]                   %! SM4
+    % [J ContrabassVoiceIII measure 85]                  %! SM4
     R1 * 1
 %%% ^ \markup {                                          %! IC:+PARTS
 %%%     \whiteout                                        %! IC:+PARTS
@@ -2386,21 +2386,21 @@ J_ContrabassVoiceII_a = {
 %%%                         }                            %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
-    % [J ContrabassVoiceII measure 86]                   %! SM4
+    % [J ContrabassVoiceIII measure 86]                  %! SM4
     R1 * 1
     
-    % [J ContrabassVoiceII measure 87]                   %! SM4
+    % [J ContrabassVoiceIII measure 87]                  %! SM4
     R1 * 1
     
 }
 
 
-J_ContrabassVoiceII = {
-    \J_ContrabassVoiceII_a
+J_ContrabassVoiceIII = {
+    \J_ContrabassVoiceIII_a
 }
 
 
 J_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceII"
-    \J_ContrabassVoiceII
+    \context Voice = "ContrabassVoiceIII"
+    \J_ContrabassVoiceIII
 }

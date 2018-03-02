@@ -3343,9 +3343,9 @@ L_a_CelloStaffI = <<
 >>
 
 
-L_a_ContrabassVoiceII_a = {
+L_a_ContrabassVoiceIII_a = {
     
-    % [L1 ContrabassVoiceII measure 95]                      %! SM4
+    % [L1 ContrabassVoiceIII measure 95]                     %! SM4
     \set Staff.instrumentName =                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -3415,13 +3415,13 @@ L_a_ContrabassVoiceII_a = {
             Cb.                                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [L1 ContrabassVoiceII measure 96]                      %! SM4
+    % [L1 ContrabassVoiceIII measure 96]                     %! SM4
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [L1 ContrabassVoiceII measure 97]                      %! SM4
+    % [L1 ContrabassVoiceIII measure 97]                     %! SM4
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -3463,31 +3463,31 @@ L_a_ContrabassVoiceII_a = {
     \ff                                                      %! HC1
     \startTextSpan                                           %! PCW1
     
-    % [L1 ContrabassVoiceII measure 98]                      %! SM4
+    % [L1 ContrabassVoiceIII measure 98]                     %! SM4
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [L1 ContrabassVoiceII measure 99]                      %! SM4
+    % [L1 ContrabassVoiceIII measure 99]                     %! SM4
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [L1 ContrabassVoiceII measure 100]                     %! SM4
+    % [L1 ContrabassVoiceIII measure 100]                    %! SM4
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [L1 ContrabassVoiceII measure 101]                     %! SM4
+    % [L1 ContrabassVoiceIII measure 101]                    %! SM4
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [L1 ContrabassVoiceII measure 102]                     %! SM4
+    % [L1 ContrabassVoiceIII measure 102]                    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g,1
     :32                                                      %! IC
@@ -3496,13 +3496,13 @@ L_a_ContrabassVoiceII_a = {
     \pp                                                      %! HC1
     \stopTextSpan                                            %! PCW1
     
-    % [L1 ContrabassVoiceII measure 103]                     %! SM4
+    % [L1 ContrabassVoiceIII measure 103]                    %! SM4
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [L1 ContrabassVoiceII measure 104]                     %! SM4
+    % [L1 ContrabassVoiceIII measure 104]                    %! SM4
     g,2
     :32                                                      %! IC
     -\accent                                                 %! IC
@@ -3511,12 +3511,12 @@ L_a_ContrabassVoiceII_a = {
 }
 
 
-L_a_ContrabassVoiceII = {
-    \L_a_ContrabassVoiceII_a
+L_a_ContrabassVoiceIII = {
+    \L_a_ContrabassVoiceIII_a
 }
 
 
 L_a_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceII"
-    \L_a_ContrabassVoiceII
+    \context Voice = "ContrabassVoiceIII"
+    \L_a_ContrabassVoiceIII
 }

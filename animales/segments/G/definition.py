@@ -60,7 +60,7 @@ maker = baca.SegmentMaker(
             ],
         contrabasses=[
             (1, [1]),
-            (2, [2]),
+            (2, [3]),
             ],
         ),
     time_signatures=animales.time_signatures[start:start + 6],
@@ -358,7 +358,7 @@ maker(
     )
 
 maker(
-    baca.scope('ContrabassVoiceII', 'all'),
+    baca.scope('ContrabassVoiceIII', 'all'),
     animales.parts('Contrabass', (2, 6)),
     baca.glissando(allow_repeats=True, right_broken=True, stems=True),
     baca.hairpin('ff >', right_broken=True),

@@ -47,7 +47,7 @@ maker = baca.SegmentMaker(
             ],
         contrabasses=[
             (1, [1]),
-            (2, [2]),
+            (2, [3]),
             ],
         ),
     time_signatures=animales.time_signatures[start:start + 8],
@@ -192,7 +192,7 @@ maker(
     )
 
 maker(
-    baca.scope('ContrabassVoiceII', 'all'),
+    baca.scope('ContrabassVoiceIII', 'all'),
     animales.margin_markup(
         'Cb. (2-6)',
         alert=baca.markup('(cb. 2-6)'),
@@ -216,7 +216,7 @@ warning = abjad.Markup.line([
     ])
 warning = warning.scale((1.25, 1.25))
 maker(
-    baca.scope('ContrabassVoiceII', 'all'),
+    baca.scope('ContrabassVoiceIII', 'all'),
     baca.suite([
         baca.untie_to(baca.leaf(1)),
         baca.pitch('A#1', baca.pleaf(0)),
@@ -244,7 +244,7 @@ maker(
     )
 
 maker(
-    baca.scope('ContrabassVoiceII', 1),
+    baca.scope('ContrabassVoiceIII', 1),
     baca.dynamic('p'),
     baca.only_parts(baca.markup('still (non vibrato)')),
     )

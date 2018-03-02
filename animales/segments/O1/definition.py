@@ -104,8 +104,7 @@ for section, members in section_to_members.items():
     #if section not in ('FirstViolin', 'SecondViolin'):
     if section not in ('Contrabass',):
         continue
-    #for member in range(1, members + 1):
-    for member in [1, 2, 5, 6]:
+    for member in range(1, members + 1):
         numeral = roman.toRoman(member)
         numeral = str(numeral).upper()
         voice = f'{section}Voice{numeral}'
