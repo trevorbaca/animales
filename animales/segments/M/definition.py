@@ -29,6 +29,18 @@ maker = baca.SegmentMaker(
         bassoons=[
             (1, [1, 2]),
             ],
+        horns=[
+            (1, [1, 3]),
+            (2, [2, 4]),
+            ],
+        trumpets=[
+            (1, [1, 3]),
+            (2, [2, 4]),
+            ],
+        trombones=[
+            (1, [1, 3]),
+            (2, [2, 4]),
+            ],
         first_violins=[
             (1, [1, 3]),
             (2, [2, 4]),
@@ -139,6 +151,135 @@ maker(
 maker(
     baca.scope('BassoonVoiceII', (1, 6)),
     swell(),
+    )
+
+# brass
+
+def crescendi():
+    return baca.suite([
+        baca.hairpin('mp < mf', baca.run(0)),
+        baca.hairpin('mp < f', baca.run(1)),
+        baca.hairpin('mp < ff', baca.run(2)),
+        ])
+
+# horns
+
+maker(
+    baca.scope('HornVoiceI', 'all'),
+    animales.brass_manifest_rhythm(1),
+    animales.parts('Horn', 1),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.pitches('G3 A3', persist='seconds'),
+    crescendi(),
+    )
+
+maker(
+    baca.scope('HornVoiceIII', 'all'),
+    animales.brass_manifest_rhythm(3),
+    animales.parts('Horn', 3),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches('Gb3 Ab3', persist='seconds'),
+    crescendi(),
+    )
+
+maker(
+    baca.scope('HornVoiceII', 'all'),
+    animales.brass_manifest_rhythm(2),
+    animales.parts('Horn', 2),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.pitches('G3 A3', persist='seconds'),
+    crescendi(),
+    )
+
+maker(
+    baca.scope('HornVoiceIV', 'all'),
+    animales.brass_manifest_rhythm(4),
+    baca.not_parts(baca.voice_two()),
+    animales.parts('Horn', 4),
+    baca.pitches('Gb3 Ab3', persist='seconds'),
+    crescendi(),
+    )
+
+# trumpets
+
+maker(
+    baca.scope('TrumpetVoiceI', 'all'),
+    animales.brass_manifest_rhythm(5),
+    animales.parts('Trumpet', 1),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.pitches('Gb4 Ab4', persist='seconds'),
+    crescendi(),
+    )
+
+maker(
+    baca.scope('TrumpetVoiceIII', 'all'),
+    animales.brass_manifest_rhythm(7),
+    animales.parts('Trumpet', 3),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches('F4 G4', persist='seconds'),
+    crescendi(),
+    )
+
+maker(
+    baca.scope('TrumpetVoiceII', 'all'),
+    animales.brass_manifest_rhythm(6),
+    animales.parts('Trumpet', 2),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.pitches('Gb4 Ab4', persist='seconds'),
+    crescendi(),
+    )
+
+maker(
+    baca.scope('TrumpetVoiceIV', 'all'),
+    animales.brass_manifest_rhythm(8),
+    animales.parts('Trumpet', 4),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches('F4 G4', persist='seconds'),
+    crescendi(),
+    )
+
+# trombones
+
+maker(
+    baca.scope('TromboneVoiceI', 'all'),
+    animales.brass_manifest_rhythm(9),
+    animales.parts('Trombone', 1),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.pitches('Gb3 Ab3', persist='seconds'),
+    crescendi(),
+    )
+
+maker(
+    baca.scope('TromboneVoiceIII', 'all'),
+    animales.brass_manifest_rhythm(11),
+    animales.parts('Trombone', 3),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches('F3 G3', persist='seconds'),
+    crescendi(),
+    )
+
+maker(
+    baca.scope('TromboneVoiceII', 'all'),
+    animales.brass_manifest_rhythm(10),
+    animales.parts('Trombone', 2),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.pitches('Gb3 Ab3', persist='seconds'),
+    crescendi(),
+    )
+
+maker(
+    baca.scope('TromboneVoiceIV', 'all'),
+    animales.brass_manifest_rhythm(12),
+    animales.parts('Trombone', 4),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches('F3 G3', persist='seconds'),
+    crescendi(),
     )
 
 # strings

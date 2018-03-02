@@ -559,7 +559,7 @@
                             \context Staff = "HornStaffI"
                             \L_b_GlobalRests
                             \context Staff = "HornStaffI"
-                            \M_GlobalRests
+                            \M_HornStaffI
                         }
                         {
                             \context Staff = "HornStaffII"
@@ -611,7 +611,7 @@
                             \context Staff = "HornStaffII"
                             \L_b_GlobalRests
                             \context Staff = "HornStaffII"
-                            \M_GlobalRests
+                            \M_HornStaffII
                         }
                     >>
                     \context StaffGroup = "TrumpetSquareStaffGroup"
@@ -670,7 +670,7 @@
                             \context Staff = "TrumpetStaffI"
                             \L_b_GlobalRests
                             \context Staff = "TrumpetStaffI"
-                            \M_GlobalRests
+                            \M_TrumpetStaffI
                         }
                         {
                             \context Staff = "TrumpetStaffII"
@@ -722,7 +722,7 @@
                             \context Staff = "TrumpetStaffII"
                             \L_b_GlobalRests
                             \context Staff = "TrumpetStaffII"
-                            \M_GlobalRests
+                            \M_TrumpetStaffII
                         }
                     >>
                     \context StaffGroup = "TromboneSquareStaffGroup"
@@ -781,7 +781,7 @@
                             \context Staff = "TromboneStaffI"
                             \L_b_GlobalRests
                             \context Staff = "TromboneStaffI"
-                            \M_GlobalRests
+                            \M_TromboneStaffI
                         }
                         {
                             \context Staff = "TromboneStaffII"
@@ -833,7 +833,7 @@
                             \context Staff = "TromboneStaffII"
                             \L_b_GlobalRests
                             \context Staff = "TromboneStaffII"
-                            \M_GlobalRests
+                            \M_TromboneStaffII
                         }
                     >>
                     \context StaffGroup = "TubaSquareStaffGroup"
