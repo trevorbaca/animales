@@ -101,8 +101,7 @@ def lower_voice():
         ])
 
 for section, members in section_to_members.items():
-    #if section not in ('FirstViolin', 'SecondViolin'):
-    if section not in ('Contrabass',):
+    if section != 'Viola':
         continue
     for member in range(1, members + 1):
         numeral = roman.toRoman(member)
