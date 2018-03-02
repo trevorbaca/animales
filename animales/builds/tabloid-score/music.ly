@@ -1130,7 +1130,7 @@
                             \context Staff = "FirstViolinStaffII"
                             \A_b_FirstViolinStaffII
                             \context Staff = "FirstViolinStaffII"
-                            \B_GlobalRests
+                            \B_FirstViolinStaffII
                             \context Staff = "FirstViolinStaffII"
                             \C_GlobalRests
                             \context Staff = "FirstViolinStaffII"
@@ -1255,7 +1255,7 @@
                             \context Staff = "SecondViolinStaffII"
                             \A_b_SecondViolinStaffII
                             \context Staff = "SecondViolinStaffII"
-                            \B_GlobalRests
+                            \B_SecondViolinStaffII
                             \context Staff = "SecondViolinStaffII"
                             \C_GlobalRests
                             \context Staff = "SecondViolinStaffII"
@@ -1332,7 +1332,7 @@
                             \context Staff = "ViolaStaffII"
                             \A_b_ViolaStaffII
                             \context Staff = "ViolaStaffII"
-                            \B_GlobalRests
+                            \B_ViolaStaffII
                             \context Staff = "ViolaStaffII"
                             \C_GlobalRests
                             \context Staff = "ViolaStaffII"

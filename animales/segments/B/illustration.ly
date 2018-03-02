@@ -42,12 +42,39 @@
                 >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
-                    \context Staff = "FirstViolinStaffI"
-                    \B_FirstViolinStaffI
-                    \context Staff = "SecondViolinStaffI"
-                    \B_SecondViolinStaffI
-                    \context Staff = "ViolaStaffI"
-                    \B_ViolaStaffI
+                    \context StaffGroup = "FirstViolinSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "FirstViolinStaffI"
+                        \B_FirstViolinStaffI
+                        \context Staff = "FirstViolinStaffII"
+                        \B_FirstViolinStaffII
+                    >>
+                    \context StaffGroup = "SecondViolinSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "SecondViolinStaffI"
+                        \B_SecondViolinStaffI
+                        \context Staff = "SecondViolinStaffII"
+                        \B_SecondViolinStaffII
+                    >>
+                    \context StaffGroup = "ViolaSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "ViolaStaffI"
+                        \B_ViolaStaffI
+                        \context Staff = "ViolaStaffII"
+                        \B_ViolaStaffII
+                    >>
                     \context Staff = "CelloStaffI"
                     \B_CelloStaffI
                     \context Staff = "ContrabassStaffII"
