@@ -139,9 +139,29 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
+                        'O_a_ContrabassVoiceIII_a',
+                        (
+                            abjad.PartAssignment('Contrabass', 3),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(7, 2),
+                                ),
+                            ),
+                        ),
+                    (
                         'O_a_ContrabassVoiceII_a',
                         (
                             abjad.PartAssignment('Contrabass', 2),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(7, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'O_a_ContrabassVoiceIV_a',
+                        (
+                            abjad.PartAssignment('Contrabass', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(7, 2),
@@ -497,7 +517,7 @@ metadata = abjad.OrderedDict(
                                 value='treble',
                                 ),
                             abjad.Momento(
-                                context='ContrabassVoiceII',
+                                context='ContrabassVoiceI',
                                 prototype='abjad.Instrument',
                                 value='Contrabass',
                                 ),
@@ -517,19 +537,24 @@ metadata = abjad.OrderedDict(
                         'ContrabassStaffII',
                         [
                             abjad.Momento(
-                                context='ContrabassVoiceII',
+                                context='ContrabassVoiceIII',
                                 prototype='abjad.Clef',
                                 value='bass',
                                 ),
                             abjad.Momento(
-                                context='ContrabassVoiceII',
+                                context='ContrabassVoiceIII',
                                 prototype='abjad.Instrument',
                                 value='Contrabass',
                                 ),
                             abjad.Momento(
-                                context='ContrabassVoiceII',
+                                context='ContrabassVoiceIII',
                                 prototype='abjad.MarginMarkup',
                                 value='Cb.',
+                                ),
+                            abjad.Momento(
+                                context='ContrabassVoiceIV',
+                                prototype='baca.StaffLines',
+                                value=2,
                                 ),
                             ],
                         ),
@@ -569,10 +594,10 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
-                        'ContrabassVoiceII',
+                        'ContrabassVoiceIII',
                         [
                             abjad.Momento(
-                                context='ContrabassVoiceII',
+                                context='ContrabassVoiceIII',
                                 prototype='abjad.Dynamic',
                                 value='niente',
                                 ),
@@ -1898,8 +1923,8 @@ metadata = abjad.OrderedDict(
                     ('CelloVoiceXIV', False),
                     ('ContrabassVoiceI', True),
                     ('ContrabassVoiceII', True),
-                    ('ContrabassVoiceIII', False),
-                    ('ContrabassVoiceIV', False),
+                    ('ContrabassVoiceIII', True),
+                    ('ContrabassVoiceIV', True),
                     ('ContrabassVoiceV', True),
                     ('ContrabassVoiceVI', True),
                     ('FirstViolinVoiceI', False),
@@ -1989,6 +2014,42 @@ metadata = abjad.OrderedDict(
                         ),
                     (
                         'ContrabassVoiceII',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'RHYTHM',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 14),
+                                            ('logical_ties_produced', 17),
+                                            ('name', 'clb_rhythm'),
+                                            ('talea_weight_consumed', 56),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'ContrabassVoiceIII',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'RHYTHM',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 14),
+                                            ('logical_ties_produced', 17),
+                                            ('name', 'clb_rhythm'),
+                                            ('talea_weight_consumed', 56),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'ContrabassVoiceIV',
                         abjad.OrderedDict(
                             [
                                 (

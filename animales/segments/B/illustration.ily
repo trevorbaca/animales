@@ -1570,9 +1570,9 @@ B_CelloStaffI = {
 }
 
 
-B_ContrabassVoiceII_a = {
+B_ContrabassVoiceIII_a = {
     
-    % [B ContrabassVoiceII measure 30]                       %! SM4
+    % [B ContrabassVoiceIII measure 30]                      %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1640,7 +1640,7 @@ B_ContrabassVoiceII_a = {
     b,4
     \glissando                                               %! SC
     
-    % [B ContrabassVoiceII measure 31]                       %! SM4
+    % [B ContrabassVoiceIII measure 31]                      %! SM4
     b,4
     \glissando                                               %! SC
     
@@ -1653,14 +1653,14 @@ B_ContrabassVoiceII_a = {
     b,4
     \glissando                                               %! SC
     
-    % [B ContrabassVoiceII measure 32]                       %! SM4
+    % [B ContrabassVoiceIII measure 32]                      %! SM4
     b,4
     \glissando                                               %! SC
     
     b,4
     \glissando                                               %! SC
     
-    % [B ContrabassVoiceII measure 33]                       %! SM4
+    % [B ContrabassVoiceIII measure 33]                      %! SM4
     a,4
     \glissando                                               %! SC
     
@@ -1670,7 +1670,7 @@ B_ContrabassVoiceII_a = {
     a,4
     \glissando                                               %! SC
     
-    % [B ContrabassVoiceII measure 34]                       %! SM4
+    % [B ContrabassVoiceIII measure 34]                      %! SM4
     a,4
     \glissando                                               %! SC
     
@@ -1680,7 +1680,7 @@ B_ContrabassVoiceII_a = {
     a,4
     \glissando                                               %! SC
     
-    % [B ContrabassVoiceII measure 35]                       %! SM4
+    % [B ContrabassVoiceIII measure 35]                      %! SM4
     a,4
     \glissando                                               %! SC
     
@@ -1703,12 +1703,12 @@ B_ContrabassVoiceII_a = {
 }
 
 
-B_ContrabassVoiceII = {
-    \B_ContrabassVoiceII_a
+B_ContrabassVoiceIII = {
+    \B_ContrabassVoiceIII_a
 }
 
 
 B_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceII"
-    \B_ContrabassVoiceII
+    \context Voice = "ContrabassVoiceIII"
+    \B_ContrabassVoiceIII
 }

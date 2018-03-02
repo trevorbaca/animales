@@ -49,7 +49,7 @@ maker = baca.SegmentMaker(
             ],
         contrabasses=[
             (1, [1]),
-            (2, [2]),
+            (2, [3]),
             ],
         ),
     time_signatures=animales.time_signatures[start:start + 6],
@@ -180,7 +180,7 @@ most_strings = [
     'SecondViolinVoiceI',
     'ViolaVoiceI',
     'CelloVoiceI',
-    'ContrabassVoiceII',
+    'ContrabassVoiceIII',
     ]
 
 maker(
@@ -202,14 +202,14 @@ maker(
     )
 
 maker(
-    baca.scope('ContrabassVoiceII', (1, 3)),
+    baca.scope('ContrabassVoiceIII', (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
     baca.pitch('Ab1'),
     )
 
 maker(
-    baca.scope('ContrabassVoiceII', 'all'),
+    baca.scope('ContrabassVoiceIII', 'all'),
     animales.parts('Contrabass', (2, 6)),
     )
 

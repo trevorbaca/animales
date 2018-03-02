@@ -2312,9 +2312,9 @@ K_ContrabassStaffI = {
 }
 
 
-K_ContrabassVoiceII_a = {
+K_ContrabassVoiceIII_a = {
     
-    % [K ContrabassVoiceII measure 88]                   %! SM4
+    % [K ContrabassVoiceIII measure 88]                  %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -2384,17 +2384,17 @@ K_ContrabassVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [K ContrabassVoiceII measure 89]                   %! SM4
+    % [K ContrabassVoiceIII measure 89]                  %! SM4
     g,2
     \repeatTie
     
-    % [K ContrabassVoiceII measure 90]                   %! SM4
+    % [K ContrabassVoiceIII measure 90]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g,1
     \repeatTie
     \ff                                                  %! HC1
     
-    % [K ContrabassVoiceII measure 91]                   %! SM4
+    % [K ContrabassVoiceIII measure 91]                  %! SM4
     R1 * 1
 %%% ^ \markup {                                          %! IC:+PARTS
 %%%     \whiteout                                        %! IC:+PARTS
@@ -2409,24 +2409,24 @@ K_ContrabassVoiceII_a = {
 %%%                         }                            %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
-    % [K ContrabassVoiceII measure 92]                   %! SM4
+    % [K ContrabassVoiceIII measure 92]                  %! SM4
     R1 * 1
     
-    % [K ContrabassVoiceII measure 93]                   %! SM4
+    % [K ContrabassVoiceIII measure 93]                  %! SM4
     R1 * 1
     
-    % [K ContrabassVoiceII measure 94]                   %! SM4
+    % [K ContrabassVoiceIII measure 94]                  %! SM4
     R1 * 1/4
     
 }
 
 
-K_ContrabassVoiceII = {
-    \K_ContrabassVoiceII_a
+K_ContrabassVoiceIII = {
+    \K_ContrabassVoiceIII_a
 }
 
 
 K_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceII"
-    \K_ContrabassVoiceII
+    \context Voice = "ContrabassVoiceIII"
+    \K_ContrabassVoiceIII
 }

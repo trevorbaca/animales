@@ -1642,9 +1642,9 @@ A_b_CelloStaffI = {
 }
 
 
-A_b_ContrabassVoiceII_a = {
+A_b_ContrabassVoiceIII_a = {
     
-    % [A2 ContrabassVoiceII measure 24]                      %! SM4
+    % [A2 ContrabassVoiceIII measure 24]                     %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1696,37 +1696,37 @@ A_b_ContrabassVoiceII_a = {
             Cb.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [A2 ContrabassVoiceII measure 25]                      %! SM4
+    % [A2 ContrabassVoiceIII measure 25]                     %! SM4
     b,1
     \repeatTie
     
-    % [A2 ContrabassVoiceII measure 26]                      %! SM4
+    % [A2 ContrabassVoiceIII measure 26]                     %! SM4
     b,1
     \repeatTie
     
-    % [A2 ContrabassVoiceII measure 27]                      %! SM4
+    % [A2 ContrabassVoiceIII measure 27]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     b,1
     \repeatTie
     \ff                                                      %! HC1
     
-    % [A2 ContrabassVoiceII measure 28]                      %! SM4
+    % [A2 ContrabassVoiceIII measure 28]                     %! SM4
     b,2.
     \repeatTie
     
-    % [A2 ContrabassVoiceII measure 29]                      %! SM4
+    % [A2 ContrabassVoiceIII measure 29]                     %! SM4
     b,2.
     \repeatTie
     
 }
 
 
-A_b_ContrabassVoiceII = {
-    \A_b_ContrabassVoiceII_a
+A_b_ContrabassVoiceIII = {
+    \A_b_ContrabassVoiceIII_a
 }
 
 
 A_b_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceII"
-    \A_b_ContrabassVoiceII
+    \context Voice = "ContrabassVoiceIII"
+    \A_b_ContrabassVoiceIII
 }
