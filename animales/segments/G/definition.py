@@ -292,6 +292,19 @@ maker(
     baca.make_repeated_duration_notes([(1, 4)]),
     )
 
+stop_trill = [
+    'FirstViolinVoiceI',
+    'SecondViolinVoiceI',
+    'ViolaVoiceI',
+    'CelloVoiceI',
+    ]
+
+maker(
+    baca.make_scopes(stop_trill, [1]),
+    baca.build(baca.stop_trill()),
+    baca.repeat_tie_to(),
+    )
+
 maker(
     baca.scope('FirstViolinVoiceI', 'all'),
     baca.articulation('trill'),

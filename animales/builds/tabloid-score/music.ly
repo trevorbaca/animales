@@ -256,6 +256,50 @@
                             systemStartDelimiter = #'SystemStartSquare
                         }
                         <<
+                            {
+                                \context Staff = "EnglishHornStaffI"
+                                \with
+                                {
+                                    shortInstrumentName =
+                                    \markup {
+                                        \hcenter-in
+                                            #16
+                                            "Eng. hn."
+                                        }
+                                }
+                                \clef "treble"
+                                \i_a_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \i_b_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \i_c_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \A_a_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \A_b_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \B_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \C_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \D_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \E_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \F_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \G_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \H_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \I_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \J_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \K_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \L_EnglishHornStaffI
+                            }
                         >>
                     >>
                     \context StaffGroup = "ClarinetFamilySquareStaffGroup"
@@ -333,11 +377,7 @@
                                     \markup {
                                         \hcenter-in
                                             #16
-                                            \center-column
-                                                {
-                                                    B.
-                                                    cl.
-                                                }
+                                            "B. cl."
                                         }
                                 }
                                 \clef "treble"
@@ -1122,8 +1162,8 @@
                                         #16
                                         \center-column
                                             {
-                                                Vni.
-                                                I
+                                                "Vni. I"
+                                                18
                                             }
                                     }
                             }
