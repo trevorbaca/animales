@@ -3377,6 +3377,12 @@ L_a_ContrabassVoiceII_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                             (“Contrabass”)                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                     }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                \line                                        %! IC:-PARTS
+                    {                                        %! IC:-PARTS
+                        \whiteout                            %! IC:-PARTS
+                            \upright                         %! IC:-PARTS
+                                "Cb. tutti"                  %! IC:-PARTS
+                    }                                        %! IC:-PARTS
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
             %%%         \whiteout                            %! IC:+PARTS
