@@ -22,9 +22,9 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalRests = "GlobalRests"
-                \L_GlobalRests
+                \L_a_GlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                \L_GlobalSkips
+                \L_a_GlobalSkips
             >>
             \context MusicContext = "MusicContext"
             <<
@@ -37,12 +37,12 @@
                     }
                     <<
                         \context Staff = "OboeStaffI"
-                        \L_OboeStaffI
+                        \L_a_OboeStaffI
                         \context Staff = "EnglishHornStaffI"
-                        \L_EnglishHornStaffI
+                        \L_a_EnglishHornStaffI
                     >>
                     \context Staff = "BassoonStaffI"
-                    \L_BassoonStaffI
+                    \L_a_BassoonStaffI
                 >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
@@ -53,11 +53,11 @@
                     }
                     <<
                         \context Staff = "FirstViolinStaffI"
-                        \L_FirstViolinStaffI
+                        \L_a_FirstViolinStaffI
                         \context Staff = "FirstViolinStaffII"
-                        \L_FirstViolinStaffII
+                        \L_a_FirstViolinStaffII
                         \context Staff = "FirstViolinStaffIII"
-                        \L_FirstViolinStaffIII
+                        \L_a_FirstViolinStaffIII
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup"
                     \with
@@ -66,9 +66,9 @@
                     }
                     <<
                         \context Staff = "SecondViolinStaffI"
-                        \L_SecondViolinStaffI
+                        \L_a_SecondViolinStaffI
                         \context Staff = "SecondViolinStaffII"
-                        \L_SecondViolinStaffII
+                        \L_a_SecondViolinStaffII
                     >>
                     \context StaffGroup = "ViolaSquareStaffGroup"
                     \with
@@ -77,14 +77,14 @@
                     }
                     <<
                         \context Staff = "ViolaStaffI"
-                        \L_ViolaStaffI
+                        \L_a_ViolaStaffI
                         \context Staff = "ViolaStaffII"
-                        \L_ViolaStaffII
+                        \L_a_ViolaStaffII
                     >>
                     \context Staff = "CelloStaffI"
-                    \L_CelloStaffI
+                    \L_a_CelloStaffI
                     \context Staff = "ContrabassStaffII"
-                    \L_ContrabassStaffII
+                    \L_a_ContrabassStaffII
                 >>
             >>
         >>
