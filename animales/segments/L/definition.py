@@ -23,6 +23,9 @@ maker = baca.SegmentMaker(
         oboes=[
             (1, [1]),
             ],
+        english_horn=[
+            (1, [1]),
+            ],
         bassoons=[
             (1, [1]),
             ],
@@ -78,15 +81,117 @@ upper_voice_suite = baca.suite([
     baca.not_parts(baca.voice_one()),
     ])
 
-lower_voice_suite = baca.suite([
-    baca.not_parts(baca.voice_two()),
-    baca.not_parts(baca.text_spanner_staff_padding(5)),
-    ])
+def lower_voice_suite(n=5):
+    return baca.suite([
+        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.text_spanner_staff_padding(n)),
+        ])
 
-# violas 1-4 + 5-8 + 9-12 + 13-18
+# solo violin
+
+maker(
+    baca.scope('FirstViolinVoiceV', 'all'),
+    animales.margin_markup('Vni. I 18'),
+    animales.parts('FirstViolin', 18),
+    baca.dynamic('f'),
+    baca.make_repeat_tied_notes(),
+    baca.markup.boxed_lines([
+        'solo: absolutely fixed and determined; ponticello;',
+        'non diminuendo: appear as if by magic',
+        ]),
+    baca.pitch('C#4'),
+    baca.stem_tremolo(),
+    )
+
+# first violins
+
+maker(
+    baca.scope('FirstViolinVoiceI', 'all'),
+    animales.margin_markup('Vni. I (1-4) (5-8)'),
+    animales.parts('FirstViolin', (1, 4)),
+    baca.make_repeat_tied_notes(),
+    baca.not_parts(baca.markup('1-4 + 5-8')),
+    baca.pitch('A5'),
+    tremolo_suite,
+    upper_voice_suite,
+    )
+
+maker(
+    baca.scope('FirstViolinVoiceIII', 'all'),
+    animales.parts('FirstViolin', (5, 8)),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('F5'),
+    lower_voice_suite(8),
+    tremolo_suite,
+    )
+
+maker(
+    baca.scope('FirstViolinVoiceII', 'all'),
+    animales.margin_markup('Vni. I (9-12) (13-17)'),
+    animales.parts('FirstViolin', (9, 12)),
+    baca.make_repeat_tied_notes(),
+    baca.not_parts(baca.markup('9-12 + 13-17')),
+    baca.pitch('G5'),
+    tremolo_suite,
+    upper_voice_suite,
+    )
+
+maker(
+    baca.scope('FirstViolinVoiceIV', 'all'),
+    animales.parts('FirstViolin', (13, 17)),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('D5'),
+    lower_voice_suite(8),
+    tremolo_suite,
+    )
+
+# second violins
+
+maker(
+    baca.scope('SecondViolinVoiceI', 'all'),
+    animales.margin_markup('Vni. II (1-4) (5-8)'),
+    animales.parts('SecondViolin', (1, 4)),
+    baca.make_repeat_tied_notes(),
+    baca.not_parts(baca.markup('1-4 + 5-8')),
+    baca.pitch('B4'),
+    tremolo_suite,
+    upper_voice_suite,
+    )
+
+maker(
+    baca.scope('SecondViolinVoiceIII', 'all'),
+    animales.parts('SecondViolin', (5, 8)),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('G4'),
+    lower_voice_suite(),
+    tremolo_suite,
+    )
+
+maker(
+    baca.scope('SecondViolinVoiceII', 'all'),
+    animales.margin_markup('Vni. II (9-12) (13-18)'),
+    animales.parts('SecondViolin', (9, 12)),
+    baca.make_repeat_tied_notes(),
+    baca.not_parts(baca.markup('9-12 + 13-18')),
+    baca.pitch('A4'),
+    tremolo_suite,
+    upper_voice_suite,
+    )
+
+maker(
+    baca.scope('SecondViolinVoiceIV', 'all'),
+    animales.parts('SecondViolin', (13, 18)),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('F4'),
+    lower_voice_suite(),
+    tremolo_suite,
+    )
+
+# violas
 
 maker(
     baca.scope('ViolaVoiceI', 'all'),
+    animales.margin_markup('Vle. (1-4) (5-8)'),
     animales.parts('Viola', (1, 4)),
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.markup('1-4 + 5-8')),
@@ -100,12 +205,13 @@ maker(
     animales.parts('Viola', (5, 8)),
     baca.make_repeat_tied_notes(),
     baca.pitch('A3'),
-    lower_voice_suite,
+    lower_voice_suite(),
     tremolo_suite,
     )
 
 maker(
     baca.scope('ViolaVoiceII', 'all'),
+    animales.margin_markup('Vle. (9-12) (13-18)'),
     animales.parts('Viola', (9, 12)),
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.markup('9-12 + 13-18')),
@@ -119,18 +225,18 @@ maker(
     animales.parts('Viola', (13, 18)),
     baca.make_repeat_tied_notes(),
     baca.pitch('G3'),
-    lower_voice_suite,
+    lower_voice_suite(),
     tremolo_suite,
     )
 
-# G, D, B, F, A, C#
 # cellos
 
 maker(
     baca.scope('CelloVoiceI', 'all'),
-    animales.parts('Cello', (1, 6)),
+    animales.margin_markup('Vc. (1-8) (9-14)'),
+    animales.parts('Cello', (1, 8)),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup('1-6 + 7-14')),
+    baca.not_parts(baca.markup('1-8 + 9-14')),
     baca.pitch('D3'),
     tremolo_suite,
     upper_voice_suite,
@@ -138,10 +244,10 @@ maker(
 
 maker(
     baca.scope('CelloVoiceII', 'all'),
-    animales.parts('Cello', (7, 14)),
+    animales.parts('Cello', (9, 14)),
     baca.make_repeat_tied_notes(),
     baca.pitch('G2'),
-    lower_voice_suite,
+    lower_voice_suite(),
     tremolo_suite,
     )
 

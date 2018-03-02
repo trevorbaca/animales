@@ -10,7 +10,7 @@ def _make_margin_markup(markup):
 margin_markups = abjad.OrderedDict([
     (
         'B. cl.',
-        _make_margin_markup('B. cl.'),
+        _make_margin_markup(['B. cl.']),
         ),
     (
         'Bsn.',
@@ -23,6 +23,10 @@ margin_markups = abjad.OrderedDict([
     (
         'Vc. (1-8)',
         _make_margin_markup('Vc. (1-8)'),
+        ),
+    (
+        'Vc. (1-8) (9-14)',
+        _make_margin_markup(['Vc.', '(1-8)', '(9-14)']),
         ),
     (
         'Vc. (9-14)',
@@ -42,7 +46,7 @@ margin_markups = abjad.OrderedDict([
         ),
     (
         'Eng. hn.',
-        _make_margin_markup('Eng. hn.'),
+        _make_margin_markup(['Eng. hn.']),
         ),
     (
         'Fl.',
@@ -50,11 +54,11 @@ margin_markups = abjad.OrderedDict([
         ),
     (
         'Fl. (1+3)',
-        _make_margin_markup('Fl. (1+3)'),
+        _make_margin_markup(['Fl.', '(1+3)']),
         ),
     (
         'Fl. (2+4)',
-        _make_margin_markup('Fl. (2+4)'),
+        _make_margin_markup(['Fl.', '(2+4)']),
         ),
     (
         'Hp.',
@@ -66,11 +70,11 @@ margin_markups = abjad.OrderedDict([
         ),
     (
         'Hn. (1+3)',
-        _make_margin_markup('Hn. (1+3)'),
+        _make_margin_markup(['Hn.', '(1+3)']),
         ),
     (
         'Hn. (2+4)',
-        _make_margin_markup('Hn. (2+4)'),
+        _make_margin_markup(['Hn.', '(2+4)']),
         ),
     (
         'Ob.',
@@ -106,11 +110,11 @@ margin_markups = abjad.OrderedDict([
         ),
     (
         'Trb. (1+3)',
-        _make_margin_markup('Trb. (1+3)'),
+        _make_margin_markup(['Trb.', '(1+3)']),
         ),
     (
         'Trb. (2+4)',
-        _make_margin_markup('Trb. (2+4)'),
+        _make_margin_markup(['Trb.', '(2+4)']),
         ),
     (
         'Tp.',
@@ -118,11 +122,11 @@ margin_markups = abjad.OrderedDict([
         ),
     (
         'Tp. (1+3)',
-        _make_margin_markup('Tp. (1+3)'),
+        _make_margin_markup(['Tp.', '(1+3)']),
         ),
     (
         'Tp. (2+4)',
-        _make_margin_markup('Tp. (2+4)'),
+        _make_margin_markup(['Tp.', '(2+4)']),
         ),
     (
         'Tub.',
@@ -134,11 +138,19 @@ margin_markups = abjad.OrderedDict([
         ),
     (
         'Vle. (1-10)',
-        _make_margin_markup('Vle. (1-10)'),
+        _make_margin_markup(['Vle.', '(1-10)']),
         ),
     (
         'Vle. (11-18)',
-        _make_margin_markup('Vle. (11-18)'),
+        _make_margin_markup(['Vle.', '(11-18)']),
+        ),
+    (
+        'Vle. (1-4) (5-8)',
+        _make_margin_markup(['Vle.', '(1-4)', '(5-8)']),
+        ),
+    (
+        'Vle. (9-12) (13-18)',
+        _make_margin_markup(['Vle.', '(9-12)', '(13-18)']),
         ),
     (
         'Vni.',
@@ -146,31 +158,47 @@ margin_markups = abjad.OrderedDict([
         ),
     (
         'Vni. I',
-        _make_margin_markup('Vni. I'),
+        _make_margin_markup(['Vni. I']),
         ),
     (
         'Vni. I (1-10)',
-        _make_margin_markup('Vni. I (1-10)'),
+        _make_margin_markup(['Vni. I', '(1-10)']),
         ),
     (
         'Vni. I (11-18)',
-        _make_margin_markup('Vni. I (11-18)'),
+        _make_margin_markup(['Vni. I', '(11-18)']),
         ),
     (
         'Vni. I (2-18)',
-        _make_margin_markup('Vni. I (2-18)'),
+        _make_margin_markup(['Vni. I', '(2-18)']),
+        ),
+    (
+        'Vni. I (1-4) (5-8)',
+        _make_margin_markup(['Vni. I', '(1-4)', '(5-8)']),
+        ),
+    (
+        'Vni. I (9-12) (13-17)',
+        _make_margin_markup(['Vni. I', '(9-12)', '(13-17)']),
         ),
     (
         'Vni. II',
-        _make_margin_markup('Vni. II'),
+        _make_margin_markup(['Vni. II']),
         ),
     (
         'Vni. II (1-10)',
-        _make_margin_markup('Vni. II (1-10)'),
+        _make_margin_markup(['Vni. II', '(1-10)']),
         ),
     (
         'Vni. II (11-18)',
-        _make_margin_markup('Vni. II (11-18)'),
+        _make_margin_markup(['Vni. II', '(11-18)']),
+        ),
+    (
+        'Vni. II (1-4) (5-8)',
+        _make_margin_markup(['Vni. II', '(1-4)', '(5-8)']),
+        ),
+    (
+        'Vni. II (9-12) (13-18)',
+        _make_margin_markup(['Vni. II', '(9-12)', '(13-18)']),
         ),
     ])
 
@@ -189,7 +217,7 @@ for abbreviation, count in [
     ('Vc.', 14),
     ('Cb.', 6),
     ]:
-    for i in range(1, count + 1):
-        key = f'{abbreviation} {i}'
-        value = _make_margin_markup(key)
+    for n in range(1, count + 1):
+        key = f'{abbreviation} {n}'
+        value = _make_margin_markup([abbreviation, str(n)])
         margin_markups[key] = value
