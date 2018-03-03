@@ -68,9 +68,11 @@ maker = baca.SegmentMaker(
             (3, [5, 6]),
             ],
         ),
-    time_signatures=animales.time_signatures[start: start + 4],
+    #time_signatures=animales.time_signatures[start: start + 4],
+    time_signatures=[(4, 4)],
     transpose_score=True,
-    validate_measure_count=4,
+    #validate_measure_count=4,
+    validate_measure_count=1,
     )
 
 maker(
@@ -101,8 +103,6 @@ def lower_voice():
         ])
 
 for section, members in section_to_members.items():
-    if section != 'Viola':
-        continue
     for member in range(1, members + 1):
         numeral = roman.toRoman(member)
         numeral = str(numeral).upper()
