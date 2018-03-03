@@ -95,6 +95,7 @@ O_a_FirstViolinVoiceI_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+    [
     ^ \markup {
         \column
             {
@@ -137,19 +138,42 @@ O_a_FirstViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -170,20 +194,44 @@ O_a_FirstViolinVoiceIII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    
-    r8.
-    
-    a'16
-    
-    r8.
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -239,6 +287,7 @@ O_a_FirstViolinVoiceII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+    [
     ^ \markup {
         \column
             {
@@ -281,19 +330,42 @@ O_a_FirstViolinVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -314,20 +386,44 @@ O_a_FirstViolinVoiceIV_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    
-    r8.
-    
-    a'16
-    
-    r8.
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -381,6 +477,7 @@ O_a_FirstViolinVoiceV_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
     \f                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
+    [
     ^ \markup {
         \column
             {
@@ -421,19 +518,42 @@ O_a_FirstViolinVoiceV_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -452,20 +572,44 @@ O_a_FirstViolinVoiceVI_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
-    
-    r8.
-    
-    a'16
-    
-    r8.
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -496,21 +640,45 @@ O_a_FirstViolinVoiceVII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -542,6 +710,7 @@ O_a_FirstViolinVoiceVIII_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
+    [
     ^ \markup {
         \column
             {
@@ -573,19 +742,42 @@ O_a_FirstViolinVoiceVIII_a = {
             "Vni. I"                                     %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    a'16
     
     a'16
     
-    r8.
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -616,21 +808,45 @@ O_a_FirstViolinVoiceIX_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -662,6 +878,7 @@ O_a_FirstViolinVoiceX_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
+    [
     ^ \markup {
         \column
             {
@@ -693,19 +910,42 @@ O_a_FirstViolinVoiceX_a = {
             "Vni. I"                                     %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    a'16
     
     a'16
     
-    r8.
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -736,21 +976,45 @@ O_a_FirstViolinVoiceXI_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -782,6 +1046,7 @@ O_a_FirstViolinVoiceXII_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
+    [
     ^ \markup {
         \column
             {
@@ -813,19 +1078,42 @@ O_a_FirstViolinVoiceXII_a = {
             "Vni. I"                                     %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    a'16
     
     a'16
     
-    r8.
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -856,21 +1144,45 @@ O_a_FirstViolinVoiceXIII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -902,6 +1214,7 @@ O_a_FirstViolinVoiceXIV_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
+    [
     ^ \markup {
         \column
             {
@@ -933,19 +1246,42 @@ O_a_FirstViolinVoiceXIV_a = {
             "Vni. I"                                     %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    a'16
     
     a'16
     
-    r8.
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -976,21 +1312,45 @@ O_a_FirstViolinVoiceXV_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -1022,6 +1382,7 @@ O_a_FirstViolinVoiceXVI_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
+    [
     ^ \markup {
         \column
             {
@@ -1053,19 +1414,42 @@ O_a_FirstViolinVoiceXVI_a = {
             "Vni. I"                                     %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    a'16
     
     a'16
     
-    r8.
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -1096,21 +1480,45 @@ O_a_FirstViolinVoiceXVII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -1142,6 +1550,7 @@ O_a_FirstViolinVoiceXVIII_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
+    [
     ^ \markup {
         \column
             {
@@ -1173,19 +1582,42 @@ O_a_FirstViolinVoiceXVIII_a = {
             "Vni. I"                                     %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    a'16
     
     a'16
     
-    r8.
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -1241,6 +1673,7 @@ O_a_SecondViolinVoiceI_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+    [
     ^ \markup {
         \column
             {
@@ -1283,19 +1716,42 @@ O_a_SecondViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -1316,20 +1772,44 @@ O_a_SecondViolinVoiceIII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    
-    r8.
-    
-    a'16
-    
-    r8.
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -1385,6 +1865,7 @@ O_a_SecondViolinVoiceII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+    [
     ^ \markup {
         \column
             {
@@ -1427,19 +1908,42 @@ O_a_SecondViolinVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -1460,20 +1964,44 @@ O_a_SecondViolinVoiceIV_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    
-    r8.
-    
-    a'16
-    
-    r8.
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -1504,21 +2032,45 @@ O_a_SecondViolinVoiceV_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -1550,6 +2102,7 @@ O_a_SecondViolinVoiceVI_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
+    [
     ^ \markup {
         \column
             {
@@ -1581,19 +2134,42 @@ O_a_SecondViolinVoiceVI_a = {
             "Vni. II"                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    a'16
     
     a'16
     
-    r8.
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -1624,21 +2200,45 @@ O_a_SecondViolinVoiceVII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -1670,6 +2270,7 @@ O_a_SecondViolinVoiceVIII_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
+    [
     ^ \markup {
         \column
             {
@@ -1701,19 +2302,42 @@ O_a_SecondViolinVoiceVIII_a = {
             "Vni. II"                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    a'16
     
     a'16
     
-    r8.
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -1744,21 +2368,45 @@ O_a_SecondViolinVoiceIX_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -1790,6 +2438,7 @@ O_a_SecondViolinVoiceX_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
+    [
     ^ \markup {
         \column
             {
@@ -1821,19 +2470,42 @@ O_a_SecondViolinVoiceX_a = {
             "Vni. II"                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    a'16
     
     a'16
     
-    r8.
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -1864,21 +2536,45 @@ O_a_SecondViolinVoiceXI_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -1910,6 +2606,7 @@ O_a_SecondViolinVoiceXII_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
+    [
     ^ \markup {
         \column
             {
@@ -1941,19 +2638,42 @@ O_a_SecondViolinVoiceXII_a = {
             "Vni. II"                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    a'16
     
     a'16
     
-    r8.
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -1984,21 +2704,45 @@ O_a_SecondViolinVoiceXIII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -2030,6 +2774,7 @@ O_a_SecondViolinVoiceXIV_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
+    [
     ^ \markup {
         \column
             {
@@ -2061,19 +2806,42 @@ O_a_SecondViolinVoiceXIV_a = {
             "Vni. II"                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    a'16
     
     a'16
     
-    r8.
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -2104,21 +2872,45 @@ O_a_SecondViolinVoiceXV_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -2150,6 +2942,7 @@ O_a_SecondViolinVoiceXVI_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
+    [
     ^ \markup {
         \column
             {
@@ -2181,19 +2974,42 @@ O_a_SecondViolinVoiceXVI_a = {
             "Vni. II"                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    a'16
     
     a'16
     
-    r8.
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -2224,21 +3040,45 @@ O_a_SecondViolinVoiceXVII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -2270,6 +3110,7 @@ O_a_SecondViolinVoiceXVIII_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
+    [
     ^ \markup {
         \column
             {
@@ -2301,19 +3142,42 @@ O_a_SecondViolinVoiceXVIII_a = {
             "Vni. II"                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    a'16
     
     a'16
     
-    r8.
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -2369,6 +3233,7 @@ O_a_ViolaVoiceI_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     d'16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+    [
     ^ \markup {
         \column
             {
@@ -2411,19 +3276,42 @@ O_a_ViolaVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8.
+    d'16
     
     d'16
     
-    r8.
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
+    
+    d'16
+    
+    d'16
+    
+    d'16
+    ]
     
 }
 
@@ -2444,20 +3332,44 @@ O_a_ViolaVoiceIII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    
-    r8.
-    
-    b16
-    
-    r8.
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
+    
+    b16
+    
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
+    
+    b16
+    
+    b16
+    
+    b16
+    ]
     
 }
 
@@ -2513,6 +3425,7 @@ O_a_ViolaVoiceII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     d'16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+    [
     ^ \markup {
         \column
             {
@@ -2555,19 +3468,42 @@ O_a_ViolaVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8.
+    d'16
     
     d'16
     
-    r8.
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
+    
+    d'16
+    
+    d'16
+    
+    d'16
+    ]
     
 }
 
@@ -2588,20 +3524,44 @@ O_a_ViolaVoiceIV_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    
-    r8.
-    
-    b16
-    
-    r8.
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
+    
+    b16
+    
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
+    
+    b16
+    
+    b16
+    
+    b16
+    ]
     
 }
 
@@ -2632,21 +3592,45 @@ O_a_ViolaVoiceV_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     d'16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    d'16
     
     d'16
     
-    r8.
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
+    
+    d'16
+    
+    d'16
+    
+    d'16
+    ]
     
 }
 
@@ -2678,6 +3662,7 @@ O_a_ViolaVoiceVI_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b16
+    [
     ^ \markup {
         \column
             {
@@ -2709,19 +3694,42 @@ O_a_ViolaVoiceVI_a = {
             Vle.                                         %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    b16
     
     b16
     
-    r8.
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
+    
+    b16
+    
+    b16
+    
+    b16
+    ]
     
 }
 
@@ -2752,21 +3760,45 @@ O_a_ViolaVoiceVII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     d'16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    d'16
     
     d'16
     
-    r8.
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
+    
+    d'16
+    
+    d'16
+    
+    d'16
+    ]
     
 }
 
@@ -2798,6 +3830,7 @@ O_a_ViolaVoiceVIII_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b16
+    [
     ^ \markup {
         \column
             {
@@ -2829,19 +3862,42 @@ O_a_ViolaVoiceVIII_a = {
             Vle.                                         %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    b16
     
     b16
     
-    r8.
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
+    
+    b16
+    
+    b16
+    
+    b16
+    ]
     
 }
 
@@ -2872,21 +3928,45 @@ O_a_ViolaVoiceIX_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     d'16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    d'16
     
     d'16
     
-    r8.
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
+    
+    d'16
+    
+    d'16
+    
+    d'16
+    ]
     
 }
 
@@ -2918,6 +3998,7 @@ O_a_ViolaVoiceX_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b16
+    [
     ^ \markup {
         \column
             {
@@ -2949,19 +4030,42 @@ O_a_ViolaVoiceX_a = {
             Vle.                                         %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    b16
     
     b16
     
-    r8.
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
+    
+    b16
+    
+    b16
+    
+    b16
+    ]
     
 }
 
@@ -2992,21 +4096,45 @@ O_a_ViolaVoiceXI_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     d'16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    d'16
     
     d'16
     
-    r8.
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
+    
+    d'16
+    
+    d'16
+    
+    d'16
+    ]
     
 }
 
@@ -3038,6 +4166,7 @@ O_a_ViolaVoiceXII_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b16
+    [
     ^ \markup {
         \column
             {
@@ -3069,19 +4198,42 @@ O_a_ViolaVoiceXII_a = {
             Vle.                                         %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    b16
     
     b16
     
-    r8.
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
+    
+    b16
+    
+    b16
+    
+    b16
+    ]
     
 }
 
@@ -3112,21 +4264,45 @@ O_a_ViolaVoiceXIII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     d'16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    d'16
     
     d'16
     
-    r8.
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
+    
+    d'16
+    
+    d'16
+    
+    d'16
+    ]
     
 }
 
@@ -3158,6 +4334,7 @@ O_a_ViolaVoiceXIV_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b16
+    [
     ^ \markup {
         \column
             {
@@ -3189,19 +4366,42 @@ O_a_ViolaVoiceXIV_a = {
             Vle.                                         %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    b16
     
     b16
     
-    r8.
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
+    
+    b16
+    
+    b16
+    
+    b16
+    ]
     
 }
 
@@ -3232,21 +4432,45 @@ O_a_ViolaVoiceXV_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     d'16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    d'16
     
     d'16
     
-    r8.
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
+    
+    d'16
+    
+    d'16
+    
+    d'16
+    ]
     
 }
 
@@ -3278,6 +4502,7 @@ O_a_ViolaVoiceXVI_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b16
+    [
     ^ \markup {
         \column
             {
@@ -3309,19 +4534,42 @@ O_a_ViolaVoiceXVI_a = {
             Vle.                                         %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    b16
     
     b16
     
-    r8.
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
+    
+    b16
+    
+    b16
+    
+    b16
+    ]
     
 }
 
@@ -3352,21 +4600,45 @@ O_a_ViolaVoiceXVII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     d'16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    d'16
     
     d'16
     
-    r8.
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
     
     d'16
     
-    r8.
+    d'16
+    
+    d'16
+    ]
+    
+    d'16
+    [
+    
+    d'16
+    
+    d'16
+    
+    d'16
+    ]
     
 }
 
@@ -3398,6 +4670,7 @@ O_a_ViolaVoiceXVIII_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b16
+    [
     ^ \markup {
         \column
             {
@@ -3429,19 +4702,42 @@ O_a_ViolaVoiceXVIII_a = {
             Vle.                                         %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    b16
     
     b16
     
-    r8.
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
     
     b16
     
-    r8.
+    b16
+    
+    b16
+    ]
+    
+    b16
+    [
+    
+    b16
+    
+    b16
+    
+    b16
+    ]
     
 }
 
@@ -3497,6 +4793,7 @@ O_a_CelloVoiceI_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     e16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+    [
     ^ \markup {
         \column
             {
@@ -3539,19 +4836,42 @@ O_a_CelloVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8.
+    e16
     
     e16
     
-    r8.
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
+    
+    e16
+    
+    e16
+    
+    e16
+    ]
     
 }
 
@@ -3572,20 +4892,44 @@ O_a_CelloVoiceII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    
-    r8.
-    
-    c16
-    
-    r8.
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
+    
+    c16
+    
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
+    
+    c16
+    
+    c16
+    
+    c16
+    ]
     
 }
 
@@ -3616,21 +4960,45 @@ O_a_CelloVoiceIII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     e16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    e16
     
     e16
     
-    r8.
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
+    
+    e16
+    
+    e16
+    
+    e16
+    ]
     
 }
 
@@ -3662,6 +5030,7 @@ O_a_CelloVoiceIV_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c16
+    [
     ^ \markup {
         \column
             {
@@ -3693,19 +5062,42 @@ O_a_CelloVoiceIV_a = {
             Vc.                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    c16
     
     c16
     
-    r8.
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
+    
+    c16
+    
+    c16
+    
+    c16
+    ]
     
 }
 
@@ -3736,21 +5128,45 @@ O_a_CelloVoiceV_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     e16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    e16
     
     e16
     
-    r8.
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
+    
+    e16
+    
+    e16
+    
+    e16
+    ]
     
 }
 
@@ -3782,6 +5198,7 @@ O_a_CelloVoiceVI_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c16
+    [
     ^ \markup {
         \column
             {
@@ -3813,19 +5230,42 @@ O_a_CelloVoiceVI_a = {
             Vc.                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    c16
     
     c16
     
-    r8.
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
+    
+    c16
+    
+    c16
+    
+    c16
+    ]
     
 }
 
@@ -3856,21 +5296,45 @@ O_a_CelloVoiceVII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     e16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    e16
     
     e16
     
-    r8.
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
+    
+    e16
+    
+    e16
+    
+    e16
+    ]
     
 }
 
@@ -3902,6 +5366,7 @@ O_a_CelloVoiceVIII_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c16
+    [
     ^ \markup {
         \column
             {
@@ -3933,19 +5398,42 @@ O_a_CelloVoiceVIII_a = {
             Vc.                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    c16
     
     c16
     
-    r8.
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
+    
+    c16
+    
+    c16
+    
+    c16
+    ]
     
 }
 
@@ -3976,21 +5464,45 @@ O_a_CelloVoiceIX_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     e16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    e16
     
     e16
     
-    r8.
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
+    
+    e16
+    
+    e16
+    
+    e16
+    ]
     
 }
 
@@ -4022,6 +5534,7 @@ O_a_CelloVoiceX_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c16
+    [
     ^ \markup {
         \column
             {
@@ -4053,19 +5566,42 @@ O_a_CelloVoiceX_a = {
             Vc.                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    c16
     
     c16
     
-    r8.
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
+    
+    c16
+    
+    c16
+    
+    c16
+    ]
     
 }
 
@@ -4096,21 +5632,45 @@ O_a_CelloVoiceXI_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     e16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    e16
     
     e16
     
-    r8.
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
+    
+    e16
+    
+    e16
+    
+    e16
+    ]
     
 }
 
@@ -4142,6 +5702,7 @@ O_a_CelloVoiceXII_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c16
+    [
     ^ \markup {
         \column
             {
@@ -4173,19 +5734,42 @@ O_a_CelloVoiceXII_a = {
             Vc.                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    c16
     
     c16
     
-    r8.
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
+    
+    c16
+    
+    c16
+    
+    c16
+    ]
     
 }
 
@@ -4216,21 +5800,45 @@ O_a_CelloVoiceXIII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     e16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    e16
     
     e16
     
-    r8.
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
+    
+    e16
+    
+    e16
+    
+    e16
+    ]
     
 }
 
@@ -4262,6 +5870,7 @@ O_a_CelloVoiceXIV_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c16
+    [
     ^ \markup {
         \column
             {
@@ -4293,19 +5902,42 @@ O_a_CelloVoiceXIV_a = {
             Vc.                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    c16
     
     c16
     
-    r8.
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
+    
+    c16
+    
+    c16
+    
+    c16
+    ]
     
 }
 
@@ -4359,6 +5991,7 @@ O_a_ContrabassVoiceI_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
     \mf                                                  %! SM8:REAPPLIED_DYNAMIC:SM37
+    [
     ^ \markup {
         \column
             {
@@ -4399,19 +6032,42 @@ O_a_ContrabassVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8.
+    c''16
     
     c''16
     
-    r8.
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
     
     c''16
     
-    r8.
+    c''16
+    
+    c''16
+    ]
+    
+    c''16
+    [
+    
+    c''16
+    
+    c''16
+    
+    c''16
+    ]
     
 }
 
@@ -4430,20 +6086,44 @@ O_a_ContrabassVoiceII_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
-    
-    r8.
-    
-    a'16
-    
-    r8.
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
     
     a'16
     
-    r8.
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
+    
+    a'16
+    [
+    
+    a'16
+    
+    a'16
+    
+    a'16
+    ]
     
 }
 
@@ -4489,6 +6169,7 @@ O_a_ContrabassVoiceIII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     e16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+    [
     ^ \markup {
         \column
             {
@@ -4521,19 +6202,42 @@ O_a_ContrabassVoiceIII_a = {
             Cb.                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8.
+    e16
     
     e16
     
-    r8.
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
+    
+    e16
+    
+    e16
+    
+    e16
+    ]
     
 }
 
@@ -4552,20 +6256,44 @@ O_a_ContrabassVoiceIV_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c16
-    
-    r8.
-    
-    c16
-    
-    r8.
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
+    
+    c16
+    
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
+    
+    c16
+    
+    c16
+    
+    c16
+    ]
     
 }
 
@@ -4596,21 +6324,45 @@ O_a_ContrabassVoiceV_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     e16
+    [
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    r8.
+    e16
     
     e16
     
-    r8.
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
     
     e16
     
-    r8.
+    e16
+    
+    e16
+    ]
+    
+    e16
+    [
+    
+    e16
+    
+    e16
+    
+    e16
+    ]
     
 }
 
@@ -4642,6 +6394,7 @@ O_a_ContrabassVoiceVI_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c16
+    [
     ^ \markup {
         \column
             {
@@ -4673,19 +6426,42 @@ O_a_ContrabassVoiceVI_a = {
             Cb.                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    r8.
+    c16
     
     c16
     
-    r8.
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
     
     c16
     
-    r8.
+    c16
+    
+    c16
+    ]
+    
+    c16
+    [
+    
+    c16
+    
+    c16
+    
+    c16
+    ]
     
 }
 

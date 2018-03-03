@@ -17,7 +17,7 @@ def clb_rhythm(section, member, left_broken=False, right_broken=False):
         assert ValueError(section)
 
     #counts = [1, -19]
-    counts = [1, -3]
+    counts = [1]
 
     talea = rhythmos.Talea(
         counts=counts,

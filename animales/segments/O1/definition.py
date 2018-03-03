@@ -19,6 +19,7 @@ maker = baca.SegmentMaker(
     measures_per_stage=True,
     metronome_mark_stem_height=1,
     metronome_marks=animales.metronome_marks,
+    print_timings=True,
     score_template=animales.ScoreTemplate(
         first_violins=[
             (1, [1, 3]),
@@ -128,27 +129,3 @@ for section, members in section_to_members.items():
             baca.staff_lines(2),
             polyphony,
             )
-
-r'''
-with [1, -19], 1/16:
-
-    1 measure 4/4 tutti: 99 seconds
-
-    2 measures 4/4 tutti: 225 seconds
-
-    3 measures 4/4 tutti: 320 seconds
-
-    4 measures 4/4 tutti: 423 seconds
-
-    8 measures 4/4 tutti: 790 seconds
-
-with [1, -3], 1/16:
-
-    1 measure 4/4 tutti: 287 seconds
-
-with [1], 1/16:
-
-    1 measure 4/4 tutti: 557 seconds
-
-    2 measures 4/4 tutti: 1095 seconds
-'''
