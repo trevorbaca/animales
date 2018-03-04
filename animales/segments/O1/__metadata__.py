@@ -1004,7 +1004,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloVoiceI',
                                 prototype='abjad.Clef',
-                                value='bass',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='CelloVoiceI',
@@ -1017,7 +1017,7 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (1-2)',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceII',
+                                context='CelloVoiceI',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1029,7 +1029,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloVoiceIII',
                                 prototype='abjad.Clef',
-                                value='bass',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='CelloVoiceIV',
@@ -1042,7 +1042,7 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (3-4)',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceIV',
+                                context='CelloVoiceIII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1054,7 +1054,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloVoiceV',
                                 prototype='abjad.Clef',
-                                value='bass',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='CelloVoiceVI',
@@ -1067,7 +1067,7 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (5-6)',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceVI',
+                                context='CelloVoiceV',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1079,7 +1079,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloVoiceVII',
                                 prototype='abjad.Clef',
-                                value='bass',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='CelloVoiceVIII',
@@ -1092,7 +1092,7 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (7-8)',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceVIII',
+                                context='CelloVoiceVII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1104,7 +1104,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloVoiceIX',
                                 prototype='abjad.Clef',
-                                value='bass',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='CelloVoiceX',
@@ -1117,7 +1117,7 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (9-10)',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceX',
+                                context='CelloVoiceIX',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1129,7 +1129,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloVoiceXI',
                                 prototype='abjad.Clef',
-                                value='bass',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='CelloVoiceXII',
@@ -1142,7 +1142,7 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (11-12)',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceXII',
+                                context='CelloVoiceXI',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1154,7 +1154,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloVoiceXIII',
                                 prototype='abjad.Clef',
-                                value='bass',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='CelloVoiceXIV',
@@ -1167,7 +1167,7 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (13-14)',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceXIV',
+                                context='CelloVoiceXIII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1229,7 +1229,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ContrabassVoiceI',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='ContrabassVoiceI',
@@ -1242,7 +1242,7 @@ metadata = abjad.OrderedDict(
                                 value='Cb. (1-2)',
                                 ),
                             abjad.Momento(
-                                context='ContrabassVoiceII',
+                                context='ContrabassVoiceI',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1254,7 +1254,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ContrabassVoiceIII',
                                 prototype='abjad.Clef',
-                                value='bass',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='ContrabassVoiceIII',
@@ -1267,7 +1267,7 @@ metadata = abjad.OrderedDict(
                                 value='Cb. (3-4)',
                                 ),
                             abjad.Momento(
-                                context='ContrabassVoiceIV',
+                                context='ContrabassVoiceIII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1279,7 +1279,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ContrabassVoiceV',
                                 prototype='abjad.Clef',
-                                value='bass',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='ContrabassVoiceVI',
@@ -1292,7 +1292,7 @@ metadata = abjad.OrderedDict(
                                 value='Cb. (5-6)',
                                 ),
                             abjad.Momento(
-                                context='ContrabassVoiceVI',
+                                context='ContrabassVoiceV',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1354,7 +1354,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinVoiceI',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='FirstViolinVoiceI',
@@ -1367,7 +1367,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (1-2)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceII',
+                                context='FirstViolinVoiceI',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1379,7 +1379,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinVoiceIII',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='FirstViolinVoiceIII',
@@ -1392,7 +1392,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (3-4)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceIV',
+                                context='FirstViolinVoiceIII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1404,7 +1404,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinVoiceV',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='FirstViolinVoiceV',
@@ -1417,7 +1417,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (5-6)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceVI',
+                                context='FirstViolinVoiceV',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1429,7 +1429,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinVoiceVII',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='FirstViolinVoiceVIII',
@@ -1442,7 +1442,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (7-8)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceVIII',
+                                context='FirstViolinVoiceVII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1454,7 +1454,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinVoiceXVII',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='FirstViolinVoiceXVIII',
@@ -1467,7 +1467,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (17-18)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceXVIII',
+                                context='FirstViolinVoiceXVII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1479,7 +1479,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinVoiceIX',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='FirstViolinVoiceX',
@@ -1492,7 +1492,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (9-10)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceX',
+                                context='FirstViolinVoiceIX',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1504,7 +1504,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinVoiceXI',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='FirstViolinVoiceXII',
@@ -1517,7 +1517,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (11-12)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceXII',
+                                context='FirstViolinVoiceXI',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1529,7 +1529,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinVoiceXIII',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='FirstViolinVoiceXIV',
@@ -1542,7 +1542,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (13-14)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceXIV',
+                                context='FirstViolinVoiceXIII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -1554,7 +1554,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinVoiceXV',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='FirstViolinVoiceXVI',
@@ -1567,7 +1567,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (15-16)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceXVI',
+                                context='FirstViolinVoiceXV',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2030,7 +2030,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinVoiceI',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='SecondViolinVoiceI',
@@ -2043,7 +2043,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (1-2)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceII',
+                                context='SecondViolinVoiceI',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2055,7 +2055,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinVoiceIII',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='SecondViolinVoiceIII',
@@ -2068,7 +2068,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (3-4)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceIV',
+                                context='SecondViolinVoiceIII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2080,7 +2080,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinVoiceV',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='SecondViolinVoiceVI',
@@ -2093,7 +2093,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (5-6)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceVI',
+                                context='SecondViolinVoiceV',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2105,7 +2105,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinVoiceVII',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='SecondViolinVoiceVIII',
@@ -2118,7 +2118,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (7-8)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceVIII',
+                                context='SecondViolinVoiceVII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2130,7 +2130,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinVoiceXVII',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='SecondViolinVoiceXVIII',
@@ -2143,7 +2143,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (17-18)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceXVIII',
+                                context='SecondViolinVoiceXVII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2155,7 +2155,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinVoiceIX',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='SecondViolinVoiceX',
@@ -2168,7 +2168,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (9-10)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceX',
+                                context='SecondViolinVoiceIX',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2180,7 +2180,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinVoiceXI',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='SecondViolinVoiceXII',
@@ -2193,7 +2193,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (11-12)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceXII',
+                                context='SecondViolinVoiceXI',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2205,7 +2205,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinVoiceXIII',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='SecondViolinVoiceXIV',
@@ -2218,7 +2218,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (13-14)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceXIV',
+                                context='SecondViolinVoiceXIII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2230,7 +2230,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinVoiceXV',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='SecondViolinVoiceXVI',
@@ -2243,7 +2243,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (15-16)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceXVI',
+                                context='SecondViolinVoiceXV',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2489,7 +2489,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaVoiceI',
                                 prototype='abjad.Clef',
-                                value='alto',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='ViolaVoiceI',
@@ -2502,7 +2502,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (1-2)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceII',
+                                context='ViolaVoiceI',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2514,7 +2514,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaVoiceIII',
                                 prototype='abjad.Clef',
-                                value='alto',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='ViolaVoiceIII',
@@ -2527,7 +2527,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (3-4)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceIV',
+                                context='ViolaVoiceIII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2539,7 +2539,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaVoiceV',
                                 prototype='abjad.Clef',
-                                value='alto',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='ViolaVoiceVI',
@@ -2552,7 +2552,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (5-6)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceVI',
+                                context='ViolaVoiceV',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2564,7 +2564,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaVoiceVII',
                                 prototype='abjad.Clef',
-                                value='alto',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='ViolaVoiceVIII',
@@ -2577,7 +2577,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (7-8)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceVIII',
+                                context='ViolaVoiceVII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2589,7 +2589,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaVoiceXVII',
                                 prototype='abjad.Clef',
-                                value='alto',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='ViolaVoiceXVIII',
@@ -2602,7 +2602,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (17-18)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceXVIII',
+                                context='ViolaVoiceXVII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2614,7 +2614,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaVoiceIX',
                                 prototype='abjad.Clef',
-                                value='alto',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='ViolaVoiceX',
@@ -2627,7 +2627,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (9-10)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceX',
+                                context='ViolaVoiceIX',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2639,7 +2639,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaVoiceXI',
                                 prototype='abjad.Clef',
-                                value='alto',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='ViolaVoiceXII',
@@ -2652,7 +2652,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (11-12)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceXII',
+                                context='ViolaVoiceXI',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2664,7 +2664,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaVoiceXIII',
                                 prototype='abjad.Clef',
-                                value='alto',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='ViolaVoiceXIV',
@@ -2677,7 +2677,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (13-14)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceXIV',
+                                context='ViolaVoiceXIII',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
@@ -2689,7 +2689,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaVoiceXV',
                                 prototype='abjad.Clef',
-                                value='alto',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='ViolaVoiceXVI',
@@ -2702,7 +2702,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (15-16)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceXVI',
+                                context='ViolaVoiceXV',
                                 prototype='baca.StaffLines',
                                 value=2,
                                 ),
