@@ -41,14 +41,11 @@ breaks = baca.breaks(
     baca.page( # 11
         [107, 15, (after_time_signatures, 20)],
         ),
-    baca.page( # 11
-        [107, 15, (after_time_signatures, 20)],
-        ),
-    baca.page( # 11
+    baca.page( # 12
         [115, 15, (after_time_signatures, 20)],
         ),
-    baca.page( # 11
-        [127, 15, (after_time_signatures, 20)],
+    baca.page( # 13
+        [127, 5, (after_time_signatures, 16)],
         ),
     )
 
