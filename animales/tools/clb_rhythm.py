@@ -3,7 +3,7 @@ import baca
 from abjad import rhythmmakertools as rhythmos
 
 
-def clb_rhythm(section, member, density):
+def clb_rhythm(section, member, series, wrap):
     r'''Makes clb rhythm.
     '''
 
@@ -27,19 +27,24 @@ def clb_rhythm(section, member, density):
     total_players = 74
     index = section_to_offset[section] + member - 1
 
-    density_to_counts = {
-        1: [[1, -7, -7], [1, -8, -8], [1, -9]],
+    series_to_counts = {
+        1: [[1, -217, -117]],
+        2: [[1, -117, -117]],
+        3: [[1, -117, -117], [1, -118, -118], [1, -119]],
+        4: [[1, -17, -17], [1, -18, -18], [1, -19]],
+        5: [[1, -7, -7], [1, -8, -8], [1, -9]],
         }
 
-    counts = density_to_counts[density]
+    counts = []
+    counts = series_to_counts[series]
     counts = baca.sequence(counts)
     counts = counts.helianthate(-1, -1)
     counts = counts.flatten()
-    weight = counts.weight()
-    preamble = abjad.Fraction(weight, total_players) * index
-    rotation = int(preamble)
-    left, right = counts.split([rotation], overhang=True)
-    counts = right + left
+    counts = counts.repeat_to_weight(total_players * wrap)
+    shards = counts.split([wrap], cyclic=True, overhang=abjad.Exact)
+    assert len(shards) == total_players
+    assert shards.weight() == counts.weight()
+    counts = shards[index]
 
     talea = rhythmos.Talea(
         counts=counts,
