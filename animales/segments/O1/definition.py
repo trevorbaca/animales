@@ -113,25 +113,29 @@ def lower_voice():
 
 for section, members in section_to_members.items():
     for member in range(1, members + 1):
+        commands = []
         numeral = roman.toRoman(member)
         numeral = str(numeral).upper()
         voice = f'{section}Voice{numeral}'
+        commands.append(animales.clb_rhythm(section, member, density=1))
+        commands.append(animales.parts(section, member))
         if member % 2 == 0:
             polyphony = lower_voice()
         else:
             polyphony = upper_voice()
-        commands = [
-            animales.clb_rhythm(section, member, density=1),
-            animales.parts(section, member),
-            baca.staff_lines(2),
-            polyphony,
-            ]
         if member % 2 == 1:
-            #commands.append(baca.clef('percussion')),
+            commands.append(baca.staff_lines(2)),
+            suite = baca.suite([
+                baca.clef('percussion'),
+                polyphony,
+                ])
+            commands.append(suite)
             abbreviation = section_to_abbreviation[section]
             key = f'{abbreviation} ({member}-{member+1})'
             margin_markup = animales.margin_markup(key)
             commands.append(margin_markup)
+        else:
+            commands.append(polyphony)
         maker(
             baca.scope(voice, (1, -1)),
             *commands,
