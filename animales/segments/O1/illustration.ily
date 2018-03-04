@@ -3,17 +3,71 @@ O_a_GlobalRests = {
     % [O1 GlobalRests measure 131]                                       %! SM4
     R1 * 1
     
+    % [O1 GlobalRests measure 132]                                       %! SM4
+    R1 * 1
+    
 }
 
 
 O_a_GlobalSkips = {
     
     % [O1 GlobalSkips measure 131]                                       %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@% \markup {                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%     \fontsize                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         #-6                                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         \general-align                                               %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             #Y                                                       %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             #DOWN                                                    %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             \note-by-number                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%                 #2                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%                 #0                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%                 #1                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%     \upright                                                         %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         {                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             =                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             76                                                       %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         }                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%     \hspace                                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         #1                                                           %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%     }                                                                %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+    \markup {                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+        \with-color                                                      %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+            #(x11-color 'green4)                                         %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+            {                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                \fontsize                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    #-6                                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    \general-align                                       %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        #Y                                               %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        #DOWN                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        \note-by-number                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                            #2                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                            #0                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                            #1                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                \upright                                                 %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    {                                                    %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        =                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        76                                               %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    }                                                    %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                \hspace                                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    #1                                                   %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+            }                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+        }                                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \mark #15                                                            %! IC
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -48,6 +102,48 @@ O_a_GlobalSkips = {
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
             %@%                 [4'18'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [O1 GlobalSkips measure 132]                                       %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (132)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <1>                                      %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [O1.2]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [4'21'']                                 %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -95,7 +191,6 @@ O_a_FirstViolinVoiceI_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c''16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
     ^ \markup {
         \column
             {
@@ -138,42 +233,16 @@ O_a_FirstViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    c''16
+    r8.
+    
+    r2
+    
+    r8.
     
     c''16
     
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    % [O1 FirstViolinVoiceI measure 132]                 %! SM4
+    r1
     
 }
 
@@ -192,46 +261,25 @@ O_a_FirstViolinVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
+    r2
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
+    
+    r16
     
     a'16
     
-    a'16
+    r4.
     
-    a'16
-    ]
+    % [O1 FirstViolinVoiceIII measure 132]               %! SM4
+    r2
     
-    a'16
-    [
-    
-    a'16
+    r8
     
     a'16
     
-    a'16
-    ]
+    r16
     
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r4
     
 }
 
@@ -285,9 +333,8 @@ O_a_FirstViolinVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
+    r2.
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
     ^ \markup {
         \column
             {
@@ -332,40 +379,16 @@ O_a_FirstViolinVoiceII_a = {
     
     c''16
     
-    c''16
+    r8.
     
-    c''16
-    ]
+    % [O1 FirstViolinVoiceII measure 132]                %! SM4
+    r2.
     
-    c''16
-    [
-    
-    c''16
+    r16
     
     c''16
     
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r8
     
 }
 
@@ -384,46 +407,25 @@ O_a_FirstViolinVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
+    r4
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
+    
+    r16
     
     a'16
     
-    a'16
+    r8
     
-    a'16
-    ]
+    r2
     
-    a'16
-    [
-    
-    a'16
+    % [O1 FirstViolinVoiceIV measure 132]                %! SM4
+    r4.
     
     a'16
     
-    a'16
-    ]
+    r16
     
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r2
     
 }
 
@@ -475,9 +477,8 @@ O_a_FirstViolinVoiceV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
+    r8
     \f                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
     ^ \markup {
         \column
             {
@@ -520,40 +521,16 @@ O_a_FirstViolinVoiceV_a = {
     
     c''16
     
-    c''16
+    r16
     
-    c''16
-    ]
+    r2.
     
-    c''16
-    [
-    
-    c''16
+    % [O1 FirstViolinVoiceV measure 132]                 %! SM4
+    r8.
     
     c''16
     
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r2.
     
 }
 
@@ -571,45 +548,12 @@ O_a_FirstViolinVoiceVI_a = {
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r2...
     
     a'16
     
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    % [O1 FirstViolinVoiceVI measure 132]                %! SM4
+    r1
     
 }
 
@@ -639,46 +583,15 @@ O_a_FirstViolinVoiceVII_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
-    [
+    r2.
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     c''16
     
-    c''16
+    r8.
     
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    % [O1 FirstViolinVoiceVII measure 132]               %! SM4
+    r1
     
 }
 
@@ -709,8 +622,7 @@ O_a_FirstViolinVoiceVIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r2
     ^ \markup {
         \column
             {
@@ -742,42 +654,14 @@ O_a_FirstViolinVoiceVIII_a = {
             "Vni. I"                                     %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    a'16
+    r16
     
     a'16
     
-    a'16
-    ]
+    r4.
     
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    % [O1 FirstViolinVoiceVIII measure 132]              %! SM4
+    r1
     
 }
 
@@ -807,46 +691,21 @@ O_a_FirstViolinVoiceIX_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
-    [
+    r4
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    c''16
+    r16
     
     c''16
     
-    c''16
-    ]
+    r8
+    
+    r2
+    
+    % [O1 FirstViolinVoiceIX measure 132]                %! SM4
+    r2...
     
     c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
     
 }
 
@@ -877,8 +736,7 @@ O_a_FirstViolinVoiceX_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r8
     ^ \markup {
         \column
             {
@@ -912,40 +770,16 @@ O_a_FirstViolinVoiceX_a = {
     
     a'16
     
-    a'16
+    r16
     
-    a'16
-    ]
+    r2.
     
-    a'16
-    [
-    
-    a'16
+    % [O1 FirstViolinVoiceX measure 132]                 %! SM4
+    r2.
     
     a'16
     
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r8.
     
 }
 
@@ -975,46 +809,15 @@ O_a_FirstViolinVoiceXI_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
-    [
+    r1
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    c''16
+    % [O1 FirstViolinVoiceXI measure 132]                %! SM4
+    r2
     
     c''16
     
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r4..
     
 }
 
@@ -1045,8 +848,7 @@ O_a_FirstViolinVoiceXII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r1
     ^ \markup {
         \column
             {
@@ -1078,42 +880,18 @@ O_a_FirstViolinVoiceXII_a = {
             "Vni. I"                                     %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    a'16
+    % [O1 FirstViolinVoiceXII measure 132]               %! SM4
+    r4
+    
+    r16
     
     a'16
     
-    a'16
-    ]
+    r8
+    
+    r4..
     
     a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
     
 }
 
@@ -1143,46 +921,21 @@ O_a_FirstViolinVoiceXIII_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
-    [
+    r1
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    c''16
+    % [O1 FirstViolinVoiceXIII measure 132]              %! SM4
+    r8
     
     c''16
     
-    c''16
-    ]
+    r16
     
-    c''16
-    [
-    
-    c''16
+    r2
     
     c''16
     
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r8.
     
 }
 
@@ -1213,8 +966,7 @@ O_a_FirstViolinVoiceXIV_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r2..
     ^ \markup {
         \column
             {
@@ -1248,40 +1000,14 @@ O_a_FirstViolinVoiceXIV_a = {
     
     a'16
     
-    a'16
+    r16
     
-    a'16
-    ]
-    
-    a'16
-    [
+    % [O1 FirstViolinVoiceXIV measure 132]               %! SM4
+    r2
     
     a'16
     
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r4..
     
 }
 
@@ -1311,46 +1037,25 @@ O_a_FirstViolinVoiceXV_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
-    [
+    r2
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    c''16
+    r8.
     
     c''16
     
-    c''16
-    ]
+    r4
     
-    c''16
-    [
+    % [O1 FirstViolinVoiceXV measure 132]                %! SM4
+    r4
     
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
+    r16
     
     c''16
     
-    c''16
+    r8
     
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r2
     
 }
 
@@ -1381,8 +1086,7 @@ O_a_FirstViolinVoiceXVI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r4..
     ^ \markup {
         \column
             {
@@ -1416,40 +1120,14 @@ O_a_FirstViolinVoiceXVI_a = {
     
     a'16
     
-    a'16
+    r2
     
-    a'16
-    ]
-    
-    a'16
-    [
+    % [O1 FirstViolinVoiceXVI measure 132]               %! SM4
+    r16
     
     a'16
     
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r2..
     
 }
 
@@ -1479,46 +1157,31 @@ O_a_FirstViolinVoiceXVII_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
-    [
+    r4
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     c''16
     
-    c''16
+    r8.
     
-    c''16
-    ]
-    
-    c''16
-    [
+    r4.
     
     c''16
     
-    c''16
+    r16
     
-    c''16
-    ]
+    % [O1 FirstViolinVoiceXVII measure 132]              %! SM4
+    r2.
     
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r16
     
     c''16
     [
     
     c''16
-    
-    c''16
-    
-    c''16
     ]
+    
+    r16
     
 }
 
@@ -1549,8 +1212,7 @@ O_a_FirstViolinVoiceXVIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r16
     ^ \markup {
         \column
             {
@@ -1584,40 +1246,26 @@ O_a_FirstViolinVoiceXVIII_a = {
     
     a'16
     
-    a'16
+    r8
     
-    a'16
-    ]
-    
-    a'16
-    [
+    r4..
     
     a'16
     
-    a'16
+    r4
     
-    a'16
-    ]
+    % [O1 FirstViolinVoiceXVIII measure 132]             %! SM4
+    r2
     
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r8
     
     a'16
     [
     
     a'16
-    
-    a'16
-    
-    a'16
     ]
+    
+    r4
     
 }
 
@@ -1671,9 +1319,8 @@ O_a_SecondViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
+    r4..
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
     ^ \markup {
         \column
             {
@@ -1718,40 +1365,18 @@ O_a_SecondViolinVoiceI_a = {
     
     c''16
     
-    c''16
+    r2
     
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    % [O1 SecondViolinVoiceI measure 132]                %! SM4
+    r4.
     
     c''16
     [
     
     c''16
-    
-    c''16
-    
-    c''16
     ]
     
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r2
     
 }
 
@@ -1772,44 +1397,19 @@ O_a_SecondViolinVoiceIII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     a'16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
+    
+    r8.
+    
+    r2
+    
+    r8.
     
     a'16
     
+    % [O1 SecondViolinVoiceIII measure 132]              %! SM4
     a'16
     
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r2...
     
 }
 
@@ -1863,9 +1463,8 @@ O_a_SecondViolinVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
+    r4
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
     ^ \markup {
         \column
             {
@@ -1910,40 +1509,20 @@ O_a_SecondViolinVoiceII_a = {
     
     c''16
     
-    c''16
+    r8.
     
-    c''16
-    ]
+    r2
     
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
+    % [O1 SecondViolinVoiceII measure 132]               %! SM4
+    r8.
     
     c''16
     
     c''16
     
-    c''16
-    ]
+    r8.
     
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r2
     
 }
 
@@ -1962,46 +1541,23 @@ O_a_SecondViolinVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
+    r2.
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
     
     a'16
     [
     
     a'16
-    
-    a'16
-    
-    a'16
     ]
     
-    a'16
-    [
+    r8
+    
+    % [O1 SecondViolinVoiceIV measure 132]               %! SM4
+    r2..
     
     a'16
     
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r16
     
 }
 
@@ -2031,46 +1587,29 @@ O_a_SecondViolinVoiceV_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
-    [
+    r2
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r16
     
     c''16
     [
     
     c''16
-    
-    c''16
-    
-    c''16
     ]
     
-    c''16
-    [
+    r16
+    
+    r4
+    
+    % [O1 SecondViolinVoiceV measure 132]                %! SM4
+    r2
+    
+    r8.
     
     c''16
     
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r4
     
 }
 
@@ -2101,8 +1640,7 @@ O_a_SecondViolinVoiceVI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r4
     ^ \markup {
         \column
             {
@@ -2134,42 +1672,24 @@ O_a_SecondViolinVoiceVI_a = {
             "Vni. II"                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r16
     
     a'16
     [
     
     a'16
-    
-    a'16
-    
-    a'16
     ]
     
-    a'16
-    [
+    r16
+    
+    r2
+    
+    % [O1 SecondViolinVoiceVI measure 132]               %! SM4
+    r4..
     
     a'16
     
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r2
     
 }
 
@@ -2199,46 +1719,25 @@ O_a_SecondViolinVoiceVII_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
-    [
+    r8
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
     [
     
     c''16
-    
-    c''16
-    
-    c''16
     ]
     
-    c''16
-    [
+    r2.
+    
+    % [O1 SecondViolinVoiceVII measure 132]              %! SM4
+    r4
     
     c''16
     
-    c''16
+    r8.
     
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r2
     
 }
 
@@ -2269,8 +1768,7 @@ O_a_SecondViolinVoiceVIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r1
     ^ \markup {
         \column
             {
@@ -2302,42 +1800,10 @@ O_a_SecondViolinVoiceVIII_a = {
             "Vni. II"                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
+    % [O1 SecondViolinVoiceVIII measure 132]             %! SM4
     a'16
     
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r2...
     
 }
 
@@ -2367,46 +1833,23 @@ O_a_SecondViolinVoiceIX_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
-    [
+    r2.
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    c''16
+    r16
     
     c''16
     
-    c''16
-    ]
+    r8
     
-    c''16
-    [
+    % [O1 SecondViolinVoiceIX measure 132]               %! SM4
+    r2.
     
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
+    r16
     
     c''16
     
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r8
     
 }
 
@@ -2437,8 +1880,7 @@ O_a_SecondViolinVoiceX_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r2
     ^ \markup {
         \column
             {
@@ -2470,42 +1912,24 @@ O_a_SecondViolinVoiceX_a = {
             "Vni. II"                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    a'16
+    r8
     
     a'16
     
-    a'16
-    ]
+    r16
     
-    a'16
-    [
+    r4
     
-    a'16
+    % [O1 SecondViolinVoiceX measure 132]                %! SM4
+    r2
     
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
+    r8
     
     a'16
     
-    a'16
+    r16
     
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r4
     
 }
 
@@ -2535,46 +1959,25 @@ O_a_SecondViolinVoiceXI_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
-    [
+    r4.
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     c''16
     
-    c''16
+    r16
     
-    c''16
-    ]
+    r2
     
-    c''16
-    [
-    
-    c''16
+    % [O1 SecondViolinVoiceXI measure 132]               %! SM4
+    r4.
     
     c''16
     
-    c''16
-    ]
+    r16
+    
+    r4..
     
     c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
     
 }
 
@@ -2605,8 +2008,7 @@ O_a_SecondViolinVoiceXII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r8.
     ^ \markup {
         \column
             {
@@ -2640,40 +2042,18 @@ O_a_SecondViolinVoiceXII_a = {
     
     a'16
     
-    a'16
+    r2.
     
-    a'16
-    ]
-    
-    a'16
-    [
+    % [O1 SecondViolinVoiceXII measure 132]              %! SM4
+    r8.
     
     a'16
     
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
+    r2
     
     a'16
     
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r8.
     
 }
 
@@ -2703,46 +2083,17 @@ O_a_SecondViolinVoiceXIII_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
-    [
+    r2...
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     c''16
     
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
+    % [O1 SecondViolinVoiceXIII measure 132]             %! SM4
+    r2
     
     c''16
     
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r4..
     
 }
 
@@ -2773,8 +2124,7 @@ O_a_SecondViolinVoiceXIV_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r2.
     ^ \markup {
         \column
             {
@@ -2808,40 +2158,18 @@ O_a_SecondViolinVoiceXIV_a = {
     
     a'16
     
-    a'16
+    r8.
     
-    a'16
-    ]
+    % [O1 SecondViolinVoiceXIV measure 132]              %! SM4
+    r4
     
-    a'16
-    [
-    
-    a'16
+    r16
     
     a'16
     
-    a'16
-    ]
+    r8
     
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r2
     
 }
 
@@ -2871,46 +2199,23 @@ O_a_SecondViolinVoiceXV_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
-    [
+    r2
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    c''16
+    r16
     
     c''16
     
-    c''16
-    ]
+    r4.
     
-    c''16
-    [
-    
-    c''16
+    % [O1 SecondViolinVoiceXV measure 132]               %! SM4
+    r8
     
     c''16
     
-    c''16
-    ]
+    r16
     
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r2.
     
 }
 
@@ -2941,8 +2246,7 @@ O_a_SecondViolinVoiceXVI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r4
     ^ \markup {
         \column
             {
@@ -2974,42 +2278,26 @@ O_a_SecondViolinVoiceXVI_a = {
             "Vni. II"                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    a'16
+    r16
     
     a'16
     
-    a'16
-    ]
+    r8
     
-    a'16
-    [
-    
-    a'16
+    r4.
     
     a'16
     
-    a'16
-    ]
+    r16
     
-    a'16
-    [
+    % [O1 SecondViolinVoiceXVI measure 132]              %! SM4
+    r2.
     
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
+    r16
     
     a'16
     
-    a'16
-    
-    a'16
-    ]
+    r8
     
 }
 
@@ -3039,46 +2327,29 @@ O_a_SecondViolinVoiceXVII_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
-    [
+    r8
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     c''16
     
-    c''16
+    r16
     
-    c''16
-    ]
-    
-    c''16
-    [
+    r4..
     
     c''16
     
-    c''16
+    r4
     
-    c''16
-    ]
+    % [O1 SecondViolinVoiceXVII measure 132]             %! SM4
+    r2
     
-    c''16
-    [
-    
-    c''16
+    r8
     
     c''16
     
-    c''16
-    ]
+    r16
     
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r4
     
 }
 
@@ -3109,8 +2380,7 @@ O_a_SecondViolinVoiceXVIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r4..
     ^ \markup {
         \column
             {
@@ -3144,40 +2414,16 @@ O_a_SecondViolinVoiceXVIII_a = {
     
     a'16
     
-    a'16
+    r2
     
-    a'16
-    ]
-    
-    a'16
-    [
+    % [O1 SecondViolinVoiceXVIII measure 132]            %! SM4
+    r4.
     
     a'16
     
-    a'16
+    r16
     
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r2
     
 }
 
@@ -3231,9 +2477,8 @@ O_a_ViolaVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    d'16
+    r4
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
     ^ \markup {
         \column
             {
@@ -3278,40 +2523,16 @@ O_a_ViolaVoiceI_a = {
     
     d'16
     
-    d'16
+    r8.
     
-    d'16
-    ]
+    r2
     
-    d'16
-    [
-    
-    d'16
+    % [O1 ViolaVoiceI measure 132]                       %! SM4
+    r8.
     
     d'16
     
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
+    r2.
     
 }
 
@@ -3330,46 +2551,15 @@ O_a_ViolaVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    b16
+    r2.
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
     
     b16
     
-    b16
+    r8.
     
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
+    % [O1 ViolaVoiceIII measure 132]                     %! SM4
+    r1
     
 }
 
@@ -3425,7 +2615,6 @@ O_a_ViolaVoiceII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     d'16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
     ^ \markup {
         \column
             {
@@ -3468,42 +2657,16 @@ O_a_ViolaVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    d'16
+    r8.
+    
+    r2
+    
+    r8.
     
     d'16
     
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
+    % [O1 ViolaVoiceII measure 132]                      %! SM4
+    r1
     
 }
 
@@ -3522,46 +2685,17 @@ O_a_ViolaVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    b16
+    r2
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
+    
+    r16
     
     b16
     
-    b16
+    r4.
     
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
+    % [O1 ViolaVoiceIV measure 132]                      %! SM4
+    r1
     
 }
 
@@ -3591,46 +2725,21 @@ O_a_ViolaVoiceV_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    d'16
-    [
+    r4
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    d'16
+    r16
     
     d'16
     
-    d'16
-    ]
+    r8
+    
+    r2
+    
+    % [O1 ViolaVoiceV measure 132]                       %! SM4
+    r2...
     
     d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
     
 }
 
@@ -3661,8 +2770,7 @@ O_a_ViolaVoiceVI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    b16
-    [
+    r8
     ^ \markup {
         \column
             {
@@ -3696,40 +2804,16 @@ O_a_ViolaVoiceVI_a = {
     
     b16
     
-    b16
+    r16
     
-    b16
-    ]
+    r2.
     
-    b16
-    [
-    
-    b16
+    % [O1 ViolaVoiceVI measure 132]                      %! SM4
+    r2.
     
     b16
     
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
+    r8.
     
 }
 
@@ -3759,46 +2843,15 @@ O_a_ViolaVoiceVII_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    d'16
-    [
+    r1
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    d'16
+    % [O1 ViolaVoiceVII measure 132]                     %! SM4
+    r2
     
     d'16
     
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
+    r4..
     
 }
 
@@ -3829,8 +2882,7 @@ O_a_ViolaVoiceVIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    b16
-    [
+    r1
     ^ \markup {
         \column
             {
@@ -3862,42 +2914,16 @@ O_a_ViolaVoiceVIII_a = {
             Vle.                                         %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    b16
+    % [O1 ViolaVoiceVIII measure 132]                    %! SM4
+    r4
+    
+    r16
     
     b16
     
-    b16
-    ]
+    r8
     
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
+    r2
     
 }
 
@@ -3927,46 +2953,17 @@ O_a_ViolaVoiceIX_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    d'16
-    [
+    r1
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    d'16
+    % [O1 ViolaVoiceIX measure 132]                      %! SM4
+    r8
     
     d'16
     
-    d'16
-    ]
+    r16
     
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
+    r2.
     
 }
 
@@ -3997,8 +2994,7 @@ O_a_ViolaVoiceX_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    b16
-    [
+    r2..
     ^ \markup {
         \column
             {
@@ -4032,40 +3028,12 @@ O_a_ViolaVoiceX_a = {
     
     b16
     
-    b16
+    r16
+    
+    % [O1 ViolaVoiceX measure 132]                       %! SM4
+    r2...
     
     b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
     
 }
 
@@ -4095,46 +3063,25 @@ O_a_ViolaVoiceXI_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    d'16
-    [
+    r2
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    d'16
+    r8.
     
     d'16
     
-    d'16
-    ]
+    r4
     
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
+    % [O1 ViolaVoiceXI measure 132]                      %! SM4
+    r2.
     
     d'16
     [
     
     d'16
-    
-    d'16
-    
-    d'16
     ]
     
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
+    r8
     
 }
 
@@ -4165,8 +3112,7 @@ O_a_ViolaVoiceXII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    b16
-    [
+    r4..
     ^ \markup {
         \column
             {
@@ -4200,40 +3146,18 @@ O_a_ViolaVoiceXII_a = {
     
     b16
     
-    b16
+    r2
     
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
+    % [O1 ViolaVoiceXII measure 132]                     %! SM4
+    r2
     
     b16
     [
     
     b16
-    
-    b16
-    
-    b16
     ]
     
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
+    r4.
     
 }
 
@@ -4263,46 +3187,29 @@ O_a_ViolaVoiceXIII_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    d'16
-    [
+    r4
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     d'16
     
-    d'16
+    r8.
     
-    d'16
-    ]
+    r2
     
-    d'16
-    [
+    % [O1 ViolaVoiceXIII measure 132]                    %! SM4
+    r4
     
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
+    r16
     
     d'16
     [
     
     d'16
-    
-    d'16
-    
-    d'16
     ]
     
-    d'16
-    [
+    r16
     
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
+    r2
     
 }
 
@@ -4333,8 +3240,7 @@ O_a_ViolaVoiceXIV_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    b16
-    [
+    r16
     ^ \markup {
         \column
             {
@@ -4368,40 +3274,18 @@ O_a_ViolaVoiceXIV_a = {
     
     b16
     
-    b16
+    r2..
     
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
+    % [O1 ViolaVoiceXIV measure 132]                     %! SM4
+    r8
     
     b16
     [
     
     b16
-    
-    b16
-    
-    b16
     ]
     
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
+    r2.
     
 }
 
@@ -4431,46 +3315,17 @@ O_a_ViolaVoiceXV_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    d'16
-    [
+    r2..
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     d'16
-    
-    d'16
-    
-    d'16
-    ]
-    
-    d'16
     [
     
     d'16
-    
-    d'16
-    
-    d'16
     ]
     
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
+    % [O1 ViolaVoiceXV measure 132]                      %! SM4
+    r1
     
 }
 
@@ -4501,8 +3356,7 @@ O_a_ViolaVoiceXVI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    b16
-    [
+    r2
     ^ \markup {
         \column
             {
@@ -4534,42 +3388,16 @@ O_a_ViolaVoiceXVI_a = {
             Vle.                                         %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    b16
-    
-    b16
-    
-    b16
-    ]
-    
-    b16
-    [
+    r8.
     
     b16
     
     b16
     
-    b16
-    ]
+    r8.
     
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
+    % [O1 ViolaVoiceXVI measure 132]                     %! SM4
+    r1
     
 }
 
@@ -4599,46 +3427,17 @@ O_a_ViolaVoiceXVII_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    d'16
-    [
+    r4..
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     d'16
     
     d'16
     
-    d'16
-    ]
+    r4..
     
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
-    
-    d'16
-    [
-    
-    d'16
-    
-    d'16
-    
-    d'16
-    ]
+    % [O1 ViolaVoiceXVII measure 132]                    %! SM4
+    r1
     
 }
 
@@ -4669,8 +3468,7 @@ O_a_ViolaVoiceXVIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    b16
-    [
+    r4
     ^ \markup {
         \column
             {
@@ -4703,41 +3501,23 @@ O_a_ViolaVoiceXVIII_a = {
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
     b16
-    
-    b16
-    
-    b16
-    ]
-    
-    b16
     [
     
     b16
-    
-    b16
-    
-    b16
     ]
     
-    b16
-    [
+    r8
+    
+    r2
+    
+    % [O1 ViolaVoiceXVIII measure 132]                   %! SM4
+    r2.
+    
+    r16
     
     b16
     
-    b16
-    
-    b16
-    ]
-    
-    b16
-    [
-    
-    b16
-    
-    b16
-    
-    b16
-    ]
+    r8
     
 }
 
@@ -4791,9 +3571,8 @@ O_a_CelloVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    e16
+    r16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
     ^ \markup {
         \column
             {
@@ -4837,41 +3616,25 @@ O_a_CelloVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     e16
-    
-    e16
-    
-    e16
-    ]
-    
-    e16
     [
     
     e16
-    
-    e16
-    
-    e16
     ]
     
-    e16
-    [
+    r16
+    
+    r2.
+    
+    % [O1 CelloVoiceI measure 132]                       %! SM4
+    r2
+    
+    r8
     
     e16
     
-    e16
+    r16
     
-    e16
-    ]
-    
-    e16
-    [
-    
-    e16
-    
-    e16
-    
-    e16
-    ]
+    r4
     
 }
 
@@ -4890,46 +3653,17 @@ O_a_CelloVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c16
+    r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
+    
+    % [O1 CelloVoiceII measure 132]                      %! SM4
+    r4.
     
     c16
     
-    c16
+    r16
     
-    c16
-    ]
-    
-    c16
-    [
-    
-    c16
-    
-    c16
-    
-    c16
-    ]
-    
-    c16
-    [
-    
-    c16
-    
-    c16
-    
-    c16
-    ]
-    
-    c16
-    [
-    
-    c16
-    
-    c16
-    
-    c16
-    ]
+    r2
     
 }
 
@@ -4959,46 +3693,21 @@ O_a_CelloVoiceIII_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    e16
-    [
+    r1
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    e16
+    % [O1 CelloVoiceIII measure 132]                     %! SM4
+    r8.
     
     e16
     
-    e16
-    ]
+    r2
     
-    e16
-    [
-    
-    e16
+    r16
     
     e16
     
-    e16
-    ]
-    
-    e16
-    [
-    
-    e16
-    
-    e16
-    
-    e16
-    ]
-    
-    e16
-    [
-    
-    e16
-    
-    e16
-    
-    e16
-    ]
+    r8
     
 }
 
@@ -5029,8 +3738,7 @@ O_a_CelloVoiceIV_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c16
-    [
+    r2...
     ^ \markup {
         \column
             {
@@ -5064,40 +3772,14 @@ O_a_CelloVoiceIV_a = {
     
     c16
     
-    c16
+    % [O1 CelloVoiceIV measure 132]                      %! SM4
+    r2
     
-    c16
-    ]
-    
-    c16
-    [
+    r16
     
     c16
     
-    c16
-    
-    c16
-    ]
-    
-    c16
-    [
-    
-    c16
-    
-    c16
-    
-    c16
-    ]
-    
-    c16
-    [
-    
-    c16
-    
-    c16
-    
-    c16
-    ]
+    r4.
     
 }
 
@@ -5127,46 +3809,25 @@ O_a_CelloVoiceV_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    e16
-    [
+    r2.
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     e16
     
-    e16
+    r8.
     
-    e16
-    ]
-    
-    e16
-    [
+    % [O1 CelloVoiceV measure 132]                       %! SM4
+    r4.
     
     e16
     
-    e16
+    r16
     
-    e16
-    ]
-    
-    e16
-    [
+    r4.
     
     e16
     
-    e16
-    
-    e16
-    ]
-    
-    e16
-    [
-    
-    e16
-    
-    e16
-    
-    e16
-    ]
+    r16
     
 }
 
@@ -5197,8 +3858,7 @@ O_a_CelloVoiceVI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c16
-    [
+    r2
     ^ \markup {
         \column
             {
@@ -5230,42 +3890,22 @@ O_a_CelloVoiceVI_a = {
             Vc.                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    c16
+    r16
     
     c16
     
-    c16
-    ]
+    r4.
     
-    c16
-    [
-    
-    c16
+    % [O1 CelloVoiceVI measure 132]                      %! SM4
+    r8.
     
     c16
     
-    c16
-    ]
-    
-    c16
-    [
+    r4..
     
     c16
     
-    c16
-    
-    c16
-    ]
-    
-    c16
-    [
-    
-    c16
-    
-    c16
-    
-    c16
-    ]
+    r4
     
 }
 
@@ -5295,46 +3935,25 @@ O_a_CelloVoiceVII_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    e16
-    [
+    r4
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    e16
+    r16
     
     e16
     
-    e16
-    ]
+    r8
     
-    e16
-    [
-    
-    e16
+    r4..
     
     e16
     
-    e16
-    ]
-    
-    e16
-    [
+    % [O1 CelloVoiceVII measure 132]                     %! SM4
+    r4..
     
     e16
     
-    e16
-    
-    e16
-    ]
-    
-    e16
-    [
-    
-    e16
-    
-    e16
-    
-    e16
-    ]
+    r2
     
 }
 
@@ -5365,8 +3984,7 @@ O_a_CelloVoiceVIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c16
-    [
+    r8
     ^ \markup {
         \column
             {
@@ -5400,40 +4018,22 @@ O_a_CelloVoiceVIII_a = {
     
     c16
     
-    c16
+    r16
     
-    c16
-    ]
-    
-    c16
-    [
+    r2
     
     c16
     
-    c16
+    r8.
     
-    c16
-    ]
-    
-    c16
-    [
+    % [O1 CelloVoiceVIII measure 132]                    %! SM4
+    r4
     
     c16
     
-    c16
+    r8.
     
-    c16
-    ]
-    
-    c16
-    [
-    
-    c16
-    
-    c16
-    
-    c16
-    ]
+    r2
     
 }
 
@@ -5463,46 +4063,17 @@ O_a_CelloVoiceIX_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    e16
-    [
+    r2
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     e16
     
+    r4..
+    
+    % [O1 CelloVoiceIX measure 132]                      %! SM4
     e16
     
-    e16
-    ]
-    
-    e16
-    [
-    
-    e16
-    
-    e16
-    
-    e16
-    ]
-    
-    e16
-    [
-    
-    e16
-    
-    e16
-    
-    e16
-    ]
-    
-    e16
-    [
-    
-    e16
-    
-    e16
-    
-    e16
-    ]
+    r2...
     
 }
 
@@ -5533,8 +4104,7 @@ O_a_CelloVoiceX_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c16
-    [
+    r4
     ^ \markup {
         \column
             {
@@ -5566,42 +4136,28 @@ O_a_CelloVoiceX_a = {
             Vc.                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
         }                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
-    c16
+    r16
     
     c16
     
-    c16
-    ]
+    r8
     
-    c16
-    [
+    r4
     
-    c16
-    
-    c16
-    
-    c16
-    ]
-    
-    c16
-    [
+    r16
     
     c16
     
-    c16
+    r8
     
-    c16
-    ]
+    % [O1 CelloVoiceX measure 132]                       %! SM4
+    r2.
     
-    c16
-    [
-    
-    c16
+    r16
     
     c16
     
-    c16
-    ]
+    r8
     
 }
 
@@ -5631,46 +4187,31 @@ O_a_CelloVoiceXI_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    e16
-    [
+    r8
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     e16
     
-    e16
+    r16
     
-    e16
-    ]
-    
-    e16
-    [
+    r4.
     
     e16
     
-    e16
+    r16
     
-    e16
-    ]
+    r4
     
-    e16
-    [
+    % [O1 CelloVoiceXI measure 132]                      %! SM4
+    r2
     
-    e16
-    
-    e16
-    
-    e16
-    ]
-    
-    e16
-    [
+    r8
     
     e16
     
-    e16
+    r16
     
-    e16
-    ]
+    r4
     
 }
 
@@ -5701,8 +4242,7 @@ O_a_CelloVoiceXII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c16
-    [
+    r4.
     ^ \markup {
         \column
             {
@@ -5736,40 +4276,20 @@ O_a_CelloVoiceXII_a = {
     
     c16
     
-    c16
+    r16
     
-    c16
-    ]
+    r2
     
-    c16
-    [
-    
-    c16
+    % [O1 CelloVoiceXII measure 132]                     %! SM4
+    r4.
     
     c16
     
-    c16
-    ]
+    r16
+    
+    r4..
     
     c16
-    [
-    
-    c16
-    
-    c16
-    
-    c16
-    ]
-    
-    c16
-    [
-    
-    c16
-    
-    c16
-    
-    c16
-    ]
     
 }
 
@@ -5799,46 +4319,23 @@ O_a_CelloVoiceXIII_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    e16
-    [
+    r8.
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     e16
     
-    e16
+    r2.
     
-    e16
-    ]
-    
-    e16
-    [
+    % [O1 CelloVoiceXIII measure 132]                    %! SM4
+    r8.
     
     e16
     
-    e16
-    
-    e16
-    ]
-    
-    e16
-    [
+    r2
     
     e16
     
-    e16
-    
-    e16
-    ]
-    
-    e16
-    [
-    
-    e16
-    
-    e16
-    
-    e16
-    ]
+    r8.
     
 }
 
@@ -5869,8 +4366,7 @@ O_a_CelloVoiceXIV_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c16
-    [
+    r2...
     ^ \markup {
         \column
             {
@@ -5904,40 +4400,12 @@ O_a_CelloVoiceXIV_a = {
     
     c16
     
-    c16
-    
-    c16
-    ]
-    
-    c16
-    [
+    % [O1 CelloVoiceXIV measure 132]                     %! SM4
+    r2
     
     c16
     
-    c16
-    
-    c16
-    ]
-    
-    c16
-    [
-    
-    c16
-    
-    c16
-    
-    c16
-    ]
-    
-    c16
-    [
-    
-    c16
-    
-    c16
-    
-    c16
-    ]
+    r4..
     
 }
 
@@ -5989,9 +4457,8 @@ O_a_ContrabassVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c''16
+    r2.
     \mf                                                  %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
     ^ \markup {
         \column
             {
@@ -6034,40 +4501,18 @@ O_a_ContrabassVoiceI_a = {
     
     c''16
     
-    c''16
+    r8.
     
-    c''16
-    ]
+    % [O1 ContrabassVoiceI measure 132]                  %! SM4
+    r4
     
-    c''16
-    [
-    
-    c''16
+    r16
     
     c''16
     
-    c''16
-    ]
+    r8
     
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
-    
-    c''16
-    [
-    
-    c''16
-    
-    c''16
-    
-    c''16
-    ]
+    r2
     
 }
 
@@ -6085,45 +4530,22 @@ O_a_ContrabassVoiceII_a = {
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    a'16
-    [
+    r2
+    
+    r16
     
     a'16
     
-    a'16
+    r4.
     
-    a'16
-    ]
-    
-    a'16
-    [
+    % [O1 ContrabassVoiceII measure 132]                 %! SM4
+    r8
     
     a'16
     
-    a'16
+    r16
     
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
-    
-    a'16
-    [
-    
-    a'16
-    
-    a'16
-    
-    a'16
-    ]
+    r2.
     
 }
 
@@ -6167,9 +4589,8 @@ O_a_ContrabassVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    e16
+    r4
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
     ^ \markup {
         \column
             {
@@ -6202,42 +4623,26 @@ O_a_ContrabassVoiceIII_a = {
             Cb.                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    e16
+    r16
     
     e16
     
-    e16
-    ]
+    r8
     
-    e16
-    [
-    
-    e16
+    r4.
     
     e16
     
-    e16
-    ]
+    r16
     
-    e16
-    [
+    % [O1 ContrabassVoiceIII measure 132]                %! SM4
+    r2.
     
-    e16
-    
-    e16
-    
-    e16
-    ]
-    
-    e16
-    [
+    r16
     
     e16
     
-    e16
-    
-    e16
-    ]
+    r8
     
 }
 
@@ -6255,45 +4660,28 @@ O_a_ContrabassVoiceIV_a = {
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c16
-    [
+    r8
     
     c16
     
-    c16
+    r16
     
-    c16
-    ]
-    
-    c16
-    [
+    r4..
     
     c16
     
-    c16
+    r4
     
-    c16
-    ]
+    % [O1 ContrabassVoiceIV measure 132]                 %! SM4
+    r2
     
-    c16
-    [
-    
-    c16
+    r8
     
     c16
     
-    c16
-    ]
+    r16
     
-    c16
-    [
-    
-    c16
-    
-    c16
-    
-    c16
-    ]
+    r4
     
 }
 
@@ -6323,46 +4711,21 @@ O_a_ContrabassVoiceV_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    e16
-    [
+    r4..
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     e16
     
-    e16
+    r2
     
-    e16
-    ]
-    
-    e16
-    [
+    % [O1 ContrabassVoiceV measure 132]                  %! SM4
+    r4.
     
     e16
     
-    e16
+    r16
     
-    e16
-    ]
-    
-    e16
-    [
-    
-    e16
-    
-    e16
-    
-    e16
-    ]
-    
-    e16
-    [
-    
-    e16
-    
-    e16
-    
-    e16
-    ]
+    r2
     
 }
 
@@ -6393,8 +4756,7 @@ O_a_ContrabassVoiceVI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c16
-    [
+    r4
     ^ \markup {
         \column
             {
@@ -6428,40 +4790,16 @@ O_a_ContrabassVoiceVI_a = {
     
     c16
     
-    c16
+    r8.
     
-    c16
-    ]
+    r2
     
-    c16
-    [
-    
-    c16
+    % [O1 ContrabassVoiceVI measure 132]                 %! SM4
+    r8.
     
     c16
     
-    c16
-    ]
-    
-    c16
-    [
-    
-    c16
-    
-    c16
-    
-    c16
-    ]
-    
-    c16
-    [
-    
-    c16
-    
-    c16
-    
-    c16
-    ]
+    r2.
     
 }
 
