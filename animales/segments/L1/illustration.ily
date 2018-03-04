@@ -1096,9 +1096,9 @@ L_a_FirstViolinVoiceI = {
 }
 
 
-L_a_FirstViolinVoiceIII_a = {
+L_a_FirstViolinVoiceII_a = {
     
-    % [L1 FirstViolinVoiceIII measure 95]                %! SM4
+    % [L1 FirstViolinVoiceII measure 95]                 %! SM4
     \override TextSpanner.staff-padding = #8             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -1115,13 +1115,13 @@ L_a_FirstViolinVoiceIII_a = {
 %%%                     "ext. ponticello: like acid"     %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
-    % [L1 FirstViolinVoiceIII measure 96]                %! SM4
+    % [L1 FirstViolinVoiceII measure 96]                 %! SM4
     f''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 FirstViolinVoiceIII measure 97]                %! SM4
+    % [L1 FirstViolinVoiceII measure 97]                 %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -1163,31 +1163,31 @@ L_a_FirstViolinVoiceIII_a = {
     \ff                                                  %! HC1
     \startTextSpan                                       %! PCW1
     
-    % [L1 FirstViolinVoiceIII measure 98]                %! SM4
+    % [L1 FirstViolinVoiceII measure 98]                 %! SM4
     f''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 FirstViolinVoiceIII measure 99]                %! SM4
+    % [L1 FirstViolinVoiceII measure 99]                 %! SM4
     f''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 FirstViolinVoiceIII measure 100]               %! SM4
+    % [L1 FirstViolinVoiceII measure 100]                %! SM4
     f''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 FirstViolinVoiceIII measure 101]               %! SM4
+    % [L1 FirstViolinVoiceII measure 101]                %! SM4
     f''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 FirstViolinVoiceIII measure 102]               %! SM4
+    % [L1 FirstViolinVoiceII measure 102]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     f''1
     :32                                                  %! IC
@@ -1196,13 +1196,13 @@ L_a_FirstViolinVoiceIII_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PCW1
     
-    % [L1 FirstViolinVoiceIII measure 103]               %! SM4
+    % [L1 FirstViolinVoiceII measure 103]                %! SM4
     f''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 FirstViolinVoiceIII measure 104]               %! SM4
+    % [L1 FirstViolinVoiceII measure 104]                %! SM4
     f''2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -1212,22 +1212,22 @@ L_a_FirstViolinVoiceIII_a = {
 }
 
 
-L_a_FirstViolinVoiceIII = {
-    \L_a_FirstViolinVoiceIII_a
+L_a_FirstViolinVoiceII = {
+    \L_a_FirstViolinVoiceII_a
 }
 
 
 L_a_FirstViolinStaffI = <<
     \context Voice = "FirstViolinVoiceI"
     \L_a_FirstViolinVoiceI
-    \context Voice = "FirstViolinVoiceIII"
-    \L_a_FirstViolinVoiceIII
+    \context Voice = "FirstViolinVoiceII"
+    \L_a_FirstViolinVoiceII
 >>
 
 
-L_a_FirstViolinVoiceII_a = {
+L_a_FirstViolinVoiceIII_a = {
     
-    % [L1 FirstViolinVoiceII measure 95]                 %! SM4
+    % [L1 FirstViolinVoiceIII measure 95]                %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -1321,13 +1321,13 @@ L_a_FirstViolinVoiceII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [L1 FirstViolinVoiceII measure 96]                 %! SM4
+    % [L1 FirstViolinVoiceIII measure 96]                %! SM4
     g''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 FirstViolinVoiceII measure 97]                 %! SM4
+    % [L1 FirstViolinVoiceIII measure 97]                %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -1369,31 +1369,31 @@ L_a_FirstViolinVoiceII_a = {
     \ff                                                  %! HC1
     \startTextSpan                                       %! PCW1
     
-    % [L1 FirstViolinVoiceII measure 98]                 %! SM4
+    % [L1 FirstViolinVoiceIII measure 98]                %! SM4
     g''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 FirstViolinVoiceII measure 99]                 %! SM4
+    % [L1 FirstViolinVoiceIII measure 99]                %! SM4
     g''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 FirstViolinVoiceII measure 100]                %! SM4
+    % [L1 FirstViolinVoiceIII measure 100]               %! SM4
     g''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 FirstViolinVoiceII measure 101]                %! SM4
+    % [L1 FirstViolinVoiceIII measure 101]               %! SM4
     g''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 FirstViolinVoiceII measure 102]                %! SM4
+    % [L1 FirstViolinVoiceIII measure 102]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g''1
     :32                                                  %! IC
@@ -1402,13 +1402,13 @@ L_a_FirstViolinVoiceII_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PCW1
     
-    % [L1 FirstViolinVoiceII measure 103]                %! SM4
+    % [L1 FirstViolinVoiceIII measure 103]               %! SM4
     g''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 FirstViolinVoiceII measure 104]                %! SM4
+    % [L1 FirstViolinVoiceIII measure 104]               %! SM4
     g''2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -1420,8 +1420,8 @@ L_a_FirstViolinVoiceII_a = {
 }
 
 
-L_a_FirstViolinVoiceII = {
-    \L_a_FirstViolinVoiceII_a
+L_a_FirstViolinVoiceIII = {
+    \L_a_FirstViolinVoiceIII_a
 }
 
 
@@ -1547,8 +1547,8 @@ L_a_FirstViolinVoiceIV = {
 
 
 L_a_FirstViolinStaffII = <<
-    \context Voice = "FirstViolinVoiceII"
-    \L_a_FirstViolinVoiceII
+    \context Voice = "FirstViolinVoiceIII"
+    \L_a_FirstViolinVoiceIII
     \context Voice = "FirstViolinVoiceIV"
     \L_a_FirstViolinVoiceIV
 >>
@@ -1898,9 +1898,9 @@ L_a_SecondViolinVoiceI = {
 }
 
 
-L_a_SecondViolinVoiceIII_a = {
+L_a_SecondViolinVoiceII_a = {
     
-    % [L1 SecondViolinVoiceIII measure 95]               %! SM4
+    % [L1 SecondViolinVoiceII measure 95]                %! SM4
     \override TextSpanner.staff-padding = #5             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -1917,13 +1917,13 @@ L_a_SecondViolinVoiceIII_a = {
 %%%                     "ext. ponticello: like acid"     %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
-    % [L1 SecondViolinVoiceIII measure 96]               %! SM4
+    % [L1 SecondViolinVoiceII measure 96]                %! SM4
     g'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 SecondViolinVoiceIII measure 97]               %! SM4
+    % [L1 SecondViolinVoiceII measure 97]                %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -1965,31 +1965,31 @@ L_a_SecondViolinVoiceIII_a = {
     \ff                                                  %! HC1
     \startTextSpan                                       %! PCW1
     
-    % [L1 SecondViolinVoiceIII measure 98]               %! SM4
+    % [L1 SecondViolinVoiceII measure 98]                %! SM4
     g'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 SecondViolinVoiceIII measure 99]               %! SM4
+    % [L1 SecondViolinVoiceII measure 99]                %! SM4
     g'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 SecondViolinVoiceIII measure 100]              %! SM4
+    % [L1 SecondViolinVoiceII measure 100]               %! SM4
     g'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 SecondViolinVoiceIII measure 101]              %! SM4
+    % [L1 SecondViolinVoiceII measure 101]               %! SM4
     g'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 SecondViolinVoiceIII measure 102]              %! SM4
+    % [L1 SecondViolinVoiceII measure 102]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g'1
     :32                                                  %! IC
@@ -1998,13 +1998,13 @@ L_a_SecondViolinVoiceIII_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PCW1
     
-    % [L1 SecondViolinVoiceIII measure 103]              %! SM4
+    % [L1 SecondViolinVoiceII measure 103]               %! SM4
     g'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 SecondViolinVoiceIII measure 104]              %! SM4
+    % [L1 SecondViolinVoiceII measure 104]               %! SM4
     g'2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -2014,22 +2014,22 @@ L_a_SecondViolinVoiceIII_a = {
 }
 
 
-L_a_SecondViolinVoiceIII = {
-    \L_a_SecondViolinVoiceIII_a
+L_a_SecondViolinVoiceII = {
+    \L_a_SecondViolinVoiceII_a
 }
 
 
 L_a_SecondViolinStaffI = <<
     \context Voice = "SecondViolinVoiceI"
     \L_a_SecondViolinVoiceI
-    \context Voice = "SecondViolinVoiceIII"
-    \L_a_SecondViolinVoiceIII
+    \context Voice = "SecondViolinVoiceII"
+    \L_a_SecondViolinVoiceII
 >>
 
 
-L_a_SecondViolinVoiceII_a = {
+L_a_SecondViolinVoiceIII_a = {
     
-    % [L1 SecondViolinVoiceII measure 95]                %! SM4
+    % [L1 SecondViolinVoiceIII measure 95]               %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -2123,13 +2123,13 @@ L_a_SecondViolinVoiceII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [L1 SecondViolinVoiceII measure 96]                %! SM4
+    % [L1 SecondViolinVoiceIII measure 96]               %! SM4
     a'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 SecondViolinVoiceII measure 97]                %! SM4
+    % [L1 SecondViolinVoiceIII measure 97]               %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2171,31 +2171,31 @@ L_a_SecondViolinVoiceII_a = {
     \ff                                                  %! HC1
     \startTextSpan                                       %! PCW1
     
-    % [L1 SecondViolinVoiceII measure 98]                %! SM4
+    % [L1 SecondViolinVoiceIII measure 98]               %! SM4
     a'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 SecondViolinVoiceII measure 99]                %! SM4
+    % [L1 SecondViolinVoiceIII measure 99]               %! SM4
     a'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 SecondViolinVoiceII measure 100]               %! SM4
+    % [L1 SecondViolinVoiceIII measure 100]              %! SM4
     a'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 SecondViolinVoiceII measure 101]               %! SM4
+    % [L1 SecondViolinVoiceIII measure 101]              %! SM4
     a'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 SecondViolinVoiceII measure 102]               %! SM4
+    % [L1 SecondViolinVoiceIII measure 102]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a'1
     :32                                                  %! IC
@@ -2204,13 +2204,13 @@ L_a_SecondViolinVoiceII_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PCW1
     
-    % [L1 SecondViolinVoiceII measure 103]               %! SM4
+    % [L1 SecondViolinVoiceIII measure 103]              %! SM4
     a'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 SecondViolinVoiceII measure 104]               %! SM4
+    % [L1 SecondViolinVoiceIII measure 104]              %! SM4
     a'2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -2222,8 +2222,8 @@ L_a_SecondViolinVoiceII_a = {
 }
 
 
-L_a_SecondViolinVoiceII = {
-    \L_a_SecondViolinVoiceII_a
+L_a_SecondViolinVoiceIII = {
+    \L_a_SecondViolinVoiceIII_a
 }
 
 
@@ -2349,8 +2349,8 @@ L_a_SecondViolinVoiceIV = {
 
 
 L_a_SecondViolinStaffII = <<
-    \context Voice = "SecondViolinVoiceII"
-    \L_a_SecondViolinVoiceII
+    \context Voice = "SecondViolinVoiceIII"
+    \L_a_SecondViolinVoiceIII
     \context Voice = "SecondViolinVoiceIV"
     \L_a_SecondViolinVoiceIV
 >>
@@ -2556,9 +2556,9 @@ L_a_ViolaVoiceI = {
 }
 
 
-L_a_ViolaVoiceIII_a = {
+L_a_ViolaVoiceII_a = {
     
-    % [L1 ViolaVoiceIII measure 95]                      %! SM4
+    % [L1 ViolaVoiceII measure 95]                       %! SM4
     \override TextSpanner.staff-padding = #5             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -2575,13 +2575,13 @@ L_a_ViolaVoiceIII_a = {
 %%%                     "ext. ponticello: like acid"     %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
-    % [L1 ViolaVoiceIII measure 96]                      %! SM4
+    % [L1 ViolaVoiceII measure 96]                       %! SM4
     a2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 ViolaVoiceIII measure 97]                      %! SM4
+    % [L1 ViolaVoiceII measure 97]                       %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2623,31 +2623,31 @@ L_a_ViolaVoiceIII_a = {
     \ff                                                  %! HC1
     \startTextSpan                                       %! PCW1
     
-    % [L1 ViolaVoiceIII measure 98]                      %! SM4
+    % [L1 ViolaVoiceII measure 98]                       %! SM4
     a1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 ViolaVoiceIII measure 99]                      %! SM4
+    % [L1 ViolaVoiceII measure 99]                       %! SM4
     a1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 ViolaVoiceIII measure 100]                     %! SM4
+    % [L1 ViolaVoiceII measure 100]                      %! SM4
     a2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 ViolaVoiceIII measure 101]                     %! SM4
+    % [L1 ViolaVoiceII measure 101]                      %! SM4
     a2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 ViolaVoiceIII measure 102]                     %! SM4
+    % [L1 ViolaVoiceII measure 102]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a1
     :32                                                  %! IC
@@ -2656,13 +2656,13 @@ L_a_ViolaVoiceIII_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PCW1
     
-    % [L1 ViolaVoiceIII measure 103]                     %! SM4
+    % [L1 ViolaVoiceII measure 103]                      %! SM4
     a1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 ViolaVoiceIII measure 104]                     %! SM4
+    % [L1 ViolaVoiceII measure 104]                      %! SM4
     a2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -2672,22 +2672,22 @@ L_a_ViolaVoiceIII_a = {
 }
 
 
-L_a_ViolaVoiceIII = {
-    \L_a_ViolaVoiceIII_a
+L_a_ViolaVoiceII = {
+    \L_a_ViolaVoiceII_a
 }
 
 
 L_a_ViolaStaffI = <<
     \context Voice = "ViolaVoiceI"
     \L_a_ViolaVoiceI
-    \context Voice = "ViolaVoiceIII"
-    \L_a_ViolaVoiceIII
+    \context Voice = "ViolaVoiceII"
+    \L_a_ViolaVoiceII
 >>
 
 
-L_a_ViolaVoiceII_a = {
+L_a_ViolaVoiceIII_a = {
     
-    % [L1 ViolaVoiceII measure 95]                       %! SM4
+    % [L1 ViolaVoiceIII measure 95]                      %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -2781,13 +2781,13 @@ L_a_ViolaVoiceII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [L1 ViolaVoiceII measure 96]                       %! SM4
+    % [L1 ViolaVoiceIII measure 96]                      %! SM4
     b2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 ViolaVoiceII measure 97]                       %! SM4
+    % [L1 ViolaVoiceIII measure 97]                      %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2829,31 +2829,31 @@ L_a_ViolaVoiceII_a = {
     \ff                                                  %! HC1
     \startTextSpan                                       %! PCW1
     
-    % [L1 ViolaVoiceII measure 98]                       %! SM4
+    % [L1 ViolaVoiceIII measure 98]                      %! SM4
     b1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 ViolaVoiceII measure 99]                       %! SM4
+    % [L1 ViolaVoiceIII measure 99]                      %! SM4
     b1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 ViolaVoiceII measure 100]                      %! SM4
+    % [L1 ViolaVoiceIII measure 100]                     %! SM4
     b2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 ViolaVoiceII measure 101]                      %! SM4
+    % [L1 ViolaVoiceIII measure 101]                     %! SM4
     b2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 ViolaVoiceII measure 102]                      %! SM4
+    % [L1 ViolaVoiceIII measure 102]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     b1
     :32                                                  %! IC
@@ -2862,13 +2862,13 @@ L_a_ViolaVoiceII_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PCW1
     
-    % [L1 ViolaVoiceII measure 103]                      %! SM4
+    % [L1 ViolaVoiceIII measure 103]                     %! SM4
     b1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [L1 ViolaVoiceII measure 104]                      %! SM4
+    % [L1 ViolaVoiceIII measure 104]                     %! SM4
     b2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -2880,8 +2880,8 @@ L_a_ViolaVoiceII_a = {
 }
 
 
-L_a_ViolaVoiceII = {
-    \L_a_ViolaVoiceII_a
+L_a_ViolaVoiceIII = {
+    \L_a_ViolaVoiceIII_a
 }
 
 
@@ -3007,8 +3007,8 @@ L_a_ViolaVoiceIV = {
 
 
 L_a_ViolaStaffII = <<
-    \context Voice = "ViolaVoiceII"
-    \L_a_ViolaVoiceII
+    \context Voice = "ViolaVoiceIII"
+    \L_a_ViolaVoiceIII
     \context Voice = "ViolaVoiceIV"
     \L_a_ViolaVoiceIV
 >>

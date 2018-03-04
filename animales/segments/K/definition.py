@@ -45,7 +45,7 @@ maker = baca.SegmentMaker(
             (3, [3]),
             ],
         first_violins=[
-            (1, [3, 1]),
+            (1, [2, 1]),
             ],
         second_violins=[
             (1, [1]),
@@ -235,7 +235,7 @@ maker(
 # strings
 
 maker(
-    baca.scope('FirstViolinVoiceIII', (1, 3)),
+    baca.scope('FirstViolinVoiceII', (1, 3)),
     animales.glissando_rhythm(rotate=-2),
     animales.parts('FirstViolin', 1),
     baca.hairpin('p < ff', baca.notes().group_by_measure()[0].rleak()),

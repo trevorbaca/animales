@@ -30,15 +30,15 @@ maker = baca.SegmentMaker(
             ],
         first_violins=[
             (1, [1]),
-            (2, [2]),
+            (2, [3]),
             ],
         second_violins=[
             (1, [1]),
-            (2, [2]),
+            (2, [3]),
             ],
         violas=[
             (1, [1]),
-            (2, [2]),
+            (2, [3]),
             ],
         cellos=[
             (1, [1]),
@@ -147,9 +147,9 @@ maker(
     )
 
 absent_left_broken = [
-    'FirstViolinVoiceII',
-    'SecondViolinVoiceII',
-    'ViolaVoiceII',
+    'FirstViolinVoiceIII',
+    'SecondViolinVoiceIII',
+    'ViolaVoiceIII',
     ]
 
 maker(

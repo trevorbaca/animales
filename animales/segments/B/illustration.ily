@@ -838,9 +838,9 @@ B_FirstViolinStaffI = {
 }
 
 
-B_FirstViolinVoiceII = {
+B_FirstViolinVoiceIII = {
     
-    % [B FirstViolinVoiceII measure 30]                      %! SM4
+    % [B FirstViolinVoiceIII measure 30]                     %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -910,27 +910,27 @@ B_FirstViolinVoiceII = {
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [B FirstViolinVoiceII measure 31]                      %! SM4
+    % [B FirstViolinVoiceIII measure 31]                     %! SM4
     R1 * 1
     
-    % [B FirstViolinVoiceII measure 32]                      %! SM4
+    % [B FirstViolinVoiceIII measure 32]                     %! SM4
     R1 * 1/2
     
-    % [B FirstViolinVoiceII measure 33]                      %! SM4
+    % [B FirstViolinVoiceIII measure 33]                     %! SM4
     R1 * 3/4
     
-    % [B FirstViolinVoiceII measure 34]                      %! SM4
+    % [B FirstViolinVoiceIII measure 34]                     %! SM4
     R1 * 3/4
     
-    % [B FirstViolinVoiceII measure 35]                      %! SM4
+    % [B FirstViolinVoiceIII measure 35]                     %! SM4
     R1 * 1
     
 }
 
 
 B_FirstViolinStaffII = {
-    \context Voice = "FirstViolinVoiceII"
-    \B_FirstViolinVoiceII
+    \context Voice = "FirstViolinVoiceIII"
+    \B_FirstViolinVoiceIII
 }
 
 
@@ -1082,9 +1082,9 @@ B_SecondViolinStaffI = {
 }
 
 
-B_SecondViolinVoiceII = {
+B_SecondViolinVoiceIII = {
     
-    % [B SecondViolinVoiceII measure 30]                     %! SM4
+    % [B SecondViolinVoiceIII measure 30]                    %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1154,27 +1154,27 @@ B_SecondViolinVoiceII = {
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [B SecondViolinVoiceII measure 31]                     %! SM4
+    % [B SecondViolinVoiceIII measure 31]                    %! SM4
     R1 * 1
     
-    % [B SecondViolinVoiceII measure 32]                     %! SM4
+    % [B SecondViolinVoiceIII measure 32]                    %! SM4
     R1 * 1/2
     
-    % [B SecondViolinVoiceII measure 33]                     %! SM4
+    % [B SecondViolinVoiceIII measure 33]                    %! SM4
     R1 * 3/4
     
-    % [B SecondViolinVoiceII measure 34]                     %! SM4
+    % [B SecondViolinVoiceIII measure 34]                    %! SM4
     R1 * 3/4
     
-    % [B SecondViolinVoiceII measure 35]                     %! SM4
+    % [B SecondViolinVoiceIII measure 35]                    %! SM4
     R1 * 1
     
 }
 
 
 B_SecondViolinStaffII = {
-    \context Voice = "SecondViolinVoiceII"
-    \B_SecondViolinVoiceII
+    \context Voice = "SecondViolinVoiceIII"
+    \B_SecondViolinVoiceIII
 }
 
 
@@ -1326,9 +1326,9 @@ B_ViolaStaffI = {
 }
 
 
-B_ViolaVoiceII = {
+B_ViolaVoiceIII = {
     
-    % [B ViolaVoiceII measure 30]                            %! SM4
+    % [B ViolaVoiceIII measure 30]                           %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1398,27 +1398,27 @@ B_ViolaVoiceII = {
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [B ViolaVoiceII measure 31]                            %! SM4
+    % [B ViolaVoiceIII measure 31]                           %! SM4
     R1 * 1
     
-    % [B ViolaVoiceII measure 32]                            %! SM4
+    % [B ViolaVoiceIII measure 32]                           %! SM4
     R1 * 1/2
     
-    % [B ViolaVoiceII measure 33]                            %! SM4
+    % [B ViolaVoiceIII measure 33]                           %! SM4
     R1 * 3/4
     
-    % [B ViolaVoiceII measure 34]                            %! SM4
+    % [B ViolaVoiceIII measure 34]                           %! SM4
     R1 * 3/4
     
-    % [B ViolaVoiceII measure 35]                            %! SM4
+    % [B ViolaVoiceIII measure 35]                           %! SM4
     R1 * 1
     
 }
 
 
 B_ViolaStaffII = {
-    \context Voice = "ViolaVoiceII"
-    \B_ViolaVoiceII
+    \context Voice = "ViolaVoiceIII"
+    \B_ViolaVoiceIII
 }
 
 

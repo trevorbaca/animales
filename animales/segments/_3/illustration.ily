@@ -398,9 +398,9 @@ i_c_FirstViolinStaffI = {
 }
 
 
-i_c_FirstViolinVoiceII_a = {
+i_c_FirstViolinVoiceIII_a = {
     
-    % [_3 FirstViolinVoiceII measure 13]                 %! SM4
+    % [_3 FirstViolinVoiceIII measure 13]                %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -472,18 +472,18 @@ i_c_FirstViolinVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [_3 FirstViolinVoiceII measure 14]                 %! SM4
+    % [_3 FirstViolinVoiceIII measure 14]                %! SM4
     e'1
     \repeatTie
     
-    % [_3 FirstViolinVoiceII measure 15]                 %! SM4
+    % [_3 FirstViolinVoiceIII measure 15]                %! SM4
     e'4
     \repeatTie
     
     e'2.
     -\accent                                             %! IC
     
-    % [_3 FirstViolinVoiceII measure 16]                 %! SM4
+    % [_3 FirstViolinVoiceIII measure 16]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     ef'2
@@ -503,7 +503,7 @@ i_c_FirstViolinVoiceII_a = {
     ef'4
     \repeatTie
     
-    % [_3 FirstViolinVoiceII measure 17]                 %! SM4
+    % [_3 FirstViolinVoiceIII measure 17]                %! SM4
     ef'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -512,14 +512,14 @@ i_c_FirstViolinVoiceII_a = {
 }
 
 
-i_c_FirstViolinVoiceII = {
-    \i_c_FirstViolinVoiceII_a
+i_c_FirstViolinVoiceIII = {
+    \i_c_FirstViolinVoiceIII_a
 }
 
 
 i_c_FirstViolinStaffII = {
-    \context Voice = "FirstViolinVoiceII"
-    \i_c_FirstViolinVoiceII
+    \context Voice = "FirstViolinVoiceIII"
+    \i_c_FirstViolinVoiceIII
 }
 
 
@@ -648,9 +648,9 @@ i_c_SecondViolinStaffI = {
 }
 
 
-i_c_SecondViolinVoiceII_a = {
+i_c_SecondViolinVoiceIII_a = {
     
-    % [_3 SecondViolinVoiceII measure 13]                %! SM4
+    % [_3 SecondViolinVoiceIII measure 13]               %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -734,11 +734,11 @@ i_c_SecondViolinVoiceII_a = {
     e'4
     \repeatTie
     
-    % [_3 SecondViolinVoiceII measure 14]                %! SM4
+    % [_3 SecondViolinVoiceIII measure 14]               %! SM4
     e'1
     \repeatTie
     
-    % [_3 SecondViolinVoiceII measure 15]                %! SM4
+    % [_3 SecondViolinVoiceIII measure 15]               %! SM4
     e'2
     \repeatTie
     \times 2/3 {
@@ -754,7 +754,7 @@ i_c_SecondViolinVoiceII_a = {
     e'4
     \repeatTie
     
-    % [_3 SecondViolinVoiceII measure 16]                %! SM4
+    % [_3 SecondViolinVoiceIII measure 16]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     ef'1
@@ -762,7 +762,7 @@ i_c_SecondViolinVoiceII_a = {
     \stopTrillSpan                                       %! SC
     \startTrillSpan e'                                   %! SC
     
-    % [_3 SecondViolinVoiceII measure 17]                %! SM4
+    % [_3 SecondViolinVoiceIII measure 17]               %! SM4
     ef'4
     \repeatTie
     
@@ -774,14 +774,14 @@ i_c_SecondViolinVoiceII_a = {
 }
 
 
-i_c_SecondViolinVoiceII = {
-    \i_c_SecondViolinVoiceII_a
+i_c_SecondViolinVoiceIII = {
+    \i_c_SecondViolinVoiceIII_a
 }
 
 
 i_c_SecondViolinStaffII = {
-    \context Voice = "SecondViolinVoiceII"
-    \i_c_SecondViolinVoiceII
+    \context Voice = "SecondViolinVoiceIII"
+    \i_c_SecondViolinVoiceIII
 }
 
 
@@ -901,9 +901,9 @@ i_c_ViolaStaffI = {
 }
 
 
-i_c_ViolaVoiceII_a = {
+i_c_ViolaVoiceIII_a = {
     
-    % [_3 ViolaVoiceII measure 13]                       %! SM4
+    % [_3 ViolaVoiceIII measure 13]                      %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -975,18 +975,18 @@ i_c_ViolaVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [_3 ViolaVoiceII measure 14]                       %! SM4
+    % [_3 ViolaVoiceIII measure 14]                      %! SM4
     e'4
     \repeatTie
     
     e'2.
     -\accent                                             %! IC
     
-    % [_3 ViolaVoiceII measure 15]                       %! SM4
+    % [_3 ViolaVoiceIII measure 15]                      %! SM4
     e'1
     \repeatTie
     
-    % [_3 ViolaVoiceII measure 16]                       %! SM4
+    % [_3 ViolaVoiceIII measure 16]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     ef'1
@@ -995,7 +995,7 @@ i_c_ViolaVoiceII_a = {
     \stopTrillSpan                                       %! SC
     \startTrillSpan e'                                   %! SC
     
-    % [_3 ViolaVoiceII measure 17]                       %! SM4
+    % [_3 ViolaVoiceIII measure 17]                      %! SM4
     ef'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -1004,14 +1004,14 @@ i_c_ViolaVoiceII_a = {
 }
 
 
-i_c_ViolaVoiceII = {
-    \i_c_ViolaVoiceII_a
+i_c_ViolaVoiceIII = {
+    \i_c_ViolaVoiceIII_a
 }
 
 
 i_c_ViolaStaffII = {
-    \context Voice = "ViolaVoiceII"
-    \i_c_ViolaVoiceII
+    \context Voice = "ViolaVoiceIII"
+    \i_c_ViolaVoiceIII
 }
 
 

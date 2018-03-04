@@ -1679,9 +1679,9 @@ K_PercussionStaffIII = {
 }
 
 
-K_FirstViolinVoiceIII_a = {
+K_FirstViolinVoiceII_a = {
     
-    % [K FirstViolinVoiceIII measure 88]                     %! SM4
+    % [K FirstViolinVoiceII measure 88]                      %! SM4
     \override DynamicLineSpanner.direction = #up             %! OC1:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \voiceOne                                                %! IC:-PARTS
@@ -1702,7 +1702,7 @@ K_FirstViolinVoiceIII_a = {
     f'''2
     \glissando                                               %! SC
     
-    % [K FirstViolinVoiceIII measure 89]                     %! SM4
+    % [K FirstViolinVoiceII measure 89]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d''8
     \ff                                                      %! HC1
@@ -1722,7 +1722,7 @@ K_FirstViolinVoiceIII_a = {
     \>                                                       %! HC1
     \ff                                                      %! HC1
     
-    % [K FirstViolinVoiceIII measure 90]                     %! SM4
+    % [K FirstViolinVoiceII measure 90]                      %! SM4
     a'2
     \glissando                                               %! SC
     
@@ -1741,19 +1741,19 @@ K_FirstViolinVoiceIII_a = {
 }
 
 
-K_FirstViolinVoiceIII = {
-    \K_FirstViolinVoiceIII_a
+K_FirstViolinVoiceII = {
+    \K_FirstViolinVoiceII_a
     
-    % [K FirstViolinVoiceIII measure 91]                         %! SM4
+    % [K FirstViolinVoiceII measure 91]                          %! SM4
     R1 * 1
     
-    % [K FirstViolinVoiceIII measure 92]                         %! SM4
+    % [K FirstViolinVoiceII measure 92]                          %! SM4
     R1 * 1
     
-    % [K FirstViolinVoiceIII measure 93]                         %! SM4
+    % [K FirstViolinVoiceII measure 93]                          %! SM4
     R1 * 1
     
-    % [K FirstViolinVoiceIII measure 94]                         %! SM4
+    % [K FirstViolinVoiceII measure 94]                          %! SM4
     R1 * 1/4
     
 }
@@ -1862,8 +1862,8 @@ K_FirstViolinVoiceI = {
 
 
 K_FirstViolinStaffI = <<
-    \context Voice = "FirstViolinVoiceIII"
-    \K_FirstViolinVoiceIII
+    \context Voice = "FirstViolinVoiceII"
+    \K_FirstViolinVoiceII
     \context Voice = "FirstViolinVoiceI"
     \K_FirstViolinVoiceI
 >>
