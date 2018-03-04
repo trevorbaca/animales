@@ -25,6 +25,7 @@
 \include "_segments/segment-M.ily"
 \include "_segments/segment-N.ily"
 \include "_segments/segment-O1.ily"
+\include "_segments/segment-O2.ily"
 
 
 \score {
@@ -59,6 +60,7 @@
                     \M_GlobalRests
                     \N_GlobalRests
                     \O_a_GlobalRests
+                    \O_b_GlobalRests
                 }
                 \context GlobalSkips = "GlobalSkips"
                 {
@@ -82,6 +84,7 @@
                     \M_GlobalSkips
                     \N_GlobalSkips
                     \O_a_GlobalSkips
+                    \O_b_GlobalSkips
                 }
             >>
             \context MusicContext = "MusicContext"
@@ -162,6 +165,8 @@
                                 \N_GlobalRests
                                 \context Staff = "FluteStaffI"
                                 \O_a_GlobalRests
+                                \context Staff = "FluteStaffI"
+                                \O_b_GlobalRests
                             }
                             {
                                 \context Staff = "FluteStaffII"
@@ -218,6 +223,8 @@
                                 \N_GlobalRests
                                 \context Staff = "FluteStaffII"
                                 \O_a_GlobalRests
+                                \context Staff = "FluteStaffII"
+                                \O_b_GlobalRests
                             }
                         >>
                     >>
@@ -284,6 +291,8 @@
                                 \N_GlobalRests
                                 \context Staff = "OboeStaffI"
                                 \O_a_GlobalRests
+                                \context Staff = "OboeStaffI"
+                                \O_b_GlobalRests
                             }
                         >>
                         \context StaffGroup = "EnglishHornSquareStaffGroup"
@@ -343,6 +352,8 @@
                                 \N_GlobalRests
                                 \context Staff = "EnglishHornStaffI"
                                 \O_a_GlobalRests
+                                \context Staff = "EnglishHornStaffI"
+                                \O_b_GlobalRests
                             }
                         >>
                     >>
@@ -413,6 +424,8 @@
                                 \N_GlobalRests
                                 \context Staff = "ClarinetStaffI"
                                 \O_a_GlobalRests
+                                \context Staff = "ClarinetStaffI"
+                                \O_b_GlobalRests
                             }
                         >>
                         \context StaffGroup = "BassClarinetSquareStaffGroup"
@@ -472,6 +485,8 @@
                                 \N_GlobalRests
                                 \context Staff = "BassClarinetStaffI"
                                 \O_a_GlobalRests
+                                \context Staff = "BassClarinetStaffI"
+                                \O_b_GlobalRests
                             }
                         >>
                     >>
@@ -532,6 +547,8 @@
                             \N_GlobalRests
                             \context Staff = "BassoonStaffI"
                             \O_a_GlobalRests
+                            \context Staff = "BassoonStaffI"
+                            \O_b_GlobalRests
                         }
                     >>
                 >>
@@ -598,6 +615,8 @@
                             \N_HornStaffI
                             \context Staff = "HornStaffI"
                             \O_a_GlobalRests
+                            \context Staff = "HornStaffI"
+                            \O_b_GlobalRests
                         }
                         {
                             \context Staff = "HornStaffII"
@@ -654,6 +673,8 @@
                             \N_HornStaffII
                             \context Staff = "HornStaffII"
                             \O_a_GlobalRests
+                            \context Staff = "HornStaffII"
+                            \O_b_GlobalRests
                         }
                     >>
                     \context StaffGroup = "TrumpetSquareStaffGroup"
@@ -717,6 +738,8 @@
                             \N_TrumpetStaffI
                             \context Staff = "TrumpetStaffI"
                             \O_a_GlobalRests
+                            \context Staff = "TrumpetStaffI"
+                            \O_b_GlobalRests
                         }
                         {
                             \context Staff = "TrumpetStaffII"
@@ -773,6 +796,8 @@
                             \N_TrumpetStaffII
                             \context Staff = "TrumpetStaffII"
                             \O_a_GlobalRests
+                            \context Staff = "TrumpetStaffII"
+                            \O_b_GlobalRests
                         }
                     >>
                     \context StaffGroup = "TromboneSquareStaffGroup"
@@ -836,6 +861,8 @@
                             \N_TromboneStaffI
                             \context Staff = "TromboneStaffI"
                             \O_a_GlobalRests
+                            \context Staff = "TromboneStaffI"
+                            \O_b_GlobalRests
                         }
                         {
                             \context Staff = "TromboneStaffII"
@@ -892,6 +919,8 @@
                             \N_TromboneStaffII
                             \context Staff = "TromboneStaffII"
                             \O_a_GlobalRests
+                            \context Staff = "TromboneStaffII"
+                            \O_b_GlobalRests
                         }
                     >>
                     \context StaffGroup = "TubaSquareStaffGroup"
@@ -951,6 +980,8 @@
                             \N_GlobalRests
                             \context Staff = "TubaStaffI"
                             \O_a_GlobalRests
+                            \context Staff = "TubaStaffI"
+                            \O_b_GlobalRests
                         }
                     >>
                 >>
@@ -1007,6 +1038,8 @@
                         \N_GlobalRests
                         \context Staff = "PianoStaffI"
                         \O_a_GlobalRests
+                        \context Staff = "PianoStaffI"
+                        \O_b_GlobalRests
                     }
                 >>
                 \context StaffGroup = "HarpPianoStaff"
@@ -1062,6 +1095,8 @@
                         \N_GlobalRests
                         \context Staff = "HarpStaffI"
                         \O_a_GlobalRests
+                        \context Staff = "HarpStaffI"
+                        \O_b_GlobalRests
                     }
                 >>
                 \context StaffGroup = "PercussionStaffGroup"
@@ -1122,6 +1157,8 @@
                         \N_GlobalRests
                         \context Staff = "PercussionStaffI"
                         \O_a_GlobalRests
+                        \context Staff = "PercussionStaffI"
+                        \O_b_GlobalRests
                     }
                     {
                         \context Staff = "PercussionStaffII"
@@ -1179,6 +1216,8 @@
                         \N_GlobalRests
                         \context Staff = "PercussionStaffII"
                         \O_a_GlobalRests
+                        \context Staff = "PercussionStaffII"
+                        \O_b_GlobalRests
                     }
                     {
                         \context Staff = "PercussionStaffIII"
@@ -1236,6 +1275,8 @@
                         \N_GlobalRests
                         \context Staff = "PercussionStaffIII"
                         \O_a_GlobalRests
+                        \context Staff = "PercussionStaffIII"
+                        \O_b_GlobalRests
                     }
                 >>
                 \context StaffGroup = "StringStaffGroup"
@@ -1288,6 +1329,8 @@
                             \N_FirstViolinStaffI
                             \context Staff = "FirstViolinStaffI"
                             \O_a_FirstViolinStaffI
+                            \context Staff = "FirstViolinStaffI"
+                            \O_b_FirstViolinStaffI
                         }
                         {
                             \context Staff = "FirstViolinStaffII"
@@ -1331,6 +1374,8 @@
                             \N_FirstViolinStaffII
                             \context Staff = "FirstViolinStaffII"
                             \O_a_FirstViolinStaffII
+                            \context Staff = "FirstViolinStaffII"
+                            \O_b_FirstViolinStaffII
                         }
                         {
                             \context Staff = "FirstViolinStaffIII"
@@ -1387,6 +1432,8 @@
                             \N_FirstViolinStaffIII
                             \context Staff = "FirstViolinStaffIII"
                             \O_a_FirstViolinStaffIII
+                            \context Staff = "FirstViolinStaffIII"
+                            \O_b_FirstViolinStaffIII
                         }
                         {
                             \context Staff = "FirstViolinStaffIV"
@@ -1396,7 +1443,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        "Vni. I"
+                                        \center-column
+                                            {
+                                                "Vni. I"
+                                                (7-8)
+                                            }
                                     }
                             }
                             \clef "treble"
@@ -1439,6 +1490,8 @@
                             \N_GlobalRests
                             \context Staff = "FirstViolinStaffIV"
                             \O_a_FirstViolinStaffIV
+                            \context Staff = "FirstViolinStaffIV"
+                            \O_b_FirstViolinStaffIV
                         }
                         {
                             \context Staff = "FirstViolinStaffV"
@@ -1448,7 +1501,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        "Vni. I"
+                                        \center-column
+                                            {
+                                                "Vni. I"
+                                                (9-10)
+                                            }
                                     }
                             }
                             \clef "treble"
@@ -1491,6 +1548,8 @@
                             \N_GlobalRests
                             \context Staff = "FirstViolinStaffV"
                             \O_a_FirstViolinStaffV
+                            \context Staff = "FirstViolinStaffV"
+                            \O_b_FirstViolinStaffV
                         }
                         {
                             \context Staff = "FirstViolinStaffVI"
@@ -1500,7 +1559,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        "Vni. I"
+                                        \center-column
+                                            {
+                                                "Vni. I"
+                                                (11-12)
+                                            }
                                     }
                             }
                             \clef "treble"
@@ -1543,6 +1606,8 @@
                             \N_GlobalRests
                             \context Staff = "FirstViolinStaffVI"
                             \O_a_FirstViolinStaffVI
+                            \context Staff = "FirstViolinStaffVI"
+                            \O_b_FirstViolinStaffVI
                         }
                         {
                             \context Staff = "FirstViolinStaffVII"
@@ -1552,7 +1617,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        "Vni. I"
+                                        \center-column
+                                            {
+                                                "Vni. I"
+                                                (13-14)
+                                            }
                                     }
                             }
                             \clef "treble"
@@ -1595,6 +1664,8 @@
                             \N_GlobalRests
                             \context Staff = "FirstViolinStaffVII"
                             \O_a_FirstViolinStaffVII
+                            \context Staff = "FirstViolinStaffVII"
+                            \O_b_FirstViolinStaffVII
                         }
                         {
                             \context Staff = "FirstViolinStaffVIII"
@@ -1604,7 +1675,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        "Vni. I"
+                                        \center-column
+                                            {
+                                                "Vni. I"
+                                                (15-16)
+                                            }
                                     }
                             }
                             \clef "treble"
@@ -1647,6 +1722,8 @@
                             \N_GlobalRests
                             \context Staff = "FirstViolinStaffVIII"
                             \O_a_FirstViolinStaffVIII
+                            \context Staff = "FirstViolinStaffVIII"
+                            \O_b_FirstViolinStaffVIII
                         }
                         {
                             \context Staff = "FirstViolinStaffIX"
@@ -1656,7 +1733,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        "Vni. I"
+                                        \center-column
+                                            {
+                                                "Vni. I"
+                                                (17-18)
+                                            }
                                     }
                             }
                             \clef "treble"
@@ -1699,6 +1780,8 @@
                             \N_GlobalRests
                             \context Staff = "FirstViolinStaffIX"
                             \O_a_FirstViolinStaffIX
+                            \context Staff = "FirstViolinStaffIX"
+                            \O_b_FirstViolinStaffIX
                         }
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup"
@@ -1749,6 +1832,8 @@
                             \N_SecondViolinStaffI
                             \context Staff = "SecondViolinStaffI"
                             \O_a_SecondViolinStaffI
+                            \context Staff = "SecondViolinStaffI"
+                            \O_b_SecondViolinStaffI
                         }
                         {
                             \context Staff = "SecondViolinStaffII"
@@ -1792,6 +1877,8 @@
                             \N_SecondViolinStaffII
                             \context Staff = "SecondViolinStaffII"
                             \O_a_SecondViolinStaffII
+                            \context Staff = "SecondViolinStaffII"
+                            \O_b_SecondViolinStaffII
                         }
                         {
                             \context Staff = "SecondViolinStaffIII"
@@ -1801,7 +1888,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        "Vni. II"
+                                        \center-column
+                                            {
+                                                "Vni. II"
+                                                (5-6)
+                                            }
                                     }
                             }
                             \clef "treble"
@@ -1844,6 +1935,8 @@
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffIII"
                             \O_a_SecondViolinStaffIII
+                            \context Staff = "SecondViolinStaffIII"
+                            \O_b_SecondViolinStaffIII
                         }
                         {
                             \context Staff = "SecondViolinStaffIV"
@@ -1853,7 +1946,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        "Vni. II"
+                                        \center-column
+                                            {
+                                                "Vni. II"
+                                                (7-8)
+                                            }
                                     }
                             }
                             \clef "treble"
@@ -1896,6 +1993,8 @@
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffIV"
                             \O_a_SecondViolinStaffIV
+                            \context Staff = "SecondViolinStaffIV"
+                            \O_b_SecondViolinStaffIV
                         }
                         {
                             \context Staff = "SecondViolinStaffV"
@@ -1905,7 +2004,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        "Vni. II"
+                                        \center-column
+                                            {
+                                                "Vni. II"
+                                                (9-10)
+                                            }
                                     }
                             }
                             \clef "treble"
@@ -1948,6 +2051,8 @@
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffV"
                             \O_a_SecondViolinStaffV
+                            \context Staff = "SecondViolinStaffV"
+                            \O_b_SecondViolinStaffV
                         }
                         {
                             \context Staff = "SecondViolinStaffVI"
@@ -1957,7 +2062,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        "Vni. II"
+                                        \center-column
+                                            {
+                                                "Vni. II"
+                                                (11-12)
+                                            }
                                     }
                             }
                             \clef "treble"
@@ -2000,6 +2109,8 @@
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffVI"
                             \O_a_SecondViolinStaffVI
+                            \context Staff = "SecondViolinStaffVI"
+                            \O_b_SecondViolinStaffVI
                         }
                         {
                             \context Staff = "SecondViolinStaffVII"
@@ -2009,7 +2120,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        "Vni. II"
+                                        \center-column
+                                            {
+                                                "Vni. II"
+                                                (13-14)
+                                            }
                                     }
                             }
                             \clef "treble"
@@ -2052,6 +2167,8 @@
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffVII"
                             \O_a_SecondViolinStaffVII
+                            \context Staff = "SecondViolinStaffVII"
+                            \O_b_SecondViolinStaffVII
                         }
                         {
                             \context Staff = "SecondViolinStaffVIII"
@@ -2061,7 +2178,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        "Vni. II"
+                                        \center-column
+                                            {
+                                                "Vni. II"
+                                                (15-16)
+                                            }
                                     }
                             }
                             \clef "treble"
@@ -2104,6 +2225,8 @@
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffVIII"
                             \O_a_SecondViolinStaffVIII
+                            \context Staff = "SecondViolinStaffVIII"
+                            \O_b_SecondViolinStaffVIII
                         }
                         {
                             \context Staff = "SecondViolinStaffIX"
@@ -2113,7 +2236,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        "Vni. II"
+                                        \center-column
+                                            {
+                                                "Vni. II"
+                                                (17-18)
+                                            }
                                     }
                             }
                             \clef "treble"
@@ -2156,6 +2283,8 @@
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffIX"
                             \O_a_SecondViolinStaffIX
+                            \context Staff = "SecondViolinStaffIX"
+                            \O_b_SecondViolinStaffIX
                         }
                     >>
                     \context StaffGroup = "ViolaSquareStaffGroup"
@@ -2206,6 +2335,8 @@
                             \N_ViolaStaffI
                             \context Staff = "ViolaStaffI"
                             \O_a_ViolaStaffI
+                            \context Staff = "ViolaStaffI"
+                            \O_b_ViolaStaffI
                         }
                         {
                             \context Staff = "ViolaStaffII"
@@ -2249,6 +2380,8 @@
                             \N_ViolaStaffII
                             \context Staff = "ViolaStaffII"
                             \O_a_ViolaStaffII
+                            \context Staff = "ViolaStaffII"
+                            \O_b_ViolaStaffII
                         }
                         {
                             \context Staff = "ViolaStaffIII"
@@ -2258,7 +2391,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Vle.
+                                        \center-column
+                                            {
+                                                Vle.
+                                                (5-6)
+                                            }
                                     }
                             }
                             \clef "alto"
@@ -2301,6 +2438,8 @@
                             \N_GlobalRests
                             \context Staff = "ViolaStaffIII"
                             \O_a_ViolaStaffIII
+                            \context Staff = "ViolaStaffIII"
+                            \O_b_ViolaStaffIII
                         }
                         {
                             \context Staff = "ViolaStaffIV"
@@ -2310,7 +2449,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Vle.
+                                        \center-column
+                                            {
+                                                Vle.
+                                                (7-8)
+                                            }
                                     }
                             }
                             \clef "alto"
@@ -2353,6 +2496,8 @@
                             \N_GlobalRests
                             \context Staff = "ViolaStaffIV"
                             \O_a_ViolaStaffIV
+                            \context Staff = "ViolaStaffIV"
+                            \O_b_ViolaStaffIV
                         }
                         {
                             \context Staff = "ViolaStaffV"
@@ -2362,7 +2507,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Vle.
+                                        \center-column
+                                            {
+                                                Vle.
+                                                (9-10)
+                                            }
                                     }
                             }
                             \clef "alto"
@@ -2405,6 +2554,8 @@
                             \N_GlobalRests
                             \context Staff = "ViolaStaffV"
                             \O_a_ViolaStaffV
+                            \context Staff = "ViolaStaffV"
+                            \O_b_ViolaStaffV
                         }
                         {
                             \context Staff = "ViolaStaffVI"
@@ -2414,7 +2565,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Vle.
+                                        \center-column
+                                            {
+                                                Vle.
+                                                (11-12)
+                                            }
                                     }
                             }
                             \clef "alto"
@@ -2457,6 +2612,8 @@
                             \N_GlobalRests
                             \context Staff = "ViolaStaffVI"
                             \O_a_ViolaStaffVI
+                            \context Staff = "ViolaStaffVI"
+                            \O_b_ViolaStaffVI
                         }
                         {
                             \context Staff = "ViolaStaffVII"
@@ -2466,7 +2623,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Vle.
+                                        \center-column
+                                            {
+                                                Vle.
+                                                (13-14)
+                                            }
                                     }
                             }
                             \clef "alto"
@@ -2509,6 +2670,8 @@
                             \N_GlobalRests
                             \context Staff = "ViolaStaffVII"
                             \O_a_ViolaStaffVII
+                            \context Staff = "ViolaStaffVII"
+                            \O_b_ViolaStaffVII
                         }
                         {
                             \context Staff = "ViolaStaffVIII"
@@ -2518,7 +2681,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Vle.
+                                        \center-column
+                                            {
+                                                Vle.
+                                                (15-16)
+                                            }
                                     }
                             }
                             \clef "alto"
@@ -2561,6 +2728,8 @@
                             \N_GlobalRests
                             \context Staff = "ViolaStaffVIII"
                             \O_a_ViolaStaffVIII
+                            \context Staff = "ViolaStaffVIII"
+                            \O_b_ViolaStaffVIII
                         }
                         {
                             \context Staff = "ViolaStaffIX"
@@ -2570,7 +2739,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Vle.
+                                        \center-column
+                                            {
+                                                Vle.
+                                                (17-18)
+                                            }
                                     }
                             }
                             \clef "alto"
@@ -2613,6 +2786,8 @@
                             \N_GlobalRests
                             \context Staff = "ViolaStaffIX"
                             \O_a_ViolaStaffIX
+                            \context Staff = "ViolaStaffIX"
+                            \O_b_ViolaStaffIX
                         }
                     >>
                     \context StaffGroup = "CelloSquareStaffGroup"
@@ -2663,6 +2838,8 @@
                             \N_CelloStaffI
                             \context Staff = "CelloStaffI"
                             \O_a_CelloStaffI
+                            \context Staff = "CelloStaffI"
+                            \O_b_CelloStaffI
                         }
                         {
                             \context Staff = "CelloStaffII"
@@ -2672,7 +2849,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Vc.
+                                        \center-column
+                                            {
+                                                Vc.
+                                                (3-4)
+                                            }
                                     }
                             }
                             \clef "bass"
@@ -2715,6 +2896,8 @@
                             \N_GlobalRests
                             \context Staff = "CelloStaffII"
                             \O_a_CelloStaffII
+                            \context Staff = "CelloStaffII"
+                            \O_b_CelloStaffII
                         }
                         {
                             \context Staff = "CelloStaffIII"
@@ -2724,7 +2907,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Vc.
+                                        \center-column
+                                            {
+                                                Vc.
+                                                (5-6)
+                                            }
                                     }
                             }
                             \clef "bass"
@@ -2767,6 +2954,8 @@
                             \N_GlobalRests
                             \context Staff = "CelloStaffIII"
                             \O_a_CelloStaffIII
+                            \context Staff = "CelloStaffIII"
+                            \O_b_CelloStaffIII
                         }
                         {
                             \context Staff = "CelloStaffIV"
@@ -2776,7 +2965,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Vc.
+                                        \center-column
+                                            {
+                                                Vc.
+                                                (7-8)
+                                            }
                                     }
                             }
                             \clef "bass"
@@ -2819,6 +3012,8 @@
                             \N_GlobalRests
                             \context Staff = "CelloStaffIV"
                             \O_a_CelloStaffIV
+                            \context Staff = "CelloStaffIV"
+                            \O_b_CelloStaffIV
                         }
                         {
                             \context Staff = "CelloStaffV"
@@ -2828,7 +3023,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Vc.
+                                        \center-column
+                                            {
+                                                Vc.
+                                                (9-10)
+                                            }
                                     }
                             }
                             \clef "bass"
@@ -2871,6 +3070,8 @@
                             \N_GlobalRests
                             \context Staff = "CelloStaffV"
                             \O_a_CelloStaffV
+                            \context Staff = "CelloStaffV"
+                            \O_b_CelloStaffV
                         }
                         {
                             \context Staff = "CelloStaffVI"
@@ -2880,7 +3081,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Vc.
+                                        \center-column
+                                            {
+                                                Vc.
+                                                (11-12)
+                                            }
                                     }
                             }
                             \clef "bass"
@@ -2923,6 +3128,8 @@
                             \N_GlobalRests
                             \context Staff = "CelloStaffVI"
                             \O_a_CelloStaffVI
+                            \context Staff = "CelloStaffVI"
+                            \O_b_CelloStaffVI
                         }
                         {
                             \context Staff = "CelloStaffVII"
@@ -2932,7 +3139,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Vc.
+                                        \center-column
+                                            {
+                                                Vc.
+                                                (13-14)
+                                            }
                                     }
                             }
                             \clef "bass"
@@ -2975,6 +3186,8 @@
                             \N_GlobalRests
                             \context Staff = "CelloStaffVII"
                             \O_a_CelloStaffVII
+                            \context Staff = "CelloStaffVII"
+                            \O_b_CelloStaffVII
                         }
                     >>
                     \context StaffGroup = "ContrabassSquareStaffGroup"
@@ -3038,6 +3251,8 @@
                             \N_GlobalRests
                             \context Staff = "ContrabassStaffI"
                             \O_a_ContrabassStaffI
+                            \context Staff = "ContrabassStaffI"
+                            \O_b_ContrabassStaffI
                         }
                         {
                             \context Staff = "ContrabassStaffII"
@@ -3090,6 +3305,8 @@
                             \N_ContrabassStaffII
                             \context Staff = "ContrabassStaffII"
                             \O_a_ContrabassStaffII
+                            \context Staff = "ContrabassStaffII"
+                            \O_b_ContrabassStaffII
                         }
                         {
                             \context Staff = "ContrabassStaffIII"
@@ -3099,7 +3316,11 @@
                                 \markup {
                                     \hcenter-in
                                         #16
-                                        Cb.
+                                        \center-column
+                                            {
+                                                Cb.
+                                                (5-6)
+                                            }
                                     }
                             }
                             \clef "bass"
@@ -3142,6 +3363,8 @@
                             \N_GlobalRests
                             \context Staff = "ContrabassStaffIII"
                             \O_a_ContrabassStaffIII
+                            \context Staff = "ContrabassStaffIII"
+                            \O_b_ContrabassStaffIII
                         }
                     >>
                 >>
