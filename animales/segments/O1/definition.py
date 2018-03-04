@@ -70,10 +70,10 @@ maker = baca.SegmentMaker(
             ],
         ),
     #time_signatures=animales.time_signatures[start: start + 4],
-    time_signatures=[(4, 4)],
+    time_signatures=[(4, 4), (4, 4)],
     transpose_score=True,
     #validate_measure_count=4,
-    validate_measure_count=1,
+    validate_measure_count=2,
     )
 
 maker(
@@ -122,10 +122,17 @@ for section, members in section_to_members.items():
                 polyphony = lower_voice()
             else:
                 polyphony = upper_voice()
-        maker(
-            baca.scope(voice, (1, -1)),
-            animales.clb_rhythm(section, member),
+        commands = [
+            animales.clb_rhythm(section, member, density=1),
             animales.parts(section, member),
             baca.staff_lines(2),
             polyphony,
+            ]
+        #if member % 2 == 1:
+        #    string = ''
+        #    margin_markup = animales.margin_markup(string)
+        #    commands.append(margin_markup)
+        maker(
+            baca.scope(voice, (1, -1)),
+            *commands,
             )

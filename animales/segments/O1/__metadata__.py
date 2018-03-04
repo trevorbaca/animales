@@ -144,7 +144,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -154,7 +154,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -164,7 +164,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -174,7 +174,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 9),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -184,7 +184,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -194,7 +194,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 8),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -204,7 +204,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 7),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -214,7 +214,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -224,7 +224,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 5),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -234,7 +234,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 13),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -244,7 +244,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 12),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -254,7 +254,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 14),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -264,7 +264,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 11),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -274,7 +274,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 10),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -284,7 +284,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Contrabass', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -294,7 +294,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Contrabass', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -304,7 +304,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Contrabass', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -314,7 +314,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Contrabass', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -324,7 +324,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Contrabass', 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -334,7 +334,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Contrabass', 5),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -344,7 +344,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -354,7 +354,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -364,7 +364,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -374,7 +374,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 9),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -384,7 +384,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -394,7 +394,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 8),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -404,7 +404,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 7),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -414,7 +414,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -424,7 +424,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 5),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -434,7 +434,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 13),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -444,7 +444,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 12),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -454,7 +454,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 14),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -464,7 +464,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 11),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -474,7 +474,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 18),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -484,7 +484,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 17),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -494,7 +494,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 16),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -504,7 +504,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 15),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -514,7 +514,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 10),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -524,7 +524,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -534,7 +534,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -544,7 +544,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -554,7 +554,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 9),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -564,7 +564,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -574,7 +574,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 8),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -584,7 +584,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 7),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -594,7 +594,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -604,7 +604,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 5),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -614,7 +614,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 13),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -624,7 +624,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 12),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -634,7 +634,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 14),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -644,7 +644,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 11),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -654,7 +654,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 18),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -664,7 +664,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 17),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -674,7 +674,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 16),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -684,7 +684,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 15),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -694,7 +694,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 10),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -704,7 +704,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -714,7 +714,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -724,7 +724,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -734,7 +734,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 9),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -744,7 +744,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -754,7 +754,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 8),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -764,7 +764,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 7),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -774,7 +774,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -784,7 +784,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 5),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -794,7 +794,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 13),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -804,7 +804,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 12),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -814,7 +814,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 14),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -824,7 +824,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 11),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -834,7 +834,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 18),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -844,7 +844,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 17),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -854,7 +854,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 16),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -864,7 +864,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 15),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
@@ -874,14 +874,14 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 10),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(1, 1),
+                                stop_offset=abjad.Offset(2, 1),
                                 ),
                             ),
                         ),
                     ]
                 ),
             ),
-        ('duration', "0'03''"),
+        ('duration', "0'06''"),
         (
             'fermata_measure_numbers',
             [121, 126],
@@ -922,7 +922,7 @@ metadata = abjad.OrderedDict(
             ),
         ('first_measure_number', 131),
         ('last_measure_is_fermata', True),
-        ('last_measure_number', 131),
+        ('last_measure_number', 132),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -2835,10 +2835,10 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('start_clock_time', "4'18''"),
-        ('stop_clock_time', "4'21''"),
+        ('stop_clock_time', "4'24''"),
         (
             'time_signatures',
-            ['4/4'],
+            ['4/4', '4/4'],
             ),
         (
             'voice_metadata',
@@ -2852,10 +2852,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -2870,10 +2870,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 11),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -2888,10 +2888,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -2906,10 +2906,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -2924,10 +2924,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 10),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -2942,10 +2942,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -2960,10 +2960,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -2978,10 +2978,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -2996,10 +2996,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3014,10 +3014,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 15),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3032,10 +3032,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 15),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3050,10 +3050,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3068,10 +3068,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3086,10 +3086,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 11),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3104,10 +3104,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3122,10 +3122,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3140,10 +3140,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 15),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3158,10 +3158,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3176,10 +3176,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3194,10 +3194,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 10),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3212,10 +3212,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 10),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3230,10 +3230,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3248,10 +3248,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3266,10 +3266,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3284,10 +3284,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3302,10 +3302,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3320,10 +3320,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 11),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3338,10 +3338,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 11),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3356,10 +3356,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3374,10 +3374,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 11),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3392,10 +3392,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 9),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3410,10 +3410,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3428,10 +3428,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3446,10 +3446,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3464,10 +3464,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3482,10 +3482,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3500,10 +3500,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 15),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3518,10 +3518,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3536,10 +3536,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3554,10 +3554,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3572,10 +3572,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3590,10 +3590,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3608,10 +3608,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3626,10 +3626,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3644,10 +3644,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3662,10 +3662,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3680,10 +3680,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 10),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3698,10 +3698,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3716,10 +3716,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3734,10 +3734,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3752,10 +3752,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 11),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3770,10 +3770,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3788,10 +3788,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3806,10 +3806,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 15),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3824,10 +3824,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3842,10 +3842,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3860,10 +3860,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 10),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3878,10 +3878,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 10),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3896,10 +3896,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3914,10 +3914,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3932,10 +3932,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3950,10 +3950,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3968,10 +3968,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -3986,10 +3986,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 11),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -4004,10 +4004,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 11),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -4022,10 +4022,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -4040,10 +4040,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -4058,10 +4058,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 11),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -4076,10 +4076,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -4094,10 +4094,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -4112,10 +4112,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -4130,10 +4130,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 13),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -4148,10 +4148,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 12),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
@@ -4166,10 +4166,10 @@ metadata = abjad.OrderedDict(
                                     'RHYTHM',
                                     abjad.OrderedDict(
                                         [
-                                            ('divisions_consumed', 4),
-                                            ('logical_ties_produced', 16),
+                                            ('divisions_consumed', 8),
+                                            ('logical_ties_produced', 14),
                                             ('name', 'clb_rhythm'),
-                                            ('talea_weight_consumed', 16),
+                                            ('talea_weight_consumed', 32),
                                             ]
                                         ),
                                     ),
