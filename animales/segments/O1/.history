@@ -2288,3 +2288,38 @@ LilyPond runtime: 2 seconds
 Segment-maker runtime: 16 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
+
+2018-03-04 11:36:07
+Segment-maker runtime: 16 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-04 11:37:10
+Segment-maker runtime: 17 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-04 11:38:33
+Segment-maker runtime: 17 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-04 11:43:36
+Segment-maker runtime: 19 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-04 11:45:05
+Segment-maker runtime: 19 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-04 11:47:14
+Segment-maker runtime: 20 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-04 11:49:56
+Segment-maker runtime: 19 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second

@@ -1592,9 +1592,9 @@ A_a_PercussionStaffII = {
 }
 
 
-A_a_FirstViolinVoiceIII_a = {
+A_a_FirstViolinVoiceII_a = {
     
-    % [A1 FirstViolinVoiceIII measure 20]                %! SM4
+    % [A1 FirstViolinVoiceII measure 20]                 %! SM4
     \override DynamicLineSpanner.direction = #up         %! OC1:-PARTS
     \voiceOne                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -1632,7 +1632,7 @@ A_a_FirstViolinVoiceIII_a = {
     a'4
     \glissando                                           %! SC
     
-    % [A1 FirstViolinVoiceIII measure 21]                %! SM4
+    % [A1 FirstViolinVoiceII measure 21]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d'''8
     \f                                                   %! HC1
@@ -1654,7 +1654,7 @@ A_a_FirstViolinVoiceIII_a = {
     ]
     \glissando                                           %! SC
     
-    % [A1 FirstViolinVoiceIII measure 22]                %! SM4
+    % [A1 FirstViolinVoiceII measure 22]                 %! SM4
     c'''8
     \glissando                                           %! SC
     [
@@ -1677,7 +1677,7 @@ A_a_FirstViolinVoiceIII_a = {
     \>                                                   %! HC1
     \f                                                   %! HC1
     
-    % [A1 FirstViolinVoiceIII measure 23]                %! SM4
+    % [A1 FirstViolinVoiceII measure 23]                 %! SM4
     a'''4
     \glissando                                           %! SC
     
@@ -1692,14 +1692,14 @@ A_a_FirstViolinVoiceIII_a = {
 }
 
 
-A_a_FirstViolinVoiceIII = {
+A_a_FirstViolinVoiceII = {
     
-    % [A1 FirstViolinVoiceIII measure 18]                    %! SM4
+    % [A1 FirstViolinVoiceII measure 18]                     %! SM4
     R1 * 1
     
-    % [A1 FirstViolinVoiceIII measure 19]                    %! SM4
+    % [A1 FirstViolinVoiceII measure 19]                     %! SM4
     R1 * 1
-    \A_a_FirstViolinVoiceIII_a
+    \A_a_FirstViolinVoiceII_a
 }
 
 
@@ -1834,16 +1834,16 @@ A_a_FirstViolinVoiceI = {
 
 
 A_a_FirstViolinStaffI = <<
-    \context Voice = "FirstViolinVoiceIII"
-    \A_a_FirstViolinVoiceIII
+    \context Voice = "FirstViolinVoiceII"
+    \A_a_FirstViolinVoiceII
     \context Voice = "FirstViolinVoiceI"
     \A_a_FirstViolinVoiceI
 >>
 
 
-A_a_FirstViolinVoiceII_a = {
+A_a_FirstViolinVoiceIII_a = {
     
-    % [A1 FirstViolinVoiceII measure 18]                 %! SM4
+    % [A1 FirstViolinVoiceIII measure 18]                %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1915,14 +1915,14 @@ A_a_FirstViolinVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [A1 FirstViolinVoiceII measure 19]                 %! SM4
+    % [A1 FirstViolinVoiceIII measure 19]                %! SM4
     df'2
     \repeatTie
     
     df'2
     -\accent                                             %! IC
     
-    % [A1 FirstViolinVoiceII measure 20]                 %! SM4
+    % [A1 FirstViolinVoiceIII measure 20]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
@@ -1934,29 +1934,29 @@ A_a_FirstViolinVoiceII_a = {
 %%%     }                                                %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
-    % [A1 FirstViolinVoiceII measure 21]                 %! SM4
+    % [A1 FirstViolinVoiceIII measure 21]                %! SM4
     c'1
     \repeatTie
     
-    % [A1 FirstViolinVoiceII measure 22]                 %! SM4
+    % [A1 FirstViolinVoiceIII measure 22]                %! SM4
     c'1
     \repeatTie
     
-    % [A1 FirstViolinVoiceII measure 23]                 %! SM4
+    % [A1 FirstViolinVoiceIII measure 23]                %! SM4
     c'2.
     \repeatTie
     
 }
 
 
-A_a_FirstViolinVoiceII = {
-    \A_a_FirstViolinVoiceII_a
+A_a_FirstViolinVoiceIII = {
+    \A_a_FirstViolinVoiceIII_a
 }
 
 
 A_a_FirstViolinStaffII = {
-    \context Voice = "FirstViolinVoiceII"
-    \A_a_FirstViolinVoiceII
+    \context Voice = "FirstViolinVoiceIII"
+    \A_a_FirstViolinVoiceIII
 }
 
 
@@ -2079,9 +2079,9 @@ A_a_SecondViolinStaffI = {
 }
 
 
-A_a_SecondViolinVoiceII_a = {
+A_a_SecondViolinVoiceIII_a = {
     
-    % [A1 SecondViolinVoiceII measure 18]                %! SM4
+    % [A1 SecondViolinVoiceIII measure 18]               %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -2153,11 +2153,11 @@ A_a_SecondViolinVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    % [A1 SecondViolinVoiceII measure 19]                %! SM4
+    % [A1 SecondViolinVoiceIII measure 19]               %! SM4
     df'1
     \repeatTie
     
-    % [A1 SecondViolinVoiceII measure 20]                %! SM4
+    % [A1 SecondViolinVoiceIII measure 20]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
@@ -2169,29 +2169,29 @@ A_a_SecondViolinVoiceII_a = {
 %%%     }                                                %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
-    % [A1 SecondViolinVoiceII measure 21]                %! SM4
+    % [A1 SecondViolinVoiceIII measure 21]               %! SM4
     c'1
     \repeatTie
     
-    % [A1 SecondViolinVoiceII measure 22]                %! SM4
+    % [A1 SecondViolinVoiceIII measure 22]               %! SM4
     c'1
     \repeatTie
     
-    % [A1 SecondViolinVoiceII measure 23]                %! SM4
+    % [A1 SecondViolinVoiceIII measure 23]               %! SM4
     c'2.
     \repeatTie
     
 }
 
 
-A_a_SecondViolinVoiceII = {
-    \A_a_SecondViolinVoiceII_a
+A_a_SecondViolinVoiceIII = {
+    \A_a_SecondViolinVoiceIII_a
 }
 
 
 A_a_SecondViolinStaffII = {
-    \context Voice = "SecondViolinVoiceII"
-    \A_a_SecondViolinVoiceII
+    \context Voice = "SecondViolinVoiceIII"
+    \A_a_SecondViolinVoiceIII
 }
 
 
@@ -2319,9 +2319,9 @@ A_a_ViolaStaffI = {
 }
 
 
-A_a_ViolaVoiceII_a = {
+A_a_ViolaVoiceIII_a = {
     
-    % [A1 ViolaVoiceII measure 18]                       %! SM4
+    % [A1 ViolaVoiceIII measure 18]                      %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -2396,11 +2396,11 @@ A_a_ViolaVoiceII_a = {
     df'2
     -\accent                                             %! IC
     
-    % [A1 ViolaVoiceII measure 19]                       %! SM4
+    % [A1 ViolaVoiceIII measure 19]                      %! SM4
     df'1
     \repeatTie
     
-    % [A1 ViolaVoiceII measure 20]                       %! SM4
+    % [A1 ViolaVoiceIII measure 20]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
@@ -2412,29 +2412,29 @@ A_a_ViolaVoiceII_a = {
 %%%     }                                                %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
-    % [A1 ViolaVoiceII measure 21]                       %! SM4
+    % [A1 ViolaVoiceIII measure 21]                      %! SM4
     c'1
     \repeatTie
     
-    % [A1 ViolaVoiceII measure 22]                       %! SM4
+    % [A1 ViolaVoiceIII measure 22]                      %! SM4
     c'1
     \repeatTie
     
-    % [A1 ViolaVoiceII measure 23]                       %! SM4
+    % [A1 ViolaVoiceIII measure 23]                      %! SM4
     c'2.
     \repeatTie
     
 }
 
 
-A_a_ViolaVoiceII = {
-    \A_a_ViolaVoiceII_a
+A_a_ViolaVoiceIII = {
+    \A_a_ViolaVoiceIII_a
 }
 
 
 A_a_ViolaStaffII = {
-    \context Voice = "ViolaVoiceII"
-    \A_a_ViolaVoiceII
+    \context Voice = "ViolaVoiceIII"
+    \A_a_ViolaVoiceIII
 }
 
 

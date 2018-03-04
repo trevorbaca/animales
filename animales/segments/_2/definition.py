@@ -21,15 +21,15 @@ maker = baca.SegmentMaker(
     score_template=animales.ScoreTemplate(
         first_violins=[
             (1, [1]),
-            (2, [2]),
+            (2, [3]),
             ],
         second_violins=[
             (1, [1]),
-            (2, [2]),
+            (2, [3]),
             ],
         violas=[
             (1, [1]),
-            (2, [2]),
+            (2, [3]),
             ],
         cellos=[
             (1, [1]),
@@ -47,7 +47,7 @@ maker(
     )
 
 maker(
-    baca.scope('FirstViolinVoiceII', 'all'),
+    baca.scope('FirstViolinVoiceIII', 'all'),
     animales.parts('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
     )
@@ -59,7 +59,7 @@ maker(
     )
 
 maker(
-    baca.scope('SecondViolinVoiceII', 'all'),
+    baca.scope('SecondViolinVoiceIII', 'all'),
     animales.parts('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
     )
@@ -71,7 +71,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaVoiceII', 'all'),
+    baca.scope('ViolaVoiceIII', 'all'),
     animales.parts('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
     )
@@ -84,11 +84,11 @@ maker(
 
 strings = [
     'FirstViolinVoiceI',
-    'FirstViolinVoiceII',
+    'FirstViolinVoiceIII',
     'SecondViolinVoiceI',
-    'SecondViolinVoiceII',
+    'SecondViolinVoiceIII',
     'ViolaVoiceI',
-    'ViolaVoiceII',
+    'ViolaVoiceIII',
     'CelloVoiceI',
     ]
 
@@ -120,15 +120,15 @@ maker(
     )
     
 raised_trill = [
-    'FirstViolinVoiceII',
-    'SecondViolinVoiceII',
+    'FirstViolinVoiceIII',
+    'SecondViolinVoiceIII',
     ]
 
 unraised_trill = [
     'FirstViolinVoiceI',
     'SecondViolinVoiceI',
     'ViolaVoiceI',
-    'ViolaVoiceII',
+    'ViolaVoiceIII',
     'CelloVoiceI',
     ]
 

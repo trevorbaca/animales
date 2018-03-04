@@ -1669,8 +1669,8 @@ J_FirstViolinVoiceIII_a = {
     
     % [J FirstViolinVoiceIII measure 82]                     %! SM4
     \override DynamicLineSpanner.direction = #up             %! OC1:-PARTS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \voiceOne                                                %! IC:-PARTS
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'4
     \glissando                                               %! SC
     \<                                                       %! HC1

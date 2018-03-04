@@ -22,8 +22,8 @@ maker = baca.SegmentMaker(
     print_timings=True,
     score_template=animales.ScoreTemplate(
         first_violins=[
-            (1, [1, 3]),
-            (2, [2, 4]),
+            (1, [1, 2]),
+            (2, [3, 4]),
             (3, [5, 6]),
             (4, [7, 8]),
             (5, [9, 10]),
@@ -33,8 +33,8 @@ maker = baca.SegmentMaker(
             (9, [17, 18]),
             ],
         second_violins=[
-            (1, [1, 3]),
-            (2, [2, 4]),
+            (1, [1, 2]),
+            (2, [3, 4]),
             (3, [5, 6]),
             (4, [7, 8]),
             (5, [9, 10]),
@@ -44,8 +44,8 @@ maker = baca.SegmentMaker(
             (9, [17, 18]),
             ],
         violas=[
-            (1, [1, 3]),
-            (2, [2, 4]),
+            (1, [1, 2]),
+            (2, [3, 4]),
             (3, [5, 6]),
             (4, [7, 8]),
             (5, [9, 10]),
@@ -91,6 +91,14 @@ section_to_members = {
     'Contrabass': 6,
     }
 
+section_to_abbreviation = {
+    'FirstViolin': 'Vni. I',
+    'SecondViolin': 'Vni. II',
+    'Viola': 'Vle.',
+    'Cello': 'Vc.',
+    'Contrabass': 'Cb.',
+    }
+
 def upper_voice():
     return baca.suite([
         baca.not_parts(baca.voice_one()),
@@ -108,30 +116,22 @@ for section, members in section_to_members.items():
         numeral = roman.toRoman(member)
         numeral = str(numeral).upper()
         voice = f'{section}Voice{numeral}'
-        if section in ('FirstViolin', 'SecondViolin', 'Viola'):
-            if member == 2:
-                polyphony = upper_voice()
-            elif member == 3:
-                polyphony = lower_voice()
-            elif member % 2 == 0:
-                polyphony = lower_voice()
-            else:
-                polyphony = upper_voice()
+        if member % 2 == 0:
+            polyphony = lower_voice()
         else:
-            if member % 2 == 0:
-                polyphony = lower_voice()
-            else:
-                polyphony = upper_voice()
+            polyphony = upper_voice()
         commands = [
             animales.clb_rhythm(section, member, density=1),
             animales.parts(section, member),
             baca.staff_lines(2),
             polyphony,
             ]
-        #if member % 2 == 1:
-        #    string = ''
-        #    margin_markup = animales.margin_markup(string)
-        #    commands.append(margin_markup)
+        if member % 2 == 1:
+            #commands.append(baca.clef('percussion')),
+            abbreviation = section_to_abbreviation[section]
+            key = f'{abbreviation} ({member}-{member+1})'
+            margin_markup = animales.margin_markup(key)
+            commands.append(margin_markup)
         maker(
             baca.scope(voice, (1, -1)),
             *commands,

@@ -42,17 +42,17 @@ maker = baca.SegmentMaker(
             (2, [2, 4]),
             ],
         first_violins=[
-            (1, [1, 3]),
-            (2, [2, 4]),
+            (1, [1, 2]),
+            (2, [3, 4]),
             (3, [5]),
             ],
         second_violins=[
-            (1, [1, 3]),
-            (2, [2, 4]),
+            (1, [1, 2]),
+            (2, [3, 4]),
             ],
         violas=[
-            (1, [1, 3]),
-            (2, [2, 4]),
+            (1, [1, 2]),
+            (2, [3, 4]),
             ],
         cellos=[
             (1, [1, 2]),
@@ -74,11 +74,10 @@ maker(
 # double reeds
 
 def swell():
-    return baca.piecewise(
-        abjad.Hairpin(),
-        baca.dynamics('niente f niente'),
-        baca.leaves().enchain([3, 5]),
+    return baca.enchained_hairpin(
+        *baca.dynamics('niente f niente'),
         bookend=True,
+        selector=baca.leaves().enchain([3, 5]),
         )
 
 # oboes
@@ -336,7 +335,7 @@ maker(
     )
 
 maker(
-    baca.scope('FirstViolinVoiceIII', 'all'),
+    baca.scope('FirstViolinVoiceII', 'all'),
     animales.parts('FirstViolin', (5, 8)),
     baca.make_repeat_tied_notes(),
     baca.pitch('F5'),
@@ -345,7 +344,7 @@ maker(
     )
 
 maker(
-    baca.scope('FirstViolinVoiceII', 'all'),
+    baca.scope('FirstViolinVoiceIII', 'all'),
     animales.parts('FirstViolin', (9, 12)),
     baca.make_repeat_tied_notes(),
     baca.pitch('G5'),
@@ -374,7 +373,7 @@ maker(
     )
 
 maker(
-    baca.scope('SecondViolinVoiceIII', 'all'),
+    baca.scope('SecondViolinVoiceII', 'all'),
     animales.parts('SecondViolin', (5, 8)),
     baca.make_repeat_tied_notes(),
     baca.pitch('G4'),
@@ -383,7 +382,7 @@ maker(
     )
 
 maker(
-    baca.scope('SecondViolinVoiceII', 'all'),
+    baca.scope('SecondViolinVoiceIII', 'all'),
     animales.parts('SecondViolin', (9, 12)),
     baca.make_repeat_tied_notes(),
     baca.pitch('A4'),
@@ -412,7 +411,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaVoiceIII', 'all'),
+    baca.scope('ViolaVoiceII', 'all'),
     animales.parts('Viola', (5, 8)),
     baca.make_repeat_tied_notes(),
     baca.pitch('A3'),
@@ -421,7 +420,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaVoiceII', 'all'),
+    baca.scope('ViolaVoiceIII', 'all'),
     animales.parts('Viola', (9, 12)),
     baca.make_repeat_tied_notes(),
     baca.pitch('B3'),

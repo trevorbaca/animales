@@ -221,3 +221,18 @@ for abbreviation, count in [
         key = f'{abbreviation} {n}'
         value = _make_margin_markup([abbreviation, str(n)])
         margin_markups[key] = value
+
+for abbreviation, count in [
+    ('Vni. I', 18),
+    ('Vni. II', 18),
+    ('Vle.', 18),
+    ('Vc.', 14),
+    ('Cb.', 6),
+    ]:
+    for n in range(1, count + 1):
+        if n % 2 == 0:
+            continue
+        range_ = f'({n}-{n+1})'
+        key = f'{abbreviation} {range_}'
+        value = _make_margin_markup([abbreviation, range_])
+        margin_markups[key] = value
