@@ -13,6 +13,7 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get('last_measure_number')
 assert start == 130
 
+time_signatures = animales.time_signatures[start: start + 4]
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -69,11 +70,9 @@ maker = baca.SegmentMaker(
             (3, [5, 6]),
             ],
         ),
-    #time_signatures=animales.time_signatures[start: start + 4],
-    time_signatures=[(4, 4), (4, 4)],
+    time_signatures=time_signatures,
     transpose_score=True,
-    #validate_measure_count=4,
-    validate_measure_count=2,
+    validate_measure_count=4,
     )
 
 maker(
@@ -111,13 +110,17 @@ def lower_voice():
         baca.staff_position(-1),
         ])
 
+duration = sum([_.duration for _ in time_signatures])
+wrap = duration.with_denominator(16).numerator
 for section, members in section_to_members.items():
     for member in range(1, members + 1):
         commands = []
         numeral = roman.toRoman(member)
         numeral = str(numeral).upper()
         voice = f'{section}Voice{numeral}'
-        commands.append(animales.clb_rhythm(section, member, density=1))
+        commands.append(
+            animales.clb_rhythm(section, member, series=1, wrap=wrap)
+            )
         commands.append(animales.parts(section, member))
         if member % 2 == 0:
             polyphony = lower_voice()
