@@ -64,6 +64,8 @@ maker(
 
 # percussion
 
+# triangle
+
 maker(
     baca.scope('PercussionVoiceI', 'all'),
     animales.parts('Percussion', 1),
@@ -73,6 +75,8 @@ maker(
     baca.repeat_ties_up(),
     baca.stem_tremolo(),
     )
+
+# cymbal
 
 maker(
     baca.scope('PercussionVoiceII', 'all'),
