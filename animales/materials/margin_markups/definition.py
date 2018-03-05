@@ -97,6 +97,10 @@ margin_markups = abjad.OrderedDict([
         _make_margin_markup('Perc. 3 (vib.)'),
         ),
     (
+        'Perc. 4 (tam.)',
+        _make_margin_markup('Perc. 4 (tam.)'),
+        ),
+    (
         'Pf.',
         _make_margin_markup('Pf.'),
         ),
