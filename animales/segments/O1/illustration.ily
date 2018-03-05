@@ -9,9 +9,6 @@ O_a_GlobalRests = {
     % [O1 GlobalRests measure 133]                                       %! SM4
     R1 * 1
     
-    % [O1 GlobalRests measure 134]                                       %! SM4
-    R1 * 1
-    
 }
 
 
@@ -158,6 +155,7 @@ O_a_GlobalSkips = {
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
 %%% \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -192,48 +190,6 @@ O_a_GlobalSkips = {
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
             %@%                 [4'22'']                                 %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [O1 GlobalSkips measure 134]                                       %! SM4
-%%% \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (134)                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
-            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 <3>                                      %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [O1.4]                                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
-            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [4'25'']                                 %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -329,9 +285,6 @@ O_a_FirstViolinVoiceI_a = {
     % [O1 FirstViolinVoiceI measure 133]                 %! SM4
     r1
     
-    % [O1 FirstViolinVoiceI measure 134]                 %! SM4
-    r1
-    
 }
 
 
@@ -352,9 +305,6 @@ O_a_FirstViolinVoiceII_a = {
     r2
     
     % [O1 FirstViolinVoiceII measure 133]                %! SM4
-    r1
-    
-    % [O1 FirstViolinVoiceII measure 134]                %! SM4
     r1
     
 }
@@ -457,9 +407,6 @@ O_a_FirstViolinVoiceIII_a = {
     % [O1 FirstViolinVoiceIII measure 133]               %! SM4
     r1
     
-    % [O1 FirstViolinVoiceIII measure 134]               %! SM4
-    r1
-    
 }
 
 
@@ -480,9 +427,6 @@ O_a_FirstViolinVoiceIV_a = {
     r2
     
     % [O1 FirstViolinVoiceIV measure 133]                %! SM4
-    r1
-    
-    % [O1 FirstViolinVoiceIV measure 134]                %! SM4
     r1
     
 }
@@ -585,9 +529,6 @@ O_a_FirstViolinVoiceV_a = {
     % [O1 FirstViolinVoiceV measure 133]                 %! SM4
     r1
     
-    % [O1 FirstViolinVoiceV measure 134]                 %! SM4
-    r1
-    
 }
 
 
@@ -606,10 +547,13 @@ O_a_FirstViolinVoiceVI_a = {
     r2
     
     % [O1 FirstViolinVoiceVI measure 133]                %! SM4
-    r1
+    r2
     
-    % [O1 FirstViolinVoiceVI measure 134]                %! SM4
-    r1
+    r8.
+    
+    b16
+    
+    r4
     
 }
 
@@ -697,9 +641,6 @@ O_a_FirstViolinVoiceVII_a = {
     % [O1 FirstViolinVoiceVII measure 133]               %! SM4
     r1
     
-    % [O1 FirstViolinVoiceVII measure 134]               %! SM4
-    r1
-    
 }
 
 
@@ -723,9 +664,6 @@ O_a_FirstViolinVoiceVIII_a = {
     r2
     
     % [O1 FirstViolinVoiceVIII measure 133]              %! SM4
-    r1
-    
-    % [O1 FirstViolinVoiceVIII measure 134]              %! SM4
     r1
     
 }
@@ -814,9 +752,6 @@ O_a_FirstViolinVoiceIX_a = {
     % [O1 FirstViolinVoiceIX measure 133]                %! SM4
     r1
     
-    % [O1 FirstViolinVoiceIX measure 134]                %! SM4
-    r1
-    
 }
 
 
@@ -840,9 +775,6 @@ O_a_FirstViolinVoiceX_a = {
     r2
     
     % [O1 FirstViolinVoiceX measure 133]                 %! SM4
-    r1
-    
-    % [O1 FirstViolinVoiceX measure 134]                 %! SM4
     r1
     
 }
@@ -931,9 +863,6 @@ O_a_FirstViolinVoiceXI_a = {
     % [O1 FirstViolinVoiceXI measure 133]                %! SM4
     r1
     
-    % [O1 FirstViolinVoiceXI measure 134]                %! SM4
-    r1
-    
 }
 
 
@@ -958,15 +887,6 @@ O_a_FirstViolinVoiceXII_a = {
     
     % [O1 FirstViolinVoiceXII measure 133]               %! SM4
     r1
-    
-    % [O1 FirstViolinVoiceXII measure 134]               %! SM4
-    r2.
-    
-    r16
-    
-    b16
-    
-    r8
     
 }
 
@@ -1054,9 +974,6 @@ O_a_FirstViolinVoiceXIII_a = {
     % [O1 FirstViolinVoiceXIII measure 133]              %! SM4
     r1
     
-    % [O1 FirstViolinVoiceXIII measure 134]              %! SM4
-    r1
-    
 }
 
 
@@ -1080,9 +997,6 @@ O_a_FirstViolinVoiceXIV_a = {
     r2
     
     % [O1 FirstViolinVoiceXIV measure 133]               %! SM4
-    r1
-    
-    % [O1 FirstViolinVoiceXIV measure 134]               %! SM4
     r1
     
 }
@@ -1136,7 +1050,7 @@ O_a_FirstViolinVoiceXV_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
-    r8.
+    r1
 %%% ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
 %%%     \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
 %%%         #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
@@ -1165,17 +1079,10 @@ O_a_FirstViolinVoiceXV_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    d'16
-    
-    r2.
-    
     % [O1 FirstViolinVoiceXV measure 132]                %! SM4
     r2
     
     % [O1 FirstViolinVoiceXV measure 133]                %! SM4
-    r1
-    
-    % [O1 FirstViolinVoiceXV measure 134]                %! SM4
     r1
     
 }
@@ -1201,9 +1108,6 @@ O_a_FirstViolinVoiceXVI_a = {
     r2
     
     % [O1 FirstViolinVoiceXVI measure 133]               %! SM4
-    r1
-    
-    % [O1 FirstViolinVoiceXVI measure 134]               %! SM4
     r1
     
 }
@@ -1292,9 +1196,6 @@ O_a_FirstViolinVoiceXVII_a = {
     % [O1 FirstViolinVoiceXVII measure 133]              %! SM4
     r1
     
-    % [O1 FirstViolinVoiceXVII measure 134]              %! SM4
-    r1
-    
 }
 
 
@@ -1318,16 +1219,11 @@ O_a_FirstViolinVoiceXVIII_a = {
     r2
     
     % [O1 FirstViolinVoiceXVIII measure 133]             %! SM4
-    r1
-    
-    % [O1 FirstViolinVoiceXVIII measure 134]             %! SM4
-    r2.
-    
-    r16
+    r8.
     
     b16
     
-    r8
+    r2.
     
 }
 
@@ -1429,9 +1325,6 @@ O_a_SecondViolinVoiceI_a = {
     % [O1 SecondViolinVoiceI measure 133]                %! SM4
     r1
     
-    % [O1 SecondViolinVoiceI measure 134]                %! SM4
-    r1
-    
 }
 
 
@@ -1452,9 +1345,6 @@ O_a_SecondViolinVoiceII_a = {
     r2
     
     % [O1 SecondViolinVoiceII measure 133]               %! SM4
-    r1
-    
-    % [O1 SecondViolinVoiceII measure 134]               %! SM4
     r1
     
 }
@@ -1555,10 +1445,17 @@ O_a_SecondViolinVoiceIII_a = {
     r2
     
     % [O1 SecondViolinVoiceIII measure 133]              %! SM4
-    r1
+    r2
+    \times 2/3 {
+        
+        r8
+        
+        d'8
+        
+        r8
+    }
     
-    % [O1 SecondViolinVoiceIII measure 134]              %! SM4
-    r1
+    r4
     
 }
 
@@ -1580,9 +1477,6 @@ O_a_SecondViolinVoiceIV_a = {
     r2
     
     % [O1 SecondViolinVoiceIV measure 133]               %! SM4
-    r1
-    
-    % [O1 SecondViolinVoiceIV measure 134]               %! SM4
     r1
     
 }
@@ -1671,9 +1565,6 @@ O_a_SecondViolinVoiceV_a = {
     % [O1 SecondViolinVoiceV measure 133]                %! SM4
     r1
     
-    % [O1 SecondViolinVoiceV measure 134]                %! SM4
-    r1
-    
 }
 
 
@@ -1694,12 +1585,11 @@ O_a_SecondViolinVoiceVI_a = {
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
     % [O1 SecondViolinVoiceVI measure 132]               %! SM4
-    r2
+    r4..
+    
+    b16
     
     % [O1 SecondViolinVoiceVI measure 133]               %! SM4
-    r1
-    
-    % [O1 SecondViolinVoiceVI measure 134]               %! SM4
     r1
     
 }
@@ -1788,9 +1678,6 @@ O_a_SecondViolinVoiceVII_a = {
     % [O1 SecondViolinVoiceVII measure 133]              %! SM4
     r1
     
-    % [O1 SecondViolinVoiceVII measure 134]              %! SM4
-    r1
-    
 }
 
 
@@ -1814,9 +1701,6 @@ O_a_SecondViolinVoiceVIII_a = {
     r2
     
     % [O1 SecondViolinVoiceVIII measure 133]             %! SM4
-    r1
-    
-    % [O1 SecondViolinVoiceVIII measure 134]             %! SM4
     r1
     
 }
@@ -1905,9 +1789,6 @@ O_a_SecondViolinVoiceIX_a = {
     % [O1 SecondViolinVoiceIX measure 133]               %! SM4
     r1
     
-    % [O1 SecondViolinVoiceIX measure 134]               %! SM4
-    r1
-    
 }
 
 
@@ -1931,9 +1812,6 @@ O_a_SecondViolinVoiceX_a = {
     r2
     
     % [O1 SecondViolinVoiceX measure 133]                %! SM4
-    r1
-    
-    % [O1 SecondViolinVoiceX measure 134]                %! SM4
     r1
     
 }
@@ -2022,9 +1900,6 @@ O_a_SecondViolinVoiceXI_a = {
     % [O1 SecondViolinVoiceXI measure 133]               %! SM4
     r1
     
-    % [O1 SecondViolinVoiceXI measure 134]               %! SM4
-    r1
-    
 }
 
 
@@ -2046,20 +1921,21 @@ O_a_SecondViolinVoiceXII_a = {
     
     % [O1 SecondViolinVoiceXII measure 132]              %! SM4
     r2
+    \times 2/3 {
+        
+        % [O1 SecondViolinVoiceXII measure 133]          %! SM4
+        r4
+        
+        b8
+    }
+    \times 2/3 {
+        
+        b8
+        
+        r4
+    }
     
-    % [O1 SecondViolinVoiceXII measure 133]              %! SM4
-    r1
-    
-    % [O1 SecondViolinVoiceXII measure 134]              %! SM4
     r2
-    
-    r8
-    
-    b16
-    
-    r16
-    
-    r4
     
 }
 
@@ -2147,9 +2023,6 @@ O_a_SecondViolinVoiceXIII_a = {
     % [O1 SecondViolinVoiceXIII measure 133]             %! SM4
     r1
     
-    % [O1 SecondViolinVoiceXIII measure 134]             %! SM4
-    r1
-    
 }
 
 
@@ -2173,9 +2046,6 @@ O_a_SecondViolinVoiceXIV_a = {
     r2
     
     % [O1 SecondViolinVoiceXIV measure 133]              %! SM4
-    r1
-    
-    % [O1 SecondViolinVoiceXIV measure 134]              %! SM4
     r1
     
 }
@@ -2229,7 +2099,7 @@ O_a_SecondViolinVoiceXV_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
-    d'16
+    r1
 %%% ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
 %%%     \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
 %%%         #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
@@ -2258,15 +2128,10 @@ O_a_SecondViolinVoiceXV_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    r2...
-    
     % [O1 SecondViolinVoiceXV measure 132]               %! SM4
     r2
     
     % [O1 SecondViolinVoiceXV measure 133]               %! SM4
-    r1
-    
-    % [O1 SecondViolinVoiceXV measure 134]               %! SM4
     r1
     
 }
@@ -2292,9 +2157,6 @@ O_a_SecondViolinVoiceXVI_a = {
     r2
     
     % [O1 SecondViolinVoiceXVI measure 133]              %! SM4
-    r1
-    
-    % [O1 SecondViolinVoiceXVI measure 134]              %! SM4
     r1
     
 }
@@ -2383,9 +2245,6 @@ O_a_SecondViolinVoiceXVII_a = {
     % [O1 SecondViolinVoiceXVII measure 133]             %! SM4
     r1
     
-    % [O1 SecondViolinVoiceXVII measure 134]             %! SM4
-    r1
-    
 }
 
 
@@ -2410,17 +2269,6 @@ O_a_SecondViolinVoiceXVIII_a = {
     
     % [O1 SecondViolinVoiceXVIII measure 133]            %! SM4
     r1
-    
-    % [O1 SecondViolinVoiceXVIII measure 134]            %! SM4
-    r2
-    
-    r8
-    
-    b16
-    
-    r16
-    
-    r4
     
 }
 
@@ -2522,9 +2370,6 @@ O_a_ViolaVoiceI_a = {
     % [O1 ViolaVoiceI measure 133]                       %! SM4
     r1
     
-    % [O1 ViolaVoiceI measure 134]                       %! SM4
-    r1
-    
 }
 
 
@@ -2545,9 +2390,6 @@ O_a_ViolaVoiceII_a = {
     r2
     
     % [O1 ViolaVoiceII measure 133]                      %! SM4
-    r1
-    
-    % [O1 ViolaVoiceII measure 134]                      %! SM4
     r1
     
 }
@@ -2650,9 +2492,6 @@ O_a_ViolaVoiceIII_a = {
     % [O1 ViolaVoiceIII measure 133]                     %! SM4
     r1
     
-    % [O1 ViolaVoiceIII measure 134]                     %! SM4
-    r1
-    
 }
 
 
@@ -2673,9 +2512,6 @@ O_a_ViolaVoiceIV_a = {
     r2
     
     % [O1 ViolaVoiceIV measure 133]                      %! SM4
-    r1
-    
-    % [O1 ViolaVoiceIV measure 134]                      %! SM4
     r1
     
 }
@@ -2764,9 +2600,6 @@ O_a_ViolaVoiceV_a = {
     % [O1 ViolaVoiceV measure 133]                       %! SM4
     r1
     
-    % [O1 ViolaVoiceV measure 134]                       %! SM4
-    r1
-    
 }
 
 
@@ -2779,20 +2612,27 @@ O_a_ViolaVoiceVI_a = {
     
     % [O1 ViolaVoiceVI measure 131]                      %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r1
+    r2
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%         #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%         (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
+    r8
+    
+    b16
+    [
+    
+    b16
+    ]
+    
+    r4
+    
     % [O1 ViolaVoiceVI measure 132]                      %! SM4
     r2
     
     % [O1 ViolaVoiceVI measure 133]                      %! SM4
-    r1
-    
-    % [O1 ViolaVoiceVI measure 134]                      %! SM4
     r1
     
 }
@@ -2881,9 +2721,6 @@ O_a_ViolaVoiceVII_a = {
     % [O1 ViolaVoiceVII measure 133]                     %! SM4
     r1
     
-    % [O1 ViolaVoiceVII measure 134]                     %! SM4
-    r1
-    
 }
 
 
@@ -2907,9 +2744,6 @@ O_a_ViolaVoiceVIII_a = {
     r2
     
     % [O1 ViolaVoiceVIII measure 133]                    %! SM4
-    r1
-    
-    % [O1 ViolaVoiceVIII measure 134]                    %! SM4
     r1
     
 }
@@ -2998,9 +2832,6 @@ O_a_ViolaVoiceIX_a = {
     % [O1 ViolaVoiceIX measure 133]                      %! SM4
     r1
     
-    % [O1 ViolaVoiceIX measure 134]                      %! SM4
-    r1
-    
 }
 
 
@@ -3024,9 +2855,6 @@ O_a_ViolaVoiceX_a = {
     r2
     
     % [O1 ViolaVoiceX measure 133]                       %! SM4
-    r1
-    
-    % [O1 ViolaVoiceX measure 134]                       %! SM4
     r1
     
 }
@@ -3115,9 +2943,6 @@ O_a_ViolaVoiceXI_a = {
     % [O1 ViolaVoiceXI measure 133]                      %! SM4
     r1
     
-    % [O1 ViolaVoiceXI measure 134]                      %! SM4
-    r1
-    
 }
 
 
@@ -3130,25 +2955,26 @@ O_a_ViolaVoiceXII_a = {
     
     % [O1 ViolaVoiceXII measure 131]                     %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r1
+    r2
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%         #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%         (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    \times 2/3 {
+        
+        r4
+        
+        b8
+    }
+    
+    r4
     
     % [O1 ViolaVoiceXII measure 132]                     %! SM4
     r2
     
     % [O1 ViolaVoiceXII measure 133]                     %! SM4
     r1
-    
-    % [O1 ViolaVoiceXII measure 134]                     %! SM4
-    r4..
-    
-    b16
-    
-    r2
     
 }
 
@@ -3236,9 +3062,6 @@ O_a_ViolaVoiceXIII_a = {
     % [O1 ViolaVoiceXIII measure 133]                    %! SM4
     r1
     
-    % [O1 ViolaVoiceXIII measure 134]                    %! SM4
-    r1
-    
 }
 
 
@@ -3263,15 +3086,6 @@ O_a_ViolaVoiceXIV_a = {
     
     % [O1 ViolaVoiceXIV measure 133]                     %! SM4
     r1
-    
-    % [O1 ViolaVoiceXIV measure 134]                     %! SM4
-    r2.
-    
-    r16
-    
-    b16
-    
-    r8
     
 }
 
@@ -3324,7 +3138,7 @@ O_a_ViolaVoiceXV_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
-    r1
+    r4.
 %%% ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
 %%%     \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
 %%%         #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
@@ -3353,13 +3167,16 @@ O_a_ViolaVoiceXV_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
+    d'16
+    
+    r16
+    
+    r2
+    
     % [O1 ViolaVoiceXV measure 132]                      %! SM4
     r2
     
     % [O1 ViolaVoiceXV measure 133]                      %! SM4
-    r1
-    
-    % [O1 ViolaVoiceXV measure 134]                      %! SM4
     r1
     
 }
@@ -3385,9 +3202,6 @@ O_a_ViolaVoiceXVI_a = {
     r2
     
     % [O1 ViolaVoiceXVI measure 133]                     %! SM4
-    r1
-    
-    % [O1 ViolaVoiceXVI measure 134]                     %! SM4
     r1
     
 }
@@ -3476,9 +3290,6 @@ O_a_ViolaVoiceXVII_a = {
     % [O1 ViolaVoiceXVII measure 133]                    %! SM4
     r1
     
-    % [O1 ViolaVoiceXVII measure 134]                    %! SM4
-    r1
-    
 }
 
 
@@ -3491,25 +3302,24 @@ O_a_ViolaVoiceXVIII_a = {
     
     % [O1 ViolaVoiceXVIII measure 131]                   %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r1
+    r4
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%         #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%         (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
+    b16
+    
+    r8.
+    
+    r2
+    
     % [O1 ViolaVoiceXVIII measure 132]                   %! SM4
     r2
     
     % [O1 ViolaVoiceXVIII measure 133]                   %! SM4
     r1
-    
-    % [O1 ViolaVoiceXVIII measure 134]                   %! SM4
-    r4..
-    
-    b16
-    
-    r2
     
 }
 
@@ -3611,9 +3421,6 @@ O_a_CelloVoiceI_a = {
     % [O1 CelloVoiceI measure 133]                       %! SM4
     r1
     
-    % [O1 CelloVoiceI measure 134]                       %! SM4
-    r1
-    
 }
 
 
@@ -3634,9 +3441,6 @@ O_a_CelloVoiceII_a = {
     r2
     
     % [O1 CelloVoiceII measure 133]                      %! SM4
-    r1
-    
-    % [O1 CelloVoiceII measure 134]                      %! SM4
     r1
     
 }
@@ -3725,9 +3529,6 @@ O_a_CelloVoiceIII_a = {
     % [O1 CelloVoiceIII measure 133]                     %! SM4
     r1
     
-    % [O1 CelloVoiceIII measure 134]                     %! SM4
-    r1
-    
 }
 
 
@@ -3751,9 +3552,6 @@ O_a_CelloVoiceIV_a = {
     r2
     
     % [O1 CelloVoiceIV measure 133]                      %! SM4
-    r1
-    
-    % [O1 CelloVoiceIV measure 134]                      %! SM4
     r1
     
 }
@@ -3840,10 +3638,9 @@ O_a_CelloVoiceV_a = {
     r2
     
     % [O1 CelloVoiceV measure 133]                       %! SM4
-    r1
+    r2...
     
-    % [O1 CelloVoiceV measure 134]                       %! SM4
-    r1
+    d'16
     
 }
 
@@ -3868,9 +3665,6 @@ O_a_CelloVoiceVI_a = {
     r2
     
     % [O1 CelloVoiceVI measure 133]                      %! SM4
-    r1
-    
-    % [O1 CelloVoiceVI measure 134]                      %! SM4
     r1
     
 }
@@ -3959,9 +3753,6 @@ O_a_CelloVoiceVII_a = {
     % [O1 CelloVoiceVII measure 133]                     %! SM4
     r1
     
-    % [O1 CelloVoiceVII measure 134]                     %! SM4
-    r1
-    
 }
 
 
@@ -3985,9 +3776,6 @@ O_a_CelloVoiceVIII_a = {
     r2
     
     % [O1 CelloVoiceVIII measure 133]                    %! SM4
-    r1
-    
-    % [O1 CelloVoiceVIII measure 134]                    %! SM4
     r1
     
 }
@@ -4076,9 +3864,6 @@ O_a_CelloVoiceIX_a = {
     % [O1 CelloVoiceIX measure 133]                      %! SM4
     r1
     
-    % [O1 CelloVoiceIX measure 134]                      %! SM4
-    r1
-    
 }
 
 
@@ -4102,9 +3887,6 @@ O_a_CelloVoiceX_a = {
     r2
     
     % [O1 CelloVoiceX measure 133]                       %! SM4
-    r1
-    
-    % [O1 CelloVoiceX measure 134]                       %! SM4
     r1
     
 }
@@ -4191,10 +3973,11 @@ O_a_CelloVoiceXI_a = {
     r2
     
     % [O1 CelloVoiceXI measure 133]                      %! SM4
-    r1
+    r2.
     
-    % [O1 CelloVoiceXI measure 134]                      %! SM4
-    r1
+    d'16
+    
+    r8.
     
 }
 
@@ -4220,15 +4003,6 @@ O_a_CelloVoiceXII_a = {
     
     % [O1 CelloVoiceXII measure 133]                     %! SM4
     r1
-    
-    % [O1 CelloVoiceXII measure 134]                     %! SM4
-    r4
-    
-    b16
-    
-    r8.
-    
-    r2
     
 }
 
@@ -4316,9 +4090,6 @@ O_a_CelloVoiceXIII_a = {
     % [O1 CelloVoiceXIII measure 133]                    %! SM4
     r1
     
-    % [O1 CelloVoiceXIII measure 134]                    %! SM4
-    r1
-    
 }
 
 
@@ -4343,17 +4114,6 @@ O_a_CelloVoiceXIV_a = {
     
     % [O1 CelloVoiceXIV measure 133]                     %! SM4
     r1
-    
-    % [O1 CelloVoiceXIV measure 134]                     %! SM4
-    r2
-    
-    r8
-    
-    b16
-    
-    r16
-    
-    r4
     
 }
 
@@ -4455,9 +4215,6 @@ O_a_ContrabassVoiceI_a = {
     % [O1 ContrabassVoiceI measure 133]                  %! SM4
     r1
     
-    % [O1 ContrabassVoiceI measure 134]                  %! SM4
-    r1
-    
 }
 
 
@@ -4476,9 +4233,6 @@ O_a_ContrabassVoiceII_a = {
     r2
     
     % [O1 ContrabassVoiceII measure 133]                 %! SM4
-    r1
-    
-    % [O1 ContrabassVoiceII measure 134]                 %! SM4
     r1
     
 }
@@ -4581,9 +4335,6 @@ O_a_ContrabassVoiceIII_a = {
     % [O1 ContrabassVoiceIII measure 133]                %! SM4
     r1
     
-    % [O1 ContrabassVoiceIII measure 134]                %! SM4
-    r1
-    
 }
 
 
@@ -4603,15 +4354,6 @@ O_a_ContrabassVoiceIV_a = {
     
     % [O1 ContrabassVoiceIV measure 133]                 %! SM4
     r1
-    
-    % [O1 ContrabassVoiceIV measure 134]                 %! SM4
-    r4
-    
-    b16
-    
-    r8.
-    
-    r2
     
 }
 
@@ -4699,9 +4441,6 @@ O_a_ContrabassVoiceV_a = {
     % [O1 ContrabassVoiceV measure 133]                  %! SM4
     r1
     
-    % [O1 ContrabassVoiceV measure 134]                  %! SM4
-    r1
-    
 }
 
 
@@ -4725,10 +4464,15 @@ O_a_ContrabassVoiceVI_a = {
     r2
     
     % [O1 ContrabassVoiceVI measure 133]                 %! SM4
-    r1
+    r4
     
-    % [O1 ContrabassVoiceVI measure 134]                 %! SM4
-    r1
+    r16
+    
+    b16
+    
+    r8
+    
+    r2
     
 }
 

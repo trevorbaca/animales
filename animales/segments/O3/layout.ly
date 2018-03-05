@@ -4,7 +4,7 @@
 \context Score = "Score"
 \with
 {
-    currentBarNumber = #131
+    currentBarNumber = #137
 }
 <<
     \context GlobalContext = "GlobalContext"
@@ -12,7 +12,7 @@
         \context PageLayout = "PageLayout"
         {   %*% PageLayout
             
-            % [PageLayout measure 131]                                                   %! SM4
+            % [PageLayout measure 137]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
             \autoPageBreaksOff                                                           %! BMM1:BREAK
@@ -20,7 +20,7 @@
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
             #'((Y-offset . 0) (alignment-distances . (20 20)))                           %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
-            s1 * 1
+            s1 * 1/2
             ^ \markup {
                 \column
                     {
@@ -43,11 +43,11 @@
                     }
                 }
             
-            % [PageLayout measure 132]                                                   %! SM4
+            % [PageLayout measure 138]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
+            s1 * 1
             ^ \markup {
                 \column
                     {
@@ -70,7 +70,7 @@
                     }
                 }
             
-            % [PageLayout measure 133]                                                   %! SM4
+            % [PageLayout measure 139]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 35 288)           %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK

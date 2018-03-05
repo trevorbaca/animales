@@ -2444,7 +2444,22 @@ Segment-maker runtime: 25 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 2 seconds
 
-2018-03-05 15:00:45
-Segment-maker runtime: 21 seconds
+2018-03-05 14:08:51
+Segment-maker runtime: 27 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
+
+2018-03-05 14:11:31
+Segment-maker runtime: 27 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 2 seconds
+
+2018-03-05 14:13:32
+Segment-maker runtime: 32 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 2 seconds
+
+2018-03-05 15:01:47
+Segment-maker runtime: 23 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 2 seconds
