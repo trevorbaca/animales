@@ -32,3 +32,9 @@ TO-DO
         IndexError: tuple index out of range
 
 7.  Make document tag settings like (ctms) persist in metadata.
+
+8.  Teach (dup) to replace only [Q] with [R].
+    Currently:
+    Ok?> y
+    Replacing 'Q' with 'R' ...
+    Replaced 272 instances over 272 lines in 3 files.
