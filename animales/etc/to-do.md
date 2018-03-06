@@ -1,20 +1,22 @@
 TO-DO
 =====
 
-1.  Model staff / part / instrument / margin markup relationships.
+1.  Add SegmentMaker method to renotate full-measure rests.
+
+2.  Model staff / part / instrument / margin markup relationships.
     Constrain margin markup by staff, part, instrument.
 
-2.  Eventually implement cross-segment broken spanner checks.
+3.  Eventually implement cross-segment broken spanner checks.
 
-3.  Eventually color cross-segment broken spanners.
+4.  Eventually color cross-segment broken spanners.
 
-4.  Eventually teach (llm) more about measure checks.
+5.  Eventually teach (llm) more about measure checks.
     Right now (lle) shows % measure_count = 4.
     Should be % time_signatures = ['4/4', '4/4', '2/4', '3/4'] instead.
 
-5.  Figure out what file metadata Preview is looking at for file open size.
+6.  Figure out what file metadata Preview is looking at for file open size.
 
-6.  Teach (llm) how to handle the case that scorewide spacing specifies
+7.  Teach (llm) how to handle the case that scorewide spacing specifies
     layout information for more measures than currently exist in score.
     Right now (llm) errors with:
         Remaking animales/builds/tabloid-score/layout.ly ...
@@ -31,14 +33,18 @@ TO-DO
             result = self.items.__getitem__(argument)
         IndexError: tuple index out of range
 
-7.  Make document tag settings like (ctms) persist in metadata.
+8.  Make document tag settings like (ctms) persist in metadata.
 
-8.  Teach (dup) to replace only [Q] with [R].
+9.  Teach (dup) to replace only [Q] with [R].
     Currently:
     Ok?> y
     Replacing 'Q' with 'R' ...
     Replaced 272 instances over 272 lines in 3 files.
 
-9.  Write doctests for abjad.Job factory methods.
+10. Write doctests for abjad.Job factory methods.
 
-10. Change (st) to work on current tree like (diff).
+11. Change (st) to work on current tree like (diff).
+
+12. Alphabetize (it) output.
+
+13. Eventually integrate make into build process.

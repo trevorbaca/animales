@@ -3019,7 +3019,7 @@ metadata = abjad.OrderedDict(
         ('stop_clock_time', "4'57''"),
         (
             'time_signatures',
-            ['3/4', '3/4', '4/4'],
+            ['2/4', '4/4', '4/4'],
             ),
         (
             'voice_metadata',
