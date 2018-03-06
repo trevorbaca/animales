@@ -16,28 +16,22 @@
         \context Score = "Score"
         \with
         {
-            currentBarNumber = #158
+            currentBarNumber = #161
         }
         <<
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalRests = "GlobalRests"
-                \X_GlobalRests
+                \Y_GlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                \X_GlobalSkips
+                \Y_GlobalSkips
             >>
             \context MusicContext = "MusicContext"
             <<
                 \context StaffGroup = "PercussionStaffGroup"
                 <<
                     \context Staff = "PercussionStaffI"
-                    \X_PercussionStaffI
-                    \context Staff = "PercussionStaffII"
-                    \X_PercussionStaffII
-                    \context Staff = "PercussionStaffIII"
-                    \X_PercussionStaffIII
-                    \context Staff = "PercussionStaffIV"
-                    \X_PercussionStaffIV
+                    \Y_PercussionStaffI
                 >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
@@ -48,23 +42,23 @@
                     }
                     <<
                         \context Staff = "FirstViolinStaffI"
-                        \X_FirstViolinStaffI
+                        \Y_FirstViolinStaffI
                         \context Staff = "FirstViolinStaffII"
-                        \X_FirstViolinStaffII
+                        \Y_FirstViolinStaffII
                         \context Staff = "FirstViolinStaffIII"
-                        \X_FirstViolinStaffIII
+                        \Y_FirstViolinStaffIII
                         \context Staff = "FirstViolinStaffIV"
-                        \X_FirstViolinStaffIV
+                        \Y_FirstViolinStaffIV
                         \context Staff = "FirstViolinStaffV"
-                        \X_FirstViolinStaffV
+                        \Y_FirstViolinStaffV
                         \context Staff = "FirstViolinStaffVI"
-                        \X_FirstViolinStaffVI
+                        \Y_FirstViolinStaffVI
                         \context Staff = "FirstViolinStaffVII"
-                        \X_FirstViolinStaffVII
+                        \Y_FirstViolinStaffVII
                         \context Staff = "FirstViolinStaffVIII"
-                        \X_FirstViolinStaffVIII
+                        \Y_FirstViolinStaffVIII
                         \context Staff = "FirstViolinStaffIX"
-                        \X_FirstViolinStaffIX
+                        \Y_FirstViolinStaffIX
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup"
                     \with
@@ -73,23 +67,23 @@
                     }
                     <<
                         \context Staff = "SecondViolinStaffI"
-                        \X_SecondViolinStaffI
+                        \Y_SecondViolinStaffI
                         \context Staff = "SecondViolinStaffII"
-                        \X_SecondViolinStaffII
+                        \Y_SecondViolinStaffII
                         \context Staff = "SecondViolinStaffIII"
-                        \X_SecondViolinStaffIII
+                        \Y_SecondViolinStaffIII
                         \context Staff = "SecondViolinStaffIV"
-                        \X_SecondViolinStaffIV
+                        \Y_SecondViolinStaffIV
                         \context Staff = "SecondViolinStaffV"
-                        \X_SecondViolinStaffV
+                        \Y_SecondViolinStaffV
                         \context Staff = "SecondViolinStaffVI"
-                        \X_SecondViolinStaffVI
+                        \Y_SecondViolinStaffVI
                         \context Staff = "SecondViolinStaffVII"
-                        \X_SecondViolinStaffVII
+                        \Y_SecondViolinStaffVII
                         \context Staff = "SecondViolinStaffVIII"
-                        \X_SecondViolinStaffVIII
+                        \Y_SecondViolinStaffVIII
                         \context Staff = "SecondViolinStaffIX"
-                        \X_SecondViolinStaffIX
+                        \Y_SecondViolinStaffIX
                     >>
                     \context StaffGroup = "ViolaSquareStaffGroup"
                     \with
@@ -98,23 +92,23 @@
                     }
                     <<
                         \context Staff = "ViolaStaffI"
-                        \X_ViolaStaffI
+                        \Y_ViolaStaffI
                         \context Staff = "ViolaStaffII"
-                        \X_ViolaStaffII
+                        \Y_ViolaStaffII
                         \context Staff = "ViolaStaffIII"
-                        \X_ViolaStaffIII
+                        \Y_ViolaStaffIII
                         \context Staff = "ViolaStaffIV"
-                        \X_ViolaStaffIV
+                        \Y_ViolaStaffIV
                         \context Staff = "ViolaStaffV"
-                        \X_ViolaStaffV
+                        \Y_ViolaStaffV
                         \context Staff = "ViolaStaffVI"
-                        \X_ViolaStaffVI
+                        \Y_ViolaStaffVI
                         \context Staff = "ViolaStaffVII"
-                        \X_ViolaStaffVII
+                        \Y_ViolaStaffVII
                         \context Staff = "ViolaStaffVIII"
-                        \X_ViolaStaffVIII
+                        \Y_ViolaStaffVIII
                         \context Staff = "ViolaStaffIX"
-                        \X_ViolaStaffIX
+                        \Y_ViolaStaffIX
                     >>
                     \context StaffGroup = "CelloSquareStaffGroup"
                     \with
@@ -123,19 +117,19 @@
                     }
                     <<
                         \context Staff = "CelloStaffI"
-                        \X_CelloStaffI
+                        \Y_CelloStaffI
                         \context Staff = "CelloStaffII"
-                        \X_CelloStaffII
+                        \Y_CelloStaffII
                         \context Staff = "CelloStaffIII"
-                        \X_CelloStaffIII
+                        \Y_CelloStaffIII
                         \context Staff = "CelloStaffIV"
-                        \X_CelloStaffIV
+                        \Y_CelloStaffIV
                         \context Staff = "CelloStaffV"
-                        \X_CelloStaffV
+                        \Y_CelloStaffV
                         \context Staff = "CelloStaffVI"
-                        \X_CelloStaffVI
+                        \Y_CelloStaffVI
                         \context Staff = "CelloStaffVII"
-                        \X_CelloStaffVII
+                        \Y_CelloStaffVII
                     >>
                 >>
             >>
