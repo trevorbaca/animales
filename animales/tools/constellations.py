@@ -4,7 +4,13 @@ import baca
 import roman
 
 
-def constellations(maker, counts, first=False, omit_contrabasses=False):
+def constellations(
+    maker,
+    counts,
+    first=False,
+    omit_contrabasses=False,
+    range_=(1, -1),
+    ):
     r'''Makes constellations.
     '''
 
@@ -72,6 +78,6 @@ def constellations(maker, counts, first=False, omit_contrabasses=False):
             else:
                 commands.append(polyphony)
             maker(
-                baca.scope(voice, (1, -1)),
+                baca.scope(voice, range_),
                 *commands,
                 )

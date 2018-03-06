@@ -5,20 +5,22 @@ TO-DO
 
 2.  Correct contrabass repeat tie direction in V.
 
-3.  Model staff / part / instrument / margin markup relationships.
+3.  Reset fermata measure spacing to 1/4.
+
+4.  Model staff / part / instrument / margin markup relationships.
     Constrain margin markup by staff, part, instrument.
 
-4.  Eventually implement cross-segment broken spanner checks.
+5.  Eventually implement cross-segment broken spanner checks.
 
-5.  Eventually color cross-segment broken spanners.
+6.  Eventually color cross-segment broken spanners.
 
-6.  Eventually teach (llm) more about measure checks.
+7.  Eventually teach (llm) more about measure checks.
     Right now (lle) shows % measure_count = 4.
     Should be % time_signatures = ['4/4', '4/4', '2/4', '3/4'] instead.
 
-7.  Figure out what file metadata Preview is looking at for file open size.
+8.  Figure out what file metadata Preview is looking at for file open size.
 
-8.  Teach (llm) how to handle the case that scorewide spacing specifies
+9.  Teach (llm) how to handle the case that scorewide spacing specifies
     layout information for more measures than currently exist in score.
     Right now (llm) errors with:
         Remaking animales/builds/tabloid-score/layout.ly ...
@@ -35,28 +37,28 @@ TO-DO
             result = self.items.__getitem__(argument)
         IndexError: tuple index out of range
 
-9.  Make document tag settings like (ctms) persist in metadata.
+10. Make document tag settings like (ctms) persist in metadata.
 
-10. Teach (dup) to replace only [Q] with [R].
+11. Teach (dup) to replace only [Q] with [R].
     Currently:
     Ok?> y
     Replacing 'Q' with 'R' ...
     Replaced 272 instances over 272 lines in 3 files.
 
-11. Write doctests for abjad.Job factory methods.
+12. Write doctests for abjad.Job factory methods.
 
-12. Change (st) to work on current tree like (diff).
+13. Change (st) to work on current tree like (diff).
 
-13. Alphabetize (it) output.
+14. Alphabetize (it) output.
 
-14. Eventually integrate make into build process.
+15. Eventually integrate make into build process.
 
-15. Correct contrabass shifted clef at beginning of V.
+16. Correct contrabass shifted clef at beginning of V.
 
-16. Allow SegmentMaker to retrieve manifests from segment directory.
+17. Allow SegmentMaker to retrieve manifests from segment directory.
     Preserve SegmentMaker manifest initializer keywords for tests.
 
-17. Change line overflow ...
+18. Change line overflow ...
     Writing BOL measure numbers 1, 8, 16, 22, 30, 39, 47, 56, 64, 72, 82, 88, 95, 107, 115, 127, 134, 140, 145, 151, 156 to metadata ...
     ... to ...
     Writing BOL measure numbers to metadata ...
