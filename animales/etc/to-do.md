@@ -38,3 +38,7 @@ TO-DO
     Ok?> y
     Replacing 'Q' with 'R' ...
     Replaced 272 instances over 272 lines in 3 files.
+
+9.  Write doctests for abjad.Job factory methods.
+
+10. Change (st) to work on current tree like (diff).

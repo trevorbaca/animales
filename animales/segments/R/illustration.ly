@@ -16,7 +16,7 @@
         \context Score = "Score"
         \with
         {
-            currentBarNumber = #149
+            currentBarNumber = #140
         }
         <<
             \context GlobalContext = "GlobalContext"
@@ -28,51 +28,6 @@
             >>
             \context MusicContext = "MusicContext"
             <<
-                \context StaffGroup = "BrassStaffGroup"
-                <<
-                    \context StaffGroup = "HornSquareStaffGroup"
-                    \with
-                    {
-                        systemStartDelimiter = #'SystemStartSquare
-                    }
-                    <<
-                        \context Staff = "HornStaffI"
-                        \R_HornStaffI
-                        \context Staff = "HornStaffII"
-                        \R_HornStaffII
-                    >>
-                    \context StaffGroup = "TrumpetSquareStaffGroup"
-                    \with
-                    {
-                        systemStartDelimiter = #'SystemStartSquare
-                    }
-                    <<
-                        \context Staff = "TrumpetStaffI"
-                        \R_TrumpetStaffI
-                        \context Staff = "TrumpetStaffII"
-                        \R_TrumpetStaffII
-                    >>
-                    \context StaffGroup = "TromboneSquareStaffGroup"
-                    \with
-                    {
-                        systemStartDelimiter = #'SystemStartSquare
-                    }
-                    <<
-                        \context Staff = "TromboneStaffI"
-                        \R_TromboneStaffI
-                        \context Staff = "TromboneStaffII"
-                        \R_TromboneStaffII
-                    >>
-                    \context Staff = "TubaStaffI"
-                    \R_TubaStaffI
-                >>
-                \context StaffGroup = "PercussionStaffGroup"
-                <<
-                    \context Staff = "PercussionStaffII"
-                    \R_PercussionStaffII
-                    \context Staff = "PercussionStaffIV"
-                    \R_PercussionStaffIV
-                >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
                     \context StaffGroup = "FirstViolinSquareStaffGroup"

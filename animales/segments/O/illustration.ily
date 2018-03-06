@@ -1,20 +1,20 @@
-O_a_GlobalRests = {
+O_GlobalRests = {
     
-    % [O1 GlobalRests measure 131]                                       %! SM4
+    % [O GlobalRests measure 131]                                        %! SM4
     R1 * 1
     
-    % [O1 GlobalRests measure 132]                                       %! SM4
+    % [O GlobalRests measure 132]                                        %! SM4
     R1 * 1/2
     
-    % [O1 GlobalRests measure 133]                                       %! SM4
+    % [O GlobalRests measure 133]                                        %! SM4
     R1 * 1
     
 }
 
 
-O_a_GlobalSkips = {
+O_GlobalSkips = {
     
-    % [O1 GlobalSkips measure 131]                                       %! SM4
+    % [O GlobalSkips measure 131]                                        %! SM4
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@% \markup {                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@%     \fontsize                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36
@@ -96,7 +96,7 @@ O_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [O1.1]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [O.1]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -109,7 +109,7 @@ O_a_GlobalSkips = {
             }
         }
     
-    % [O1 GlobalSkips measure 132]                                       %! SM4
+    % [O GlobalSkips measure 132]                                        %! SM4
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
 %%% \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -138,7 +138,7 @@ O_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [O1.2]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [O.2]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -151,7 +151,7 @@ O_a_GlobalSkips = {
             }
         }
     
-    % [O1 GlobalSkips measure 133]                                       %! SM4
+    % [O GlobalSkips measure 133]                                        %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
 %%% \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -181,7 +181,7 @@ O_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [O1.3]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [O.3]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -199,9 +199,9 @@ O_a_GlobalSkips = {
 }
 
 
-O_a_FirstViolinVoiceI_a = {
+O_FirstViolinVoiceI_a = {
     
-    % [O1 FirstViolinVoiceI measure 131]                 %! SM4
+    % [O FirstViolinVoiceI measure 131]                  %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -279,53 +279,53 @@ O_a_FirstViolinVoiceI_a = {
     
     r2...
     
-    % [O1 FirstViolinVoiceI measure 132]                 %! SM4
+    % [O FirstViolinVoiceI measure 132]                  %! SM4
     r2
     
-    % [O1 FirstViolinVoiceI measure 133]                 %! SM4
+    % [O FirstViolinVoiceI measure 133]                  %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceI = {
-    \O_a_FirstViolinVoiceI_a
+O_FirstViolinVoiceI = {
+    \O_FirstViolinVoiceI_a
 }
 
 
-O_a_FirstViolinVoiceII_a = {
+O_FirstViolinVoiceII_a = {
     
-    % [O1 FirstViolinVoiceII measure 131]                %! SM4
+    % [O FirstViolinVoiceII measure 131]                 %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [O1 FirstViolinVoiceII measure 132]                %! SM4
+    % [O FirstViolinVoiceII measure 132]                 %! SM4
     r2
     
-    % [O1 FirstViolinVoiceII measure 133]                %! SM4
+    % [O FirstViolinVoiceII measure 133]                 %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceII = {
-    \O_a_FirstViolinVoiceII_a
+O_FirstViolinVoiceII = {
+    \O_FirstViolinVoiceII_a
 }
 
 
-O_a_FirstViolinStaffI = <<
+O_FirstViolinStaffI = <<
     \context Voice = "FirstViolinVoiceI"
-    \O_a_FirstViolinVoiceI
+    \O_FirstViolinVoiceI
     \context Voice = "FirstViolinVoiceII"
-    \O_a_FirstViolinVoiceII
+    \O_FirstViolinVoiceII
 >>
 
 
-O_a_FirstViolinVoiceIII_a = {
+O_FirstViolinVoiceIII_a = {
     
-    % [O1 FirstViolinVoiceIII measure 131]               %! SM4
+    % [O FirstViolinVoiceIII measure 131]                %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -401,53 +401,53 @@ O_a_FirstViolinVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 FirstViolinVoiceIII measure 132]               %! SM4
+    % [O FirstViolinVoiceIII measure 132]                %! SM4
     r2
     
-    % [O1 FirstViolinVoiceIII measure 133]               %! SM4
+    % [O FirstViolinVoiceIII measure 133]                %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceIII = {
-    \O_a_FirstViolinVoiceIII_a
+O_FirstViolinVoiceIII = {
+    \O_FirstViolinVoiceIII_a
 }
 
 
-O_a_FirstViolinVoiceIV_a = {
+O_FirstViolinVoiceIV_a = {
     
-    % [O1 FirstViolinVoiceIV measure 131]                %! SM4
+    % [O FirstViolinVoiceIV measure 131]                 %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [O1 FirstViolinVoiceIV measure 132]                %! SM4
+    % [O FirstViolinVoiceIV measure 132]                 %! SM4
     r2
     
-    % [O1 FirstViolinVoiceIV measure 133]                %! SM4
+    % [O FirstViolinVoiceIV measure 133]                 %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceIV = {
-    \O_a_FirstViolinVoiceIV_a
+O_FirstViolinVoiceIV = {
+    \O_FirstViolinVoiceIV_a
 }
 
 
-O_a_FirstViolinStaffII = <<
+O_FirstViolinStaffII = <<
     \context Voice = "FirstViolinVoiceIII"
-    \O_a_FirstViolinVoiceIII
+    \O_FirstViolinVoiceIII
     \context Voice = "FirstViolinVoiceIV"
-    \O_a_FirstViolinVoiceIV
+    \O_FirstViolinVoiceIV
 >>
 
 
-O_a_FirstViolinVoiceV_a = {
+O_FirstViolinVoiceV_a = {
     
-    % [O1 FirstViolinVoiceV measure 131]                 %! SM4
+    % [O FirstViolinVoiceV measure 131]                  %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -523,30 +523,30 @@ O_a_FirstViolinVoiceV_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 FirstViolinVoiceV measure 132]                 %! SM4
+    % [O FirstViolinVoiceV measure 132]                  %! SM4
     r2
     
-    % [O1 FirstViolinVoiceV measure 133]                 %! SM4
+    % [O FirstViolinVoiceV measure 133]                  %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceV = {
-    \O_a_FirstViolinVoiceV_a
+O_FirstViolinVoiceV = {
+    \O_FirstViolinVoiceV_a
 }
 
 
-O_a_FirstViolinVoiceVI_a = {
+O_FirstViolinVoiceVI_a = {
     
-    % [O1 FirstViolinVoiceVI measure 131]                %! SM4
+    % [O FirstViolinVoiceVI measure 131]                 %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
     
-    % [O1 FirstViolinVoiceVI measure 132]                %! SM4
+    % [O FirstViolinVoiceVI measure 132]                 %! SM4
     r2
     
-    % [O1 FirstViolinVoiceVI measure 133]                %! SM4
+    % [O FirstViolinVoiceVI measure 133]                 %! SM4
     r2
     
     r8.
@@ -558,22 +558,22 @@ O_a_FirstViolinVoiceVI_a = {
 }
 
 
-O_a_FirstViolinVoiceVI = {
-    \O_a_FirstViolinVoiceVI_a
+O_FirstViolinVoiceVI = {
+    \O_FirstViolinVoiceVI_a
 }
 
 
-O_a_FirstViolinStaffIII = <<
+O_FirstViolinStaffIII = <<
     \context Voice = "FirstViolinVoiceV"
-    \O_a_FirstViolinVoiceV
+    \O_FirstViolinVoiceV
     \context Voice = "FirstViolinVoiceVI"
-    \O_a_FirstViolinVoiceVI
+    \O_FirstViolinVoiceVI
 >>
 
 
-O_a_FirstViolinVoiceVII_a = {
+O_FirstViolinVoiceVII_a = {
     
-    % [O1 FirstViolinVoiceVII measure 131]               %! SM4
+    % [O FirstViolinVoiceVII measure 131]                %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -635,23 +635,23 @@ O_a_FirstViolinVoiceVII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 FirstViolinVoiceVII measure 132]               %! SM4
+    % [O FirstViolinVoiceVII measure 132]                %! SM4
     r2
     
-    % [O1 FirstViolinVoiceVII measure 133]               %! SM4
+    % [O FirstViolinVoiceVII measure 133]                %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceVII = {
-    \O_a_FirstViolinVoiceVII_a
+O_FirstViolinVoiceVII = {
+    \O_FirstViolinVoiceVII_a
 }
 
 
-O_a_FirstViolinVoiceVIII_a = {
+O_FirstViolinVoiceVIII_a = {
     
-    % [O1 FirstViolinVoiceVIII measure 131]              %! SM4
+    % [O FirstViolinVoiceVIII measure 131]               %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -660,31 +660,31 @@ O_a_FirstViolinVoiceVIII_a = {
 %%%         (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 FirstViolinVoiceVIII measure 132]              %! SM4
+    % [O FirstViolinVoiceVIII measure 132]               %! SM4
     r2
     
-    % [O1 FirstViolinVoiceVIII measure 133]              %! SM4
+    % [O FirstViolinVoiceVIII measure 133]               %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceVIII = {
-    \O_a_FirstViolinVoiceVIII_a
+O_FirstViolinVoiceVIII = {
+    \O_FirstViolinVoiceVIII_a
 }
 
 
-O_a_FirstViolinStaffIV = <<
+O_FirstViolinStaffIV = <<
     \context Voice = "FirstViolinVoiceVII"
-    \O_a_FirstViolinVoiceVII
+    \O_FirstViolinVoiceVII
     \context Voice = "FirstViolinVoiceVIII"
-    \O_a_FirstViolinVoiceVIII
+    \O_FirstViolinVoiceVIII
 >>
 
 
-O_a_FirstViolinVoiceIX_a = {
+O_FirstViolinVoiceIX_a = {
     
-    % [O1 FirstViolinVoiceIX measure 131]                %! SM4
+    % [O FirstViolinVoiceIX measure 131]                 %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -746,23 +746,23 @@ O_a_FirstViolinVoiceIX_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 FirstViolinVoiceIX measure 132]                %! SM4
+    % [O FirstViolinVoiceIX measure 132]                 %! SM4
     r2
     
-    % [O1 FirstViolinVoiceIX measure 133]                %! SM4
+    % [O FirstViolinVoiceIX measure 133]                 %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceIX = {
-    \O_a_FirstViolinVoiceIX_a
+O_FirstViolinVoiceIX = {
+    \O_FirstViolinVoiceIX_a
 }
 
 
-O_a_FirstViolinVoiceX_a = {
+O_FirstViolinVoiceX_a = {
     
-    % [O1 FirstViolinVoiceX measure 131]                 %! SM4
+    % [O FirstViolinVoiceX measure 131]                  %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -771,31 +771,31 @@ O_a_FirstViolinVoiceX_a = {
 %%%         (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 FirstViolinVoiceX measure 132]                 %! SM4
+    % [O FirstViolinVoiceX measure 132]                  %! SM4
     r2
     
-    % [O1 FirstViolinVoiceX measure 133]                 %! SM4
+    % [O FirstViolinVoiceX measure 133]                  %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceX = {
-    \O_a_FirstViolinVoiceX_a
+O_FirstViolinVoiceX = {
+    \O_FirstViolinVoiceX_a
 }
 
 
-O_a_FirstViolinStaffV = <<
+O_FirstViolinStaffV = <<
     \context Voice = "FirstViolinVoiceIX"
-    \O_a_FirstViolinVoiceIX
+    \O_FirstViolinVoiceIX
     \context Voice = "FirstViolinVoiceX"
-    \O_a_FirstViolinVoiceX
+    \O_FirstViolinVoiceX
 >>
 
 
-O_a_FirstViolinVoiceXI_a = {
+O_FirstViolinVoiceXI_a = {
     
-    % [O1 FirstViolinVoiceXI measure 131]                %! SM4
+    % [O FirstViolinVoiceXI measure 131]                 %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -857,23 +857,23 @@ O_a_FirstViolinVoiceXI_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 FirstViolinVoiceXI measure 132]                %! SM4
+    % [O FirstViolinVoiceXI measure 132]                 %! SM4
     r2
     
-    % [O1 FirstViolinVoiceXI measure 133]                %! SM4
+    % [O FirstViolinVoiceXI measure 133]                 %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceXI = {
-    \O_a_FirstViolinVoiceXI_a
+O_FirstViolinVoiceXI = {
+    \O_FirstViolinVoiceXI_a
 }
 
 
-O_a_FirstViolinVoiceXII_a = {
+O_FirstViolinVoiceXII_a = {
     
-    % [O1 FirstViolinVoiceXII measure 131]               %! SM4
+    % [O FirstViolinVoiceXII measure 131]                %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -882,31 +882,31 @@ O_a_FirstViolinVoiceXII_a = {
 %%%         (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 FirstViolinVoiceXII measure 132]               %! SM4
+    % [O FirstViolinVoiceXII measure 132]                %! SM4
     r2
     
-    % [O1 FirstViolinVoiceXII measure 133]               %! SM4
+    % [O FirstViolinVoiceXII measure 133]                %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceXII = {
-    \O_a_FirstViolinVoiceXII_a
+O_FirstViolinVoiceXII = {
+    \O_FirstViolinVoiceXII_a
 }
 
 
-O_a_FirstViolinStaffVI = <<
+O_FirstViolinStaffVI = <<
     \context Voice = "FirstViolinVoiceXI"
-    \O_a_FirstViolinVoiceXI
+    \O_FirstViolinVoiceXI
     \context Voice = "FirstViolinVoiceXII"
-    \O_a_FirstViolinVoiceXII
+    \O_FirstViolinVoiceXII
 >>
 
 
-O_a_FirstViolinVoiceXIII_a = {
+O_FirstViolinVoiceXIII_a = {
     
-    % [O1 FirstViolinVoiceXIII measure 131]              %! SM4
+    % [O FirstViolinVoiceXIII measure 131]               %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -968,23 +968,23 @@ O_a_FirstViolinVoiceXIII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 FirstViolinVoiceXIII measure 132]              %! SM4
+    % [O FirstViolinVoiceXIII measure 132]               %! SM4
     r2
     
-    % [O1 FirstViolinVoiceXIII measure 133]              %! SM4
+    % [O FirstViolinVoiceXIII measure 133]               %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceXIII = {
-    \O_a_FirstViolinVoiceXIII_a
+O_FirstViolinVoiceXIII = {
+    \O_FirstViolinVoiceXIII_a
 }
 
 
-O_a_FirstViolinVoiceXIV_a = {
+O_FirstViolinVoiceXIV_a = {
     
-    % [O1 FirstViolinVoiceXIV measure 131]               %! SM4
+    % [O FirstViolinVoiceXIV measure 131]                %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -993,31 +993,31 @@ O_a_FirstViolinVoiceXIV_a = {
 %%%         (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 FirstViolinVoiceXIV measure 132]               %! SM4
+    % [O FirstViolinVoiceXIV measure 132]                %! SM4
     r2
     
-    % [O1 FirstViolinVoiceXIV measure 133]               %! SM4
+    % [O FirstViolinVoiceXIV measure 133]                %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceXIV = {
-    \O_a_FirstViolinVoiceXIV_a
+O_FirstViolinVoiceXIV = {
+    \O_FirstViolinVoiceXIV_a
 }
 
 
-O_a_FirstViolinStaffVII = <<
+O_FirstViolinStaffVII = <<
     \context Voice = "FirstViolinVoiceXIII"
-    \O_a_FirstViolinVoiceXIII
+    \O_FirstViolinVoiceXIII
     \context Voice = "FirstViolinVoiceXIV"
-    \O_a_FirstViolinVoiceXIV
+    \O_FirstViolinVoiceXIV
 >>
 
 
-O_a_FirstViolinVoiceXV_a = {
+O_FirstViolinVoiceXV_a = {
     
-    % [O1 FirstViolinVoiceXV measure 131]                %! SM4
+    % [O FirstViolinVoiceXV measure 131]                 %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -1079,23 +1079,23 @@ O_a_FirstViolinVoiceXV_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 FirstViolinVoiceXV measure 132]                %! SM4
+    % [O FirstViolinVoiceXV measure 132]                 %! SM4
     r2
     
-    % [O1 FirstViolinVoiceXV measure 133]                %! SM4
+    % [O FirstViolinVoiceXV measure 133]                 %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceXV = {
-    \O_a_FirstViolinVoiceXV_a
+O_FirstViolinVoiceXV = {
+    \O_FirstViolinVoiceXV_a
 }
 
 
-O_a_FirstViolinVoiceXVI_a = {
+O_FirstViolinVoiceXVI_a = {
     
-    % [O1 FirstViolinVoiceXVI measure 131]               %! SM4
+    % [O FirstViolinVoiceXVI measure 131]                %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -1104,31 +1104,31 @@ O_a_FirstViolinVoiceXVI_a = {
 %%%         (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 FirstViolinVoiceXVI measure 132]               %! SM4
+    % [O FirstViolinVoiceXVI measure 132]                %! SM4
     r2
     
-    % [O1 FirstViolinVoiceXVI measure 133]               %! SM4
+    % [O FirstViolinVoiceXVI measure 133]                %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceXVI = {
-    \O_a_FirstViolinVoiceXVI_a
+O_FirstViolinVoiceXVI = {
+    \O_FirstViolinVoiceXVI_a
 }
 
 
-O_a_FirstViolinStaffVIII = <<
+O_FirstViolinStaffVIII = <<
     \context Voice = "FirstViolinVoiceXV"
-    \O_a_FirstViolinVoiceXV
+    \O_FirstViolinVoiceXV
     \context Voice = "FirstViolinVoiceXVI"
-    \O_a_FirstViolinVoiceXVI
+    \O_FirstViolinVoiceXVI
 >>
 
 
-O_a_FirstViolinVoiceXVII_a = {
+O_FirstViolinVoiceXVII_a = {
     
-    % [O1 FirstViolinVoiceXVII measure 131]              %! SM4
+    % [O FirstViolinVoiceXVII measure 131]               %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -1190,23 +1190,23 @@ O_a_FirstViolinVoiceXVII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 FirstViolinVoiceXVII measure 132]              %! SM4
+    % [O FirstViolinVoiceXVII measure 132]               %! SM4
     r2
     
-    % [O1 FirstViolinVoiceXVII measure 133]              %! SM4
+    % [O FirstViolinVoiceXVII measure 133]               %! SM4
     r1
     
 }
 
 
-O_a_FirstViolinVoiceXVII = {
-    \O_a_FirstViolinVoiceXVII_a
+O_FirstViolinVoiceXVII = {
+    \O_FirstViolinVoiceXVII_a
 }
 
 
-O_a_FirstViolinVoiceXVIII_a = {
+O_FirstViolinVoiceXVIII_a = {
     
-    % [O1 FirstViolinVoiceXVIII measure 131]             %! SM4
+    % [O FirstViolinVoiceXVIII measure 131]              %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -1215,10 +1215,10 @@ O_a_FirstViolinVoiceXVIII_a = {
 %%%         (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 FirstViolinVoiceXVIII measure 132]             %! SM4
+    % [O FirstViolinVoiceXVIII measure 132]              %! SM4
     r2
     
-    % [O1 FirstViolinVoiceXVIII measure 133]             %! SM4
+    % [O FirstViolinVoiceXVIII measure 133]              %! SM4
     r8.
     
     b16
@@ -1228,22 +1228,22 @@ O_a_FirstViolinVoiceXVIII_a = {
 }
 
 
-O_a_FirstViolinVoiceXVIII = {
-    \O_a_FirstViolinVoiceXVIII_a
+O_FirstViolinVoiceXVIII = {
+    \O_FirstViolinVoiceXVIII_a
 }
 
 
-O_a_FirstViolinStaffIX = <<
+O_FirstViolinStaffIX = <<
     \context Voice = "FirstViolinVoiceXVII"
-    \O_a_FirstViolinVoiceXVII
+    \O_FirstViolinVoiceXVII
     \context Voice = "FirstViolinVoiceXVIII"
-    \O_a_FirstViolinVoiceXVIII
+    \O_FirstViolinVoiceXVIII
 >>
 
 
-O_a_SecondViolinVoiceI_a = {
+O_SecondViolinVoiceI_a = {
     
-    % [O1 SecondViolinVoiceI measure 131]                %! SM4
+    % [O SecondViolinVoiceI measure 131]                 %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -1319,53 +1319,53 @@ O_a_SecondViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 SecondViolinVoiceI measure 132]                %! SM4
+    % [O SecondViolinVoiceI measure 132]                 %! SM4
     r2
     
-    % [O1 SecondViolinVoiceI measure 133]                %! SM4
+    % [O SecondViolinVoiceI measure 133]                 %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceI = {
-    \O_a_SecondViolinVoiceI_a
+O_SecondViolinVoiceI = {
+    \O_SecondViolinVoiceI_a
 }
 
 
-O_a_SecondViolinVoiceII_a = {
+O_SecondViolinVoiceII_a = {
     
-    % [O1 SecondViolinVoiceII measure 131]               %! SM4
+    % [O SecondViolinVoiceII measure 131]                %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [O1 SecondViolinVoiceII measure 132]               %! SM4
+    % [O SecondViolinVoiceII measure 132]                %! SM4
     r2
     
-    % [O1 SecondViolinVoiceII measure 133]               %! SM4
+    % [O SecondViolinVoiceII measure 133]                %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceII = {
-    \O_a_SecondViolinVoiceII_a
+O_SecondViolinVoiceII = {
+    \O_SecondViolinVoiceII_a
 }
 
 
-O_a_SecondViolinStaffI = <<
+O_SecondViolinStaffI = <<
     \context Voice = "SecondViolinVoiceI"
-    \O_a_SecondViolinVoiceI
+    \O_SecondViolinVoiceI
     \context Voice = "SecondViolinVoiceII"
-    \O_a_SecondViolinVoiceII
+    \O_SecondViolinVoiceII
 >>
 
 
-O_a_SecondViolinVoiceIII_a = {
+O_SecondViolinVoiceIII_a = {
     
-    % [O1 SecondViolinVoiceIII measure 131]              %! SM4
+    % [O SecondViolinVoiceIII measure 131]               %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -1441,10 +1441,10 @@ O_a_SecondViolinVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 SecondViolinVoiceIII measure 132]              %! SM4
+    % [O SecondViolinVoiceIII measure 132]               %! SM4
     r2
     
-    % [O1 SecondViolinVoiceIII measure 133]              %! SM4
+    % [O SecondViolinVoiceIII measure 133]               %! SM4
     r2
     \times 2/3 {
         
@@ -1460,44 +1460,44 @@ O_a_SecondViolinVoiceIII_a = {
 }
 
 
-O_a_SecondViolinVoiceIII = {
-    \O_a_SecondViolinVoiceIII_a
+O_SecondViolinVoiceIII = {
+    \O_SecondViolinVoiceIII_a
 }
 
 
-O_a_SecondViolinVoiceIV_a = {
+O_SecondViolinVoiceIV_a = {
     
-    % [O1 SecondViolinVoiceIV measure 131]               %! SM4
+    % [O SecondViolinVoiceIV measure 131]                %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [O1 SecondViolinVoiceIV measure 132]               %! SM4
+    % [O SecondViolinVoiceIV measure 132]                %! SM4
     r2
     
-    % [O1 SecondViolinVoiceIV measure 133]               %! SM4
+    % [O SecondViolinVoiceIV measure 133]                %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceIV = {
-    \O_a_SecondViolinVoiceIV_a
+O_SecondViolinVoiceIV = {
+    \O_SecondViolinVoiceIV_a
 }
 
 
-O_a_SecondViolinStaffII = <<
+O_SecondViolinStaffII = <<
     \context Voice = "SecondViolinVoiceIII"
-    \O_a_SecondViolinVoiceIII
+    \O_SecondViolinVoiceIII
     \context Voice = "SecondViolinVoiceIV"
-    \O_a_SecondViolinVoiceIV
+    \O_SecondViolinVoiceIV
 >>
 
 
-O_a_SecondViolinVoiceV_a = {
+O_SecondViolinVoiceV_a = {
     
-    % [O1 SecondViolinVoiceV measure 131]                %! SM4
+    % [O SecondViolinVoiceV measure 131]                 %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -1559,23 +1559,23 @@ O_a_SecondViolinVoiceV_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 SecondViolinVoiceV measure 132]                %! SM4
+    % [O SecondViolinVoiceV measure 132]                 %! SM4
     r2
     
-    % [O1 SecondViolinVoiceV measure 133]                %! SM4
+    % [O SecondViolinVoiceV measure 133]                 %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceV = {
-    \O_a_SecondViolinVoiceV_a
+O_SecondViolinVoiceV = {
+    \O_SecondViolinVoiceV_a
 }
 
 
-O_a_SecondViolinVoiceVI_a = {
+O_SecondViolinVoiceVI_a = {
     
-    % [O1 SecondViolinVoiceVI measure 131]               %! SM4
+    % [O SecondViolinVoiceVI measure 131]                %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -1584,33 +1584,33 @@ O_a_SecondViolinVoiceVI_a = {
 %%%         (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 SecondViolinVoiceVI measure 132]               %! SM4
+    % [O SecondViolinVoiceVI measure 132]                %! SM4
     r4..
     
     b16
     
-    % [O1 SecondViolinVoiceVI measure 133]               %! SM4
+    % [O SecondViolinVoiceVI measure 133]                %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceVI = {
-    \O_a_SecondViolinVoiceVI_a
+O_SecondViolinVoiceVI = {
+    \O_SecondViolinVoiceVI_a
 }
 
 
-O_a_SecondViolinStaffIII = <<
+O_SecondViolinStaffIII = <<
     \context Voice = "SecondViolinVoiceV"
-    \O_a_SecondViolinVoiceV
+    \O_SecondViolinVoiceV
     \context Voice = "SecondViolinVoiceVI"
-    \O_a_SecondViolinVoiceVI
+    \O_SecondViolinVoiceVI
 >>
 
 
-O_a_SecondViolinVoiceVII_a = {
+O_SecondViolinVoiceVII_a = {
     
-    % [O1 SecondViolinVoiceVII measure 131]              %! SM4
+    % [O SecondViolinVoiceVII measure 131]               %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -1672,23 +1672,23 @@ O_a_SecondViolinVoiceVII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 SecondViolinVoiceVII measure 132]              %! SM4
+    % [O SecondViolinVoiceVII measure 132]               %! SM4
     r2
     
-    % [O1 SecondViolinVoiceVII measure 133]              %! SM4
+    % [O SecondViolinVoiceVII measure 133]               %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceVII = {
-    \O_a_SecondViolinVoiceVII_a
+O_SecondViolinVoiceVII = {
+    \O_SecondViolinVoiceVII_a
 }
 
 
-O_a_SecondViolinVoiceVIII_a = {
+O_SecondViolinVoiceVIII_a = {
     
-    % [O1 SecondViolinVoiceVIII measure 131]             %! SM4
+    % [O SecondViolinVoiceVIII measure 131]              %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -1697,31 +1697,31 @@ O_a_SecondViolinVoiceVIII_a = {
 %%%         (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 SecondViolinVoiceVIII measure 132]             %! SM4
+    % [O SecondViolinVoiceVIII measure 132]              %! SM4
     r2
     
-    % [O1 SecondViolinVoiceVIII measure 133]             %! SM4
+    % [O SecondViolinVoiceVIII measure 133]              %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceVIII = {
-    \O_a_SecondViolinVoiceVIII_a
+O_SecondViolinVoiceVIII = {
+    \O_SecondViolinVoiceVIII_a
 }
 
 
-O_a_SecondViolinStaffIV = <<
+O_SecondViolinStaffIV = <<
     \context Voice = "SecondViolinVoiceVII"
-    \O_a_SecondViolinVoiceVII
+    \O_SecondViolinVoiceVII
     \context Voice = "SecondViolinVoiceVIII"
-    \O_a_SecondViolinVoiceVIII
+    \O_SecondViolinVoiceVIII
 >>
 
 
-O_a_SecondViolinVoiceIX_a = {
+O_SecondViolinVoiceIX_a = {
     
-    % [O1 SecondViolinVoiceIX measure 131]               %! SM4
+    % [O SecondViolinVoiceIX measure 131]                %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -1783,23 +1783,23 @@ O_a_SecondViolinVoiceIX_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 SecondViolinVoiceIX measure 132]               %! SM4
+    % [O SecondViolinVoiceIX measure 132]                %! SM4
     r2
     
-    % [O1 SecondViolinVoiceIX measure 133]               %! SM4
+    % [O SecondViolinVoiceIX measure 133]                %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceIX = {
-    \O_a_SecondViolinVoiceIX_a
+O_SecondViolinVoiceIX = {
+    \O_SecondViolinVoiceIX_a
 }
 
 
-O_a_SecondViolinVoiceX_a = {
+O_SecondViolinVoiceX_a = {
     
-    % [O1 SecondViolinVoiceX measure 131]                %! SM4
+    % [O SecondViolinVoiceX measure 131]                 %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -1808,31 +1808,31 @@ O_a_SecondViolinVoiceX_a = {
 %%%         (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 SecondViolinVoiceX measure 132]                %! SM4
+    % [O SecondViolinVoiceX measure 132]                 %! SM4
     r2
     
-    % [O1 SecondViolinVoiceX measure 133]                %! SM4
+    % [O SecondViolinVoiceX measure 133]                 %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceX = {
-    \O_a_SecondViolinVoiceX_a
+O_SecondViolinVoiceX = {
+    \O_SecondViolinVoiceX_a
 }
 
 
-O_a_SecondViolinStaffV = <<
+O_SecondViolinStaffV = <<
     \context Voice = "SecondViolinVoiceIX"
-    \O_a_SecondViolinVoiceIX
+    \O_SecondViolinVoiceIX
     \context Voice = "SecondViolinVoiceX"
-    \O_a_SecondViolinVoiceX
+    \O_SecondViolinVoiceX
 >>
 
 
-O_a_SecondViolinVoiceXI_a = {
+O_SecondViolinVoiceXI_a = {
     
-    % [O1 SecondViolinVoiceXI measure 131]               %! SM4
+    % [O SecondViolinVoiceXI measure 131]                %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -1894,23 +1894,23 @@ O_a_SecondViolinVoiceXI_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 SecondViolinVoiceXI measure 132]               %! SM4
+    % [O SecondViolinVoiceXI measure 132]                %! SM4
     r2
     
-    % [O1 SecondViolinVoiceXI measure 133]               %! SM4
+    % [O SecondViolinVoiceXI measure 133]                %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceXI = {
-    \O_a_SecondViolinVoiceXI_a
+O_SecondViolinVoiceXI = {
+    \O_SecondViolinVoiceXI_a
 }
 
 
-O_a_SecondViolinVoiceXII_a = {
+O_SecondViolinVoiceXII_a = {
     
-    % [O1 SecondViolinVoiceXII measure 131]              %! SM4
+    % [O SecondViolinVoiceXII measure 131]               %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -1919,11 +1919,11 @@ O_a_SecondViolinVoiceXII_a = {
 %%%         (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 SecondViolinVoiceXII measure 132]              %! SM4
+    % [O SecondViolinVoiceXII measure 132]               %! SM4
     r2
     \times 2/3 {
         
-        % [O1 SecondViolinVoiceXII measure 133]          %! SM4
+        % [O SecondViolinVoiceXII measure 133]           %! SM4
         r4
         
         b8
@@ -1940,22 +1940,22 @@ O_a_SecondViolinVoiceXII_a = {
 }
 
 
-O_a_SecondViolinVoiceXII = {
-    \O_a_SecondViolinVoiceXII_a
+O_SecondViolinVoiceXII = {
+    \O_SecondViolinVoiceXII_a
 }
 
 
-O_a_SecondViolinStaffVI = <<
+O_SecondViolinStaffVI = <<
     \context Voice = "SecondViolinVoiceXI"
-    \O_a_SecondViolinVoiceXI
+    \O_SecondViolinVoiceXI
     \context Voice = "SecondViolinVoiceXII"
-    \O_a_SecondViolinVoiceXII
+    \O_SecondViolinVoiceXII
 >>
 
 
-O_a_SecondViolinVoiceXIII_a = {
+O_SecondViolinVoiceXIII_a = {
     
-    % [O1 SecondViolinVoiceXIII measure 131]             %! SM4
+    % [O SecondViolinVoiceXIII measure 131]              %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -2017,23 +2017,23 @@ O_a_SecondViolinVoiceXIII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 SecondViolinVoiceXIII measure 132]             %! SM4
+    % [O SecondViolinVoiceXIII measure 132]              %! SM4
     r2
     
-    % [O1 SecondViolinVoiceXIII measure 133]             %! SM4
+    % [O SecondViolinVoiceXIII measure 133]              %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceXIII = {
-    \O_a_SecondViolinVoiceXIII_a
+O_SecondViolinVoiceXIII = {
+    \O_SecondViolinVoiceXIII_a
 }
 
 
-O_a_SecondViolinVoiceXIV_a = {
+O_SecondViolinVoiceXIV_a = {
     
-    % [O1 SecondViolinVoiceXIV measure 131]              %! SM4
+    % [O SecondViolinVoiceXIV measure 131]               %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -2042,31 +2042,31 @@ O_a_SecondViolinVoiceXIV_a = {
 %%%         (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 SecondViolinVoiceXIV measure 132]              %! SM4
+    % [O SecondViolinVoiceXIV measure 132]               %! SM4
     r2
     
-    % [O1 SecondViolinVoiceXIV measure 133]              %! SM4
+    % [O SecondViolinVoiceXIV measure 133]               %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceXIV = {
-    \O_a_SecondViolinVoiceXIV_a
+O_SecondViolinVoiceXIV = {
+    \O_SecondViolinVoiceXIV_a
 }
 
 
-O_a_SecondViolinStaffVII = <<
+O_SecondViolinStaffVII = <<
     \context Voice = "SecondViolinVoiceXIII"
-    \O_a_SecondViolinVoiceXIII
+    \O_SecondViolinVoiceXIII
     \context Voice = "SecondViolinVoiceXIV"
-    \O_a_SecondViolinVoiceXIV
+    \O_SecondViolinVoiceXIV
 >>
 
 
-O_a_SecondViolinVoiceXV_a = {
+O_SecondViolinVoiceXV_a = {
     
-    % [O1 SecondViolinVoiceXV measure 131]               %! SM4
+    % [O SecondViolinVoiceXV measure 131]                %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -2128,23 +2128,23 @@ O_a_SecondViolinVoiceXV_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 SecondViolinVoiceXV measure 132]               %! SM4
+    % [O SecondViolinVoiceXV measure 132]                %! SM4
     r2
     
-    % [O1 SecondViolinVoiceXV measure 133]               %! SM4
+    % [O SecondViolinVoiceXV measure 133]                %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceXV = {
-    \O_a_SecondViolinVoiceXV_a
+O_SecondViolinVoiceXV = {
+    \O_SecondViolinVoiceXV_a
 }
 
 
-O_a_SecondViolinVoiceXVI_a = {
+O_SecondViolinVoiceXVI_a = {
     
-    % [O1 SecondViolinVoiceXVI measure 131]              %! SM4
+    % [O SecondViolinVoiceXVI measure 131]               %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -2153,31 +2153,31 @@ O_a_SecondViolinVoiceXVI_a = {
 %%%         (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 SecondViolinVoiceXVI measure 132]              %! SM4
+    % [O SecondViolinVoiceXVI measure 132]               %! SM4
     r2
     
-    % [O1 SecondViolinVoiceXVI measure 133]              %! SM4
+    % [O SecondViolinVoiceXVI measure 133]               %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceXVI = {
-    \O_a_SecondViolinVoiceXVI_a
+O_SecondViolinVoiceXVI = {
+    \O_SecondViolinVoiceXVI_a
 }
 
 
-O_a_SecondViolinStaffVIII = <<
+O_SecondViolinStaffVIII = <<
     \context Voice = "SecondViolinVoiceXV"
-    \O_a_SecondViolinVoiceXV
+    \O_SecondViolinVoiceXV
     \context Voice = "SecondViolinVoiceXVI"
-    \O_a_SecondViolinVoiceXVI
+    \O_SecondViolinVoiceXVI
 >>
 
 
-O_a_SecondViolinVoiceXVII_a = {
+O_SecondViolinVoiceXVII_a = {
     
-    % [O1 SecondViolinVoiceXVII measure 131]             %! SM4
+    % [O SecondViolinVoiceXVII measure 131]              %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -2239,23 +2239,23 @@ O_a_SecondViolinVoiceXVII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 SecondViolinVoiceXVII measure 132]             %! SM4
+    % [O SecondViolinVoiceXVII measure 132]              %! SM4
     r2
     
-    % [O1 SecondViolinVoiceXVII measure 133]             %! SM4
+    % [O SecondViolinVoiceXVII measure 133]              %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceXVII = {
-    \O_a_SecondViolinVoiceXVII_a
+O_SecondViolinVoiceXVII = {
+    \O_SecondViolinVoiceXVII_a
 }
 
 
-O_a_SecondViolinVoiceXVIII_a = {
+O_SecondViolinVoiceXVIII_a = {
     
-    % [O1 SecondViolinVoiceXVIII measure 131]            %! SM4
+    % [O SecondViolinVoiceXVIII measure 131]             %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -2264,31 +2264,31 @@ O_a_SecondViolinVoiceXVIII_a = {
 %%%         (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 SecondViolinVoiceXVIII measure 132]            %! SM4
+    % [O SecondViolinVoiceXVIII measure 132]             %! SM4
     r2
     
-    % [O1 SecondViolinVoiceXVIII measure 133]            %! SM4
+    % [O SecondViolinVoiceXVIII measure 133]             %! SM4
     r1
     
 }
 
 
-O_a_SecondViolinVoiceXVIII = {
-    \O_a_SecondViolinVoiceXVIII_a
+O_SecondViolinVoiceXVIII = {
+    \O_SecondViolinVoiceXVIII_a
 }
 
 
-O_a_SecondViolinStaffIX = <<
+O_SecondViolinStaffIX = <<
     \context Voice = "SecondViolinVoiceXVII"
-    \O_a_SecondViolinVoiceXVII
+    \O_SecondViolinVoiceXVII
     \context Voice = "SecondViolinVoiceXVIII"
-    \O_a_SecondViolinVoiceXVIII
+    \O_SecondViolinVoiceXVIII
 >>
 
 
-O_a_ViolaVoiceI_a = {
+O_ViolaVoiceI_a = {
     
-    % [O1 ViolaVoiceI measure 131]                       %! SM4
+    % [O ViolaVoiceI measure 131]                        %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -2364,53 +2364,53 @@ O_a_ViolaVoiceI_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 ViolaVoiceI measure 132]                       %! SM4
+    % [O ViolaVoiceI measure 132]                        %! SM4
     r2
     
-    % [O1 ViolaVoiceI measure 133]                       %! SM4
+    % [O ViolaVoiceI measure 133]                        %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceI = {
-    \O_a_ViolaVoiceI_a
+O_ViolaVoiceI = {
+    \O_ViolaVoiceI_a
 }
 
 
-O_a_ViolaVoiceII_a = {
+O_ViolaVoiceII_a = {
     
-    % [O1 ViolaVoiceII measure 131]                      %! SM4
+    % [O ViolaVoiceII measure 131]                       %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [O1 ViolaVoiceII measure 132]                      %! SM4
+    % [O ViolaVoiceII measure 132]                       %! SM4
     r2
     
-    % [O1 ViolaVoiceII measure 133]                      %! SM4
+    % [O ViolaVoiceII measure 133]                       %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceII = {
-    \O_a_ViolaVoiceII_a
+O_ViolaVoiceII = {
+    \O_ViolaVoiceII_a
 }
 
 
-O_a_ViolaStaffI = <<
+O_ViolaStaffI = <<
     \context Voice = "ViolaVoiceI"
-    \O_a_ViolaVoiceI
+    \O_ViolaVoiceI
     \context Voice = "ViolaVoiceII"
-    \O_a_ViolaVoiceII
+    \O_ViolaVoiceII
 >>
 
 
-O_a_ViolaVoiceIII_a = {
+O_ViolaVoiceIII_a = {
     
-    % [O1 ViolaVoiceIII measure 131]                     %! SM4
+    % [O ViolaVoiceIII measure 131]                      %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -2486,53 +2486,53 @@ O_a_ViolaVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 ViolaVoiceIII measure 132]                     %! SM4
+    % [O ViolaVoiceIII measure 132]                      %! SM4
     r2
     
-    % [O1 ViolaVoiceIII measure 133]                     %! SM4
+    % [O ViolaVoiceIII measure 133]                      %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceIII = {
-    \O_a_ViolaVoiceIII_a
+O_ViolaVoiceIII = {
+    \O_ViolaVoiceIII_a
 }
 
 
-O_a_ViolaVoiceIV_a = {
+O_ViolaVoiceIV_a = {
     
-    % [O1 ViolaVoiceIV measure 131]                      %! SM4
+    % [O ViolaVoiceIV measure 131]                       %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [O1 ViolaVoiceIV measure 132]                      %! SM4
+    % [O ViolaVoiceIV measure 132]                       %! SM4
     r2
     
-    % [O1 ViolaVoiceIV measure 133]                      %! SM4
+    % [O ViolaVoiceIV measure 133]                       %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceIV = {
-    \O_a_ViolaVoiceIV_a
+O_ViolaVoiceIV = {
+    \O_ViolaVoiceIV_a
 }
 
 
-O_a_ViolaStaffII = <<
+O_ViolaStaffII = <<
     \context Voice = "ViolaVoiceIII"
-    \O_a_ViolaVoiceIII
+    \O_ViolaVoiceIII
     \context Voice = "ViolaVoiceIV"
-    \O_a_ViolaVoiceIV
+    \O_ViolaVoiceIV
 >>
 
 
-O_a_ViolaVoiceV_a = {
+O_ViolaVoiceV_a = {
     
-    % [O1 ViolaVoiceV measure 131]                       %! SM4
+    % [O ViolaVoiceV measure 131]                        %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -2594,23 +2594,23 @@ O_a_ViolaVoiceV_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 ViolaVoiceV measure 132]                       %! SM4
+    % [O ViolaVoiceV measure 132]                        %! SM4
     r2
     
-    % [O1 ViolaVoiceV measure 133]                       %! SM4
+    % [O ViolaVoiceV measure 133]                        %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceV = {
-    \O_a_ViolaVoiceV_a
+O_ViolaVoiceV = {
+    \O_ViolaVoiceV_a
 }
 
 
-O_a_ViolaVoiceVI_a = {
+O_ViolaVoiceVI_a = {
     
-    % [O1 ViolaVoiceVI measure 131]                      %! SM4
+    % [O ViolaVoiceVI measure 131]                       %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r2
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -2629,31 +2629,31 @@ O_a_ViolaVoiceVI_a = {
     
     r4
     
-    % [O1 ViolaVoiceVI measure 132]                      %! SM4
+    % [O ViolaVoiceVI measure 132]                       %! SM4
     r2
     
-    % [O1 ViolaVoiceVI measure 133]                      %! SM4
+    % [O ViolaVoiceVI measure 133]                       %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceVI = {
-    \O_a_ViolaVoiceVI_a
+O_ViolaVoiceVI = {
+    \O_ViolaVoiceVI_a
 }
 
 
-O_a_ViolaStaffIII = <<
+O_ViolaStaffIII = <<
     \context Voice = "ViolaVoiceV"
-    \O_a_ViolaVoiceV
+    \O_ViolaVoiceV
     \context Voice = "ViolaVoiceVI"
-    \O_a_ViolaVoiceVI
+    \O_ViolaVoiceVI
 >>
 
 
-O_a_ViolaVoiceVII_a = {
+O_ViolaVoiceVII_a = {
     
-    % [O1 ViolaVoiceVII measure 131]                     %! SM4
+    % [O ViolaVoiceVII measure 131]                      %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -2715,23 +2715,23 @@ O_a_ViolaVoiceVII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 ViolaVoiceVII measure 132]                     %! SM4
+    % [O ViolaVoiceVII measure 132]                      %! SM4
     r2
     
-    % [O1 ViolaVoiceVII measure 133]                     %! SM4
+    % [O ViolaVoiceVII measure 133]                      %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceVII = {
-    \O_a_ViolaVoiceVII_a
+O_ViolaVoiceVII = {
+    \O_ViolaVoiceVII_a
 }
 
 
-O_a_ViolaVoiceVIII_a = {
+O_ViolaVoiceVIII_a = {
     
-    % [O1 ViolaVoiceVIII measure 131]                    %! SM4
+    % [O ViolaVoiceVIII measure 131]                     %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -2740,31 +2740,31 @@ O_a_ViolaVoiceVIII_a = {
 %%%         (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 ViolaVoiceVIII measure 132]                    %! SM4
+    % [O ViolaVoiceVIII measure 132]                     %! SM4
     r2
     
-    % [O1 ViolaVoiceVIII measure 133]                    %! SM4
+    % [O ViolaVoiceVIII measure 133]                     %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceVIII = {
-    \O_a_ViolaVoiceVIII_a
+O_ViolaVoiceVIII = {
+    \O_ViolaVoiceVIII_a
 }
 
 
-O_a_ViolaStaffIV = <<
+O_ViolaStaffIV = <<
     \context Voice = "ViolaVoiceVII"
-    \O_a_ViolaVoiceVII
+    \O_ViolaVoiceVII
     \context Voice = "ViolaVoiceVIII"
-    \O_a_ViolaVoiceVIII
+    \O_ViolaVoiceVIII
 >>
 
 
-O_a_ViolaVoiceIX_a = {
+O_ViolaVoiceIX_a = {
     
-    % [O1 ViolaVoiceIX measure 131]                      %! SM4
+    % [O ViolaVoiceIX measure 131]                       %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -2826,23 +2826,23 @@ O_a_ViolaVoiceIX_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 ViolaVoiceIX measure 132]                      %! SM4
+    % [O ViolaVoiceIX measure 132]                       %! SM4
     r2
     
-    % [O1 ViolaVoiceIX measure 133]                      %! SM4
+    % [O ViolaVoiceIX measure 133]                       %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceIX = {
-    \O_a_ViolaVoiceIX_a
+O_ViolaVoiceIX = {
+    \O_ViolaVoiceIX_a
 }
 
 
-O_a_ViolaVoiceX_a = {
+O_ViolaVoiceX_a = {
     
-    % [O1 ViolaVoiceX measure 131]                       %! SM4
+    % [O ViolaVoiceX measure 131]                        %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -2851,31 +2851,31 @@ O_a_ViolaVoiceX_a = {
 %%%         (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 ViolaVoiceX measure 132]                       %! SM4
+    % [O ViolaVoiceX measure 132]                        %! SM4
     r2
     
-    % [O1 ViolaVoiceX measure 133]                       %! SM4
+    % [O ViolaVoiceX measure 133]                        %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceX = {
-    \O_a_ViolaVoiceX_a
+O_ViolaVoiceX = {
+    \O_ViolaVoiceX_a
 }
 
 
-O_a_ViolaStaffV = <<
+O_ViolaStaffV = <<
     \context Voice = "ViolaVoiceIX"
-    \O_a_ViolaVoiceIX
+    \O_ViolaVoiceIX
     \context Voice = "ViolaVoiceX"
-    \O_a_ViolaVoiceX
+    \O_ViolaVoiceX
 >>
 
 
-O_a_ViolaVoiceXI_a = {
+O_ViolaVoiceXI_a = {
     
-    % [O1 ViolaVoiceXI measure 131]                      %! SM4
+    % [O ViolaVoiceXI measure 131]                       %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -2937,23 +2937,23 @@ O_a_ViolaVoiceXI_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 ViolaVoiceXI measure 132]                      %! SM4
+    % [O ViolaVoiceXI measure 132]                       %! SM4
     r2
     
-    % [O1 ViolaVoiceXI measure 133]                      %! SM4
+    % [O ViolaVoiceXI measure 133]                       %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceXI = {
-    \O_a_ViolaVoiceXI_a
+O_ViolaVoiceXI = {
+    \O_ViolaVoiceXI_a
 }
 
 
-O_a_ViolaVoiceXII_a = {
+O_ViolaVoiceXII_a = {
     
-    % [O1 ViolaVoiceXII measure 131]                     %! SM4
+    % [O ViolaVoiceXII measure 131]                      %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r2
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -2970,31 +2970,31 @@ O_a_ViolaVoiceXII_a = {
     
     r4
     
-    % [O1 ViolaVoiceXII measure 132]                     %! SM4
+    % [O ViolaVoiceXII measure 132]                      %! SM4
     r2
     
-    % [O1 ViolaVoiceXII measure 133]                     %! SM4
+    % [O ViolaVoiceXII measure 133]                      %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceXII = {
-    \O_a_ViolaVoiceXII_a
+O_ViolaVoiceXII = {
+    \O_ViolaVoiceXII_a
 }
 
 
-O_a_ViolaStaffVI = <<
+O_ViolaStaffVI = <<
     \context Voice = "ViolaVoiceXI"
-    \O_a_ViolaVoiceXI
+    \O_ViolaVoiceXI
     \context Voice = "ViolaVoiceXII"
-    \O_a_ViolaVoiceXII
+    \O_ViolaVoiceXII
 >>
 
 
-O_a_ViolaVoiceXIII_a = {
+O_ViolaVoiceXIII_a = {
     
-    % [O1 ViolaVoiceXIII measure 131]                    %! SM4
+    % [O ViolaVoiceXIII measure 131]                     %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -3056,23 +3056,23 @@ O_a_ViolaVoiceXIII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 ViolaVoiceXIII measure 132]                    %! SM4
+    % [O ViolaVoiceXIII measure 132]                     %! SM4
     r2
     
-    % [O1 ViolaVoiceXIII measure 133]                    %! SM4
+    % [O ViolaVoiceXIII measure 133]                     %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceXIII = {
-    \O_a_ViolaVoiceXIII_a
+O_ViolaVoiceXIII = {
+    \O_ViolaVoiceXIII_a
 }
 
 
-O_a_ViolaVoiceXIV_a = {
+O_ViolaVoiceXIV_a = {
     
-    % [O1 ViolaVoiceXIV measure 131]                     %! SM4
+    % [O ViolaVoiceXIV measure 131]                      %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -3081,31 +3081,31 @@ O_a_ViolaVoiceXIV_a = {
 %%%         (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 ViolaVoiceXIV measure 132]                     %! SM4
+    % [O ViolaVoiceXIV measure 132]                      %! SM4
     r2
     
-    % [O1 ViolaVoiceXIV measure 133]                     %! SM4
+    % [O ViolaVoiceXIV measure 133]                      %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceXIV = {
-    \O_a_ViolaVoiceXIV_a
+O_ViolaVoiceXIV = {
+    \O_ViolaVoiceXIV_a
 }
 
 
-O_a_ViolaStaffVII = <<
+O_ViolaStaffVII = <<
     \context Voice = "ViolaVoiceXIII"
-    \O_a_ViolaVoiceXIII
+    \O_ViolaVoiceXIII
     \context Voice = "ViolaVoiceXIV"
-    \O_a_ViolaVoiceXIV
+    \O_ViolaVoiceXIV
 >>
 
 
-O_a_ViolaVoiceXV_a = {
+O_ViolaVoiceXV_a = {
     
-    % [O1 ViolaVoiceXV measure 131]                      %! SM4
+    % [O ViolaVoiceXV measure 131]                       %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -3173,23 +3173,23 @@ O_a_ViolaVoiceXV_a = {
     
     r2
     
-    % [O1 ViolaVoiceXV measure 132]                      %! SM4
+    % [O ViolaVoiceXV measure 132]                       %! SM4
     r2
     
-    % [O1 ViolaVoiceXV measure 133]                      %! SM4
+    % [O ViolaVoiceXV measure 133]                       %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceXV = {
-    \O_a_ViolaVoiceXV_a
+O_ViolaVoiceXV = {
+    \O_ViolaVoiceXV_a
 }
 
 
-O_a_ViolaVoiceXVI_a = {
+O_ViolaVoiceXVI_a = {
     
-    % [O1 ViolaVoiceXVI measure 131]                     %! SM4
+    % [O ViolaVoiceXVI measure 131]                      %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -3198,31 +3198,31 @@ O_a_ViolaVoiceXVI_a = {
 %%%         (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 ViolaVoiceXVI measure 132]                     %! SM4
+    % [O ViolaVoiceXVI measure 132]                      %! SM4
     r2
     
-    % [O1 ViolaVoiceXVI measure 133]                     %! SM4
+    % [O ViolaVoiceXVI measure 133]                      %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceXVI = {
-    \O_a_ViolaVoiceXVI_a
+O_ViolaVoiceXVI = {
+    \O_ViolaVoiceXVI_a
 }
 
 
-O_a_ViolaStaffVIII = <<
+O_ViolaStaffVIII = <<
     \context Voice = "ViolaVoiceXV"
-    \O_a_ViolaVoiceXV
+    \O_ViolaVoiceXV
     \context Voice = "ViolaVoiceXVI"
-    \O_a_ViolaVoiceXVI
+    \O_ViolaVoiceXVI
 >>
 
 
-O_a_ViolaVoiceXVII_a = {
+O_ViolaVoiceXVII_a = {
     
-    % [O1 ViolaVoiceXVII measure 131]                    %! SM4
+    % [O ViolaVoiceXVII measure 131]                     %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -3284,23 +3284,23 @@ O_a_ViolaVoiceXVII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 ViolaVoiceXVII measure 132]                    %! SM4
+    % [O ViolaVoiceXVII measure 132]                     %! SM4
     r2
     
-    % [O1 ViolaVoiceXVII measure 133]                    %! SM4
+    % [O ViolaVoiceXVII measure 133]                     %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceXVII = {
-    \O_a_ViolaVoiceXVII_a
+O_ViolaVoiceXVII = {
+    \O_ViolaVoiceXVII_a
 }
 
 
-O_a_ViolaVoiceXVIII_a = {
+O_ViolaVoiceXVIII_a = {
     
-    % [O1 ViolaVoiceXVIII measure 131]                   %! SM4
+    % [O ViolaVoiceXVIII measure 131]                    %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r4
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -3315,31 +3315,31 @@ O_a_ViolaVoiceXVIII_a = {
     
     r2
     
-    % [O1 ViolaVoiceXVIII measure 132]                   %! SM4
+    % [O ViolaVoiceXVIII measure 132]                    %! SM4
     r2
     
-    % [O1 ViolaVoiceXVIII measure 133]                   %! SM4
+    % [O ViolaVoiceXVIII measure 133]                    %! SM4
     r1
     
 }
 
 
-O_a_ViolaVoiceXVIII = {
-    \O_a_ViolaVoiceXVIII_a
+O_ViolaVoiceXVIII = {
+    \O_ViolaVoiceXVIII_a
 }
 
 
-O_a_ViolaStaffIX = <<
+O_ViolaStaffIX = <<
     \context Voice = "ViolaVoiceXVII"
-    \O_a_ViolaVoiceXVII
+    \O_ViolaVoiceXVII
     \context Voice = "ViolaVoiceXVIII"
-    \O_a_ViolaVoiceXVIII
+    \O_ViolaVoiceXVIII
 >>
 
 
-O_a_CelloVoiceI_a = {
+O_CelloVoiceI_a = {
     
-    % [O1 CelloVoiceI measure 131]                       %! SM4
+    % [O CelloVoiceI measure 131]                        %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -3415,53 +3415,53 @@ O_a_CelloVoiceI_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 CelloVoiceI measure 132]                       %! SM4
+    % [O CelloVoiceI measure 132]                        %! SM4
     r2
     
-    % [O1 CelloVoiceI measure 133]                       %! SM4
+    % [O CelloVoiceI measure 133]                        %! SM4
     r1
     
 }
 
 
-O_a_CelloVoiceI = {
-    \O_a_CelloVoiceI_a
+O_CelloVoiceI = {
+    \O_CelloVoiceI_a
 }
 
 
-O_a_CelloVoiceII_a = {
+O_CelloVoiceII_a = {
     
-    % [O1 CelloVoiceII measure 131]                      %! SM4
+    % [O CelloVoiceII measure 131]                       %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [O1 CelloVoiceII measure 132]                      %! SM4
+    % [O CelloVoiceII measure 132]                       %! SM4
     r2
     
-    % [O1 CelloVoiceII measure 133]                      %! SM4
+    % [O CelloVoiceII measure 133]                       %! SM4
     r1
     
 }
 
 
-O_a_CelloVoiceII = {
-    \O_a_CelloVoiceII_a
+O_CelloVoiceII = {
+    \O_CelloVoiceII_a
 }
 
 
-O_a_CelloStaffI = <<
+O_CelloStaffI = <<
     \context Voice = "CelloVoiceI"
-    \O_a_CelloVoiceI
+    \O_CelloVoiceI
     \context Voice = "CelloVoiceII"
-    \O_a_CelloVoiceII
+    \O_CelloVoiceII
 >>
 
 
-O_a_CelloVoiceIII_a = {
+O_CelloVoiceIII_a = {
     
-    % [O1 CelloVoiceIII measure 131]                     %! SM4
+    % [O CelloVoiceIII measure 131]                      %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -3523,23 +3523,23 @@ O_a_CelloVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 CelloVoiceIII measure 132]                     %! SM4
+    % [O CelloVoiceIII measure 132]                      %! SM4
     r2
     
-    % [O1 CelloVoiceIII measure 133]                     %! SM4
+    % [O CelloVoiceIII measure 133]                      %! SM4
     r1
     
 }
 
 
-O_a_CelloVoiceIII = {
-    \O_a_CelloVoiceIII_a
+O_CelloVoiceIII = {
+    \O_CelloVoiceIII_a
 }
 
 
-O_a_CelloVoiceIV_a = {
+O_CelloVoiceIV_a = {
     
-    % [O1 CelloVoiceIV measure 131]                      %! SM4
+    % [O CelloVoiceIV measure 131]                       %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -3548,31 +3548,31 @@ O_a_CelloVoiceIV_a = {
 %%%         (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 CelloVoiceIV measure 132]                      %! SM4
+    % [O CelloVoiceIV measure 132]                       %! SM4
     r2
     
-    % [O1 CelloVoiceIV measure 133]                      %! SM4
+    % [O CelloVoiceIV measure 133]                       %! SM4
     r1
     
 }
 
 
-O_a_CelloVoiceIV = {
-    \O_a_CelloVoiceIV_a
+O_CelloVoiceIV = {
+    \O_CelloVoiceIV_a
 }
 
 
-O_a_CelloStaffII = <<
+O_CelloStaffII = <<
     \context Voice = "CelloVoiceIII"
-    \O_a_CelloVoiceIII
+    \O_CelloVoiceIII
     \context Voice = "CelloVoiceIV"
-    \O_a_CelloVoiceIV
+    \O_CelloVoiceIV
 >>
 
 
-O_a_CelloVoiceV_a = {
+O_CelloVoiceV_a = {
     
-    % [O1 CelloVoiceV measure 131]                       %! SM4
+    % [O CelloVoiceV measure 131]                        %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -3634,10 +3634,10 @@ O_a_CelloVoiceV_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 CelloVoiceV measure 132]                       %! SM4
+    % [O CelloVoiceV measure 132]                        %! SM4
     r2
     
-    % [O1 CelloVoiceV measure 133]                       %! SM4
+    % [O CelloVoiceV measure 133]                        %! SM4
     r2...
     
     d'16
@@ -3645,14 +3645,14 @@ O_a_CelloVoiceV_a = {
 }
 
 
-O_a_CelloVoiceV = {
-    \O_a_CelloVoiceV_a
+O_CelloVoiceV = {
+    \O_CelloVoiceV_a
 }
 
 
-O_a_CelloVoiceVI_a = {
+O_CelloVoiceVI_a = {
     
-    % [O1 CelloVoiceVI measure 131]                      %! SM4
+    % [O CelloVoiceVI measure 131]                       %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -3661,31 +3661,31 @@ O_a_CelloVoiceVI_a = {
 %%%         (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 CelloVoiceVI measure 132]                      %! SM4
+    % [O CelloVoiceVI measure 132]                       %! SM4
     r2
     
-    % [O1 CelloVoiceVI measure 133]                      %! SM4
+    % [O CelloVoiceVI measure 133]                       %! SM4
     r1
     
 }
 
 
-O_a_CelloVoiceVI = {
-    \O_a_CelloVoiceVI_a
+O_CelloVoiceVI = {
+    \O_CelloVoiceVI_a
 }
 
 
-O_a_CelloStaffIII = <<
+O_CelloStaffIII = <<
     \context Voice = "CelloVoiceV"
-    \O_a_CelloVoiceV
+    \O_CelloVoiceV
     \context Voice = "CelloVoiceVI"
-    \O_a_CelloVoiceVI
+    \O_CelloVoiceVI
 >>
 
 
-O_a_CelloVoiceVII_a = {
+O_CelloVoiceVII_a = {
     
-    % [O1 CelloVoiceVII measure 131]                     %! SM4
+    % [O CelloVoiceVII measure 131]                      %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -3747,23 +3747,23 @@ O_a_CelloVoiceVII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 CelloVoiceVII measure 132]                     %! SM4
+    % [O CelloVoiceVII measure 132]                      %! SM4
     r2
     
-    % [O1 CelloVoiceVII measure 133]                     %! SM4
+    % [O CelloVoiceVII measure 133]                      %! SM4
     r1
     
 }
 
 
-O_a_CelloVoiceVII = {
-    \O_a_CelloVoiceVII_a
+O_CelloVoiceVII = {
+    \O_CelloVoiceVII_a
 }
 
 
-O_a_CelloVoiceVIII_a = {
+O_CelloVoiceVIII_a = {
     
-    % [O1 CelloVoiceVIII measure 131]                    %! SM4
+    % [O CelloVoiceVIII measure 131]                     %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -3772,31 +3772,31 @@ O_a_CelloVoiceVIII_a = {
 %%%         (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 CelloVoiceVIII measure 132]                    %! SM4
+    % [O CelloVoiceVIII measure 132]                     %! SM4
     r2
     
-    % [O1 CelloVoiceVIII measure 133]                    %! SM4
+    % [O CelloVoiceVIII measure 133]                     %! SM4
     r1
     
 }
 
 
-O_a_CelloVoiceVIII = {
-    \O_a_CelloVoiceVIII_a
+O_CelloVoiceVIII = {
+    \O_CelloVoiceVIII_a
 }
 
 
-O_a_CelloStaffIV = <<
+O_CelloStaffIV = <<
     \context Voice = "CelloVoiceVII"
-    \O_a_CelloVoiceVII
+    \O_CelloVoiceVII
     \context Voice = "CelloVoiceVIII"
-    \O_a_CelloVoiceVIII
+    \O_CelloVoiceVIII
 >>
 
 
-O_a_CelloVoiceIX_a = {
+O_CelloVoiceIX_a = {
     
-    % [O1 CelloVoiceIX measure 131]                      %! SM4
+    % [O CelloVoiceIX measure 131]                       %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -3858,23 +3858,23 @@ O_a_CelloVoiceIX_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 CelloVoiceIX measure 132]                      %! SM4
+    % [O CelloVoiceIX measure 132]                       %! SM4
     r2
     
-    % [O1 CelloVoiceIX measure 133]                      %! SM4
+    % [O CelloVoiceIX measure 133]                       %! SM4
     r1
     
 }
 
 
-O_a_CelloVoiceIX = {
-    \O_a_CelloVoiceIX_a
+O_CelloVoiceIX = {
+    \O_CelloVoiceIX_a
 }
 
 
-O_a_CelloVoiceX_a = {
+O_CelloVoiceX_a = {
     
-    % [O1 CelloVoiceX measure 131]                       %! SM4
+    % [O CelloVoiceX measure 131]                        %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -3883,31 +3883,31 @@ O_a_CelloVoiceX_a = {
 %%%         (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 CelloVoiceX measure 132]                       %! SM4
+    % [O CelloVoiceX measure 132]                        %! SM4
     r2
     
-    % [O1 CelloVoiceX measure 133]                       %! SM4
+    % [O CelloVoiceX measure 133]                        %! SM4
     r1
     
 }
 
 
-O_a_CelloVoiceX = {
-    \O_a_CelloVoiceX_a
+O_CelloVoiceX = {
+    \O_CelloVoiceX_a
 }
 
 
-O_a_CelloStaffV = <<
+O_CelloStaffV = <<
     \context Voice = "CelloVoiceIX"
-    \O_a_CelloVoiceIX
+    \O_CelloVoiceIX
     \context Voice = "CelloVoiceX"
-    \O_a_CelloVoiceX
+    \O_CelloVoiceX
 >>
 
 
-O_a_CelloVoiceXI_a = {
+O_CelloVoiceXI_a = {
     
-    % [O1 CelloVoiceXI measure 131]                      %! SM4
+    % [O CelloVoiceXI measure 131]                       %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -3969,10 +3969,10 @@ O_a_CelloVoiceXI_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 CelloVoiceXI measure 132]                      %! SM4
+    % [O CelloVoiceXI measure 132]                       %! SM4
     r2
     
-    % [O1 CelloVoiceXI measure 133]                      %! SM4
+    % [O CelloVoiceXI measure 133]                       %! SM4
     r2.
     
     d'16
@@ -3982,14 +3982,14 @@ O_a_CelloVoiceXI_a = {
 }
 
 
-O_a_CelloVoiceXI = {
-    \O_a_CelloVoiceXI_a
+O_CelloVoiceXI = {
+    \O_CelloVoiceXI_a
 }
 
 
-O_a_CelloVoiceXII_a = {
+O_CelloVoiceXII_a = {
     
-    % [O1 CelloVoiceXII measure 131]                     %! SM4
+    % [O CelloVoiceXII measure 131]                      %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -3998,31 +3998,31 @@ O_a_CelloVoiceXII_a = {
 %%%         (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 CelloVoiceXII measure 132]                     %! SM4
+    % [O CelloVoiceXII measure 132]                      %! SM4
     r2
     
-    % [O1 CelloVoiceXII measure 133]                     %! SM4
+    % [O CelloVoiceXII measure 133]                      %! SM4
     r1
     
 }
 
 
-O_a_CelloVoiceXII = {
-    \O_a_CelloVoiceXII_a
+O_CelloVoiceXII = {
+    \O_CelloVoiceXII_a
 }
 
 
-O_a_CelloStaffVI = <<
+O_CelloStaffVI = <<
     \context Voice = "CelloVoiceXI"
-    \O_a_CelloVoiceXI
+    \O_CelloVoiceXI
     \context Voice = "CelloVoiceXII"
-    \O_a_CelloVoiceXII
+    \O_CelloVoiceXII
 >>
 
 
-O_a_CelloVoiceXIII_a = {
+O_CelloVoiceXIII_a = {
     
-    % [O1 CelloVoiceXIII measure 131]                    %! SM4
+    % [O CelloVoiceXIII measure 131]                     %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -4084,23 +4084,23 @@ O_a_CelloVoiceXIII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 CelloVoiceXIII measure 132]                    %! SM4
+    % [O CelloVoiceXIII measure 132]                     %! SM4
     r2
     
-    % [O1 CelloVoiceXIII measure 133]                    %! SM4
+    % [O CelloVoiceXIII measure 133]                     %! SM4
     r1
     
 }
 
 
-O_a_CelloVoiceXIII = {
-    \O_a_CelloVoiceXIII_a
+O_CelloVoiceXIII = {
+    \O_CelloVoiceXIII_a
 }
 
 
-O_a_CelloVoiceXIV_a = {
+O_CelloVoiceXIV_a = {
     
-    % [O1 CelloVoiceXIV measure 131]                     %! SM4
+    % [O CelloVoiceXIV measure 131]                      %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -4109,31 +4109,31 @@ O_a_CelloVoiceXIV_a = {
 %%%         (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 CelloVoiceXIV measure 132]                     %! SM4
+    % [O CelloVoiceXIV measure 132]                      %! SM4
     r2
     
-    % [O1 CelloVoiceXIV measure 133]                     %! SM4
+    % [O CelloVoiceXIV measure 133]                      %! SM4
     r1
     
 }
 
 
-O_a_CelloVoiceXIV = {
-    \O_a_CelloVoiceXIV_a
+O_CelloVoiceXIV = {
+    \O_CelloVoiceXIV_a
 }
 
 
-O_a_CelloStaffVII = <<
+O_CelloStaffVII = <<
     \context Voice = "CelloVoiceXIII"
-    \O_a_CelloVoiceXIII
+    \O_CelloVoiceXIII
     \context Voice = "CelloVoiceXIV"
-    \O_a_CelloVoiceXIV
+    \O_CelloVoiceXIV
 >>
 
 
-O_a_ContrabassVoiceI_a = {
+O_ContrabassVoiceI_a = {
     
-    % [O1 ContrabassVoiceI measure 131]                  %! SM4
+    % [O ContrabassVoiceI measure 131]                   %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -4209,51 +4209,51 @@ O_a_ContrabassVoiceI_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 ContrabassVoiceI measure 132]                  %! SM4
+    % [O ContrabassVoiceI measure 132]                   %! SM4
     r2
     
-    % [O1 ContrabassVoiceI measure 133]                  %! SM4
+    % [O ContrabassVoiceI measure 133]                   %! SM4
     r1
     
 }
 
 
-O_a_ContrabassVoiceI = {
-    \O_a_ContrabassVoiceI_a
+O_ContrabassVoiceI = {
+    \O_ContrabassVoiceI_a
 }
 
 
-O_a_ContrabassVoiceII_a = {
+O_ContrabassVoiceII_a = {
     
-    % [O1 ContrabassVoiceII measure 131]                 %! SM4
+    % [O ContrabassVoiceII measure 131]                  %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
     
-    % [O1 ContrabassVoiceII measure 132]                 %! SM4
+    % [O ContrabassVoiceII measure 132]                  %! SM4
     r2
     
-    % [O1 ContrabassVoiceII measure 133]                 %! SM4
+    % [O ContrabassVoiceII measure 133]                  %! SM4
     r1
     
 }
 
 
-O_a_ContrabassVoiceII = {
-    \O_a_ContrabassVoiceII_a
+O_ContrabassVoiceII = {
+    \O_ContrabassVoiceII_a
 }
 
 
-O_a_ContrabassStaffI = <<
+O_ContrabassStaffI = <<
     \context Voice = "ContrabassVoiceI"
-    \O_a_ContrabassVoiceI
+    \O_ContrabassVoiceI
     \context Voice = "ContrabassVoiceII"
-    \O_a_ContrabassVoiceII
+    \O_ContrabassVoiceII
 >>
 
 
-O_a_ContrabassVoiceIII_a = {
+O_ContrabassVoiceIII_a = {
     
-    % [O1 ContrabassVoiceIII measure 131]                %! SM4
+    % [O ContrabassVoiceIII measure 131]                 %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -4329,51 +4329,51 @@ O_a_ContrabassVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 ContrabassVoiceIII measure 132]                %! SM4
+    % [O ContrabassVoiceIII measure 132]                 %! SM4
     r2
     
-    % [O1 ContrabassVoiceIII measure 133]                %! SM4
+    % [O ContrabassVoiceIII measure 133]                 %! SM4
     r1
     
 }
 
 
-O_a_ContrabassVoiceIII = {
-    \O_a_ContrabassVoiceIII_a
+O_ContrabassVoiceIII = {
+    \O_ContrabassVoiceIII_a
 }
 
 
-O_a_ContrabassVoiceIV_a = {
+O_ContrabassVoiceIV_a = {
     
-    % [O1 ContrabassVoiceIV measure 131]                 %! SM4
+    % [O ContrabassVoiceIV measure 131]                  %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
     
-    % [O1 ContrabassVoiceIV measure 132]                 %! SM4
+    % [O ContrabassVoiceIV measure 132]                  %! SM4
     r2
     
-    % [O1 ContrabassVoiceIV measure 133]                 %! SM4
+    % [O ContrabassVoiceIV measure 133]                  %! SM4
     r1
     
 }
 
 
-O_a_ContrabassVoiceIV = {
-    \O_a_ContrabassVoiceIV_a
+O_ContrabassVoiceIV = {
+    \O_ContrabassVoiceIV_a
 }
 
 
-O_a_ContrabassStaffII = <<
+O_ContrabassStaffII = <<
     \context Voice = "ContrabassVoiceIII"
-    \O_a_ContrabassVoiceIII
+    \O_ContrabassVoiceIII
     \context Voice = "ContrabassVoiceIV"
-    \O_a_ContrabassVoiceIV
+    \O_ContrabassVoiceIV
 >>
 
 
-O_a_ContrabassVoiceV_a = {
+O_ContrabassVoiceV_a = {
     
-    % [O1 ContrabassVoiceV measure 131]                  %! SM4
+    % [O ContrabassVoiceV measure 131]                   %! SM4
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -4435,23 +4435,23 @@ O_a_ContrabassVoiceV_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [O1 ContrabassVoiceV measure 132]                  %! SM4
+    % [O ContrabassVoiceV measure 132]                   %! SM4
     r2
     
-    % [O1 ContrabassVoiceV measure 133]                  %! SM4
+    % [O ContrabassVoiceV measure 133]                   %! SM4
     r1
     
 }
 
 
-O_a_ContrabassVoiceV = {
-    \O_a_ContrabassVoiceV_a
+O_ContrabassVoiceV = {
+    \O_ContrabassVoiceV_a
 }
 
 
-O_a_ContrabassVoiceVI_a = {
+O_ContrabassVoiceVI_a = {
     
-    % [O1 ContrabassVoiceVI measure 131]                 %! SM4
+    % [O ContrabassVoiceVI measure 131]                  %! SM4
     \voiceTwo                                            %! IC:-PARTS
     r1
 %%% ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -4460,10 +4460,10 @@ O_a_ContrabassVoiceVI_a = {
 %%%         (“Contrabass”)                               %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
 %%%     }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [O1 ContrabassVoiceVI measure 132]                 %! SM4
+    % [O ContrabassVoiceVI measure 132]                  %! SM4
     r2
     
-    % [O1 ContrabassVoiceVI measure 133]                 %! SM4
+    % [O ContrabassVoiceVI measure 133]                  %! SM4
     r4
     
     r16
@@ -4477,14 +4477,14 @@ O_a_ContrabassVoiceVI_a = {
 }
 
 
-O_a_ContrabassVoiceVI = {
-    \O_a_ContrabassVoiceVI_a
+O_ContrabassVoiceVI = {
+    \O_ContrabassVoiceVI_a
 }
 
 
-O_a_ContrabassStaffIII = <<
+O_ContrabassStaffIII = <<
     \context Voice = "ContrabassVoiceV"
-    \O_a_ContrabassVoiceV
+    \O_ContrabassVoiceV
     \context Voice = "ContrabassVoiceVI"
-    \O_a_ContrabassVoiceVI
+    \O_ContrabassVoiceVI
 >>
