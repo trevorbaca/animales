@@ -59,6 +59,9 @@ breaks = baca.breaks(
     baca.page( # 17
         [151, 5, (after_time_signatures, 12)],
         ),
+    baca.page( # 18
+        [157, 5, (after_time_signatures, 12)],
+        ),
     )
 
 spacing = baca.scorewide_spacing(

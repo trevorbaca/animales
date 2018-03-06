@@ -155,7 +155,7 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [146],
+            [152],
             ),
         (
             'container_to_part_assignment',
@@ -2063,7 +2063,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionVoiceIII',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='PercussionVoiceIII',
@@ -2073,7 +2073,12 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionVoiceIII',
                                 prototype='abjad.MarginMarkup',
-                                value='Perc. 3 (vib.)',
+                                value='Perc. 3 (BD)',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceIII',
+                                prototype='baca.StaffLines',
+                                value=1,
                                 ),
                             ],
                         ),
@@ -2128,7 +2133,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionVoiceIII',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='p',
                                 ),
                             ],
                         ),

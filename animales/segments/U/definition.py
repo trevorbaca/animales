@@ -294,11 +294,15 @@ maker(
 
 maker(
     baca.scope('PercussionVoiceIII', 'all'),
+    animales.margin_markup('Perc. 3 (BD)'),
     animales.parts('Percussion', 3),
+    baca.clef('percussion'),
+    baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
     baca.markup.boxed(
         'bass drum (soft yarn mallets: attackless sound)',
         ),
+    baca.staff_lines(1),
     baca.staff_position(0),
     baca.repeat_ties_up(),
     baca.stem_tremolo(),
