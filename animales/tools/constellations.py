@@ -4,7 +4,7 @@ import baca
 import roman
 
 
-def constellations(maker, counts, first=False):
+def constellations(maker, counts, first=False, omit_contrabasses=False):
     r'''Makes constellations.
     '''
 
@@ -39,6 +39,8 @@ def constellations(maker, counts, first=False):
     duration = sum([_.duration for _ in maker.time_signatures])
     wrap = duration.with_denominator(16).numerator
     for section, members in section_to_members.items():
+        if omit_contrabasses and section == 'Contrabass':
+            continue
         for member in range(1, members + 1):
             commands = []
             numeral = roman.toRoman(member)

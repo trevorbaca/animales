@@ -3,20 +3,22 @@ TO-DO
 
 1.  Add SegmentMaker method to renotate full-measure rests.
 
-2.  Model staff / part / instrument / margin markup relationships.
+2.  Correct contrabass repeat tie direction in V.
+
+3.  Model staff / part / instrument / margin markup relationships.
     Constrain margin markup by staff, part, instrument.
 
-3.  Eventually implement cross-segment broken spanner checks.
+4.  Eventually implement cross-segment broken spanner checks.
 
-4.  Eventually color cross-segment broken spanners.
+5.  Eventually color cross-segment broken spanners.
 
-5.  Eventually teach (llm) more about measure checks.
+6.  Eventually teach (llm) more about measure checks.
     Right now (lle) shows % measure_count = 4.
     Should be % time_signatures = ['4/4', '4/4', '2/4', '3/4'] instead.
 
-6.  Figure out what file metadata Preview is looking at for file open size.
+7.  Figure out what file metadata Preview is looking at for file open size.
 
-7.  Teach (llm) how to handle the case that scorewide spacing specifies
+8.  Teach (llm) how to handle the case that scorewide spacing specifies
     layout information for more measures than currently exist in score.
     Right now (llm) errors with:
         Remaking animales/builds/tabloid-score/layout.ly ...
@@ -33,18 +35,23 @@ TO-DO
             result = self.items.__getitem__(argument)
         IndexError: tuple index out of range
 
-8.  Make document tag settings like (ctms) persist in metadata.
+9.  Make document tag settings like (ctms) persist in metadata.
 
-9.  Teach (dup) to replace only [Q] with [R].
+10. Teach (dup) to replace only [Q] with [R].
     Currently:
     Ok?> y
     Replacing 'Q' with 'R' ...
     Replaced 272 instances over 272 lines in 3 files.
 
-10. Write doctests for abjad.Job factory methods.
+11. Write doctests for abjad.Job factory methods.
 
-11. Change (st) to work on current tree like (diff).
+12. Change (st) to work on current tree like (diff).
 
-12. Alphabetize (it) output.
+13. Alphabetize (it) output.
 
-13. Eventually integrate make into build process.
+14. Eventually integrate make into build process.
+
+15. Correct contrabass shifted clef at beginning of V.
+
+16. Allow SegmentMaker to retrieve manifests from segment directory.
+    Preserve SegmentMaker manifest initializer keywords for tests.
