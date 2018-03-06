@@ -6,12 +6,12 @@ from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
-#################################### [O3] #####################################
+#################################### [O] #####################################
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
 start = metadata.get('last_measure_number')
-assert start == 136
+assert start == 130
 
 time_signatures = animales.time_signatures[start: start + 3]
 maker = baca.SegmentMaker(
@@ -76,7 +76,8 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, -1)),
+    baca.scope('GlobalSkips', 'all'),
+    baca.rehearsal_mark('O'),
     )
 
-animales.constellations(maker, [[1, -17], [1, -17], [1, -17]]) 
+animales.constellations(maker, [[1, -117, -117], [1, -118]], first=True)
