@@ -26,6 +26,7 @@ metadata = abjad.OrderedDict(
                 140,
                 145,
                 151,
+                157,
                 ],
             ),
         ('catalog_number_suffix', 'TAB'),

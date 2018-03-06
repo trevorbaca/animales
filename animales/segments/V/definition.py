@@ -305,13 +305,10 @@ maker(
 maker(
     baca.scope('PercussionVoiceIV', 'all'),
     animales.parts('Percussion', 4),
-    baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
-    animales.margin_markup('Perc. 4 (tam.)'),
     baca.staff_position(0),
     baca.repeat_tie_to(),
     baca.repeat_ties_up(),
-    baca.staff_lines(1),
     baca.stem_tremolo(),
     )
 
