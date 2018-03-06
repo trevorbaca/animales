@@ -51,13 +51,13 @@ breaks = baca.breaks(
         [134, 5, (after_time_signatures, 16)],
         ),
     baca.page( # 15
-        [139, 5, (after_time_signatures, 12)],
+        [140, 5, (after_time_signatures, 12)],
         ),
     baca.page( # 16
-        [144, 5, (after_time_signatures, 12)],
+        [145, 5, (after_time_signatures, 12)],
         ),
     baca.page( # 17
-        [149, 5, (after_time_signatures, 12)],
+        [151, 5, (after_time_signatures, 12)],
         ),
     )
 

@@ -1,10 +1,10 @@
 U_GlobalRests = {
     
     % [U GlobalRests measure 149]                                        %! SM4
-    R1 * 3/4
+    R1 * 1
     
     % [U GlobalRests measure 150]                                        %! SM4
-    R1 * 1
+    R1 * 1/2
     
     % [U GlobalRests measure 151]                                        %! SM4
     R1 * 1
@@ -65,11 +65,11 @@ U_GlobalSkips = {
     \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 3/4                                                            %! SM8:REAPPLIED_TIME_SIGNATURE:SM38:SM1
+    \time 4/4                                                            %! SM8:REAPPLIED_TIME_SIGNATURE:SM38:SM1
     \mark #21                                                            %! IC
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
 %%% \once \override Score.TimeSignature.color = #(x11-color 'green4)     %! SM6:REAPPLIED_TIME_SIGNATURE_COLOR:SM38:SM1
-    s1 * 3/4
+    s1 * 1
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -104,15 +104,15 @@ U_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [5'05'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [5'06'']                                 %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [U GlobalSkips measure 150]                                        %! SM4
-    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
 %%% \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    s1 * 1/2
     ^ \markup {
         \column
             {
@@ -146,13 +146,14 @@ U_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [5'07'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [5'09'']                                 %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [U GlobalSkips measure 151]                                        %! SM4
-%%% \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+%%% \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
@@ -259,12 +260,10 @@ U_HornVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8
-    
-    r2
+    r2..
     
     % [U HornVoiceI measure 150]                         %! SM4
-    R1 * 1
+    R1 * 1/2
     
     % [U HornVoiceI measure 151]                         %! SM4
     R1 * 1
@@ -291,12 +290,10 @@ U_HornVoiceIII_a = {
 %%%         (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    r8
-    
-    r2
+    r2..
     
     % [U HornVoiceIII measure 150]                       %! SM4
-    R1 * 1
+    R1 * 1/2
     
     % [U HornVoiceIII measure 151]                       %! SM4
     R1 * 1
@@ -378,12 +375,10 @@ U_HornVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8
-    
-    r2
+    r2..
     
     % [U HornVoiceII measure 150]                        %! SM4
-    R1 * 1
+    R1 * 1/2
     
     % [U HornVoiceII measure 151]                        %! SM4
     R1 * 1
@@ -410,12 +405,10 @@ U_HornVoiceIV_a = {
 %%%         (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    r8
-    
-    r2
+    r2..
     
     % [U HornVoiceIV measure 150]                        %! SM4
-    R1 * 1
+    R1 * 1/2
     
     % [U HornVoiceIV measure 151]                        %! SM4
     R1 * 1
@@ -497,12 +490,10 @@ U_TrumpetVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8
-    
-    r2
+    r2..
     
     % [U TrumpetVoiceI measure 150]                      %! SM4
-    R1 * 1
+    R1 * 1/2
     
     % [U TrumpetVoiceI measure 151]                      %! SM4
     R1 * 1
@@ -529,12 +520,10 @@ U_TrumpetVoiceIII_a = {
 %%%         (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    r8
-    
-    r2
+    r2..
     
     % [U TrumpetVoiceIII measure 150]                    %! SM4
-    R1 * 1
+    R1 * 1/2
     
     % [U TrumpetVoiceIII measure 151]                    %! SM4
     R1 * 1
@@ -616,12 +605,10 @@ U_TrumpetVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8
-    
-    r2
+    r2..
     
     % [U TrumpetVoiceII measure 150]                     %! SM4
-    R1 * 1
+    R1 * 1/2
     
     % [U TrumpetVoiceII measure 151]                     %! SM4
     R1 * 1
@@ -648,12 +635,10 @@ U_TrumpetVoiceIV_a = {
 %%%         (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    r8
-    
-    r2
+    r2..
     
     % [U TrumpetVoiceIV measure 150]                     %! SM4
-    R1 * 1
+    R1 * 1/2
     
     % [U TrumpetVoiceIV measure 151]                     %! SM4
     R1 * 1
@@ -735,12 +720,10 @@ U_TromboneVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8
-    
-    r2
+    r2..
     
     % [U TromboneVoiceI measure 150]                     %! SM4
-    R1 * 1
+    R1 * 1/2
     
     % [U TromboneVoiceI measure 151]                     %! SM4
     R1 * 1
@@ -767,12 +750,10 @@ U_TromboneVoiceIII_a = {
 %%%         (“Trombone”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    r8
-    
-    r2
+    r2..
     
     % [U TromboneVoiceIII measure 150]                   %! SM4
-    R1 * 1
+    R1 * 1/2
     
     % [U TromboneVoiceIII measure 151]                   %! SM4
     R1 * 1
@@ -854,12 +835,10 @@ U_TromboneVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8
-    
-    r2
+    r2..
     
     % [U TromboneVoiceII measure 150]                    %! SM4
-    R1 * 1
+    R1 * 1/2
     
     % [U TromboneVoiceII measure 151]                    %! SM4
     R1 * 1
@@ -886,12 +865,10 @@ U_TromboneVoiceIV_a = {
 %%%         (“Trombone”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    r8
-    
-    r2
+    r2..
     
     % [U TromboneVoiceIV measure 150]                    %! SM4
-    R1 * 1
+    R1 * 1/2
     
     % [U TromboneVoiceIV measure 151]                    %! SM4
     R1 * 1
@@ -968,12 +945,10 @@ U_TubaVoiceI_a = {
             Tub.                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8
-    
-    r2
+    r2..
     
     % [U TubaVoiceI measure 150]                             %! SM4
-    R1 * 1
+    R1 * 1/2
     
     % [U TubaVoiceI measure 151]                             %! SM4
     R1 * 1
@@ -1029,7 +1004,7 @@ U_PercussionVoiceII_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    c'2.
+    c'1
     :32                                                      %! IC
 %%% \p                                                       %! SM8:REAPPLIED_DYNAMIC:SM37
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
@@ -1076,7 +1051,7 @@ U_PercussionVoiceII_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U PercussionVoiceII measure 150]                      %! SM4
-    c'1
+    c'2
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
@@ -1132,7 +1107,7 @@ U_PercussionVoiceIII_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    b'2.
+    b'1
     :32                                                      %! IC
 %%% \mp                                                      %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -1187,7 +1162,7 @@ U_PercussionVoiceIII_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U PercussionVoiceIII measure 150]                     %! SM4
-    b'1
+    b'2
     :32                                                      %! IC
     \repeatTie
     
@@ -1247,7 +1222,7 @@ U_PercussionVoiceIV_a = {
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    c'2.
+    c'1
     :32                                                      %! IC
     \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
@@ -1302,7 +1277,7 @@ U_PercussionVoiceIV_a = {
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
     % [U PercussionVoiceIV measure 150]                      %! SM4
-    c'1
+    c'2
     :32                                                      %! IC
     \repeatTie
     
@@ -1402,12 +1377,10 @@ U_FirstViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
-    r8.
-    
-    r2
+    r2...
     
     % [U FirstViolinVoiceI measure 150]                  %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceI measure 151]                  %! SM4
     r1
@@ -1425,11 +1398,11 @@ U_FirstViolinVoiceII_a = {
     % [U FirstViolinVoiceII measure 149]                 %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     
     % [U FirstViolinVoiceII measure 150]                 %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceII measure 151]                 %! SM4
     r1
@@ -1484,7 +1457,7 @@ U_FirstViolinVoiceIII_a = {
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -1527,7 +1500,7 @@ U_FirstViolinVoiceIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U FirstViolinVoiceIII measure 150]                %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceIII measure 151]                %! SM4
     r1
@@ -1545,11 +1518,11 @@ U_FirstViolinVoiceIV_a = {
     % [U FirstViolinVoiceIV measure 149]                 %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     
     % [U FirstViolinVoiceIV measure 150]                 %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceIV measure 151]                 %! SM4
     r1
@@ -1604,7 +1577,7 @@ U_FirstViolinVoiceV_a = {
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% \f                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -1647,7 +1620,7 @@ U_FirstViolinVoiceV_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U FirstViolinVoiceV measure 150]                  %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceV measure 151]                  %! SM4
     r1
@@ -1664,17 +1637,19 @@ U_FirstViolinVoiceVI_a = {
     
     % [U FirstViolinVoiceVI measure 149]                 %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
     
     % [U FirstViolinVoiceVI measure 150]                 %! SM4
+    r2
+    
+    % [U FirstViolinVoiceVI measure 151]                 %! SM4
+    r2
+    
     r8.
     
     b16
     
-    r2.
-    
-    % [U FirstViolinVoiceVI measure 151]                 %! SM4
-    r1
+    r4
     
 }
 
@@ -1725,7 +1700,7 @@ U_FirstViolinVoiceVII_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -1755,7 +1730,7 @@ U_FirstViolinVoiceVII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U FirstViolinVoiceVII measure 150]                %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceVII measure 151]                %! SM4
     r1
@@ -1772,7 +1747,7 @@ U_FirstViolinVoiceVIII_a = {
     
     % [U FirstViolinVoiceVIII measure 149]               %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1780,7 +1755,7 @@ U_FirstViolinVoiceVIII_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U FirstViolinVoiceVIII measure 150]               %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceVIII measure 151]               %! SM4
     r1
@@ -1834,7 +1809,7 @@ U_FirstViolinVoiceIX_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -1864,7 +1839,7 @@ U_FirstViolinVoiceIX_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U FirstViolinVoiceIX measure 150]                 %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceIX measure 151]                 %! SM4
     r1
@@ -1881,7 +1856,7 @@ U_FirstViolinVoiceX_a = {
     
     % [U FirstViolinVoiceX measure 149]                  %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1889,7 +1864,7 @@ U_FirstViolinVoiceX_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U FirstViolinVoiceX measure 150]                  %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceX measure 151]                  %! SM4
     r1
@@ -1943,7 +1918,7 @@ U_FirstViolinVoiceXI_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -1973,16 +1948,10 @@ U_FirstViolinVoiceXI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U FirstViolinVoiceXI measure 150]                 %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceXI measure 151]                 %! SM4
-    r4
-    
-    d'16
-    
-    r8.
-    
-    r2
+    r1
     
 }
 
@@ -1996,7 +1965,7 @@ U_FirstViolinVoiceXII_a = {
     
     % [U FirstViolinVoiceXII measure 149]                %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2004,7 +1973,7 @@ U_FirstViolinVoiceXII_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U FirstViolinVoiceXII measure 150]                %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceXII measure 151]                %! SM4
     r1
@@ -2058,7 +2027,7 @@ U_FirstViolinVoiceXIII_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -2088,7 +2057,7 @@ U_FirstViolinVoiceXIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U FirstViolinVoiceXIII measure 150]               %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceXIII measure 151]               %! SM4
     r1
@@ -2105,7 +2074,7 @@ U_FirstViolinVoiceXIV_a = {
     
     % [U FirstViolinVoiceXIV measure 149]                %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2113,7 +2082,7 @@ U_FirstViolinVoiceXIV_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U FirstViolinVoiceXIV measure 150]                %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceXIV measure 151]                %! SM4
     r1
@@ -2167,7 +2136,7 @@ U_FirstViolinVoiceXV_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -2197,7 +2166,7 @@ U_FirstViolinVoiceXV_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U FirstViolinVoiceXV measure 150]                 %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceXV measure 151]                 %! SM4
     r1
@@ -2214,7 +2183,7 @@ U_FirstViolinVoiceXVI_a = {
     
     % [U FirstViolinVoiceXVI measure 149]                %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2222,7 +2191,7 @@ U_FirstViolinVoiceXVI_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U FirstViolinVoiceXVI measure 150]                %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceXVI measure 151]                %! SM4
     r1
@@ -2276,7 +2245,7 @@ U_FirstViolinVoiceXVII_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r4
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -2304,17 +2273,9 @@ U_FirstViolinVoiceXVII_a = {
                     (17-18)                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-    \times 2/3 {
-        
-        d'8
-        
-        r4
-    }
-    
-    r4
     
     % [U FirstViolinVoiceXVII measure 150]               %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceXVII measure 151]               %! SM4
     r1
@@ -2331,7 +2292,7 @@ U_FirstViolinVoiceXVIII_a = {
     
     % [U FirstViolinVoiceXVIII measure 149]              %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2339,10 +2300,14 @@ U_FirstViolinVoiceXVIII_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U FirstViolinVoiceXVIII measure 150]              %! SM4
-    r1
+    r2
     
     % [U FirstViolinVoiceXVIII measure 151]              %! SM4
-    r1
+    r8.
+    
+    b16
+    
+    r2.
     
 }
 
@@ -2394,7 +2359,7 @@ U_SecondViolinVoiceI_a = {
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -2437,18 +2402,10 @@ U_SecondViolinVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U SecondViolinVoiceI measure 150]                 %! SM4
-    r1
+    r2
     
     % [U SecondViolinVoiceI measure 151]                 %! SM4
-    r4
-    
-    r16
-    
-    d'16
-    
-    r8
-    
-    r2
+    r1
     
 }
 
@@ -2463,11 +2420,11 @@ U_SecondViolinVoiceII_a = {
     % [U SecondViolinVoiceII measure 149]                %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     
     % [U SecondViolinVoiceII measure 150]                %! SM4
-    r1
+    r2
     
     % [U SecondViolinVoiceII measure 151]                %! SM4
     r1
@@ -2522,7 +2479,7 @@ U_SecondViolinVoiceIII_a = {
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -2565,10 +2522,20 @@ U_SecondViolinVoiceIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U SecondViolinVoiceIII measure 150]               %! SM4
-    r1
+    r2
     
     % [U SecondViolinVoiceIII measure 151]               %! SM4
-    r1
+    r2
+    \times 2/3 {
+        
+        r8
+        
+        d'8
+        
+        r8
+    }
+    
+    r4
     
 }
 
@@ -2583,19 +2550,11 @@ U_SecondViolinVoiceIV_a = {
     % [U SecondViolinVoiceIV measure 149]                %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     
     % [U SecondViolinVoiceIV measure 150]                %! SM4
-    r2.
-    \times 2/3 {
-        
-        r8
-        
-        b8
-        
-        r8
-    }
+    r2
     
     % [U SecondViolinVoiceIV measure 151]                %! SM4
     r1
@@ -2649,7 +2608,7 @@ U_SecondViolinVoiceV_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -2679,7 +2638,7 @@ U_SecondViolinVoiceV_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U SecondViolinVoiceV measure 150]                 %! SM4
-    r1
+    r2
     
     % [U SecondViolinVoiceV measure 151]                 %! SM4
     r1
@@ -2696,7 +2655,7 @@ U_SecondViolinVoiceVI_a = {
     
     % [U SecondViolinVoiceVI measure 149]                %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2704,7 +2663,9 @@ U_SecondViolinVoiceVI_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U SecondViolinVoiceVI measure 150]                %! SM4
-    r1
+    r4..
+    
+    b16
     
     % [U SecondViolinVoiceVI measure 151]                %! SM4
     r1
@@ -2758,7 +2719,7 @@ U_SecondViolinVoiceVII_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -2788,7 +2749,7 @@ U_SecondViolinVoiceVII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U SecondViolinVoiceVII measure 150]               %! SM4
-    r1
+    r2
     
     % [U SecondViolinVoiceVII measure 151]               %! SM4
     r1
@@ -2805,7 +2766,7 @@ U_SecondViolinVoiceVIII_a = {
     
     % [U SecondViolinVoiceVIII measure 149]              %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2813,7 +2774,7 @@ U_SecondViolinVoiceVIII_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U SecondViolinVoiceVIII measure 150]              %! SM4
-    r1
+    r2
     
     % [U SecondViolinVoiceVIII measure 151]              %! SM4
     r1
@@ -2867,7 +2828,7 @@ U_SecondViolinVoiceIX_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -2897,18 +2858,10 @@ U_SecondViolinVoiceIX_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U SecondViolinVoiceIX measure 150]                %! SM4
-    r1
-    
-    % [U SecondViolinVoiceIX measure 151]                %! SM4
     r2
     
-    d'16
-    [
-    
-    d'16
-    ]
-    
-    r4.
+    % [U SecondViolinVoiceIX measure 151]                %! SM4
+    r1
     
 }
 
@@ -2922,7 +2875,7 @@ U_SecondViolinVoiceX_a = {
     
     % [U SecondViolinVoiceX measure 149]                 %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2930,7 +2883,7 @@ U_SecondViolinVoiceX_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U SecondViolinVoiceX measure 150]                 %! SM4
-    r1
+    r2
     
     % [U SecondViolinVoiceX measure 151]                 %! SM4
     r1
@@ -2984,7 +2937,7 @@ U_SecondViolinVoiceXI_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -3014,7 +2967,7 @@ U_SecondViolinVoiceXI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U SecondViolinVoiceXI measure 150]                %! SM4
-    r1
+    r2
     
     % [U SecondViolinVoiceXI measure 151]                %! SM4
     r1
@@ -3031,7 +2984,7 @@ U_SecondViolinVoiceXII_a = {
     
     % [U SecondViolinVoiceXII measure 149]               %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -3039,10 +2992,22 @@ U_SecondViolinVoiceXII_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U SecondViolinVoiceXII measure 150]               %! SM4
-    r1
+    r2
+    \times 2/3 {
+        
+        % [U SecondViolinVoiceXII measure 151]           %! SM4
+        r4
+        
+        b8
+    }
+    \times 2/3 {
+        
+        b8
+        
+        r4
+    }
     
-    % [U SecondViolinVoiceXII measure 151]               %! SM4
-    r1
+    r2
     
 }
 
@@ -3093,7 +3058,7 @@ U_SecondViolinVoiceXIII_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -3123,7 +3088,7 @@ U_SecondViolinVoiceXIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U SecondViolinVoiceXIII measure 150]              %! SM4
-    r1
+    r2
     
     % [U SecondViolinVoiceXIII measure 151]              %! SM4
     r1
@@ -3140,7 +3105,7 @@ U_SecondViolinVoiceXIV_a = {
     
     % [U SecondViolinVoiceXIV measure 149]               %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -3148,7 +3113,7 @@ U_SecondViolinVoiceXIV_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U SecondViolinVoiceXIV measure 150]               %! SM4
-    r1
+    r2
     
     % [U SecondViolinVoiceXIV measure 151]               %! SM4
     r1
@@ -3202,7 +3167,7 @@ U_SecondViolinVoiceXV_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -3232,7 +3197,7 @@ U_SecondViolinVoiceXV_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U SecondViolinVoiceXV measure 150]                %! SM4
-    r1
+    r2
     
     % [U SecondViolinVoiceXV measure 151]                %! SM4
     r1
@@ -3249,7 +3214,7 @@ U_SecondViolinVoiceXVI_a = {
     
     % [U SecondViolinVoiceXVI measure 149]               %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -3257,7 +3222,7 @@ U_SecondViolinVoiceXVI_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U SecondViolinVoiceXVI measure 150]               %! SM4
-    r1
+    r2
     
     % [U SecondViolinVoiceXVI measure 151]               %! SM4
     r1
@@ -3311,7 +3276,7 @@ U_SecondViolinVoiceXVII_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -3341,7 +3306,7 @@ U_SecondViolinVoiceXVII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U SecondViolinVoiceXVII measure 150]              %! SM4
-    r1
+    r2
     
     % [U SecondViolinVoiceXVII measure 151]              %! SM4
     r1
@@ -3358,7 +3323,7 @@ U_SecondViolinVoiceXVIII_a = {
     
     % [U SecondViolinVoiceXVIII measure 149]             %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -3366,7 +3331,7 @@ U_SecondViolinVoiceXVIII_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U SecondViolinVoiceXVIII measure 150]             %! SM4
-    r1
+    r2
     
     % [U SecondViolinVoiceXVIII measure 151]             %! SM4
     r1
@@ -3421,7 +3386,7 @@ U_ViolaVoiceI_a = {
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -3464,7 +3429,7 @@ U_ViolaVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U ViolaVoiceI measure 150]                        %! SM4
-    r1
+    r2
     
     % [U ViolaVoiceI measure 151]                        %! SM4
     r1
@@ -3482,21 +3447,11 @@ U_ViolaVoiceII_a = {
     % [U ViolaVoiceII measure 149]                       %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     
     % [U ViolaVoiceII measure 150]                       %! SM4
     r2
-    
-    r8
-    
-    b16
-    [
-    
-    b16
-    ]
-    
-    r4
     
     % [U ViolaVoiceII measure 151]                       %! SM4
     r1
@@ -3551,7 +3506,7 @@ U_ViolaVoiceIII_a = {
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -3594,7 +3549,7 @@ U_ViolaVoiceIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U ViolaVoiceIII measure 150]                      %! SM4
-    r1
+    r2
     
     % [U ViolaVoiceIII measure 151]                      %! SM4
     r1
@@ -3612,11 +3567,11 @@ U_ViolaVoiceIV_a = {
     % [U ViolaVoiceIV measure 149]                       %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     
     % [U ViolaVoiceIV measure 150]                       %! SM4
-    r1
+    r2
     
     % [U ViolaVoiceIV measure 151]                       %! SM4
     r1
@@ -3670,7 +3625,7 @@ U_ViolaVoiceV_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -3700,7 +3655,7 @@ U_ViolaVoiceV_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U ViolaVoiceV measure 150]                        %! SM4
-    r1
+    r2
     
     % [U ViolaVoiceV measure 151]                        %! SM4
     r1
@@ -3717,15 +3672,25 @@ U_ViolaVoiceVI_a = {
     
     % [U ViolaVoiceVI measure 149]                       %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r2
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         (“Viola”)                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
+    r8
+    
+    b16
+    [
+    
+    b16
+    ]
+    
+    r4
+    
     % [U ViolaVoiceVI measure 150]                       %! SM4
-    r1
+    r2
     
     % [U ViolaVoiceVI measure 151]                       %! SM4
     r1
@@ -3779,7 +3744,7 @@ U_ViolaVoiceVII_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -3809,7 +3774,7 @@ U_ViolaVoiceVII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U ViolaVoiceVII measure 150]                      %! SM4
-    r1
+    r2
     
     % [U ViolaVoiceVII measure 151]                      %! SM4
     r1
@@ -3826,7 +3791,7 @@ U_ViolaVoiceVIII_a = {
     
     % [U ViolaVoiceVIII measure 149]                     %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -3834,7 +3799,7 @@ U_ViolaVoiceVIII_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U ViolaVoiceVIII measure 150]                     %! SM4
-    r1
+    r2
     
     % [U ViolaVoiceVIII measure 151]                     %! SM4
     r1
@@ -3888,7 +3853,7 @@ U_ViolaVoiceIX_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -3918,7 +3883,7 @@ U_ViolaVoiceIX_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U ViolaVoiceIX measure 150]                       %! SM4
-    r1
+    r2
     
     % [U ViolaVoiceIX measure 151]                       %! SM4
     r1
@@ -3935,7 +3900,7 @@ U_ViolaVoiceX_a = {
     
     % [U ViolaVoiceX measure 149]                        %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -3943,11 +3908,7 @@ U_ViolaVoiceX_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U ViolaVoiceX measure 150]                        %! SM4
-    r2..
-    
-    b16
-    
-    r16
+    r2
     
     % [U ViolaVoiceX measure 151]                        %! SM4
     r1
@@ -4001,7 +3962,7 @@ U_ViolaVoiceXI_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -4031,7 +3992,7 @@ U_ViolaVoiceXI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U ViolaVoiceXI measure 150]                       %! SM4
-    r1
+    r2
     
     % [U ViolaVoiceXI measure 151]                       %! SM4
     r1
@@ -4048,15 +4009,23 @@ U_ViolaVoiceXII_a = {
     
     % [U ViolaVoiceXII measure 149]                      %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r2
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         (“Viola”)                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    \times 2/3 {
+        
+        r4
+        
+        b8
+    }
+    
+    r4
     
     % [U ViolaVoiceXII measure 150]                      %! SM4
-    r1
+    r2
     
     % [U ViolaVoiceXII measure 151]                      %! SM4
     r1
@@ -4110,7 +4079,7 @@ U_ViolaVoiceXIII_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -4140,14 +4109,6 @@ U_ViolaVoiceXIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U ViolaVoiceXIII measure 150]                     %! SM4
-    r4
-    \times 2/3 {
-        
-        d'8
-        
-        r4
-    }
-    
     r2
     
     % [U ViolaVoiceXIII measure 151]                     %! SM4
@@ -4165,7 +4126,7 @@ U_ViolaVoiceXIV_a = {
     
     % [U ViolaVoiceXIV measure 149]                      %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -4173,7 +4134,7 @@ U_ViolaVoiceXIV_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U ViolaVoiceXIV measure 150]                      %! SM4
-    r1
+    r2
     
     % [U ViolaVoiceXIV measure 151]                      %! SM4
     r1
@@ -4227,7 +4188,7 @@ U_ViolaVoiceXV_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r4.
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -4256,8 +4217,14 @@ U_ViolaVoiceXV_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
+    d'16
+    
+    r16
+    
+    r2
+    
     % [U ViolaVoiceXV measure 150]                       %! SM4
-    r1
+    r2
     
     % [U ViolaVoiceXV measure 151]                       %! SM4
     r1
@@ -4274,7 +4241,7 @@ U_ViolaVoiceXVI_a = {
     
     % [U ViolaVoiceXVI measure 149]                      %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -4282,7 +4249,7 @@ U_ViolaVoiceXVI_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U ViolaVoiceXVI measure 150]                      %! SM4
-    r1
+    r2
     
     % [U ViolaVoiceXVI measure 151]                      %! SM4
     r1
@@ -4336,7 +4303,7 @@ U_ViolaVoiceXVII_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -4366,7 +4333,7 @@ U_ViolaVoiceXVII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U ViolaVoiceXVII measure 150]                     %! SM4
-    r1
+    r2
     
     % [U ViolaVoiceXVII measure 151]                     %! SM4
     r1
@@ -4383,17 +4350,21 @@ U_ViolaVoiceXVIII_a = {
     
     % [U ViolaVoiceXVIII measure 149]                    %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r4
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         (“Viola”)                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    % [U ViolaVoiceXVIII measure 150]                    %! SM4
-    r2...
-    
     b16
+    
+    r8.
+    
+    r2
+    
+    % [U ViolaVoiceXVIII measure 150]                    %! SM4
+    r2
     
     % [U ViolaVoiceXVIII measure 151]                    %! SM4
     r1
@@ -4448,7 +4419,7 @@ U_CelloVoiceI_a = {
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -4491,7 +4462,7 @@ U_CelloVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U CelloVoiceI measure 150]                        %! SM4
-    r1
+    r2
     
     % [U CelloVoiceI measure 151]                        %! SM4
     r1
@@ -4509,11 +4480,11 @@ U_CelloVoiceII_a = {
     % [U CelloVoiceII measure 149]                       %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     
     % [U CelloVoiceII measure 150]                       %! SM4
-    r1
+    r2
     
     % [U CelloVoiceII measure 151]                       %! SM4
     r1
@@ -4567,7 +4538,7 @@ U_CelloVoiceIII_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -4597,7 +4568,7 @@ U_CelloVoiceIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U CelloVoiceIII measure 150]                      %! SM4
-    r1
+    r2
     
     % [U CelloVoiceIII measure 151]                      %! SM4
     r1
@@ -4614,7 +4585,7 @@ U_CelloVoiceIV_a = {
     
     % [U CelloVoiceIV measure 149]                       %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -4622,7 +4593,7 @@ U_CelloVoiceIV_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U CelloVoiceIV measure 150]                       %! SM4
-    r1
+    r2
     
     % [U CelloVoiceIV measure 151]                       %! SM4
     r1
@@ -4676,7 +4647,7 @@ U_CelloVoiceV_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -4706,10 +4677,12 @@ U_CelloVoiceV_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U CelloVoiceV measure 150]                        %! SM4
-    r1
+    r2
     
     % [U CelloVoiceV measure 151]                        %! SM4
-    r1
+    r2...
+    
+    d'16
     
 }
 
@@ -4723,19 +4696,15 @@ U_CelloVoiceVI_a = {
     
     % [U CelloVoiceVI measure 149]                       %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    b16
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         (“Cello”)                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    r8.
-    
-    r2
-    
     % [U CelloVoiceVI measure 150]                       %! SM4
-    r1
+    r2
     
     % [U CelloVoiceVI measure 151]                       %! SM4
     r1
@@ -4789,7 +4758,7 @@ U_CelloVoiceVII_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -4819,7 +4788,7 @@ U_CelloVoiceVII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U CelloVoiceVII measure 150]                      %! SM4
-    r1
+    r2
     
     % [U CelloVoiceVII measure 151]                      %! SM4
     r1
@@ -4836,7 +4805,7 @@ U_CelloVoiceVIII_a = {
     
     % [U CelloVoiceVIII measure 149]                     %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -4844,7 +4813,7 @@ U_CelloVoiceVIII_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U CelloVoiceVIII measure 150]                     %! SM4
-    r1
+    r2
     
     % [U CelloVoiceVIII measure 151]                     %! SM4
     r1
@@ -4898,7 +4867,7 @@ U_CelloVoiceIX_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -4928,7 +4897,7 @@ U_CelloVoiceIX_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U CelloVoiceIX measure 150]                       %! SM4
-    r1
+    r2
     
     % [U CelloVoiceIX measure 151]                       %! SM4
     r1
@@ -4945,7 +4914,7 @@ U_CelloVoiceX_a = {
     
     % [U CelloVoiceX measure 149]                        %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -4953,7 +4922,7 @@ U_CelloVoiceX_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U CelloVoiceX measure 150]                        %! SM4
-    r1
+    r2
     
     % [U CelloVoiceX measure 151]                        %! SM4
     r1
@@ -5007,7 +4976,7 @@ U_CelloVoiceXI_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -5037,14 +5006,14 @@ U_CelloVoiceXI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U CelloVoiceXI measure 150]                       %! SM4
-    r8.
+    r2
+    
+    % [U CelloVoiceXI measure 151]                       %! SM4
+    r2.
     
     d'16
     
-    r2.
-    
-    % [U CelloVoiceXI measure 151]                       %! SM4
-    r1
+    r8.
     
 }
 
@@ -5058,7 +5027,7 @@ U_CelloVoiceXII_a = {
     
     % [U CelloVoiceXII measure 149]                      %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -5066,7 +5035,7 @@ U_CelloVoiceXII_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U CelloVoiceXII measure 150]                      %! SM4
-    r1
+    r2
     
     % [U CelloVoiceXII measure 151]                      %! SM4
     r1
@@ -5120,7 +5089,7 @@ U_CelloVoiceXIII_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -5150,7 +5119,7 @@ U_CelloVoiceXIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U CelloVoiceXIII measure 150]                     %! SM4
-    r1
+    r2
     
     % [U CelloVoiceXIII measure 151]                     %! SM4
     r1
@@ -5167,21 +5136,15 @@ U_CelloVoiceXIV_a = {
     
     % [U CelloVoiceXIV measure 149]                      %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r16
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         (“Cello”)                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    b16
-    
-    r8
-    
-    r2
-    
     % [U CelloVoiceXIV measure 150]                      %! SM4
-    r1
+    r2
     
     % [U CelloVoiceXIV measure 151]                      %! SM4
     r1
@@ -5236,7 +5199,7 @@ U_ContrabassVoiceI_a = {
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% \mf                                                  %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -5279,7 +5242,7 @@ U_ContrabassVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U ContrabassVoiceI measure 150]                   %! SM4
-    r1
+    r2
     
     % [U ContrabassVoiceI measure 151]                   %! SM4
     r1
@@ -5296,22 +5259,14 @@ U_ContrabassVoiceII_a = {
     
     % [U ContrabassVoiceII measure 149]                  %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
-    
-    % [U ContrabassVoiceII measure 150]                  %! SM4
     r1
     
+    % [U ContrabassVoiceII measure 150]                  %! SM4
+    r2
+    
     % [U ContrabassVoiceII measure 151]                  %! SM4
-    r2.
-    \times 2/3 {
-        
-        r8
-        
-        b8
-        
-        r8
-        
-    }
+    r1
+    
 }
 
 
@@ -5362,7 +5317,7 @@ U_ContrabassVoiceIII_a = {
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
 %%% \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -5405,7 +5360,7 @@ U_ContrabassVoiceIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U ContrabassVoiceIII measure 150]                 %! SM4
-    r1
+    r2
     
     % [U ContrabassVoiceIII measure 151]                 %! SM4
     r1
@@ -5422,10 +5377,10 @@ U_ContrabassVoiceIV_a = {
     
     % [U ContrabassVoiceIV measure 149]                  %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
     
     % [U ContrabassVoiceIV measure 150]                  %! SM4
-    r1
+    r2
     
     % [U ContrabassVoiceIV measure 151]                  %! SM4
     r1
@@ -5479,7 +5434,7 @@ U_ContrabassVoiceV_a = {
 %%% \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
 %%% \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:SM37
@@ -5509,7 +5464,7 @@ U_ContrabassVoiceV_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
     
     % [U ContrabassVoiceV measure 150]                   %! SM4
-    r1
+    r2
     
     % [U ContrabassVoiceV measure 151]                   %! SM4
     r1
@@ -5526,7 +5481,7 @@ U_ContrabassVoiceVI_a = {
     
     % [U ContrabassVoiceVI measure 149]                  %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    r2.
+    r1
 %%% ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%     \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
 %%%         #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -5534,10 +5489,18 @@ U_ContrabassVoiceVI_a = {
 %%%     }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     % [U ContrabassVoiceVI measure 150]                  %! SM4
-    r1
+    r2
     
     % [U ContrabassVoiceVI measure 151]                  %! SM4
-    r1
+    r4
+    
+    r16
+    
+    b16
+    
+    r8
+    
+    r2
     
 }
 
