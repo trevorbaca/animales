@@ -20,7 +20,7 @@
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
             #'((Y-offset . 0) (alignment-distances . (20 20)))                           %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
-            s1 * 3/4
+            s1 * 1/2
             ^ \markup {
                 \column
                     {
@@ -47,7 +47,7 @@
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 3/4
+            s1 * 1
             ^ \markup {
                 \column
                     {
