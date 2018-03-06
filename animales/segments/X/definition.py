@@ -1,16 +1,15 @@
 import abjad
 import animales
 import baca
-import roman
 from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
-#################################### [W] ######################################
+#################################### [X] ######################################
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
-start = 136
+start = 139
 
 time_signatures = animales.time_signatures[start: start + 3]
 maker = baca.SegmentMaker(
@@ -80,7 +79,7 @@ maker = baca.SegmentMaker(
 
 maker(
     baca.scope('GlobalSkips', (1, -1)),
-    baca.rehearsal_mark('W'),
+    baca.rehearsal_mark('X'),
     )
 
 # percussion
@@ -90,9 +89,9 @@ maker(
 maker(
     baca.scope('PercussionVoiceI', 'all'),
     animales.parts('Percussion', 1),
-    baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
+    baca.repeat_tie_to(),
     baca.repeat_ties_up(),
     baca.stem_tremolo(),
     )
@@ -137,19 +136,6 @@ maker(
 
 animales.constellations(
     maker,
-    [[1, -17], [1, -17], [1, -17]],
+    [[1, 1, -5], [1, 1, -5], [1, -8]],
     omit_contrabasses=True,
     ) 
-
-maker(
-    baca.scope('ContrabassVoiceIII', (1, -1)),
-    animales.parts('Contrabass'),
-    baca.hairpin('< fff', left_broken=True, selector=baca.leaf(0)),
-    baca.make_repeat_tied_notes(),
-    baca.pitch('C#2'),
-    baca.repeat_tie_to(),
-    baca.single_segment_transition(
-        baca.markup.ord(),
-        baca.markup.ext_pont(),
-        ),
-    )
