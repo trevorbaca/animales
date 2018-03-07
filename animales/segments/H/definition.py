@@ -67,7 +67,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', 'all'),
+    baca.scope('GlobalSkips', (1, -1)),
     baca.metronome_mark('76'),
     baca.rehearsal_mark('H'),
     baca.tag(
@@ -224,7 +224,7 @@ maker(
 # harp
 
 maker(
-    baca.scope('HarpVoiceI', 'all'),
+    baca.scope('HarpVoiceI', (1, -1)),
     animales.parts('Harp'),
     animales.harp_exchange_rhythm(2),
     baca.laissez_vibrer(),
@@ -235,7 +235,7 @@ maker(
 # piano
 
 maker(
-    baca.scope('PianoVoiceI', 'all'),
+    baca.scope('PianoVoiceI', (1, -1)),
     animales.parts('Piano'),
     animales.harp_exchange_rhythm(3),
     baca.laissez_vibrer(),
@@ -246,7 +246,7 @@ maker(
 # percussion (cym., vib.)
 
 maker(
-    baca.scope('PercussionVoiceII', 'all'),
+    baca.scope('PercussionVoiceII', (1, -1)),
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
     baca.repeat_ties_up(),
@@ -255,7 +255,7 @@ maker(
     )
 
 maker(
-    baca.scope('PercussionVoiceIII', 'all'),
+    baca.scope('PercussionVoiceIII', (1, -1)),
     animales.parts('Percussion', 3),
     animales.harp_exchange_rhythm(0),
     baca.laissez_vibrer(),
@@ -265,28 +265,28 @@ maker(
 # strings
 
 maker(
-    baca.scope('FirstViolinVoiceI', 'all'),
+    baca.scope('FirstViolinVoiceI', (1, -1)),
     animales.parts('FirstViolin'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Ab6'),
     )
 
 maker(
-    baca.scope('SecondViolinVoiceI', 'all'),
+    baca.scope('SecondViolinVoiceI', (1, -1)),
     animales.parts('SecondViolin'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Ab5'),
     )
 
 maker(
-    baca.scope('ViolaVoiceI', 'all'),
+    baca.scope('ViolaVoiceI', (1, -1)),
     animales.parts('Viola'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Ab4'),
     )
 
 maker(
-    baca.scope('CelloVoiceI', 'all'),
+    baca.scope('CelloVoiceI', (1, -1)),
     animales.parts('Cello'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Ab2'),
@@ -300,12 +300,12 @@ most_strings = [
     ]
 
 maker(
-    baca.make_scopes(most_strings, ['all']),
+    baca.make_scopes(most_strings, [(1, -1)]),
     baca.dynamic('pp'),
     )
 
 maker(
-    baca.scope('ContrabassVoiceIII', 'all'),
+    baca.scope('ContrabassVoiceIII', (1, -1)),
     animales.parts('Contrabass', (2, 6)),
     baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
@@ -315,7 +315,7 @@ maker(
 # contrabass solo
 
 maker(
-    baca.scope('ContrabassVoiceI', 'all'),
+    baca.scope('ContrabassVoiceI', (1, -1)),
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(1),
     baca.laissez_vibrer(),

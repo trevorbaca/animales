@@ -87,7 +87,7 @@ maker(
 # triangle
 
 maker(
-    baca.scope('PercussionVoiceI', 'all'),
+    baca.scope('PercussionVoiceI', (1, -1)),
     animales.parts('Percussion', 1),
     baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
@@ -99,7 +99,7 @@ maker(
 # cymbal
 
 maker(
-    baca.scope('PercussionVoiceII', 'all'),
+    baca.scope('PercussionVoiceII', (1, -1)),
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_to(),
@@ -111,7 +111,7 @@ maker(
 # bass drum
 
 maker(
-    baca.scope('PercussionVoiceIII', 'all'),
+    baca.scope('PercussionVoiceIII', (1, -1)),
     animales.parts('Percussion', 3),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -123,7 +123,7 @@ maker(
 # tam-tam
 
 maker(
-    baca.scope('PercussionVoiceIV', 'all'),
+    baca.scope('PercussionVoiceIV', (1, -1)),
     animales.parts('Percussion', 4),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),

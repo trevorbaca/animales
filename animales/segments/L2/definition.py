@@ -29,13 +29,13 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', 'all'),
+    baca.scope('GlobalSkips', (1, -1)),
     )
 
 # solo violin
 
 maker(
-    baca.scope('FirstViolinVoiceV', 'all'),
+    baca.scope('FirstViolinVoiceV', (1, -1)),
     animales.parts('FirstViolin', 18),
     baca.make_repeat_tied_notes(),
     baca.pitch('C#4'),

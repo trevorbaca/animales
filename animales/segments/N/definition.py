@@ -67,7 +67,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', 'all'),
+    baca.scope('GlobalSkips', (1, -1)),
     baca.metronome_mark('76'),
     baca.rehearsal_mark('N'),
     baca.tag(
@@ -261,7 +261,7 @@ for voice, items in string_parts.items():
         commands.append(lower_voice())
     commands.append(baca.pitch(items[2]))
     maker(
-        baca.scope(voice, 'all'),
+        baca.scope(voice, (1, -1)),
         *commands,
         )
     if voice == 'FirstViolinVoiceV':
@@ -285,7 +285,7 @@ for voice, items in string_parts.items():
 # solo violin
 
 maker(
-    baca.scope('FirstViolinVoiceV', 'all'),
+    baca.scope('FirstViolinVoiceV', (1, -1)),
     baca.repeat_tie_to(selector=baca.leaf(0)),
     baca.stem_tremolo(),
     )
