@@ -74,24 +74,6 @@ animales.brass_sforzando(maker, 3)
 # trumpets
 
 maker(
-    baca.scope('TrumpetVoiceI', 3),
-    baca.dynamic('sffz'),
-    )
-
-maker(
-    baca.scope('TrumpetVoiceII', 3),
-    baca.dynamic('sffz'),
-    )
-
-maker(
-    baca.scopes(
-        ('TrumpetVoiceIII', 3),
-        ('TrumpetVoiceIV', 3),
-    ),
-    baca.only_parts(baca.dynamic('sffz')),
-    )
-
-maker(
     baca.scope('TrumpetVoiceI', (1, -1)),
     animales.margin_markup('Tp. (1+3)'),
     animales.parts('Trumpet', 1),
@@ -122,24 +104,6 @@ maker(
     )
 
 # trombones
-
-maker(
-    baca.scope('TromboneVoiceI', 3),
-    baca.dynamic('sffz'),
-    )
-
-maker(
-    baca.scope('TromboneVoiceII', 3),
-    baca.dynamic('sffz'),
-    )
-
-maker(
-    baca.scopes(
-        ('TromboneVoiceIII', 3),
-        ('TromboneVoiceIV', 3),
-    ),
-    baca.only_parts(baca.dynamic('sffz')),
-    )
 
 maker(
     baca.scope('TromboneVoiceI', (1, -1)),
@@ -174,24 +138,6 @@ maker(
 # horns
 
 maker(
-    baca.scope('HornVoiceI', 3),
-    baca.dynamic('sffz'),
-    )
-
-maker(
-    baca.scope('HornVoiceII', 3),
-    baca.dynamic('sffz'),
-    )
-
-maker(
-    baca.scopes(
-        ('HornVoiceIII', 3),
-        ('HornVoiceIV', 3),
-    ),
-    baca.only_parts(baca.dynamic('sffz')),
-    )
-
-maker(
     baca.scope('HornVoiceI', (1, -1)),
     animales.margin_markup('Hn. (1+3)'),
     animales.parts('Horn', 1),
@@ -224,16 +170,12 @@ maker(
 # tuba
 
 maker(
-    baca.scope('TubaVoiceI', 3),
-    baca.dynamic('sffz'),
-    )
-
-maker(
     baca.scope('TubaVoiceI', (1, -1)),
     animales.parts('Tuba', 1),
     baca.pitch('C2'),
     )
 
+# strings
 
 maker(
     baca.scope('FirstViolinVoiceI', (1, 2)),
