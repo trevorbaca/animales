@@ -1,5 +1,6 @@
 from .ScoreTemplate import ScoreTemplate
 from .brass_manifest_rhythm import brass_manifest_rhythm
+from .brass_sforzando import brass_sforzando
 from .clb_rhythm import clb_rhythm
 from .constellations import constellations
 from .downbeat_attack import downbeat_attack
