@@ -137,28 +137,28 @@ maker(
     )
 
 maker(
-    baca.scope('TrumpetVoiceI', 'all'),
+    baca.scope('TrumpetVoiceI', (1, -1)),
     animales.parts('Trumpet', 1),
     baca.not_parts(baca.voice_one()),
     baca.pitch('D5'),
     )
 
 maker(
-    baca.scope('TrumpetVoiceIII', 'all'),
+    baca.scope('TrumpetVoiceIII', (1, -1)),
     animales.parts('Trumpet', 3),
     baca.not_parts(baca.voice_two()),
     baca.pitch('G4'),
     )
 
 maker(
-    baca.scope('TrumpetVoiceII', 'all'),
+    baca.scope('TrumpetVoiceII', (1, -1)),
     animales.parts('Trumpet', 2),
     baca.not_parts(baca.voice_one()),
     baca.pitch('Ab4'),
     )
 
 maker(
-    baca.scope('TrumpetVoiceIV', 'all'),
+    baca.scope('TrumpetVoiceIV', (1, -1)),
     animales.parts('Trumpet', 4),
     baca.not_parts(baca.voice_two()),
     baca.pitch('F4'),
@@ -185,28 +185,28 @@ maker(
     )
 
 maker(
-    baca.scope('TromboneVoiceI', 'all'),
+    baca.scope('TromboneVoiceI', (1, -1)),
     animales.parts('Trombone', 1),
     baca.not_parts(baca.voice_one()),
     baca.pitch('G4'),
     )
 
 maker(
-    baca.scope('TromboneVoiceIII', 'all'),
+    baca.scope('TromboneVoiceIII', (1, -1)),
     animales.parts('Trombone', 3),
     baca.not_parts(baca.voice_two()),
     baca.pitch('C4'),
     )
 
 maker(
-    baca.scope('TromboneVoiceII', 'all'),
+    baca.scope('TromboneVoiceII', (1, -1)),
     animales.parts('Trombone', 2),
     baca.not_parts(baca.voice_one()),
     baca.pitch('Db4'),
     )
 
 maker(
-    baca.scope('TromboneVoiceIV', 'all'),
+    baca.scope('TromboneVoiceIV', (1, -1)),
     animales.parts('Trombone', 4),
     baca.not_parts(baca.voice_two()),
     baca.pitch('B3'),
@@ -233,28 +233,28 @@ maker(
     )
 
 maker(
-    baca.scope('HornVoiceI', 'all'),
+    baca.scope('HornVoiceI', (1, -1)),
     animales.parts('Horn', 1),
     baca.not_parts(baca.voice_one()),
     baca.pitch('C4'),
     )
 
 maker(
-    baca.scope('HornVoiceIII', 'all'),
+    baca.scope('HornVoiceIII', (1, -1)),
     animales.parts('Horn', 3),
     baca.not_parts(baca.voice_two()),
     baca.pitch('F3'),
     )
 
 maker(
-    baca.scope('HornVoiceII', 'all'),
+    baca.scope('HornVoiceII', (1, -1)),
     animales.parts('Horn', 2),
     baca.not_parts(baca.voice_one()),
     baca.pitch('Gb3'),
     )
 
 maker(
-    baca.scope('HornVoiceIV', 'all'),
+    baca.scope('HornVoiceIV', (1, -1)),
     animales.parts('Horn', 4),
     baca.not_parts(baca.voice_two()),
     baca.pitch('E3'),
@@ -268,7 +268,7 @@ maker(
     )
 
 maker(
-    baca.scope('TubaVoiceI', 'all'),
+    baca.scope('TubaVoiceI', (1, -1)),
     animales.parts('Tuba', 1),
     baca.pitch('C2'),
     )
@@ -278,7 +278,7 @@ maker(
 # cymbal
 
 maker(
-    baca.scope('PercussionVoiceII', 'all'),
+    baca.scope('PercussionVoiceII', (1, -1)),
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_to(),
@@ -290,7 +290,7 @@ maker(
 # bass drum
 
 maker(
-    baca.scope('PercussionVoiceIII', 'all'),
+    baca.scope('PercussionVoiceIII', (1, -1)),
     animales.parts('Percussion', 3),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -302,7 +302,7 @@ maker(
 # tam-tam
 
 maker(
-    baca.scope('PercussionVoiceIV', 'all'),
+    baca.scope('PercussionVoiceIV', (1, -1)),
     animales.parts('Percussion', 4),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
