@@ -1,4 +1,5 @@
 from .ScoreTemplate import ScoreTemplate
+from .assign_brass_sforzando_parts import assign_brass_sforzando_parts
 from .brass_manifest_rhythm import brass_manifest_rhythm
 from .brass_sforzando import brass_sforzando
 from .clb_rhythm import clb_rhythm
