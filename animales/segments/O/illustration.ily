@@ -225,8 +225,8 @@ O_FirstViolinVoiceI_a = {
                     (1-2)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
@@ -349,8 +349,8 @@ O_FirstViolinVoiceIII_a = {
                     (3-4)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
@@ -471,8 +471,8 @@ O_FirstViolinVoiceV_a = {
                     (5-6)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
@@ -597,8 +597,8 @@ O_FirstViolinVoiceVII_a = {
                     (7-8)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -708,8 +708,8 @@ O_FirstViolinVoiceIX_a = {
                     (9-10)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -819,8 +819,8 @@ O_FirstViolinVoiceXI_a = {
                     (11-12)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -930,8 +930,8 @@ O_FirstViolinVoiceXIII_a = {
                     (13-14)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -1041,8 +1041,8 @@ O_FirstViolinVoiceXV_a = {
                     (15-16)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -1152,8 +1152,8 @@ O_FirstViolinVoiceXVII_a = {
                     (17-18)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -1267,8 +1267,8 @@ O_SecondViolinVoiceI_a = {
                     (1-2)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
@@ -1389,8 +1389,8 @@ O_SecondViolinVoiceIII_a = {
                     (3-4)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
@@ -1521,8 +1521,8 @@ O_SecondViolinVoiceV_a = {
                     (5-6)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -1634,8 +1634,8 @@ O_SecondViolinVoiceVII_a = {
                     (7-8)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -1745,8 +1745,8 @@ O_SecondViolinVoiceIX_a = {
                     (9-10)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -1856,8 +1856,8 @@ O_SecondViolinVoiceXI_a = {
                     (11-12)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -1979,8 +1979,8 @@ O_SecondViolinVoiceXIII_a = {
                     (13-14)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -2090,8 +2090,8 @@ O_SecondViolinVoiceXV_a = {
                     (15-16)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -2201,8 +2201,8 @@ O_SecondViolinVoiceXVII_a = {
                     (17-18)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -2312,8 +2312,8 @@ O_ViolaVoiceI_a = {
                     (1-2)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
@@ -2434,8 +2434,8 @@ O_ViolaVoiceIII_a = {
                     (3-4)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
@@ -2556,8 +2556,8 @@ O_ViolaVoiceV_a = {
                     (5-6)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -2677,8 +2677,8 @@ O_ViolaVoiceVII_a = {
                     (7-8)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -2788,8 +2788,8 @@ O_ViolaVoiceIX_a = {
                     (9-10)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -2899,8 +2899,8 @@ O_ViolaVoiceXI_a = {
                     (11-12)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -3018,8 +3018,8 @@ O_ViolaVoiceXIII_a = {
                     (13-14)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -3129,8 +3129,8 @@ O_ViolaVoiceXV_a = {
                     (15-16)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -3246,8 +3246,8 @@ O_ViolaVoiceXVII_a = {
                     (17-18)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -3363,8 +3363,8 @@ O_CelloVoiceI_a = {
                     (1-2)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
@@ -3485,8 +3485,8 @@ O_CelloVoiceIII_a = {
                     (3-4)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -3596,8 +3596,8 @@ O_CelloVoiceV_a = {
                     (5-6)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -3709,8 +3709,8 @@ O_CelloVoiceVII_a = {
                     (7-8)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -3820,8 +3820,8 @@ O_CelloVoiceIX_a = {
                     (9-10)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -3931,8 +3931,8 @@ O_CelloVoiceXI_a = {
                     (11-12)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -4046,8 +4046,8 @@ O_CelloVoiceXIII_a = {
                     (13-14)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -4157,8 +4157,8 @@ O_ContrabassVoiceI_a = {
                     (1-2)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
@@ -4277,8 +4277,8 @@ O_ContrabassVoiceIII_a = {
                     (3-4)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
@@ -4397,8 +4397,8 @@ O_ContrabassVoiceV_a = {
                     (5-6)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \once \override Staff.Clef.X-extent = ##f            %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
     \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC

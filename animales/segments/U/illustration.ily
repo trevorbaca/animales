@@ -1104,8 +1104,8 @@ U_PercussionVoiceIII_a = {
     \once \override Staff.StaffSymbol.line-count = 1         %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
     \override RepeatTie.direction = #up                      %! OC1
-    \once \override Staff.Clef.X-extent = ##f                %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)   %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f                %! OC1:MEASURE_149:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)   %! OC1:MEASURE_149:SHIFTED_CLEF
     \clef "percussion"                                       %! SM8:EXPLICIT_CLEF:IC
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     \once \override Staff.Clef.color = #(x11-color 'blue)    %! SM6:EXPLICIT_CLEF_COLOR:IC
