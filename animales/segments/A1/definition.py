@@ -69,6 +69,8 @@ maker(
     baca.rehearsal_mark('A'),
     )
 
+# brass
+
 animales.brass_sforzando(maker, 3)
 
 # trumpets
@@ -78,14 +80,12 @@ maker(
     animales.margin_markup('Tp. (1+3)'),
     animales.parts('Trumpet', 1),
     baca.not_parts(baca.voice_one()),
-    baca.pitch('D5'),
     )
 
 maker(
     baca.scope('TrumpetVoiceIII', (1, -1)),
     animales.parts('Trumpet', 3),
     baca.not_parts(baca.voice_two()),
-    baca.pitch('G4'),
     )
 
 maker(
@@ -93,14 +93,12 @@ maker(
     animales.margin_markup('Tp. (2+4)'),
     animales.parts('Trumpet', 2),
     baca.not_parts(baca.voice_one()),
-    baca.pitch('Ab4'),
     )
 
 maker(
     baca.scope('TrumpetVoiceIV', (1, -1)),
     animales.parts('Trumpet', 4),
     baca.not_parts(baca.voice_two()),
-    baca.pitch('F4'),
     )
 
 # trombones
@@ -110,14 +108,12 @@ maker(
     animales.margin_markup('Trb. (1+3)'),
     animales.parts('Trombone', 1),
     baca.not_parts(baca.voice_one()),
-    baca.pitch('G4'),
     )
 
 maker(
     baca.scope('TromboneVoiceIII', (1, -1)),
     animales.parts('Trombone', 3),
     baca.not_parts(baca.voice_two()),
-    baca.pitch('C4'),
     )
 
 maker(
@@ -125,14 +121,12 @@ maker(
     animales.margin_markup('Trb. (2+4)'),
     animales.parts('Trombone', 2),
     baca.not_parts(baca.voice_one()),
-    baca.pitch('Db4'),
     )
 
 maker(
     baca.scope('TromboneVoiceIV', (1, -1)),
     animales.parts('Trombone', 4),
     baca.not_parts(baca.voice_two()),
-    baca.pitch('B3'),
     )
 
 # horns
@@ -142,14 +136,12 @@ maker(
     animales.margin_markup('Hn. (1+3)'),
     animales.parts('Horn', 1),
     baca.not_parts(baca.voice_one()),
-    baca.pitch('C4'),
     )
 
 maker(
     baca.scope('HornVoiceIII', (1, -1)),
     animales.parts('Horn', 3),
     baca.not_parts(baca.voice_two()),
-    baca.pitch('F3'),
     )
 
 maker(
@@ -157,14 +149,12 @@ maker(
     animales.margin_markup('Hn. (2+4)'),
     animales.parts('Horn', 2),
     baca.not_parts(baca.voice_one()),
-    baca.pitch('Gb3'),
     )
 
 maker(
     baca.scope('HornVoiceIV', (1, -1)),
     animales.parts('Horn', 4),
     baca.not_parts(baca.voice_two()),
-    baca.pitch('E3'),
     )
 
 # tuba
@@ -172,7 +162,6 @@ maker(
 maker(
     baca.scope('TubaVoiceI', (1, -1)),
     animales.parts('Tuba', 1),
-    baca.pitch('C2'),
     )
 
 # strings
