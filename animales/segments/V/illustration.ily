@@ -5693,8 +5693,8 @@ V_ContrabassVoiceIII_a = {
     \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 5         %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.Clef.X-extent = ##f                %! OC1:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)  %! OC1:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f                %! OC1:MEASURE_152:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)  %! OC1:MEASURE_152:SHIFTED_CLEF
     \clef "bass"                                             %! SM8:EXPLICIT_CLEF:IC
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37
     \once \override Staff.Clef.color = #(x11-color 'blue)    %! SM6:EXPLICIT_CLEF_COLOR:IC

@@ -1,26 +1,42 @@
 TO-DO
 =====
 
-1.  Add SegmentMaker method to renotate full-measure rests.
+1.  Supply Akasha segments with layout files to fix shifted clefs.
+    Do Command.get_tag() -> Command.tag() segment-maker to-dos.
 
-2.  Correct contrabass repeat tie direction in V.
+2.  Remove unnecessary layout handling:
+    Wrote 17 measures to akasha/segments/G/illustration.ly ...
+    Found None measures in akasha/segments/G/layout.ly ...
+    < snip here >
+    Remaking akasha/segments/G/layout.ly ...
+    Writing akasha/segments/G/__make_layout_ly__.py ...
+    Interpreting akasha/segments/G/__make_layout_ly__.py ...
+    No breaks in akasha/segments/G/__make_layout_ly__.py ...
+    Removing akasha/segments/G/__make_layout_ly__.py ...
+    Found 17 measures in akasha/segments/G/illustration.ly ...
+    Found None measures in akasha/segments/G/layout.ly ...
+    Music measure count still does not match layout measure count ...
 
-3.  Reset fermata measure spacing to 1/4.
+3.  Add SegmentMaker method to renotate full-measure rests.
 
-4.  Model staff / part / instrument / margin markup relationships.
+4.  Correct contrabass repeat tie direction in V.
+
+5.  Reset fermata measure spacing to 1/4.
+
+6.  Model staff / part / instrument / margin markup relationships.
     Constrain margin markup by staff, part, instrument.
 
-5.  Eventually implement cross-segment broken spanner checks.
+7.  Eventually implement cross-segment broken spanner checks.
 
-6.  Eventually color cross-segment broken spanners.
+8.  Eventually color cross-segment broken spanners.
 
-7.  Eventually teach (llm) more about measure checks.
+9.  Eventually teach (llm) more about measure checks.
     Right now (lle) shows % measure_count = 4.
     Should be % time_signatures = ['4/4', '4/4', '2/4', '3/4'] instead.
 
-8.  Figure out what file metadata Preview is looking at for file open size.
+10. Figure out what file metadata Preview is looking at for file open size.
 
-9.  Teach (llm) how to handle the case that scorewide spacing specifies
+11. Teach (llm) how to handle the case that scorewide spacing specifies
     layout information for more measures than currently exist in score.
     Right now (llm) errors with:
         Remaking animales/builds/tabloid-score/layout.ly ...
@@ -37,35 +53,33 @@ TO-DO
             result = self.items.__getitem__(argument)
         IndexError: tuple index out of range
 
-10. Make document tag settings like (ctms) persist in metadata.
+12. Make document tag settings like (ctms) persist in metadata.
 
-11. Teach (dup) to replace only [Q] with [R].
+13. Teach (dup) to replace only [Q] with [R].
     Currently:
     Ok?> y
     Replacing 'Q' with 'R' ...
     Replaced 272 instances over 272 lines in 3 files.
 
-12. Write doctests for abjad.Job factory methods.
+14. Write doctests for abjad.Job factory methods.
 
-13. Change (st) to work on current tree like (diff).
+15. Change (st) to work on current tree like (diff).
 
-14. Alphabetize (it) output.
+16. Alphabetize (it) output.
 
-15. Eventually integrate make into build process.
+17. Eventually integrate make into build process.
 
-16. Correct contrabass shifted clef at beginning of V.
-
-17. Allow SegmentMaker to retrieve manifests from segment directory.
+18. Allow SegmentMaker to retrieve manifests from segment directory.
     Preserve SegmentMaker manifest initializer keywords for tests.
 
-18. Change line overflow ...
+19. Change line overflow ...
     Writing BOL measure numbers 1, 8, 16, 22, 30, 39, 47, 56, 64, 72, 82, 88, 95, 107, 115, 127, 134, 140, 145, 151, 156 to metadata ...
     ... to ...
     Writing BOL measure numbers to metadata ...
      1, 8, 16, 22, 30, 39, 47, 56, 64, 72, 82, 88 ...
      95, 107, 115, 127, 134, 140, 145, 151, 156 ...
 
-19. Catch ...
+20. Catch ...
     breaks = baca.breaks(
         baca.page(
             [1, 0, (20, 20,)],
