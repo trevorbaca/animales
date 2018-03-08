@@ -3,7 +3,7 @@ import animales
 import baca
 
 
-def assign_trill_parts(maker):
+def assign_trill_parts(maker, exclude_first_violin=False):
     r'''Assigns trill parts.
     '''
 
@@ -19,7 +19,9 @@ def assign_trill_parts(maker):
 
     for voice, members in voice_to_members.items():
         instrument = animales.ScoreTemplate.voice_to_section(voice)
-        if members == 'all':
+        if voice == 'FirstViolinVoiceI' and exclude_first_violin:
+            command = animales.parts(instrument, (2, 10))
+        elif members == 'all':
             command = animales.parts(instrument)
         else:
             command = animales.parts(instrument, members)
