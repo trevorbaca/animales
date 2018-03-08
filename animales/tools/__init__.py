@@ -10,6 +10,7 @@ from .harp_exchange_rhythm import harp_exchange_rhythm
 from .glissando_rhythm import glissando_rhythm
 from .glissando_positions import glissando_positions
 from .instrument import instrument
+from .make_trill_rhythm import make_trill_rhythm
 from .margin_markup import margin_markup
 from .parts import parts
 from .pennant_pitches import pennant_pitches

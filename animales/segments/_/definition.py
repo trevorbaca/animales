@@ -81,40 +81,10 @@ for voice, commands in voice_to_start_markup.items():
 # strings
 
 animales.assign_trill_parts(maker)
+animales.make_trill_rhythm(maker)
 
 maker(
-    baca.scope('FirstViolinVoiceI', (1, -1)),
-    animales.sforzando_exchange_rhythm(0),
-    )
-
-maker(
-    baca.scope('FirstViolinVoiceIII', (1, -1)),
-    animales.sforzando_exchange_rhythm(1),
-    )
-
-maker(
-    baca.scope('SecondViolinVoiceI', (1, -1)),
-    animales.sforzando_exchange_rhythm(2),
-    )
-
-maker(
-    baca.scope('SecondViolinVoiceIII', (1, -1)),
-    animales.sforzando_exchange_rhythm(3),
-    )
-
-maker(
-    baca.scope('ViolaVoiceI', (1, -1)),
-    animales.sforzando_exchange_rhythm(4),
-    )
-
-maker(
-    baca.scope('ViolaVoiceIII', (1, -1)),
-    animales.sforzando_exchange_rhythm(5),
-    )
-
-maker(
-    baca.scope('CelloVoiceI', (1, -1)),
-    animales.sforzando_exchange_rhythm(6),
+    baca.scope('CelloVoiceI', 1),
     baca.clef('tenor'),
     )
 
