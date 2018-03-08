@@ -770,6 +770,128 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     ### PUBLIC METHODS ###
 
+    def allows_instrument(
+        self,
+        staff_name: str,
+        instrument: abjad.Instrument,
+        ) -> bool:
+        r'''Is true when ``staff_name`` allows ``instrument``.
+
+        ..  container:: example
+
+            >>> template = animales.ScoreTemplate()
+            >>> template.allows_instrument(
+            ...     'FirstViolinStaffI',
+            ...     animales.instruments['Violin'],
+            ...     )
+            True
+
+            >>> template = animales.ScoreTemplate()
+            >>> template.allows_instrument(
+            ...     'PercussionStaffI',
+            ...     animales.instruments['Percussion'],
+            ...     )
+            True
+
+            >>> template = animales.ScoreTemplate()
+            >>> template.allows_instrument(
+            ...     'PercussionStaffI',
+            ...     animales.instruments['Vibraphone'],
+            ...     )
+            False
+
+            >>> template = animales.ScoreTemplate()
+            >>> template.allows_instrument(
+            ...     'PercussionStaffIII',
+            ...     animales.instruments['Vibraphone'],
+            ...     )
+            True
+
+        '''
+        dictionary = abjad.OrderedDict([
+            ('Piccolo', [animales.instruments['Piccolo']]),
+            ('Flute', [animales.instruments['Flute']]),
+            ('Oboe', [animales.instruments['Oboe']]),
+            ('EnglishHorn', [animales.instruments['EnglishHorn']]),
+            ('Clarinet', [animales.instruments['Clarinet']]),
+            ('BassClarinet', [animales.instruments['BassClarinet']]),
+            ('Horn', [animales.instruments['Horn']]),
+            ('Trumpet', [animales.instruments['Trumpet']]),
+            ('Trombone', [animales.instruments['Trombone']]),
+            ('Tuba', [animales.instruments['Tuba']]),
+            ('Harp', [animales.instruments['Harp']]),
+            ('Piano', [animales.instruments['Piano']]),
+            ('PercussionStaffI', [
+                animales.instruments['Percussion'],
+                ]),
+            ('PercussionStaffII', [
+                animales.instruments['Percussion'],
+                ]),
+            ('PercussionStaffIII', [
+                animales.instruments['Vibraphone'],
+                ]),
+            ('PercussionStaffIV', [
+                animales.instruments['Percussion'],
+                ]),
+            ('FirstViolin', [animales.instruments['Violin']]),
+            ('SecondViolin', [animales.instruments['Violin']]),
+            ('Viola', [animales.instruments['Viola']]),
+            ('Cello', [animales.instruments['Cello']]),
+            ('Contrabass', [animales.instruments['Contrabass']]),
+            ])
+        staff_name_words = abjad.String(staff_name).delimit_words()
+        for key in dictionary:
+            key_words = abjad.String(key).delimit_words()
+            if staff_name_words[:len(key_words)] == key_words:
+                instruments = dictionary[key]
+                if instrument in instruments:
+                    return True
+                else:
+                    return False
+        raise Exception(f'Can not find {staff_name} in instrument dictionary.')
+        
+    def allows_part_assignment(
+        self,
+        voice_name: str,
+        part_assignment: abjad.PartAssignment,
+        ) -> bool:
+        r'''Is true when ``voice_name`` allows ``part_assignment``.
+
+        ..  container:: example
+
+            >>> template = animales.ScoreTemplate()
+
+            >>> template.allows_part_assignment(
+            ...     'FirstViolinVoiceII',
+            ...     abjad.PartAssignment('FirstViolin'),
+            ...     )
+            True
+
+
+            >>> template.allows_part_assignment(
+            ...     'FirstViolinVoiceII',
+            ...     abjad.PartAssignment('FirstViolin', (1, 10)),
+            ...     )
+            True
+
+            >>> template.allows_part_assignment(
+            ...     'FirstViolinVoiceII',
+            ...     abjad.PartAssignment('SecondViolin'),
+            ...     )
+            False
+
+            >>> template.allows_part_assignment(
+            ...     'FirstViolinVoiceII',
+            ...     abjad.PartAssignment('Violin'),
+            ...     )
+            False
+
+        '''
+        return super(ScoreTemplate, self).allows_part_assignment(
+            voice_name,
+            part_assignment,
+            )
+
     @staticmethod
     def skeleton() -> abjad.Score:
         r'''Makes skeleton.
@@ -973,124 +1095,58 @@ class ScoreTemplate(baca.ScoreTemplate):
             del(score[staff.name])
         return score
 
-    def allows_instrument(
-        self,
-        staff_name: str,
-        instrument: abjad.Instrument,
-        ) -> bool:
-        r'''Is true when ``staff_name`` allows ``instrument``.
+    @staticmethod
+    def voice_to_instrument(voice):
+        r'''Changes ``voice`` to instrument string.
 
         ..  container:: example
 
-            >>> template = animales.ScoreTemplate()
-            >>> template.allows_instrument(
-            ...     'FirstViolinStaffI',
-            ...     animales.instruments['Violin'],
-            ...     )
-            True
+            >>> animales.ScoreTemplate.voice_to_instrument('EnglishHornVoiceI')
+            'EnglishHorn'
 
-            >>> template = animales.ScoreTemplate()
-            >>> template.allows_instrument(
-            ...     'PercussionStaffI',
-            ...     animales.instruments['Percussion'],
-            ...     )
-            True
+            >>> animales.ScoreTemplate.voice_to_instrument('FirstViolinVoiceI')
+            'Violin'
 
-            >>> template = animales.ScoreTemplate()
-            >>> template.allows_instrument(
-            ...     'PercussionStaffI',
-            ...     animales.instruments['Vibraphone'],
-            ...     )
-            False
+            >>> animales.ScoreTemplate.voice_to_instrument('SecondViolinVoiceI')
+            'Violin'
 
-            >>> template = animales.ScoreTemplate()
-            >>> template.allows_instrument(
-            ...     'PercussionStaffIII',
-            ...     animales.instruments['Vibraphone'],
-            ...     )
-            True
+            >>> animales.ScoreTemplate.voice_to_instrument('ViolaVoiceI')
+            'Viola'
 
         '''
-        dictionary = abjad.OrderedDict([
-            ('Piccolo', [animales.instruments['Piccolo']]),
-            ('Flute', [animales.instruments['Flute']]),
-            ('Oboe', [animales.instruments['Oboe']]),
-            ('EnglishHorn', [animales.instruments['EnglishHorn']]),
-            ('Clarinet', [animales.instruments['Clarinet']]),
-            ('BassClarinet', [animales.instruments['BassClarinet']]),
-            ('Horn', [animales.instruments['Horn']]),
-            ('Trumpet', [animales.instruments['Trumpet']]),
-            ('Trombone', [animales.instruments['Trombone']]),
-            ('Tuba', [animales.instruments['Tuba']]),
-            ('Harp', [animales.instruments['Harp']]),
-            ('Piano', [animales.instruments['Piano']]),
-            ('PercussionStaffI', [
-                animales.instruments['Percussion'],
-                ]),
-            ('PercussionStaffII', [
-                animales.instruments['Percussion'],
-                ]),
-            ('PercussionStaffIII', [
-                animales.instruments['Vibraphone'],
-                ]),
-            ('PercussionStaffIV', [
-                animales.instruments['Percussion'],
-                ]),
-            ('FirstViolin', [animales.instruments['Violin']]),
-            ('SecondViolin', [animales.instruments['Violin']]),
-            ('Viola', [animales.instruments['Viola']]),
-            ('Cello', [animales.instruments['Cello']]),
-            ('Contrabass', [animales.instruments['Contrabass']]),
-            ])
-        staff_name_words = abjad.String(staff_name).delimit_words()
-        for key in dictionary:
-            key_words = abjad.String(key).delimit_words()
-            if staff_name_words[:len(key_words)] == key_words:
-                instruments = dictionary[key]
-                if instrument in instruments:
-                    return True
-                else:
-                    return False
-        raise Exception(f'Can not find {staff_name} in instrument dictionary.')
-        
-    def allows_part_assignment(
-        self,
-        voice_name: str,
-        part_assignment: abjad.PartAssignment,
-        ) -> bool:
-        r'''Is true when ``voice_name`` allows ``part_assignment``.
+        assert isinstance(voice, str), repr(voice)
+        words = abjad.String(voice).delimit_words()
+        if 'First' in words:
+            words.remove('First')
+        if 'Second' in words:
+            words.remove('Second')
+        assert 'Voice' in words, repr(words)
+        index = words.index('Voice')
+        instrument = ''.join(words[:index])
+        return instrument
+
+    @staticmethod
+    def voice_to_section(voice):
+        r'''Changes ``voice`` to section string.
 
         ..  container:: example
 
-            >>> template = animales.ScoreTemplate()
+            >>> animales.ScoreTemplate.voice_to_instrument('EnglishHornVoiceI')
+            'EnglishHorn'
 
-            >>> template.allows_part_assignment(
-            ...     'FirstViolinVoiceII',
-            ...     abjad.PartAssignment('FirstViolin'),
-            ...     )
-            True
+            >>> animales.ScoreTemplate.voice_to_instrument('FirstViolinVoiceI')
+            'FirstViolin'
 
+            >>> animales.ScoreTemplate.voice_to_instrument('SecondViolinVoiceI')
+            'SecondViolin'
 
-            >>> template.allows_part_assignment(
-            ...     'FirstViolinVoiceII',
-            ...     abjad.PartAssignment('FirstViolin', (1, 10)),
-            ...     )
-            True
-
-            >>> template.allows_part_assignment(
-            ...     'FirstViolinVoiceII',
-            ...     abjad.PartAssignment('SecondViolin'),
-            ...     )
-            False
-
-            >>> template.allows_part_assignment(
-            ...     'FirstViolinVoiceII',
-            ...     abjad.PartAssignment('Violin'),
-            ...     )
-            False
+            >>> animales.ScoreTemplate.voice_to_instrument('ViolaVoiceI')
+            'Viola'
 
         '''
-        return super(ScoreTemplate, self).allows_part_assignment(
-            voice_name,
-            part_assignment,
-            )
+        assert isinstance(voice, str), repr(voice)
+        words = abjad.String(voice).delimit_words()
+        assert 'Voice' in words, repr(words)
+        index = words.index('Voice')
+        section = ''.join(words[:index])
+        return section
