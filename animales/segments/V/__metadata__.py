@@ -38,10 +38,6 @@ metadata = abjad.OrderedDict(
                 'PercussionStaffGroup',
                 'PercussionStaffII',
                 'PercussionVoiceII',
-                'PercussionStaffIII',
-                'PercussionVoiceIII',
-                'PercussionStaffIV',
-                'PercussionVoiceIV',
                 'StringStaffGroup',
                 'FirstViolinSquareStaffGroup',
                 'FirstViolinStaffI',
@@ -149,13 +145,21 @@ metadata = abjad.OrderedDict(
                 'CelloStaffVII',
                 'CelloVoiceXIII',
                 'CelloVoiceXIV',
+                'ContrabassSquareStaffGroup',
+                'ContrabassStaffI',
+                'ContrabassVoiceI',
+                'ContrabassVoiceII',
                 'ContrabassStaffII',
                 'ContrabassVoiceIII',
+                'ContrabassVoiceIV',
+                'ContrabassStaffIII',
+                'ContrabassVoiceV',
+                'ContrabassVoiceVI',
                 ],
             ),
         (
             'bol_measure_numbers',
-            [152],
+            [143],
             ),
         (
             'container_to_part_assignment',
@@ -167,7 +171,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -177,7 +181,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -187,7 +191,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -197,7 +201,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 9),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -207,7 +211,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -217,7 +221,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 8),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -227,7 +231,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 7),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -237,7 +241,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -247,7 +251,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 5),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -257,7 +261,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 13),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -267,7 +271,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 12),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -277,7 +281,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 14),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -287,7 +291,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 11),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -297,17 +301,67 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Cello', 10),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
                     (
                         'V_ContrabassVoiceIII_a',
                         (
-                            abjad.PartAssignment('Contrabass'),
+                            abjad.PartAssignment('Contrabass', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'V_ContrabassVoiceII_a',
+                        (
+                            abjad.PartAssignment('Contrabass', 2),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(5, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'V_ContrabassVoiceIV_a',
+                        (
+                            abjad.PartAssignment('Contrabass', 4),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(5, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'V_ContrabassVoiceI_a',
+                        (
+                            abjad.PartAssignment('Contrabass', 1),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(5, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'V_ContrabassVoiceVI_a',
+                        (
+                            abjad.PartAssignment('Contrabass', 6),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(5, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'V_ContrabassVoiceV_a',
+                        (
+                            abjad.PartAssignment('Contrabass', 5),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -317,7 +371,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -327,7 +381,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -337,7 +391,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -347,7 +401,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 9),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -357,7 +411,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -367,7 +421,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 8),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -377,7 +431,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 7),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -387,7 +441,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -397,7 +451,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 5),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -407,7 +461,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 13),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -417,7 +471,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 12),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -427,7 +481,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 14),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -437,7 +491,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 11),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -447,7 +501,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 18),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -457,7 +511,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 17),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -467,7 +521,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 16),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -477,7 +531,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 15),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -487,7 +541,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 10),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -497,7 +551,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Horn', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -507,7 +561,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Horn', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -517,7 +571,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Horn', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -527,17 +581,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Horn', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
-                                ),
-                            ),
-                        ),
-                    (
-                        'V_PercussionVoiceIII_a',
-                        (
-                            abjad.PartAssignment('Percussion', 3),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -547,17 +591,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Percussion', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
-                                ),
-                            ),
-                        ),
-                    (
-                        'V_PercussionVoiceIV_a',
-                        (
-                            abjad.PartAssignment('Percussion', 4),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -567,7 +601,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -577,7 +611,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -587,7 +621,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -597,7 +631,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 9),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -607,7 +641,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -617,7 +651,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 8),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -627,7 +661,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 7),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -637,7 +671,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -647,7 +681,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 5),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -657,7 +691,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 13),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -667,7 +701,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 12),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -677,7 +711,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 14),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -687,7 +721,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 11),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -697,7 +731,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 18),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -707,7 +741,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 17),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -717,7 +751,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 16),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -727,7 +761,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 15),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -737,7 +771,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('SecondViolin', 10),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -747,7 +781,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Trombone', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -757,7 +791,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Trombone', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -767,7 +801,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Trombone', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -777,7 +811,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Trombone', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -787,7 +821,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Trumpet', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -797,7 +831,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Trumpet', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -807,7 +841,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Trumpet', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -817,7 +851,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Trumpet', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -827,7 +861,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Tuba', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -837,7 +871,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -847,7 +881,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -857,7 +891,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -867,7 +901,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 9),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -877,7 +911,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -887,7 +921,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 8),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -897,7 +931,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 7),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -907,7 +941,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -917,7 +951,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 5),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -927,7 +961,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 13),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -937,7 +971,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 12),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -947,7 +981,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 14),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -957,7 +991,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 11),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -967,7 +1001,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 18),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -977,7 +1011,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 17),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -987,7 +1021,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 16),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -997,7 +1031,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 15),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
@@ -1007,14 +1041,14 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Viola', 10),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(3, 1),
+                                stop_offset=abjad.Offset(5, 2),
                                 ),
                             ),
                         ),
                     ]
                 ),
             ),
-        ('duration', "0'09''"),
+        ('duration', "0'07''"),
         (
             'fermata_measure_numbers',
             [121, 126],
@@ -1053,9 +1087,9 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('first_measure_number', 152),
+        ('first_measure_number', 143),
         ('last_measure_is_fermata', True),
-        ('last_measure_number', 154),
+        ('last_measure_number', 145),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -1387,7 +1421,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ContrabassVoiceIII',
                                 prototype='abjad.Clef',
-                                value='bass',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='ContrabassVoiceIII',
@@ -1402,7 +1436,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ContrabassVoiceIII',
                                 prototype='baca.StaffLines',
-                                value=5,
+                                value=2,
                                 ),
                             ],
                         ),
@@ -1447,7 +1481,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ContrabassVoiceIII',
                                 prototype='abjad.Dynamic',
-                                value='p',
+                                value='niente',
                                 ),
                             ],
                         ),
@@ -2063,7 +2097,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionVoiceIII',
                                 prototype='abjad.Clef',
-                                value='percussion',
+                                value='treble',
                                 ),
                             abjad.Momento(
                                 context='PercussionVoiceIII',
@@ -2073,37 +2107,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionVoiceIII',
                                 prototype='abjad.MarginMarkup',
-                                value='Perc. 3 (BD)',
-                                ),
-                            abjad.Momento(
-                                context='PercussionVoiceIII',
-                                prototype='baca.StaffLines',
-                                value=1,
-                                ),
-                            ],
-                        ),
-                    (
-                        'PercussionStaffIV',
-                        [
-                            abjad.Momento(
-                                context='PercussionVoiceIV',
-                                prototype='abjad.Clef',
-                                value='percussion',
-                                ),
-                            abjad.Momento(
-                                context='PercussionVoiceIV',
-                                prototype='abjad.Instrument',
-                                value='Percussion',
-                                ),
-                            abjad.Momento(
-                                context='PercussionVoiceIV',
-                                prototype='abjad.MarginMarkup',
-                                value='Perc. 4 (tam.)',
-                                ),
-                            abjad.Momento(
-                                context='PercussionVoiceIV',
-                                prototype='baca.StaffLines',
-                                value=1,
+                                value='Perc. 3 (vib.)',
                                 ),
                             ],
                         ),
@@ -2133,17 +2137,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionVoiceIII',
                                 prototype='abjad.Dynamic',
-                                value='p',
-                                ),
-                            ],
-                        ),
-                    (
-                        'PercussionVoiceIV',
-                        [
-                            abjad.Momento(
-                                context='PercussionVoiceIV',
-                                prototype='abjad.Dynamic',
-                                value='p',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -2925,54 +2919,57 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('segment_name', 'V'),
-        ('segment_number', 27),
+        ('segment_number', 24),
         (
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
                     ('CelloVoiceI', True),
                     ('CelloVoiceII', True),
-                    ('CelloVoiceIII', False),
+                    ('CelloVoiceIII', True),
                     ('CelloVoiceIV', True),
                     ('CelloVoiceIX', True),
                     ('CelloVoiceV', True),
                     ('CelloVoiceVI', True),
                     ('CelloVoiceVII', True),
                     ('CelloVoiceVIII', True),
-                    ('CelloVoiceX', False),
+                    ('CelloVoiceX', True),
                     ('CelloVoiceXI', True),
                     ('CelloVoiceXII', True),
-                    ('CelloVoiceXIII', False),
+                    ('CelloVoiceXIII', True),
                     ('CelloVoiceXIV', True),
+                    ('ContrabassVoiceI', True),
+                    ('ContrabassVoiceII', True),
                     ('ContrabassVoiceIII', True),
+                    ('ContrabassVoiceIV', True),
+                    ('ContrabassVoiceV', True),
+                    ('ContrabassVoiceVI', True),
                     ('FirstViolinVoiceI', True),
                     ('FirstViolinVoiceII', True),
                     ('FirstViolinVoiceIII', True),
-                    ('FirstViolinVoiceIV', False),
+                    ('FirstViolinVoiceIV', True),
                     ('FirstViolinVoiceIX', True),
                     ('FirstViolinVoiceV', True),
                     ('FirstViolinVoiceVI', True),
-                    ('FirstViolinVoiceVII', False),
+                    ('FirstViolinVoiceVII', True),
                     ('FirstViolinVoiceVIII', True),
                     ('FirstViolinVoiceX', True),
-                    ('FirstViolinVoiceXI', False),
+                    ('FirstViolinVoiceXI', True),
                     ('FirstViolinVoiceXII', True),
                     ('FirstViolinVoiceXIII', True),
                     ('FirstViolinVoiceXIV', True),
                     ('FirstViolinVoiceXV', True),
                     ('FirstViolinVoiceXVI', True),
-                    ('FirstViolinVoiceXVII', False),
-                    ('FirstViolinVoiceXVIII', False),
+                    ('FirstViolinVoiceXVII', True),
+                    ('FirstViolinVoiceXVIII', True),
                     ('HornVoiceI', True),
                     ('HornVoiceII', True),
                     ('HornVoiceIII', True),
                     ('HornVoiceIV', True),
                     ('PercussionVoiceII', True),
-                    ('PercussionVoiceIII', True),
-                    ('PercussionVoiceIV', True),
                     ('SecondViolinVoiceI', True),
                     ('SecondViolinVoiceII', True),
-                    ('SecondViolinVoiceIII', False),
+                    ('SecondViolinVoiceIII', True),
                     ('SecondViolinVoiceIV', True),
                     ('SecondViolinVoiceIX', True),
                     ('SecondViolinVoiceV', True),
@@ -2981,11 +2978,11 @@ metadata = abjad.OrderedDict(
                     ('SecondViolinVoiceVIII', True),
                     ('SecondViolinVoiceX', True),
                     ('SecondViolinVoiceXI', True),
-                    ('SecondViolinVoiceXII', False),
+                    ('SecondViolinVoiceXII', True),
                     ('SecondViolinVoiceXIII', True),
                     ('SecondViolinVoiceXIV', True),
                     ('SecondViolinVoiceXV', True),
-                    ('SecondViolinVoiceXVI', False),
+                    ('SecondViolinVoiceXVI', True),
                     ('SecondViolinVoiceXVII', True),
                     ('SecondViolinVoiceXVIII', True),
                     ('TromboneVoiceI', True),
@@ -3000,12 +2997,12 @@ metadata = abjad.OrderedDict(
                     ('ViolaVoiceI', True),
                     ('ViolaVoiceII', True),
                     ('ViolaVoiceIII', True),
-                    ('ViolaVoiceIV', False),
+                    ('ViolaVoiceIV', True),
                     ('ViolaVoiceIX', True),
-                    ('ViolaVoiceV', False),
+                    ('ViolaVoiceV', True),
                     ('ViolaVoiceVI', True),
                     ('ViolaVoiceVII', True),
-                    ('ViolaVoiceVIII', False),
+                    ('ViolaVoiceVIII', True),
                     ('ViolaVoiceX', True),
                     ('ViolaVoiceXI', True),
                     ('ViolaVoiceXII', True),
@@ -3013,16 +3010,16 @@ metadata = abjad.OrderedDict(
                     ('ViolaVoiceXIV', True),
                     ('ViolaVoiceXV', True),
                     ('ViolaVoiceXVI', True),
-                    ('ViolaVoiceXVII', False),
+                    ('ViolaVoiceXVII', True),
                     ('ViolaVoiceXVIII', True),
                     ]
                 ),
             ),
-        ('start_clock_time', "5'13''"),
-        ('stop_clock_time', "5'22''"),
+        ('start_clock_time', "4'50''"),
+        ('stop_clock_time', "4'57''"),
         (
             'time_signatures',
-            ['4/4', '4/4', '4/4'],
+            ['2/4', '4/4', '4/4'],
             ),
         (
             'voice_metadata',

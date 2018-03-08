@@ -4,7 +4,6 @@ import baca
 breaks = baca.breaks(
     baca.page(
         [1, 0, (20, 20,)],
-        [7, 60, (20, 20,)],
         ),
     )
 

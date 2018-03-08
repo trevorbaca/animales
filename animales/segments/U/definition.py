@@ -10,7 +10,8 @@ from abjad import rhythmmakertools as rhythmos
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
-start = 130
+start = metadata.get('last_measure_number')
+assert start == 139
 
 time_signatures = animales.time_signatures[start: start + 3]
 maker = baca.SegmentMaker(
@@ -20,26 +21,6 @@ maker = baca.SegmentMaker(
     metronome_marks=animales.metronome_marks,
     print_timings=True,
     score_template=animales.ScoreTemplate(
-        horns=[
-            (1, [1, 3]),
-            (2, [2, 4]),
-            ],
-        trumpets=[
-            (1, [1, 3]),
-            (2, [2, 4]),
-            ],
-        trombones=[
-            (1, [1, 3]),
-            (2, [2, 4]),
-            ],
-        tuba=[
-            (1, [1]),
-            ],
-        percussion=[
-            (2, [2]),
-            (3, [3]),
-            (4, [4]),
-            ],
         first_violins=[
             (1, [1, 2]),
             (2, [3, 4]),
@@ -98,60 +79,4 @@ maker(
     baca.rehearsal_mark('U'),
     )
 
-# brass
-
-animales.assign_brass_sforzando_parts(maker)
-animales.brass_sforzando(maker, 1)
-
-# percussion
-
-# cymbal
-
-maker(
-    baca.scope('PercussionVoiceII', (1, -1)),
-    animales.parts('Percussion', 2),
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie_to(),
-    baca.staff_position(0),
-    baca.repeat_ties_up(),
-    baca.stem_tremolo(),
-    )
-
-# bass drum
-
-maker(
-    baca.scope('PercussionVoiceIII', (1, -1)),
-    animales.margin_markup('Perc. 3 (BD)'),
-    animales.parts('Percussion', 3),
-    baca.clef('percussion'),
-    baca.dynamic('p'),
-    baca.make_repeat_tied_notes(),
-    baca.markup.boxed(
-        'bass drum (soft yarn mallets: attackless sound)',
-        ),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-    baca.repeat_ties_up(),
-    baca.stem_tremolo(),
-    )
-    
-# tam-tam
-
-maker(
-    baca.scope('PercussionVoiceIV', (1, -1)),
-    animales.parts('Percussion', 4),
-    baca.dynamic('p'),
-    baca.make_repeat_tied_notes(),
-    animales.margin_markup('Perc. 4 (tam.)'),
-    baca.markup.boxed(
-        'tam-tam (soft yarn mallets: attackless sound)',
-        ),
-    baca.staff_position(0),
-    baca.repeat_ties_up(),
-    baca.staff_lines(1),
-    baca.stem_tremolo(),
-    )
-
-# strings
-
-animales.constellations(maker, [[1, -117, -117], [1, -118]])
+animales.constellations(maker, [[1, 1, -5], [1, 1, -5], [1, -8]]) 

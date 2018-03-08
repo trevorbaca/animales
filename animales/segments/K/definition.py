@@ -10,27 +10,29 @@ from abjad import rhythmmakertools as rhythmos
 
 metadata = baca.previous_metadata(__file__)
 start = metadata.get('last_measure_number')
-assert start == 87
-
-metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (7, abjad.Fermata()),
-    ])
-
-time_signatures = animales.time_signatures[start:start + 6] + ((1, 4),)
+assert start == 67
 
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
     measures_per_stage=True,
-    metronome_mark_measure_map=metronome_mark_measure_map,
+    metronome_mark_spanner_right_broken=True,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
-        flutes=[
+        clarinets=[
+            (1, [1]),
+            ],
+        horns=[
             (1, [1, 3]),
             (2, [2, 4]),
             ],
-        bass_clarinet=[
-            (1, [1]),
+        trumpets=[
+            (1, [1, 3]),
+            (2, [2, 4]),
+            ],
+        trombones=[
+            (1, [1, 3]),
+            (2, [2, 4]),
             ],
         harp=[
             (1, [1]),
@@ -39,12 +41,11 @@ maker = baca.SegmentMaker(
             (1, [1]),
             ],
         percussion=[
-            (1, [1]),
             (2, [2]),
             (3, [3]),
             ],
         first_violins=[
-            (1, [2, 1]),
+            (1, [1]),
             ],
         second_violins=[
             (1, [1]),
@@ -60,97 +61,164 @@ maker = baca.SegmentMaker(
             (2, [3]),
             ],
         ),
-    time_signatures=time_signatures,
+    time_signatures=animales.time_signatures[start:start + 8],
     transpose_score=True,
-    validate_measure_count=7,
+    validate_measure_count=8,
     )
 
 maker(
     baca.scope('GlobalSkips', (1, -1)),
+    baca.metronome_mark('76'),
     baca.rehearsal_mark('K'),
+    baca.tag(
+        '+TABLOID_SCORE',
+        baca.rehearsal_mark_extra_offset((0, 6)),
+        ),
     )
 
-maker(
-    baca.scope('GlobalRests', 7),
-    baca.not_parts(baca.mmrest_text_extra_offset((0, -4))),
-    )
-
-# flutes
+# clarinets
 
 maker(
-    baca.scope('FluteVoiceI', (1, -1)),
-    animales.parts('Flute', 1),
-    )
-
-maker(
-    baca.scope('FluteVoiceIII', (1, -1)),
-    animales.parts('Flute', 3),
-    )
-
-maker(
-    baca.scope('FluteVoiceII', (1, -1)),
-    animales.parts('Flute', 2),
-    )
-
-maker(
-    baca.scope('FluteVoiceIV', (1, -1)),
-    animales.parts('Flute', 4),
-    )
-
-maker(
-    baca.scope('FluteVoiceI', (1, 3)),
-    animales.pennant_pitches('G5', [6]),
-    animales.pennant_rhythm([0, 0, -1, -1, 0], [0, 1, 2]),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.hairpin('mf < ff')),
-    baca.slur(),
-    )
-
-maker(
-    baca.scope('FluteVoiceIII', (1, 3)),
-    animales.pennant_pitches('F5', [6]),
-    animales.pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
-    baca.hairpin('mf < ff'),
-    baca.not_parts(baca.voice_two()),
-    baca.slur(),
-    )
-
-maker(
-    baca.scope('FluteVoiceII', (1, 3)),
-    animales.pennant_pitches('Eb5', [6]),
-    animales.pennant_rhythm([0, -1, -1, 0], [0]),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.hairpin('mf < ff')),
-    baca.slur(),
-    )
-
-maker(
-    baca.scope('FluteVoiceIV', (1, 3)),
-    animales.pennant_pitches('D5', [6]),
-    animales.pennant_rhythm([0, 0, -1, -1]),
-    baca.hairpin('mf < ff'),
-    baca.not_parts(baca.voice_two()),
-    baca.slur(),
-    )
-
-# bass clarinet
-
-maker(
-    baca.scope('BassClarinetVoiceI', (1, -1)),
-    animales.parts('BassClarinet'),
-    baca.hairpin('p > niente', baca.leaves()[:2]),
-    baca.hairpin('niente < p', baca.leaves()[2:4]),
-    baca.pitch('Ab2'),
-    )
-
-maker(
-    baca.scope('BassClarinetVoiceI', 1),
+    baca.scope('ClarinetVoiceI', (1, 4)),
+    animales.margin_markup('Cl. 1'),
+    animales.parts('Clarinet', 1), baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
+    baca.pitch('C5'),
     )
 
 maker(
-    baca.scope('BassClarinetVoiceI', (3, 6)),
+    baca.scope('ClarinetVoiceI', (5, 8)),
+    animales.margin_markup('Cl. 2'),
+    animales.parts('Clarinet', 2),
+    baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
+    baca.pitch('Cb5'),
+    )
+
+# horns
+
+maker(
+    baca.scope('HornVoiceI', 1),
+    animales.downbeat_attack(),
+    animales.parts('Horn', 1),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.force_accidentals()),
+    baca.not_parts(baca.note_column_shift(1.7)),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.dynamic('sfz')),
+    baca.pitches('A3 B3', ignore_incomplete=True, persist='seconds'),
+    )
+
+maker(
+    baca.scope('HornVoiceIII', 1),
+    animales.downbeat_attack(),
+    animales.parts('Horn', 3),
+    baca.dynamic('sfz'),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
+    )
+
+maker(
+    baca.scope('HornVoiceII', 1),
+    animales.downbeat_attack(),
+    animales.parts('Horn', 2),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.dynamic('sfz')),
+    baca.pitches('A3 B3', ignore_incomplete=True, persist='seconds'),
+    )
+
+maker(
+    baca.scope('HornVoiceIV', 1),
+    animales.downbeat_attack(),
+    animales.parts('Horn', 4),
+    baca.dynamic('sfz'),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
+    )
+
+# trumpets
+
+maker(
+    baca.scope('TrumpetVoiceI', 1),
+    animales.downbeat_attack(),
+    animales.parts('Trumpet', 1),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.dynamic('sfz')),
+    baca.pitches('Ab4 Bb4', ignore_incomplete=True, persist='seconds'),
+    )
+
+maker(
+    baca.scope('TrumpetVoiceIII', 1),
+    animales.downbeat_attack(),
+    animales.parts('Trumpet', 3),
+    baca.dynamic('sfz'),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches('G4 A4', ignore_incomplete=True, persist='seconds'),
+    )
+
+maker(
+    baca.scope('TrumpetVoiceII', 1),
+    animales.downbeat_attack(),
+    animales.parts('Trumpet', 2),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.dynamic('sfz')),
+    baca.pitches('Ab4 Bb4', ignore_incomplete=True, persist='seconds'),
+    )
+
+maker(
+    baca.scope('TrumpetVoiceIV', 1),
+    animales.downbeat_attack(),
+    animales.parts('Trumpet', 4),
+    baca.dynamic('sfz'),
+    baca.not_parts(baca.force_accidentals()),
+    baca.not_parts(baca.note_column_shift(1.0)),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches('G4 A4', ignore_incomplete=True, persist='seconds'),
+    )
+
+# trombones
+
+maker(
+    baca.scope('TromboneVoiceI', 1),
+    animales.downbeat_attack(),
+    animales.parts('Trombone', 1),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.dynamic('sfz')),
+    baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
+    )
+
+maker(
+    baca.scope('TromboneVoiceIII', 1),
+    animales.downbeat_attack(),
+    animales.parts('Trombone', 3),
+    baca.dynamic('sfz'),
+    baca.pitches('G3 A3', ignore_incomplete=True, persist='seconds'),
+    baca.not_parts(baca.voice_two()),
+    )
+
+maker(
+    baca.scope('TromboneVoiceII', 1),
+    animales.downbeat_attack(),
+    animales.parts('Trombone', 2),
+    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.dynamic('sfz')),
+    baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
+    )
+
+maker(
+    baca.scope('TromboneVoiceIV', 1),
+    animales.downbeat_attack(),
+    animales.parts('Trombone', 4),
+    baca.dynamic('sfz'),
+    baca.not_parts(baca.force_accidentals()),
+    baca.not_parts(baca.note_column_shift(1.0)),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches('G3 A3', ignore_incomplete=True, persist='seconds'),
     )
 
 # harp
@@ -158,13 +226,9 @@ maker(
 maker(
     baca.scope('HarpVoiceI', (1, -1)),
     animales.parts('Harp'),
-    )
-
-maker(
-    baca.scope('HarpVoiceI', (1, 6)),
     animales.harp_exchange_rhythm(2),
     baca.laissez_vibrer(),
-    baca.pitch('Bb4'),
+    baca.pitch('C5'),
     baca.stopped(),
     )
 
@@ -173,148 +237,79 @@ maker(
 maker(
     baca.scope('PianoVoiceI', (1, -1)),
     animales.parts('Piano'),
-    )
-
-maker(
-    baca.scope('PianoVoiceI', (1, 6)),
     animales.harp_exchange_rhythm(3),
     baca.laissez_vibrer(),
-    baca.pitch('Bb4'),
+    baca.pitch('C5'),
     baca.stopped(),
     )
 
-# percussion
-
-# triangle
-
-maker(
-    baca.scope('PercussionVoiceI', (1, -1)),
-    animales.parts('Percussion', 1),
-    )
-
-maker(
-    baca.scope('PercussionVoiceI', (1, 3)),
-    baca.hairpin('niente < mp', selector=baca.pleaves()[:2]),
-    baca.make_repeat_tied_notes(),
-    baca.repeat_ties_up(),
-    baca.staff_position(0),
-    baca.stem_tremolo(),
-    )
-
-# cymbal
+# percussion (cym., vib.)
 
 maker(
     baca.scope('PercussionVoiceII', (1, -1)),
     animales.parts('Percussion', 2),
-    )
-
-maker(
-    baca.scope('PercussionVoiceII', (1, 3)),
-    baca.hairpin('niente < mp', selector=baca.pleaves()[:2]),
     baca.make_repeat_tied_notes(),
     baca.repeat_ties_up(),
     baca.staff_position(0),
     baca.stem_tremolo(),
     )
 
-# vibraphone
-
 maker(
     baca.scope('PercussionVoiceIII', (1, -1)),
     animales.parts('Percussion', 3),
-    )
-
-maker(
-    baca.scope('PercussionVoiceIII', (1, 6)),
     animales.harp_exchange_rhythm(0),
     baca.laissez_vibrer(),
-    baca.pitch('Bb4'),
+    baca.pitch('C5'),
     )
 
 # strings
 
 maker(
-    baca.scope('FirstViolinVoiceII', (1, 3)),
-    animales.glissando_rhythm(rotate=-2),
-    animales.parts('FirstViolin', 1),
-    baca.hairpin('p < ff', baca.notes().group_by_measure()[0].rleak()),
-    baca.hairpin('ff > p', baca.notes().group_by_measure()[-1].lleak()),
-    baca.not_parts(baca.dls_up()),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.stop_trill()),
-    baca.suite([
-        baca.untie_to(baca.leaves()),
-        animales.glissando_positions(transpose=-3),
-        baca.pitch('G4', baca.pleaf(0)),
-        baca.pitch('G4', baca.pleaf(-1)),
-        baca.tie_repeat_pitches(),
-        baca.glissando(),
-        ]),
-    )
-
-maker(
     baca.scope('FirstViolinVoiceI', (1, -1)),
-    animales.parts('FirstViolin', (2, 18)),
-    baca.not_parts(baca.voice_two()),
+    animales.parts('FirstViolin'),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('Ab6'),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', (1, -1)),
     animales.parts('SecondViolin'),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('Ab5'),
     )
 
 maker(
     baca.scope('ViolaVoiceI', (1, -1)),
     animales.parts('Viola'),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('Ab4'),
     )
 
 maker(
     baca.scope('CelloVoiceI', (1, -1)),
     animales.parts('Cello'),
-    )
-
-maker(
-    baca.scopes(
-        ('FirstViolinVoiceI', (1, 3)),
-        ('SecondViolinVoiceI', (1, 3)),
-        ('ViolaVoiceI', (1, 3)),
-        ('CelloVoiceI', (1, 3)),
-        ),
     baca.make_repeat_tied_notes(),
-    baca.hairpin('pp < ff'),
-    baca.pitch('G3'),
-    baca.trill_spanner('Ab3'),
+    baca.pitch('Ab2'),
     )
 
 most_strings = [
+    'FirstViolinVoiceI',
     'SecondViolinVoiceI',
     'ViolaVoiceI',
     'CelloVoiceI',
-    'ContrabassVoiceIII',
     ]
 
-strings = ['suddenly ripped off;', 'las. vib. possibile']
-
 maker(
-    baca.scope('FirstViolinVoiceI', 4),
-    baca.markup.boxed_lines(strings)
-    )
-
-maker(
-    baca.make_scopes(most_strings, [4]),
-    baca.only_parts(baca.markup.boxed_lines(strings)),
+    baca.make_scopes(most_strings, [(1, -1)]),
+    baca.dynamic('pp'),
     )
 
 maker(
     baca.scope('ContrabassVoiceIII', (1, -1)),
     animales.parts('Contrabass', (2, 6)),
-    )
-
-maker(
-    baca.scope('ContrabassVoiceIII', (1, 3)),
+    baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
-    baca.hairpin('p < ff'),
-    baca.pitch('G1'),
+    baca.pitch('Ab1'),
     )
 
 # contrabass solo
@@ -322,11 +317,8 @@ maker(
 maker(
     baca.scope('ContrabassVoiceI', (1, -1)),
     animales.parts('Contrabass', 1),
-    )
-
-maker(
-    baca.scope('ContrabassVoiceI', (1, 6)),
     animales.harp_exchange_rhythm(1),
     baca.laissez_vibrer(),
-    baca.pitch('Bb4', do_not_transpose=True),
+    baca.natural_harmonics(),
+    baca.pitch('Cqf5', do_not_transpose=True),
     )

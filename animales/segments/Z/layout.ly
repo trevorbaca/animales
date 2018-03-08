@@ -1,10 +1,10 @@
-% measure_count = 10
+% measure_count = 3
 
 
 \context Score = "Score"
 \with
 {
-    currentBarNumber = #165
+    currentBarNumber = #155
 }
 <<
     \context GlobalContext = "GlobalContext"
@@ -12,7 +12,7 @@
         \context PageLayout = "PageLayout"
         {   %*% PageLayout
             
-            % [PageLayout measure 165]                                                   %! SM4
+            % [PageLayout measure 155]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
             \autoPageBreaksOff                                                           %! BMM1:BREAK
@@ -20,7 +20,7 @@
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
             #'((Y-offset . 0) (alignment-distances . (20 20)))                           %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
-            s1 * 3/4
+            s1 * 1/2
             ^ \markup {
                 \column
                     {
@@ -43,11 +43,11 @@
                     }
                 }
             
-            % [PageLayout measure 166]                                                   %! SM4
+            % [PageLayout measure 156]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 3/4
+            s1 * 1
             ^ \markup {
                 \column
                     {
@@ -70,9 +70,9 @@
                     }
                 }
             
-            % [PageLayout measure 167]                                                   %! SM4
+            % [PageLayout measure 157]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
+            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
             ^ \markup {
@@ -85,198 +85,6 @@
                     %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
                     %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
                     %@%                 <2>                                              %! SM32:MEASURE_INDEX_MARKUP
-                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@% \line                                                            %! HSS2:SPACING_MARKUP
-                    %@%     {                                                            %! HSS2:SPACING_MARKUP
-                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
-                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
-                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
-                    %@%     }                                                            %! HSS2:SPACING_MARKUP
-                    }
-                }
-            
-            % [PageLayout measure 168]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1
-            ^ \markup {
-                \column
-                    {
-                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
-                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
-                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
-                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
-                    %@%                 <3>                                              %! SM32:MEASURE_INDEX_MARKUP
-                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@% \line                                                            %! HSS2:SPACING_MARKUP
-                    %@%     {                                                            %! HSS2:SPACING_MARKUP
-                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
-                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
-                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
-                    %@%     }                                                            %! HSS2:SPACING_MARKUP
-                    }
-                }
-            
-            % [PageLayout measure 169]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1
-            ^ \markup {
-                \column
-                    {
-                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
-                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
-                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
-                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
-                    %@%                 <4>                                              %! SM32:MEASURE_INDEX_MARKUP
-                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@% \line                                                            %! HSS2:SPACING_MARKUP
-                    %@%     {                                                            %! HSS2:SPACING_MARKUP
-                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
-                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
-                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
-                    %@%     }                                                            %! HSS2:SPACING_MARKUP
-                    }
-                }
-            
-            % [PageLayout measure 170]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 3/4
-            ^ \markup {
-                \column
-                    {
-                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
-                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
-                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
-                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
-                    %@%                 <5>                                              %! SM32:MEASURE_INDEX_MARKUP
-                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@% \line                                                            %! HSS2:SPACING_MARKUP
-                    %@%     {                                                            %! HSS2:SPACING_MARKUP
-                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
-                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
-                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 "[[1/20 * 35/24]]"                               %! HSS2:SPACING_MARKUP
-                    %@%     }                                                            %! HSS2:SPACING_MARKUP
-                    }
-                }
-            
-            % [PageLayout measure 171]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 60) (alignment-distances . (20 20)))                          %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 3/4
-            ^ \markup {
-                \column
-                    {
-                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
-                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
-                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
-                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
-                    %@%                 <6>                                              %! SM32:MEASURE_INDEX_MARKUP
-                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@% \line                                                            %! HSS2:SPACING_MARKUP
-                    %@%     {                                                            %! HSS2:SPACING_MARKUP
-                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
-                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
-                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
-                    %@%     }                                                            %! HSS2:SPACING_MARKUP
-                    }
-                }
-            
-            % [PageLayout measure 172]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1
-            ^ \markup {
-                \column
-                    {
-                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
-                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
-                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
-                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
-                    %@%                 <7>                                              %! SM32:MEASURE_INDEX_MARKUP
-                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@% \line                                                            %! HSS2:SPACING_MARKUP
-                    %@%     {                                                            %! HSS2:SPACING_MARKUP
-                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
-                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
-                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
-                    %@%     }                                                            %! HSS2:SPACING_MARKUP
-                    }
-                }
-            
-            % [PageLayout measure 173]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1
-            ^ \markup {
-                \column
-                    {
-                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
-                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
-                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
-                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
-                    %@%                 <8>                                              %! SM32:MEASURE_INDEX_MARKUP
-                    %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@% \line                                                            %! HSS2:SPACING_MARKUP
-                    %@%     {                                                            %! HSS2:SPACING_MARKUP
-                    %@%         \with-color                                              %! HSS2:SPACING_MARKUP
-                    %@%             #(x11-color 'ForestGreen)                            %! HSS2:SPACING_MARKUP
-                    %@%             \fontsize                                            %! HSS2:SPACING_MARKUP
-                    %@%                 #3                                               %! HSS2:SPACING_MARKUP
-                    %@%                 [1/20]                                           %! HSS2:SPACING_MARKUP
-                    %@%     }                                                            %! HSS2:SPACING_MARKUP
-                    }
-                }
-            
-            % [PageLayout measure 174]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/4
-            ^ \markup {
-                \column
-                    {
-                    %@% \line                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@%     {                                                            %! SM32:MEASURE_INDEX_MARKUP
-                    %@%         \fontsize                                                %! SM32:MEASURE_INDEX_MARKUP
-                    %@%             #3                                                   %! SM32:MEASURE_INDEX_MARKUP
-                    %@%             \with-color                                          %! SM32:MEASURE_INDEX_MARKUP
-                    %@%                 #(x11-color 'DarkCyan)                           %! SM32:MEASURE_INDEX_MARKUP
-                    %@%                 <9>                                              %! SM32:MEASURE_INDEX_MARKUP
                     %@%     }                                                            %! SM32:MEASURE_INDEX_MARKUP
                     %@% \line                                                            %! HSS2:SPACING_MARKUP
                     %@%     {                                                            %! HSS2:SPACING_MARKUP

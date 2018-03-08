@@ -10,7 +10,7 @@ from abjad import rhythmmakertools as rhythmos
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
-start = 136
+start = 133
 
 time_signatures = animales.time_signatures[start: start + 3]
 maker = baca.SegmentMaker(
@@ -20,11 +20,20 @@ maker = baca.SegmentMaker(
     metronome_marks=animales.metronome_marks,
     print_timings=True,
     score_template=animales.ScoreTemplate(
-        percussion=[
+        horns=[
+            (1, [1, 3]),
+            (2, [2, 4]),
+            ],
+        trumpets=[
+            (1, [1, 3]),
+            (2, [2, 4]),
+            ],
+        trombones=[
+            (1, [1, 3]),
+            (2, [2, 4]),
+            ],
+        tuba=[
             (1, [1]),
-            (2, [2]),
-            (3, [3]),
-            (4, [4]),
             ],
         first_violins=[
             (1, [1, 2]),
@@ -69,7 +78,9 @@ maker = baca.SegmentMaker(
             (7, [13, 14]),
             ],
         contrabasses=[
-            (2, [3]),
+            (1, [1, 2]),
+            (2, [3, 4]),
+            (3, [5, 6]),
             ],
         ),
     time_signatures=time_signatures,
@@ -82,73 +93,11 @@ maker(
     baca.rehearsal_mark('W'),
     )
 
-# percussion
+# brass
 
-# triangle
-
-maker(
-    baca.scope('PercussionVoiceI', (1, -1)),
-    animales.parts('Percussion', 1),
-    baca.dynamic('p'),
-    baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
-    baca.repeat_ties_up(),
-    baca.stem_tremolo(),
-    )
-
-# cymbal
-
-maker(
-    baca.scope('PercussionVoiceII', (1, -1)),
-    animales.parts('Percussion', 2),
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie_to(),
-    baca.staff_position(0),
-    baca.repeat_ties_up(),
-    baca.stem_tremolo(),
-    )
-
-# bass drum
-
-maker(
-    baca.scope('PercussionVoiceIII', (1, -1)),
-    animales.parts('Percussion', 3),
-    baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
-    baca.repeat_tie_to(),
-    baca.repeat_ties_up(),
-    baca.stem_tremolo(),
-    )
-    
-# tam-tam
-
-maker(
-    baca.scope('PercussionVoiceIV', (1, -1)),
-    animales.parts('Percussion', 4),
-    baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
-    baca.repeat_tie_to(),
-    baca.repeat_ties_up(),
-    baca.stem_tremolo(),
-    )
+animales.assign_brass_sforzando_parts(maker)
+animales.brass_sforzando(maker, 1)
 
 # strings
 
-animales.constellations(
-    maker,
-    [[1, -17], [1, -17], [1, -17]],
-    omit_contrabasses=True,
-    ) 
-
-maker(
-    baca.scope('ContrabassVoiceIII', (1, -1)),
-    animales.parts('Contrabass'),
-    baca.hairpin('< fff', left_broken=True, selector=baca.leaf(0)),
-    baca.make_repeat_tied_notes(),
-    baca.pitch('C#2'),
-    baca.repeat_tie_to(),
-    baca.single_segment_transition(
-        baca.markup.ord(),
-        baca.markup.ext_pont(),
-        ),
-    )
+animales.constellations(maker, [[1, -55], [1, -17], [1, -17]]) 

@@ -16,7 +16,7 @@
         \context Score = "Score"
         \with
         {
-            currentBarNumber = #30
+            currentBarNumber = #13
         }
         <<
             \context GlobalContext = "GlobalContext"
@@ -28,18 +28,6 @@
             >>
             \context MusicContext = "MusicContext"
             <<
-                \context StaffGroup = "WindStaffGroup"
-                <<
-                    \context Staff = "ClarinetStaffI"
-                    \B_ClarinetStaffI
-                >>
-                \context StaffGroup = "PercussionStaffGroup"
-                <<
-                    \context Staff = "PercussionStaffI"
-                    \B_PercussionStaffI
-                    \context Staff = "PercussionStaffII"
-                    \B_PercussionStaffII
-                >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
                     \context StaffGroup = "FirstViolinSquareStaffGroup"
@@ -77,8 +65,6 @@
                     >>
                     \context Staff = "CelloStaffI"
                     \B_CelloStaffI
-                    \context Staff = "ContrabassStaffII"
-                    \B_ContrabassStaffII
                 >>
             >>
         >>

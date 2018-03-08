@@ -2409,97 +2409,52 @@ Segment-maker runtime: 19 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-03-04 13:48:06
+2018-03-05 13:41:13
 Segment-maker runtime: 19 seconds
 Abjad format time: 0 seconds
-LilyPond runtime: 1 second
+LilyPond runtime: 2 seconds
 
-2018-03-04 13:50:47
+2018-03-05 13:47:51
 Segment-maker runtime: 20 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-03-04 13:58:53
-Segment-maker runtime: 19 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-05 13:59:34
+2018-03-05 13:56:39
 Segment-maker runtime: 20 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-03-05 14:00:48
-Segment-maker runtime: 21 seconds
+2018-03-05 14:59:36
+Segment-maker runtime: 16 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-03-05 14:02:48
-Segment-maker runtime: 23 seconds
+2018-03-06 09:50:20
+Segment-maker runtime: 16 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-03-05 14:05:15
-Segment-maker runtime: 25 seconds
+2018-03-06 15:14:06
+Segment-maker runtime: 18 seconds
 Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-07 10:28:21
+Segment-maker runtime: 16 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-07 11:21:45
+Segment-maker runtime: 26 seconds
+Abjad format time: 1 second
 LilyPond runtime: 2 seconds
 
-2018-03-05 14:08:51
-Segment-maker runtime: 27 seconds
+2018-03-07 15:49:17
+Segment-maker runtime: 16 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-03-05 14:11:31
-Segment-maker runtime: 27 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 2 seconds
-
-2018-03-05 14:13:32
-Segment-maker runtime: 32 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 2 seconds
-
-2018-03-05 14:22:14
-Segment-maker runtime: 34 seconds
+2018-03-08 13:46:57
+Segment-maker runtime: 18 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
-
-2018-03-05 14:23:55
-Segment-maker runtime: 45 seconds
-Abjad format time: 1 second
-LilyPond runtime: 3 seconds
-
-2018-03-05 14:26:31
-Segment-maker runtime: 53 seconds
-Abjad format time: 1 second
-LilyPond runtime: 3 seconds
-
-2018-03-05 15:03:12
-Segment-maker runtime: 44 seconds
-Abjad format time: 1 second
-LilyPond runtime: 3 seconds
-
-2018-03-06 09:44:26
-Segment-maker runtime: 45 seconds
-Abjad format time: 1 second
-LilyPond runtime: 3 seconds
-
-2018-03-06 15:16:07
-Segment-maker runtime: 48 seconds
-Abjad format time: 1 second
-LilyPond runtime: 3 seconds
-
-2018-03-07 10:30:23
-Segment-maker runtime: 52 seconds
-Abjad format time: 2 seconds
-LilyPond runtime: 4 seconds
-
-2018-03-07 11:24:25
-Segment-maker runtime: 68 seconds
-Abjad format time: 2 seconds
-LilyPond runtime: 4 seconds
-
-2018-03-07 15:51:17
-Segment-maker runtime: 46 seconds
-Abjad format time: 1 second
-LilyPond runtime: 3 seconds

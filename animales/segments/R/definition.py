@@ -11,7 +11,7 @@ from abjad import rhythmmakertools as rhythmos
 
 metadata = baca.previous_metadata(__file__)
 start = metadata.get('last_measure_number')
-assert start == 139
+assert start == 130
 
 time_signatures = animales.time_signatures[start: start + 3]
 maker = baca.SegmentMaker(
@@ -79,4 +79,4 @@ maker(
     baca.rehearsal_mark('R'),
     )
 
-animales.constellations(maker, [[1, 1, -5], [1, 1, -5], [1, -8]]) 
+animales.constellations(maker, [[1, -117, -117], [1, -118]], first=True)
