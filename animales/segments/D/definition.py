@@ -50,7 +50,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, -1)),
+    baca.scope('GlobalSkips', 1),
     baca.rehearsal_mark('D'),
     )
 
@@ -113,47 +113,16 @@ maker(
         ]),
     )
 
+animales.assign_trill_parts(maker, exclude_first_violin=True)
+animales.make_trill_rhythm(maker)
+
 maker(
-    baca.scope('FirstViolinVoiceI', (1, -1)),
-    animales.parts('FirstViolin', (2, 10)),
-    animales.sforzando_exchange_rhythm(0),
+    baca.scope('FirstViolinVoiceI', 1),
     baca.not_parts(baca.voice_two()),
     )
 
 maker(
-    baca.scope('FirstViolinVoiceIII', (1, -1)),
-    animales.parts('FirstViolin', (11, 18)),
-    animales.sforzando_exchange_rhythm(1),
-    )
-
-maker(
-    baca.scope('SecondViolinVoiceI', (1, -1)),
-    animales.parts('SecondViolin', (1, 10)),
-    animales.sforzando_exchange_rhythm(2),
-    )
-
-maker(
-    baca.scope('SecondViolinVoiceIII', (1, -1)),
-    animales.parts('SecondViolin', (11, 18)),
-    animales.sforzando_exchange_rhythm(3),
-    )
-
-maker(
-    baca.scope('ViolaVoiceI', (1, -1)),
-    animales.parts('Viola', (1, 10)),
-    animales.sforzando_exchange_rhythm(4),
-    )
-
-maker(
-    baca.scope('ViolaVoiceIII', (1, -1)),
-    animales.parts('Viola', (11, 18)),
-    animales.sforzando_exchange_rhythm(5),
-    )
-
-maker(
-    baca.scope('CelloVoiceI', (1, -1)),
-    animales.parts('Cello'),
-    animales.sforzando_exchange_rhythm(6),
+    baca.scope('CelloVoiceI', 1),
     baca.clef('bass'),
     )
 

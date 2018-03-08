@@ -3,7 +3,7 @@ import animales
 import baca
 
 
-def make_trill_rhythm(maker):
+def make_trill_rhythm(maker, measures=(1, -1)):
     r'''Makes trill rhythm.
     '''
 
@@ -19,6 +19,6 @@ def make_trill_rhythm(maker):
 
     for voice, part in voice_to_part.items():
         maker(
-            baca.scope(voice, (1, -1)),
+            baca.scope(voice, measures),
             animales.sforzando_exchange_rhythm(part),
             )
