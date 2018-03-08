@@ -1521,7 +1521,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('segment_name', 'P'),
-        ('segment_number', 18),
+        ('segment_number', 17),
         (
             'sounds_during_segment',
             abjad.OrderedDict(
@@ -1561,8 +1561,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "3'33''"),
-        ('stop_clock_time', "3'50''"),
+        ('start_clock_time', "3'34''"),
+        ('stop_clock_time', "3'51''"),
         (
             'time_signatures',
             [

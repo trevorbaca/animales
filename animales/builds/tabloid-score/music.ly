@@ -20,8 +20,7 @@
 \include "_segments/segment-L.ily"
 \include "_segments/segment-M.ily"
 \include "_segments/segment-N.ily"
-\include "_segments/segment-O1.ily"
-\include "_segments/segment-O2.ily"
+\include "_segments/segment-O.ily"
 \include "_segments/segment-P.ily"
 \include "_segments/segment-Q.ily"
 \include "_segments/segment-R.ily"
@@ -65,8 +64,7 @@
                     \L_GlobalRests
                     \M_GlobalRests
                     \N_GlobalRests
-                    \O_a_GlobalRests
-                    \O_b_GlobalRests
+                    \O_GlobalRests
                     \P_GlobalRests
                     \Q_GlobalRests
                     \R_GlobalRests
@@ -99,8 +97,7 @@
                     \L_GlobalSkips
                     \M_GlobalSkips
                     \N_GlobalSkips
-                    \O_a_GlobalSkips
-                    \O_b_GlobalSkips
+                    \O_GlobalSkips
                     \P_GlobalSkips
                     \Q_GlobalSkips
                     \R_GlobalSkips
@@ -186,9 +183,7 @@
                                 \context Staff = "FluteStaffI"
                                 \N_FluteStaffI
                                 \context Staff = "FluteStaffI"
-                                \O_a_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \O_b_GlobalRests
+                                \O_GlobalRests
                                 \context Staff = "FluteStaffI"
                                 \P_GlobalRests
                                 \context Staff = "FluteStaffI"
@@ -264,9 +259,7 @@
                                 \context Staff = "FluteStaffII"
                                 \N_FluteStaffII
                                 \context Staff = "FluteStaffII"
-                                \O_a_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \O_b_GlobalRests
+                                \O_GlobalRests
                                 \context Staff = "FluteStaffII"
                                 \P_GlobalRests
                                 \context Staff = "FluteStaffII"
@@ -352,9 +345,7 @@
                                 \context Staff = "OboeStaffI"
                                 \N_GlobalRests
                                 \context Staff = "OboeStaffI"
-                                \O_a_OboeStaffI
-                                \context Staff = "OboeStaffI"
-                                \O_b_GlobalRests
+                                \O_OboeStaffI
                                 \context Staff = "OboeStaffI"
                                 \P_OboeStaffI
                                 \context Staff = "OboeStaffI"
@@ -433,9 +424,7 @@
                                 \context Staff = "EnglishHornStaffI"
                                 \N_GlobalRests
                                 \context Staff = "EnglishHornStaffI"
-                                \O_a_EnglishHornStaffI
-                                \context Staff = "EnglishHornStaffI"
-                                \O_b_GlobalRests
+                                \O_EnglishHornStaffI
                                 \context Staff = "EnglishHornStaffI"
                                 \P_EnglishHornStaffI
                                 \context Staff = "EnglishHornStaffI"
@@ -525,9 +514,7 @@
                                 \context Staff = "ClarinetStaffI"
                                 \N_GlobalRests
                                 \context Staff = "ClarinetStaffI"
-                                \O_a_GlobalRests
-                                \context Staff = "ClarinetStaffI"
-                                \O_b_GlobalRests
+                                \O_GlobalRests
                                 \context Staff = "ClarinetStaffI"
                                 \P_GlobalRests
                                 \context Staff = "ClarinetStaffI"
@@ -606,9 +593,7 @@
                                 \context Staff = "BassClarinetStaffI"
                                 \N_BassClarinetStaffI
                                 \context Staff = "BassClarinetStaffI"
-                                \O_a_GlobalRests
-                                \context Staff = "BassClarinetStaffI"
-                                \O_b_GlobalRests
+                                \O_GlobalRests
                                 \context Staff = "BassClarinetStaffI"
                                 \P_GlobalRests
                                 \context Staff = "BassClarinetStaffI"
@@ -688,9 +673,7 @@
                             \context Staff = "BassoonStaffI"
                             \N_GlobalRests
                             \context Staff = "BassoonStaffI"
-                            \O_a_BassoonStaffI
-                            \context Staff = "BassoonStaffI"
-                            \O_b_GlobalRests
+                            \O_BassoonStaffI
                             \context Staff = "BassoonStaffI"
                             \P_BassoonStaffI
                             \context Staff = "BassoonStaffI"
@@ -776,9 +759,7 @@
                             \context Staff = "HornStaffI"
                             \N_GlobalRests
                             \context Staff = "HornStaffI"
-                            \O_a_GlobalRests
-                            \context Staff = "HornStaffI"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "HornStaffI"
                             \P_HornStaffI
                             \context Staff = "HornStaffI"
@@ -854,9 +835,7 @@
                             \context Staff = "HornStaffII"
                             \N_GlobalRests
                             \context Staff = "HornStaffII"
-                            \O_a_GlobalRests
-                            \context Staff = "HornStaffII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "HornStaffII"
                             \P_HornStaffII
                             \context Staff = "HornStaffII"
@@ -939,9 +918,7 @@
                             \context Staff = "TrumpetStaffI"
                             \N_GlobalRests
                             \context Staff = "TrumpetStaffI"
-                            \O_a_GlobalRests
-                            \context Staff = "TrumpetStaffI"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "TrumpetStaffI"
                             \P_TrumpetStaffI
                             \context Staff = "TrumpetStaffI"
@@ -1017,9 +994,7 @@
                             \context Staff = "TrumpetStaffII"
                             \N_GlobalRests
                             \context Staff = "TrumpetStaffII"
-                            \O_a_GlobalRests
-                            \context Staff = "TrumpetStaffII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "TrumpetStaffII"
                             \P_TrumpetStaffII
                             \context Staff = "TrumpetStaffII"
@@ -1102,9 +1077,7 @@
                             \context Staff = "TromboneStaffI"
                             \N_GlobalRests
                             \context Staff = "TromboneStaffI"
-                            \O_a_GlobalRests
-                            \context Staff = "TromboneStaffI"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "TromboneStaffI"
                             \P_TromboneStaffI
                             \context Staff = "TromboneStaffI"
@@ -1180,9 +1153,7 @@
                             \context Staff = "TromboneStaffII"
                             \N_GlobalRests
                             \context Staff = "TromboneStaffII"
-                            \O_a_GlobalRests
-                            \context Staff = "TromboneStaffII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "TromboneStaffII"
                             \P_TromboneStaffII
                             \context Staff = "TromboneStaffII"
@@ -1261,9 +1232,7 @@
                             \context Staff = "TubaStaffI"
                             \N_GlobalRests
                             \context Staff = "TubaStaffI"
-                            \O_a_GlobalRests
-                            \context Staff = "TubaStaffI"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "TubaStaffI"
                             \P_GlobalRests
                             \context Staff = "TubaStaffI"
@@ -1339,9 +1308,7 @@
                         \context Staff = "PianoStaffI"
                         \N_PianoStaffI
                         \context Staff = "PianoStaffI"
-                        \O_a_GlobalRests
-                        \context Staff = "PianoStaffI"
-                        \O_b_GlobalRests
+                        \O_GlobalRests
                         \context Staff = "PianoStaffI"
                         \P_GlobalRests
                         \context Staff = "PianoStaffI"
@@ -1416,9 +1383,7 @@
                         \context Staff = "HarpStaffI"
                         \N_HarpStaffI
                         \context Staff = "HarpStaffI"
-                        \O_a_GlobalRests
-                        \context Staff = "HarpStaffI"
-                        \O_b_GlobalRests
+                        \O_GlobalRests
                         \context Staff = "HarpStaffI"
                         \P_GlobalRests
                         \context Staff = "HarpStaffI"
@@ -1498,9 +1463,7 @@
                         \context Staff = "PercussionStaffI"
                         \N_PercussionStaffI
                         \context Staff = "PercussionStaffI"
-                        \O_a_GlobalRests
-                        \context Staff = "PercussionStaffI"
-                        \O_b_GlobalRests
+                        \O_GlobalRests
                         \context Staff = "PercussionStaffI"
                         \P_GlobalRests
                         \context Staff = "PercussionStaffI"
@@ -1577,9 +1540,7 @@
                         \context Staff = "PercussionStaffII"
                         \N_PercussionStaffII
                         \context Staff = "PercussionStaffII"
-                        \O_a_GlobalRests
-                        \context Staff = "PercussionStaffII"
-                        \O_b_GlobalRests
+                        \O_GlobalRests
                         \context Staff = "PercussionStaffII"
                         \P_GlobalRests
                         \context Staff = "PercussionStaffII"
@@ -1656,9 +1617,7 @@
                         \context Staff = "PercussionStaffIII"
                         \N_PercussionStaffIII
                         \context Staff = "PercussionStaffIII"
-                        \O_a_GlobalRests
-                        \context Staff = "PercussionStaffIII"
-                        \O_b_GlobalRests
+                        \O_GlobalRests
                         \context Staff = "PercussionStaffIII"
                         \P_GlobalRests
                         \context Staff = "PercussionStaffIII"
@@ -1735,9 +1694,7 @@
                         \context Staff = "PercussionStaffIV"
                         \N_GlobalRests
                         \context Staff = "PercussionStaffIV"
-                        \O_a_GlobalRests
-                        \context Staff = "PercussionStaffIV"
-                        \O_b_GlobalRests
+                        \O_GlobalRests
                         \context Staff = "PercussionStaffIV"
                         \P_GlobalRests
                         \context Staff = "PercussionStaffIV"
@@ -1809,9 +1766,7 @@
                             \context Staff = "FirstViolinStaffI"
                             \N_FirstViolinStaffI
                             \context Staff = "FirstViolinStaffI"
-                            \O_a_FirstViolinStaffI
-                            \context Staff = "FirstViolinStaffI"
-                            \O_b_GlobalRests
+                            \O_FirstViolinStaffI
                             \context Staff = "FirstViolinStaffI"
                             \P_FirstViolinStaffI
                             \context Staff = "FirstViolinStaffI"
@@ -1874,9 +1829,7 @@
                             \context Staff = "FirstViolinStaffII"
                             \N_GlobalRests
                             \context Staff = "FirstViolinStaffII"
-                            \O_a_FirstViolinStaffII
-                            \context Staff = "FirstViolinStaffII"
-                            \O_b_GlobalRests
+                            \O_FirstViolinStaffII
                             \context Staff = "FirstViolinStaffII"
                             \P_FirstViolinStaffII
                             \context Staff = "FirstViolinStaffII"
@@ -1952,9 +1905,7 @@
                             \context Staff = "FirstViolinStaffIII"
                             \N_GlobalRests
                             \context Staff = "FirstViolinStaffIII"
-                            \O_a_FirstViolinStaffIII
-                            \context Staff = "FirstViolinStaffIII"
-                            \O_b_FirstViolinStaffIII
+                            \O_FirstViolinStaffIII
                             \context Staff = "FirstViolinStaffIII"
                             \P_FirstViolinStaffIII
                             \context Staff = "FirstViolinStaffIII"
@@ -2030,9 +1981,7 @@
                             \context Staff = "FirstViolinStaffIV"
                             \N_GlobalRests
                             \context Staff = "FirstViolinStaffIV"
-                            \O_a_GlobalRests
-                            \context Staff = "FirstViolinStaffIV"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "FirstViolinStaffIV"
                             \P_GlobalRests
                             \context Staff = "FirstViolinStaffIV"
@@ -2108,9 +2057,7 @@
                             \context Staff = "FirstViolinStaffV"
                             \N_GlobalRests
                             \context Staff = "FirstViolinStaffV"
-                            \O_a_GlobalRests
-                            \context Staff = "FirstViolinStaffV"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "FirstViolinStaffV"
                             \P_GlobalRests
                             \context Staff = "FirstViolinStaffV"
@@ -2186,9 +2133,7 @@
                             \context Staff = "FirstViolinStaffVI"
                             \N_GlobalRests
                             \context Staff = "FirstViolinStaffVI"
-                            \O_a_GlobalRests
-                            \context Staff = "FirstViolinStaffVI"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "FirstViolinStaffVI"
                             \P_GlobalRests
                             \context Staff = "FirstViolinStaffVI"
@@ -2264,9 +2209,7 @@
                             \context Staff = "FirstViolinStaffVII"
                             \N_GlobalRests
                             \context Staff = "FirstViolinStaffVII"
-                            \O_a_GlobalRests
-                            \context Staff = "FirstViolinStaffVII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "FirstViolinStaffVII"
                             \P_GlobalRests
                             \context Staff = "FirstViolinStaffVII"
@@ -2342,9 +2285,7 @@
                             \context Staff = "FirstViolinStaffVIII"
                             \N_GlobalRests
                             \context Staff = "FirstViolinStaffVIII"
-                            \O_a_GlobalRests
-                            \context Staff = "FirstViolinStaffVIII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "FirstViolinStaffVIII"
                             \P_GlobalRests
                             \context Staff = "FirstViolinStaffVIII"
@@ -2420,9 +2361,7 @@
                             \context Staff = "FirstViolinStaffIX"
                             \N_GlobalRests
                             \context Staff = "FirstViolinStaffIX"
-                            \O_a_GlobalRests
-                            \context Staff = "FirstViolinStaffIX"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "FirstViolinStaffIX"
                             \P_GlobalRests
                             \context Staff = "FirstViolinStaffIX"
@@ -2492,9 +2431,7 @@
                             \context Staff = "SecondViolinStaffI"
                             \N_SecondViolinStaffI
                             \context Staff = "SecondViolinStaffI"
-                            \O_a_SecondViolinStaffI
-                            \context Staff = "SecondViolinStaffI"
-                            \O_b_GlobalRests
+                            \O_SecondViolinStaffI
                             \context Staff = "SecondViolinStaffI"
                             \P_SecondViolinStaffI
                             \context Staff = "SecondViolinStaffI"
@@ -2557,9 +2494,7 @@
                             \context Staff = "SecondViolinStaffII"
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffII"
-                            \O_a_SecondViolinStaffII
-                            \context Staff = "SecondViolinStaffII"
-                            \O_b_GlobalRests
+                            \O_SecondViolinStaffII
                             \context Staff = "SecondViolinStaffII"
                             \P_SecondViolinStaffII
                             \context Staff = "SecondViolinStaffII"
@@ -2635,9 +2570,7 @@
                             \context Staff = "SecondViolinStaffIII"
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffIII"
-                            \O_a_GlobalRests
-                            \context Staff = "SecondViolinStaffIII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "SecondViolinStaffIII"
                             \P_GlobalRests
                             \context Staff = "SecondViolinStaffIII"
@@ -2713,9 +2646,7 @@
                             \context Staff = "SecondViolinStaffIV"
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffIV"
-                            \O_a_GlobalRests
-                            \context Staff = "SecondViolinStaffIV"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "SecondViolinStaffIV"
                             \P_GlobalRests
                             \context Staff = "SecondViolinStaffIV"
@@ -2791,9 +2722,7 @@
                             \context Staff = "SecondViolinStaffV"
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffV"
-                            \O_a_GlobalRests
-                            \context Staff = "SecondViolinStaffV"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "SecondViolinStaffV"
                             \P_GlobalRests
                             \context Staff = "SecondViolinStaffV"
@@ -2869,9 +2798,7 @@
                             \context Staff = "SecondViolinStaffVI"
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffVI"
-                            \O_a_GlobalRests
-                            \context Staff = "SecondViolinStaffVI"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "SecondViolinStaffVI"
                             \P_GlobalRests
                             \context Staff = "SecondViolinStaffVI"
@@ -2947,9 +2874,7 @@
                             \context Staff = "SecondViolinStaffVII"
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffVII"
-                            \O_a_GlobalRests
-                            \context Staff = "SecondViolinStaffVII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "SecondViolinStaffVII"
                             \P_GlobalRests
                             \context Staff = "SecondViolinStaffVII"
@@ -3025,9 +2950,7 @@
                             \context Staff = "SecondViolinStaffVIII"
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffVIII"
-                            \O_a_GlobalRests
-                            \context Staff = "SecondViolinStaffVIII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "SecondViolinStaffVIII"
                             \P_GlobalRests
                             \context Staff = "SecondViolinStaffVIII"
@@ -3103,9 +3026,7 @@
                             \context Staff = "SecondViolinStaffIX"
                             \N_GlobalRests
                             \context Staff = "SecondViolinStaffIX"
-                            \O_a_GlobalRests
-                            \context Staff = "SecondViolinStaffIX"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "SecondViolinStaffIX"
                             \P_GlobalRests
                             \context Staff = "SecondViolinStaffIX"
@@ -3175,9 +3096,7 @@
                             \context Staff = "ViolaStaffI"
                             \N_ViolaStaffI
                             \context Staff = "ViolaStaffI"
-                            \O_a_ViolaStaffI
-                            \context Staff = "ViolaStaffI"
-                            \O_b_GlobalRests
+                            \O_ViolaStaffI
                             \context Staff = "ViolaStaffI"
                             \P_ViolaStaffI
                             \context Staff = "ViolaStaffI"
@@ -3240,9 +3159,7 @@
                             \context Staff = "ViolaStaffII"
                             \N_GlobalRests
                             \context Staff = "ViolaStaffII"
-                            \O_a_ViolaStaffII
-                            \context Staff = "ViolaStaffII"
-                            \O_b_GlobalRests
+                            \O_ViolaStaffII
                             \context Staff = "ViolaStaffII"
                             \P_ViolaStaffII
                             \context Staff = "ViolaStaffII"
@@ -3318,9 +3235,7 @@
                             \context Staff = "ViolaStaffIII"
                             \N_GlobalRests
                             \context Staff = "ViolaStaffIII"
-                            \O_a_GlobalRests
-                            \context Staff = "ViolaStaffIII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "ViolaStaffIII"
                             \P_GlobalRests
                             \context Staff = "ViolaStaffIII"
@@ -3396,9 +3311,7 @@
                             \context Staff = "ViolaStaffIV"
                             \N_GlobalRests
                             \context Staff = "ViolaStaffIV"
-                            \O_a_GlobalRests
-                            \context Staff = "ViolaStaffIV"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "ViolaStaffIV"
                             \P_GlobalRests
                             \context Staff = "ViolaStaffIV"
@@ -3474,9 +3387,7 @@
                             \context Staff = "ViolaStaffV"
                             \N_GlobalRests
                             \context Staff = "ViolaStaffV"
-                            \O_a_GlobalRests
-                            \context Staff = "ViolaStaffV"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "ViolaStaffV"
                             \P_GlobalRests
                             \context Staff = "ViolaStaffV"
@@ -3552,9 +3463,7 @@
                             \context Staff = "ViolaStaffVI"
                             \N_GlobalRests
                             \context Staff = "ViolaStaffVI"
-                            \O_a_GlobalRests
-                            \context Staff = "ViolaStaffVI"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "ViolaStaffVI"
                             \P_GlobalRests
                             \context Staff = "ViolaStaffVI"
@@ -3630,9 +3539,7 @@
                             \context Staff = "ViolaStaffVII"
                             \N_GlobalRests
                             \context Staff = "ViolaStaffVII"
-                            \O_a_GlobalRests
-                            \context Staff = "ViolaStaffVII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "ViolaStaffVII"
                             \P_GlobalRests
                             \context Staff = "ViolaStaffVII"
@@ -3708,9 +3615,7 @@
                             \context Staff = "ViolaStaffVIII"
                             \N_GlobalRests
                             \context Staff = "ViolaStaffVIII"
-                            \O_a_GlobalRests
-                            \context Staff = "ViolaStaffVIII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "ViolaStaffVIII"
                             \P_GlobalRests
                             \context Staff = "ViolaStaffVIII"
@@ -3786,9 +3691,7 @@
                             \context Staff = "ViolaStaffIX"
                             \N_GlobalRests
                             \context Staff = "ViolaStaffIX"
-                            \O_a_GlobalRests
-                            \context Staff = "ViolaStaffIX"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "ViolaStaffIX"
                             \P_GlobalRests
                             \context Staff = "ViolaStaffIX"
@@ -3858,9 +3761,7 @@
                             \context Staff = "CelloStaffI"
                             \N_CelloStaffI
                             \context Staff = "CelloStaffI"
-                            \O_a_CelloStaffI
-                            \context Staff = "CelloStaffI"
-                            \O_b_GlobalRests
+                            \O_CelloStaffI
                             \context Staff = "CelloStaffI"
                             \P_CelloStaffI
                             \context Staff = "CelloStaffI"
@@ -3936,9 +3837,7 @@
                             \context Staff = "CelloStaffII"
                             \N_GlobalRests
                             \context Staff = "CelloStaffII"
-                            \O_a_GlobalRests
-                            \context Staff = "CelloStaffII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "CelloStaffII"
                             \P_GlobalRests
                             \context Staff = "CelloStaffII"
@@ -4014,9 +3913,7 @@
                             \context Staff = "CelloStaffIII"
                             \N_GlobalRests
                             \context Staff = "CelloStaffIII"
-                            \O_a_GlobalRests
-                            \context Staff = "CelloStaffIII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "CelloStaffIII"
                             \P_GlobalRests
                             \context Staff = "CelloStaffIII"
@@ -4092,9 +3989,7 @@
                             \context Staff = "CelloStaffIV"
                             \N_GlobalRests
                             \context Staff = "CelloStaffIV"
-                            \O_a_GlobalRests
-                            \context Staff = "CelloStaffIV"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "CelloStaffIV"
                             \P_GlobalRests
                             \context Staff = "CelloStaffIV"
@@ -4170,9 +4065,7 @@
                             \context Staff = "CelloStaffV"
                             \N_GlobalRests
                             \context Staff = "CelloStaffV"
-                            \O_a_GlobalRests
-                            \context Staff = "CelloStaffV"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "CelloStaffV"
                             \P_GlobalRests
                             \context Staff = "CelloStaffV"
@@ -4248,9 +4141,7 @@
                             \context Staff = "CelloStaffVI"
                             \N_GlobalRests
                             \context Staff = "CelloStaffVI"
-                            \O_a_GlobalRests
-                            \context Staff = "CelloStaffVI"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "CelloStaffVI"
                             \P_GlobalRests
                             \context Staff = "CelloStaffVI"
@@ -4326,9 +4217,7 @@
                             \context Staff = "CelloStaffVII"
                             \N_GlobalRests
                             \context Staff = "CelloStaffVII"
-                            \O_a_GlobalRests
-                            \context Staff = "CelloStaffVII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "CelloStaffVII"
                             \P_GlobalRests
                             \context Staff = "CelloStaffVII"
@@ -4411,9 +4300,7 @@
                             \context Staff = "ContrabassStaffI"
                             \N_ContrabassStaffI
                             \context Staff = "ContrabassStaffI"
-                            \O_a_GlobalRests
-                            \context Staff = "ContrabassStaffI"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "ContrabassStaffI"
                             \P_GlobalRests
                             \context Staff = "ContrabassStaffI"
@@ -4485,9 +4372,7 @@
                             \context Staff = "ContrabassStaffII"
                             \N_ContrabassStaffII
                             \context Staff = "ContrabassStaffII"
-                            \O_a_ContrabassStaffII
-                            \context Staff = "ContrabassStaffII"
-                            \O_b_GlobalRests
+                            \O_ContrabassStaffII
                             \context Staff = "ContrabassStaffII"
                             \P_ContrabassStaffII
                             \context Staff = "ContrabassStaffII"
@@ -4563,9 +4448,7 @@
                             \context Staff = "ContrabassStaffIII"
                             \N_GlobalRests
                             \context Staff = "ContrabassStaffIII"
-                            \O_a_GlobalRests
-                            \context Staff = "ContrabassStaffIII"
-                            \O_b_GlobalRests
+                            \O_GlobalRests
                             \context Staff = "ContrabassStaffIII"
                             \P_GlobalRests
                             \context Staff = "ContrabassStaffIII"
