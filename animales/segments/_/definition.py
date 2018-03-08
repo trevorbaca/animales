@@ -5,7 +5,7 @@ from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
-#################################### [_] #####################################
+##################################### [_] #####################################
 ###############################################################################
 
 maker = baca.SegmentMaker(
@@ -40,64 +40,80 @@ maker(
     baca.metronome_mark('114'),
     )
 
+# start markup
+
+voice_to_start_markup = {
+    'FirstViolinVoiceI': [
+        animales.margin_markup('Vni. I (1-10)'),
+        baca.start_markup(['Violins I', '(1-10)'], hcenter_in=16),
+        ],
+    'FirstViolinVoiceIII': [
+        animales.margin_markup('Vni. I (11-18)'),
+        baca.start_markup(['Violins I', '(11-18)'], hcenter_in=16),
+        ],
+    'SecondViolinVoiceI': [
+        animales.margin_markup('Vni. II (1-10)'),
+        baca.start_markup(['Violins II', '(1-10)'], hcenter_in=16),
+        ],
+    'SecondViolinVoiceIII': [
+        animales.margin_markup('Vni. II (11-18)'),
+        baca.start_markup(['Violins II', '(11-18)'], hcenter_in=16),
+        ],
+    'ViolaVoiceI': [
+        animales.margin_markup('Vle. (1-10)'),
+        baca.start_markup(['Violas', '(1-10)'], hcenter_in=16),
+        ],
+    'ViolaVoiceIII': [
+        animales.margin_markup('Vle. (11-18)'),
+        baca.start_markup(['Violas', '(11-18)'], hcenter_in=16),
+        ],
+    'CelloVoiceI': [
+        baca.start_markup('Cellos', hcenter_in=16),
+        ],
+    }
+
+for voice, commands in voice_to_start_markup.items():
+    maker(
+        baca.scope(voice, 1),
+        *commands,
+        )
+
+# strings
+
 maker(
     baca.scope('FirstViolinVoiceI', (1, -1)),
     animales.parts('FirstViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(0),
-    baca.suite([
-        animales.margin_markup('Vni. I (1-10)'),
-        baca.start_markup(['Violins I', '(1-10)'], hcenter_in=16),
-        ]),
     )
 
 maker(
     baca.scope('FirstViolinVoiceIII', (1, -1)),
     animales.parts('FirstViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(1),
-    baca.suite([
-        animales.margin_markup('Vni. I (11-18)'),
-        baca.start_markup(['Violins I', '(11-18)'], hcenter_in=16),
-        ]),
     )
 
 maker(
     baca.scope('SecondViolinVoiceI', (1, -1)),
     animales.parts('SecondViolin', (1, 10)),
     animales.sforzando_exchange_rhythm(2),
-    baca.suite([
-        animales.margin_markup('Vni. II (1-10)'),
-        baca.start_markup(['Violins II', '(1-10)'], hcenter_in=16),
-        ]),
     )
 
 maker(
     baca.scope('SecondViolinVoiceIII', (1, -1)),
     animales.parts('SecondViolin', (11, 18)),
     animales.sforzando_exchange_rhythm(3),
-    baca.suite([
-        animales.margin_markup('Vni. II (11-18)'),
-        baca.start_markup(['Violins II', '(11-18)'], hcenter_in=16),
-        ]),
     )
 
 maker(
     baca.scope('ViolaVoiceI', (1, -1)),
     animales.parts('Viola', (1, 10)),
     animales.sforzando_exchange_rhythm(4),
-    baca.suite([
-        animales.margin_markup('Vle. (1-10)'),
-        baca.start_markup(['Violas', '(1-10)'], hcenter_in=16),
-        ]),
     )
 
 maker(
     baca.scope('ViolaVoiceIII', (1, -1)),
     animales.parts('Viola', (11, 18)),
     animales.sforzando_exchange_rhythm(5),
-    baca.suite([
-        animales.margin_markup('Vle. (11-18)'),
-        baca.start_markup(['Violas', '(11-18)'], hcenter_in=16),
-        ]),
     )
 
 maker(
@@ -105,7 +121,6 @@ maker(
     animales.parts('Cello'),
     animales.sforzando_exchange_rhythm(6),
     baca.clef('tenor'),
-    baca.start_markup('Cellos', hcenter_in=16),
     )
 
 strings = [
