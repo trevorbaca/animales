@@ -1,6 +1,7 @@
 import abjad
 import animales
 import baca
+import roman
 from abjad import rhythmmakertools as rhythmos
 
 
@@ -9,24 +10,35 @@ from abjad import rhythmmakertools as rhythmos
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
-start = 136
+start = 133
 
-metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (4, abjad.Fermata()),
-    ])
-
-time_signatures = animales.time_signatures[start:start + 3] + ((1, 4),)
-
+time_signatures = animales.time_signatures[start: start + 3]
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
     measures_per_stage=True,
-    metronome_mark_measure_map=metronome_mark_measure_map,
     metronome_marks=animales.metronome_marks,
     print_timings=True,
     score_template=animales.ScoreTemplate(
-        percussion=[
+        horns=[
+            (1, [1, 3]),
+            (2, [2, 4]),
+            ],
+        trumpets=[
+            (1, [1, 3]),
+            (2, [2, 4]),
+            ],
+        trombones=[
+            (1, [1, 3]),
+            (2, [2, 4]),
+            ],
+        tuba=[
             (1, [1]),
+            ],
+        percussion=[
+            (2, [2]),
+            (3, [3]),
+            (4, [4]),
             ],
         first_violins=[
             (1, [1, 2]),
@@ -70,10 +82,13 @@ maker = baca.SegmentMaker(
             (6, [11, 12]),
             (7, [13, 14]),
             ],
+        contrabasses=[
+            (2, [3]),
+            ],
         ),
     time_signatures=time_signatures,
     transpose_score=True,
-    validate_measure_count=4,
+    validate_measure_count=3,
     )
 
 maker(
@@ -81,13 +96,42 @@ maker(
     baca.rehearsal_mark('Y'),
     )
 
+# brass
+
+animales.assign_brass_sforzando_parts(maker)
+animales.brass_sforzando(maker, 1)
+
 # percussion
 
-# triangle
+# cymbal
 
 maker(
-    baca.scope('PercussionVoiceI', (1, 3)),
-    animales.parts('Percussion', 1),
+    baca.scope('PercussionVoiceII', (1, -1)),
+    animales.parts('Percussion', 2),
+    baca.make_repeat_tied_notes(),
+    baca.repeat_tie_to(),
+    baca.staff_position(0),
+    baca.repeat_ties_up(),
+    baca.stem_tremolo(),
+    )
+
+# bass drum
+
+maker(
+    baca.scope('PercussionVoiceIII', (1, -1)),
+    animales.parts('Percussion', 3),
+    baca.make_repeat_tied_notes(),
+    baca.staff_position(0),
+    baca.repeat_tie_to(),
+    baca.repeat_ties_up(),
+    baca.stem_tremolo(),
+    )
+    
+# tam-tam
+
+maker(
+    baca.scope('PercussionVoiceIV', (1, -1)),
+    animales.parts('Percussion', 4),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie_to(),
@@ -99,7 +143,17 @@ maker(
 
 animales.constellations(
     maker,
-    [[1, -17], [1, -17], [1, -17]],
+    [[1, -55], [1, -17], [1, -17]],
     omit_contrabasses=True,
-    range_=(1, 3),
     ) 
+
+maker(
+    baca.scope('ContrabassVoiceIII', (1, -1)),
+    animales.parts('Contrabass'),
+    baca.clef('bass'),
+    baca.hairpin('p <', right_broken=True),
+    baca.make_repeat_tied_notes(),
+    baca.markup.arco(),
+    baca.pitch('C#2'),
+    baca.staff_lines(5),
+    )

@@ -1,1135 +1,1975 @@
 
-2018-02-13 13:36:16
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
+2017-12-13 12:07:15
+Segment-maker runtime: 23 seconds
+Abjad format time: 1 second
+LilyPond runtime: 6 seconds
 
-2018-02-13 13:37:07
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 13:42:31
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 16:18:09
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 16:25:58
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 16:26:58
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 16:35:21
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 17:10:53
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 17:15:36
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 17:18:56
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 17:23:20
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 17:25:41
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 17:26:11
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 17:27:20
+2017-12-13 12:34:29
 Segment-maker runtime: 12 seconds
 Abjad format time: 0 seconds
-LilyPond runtime: 1 second
+LilyPond runtime: 3 seconds
 
-2018-02-13 17:28:04
+2017-12-13 12:39:21
 Segment-maker runtime: 12 seconds
 Abjad format time: 0 seconds
-LilyPond runtime: 1 second
+LilyPond runtime: 3 seconds
 
-2018-02-13 17:31:35
-Segment-maker runtime: 9 seconds
+2017-12-14 11:48:05
+Segment-maker runtime: 13 seconds
 Abjad format time: 0 seconds
-LilyPond runtime: 1 second
+LilyPond runtime: 3 seconds
 
-2018-02-13 17:33:52
-Segment-maker runtime: 11 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 17:36:49
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 17:39:03
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 17:45:11
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 17:52:16
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 17:57:09
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 17:59:14
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 18:31:54
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 0 seconds
-
-2018-02-13 18:33:17
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 18:40:08
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 18:42:40
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 18:49:59
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 18:51:04
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:03:52
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:06:59
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:07:22
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:09:02
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:11:00
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:13:50
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:15:10
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:19:58
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:23:12
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:26:08
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:30:04
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:40:24
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:42:16
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:48:54
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:53:43
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 19:58:09
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:00:26
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:00:54
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:01:34
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:11:11
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:12:34
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:14:16
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:14:38
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:17:48
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:18:23
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:19:19
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:20:40
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:22:16
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:23:36
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:29:07
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:30:14
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:33:35
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:35:30
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:38:17
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:38:51
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:45:27
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:46:42
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:48:20
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:49:35
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-13 20:59:13
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 11:11:13
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 11:49:22
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 12:31:46
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 12:35:26
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 12:37:44
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 12:39:38
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 0 seconds
-
-2018-02-14 12:40:43
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 12:46:41
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 13:08:07
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 13:18:11
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 13:19:18
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 13:23:39
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 13:25:35
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 0 seconds
-
-2018-02-14 13:26:57
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 0 seconds
-
-2018-02-14 13:27:57
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 13:28:45
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 13:30:15
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 13:34:13
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 13:37:41
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 13:41:56
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 13:45:32
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 13:46:15
-Segment-maker runtime: 11 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 13:47:29
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 13:55:35
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 14:05:58
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 14:07:02
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 14:13:52
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 14:21:01
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 14:21:57
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 14:23:52
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 14:45:06
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 15:01:04
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 15:09:59
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 15:11:02
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 15:34:34
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-14 16:23:49
-Segment-maker runtime: 15 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-15 09:43:19
-Segment-maker runtime: 16 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-15 13:26:04
-Segment-maker runtime: 11 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-15 15:27:39
-Segment-maker runtime: 10 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-15 16:10:01
-Segment-maker runtime: 12 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-15 17:31:34
-Segment-maker runtime: 11 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-15 17:54:52
-Segment-maker runtime: 12 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-15 20:21:56
-Segment-maker runtime: 11 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-15 20:41:13
+2017-12-14 18:25:18
 Segment-maker runtime: 16 seconds
 Abjad format time: 1 second
-LilyPond runtime: 1 second
+LilyPond runtime: 4 seconds
 
-2018-02-16 10:17:19
-Segment-maker runtime: 15 seconds
+2017-12-14 18:51:59
+Segment-maker runtime: 12 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 3 seconds
+
+2017-12-14 18:54:39
+Segment-maker runtime: 10 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 2 seconds
+
+2017-12-14 18:55:37
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-16 11:07:31
+2017-12-14 18:58:50
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-14 19:02:10
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-14 19:04:23
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-14 19:05:43
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-14 19:10:09
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-14 19:11:11
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-14 19:17:43
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-14 19:19:02
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-14 19:20:54
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-14 19:22:44
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-14 19:23:53
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-14 19:25:32
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-14 19:26:18
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-14 19:26:36
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-14 19:27:07
+Segment-maker runtime: 7 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 2 seconds
+
+2017-12-14 19:28:44
+Segment-maker runtime: 7 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 2 seconds
+
+2017-12-14 19:29:39
+Segment-maker runtime: 12 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 3 seconds
+
+2017-12-14 19:30:06
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-14 19:31:19
+Segment-maker runtime: 12 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 3 seconds
+
+2017-12-15 11:24:18
 Segment-maker runtime: 11 seconds
 Abjad format time: 0 seconds
-LilyPond runtime: 1 second
+LilyPond runtime: 3 seconds
 
-2018-02-16 11:32:50
-Segment-maker runtime: 8 seconds
+2017-12-15 12:07:46
+Segment-maker runtime: 11 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 3 seconds
+
+2017-12-15 12:18:50
+Segment-maker runtime: 11 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 3 seconds
+
+2017-12-15 12:19:16
+Segment-maker runtime: 11 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 3 seconds
+
+2017-12-15 12:23:15
+Segment-maker runtime: 15 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 3 seconds
+
+2017-12-15 15:15:04
+Segment-maker runtime: 0 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-15 15:16:09
+Segment-maker runtime: 0 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-15 15:17:23
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-15 15:24:06
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-15 15:25:13
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-15 15:58:27
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-15 16:00:00
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-15 16:06:40
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-15 16:10:26
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-15 16:11:32
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-15 16:41:53
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-15 16:49:04
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-15 16:51:55
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-15 17:44:46
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-15 17:45:07
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 09:44:15
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 10:02:06
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 10:33:45
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 10:59:14
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 11:04:08
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 11:10:44
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-16 11:49:21
-Segment-maker runtime: 7 seconds
+2017-12-16 11:31:32
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 11:39:24
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 11:43:20
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 12:06:08
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 12:10:04
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 14:14:57
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 15:11:08
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 16:00:40
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 16:01:31
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 16:06:30
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-16 12:05:33
-Segment-maker runtime: 7 seconds
+2017-12-16 16:28:23
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 16:59:14
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 16:59:47
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-16 17:07:38
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-16 16:37:55
-Segment-maker runtime: 7 seconds
+2017-12-17 11:01:47
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-17 12:57:45
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-17 18:05:42
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 11:06:00
-Segment-maker runtime: 7 seconds
+2017-12-18 13:31:12
+Segment-maker runtime: 3 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 11:06:54
-Segment-maker runtime: 7 seconds
+2017-12-18 14:37:53
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 11:42:59
-Segment-maker runtime: 7 seconds
+2017-12-18 15:30:03
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 12:16:36
-Segment-maker runtime: 7 seconds
+2017-12-18 15:59:18
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-18 17:23:12
+Segment-maker runtime: 3 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 12:21:09
-Segment-maker runtime: 7 seconds
+2017-12-18 17:46:13
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-18 18:30:42
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:04:44
-Segment-maker runtime: 7 seconds
+2017-12-19 09:44:49
+Segment-maker runtime: 3 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:12:24
-Segment-maker runtime: 7 seconds
+2017-12-19 10:13:44
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:14:39
-Segment-maker runtime: 7 seconds
+2017-12-19 11:00:33
+Segment-maker runtime: 3 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:16:46
-Segment-maker runtime: 7 seconds
+2017-12-19 11:25:41
+Segment-maker runtime: 3 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:17:29
-Segment-maker runtime: 7 seconds
+2017-12-19 11:49:42
+Segment-maker runtime: 3 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:18:06
-Segment-maker runtime: 7 seconds
+2017-12-19 12:35:23
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:19:24
-Segment-maker runtime: 7 seconds
+2017-12-19 13:06:41
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-19 14:34:51
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:20:04
-Segment-maker runtime: 7 seconds
+2017-12-19 15:05:53
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:20:36
-Segment-maker runtime: 7 seconds
+2017-12-19 15:56:48
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:32:06
-Segment-maker runtime: 7 seconds
+2017-12-19 15:57:14
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-19 16:19:39
+Segment-maker runtime: 3 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:33:35
-Segment-maker runtime: 7 seconds
+2017-12-19 17:32:50
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:34:39
-Segment-maker runtime: 6 seconds
+2017-12-20 08:47:45
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:35:57
-Segment-maker runtime: 7 seconds
+2017-12-20 08:50:26
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-20 09:46:32
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:55:14
-Segment-maker runtime: 6 seconds
+2017-12-20 10:10:46
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-20 10:14:53
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-20 10:24:52
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-20 10:53:00
+Segment-maker runtime: 2 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:57:57
+2017-12-20 11:15:43
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-20 11:51:41
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-20 13:49:42
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-20 14:34:12
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-20 14:46:29
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-20 16:32:05
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-20 16:51:34
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-21 10:16:54
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-21 15:02:02
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-24 15:53:15
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-26 18:12:48
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-27 10:11:43
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-27 11:18:11
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-27 13:31:27
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-27 15:33:41
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-27 17:37:04
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-27 19:12:15
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-28 11:06:19
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-28 12:34:32
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-28 13:46:40
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-29 10:30:03
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-29 13:30:05
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-29 15:06:22
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-29 15:32:35
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-29 16:24:41
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-29 17:47:30
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-30 17:07:45
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-30 17:27:04
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-30 18:34:22
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-30 19:08:41
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2017-12-31 11:51:24
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-31 13:46:07
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2017-12-31 14:39:56
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-02 16:21:34
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-02 18:34:26
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-02 19:04:50
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-02 21:01:58
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-03 10:35:17
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-03 14:07:57
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-03 15:31:51
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-03 19:24:20
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-04 12:21:41
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-04 15:31:11
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-04 18:54:02
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-09 14:54:15
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-10 18:36:01
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-10 20:34:07
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-11 09:23:04
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-11 15:41:44
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-11 18:06:32
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-13 12:00:46
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-13 12:55:08
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-13 17:40:26
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-14 12:05:47
+Segment-maker runtime: 2 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-18 13:20:26
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-18 18:55:06
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-20 11:49:57
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-22 09:46:37
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-22 09:51:16
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-23 17:16:19
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-23 20:53:11
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-24 17:01:07
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-24 18:12:46
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-24 19:07:18
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-24 20:13:27
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-25 12:01:26
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-25 16:09:30
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-25 18:12:21
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-26 11:09:58
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-26 11:36:33
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-26 11:37:29
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-26 13:56:47
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-26 16:17:29
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-26 18:09:49
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-26 18:10:10
+Segment-maker runtime: 1 second
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-26 19:20:41
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-26 19:21:08
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-26 19:23:23
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-26 19:29:29
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-27 11:22:31
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 13:58:22
+2018-01-27 11:58:46
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-27 11:59:18
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-27 11:59:46
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-27 12:02:45
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-27 13:00:53
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-27 14:40:06
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-27 14:41:13
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-27 16:24:20
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-27 17:55:25
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-28 10:54:38
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-28 11:39:03
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-28 12:43:17
+Segment-maker runtime: 6 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-28 13:25:49
 Segment-maker runtime: 4 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 14:02:15
+2018-01-28 16:59:55
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-28 18:46:36
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-28 19:05:44
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 14:09:35
+2018-01-29 09:29:39
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-29 09:32:07
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-29 09:42:32
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 14:34:16
+2018-01-29 09:58:59
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-29 10:44:20
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-29 10:59:26
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-29 11:06:30
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-29 11:22:06
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-29 12:33:37
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-29 12:34:37
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-29 12:46:37
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-29 18:45:52
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-29 19:38:40
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-30 10:31:41
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-30 11:12:33
+Segment-maker runtime: 6 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-30 12:17:23
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 0 seconds
+
+2018-01-30 13:14:31
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-30 13:46:25
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-30 14:15:39
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 14:54:36
+2018-01-30 18:04:48
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-30 18:40:36
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-17 15:20:20
+2018-01-30 20:06:23
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-31 15:05:45
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-31 17:06:59
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-31 17:41:07
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-01-31 19:28:29
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-01 18:55:50
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-01 19:14:51
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-01 19:19:32
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-02 10:06:06
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-02 15:14:54
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-02 17:57:05
+Segment-maker runtime: 6 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-03 11:13:50
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-03 12:49:12
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-03 13:42:27
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-03 14:57:00
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-03 19:12:06
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-04 15:40:18
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-04 17:14:53
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-05 11:09:33
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-05 11:40:30
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-05 13:26:23
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-05 13:49:51
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-05 17:19:49
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-05 18:18:53
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-05 18:50:07
 Segment-maker runtime: 7 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-18 18:21:12
+2018-02-06 10:42:58
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-06 10:52:23
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-06 11:37:38
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-18 20:16:38
-Segment-maker runtime: 5 seconds
+2018-02-06 13:16:40
+Segment-maker runtime: 4 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-18 20:22:49
-Segment-maker runtime: 5 seconds
+2018-02-06 13:19:13
+Segment-maker runtime: 4 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-18 20:36:21
-Segment-maker runtime: 5 seconds
+2018-02-06 13:39:52
+Segment-maker runtime: 3 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-19 11:01:02
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-19 11:22:00
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-19 11:27:57
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-19 11:42:01
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-19 12:00:39
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-19 12:13:51
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-19 12:18:55
+2018-02-06 14:06:39
 Segment-maker runtime: 6 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-19 12:53:22
+2018-02-07 11:51:40
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-07 11:53:50
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-07 13:14:29
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-07 13:59:42
 Segment-maker runtime: 6 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-19 15:51:46
+2018-02-07 14:16:22
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-19 15:56:43
+2018-02-07 14:27:05
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-07 16:54:35
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-07 17:11:50
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-07 17:34:10
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-07 19:13:06
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-08 09:00:48
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-19 17:05:50
+2018-02-08 11:07:35
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-08 13:58:56
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-19 18:14:44
+2018-02-08 17:46:38
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-08 20:05:08
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-19 18:50:14
+2018-02-09 11:14:01
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-19 19:00:55
-Segment-maker runtime: 7 seconds
+2018-02-09 13:01:45
+Segment-maker runtime: 4 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-20 11:26:14
-Segment-maker runtime: 7 seconds
+2018-02-09 18:57:13
+Segment-maker runtime: 4 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-20 17:33:53
+2018-02-09 20:39:02
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-10 11:30:00
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-10 12:24:41
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-10 14:33:27
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-20 18:19:34
+2018-02-10 17:42:04
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-20 19:58:27
+2018-02-10 18:14:50
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-11 09:52:19
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-11 10:21:57
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-20 20:33:48
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-21 11:36:53
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-21 11:56:27
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-21 12:07:33
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-21 12:55:48
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-21 13:18:15
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-21 13:42:21
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-21 14:24:52
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-21 19:20:05
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-22 11:48:32
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-22 14:59:51
-Segment-maker runtime: 5 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-22 16:37:23
+2018-02-11 10:38:06
 Segment-maker runtime: 6 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-22 16:59:46
+2018-02-11 10:48:32
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-22 17:22:13
+2018-02-11 10:57:45
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-23 10:24:15
+2018-02-11 11:41:01
 Segment-maker runtime: 6 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-23 10:31:24
+2018-02-11 12:16:04
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-23 14:00:54
+2018-02-11 13:17:42
+Segment-maker runtime: 6 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-11 13:54:21
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-24 12:47:13
-Segment-maker runtime: 7 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-24 15:48:45
+2018-02-11 13:59:19
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-25 14:23:35
+2018-02-11 14:57:54
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-11 15:03:38
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-11 15:35:27
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-26 12:13:26
+2018-02-11 15:48:30
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-11 16:02:29
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-26 15:36:34
+2018-02-11 16:38:14
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-26 16:06:17
-Segment-maker runtime: 7 seconds
+2018-02-11 16:42:41
+Segment-maker runtime: 3 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-26 16:54:06
+2018-02-11 17:06:13
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-26 17:55:11
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-26 18:44:57
+2018-02-11 17:31:01
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-26 18:47:31
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-26 18:49:14
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-27 15:27:38
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-27 20:22:58
+2018-02-11 18:09:28
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-27 20:58:45
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-27 20:59:19
+2018-02-11 19:37:04
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-28 09:13:35
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-28 09:16:55
+2018-02-11 20:02:39
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-02-28 11:37:00
-Segment-maker runtime: 9 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-28 13:07:44
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-28 13:18:33
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-02-28 16:50:39
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-01 09:33:05
-Segment-maker runtime: 8 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-01 12:22:31
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-01 12:23:38
+2018-02-11 20:14:49
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-03-01 12:35:09
+2018-02-12 09:24:47
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-03-01 12:47:40
-Segment-maker runtime: 8 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-01 15:39:32
+2018-02-12 09:45:56
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-03-01 19:50:00
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-01 19:50:23
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-01 19:51:24
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-01 19:51:53
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-01 20:01:27
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-02 14:15:42
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-02 14:30:44
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-02 14:36:07
-Segment-maker runtime: 7 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-02 14:56:27
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-02 15:01:11
-Segment-maker runtime: 6 seconds
-Abjad format time: 0 seconds
-LilyPond runtime: 1 second
-
-2018-03-03 14:24:19
+2018-02-12 10:31:35
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-03-04 11:23:09
+2018-02-12 11:30:53
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-12 11:36:54
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-03-06 15:10:18
+2018-02-12 12:20:30
 Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-03-07 10:24:09
-Segment-maker runtime: 7 seconds
+2018-02-12 12:58:04
+Segment-maker runtime: 5 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-03-07 11:16:44
+2018-02-12 15:29:43
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-12 16:13:38
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-12 16:45:42
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-13 09:28:53
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-13 12:09:15
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-13 12:14:49
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-13 12:45:31
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-13 16:34:16
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-13 20:57:57
 Segment-maker runtime: 6 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second
 
-2018-03-07 15:45:39
+2018-02-14 11:10:09
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-14 11:48:15
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-14 16:22:17
 Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-15 09:41:43
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-15 13:24:39
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-15 15:26:36
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-15 16:08:46
+Segment-maker runtime: 6 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-15 17:30:17
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-15 17:53:41
+Segment-maker runtime: 6 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-15 20:20:37
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-15 20:39:33
+Segment-maker runtime: 6 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-16 10:15:44
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-16 11:06:09
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-16 11:31:45
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-16 11:48:20
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-17 14:33:00
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-17 14:59:50
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-17 15:18:59
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-18 18:20:12
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-18 20:15:41
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-18 20:21:52
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-18 20:35:09
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-19 11:00:36
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-19 11:21:03
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-19 11:26:42
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-19 11:41:01
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-19 11:59:32
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-19 12:12:42
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-19 12:17:43
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-19 12:52:04
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-19 17:04:49
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-19 18:13:47
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-19 18:49:10
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-19 18:59:49
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-20 11:24:51
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-20 17:32:57
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-20 18:18:38
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-20 19:57:29
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-20 20:32:49
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-21 11:35:57
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-21 11:48:52
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-21 11:52:08
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-21 12:06:36
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-21 12:54:48
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-21 13:17:18
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-21 13:41:24
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-21 14:23:55
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-21 19:19:09
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-22 11:47:30
+Segment-maker runtime: 6 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-22 14:58:37
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-22 16:36:01
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-22 17:21:15
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-23 10:23:09
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-23 10:30:27
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-23 13:59:57
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-24 12:45:53
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-24 15:47:44
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-25 14:22:35
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-26 12:12:28
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-26 15:35:36
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-26 16:04:59
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-26 16:53:09
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-26 17:53:47
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-26 18:44:00
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-26 18:48:16
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-27 15:26:33
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-27 20:21:57
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-28 09:15:55
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-28 11:35:48
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-28 13:06:24
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-28 13:17:26
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-02-28 16:49:37
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-01 09:31:43
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-01 12:46:20
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-01 15:38:34
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-02 14:14:43
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-02 14:35:04
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-02 15:00:12
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-03 14:23:47
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-04 11:17:10
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-06 15:09:44
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-07 10:23:24
+Segment-maker runtime: 5 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-07 11:16:01
+Segment-maker runtime: 4 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-07 15:45:05
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-08 13:42:43
+Segment-maker runtime: 3 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 1 second
+
+2018-03-08 13:45:01
+Segment-maker runtime: 3 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 1 second

@@ -4,7 +4,7 @@
 \context Score = "Score"
 \with
 {
-    currentBarNumber = #158
+    currentBarNumber = #149
 }
 <<
     \context GlobalContext = "GlobalContext"
@@ -12,7 +12,7 @@
         \context PageLayout = "PageLayout"
         {   %*% PageLayout
             
-            % [PageLayout measure 158]                                                   %! SM4
+            % [PageLayout measure 149]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
             \autoPageBreaksOff                                                           %! BMM1:BREAK
@@ -43,11 +43,11 @@
                     }
                 }
             
-            % [PageLayout measure 159]                                                   %! SM4
+            % [PageLayout measure 150]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1
+            s1 * 1/2
             ^ \markup {
                 \column
                     {
@@ -70,7 +70,7 @@
                     }
                 }
             
-            % [PageLayout measure 160]                                                   %! SM4
+            % [PageLayout measure 151]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK

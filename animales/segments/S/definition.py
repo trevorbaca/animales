@@ -10,7 +10,8 @@ from abjad import rhythmmakertools as rhythmos
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
-start = 136
+start = metadata.get('last_measure_number')
+assert start == 133
 
 time_signatures = animales.time_signatures[start: start + 3]
 maker = baca.SegmentMaker(
@@ -20,24 +21,6 @@ maker = baca.SegmentMaker(
     metronome_marks=animales.metronome_marks,
     print_timings=True,
     score_template=animales.ScoreTemplate(
-        horns=[
-            (1, [1, 3]),
-            (2, [2, 4]),
-            ],
-        trumpets=[
-            (1, [1, 3]),
-            (2, [2, 4]),
-            ],
-        trombones=[
-            (1, [1, 3]),
-            (2, [2, 4]),
-            ],
-        tuba=[
-            (1, [1]),
-            ],
-        percussion=[
-            (2, [2]),
-            ],
         first_violins=[
             (1, [1, 2]),
             (2, [3, 4]),
@@ -96,25 +79,4 @@ maker(
     baca.rehearsal_mark('S'),
     )
 
-# brass
-
-animales.assign_brass_sforzando_parts(maker)
-animales.brass_sforzando(maker, 1)
-
-# percussion
-
-# cymbal
-
-maker(
-    baca.scope('PercussionVoiceII', (1, -1)),
-    animales.parts('Percussion', 2),
-    baca.dynamic('p'),
-    baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
-    baca.repeat_ties_up(),
-    baca.stem_tremolo(),
-    )
-
-# strings
-
-animales.constellations(maker, [[1, -17], [1, -17], [1, -17]]) 
+animales.constellations(maker, [[1, -55], [1, -17], [1, -17]]) 

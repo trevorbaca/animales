@@ -10,7 +10,7 @@ from abjad import rhythmmakertools as rhythmos
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
-start = 133
+start = 136
 
 time_signatures = animales.time_signatures[start: start + 3]
 maker = baca.SegmentMaker(
@@ -37,8 +37,6 @@ maker = baca.SegmentMaker(
             ],
         percussion=[
             (2, [2]),
-            (3, [3]),
-            (4, [4]),
             ],
         first_violins=[
             (1, [1, 2]),
@@ -83,7 +81,9 @@ maker = baca.SegmentMaker(
             (7, [13, 14]),
             ],
         contrabasses=[
-            (2, [3]),
+            (1, [1, 2]),
+            (2, [3, 4]),
+            (3, [5, 6]),
             ],
         ),
     time_signatures=time_signatures,
@@ -108,52 +108,13 @@ animales.brass_sforzando(maker, 1)
 maker(
     baca.scope('PercussionVoiceII', (1, -1)),
     animales.parts('Percussion', 2),
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie_to(),
-    baca.staff_position(0),
-    baca.repeat_ties_up(),
-    baca.stem_tremolo(),
-    )
-
-# bass drum
-
-maker(
-    baca.scope('PercussionVoiceIII', (1, -1)),
-    animales.parts('Percussion', 3),
+    baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.repeat_tie_to(),
-    baca.repeat_ties_up(),
-    baca.stem_tremolo(),
-    )
-    
-# tam-tam
-
-maker(
-    baca.scope('PercussionVoiceIV', (1, -1)),
-    animales.parts('Percussion', 4),
-    baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
-    baca.repeat_tie_to(),
     baca.repeat_ties_up(),
     baca.stem_tremolo(),
     )
 
 # strings
 
-animales.constellations(
-    maker,
-    [[1, -55], [1, -17], [1, -17]],
-    omit_contrabasses=True,
-    ) 
-
-maker(
-    baca.scope('ContrabassVoiceIII', (1, -1)),
-    animales.parts('Contrabass'),
-    baca.clef('bass'),
-    baca.hairpin('p <', right_broken=True),
-    baca.make_repeat_tied_notes(),
-    baca.markup.arco(),
-    baca.pitch('C#2'),
-    baca.staff_lines(5),
-    )
+animales.constellations(maker, [[1, -17], [1, -17], [1, -17]]) 

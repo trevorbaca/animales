@@ -16,7 +16,7 @@
         \context Score = "Score"
         \with
         {
-            currentBarNumber = #36
+            currentBarNumber = #18
         }
         <<
             \context GlobalContext = "GlobalContext"
@@ -33,15 +33,43 @@
                     \context Staff = "ClarinetStaffI"
                     \C_ClarinetStaffI
                 >>
-                \context StaffGroup = "PianoPianoStaff"
+                \context StaffGroup = "BrassStaffGroup"
                 <<
-                    \context Staff = "PianoStaffI"
-                    \C_PianoStaffI
-                >>
-                \context StaffGroup = "HarpPianoStaff"
-                <<
-                    \context Staff = "HarpStaffI"
-                    \C_HarpStaffI
+                    \context StaffGroup = "HornSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "HornStaffI"
+                        \C_HornStaffI
+                        \context Staff = "HornStaffII"
+                        \C_HornStaffII
+                    >>
+                    \context StaffGroup = "TrumpetSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "TrumpetStaffI"
+                        \C_TrumpetStaffI
+                        \context Staff = "TrumpetStaffII"
+                        \C_TrumpetStaffII
+                    >>
+                    \context StaffGroup = "TromboneSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "TromboneStaffI"
+                        \C_TromboneStaffI
+                        \context Staff = "TromboneStaffII"
+                        \C_TromboneStaffII
+                    >>
+                    \context Staff = "TubaStaffI"
+                    \C_TubaStaffI
                 >>
                 \context StaffGroup = "PercussionStaffGroup"
                 <<
@@ -49,30 +77,46 @@
                     \C_PercussionStaffI
                     \context Staff = "PercussionStaffII"
                     \C_PercussionStaffII
-                    \context Staff = "PercussionStaffIII"
-                    \C_PercussionStaffIII
                 >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
-                    \context Staff = "FirstViolinStaffI"
-                    \C_FirstViolinStaffI
-                    \context Staff = "SecondViolinStaffI"
-                    \C_SecondViolinStaffI
-                    \context Staff = "ViolaStaffI"
-                    \C_ViolaStaffI
-                    \context Staff = "CelloStaffI"
-                    \C_CelloStaffI
-                    \context StaffGroup = "ContrabassSquareStaffGroup"
+                    \context StaffGroup = "FirstViolinSquareStaffGroup"
                     \with
                     {
                         systemStartDelimiter = #'SystemStartSquare
                     }
                     <<
-                        \context Staff = "ContrabassStaffI"
-                        \C_ContrabassStaffI
-                        \context Staff = "ContrabassStaffII"
-                        \C_ContrabassStaffII
+                        \context Staff = "FirstViolinStaffI"
+                        \C_FirstViolinStaffI
+                        \context Staff = "FirstViolinStaffII"
+                        \C_FirstViolinStaffII
                     >>
+                    \context StaffGroup = "SecondViolinSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "SecondViolinStaffI"
+                        \C_SecondViolinStaffI
+                        \context Staff = "SecondViolinStaffII"
+                        \C_SecondViolinStaffII
+                    >>
+                    \context StaffGroup = "ViolaSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "ViolaStaffI"
+                        \C_ViolaStaffI
+                        \context Staff = "ViolaStaffII"
+                        \C_ViolaStaffII
+                    >>
+                    \context Staff = "CelloStaffI"
+                    \C_CelloStaffI
+                    \context Staff = "ContrabassStaffII"
+                    \C_ContrabassStaffII
                 >>
             >>
         >>
