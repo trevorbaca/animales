@@ -10,31 +10,11 @@ def _make_margin_markup(markup):
 margin_markups = abjad.OrderedDict([
     (
         'B. cl.',
-        _make_margin_markup(['B. cl.']),
+        _make_margin_markup('B. cl.'),
         ),
     (
         'Bsn.',
         _make_margin_markup('Bsn.'),
-        ),
-    (
-        'Vc.',
-        _make_margin_markup('Vc.'),
-        ),
-    (
-        'Vc. (1-8)',
-        _make_margin_markup('Vc. (1-8)'),
-        ),
-    (
-        'Vc. (1-8) (9-14)',
-        _make_margin_markup(['Vc.', '(1-8)', '(9-14)']),
-        ),
-    (
-        'Vc. (9-14)',
-        _make_margin_markup('Vc. (9-14)'),
-        ),
-    (
-        'Cl.',
-        _make_margin_markup('Cl.'),
         ),
     (
         'Cb.',
@@ -42,11 +22,15 @@ margin_markups = abjad.OrderedDict([
         ),
     (
         'Cb. (2-6)',
-        _make_margin_markup('Cb. (2-6)'),
+        _make_margin_markup(['Cb.', '(2-6)']),
+        ),
+    (
+        'Cl.',
+        _make_margin_markup('Cl.'),
         ),
     (
         'Eng. hn.',
-        _make_margin_markup(['Eng. hn.']),
+        _make_margin_markup('Eng. hn.'),
         ),
     (
         'Fl.',
@@ -61,10 +45,6 @@ margin_markups = abjad.OrderedDict([
         _make_margin_markup(['Fl.', '(2+4)']),
         ),
     (
-        'Hp.',
-        _make_margin_markup('Hp.'),
-        ),
-    (
         'Hn.',
         _make_margin_markup('Hn.'),
         ),
@@ -77,6 +57,10 @@ margin_markups = abjad.OrderedDict([
         _make_margin_markup(['Hn.', '(2+4)']),
         ),
     (
+        'Hp.',
+        _make_margin_markup('Hp.'),
+        ),
+    (
         'Ob.',
         _make_margin_markup('Ob.'),
         ),
@@ -86,27 +70,27 @@ margin_markups = abjad.OrderedDict([
         ),
     (
         'Perc. 1 (tri.)',
-        _make_margin_markup('Perc. 1 (tri.)'),
+        _make_margin_markup(['Perc. 1', '(tri.)']),
         ),
     (
         'Perc. 2 (cym.)',
-        _make_margin_markup('Perc. 2 (cym.)'),
+        _make_margin_markup(['Perc. 2', '(cym.)']),
         ),
     (
         'Perc. 3 (vib.)',
-        _make_margin_markup('Perc. 3 (vib.)'),
+        _make_margin_markup(['Perc. 3', '(vib.)']),
         ),
     (
         'Perc. 3 (BD)',
-        _make_margin_markup('Perc. 3 (BD)'),
+        _make_margin_markup(['Perc. 3', '(BD)']),
         ),
     (
         'Perc. 4 (tam.)',
-        _make_margin_markup('Perc. 4 (tam.)'),
+        _make_margin_markup(['Perc. 4', '(tam.)']),
         ),
     (
         'Perc. 4 (slate)',
-        _make_margin_markup('Perc. 4 (slate)'),
+        _make_margin_markup(['Perc. 4', '(slate)']),
         ),
     (
         'Pf.',
@@ -115,18 +99,6 @@ margin_markups = abjad.OrderedDict([
     (
         'Picc.',
         _make_margin_markup('Picc.'),
-        ),
-    (
-        'Trb.',
-        _make_margin_markup('Trb.'),
-        ),
-    (
-        'Trb. (1+3)',
-        _make_margin_markup(['Trb.', '(1+3)']),
-        ),
-    (
-        'Trb. (2+4)',
-        _make_margin_markup(['Trb.', '(2+4)']),
         ),
     (
         'Tp.',
@@ -141,8 +113,36 @@ margin_markups = abjad.OrderedDict([
         _make_margin_markup(['Tp.', '(2+4)']),
         ),
     (
+        'Trb.',
+        _make_margin_markup('Trb.'),
+        ),
+    (
+        'Trb. (1+3)',
+        _make_margin_markup(['Trb.', '(1+3)']),
+        ),
+    (
+        'Trb. (2+4)',
+        _make_margin_markup(['Trb.', '(2+4)']),
+        ),
+    (
         'Tub.',
         _make_margin_markup('Tub.'),
+        ),
+    (
+        'Vc.',
+        _make_margin_markup('Vc.'),
+        ),
+    (
+        'Vc. (1-8)',
+        _make_margin_markup(['Vc.', '(1-8)']),
+        ),
+    (
+        'Vc. (1-8) (9-14)',
+        _make_margin_markup(['Vc.', '(1-8)', '(9-14)']),
+        ),
+    (
+        'Vc. (9-14)',
+        _make_margin_markup(['Vc.', '(9-14)']),
         ),
     (
         'Vle.',
@@ -170,7 +170,7 @@ margin_markups = abjad.OrderedDict([
         ),
     (
         'Vni. I',
-        _make_margin_markup(['Vni. I']),
+        _make_margin_markup('Vni. I'),
         ),
     (
         'Vni. I (1-10)',
@@ -194,7 +194,7 @@ margin_markups = abjad.OrderedDict([
         ),
     (
         'Vni. II',
-        _make_margin_markup(['Vni. II']),
+        _make_margin_markup('Vni. II'),
         ),
     (
         'Vni. II (1-10)',
@@ -214,7 +214,7 @@ margin_markups = abjad.OrderedDict([
         ),
     ])
 
-for abbreviation, count in [
+for section, count in [
     ('Fl.', 3),
     ('Ob.', 3),
     ('Cl.', 3),
@@ -229,22 +229,22 @@ for abbreviation, count in [
     ('Vc.', 14),
     ('Cb.', 6),
     ]:
-    for n in range(1, count + 1):
-        key = f'{abbreviation} {n}'
-        value = _make_margin_markup([abbreviation, str(n)])
+    for member in range(1, count + 1):
+        key = f'{section} {member}'
+        value = _make_margin_markup([section, str(member)])
         margin_markups[key] = value
 
-for abbreviation, count in [
+for section, count in [
     ('Vni. I', 18),
     ('Vni. II', 18),
     ('Vle.', 18),
     ('Vc.', 14),
     ('Cb.', 6),
     ]:
-    for n in range(1, count + 1):
-        if n % 2 == 0:
+    for member in range(1, count + 1):
+        if member % 2 == 0:
             continue
-        range_ = f'({n}-{n+1})'
-        key = f'{abbreviation} {range_}'
-        value = _make_margin_markup([abbreviation, range_])
+        members = f'({member}-{member+1})'
+        key = f'{section} {members}'
+        value = _make_margin_markup([section, members])
         margin_markups[key] = value

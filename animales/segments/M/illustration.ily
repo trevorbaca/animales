@@ -1315,8 +1315,7 @@ M_PercussionVoiceI_a = {
             #16                                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
             \center-column                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                    Perc.                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                    1                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    "Perc. 1"                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     (tri.)                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1326,8 +1325,7 @@ M_PercussionVoiceI_a = {
             #16                                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
             \center-column                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                    Perc.                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                    1                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    "Perc. 1"                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     (tri.)                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1372,8 +1370,7 @@ M_PercussionVoiceI_a = {
             #16                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
             \center-column                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                    Perc.                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                    1                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    "Perc. 1"                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     (tri.)                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
@@ -1383,8 +1380,7 @@ M_PercussionVoiceI_a = {
             #16                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
             \center-column                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                    Perc.                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                    1                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    "Perc. 1"                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     (tri.)                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
@@ -1432,8 +1428,7 @@ M_PercussionVoiceII_a = {
             #16                                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
             \center-column                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                    Perc.                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                    2                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    "Perc. 2"                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     (cym.)                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1443,8 +1438,7 @@ M_PercussionVoiceII_a = {
             #16                                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
             \center-column                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                    Perc.                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                    2                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                    "Perc. 2"                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     (cym.)                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1489,8 +1483,7 @@ M_PercussionVoiceII_a = {
             #16                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
             \center-column                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                    Perc.                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                    2                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    "Perc. 2"                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     (cym.)                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
@@ -1500,8 +1493,7 @@ M_PercussionVoiceII_a = {
             #16                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
             \center-column                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                    Perc.                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                    2                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                    "Perc. 2"                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     (cym.)                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
@@ -1550,8 +1542,7 @@ M_PercussionVoiceIII_a = {
                 #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                        Perc.                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                        3                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                        "Perc. 3"                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                         (vib.)                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
             }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1561,8 +1552,7 @@ M_PercussionVoiceIII_a = {
                 #16                                          %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 \center-column                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     {                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                        Perc.                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-                        3                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
+                        "Perc. 3"                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                         (vib.)                               %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                     }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
             }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
@@ -1600,8 +1590,7 @@ M_PercussionVoiceIII_a = {
                 #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                        Perc.                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                        3                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                        "Perc. 3"                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                         (vib.)                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
             }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
@@ -1611,8 +1600,7 @@ M_PercussionVoiceIII_a = {
                 #16                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                 \center-column                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     {                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                        Perc.                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
-                        3                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
+                        "Perc. 3"                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                         (vib.)                               %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
                     }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37
             }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:SM37

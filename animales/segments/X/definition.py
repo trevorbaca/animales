@@ -18,7 +18,6 @@ maker = baca.SegmentMaker(
     margin_markups=animales.margin_markups,
     measures_per_stage=True,
     metronome_marks=animales.metronome_marks,
-    print_timings=True,
     score_template=animales.ScoreTemplate(
         horns=[
             (1, [1, 3]),

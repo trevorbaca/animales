@@ -1347,8 +1347,7 @@ C_PercussionVoiceI_a = {
             #16                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             \center-column                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Perc.                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    1                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+                    "Perc. 1"                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     (tri.)                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -1358,8 +1357,7 @@ C_PercussionVoiceI_a = {
             #16                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             \center-column                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Perc.                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    1                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+                    "Perc. 1"                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     (tri.)                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -1394,8 +1392,7 @@ C_PercussionVoiceI_a = {
             #16                                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             \center-column                                   %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Perc.                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    1                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+                    "Perc. 1"                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     (tri.)                                   %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -1405,8 +1402,7 @@ C_PercussionVoiceI_a = {
             #16                                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             \center-column                                   %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Perc.                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    1                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+                    "Perc. 1"                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     (tri.)                                   %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -1474,8 +1470,7 @@ C_PercussionVoiceII_a = {
             #16                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             \center-column                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Perc.                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    2                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+                    "Perc. 2"                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     (cym.)                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -1485,8 +1480,7 @@ C_PercussionVoiceII_a = {
             #16                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             \center-column                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    Perc.                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-                    2                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+                    "Perc. 2"                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                     (cym.)                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
                 }                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -1521,8 +1515,7 @@ C_PercussionVoiceII_a = {
             #16                                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             \center-column                                   %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Perc.                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    2                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+                    "Perc. 2"                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     (cym.)                                   %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -1532,8 +1525,7 @@ C_PercussionVoiceII_a = {
             #16                                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             \center-column                                   %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 {                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    Perc.                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-                    2                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+                    "Perc. 2"                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                     (cym.)                                   %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
                 }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
