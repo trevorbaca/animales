@@ -68,7 +68,7 @@ breaks = baca.breaks(
             staff_group(2, 14, 22),
             [16, 16, 16, 16, 12],
             measure=39,
-            y_offset=5 + 2,
+            y_offset=10,
             ),
         baca.system(
             time_signatures,
@@ -78,14 +78,17 @@ breaks = baca.breaks(
             staff_group(2, 12, 22),
             [16, 16, 16, 16, 12],
             measure=47,
-            y_offset=190 + 2,
+            y_offset=195,
             ),
         number=4,
         ),
     baca.page(
         baca.system(
             time_signatures,
-            20,
+            staff_group(2, 14, 30),
+            staff_group(6, 20, 30),
+            staff_group(4, 14, 30),
+            [20, 20, 20, 20, 12, 30],
             measure=56,
             y_offset=15,
             ),

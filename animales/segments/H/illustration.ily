@@ -24,7 +24,7 @@ H_GlobalRests = {
 H_GlobalSkips = {
     
     % [H GlobalSkips measure 50]                                         %! SM4
-%%% \once \override GlobalContext.RehearsalMark.extra-offset = #'(0 . 6) %! OC1:+TABLOID_SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #-4           %! OC1:+TABLOID_SCORE
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK

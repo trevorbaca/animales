@@ -64,7 +64,11 @@ maker(
     baca.rehearsal_mark('G'),
     baca.tag(
         '+TABLOID_SCORE',
-        baca.rehearsal_mark_extra_offset((0, 6)),
+        baca.text_spanner_left_padding(3),
+        ),
+    baca.tag(
+        '+TABLOID_SCORE',
+        baca.text_spanner_right_padding(20),
         ),
     )
 
