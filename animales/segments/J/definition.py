@@ -300,7 +300,7 @@ stop_trill = [
 
 maker(
     baca.make_scopes(stop_trill, [1]),
-    baca.build(baca.stop_trill()),
+    baca.not_segment(baca.stop_trill()),
     baca.repeat_tie_to(),
     )
 

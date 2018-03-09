@@ -14,7 +14,7 @@
             \autoPageBreaksOff                                                           %! BMM1:BREAK
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 75) (alignment-distances . (12 20)))                          %! IC:BREAK
+            #'((Y-offset . 85) (alignment-distances . (12 20)))                          %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1
             ^ \markup {
@@ -1055,7 +1055,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 5) (alignment-distances . (10 16)))                           %! IC:BREAK
+            #'((Y-offset . 7) (alignment-distances . (10 12 12 14 14 22 16 16 16 16 12))) %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1
             ^ \markup {
@@ -1274,7 +1274,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 190) (alignment-distances . (10 16)))                         %! IC:BREAK
+            #'((Y-offset . 192) (alignment-distances . (10 12 14 12 14 12 22 16 16 16 16 12))) %! IC:BREAK
             \break                                                                       %! IC:BREAK
             s1 * 3/4
             ^ \markup {
