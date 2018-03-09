@@ -75,6 +75,7 @@ maker = baca.SegmentMaker(
 maker(
     baca.scope('GlobalSkips', (1, -1)),
     baca.rehearsal_mark('AA'),
+    baca.only_score(baca.rehearsal_mark_y_offset(-2)),
     )
 
 # percussion

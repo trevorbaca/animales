@@ -67,6 +67,7 @@ maker = baca.SegmentMaker(
 maker(
     baca.scope('GlobalSkips', 3),
     baca.rehearsal_mark('C'),
+    baca.only_score(baca.rehearsal_mark_y_offset(-2)),
     )
 
 # clarinet

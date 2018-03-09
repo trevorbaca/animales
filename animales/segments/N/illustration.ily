@@ -34,6 +34,7 @@ N_GlobalRests = {
 N_GlobalSkips = {
     
     % [N GlobalSkips measure 88]                                         %! SM4
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #-2           %! OC1:+SCORE
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@% \markup {                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@%     \fontsize                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36
