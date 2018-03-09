@@ -1426,8 +1426,7 @@
                                     #16
                                     \center-column
                                         {
-                                            Perc.
-                                            1
+                                            "Perc. 1"
                                             (tri.)
                                         }
                                 }
@@ -1503,8 +1502,7 @@
                                     #16
                                     \center-column
                                         {
-                                            Perc.
-                                            2
+                                            "Perc. 2"
                                             (cym.)
                                         }
                                 }
@@ -1580,8 +1578,7 @@
                                     #16
                                     \center-column
                                         {
-                                            Perc.
-                                            3
+                                            "Perc. 3"
                                             (vib.)
                                         }
                                 }
@@ -1657,8 +1654,7 @@
                                     #16
                                     \center-column
                                         {
-                                            Perc.
-                                            4
+                                            "Perc. 4"
                                             (tam.)
                                         }
                                 }
