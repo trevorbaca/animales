@@ -141,7 +141,7 @@ left_broken = [
 
 maker(
     baca.make_scopes(left_broken, [1]),
-    baca.build(baca.stop_trill()),
+    baca.not_segment(baca.stop_trill()),
     baca.repeat_tie_to(),
     )
 
@@ -153,7 +153,7 @@ absent_left_broken = [
 
 maker(
     baca.make_scopes(absent_left_broken, [1]),
-    baca.build(baca.stop_trill()),
+    baca.not_segment(baca.stop_trill()),
     )
 
 maker(

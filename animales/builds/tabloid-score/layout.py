@@ -11,15 +11,16 @@ def staff_group(staff_count, inside, after):
     return (staff_count - 1) * [inside] + [after]
 
 breaks = baca.breaks(
-    baca.page( # 1
+    baca.page(
         [1, 85,
             (time_signatures + trill_space, 20),
             ],
         [8, 235,
             (time_signatures + trill_space, 20),
             ],
+        number=1,
         ),
-    baca.page( # 2
+    baca.page(
         [16, 15,
             (
                 time_signatures,
@@ -29,8 +30,9 @@ breaks = baca.breaks(
                 staff_group(8, 18, 24),
                 ),
             ],
+        number=2,
         ),
-    baca.page( # 3
+    baca.page(
         [22, 0,
             (
                 time_signatures,
@@ -40,7 +42,6 @@ breaks = baca.breaks(
                 ),
             ],
         [30, 200, 
-            #(time_signatures, (16, 16, 18), (14, 14, 22), (16,))
             (
                 time_signatures,
                 staff(16),
@@ -50,58 +51,96 @@ breaks = baca.breaks(
                 [16, 16, 16, 16, 12],
                 ),
             ],
+        number=3,
         ),
-    baca.page( # 4
-        [39, 5, (time_signatures, 16)],
-        [47, 190, (time_signatures, 16)],
+    baca.page(
+        [39, 5 + 2,
+            (
+                time_signatures,
+                staff(12),
+                staff(12),
+                staff(14),
+                staff_group(2, 14, 22),
+                [16, 16, 16, 16, 12],
+                ),
+            ],
+        [47, 190 + 2,
+            (
+                time_signatures,
+                staff_group(2, 12, 14),
+                staff(12),
+                staff(14),
+                staff_group(2, 12, 22),
+                [16, 16, 16, 16, 12],
+                ),
+            ],
+        number=4,
         ),
-    baca.page( # 5
-        [56, 15, (time_signatures, 20)],
+    baca.page(
+        [56, 15,
+            (time_signatures, 20),
+            ],
+        number=5,
         ),
-    baca.page( # 6
+    baca.page(
         [64, 15, (time_signatures, 20)],
+        number=6,
         ),
-    baca.page( # 7
+    baca.page(
         [72, 15, (time_signatures, 20)],
+        number=7,
         ),
-    baca.page( # 8
+    baca.page(
         [82, 15, (time_signatures, 20)],
+        number=8,
         ),
-    baca.page( # 9
+    baca.page(
         [88, 15, (time_signatures, 20)],
+        number=9,
         ),
-    baca.page( # 10
+    baca.page(
         [95, 15, (time_signatures, 20)],
+        number=10,
         ),
-    baca.page( # 11
+    baca.page(
         [107, 15, (time_signatures, 20)],
+        number=11,
         ),
-    baca.page( # 12
+    baca.page(
         [115, 15, (time_signatures, 20)],
+        number=12,
         ),
-    baca.page( # 13
+    baca.page(
         [127, 5, (time_signatures, 16)],
+        number=13,
         ),
-    baca.page( # 14
+    baca.page(
         [134, 5, (time_signatures, 16)],
+        number=14,
         ),
-    baca.page( # 15
+    baca.page(
         [140, 5, (time_signatures, 12)],
+        number=15,
         ),
-    baca.page( # 16
+    baca.page(
         [145, 5, (time_signatures, 12)],
+        number=16,
         ),
-    baca.page( # 17
+    baca.page(
         [151, 5, (time_signatures, 12)],
+        number=17,
         ),
-    baca.page( # 18
+    baca.page(
         [157, 5, (time_signatures, 12)],
+        number=18,
         ),
-    baca.page( # 19
+    baca.page(
         [161, 5, (time_signatures, 12)],
+        number=19,
         ),
-    baca.page( # 20
+    baca.page(
         [169, 5, (time_signatures, 12)],
+        number=20,
         ),
     )
 
