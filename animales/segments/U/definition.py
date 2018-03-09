@@ -76,6 +76,7 @@ maker = baca.SegmentMaker(
 maker(
     baca.scope('GlobalSkips', (1, -1)),
     baca.rehearsal_mark('U'),
+    baca.only_score(baca.rehearsal_mark_y_offset(-2)),
     )
 
 animales.constellations(maker, [[1, 1, -5], [1, 1, -5], [1, -8]]) 

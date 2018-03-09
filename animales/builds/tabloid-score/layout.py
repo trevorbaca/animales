@@ -2,18 +2,53 @@ import baca
 
 
 time_signatures = 10
+trill_space = 2
+
+def staff(after):
+    return [after]
+
+def staff_group(staff_count, inside, after):
+    return (staff_count - 1) * [inside] + [after]
+
 breaks = baca.breaks(
     baca.page( # 1
-        [1, 75, (time_signatures + 2, 20)],
-        [8, 235, (time_signatures + 2, 20)],
+        [1, 85,
+            (time_signatures + trill_space, 20),
+            ],
+        [8, 235,
+            (time_signatures + trill_space, 20),
+            ],
         ),
     baca.page( # 2
-        [16, 15, (time_signatures, 20)],
+        [16, 15,
+            (
+                time_signatures,
+                staff_group(1, 18, 24),
+                staff_group(7, 18, 24),
+                staff_group(2, 18, 30),
+                staff_group(8, 18, 24),
+                ),
+            ],
         ),
     baca.page( # 3
-        [22, 0, (time_signatures, 18)],
+        [22, 0,
+            (
+                time_signatures,
+                staff(16),
+                staff_group(2, 12, 24),
+                [22, 17, 17, 17, 17, 17, 12],
+                ),
+            ],
         [30, 200, 
-            (time_signatures, (16, 16, 18), (14, 14, 22), (16,))
+            #(time_signatures, (16, 16, 18), (14, 14, 22), (16,))
+            (
+                time_signatures,
+                staff(16),
+                staff(16),
+                staff(16),
+                staff_group(3, 14, 22),
+                [16, 16, 16, 16, 12],
+                ),
             ],
         ),
     baca.page( # 4
