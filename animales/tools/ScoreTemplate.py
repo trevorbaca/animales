@@ -1131,16 +1131,16 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         ..  container:: example
 
-            >>> animales.ScoreTemplate.voice_to_instrument('EnglishHornVoiceI')
+            >>> animales.ScoreTemplate.voice_to_section('EnglishHornVoiceI')
             'EnglishHorn'
 
-            >>> animales.ScoreTemplate.voice_to_instrument('FirstViolinVoiceI')
+            >>> animales.ScoreTemplate.voice_to_section('FirstViolinVoiceI')
             'FirstViolin'
 
-            >>> animales.ScoreTemplate.voice_to_instrument('SecondViolinVoiceI')
+            >>> animales.ScoreTemplate.voice_to_section('SecondViolinVoiceI')
             'SecondViolin'
 
-            >>> animales.ScoreTemplate.voice_to_instrument('ViolaVoiceI')
+            >>> animales.ScoreTemplate.voice_to_section('ViolaVoiceI')
             'Viola'
 
         '''

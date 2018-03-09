@@ -23,7 +23,6 @@ maker = baca.SegmentMaker(
     measures_per_stage=True,
     metronome_mark_measure_map=metronome_mark_measure_map,
     metronome_marks=animales.metronome_marks,
-    print_timings=True,
     score_template=animales.ScoreTemplate(
         piano=[
             (1, [1]),
