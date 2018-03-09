@@ -1,72 +1,72 @@
 import baca
 
 
-after_time_signatures = 10
+time_signatures = 10
 breaks = baca.breaks(
     baca.page( # 1
-        [1, 90, (after_time_signatures + 2, 20)],
-        [8, 240, (after_time_signatures + 2, 20)],
+        [1, 75, (time_signatures + 2, 20)],
+        [8, 235, (time_signatures + 2, 20)],
         ),
     baca.page( # 2
-        [16, 15, (after_time_signatures, 20)],
+        [16, 15, (time_signatures, 20)],
         ),
     baca.page( # 3
-        [22, 0, (after_time_signatures, 18)],
+        [22, 0, (time_signatures, 18)],
         [30, 200, 
-            (after_time_signatures, (16, 16, 18), (14, 14, 22), (16,))
+            (time_signatures, (16, 16, 18), (14, 14, 22), (16,))
             ],
         ),
     baca.page( # 4
-        [39, 5, (after_time_signatures, 16)],
-        [47, 190, (after_time_signatures, 16)],
+        [39, 5, (time_signatures, 16)],
+        [47, 190, (time_signatures, 16)],
         ),
     baca.page( # 5
-        [56, 15, (after_time_signatures, 20)],
+        [56, 15, (time_signatures, 20)],
         ),
     baca.page( # 6
-        [64, 15, (after_time_signatures, 20)],
+        [64, 15, (time_signatures, 20)],
         ),
     baca.page( # 7
-        [72, 15, (after_time_signatures, 20)],
+        [72, 15, (time_signatures, 20)],
         ),
     baca.page( # 8
-        [82, 15, (after_time_signatures, 20)],
+        [82, 15, (time_signatures, 20)],
         ),
     baca.page( # 9
-        [88, 15, (after_time_signatures, 20)],
+        [88, 15, (time_signatures, 20)],
         ),
     baca.page( # 10
-        [95, 15, (after_time_signatures, 20)],
+        [95, 15, (time_signatures, 20)],
         ),
     baca.page( # 11
-        [107, 15, (after_time_signatures, 20)],
+        [107, 15, (time_signatures, 20)],
         ),
     baca.page( # 12
-        [115, 15, (after_time_signatures, 20)],
+        [115, 15, (time_signatures, 20)],
         ),
     baca.page( # 13
-        [127, 5, (after_time_signatures, 16)],
+        [127, 5, (time_signatures, 16)],
         ),
     baca.page( # 14
-        [134, 5, (after_time_signatures, 16)],
+        [134, 5, (time_signatures, 16)],
         ),
     baca.page( # 15
-        [140, 5, (after_time_signatures, 12)],
+        [140, 5, (time_signatures, 12)],
         ),
     baca.page( # 16
-        [145, 5, (after_time_signatures, 12)],
+        [145, 5, (time_signatures, 12)],
         ),
     baca.page( # 17
-        [151, 5, (after_time_signatures, 12)],
+        [151, 5, (time_signatures, 12)],
         ),
     baca.page( # 18
-        [157, 5, (after_time_signatures, 12)],
+        [157, 5, (time_signatures, 12)],
         ),
     baca.page( # 19
-        [161, 5, (after_time_signatures, 12)],
+        [161, 5, (time_signatures, 12)],
         ),
     baca.page( # 20
-        [169, 5, (after_time_signatures, 12)],
+        [169, 5, (time_signatures, 12)],
         ),
     )
 

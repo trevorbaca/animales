@@ -42,6 +42,7 @@ maker = baca.SegmentMaker(
 maker(
     baca.scope('GlobalSkips', 1),
     baca.rehearsal_mark('B'),
+    baca.rehearsal_mark_y_offset(6),
     )
 
 # strings
