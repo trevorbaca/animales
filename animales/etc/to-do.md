@@ -1,39 +1,11 @@
 TO-DO
 =====
 
-1.  Remove unnecessary layout handling:
-    Wrote 17 measures to akasha/segments/G/illustration.ly ...
-    Found None measures in akasha/segments/G/layout.ly ...
-    < snip here >
-    Remaking akasha/segments/G/layout.ly ...
-    Writing akasha/segments/G/__make_layout_ly__.py ...
-    Interpreting akasha/segments/G/__make_layout_ly__.py ...
-    No breaks in akasha/segments/G/__make_layout_ly__.py ...
-    Removing akasha/segments/G/__make_layout_ly__.py ...
-    Found 17 measures in akasha/segments/G/illustration.ly ...
-    Found None measures in akasha/segments/G/layout.ly ...
-    Music measure count still does not match layout measure count ...
-
-2.  Add SegmentMaker method to renotate full-measure rests.
-
-3.  Correct contrabass repeat tie direction in V.
-
-4.  Reset fermata measure spacing to 1/4.
-
-5.  Model staff / part / instrument / margin markup relationships.
-    Constrain margin markup by staff, part, instrument.
-
-6.  Eventually implement cross-segment broken spanner checks.
-
-7.  Eventually color cross-segment broken spanners.
-
-8.  Eventually teach (llm) more about measure checks.
+1.  Teach (llm) more about measure checks.
     Right now (lle) shows % measure_count = 4.
     Should be % time_signatures = ['4/4', '4/4', '2/4', '3/4'] instead.
 
-9.  Figure out what file metadata Preview is looking at for file open size.
-
-10. Teach (llm) how to handle the case that scorewide spacing specifies
+2.  Teach (llm) how to handle the case that scorewide spacing specifies
     layout information for more measures than currently exist in score.
     Right now (llm) errors with:
         Remaking animales/builds/tabloid-score/layout.ly ...
@@ -50,29 +22,7 @@ TO-DO
             result = self.items.__getitem__(argument)
         IndexError: tuple index out of range
 
-11. Make document tag settings like (ctms) persist in metadata.
-
-12. Teach (dup) to replace only [Q] with [R].
-    Currently:
-    Ok?> y
-    Replacing 'Q' with 'R' ...
-    Replaced 272 instances over 272 lines in 3 files.
-
-13. Write doctests for abjad.Job factory methods.
-
-14. Change (st) to work on current tree like (diff).
-
-15. Allow SegmentMaker to retrieve manifests from segment directory.
-    Preserve SegmentMaker manifest initializer keywords for tests.
-
-16. Change line overflow ...
-    Writing BOL measure numbers 1, 8, 16, 22, 30, 39, 47, 56, 64, 72, 82, 88, 95, 107, 115, 127, 134, 140, 145, 151, 156 to metadata ...
-    ... to ...
-    Writing BOL measure numbers to metadata ...
-     1, 8, 16, 22, 30, 39, 47, 56, 64, 72, 82, 88 ...
-     95, 107, 115, 127, 134, 140, 145, 151, 156 ...
-
-17. Catch ...
+3.  Catch ...
     breaks = baca.breaks(
         baca.page(
             [1, 0, (20, 20,)],
@@ -80,7 +30,37 @@ TO-DO
             ),
         )
 
-18. Do segment-maker tag to-dos.
+4.  Correct contrabass repeat tie direction in V.
+
+5.  Add SegmentMaker method to renotate full-measure rests.
+
+6.  Model staff / part / instrument / margin markup relationships.
+    Constrain margin markup by staff, part, instrument.
+
+7.  Eventually implement cross-segment broken spanner checks.
+
+8.  Eventually color cross-segment broken spanners.
+
+9.  Reset fermata measure spacing to 1/4.
+
+10. Make document tag settings like (ctms) persist in metadata.
+
+11. Teach (dup) to replace only [Q] with [R].
+    Currently:
+    Ok?> y
+    Replacing 'Q' with 'R' ...
+    Replaced 272 instances over 272 lines in 3 files.
+
+12. Write doctests for abjad.Job factory methods.
+
+13. Change (st) to work on current tree like (diff).
+
+14. Allow SegmentMaker to retrieve manifests from segment directory.
+    Preserve SegmentMaker manifest initializer keywords for tests.
+
+15. Do segment-maker tag to-dos.
     Command.get_tag() -> Command.tag() segment-maker to-dos.
 
-19. Eventually integrate make into build process.
+16. Figure out what file metadata Preview is looking at for file open size.
+
+17. Eventually integrate make into build process.
