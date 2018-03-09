@@ -73,7 +73,7 @@ maker(
     baca.rehearsal_mark('J'),
     baca.tag(
         '+TABLOID_SCORE',
-        baca.rehearsal_mark_extra_offset((0, 6)),
+        baca.text_spanner_left_padding(2),
         ),
     )
 
