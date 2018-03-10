@@ -7,7 +7,7 @@ trill_space = 2
 def staff(after):
     return [after]
 
-def staff_group(staff_count, inside, after):
+def group(staff_count, inside, after):
     return (staff_count - 1) * [inside] + [after]
 
 breaks = baca.breaks(
@@ -29,10 +29,10 @@ breaks = baca.breaks(
     baca.page(
         baca.system(
             time_signatures,
-            staff_group(1, 18, 24),
-            staff_group(7, 18, 24),
-            staff_group(2, 18, 30),
-            staff_group(8, 18, 24),
+            group(1, 18, 24),
+            group(7, 18, 24),
+            group(2, 18, 30),
+            group(8, 18, 24),
             measure=16,
             y_offset=15,
             ),
@@ -42,7 +42,7 @@ breaks = baca.breaks(
         baca.system(
             time_signatures,
             staff(16),
-            staff_group(2, 12, 24),
+            group(2, 12, 24),
             [22, 17, 17, 17, 17, 17, 12],
             measure=22,
             y_offset=0,
@@ -52,7 +52,7 @@ breaks = baca.breaks(
             staff(16),
             staff(16),
             staff(16),
-            staff_group(3, 14, 22),
+            group(3, 14, 22),
             [16, 16, 16, 16, 12],
             measure=30,
             y_offset=200,
@@ -65,17 +65,17 @@ breaks = baca.breaks(
             staff(12),
             staff(12),
             staff(14),
-            staff_group(2, 14, 22),
+            group(2, 14, 22),
             [16, 16, 16, 16, 12],
             measure=39,
             y_offset=10,
             ),
         baca.system(
             time_signatures,
-            staff_group(2, 12, 14),
+            group(2, 12, 14),
             staff(12),
             staff(14),
-            staff_group(2, 12, 22),
+            group(2, 12, 22),
             [16, 16, 16, 16, 12],
             measure=47,
             y_offset=195,
@@ -85,10 +85,10 @@ breaks = baca.breaks(
     baca.page(
         baca.system(
             time_signatures,
-            staff_group(2, 14, 30),
-            staff_group(6, 20, 30),
-            staff_group(4, 14, 30),
-            [20, 20, 20, 20, 12, 30],
+            group(2, 14, 30),
+            group(6, 20, 28),
+            group(4, 14, 28),
+            [20, 20, 20, 20, 12, 28],
             measure=56,
             y_offset=15,
             ),
@@ -97,7 +97,10 @@ breaks = baca.breaks(
     baca.page(
         baca.system(
             time_signatures,
-            20,
+            staff(30),
+            group(6, 20, 30),
+            group(4, 14, 30),
+            [20, 20, 20, 20, 12, 30],
             measure=64,
             y_offset=15,
             ),
@@ -106,7 +109,10 @@ breaks = baca.breaks(
     baca.page(
         baca.system(
             time_signatures,
-            20,
+            group(2, 14, 30),
+            group(2, 14, 30),
+            group(3, 14, 30),
+            [20, 20, 20, 20, 12, 30],
             measure=72,
             y_offset=15,
             ),
@@ -115,7 +121,11 @@ breaks = baca.breaks(
     baca.page(
         baca.system(
             time_signatures,
-            20,
+            group(2, 24, 30),
+            group(2, 14, 30),
+            group(2, 14, 30),
+            group(3, 14, 30),
+            [20, 20, 20, 20, 12, 30],
             measure=82,
             y_offset=15,
             ),
@@ -124,7 +134,11 @@ breaks = baca.breaks(
     baca.page(
         baca.system(
             time_signatures,
-            20,
+            group(2, 24, 30),
+            group(2, 14, 30),
+            group(2, 14, 30),
+            group(3, 14, 30),
+            [20, 20, 20, 20, 12, 30],
             measure=88,
             y_offset=15,
             ),
@@ -133,7 +147,8 @@ breaks = baca.breaks(
     baca.page(
         baca.system(
             time_signatures,
-            20,
+            group(3, 18, 30),
+            group(9, 20, 30),
             measure=95,
             y_offset=15,
             ),
@@ -142,7 +157,9 @@ breaks = baca.breaks(
     baca.page(
         baca.system(
             time_signatures,
-            20,
+            group(3, 14, 30),
+            group(6, 20, 30),
+            group(9, 20, 30),
             measure=107,
             y_offset=15,
             ),

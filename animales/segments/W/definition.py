@@ -90,6 +90,10 @@ maker = baca.SegmentMaker(
 maker(
     baca.scope('GlobalSkips', (1, -1)),
     baca.rehearsal_mark('W'),
+    baca.tag(
+        '+TABLOID_SCORE',
+        baca.rehearsal_mark_y_offset(6),
+        ),
     )
 
 # brass

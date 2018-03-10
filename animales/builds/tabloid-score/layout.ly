@@ -1520,7 +1520,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 14 30 20 20 20 20 20 30 14 14 14 30 20 20 20 20 20 12))) %! IC:BREAK
+            #'((Y-offset . 15) (alignment-distances . (10 14 30 20 20 20 20 20 28 14 14 14 28 20 20 20 20 12 28))) %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             ^ \markup {
@@ -1739,7 +1739,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 20)))                          %! IC:BREAK
+            #'((Y-offset . 15) (alignment-distances . (10 30 20 20 20 20 20 30 14 14 14 30 20 20 20 20 12 30))) %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1
             ^ \markup {
@@ -1958,7 +1958,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 20)))                          %! IC:BREAK
+            #'((Y-offset . 15) (alignment-distances . (10 14 30 14 30 14 14 30 20 20 20 20 12 30))) %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 3/4
             ^ \markup {
@@ -2231,7 +2231,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 20)))                          %! IC:BREAK
+            #'((Y-offset . 15) (alignment-distances . (10 24 30 14 30 14 30 14 14 30 20 20 20 20 12 30))) %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 3/4
             ^ \markup {
@@ -2396,7 +2396,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 20)))                          %! IC:BREAK
+            #'((Y-offset . 15) (alignment-distances . (10 24 30 14 30 14 30 14 14 30 20 20 20 20 12 30))) %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1
             ^ \markup {
@@ -2588,7 +2588,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 20)))                          %! IC:BREAK
+            #'((Y-offset . 15) (alignment-distances . (10 18 18 30 20 20 20 20 20 20 20 20 30))) %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 3/4
             ^ \markup {
@@ -2915,7 +2915,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 20)))                          %! IC:BREAK
+            #'((Y-offset . 15) (alignment-distances . (10 14 14 30 20 20 20 20 20 30 20 20 20 20 20 20 20 20 30))) %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1
             ^ \markup {
