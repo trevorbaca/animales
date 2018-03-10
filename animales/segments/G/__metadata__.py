@@ -185,7 +185,7 @@ metadata = abjad.OrderedDict(
             ),
         ('first_measure_number', 44),
         ('last_measure_number', 49),
-        ('metronome_mark_spanner_right_broken', True),
+        ('mmspanner_right_broken', True),
         (
             'persistent_indicators',
             abjad.OrderedDict(
