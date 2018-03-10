@@ -12,7 +12,6 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get('last_measure_number')
 assert start == 94
 
-
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -48,7 +47,6 @@ maker = baca.SegmentMaker(
             (2, [3]),
             ],
         ),
-    #time_signatures=animales.time_signatures[start:start + 10],
     time_signatures=animales.time_signatures[start:start + 14],
     transpose_score=True,
     validate_measure_count=14,
@@ -57,6 +55,10 @@ maker = baca.SegmentMaker(
 maker(
     baca.scope('GlobalSkips', (1, -1)),
     baca.rehearsal_mark('O'),
+    baca.tag(
+        '+TABLOID_SCORE',
+        baca.rehearsal_mark_y_offset(6),
+        ),
     )
 
 # double reeds

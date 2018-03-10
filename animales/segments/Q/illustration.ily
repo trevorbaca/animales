@@ -54,7 +54,7 @@ Q_GlobalRests = {
 Q_GlobalSkips = {
     
     % [Q GlobalSkips measure 119]                                        %! SM4
-%%% \once \override GlobalContext.RehearsalMark.extra-offset = #'(0 . 6) %! OC1:+TABLOID_SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #12           %! OC1:+TABLOID_SCORE
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
