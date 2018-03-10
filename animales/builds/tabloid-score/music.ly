@@ -765,7 +765,7 @@
                             \context Staff = "HornStaffI"
                             \Q_HornStaffI
                             \context Staff = "HornStaffI"
-                            \R_GlobalRests
+                            \R_HornStaffI
                             \context Staff = "HornStaffI"
                             \S_GlobalRests
                             \context Staff = "HornStaffI"
@@ -841,7 +841,7 @@
                             \context Staff = "HornStaffII"
                             \Q_HornStaffII
                             \context Staff = "HornStaffII"
-                            \R_GlobalRests
+                            \R_HornStaffII
                             \context Staff = "HornStaffII"
                             \S_GlobalRests
                             \context Staff = "HornStaffII"
@@ -924,7 +924,7 @@
                             \context Staff = "TrumpetStaffI"
                             \Q_TrumpetStaffI
                             \context Staff = "TrumpetStaffI"
-                            \R_GlobalRests
+                            \R_TrumpetStaffI
                             \context Staff = "TrumpetStaffI"
                             \S_GlobalRests
                             \context Staff = "TrumpetStaffI"
@@ -1000,7 +1000,7 @@
                             \context Staff = "TrumpetStaffII"
                             \Q_TrumpetStaffII
                             \context Staff = "TrumpetStaffII"
-                            \R_GlobalRests
+                            \R_TrumpetStaffII
                             \context Staff = "TrumpetStaffII"
                             \S_GlobalRests
                             \context Staff = "TrumpetStaffII"
@@ -1083,7 +1083,7 @@
                             \context Staff = "TromboneStaffI"
                             \Q_TromboneStaffI
                             \context Staff = "TromboneStaffI"
-                            \R_GlobalRests
+                            \R_TromboneStaffI
                             \context Staff = "TromboneStaffI"
                             \S_GlobalRests
                             \context Staff = "TromboneStaffI"
@@ -1159,7 +1159,7 @@
                             \context Staff = "TromboneStaffII"
                             \Q_TromboneStaffII
                             \context Staff = "TromboneStaffII"
-                            \R_GlobalRests
+                            \R_TromboneStaffII
                             \context Staff = "TromboneStaffII"
                             \S_GlobalRests
                             \context Staff = "TromboneStaffII"
@@ -1238,7 +1238,7 @@
                             \context Staff = "TubaStaffI"
                             \Q_GlobalRests
                             \context Staff = "TubaStaffI"
-                            \R_GlobalRests
+                            \R_TubaStaffI
                             \context Staff = "TubaStaffI"
                             \S_GlobalRests
                             \context Staff = "TubaStaffI"
@@ -1314,7 +1314,7 @@
                         \context Staff = "PianoStaffI"
                         \Q_GlobalRests
                         \context Staff = "PianoStaffI"
-                        \R_GlobalRests
+                        \R_PianoStaffI
                         \context Staff = "PianoStaffI"
                         \S_GlobalRests
                         \context Staff = "PianoStaffI"
@@ -1468,7 +1468,7 @@
                         \context Staff = "PercussionStaffI"
                         \Q_GlobalRests
                         \context Staff = "PercussionStaffI"
-                        \R_GlobalRests
+                        \R_PercussionStaffI
                         \context Staff = "PercussionStaffI"
                         \S_GlobalRests
                         \context Staff = "PercussionStaffI"
@@ -1544,7 +1544,7 @@
                         \context Staff = "PercussionStaffII"
                         \Q_GlobalRests
                         \context Staff = "PercussionStaffII"
-                        \R_GlobalRests
+                        \R_PercussionStaffII
                         \context Staff = "PercussionStaffII"
                         \S_GlobalRests
                         \context Staff = "PercussionStaffII"
@@ -1620,7 +1620,7 @@
                         \context Staff = "PercussionStaffIII"
                         \Q_GlobalRests
                         \context Staff = "PercussionStaffIII"
-                        \R_GlobalRests
+                        \R_PercussionStaffIII
                         \context Staff = "PercussionStaffIII"
                         \S_GlobalRests
                         \context Staff = "PercussionStaffIII"
@@ -1696,7 +1696,7 @@
                         \context Staff = "PercussionStaffIV"
                         \Q_GlobalRests
                         \context Staff = "PercussionStaffIV"
-                        \R_GlobalRests
+                        \R_PercussionStaffIV
                         \context Staff = "PercussionStaffIV"
                         \S_GlobalRests
                         \context Staff = "PercussionStaffIV"

@@ -28,6 +28,60 @@
             >>
             \context MusicContext = "MusicContext"
             <<
+                \context StaffGroup = "BrassStaffGroup"
+                <<
+                    \context StaffGroup = "HornSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "HornStaffI"
+                        \R_HornStaffI
+                        \context Staff = "HornStaffII"
+                        \R_HornStaffII
+                    >>
+                    \context StaffGroup = "TrumpetSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "TrumpetStaffI"
+                        \R_TrumpetStaffI
+                        \context Staff = "TrumpetStaffII"
+                        \R_TrumpetStaffII
+                    >>
+                    \context StaffGroup = "TromboneSquareStaffGroup"
+                    \with
+                    {
+                        systemStartDelimiter = #'SystemStartSquare
+                    }
+                    <<
+                        \context Staff = "TromboneStaffI"
+                        \R_TromboneStaffI
+                        \context Staff = "TromboneStaffII"
+                        \R_TromboneStaffII
+                    >>
+                    \context Staff = "TubaStaffI"
+                    \R_TubaStaffI
+                >>
+                \context StaffGroup = "PianoPianoStaff"
+                <<
+                    \context Staff = "PianoStaffI"
+                    \R_PianoStaffI
+                >>
+                \context StaffGroup = "PercussionStaffGroup"
+                <<
+                    \context Staff = "PercussionStaffI"
+                    \R_PercussionStaffI
+                    \context Staff = "PercussionStaffII"
+                    \R_PercussionStaffII
+                    \context Staff = "PercussionStaffIII"
+                    \R_PercussionStaffIII
+                    \context Staff = "PercussionStaffIV"
+                    \R_PercussionStaffIV
+                >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
                     \context StaffGroup = "FirstViolinSquareStaffGroup"

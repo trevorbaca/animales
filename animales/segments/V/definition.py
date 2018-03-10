@@ -121,3 +121,24 @@ maker(
 # strings
 
 animales.constellations(maker, [[1, -17], [1, -17], [1, -17]]) 
+
+## new staff magnification
+#
+#for voice in (
+#    'HornVoiceI',
+#    'HornVoiceII',
+#    'TrumpetVoiceI',
+#    'TrumpetVoiceII',
+#    'TromboneVoiceI',
+#    'TromboneVoiceII',
+#    'TubaVoiceI',
+#    'PianoVoiceI',
+#    'PercussionVoiceI',
+#    'PercussionVoiceII',
+#    'PercussionVoiceIII',
+#    'PercussionVoiceIV',
+#    ):
+#    maker(
+#        baca.scope(voice, 1),
+#        baca.literal(r'\magnifyStaff #1/2'),
+#        )
