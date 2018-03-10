@@ -62,7 +62,7 @@ maker(
     baca.rehearsal_mark('H'),
     baca.tag(
         '+TABLOID_SCORE',
-        baca.rehearsal_mark_y_offset(-4),
+        baca.text_spanner_left_padding(-8),
         ),
     )
 

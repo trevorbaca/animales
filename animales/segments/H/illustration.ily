@@ -24,7 +24,7 @@ H_GlobalRests = {
 H_GlobalSkips = {
     
     % [H GlobalSkips measure 50]                                         %! SM4
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #-4           %! OC1:+TABLOID_SCORE
+%%% \override TextSpanner.bound-details.left.padding = #-8               %! OC1:+TABLOID_SCORE
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -328,6 +328,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
+%%% \revert TextSpanner.bound-details                                    %! OC2:+TABLOID_SCORE
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
     
