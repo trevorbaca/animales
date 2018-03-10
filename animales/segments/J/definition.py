@@ -19,6 +19,7 @@ maker = baca.SegmentMaker(
     measures_per_stage=True,
     metronome_marks=animales.metronome_marks,
     mmspanner_right_broken=True,
+    mmspanner_right_padding=(9, '+TABLOID_SCORE'),
     score_template=animales.ScoreTemplate(
         clarinets=[
             (1, [1]),
@@ -73,7 +74,15 @@ maker(
     baca.rehearsal_mark('J'),
     baca.tag(
         '+TABLOID_SCORE',
+        baca.rehearsal_mark_y_offset(6),
+        ),
+    baca.tag(
+        '+TABLOID_SCORE',
         baca.text_spanner_left_padding(2),
+        ),
+    baca.tag(
+        '+TABLOID_SCORE',
+        baca.text_spanner_y_offset(8),
         ),
     )
 

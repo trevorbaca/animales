@@ -30,7 +30,9 @@ K_GlobalRests = {
 K_GlobalSkips = {
     
     % [K GlobalSkips measure 68]                                         %! SM4
-%%% \once \override GlobalContext.RehearsalMark.extra-offset = #'(0 . 6) %! OC1:+TABLOID_SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6            %! OC1:+TABLOID_SCORE
+%%% \override TextSpanner.bound-details.left.padding = #-8               %! OC1:+TABLOID_SCORE
+%%% \override TextSpanner.Y-offset = #8                                  %! OC1:+TABLOID_SCORE
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -416,6 +418,8 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
+%%% \revert TextSpanner.bound-details                                    %! OC2:+TABLOID_SCORE
+%%% \revert TextSpanner.Y-offset                                         %! OC2:+TABLOID_SCORE
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
     
