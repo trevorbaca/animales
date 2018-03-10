@@ -5,7 +5,7 @@ from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
-#################################### [AC] ######################################
+#################################### [AC] #####################################
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
@@ -18,6 +18,7 @@ metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
 time_signatures = animales.time_signatures[start: start + 9] + ((1, 4),)
 
 maker = baca.SegmentMaker(
+    final_bar_line='|.',
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
     measures_per_stage=True,
@@ -78,6 +79,6 @@ for voice in (
         baca.scope(voice, 1),
         baca.tag(
             '+TABLOID_SCORE',
-            baca.literal(r'\magnifyStaff #1'),
+            baca.literal(r'\magnifyStaff #10/7'),
             )
         )

@@ -205,7 +205,6 @@ breaks = baca.breaks(
     baca.page(
         baca.system(
             time_signatures,
-            #group(99, 7, 7),
             12,
             measure=149,
             y_offset=5,
@@ -223,10 +222,11 @@ breaks = baca.breaks(
         ),
     baca.page(
         baca.system(
-            time_signatures,
-            12,
+            16,
+            staff(24),
+            staff(24),
             measure=165,
-            y_offset=5,
+            y_offset=15,
             ),
         number=18,
         ),
@@ -249,4 +249,4 @@ spacing.override(94, (1, 4))
 spacing.override((95, 109), (1, 10))
 spacing.override((110, 118), (1, 20))
 spacing.override((127, 164), (1, 20))
-spacing.override((165, -1), (1, 40))
+spacing.override((165, -1), (1, 45))
