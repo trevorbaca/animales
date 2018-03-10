@@ -69,3 +69,15 @@ maker(
     baca.staff_position(0),
     baca.repeat_ties_up(),
     )
+
+for voice in (
+    'PercussionVoiceIV',
+    'PianoVoiceI',
+    ):
+    maker(
+        baca.scope(voice, 1),
+        baca.tag(
+            '+TABLOID_SCORE',
+            baca.literal(r'\magnifyStaff #1'),
+            )
+        )

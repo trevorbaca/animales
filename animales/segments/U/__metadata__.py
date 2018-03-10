@@ -1945,6 +1945,26 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'PercussionStaffIV',
+                        [
+                            abjad.Momento(
+                                context='PercussionVoiceIV',
+                                prototype='abjad.Clef',
+                                value='percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceIV',
+                                prototype='abjad.Instrument',
+                                value='Percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceIV',
+                                prototype='abjad.MarginMarkup',
+                                value='Perc.',
+                                ),
+                            ],
+                        ),
+                    (
                         'PercussionVoiceI',
                         [
                             abjad.Momento(
