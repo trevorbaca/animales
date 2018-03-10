@@ -15,7 +15,7 @@ AA_GlobalRests = {
 AA_GlobalSkips = {
     
     % [AA GlobalSkips measure 158]                                       %! SM4
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #-2           %! OC1:+SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6            %! OC1:+TABLOID_SCORE
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@% \markup {                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@%     \fontsize                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36
