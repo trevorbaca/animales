@@ -16,10 +16,35 @@ assert start == 130
 time_signatures = animales.time_signatures[start: start + 3]
 maker = baca.SegmentMaker(
     instruments=animales.instruments,
+    magnify_staves=abjad.Multiplier(1, 2),
     margin_markups=animales.margin_markups,
     measures_per_stage=True,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
+        horns=[
+            (1, [1, 3]),
+            (2, [2, 4]),
+            ],
+        trumpets=[
+            (1, [1, 3]),
+            (2, [2, 4]),
+            ],
+        trombones=[
+            (1, [1, 3]),
+            (2, [2, 4]),
+            ],
+        tuba=[
+            (1, [1]),
+            ],
+        piano=[
+            (1, [1]),
+            ],
+        percussion=[
+            (1, [1]),
+            (2, [2]),
+            (3, [3]),
+            (4, [4]),
+            ],
         first_violins=[
             (1, [1, 2]),
             (2, [3, 4]),
