@@ -1670,9 +1670,9 @@ Q_FirstViolinVoiceI_a = {
                     (5-8)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-    \override DynamicText.transparent = ##t              %! OC1:-PARTS
-    \override Hairpin.transparent = ##t                  %! OC1:-PARTS
-    \override TextSpanner.transparent = ##t              %! OC1:-PARTS
+    \override DynamicText.stencil = ##f                  %! OC1:-PARTS
+    \override Hairpin.stencil = ##f                      %! OC1:-PARTS
+    \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1900,9 +1900,9 @@ Q_FirstViolinVoiceI_a = {
     R1 * 1/2
     \!                                                   %! PCW1
     \stopTextSpan                                        %! PCW1
-    \revert DynamicText.transparent                      %! OC2:-PARTS
-    \revert Hairpin.transparent                          %! OC2:-PARTS
-    \revert TextSpanner.transparent                      %! OC2:-PARTS
+    \revert DynamicText.stencil                          %! OC2:-PARTS
+    \revert Hairpin.stencil                              %! OC2:-PARTS
+    \revert TextSpanner.stencil                          %! OC2:-PARTS
     
 }
 
@@ -2140,9 +2140,9 @@ Q_FirstViolinVoiceIII_a = {
                     (13-17)                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-    \override DynamicText.transparent = ##t              %! OC1:-PARTS
-    \override Hairpin.transparent = ##t                  %! OC1:-PARTS
-    \override TextSpanner.transparent = ##t              %! OC1:-PARTS
+    \override DynamicText.stencil = ##f                  %! OC1:-PARTS
+    \override Hairpin.stencil = ##f                      %! OC1:-PARTS
+    \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -2370,9 +2370,9 @@ Q_FirstViolinVoiceIII_a = {
     R1 * 1/2
     \!                                                   %! PCW1
     \stopTextSpan                                        %! PCW1
-    \revert DynamicText.transparent                      %! OC2:-PARTS
-    \revert Hairpin.transparent                          %! OC2:-PARTS
-    \revert TextSpanner.transparent                      %! OC2:-PARTS
+    \revert DynamicText.stencil                          %! OC2:-PARTS
+    \revert Hairpin.stencil                              %! OC2:-PARTS
+    \revert TextSpanner.stencil                          %! OC2:-PARTS
     
 }
 
@@ -2746,9 +2746,9 @@ Q_SecondViolinVoiceI_a = {
                     (5-8)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-    \override DynamicText.transparent = ##t              %! OC1:-PARTS
-    \override Hairpin.transparent = ##t                  %! OC1:-PARTS
-    \override TextSpanner.transparent = ##t              %! OC1:-PARTS
+    \override DynamicText.stencil = ##f                  %! OC1:-PARTS
+    \override Hairpin.stencil = ##f                      %! OC1:-PARTS
+    \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -2976,9 +2976,9 @@ Q_SecondViolinVoiceI_a = {
     R1 * 1/2
     \!                                                   %! PCW1
     \stopTextSpan                                        %! PCW1
-    \revert DynamicText.transparent                      %! OC2:-PARTS
-    \revert Hairpin.transparent                          %! OC2:-PARTS
-    \revert TextSpanner.transparent                      %! OC2:-PARTS
+    \revert DynamicText.stencil                          %! OC2:-PARTS
+    \revert Hairpin.stencil                              %! OC2:-PARTS
+    \revert TextSpanner.stencil                          %! OC2:-PARTS
     
 }
 
@@ -3216,9 +3216,9 @@ Q_SecondViolinVoiceIII_a = {
                     (13-18)                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-    \override DynamicText.transparent = ##t              %! OC1:-PARTS
-    \override Hairpin.transparent = ##t                  %! OC1:-PARTS
-    \override TextSpanner.transparent = ##t              %! OC1:-PARTS
+    \override DynamicText.stencil = ##f                  %! OC1:-PARTS
+    \override Hairpin.stencil = ##f                      %! OC1:-PARTS
+    \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -3446,9 +3446,9 @@ Q_SecondViolinVoiceIII_a = {
     R1 * 1/2
     \!                                                   %! PCW1
     \stopTextSpan                                        %! PCW1
-    \revert DynamicText.transparent                      %! OC2:-PARTS
-    \revert Hairpin.transparent                          %! OC2:-PARTS
-    \revert TextSpanner.transparent                      %! OC2:-PARTS
+    \revert DynamicText.stencil                          %! OC2:-PARTS
+    \revert Hairpin.stencil                              %! OC2:-PARTS
+    \revert TextSpanner.stencil                          %! OC2:-PARTS
     
 }
 
@@ -3686,9 +3686,9 @@ Q_ViolaVoiceI_a = {
                     (5-8)                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-    \override DynamicText.transparent = ##t              %! OC1:-PARTS
-    \override Hairpin.transparent = ##t                  %! OC1:-PARTS
-    \override TextSpanner.transparent = ##t              %! OC1:-PARTS
+    \override DynamicText.stencil = ##f                  %! OC1:-PARTS
+    \override Hairpin.stencil = ##f                      %! OC1:-PARTS
+    \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
     \clef "alto"                                         %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -3916,9 +3916,9 @@ Q_ViolaVoiceI_a = {
     R1 * 1/2
     \!                                                   %! PCW1
     \stopTextSpan                                        %! PCW1
-    \revert DynamicText.transparent                      %! OC2:-PARTS
-    \revert Hairpin.transparent                          %! OC2:-PARTS
-    \revert TextSpanner.transparent                      %! OC2:-PARTS
+    \revert DynamicText.stencil                          %! OC2:-PARTS
+    \revert Hairpin.stencil                              %! OC2:-PARTS
+    \revert TextSpanner.stencil                          %! OC2:-PARTS
     
 }
 
@@ -4156,9 +4156,9 @@ Q_ViolaVoiceIII_a = {
                     (13-18)                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-    \override DynamicText.transparent = ##t              %! OC1:-PARTS
-    \override Hairpin.transparent = ##t                  %! OC1:-PARTS
-    \override TextSpanner.transparent = ##t              %! OC1:-PARTS
+    \override DynamicText.stencil = ##f                  %! OC1:-PARTS
+    \override Hairpin.stencil = ##f                      %! OC1:-PARTS
+    \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
     \clef "alto"                                         %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -4386,9 +4386,9 @@ Q_ViolaVoiceIII_a = {
     R1 * 1/2
     \!                                                   %! PCW1
     \stopTextSpan                                        %! PCW1
-    \revert DynamicText.transparent                      %! OC2:-PARTS
-    \revert Hairpin.transparent                          %! OC2:-PARTS
-    \revert TextSpanner.transparent                      %! OC2:-PARTS
+    \revert DynamicText.stencil                          %! OC2:-PARTS
+    \revert Hairpin.stencil                              %! OC2:-PARTS
+    \revert TextSpanner.stencil                          %! OC2:-PARTS
     
 }
 
@@ -4626,9 +4626,9 @@ Q_CelloVoiceI_a = {
                     (9-14)                                   %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
-    \override DynamicText.transparent = ##t                  %! OC1:-PARTS
-    \override Hairpin.transparent = ##t                      %! OC1:-PARTS
-    \override TextSpanner.transparent = ##t                  %! OC1:-PARTS
+    \override DynamicText.stencil = ##f                      %! OC1:-PARTS
+    \override Hairpin.stencil = ##f                          %! OC1:-PARTS
+    \override TextSpanner.stencil = ##f                      %! OC1:-PARTS
     \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -4856,9 +4856,9 @@ Q_CelloVoiceI_a = {
     R1 * 1/2
     \!                                                       %! PCW1
     \stopTextSpan                                            %! PCW1
-    \revert DynamicText.transparent                          %! OC2:-PARTS
-    \revert Hairpin.transparent                              %! OC2:-PARTS
-    \revert TextSpanner.transparent                          %! OC2:-PARTS
+    \revert DynamicText.stencil                              %! OC2:-PARTS
+    \revert Hairpin.stencil                                  %! OC2:-PARTS
+    \revert TextSpanner.stencil                              %! OC2:-PARTS
     
 }
 
