@@ -511,7 +511,7 @@ AC_GlobalSkips = {
             }
         }
     \override Score.BarLine.transparent = ##f                            %! SM5
-    \bar "|"                                                             %! SM5
+    \bar "|."                                                            %! SM5
     
 }
 
@@ -532,7 +532,7 @@ AC_PianoVoiceI_a = {
             Pf.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37
     \override NoteHead.style = #'harmonic                    %! OC1
-%%% \magnifyStaff #1                                         %! IC:+TABLOID_SCORE
+%%% \magnifyStaff #10/7                                      %! IC:+TABLOID_SCORE
     \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -660,7 +660,7 @@ AC_PercussionVoiceIV_a = {
                 }                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \override RepeatTie.direction = #up                      %! OC1
-%%% \magnifyStaff #1                                         %! IC:+TABLOID_SCORE
+%%% \magnifyStaff #10/7                                      %! IC:+TABLOID_SCORE
     \clef "percussion"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
