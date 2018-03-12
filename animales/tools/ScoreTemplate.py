@@ -289,45 +289,47 @@ class ScoreTemplate(baca.ScoreTemplate):
         ...     )
         >>> abjad.show(lilypond_file) # doctest: +SKIP
 
-        >>> abjad.f(lilypond_file[abjad.Score])
-        \context Score = "Score"
-        <<
-            \context GlobalContext = "GlobalContext"
+        ..  docs::
+
+            >>> abjad.f(lilypond_file[abjad.Score])
+            \context Score = "Score"
             <<
-                \context GlobalRests = "GlobalRests"
-                {
-                }
-                \context GlobalSkips = "GlobalSkips"
-                {
-                }
-            >>
-            \context MusicContext = "MusicContext"
-            <<
-                \context StaffGroup = "WindStaffGroup"
+                \context GlobalContext = "GlobalContext"
                 <<
-                    \context Staff = "BassoonStaffI"
+                    \context GlobalRests = "GlobalRests"
                     {
-                        \context Voice = "BassoonVoiceI"
-                        {
-                            \set Staff.instrumentName =      %! ST2:-PARTS
-                            \markup {                        %! ST2:-PARTS
-                                \hcenter-in                  %! ST2:-PARTS
-                                    #16                      %! ST2:-PARTS
-                                    Bsn.                     %! ST2:-PARTS
-                                }                            %! ST2:-PARTS
-                            \set Staff.shortInstrumentName = %! ST2:-PARTS
-                            \markup {                        %! ST2:-PARTS
-                                \hcenter-in                  %! ST2:-PARTS
-                                    #16                      %! ST2:-PARTS
-                                    Bsn.                     %! ST2:-PARTS
-                                }                            %! ST2:-PARTS
-                            \clef "bass" %! ST3
-                            s1
-                        }
+                    }
+                    \context GlobalSkips = "GlobalSkips"
+                    {
                     }
                 >>
+                \context MusicContext = "MusicContext"
+                <<
+                    \context StaffGroup = "WindStaffGroup"
+                    <<
+                        \context Staff = "BassoonStaffI"
+                        {
+                            \context Voice = "BassoonVoiceI"
+                            {
+                                \set Staff.instrumentName =      %! ST2:-PARTS
+                                \markup {                        %! ST2:-PARTS
+                                    \hcenter-in                  %! ST2:-PARTS
+                                        #16                      %! ST2:-PARTS
+                                        Bsn.                     %! ST2:-PARTS
+                                    }                            %! ST2:-PARTS
+                                \set Staff.shortInstrumentName = %! ST2:-PARTS
+                                \markup {                        %! ST2:-PARTS
+                                    \hcenter-in                  %! ST2:-PARTS
+                                        #16                      %! ST2:-PARTS
+                                        Bsn.                     %! ST2:-PARTS
+                                    }                            %! ST2:-PARTS
+                                \clef "bass" %! ST3
+                                s1
+                            }
+                        }
+                    >>
+                >>
             >>
-        >>
 
     '''
 
@@ -336,113 +338,24 @@ class ScoreTemplate(baca.ScoreTemplate):
     __documentation_section__ = None
 
     _part_manifest = abjad.PartManifest(
-        ('Piccolo', 'PICC'),
-        ('Flute1', 'FL-1'),
-        ('Flute2', 'FL-2'),
-        ('Flute3', 'FL-3'),
-        ('Oboe1', 'OB-1'),
-        ('Oboe2', 'OB-2'),
-        ('Oboe3', 'OB-3'),
-        ('EnglishHorn', 'EH'),
-        ('Clarinet1', 'CL-1'),
-        ('Clarinet2', 'CL-2'),
-        ('Clarinet3', 'CL-3'),
-        ('BassClarinet', 'BCL'),
-        ('Bassoon1', 'BSN-1'),
-        ('Bassoon2', 'BSN-2'),
-        ('Horn1', 'HN-1'),
-        ('Horn2', 'HN-2'),
-        ('Horn3', 'HN-3'),
-        ('Horn4', 'HN-4'),
-        ('Trumpet1', 'TP-1'),
-        ('Trumpet2', 'TP-2'),
-        ('Trumpet3', 'TP-3'),
-        ('Trumpet4', 'TP-4'),
-        ('Trombone1', 'TBN-1'),
-        ('Trombone2', 'TBN-2'),
-        ('Trombone3', 'TBN-3'),
-        ('Trombone4', 'TBN-4'),
-        ('Tuba', 'TUB'),
-        ('Harp', 'HP'),
-        ('Piano', 'PF'),
-        ('Percussion1', 'PERC-1'),
-        ('Percussion2', 'PERC-2'),
-        ('Percussion3', 'PERC-3'),
-        ('Percussion4', 'PERC-4'),
-        ('FirstViolin01', 'VN-1-1', 'Violin'),
-        ('FirstViolin02', 'VN-1-2', 'Violin'),
-        ('FirstViolin03', 'VN-1-3', 'Violin'),
-        ('FirstViolin04', 'VN-1-4', 'Violin'),
-        ('FirstViolin05', 'VN-1-5', 'Violin'),
-        ('FirstViolin06', 'VN-1-6', 'Violin'),
-        ('FirstViolin07', 'VN-1-7', 'Violin'),
-        ('FirstViolin08', 'VN-1-8', 'Violin'),
-        ('FirstViolin09', 'VN-1-9', 'Violin'),
-        ('FirstViolin10', 'VN-1-10', 'Violin'),
-        ('FirstViolin11', 'VN-1-11', 'Violin'),
-        ('FirstViolin12', 'VN-1-12', 'Violin'),
-        ('FirstViolin13', 'VN-1-13', 'Violin'),
-        ('FirstViolin14', 'VN-1-14', 'Violin'),
-        ('FirstViolin15', 'VN-1-15', 'Violin'),
-        ('FirstViolin16', 'VN-1-16', 'Violin'),
-        ('FirstViolin17', 'VN-1-17', 'Violin'),
-        ('FirstViolin18', 'VN-1-18', 'Violin'),
-        ('SecondViolin01', 'VN-2-1', 'Violin'),
-        ('SecondViolin02', 'VN-2-2', 'Violin'),
-        ('SecondViolin03', 'VN-2-3', 'Violin'),
-        ('SecondViolin04', 'VN-2-4', 'Violin'),
-        ('SecondViolin05', 'VN-2-5', 'Violin'),
-        ('SecondViolin06', 'VN-2-6', 'Violin'),
-        ('SecondViolin07', 'VN-2-7', 'Violin'),
-        ('SecondViolin08', 'VN-2-8', 'Violin'),
-        ('SecondViolin09', 'VN-2-9', 'Violin'),
-        ('SecondViolin10', 'VN-2-10', 'Violin'),
-        ('SecondViolin11', 'VN-2-11', 'Violin'),
-        ('SecondViolin12', 'VN-2-12', 'Violin'),
-        ('SecondViolin13', 'VN-2-13', 'Violin'),
-        ('SecondViolin14', 'VN-2-14', 'Violin'),
-        ('SecondViolin15', 'VN-2-15', 'Violin'),
-        ('SecondViolin16', 'VN-2-16', 'Violin'),
-        ('SecondViolin17', 'VN-2-17', 'Violin'),
-        ('SecondViolin18', 'VN-2-18', 'Violin'),
-        ('Viola01', 'VA-1'),
-        ('Viola02', 'VA-2'),
-        ('Viola03', 'VA-3'),
-        ('Viola04', 'VA-4'),
-        ('Viola05', 'VA-5'),
-        ('Viola06', 'VA-6'),
-        ('Viola07', 'VA-7'),
-        ('Viola08', 'VA-8'),
-        ('Viola09', 'VA-9'),
-        ('Viola10', 'VA-10'),
-        ('Viola11', 'VA-11'),
-        ('Viola12', 'VA-12'),
-        ('Viola13', 'VA-13'),
-        ('Viola14', 'VA-14'),
-        ('Viola15', 'VA-15'),
-        ('Viola16', 'VA-16'),
-        ('Viola17', 'VA-17'),
-        ('Viola18', 'VA-18'),
-        ('Cello01', 'VC-1'),
-        ('Cello02', 'VC-2'),
-        ('Cello03', 'VC-3'),
-        ('Cello04', 'VC-4'),
-        ('Cello05', 'VC-5'),
-        ('Cello06', 'VC-6'),
-        ('Cello07', 'VC-7'),
-        ('Cello08', 'VC-8'),
-        ('Cello09', 'VC-9'),
-        ('Cello10', 'VC-10'),
-        ('Cello11', 'VC-11'),
-        ('Cello12', 'VC-12'),
-        ('Cello13', 'VC-13'),
-        ('Cello14', 'VC-14'),
-        ('Contrabass1', 'CB-1'),
-        ('Contrabass2', 'CB-2'),
-        ('Contrabass3', 'CB-3'),
-        ('Contrabass4', 'CB-4'),
-        ('Contrabass5', 'CB-5'),
-        ('Contrabass6', 'CB-6'),
+        abjad.Section('Flute', 'FL', 5),
+        abjad.Section('Oboe', 'OB', 3),
+        abjad.Section('EnglishHorn', 'EH', 3),
+        abjad.Section('Clarinet', 'CL', 3,),
+        abjad.Section('BassClarinet', 'BCL', 1),
+        abjad.Section('Bassoon1', 'BSN', 2),
+        abjad.Section('Horn', 'HN', 4),
+        abjad.Section('Trumpet', 'TP', 4),
+        abjad.Section('Trombone', 'TBN', 4),
+        abjad.Section('Tuba', 'TUB', 1),
+        abjad.Section('Harp', 'HP', 1),
+        abjad.Section('Piano', 'PF', 1),
+        abjad.Section('Percussion', 'PERC', 4),
+        abjad.Section('FirstViolin', 'VN-1', 18, 'Violin'),
+        abjad.Section('SecondViolin', 'VN-2', 18, 'Violin'),
+        abjad.Section('Viola', 'VA', 18),
+        abjad.Section('Cello', 'VC', 14),
+        abjad.Section('Contrabass', 'CB', 6),
         )
 
     all_music_in_part_containers = True
