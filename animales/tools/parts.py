@@ -7,7 +7,7 @@ import typing
 
 def parts(
     section: str,
-    members: typing.Union[int, list, tuple] = None,
+    token: typing.Union[int, list, tuple] = None,
     ) -> baca.ContainerCommand:
     r'''Designates parts.
 
@@ -30,6 +30,20 @@ def parts(
         >>> animales.parts('Horn', [1, 3])
         PartAssignmentCommand(part_assignment=PartAssignment('Horn', [1, 3]), selector=baca.leaves())
 
+    ..  container:: example
+
+        Raises exception on nonexistent part:
+
+        >>> animales.parts('Horn', 5)
+        Traceback (most recent call last):
+            ...
+        Exception: no Part('Horn', member=5) in part manifest.
+
     '''
-    part_assignment = abjad.PartAssignment(section=section, members=members)
+    part_assignment = abjad.PartAssignment(section=section, token=token)
+    if part_assignment.token is not None:
+        score_template = animales.ScoreTemplate()
+        for part in part_assignment:
+            if part not in score_template.part_manifest.parts:
+                raise Exception(f'no {part!r} in part manifest.')
     return baca.parts(part_assignment)
