@@ -12,7 +12,6 @@ class ScoreTemplate(baca.ScoreTemplate):
     ..  container:: example
 
         >>> template = animales.ScoreTemplate(
-        ...     piccolo=[(1, [1])],
         ...     flutes=[(1, [1, 2]), (2, [3])],
         ...     first_violins=[(1, [1]), (2, [1])],
         ...     second_violins=[(1, [1]), (2, [1])],
@@ -43,26 +42,6 @@ class ScoreTemplate(baca.ScoreTemplate):
             <<
                 \context StaffGroup = "WindStaffGroup"
                 <<
-                    \context Staff = "PiccoloStaffI"
-                    {
-                        \context Voice = "PiccoloVoiceI"
-                        {
-                            \set Staff.instrumentName =      %! ST2:-PARTS
-                            \markup {                        %! ST2:-PARTS
-                                \hcenter-in                  %! ST2:-PARTS
-                                    #16                      %! ST2:-PARTS
-                                    Picc.                    %! ST2:-PARTS
-                                }                            %! ST2:-PARTS
-                            \set Staff.shortInstrumentName = %! ST2:-PARTS
-                            \markup {                        %! ST2:-PARTS
-                                \hcenter-in                  %! ST2:-PARTS
-                                    #16                      %! ST2:-PARTS
-                                    Picc.                    %! ST2:-PARTS
-                                }                            %! ST2:-PARTS
-                            \clef "treble" %! ST3
-                            s1
-                        }
-                    }
                     \context StaffGroup = "FluteSquareStaffGroup"
                     \with
                     {
@@ -338,7 +317,7 @@ class ScoreTemplate(baca.ScoreTemplate):
     __documentation_section__ = None
 
     _part_manifest = abjad.PartManifest(
-        abjad.Section('Flute', 'FL', 5),
+        abjad.Section('Flute', 'FL', 4),
         abjad.Section('Oboe', 'OB', 3),
         abjad.Section('EnglishHorn', 'EH', 3),
         abjad.Section('Clarinet', 'CL', 3,),
@@ -366,7 +345,6 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     def __init__(
         self,
-        piccolo=0,
         flutes=0,
         oboes=0,
         english_horn=0,
@@ -386,7 +364,6 @@ class ScoreTemplate(baca.ScoreTemplate):
         cellos=0,
         contrabasses=0,
         ):
-        self.piccolo = piccolo
         self.flutes = flutes
         self.oboes = oboes
         self.english_horn = english_horn
@@ -415,13 +392,6 @@ class ScoreTemplate(baca.ScoreTemplate):
         global_context = self._make_global_context()
 
         # INSTRUMENTS
-        piccolo_staves = self._make_staves(
-            'Piccolo',
-            self.piccolo,
-            animales.instruments['Piccolo'],
-            animales.margin_markups['Picc.'],
-            abjad.Clef('treble'),
-            )
         flute_staves = self._make_staves(
             'Flute',
             self.flutes,
@@ -554,10 +524,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                 *self.group_families(
                     (
                         'FluteFamily',
-                        self.make_square_staff_group(
-                            'Piccolo',
-                            *piccolo_staves,
-                            ),
                         self.make_square_staff_group(
                             'Flute',
                             *flute_staves,
@@ -722,7 +688,6 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         '''
         dictionary = abjad.OrderedDict([
-            ('Piccolo', [animales.instruments['Piccolo']]),
             ('Flute', [animales.instruments['Flute']]),
             ('Oboe', [animales.instruments['Oboe']]),
             ('EnglishHorn', [animales.instruments['EnglishHorn']]),
@@ -828,26 +793,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                 <<
                     \context StaffGroup = "WindStaffGroup"
                     <<
-                        \context StaffGroup = "FluteFamilySquareStaffGroup"
+                        \context StaffGroup = "FluteSquareStaffGroup"
                         \with
                         {
                             systemStartDelimiter = #'SystemStartSquare
                         }
                         <<
-                            \context StaffGroup = "PiccoloSquareStaffGroup"
-                            \with
-                            {
-                                systemStartDelimiter = #'SystemStartSquare
-                            }
-                            <<
-                            >>
-                            \context StaffGroup = "FluteSquareStaffGroup"
-                            \with
-                            {
-                                systemStartDelimiter = #'SystemStartSquare
-                            }
-                            <<
-                            >>
                         >>
                         \context StaffGroup = "OboeFamilySquareStaffGroup"
                         \with
@@ -983,7 +934,6 @@ class ScoreTemplate(baca.ScoreTemplate):
         '''
         two_staff_token = [(1, [1]), (2, [2])]
         score_template = ScoreTemplate(
-            piccolo=two_staff_token,
             flutes=two_staff_token,
             oboes=two_staff_token,
             english_horn=two_staff_token,
