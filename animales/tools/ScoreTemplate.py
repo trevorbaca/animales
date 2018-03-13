@@ -343,7 +343,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.Section('EnglishHorn', 'EH', 3),
         abjad.Section('Clarinet', 'CL', 3,),
         abjad.Section('BassClarinet', 'BCL', 1),
-        abjad.Section('Bassoon1', 'BSN', 2),
+        abjad.Section('Bassoon', 'BSN', 2),
         abjad.Section('Horn', 'HN', 4),
         abjad.Section('Trumpet', 'TP', 4),
         abjad.Section('Trombone', 'TBN', 4),
