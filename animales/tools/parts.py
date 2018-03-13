@@ -37,7 +37,7 @@ def parts(
         >>> animales.parts('Horn', 5)
         Traceback (most recent call last):
             ...
-        Exception: no Part('Horn', member=5) in part manifest.
+        Exception: no Part(instrument='Horn', member=5, section='Horn') in part manifest.
 
     '''
     part_assignment = abjad.PartAssignment(section=section, token=token)
