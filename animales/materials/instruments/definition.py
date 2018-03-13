@@ -55,10 +55,6 @@ instruments = abjad.InstrumentDictionary([
         abjad.Piano(hide=True),
         ),
     (
-        'Piccolo',
-        abjad.Piccolo(hide=True),
-        ),
-    (
         'Trombone',
         abjad.TenorTrombone(hide=True),
         ),

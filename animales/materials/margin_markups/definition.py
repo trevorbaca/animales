@@ -97,10 +97,6 @@ margin_markups = abjad.OrderedDict([
         _make_margin_markup('Pf.'),
         ),
     (
-        'Picc.',
-        _make_margin_markup('Picc.'),
-        ),
-    (
         'Tp.',
         _make_margin_markup('Tp.'),
         ),
@@ -215,7 +211,7 @@ margin_markups = abjad.OrderedDict([
     ])
 
 for section, count in [
-    ('Fl.', 3),
+    ('Fl.', 4),
     ('Ob.', 3),
     ('Cl.', 3),
     ('Bsn.', 2),
