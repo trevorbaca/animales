@@ -81,5 +81,5 @@ def assign_brass_sforzando_parts(maker):
 
     maker(
         baca.scope('TubaVoiceI', (1, -1)),
-        animales.parts('Tuba', 1),
+        animales.parts('Tuba'),
         )
