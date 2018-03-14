@@ -37,12 +37,12 @@
     \context {
         \GlobalContext
         \remove Time_signature_engraver
-        \override RehearsalMark.font-size = 3
 
-        \override BarNumber.X-offset = 0
+        \override BarNumber.X-offset = -5
         \override BarNumber.Y-offset = 0
         \override BarNumber.font-size = 0
 
+        \override RehearsalMark.font-size = 3
         \override RehearsalMark.self-alignment-X = #left
 
         \override TextSpanner.padding = 8

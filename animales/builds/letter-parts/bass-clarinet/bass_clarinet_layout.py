@@ -3,38 +3,35 @@ import baca
 
 part_abbreviation = 'BCL'
 
-global_context_padding = 0
-first_page_start = 50
-start = 10
-separation = 20
+def make_systems(measure_numbers, between_systems=20):
+    global_context_padding = 0
+    systems = []
+    if measure_numbers[0] == 1:
+        first_page = True
+    else:
+        first_page = False
+    if first_page:
+        top_margin = 50
+    else:
+        top_margin = 10
+    for i, measure_number in enumerate(measure_numbers):
+        y_offset = top_margin + i * between_systems
+        system = baca.system(
+            global_context_padding,
+            measure=measure_number,
+            y_offset=y_offset,
+            )
+        systems.append(system)
+    return systems
+
 breaks = baca.breaks(
     baca.page(
-#        baca.system(
-#            global_context_padding,
-#            measure=1,
-#            y_offset=first_page_start + 0 * separation,
-#            ),
-        [1, first_page_start + 0 * separation, (global_context_padding,)],
-        [11, first_page_start + 1 * separation, (global_context_padding,)],
-        [21, first_page_start + 2 * separation, (global_context_padding,)],
-        [31, first_page_start + 3 * separation, (global_context_padding,)],
-        [41, first_page_start + 4 * separation, (global_context_padding,)],
-        [51, first_page_start + 5 * separation, (global_context_padding,)],
-        [61, first_page_start + 6 * separation, (global_context_padding,)],
-        [71, first_page_start + 7 * separation, (global_context_padding,)],
-        [81, first_page_start + 8 * separation, (global_context_padding,)],
+        *make_systems([1, 11, 21, 31, 41, 51, 61], 24),
         number=1,
         ),
-    baca.page( # 2
-        [91, start + 0 * separation, (global_context_padding,)],
-        [101, start + 1 * separation, (global_context_padding,)],
-        [111, start + 2 * separation, (global_context_padding,)],
-        [121, start + 3 * separation, (global_context_padding,)],
-        [131, start + 4 * separation, (global_context_padding,)],
-        [141, start + 5 * separation, (global_context_padding,)],
-        [151, start + 6 * separation, (global_context_padding,)],
-        [161, start + 7 * separation, (global_context_padding,)],
-        [171, start + 8 * separation, (global_context_padding,)],
+    baca.page(
+        *make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 22),
+        number=2,
         ),
     )
 
@@ -43,5 +40,3 @@ spacing = baca.scorewide_spacing(
     breaks=breaks,
     fallback_duration=(1, 8),
     )
-#spacing.override((20, 29), (1, 16))
-#spacing.override((36, 39), (1, 4))
