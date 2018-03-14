@@ -18,4 +18,4 @@ def margin_markup(
         context=context,
         selector=selector,
         )
-    return baca.tag('-PARTS', command)
+    return baca.tag(['-PARTS', 'ANIMALES'], command)

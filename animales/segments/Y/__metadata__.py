@@ -824,7 +824,7 @@ metadata = abjad.OrderedDict(
                     (
                         'Y_TubaVoiceI_a',
                         (
-                            abjad.PartAssignment('Tuba', 1),
+                            abjad.PartAssignment('Tuba'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(3, 1),
