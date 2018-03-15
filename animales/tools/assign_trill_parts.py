@@ -18,13 +18,13 @@ def assign_trill_parts(maker, exclude_first_violin=False):
         }
 
     for voice, members in voice_to_members.items():
-        instrument = animales.ScoreTemplate.voice_to_section(voice)
+        section = animales.ScoreTemplate.voice_to_section(voice)
         if voice == 'FirstViolinVoiceI' and exclude_first_violin:
-            command = animales.parts(instrument, (2, 10))
+            command = animales.parts(section, (2, 10))
         elif members == 'all':
-            command = animales.parts(instrument)
+            command = animales.parts(section)
         else:
-            command = animales.parts(instrument, members)
+            command = animales.parts(section, members)
         maker(
             baca.scope(voice, (1, -1)),
             command,
