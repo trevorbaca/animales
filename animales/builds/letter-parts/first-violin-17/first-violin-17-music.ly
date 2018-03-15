@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) first violin 17 part
-% part_abbreviation = None
+% part_abbreviation = 'VN-1'
 
 \version "2.19.80"
 \language "english"
@@ -128,22 +128,36 @@
                     \context Staff = "Staff"
                     {
                         \clef "treble"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
-                        \B_GlobalRests
-                        \C_GlobalRests
-                        \D_GlobalRests
-                        \E_GlobalRests
-                        \F_GlobalRests
-                        \G_GlobalRests
-                        \H_GlobalRests
-                        \I_GlobalRests
-                        \J_GlobalRests
-                        \K_GlobalRests
-                        \L_GlobalRests
+                        \i_FirstViolinVoiceIII_a
+                        \A_FirstViolinVoiceIII_a
+                        \B_FirstViolinVoiceIII_a
+                        \C_FirstViolinVoiceIII_a
+                        \D_FirstViolinVoiceIII_a
+                        \E_FirstViolinVoiceI_a
+                        \F_FirstViolinVoiceI_a
+                        \G_FirstViolinVoiceI_a
+                        \H_FirstViolinVoiceI_a
+                        \I_FirstViolinVoiceI_a
+                        \J_FirstViolinVoiceI_a
+                        \K_FirstViolinVoiceI_a
+                        \L_FirstViolinVoiceI_a
+                        \M_FirstViolinVoiceI_a
+                        \N_FirstViolinVoiceI_a
+                        \O_FirstViolinVoiceIV_a
+                        \P_FirstViolinVoiceIV_a
+                        \Q_FirstViolinVoiceIV_a
+                        \R_FirstViolinVoiceXVII_a
+                        \S_FirstViolinVoiceXVII_a
+                        \T_FirstViolinVoiceXVII_a
+                        \U_FirstViolinVoiceXVII_a
+                        \V_FirstViolinVoiceXVII_a
+                        \W_FirstViolinVoiceXVII_a
+                        \X_FirstViolinVoiceXVII_a
+                        \Y_FirstViolinVoiceXVII_a
+                        \Z_FirstViolinVoiceXVII_a
+                        \AA_FirstViolinVoiceXVII_a
+                        \AB_FirstViolinVoiceXVII_a
+                        \AC_GlobalRests
                     }
                 }
             >>

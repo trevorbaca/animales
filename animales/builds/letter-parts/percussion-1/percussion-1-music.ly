@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) percussion 1 part
-% part_abbreviation = None
+% part_abbreviation = 'PERC'
 
 \version "2.19.80"
 \language "english"
@@ -128,22 +128,36 @@
                     \context Staff = "Staff"
                     {
                         \clef "percussion"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
+                        \i_GlobalRests
+                        \A_GlobalRests
                         \B_GlobalRests
-                        \C_GlobalRests
-                        \D_GlobalRests
-                        \E_GlobalRests
-                        \F_GlobalRests
+                        \C_PercussionVoiceI_a
+                        \D_PercussionVoiceI_a
+                        \E_PercussionVoiceI_a
+                        \F_PercussionVoiceI_a
                         \G_GlobalRests
                         \H_GlobalRests
                         \I_GlobalRests
                         \J_GlobalRests
                         \K_GlobalRests
-                        \L_GlobalRests
+                        \L_PercussionVoiceI_a
+                        \M_PercussionVoiceI_a
+                        \N_PercussionVoiceI_a
+                        \O_GlobalRests
+                        \P_GlobalRests
+                        \Q_GlobalRests
+                        \R_GlobalRests
+                        \S_GlobalRests
+                        \T_GlobalRests
+                        \U_GlobalRests
+                        \V_GlobalRests
+                        \W_GlobalRests
+                        \X_GlobalRests
+                        \Y_GlobalRests
+                        \Z_PercussionVoiceI_a
+                        \AA_PercussionVoiceI_a
+                        \AB_PercussionVoiceI_a
+                        \AC_GlobalRests
                     }
                 }
             >>

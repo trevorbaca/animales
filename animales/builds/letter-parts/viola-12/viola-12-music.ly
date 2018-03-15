@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) viola 12 part
-% part_abbreviation = None
+% part_abbreviation = 'VA'
 
 \version "2.19.80"
 \language "english"
@@ -128,22 +128,36 @@
                     \context Staff = "Staff"
                     {
                         \clef "alto"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
-                        \B_GlobalRests
-                        \C_GlobalRests
-                        \D_GlobalRests
-                        \E_GlobalRests
-                        \F_GlobalRests
-                        \G_GlobalRests
-                        \H_GlobalRests
-                        \I_GlobalRests
-                        \J_GlobalRests
-                        \K_GlobalRests
-                        \L_GlobalRests
+                        \i_ViolaVoiceIII_a
+                        \A_ViolaVoiceIII_a
+                        \B_ViolaVoiceIII_a
+                        \C_ViolaVoiceIII_a
+                        \D_ViolaVoiceIII_a
+                        \E_ViolaVoiceI_a
+                        \F_ViolaVoiceI_a
+                        \G_ViolaVoiceI_a
+                        \H_ViolaVoiceI_a
+                        \I_ViolaVoiceI_a
+                        \J_ViolaVoiceI_a
+                        \K_ViolaVoiceI_a
+                        \L_ViolaVoiceI_a
+                        \M_ViolaVoiceI_a
+                        \N_ViolaVoiceI_a
+                        \O_ViolaVoiceIII_a
+                        \P_ViolaVoiceIII_a
+                        \Q_ViolaVoiceIII_a
+                        \R_ViolaVoiceXII_a
+                        \S_ViolaVoiceXII_a
+                        \T_ViolaVoiceXII_a
+                        \U_ViolaVoiceXII_a
+                        \V_ViolaVoiceXII_a
+                        \W_ViolaVoiceXII_a
+                        \X_ViolaVoiceXII_a
+                        \Y_ViolaVoiceXII_a
+                        \Z_ViolaVoiceXII_a
+                        \AA_ViolaVoiceXII_a
+                        \AB_ViolaVoiceXII_a
+                        \AC_GlobalRests
                     }
                 }
             >>

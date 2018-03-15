@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) second violin 13 part
-% part_abbreviation = None
+% part_abbreviation = 'VN-2'
 
 \version "2.19.80"
 \language "english"
@@ -128,22 +128,36 @@
                     \context Staff = "Staff"
                     {
                         \clef "treble"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
-                        \B_GlobalRests
-                        \C_GlobalRests
-                        \D_GlobalRests
-                        \E_GlobalRests
-                        \F_GlobalRests
-                        \G_GlobalRests
-                        \H_GlobalRests
-                        \I_GlobalRests
-                        \J_GlobalRests
-                        \K_GlobalRests
-                        \L_GlobalRests
+                        \i_SecondViolinVoiceIII_a
+                        \A_SecondViolinVoiceIII_a
+                        \B_SecondViolinVoiceIII_a
+                        \C_SecondViolinVoiceIII_a
+                        \D_SecondViolinVoiceIII_a
+                        \E_SecondViolinVoiceI_a
+                        \F_SecondViolinVoiceI_a
+                        \G_SecondViolinVoiceI_a
+                        \H_SecondViolinVoiceI_a
+                        \I_SecondViolinVoiceI_a
+                        \J_SecondViolinVoiceI_a
+                        \K_SecondViolinVoiceI_a
+                        \L_SecondViolinVoiceI_a
+                        \M_SecondViolinVoiceI_a
+                        \N_SecondViolinVoiceI_a
+                        \O_SecondViolinVoiceIV_a
+                        \P_SecondViolinVoiceIV_a
+                        \Q_SecondViolinVoiceIV_a
+                        \R_SecondViolinVoiceXIII_a
+                        \S_SecondViolinVoiceXIII_a
+                        \T_SecondViolinVoiceXIII_a
+                        \U_SecondViolinVoiceXIII_a
+                        \V_SecondViolinVoiceXIII_a
+                        \W_SecondViolinVoiceXIII_a
+                        \X_SecondViolinVoiceXIII_a
+                        \Y_SecondViolinVoiceXIII_a
+                        \Z_SecondViolinVoiceXIII_a
+                        \AA_SecondViolinVoiceXIII_a
+                        \AB_SecondViolinVoiceXIII_a
+                        \AC_GlobalRests
                     }
                 }
             >>

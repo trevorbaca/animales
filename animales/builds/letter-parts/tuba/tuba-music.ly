@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) tuba part
-% part_abbreviation = None
+% part_abbreviation = 'TUB'
 
 \version "2.19.80"
 \language "english"
@@ -128,13 +128,10 @@
                     \context Staff = "Staff"
                     {
                         \clef "bass"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
+                        \i_GlobalRests
+                        \A_GlobalRests
                         \B_GlobalRests
-                        \C_GlobalRests
+                        \C_TubaVoiceI_a
                         \D_GlobalRests
                         \E_GlobalRests
                         \F_GlobalRests
@@ -144,6 +141,23 @@
                         \J_GlobalRests
                         \K_GlobalRests
                         \L_GlobalRests
+                        \M_GlobalRests
+                        \N_GlobalRests
+                        \O_GlobalRests
+                        \P_GlobalRests
+                        \Q_GlobalRests
+                        \R_GlobalRests
+                        \S_GlobalRests
+                        \T_GlobalRests
+                        \U_GlobalRests
+                        \V_TubaVoiceI_a
+                        \W_TubaVoiceI_a
+                        \X_TubaVoiceI_a
+                        \Y_TubaVoiceI_a
+                        \Z_GlobalRests
+                        \AA_GlobalRests
+                        \AB_GlobalRests
+                        \AC_GlobalRests
                     }
                 }
             >>

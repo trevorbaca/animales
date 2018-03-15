@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) first violin 9 part
-% part_abbreviation = None
+% part_abbreviation = 'VN-1'
 
 \version "2.19.80"
 \language "english"
@@ -128,22 +128,37 @@
                     \context Staff = "Staff"
                     {
                         \clef "treble"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
-                        \B_GlobalRests
-                        \C_GlobalRests
-                        \D_GlobalRests
-                        \E_GlobalRests
-                        \F_GlobalRests
-                        \G_GlobalRests
-                        \H_GlobalRests
-                        \I_GlobalRests
-                        \J_GlobalRests
-                        \K_GlobalRests
-                        \L_GlobalRests
+                        \i_FirstViolinVoiceI_a
+                        \A_FirstViolinVoiceI_a
+                        \B_FirstViolinVoiceI_a
+                        \C_FirstViolinVoiceI_a
+                        \C_FirstViolinVoiceI_b
+                        \D_FirstViolinVoiceI_a
+                        \E_FirstViolinVoiceI_a
+                        \F_FirstViolinVoiceI_a
+                        \G_FirstViolinVoiceI_a
+                        \H_FirstViolinVoiceI_a
+                        \I_FirstViolinVoiceI_a
+                        \J_FirstViolinVoiceI_a
+                        \K_FirstViolinVoiceI_a
+                        \L_FirstViolinVoiceI_a
+                        \M_FirstViolinVoiceI_a
+                        \N_FirstViolinVoiceI_a
+                        \O_FirstViolinVoiceIII_a
+                        \P_FirstViolinVoiceIII_a
+                        \Q_FirstViolinVoiceIII_a
+                        \R_FirstViolinVoiceIX_a
+                        \S_FirstViolinVoiceIX_a
+                        \T_FirstViolinVoiceIX_a
+                        \U_FirstViolinVoiceIX_a
+                        \V_FirstViolinVoiceIX_a
+                        \W_FirstViolinVoiceIX_a
+                        \X_FirstViolinVoiceIX_a
+                        \Y_FirstViolinVoiceIX_a
+                        \Z_FirstViolinVoiceIX_a
+                        \AA_FirstViolinVoiceIX_a
+                        \AB_FirstViolinVoiceIX_a
+                        \AC_GlobalRests
                     }
                 }
             >>

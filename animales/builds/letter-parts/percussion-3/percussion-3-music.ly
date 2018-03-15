@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) percussion 3 part
-% part_abbreviation = None
+% part_abbreviation = 'PERC'
 
 \version "2.19.80"
 \language "english"
@@ -128,22 +128,36 @@
                     \context Staff = "Staff"
                     {
                         \clef "percussion"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
+                        \i_GlobalRests
+                        \A_GlobalRests
                         \B_GlobalRests
                         \C_GlobalRests
                         \D_GlobalRests
                         \E_GlobalRests
-                        \F_GlobalRests
-                        \G_GlobalRests
-                        \H_GlobalRests
-                        \I_GlobalRests
-                        \J_GlobalRests
-                        \K_GlobalRests
-                        \L_GlobalRests
+                        \F_PercussionVoiceIII_a
+                        \G_PercussionVoiceIII_a
+                        \H_PercussionVoiceIII_a
+                        \I_PercussionVoiceIII_a
+                        \J_PercussionVoiceIII_a
+                        \K_PercussionVoiceIII_a
+                        \L_PercussionVoiceIII_a
+                        \M_PercussionVoiceIII_a
+                        \N_PercussionVoiceIII_a
+                        \O_GlobalRests
+                        \P_GlobalRests
+                        \Q_GlobalRests
+                        \R_GlobalRests
+                        \S_GlobalRests
+                        \T_GlobalRests
+                        \U_GlobalRests
+                        \V_GlobalRests
+                        \W_GlobalRests
+                        \X_PercussionVoiceIII_a
+                        \Y_PercussionVoiceIII_a
+                        \Z_PercussionVoiceIII_a
+                        \AA_PercussionVoiceIII_a
+                        \AB_GlobalRests
+                        \AC_GlobalRests
                     }
                 }
             >>

@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) contrabass 3 part
-% part_abbreviation = None
+% part_abbreviation = 'CB'
 
 \version "2.19.80"
 \language "english"
@@ -128,22 +128,36 @@
                     \context Staff = "Staff"
                     {
                         \clef "bass"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
+                        \i_GlobalRests
+                        \A_GlobalRests
                         \B_GlobalRests
-                        \C_GlobalRests
-                        \D_GlobalRests
-                        \E_GlobalRests
-                        \F_GlobalRests
-                        \G_GlobalRests
-                        \H_GlobalRests
-                        \I_GlobalRests
-                        \J_GlobalRests
-                        \K_GlobalRests
-                        \L_GlobalRests
+                        \C_ContrabassVoiceIII_a
+                        \D_ContrabassVoiceIII_a
+                        \E_ContrabassVoiceIII_a
+                        \F_ContrabassVoiceIII_a
+                        \G_ContrabassVoiceIII_a
+                        \H_ContrabassVoiceIII_a
+                        \I_ContrabassVoiceIII_a
+                        \J_ContrabassVoiceIII_a
+                        \K_ContrabassVoiceIII_a
+                        \L_ContrabassVoiceIII_a
+                        \M_ContrabassVoiceIII_a
+                        \N_ContrabassVoiceIII_a
+                        \O_ContrabassVoiceIII_a
+                        \P_ContrabassVoiceIII_a
+                        \Q_GlobalRests
+                        \R_ContrabassVoiceIII_a
+                        \S_ContrabassVoiceIII_a
+                        \T_ContrabassVoiceIII_a
+                        \U_ContrabassVoiceIII_a
+                        \V_ContrabassVoiceIII_a
+                        \W_ContrabassVoiceIII_a
+                        \X_ContrabassVoiceIII_a
+                        \Y_ContrabassVoiceIII_a
+                        \Z_ContrabassVoiceIII_a
+                        \AA_GlobalRests
+                        \AB_GlobalRests
+                        \AC_GlobalRests
                     }
                 }
             >>

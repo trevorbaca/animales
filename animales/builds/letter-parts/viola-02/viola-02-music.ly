@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) viola 2 part
-% part_abbreviation = None
+% part_abbreviation = 'VA'
 
 \version "2.19.80"
 \language "english"
@@ -128,22 +128,36 @@
                     \context Staff = "Staff"
                     {
                         \clef "alto"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
-                        \B_GlobalRests
-                        \C_GlobalRests
-                        \D_GlobalRests
-                        \E_GlobalRests
-                        \F_GlobalRests
-                        \G_GlobalRests
-                        \H_GlobalRests
-                        \I_GlobalRests
-                        \J_GlobalRests
-                        \K_GlobalRests
-                        \L_GlobalRests
+                        \i_ViolaVoiceI_a
+                        \A_ViolaVoiceI_a
+                        \B_ViolaVoiceI_a
+                        \C_ViolaVoiceI_a
+                        \D_ViolaVoiceI_a
+                        \E_ViolaVoiceI_a
+                        \F_ViolaVoiceI_a
+                        \G_ViolaVoiceI_a
+                        \H_ViolaVoiceI_a
+                        \I_ViolaVoiceI_a
+                        \J_ViolaVoiceI_a
+                        \K_ViolaVoiceI_a
+                        \L_ViolaVoiceI_a
+                        \M_ViolaVoiceI_a
+                        \N_ViolaVoiceI_a
+                        \O_ViolaVoiceI_a
+                        \P_ViolaVoiceI_a
+                        \Q_ViolaVoiceI_a
+                        \R_ViolaVoiceII_a
+                        \S_ViolaVoiceII_a
+                        \T_ViolaVoiceII_a
+                        \U_ViolaVoiceII_a
+                        \V_ViolaVoiceII_a
+                        \W_ViolaVoiceII_a
+                        \X_ViolaVoiceII_a
+                        \Y_ViolaVoiceII_a
+                        \Z_ViolaVoiceII_a
+                        \AA_ViolaVoiceII_a
+                        \AB_ViolaVoiceII_a
+                        \AC_GlobalRests
                     }
                 }
             >>
