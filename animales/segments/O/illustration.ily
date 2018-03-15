@@ -2019,6 +2019,7 @@ O_SecondViolinVoiceI_a = {
                     (5-8)                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
+    \override RepeatTie.direction = #up                  %! OC1
     \override DynamicText.stencil = ##f                  %! OC1:-PARTS
     \override Hairpin.stencil = ##f                      %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
@@ -2182,6 +2183,7 @@ O_SecondViolinVoiceI_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
+    \revert RepeatTie.direction                          %! OC2
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
@@ -3431,6 +3433,7 @@ O_CelloVoiceI_a = {
                     (9-14)                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
                 }                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
+    \override RepeatTie.direction = #up                      %! OC1
     \override DynamicText.stencil = ##f                      %! OC1:-PARTS
     \override Hairpin.stencil = ##f                          %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                      %! OC1:-PARTS
@@ -3594,6 +3597,7 @@ O_CelloVoiceI_a = {
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
+    \revert RepeatTie.direction                              %! OC2
     \revert DynamicText.stencil                              %! OC2:-PARTS
     \revert Hairpin.stencil                                  %! OC2:-PARTS
     \revert TextSpanner.stencil                              %! OC2:-PARTS

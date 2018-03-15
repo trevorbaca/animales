@@ -314,6 +314,16 @@ def lower_voice_suite(n=5):
         baca.not_parts(baca.text_spanner_staff_padding(n)),
         ])
 
+# repeat ties
+
+maker(
+    baca.scopes(
+        ('SecondViolinVoiceI', (1, -1)),
+        ('CelloVoiceI', (1, -1)),
+        ),
+    baca.repeat_ties_up(),
+    )
+
 # solo violin
 
 maker(

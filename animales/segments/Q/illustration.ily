@@ -2807,6 +2807,7 @@ Q_SecondViolinVoiceI_a = {
     R1 * 1/4
     
     % [Q SecondViolinVoiceI measure 122]                 %! SM4
+    \override RepeatTie.direction = #up                  %! OC1
     \once \override Hairpin.circled-tip = ##t            %! PCW1
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
@@ -2970,6 +2971,7 @@ Q_SecondViolinVoiceI_a = {
     \stopTextSpan                                        %! PCW1
     \>                                                   %! PCW1
     \startTextSpan                                       %! PCW1
+    \revert RepeatTie.direction                          %! OC2
     
     % [Q SecondViolinVoiceI measure 130]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -4687,6 +4689,7 @@ Q_CelloVoiceI_a = {
     R1 * 1/4
     
     % [Q CelloVoiceI measure 122]                            %! SM4
+    \override RepeatTie.direction = #up                      %! OC1
     \once \override Hairpin.circled-tip = ##t                %! PCW1
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
@@ -4850,6 +4853,7 @@ Q_CelloVoiceI_a = {
     \stopTextSpan                                            %! PCW1
     \>                                                       %! PCW1
     \startTextSpan                                           %! PCW1
+    \revert RepeatTie.direction                              %! OC2
     
     % [Q CelloVoiceI measure 130]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
