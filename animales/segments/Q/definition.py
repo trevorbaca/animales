@@ -282,6 +282,16 @@ for voice, items in string_parts.items():
         tremolo('mp'),
         )
 
+# repeat ties
+
+maker(
+    baca.scopes(
+        ('SecondViolinVoiceI', (1, -1)),
+        ('CelloVoiceI', (1, -1)),
+        ),
+    baca.repeat_ties_up(),
+    )
+
 # solo violin
 
 maker(
