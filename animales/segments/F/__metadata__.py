@@ -1047,7 +1047,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('divisions_consumed', 28),
-                                            ('logical_ties_produced', 30),
+                                            ('logical_ties_produced', 31),
                                             ('name', 'harp_exchange_rhythm'),
                                             ('talea_weight_consumed', 168),
                                             ]

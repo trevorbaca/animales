@@ -261,8 +261,18 @@ maker(
 maker(
     baca.scope('ContrabassVoiceI', (1, -1)),
     animales.parts('Contrabass', 1),
-    animales.harp_exchange_rhythm(1),
+    animales.harp_exchange_rhythm(
+        1,
+        division_masks=abjad.silence([1]),
+        no_logical_tie_masks=True,
+        ),
     animales.margin_markup('Cb. 1'),
+    baca.dynamic('p'),
+    baca.pitch('A#1'),
+    )
+
+maker(
+    baca.scope('ContrabassVoiceI', (2, -1)),
     baca.clef('treble'),
     baca.dynamic('mf'),
     baca.laissez_vibrer(),
