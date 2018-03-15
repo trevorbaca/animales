@@ -105,7 +105,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('FirstViolin', 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(5, 2),
+                                stop_offset=abjad.Offset(23, 4),
                                 ),
                             ),
                         ),
