@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) horn 1 part
-% part_identifier = 'HN'
+% part_identifier = 'HN-1'
 
 \version "2.19.80"
 \language "english"
