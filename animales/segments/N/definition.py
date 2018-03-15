@@ -76,6 +76,24 @@ maker(
     baca.not_parts(baca.mmrest_text_extra_offset((0, -4))),
     )
 
+# fermatas (because voices alive in segment do not receive global rests)
+
+#dummy_score = maker.score_template()
+#for voice in abjad.iterate(dummy_score).components(abjad.Voice):
+#    markup = abjad.Markup.musicglyph('scripts.ufermata')
+#    markup = baca.markup(markup, selector=baca.leaf(0))
+#    string = r'\once \override Score.MultiMeasureRest.transparent = ##t'
+#    literal_1 = baca.literal(string)
+#    string = r'\once \override Score.TimeSignature.stencil = ##f'
+#    literal_2 = baca.literal(string)
+#    maker(
+#        baca.scope(voice.name, -1),
+#        baca.only_parts(markup),
+#        baca.only_parts(literal_1),
+#        baca.only_parts(literal_2),
+#        )
+animales.attach_grand_pause_fermatas(maker, measure=-1)
+
 # flutes
 
 maker(
