@@ -993,7 +993,7 @@ metadata = abjad.OrderedDict(
                         'CelloStaffI',
                         [
                             abjad.Momento(
-                                context='CelloVoiceI',
+                                context='CelloVoiceII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1008,7 +1008,7 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (1-2)',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceI',
+                                context='CelloVoiceII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1020,7 +1020,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceI',
+                                context='CelloVoiceII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1030,7 +1030,7 @@ metadata = abjad.OrderedDict(
                         'CelloStaffII',
                         [
                             abjad.Momento(
-                                context='CelloVoiceIII',
+                                context='CelloVoiceIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1045,7 +1045,7 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (3-4)',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceIII',
+                                context='CelloVoiceIV',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1057,7 +1057,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceIII',
+                                context='CelloVoiceIV',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1067,7 +1067,7 @@ metadata = abjad.OrderedDict(
                         'CelloStaffIII',
                         [
                             abjad.Momento(
-                                context='CelloVoiceV',
+                                context='CelloVoiceVI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1082,7 +1082,7 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (5-6)',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceV',
+                                context='CelloVoiceVI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1094,7 +1094,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceV',
+                                context='CelloVoiceVI',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1104,7 +1104,7 @@ metadata = abjad.OrderedDict(
                         'CelloStaffIV',
                         [
                             abjad.Momento(
-                                context='CelloVoiceVII',
+                                context='CelloVoiceVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1119,7 +1119,7 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (7-8)',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceVII',
+                                context='CelloVoiceVIII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1131,7 +1131,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceVII',
+                                context='CelloVoiceVIII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1141,7 +1141,7 @@ metadata = abjad.OrderedDict(
                         'CelloStaffV',
                         [
                             abjad.Momento(
-                                context='CelloVoiceIX',
+                                context='CelloVoiceX',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1156,7 +1156,7 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (9-10)',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceIX',
+                                context='CelloVoiceX',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1168,7 +1168,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceIX',
+                                context='CelloVoiceX',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1178,7 +1178,7 @@ metadata = abjad.OrderedDict(
                         'CelloStaffVI',
                         [
                             abjad.Momento(
-                                context='CelloVoiceXI',
+                                context='CelloVoiceXII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1193,7 +1193,7 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (11-12)',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceXI',
+                                context='CelloVoiceXII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1205,7 +1205,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceXI',
+                                context='CelloVoiceXII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1215,7 +1215,7 @@ metadata = abjad.OrderedDict(
                         'CelloStaffVII',
                         [
                             abjad.Momento(
-                                context='CelloVoiceXIII',
+                                context='CelloVoiceXIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1230,7 +1230,7 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (13-14)',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceXIII',
+                                context='CelloVoiceXIV',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1242,7 +1242,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceXIII',
+                                context='CelloVoiceXIV',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1302,7 +1302,7 @@ metadata = abjad.OrderedDict(
                         'ContrabassStaffI',
                         [
                             abjad.Momento(
-                                context='ContrabassVoiceI',
+                                context='ContrabassVoiceII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1317,7 +1317,7 @@ metadata = abjad.OrderedDict(
                                 value='Cb. (1-2)',
                                 ),
                             abjad.Momento(
-                                context='ContrabassVoiceI',
+                                context='ContrabassVoiceII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1329,7 +1329,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='ContrabassVoiceI',
+                                context='ContrabassVoiceII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1355,18 +1355,6 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='ContrabassVoiceIII',
-                                edition=abjad.Tag('+PARTS'),
-                                prototype='abjad.PersistentOverride',
-                                value=abjad.PersistentOverride(
-                                    after=True,
-                                    attribute='bar_extent',
-                                    context='Staff',
-                                    grob='bar_line',
-                                    value=(-2, 2),
-                                    ),
-                                ),
-                            abjad.Momento(
-                                context='ContrabassVoiceIII',
                                 prototype='baca.StaffLines',
                                 value=5,
                                 ),
@@ -1376,7 +1364,7 @@ metadata = abjad.OrderedDict(
                         'ContrabassStaffIII',
                         [
                             abjad.Momento(
-                                context='ContrabassVoiceV',
+                                context='ContrabassVoiceVI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1391,7 +1379,7 @@ metadata = abjad.OrderedDict(
                                 value='Cb. (5-6)',
                                 ),
                             abjad.Momento(
-                                context='ContrabassVoiceV',
+                                context='ContrabassVoiceVI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1403,7 +1391,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='ContrabassVoiceV',
+                                context='ContrabassVoiceVI',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1463,7 +1451,7 @@ metadata = abjad.OrderedDict(
                         'FirstViolinStaffI',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceI',
+                                context='FirstViolinVoiceII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1478,7 +1466,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (1-2)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceI',
+                                context='FirstViolinVoiceII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1490,7 +1478,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceI',
+                                context='FirstViolinVoiceII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1500,7 +1488,7 @@ metadata = abjad.OrderedDict(
                         'FirstViolinStaffII',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceIII',
+                                context='FirstViolinVoiceIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1515,7 +1503,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (3-4)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceIII',
+                                context='FirstViolinVoiceIV',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1527,7 +1515,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceIII',
+                                context='FirstViolinVoiceIV',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1537,7 +1525,7 @@ metadata = abjad.OrderedDict(
                         'FirstViolinStaffIII',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceV',
+                                context='FirstViolinVoiceVI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1552,7 +1540,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (5-6)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceV',
+                                context='FirstViolinVoiceVI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1564,7 +1552,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceV',
+                                context='FirstViolinVoiceVI',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1574,7 +1562,7 @@ metadata = abjad.OrderedDict(
                         'FirstViolinStaffIV',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceVII',
+                                context='FirstViolinVoiceVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1589,7 +1577,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (7-8)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceVII',
+                                context='FirstViolinVoiceVIII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1601,7 +1589,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceVII',
+                                context='FirstViolinVoiceVIII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1611,7 +1599,7 @@ metadata = abjad.OrderedDict(
                         'FirstViolinStaffIX',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceXVII',
+                                context='FirstViolinVoiceXVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1626,7 +1614,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (17-18)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceXVII',
+                                context='FirstViolinVoiceXVIII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1638,7 +1626,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceXVII',
+                                context='FirstViolinVoiceXVIII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1648,7 +1636,7 @@ metadata = abjad.OrderedDict(
                         'FirstViolinStaffV',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceIX',
+                                context='FirstViolinVoiceX',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1663,7 +1651,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (9-10)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceIX',
+                                context='FirstViolinVoiceX',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1675,7 +1663,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceIX',
+                                context='FirstViolinVoiceX',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1685,7 +1673,7 @@ metadata = abjad.OrderedDict(
                         'FirstViolinStaffVI',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceXI',
+                                context='FirstViolinVoiceXII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1700,7 +1688,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (11-12)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceXI',
+                                context='FirstViolinVoiceXII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1712,7 +1700,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceXI',
+                                context='FirstViolinVoiceXII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1722,7 +1710,7 @@ metadata = abjad.OrderedDict(
                         'FirstViolinStaffVII',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceXIII',
+                                context='FirstViolinVoiceXIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1737,7 +1725,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (13-14)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceXIII',
+                                context='FirstViolinVoiceXIV',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1749,7 +1737,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceXIII',
+                                context='FirstViolinVoiceXIV',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -1759,7 +1747,7 @@ metadata = abjad.OrderedDict(
                         'FirstViolinStaffVIII',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceXV',
+                                context='FirstViolinVoiceXVI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1774,7 +1762,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (15-16)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceXV',
+                                context='FirstViolinVoiceXVI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -1786,7 +1774,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceXV',
+                                context='FirstViolinVoiceXVI',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -2287,7 +2275,7 @@ metadata = abjad.OrderedDict(
                         'SecondViolinStaffI',
                         [
                             abjad.Momento(
-                                context='SecondViolinVoiceI',
+                                context='SecondViolinVoiceII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2302,7 +2290,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (1-2)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceI',
+                                context='SecondViolinVoiceII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -2314,7 +2302,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceI',
+                                context='SecondViolinVoiceII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -2324,7 +2312,7 @@ metadata = abjad.OrderedDict(
                         'SecondViolinStaffII',
                         [
                             abjad.Momento(
-                                context='SecondViolinVoiceIII',
+                                context='SecondViolinVoiceIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2339,7 +2327,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (3-4)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceIII',
+                                context='SecondViolinVoiceIV',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -2351,7 +2339,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceIII',
+                                context='SecondViolinVoiceIV',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -2361,7 +2349,7 @@ metadata = abjad.OrderedDict(
                         'SecondViolinStaffIII',
                         [
                             abjad.Momento(
-                                context='SecondViolinVoiceV',
+                                context='SecondViolinVoiceVI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2376,7 +2364,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (5-6)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceV',
+                                context='SecondViolinVoiceVI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -2388,7 +2376,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceV',
+                                context='SecondViolinVoiceVI',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -2398,7 +2386,7 @@ metadata = abjad.OrderedDict(
                         'SecondViolinStaffIV',
                         [
                             abjad.Momento(
-                                context='SecondViolinVoiceVII',
+                                context='SecondViolinVoiceVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2413,7 +2401,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (7-8)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceVII',
+                                context='SecondViolinVoiceVIII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -2425,7 +2413,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceVII',
+                                context='SecondViolinVoiceVIII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -2435,7 +2423,7 @@ metadata = abjad.OrderedDict(
                         'SecondViolinStaffIX',
                         [
                             abjad.Momento(
-                                context='SecondViolinVoiceXVII',
+                                context='SecondViolinVoiceXVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2450,7 +2438,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (17-18)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceXVII',
+                                context='SecondViolinVoiceXVIII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -2462,7 +2450,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceXVII',
+                                context='SecondViolinVoiceXVIII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -2472,7 +2460,7 @@ metadata = abjad.OrderedDict(
                         'SecondViolinStaffV',
                         [
                             abjad.Momento(
-                                context='SecondViolinVoiceIX',
+                                context='SecondViolinVoiceX',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2487,7 +2475,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (9-10)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceIX',
+                                context='SecondViolinVoiceX',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -2499,7 +2487,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceIX',
+                                context='SecondViolinVoiceX',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -2509,7 +2497,7 @@ metadata = abjad.OrderedDict(
                         'SecondViolinStaffVI',
                         [
                             abjad.Momento(
-                                context='SecondViolinVoiceXI',
+                                context='SecondViolinVoiceXII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2524,7 +2512,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (11-12)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceXI',
+                                context='SecondViolinVoiceXII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -2536,7 +2524,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceXI',
+                                context='SecondViolinVoiceXII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -2546,7 +2534,7 @@ metadata = abjad.OrderedDict(
                         'SecondViolinStaffVII',
                         [
                             abjad.Momento(
-                                context='SecondViolinVoiceXIII',
+                                context='SecondViolinVoiceXIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2561,7 +2549,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (13-14)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceXIII',
+                                context='SecondViolinVoiceXIV',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -2573,7 +2561,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceXIII',
+                                context='SecondViolinVoiceXIV',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -2583,7 +2571,7 @@ metadata = abjad.OrderedDict(
                         'SecondViolinStaffVIII',
                         [
                             abjad.Momento(
-                                context='SecondViolinVoiceXV',
+                                context='SecondViolinVoiceXVI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2598,7 +2586,7 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (15-16)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceXV',
+                                context='SecondViolinVoiceXVI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -2610,7 +2598,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceXV',
+                                context='SecondViolinVoiceXVI',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -2854,7 +2842,7 @@ metadata = abjad.OrderedDict(
                         'ViolaStaffI',
                         [
                             abjad.Momento(
-                                context='ViolaVoiceI',
+                                context='ViolaVoiceII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2869,7 +2857,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (1-2)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceI',
+                                context='ViolaVoiceII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -2881,7 +2869,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceI',
+                                context='ViolaVoiceII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -2891,7 +2879,7 @@ metadata = abjad.OrderedDict(
                         'ViolaStaffII',
                         [
                             abjad.Momento(
-                                context='ViolaVoiceIII',
+                                context='ViolaVoiceIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2906,7 +2894,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (3-4)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceIII',
+                                context='ViolaVoiceIV',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -2918,7 +2906,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceIII',
+                                context='ViolaVoiceIV',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -2928,7 +2916,7 @@ metadata = abjad.OrderedDict(
                         'ViolaStaffIII',
                         [
                             abjad.Momento(
-                                context='ViolaVoiceV',
+                                context='ViolaVoiceVI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2943,7 +2931,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (5-6)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceV',
+                                context='ViolaVoiceVI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -2955,7 +2943,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceV',
+                                context='ViolaVoiceVI',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -2965,7 +2953,7 @@ metadata = abjad.OrderedDict(
                         'ViolaStaffIV',
                         [
                             abjad.Momento(
-                                context='ViolaVoiceVII',
+                                context='ViolaVoiceVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2980,7 +2968,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (7-8)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceVII',
+                                context='ViolaVoiceVIII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -2992,7 +2980,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceVII',
+                                context='ViolaVoiceVIII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -3002,7 +2990,7 @@ metadata = abjad.OrderedDict(
                         'ViolaStaffIX',
                         [
                             abjad.Momento(
-                                context='ViolaVoiceXVII',
+                                context='ViolaVoiceXVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -3017,7 +3005,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (17-18)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceXVII',
+                                context='ViolaVoiceXVIII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -3029,7 +3017,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceXVII',
+                                context='ViolaVoiceXVIII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -3039,7 +3027,7 @@ metadata = abjad.OrderedDict(
                         'ViolaStaffV',
                         [
                             abjad.Momento(
-                                context='ViolaVoiceIX',
+                                context='ViolaVoiceX',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -3054,7 +3042,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (9-10)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceIX',
+                                context='ViolaVoiceX',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -3066,7 +3054,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceIX',
+                                context='ViolaVoiceX',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -3076,7 +3064,7 @@ metadata = abjad.OrderedDict(
                         'ViolaStaffVI',
                         [
                             abjad.Momento(
-                                context='ViolaVoiceXI',
+                                context='ViolaVoiceXII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -3091,7 +3079,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (11-12)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceXI',
+                                context='ViolaVoiceXII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -3103,7 +3091,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceXI',
+                                context='ViolaVoiceXII',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -3113,7 +3101,7 @@ metadata = abjad.OrderedDict(
                         'ViolaStaffVII',
                         [
                             abjad.Momento(
-                                context='ViolaVoiceXIII',
+                                context='ViolaVoiceXIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -3128,7 +3116,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (13-14)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceXIII',
+                                context='ViolaVoiceXIV',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -3140,7 +3128,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceXIII',
+                                context='ViolaVoiceXIV',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -3150,7 +3138,7 @@ metadata = abjad.OrderedDict(
                         'ViolaStaffVIII',
                         [
                             abjad.Momento(
-                                context='ViolaVoiceXV',
+                                context='ViolaVoiceXVI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -3165,7 +3153,7 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (15-16)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceXV',
+                                context='ViolaVoiceXVI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -3177,7 +3165,7 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceXV',
+                                context='ViolaVoiceXVI',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
