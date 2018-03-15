@@ -341,7 +341,15 @@ AB_PercussionVoiceI_a = {
     \revert RepeatTie.direction                              %! OC2
     
     % [AB PercussionVoiceI measure 164]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                              %! IC:+PARTS
+%%%     \whiteout                                            %! IC:+PARTS
+%%%         \upright                                         %! IC:+PARTS
+%%%             \musicglyph                                  %! IC:+PARTS
+%%%                 #"scripts.ufermata"                      %! IC:+PARTS
+%%%     }                                                    %! IC:+PARTS
     
 }
 
@@ -445,7 +453,15 @@ AB_FirstViolinVoiceI_a = {
     r8.
     
     % [AB FirstViolinVoiceI measure 164]                 %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -484,7 +500,15 @@ AB_FirstViolinVoiceII_a = {
     r2.
     
     % [AB FirstViolinVoiceII measure 164]                %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -594,7 +618,15 @@ AB_FirstViolinVoiceIII_a = {
     r2.
     
     % [AB FirstViolinVoiceIII measure 164]               %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -637,7 +669,15 @@ AB_FirstViolinVoiceIV_a = {
     r1
     
     % [AB FirstViolinVoiceIV measure 164]                %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -741,7 +781,15 @@ AB_FirstViolinVoiceV_a = {
     d'16
     
     % [AB FirstViolinVoiceV measure 164]                 %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -784,7 +832,15 @@ AB_FirstViolinVoiceVI_a = {
     r4..
     
     % [AB FirstViolinVoiceVI measure 164]                %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -870,7 +926,15 @@ AB_FirstViolinVoiceVII_a = {
     r2
     
     % [AB FirstViolinVoiceVII measure 164]               %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -918,7 +982,15 @@ AB_FirstViolinVoiceVIII_a = {
     r1
     
     % [AB FirstViolinVoiceVIII measure 164]              %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -998,7 +1070,15 @@ AB_FirstViolinVoiceIX_a = {
     r1
     
     % [AB FirstViolinVoiceIX measure 164]                %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -1050,7 +1130,15 @@ AB_FirstViolinVoiceX_a = {
     r8.
     
     % [AB FirstViolinVoiceX measure 164]                 %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -1140,7 +1228,15 @@ AB_FirstViolinVoiceXI_a = {
     r2
     
     % [AB FirstViolinVoiceXI measure 164]                %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -1186,7 +1282,15 @@ AB_FirstViolinVoiceXII_a = {
     r2.
     
     % [AB FirstViolinVoiceXII measure 164]               %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -1278,7 +1382,15 @@ AB_FirstViolinVoiceXIII_a = {
     r1
     
     % [AB FirstViolinVoiceXIII measure 164]              %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -1322,7 +1434,15 @@ AB_FirstViolinVoiceXIV_a = {
     b16
     
     % [AB FirstViolinVoiceXIV measure 164]               %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -1414,7 +1534,15 @@ AB_FirstViolinVoiceXV_a = {
     r4..
     
     % [AB FirstViolinVoiceXV measure 164]                %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -1466,7 +1594,15 @@ AB_FirstViolinVoiceXVI_a = {
     r4
     
     % [AB FirstViolinVoiceXVI measure 164]               %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -1550,7 +1686,15 @@ AB_FirstViolinVoiceXVII_a = {
     r1
     
     % [AB FirstViolinVoiceXVII measure 164]              %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -1598,7 +1742,15 @@ AB_FirstViolinVoiceXVIII_a = {
     r2.
     
     % [AB FirstViolinVoiceXVIII measure 164]             %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -1698,7 +1850,15 @@ AB_SecondViolinVoiceI_a = {
     r4
     
     % [AB SecondViolinVoiceI measure 164]                %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -1745,7 +1905,15 @@ AB_SecondViolinVoiceII_a = {
     r2
     
     % [AB SecondViolinVoiceII measure 164]               %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -1849,7 +2017,15 @@ AB_SecondViolinVoiceIII_a = {
     r2.
     
     % [AB SecondViolinVoiceIII measure 164]              %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -1898,7 +2074,15 @@ AB_SecondViolinVoiceIV_a = {
     }
     
     % [AB SecondViolinVoiceIV measure 164]               %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -1986,7 +2170,15 @@ AB_SecondViolinVoiceV_a = {
     r1
     
     % [AB SecondViolinVoiceV measure 164]                %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2028,7 +2220,15 @@ AB_SecondViolinVoiceVI_a = {
     r2
     
     % [AB SecondViolinVoiceVI measure 164]               %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2126,7 +2326,15 @@ AB_SecondViolinVoiceVII_a = {
     r4
     
     % [AB SecondViolinVoiceVII measure 164]              %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2172,7 +2380,15 @@ AB_SecondViolinVoiceVIII_a = {
     r1
     
     % [AB SecondViolinVoiceVIII measure 164]             %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2256,7 +2472,15 @@ AB_SecondViolinVoiceIX_a = {
     r2..
     
     % [AB SecondViolinVoiceIX measure 164]               %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2308,7 +2532,15 @@ AB_SecondViolinVoiceX_a = {
     r8.
     
     % [AB SecondViolinVoiceX measure 164]                %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2390,7 +2622,15 @@ AB_SecondViolinVoiceXI_a = {
     r2.
     
     % [AB SecondViolinVoiceXI measure 164]               %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2446,7 +2686,15 @@ AB_SecondViolinVoiceXII_a = {
     r2.
     
     % [AB SecondViolinVoiceXII measure 164]              %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2532,7 +2780,15 @@ AB_SecondViolinVoiceXIII_a = {
     r1
     
     % [AB SecondViolinVoiceXIII measure 164]             %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2582,7 +2838,15 @@ AB_SecondViolinVoiceXIV_a = {
     b16
     
     % [AB SecondViolinVoiceXIV measure 164]              %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2670,7 +2934,15 @@ AB_SecondViolinVoiceXV_a = {
     r4..
     
     % [AB SecondViolinVoiceXV measure 164]               %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2716,7 +2988,15 @@ AB_SecondViolinVoiceXVI_a = {
     r2
     
     % [AB SecondViolinVoiceXVI measure 164]              %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2804,7 +3084,15 @@ AB_SecondViolinVoiceXVII_a = {
     r1
     
     % [AB SecondViolinVoiceXVII measure 164]             %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2844,7 +3132,15 @@ AB_SecondViolinVoiceXVIII_a = {
     r1
     
     % [AB SecondViolinVoiceXVIII measure 164]            %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2950,7 +3246,15 @@ AB_ViolaVoiceI_a = {
     r8.
     
     % [AB ViolaVoiceI measure 164]                       %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -2997,7 +3301,15 @@ AB_ViolaVoiceII_a = {
     r2
     
     % [AB ViolaVoiceII measure 164]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -3097,7 +3409,15 @@ AB_ViolaVoiceIII_a = {
     r2.
     
     % [AB ViolaVoiceIII measure 164]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -3146,7 +3466,15 @@ AB_ViolaVoiceIV_a = {
     r1
     
     % [AB ViolaVoiceIV measure 164]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -3230,7 +3558,15 @@ AB_ViolaVoiceV_a = {
     d'16
     
     % [AB ViolaVoiceV measure 164]                       %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -3282,7 +3618,15 @@ AB_ViolaVoiceVI_a = {
     r4..
     
     % [AB ViolaVoiceVI measure 164]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -3374,7 +3718,15 @@ AB_ViolaVoiceVII_a = {
     r4
     
     % [AB ViolaVoiceVII measure 164]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -3418,7 +3770,15 @@ AB_ViolaVoiceVIII_a = {
     r1
     
     % [AB ViolaVoiceVIII measure 164]                    %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -3506,7 +3866,15 @@ AB_ViolaVoiceIX_a = {
     r2.
     
     % [AB ViolaVoiceIX measure 164]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -3552,7 +3920,15 @@ AB_ViolaVoiceX_a = {
     r4
     
     % [AB ViolaVoiceX measure 164]                       %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -3642,7 +4018,15 @@ AB_ViolaVoiceXI_a = {
     r2
     
     % [AB ViolaVoiceXI measure 164]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -3692,7 +4076,15 @@ AB_ViolaVoiceXII_a = {
     r2.
     
     % [AB ViolaVoiceXII measure 164]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -3784,7 +4176,15 @@ AB_ViolaVoiceXIII_a = {
     }
     
     % [AB ViolaVoiceXIII measure 164]                    %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -3832,7 +4232,15 @@ AB_ViolaVoiceXIV_a = {
     r1
     
     % [AB ViolaVoiceXIV measure 164]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -3914,7 +4322,15 @@ AB_ViolaVoiceXV_a = {
     r2
     
     % [AB ViolaVoiceXV measure 164]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -3972,7 +4388,15 @@ AB_ViolaVoiceXVI_a = {
     r4
     
     % [AB ViolaVoiceXVI measure 164]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -4058,7 +4482,15 @@ AB_ViolaVoiceXVII_a = {
     r1
     
     % [AB ViolaVoiceXVII measure 164]                    %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -4102,7 +4534,15 @@ AB_ViolaVoiceXVIII_a = {
     r2..
     
     % [AB ViolaVoiceXVIII measure 164]                   %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -4208,7 +4648,15 @@ AB_CelloVoiceI_a = {
     r8.
     
     % [AB CelloVoiceI measure 164]                       %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -4247,7 +4695,15 @@ AB_CelloVoiceII_a = {
     r2.
     
     % [AB CelloVoiceII measure 164]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -4343,7 +4799,15 @@ AB_CelloVoiceIII_a = {
     r2.
     
     % [AB CelloVoiceIII measure 164]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -4389,7 +4853,15 @@ AB_CelloVoiceIV_a = {
     r1
     
     % [AB CelloVoiceIV measure 164]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -4479,7 +4951,15 @@ AB_CelloVoiceV_a = {
     d'16
     
     % [AB CelloVoiceV measure 164]                       %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -4527,7 +5007,15 @@ AB_CelloVoiceVI_a = {
     r4..
     
     % [AB CelloVoiceVI measure 164]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -4613,7 +5101,15 @@ AB_CelloVoiceVII_a = {
     r2
     
     % [AB CelloVoiceVII measure 164]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -4661,7 +5157,15 @@ AB_CelloVoiceVIII_a = {
     r1
     
     % [AB CelloVoiceVIII measure 164]                    %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -4741,7 +5245,15 @@ AB_CelloVoiceIX_a = {
     r1
     
     % [AB CelloVoiceIX measure 164]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -4793,7 +5305,15 @@ AB_CelloVoiceX_a = {
     r8.
     
     % [AB CelloVoiceX measure 164]                       %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -4883,7 +5403,15 @@ AB_CelloVoiceXI_a = {
     r2
     
     % [AB CelloVoiceXI measure 164]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -4929,7 +5457,15 @@ AB_CelloVoiceXII_a = {
     r2.
     
     % [AB CelloVoiceXII measure 164]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -5021,7 +5557,15 @@ AB_CelloVoiceXIII_a = {
     r1
     
     % [AB CelloVoiceXIII measure 164]                    %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 
@@ -5065,7 +5609,15 @@ AB_CelloVoiceXIV_a = {
     b16
     
     % [AB CelloVoiceXIV measure 164]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
 }
 

@@ -46,6 +46,8 @@ maker(
         ),
     )
 
+animales.attach_grand_pause_fermatas(maker, measure=-1)
+
 # piano
 
 maker(

@@ -84,6 +84,8 @@ maker(
         ),
     )
 
+animales.attach_grand_pause_fermatas(maker, measure=-1)
+
 # percussion
 
 # triangle
