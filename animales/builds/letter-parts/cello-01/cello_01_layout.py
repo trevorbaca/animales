@@ -25,7 +25,7 @@ def make_systems(measure_numbers, between_systems=20, after_global_context=0):
 
 breaks = baca.breaks(
     baca.page(
-        *make_systems([1, 9, 17, 25, 33, 41, 49], 28, 4),
+        *make_systems([1, 9, 16, 24, 33, 41, 49], 24, 4),
         number=1,
         ),
     baca.page(
@@ -33,7 +33,7 @@ breaks = baca.breaks(
         number=2,
         ),
     baca.page(
-        *make_systems([128, 131, 141, 151, 161, 171], 30, 4),
+        *make_systems([127, 132, 137, 142, 147, 152, 157, 162, 167], 22, 4),
         number=3,
         ),
     )
@@ -43,3 +43,4 @@ spacing = baca.scorewide_spacing(
     breaks=breaks,
     fallback_duration=(1, 8),
     )
+spacing.override((127, -1), (1, 16))
