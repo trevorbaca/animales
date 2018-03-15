@@ -1315,24 +1315,24 @@ O_FirstViolinVoiceI_a = {
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
+    
+    % [O FirstViolinVoiceI measure 105]                  %! SM4
+    R1 * 3/4
+    
+    % [O FirstViolinVoiceI measure 106]                  %! SM4
+    R1 * 3/4
+    
+    % [O FirstViolinVoiceI measure 107]                  %! SM4
+    R1 * 1
+    
+    % [O FirstViolinVoiceI measure 108]                  %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_FirstViolinVoiceI = {
     \O_FirstViolinVoiceI_a
-    
-    % [O FirstViolinVoiceI measure 105]                      %! SM4
-    R1 * 3/4
-    
-    % [O FirstViolinVoiceI measure 106]                      %! SM4
-    R1 * 3/4
-    
-    % [O FirstViolinVoiceI measure 107]                      %! SM4
-    R1 * 1
-    
-    % [O FirstViolinVoiceI measure 108]                      %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -1448,24 +1448,24 @@ O_FirstViolinVoiceII_a = {
     -\accent                                             %! IC
     \repeatTie
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
+    
+    % [O FirstViolinVoiceII measure 105]                 %! SM4
+    R1 * 3/4
+    
+    % [O FirstViolinVoiceII measure 106]                 %! SM4
+    R1 * 3/4
+    
+    % [O FirstViolinVoiceII measure 107]                 %! SM4
+    R1 * 1
+    
+    % [O FirstViolinVoiceII measure 108]                 %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_FirstViolinVoiceII = {
     \O_FirstViolinVoiceII_a
-    
-    % [O FirstViolinVoiceII measure 105]                     %! SM4
-    R1 * 3/4
-    
-    % [O FirstViolinVoiceII measure 106]                     %! SM4
-    R1 * 3/4
-    
-    % [O FirstViolinVoiceII measure 107]                     %! SM4
-    R1 * 1
-    
-    % [O FirstViolinVoiceII measure 108]                     %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -1668,24 +1668,24 @@ O_FirstViolinVoiceIII_a = {
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
+    
+    % [O FirstViolinVoiceIII measure 105]                %! SM4
+    R1 * 3/4
+    
+    % [O FirstViolinVoiceIII measure 106]                %! SM4
+    R1 * 3/4
+    
+    % [O FirstViolinVoiceIII measure 107]                %! SM4
+    R1 * 1
+    
+    % [O FirstViolinVoiceIII measure 108]                %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_FirstViolinVoiceIII = {
     \O_FirstViolinVoiceIII_a
-    
-    % [O FirstViolinVoiceIII measure 105]                    %! SM4
-    R1 * 3/4
-    
-    % [O FirstViolinVoiceIII measure 106]                    %! SM4
-    R1 * 3/4
-    
-    % [O FirstViolinVoiceIII measure 107]                    %! SM4
-    R1 * 1
-    
-    % [O FirstViolinVoiceIII measure 108]                    %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -1801,24 +1801,24 @@ O_FirstViolinVoiceIV_a = {
     -\accent                                             %! IC
     \repeatTie
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
+    
+    % [O FirstViolinVoiceIV measure 105]                 %! SM4
+    R1 * 3/4
+    
+    % [O FirstViolinVoiceIV measure 106]                 %! SM4
+    R1 * 3/4
+    
+    % [O FirstViolinVoiceIV measure 107]                 %! SM4
+    R1 * 1
+    
+    % [O FirstViolinVoiceIV measure 108]                 %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_FirstViolinVoiceIV = {
     \O_FirstViolinVoiceIV_a
-    
-    % [O FirstViolinVoiceIV measure 105]                     %! SM4
-    R1 * 3/4
-    
-    % [O FirstViolinVoiceIV measure 106]                     %! SM4
-    R1 * 3/4
-    
-    % [O FirstViolinVoiceIV measure 107]                     %! SM4
-    R1 * 1
-    
-    % [O FirstViolinVoiceIV measure 108]                     %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -2185,24 +2185,24 @@ O_SecondViolinVoiceI_a = {
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
+    
+    % [O SecondViolinVoiceI measure 105]                 %! SM4
+    R1 * 3/4
+    
+    % [O SecondViolinVoiceI measure 106]                 %! SM4
+    R1 * 3/4
+    
+    % [O SecondViolinVoiceI measure 107]                 %! SM4
+    R1 * 1
+    
+    % [O SecondViolinVoiceI measure 108]                 %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_SecondViolinVoiceI = {
     \O_SecondViolinVoiceI_a
-    
-    % [O SecondViolinVoiceI measure 105]                     %! SM4
-    R1 * 3/4
-    
-    % [O SecondViolinVoiceI measure 106]                     %! SM4
-    R1 * 3/4
-    
-    % [O SecondViolinVoiceI measure 107]                     %! SM4
-    R1 * 1
-    
-    % [O SecondViolinVoiceI measure 108]                     %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -2318,24 +2318,24 @@ O_SecondViolinVoiceII_a = {
     -\accent                                             %! IC
     \repeatTie
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
+    
+    % [O SecondViolinVoiceII measure 105]                %! SM4
+    R1 * 3/4
+    
+    % [O SecondViolinVoiceII measure 106]                %! SM4
+    R1 * 3/4
+    
+    % [O SecondViolinVoiceII measure 107]                %! SM4
+    R1 * 1
+    
+    % [O SecondViolinVoiceII measure 108]                %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_SecondViolinVoiceII = {
     \O_SecondViolinVoiceII_a
-    
-    % [O SecondViolinVoiceII measure 105]                    %! SM4
-    R1 * 3/4
-    
-    % [O SecondViolinVoiceII measure 106]                    %! SM4
-    R1 * 3/4
-    
-    % [O SecondViolinVoiceII measure 107]                    %! SM4
-    R1 * 1
-    
-    % [O SecondViolinVoiceII measure 108]                    %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -2538,24 +2538,24 @@ O_SecondViolinVoiceIII_a = {
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
+    
+    % [O SecondViolinVoiceIII measure 105]               %! SM4
+    R1 * 3/4
+    
+    % [O SecondViolinVoiceIII measure 106]               %! SM4
+    R1 * 3/4
+    
+    % [O SecondViolinVoiceIII measure 107]               %! SM4
+    R1 * 1
+    
+    % [O SecondViolinVoiceIII measure 108]               %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_SecondViolinVoiceIII = {
     \O_SecondViolinVoiceIII_a
-    
-    % [O SecondViolinVoiceIII measure 105]                   %! SM4
-    R1 * 3/4
-    
-    % [O SecondViolinVoiceIII measure 106]                   %! SM4
-    R1 * 3/4
-    
-    % [O SecondViolinVoiceIII measure 107]                   %! SM4
-    R1 * 1
-    
-    % [O SecondViolinVoiceIII measure 108]                   %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -2671,24 +2671,24 @@ O_SecondViolinVoiceIV_a = {
     -\accent                                             %! IC
     \repeatTie
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
+    
+    % [O SecondViolinVoiceIV measure 105]                %! SM4
+    R1 * 3/4
+    
+    % [O SecondViolinVoiceIV measure 106]                %! SM4
+    R1 * 3/4
+    
+    % [O SecondViolinVoiceIV measure 107]                %! SM4
+    R1 * 1
+    
+    % [O SecondViolinVoiceIV measure 108]                %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_SecondViolinVoiceIV = {
     \O_SecondViolinVoiceIV_a
-    
-    % [O SecondViolinVoiceIV measure 105]                    %! SM4
-    R1 * 3/4
-    
-    % [O SecondViolinVoiceIV measure 106]                    %! SM4
-    R1 * 3/4
-    
-    % [O SecondViolinVoiceIV measure 107]                    %! SM4
-    R1 * 1
-    
-    % [O SecondViolinVoiceIV measure 108]                    %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -2891,24 +2891,24 @@ O_ViolaVoiceI_a = {
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
+    
+    % [O ViolaVoiceI measure 105]                        %! SM4
+    R1 * 3/4
+    
+    % [O ViolaVoiceI measure 106]                        %! SM4
+    R1 * 3/4
+    
+    % [O ViolaVoiceI measure 107]                        %! SM4
+    R1 * 1
+    
+    % [O ViolaVoiceI measure 108]                        %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_ViolaVoiceI = {
     \O_ViolaVoiceI_a
-    
-    % [O ViolaVoiceI measure 105]                            %! SM4
-    R1 * 3/4
-    
-    % [O ViolaVoiceI measure 106]                            %! SM4
-    R1 * 3/4
-    
-    % [O ViolaVoiceI measure 107]                            %! SM4
-    R1 * 1
-    
-    % [O ViolaVoiceI measure 108]                            %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -3024,24 +3024,24 @@ O_ViolaVoiceII_a = {
     -\accent                                             %! IC
     \repeatTie
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
+    
+    % [O ViolaVoiceII measure 105]                       %! SM4
+    R1 * 3/4
+    
+    % [O ViolaVoiceII measure 106]                       %! SM4
+    R1 * 3/4
+    
+    % [O ViolaVoiceII measure 107]                       %! SM4
+    R1 * 1
+    
+    % [O ViolaVoiceII measure 108]                       %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_ViolaVoiceII = {
     \O_ViolaVoiceII_a
-    
-    % [O ViolaVoiceII measure 105]                           %! SM4
-    R1 * 3/4
-    
-    % [O ViolaVoiceII measure 106]                           %! SM4
-    R1 * 3/4
-    
-    % [O ViolaVoiceII measure 107]                           %! SM4
-    R1 * 1
-    
-    % [O ViolaVoiceII measure 108]                           %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -3244,24 +3244,24 @@ O_ViolaVoiceIII_a = {
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
+    
+    % [O ViolaVoiceIII measure 105]                      %! SM4
+    R1 * 3/4
+    
+    % [O ViolaVoiceIII measure 106]                      %! SM4
+    R1 * 3/4
+    
+    % [O ViolaVoiceIII measure 107]                      %! SM4
+    R1 * 1
+    
+    % [O ViolaVoiceIII measure 108]                      %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_ViolaVoiceIII = {
     \O_ViolaVoiceIII_a
-    
-    % [O ViolaVoiceIII measure 105]                          %! SM4
-    R1 * 3/4
-    
-    % [O ViolaVoiceIII measure 106]                          %! SM4
-    R1 * 3/4
-    
-    % [O ViolaVoiceIII measure 107]                          %! SM4
-    R1 * 1
-    
-    % [O ViolaVoiceIII measure 108]                          %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -3377,24 +3377,24 @@ O_ViolaVoiceIV_a = {
     -\accent                                             %! IC
     \repeatTie
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
+    
+    % [O ViolaVoiceIV measure 105]                       %! SM4
+    R1 * 3/4
+    
+    % [O ViolaVoiceIV measure 106]                       %! SM4
+    R1 * 3/4
+    
+    % [O ViolaVoiceIV measure 107]                       %! SM4
+    R1 * 1
+    
+    % [O ViolaVoiceIV measure 108]                       %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_ViolaVoiceIV = {
     \O_ViolaVoiceIV_a
-    
-    % [O ViolaVoiceIV measure 105]                           %! SM4
-    R1 * 3/4
-    
-    % [O ViolaVoiceIV measure 106]                           %! SM4
-    R1 * 3/4
-    
-    % [O ViolaVoiceIV measure 107]                           %! SM4
-    R1 * 1
-    
-    % [O ViolaVoiceIV measure 108]                           %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -3597,24 +3597,24 @@ O_CelloVoiceI_a = {
     \revert DynamicText.stencil                              %! OC2:-PARTS
     \revert Hairpin.stencil                                  %! OC2:-PARTS
     \revert TextSpanner.stencil                              %! OC2:-PARTS
+    
+    % [O CelloVoiceI measure 105]                            %! SM4
+    R1 * 3/4
+    
+    % [O CelloVoiceI measure 106]                            %! SM4
+    R1 * 3/4
+    
+    % [O CelloVoiceI measure 107]                            %! SM4
+    R1 * 1
+    
+    % [O CelloVoiceI measure 108]                            %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_CelloVoiceI = {
     \O_CelloVoiceI_a
-    
-    % [O CelloVoiceI measure 105]                                %! SM4
-    R1 * 3/4
-    
-    % [O CelloVoiceI measure 106]                                %! SM4
-    R1 * 3/4
-    
-    % [O CelloVoiceI measure 107]                                %! SM4
-    R1 * 1
-    
-    % [O CelloVoiceI measure 108]                                %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -3730,24 +3730,24 @@ O_CelloVoiceII_a = {
     -\accent                                                 %! IC
     \repeatTie
     \revert TextSpanner.staff-padding                        %! OC2:-PARTS
+    
+    % [O CelloVoiceII measure 105]                           %! SM4
+    R1 * 3/4
+    
+    % [O CelloVoiceII measure 106]                           %! SM4
+    R1 * 3/4
+    
+    % [O CelloVoiceII measure 107]                           %! SM4
+    R1 * 1
+    
+    % [O CelloVoiceII measure 108]                           %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_CelloVoiceII = {
     \O_CelloVoiceII_a
-    
-    % [O CelloVoiceII measure 105]                               %! SM4
-    R1 * 3/4
-    
-    % [O CelloVoiceII measure 106]                               %! SM4
-    R1 * 3/4
-    
-    % [O CelloVoiceII measure 107]                               %! SM4
-    R1 * 1
-    
-    % [O CelloVoiceII measure 108]                               %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -3923,24 +3923,24 @@ O_ContrabassVoiceIII_a = {
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
+    
+    % [O ContrabassVoiceIII measure 105]                     %! SM4
+    R1 * 3/4
+    
+    % [O ContrabassVoiceIII measure 106]                     %! SM4
+    R1 * 3/4
+    
+    % [O ContrabassVoiceIII measure 107]                     %! SM4
+    R1 * 1
+    
+    % [O ContrabassVoiceIII measure 108]                     %! SM4
+    R1 * 1/2
+    
 }
 
 
 O_ContrabassVoiceIII = {
     \O_ContrabassVoiceIII_a
-    
-    % [O ContrabassVoiceIII measure 105]                         %! SM4
-    R1 * 3/4
-    
-    % [O ContrabassVoiceIII measure 106]                         %! SM4
-    R1 * 3/4
-    
-    % [O ContrabassVoiceIII measure 107]                         %! SM4
-    R1 * 1
-    
-    % [O ContrabassVoiceIII measure 108]                         %! SM4
-    R1 * 1/2
-    
 }
 
 
