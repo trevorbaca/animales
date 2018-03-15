@@ -30,7 +30,7 @@ breaks = baca.breaks(
         number=1,
         ),
     baca.page(
-        *make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 22),
+        *make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 21),
         number=2,
         ),
     )

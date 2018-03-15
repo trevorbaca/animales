@@ -1,7 +1,7 @@
 import baca
 
 
-part_identifier = 'VC'
+part_identifier = 'VC-1'
 
 def make_systems(measure_numbers, between_systems=20, after_global_context=0):
     systems = []

@@ -1,7 +1,7 @@
 import baca
 
 
-part_identifier = 'PERC'
+part_identifier = 'PERC-4'
 
 def make_systems(measure_numbers, between_systems=20):
     global_context_padding = 0
@@ -30,7 +30,7 @@ breaks = baca.breaks(
         number=1,
         ),
     baca.page(
-        *make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 22),
+        *make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 21),
         number=2,
         ),
     )
