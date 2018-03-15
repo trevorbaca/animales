@@ -67,7 +67,7 @@ def constellations(
                 polyphony = lower_voice()
             else:
                 polyphony = upper_voice()
-            if first and member % 2 == 1:
+            if first:
                 command = baca.markup.boxed_lines([
                     'col legno battuti: damp G string with LH; then',
                     'tap G string with wood of bow in rhythm indicated.',
@@ -78,7 +78,9 @@ def constellations(
                 commands.append(command)
                 command = baca.staff_lines(1)
                 commands.append(command)
-                commands.append(baca.clef('percussion'))
+                command = baca.clef('percussion')
+                commands.append(command)
+            if first and member % 2 == 1:
                 abbreviation = section_to_abbreviation[section]
                 key = f'{abbreviation} ({member}-{member+1})'
                 margin_markup = animales.margin_markup(key)

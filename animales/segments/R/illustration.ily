@@ -1382,10 +1382,34 @@ R_FirstViolinVoiceI = {
 R_FirstViolinVoiceII_a = {
     
     % [R FirstViolinVoiceII measure 131]                 %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     \column                          %! IC:+PARTS
+%%%                         {                            %! IC:+PARTS
+%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                         }                            %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceII measure 132]                 %! SM4
     r2
@@ -1519,10 +1543,34 @@ R_FirstViolinVoiceIII = {
 R_FirstViolinVoiceIV_a = {
     
     % [R FirstViolinVoiceIV measure 131]                 %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     \column                          %! IC:+PARTS
+%%%                         {                            %! IC:+PARTS
+%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                         }                            %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceIV measure 132]                 %! SM4
     r2
@@ -1656,8 +1704,32 @@ R_FirstViolinVoiceV = {
 R_FirstViolinVoiceVI_a = {
     
     % [R FirstViolinVoiceVI measure 131]                 %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     \column                          %! IC:+PARTS
+%%%                         {                            %! IC:+PARTS
+%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                         }                            %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceVI measure 132]                 %! SM4
     r2
@@ -1789,13 +1861,44 @@ R_FirstViolinVoiceVII = {
 R_FirstViolinVoiceVIII_a = {
     
     % [R FirstViolinVoiceVIII measure 131]               %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceVIII measure 132]               %! SM4
     r2
@@ -1921,13 +2024,44 @@ R_FirstViolinVoiceIX = {
 R_FirstViolinVoiceX_a = {
     
     % [R FirstViolinVoiceX measure 131]                  %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceX measure 132]                  %! SM4
     r2
@@ -2053,13 +2187,44 @@ R_FirstViolinVoiceXI = {
 R_FirstViolinVoiceXII_a = {
     
     % [R FirstViolinVoiceXII measure 131]                %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceXII measure 132]                %! SM4
     r2
@@ -2185,13 +2350,44 @@ R_FirstViolinVoiceXIII = {
 R_FirstViolinVoiceXIV_a = {
     
     % [R FirstViolinVoiceXIV measure 131]                %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceXIV measure 132]                %! SM4
     r2
@@ -2317,13 +2513,44 @@ R_FirstViolinVoiceXV = {
 R_FirstViolinVoiceXVI_a = {
     
     % [R FirstViolinVoiceXVI measure 131]                %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceXVI measure 132]                %! SM4
     r2
@@ -2449,13 +2676,44 @@ R_FirstViolinVoiceXVII = {
 R_FirstViolinVoiceXVIII_a = {
     
     % [R FirstViolinVoiceXVIII measure 131]              %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceXVIII measure 132]              %! SM4
     r2
@@ -2593,10 +2851,34 @@ R_SecondViolinVoiceI = {
 R_SecondViolinVoiceII_a = {
     
     % [R SecondViolinVoiceII measure 131]                %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     \column                          %! IC:+PARTS
+%%%                         {                            %! IC:+PARTS
+%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                         }                            %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceII measure 132]                %! SM4
     r2
@@ -2740,10 +3022,34 @@ R_SecondViolinVoiceIII = {
 R_SecondViolinVoiceIV_a = {
     
     % [R SecondViolinVoiceIV measure 131]                %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     \column                          %! IC:+PARTS
+%%%                         {                            %! IC:+PARTS
+%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                         }                            %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceIV measure 132]                %! SM4
     r2
@@ -2869,13 +3175,44 @@ R_SecondViolinVoiceV = {
 R_SecondViolinVoiceVI_a = {
     
     % [R SecondViolinVoiceVI measure 131]                %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceVI measure 132]                %! SM4
     r4..
@@ -3003,13 +3340,44 @@ R_SecondViolinVoiceVII = {
 R_SecondViolinVoiceVIII_a = {
     
     % [R SecondViolinVoiceVIII measure 131]              %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceVIII measure 132]              %! SM4
     r2
@@ -3135,13 +3503,44 @@ R_SecondViolinVoiceIX = {
 R_SecondViolinVoiceX_a = {
     
     % [R SecondViolinVoiceX measure 131]                 %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceX measure 132]                 %! SM4
     r2
@@ -3267,13 +3666,44 @@ R_SecondViolinVoiceXI = {
 R_SecondViolinVoiceXII_a = {
     
     % [R SecondViolinVoiceXII measure 131]               %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceXII measure 132]               %! SM4
     r2
@@ -3411,13 +3841,44 @@ R_SecondViolinVoiceXIII = {
 R_SecondViolinVoiceXIV_a = {
     
     % [R SecondViolinVoiceXIV measure 131]               %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceXIV measure 132]               %! SM4
     r2
@@ -3543,13 +4004,44 @@ R_SecondViolinVoiceXV = {
 R_SecondViolinVoiceXVI_a = {
     
     % [R SecondViolinVoiceXVI measure 131]               %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceXVI measure 132]               %! SM4
     r2
@@ -3675,13 +4167,44 @@ R_SecondViolinVoiceXVII = {
 R_SecondViolinVoiceXVIII_a = {
     
     % [R SecondViolinVoiceXVIII measure 131]             %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceXVIII measure 132]             %! SM4
     r2
@@ -3815,10 +4338,34 @@ R_ViolaVoiceI = {
 R_ViolaVoiceII_a = {
     
     % [R ViolaVoiceII measure 131]                       %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     \column                          %! IC:+PARTS
+%%%                         {                            %! IC:+PARTS
+%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                         }                            %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R ViolaVoiceII measure 132]                       %! SM4
     r2
@@ -3952,10 +4499,34 @@ R_ViolaVoiceIII = {
 R_ViolaVoiceIV_a = {
     
     % [R ViolaVoiceIV measure 131]                       %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     \column                          %! IC:+PARTS
+%%%                         {                            %! IC:+PARTS
+%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                         }                            %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R ViolaVoiceIV measure 132]                       %! SM4
     r2
@@ -4081,13 +4652,44 @@ R_ViolaVoiceV = {
 R_ViolaVoiceVI_a = {
     
     % [R ViolaVoiceVI measure 131]                       %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r2
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Viola”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     r8
     
@@ -4223,13 +4825,44 @@ R_ViolaVoiceVII = {
 R_ViolaVoiceVIII_a = {
     
     % [R ViolaVoiceVIII measure 131]                     %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Viola”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R ViolaVoiceVIII measure 132]                     %! SM4
     r2
@@ -4355,13 +4988,44 @@ R_ViolaVoiceIX = {
 R_ViolaVoiceX_a = {
     
     % [R ViolaVoiceX measure 131]                        %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Viola”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R ViolaVoiceX measure 132]                        %! SM4
     r2
@@ -4487,13 +5151,44 @@ R_ViolaVoiceXI = {
 R_ViolaVoiceXII_a = {
     
     % [R ViolaVoiceXII measure 131]                      %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r2
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Viola”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \times 2/3 {
         
         r4
@@ -4627,13 +5322,44 @@ R_ViolaVoiceXIII = {
 R_ViolaVoiceXIV_a = {
     
     % [R ViolaVoiceXIV measure 131]                      %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Viola”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R ViolaVoiceXIV measure 132]                      %! SM4
     r2
@@ -4765,13 +5491,44 @@ R_ViolaVoiceXV = {
 R_ViolaVoiceXVI_a = {
     
     % [R ViolaVoiceXVI measure 131]                      %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Viola”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R ViolaVoiceXVI measure 132]                      %! SM4
     r2
@@ -4897,13 +5654,44 @@ R_ViolaVoiceXVII = {
 R_ViolaVoiceXVIII_a = {
     
     % [R ViolaVoiceXVIII measure 131]                    %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r4
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Viola”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     b16
     
@@ -5043,10 +5831,34 @@ R_CelloVoiceI = {
 R_CelloVoiceII_a = {
     
     % [R CelloVoiceII measure 131]                       %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     \column                          %! IC:+PARTS
+%%%                         {                            %! IC:+PARTS
+%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                         }                            %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R CelloVoiceII measure 132]                       %! SM4
     r2
@@ -5172,13 +5984,44 @@ R_CelloVoiceIII = {
 R_CelloVoiceIV_a = {
     
     % [R CelloVoiceIV measure 131]                       %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Cello”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R CelloVoiceIV measure 132]                       %! SM4
     r2
@@ -5306,13 +6149,44 @@ R_CelloVoiceV = {
 R_CelloVoiceVI_a = {
     
     % [R CelloVoiceVI measure 131]                       %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Cello”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R CelloVoiceVI measure 132]                       %! SM4
     r2
@@ -5438,13 +6312,44 @@ R_CelloVoiceVII = {
 R_CelloVoiceVIII_a = {
     
     % [R CelloVoiceVIII measure 131]                     %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Cello”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R CelloVoiceVIII measure 132]                     %! SM4
     r2
@@ -5570,13 +6475,44 @@ R_CelloVoiceIX = {
 R_CelloVoiceX_a = {
     
     % [R CelloVoiceX measure 131]                        %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Cello”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R CelloVoiceX measure 132]                        %! SM4
     r2
@@ -5706,13 +6642,44 @@ R_CelloVoiceXI = {
 R_CelloVoiceXII_a = {
     
     % [R CelloVoiceXII measure 131]                      %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Cello”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R CelloVoiceXII measure 132]                      %! SM4
     r2
@@ -5838,13 +6805,44 @@ R_CelloVoiceXIII = {
 R_CelloVoiceXIV_a = {
     
     % [R CelloVoiceXIV measure 131]                      %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Cello”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R CelloVoiceXIV measure 132]                      %! SM4
     r2
@@ -5978,8 +6976,32 @@ R_ContrabassVoiceI = {
 R_ContrabassVoiceII_a = {
     
     % [R ContrabassVoiceII measure 131]                  %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     \column                          %! IC:+PARTS
+%%%                         {                            %! IC:+PARTS
+%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                         }                            %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R ContrabassVoiceII measure 132]                  %! SM4
     r2
@@ -6113,8 +7135,32 @@ R_ContrabassVoiceIII = {
 R_ContrabassVoiceIV_a = {
     
     % [R ContrabassVoiceIV measure 131]                  %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     \column                          %! IC:+PARTS
+%%%                         {                            %! IC:+PARTS
+%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                         }                            %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R ContrabassVoiceIV measure 132]                  %! SM4
     r2
@@ -6240,13 +7286,44 @@ R_ContrabassVoiceV = {
 R_ContrabassVoiceVI_a = {
     
     % [R ContrabassVoiceVI measure 131]                  %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
+    \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \once \override Staff.Clef.X-extent = ##f            %! OC1:MEASURE_131:SHIFTED_CLEF
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_131:SHIFTED_CLEF
+    \clef "percussion"                                   %! SM8:EXPLICIT_CLEF:IC
     \voiceTwo                                            %! IC:-PARTS
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Contrabass”)                               %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {
+        \column
+            {
+                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Contrabass”)               %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            %%% \line                                    %! IC:+PARTS
+            %%%     {                                    %! IC:+PARTS
+            %%%         \whiteout                        %! IC:+PARTS
+            %%%             \upright                     %! IC:+PARTS
+            %%%                 \override                %! IC:+PARTS
+            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
+            %%%                     \box                 %! IC:+PARTS
+            %%%                         \column          %! IC:+PARTS
+            %%%                             {            %! IC:+PARTS
+            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                             }            %! IC:+PARTS
+            %%%     }                                    %! IC:+PARTS
+            }
+        }
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R ContrabassVoiceVI measure 132]                  %! SM4
     r2
