@@ -1026,6 +1026,7 @@ M_BassClarinetVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:SM37:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     bf2.
+%@% \repeatTie                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \p                                                   %! HC1
     ^ \markup {
         \column
@@ -1061,23 +1062,23 @@ M_BassClarinetVoiceI_a = {
     
     % [M BassClarinetVoiceI measure 83]                  %! SM4
     bf1
-    \repeatTie
+    \repeatTie                                           %! TCC
     
     % [M BassClarinetVoiceI measure 84]                  %! SM4
     bf2
-    \repeatTie
+    \repeatTie                                           %! TCC
     
     % [M BassClarinetVoiceI measure 85]                  %! SM4
     bf1
-    \repeatTie
+    \repeatTie                                           %! TCC
     
     % [M BassClarinetVoiceI measure 86]                  %! SM4
     bf1
-    \repeatTie
+    \repeatTie                                           %! TCC
     
     % [M BassClarinetVoiceI measure 87]                  %! SM4
     bf1
-    \repeatTie
+    \repeatTie                                           %! TCC
     
 }
 

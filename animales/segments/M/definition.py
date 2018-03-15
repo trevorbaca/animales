@@ -158,6 +158,7 @@ maker(
     baca.hairpin('< p', left_broken=True, selector=baca.pleaf(0)),
     baca.make_repeat_tied_notes(),
     baca.pitch('Ab2'),
+    baca.repeat_tie_to(),
     )
 
 # harp
