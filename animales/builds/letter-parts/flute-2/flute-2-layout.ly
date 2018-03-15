@@ -2387,7 +2387,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 32) (alignment-distances . (0)))                              %! IC:BREAK
+            #'((Y-offset . 31) (alignment-distances . (0)))                              %! IC:BREAK
             \break                                                                       %! IC:BREAK
             s1 * 1
             ^ \markup {
@@ -2687,7 +2687,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 54) (alignment-distances . (0)))                              %! IC:BREAK
+            #'((Y-offset . 52) (alignment-distances . (0)))                              %! IC:BREAK
             \break                                                                       %! IC:BREAK
             s1 * 1
             ^ \markup {
@@ -3014,7 +3014,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 76) (alignment-distances . (0)))                              %! IC:BREAK
+            #'((Y-offset . 73) (alignment-distances . (0)))                              %! IC:BREAK
             \break                                                                       %! IC:BREAK
             s1 * 1
             ^ \markup {
@@ -3287,7 +3287,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 98) (alignment-distances . (0)))                              %! IC:BREAK
+            #'((Y-offset . 94) (alignment-distances . (0)))                              %! IC:BREAK
             \break                                                                       %! IC:BREAK
             s1 * 1/4
             ^ \markup {
@@ -3560,7 +3560,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 120) (alignment-distances . (0)))                             %! IC:BREAK
+            #'((Y-offset . 115) (alignment-distances . (0)))                             %! IC:BREAK
             \break                                                                       %! IC:BREAK
             s1 * 1
             ^ \markup {
@@ -3833,7 +3833,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 142) (alignment-distances . (0)))                             %! IC:BREAK
+            #'((Y-offset . 136) (alignment-distances . (0)))                             %! IC:BREAK
             \break                                                                       %! IC:BREAK
             s1 * 1
             ^ \markup {
@@ -4106,7 +4106,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 164) (alignment-distances . (0)))                             %! IC:BREAK
+            #'((Y-offset . 157) (alignment-distances . (0)))                             %! IC:BREAK
             \break                                                                       %! IC:BREAK
             s1 * 1
             ^ \markup {
@@ -4379,7 +4379,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 186) (alignment-distances . (0)))                             %! IC:BREAK
+            #'((Y-offset . 178) (alignment-distances . (0)))                             %! IC:BREAK
             \break                                                                       %! IC:BREAK
             s1 * 1/2
             ^ \markup {
@@ -4652,7 +4652,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 208) (alignment-distances . (0)))                             %! IC:BREAK
+            #'((Y-offset . 199) (alignment-distances . (0)))                             %! IC:BREAK
             \break                                                                       %! IC:BREAK
             s1 * 3/4
             ^ \markup {
