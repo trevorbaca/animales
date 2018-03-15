@@ -1273,8 +1273,9 @@ R_PercussionStaffIV = {
 R_FirstViolinVoiceI_a = {
     
     % [R FirstViolinVoiceI measure 131]                  %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -1398,8 +1399,9 @@ R_FirstViolinStaffI = <<
 R_FirstViolinVoiceIII_a = {
     
     % [R FirstViolinVoiceIII measure 131]                %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -1521,8 +1523,9 @@ R_FirstViolinStaffII = <<
 R_FirstViolinVoiceV_a = {
     
     % [R FirstViolinVoiceV measure 131]                  %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -1648,8 +1651,9 @@ R_FirstViolinStaffIII = <<
 R_FirstViolinVoiceVII_a = {
     
     % [R FirstViolinVoiceVII measure 131]                %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -1760,8 +1764,9 @@ R_FirstViolinStaffIV = <<
 R_FirstViolinVoiceIX_a = {
     
     % [R FirstViolinVoiceIX measure 131]                 %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -1872,8 +1877,9 @@ R_FirstViolinStaffV = <<
 R_FirstViolinVoiceXI_a = {
     
     % [R FirstViolinVoiceXI measure 131]                 %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -1984,8 +1990,9 @@ R_FirstViolinStaffVI = <<
 R_FirstViolinVoiceXIII_a = {
     
     % [R FirstViolinVoiceXIII measure 131]               %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -2096,8 +2103,9 @@ R_FirstViolinStaffVII = <<
 R_FirstViolinVoiceXV_a = {
     
     % [R FirstViolinVoiceXV measure 131]                 %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -2208,8 +2216,9 @@ R_FirstViolinStaffVIII = <<
 R_FirstViolinVoiceXVII_a = {
     
     % [R FirstViolinVoiceXVII measure 131]               %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -2324,8 +2333,9 @@ R_FirstViolinStaffIX = <<
 R_SecondViolinVoiceI_a = {
     
     % [R SecondViolinVoiceI measure 131]                 %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -2447,8 +2457,9 @@ R_SecondViolinStaffI = <<
 R_SecondViolinVoiceIII_a = {
     
     % [R SecondViolinVoiceIII measure 131]               %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -2580,8 +2591,9 @@ R_SecondViolinStaffII = <<
 R_SecondViolinVoiceV_a = {
     
     % [R SecondViolinVoiceV measure 131]                 %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -2694,8 +2706,9 @@ R_SecondViolinStaffIII = <<
 R_SecondViolinVoiceVII_a = {
     
     % [R SecondViolinVoiceVII measure 131]               %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -2806,8 +2819,9 @@ R_SecondViolinStaffIV = <<
 R_SecondViolinVoiceIX_a = {
     
     % [R SecondViolinVoiceIX measure 131]                %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -2918,8 +2932,9 @@ R_SecondViolinStaffV = <<
 R_SecondViolinVoiceXI_a = {
     
     % [R SecondViolinVoiceXI measure 131]                %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -3042,8 +3057,9 @@ R_SecondViolinStaffVI = <<
 R_SecondViolinVoiceXIII_a = {
     
     % [R SecondViolinVoiceXIII measure 131]              %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -3154,8 +3170,9 @@ R_SecondViolinStaffVII = <<
 R_SecondViolinVoiceXV_a = {
     
     % [R SecondViolinVoiceXV measure 131]                %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -3266,8 +3283,9 @@ R_SecondViolinStaffVIII = <<
 R_SecondViolinVoiceXVII_a = {
     
     % [R SecondViolinVoiceXVII measure 131]              %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -3378,8 +3396,9 @@ R_SecondViolinStaffIX = <<
 R_ViolaVoiceI_a = {
     
     % [R ViolaVoiceI measure 131]                        %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -3501,8 +3520,9 @@ R_ViolaStaffI = <<
 R_ViolaVoiceIII_a = {
     
     % [R ViolaVoiceIII measure 131]                      %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -3624,8 +3644,9 @@ R_ViolaStaffII = <<
 R_ViolaVoiceV_a = {
     
     % [R ViolaVoiceV measure 131]                        %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -3746,8 +3767,9 @@ R_ViolaStaffIII = <<
 R_ViolaVoiceVII_a = {
     
     % [R ViolaVoiceVII measure 131]                      %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -3858,8 +3880,9 @@ R_ViolaStaffIV = <<
 R_ViolaVoiceIX_a = {
     
     % [R ViolaVoiceIX measure 131]                       %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -3970,8 +3993,9 @@ R_ViolaStaffV = <<
 R_ViolaVoiceXI_a = {
     
     % [R ViolaVoiceXI measure 131]                       %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -4090,8 +4114,9 @@ R_ViolaStaffVI = <<
 R_ViolaVoiceXIII_a = {
     
     % [R ViolaVoiceXIII measure 131]                     %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -4202,8 +4227,9 @@ R_ViolaStaffVII = <<
 R_ViolaVoiceXV_a = {
     
     % [R ViolaVoiceXV measure 131]                       %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -4320,8 +4346,9 @@ R_ViolaStaffVIII = <<
 R_ViolaVoiceXVII_a = {
     
     % [R ViolaVoiceXVII measure 131]                     %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -4438,8 +4465,9 @@ R_ViolaStaffIX = <<
 R_CelloVoiceI_a = {
     
     % [R CelloVoiceI measure 131]                        %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -4561,8 +4589,9 @@ R_CelloStaffI = <<
 R_CelloVoiceIII_a = {
     
     % [R CelloVoiceIII measure 131]                      %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -4673,8 +4702,9 @@ R_CelloStaffII = <<
 R_CelloVoiceV_a = {
     
     % [R CelloVoiceV measure 131]                        %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -4787,8 +4817,9 @@ R_CelloStaffIII = <<
 R_CelloVoiceVII_a = {
     
     % [R CelloVoiceVII measure 131]                      %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -4899,8 +4930,9 @@ R_CelloStaffIV = <<
 R_CelloVoiceIX_a = {
     
     % [R CelloVoiceIX measure 131]                       %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -5011,8 +5043,9 @@ R_CelloStaffV = <<
 R_CelloVoiceXI_a = {
     
     % [R CelloVoiceXI measure 131]                       %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -5127,8 +5160,9 @@ R_CelloStaffVI = <<
 R_CelloVoiceXIII_a = {
     
     % [R CelloVoiceXIII measure 131]                     %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -5239,8 +5273,9 @@ R_CelloStaffVII = <<
 R_ContrabassVoiceI_a = {
     
     % [R ContrabassVoiceI measure 131]                   %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -5360,8 +5395,9 @@ R_ContrabassStaffI = <<
 R_ContrabassVoiceIII_a = {
     
     % [R ContrabassVoiceIII measure 131]                 %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -5481,8 +5517,9 @@ R_ContrabassStaffII = <<
 R_ContrabassVoiceV_a = {
     
     % [R ContrabassVoiceV measure 131]                   %! SM4
+%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)      %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:+PARTS
     \stopStaff                                           %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 2     %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1     %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                          %! SM8:EXPLICIT_STAFF_LINES:IC
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES

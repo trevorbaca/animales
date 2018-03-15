@@ -352,16 +352,16 @@ i_FirstViolinVoiceI_a = {
                     (1-10)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
-    \set Staff.instrumentName =                          %! IC:STMK
-    \markup {                                            %! IC:STMK
-        \hcenter-in                                      %! IC:STMK
-            #16                                          %! IC:STMK
-            \center-column                               %! IC:STMK
-                {                                        %! IC:STMK
-                    "Violins I"                          %! IC:STMK
-                    (1-10)                               %! IC:STMK
-                }                                        %! IC:STMK
-        }                                                %! IC:STMK
+    \set Staff.instrumentName =                          %! IC:STMK:-PARTS
+    \markup {                                            %! IC:STMK:-PARTS
+        \hcenter-in                                      %! IC:STMK:-PARTS
+            #16                                          %! IC:STMK:-PARTS
+            \center-column                               %! IC:STMK:-PARTS
+                {                                        %! IC:STMK:-PARTS
+                    "Violins I"                          %! IC:STMK:-PARTS
+                    (1-10)                               %! IC:STMK:-PARTS
+                }                                        %! IC:STMK:-PARTS
+        }                                                %! IC:STMK:-PARTS
     \override TrillSpanner.staff-padding = #4            %! OC1
     \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -481,16 +481,16 @@ i_FirstViolinVoiceIII_a = {
                     (11-18)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
-    \set Staff.instrumentName =                          %! IC:STMK
-    \markup {                                            %! IC:STMK
-        \hcenter-in                                      %! IC:STMK
-            #16                                          %! IC:STMK
-            \center-column                               %! IC:STMK
-                {                                        %! IC:STMK
-                    "Violins I"                          %! IC:STMK
-                    (11-18)                              %! IC:STMK
-                }                                        %! IC:STMK
-        }                                                %! IC:STMK
+    \set Staff.instrumentName =                          %! IC:STMK:-PARTS
+    \markup {                                            %! IC:STMK:-PARTS
+        \hcenter-in                                      %! IC:STMK:-PARTS
+            #16                                          %! IC:STMK:-PARTS
+            \center-column                               %! IC:STMK:-PARTS
+                {                                        %! IC:STMK:-PARTS
+                    "Violins I"                          %! IC:STMK:-PARTS
+                    (11-18)                              %! IC:STMK:-PARTS
+                }                                        %! IC:STMK:-PARTS
+        }                                                %! IC:STMK:-PARTS
     \override TrillSpanner.staff-padding = #6            %! OC1
     \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -623,16 +623,16 @@ i_SecondViolinVoiceI_a = {
                     (1-10)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
-    \set Staff.instrumentName =                          %! IC:STMK
-    \markup {                                            %! IC:STMK
-        \hcenter-in                                      %! IC:STMK
-            #16                                          %! IC:STMK
-            \center-column                               %! IC:STMK
-                {                                        %! IC:STMK
-                    "Violins II"                         %! IC:STMK
-                    (1-10)                               %! IC:STMK
-                }                                        %! IC:STMK
-        }                                                %! IC:STMK
+    \set Staff.instrumentName =                          %! IC:STMK:-PARTS
+    \markup {                                            %! IC:STMK:-PARTS
+        \hcenter-in                                      %! IC:STMK:-PARTS
+            #16                                          %! IC:STMK:-PARTS
+            \center-column                               %! IC:STMK:-PARTS
+                {                                        %! IC:STMK:-PARTS
+                    "Violins II"                         %! IC:STMK:-PARTS
+                    (1-10)                               %! IC:STMK:-PARTS
+                }                                        %! IC:STMK:-PARTS
+        }                                                %! IC:STMK:-PARTS
     \override TrillSpanner.staff-padding = #4            %! OC1
     \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -764,16 +764,16 @@ i_SecondViolinVoiceIII_a = {
                     (11-18)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
-    \set Staff.instrumentName =                          %! IC:STMK
-    \markup {                                            %! IC:STMK
-        \hcenter-in                                      %! IC:STMK
-            #16                                          %! IC:STMK
-            \center-column                               %! IC:STMK
-                {                                        %! IC:STMK
-                    "Violins II"                         %! IC:STMK
-                    (11-18)                              %! IC:STMK
-                }                                        %! IC:STMK
-        }                                                %! IC:STMK
+    \set Staff.instrumentName =                          %! IC:STMK:-PARTS
+    \markup {                                            %! IC:STMK:-PARTS
+        \hcenter-in                                      %! IC:STMK:-PARTS
+            #16                                          %! IC:STMK:-PARTS
+            \center-column                               %! IC:STMK:-PARTS
+                {                                        %! IC:STMK:-PARTS
+                    "Violins II"                         %! IC:STMK:-PARTS
+                    (11-18)                              %! IC:STMK:-PARTS
+                }                                        %! IC:STMK:-PARTS
+        }                                                %! IC:STMK:-PARTS
     \override TrillSpanner.staff-padding = #6            %! OC1
     \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -912,16 +912,16 @@ i_ViolaVoiceI_a = {
                     (1-10)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
-    \set Staff.instrumentName =                          %! IC:STMK
-    \markup {                                            %! IC:STMK
-        \hcenter-in                                      %! IC:STMK
-            #16                                          %! IC:STMK
-            \center-column                               %! IC:STMK
-                {                                        %! IC:STMK
-                    Violas                               %! IC:STMK
-                    (1-10)                               %! IC:STMK
-                }                                        %! IC:STMK
-        }                                                %! IC:STMK
+    \set Staff.instrumentName =                          %! IC:STMK:-PARTS
+    \markup {                                            %! IC:STMK:-PARTS
+        \hcenter-in                                      %! IC:STMK:-PARTS
+            #16                                          %! IC:STMK:-PARTS
+            \center-column                               %! IC:STMK:-PARTS
+                {                                        %! IC:STMK:-PARTS
+                    Violas                               %! IC:STMK:-PARTS
+                    (1-10)                               %! IC:STMK:-PARTS
+                }                                        %! IC:STMK:-PARTS
+        }                                                %! IC:STMK:-PARTS
     \override TrillSpanner.staff-padding = #4            %! OC1
     \clef "alto"                                         %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -1048,16 +1048,16 @@ i_ViolaVoiceIII_a = {
                     (11-18)                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
                 }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
-    \set Staff.instrumentName =                          %! IC:STMK
-    \markup {                                            %! IC:STMK
-        \hcenter-in                                      %! IC:STMK
-            #16                                          %! IC:STMK
-            \center-column                               %! IC:STMK
-                {                                        %! IC:STMK
-                    Violas                               %! IC:STMK
-                    (11-18)                              %! IC:STMK
-                }                                        %! IC:STMK
-        }                                                %! IC:STMK
+    \set Staff.instrumentName =                          %! IC:STMK:-PARTS
+    \markup {                                            %! IC:STMK:-PARTS
+        \hcenter-in                                      %! IC:STMK:-PARTS
+            #16                                          %! IC:STMK:-PARTS
+            \center-column                               %! IC:STMK:-PARTS
+                {                                        %! IC:STMK:-PARTS
+                    Violas                               %! IC:STMK:-PARTS
+                    (11-18)                              %! IC:STMK:-PARTS
+                }                                        %! IC:STMK:-PARTS
+        }                                                %! IC:STMK:-PARTS
     \override TrillSpanner.staff-padding = #4            %! OC1
     \clef "alto"                                         %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -1167,12 +1167,12 @@ i_CelloVoiceI_a = {
             #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
             Vc.                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \set Staff.instrumentName =                              %! IC:STMK
-    \markup {                                                %! IC:STMK
-        \hcenter-in                                          %! IC:STMK
-            #16                                              %! IC:STMK
-            Cellos                                           %! IC:STMK
-        }                                                    %! IC:STMK
+    \set Staff.instrumentName =                              %! IC:STMK:-PARTS
+    \markup {                                                %! IC:STMK:-PARTS
+        \hcenter-in                                          %! IC:STMK:-PARTS
+            #16                                              %! IC:STMK:-PARTS
+            Cellos                                           %! IC:STMK:-PARTS
+        }                                                    %! IC:STMK:-PARTS
     \override TrillSpanner.staff-padding = #4                %! OC1
     \clef "tenor"                                            %! SM8:EXPLICIT_CLEF:IC
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS

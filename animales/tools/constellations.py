@@ -59,13 +59,15 @@ def constellations(
                 wrap,
                 )
             commands.append(rhythm)
-            #commands.append(animales.parts(section, member))
             if member % 2 == 0:
                 polyphony = lower_voice()
             else:
                 polyphony = upper_voice()
             if first and member % 2 == 1:
-                commands.append(baca.staff_lines(2)),
+                command = baca.only_parts(baca.bar_extent_persistent((-2, 2)))
+                commands.append(command)
+                command = baca.staff_lines(1)
+                commands.append(command)
                 suite = baca.suite([
                     baca.clef('percussion'),
                     polyphony,
