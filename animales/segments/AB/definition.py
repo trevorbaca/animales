@@ -5,7 +5,7 @@ from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
-#################################### [AB] ######################################
+##################################### [AB] ####################################
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
@@ -89,8 +89,12 @@ maker(
 # triangle
 
 maker(
-    baca.scope('PercussionVoiceI', (1, 3)),
+    baca.scope('PercussionVoiceI', (1, -1)),
     animales.parts('Percussion', 1),
+    )
+
+maker(
+    baca.scope('PercussionVoiceI', (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie_to(),
