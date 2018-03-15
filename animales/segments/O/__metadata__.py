@@ -451,6 +451,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='ContrabassVoiceIII',
+                                edition=abjad.Tag('+LETTER_PARTS_CB-1'),
                                 prototype='abjad.Clef',
                                 value='bass',
                                 ),
