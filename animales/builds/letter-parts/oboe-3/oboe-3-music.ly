@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) oboe 3 part
-% part_identifier = 'OB'
+% part_identifier = 'OB-3'
 
 \version "2.19.80"
 \language "english"

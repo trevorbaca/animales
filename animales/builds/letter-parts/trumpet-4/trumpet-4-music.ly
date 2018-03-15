@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) trumpet 4 part
-% part_identifier = 'TP'
+% part_identifier = 'TP-4'
 
 \version "2.19.80"
 \language "english"

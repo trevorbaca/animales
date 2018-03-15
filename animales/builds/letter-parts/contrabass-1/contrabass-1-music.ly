@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) contrabass 1 part
-% part_identifier = 'CB'
+% part_identifier = 'CB-1'
 
 \version "2.19.80"
 \language "english"
