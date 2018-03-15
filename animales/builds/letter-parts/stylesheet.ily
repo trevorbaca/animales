@@ -1,12 +1,13 @@
 #(ly:set-option 'relative-includes #t)
 \include "../../stylesheets/stylesheet.ily"
 
-#(set-default-paper-size "arch a")
+#(set-default-paper-size "letter")
 #(set-global-staff-size 14)
 
 \paper {
     left-margin = 20\mm
     markup-system-spacing.minimum-distance = 60
+    right-margin = 15\mm
     top-markup-spacing.minimum-distance = 8
 }
 
@@ -83,5 +84,5 @@
         \override TimeSignature.style = #'numbered
     }
 
-    %ragged-right = ##f
+    ragged-right = ##f
 }
