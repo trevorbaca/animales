@@ -76,6 +76,9 @@ maker(
         ),
     )
 
+animales.attach_grand_pause_fermatas(maker, measure=3)
+animales.attach_grand_pause_fermatas(maker, measure=8)
+
 # brass
 
 # horns

@@ -622,7 +622,15 @@ AC_PianoVoiceI = {
     \AC_PianoVoiceI_a
     
     % [AC PianoVoiceI measure 174]                               %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t     %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f            %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                                  %! IC:+PARTS
+%%%     \whiteout                                                %! IC:+PARTS
+%%%         \upright                                             %! IC:+PARTS
+%%%             \musicglyph                                      %! IC:+PARTS
+%%%                 #"scripts.ufermata"                          %! IC:+PARTS
+%%%     }                                                        %! IC:+PARTS
     
 }
 
@@ -808,7 +816,15 @@ AC_PercussionVoiceIV = {
     R1 * 1
     
     % [AC PercussionVoiceIV measure 174]                         %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t     %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f            %! IC:+PARTS
     R1 * 1/4
+%%% ^ \markup {                                                  %! IC:+PARTS
+%%%     \whiteout                                                %! IC:+PARTS
+%%%         \upright                                             %! IC:+PARTS
+%%%             \musicglyph                                      %! IC:+PARTS
+%%%                 #"scripts.ufermata"                          %! IC:+PARTS
+%%%     }                                                        %! IC:+PARTS
     
 }
 
