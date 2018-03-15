@@ -59,7 +59,7 @@ def constellations(
                 wrap,
                 )
             commands.append(rhythm)
-            commands.append(animales.parts(section, member))
+            #commands.append(animales.parts(section, member))
             if member % 2 == 0:
                 polyphony = lower_voice()
             else:
@@ -80,4 +80,8 @@ def constellations(
             maker(
                 baca.scope(voice, range_),
                 *commands,
+                )
+            maker(
+                baca.scope(voice, (1, -1)),
+                animales.parts(section, member),
                 )
