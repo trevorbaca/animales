@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) flute 2 part
-% part_abbreviation = 'FL_2'
+% part_identifier = 'FL_2'
 
 \version "2.19.80"
 \language "english"

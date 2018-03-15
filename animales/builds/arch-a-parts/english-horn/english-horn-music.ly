@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) english horn part
-% part_abbreviation = 'EH'
+% part_identifier = 'EH'
 
 \version "2.19.80"
 \language "english"

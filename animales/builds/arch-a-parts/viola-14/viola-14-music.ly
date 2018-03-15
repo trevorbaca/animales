@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) viola 14 part
-% part_abbreviation = 'VA_14'
+% part_identifier = 'VA_14'
 
 \version "2.19.80"
 \language "english"

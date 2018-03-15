@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) first violin 12 part
-% part_abbreviation = 'VN_1_12'
+% part_identifier = 'VN_1_12'
 
 \version "2.19.80"
 \language "english"

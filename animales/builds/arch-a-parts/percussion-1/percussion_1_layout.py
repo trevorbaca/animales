@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'PERC_1'
+part_identifier = 'PERC_1'
 
 padding = 6
 start = 50

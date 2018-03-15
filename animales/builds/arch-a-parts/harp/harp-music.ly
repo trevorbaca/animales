@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) harp part
-% part_abbreviation = 'HP'
+% part_identifier = 'HP'
 
 \version "2.19.80"
 \language "english"

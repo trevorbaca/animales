@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'HP'
+part_identifier = 'HP'
 
 def make_systems(measure_numbers, between_systems=20):
     global_context_padding = 0

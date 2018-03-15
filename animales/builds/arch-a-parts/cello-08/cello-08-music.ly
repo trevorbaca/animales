@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) cello 8 part
-% part_abbreviation = 'VC_8'
+% part_identifier = 'VC_8'
 
 \version "2.19.80"
 \language "english"
