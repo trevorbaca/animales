@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) clarinet 1 part
-% part_abbreviation = None
+% part_abbreviation = 'CL'
 
 \version "2.19.80"
 \language "english"
@@ -128,22 +128,36 @@
                     \context Staff = "Staff"
                     {
                         \clef "treble"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
+                        \i_GlobalRests
+                        \A_GlobalRests
                         \B_GlobalRests
                         \C_GlobalRests
                         \D_GlobalRests
                         \E_GlobalRests
-                        \F_GlobalRests
-                        \G_GlobalRests
-                        \H_GlobalRests
+                        \F_ClarinetVoiceI_a
+                        \G_ClarinetVoiceI_a
+                        \H_ClarinetVoiceI_a
                         \I_GlobalRests
                         \J_GlobalRests
-                        \K_GlobalRests
-                        \L_GlobalRests
+                        \K_ClarinetVoiceI_a
+                        \L_ClarinetVoiceI_a
+                        \M_ClarinetVoiceI_a
+                        \N_GlobalRests
+                        \O_GlobalRests
+                        \P_GlobalRests
+                        \Q_GlobalRests
+                        \R_GlobalRests
+                        \S_GlobalRests
+                        \T_GlobalRests
+                        \U_GlobalRests
+                        \V_GlobalRests
+                        \W_GlobalRests
+                        \X_GlobalRests
+                        \Y_GlobalRests
+                        \Z_GlobalRests
+                        \AA_GlobalRests
+                        \AB_GlobalRests
+                        \AC_GlobalRests
                     }
                 }
             >>

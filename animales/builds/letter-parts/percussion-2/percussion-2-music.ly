@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) percussion 2 part
-% part_abbreviation = None
+% part_abbreviation = 'PERC'
 
 \version "2.19.80"
 \language "english"
@@ -128,22 +128,36 @@
                     \context Staff = "Staff"
                     {
                         \clef "percussion"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
+                        \i_GlobalRests
+                        \A_GlobalRests
                         \B_GlobalRests
-                        \C_GlobalRests
-                        \D_GlobalRests
-                        \E_GlobalRests
-                        \F_GlobalRests
-                        \G_GlobalRests
-                        \H_GlobalRests
+                        \C_PercussionVoiceII_a
+                        \D_PercussionVoiceII_a
+                        \E_PercussionVoiceII_a
+                        \F_PercussionVoiceII_a
+                        \G_PercussionVoiceII_a
+                        \H_PercussionVoiceII_a
                         \I_GlobalRests
-                        \J_GlobalRests
-                        \K_GlobalRests
-                        \L_GlobalRests
+                        \J_PercussionVoiceII_a
+                        \K_PercussionVoiceII_a
+                        \L_PercussionVoiceII_a
+                        \M_PercussionVoiceII_a
+                        \N_PercussionVoiceII_a
+                        \O_GlobalRests
+                        \P_GlobalRests
+                        \Q_GlobalRests
+                        \R_GlobalRests
+                        \S_GlobalRests
+                        \T_GlobalRests
+                        \U_GlobalRests
+                        \V_PercussionVoiceII_a
+                        \W_GlobalRests
+                        \X_PercussionVoiceII_a
+                        \Y_PercussionVoiceII_a
+                        \Z_PercussionVoiceII_a
+                        \AA_PercussionVoiceII_a
+                        \AB_GlobalRests
+                        \AC_GlobalRests
                     }
                 }
             >>

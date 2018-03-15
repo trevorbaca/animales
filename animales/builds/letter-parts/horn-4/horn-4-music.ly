@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) horn 4 part
-% part_abbreviation = None
+% part_abbreviation = 'HN'
 
 \version "2.19.80"
 \language "english"
@@ -128,22 +128,36 @@
                     \context Staff = "Staff"
                     {
                         \clef "bass"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
+                        \i_GlobalRests
+                        \A_GlobalRests
                         \B_GlobalRests
-                        \C_GlobalRests
+                        \C_HornVoiceIV_a
                         \D_GlobalRests
                         \E_GlobalRests
                         \F_GlobalRests
                         \G_GlobalRests
                         \H_GlobalRests
-                        \I_GlobalRests
-                        \J_GlobalRests
-                        \K_GlobalRests
+                        \I_HornVoiceIV_a
+                        \J_HornVoiceIV_a
+                        \K_HornVoiceIV_a
                         \L_GlobalRests
+                        \M_GlobalRests
+                        \N_GlobalRests
+                        \O_GlobalRests
+                        \P_HornVoiceIV_a
+                        \Q_HornVoiceIV_a
+                        \R_GlobalRests
+                        \S_GlobalRests
+                        \T_GlobalRests
+                        \U_GlobalRests
+                        \V_HornVoiceIV_a
+                        \W_HornVoiceIV_a
+                        \X_HornVoiceIV_a
+                        \Y_HornVoiceIV_a
+                        \Z_GlobalRests
+                        \AA_GlobalRests
+                        \AB_GlobalRests
+                        \AC_GlobalRests
                     }
                 }
             >>

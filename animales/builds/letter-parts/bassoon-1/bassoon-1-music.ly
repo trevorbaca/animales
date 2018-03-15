@@ -143,8 +143,8 @@
                         \L_GlobalRests
                         \M_GlobalRests
                         \N_GlobalRests
-                        \O_GlobalRests
-                        \P_GlobalRests
+                        \O_BassoonVoiceI_a
+                        \P_BassoonVoiceI_a
                         \Q_GlobalRests
                         \R_GlobalRests
                         \S_GlobalRests

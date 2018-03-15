@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) flute 4 part
-% part_abbreviation = None
+% part_abbreviation = 'FL'
 
 \version "2.19.80"
 \language "english"
@@ -128,11 +128,8 @@
                     \context Staff = "Staff"
                     {
                         \clef "treble"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
+                        \i_GlobalRests
+                        \A_GlobalRests
                         \B_GlobalRests
                         \C_GlobalRests
                         \D_GlobalRests
@@ -144,6 +141,23 @@
                         \J_GlobalRests
                         \K_GlobalRests
                         \L_GlobalRests
+                        \M_FluteVoiceIV_a
+                        \N_FluteVoiceIV_a
+                        \O_GlobalRests
+                        \P_GlobalRests
+                        \Q_GlobalRests
+                        \R_GlobalRests
+                        \S_GlobalRests
+                        \T_GlobalRests
+                        \U_GlobalRests
+                        \V_GlobalRests
+                        \W_GlobalRests
+                        \X_GlobalRests
+                        \Y_GlobalRests
+                        \Z_GlobalRests
+                        \AA_GlobalRests
+                        \AB_GlobalRests
+                        \AC_GlobalRests
                     }
                 }
             >>

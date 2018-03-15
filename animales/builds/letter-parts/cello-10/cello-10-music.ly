@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) cello 10 part
-% part_abbreviation = None
+% part_abbreviation = 'VC'
 
 \version "2.19.80"
 \language "english"
@@ -128,22 +128,36 @@
                     \context Staff = "Staff"
                     {
                         \clef "bass"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
-                        \B_GlobalRests
-                        \C_GlobalRests
-                        \D_GlobalRests
-                        \E_GlobalRests
-                        \F_GlobalRests
-                        \G_GlobalRests
-                        \H_GlobalRests
-                        \I_GlobalRests
-                        \J_GlobalRests
-                        \K_GlobalRests
-                        \L_GlobalRests
+                        \i_CelloVoiceI_a
+                        \A_CelloVoiceI_a
+                        \B_CelloVoiceI_a
+                        \C_CelloVoiceI_a
+                        \D_CelloVoiceI_a
+                        \E_CelloVoiceI_a
+                        \F_CelloVoiceI_a
+                        \G_CelloVoiceI_a
+                        \H_CelloVoiceI_a
+                        \I_CelloVoiceI_a
+                        \J_CelloVoiceI_a
+                        \K_CelloVoiceI_a
+                        \L_CelloVoiceI_a
+                        \M_CelloVoiceI_a
+                        \N_CelloVoiceI_a
+                        \O_CelloVoiceII_a
+                        \P_CelloVoiceII_a
+                        \Q_CelloVoiceII_a
+                        \R_CelloVoiceX_a
+                        \S_CelloVoiceX_a
+                        \T_CelloVoiceX_a
+                        \U_CelloVoiceX_a
+                        \V_CelloVoiceX_a
+                        \W_CelloVoiceX_a
+                        \X_CelloVoiceX_a
+                        \Y_CelloVoiceX_a
+                        \Z_CelloVoiceX_a
+                        \AA_CelloVoiceX_a
+                        \AB_CelloVoiceX_a
+                        \AC_GlobalRests
                     }
                 }
             >>

@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) trumpet 2 part
-% part_abbreviation = None
+% part_abbreviation = 'TP'
 
 \version "2.19.80"
 \language "english"
@@ -128,22 +128,36 @@
                     \context Staff = "Staff"
                     {
                         \clef "treble"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
+                        \i_GlobalRests
+                        \A_GlobalRests
                         \B_GlobalRests
-                        \C_GlobalRests
+                        \C_TrumpetVoiceII_a
                         \D_GlobalRests
                         \E_GlobalRests
                         \F_GlobalRests
                         \G_GlobalRests
                         \H_GlobalRests
-                        \I_GlobalRests
-                        \J_GlobalRests
-                        \K_GlobalRests
+                        \I_TrumpetVoiceII_a
+                        \J_TrumpetVoiceII_a
+                        \K_TrumpetVoiceII_a
                         \L_GlobalRests
+                        \M_GlobalRests
+                        \N_GlobalRests
+                        \O_GlobalRests
+                        \P_TrumpetVoiceII_a
+                        \Q_TrumpetVoiceII_a
+                        \R_GlobalRests
+                        \S_GlobalRests
+                        \T_GlobalRests
+                        \U_GlobalRests
+                        \V_TrumpetVoiceII_a
+                        \W_TrumpetVoiceII_a
+                        \X_TrumpetVoiceII_a
+                        \Y_TrumpetVoiceII_a
+                        \Z_GlobalRests
+                        \AA_GlobalRests
+                        \AB_GlobalRests
+                        \AC_GlobalRests
                     }
                 }
             >>

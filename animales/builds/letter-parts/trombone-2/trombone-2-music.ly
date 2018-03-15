@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) trombone 2 part
-% part_abbreviation = None
+% part_abbreviation = 'TBN'
 
 \version "2.19.80"
 \language "english"
@@ -128,22 +128,36 @@
                     \context Staff = "Staff"
                     {
                         \clef "tenor"
-                        \i_a_GlobalRests
-                        \i_b_GlobalRests
-                        \i_c_GlobalRests
-                        \A_a_GlobalRests
-                        \A_b_GlobalRests
+                        \i_GlobalRests
+                        \A_GlobalRests
                         \B_GlobalRests
-                        \C_GlobalRests
+                        \C_TromboneVoiceII_a
                         \D_GlobalRests
                         \E_GlobalRests
                         \F_GlobalRests
                         \G_GlobalRests
                         \H_GlobalRests
-                        \I_GlobalRests
-                        \J_GlobalRests
-                        \K_GlobalRests
+                        \I_TromboneVoiceII_a
+                        \J_TromboneVoiceII_a
+                        \K_TromboneVoiceII_a
                         \L_GlobalRests
+                        \M_GlobalRests
+                        \N_GlobalRests
+                        \O_GlobalRests
+                        \P_TromboneVoiceII_a
+                        \Q_TromboneVoiceII_a
+                        \R_GlobalRests
+                        \S_GlobalRests
+                        \T_GlobalRests
+                        \U_GlobalRests
+                        \V_TromboneVoiceII_a
+                        \W_TromboneVoiceII_a
+                        \X_TromboneVoiceII_a
+                        \Y_TromboneVoiceII_a
+                        \Z_GlobalRests
+                        \AA_GlobalRests
+                        \AB_GlobalRests
+                        \AC_GlobalRests
                     }
                 }
             >>
