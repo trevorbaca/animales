@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'CB_2'
+part_identifier = 'CB_2'
 
 padding = 6
 start = 50

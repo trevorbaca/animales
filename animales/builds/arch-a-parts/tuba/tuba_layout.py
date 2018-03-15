@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'TUB'
+part_identifier = 'TUB'
 
 padding = 6
 start = 50

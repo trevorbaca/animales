@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) tuba part
-% part_abbreviation = 'TUB'
+% part_identifier = 'TUB'
 
 \version "2.19.80"
 \language "english"

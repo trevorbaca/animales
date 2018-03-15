@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) percussion 4 part
-% part_abbreviation = 'PERC_4'
+% part_identifier = 'PERC_4'
 
 \version "2.19.80"
 \language "english"

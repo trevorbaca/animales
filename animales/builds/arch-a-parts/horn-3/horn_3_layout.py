@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'HN_3'
+part_identifier = 'HN_3'
 
 padding = 6
 start = 50

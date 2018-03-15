@@ -1,5 +1,5 @@
 % Animales desconocidos (2018) bass clarinet part
-% part_abbreviation = 'BCL'
+% part_identifier = 'BCL'
 
 \version "2.19.80"
 \language "english"

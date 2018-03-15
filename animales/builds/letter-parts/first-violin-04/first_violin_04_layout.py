@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'VN-1'
+part_identifier = 'VN-1'
 
 def make_systems(measure_numbers, between_systems=20):
     global_context_padding = 0

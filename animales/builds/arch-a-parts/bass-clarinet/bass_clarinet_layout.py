@@ -1,7 +1,7 @@
 import baca
 
 
-part_abbreviation = 'BCL'
+part_identifier = 'BCL'
 
 padding = 6
 start = 50
