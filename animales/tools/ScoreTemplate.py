@@ -317,34 +317,93 @@ class ScoreTemplate(baca.ScoreTemplate):
     __documentation_section__ = None
 
     _part_manifest = abjad.PartManifest(
-        abjad.Section(name='Flute', abbreviation='FL', count=4),
-        abjad.Section(name='Oboe', abbreviation='OB', count=3),
-        abjad.Part(section='EnglishHorn', abbreviation='EH'),
-        abjad.Section(name='Clarinet', abbreviation='CL', count=3,),
-        abjad.Part(section='BassClarinet', abbreviation='BCL'),
-        abjad.Section(name='Bassoon', abbreviation='BSN', count=2),
-        abjad.Section(name='Horn', abbreviation='HN', count=4),
-        abjad.Section(name='Trumpet', abbreviation='TP', count=4),
-        abjad.Section(name='Trombone', abbreviation='TBN', count=4),
-        abjad.Part(section='Tuba', abbreviation='TUB'),
-        abjad.Part(section='Harp', abbreviation='HP'),
-        abjad.Part(section='Piano', abbreviation='PF'),
-        abjad.Section(name='Percussion', abbreviation='PERC', count=4),
         abjad.Section(
-            name='FirstViolin',
+            abbreviation='FL',
+            count=4,
+            name='Flute',
+            ),
+        abjad.Section(
+            abbreviation='OB',
+            count=3,
+            name='Oboe',
+            ),
+        abjad.Part(
+            section='EnglishHorn',
+            section_abbreviation='EH',
+            ),
+        abjad.Section(
+            abbreviation='CL',
+            count=3,
+            name='Clarinet',
+            ),
+        abjad.Part(
+            section='BassClarinet',
+            section_abbreviation='BCL',
+            ),
+        abjad.Section(
+            abbreviation='BSN',
+            count=2,
+            name='Bassoon',
+            ),
+        abjad.Section(
+            abbreviation='HN',
+            count=4,
+            name='Horn',
+            ),
+        abjad.Section(
+            abbreviation='TP',
+            count=4,
+            name='Trumpet',
+            ),
+        abjad.Section(
+            abbreviation='TBN',
+            count=4,
+            name='Trombone',
+            ),
+        abjad.Part(
+            section='Tuba',
+            section_abbreviation='TUB',
+            ),
+        abjad.Part(
+            section='Harp',
+            section_abbreviation='HP',
+            ),
+        abjad.Part(
+            section='Piano',
+            section_abbreviation='PF',
+            ),
+        abjad.Section(
+            abbreviation='PERC',
+            count=4,
+            name='Percussion',
+            ),
+        abjad.Section(
             abbreviation='VN-1',
             count=18,
             instrument='Violin',
+            name='FirstViolin',
             ),
         abjad.Section(
-            name='SecondViolin',
             abbreviation='VN-2',
             count=18,
             instrument='Violin',
+            name='SecondViolin',
             ),
-        abjad.Section(name='Viola', abbreviation='VA', count=18),
-        abjad.Section(name='Cello', abbreviation='VC', count=14),
-        abjad.Section(name='Contrabass', abbreviation='CB', count=6),
+        abjad.Section(
+            abbreviation='VA',
+            count=18,
+            name='Viola',
+            ),
+        abjad.Section(
+            abbreviation='VC',
+            count=14,
+            name='Cello',
+            ),
+        abjad.Section(
+            abbreviation='CB',
+            count=6,
+            name='Contrabass',
+            ),
         )
 
     all_music_in_part_containers = True
