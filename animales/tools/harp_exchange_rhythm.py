@@ -4,15 +4,9 @@ from typing import List
 from abjad import rhythmmakertools as rhythmos
 
 
-def harp_exchange_rhythm(this_part: int) -> baca.RhythmCommand:
+def harp_exchange_rhythm(this_part, division_masks=None):
     r'''Makes harp-exchange rhythm.
     '''
-#    part_to_pattern = abjad.OrderedDict([
-#        (0, abjad.index([0, 15], period=18)),
-#        (1, abjad.index([0, 6, 8, 14, 16], period=24)),
-#        (2, abjad.index([0, 15], period=18)),
-#        (3, abjad.index([0, 6, 8, 14, 16], period=24)),
-#        ])
     part_to_pattern = abjad.OrderedDict([
         (0, abjad.index([0, 30], period=36)),
         (1, abjad.index([0, 12, 16, 28, 32], period=48)),
@@ -76,6 +70,7 @@ def harp_exchange_rhythm(this_part: int) -> baca.RhythmCommand:
         masks = [abjad.silence([0])]
 
     rhythm_maker = rhythmos.TaleaRhythmMaker(
+        division_masks=division_masks,
         extra_counts_per_division=[2],
         logical_tie_masks=masks,
         talea=talea,
