@@ -52,6 +52,10 @@ def constellations(
             numeral = roman.toRoman(member)
             numeral = str(numeral).upper()
             voice = f'{section}Voice{numeral}'
+            maker(
+                baca.scope(voice, (1, -1)),
+                animales.parts(section, member),
+                )
             rhythm = animales.clb_rhythm(
                 section,
                 member,
@@ -74,22 +78,13 @@ def constellations(
                 commands.append(command)
                 command = baca.staff_lines(1)
                 commands.append(command)
-                suite = baca.suite([
-                    baca.clef('percussion'),
-                    polyphony,
-                    ])
-                commands.append(suite)
+                commands.append(baca.clef('percussion'))
                 abbreviation = section_to_abbreviation[section]
                 key = f'{abbreviation} ({member}-{member+1})'
                 margin_markup = animales.margin_markup(key)
                 commands.append(margin_markup)
-            else:
-                commands.append(polyphony)
+            commands.append(polyphony)
             maker(
                 baca.scope(voice, range_),
                 *commands,
-                )
-            maker(
-                baca.scope(voice, (1, -1)),
-                animales.parts(section, member),
                 )
