@@ -84,5 +84,5 @@
         \override TimeSignature.style = #'numbered
     }
 
-    %ragged-right = ##f
+    ragged-right = ##f
 }
