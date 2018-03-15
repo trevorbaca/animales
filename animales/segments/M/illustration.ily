@@ -1725,21 +1725,21 @@ M_FirstViolinVoiceIII_a = {
     g'8
     \p                                                       %! HC1
     \revert DynamicLineSpanner.direction                     %! OC2:-PARTS
+    
+    % [M FirstViolinVoiceIII measure 85]                     %! SM4
+    R1 * 1
+    
+    % [M FirstViolinVoiceIII measure 86]                     %! SM4
+    R1 * 1
+    
+    % [M FirstViolinVoiceIII measure 87]                     %! SM4
+    R1 * 1
+    
 }
 
 
 M_FirstViolinVoiceIII = {
     \M_FirstViolinVoiceIII_a
-    
-    % [M FirstViolinVoiceIII measure 85]                         %! SM4
-    R1 * 1
-    
-    % [M FirstViolinVoiceIII measure 86]                         %! SM4
-    R1 * 1
-    
-    % [M FirstViolinVoiceIII measure 87]                         %! SM4
-    R1 * 1
-    
 }
 
 

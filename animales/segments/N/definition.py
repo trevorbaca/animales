@@ -238,9 +238,13 @@ maker(
 # strings
 
 maker(
+    baca.scope('FirstViolinVoiceII', (1, -1)),
+    animales.parts('FirstViolin', 1),
+    )
+
+maker(
     baca.scope('FirstViolinVoiceII', (1, 3)),
     animales.glissando_rhythm(rotate=-2),
-    animales.parts('FirstViolin', 1),
     baca.hairpin('p < ff', baca.notes().group_by_measure()[0].rleak()),
     baca.hairpin('ff > p', baca.notes().group_by_measure()[-1].lleak()),
     baca.not_parts(baca.dls_up()),

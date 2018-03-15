@@ -1808,32 +1808,32 @@ N_FirstViolinVoiceII_a = {
     g'4
     \p                                                       %! HC1
     \revert DynamicLineSpanner.direction                     %! OC2:-PARTS
+    
+    % [N FirstViolinVoiceII measure 91]                      %! SM4
+    R1 * 1
+    
+    % [N FirstViolinVoiceII measure 92]                      %! SM4
+    R1 * 1
+    
+    % [N FirstViolinVoiceII measure 93]                      %! SM4
+    R1 * 1
+    
+    % [N FirstViolinVoiceII measure 94]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                              %! IC:+PARTS
+%%%     \whiteout                                            %! IC:+PARTS
+%%%         \upright                                         %! IC:+PARTS
+%%%             \musicglyph                                  %! IC:+PARTS
+%%%                 #"scripts.ufermata"                      %! IC:+PARTS
+%%%     }                                                    %! IC:+PARTS
+    
 }
 
 
 N_FirstViolinVoiceII = {
     \N_FirstViolinVoiceII_a
-    
-    % [N FirstViolinVoiceII measure 91]                          %! SM4
-    R1 * 1
-    
-    % [N FirstViolinVoiceII measure 92]                          %! SM4
-    R1 * 1
-    
-    % [N FirstViolinVoiceII measure 93]                          %! SM4
-    R1 * 1
-    
-    % [N FirstViolinVoiceII measure 94]                          %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t     %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f            %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                                  %! IC:+PARTS
-%%%     \whiteout                                                %! IC:+PARTS
-%%%         \upright                                             %! IC:+PARTS
-%%%             \musicglyph                                      %! IC:+PARTS
-%%%                 #"scripts.ufermata"                          %! IC:+PARTS
-%%%     }                                                        %! IC:+PARTS
-    
 }
 
 
