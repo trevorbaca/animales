@@ -171,6 +171,7 @@ maker(
     baca.dynamic('mp'),
     baca.laissez_vibrer(),
     baca.markup.boxed('vibraphone'),
+    baca.only_parts(baca.text_script_extra_offset((1.5, 1.5))),
     baca.pitch('D5'),
     )
 

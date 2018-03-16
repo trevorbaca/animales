@@ -1430,7 +1430,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionVoiceIV',
                                 prototype='abjad.Dynamic',
-                                value='p',
+                                value='\\effort_mf',
                                 ),
                             ],
                         ),

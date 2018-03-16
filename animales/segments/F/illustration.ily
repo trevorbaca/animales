@@ -1173,6 +1173,7 @@ F_PercussionVoiceIII_a = {
                         (vib.)                               %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
                     }                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
             }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
+    %%% \override TextScript.extra-offset = #'(1.5 . 1.5)    %! OC1:+PARTS
         \clef "treble"                                       %! SM8:EXPLICIT_CLEF:IC
         \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
         \once \override Staff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
@@ -1270,6 +1271,7 @@ F_PercussionVoiceIII_a = {
     
     % [F PercussionVoiceIII measure 43]                      %! SM4
     r1
+%%% \revert TextScript.extra-offset                          %! OC2:+PARTS
     
 }
 

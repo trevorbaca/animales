@@ -1097,6 +1097,7 @@ X_PercussionVoiceIII_a = {
     \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1         %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \override TextScript.extra-offset = #'(0 . 4)            %! OC1:+PARTS
     \override RepeatTie.direction = #up                      %! OC1
 %%% \once \override Staff.Clef.X-extent = ##f                %! OC1:MEASURE_149:SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)   %! OC1:MEASURE_149:SHIFTED_CLEF
@@ -1168,6 +1169,7 @@ X_PercussionVoiceIII_a = {
     c'1
     :32                                                      %! IC
     \repeatTie
+%%% \revert TextScript.extra-offset                          %! OC2:+PARTS
     \revert RepeatTie.direction                              %! OC2
     
 }
@@ -1210,6 +1212,7 @@ X_PercussionVoiceIV_a = {
     \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1         %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
+%%% \override TextScript.extra-offset = #'(0 . 4)            %! OC1:+PARTS
     \override RepeatTie.direction = #up                      %! OC1
     \clef "percussion"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -1279,6 +1282,7 @@ X_PercussionVoiceIV_a = {
     c'1
     :32                                                      %! IC
     \repeatTie
+%%% \revert TextScript.extra-offset                          %! OC2:+PARTS
     \revert RepeatTie.direction                              %! OC2
     
 }

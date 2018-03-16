@@ -669,6 +669,7 @@ AC_PercussionVoiceIV_a = {
                     (slate)                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
                 }                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
+%%% \override TextScript.X-offset = #3                       %! OC1:+PARTS
     \override RepeatTie.direction = #up                      %! OC1
 %%% \magnifyStaff #10/7                                      %! IC:+TABLOID_SCORE
     \clef "percussion"                                       %! SM8:REAPPLIED_CLEF:SM37
@@ -676,10 +677,10 @@ AC_PercussionVoiceIV_a = {
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'4
-    \p                                                       %! SM8:REAPPLIED_DYNAMIC:SM37
+    \effort_mf                                               %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
             {
@@ -689,6 +690,19 @@ AC_PercussionVoiceIV_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                             (“Percussion”)                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                     }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                \line                                        %! IC
+                    {                                        %! IC
+                        \whiteout                            %! IC
+                            \upright                         %! IC
+                                \override                    %! IC
+                                    #'(box-padding . 0.5)    %! IC
+                                    \box                     %! IC
+                                        \column              %! IC
+                                            {                %! IC
+                                                "stonecircle: scrape slate slowly in circle;" %! IC
+                                                "one quarter diameter of circle every quarter note" %! IC
+                                            }                %! IC
+                    }                                        %! IC
                 \line                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                         \with-color                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -807,6 +821,7 @@ AC_PercussionVoiceIV_a = {
     
     c'4
     \repeatTie
+%%% \revert TextScript.X-offset                              %! OC2:+PARTS
     \revert RepeatTie.direction                              %! OC2
     
     % [AC PercussionVoiceIV measure 173]                     %! SM4
