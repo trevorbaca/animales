@@ -1209,18 +1209,18 @@ X_PercussionVoiceIV_a = {
                     (tam.)                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
                 }                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
-    \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 1         %! SM8:EXPLICIT_STAFF_LINES:IC
-    \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
+    \stopStaff                                               %! SM8:REDUNDANT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1         %! SM8:REDUNDANT_STAFF_LINES:IC
+    \startStaff                                              %! SM8:REDUNDANT_STAFF_LINES:IC
 %%% \override TextScript.extra-offset = #'(0 . 4)            %! OC1:+PARTS
     \override RepeatTie.direction = #up                      %! OC1
     \clef "percussion"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.StaffSymbol.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_STAFF_LINES_COLOR:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c'1
     :32                                                      %! IC
     \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
