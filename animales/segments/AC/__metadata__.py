@@ -33,7 +33,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Percussion', 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(7, 1),
+                                stop_offset=abjad.Offset(33, 4),
                                 ),
                             ),
                         ),
@@ -43,7 +43,7 @@ metadata = abjad.OrderedDict(
                             abjad.PartAssignment('Piano'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                stop_offset=abjad.Offset(33, 4),
                                 ),
                             ),
                         ),

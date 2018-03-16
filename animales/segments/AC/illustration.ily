@@ -532,6 +532,7 @@ AC_PianoVoiceI_a = {
             Pf.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:SM37:-PARTS
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:SM37:-PARTS
     \override NoteHead.style = #'harmonic                    %! OC1
+%%% \override TextScript.X-offset = #3                       %! OC1:+PARTS
 %%% \magnifyStaff #10/7                                      %! IC:+TABLOID_SCORE
     \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -564,7 +565,7 @@ AC_PianoVoiceI_a = {
                                 \override                    %! IC
                                     #'(box-padding . 0.5)    %! IC
                                     \box                     %! IC
-                                        "harmonic: touch loweset string of piano 1 cm from hammers" %! IC
+                                        "harmonic: touch lowest string of piano 1 cm from hammers" %! IC
                     }                                        %! IC
             }
         }
@@ -615,23 +616,24 @@ AC_PianoVoiceI_a = {
     cs'1
     -\laissezVibrer                                          %! IC
     \revert NoteHead.style                                   %! OC2
+%%% \revert TextScript.X-offset                              %! OC2:+PARTS
+    
+    % [AC PianoVoiceI measure 174]                           %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                              %! IC:+PARTS
+%%%     \whiteout                                            %! IC:+PARTS
+%%%         \upright                                         %! IC:+PARTS
+%%%             \musicglyph                                  %! IC:+PARTS
+%%%                 #"scripts.ufermata"                      %! IC:+PARTS
+%%%     }                                                    %! IC:+PARTS
+    
 }
 
 
 AC_PianoVoiceI = {
     \AC_PianoVoiceI_a
-    
-    % [AC PianoVoiceI measure 174]                               %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t     %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f            %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                                  %! IC:+PARTS
-%%%     \whiteout                                                %! IC:+PARTS
-%%%         \upright                                             %! IC:+PARTS
-%%%             \musicglyph                                      %! IC:+PARTS
-%%%                 #"scripts.ufermata"                          %! IC:+PARTS
-%%%     }                                                        %! IC:+PARTS
-    
 }
 
 
@@ -806,26 +808,26 @@ AC_PercussionVoiceIV_a = {
     c'4
     \repeatTie
     \revert RepeatTie.direction                              %! OC2
+    
+    % [AC PercussionVoiceIV measure 173]                     %! SM4
+    R1 * 1
+    
+    % [AC PercussionVoiceIV measure 174]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                              %! IC:+PARTS
+%%%     \whiteout                                            %! IC:+PARTS
+%%%         \upright                                         %! IC:+PARTS
+%%%             \musicglyph                                  %! IC:+PARTS
+%%%                 #"scripts.ufermata"                      %! IC:+PARTS
+%%%     }                                                    %! IC:+PARTS
+    
 }
 
 
 AC_PercussionVoiceIV = {
     \AC_PercussionVoiceIV_a
-    
-    % [AC PercussionVoiceIV measure 173]                         %! SM4
-    R1 * 1
-    
-    % [AC PercussionVoiceIV measure 174]                         %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t     %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f            %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                                  %! IC:+PARTS
-%%%     \whiteout                                                %! IC:+PARTS
-%%%         \upright                                             %! IC:+PARTS
-%%%             \musicglyph                                      %! IC:+PARTS
-%%%                 #"scripts.ufermata"                          %! IC:+PARTS
-%%%     }                                                        %! IC:+PARTS
-    
 }
 
 
