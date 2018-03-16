@@ -88,15 +88,21 @@ maker(
 
 # percussion
 
+string = r"\override Staff.BarLine.bar-extent = #'(-2 . 2)"
 maker(
     baca.scopes(
         ('PercussionVoiceI', (3, 6)),
         ('PercussionVoiceII', (3, 6)),
         ),
-    baca.bar_extent((-2, 2)),
+    #baca.bar_extent((-2, 2)),
     baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
+
+    # TODO: allow simultaneous (but differently tagged) persistent overrides
     baca.not_parts(baca.bar_extent_persistent((0, 0))),
+    #baca.only_parts(baca.bar_extent_persistent((-2, 2))),
+    baca.tag('TEMPORARY', baca.only_parts(baca.literal(string))),
+
     baca.repeat_ties_up(),
     baca.staff_lines(1),
     baca.staff_positions([0]),
