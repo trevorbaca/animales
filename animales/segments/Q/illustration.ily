@@ -677,61 +677,61 @@ Q_HornVoiceI_a = {
     r8
     
     r2
+    
+    % [Q HornVoiceI measure 120]                         %! SM4
+    R1 * 3/4
+    
+    % [Q HornVoiceI measure 121]                         %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q HornVoiceI measure 122]                         %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceI measure 123]                         %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceI measure 124]                         %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceI measure 125]                         %! SM4
+    R1 * 3/4
+    
+    % [Q HornVoiceI measure 126]                         %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q HornVoiceI measure 127]                         %! SM4
+    R1 * 3/4
+    
+    % [Q HornVoiceI measure 128]                         %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceI measure 129]                         %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceI measure 130]                         %! SM4
+    R1 * 1/2
+    
 }
 
 
 Q_HornVoiceI = {
     \Q_HornVoiceI_a
-    
-    % [Q HornVoiceI measure 120]                             %! SM4
-    R1 * 3/4
-    
-    % [Q HornVoiceI measure 121]                             %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q HornVoiceI measure 122]                             %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceI measure 123]                             %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceI measure 124]                             %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceI measure 125]                             %! SM4
-    R1 * 3/4
-    
-    % [Q HornVoiceI measure 126]                             %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q HornVoiceI measure 127]                             %! SM4
-    R1 * 3/4
-    
-    % [Q HornVoiceI measure 128]                             %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceI measure 129]                             %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceI measure 130]                             %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -751,61 +751,61 @@ Q_HornVoiceIII_a = {
     r8
     
     r2
+    
+    % [Q HornVoiceIII measure 120]                       %! SM4
+    R1 * 3/4
+    
+    % [Q HornVoiceIII measure 121]                       %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q HornVoiceIII measure 122]                       %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceIII measure 123]                       %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceIII measure 124]                       %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceIII measure 125]                       %! SM4
+    R1 * 3/4
+    
+    % [Q HornVoiceIII measure 126]                       %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q HornVoiceIII measure 127]                       %! SM4
+    R1 * 3/4
+    
+    % [Q HornVoiceIII measure 128]                       %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceIII measure 129]                       %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceIII measure 130]                       %! SM4
+    R1 * 1/2
+    
 }
 
 
 Q_HornVoiceIII = {
     \Q_HornVoiceIII_a
-    
-    % [Q HornVoiceIII measure 120]                           %! SM4
-    R1 * 3/4
-    
-    % [Q HornVoiceIII measure 121]                           %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q HornVoiceIII measure 122]                           %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceIII measure 123]                           %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceIII measure 124]                           %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceIII measure 125]                           %! SM4
-    R1 * 3/4
-    
-    % [Q HornVoiceIII measure 126]                           %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q HornVoiceIII measure 127]                           %! SM4
-    R1 * 3/4
-    
-    % [Q HornVoiceIII measure 128]                           %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceIII measure 129]                           %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceIII measure 130]                           %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -881,61 +881,61 @@ Q_HornVoiceII_a = {
     r8
     
     r2
+    
+    % [Q HornVoiceII measure 120]                        %! SM4
+    R1 * 3/4
+    
+    % [Q HornVoiceII measure 121]                        %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q HornVoiceII measure 122]                        %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceII measure 123]                        %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceII measure 124]                        %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceII measure 125]                        %! SM4
+    R1 * 3/4
+    
+    % [Q HornVoiceII measure 126]                        %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q HornVoiceII measure 127]                        %! SM4
+    R1 * 3/4
+    
+    % [Q HornVoiceII measure 128]                        %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceII measure 129]                        %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceII measure 130]                        %! SM4
+    R1 * 1/2
+    
 }
 
 
 Q_HornVoiceII = {
     \Q_HornVoiceII_a
-    
-    % [Q HornVoiceII measure 120]                            %! SM4
-    R1 * 3/4
-    
-    % [Q HornVoiceII measure 121]                            %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q HornVoiceII measure 122]                            %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceII measure 123]                            %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceII measure 124]                            %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceII measure 125]                            %! SM4
-    R1 * 3/4
-    
-    % [Q HornVoiceII measure 126]                            %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q HornVoiceII measure 127]                            %! SM4
-    R1 * 3/4
-    
-    % [Q HornVoiceII measure 128]                            %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceII measure 129]                            %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceII measure 130]                            %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -955,61 +955,61 @@ Q_HornVoiceIV_a = {
     r8
     
     r2
+    
+    % [Q HornVoiceIV measure 120]                        %! SM4
+    R1 * 3/4
+    
+    % [Q HornVoiceIV measure 121]                        %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q HornVoiceIV measure 122]                        %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceIV measure 123]                        %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceIV measure 124]                        %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceIV measure 125]                        %! SM4
+    R1 * 3/4
+    
+    % [Q HornVoiceIV measure 126]                        %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q HornVoiceIV measure 127]                        %! SM4
+    R1 * 3/4
+    
+    % [Q HornVoiceIV measure 128]                        %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceIV measure 129]                        %! SM4
+    R1 * 1
+    
+    % [Q HornVoiceIV measure 130]                        %! SM4
+    R1 * 1/2
+    
 }
 
 
 Q_HornVoiceIV = {
     \Q_HornVoiceIV_a
-    
-    % [Q HornVoiceIV measure 120]                            %! SM4
-    R1 * 3/4
-    
-    % [Q HornVoiceIV measure 121]                            %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q HornVoiceIV measure 122]                            %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceIV measure 123]                            %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceIV measure 124]                            %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceIV measure 125]                            %! SM4
-    R1 * 3/4
-    
-    % [Q HornVoiceIV measure 126]                            %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q HornVoiceIV measure 127]                            %! SM4
-    R1 * 3/4
-    
-    % [Q HornVoiceIV measure 128]                            %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceIV measure 129]                            %! SM4
-    R1 * 1
-    
-    % [Q HornVoiceIV measure 130]                            %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -1085,61 +1085,61 @@ Q_TrumpetVoiceI_a = {
     r8
     
     r2
+    
+    % [Q TrumpetVoiceI measure 120]                      %! SM4
+    R1 * 3/4
+    
+    % [Q TrumpetVoiceI measure 121]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TrumpetVoiceI measure 122]                      %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceI measure 123]                      %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceI measure 124]                      %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceI measure 125]                      %! SM4
+    R1 * 3/4
+    
+    % [Q TrumpetVoiceI measure 126]                      %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TrumpetVoiceI measure 127]                      %! SM4
+    R1 * 3/4
+    
+    % [Q TrumpetVoiceI measure 128]                      %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceI measure 129]                      %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceI measure 130]                      %! SM4
+    R1 * 1/2
+    
 }
 
 
 Q_TrumpetVoiceI = {
     \Q_TrumpetVoiceI_a
-    
-    % [Q TrumpetVoiceI measure 120]                          %! SM4
-    R1 * 3/4
-    
-    % [Q TrumpetVoiceI measure 121]                          %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TrumpetVoiceI measure 122]                          %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceI measure 123]                          %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceI measure 124]                          %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceI measure 125]                          %! SM4
-    R1 * 3/4
-    
-    % [Q TrumpetVoiceI measure 126]                          %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TrumpetVoiceI measure 127]                          %! SM4
-    R1 * 3/4
-    
-    % [Q TrumpetVoiceI measure 128]                          %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceI measure 129]                          %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceI measure 130]                          %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -1159,61 +1159,61 @@ Q_TrumpetVoiceIII_a = {
     r8
     
     r2
+    
+    % [Q TrumpetVoiceIII measure 120]                    %! SM4
+    R1 * 3/4
+    
+    % [Q TrumpetVoiceIII measure 121]                    %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TrumpetVoiceIII measure 122]                    %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceIII measure 123]                    %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceIII measure 124]                    %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceIII measure 125]                    %! SM4
+    R1 * 3/4
+    
+    % [Q TrumpetVoiceIII measure 126]                    %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TrumpetVoiceIII measure 127]                    %! SM4
+    R1 * 3/4
+    
+    % [Q TrumpetVoiceIII measure 128]                    %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceIII measure 129]                    %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceIII measure 130]                    %! SM4
+    R1 * 1/2
+    
 }
 
 
 Q_TrumpetVoiceIII = {
     \Q_TrumpetVoiceIII_a
-    
-    % [Q TrumpetVoiceIII measure 120]                        %! SM4
-    R1 * 3/4
-    
-    % [Q TrumpetVoiceIII measure 121]                        %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TrumpetVoiceIII measure 122]                        %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceIII measure 123]                        %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceIII measure 124]                        %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceIII measure 125]                        %! SM4
-    R1 * 3/4
-    
-    % [Q TrumpetVoiceIII measure 126]                        %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TrumpetVoiceIII measure 127]                        %! SM4
-    R1 * 3/4
-    
-    % [Q TrumpetVoiceIII measure 128]                        %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceIII measure 129]                        %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceIII measure 130]                        %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -1289,61 +1289,61 @@ Q_TrumpetVoiceII_a = {
     r8
     
     r2
+    
+    % [Q TrumpetVoiceII measure 120]                     %! SM4
+    R1 * 3/4
+    
+    % [Q TrumpetVoiceII measure 121]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TrumpetVoiceII measure 122]                     %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceII measure 123]                     %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceII measure 124]                     %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceII measure 125]                     %! SM4
+    R1 * 3/4
+    
+    % [Q TrumpetVoiceII measure 126]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TrumpetVoiceII measure 127]                     %! SM4
+    R1 * 3/4
+    
+    % [Q TrumpetVoiceII measure 128]                     %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceII measure 129]                     %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceII measure 130]                     %! SM4
+    R1 * 1/2
+    
 }
 
 
 Q_TrumpetVoiceII = {
     \Q_TrumpetVoiceII_a
-    
-    % [Q TrumpetVoiceII measure 120]                         %! SM4
-    R1 * 3/4
-    
-    % [Q TrumpetVoiceII measure 121]                         %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TrumpetVoiceII measure 122]                         %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceII measure 123]                         %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceII measure 124]                         %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceII measure 125]                         %! SM4
-    R1 * 3/4
-    
-    % [Q TrumpetVoiceII measure 126]                         %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TrumpetVoiceII measure 127]                         %! SM4
-    R1 * 3/4
-    
-    % [Q TrumpetVoiceII measure 128]                         %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceII measure 129]                         %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceII measure 130]                         %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -1363,61 +1363,61 @@ Q_TrumpetVoiceIV_a = {
     r8
     
     r2
+    
+    % [Q TrumpetVoiceIV measure 120]                     %! SM4
+    R1 * 3/4
+    
+    % [Q TrumpetVoiceIV measure 121]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TrumpetVoiceIV measure 122]                     %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceIV measure 123]                     %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceIV measure 124]                     %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceIV measure 125]                     %! SM4
+    R1 * 3/4
+    
+    % [Q TrumpetVoiceIV measure 126]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TrumpetVoiceIV measure 127]                     %! SM4
+    R1 * 3/4
+    
+    % [Q TrumpetVoiceIV measure 128]                     %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceIV measure 129]                     %! SM4
+    R1 * 1
+    
+    % [Q TrumpetVoiceIV measure 130]                     %! SM4
+    R1 * 1/2
+    
 }
 
 
 Q_TrumpetVoiceIV = {
     \Q_TrumpetVoiceIV_a
-    
-    % [Q TrumpetVoiceIV measure 120]                         %! SM4
-    R1 * 3/4
-    
-    % [Q TrumpetVoiceIV measure 121]                         %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TrumpetVoiceIV measure 122]                         %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceIV measure 123]                         %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceIV measure 124]                         %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceIV measure 125]                         %! SM4
-    R1 * 3/4
-    
-    % [Q TrumpetVoiceIV measure 126]                         %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TrumpetVoiceIV measure 127]                         %! SM4
-    R1 * 3/4
-    
-    % [Q TrumpetVoiceIV measure 128]                         %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceIV measure 129]                         %! SM4
-    R1 * 1
-    
-    % [Q TrumpetVoiceIV measure 130]                         %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -1493,61 +1493,61 @@ Q_TromboneVoiceI_a = {
     r8
     
     r2
+    
+    % [Q TromboneVoiceI measure 120]                     %! SM4
+    R1 * 3/4
+    
+    % [Q TromboneVoiceI measure 121]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TromboneVoiceI measure 122]                     %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceI measure 123]                     %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceI measure 124]                     %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceI measure 125]                     %! SM4
+    R1 * 3/4
+    
+    % [Q TromboneVoiceI measure 126]                     %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TromboneVoiceI measure 127]                     %! SM4
+    R1 * 3/4
+    
+    % [Q TromboneVoiceI measure 128]                     %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceI measure 129]                     %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceI measure 130]                     %! SM4
+    R1 * 1/2
+    
 }
 
 
 Q_TromboneVoiceI = {
     \Q_TromboneVoiceI_a
-    
-    % [Q TromboneVoiceI measure 120]                         %! SM4
-    R1 * 3/4
-    
-    % [Q TromboneVoiceI measure 121]                         %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TromboneVoiceI measure 122]                         %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceI measure 123]                         %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceI measure 124]                         %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceI measure 125]                         %! SM4
-    R1 * 3/4
-    
-    % [Q TromboneVoiceI measure 126]                         %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TromboneVoiceI measure 127]                         %! SM4
-    R1 * 3/4
-    
-    % [Q TromboneVoiceI measure 128]                         %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceI measure 129]                         %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceI measure 130]                         %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -1567,61 +1567,61 @@ Q_TromboneVoiceIII_a = {
     r8
     
     r2
+    
+    % [Q TromboneVoiceIII measure 120]                   %! SM4
+    R1 * 3/4
+    
+    % [Q TromboneVoiceIII measure 121]                   %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TromboneVoiceIII measure 122]                   %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceIII measure 123]                   %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceIII measure 124]                   %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceIII measure 125]                   %! SM4
+    R1 * 3/4
+    
+    % [Q TromboneVoiceIII measure 126]                   %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TromboneVoiceIII measure 127]                   %! SM4
+    R1 * 3/4
+    
+    % [Q TromboneVoiceIII measure 128]                   %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceIII measure 129]                   %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceIII measure 130]                   %! SM4
+    R1 * 1/2
+    
 }
 
 
 Q_TromboneVoiceIII = {
     \Q_TromboneVoiceIII_a
-    
-    % [Q TromboneVoiceIII measure 120]                       %! SM4
-    R1 * 3/4
-    
-    % [Q TromboneVoiceIII measure 121]                       %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TromboneVoiceIII measure 122]                       %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceIII measure 123]                       %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceIII measure 124]                       %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceIII measure 125]                       %! SM4
-    R1 * 3/4
-    
-    % [Q TromboneVoiceIII measure 126]                       %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TromboneVoiceIII measure 127]                       %! SM4
-    R1 * 3/4
-    
-    % [Q TromboneVoiceIII measure 128]                       %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceIII measure 129]                       %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceIII measure 130]                       %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -1697,61 +1697,61 @@ Q_TromboneVoiceII_a = {
     r8
     
     r2
+    
+    % [Q TromboneVoiceII measure 120]                    %! SM4
+    R1 * 3/4
+    
+    % [Q TromboneVoiceII measure 121]                    %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TromboneVoiceII measure 122]                    %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceII measure 123]                    %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceII measure 124]                    %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceII measure 125]                    %! SM4
+    R1 * 3/4
+    
+    % [Q TromboneVoiceII measure 126]                    %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TromboneVoiceII measure 127]                    %! SM4
+    R1 * 3/4
+    
+    % [Q TromboneVoiceII measure 128]                    %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceII measure 129]                    %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceII measure 130]                    %! SM4
+    R1 * 1/2
+    
 }
 
 
 Q_TromboneVoiceII = {
     \Q_TromboneVoiceII_a
-    
-    % [Q TromboneVoiceII measure 120]                        %! SM4
-    R1 * 3/4
-    
-    % [Q TromboneVoiceII measure 121]                        %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TromboneVoiceII measure 122]                        %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceII measure 123]                        %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceII measure 124]                        %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceII measure 125]                        %! SM4
-    R1 * 3/4
-    
-    % [Q TromboneVoiceII measure 126]                        %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TromboneVoiceII measure 127]                        %! SM4
-    R1 * 3/4
-    
-    % [Q TromboneVoiceII measure 128]                        %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceII measure 129]                        %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceII measure 130]                        %! SM4
-    R1 * 1/2
-    
 }
 
 
@@ -1771,61 +1771,61 @@ Q_TromboneVoiceIV_a = {
     r8
     
     r2
+    
+    % [Q TromboneVoiceIV measure 120]                    %! SM4
+    R1 * 3/4
+    
+    % [Q TromboneVoiceIV measure 121]                    %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TromboneVoiceIV measure 122]                    %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceIV measure 123]                    %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceIV measure 124]                    %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceIV measure 125]                    %! SM4
+    R1 * 3/4
+    
+    % [Q TromboneVoiceIV measure 126]                    %! SM4
+%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
+%%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
+    R1 * 1/4
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \musicglyph                              %! IC:+PARTS
+%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    
+    % [Q TromboneVoiceIV measure 127]                    %! SM4
+    R1 * 3/4
+    
+    % [Q TromboneVoiceIV measure 128]                    %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceIV measure 129]                    %! SM4
+    R1 * 1
+    
+    % [Q TromboneVoiceIV measure 130]                    %! SM4
+    R1 * 1/2
+    
 }
 
 
 Q_TromboneVoiceIV = {
     \Q_TromboneVoiceIV_a
-    
-    % [Q TromboneVoiceIV measure 120]                        %! SM4
-    R1 * 3/4
-    
-    % [Q TromboneVoiceIV measure 121]                        %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TromboneVoiceIV measure 122]                        %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceIV measure 123]                        %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceIV measure 124]                        %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceIV measure 125]                        %! SM4
-    R1 * 3/4
-    
-    % [Q TromboneVoiceIV measure 126]                        %! SM4
-%%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
-    R1 * 1/4
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
-    
-    % [Q TromboneVoiceIV measure 127]                        %! SM4
-    R1 * 3/4
-    
-    % [Q TromboneVoiceIV measure 128]                        %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceIV measure 129]                        %! SM4
-    R1 * 1
-    
-    % [Q TromboneVoiceIV measure 130]                        %! SM4
-    R1 * 1/2
-    
 }
 
 

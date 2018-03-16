@@ -672,33 +672,33 @@ K_HornVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     r2..
+    
+    % [K HornVoiceI measure 69]                          %! SM4
+    R1 * 1
+    
+    % [K HornVoiceI measure 70]                          %! SM4
+    R1 * 1
+    
+    % [K HornVoiceI measure 71]                          %! SM4
+    R1 * 3/4
+    
+    % [K HornVoiceI measure 72]                          %! SM4
+    R1 * 3/4
+    
+    % [K HornVoiceI measure 73]                          %! SM4
+    R1 * 1
+    
+    % [K HornVoiceI measure 74]                          %! SM4
+    R1 * 1
+    
+    % [K HornVoiceI measure 75]                          %! SM4
+    R1 * 1
+    
 }
 
 
 K_HornVoiceI = {
     \K_HornVoiceI_a
-    
-    % [K HornVoiceI measure 69]                              %! SM4
-    R1 * 1
-    
-    % [K HornVoiceI measure 70]                              %! SM4
-    R1 * 1
-    
-    % [K HornVoiceI measure 71]                              %! SM4
-    R1 * 3/4
-    
-    % [K HornVoiceI measure 72]                              %! SM4
-    R1 * 3/4
-    
-    % [K HornVoiceI measure 73]                              %! SM4
-    R1 * 1
-    
-    % [K HornVoiceI measure 74]                              %! SM4
-    R1 * 1
-    
-    % [K HornVoiceI measure 75]                              %! SM4
-    R1 * 1
-    
 }
 
 
@@ -716,33 +716,33 @@ K_HornVoiceIII_a = {
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     r2..
+    
+    % [K HornVoiceIII measure 69]                        %! SM4
+    R1 * 1
+    
+    % [K HornVoiceIII measure 70]                        %! SM4
+    R1 * 1
+    
+    % [K HornVoiceIII measure 71]                        %! SM4
+    R1 * 3/4
+    
+    % [K HornVoiceIII measure 72]                        %! SM4
+    R1 * 3/4
+    
+    % [K HornVoiceIII measure 73]                        %! SM4
+    R1 * 1
+    
+    % [K HornVoiceIII measure 74]                        %! SM4
+    R1 * 1
+    
+    % [K HornVoiceIII measure 75]                        %! SM4
+    R1 * 1
+    
 }
 
 
 K_HornVoiceIII = {
     \K_HornVoiceIII_a
-    
-    % [K HornVoiceIII measure 69]                            %! SM4
-    R1 * 1
-    
-    % [K HornVoiceIII measure 70]                            %! SM4
-    R1 * 1
-    
-    % [K HornVoiceIII measure 71]                            %! SM4
-    R1 * 3/4
-    
-    % [K HornVoiceIII measure 72]                            %! SM4
-    R1 * 3/4
-    
-    % [K HornVoiceIII measure 73]                            %! SM4
-    R1 * 1
-    
-    % [K HornVoiceIII measure 74]                            %! SM4
-    R1 * 1
-    
-    % [K HornVoiceIII measure 75]                            %! SM4
-    R1 * 1
-    
 }
 
 
@@ -816,33 +816,33 @@ K_HornVoiceII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     r2..
+    
+    % [K HornVoiceII measure 69]                         %! SM4
+    R1 * 1
+    
+    % [K HornVoiceII measure 70]                         %! SM4
+    R1 * 1
+    
+    % [K HornVoiceII measure 71]                         %! SM4
+    R1 * 3/4
+    
+    % [K HornVoiceII measure 72]                         %! SM4
+    R1 * 3/4
+    
+    % [K HornVoiceII measure 73]                         %! SM4
+    R1 * 1
+    
+    % [K HornVoiceII measure 74]                         %! SM4
+    R1 * 1
+    
+    % [K HornVoiceII measure 75]                         %! SM4
+    R1 * 1
+    
 }
 
 
 K_HornVoiceII = {
     \K_HornVoiceII_a
-    
-    % [K HornVoiceII measure 69]                             %! SM4
-    R1 * 1
-    
-    % [K HornVoiceII measure 70]                             %! SM4
-    R1 * 1
-    
-    % [K HornVoiceII measure 71]                             %! SM4
-    R1 * 3/4
-    
-    % [K HornVoiceII measure 72]                             %! SM4
-    R1 * 3/4
-    
-    % [K HornVoiceII measure 73]                             %! SM4
-    R1 * 1
-    
-    % [K HornVoiceII measure 74]                             %! SM4
-    R1 * 1
-    
-    % [K HornVoiceII measure 75]                             %! SM4
-    R1 * 1
-    
 }
 
 
@@ -860,33 +860,33 @@ K_HornVoiceIV_a = {
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     r2..
+    
+    % [K HornVoiceIV measure 69]                         %! SM4
+    R1 * 1
+    
+    % [K HornVoiceIV measure 70]                         %! SM4
+    R1 * 1
+    
+    % [K HornVoiceIV measure 71]                         %! SM4
+    R1 * 3/4
+    
+    % [K HornVoiceIV measure 72]                         %! SM4
+    R1 * 3/4
+    
+    % [K HornVoiceIV measure 73]                         %! SM4
+    R1 * 1
+    
+    % [K HornVoiceIV measure 74]                         %! SM4
+    R1 * 1
+    
+    % [K HornVoiceIV measure 75]                         %! SM4
+    R1 * 1
+    
 }
 
 
 K_HornVoiceIV = {
     \K_HornVoiceIV_a
-    
-    % [K HornVoiceIV measure 69]                             %! SM4
-    R1 * 1
-    
-    % [K HornVoiceIV measure 70]                             %! SM4
-    R1 * 1
-    
-    % [K HornVoiceIV measure 71]                             %! SM4
-    R1 * 3/4
-    
-    % [K HornVoiceIV measure 72]                             %! SM4
-    R1 * 3/4
-    
-    % [K HornVoiceIV measure 73]                             %! SM4
-    R1 * 1
-    
-    % [K HornVoiceIV measure 74]                             %! SM4
-    R1 * 1
-    
-    % [K HornVoiceIV measure 75]                             %! SM4
-    R1 * 1
-    
 }
 
 
@@ -960,33 +960,33 @@ K_TrumpetVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     r2..
+    
+    % [K TrumpetVoiceI measure 69]                       %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceI measure 70]                       %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceI measure 71]                       %! SM4
+    R1 * 3/4
+    
+    % [K TrumpetVoiceI measure 72]                       %! SM4
+    R1 * 3/4
+    
+    % [K TrumpetVoiceI measure 73]                       %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceI measure 74]                       %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceI measure 75]                       %! SM4
+    R1 * 1
+    
 }
 
 
 K_TrumpetVoiceI = {
     \K_TrumpetVoiceI_a
-    
-    % [K TrumpetVoiceI measure 69]                           %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceI measure 70]                           %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceI measure 71]                           %! SM4
-    R1 * 3/4
-    
-    % [K TrumpetVoiceI measure 72]                           %! SM4
-    R1 * 3/4
-    
-    % [K TrumpetVoiceI measure 73]                           %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceI measure 74]                           %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceI measure 75]                           %! SM4
-    R1 * 1
-    
 }
 
 
@@ -1004,33 +1004,33 @@ K_TrumpetVoiceIII_a = {
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     r2..
+    
+    % [K TrumpetVoiceIII measure 69]                     %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceIII measure 70]                     %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceIII measure 71]                     %! SM4
+    R1 * 3/4
+    
+    % [K TrumpetVoiceIII measure 72]                     %! SM4
+    R1 * 3/4
+    
+    % [K TrumpetVoiceIII measure 73]                     %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceIII measure 74]                     %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceIII measure 75]                     %! SM4
+    R1 * 1
+    
 }
 
 
 K_TrumpetVoiceIII = {
     \K_TrumpetVoiceIII_a
-    
-    % [K TrumpetVoiceIII measure 69]                         %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceIII measure 70]                         %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceIII measure 71]                         %! SM4
-    R1 * 3/4
-    
-    % [K TrumpetVoiceIII measure 72]                         %! SM4
-    R1 * 3/4
-    
-    % [K TrumpetVoiceIII measure 73]                         %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceIII measure 74]                         %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceIII measure 75]                         %! SM4
-    R1 * 1
-    
 }
 
 
@@ -1104,33 +1104,33 @@ K_TrumpetVoiceII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     r2..
+    
+    % [K TrumpetVoiceII measure 69]                      %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceII measure 70]                      %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceII measure 71]                      %! SM4
+    R1 * 3/4
+    
+    % [K TrumpetVoiceII measure 72]                      %! SM4
+    R1 * 3/4
+    
+    % [K TrumpetVoiceII measure 73]                      %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceII measure 74]                      %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceII measure 75]                      %! SM4
+    R1 * 1
+    
 }
 
 
 K_TrumpetVoiceII = {
     \K_TrumpetVoiceII_a
-    
-    % [K TrumpetVoiceII measure 69]                          %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceII measure 70]                          %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceII measure 71]                          %! SM4
-    R1 * 3/4
-    
-    % [K TrumpetVoiceII measure 72]                          %! SM4
-    R1 * 3/4
-    
-    % [K TrumpetVoiceII measure 73]                          %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceII measure 74]                          %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceII measure 75]                          %! SM4
-    R1 * 1
-    
 }
 
 
@@ -1150,33 +1150,33 @@ K_TrumpetVoiceIV_a = {
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     r2..
+    
+    % [K TrumpetVoiceIV measure 69]                      %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceIV measure 70]                      %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceIV measure 71]                      %! SM4
+    R1 * 3/4
+    
+    % [K TrumpetVoiceIV measure 72]                      %! SM4
+    R1 * 3/4
+    
+    % [K TrumpetVoiceIV measure 73]                      %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceIV measure 74]                      %! SM4
+    R1 * 1
+    
+    % [K TrumpetVoiceIV measure 75]                      %! SM4
+    R1 * 1
+    
 }
 
 
 K_TrumpetVoiceIV = {
     \K_TrumpetVoiceIV_a
-    
-    % [K TrumpetVoiceIV measure 69]                          %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceIV measure 70]                          %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceIV measure 71]                          %! SM4
-    R1 * 3/4
-    
-    % [K TrumpetVoiceIV measure 72]                          %! SM4
-    R1 * 3/4
-    
-    % [K TrumpetVoiceIV measure 73]                          %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceIV measure 74]                          %! SM4
-    R1 * 1
-    
-    % [K TrumpetVoiceIV measure 75]                          %! SM4
-    R1 * 1
-    
 }
 
 
@@ -1250,33 +1250,33 @@ K_TromboneVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     r2..
+    
+    % [K TromboneVoiceI measure 69]                      %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceI measure 70]                      %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceI measure 71]                      %! SM4
+    R1 * 3/4
+    
+    % [K TromboneVoiceI measure 72]                      %! SM4
+    R1 * 3/4
+    
+    % [K TromboneVoiceI measure 73]                      %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceI measure 74]                      %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceI measure 75]                      %! SM4
+    R1 * 1
+    
 }
 
 
 K_TromboneVoiceI = {
     \K_TromboneVoiceI_a
-    
-    % [K TromboneVoiceI measure 69]                          %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceI measure 70]                          %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceI measure 71]                          %! SM4
-    R1 * 3/4
-    
-    % [K TromboneVoiceI measure 72]                          %! SM4
-    R1 * 3/4
-    
-    % [K TromboneVoiceI measure 73]                          %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceI measure 74]                          %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceI measure 75]                          %! SM4
-    R1 * 1
-    
 }
 
 
@@ -1294,33 +1294,33 @@ K_TromboneVoiceIII_a = {
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     r2..
+    
+    % [K TromboneVoiceIII measure 69]                    %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceIII measure 70]                    %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceIII measure 71]                    %! SM4
+    R1 * 3/4
+    
+    % [K TromboneVoiceIII measure 72]                    %! SM4
+    R1 * 3/4
+    
+    % [K TromboneVoiceIII measure 73]                    %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceIII measure 74]                    %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceIII measure 75]                    %! SM4
+    R1 * 1
+    
 }
 
 
 K_TromboneVoiceIII = {
     \K_TromboneVoiceIII_a
-    
-    % [K TromboneVoiceIII measure 69]                        %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceIII measure 70]                        %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceIII measure 71]                        %! SM4
-    R1 * 3/4
-    
-    % [K TromboneVoiceIII measure 72]                        %! SM4
-    R1 * 3/4
-    
-    % [K TromboneVoiceIII measure 73]                        %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceIII measure 74]                        %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceIII measure 75]                        %! SM4
-    R1 * 1
-    
 }
 
 
@@ -1394,33 +1394,33 @@ K_TromboneVoiceII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     r2..
+    
+    % [K TromboneVoiceII measure 69]                     %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceII measure 70]                     %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceII measure 71]                     %! SM4
+    R1 * 3/4
+    
+    % [K TromboneVoiceII measure 72]                     %! SM4
+    R1 * 3/4
+    
+    % [K TromboneVoiceII measure 73]                     %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceII measure 74]                     %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceII measure 75]                     %! SM4
+    R1 * 1
+    
 }
 
 
 K_TromboneVoiceII = {
     \K_TromboneVoiceII_a
-    
-    % [K TromboneVoiceII measure 69]                         %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceII measure 70]                         %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceII measure 71]                         %! SM4
-    R1 * 3/4
-    
-    % [K TromboneVoiceII measure 72]                         %! SM4
-    R1 * 3/4
-    
-    % [K TromboneVoiceII measure 73]                         %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceII measure 74]                         %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceII measure 75]                         %! SM4
-    R1 * 1
-    
 }
 
 
@@ -1440,33 +1440,33 @@ K_TromboneVoiceIV_a = {
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     r2..
+    
+    % [K TromboneVoiceIV measure 69]                     %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceIV measure 70]                     %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceIV measure 71]                     %! SM4
+    R1 * 3/4
+    
+    % [K TromboneVoiceIV measure 72]                     %! SM4
+    R1 * 3/4
+    
+    % [K TromboneVoiceIV measure 73]                     %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceIV measure 74]                     %! SM4
+    R1 * 1
+    
+    % [K TromboneVoiceIV measure 75]                     %! SM4
+    R1 * 1
+    
 }
 
 
 K_TromboneVoiceIV = {
     \K_TromboneVoiceIV_a
-    
-    % [K TromboneVoiceIV measure 69]                         %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceIV measure 70]                         %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceIV measure 71]                         %! SM4
-    R1 * 3/4
-    
-    % [K TromboneVoiceIV measure 72]                         %! SM4
-    R1 * 3/4
-    
-    % [K TromboneVoiceIV measure 73]                         %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceIV measure 74]                         %! SM4
-    R1 * 1
-    
-    % [K TromboneVoiceIV measure 75]                         %! SM4
-    R1 * 1
-    
 }
 
 
