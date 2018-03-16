@@ -243,6 +243,7 @@ def tremolo(peak='f'):
 
 def upper_voice():
     return baca.suite([
+        baca.only_parts(baca.text_spanner_staff_padding(5)),
         baca.not_parts(baca.dynamic_text_stencil_false(selector=baca.leaves())),
         baca.not_parts(baca.hairpin_stencil_false()),
         baca.not_parts(baca.text_spanner_stencil_false()),

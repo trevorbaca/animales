@@ -1862,6 +1862,7 @@ Q_FirstViolinVoiceI_a = {
                     (5-8)                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+%%% \override TextSpanner.staff-padding = #5             %! OC1:+PARTS
     \override DynamicText.stencil = ##f                  %! OC1:-PARTS
     \override Hairpin.stencil = ##f                      %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
@@ -2108,6 +2109,7 @@ Q_FirstViolinVoiceI_a = {
     R1 * 1/2
     \!                                                   %! PCW1
     \stopTextSpan                                        %! PCW1
+%%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
@@ -2364,6 +2366,7 @@ Q_FirstViolinVoiceIII_a = {
                     (13-17)                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+%%% \override TextSpanner.staff-padding = #5             %! OC1:+PARTS
     \override DynamicText.stencil = ##f                  %! OC1:-PARTS
     \override Hairpin.stencil = ##f                      %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
@@ -2610,6 +2613,7 @@ Q_FirstViolinVoiceIII_a = {
     R1 * 1/2
     \!                                                   %! PCW1
     \stopTextSpan                                        %! PCW1
+%%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
@@ -3018,6 +3022,7 @@ Q_SecondViolinVoiceI_a = {
                     (5-8)                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+%%% \override TextSpanner.staff-padding = #5             %! OC1:+PARTS
     \override DynamicText.stencil = ##f                  %! OC1:-PARTS
     \override Hairpin.stencil = ##f                      %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
@@ -3266,6 +3271,7 @@ Q_SecondViolinVoiceI_a = {
     R1 * 1/2
     \!                                                   %! PCW1
     \stopTextSpan                                        %! PCW1
+%%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
@@ -3522,6 +3528,7 @@ Q_SecondViolinVoiceIII_a = {
                     (13-18)                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+%%% \override TextSpanner.staff-padding = #5             %! OC1:+PARTS
     \override DynamicText.stencil = ##f                  %! OC1:-PARTS
     \override Hairpin.stencil = ##f                      %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
@@ -3768,6 +3775,7 @@ Q_SecondViolinVoiceIII_a = {
     R1 * 1/2
     \!                                                   %! PCW1
     \stopTextSpan                                        %! PCW1
+%%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
@@ -4024,6 +4032,7 @@ Q_ViolaVoiceI_a = {
                     (5-8)                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+%%% \override TextSpanner.staff-padding = #5             %! OC1:+PARTS
     \override DynamicText.stencil = ##f                  %! OC1:-PARTS
     \override Hairpin.stencil = ##f                      %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
@@ -4270,6 +4279,7 @@ Q_ViolaVoiceI_a = {
     R1 * 1/2
     \!                                                   %! PCW1
     \stopTextSpan                                        %! PCW1
+%%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
@@ -4526,6 +4536,7 @@ Q_ViolaVoiceIII_a = {
                     (13-18)                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+%%% \override TextSpanner.staff-padding = #5             %! OC1:+PARTS
     \override DynamicText.stencil = ##f                  %! OC1:-PARTS
     \override Hairpin.stencil = ##f                      %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
@@ -4772,6 +4783,7 @@ Q_ViolaVoiceIII_a = {
     R1 * 1/2
     \!                                                   %! PCW1
     \stopTextSpan                                        %! PCW1
+%%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
@@ -5028,6 +5040,7 @@ Q_CelloVoiceI_a = {
                     (9-14)                                   %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+%%% \override TextSpanner.staff-padding = #5                 %! OC1:+PARTS
     \override DynamicText.stencil = ##f                      %! OC1:-PARTS
     \override Hairpin.stencil = ##f                          %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                      %! OC1:-PARTS
@@ -5276,6 +5289,7 @@ Q_CelloVoiceI_a = {
     R1 * 1/2
     \!                                                       %! PCW1
     \stopTextSpan                                            %! PCW1
+%%% \revert TextSpanner.staff-padding                        %! OC2:+PARTS
     \revert DynamicText.stencil                              %! OC2:-PARTS
     \revert Hairpin.stencil                                  %! OC2:-PARTS
     \revert TextSpanner.stencil                              %! OC2:-PARTS
