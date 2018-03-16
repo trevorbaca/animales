@@ -77,7 +77,13 @@ maker(
 maker(
     baca.scope('PercussionVoiceIV', (1, 8)),
     animales.margin_markup('Perc. 4 (slate)'),
+    baca.effort_dynamic('mf'),
     baca.make_tied_repeated_durations((1, 4)),
+    baca.markup.boxed_lines([
+        'stonecircle: scrape slate slowly in circle;',
+        'one quarter diameter of circle every quarter note',
+        ]),
+    baca.only_parts(baca.text_script_x_offset(3)),
     baca.staff_position(0),
     baca.repeat_ties_up(),
     )

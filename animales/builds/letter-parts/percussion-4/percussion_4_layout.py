@@ -29,7 +29,7 @@ breaks = baca.breaks(
         number=1,
         ),
     baca.page(
-        *make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 21, 2),
+        *make_systems([76, 88, 99, 111, 121, 131, 141, 149, 161, 169], 21, 2),
         number=2,
         ),
     )
@@ -39,3 +39,5 @@ spacing = baca.scorewide_spacing(
     breaks=breaks,
     fallback_duration=(1, 8),
     )
+spacing.override((161, 163), (1, 2))
+spacing.override((165, -2), (1, 16))
