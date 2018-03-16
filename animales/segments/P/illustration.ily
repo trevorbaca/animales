@@ -2693,6 +2693,8 @@ P_FirstViolinVoiceI_a = {
                     (5-8)                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+%%% \override TextScript.extra-offset = #'(1 . 3)        %! OC1:+PARTS
+%%% \override TextSpanner.staff-padding = #5             %! OC1:+PARTS
     \override DynamicText.stencil = ##f                  %! OC1:-PARTS
     \override Hairpin.stencil = ##f                      %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
@@ -2859,6 +2861,8 @@ P_FirstViolinVoiceI_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
+%%% \revert TextScript.extra-offset                      %! OC2:+PARTS
+%%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
@@ -3025,6 +3029,8 @@ P_FirstViolinVoiceIII_a = {
                     (13-17)                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+%%% \override TextScript.extra-offset = #'(1 . 3)        %! OC1:+PARTS
+%%% \override TextSpanner.staff-padding = #5             %! OC1:+PARTS
     \override DynamicText.stencil = ##f                  %! OC1:-PARTS
     \override Hairpin.stencil = ##f                      %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
@@ -3182,6 +3188,8 @@ P_FirstViolinVoiceIII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
+%%% \revert TextScript.extra-offset                      %! OC2:+PARTS
+%%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
@@ -3481,6 +3489,8 @@ P_SecondViolinVoiceI_a = {
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override RepeatTie.direction = #up                  %! OC1
+%%% \override TextScript.extra-offset = #'(1 . 3)        %! OC1:+PARTS
+%%% \override TextSpanner.staff-padding = #5             %! OC1:+PARTS
     \override DynamicText.stencil = ##f                  %! OC1:-PARTS
     \override Hairpin.stencil = ##f                      %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
@@ -3639,6 +3649,8 @@ P_SecondViolinVoiceI_a = {
     -\accent                                             %! IC
     \repeatTie
     \revert RepeatTie.direction                          %! OC2
+%%% \revert TextScript.extra-offset                      %! OC2:+PARTS
+%%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
@@ -3805,6 +3817,8 @@ P_SecondViolinVoiceIII_a = {
                     (13-18)                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+%%% \override TextScript.extra-offset = #'(1 . 3)        %! OC1:+PARTS
+%%% \override TextSpanner.staff-padding = #5             %! OC1:+PARTS
     \override DynamicText.stencil = ##f                  %! OC1:-PARTS
     \override Hairpin.stencil = ##f                      %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
@@ -3962,6 +3976,8 @@ P_SecondViolinVoiceIII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
+%%% \revert TextScript.extra-offset                      %! OC2:+PARTS
+%%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
@@ -4128,6 +4144,8 @@ P_ViolaVoiceI_a = {
                     (5-8)                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+%%% \override TextScript.extra-offset = #'(1 . 3)        %! OC1:+PARTS
+%%% \override TextSpanner.staff-padding = #5             %! OC1:+PARTS
     \override DynamicText.stencil = ##f                  %! OC1:-PARTS
     \override Hairpin.stencil = ##f                      %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
@@ -4285,6 +4303,8 @@ P_ViolaVoiceI_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
+%%% \revert TextScript.extra-offset                      %! OC2:+PARTS
+%%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
@@ -4451,6 +4471,8 @@ P_ViolaVoiceIII_a = {
                     (13-18)                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+%%% \override TextScript.extra-offset = #'(1 . 3)        %! OC1:+PARTS
+%%% \override TextSpanner.staff-padding = #5             %! OC1:+PARTS
     \override DynamicText.stencil = ##f                  %! OC1:-PARTS
     \override Hairpin.stencil = ##f                      %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                  %! OC1:-PARTS
@@ -4608,6 +4630,8 @@ P_ViolaVoiceIII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
+%%% \revert TextScript.extra-offset                      %! OC2:+PARTS
+%%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
     \revert TextSpanner.stencil                          %! OC2:-PARTS
@@ -4775,6 +4799,8 @@ P_CelloVoiceI_a = {
                 }                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override RepeatTie.direction = #up                      %! OC1
+%%% \override TextScript.extra-offset = #'(1 . 3)            %! OC1:+PARTS
+%%% \override TextSpanner.staff-padding = #5                 %! OC1:+PARTS
     \override DynamicText.stencil = ##f                      %! OC1:-PARTS
     \override Hairpin.stencil = ##f                          %! OC1:-PARTS
     \override TextSpanner.stencil = ##f                      %! OC1:-PARTS
@@ -4933,6 +4959,8 @@ P_CelloVoiceI_a = {
     -\accent                                                 %! IC
     \repeatTie
     \revert RepeatTie.direction                              %! OC2
+%%% \revert TextScript.extra-offset                          %! OC2:+PARTS
+%%% \revert TextSpanner.staff-padding                        %! OC2:+PARTS
     \revert DynamicText.stencil                              %! OC2:-PARTS
     \revert Hairpin.stencil                                  %! OC2:-PARTS
     \revert TextSpanner.stencil                              %! OC2:-PARTS
