@@ -23,6 +23,15 @@
             >>
             \context MusicContext = "MusicContext"
             <<
+                \context StaffGroup = "PercussionStaffGroup"
+                <<
+                    \context Staff = "PercussionStaffI"
+                    \i_PercussionStaffI
+                    \context Staff = "PercussionStaffII"
+                    \i_PercussionStaffII
+                    \context Staff = "PercussionStaffIV"
+                    \i_PercussionStaffIV
+                >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
                     \context StaffGroup = "FirstViolinSquareStaffGroup"

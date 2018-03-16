@@ -14,6 +14,11 @@ maker = baca.SegmentMaker(
     measures_per_stage=True,
     metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
+        percussion=[
+            (1, [1]),
+            (2, [2]),
+            (4, [4]),
+            ],
         first_violins=[
             (1, [1]),
             (2, [3]),
@@ -38,6 +43,17 @@ maker = baca.SegmentMaker(
 maker(
     baca.scope('GlobalSkips', 1),
     baca.metronome_mark('114'),
+    )
+
+# single-staff percussion
+
+maker(
+    baca.scopes(
+        ('PercussionVoiceI', 1),
+        ('PercussionVoiceII', 1),
+        ('PercussionVoiceIV', 1),
+        ),
+    baca.staff_lines(1),
     )
 
 # start markup

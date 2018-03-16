@@ -1006,7 +1006,6 @@ X_PercussionVoiceII_a = {
     c'1
     :32                                                      %! IC
     \p                                                       %! SM8:REAPPLIED_DYNAMIC:SM37
-%@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     ^ \markup {
         \column
             {
@@ -1050,12 +1049,12 @@ X_PercussionVoiceII_a = {
     % [X PercussionVoiceII measure 150]                      %! SM4
     c'2
     :32                                                      %! IC
-    \repeatTie                                               %! TCC
+    \repeatTie
     
     % [X PercussionVoiceII measure 151]                      %! SM4
     c'1
     :32                                                      %! IC
-    \repeatTie                                               %! TCC
+    \repeatTie
     \revert RepeatTie.direction                              %! OC2
     
 }
