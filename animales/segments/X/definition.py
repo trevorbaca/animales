@@ -114,7 +114,6 @@ maker(
     baca.scope('PercussionVoiceII', (1, -1)),
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
-    baca.repeat_tie_to(),
     baca.staff_position(0),
     baca.repeat_ties_up(),
     baca.stem_tremolo(),
