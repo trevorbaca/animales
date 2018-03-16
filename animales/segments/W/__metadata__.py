@@ -2379,6 +2379,11 @@ metadata = abjad.OrderedDict(
                                 prototype='abjad.MarginMarkup',
                                 value='Perc.',
                                 ),
+                            abjad.Momento(
+                                context='PercussionVoiceIV',
+                                prototype='baca.StaffLines',
+                                value=1,
+                                ),
                             ],
                         ),
                     (
