@@ -3,7 +3,7 @@ import animales
 import baca
 
 
-def assign_brass_sforzando_parts(maker):
+def assign_brass_sforzando_parts(maker, omit_tuba=False):
     r'''Assigns brass sforzando parts.
     '''
 
@@ -79,7 +79,8 @@ def assign_brass_sforzando_parts(maker):
         baca.not_parts(baca.voice_two()),
         )
 
-    maker(
-        baca.scope('TubaVoiceI', (1, -1)),
-        animales.parts('Tuba'),
-        )
+    if not omit_tuba:
+        maker(
+            baca.scope('TubaVoiceI', (1, -1)),
+            animales.parts('Tuba'),
+            )
