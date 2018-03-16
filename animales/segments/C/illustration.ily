@@ -1342,6 +1342,9 @@ C_TubaStaffI = {
 C_PercussionVoiceI_a = {
     
     % [C PercussionVoiceI measure 18]                        %! SM4
+    \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override Staff.StaffSymbol.line-count = 1         %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
     \set Staff.instrumentName =                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -1362,21 +1365,22 @@ C_PercussionVoiceI_a = {
                     (tri.)                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
                 }                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
-    \clef "percussion"                                       %! SM8:DEFAULT_CLEF:ST3
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
-%@% \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
-    \set Staff.forceClef = ##t                               %! SM8:DEFAULT_CLEF:SM33:ST3
+    \clef "percussion"                                       %! SM8:REAPPLIED_CLEF:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     R1 * 1
     ^ \markup {
         \column
             {
-                \line                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)         %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Percussion”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                \line                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                    {                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        \with-color                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            #(x11-color 'green4)             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            (“Percussion”)                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                    }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                         \with-color                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -1385,7 +1389,7 @@ C_PercussionVoiceI_a = {
                     }                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
             }
         }
-    \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     \markup {                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -1413,13 +1417,9 @@ C_PercussionVoiceI_a = {
     
     % [C PercussionVoiceI measure 20]                        %! SM4
     \override Staff.BarLine.bar-extent = #'(0 . 0)           %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:-PARTS
-    \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 1         %! SM8:EXPLICIT_STAFF_LINES:IC
-    \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)          %! IC:+PARTS:TEMPORARY
     \override RepeatTie.direction = #up                      %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c'1
     :32                                                      %! IC
     \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
@@ -1465,6 +1465,9 @@ C_PercussionStaffI = {
 C_PercussionVoiceII_a = {
     
     % [C PercussionVoiceII measure 18]                       %! SM4
+    \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override Staff.StaffSymbol.line-count = 1         %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
     \set Staff.instrumentName =                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -1485,21 +1488,22 @@ C_PercussionVoiceII_a = {
                     (cym.)                                   %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
                 }                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
-    \clef "percussion"                                       %! SM8:DEFAULT_CLEF:ST3
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
-%@% \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
-    \set Staff.forceClef = ##t                               %! SM8:DEFAULT_CLEF:SM33:ST3
+    \clef "percussion"                                       %! SM8:REAPPLIED_CLEF:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     R1 * 1
     ^ \markup {
         \column
             {
-                \line                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)         %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Percussion”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                \line                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                    {                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        \with-color                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            #(x11-color 'green4)             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            (“Percussion”)                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                    }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                         \with-color                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -1508,7 +1512,7 @@ C_PercussionVoiceII_a = {
                     }                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
             }
         }
-    \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     \markup {                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -1536,13 +1540,9 @@ C_PercussionVoiceII_a = {
     
     % [C PercussionVoiceII measure 20]                       %! SM4
     \override Staff.BarLine.bar-extent = #'(0 . 0)           %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:-PARTS
-    \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 1         %! SM8:EXPLICIT_STAFF_LINES:IC
-    \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)          %! IC:+PARTS:TEMPORARY
     \override RepeatTie.direction = #up                      %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c'1
     :32                                                      %! IC
     \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC

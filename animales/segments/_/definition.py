@@ -48,11 +48,20 @@ maker(
 # single-staff percussion
 
 maker(
-    baca.scopes(
-        ('PercussionVoiceI', 1),
-        ('PercussionVoiceII', 1),
-        ('PercussionVoiceIV', 1),
-        ),
+    baca.scope('PercussionVoiceI', (1, -1)),
+    animales.parts('Percussion', 1),
+    baca.staff_lines(1),
+    )
+
+maker(
+    baca.scope('PercussionVoiceII', (1, -1)),
+    animales.parts('Percussion', 2),
+    baca.staff_lines(1),
+    )
+
+maker(
+    baca.scope('PercussionVoiceIV', (1, -1)),
+    animales.parts('Percussion', 4),
     baca.staff_lines(1),
     )
 

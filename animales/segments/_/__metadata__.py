@@ -77,6 +77,36 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
+                        'i_PercussionVoiceII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 2),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(11, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'i_PercussionVoiceIV_a',
+                        (
+                            abjad.PartAssignment('Percussion', 4),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(11, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'i_PercussionVoiceI_a',
+                        (
+                            abjad.PartAssignment('Percussion', 1),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(11, 2),
+                                ),
+                            ),
+                        ),
+                    (
                         'i_SecondViolinVoiceIII_a',
                         (
                             abjad.PartAssignment('SecondViolin', (11, 18)),

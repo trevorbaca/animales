@@ -104,7 +104,6 @@ maker(
     baca.tag('TEMPORARY', baca.only_parts(baca.literal(string))),
 
     baca.repeat_ties_up(),
-    baca.staff_lines(1),
     baca.staff_positions([0]),
     baca.stem_tremolo(),
     )
