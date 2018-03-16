@@ -51,23 +51,32 @@ animales.attach_grand_pause_fermatas(maker, measure=-1)
 # piano
 
 maker(
-    baca.scope('PianoVoiceI', (1, 9)),
+    baca.scope('PianoVoiceI', (1, -1)),
     animales.parts('Piano'),
+    )
+
+maker(
+    baca.scope('PianoVoiceI', (1, 9)),
     baca.natural_harmonics(),
     baca.laissez_vibrer(),
     baca.make_notes(),
     baca.markup.boxed(
-        'harmonic: touch loweset string of piano 1 cm from hammers'
+        'harmonic: touch lowest string of piano 1 cm from hammers'
         ),
     baca.pitch('C#4'),
+    baca.only_parts(baca.text_script_x_offset(3)),
     )
 
 # slate
 
 maker(
+    baca.scope('PercussionVoiceIV', (1, -1)),
+    animales.parts('Percussion', 4),
+    )
+
+maker(
     baca.scope('PercussionVoiceIV', (1, 8)),
     animales.margin_markup('Perc. 4 (slate)'),
-    animales.parts('Percussion', 4),
     baca.make_tied_repeated_durations((1, 4)),
     baca.staff_position(0),
     baca.repeat_ties_up(),
