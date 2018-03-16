@@ -972,29 +972,29 @@ M_ClarinetVoiceI_a = {
     f''2
     \repeatTie
     \ff                                                  %! HC1
+    
+    % [M ClarinetVoiceI measure 85]                      %! SM4
+    R1 * 1
+    ^ \markup {                                          %! IC
+        \whiteout                                        %! IC
+            \upright                                     %! IC
+                \override                                %! IC
+                    #'(box-padding . 0.5)                %! IC
+                    \box                                 %! IC
+                        "choke sound suddenly"           %! IC
+        }                                                %! IC
+    
+    % [M ClarinetVoiceI measure 86]                      %! SM4
+    R1 * 1
+    
+    % [M ClarinetVoiceI measure 87]                      %! SM4
+    R1 * 1
+    
 }
 
 
 M_ClarinetVoiceI = {
     \M_ClarinetVoiceI_a
-    
-    % [M ClarinetVoiceI measure 85]                          %! SM4
-    R1 * 1
-    ^ \markup {                                              %! IC
-        \whiteout                                            %! IC
-            \upright                                         %! IC
-                \override                                    %! IC
-                    #'(box-padding . 0.5)                    %! IC
-                    \box                                     %! IC
-                        "choke sound suddenly"               %! IC
-        }                                                    %! IC
-    
-    % [M ClarinetVoiceI measure 86]                          %! SM4
-    R1 * 1
-    
-    % [M ClarinetVoiceI measure 87]                          %! SM4
-    R1 * 1
-    
 }
 
 

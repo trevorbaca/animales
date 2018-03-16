@@ -95,6 +95,16 @@ maker(
     )
 
 maker(
+    baca.scope('GlobalRests', (5, -1)),
+    animales.parts('Clarinet', 1),
+    )
+
+maker(
+    baca.scope('GlobalRests', (1, 4)),
+    animales.parts('Clarinet', 2),
+    )
+
+maker(
     baca.scope('ClarinetVoiceI', (5, 8)),
     animales.margin_markup('Cl. 2'),
     animales.parts('Clarinet', 2),

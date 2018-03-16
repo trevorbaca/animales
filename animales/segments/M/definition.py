@@ -138,8 +138,12 @@ maker(
 # clarinet
 
 maker(
-    baca.scope('ClarinetVoiceI', (1, 3)),
+    baca.scope('ClarinetVoiceI', (1, -1)),
     animales.parts('Clarinet', 1),
+    )
+
+maker(
+    baca.scope('ClarinetVoiceI', (1, 3)),
     baca.hairpin('< ff', left_broken=True),
     baca.make_repeat_tied_notes(),
     baca.pitch('Eb5'),

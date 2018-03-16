@@ -1,29 +1,39 @@
+F_GlobalRests_a = {
+    
+    % [F GlobalRests measure 36]                                     %! SM4
+    R1 * 1/2
+    
+    % [F GlobalRests measure 37]                                     %! SM4
+    R1 * 1
+    
+    % [F GlobalRests measure 38]                                     %! SM4
+    R1 * 1
+    
+    % [F GlobalRests measure 39]                                     %! SM4
+    R1 * 1
+}
+
+
+F_GlobalRests_b = {
+    
+    % [F GlobalRests measure 40]                                     %! SM4
+    R1 * 1
+    
+    % [F GlobalRests measure 41]                                     %! SM4
+    R1 * 1/2
+    
+    % [F GlobalRests measure 42]                                     %! SM4
+    R1 * 1
+    
+    % [F GlobalRests measure 43]                                     %! SM4
+    R1 * 1
+    
+}
+
+
 F_GlobalRests = {
-    
-    % [F GlobalRests measure 36]                                         %! SM4
-    R1 * 1/2
-    
-    % [F GlobalRests measure 37]                                         %! SM4
-    R1 * 1
-    
-    % [F GlobalRests measure 38]                                         %! SM4
-    R1 * 1
-    
-    % [F GlobalRests measure 39]                                         %! SM4
-    R1 * 1
-    
-    % [F GlobalRests measure 40]                                         %! SM4
-    R1 * 1
-    
-    % [F GlobalRests measure 41]                                         %! SM4
-    R1 * 1/2
-    
-    % [F GlobalRests measure 42]                                         %! SM4
-    R1 * 1
-    
-    % [F GlobalRests measure 43]                                         %! SM4
-    R1 * 1
-    
+    \F_GlobalRests_a
+    \F_GlobalRests_b
 }
 
 

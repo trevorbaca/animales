@@ -77,7 +77,7 @@ maker(
         ),
     )
 
-# clarinets
+# clarinet
 
 maker(
     baca.scope('ClarinetVoiceI', (1, -1)),

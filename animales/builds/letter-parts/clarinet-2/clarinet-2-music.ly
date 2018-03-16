@@ -134,11 +134,13 @@
                         \C_GlobalRests
                         \D_ClarinetVoiceI_a
                         \E_GlobalRests
+                        \F_GlobalRests_a
                         \F_ClarinetVoiceI_b
                         \G_GlobalRests
                         \H_GlobalRests
                         \I_GlobalRests
                         \J_ClarinetVoiceI_a
+                        \K_GlobalRests_a
                         \K_ClarinetVoiceI_b
                         \L_GlobalRests
                         \M_GlobalRests
