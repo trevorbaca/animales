@@ -135,11 +135,13 @@
                         \D_GlobalRests
                         \E_GlobalRests
                         \F_ClarinetVoiceI_a
+                        \F_GlobalRests_b
                         \G_ClarinetVoiceI_a
                         \H_ClarinetVoiceI_a
                         \I_GlobalRests
                         \J_GlobalRests
                         \K_ClarinetVoiceI_a
+                        \K_GlobalRests_b
                         \L_ClarinetVoiceI_a
                         \M_ClarinetVoiceI_a
                         \N_GlobalRests

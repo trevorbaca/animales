@@ -132,6 +132,26 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
+                        'K_GlobalRests_a',
+                        (
+                            abjad.PartAssignment('Clarinet', 2),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(15, 4),
+                                ),
+                            ),
+                        ),
+                    (
+                        'K_GlobalRests_b',
+                        (
+                            abjad.PartAssignment('Clarinet', 1),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(15, 4),
+                                stop_offset=abjad.Offset(15, 2),
+                                ),
+                            ),
+                        ),
+                    (
                         'K_HarpVoiceI_a',
                         (
                             abjad.PartAssignment('Harp'),

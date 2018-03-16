@@ -414,35 +414,35 @@ H_ClarinetVoiceI_a = {
     g''2.
     \repeatTie
     \ff                                                      %! HC1
+    
+    % [H ClarinetVoiceI measure 53]                          %! SM4
+%%% \once \override MultiMeasureRestText.extra-offset = #'(-6 . 0) %! OC1:+SCORE
+    R1 * 3/4
+    ^ \markup {                                              %! IC
+        \whiteout                                            %! IC
+            \upright                                         %! IC
+                \override                                    %! IC
+                    #'(box-padding . 0.5)                    %! IC
+                    \box                                     %! IC
+                        \column                              %! IC
+                            {                                %! IC
+                                "choke sound suddenly:"      %! IC
+                                "touch tongue to reed"       %! IC
+                                "exactly on downbeat"        %! IC
+                            }                                %! IC
+        }                                                    %! IC
+    
+    % [H ClarinetVoiceI measure 54]                          %! SM4
+    R1 * 1
+    
+    % [H ClarinetVoiceI measure 55]                          %! SM4
+    R1 * 1
+    
 }
 
 
 H_ClarinetVoiceI = {
     \H_ClarinetVoiceI_a
-    
-    % [H ClarinetVoiceI measure 53]                              %! SM4
-%%% \once \override MultiMeasureRestText.extra-offset = #'(-6 . 0) %! OC1:+SCORE
-    R1 * 3/4
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        \column                                  %! IC
-                            {                                    %! IC
-                                "choke sound suddenly:"          %! IC
-                                "touch tongue to reed"           %! IC
-                                "exactly on downbeat"            %! IC
-                            }                                    %! IC
-        }                                                        %! IC
-    
-    % [H ClarinetVoiceI measure 54]                              %! SM4
-    R1 * 1
-    
-    % [H ClarinetVoiceI measure 55]                              %! SM4
-    R1 * 1
-    
 }
 
 

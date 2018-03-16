@@ -72,9 +72,8 @@ maker(
         ),
     )
 
-# clarinet
+# clarinets
 
-# TODO: assign empty clarinet 1 part for end of segment
 maker(
     baca.scope('ClarinetVoiceI', (1, 4)),
     animales.margin_markup('Cl. 1'),
@@ -85,7 +84,16 @@ maker(
     baca.pitch('D5'),
     )
 
-# TODO: assign empty clarinet 2 part for beginning of segment
+maker(
+    baca.scope('GlobalRests', (5, -1)),
+    animales.parts('Clarinet', 1),
+    )
+
+maker(
+    baca.scope('GlobalRests', (1, 4)),
+    animales.parts('Clarinet', 2),
+    )
+
 maker(
     baca.scope('ClarinetVoiceI', (5, 8)),
     animales.margin_markup('Cl. 2'),

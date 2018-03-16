@@ -1,29 +1,39 @@
+K_GlobalRests_a = {
+    
+    % [K GlobalRests measure 68]                                     %! SM4
+    R1 * 1
+    
+    % [K GlobalRests measure 69]                                     %! SM4
+    R1 * 1
+    
+    % [K GlobalRests measure 70]                                     %! SM4
+    R1 * 1
+    
+    % [K GlobalRests measure 71]                                     %! SM4
+    R1 * 3/4
+}
+
+
+K_GlobalRests_b = {
+    
+    % [K GlobalRests measure 72]                                     %! SM4
+    R1 * 3/4
+    
+    % [K GlobalRests measure 73]                                     %! SM4
+    R1 * 1
+    
+    % [K GlobalRests measure 74]                                     %! SM4
+    R1 * 1
+    
+    % [K GlobalRests measure 75]                                     %! SM4
+    R1 * 1
+    
+}
+
+
 K_GlobalRests = {
-    
-    % [K GlobalRests measure 68]                                         %! SM4
-    R1 * 1
-    
-    % [K GlobalRests measure 69]                                         %! SM4
-    R1 * 1
-    
-    % [K GlobalRests measure 70]                                         %! SM4
-    R1 * 1
-    
-    % [K GlobalRests measure 71]                                         %! SM4
-    R1 * 3/4
-    
-    % [K GlobalRests measure 72]                                         %! SM4
-    R1 * 3/4
-    
-    % [K GlobalRests measure 73]                                         %! SM4
-    R1 * 1
-    
-    % [K GlobalRests measure 74]                                         %! SM4
-    R1 * 1
-    
-    % [K GlobalRests measure 75]                                         %! SM4
-    R1 * 1
-    
+    \K_GlobalRests_a
+    \K_GlobalRests_b
 }
 
 

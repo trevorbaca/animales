@@ -112,6 +112,26 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
+                        'F_GlobalRests_a',
+                        (
+                            abjad.PartAssignment('Clarinet', 2),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(7, 2),
+                                ),
+                            ),
+                        ),
+                    (
+                        'F_GlobalRests_b',
+                        (
+                            abjad.PartAssignment('Clarinet', 1),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(7, 2),
+                                stop_offset=abjad.Offset(7, 1),
+                                ),
+                            ),
+                        ),
+                    (
                         'F_HarpVoiceI_a',
                         (
                             abjad.PartAssignment('Harp'),
