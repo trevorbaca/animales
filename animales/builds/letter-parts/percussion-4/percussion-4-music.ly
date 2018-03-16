@@ -128,7 +128,7 @@
                     \context Staff = "Staff"
                     {
                         \clef "percussion"
-                        \i_GlobalRests
+                        \i_PercussionVoiceIV_a
                         \A_GlobalRests
                         \B_GlobalRests
                         \C_GlobalRests

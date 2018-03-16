@@ -346,8 +346,6 @@ metadata = abjad.OrderedDict(
                     ('ContrabassStaffII', 'Cb.'),
                     ('HornStaffI', 'Hn. (1+3)'),
                     ('HornStaffII', 'Hn. (2+4)'),
-                    ('PercussionStaffI', 'Perc. 1 (tri.)'),
-                    ('PercussionStaffII', 'Perc. 2 (cym.)'),
                     ('TromboneStaffI', 'Trb. (1+3)'),
                     ('TromboneStaffII', 'Trb. (2+4)'),
                     ('TrumpetStaffI', 'Tp. (1+3)'),
@@ -682,6 +680,32 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='PercussionVoiceII',
+                                prototype='baca.StaffLines',
+                                value=1,
+                                ),
+                            ],
+                        ),
+                    (
+                        'PercussionStaffIV',
+                        [
+                            abjad.Momento(
+                                context='PercussionVoiceIV',
+                                prototype='abjad.Clef',
+                                value='percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceIV',
+                                prototype='abjad.Instrument',
+                                value='Percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceIV',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.MarginMarkup',
+                                value='Perc.',
+                                ),
+                            abjad.Momento(
+                                context='PercussionVoiceIV',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),

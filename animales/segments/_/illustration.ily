@@ -329,78 +329,83 @@ i_GlobalSkips = {
 }
 
 
-i_PercussionVoiceI = {
+i_PercussionVoiceI_a = {
     
-    % [_ PercussionVoiceI measure 1]                             %! SM4
-    \set Staff.instrumentName =                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \markup {                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        \hcenter-in                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            #16                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            Perc.                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        }                                                        %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \set Staff.shortInstrumentName =                             %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \markup {                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        \hcenter-in                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            #16                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            Perc.                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        }                                                        %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:IC
-    \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
-    \clef "percussion"                                           %! SM8:DEFAULT_CLEF:ST3
+    % [_ PercussionVoiceI measure 1]                         %! SM4
+    \set Staff.instrumentName =                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            Perc.                                            %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \set Staff.shortInstrumentName =                         %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            Perc.                                            %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1         %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
+    \clef "percussion"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)  %! SM6:DEFAULT_CLEF_COLOR:ST3
-%@% \override Staff.Clef.color = ##f                             %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
-    \set Staff.forceClef = ##t                                   %! SM8:DEFAULT_CLEF:SM33:ST3
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set Staff.forceClef = ##t                               %! SM8:DEFAULT_CLEF:SM33:ST3
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     R1 * 1
     ^ \markup {
         \column
             {
-                \line                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Percussion”)                       %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                \line                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                    {                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                        \with-color                              %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                            #(x11-color 'DarkViolet)             %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                            [“Perc.”]                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                    }                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                \line                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)         %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Percussion”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                \line                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                    {                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                        \with-color                          %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                            #(x11-color 'DarkViolet)         %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                            [“Perc.”]                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                    }                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
             }
         }
-    \override Staff.InstrumentName.color = #(x11-color 'violet)  %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
-    \set Staff.instrumentName =                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \markup {                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            #16                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            Perc.                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        }                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \set Staff.shortInstrumentName =                             %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \markup {                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            #16                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            Perc.                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        }                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
+    \override Staff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
+    \set Staff.instrumentName =                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \markup {                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            #16                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            Perc.                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \set Staff.shortInstrumentName =                         %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \markup {                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            #16                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            Perc.                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [_ PercussionVoiceI measure 2]                             %! SM4
+    % [_ PercussionVoiceI measure 2]                         %! SM4
     R1 * 1
     
-    % [_ PercussionVoiceI measure 3]                             %! SM4
+    % [_ PercussionVoiceI measure 3]                         %! SM4
     R1 * 1
     
-    % [_ PercussionVoiceI measure 4]                             %! SM4
+    % [_ PercussionVoiceI measure 4]                         %! SM4
     R1 * 3/4
     
-    % [_ PercussionVoiceI measure 5]                             %! SM4
+    % [_ PercussionVoiceI measure 5]                         %! SM4
     R1 * 3/4
     
-    % [_ PercussionVoiceI measure 6]                             %! SM4
+    % [_ PercussionVoiceI measure 6]                         %! SM4
     R1 * 1
     
+}
+
+
+i_PercussionVoiceI = {
+    \i_PercussionVoiceI_a
 }
 
 
@@ -410,78 +415,83 @@ i_PercussionStaffI = {
 }
 
 
-i_PercussionVoiceII = {
+i_PercussionVoiceII_a = {
     
-    % [_ PercussionVoiceII measure 1]                            %! SM4
-    \set Staff.instrumentName =                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \markup {                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        \hcenter-in                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            #16                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            Perc.                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        }                                                        %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \set Staff.shortInstrumentName =                             %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \markup {                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        \hcenter-in                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            #16                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            Perc.                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        }                                                        %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:IC
-    \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
-    \clef "percussion"                                           %! SM8:DEFAULT_CLEF:ST3
+    % [_ PercussionVoiceII measure 1]                        %! SM4
+    \set Staff.instrumentName =                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            Perc.                                            %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \set Staff.shortInstrumentName =                         %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            Perc.                                            %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1         %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
+    \clef "percussion"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)  %! SM6:DEFAULT_CLEF_COLOR:ST3
-%@% \override Staff.Clef.color = ##f                             %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
-    \set Staff.forceClef = ##t                                   %! SM8:DEFAULT_CLEF:SM33:ST3
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set Staff.forceClef = ##t                               %! SM8:DEFAULT_CLEF:SM33:ST3
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     R1 * 1
     ^ \markup {
         \column
             {
-                \line                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Percussion”)                       %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                \line                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                    {                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                        \with-color                              %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                            #(x11-color 'DarkViolet)             %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                            [“Perc.”]                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                    }                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                \line                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)         %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Percussion”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                \line                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                    {                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                        \with-color                          %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                            #(x11-color 'DarkViolet)         %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                            [“Perc.”]                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                    }                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
             }
         }
-    \override Staff.InstrumentName.color = #(x11-color 'violet)  %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
-    \set Staff.instrumentName =                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \markup {                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            #16                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            Perc.                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        }                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \set Staff.shortInstrumentName =                             %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \markup {                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            #16                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            Perc.                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        }                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
+    \override Staff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
+    \set Staff.instrumentName =                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \markup {                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            #16                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            Perc.                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \set Staff.shortInstrumentName =                         %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \markup {                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            #16                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            Perc.                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [_ PercussionVoiceII measure 2]                            %! SM4
+    % [_ PercussionVoiceII measure 2]                        %! SM4
     R1 * 1
     
-    % [_ PercussionVoiceII measure 3]                            %! SM4
+    % [_ PercussionVoiceII measure 3]                        %! SM4
     R1 * 1
     
-    % [_ PercussionVoiceII measure 4]                            %! SM4
+    % [_ PercussionVoiceII measure 4]                        %! SM4
     R1 * 3/4
     
-    % [_ PercussionVoiceII measure 5]                            %! SM4
+    % [_ PercussionVoiceII measure 5]                        %! SM4
     R1 * 3/4
     
-    % [_ PercussionVoiceII measure 6]                            %! SM4
+    % [_ PercussionVoiceII measure 6]                        %! SM4
     R1 * 1
     
+}
+
+
+i_PercussionVoiceII = {
+    \i_PercussionVoiceII_a
 }
 
 
@@ -491,78 +501,83 @@ i_PercussionStaffII = {
 }
 
 
-i_PercussionVoiceIV = {
+i_PercussionVoiceIV_a = {
     
-    % [_ PercussionVoiceIV measure 1]                            %! SM4
-    \set Staff.instrumentName =                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \markup {                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        \hcenter-in                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            #16                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            Perc.                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        }                                                        %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \set Staff.shortInstrumentName =                             %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \markup {                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        \hcenter-in                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            #16                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-            Perc.                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-        }                                                        %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:IC
-    \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
-    \clef "percussion"                                           %! SM8:DEFAULT_CLEF:ST3
+    % [_ PercussionVoiceIV measure 1]                        %! SM4
+    \set Staff.instrumentName =                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            Perc.                                            %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \set Staff.shortInstrumentName =                         %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+            Perc.                                            %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+        }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+    \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1         %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
+    \clef "percussion"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)  %! SM6:DEFAULT_CLEF_COLOR:ST3
-%@% \override Staff.Clef.color = ##f                             %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
-    \set Staff.forceClef = ##t                                   %! SM8:DEFAULT_CLEF:SM33:ST3
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set Staff.forceClef = ##t                               %! SM8:DEFAULT_CLEF:SM33:ST3
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     R1 * 1
     ^ \markup {
         \column
             {
-                \line                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Percussion”)                       %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                \line                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                    {                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                        \with-color                              %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                            #(x11-color 'DarkViolet)             %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                            [“Perc.”]                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                    }                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                \line                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)         %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Percussion”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                \line                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                    {                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                        \with-color                          %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                            #(x11-color 'DarkViolet)         %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                            [“Perc.”]                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                    }                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
             }
         }
-    \override Staff.InstrumentName.color = #(x11-color 'violet)  %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
-    \set Staff.instrumentName =                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \markup {                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            #16                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            Perc.                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        }                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \set Staff.shortInstrumentName =                             %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \markup {                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            #16                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-            Perc.                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-        }                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-    \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
+    \override Staff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
+    \set Staff.instrumentName =                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \markup {                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            #16                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            Perc.                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \set Staff.shortInstrumentName =                         %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \markup {                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            #16                                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+            Perc.                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+        }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+    \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [_ PercussionVoiceIV measure 2]                            %! SM4
+    % [_ PercussionVoiceIV measure 2]                        %! SM4
     R1 * 1
     
-    % [_ PercussionVoiceIV measure 3]                            %! SM4
+    % [_ PercussionVoiceIV measure 3]                        %! SM4
     R1 * 1
     
-    % [_ PercussionVoiceIV measure 4]                            %! SM4
+    % [_ PercussionVoiceIV measure 4]                        %! SM4
     R1 * 3/4
     
-    % [_ PercussionVoiceIV measure 5]                            %! SM4
+    % [_ PercussionVoiceIV measure 5]                        %! SM4
     R1 * 3/4
     
-    % [_ PercussionVoiceIV measure 6]                            %! SM4
+    % [_ PercussionVoiceIV measure 6]                        %! SM4
     R1 * 1
     
+}
+
+
+i_PercussionVoiceIV = {
+    \i_PercussionVoiceIV_a
 }
 
 
