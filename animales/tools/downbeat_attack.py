@@ -141,14 +141,14 @@ def downbeat_attack(count=1, denominator=8):
                                     \override Staff.Clef.color = #(x11-color 'violet)                %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
             <BLANKLINE>
                                     r2..
-            <BLANKLINE>
-                                    % [HornVoiceI measure 2]                                         %! SM4
-                                    r2.
-            <BLANKLINE>
-                                    % [HornVoiceI measure 3]                                         %! SM4
-                                    r2
-            <BLANKLINE>
                                 }   %*% PartAssignment('Horn')
+            <BLANKLINE>
+                                % [HornVoiceI measure 2]                                             %! SM4
+                                R1 * 3/4
+            <BLANKLINE>
+                                % [HornVoiceI measure 3]                                             %! SM4
+                                R1 * 1/2
+            <BLANKLINE>
                             }
                         }
                     >>
