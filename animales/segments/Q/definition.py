@@ -23,11 +23,8 @@ time_signatures.insert(2, (1, 4))
 time_signatures.insert(7, (1, 4))
 
 maker = baca.SegmentMaker(
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
     measures_per_stage=True,
     metronome_mark_measure_map=metronome_mark_measure_map,
-    metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
         horns=[
             (1, [1, 3]),
