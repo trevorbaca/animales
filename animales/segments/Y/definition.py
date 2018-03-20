@@ -14,7 +14,6 @@ start = 133
 
 time_signatures = animales.time_signatures[start: start + 3]
 maker = baca.SegmentMaker(
-    measures_per_stage=True,
     score_template=animales.ScoreTemplate(
         horns=[
             (1, [1, 3]),

@@ -9,7 +9,6 @@ from abjad import rhythmmakertools as rhythmos
 ###############################################################################
 
 maker = baca.SegmentMaker(
-    measures_per_stage=True,
     score_template=animales.ScoreTemplate(
         percussion=[
             (1, [1]),
