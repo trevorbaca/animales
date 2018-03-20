@@ -16,7 +16,6 @@ assert start == 130
 time_signatures = animales.time_signatures[start: start + 3]
 maker = baca.SegmentMaker(
     magnify_staves=(abjad.Multiplier(6, 10), '-PARTS'),
-    measures_per_stage=True,
     score_template=animales.ScoreTemplate(
         horns=[
             (1, [1, 3]),

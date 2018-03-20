@@ -19,7 +19,6 @@ time_signatures = animales.time_signatures[start: start + 9] + ((1, 4),)
 
 maker = baca.SegmentMaker(
     final_bar_line='|.',
-    measures_per_stage=True,
     metronome_mark_measure_map=metronome_mark_measure_map,
     score_template=animales.ScoreTemplate(
         piano=[

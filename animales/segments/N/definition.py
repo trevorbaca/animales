@@ -19,7 +19,6 @@ metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
 time_signatures = animales.time_signatures[start:start + 6] + ((1, 4),)
 
 maker = baca.SegmentMaker(
-    measures_per_stage=True,
     metronome_mark_measure_map=metronome_mark_measure_map,
     score_template=animales.ScoreTemplate(
         flutes=[
