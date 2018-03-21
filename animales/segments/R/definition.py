@@ -95,7 +95,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, -1)),
+    'GlobalSkips',
     baca.rehearsal_mark('R'),
     baca.tag(
         '+TABLOID_SCORE',

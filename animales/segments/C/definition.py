@@ -61,7 +61,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', 3),
+    ('GlobalSkips', 3),
     baca.rehearsal_mark('C'),
     baca.only_score(baca.rehearsal_mark_y_offset(-2)),
     )
@@ -69,7 +69,7 @@ maker(
 # clarinet
 
 maker(
-    baca.scope('ClarinetVoiceI', (3, 6)),
+    ('ClarinetVoiceI', (3, 6)),
     baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.markup.edition('solo (cl. 3)', 'solo'),
@@ -77,7 +77,7 @@ maker(
     )
 
 maker(
-    baca.scope('ClarinetVoiceI', (1, -1)),
+    'ClarinetVoiceI',
     animales.margin_markup('Cl. 3'),
     animales.parts('Clarinet', 3),
     )
@@ -105,25 +105,25 @@ maker(
     )
 
 maker(
-    baca.scope('PercussionVoiceI', (3, 6)),
+    ('PercussionVoiceI', (3, 6)),
     baca.markup.boxed('triangle (small beater)'),
     )
 
 maker(
-    baca.scope('PercussionVoiceII', (3, 6)),
+    ('PercussionVoiceII', (3, 6)),
     baca.markup.boxed(
         'suspended cymbal (soft yarn mallets: attackless sound)',
         ),
     )
 
 maker(
-    baca.scope('PercussionVoiceI', (1, -1)),
+    'PercussionVoiceI',
     animales.margin_markup('Perc. 1 (tri.)'),
     animales.parts('Percussion', 1),
     )
 
 maker(
-    baca.scope('PercussionVoiceII', (1, -1)),
+    'PercussionVoiceII',
     animales.margin_markup('Perc. 2 (cym.)'),
     animales.parts('Percussion', 2),
     )
@@ -134,39 +134,39 @@ animales.assign_brass_sforzando_parts(maker)
 animales.brass_sforzando(maker, 3)
 
 maker(
-    baca.scope('HornVoiceI', (1, -1)),
+    'HornVoiceI',
     animales.margin_markup('Hn. (1+3)'),
     )
 
 maker(
-    baca.scope('HornVoiceII', (1, -1)),
+    'HornVoiceII',
     animales.margin_markup('Hn. (2+4)'),
     )
 
 maker(
-    baca.scope('TrumpetVoiceI', (1, -1)),
+    'TrumpetVoiceI',
     animales.margin_markup('Tp. (1+3)'),
     )
 
 maker(
-    baca.scope('TrumpetVoiceII', (1, -1)),
+    'TrumpetVoiceII',
     animales.margin_markup('Tp. (2+4)'),
     )
 
 maker(
-    baca.scope('TromboneVoiceI', (1, -1)),
+    'TromboneVoiceI',
     animales.margin_markup('Trb. (1+3)'),
     )
 
 maker(
-    baca.scope('TromboneVoiceII', (1, -1)),
+    'TromboneVoiceII',
     animales.margin_markup('Trb. (2+4)'),
     )
 
 # strings
 
 maker(
-    baca.scope('FirstViolinVoiceII', (3, 6)),
+    ('FirstViolinVoiceII', (3, 6)),
     animales.glissando_rhythm(),
     animales.parts('FirstViolin', 1),
     baca.hairpin('p < f', baca.notes().group_by_measure()[0].rleak()),
@@ -237,17 +237,17 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaVoiceI', (3, 6)),
+    ('ViolaVoiceI', (3, 6)),
     baca.repeat_ties_up(),
     )
 
 maker(
-    baca.scope('FirstViolinVoiceI', (1, 2)),
+    ('FirstViolinVoiceI', (1, 2)),
     animales.parts('FirstViolin', (1, 10)),
     )
 
 maker(
-    baca.scope('FirstViolinVoiceI', (3, 6)),
+    ('FirstViolinVoiceI', (3, 6)),
     animales.parts('FirstViolin', (2, 10)),
     baca.not_parts(
         baca.markup.boxed_lines(
@@ -258,45 +258,45 @@ maker(
     )
 
 maker(
-    baca.scope('FirstViolinVoiceIII', (1, -1)),
+    'FirstViolinVoiceIII',
     animales.parts('FirstViolin', (11, 18)),
     )
 
 maker(
-    baca.scope('SecondViolinVoiceI', (1, -1)),
+    'SecondViolinVoiceI',
     animales.parts('SecondViolin', (1, 10)),
     )
 
 maker(
-    baca.scope('SecondViolinVoiceIII', (1, -1)),
+    'SecondViolinVoiceIII',
     animales.parts('SecondViolin', (11, 18)),
     )
 
 maker(
-    baca.scope('ViolaVoiceI', (1, -1)),
+    'ViolaVoiceI',
     animales.parts('Viola', (1, 10)),
     )
 
 maker(
-    baca.scope('ViolaVoiceIII', (1, -1)),
+    'ViolaVoiceIII',
     animales.parts('Viola', (11, 18)),
     )
 
 maker(
-    baca.scope('CelloVoiceI', (1, -1)),
+    'CelloVoiceI',
     animales.parts('Cello'),
     )
 
 # contrabasses
 
 maker(
-    baca.scope('ContrabassVoiceIII', (3, 6)),
+    ('ContrabassVoiceIII', (3, 6)),
     baca.hairpin('p <', right_broken=True),
     baca.make_repeat_tied_notes(),
     baca.pitch('C2'),
     )
 
 maker(
-    baca.scope('ContrabassVoiceIII', (1, -1)),
+    'ContrabassVoiceIII',
     animales.parts('Contrabass'),
     )

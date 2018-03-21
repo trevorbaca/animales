@@ -51,7 +51,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, -1)),
+    'GlobalSkips',
     baca.metronome_mark('76'),
     baca.rehearsal_mark('F'),
     baca.tag(
@@ -71,7 +71,7 @@ maker(
 # clarinets
 
 maker(
-    baca.scope('ClarinetVoiceI', (1, 4)),
+    ('ClarinetVoiceI', (1, 4)),
     animales.margin_markup('Cl. 1'),
     animales.parts('Clarinet', 1),
     baca.hairpin('mp < mf'),
@@ -81,17 +81,17 @@ maker(
     )
 
 maker(
-    baca.scope('GlobalRests', (5, -1)),
+    ('GlobalRests', (5, -1)),
     animales.parts('Clarinet', 1),
     )
 
 maker(
-    baca.scope('GlobalRests', (1, 4)),
+    ('GlobalRests', (1, 4)),
     animales.parts('Clarinet', 2),
     )
 
 maker(
-    baca.scope('ClarinetVoiceI', (5, 8)),
+    ('ClarinetVoiceI', (5, 8)),
     animales.margin_markup('Cl. 2'),
     animales.parts('Clarinet', 2),
     baca.hairpin('mp < mf'),
@@ -103,7 +103,7 @@ maker(
 # harp
 
 maker(
-    baca.scope('HarpVoiceI', (1, -1)),
+    'HarpVoiceI',
     animales.parts('Harp'),
     animales.harp_exchange_rhythm(2),
     baca.dynamic('mf'),
@@ -123,7 +123,7 @@ maker(
 # piano
 
 maker(
-    baca.scope('PianoVoiceI', (1, -1)),
+    'PianoVoiceI',
     animales.parts('Piano'),
     animales.harp_exchange_rhythm(3),
     baca.dynamic('mf'),
@@ -138,7 +138,7 @@ maker(
 # triangle
 
 maker(
-    baca.scope('PercussionVoiceI', (1, -1)),
+    'PercussionVoiceI',
     animales.parts('Percussion', 1),
     baca.hairpin('> niente', left_broken=True, selector=baca.leaf(0)),
     )
@@ -146,7 +146,7 @@ maker(
 # cymbal
 
 maker(
-    baca.scope('PercussionVoiceII', (1, -1)),
+    'PercussionVoiceII',
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -158,7 +158,7 @@ maker(
 # vibraphone
 
 maker(
-    baca.scope('PercussionVoiceIII', (1, -1)),
+    'PercussionVoiceIII',
     animales.instrument('Vibraphone'),
     animales.margin_markup('Perc. 3 (vib.)'),
     animales.parts('Percussion', 3),
@@ -174,7 +174,7 @@ maker(
 # strings
 
 maker(
-    baca.scope('FirstViolinVoiceI', (1, -1)),
+    'FirstViolinVoiceI',
     animales.parts('FirstViolin'),
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.markup.boxed('strings: still (non vib.)')),
@@ -183,28 +183,28 @@ maker(
     )
 
 maker(
-    baca.scope('SecondViolinVoiceI', (1, -1)),
+    'SecondViolinVoiceI',
     animales.parts('SecondViolin'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb5'),
     )
 
 maker(
-    baca.scope('ViolaVoiceI', (1, -1)),
+    'ViolaVoiceI',
     animales.parts('Viola'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb4'),
     )
 
 maker(
-    baca.scope('CelloVoiceI', (1, -1)),
+    'CelloVoiceI',
     animales.parts('Cello'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb2'),
     )
 
 maker(
-    baca.scope('ContrabassVoiceIII', (1, -1)),
+    'ContrabassVoiceIII',
     animales.margin_markup(
         'Cb. (2-6)',
         alert=baca.markup('(cb. 2-6)'),
@@ -228,7 +228,7 @@ warning = abjad.Markup.line([
     ])
 warning = warning.scale((1.25, 1.25))
 maker(
-    baca.scope('ContrabassVoiceIII', (1, -1)),
+    'ContrabassVoiceIII',
     baca.suite([
         baca.untie_to(baca.leaf(1)),
         baca.pitch('A#1', baca.pleaf(0)),
@@ -256,7 +256,7 @@ maker(
     )
 
 maker(
-    baca.scope('ContrabassVoiceIII', 1),
+    ('ContrabassVoiceIII', 1),
     baca.dynamic('p'),
     baca.only_parts(baca.markup('still (non vibrato)')),
     )
@@ -264,7 +264,7 @@ maker(
 # contrabass solo
 
 maker(
-    baca.scope('ContrabassVoiceI', (1, -1)),
+    'ContrabassVoiceI',
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(
         1,
@@ -277,7 +277,7 @@ maker(
     )
 
 maker(
-    baca.scope('ContrabassVoiceI', (2, -1)),
+    ('ContrabassVoiceI', (2, -1)),
     baca.clef('treble'),
     baca.dynamic('mf'),
     baca.laissez_vibrer(),

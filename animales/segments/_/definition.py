@@ -37,26 +37,26 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', 1),
+    'GlobalSkips',
     baca.metronome_mark('114'),
     )
 
 # single-staff percussion
 
 maker(
-    baca.scope('PercussionVoiceI', (1, -1)),
+    'PercussionVoiceI',
     animales.parts('Percussion', 1),
     baca.staff_lines(1),
     )
 
 maker(
-    baca.scope('PercussionVoiceII', (1, -1)),
+    'PercussionVoiceII',
     animales.parts('Percussion', 2),
     baca.staff_lines(1),
     )
 
 maker(
-    baca.scope('PercussionVoiceIV', (1, -1)),
+    'PercussionVoiceIV',
     animales.parts('Percussion', 4),
     baca.staff_lines(1),
     )
@@ -95,7 +95,7 @@ voice_to_start_markup = {
 
 for voice, commands in voice_to_start_markup.items():
     maker(
-        baca.scope(voice, 1),
+        (voice, 1),
         *commands,
         )
 
@@ -105,7 +105,7 @@ animales.assign_trill_parts(maker)
 animales.make_trill_rhythm(maker)
 
 maker(
-    baca.scope('CelloVoiceI', 1),
+    ('CelloVoiceI', 1),
     baca.clef('tenor'),
     )
 
@@ -121,7 +121,7 @@ strings = [
 
 # first accents ...
 maker(
-    baca.scope('FirstViolinVoiceI', 1),
+    ('FirstViolinVoiceI', 1),
     baca.accents(baca.phead(0)),
     )
 

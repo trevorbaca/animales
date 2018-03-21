@@ -26,6 +26,6 @@ def assign_trill_parts(maker, exclude_first_violin=False):
         else:
             command = animales.parts(section, members)
         maker(
-            baca.scope(voice, (1, -1)),
+            voice,
             command,
             )
