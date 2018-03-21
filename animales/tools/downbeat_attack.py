@@ -22,7 +22,7 @@ def downbeat_attack(count=1, denominator=8):
         ...     )
 
         >>> maker(
-        ...     baca.scope('HornVoiceI', 1),
+        ...     ('HornVoiceI', 1),
         ...     animales.parts('Horn'),
         ...     animales.downbeat_attack(),
         ...     baca.pitches('A3'),

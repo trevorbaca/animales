@@ -8,79 +8,79 @@ def assign_brass_sforzando_parts(maker, omit_tuba=False):
     '''
 
     maker(
-        baca.scope('HornVoiceI', (1, -1)),
+        'HornVoiceI',
         animales.parts('Horn', 1),
         baca.not_parts(baca.voice_one()),
         )
 
     maker(
-        baca.scope('HornVoiceIII', (1, -1)),
+        'HornVoiceIII',
         animales.parts('Horn', 3),
         baca.not_parts(baca.voice_two()),
         )
 
     maker(
-        baca.scope('HornVoiceII', (1, -1)),
+        'HornVoiceII',
         animales.parts('Horn', 2),
         baca.not_parts(baca.voice_one()),
         )
 
     maker(
-        baca.scope('HornVoiceIV', (1, -1)),
+        'HornVoiceIV',
         animales.parts('Horn', 4),
         baca.not_parts(baca.voice_two()),
         )
 
     maker(
-        baca.scope('TrumpetVoiceI', (1, -1)),
+        'TrumpetVoiceI',
         animales.parts('Trumpet', 1),
         baca.not_parts(baca.voice_one()),
         )
 
     maker(
-        baca.scope('TrumpetVoiceIII', (1, -1)),
+        'TrumpetVoiceIII',
         animales.parts('Trumpet', 3),
         baca.not_parts(baca.voice_two()),
         )
 
     maker(
-        baca.scope('TrumpetVoiceII', (1, -1)),
+        'TrumpetVoiceII',
         animales.parts('Trumpet', 2),
         baca.not_parts(baca.voice_one()),
         )
 
     maker(
-        baca.scope('TrumpetVoiceIV', (1, -1)),
+        'TrumpetVoiceIV',
         animales.parts('Trumpet', 4),
         baca.not_parts(baca.voice_two()),
         )
 
     maker(
-        baca.scope('TromboneVoiceI', (1, -1)),
+        'TromboneVoiceI',
         animales.parts('Trombone', 1),
         baca.not_parts(baca.voice_one()),
         )
 
     maker(
-        baca.scope('TromboneVoiceIII', (1, -1)),
+        'TromboneVoiceIII',
         animales.parts('Trombone', 3),
         baca.not_parts(baca.voice_two()),
         )
 
     maker(
-        baca.scope('TromboneVoiceII', (1, -1)),
+        'TromboneVoiceII',
         animales.parts('Trombone', 2),
         baca.not_parts(baca.voice_one()),
         )
 
     maker(
-        baca.scope('TromboneVoiceIV', (1, -1)),
+        'TromboneVoiceIV',
         animales.parts('Trombone', 4),
         baca.not_parts(baca.voice_two()),
         )
 
     if not omit_tuba:
         maker(
-            baca.scope('TubaVoiceI', (1, -1)),
+            'TubaVoiceI',
             animales.parts('Tuba'),
             )

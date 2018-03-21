@@ -72,7 +72,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, -1)),
+    'GlobalSkips',
     baca.rehearsal_mark('AB'),
     baca.tag(
         '+TABLOID_SCORE',
@@ -87,12 +87,12 @@ animales.attach_grand_pause_fermatas(maker, measure=-1)
 # triangle
 
 maker(
-    baca.scope('PercussionVoiceI', (1, -1)),
+    'PercussionVoiceI',
     animales.parts('Percussion', 1),
     )
 
 maker(
-    baca.scope('PercussionVoiceI', (1, 3)),
+    ('PercussionVoiceI', (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie_to(),

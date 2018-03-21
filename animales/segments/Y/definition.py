@@ -87,7 +87,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, -1)),
+    'GlobalSkips',    
     baca.rehearsal_mark('Y'),
     baca.tag(
         '+TABLOID_SCORE',
@@ -105,7 +105,7 @@ animales.brass_sforzando(maker, 1)
 # cymbal
 
 maker(
-    baca.scope('PercussionVoiceII', (1, -1)),
+    'PercussionVoiceII',
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_to(),
@@ -117,7 +117,7 @@ maker(
 # bass drum
 
 maker(
-    baca.scope('PercussionVoiceIII', (1, -1)),
+    'PercussionVoiceIII',
     animales.parts('Percussion', 3),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -129,7 +129,7 @@ maker(
 # tam-tam
 
 maker(
-    baca.scope('PercussionVoiceIV', (1, -1)),
+    'PercussionVoiceIV',
     animales.parts('Percussion', 4),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -147,7 +147,7 @@ animales.constellations(
     ) 
 
 maker(
-    baca.scope('ContrabassVoiceIII', (1, -1)),
+    'ContrabassVoiceIII',
     animales.parts('Contrabass'),
     baca.clef('bass'),
     baca.hairpin('p <', right_broken=True),

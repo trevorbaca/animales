@@ -53,7 +53,7 @@ def constellations(
             numeral = str(numeral).upper()
             voice = f'{section}Voice{numeral}'
             maker(
-                baca.scope(voice, (1, -1)),
+                voice,
                 animales.parts(section, member),
                 )
             rhythm = animales.clb_rhythm(
@@ -87,6 +87,6 @@ def constellations(
                 commands.append(margin_markup)
             commands.append(polyphony)
             maker(
-                baca.scope(voice, range_),
+                (voice, range_),
                 *commands,
                 )

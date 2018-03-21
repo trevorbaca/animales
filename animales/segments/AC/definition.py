@@ -34,7 +34,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, -1)),
+    'GlobalSkips',
     baca.rehearsal_mark('AC'),
     baca.tag(
         '+TABLOID_SCORE',
@@ -47,12 +47,12 @@ animales.attach_grand_pause_fermatas(maker, measure=-1)
 # piano
 
 maker(
-    baca.scope('PianoVoiceI', (1, -1)),
+    'PianoVoiceI',
     animales.parts('Piano'),
     )
 
 maker(
-    baca.scope('PianoVoiceI', (1, 9)),
+    ('PianoVoiceI', (1, 9)),
     baca.natural_harmonics(),
     baca.laissez_vibrer(),
     baca.make_notes(),
@@ -66,12 +66,12 @@ maker(
 # slate
 
 maker(
-    baca.scope('PercussionVoiceIV', (1, -1)),
+    'PercussionVoiceIV',
     animales.parts('Percussion', 4),
     )
 
 maker(
-    baca.scope('PercussionVoiceIV', (1, 8)),
+    ('PercussionVoiceIV', (1, 8)),
     animales.margin_markup('Perc. 4 (slate)'),
     baca.effort_dynamic('mf'),
     baca.make_tied_repeated_durations((1, 4)),

@@ -19,6 +19,6 @@ def make_trill_rhythm(maker, measures=(1, -1)):
 
     for voice, part in voice_to_part.items():
         maker(
-            baca.scope(voice, measures),
+            (voice, measures),
             animales.sforzando_exchange_rhythm(part),
             )

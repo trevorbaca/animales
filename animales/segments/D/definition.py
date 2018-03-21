@@ -46,7 +46,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', 1),
+    'GlobalSkips',
     baca.rehearsal_mark('D'),
     baca.only_score(baca.rehearsal_mark_y_offset(-2)),
     )
@@ -54,7 +54,7 @@ maker(
 # clarinet
 
 maker(
-    baca.scope('ClarinetVoiceI', (1, -1)),
+    'ClarinetVoiceI',
     animales.margin_markup('Cl. 2'),
     animales.parts('Clarinet', 2),
     baca.hairpin('mp < mf'),
@@ -68,7 +68,7 @@ maker(
 # triangle
 
 maker(
-    baca.scope('PercussionVoiceI', (1, -1)),
+    'PercussionVoiceI',
     animales.parts('Percussion', 1),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -80,7 +80,7 @@ maker(
 # cymbal
 
 maker(
-    baca.scope('PercussionVoiceII', (1, -1)),
+    'PercussionVoiceII',
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -92,7 +92,7 @@ maker(
 # strings
 
 maker(
-    baca.scope('FirstViolinVoiceII', (1, -1)),
+    'FirstViolinVoiceII',
     animales.glissando_rhythm(),
     animales.parts('FirstViolin', 1),
     baca.hairpin('p < f', baca.notes().group_by_measure()[0].rleak()),
@@ -114,12 +114,12 @@ animales.assign_trill_parts(maker, exclude_first_violin=True)
 animales.make_trill_rhythm(maker)
 
 maker(
-    baca.scope('FirstViolinVoiceI', 1),
+    ('FirstViolinVoiceI', 1),
     baca.not_parts(baca.voice_two()),
     )
 
 maker(
-    baca.scope('CelloVoiceI', 1),
+    ('CelloVoiceI', 1),
     baca.clef('bass'),
     )
 
@@ -144,7 +144,7 @@ maker(
 # contrabasses
 
 maker(
-    baca.scope('ContrabassVoiceIII', (1, -1)),
+    'ContrabassVoiceIII',
     animales.parts('Contrabass'),
     baca.hairpin('< ff', baca.pleaves()[:4], left_broken=True),
     baca.make_repeat_tied_notes(),
