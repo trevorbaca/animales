@@ -172,20 +172,20 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('HarpVoiceI', (1, 3)),
         ('PianoVoiceI', (1, 3)),
         ('PercussionVoiceIII', (1, 3)),
-        ),
+        ],
     baca.pitch('C5'),
     )
 
 maker(
-    baca.scopes(
+    [
         ('HarpVoiceI', (4, 6)),
         ('PianoVoiceI', (4, 6)),
         ('PercussionVoiceIII', (4, 6)),
-        ),
+        ],
     baca.pitch('Bb4'),
     )
 
@@ -269,12 +269,12 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('FirstViolinVoiceI', (1, 3)),
         ('SecondViolinVoiceI', (1, 3)),
         ('ViolaVoiceI', (1, 3)),
         ('CelloVoiceI', (1, 3)),
-        ),
+        ],
     baca.make_repeat_tied_notes(),
     baca.hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
     baca.pitch('G3'),

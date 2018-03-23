@@ -278,12 +278,12 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('FirstViolinVoiceI', (1, 3)),
         ('SecondViolinVoiceI', (1, 3)),
         ('ViolaVoiceI', (1, 3)),
         ('CelloVoiceI', (1, 3)),
-        ),
+        ],
     baca.make_repeat_tied_notes(),
     baca.hairpin('pp < ff'),
     baca.pitch('G3'),

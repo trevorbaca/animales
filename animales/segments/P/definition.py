@@ -173,7 +173,7 @@ maker(
     )
 
 maker(
-    baca.scope('HornVoiceIII', (1, -1)),
+    'HornVoiceIII',
     animales.brass_manifest_rhythm(3),
     animales.parts('Horn', 3),
     baca.not_parts(baca.voice_two()),
@@ -315,10 +315,10 @@ def lower_voice_suite(n=5):
 # repeat ties
 
 maker(
-    baca.scopes(
-        ('SecondViolinVoiceI', (1, -1)),
-        ('CelloVoiceI', (1, -1)),
-        ),
+    [
+        'SecondViolinVoiceI',
+        'CelloVoiceI',
+        ],
     baca.repeat_ties_up(),
     )
 
