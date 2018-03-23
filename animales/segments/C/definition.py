@@ -86,10 +86,10 @@ maker(
 
 string = r"\override Staff.BarLine.bar-extent = #'(-2 . 2)"
 maker(
-    baca.scopes(
+    [
         ('PercussionVoiceI', (3, 6)),
         ('PercussionVoiceII', (3, 6)),
-        ),
+        ],
     #baca.bar_extent((-2, 2)),
     baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
@@ -100,7 +100,7 @@ maker(
     baca.tag('TEMPORARY', baca.only_parts(baca.literal(string))),
 
     baca.repeat_ties_up(),
-    baca.staff_positions([0]),
+    baca.staff_position(0),
     baca.stem_tremolo(),
     )
 

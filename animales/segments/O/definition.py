@@ -214,10 +214,10 @@ for voice, members in voice_to_members.items():
         )
 
 maker(
-    baca.scopes(
-        ('SecondViolinVoiceI', (1, -1)),
-        ('CelloVoiceI', (1, -1)),
-        ),
+    [
+        'SecondViolinVoiceI',
+        'CelloVoiceI',
+        ],
     baca.repeat_ties_up(),
     )
 

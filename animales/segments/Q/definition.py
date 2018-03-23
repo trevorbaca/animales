@@ -257,10 +257,10 @@ for voice, items in string_parts.items():
     if voice == 'FirstViolinVoiceV':
         continue
     maker(
-        baca.scopes(
+        [
             (voice, (4, 6)),
             (voice, (9, 11)),
-            ),
+            ],
         baca.make_repeat_tied_notes(),
         )
     maker(
@@ -275,10 +275,10 @@ for voice, items in string_parts.items():
 # repeat ties
 
 maker(
-    baca.scopes(
-        ('SecondViolinVoiceI', (1, -1)),
-        ('CelloVoiceI', (1, -1)),
-        ),
+    [
+        'SecondViolinVoiceI',
+        'CelloVoiceI',
+        ],
     baca.repeat_ties_up(),
     )
 
@@ -291,10 +291,10 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('FirstViolinVoiceV', (1, 2)),
         ('FirstViolinVoiceV', (4, 7)),
         ('FirstViolinVoiceV', (9, 12)),
-        ),
+        ],
     baca.make_repeat_tied_notes(),
     )
