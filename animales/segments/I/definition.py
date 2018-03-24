@@ -272,7 +272,7 @@ most_strings = [
     ]
 
 maker(
-    baca.scopes(most_strings, [(1, -1)]),
+    most_strings,
     baca.make_repeat_tied_notes(),
     baca.hairpin('pp <', right_broken=True),
     baca.pitch('A3'),

@@ -89,7 +89,7 @@ for voice in (
     'PianoVoiceI',
     ):
     maker(
-        baca.scope(voice, 1),
+        (voice, 1),
         baca.tag(
             '+TABLOID_SCORE',
             baca.literal(r'\magnifyStaff #10/7'),
