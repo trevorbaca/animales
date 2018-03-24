@@ -134,7 +134,7 @@ strings = [
     ]
 
 maker(
-    baca.make_scopes(strings, [(1, -1)]),
+    baca.scopes(strings, [(1, -1)]),
     baca.accents(selector=baca.pheads()[1:]),
     baca.dynamic('f_but_accents_sffz', baca.pleaf(0)),
     baca.pitch('B3'),

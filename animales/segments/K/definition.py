@@ -306,7 +306,7 @@ most_strings = [
     ]
 
 maker(
-    baca.make_scopes(most_strings, [(1, -1)]),
+    baca.scopes(most_strings, [(1, -1)]),
     baca.dynamic('pp'),
     )
 

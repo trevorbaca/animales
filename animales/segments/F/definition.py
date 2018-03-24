@@ -250,7 +250,7 @@ upper_strings = [
     ]
 
 maker(
-    baca.make_scopes(upper_strings, [1]),
+    baca.scopes(upper_strings, [1]),
     baca.dynamic('pp'),
     baca.only_parts(baca.markup('still (non vibrato)')),
     )
