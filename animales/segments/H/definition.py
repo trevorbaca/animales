@@ -184,7 +184,7 @@ most_strings = [
     ]
 
 maker(
-    baca.scopes(most_strings, [4]),
+    (most_strings, 4),
     baca.only_parts(
         baca.markup.boxed_lines(
             ['suddenly ripped off;', 'las. vib. poss.']

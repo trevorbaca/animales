@@ -317,7 +317,7 @@ maker(
     )
 
 maker(
-    baca.scopes(most_strings, [4]),
+    (most_strings, 4),
     baca.only_parts(baca.markup.boxed_lines(strings)),
     )
 

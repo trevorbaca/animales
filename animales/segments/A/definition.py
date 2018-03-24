@@ -58,26 +58,26 @@ strings = [
 
 # first accents ...
 maker(
-    baca.scopes(strings, [(1, -1)]),
+    strings,
     baca.accents(selector=baca.pheads()[1:]),
     )
 
 # then untie ...
 maker(
-    baca.scopes(strings, [5]),
+    (strings, 5),
     baca.untie_to(),
     )
 
 # ... then pitch
 maker(
-    baca.scopes(strings, [(1, 4)]),
+    (strings, (1, 4)),
     baca.dynamic('f_sub_but_accents_continue_sffz', baca.pleaf(0)),
     baca.pitch('Gb4'),
     baca.trill_spanner('Ab4'),
     )
 
 maker(
-    baca.scopes(strings, [(5, 6)]),
+    (strings, (5, 6)),
     baca.dynamic('p_sub_but_accents_continue_sffz', baca.pleaf(0)),
     baca.pitch('F4'),
     baca.trill_spanner('Gb4', right_broken=True),
@@ -97,11 +97,11 @@ unraised_trill = [
     ]
 
 maker(
-    baca.scopes(raised_trill, [(1, -1)]),
+    raised_trill,
     baca.trill_spanner_staff_padding(6),
     )
 
 maker(
-    baca.scopes(unraised_trill, [(1, -1)]),
+    unraised_trill,
     baca.trill_spanner_staff_padding(4),
     )

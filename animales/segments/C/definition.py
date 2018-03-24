@@ -198,7 +198,7 @@ strings = [
     ]
 
 maker(
-    baca.scopes(strings, [(1, 2)]),
+    (strings, (1, 2)),
     baca.accents(selector=baca.pheads()[1:]),
     baca.dynamic('f_sub_but_accents_continue_sffz', baca.pleaf(0)),
     baca.pitch('Db4'),
@@ -219,17 +219,17 @@ unraised_trill = [
     ]
 
 maker(
-    baca.scopes(raised_trill, [(1, 2)]),
+    (raised_trill, (1, 2)),
     baca.trill_spanner_staff_padding(6),
     )
 
 maker(
-    baca.scopes(unraised_trill, [(1, 2)]),
+    (unraised_trill, (1, 2)),
     baca.trill_spanner_staff_padding(4),
     )
 
 maker(
-    baca.scopes(strings, [(3, 6)]),
+    (strings, (3, 6)),
     baca.subito_dynamic('p'),
     baca.make_repeat_tied_notes(),
     baca.only_parts(baca.markup('still (non vibrato)')),
