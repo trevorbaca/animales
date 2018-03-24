@@ -126,26 +126,26 @@ maker(
     )
 
 maker(
-    baca.make_scopes(strings, [(1, -1)]),
+    baca.scopes(strings, [(1, -1)]),
     baca.accents(baca.pheads()[1:]),
     )
 
 # then untie ...
 maker(
-    baca.make_scopes(strings, [(5, 6)]),
+    baca.scopes(strings, [(5, 6)]),
     baca.untie_to(selector=baca.pleaf(0)),
     )
 
 # ... then pitch
 maker(
-    baca.make_scopes(strings, [(1, 4)]),
+    baca.scopes(strings, [(1, 4)]),
     baca.dynamic('f_but_accents_sffz', baca.pleaf(0)),
     baca.pitch('A4'),
     baca.trill_spanner('B4'),
     )
 
 maker(
-    baca.make_scopes(strings, [(5, 6)]),
+    baca.scopes(strings, [(5, 6)]),
     baca.dynamic('p_sub_but_accents_continue_sffz', baca.pleaf(0)),
     baca.pitch('Ab4'),
     baca.trill_spanner('A4', right_broken=True),
@@ -165,11 +165,11 @@ unraised_trill = [
     ]
 
 maker(
-    baca.make_scopes(raised_trill, [(1, -1)]),
+    baca.scopes(raised_trill, [(1, -1)]),
     baca.trill_spanner_staff_padding(6),
     )
 
 maker(
-    baca.make_scopes(unraised_trill, [(1, -1)]),
+    baca.scopes(unraised_trill, [(1, -1)]),
     baca.trill_spanner_staff_padding(4),
     )
