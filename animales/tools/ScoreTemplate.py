@@ -433,6 +433,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         cellos=0,
         contrabasses=0,
         ):
+        super(ScoreTemplate, self).__init__()
         self.flutes = flutes
         self.oboes = oboes
         self.english_horn = english_horn
