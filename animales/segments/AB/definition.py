@@ -1,7 +1,7 @@
 import abjad
 import animales
 import baca
-from abjad import rhythmmakertools as rhythmos
+import os
 
 
 ###############################################################################
@@ -66,6 +66,7 @@ maker = baca.SegmentMaker(
             (7, [13, 14]),
             ],
         ),
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
     transpose_score=True,
     validate_measure_count=4,
