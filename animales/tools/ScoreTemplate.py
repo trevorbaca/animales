@@ -459,7 +459,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             ('eh', 'EnglishHorn', 1),
             ('cl', 'Clarinet', 1),
             ('bcl', 'BassClarinet', 1),
-            ('bsn', 'BassoonVoice', 2),
+            ('bsn', 'Bassoon', 2),
             ('hn', 'Horn', 4),
             ('tp', 'Trumpet', 4),
             ('tbn', 'Trombone', 4),
@@ -1071,8 +1071,8 @@ class ScoreTemplate(baca.ScoreTemplate):
                     ('eh1', 'EnglishHornVoiceI'),
                     ('cl1', 'ClarinetVoiceI'),
                     ('bcl1', 'BassClarinetVoiceI'),
-                    ('bsn1', 'BassoonVoiceVoiceI'),
-                    ('bsn2', 'BassoonVoiceVoiceII'),
+                    ('bsn1', 'BassoonVoiceI'),
+                    ('bsn2', 'BassoonVoiceII'),
                     ('hn1', 'HornVoiceI'),
                     ('hn2', 'HornVoiceII'),
                     ('hn3', 'HornVoiceIII'),
@@ -1192,6 +1192,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         '''
         assert isinstance(voice, str), repr(voice)
+        score_template = ScoreTemplate()
+        voice = score_template.voice_abbreviations.get(voice, voice)
         words = abjad.String(voice).delimit_words()
         if 'First' in words:
             words.remove('First')
@@ -1222,6 +1224,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         '''
         assert isinstance(voice, str), repr(voice)
+        score_template = ScoreTemplate()
+        voice = score_template.voice_abbreviations.get(voice, voice)
         words = abjad.String(voice).delimit_words()
         assert 'Voice' in words, repr(words)
         index = words.index('Voice')

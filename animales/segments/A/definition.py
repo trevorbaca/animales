@@ -48,13 +48,13 @@ animales.assign_trill_parts(maker)
 animales.make_trill_rhythm(maker)
 
 strings = [
-    'FirstViolinVoiceI',
-    'FirstViolinVoiceIII',
-    'SecondViolinVoiceI',
-    'SecondViolinVoiceIII',
-    'ViolaVoiceI',
-    'ViolaVoiceIII',
-    'CelloVoiceI',
+    '1vn1',
+    '1vn3',
+    '2vn1',
+    '2vn3',
+    'va1',
+    'va3',
+    'vc1',
     ]
 
 # first accents ...
@@ -85,16 +85,16 @@ maker(
     )
     
 raised_trill = [
-    'FirstViolinVoiceIII',
-    'SecondViolinVoiceIII',
+    '1vn3',
+    '2vn3',
     ]
 
 unraised_trill = [
-    'FirstViolinVoiceI',
-    'SecondViolinVoiceI',
-    'ViolaVoiceI',
-    'ViolaVoiceIII',
-    'CelloVoiceI',
+    '1vn1',
+    '2vn1',
+    'va1',
+    'va3',
+    'vc1',
     ]
 
 maker(

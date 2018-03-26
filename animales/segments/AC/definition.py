@@ -1,6 +1,7 @@
 import abjad
 import animales
 import baca
+import os
 
 
 ###############################################################################
@@ -47,12 +48,12 @@ animales.attach_grand_pause_fermatas(maker, measure=-1)
 # piano
 
 maker(
-    'PianoVoiceI',
+    'pf1',
     animales.parts('Piano'),
     )
 
 maker(
-    ('PianoVoiceI', (1, 9)),
+    ('pf1', (1, 9)),
     baca.natural_harmonics(),
     baca.laissez_vibrer(),
     baca.make_notes(),
@@ -66,12 +67,12 @@ maker(
 # slate
 
 maker(
-    'PercussionVoiceIV',
+    'perc4',
     animales.parts('Percussion', 4),
     )
 
 maker(
-    ('PercussionVoiceIV', (1, 8)),
+    ('perc4', (1, 8)),
     animales.margin_markup('Perc. 4 (slate)'),
     baca.effort_dynamic('mf'),
     baca.make_tied_repeated_durations((1, 4)),
@@ -85,8 +86,8 @@ maker(
     )
 
 for voice in (
-    'PercussionVoiceIV',
-    'PianoVoiceI',
+    'perc4',
+    'pf1',
     ):
     maker(
         (voice, 1),

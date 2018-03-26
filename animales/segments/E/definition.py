@@ -1,6 +1,7 @@
 import abjad
 import animales
 import baca
+import os
 
 
 ###############################################################################
@@ -69,7 +70,7 @@ maker(
 # clarinet
 
 maker(
-    'ClarinetVoiceI',
+    'cl1',
     animales.margin_markup('Cl. 3'),
     animales.parts('Clarinet', 3),
     baca.hairpin('mp < mf'),
@@ -81,7 +82,7 @@ maker(
 # percussion
 
 maker(
-    'PercussionVoiceI',
+    'perc1',
     animales.parts('Percussion', 1),
     baca.hairpin('p >', right_broken='niente'),
     baca.make_repeat_tied_notes(),
@@ -92,7 +93,7 @@ maker(
     )
 
 maker(
-    'PercussionVoiceII',
+    'perc2',
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -104,7 +105,7 @@ maker(
 # strings
 
 maker(
-    'FirstViolinVoiceI',
+    '1vn1',
     animales.margin_markup('Vni. I'),
     animales.parts('FirstViolin'),
     baca.make_repeated_duration_notes([(1, 4)]),
@@ -112,36 +113,36 @@ maker(
     )
 
 maker(
-    'SecondViolinVoiceI',
+    '2vn1',
     animales.margin_markup('Vni. II'),
     animales.parts('SecondViolin'),
     baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
-    'ViolaVoiceI',
+    'va1',
     animales.parts('Viola'),
     animales.margin_markup('Vle.'),
     baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
-    'CelloVoiceI',
+    'vc1',
     animales.parts('Cello'),
     baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
-    'ContrabassVoiceIII',
+    'cb3',
     animales.parts('Contrabass'),
     baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 left_broken = [
-    'FirstViolinVoiceI',
-    'SecondViolinVoiceI',
-    'ViolaVoiceI',
-    'CelloVoiceI',
+    '1vn1',
+    '2vn1',
+    'va1',
+    'vc1',
     ]
 
 maker(
@@ -151,9 +152,9 @@ maker(
     )
 
 absent_left_broken = [
-    'FirstViolinVoiceIII',
-    'SecondViolinVoiceIII',
-    'ViolaVoiceIII',
+    '1vn3',
+    '2vn3',
+    'va3',
     ]
 
 maker(
@@ -162,7 +163,7 @@ maker(
     )
 
 maker(
-    'FirstViolinVoiceI',
+    '1vn1',
     baca.articulation('trill'),
     baca.glissando(
         allow_repeats=True,
@@ -175,7 +176,7 @@ maker(
     )
 
 maker(
-    'SecondViolinVoiceI',
+    '2vn1',
     baca.articulation('trill'),
     baca.glissando(
         allow_repeats=True,
@@ -188,7 +189,7 @@ maker(
     )
 
 maker(
-    'ViolaVoiceI',
+    'va1',
     baca.articulation('trill'),
     baca.glissando(
         allow_repeats=True,
@@ -201,7 +202,7 @@ maker(
     )
 
 maker(
-    'CelloVoiceI',
+    'vc1',
     baca.articulation('trill'),
     baca.glissando(
         allow_repeats=True,
@@ -214,7 +215,7 @@ maker(
     )
 
 maker(
-    'ContrabassVoiceIII',
+    'cb3',
     baca.glissando(allow_repeats=True, right_broken=True, stems=True),
     baca.hairpin('ff >', right_broken=True),
     baca.interpolate_staff_positions('B1', 'A1'),

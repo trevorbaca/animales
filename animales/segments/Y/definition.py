@@ -1,6 +1,7 @@
 import abjad
 import animales
 import baca
+import os
 
 
 ###############################################################################
@@ -104,7 +105,7 @@ animales.brass_sforzando(maker, 1)
 # cymbal
 
 maker(
-    'PercussionVoiceII',
+    'perc2',
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_to(),
@@ -116,7 +117,7 @@ maker(
 # bass drum
 
 maker(
-    'PercussionVoiceIII',
+    'perc3',
     animales.parts('Percussion', 3),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -128,7 +129,7 @@ maker(
 # tam-tam
 
 maker(
-    'PercussionVoiceIV',
+    'perc4',
     animales.parts('Percussion', 4),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -146,7 +147,7 @@ animales.constellations(
     ) 
 
 maker(
-    'ContrabassVoiceIII',
+    'cb3',
     animales.parts('Contrabass'),
     baca.clef('bass'),
     baca.hairpin('p <', right_broken=True),
