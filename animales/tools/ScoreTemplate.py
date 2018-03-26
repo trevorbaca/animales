@@ -1,6 +1,7 @@
 import abjad
 import animales
 import baca
+import roman
 import typing
 
 
@@ -452,6 +453,30 @@ class ScoreTemplate(baca.ScoreTemplate):
         self.violas = violas
         self.cellos = cellos
         self.contrabasses = contrabasses
+        for instrument_abbreviation, instrument, count in (
+            ('fl', 'Flute', 4),
+            ('ob', 'Oboe', 1),
+            ('eh', 'EnglishHorn', 1),
+            ('cl', 'Clarinet', 1),
+            ('bcl', 'BassClarinet', 1),
+            ('bsn', 'BassoonVoice', 2),
+            ('hn', 'Horn', 4),
+            ('tp', 'Trumpet', 4),
+            ('tbn', 'Trombone', 4),
+            ('tub', 'Tuba', 1),
+            ('hp', 'Harp', 1),
+            ('pf', 'Piano', 1),
+            ('perc', 'Percussion', 4),
+            ('1vn', 'FirstViolin', 18),
+            ('2vn', 'SecondViolin', 18),
+            ('va', 'Viola', 18),
+            ('vc', 'Cello', 14),
+            ('cb', 'Contrabass', 6),
+            ):
+            for n in range(1, count + 1):
+                voice_abbreviation = instrument_abbreviation + str(n)
+                voice_name = instrument + 'Voice' + roman.toRoman(n)
+                self.voice_abbreviations[voice_abbreviation] = voice_name
 
     ### SPECIAL METHODS ###
 
@@ -1027,6 +1052,125 @@ class ScoreTemplate(baca.ScoreTemplate):
         for staff in abjad.select(score).components(abjad.Staff):
             del(score[staff.name])
         return score
+
+    @property
+    def voice_abbreviations(self):
+        r'''Gets voice abbreviations.
+
+        ..  container:: example
+        
+            >>> score_template = animales.ScoreTemplate()
+            >>> abjad.f(score_template.voice_abbreviations)
+            abjad.OrderedDict(
+                [
+                    ('fl1', 'FluteVoiceI'),
+                    ('fl2', 'FluteVoiceII'),
+                    ('fl3', 'FluteVoiceIII'),
+                    ('fl4', 'FluteVoiceIV'),
+                    ('ob1', 'OboeVoiceI'),
+                    ('eh1', 'EnglishHornVoiceI'),
+                    ('cl1', 'ClarinetVoiceI'),
+                    ('bcl1', 'BassClarinetVoiceI'),
+                    ('bsn1', 'BassoonVoiceVoiceI'),
+                    ('bsn2', 'BassoonVoiceVoiceII'),
+                    ('hn1', 'HornVoiceI'),
+                    ('hn2', 'HornVoiceII'),
+                    ('hn3', 'HornVoiceIII'),
+                    ('hn4', 'HornVoiceIV'),
+                    ('tp1', 'TrumpetVoiceI'),
+                    ('tp2', 'TrumpetVoiceII'),
+                    ('tp3', 'TrumpetVoiceIII'),
+                    ('tp4', 'TrumpetVoiceIV'),
+                    ('tbn1', 'TromboneVoiceI'),
+                    ('tbn2', 'TromboneVoiceII'),
+                    ('tbn3', 'TromboneVoiceIII'),
+                    ('tbn4', 'TromboneVoiceIV'),
+                    ('tub1', 'TubaVoiceI'),
+                    ('hp1', 'HarpVoiceI'),
+                    ('pf1', 'PianoVoiceI'),
+                    ('perc1', 'PercussionVoiceI'),
+                    ('perc2', 'PercussionVoiceII'),
+                    ('perc3', 'PercussionVoiceIII'),
+                    ('perc4', 'PercussionVoiceIV'),
+                    ('1vn1', 'FirstViolinVoiceI'),
+                    ('1vn2', 'FirstViolinVoiceII'),
+                    ('1vn3', 'FirstViolinVoiceIII'),
+                    ('1vn4', 'FirstViolinVoiceIV'),
+                    ('1vn5', 'FirstViolinVoiceV'),
+                    ('1vn6', 'FirstViolinVoiceVI'),
+                    ('1vn7', 'FirstViolinVoiceVII'),
+                    ('1vn8', 'FirstViolinVoiceVIII'),
+                    ('1vn9', 'FirstViolinVoiceIX'),
+                    ('1vn10', 'FirstViolinVoiceX'),
+                    ('1vn11', 'FirstViolinVoiceXI'),
+                    ('1vn12', 'FirstViolinVoiceXII'),
+                    ('1vn13', 'FirstViolinVoiceXIII'),
+                    ('1vn14', 'FirstViolinVoiceXIV'),
+                    ('1vn15', 'FirstViolinVoiceXV'),
+                    ('1vn16', 'FirstViolinVoiceXVI'),
+                    ('1vn17', 'FirstViolinVoiceXVII'),
+                    ('1vn18', 'FirstViolinVoiceXVIII'),
+                    ('2vn1', 'SecondViolinVoiceI'),
+                    ('2vn2', 'SecondViolinVoiceII'),
+                    ('2vn3', 'SecondViolinVoiceIII'),
+                    ('2vn4', 'SecondViolinVoiceIV'),
+                    ('2vn5', 'SecondViolinVoiceV'),
+                    ('2vn6', 'SecondViolinVoiceVI'),
+                    ('2vn7', 'SecondViolinVoiceVII'),
+                    ('2vn8', 'SecondViolinVoiceVIII'),
+                    ('2vn9', 'SecondViolinVoiceIX'),
+                    ('2vn10', 'SecondViolinVoiceX'),
+                    ('2vn11', 'SecondViolinVoiceXI'),
+                    ('2vn12', 'SecondViolinVoiceXII'),
+                    ('2vn13', 'SecondViolinVoiceXIII'),
+                    ('2vn14', 'SecondViolinVoiceXIV'),
+                    ('2vn15', 'SecondViolinVoiceXV'),
+                    ('2vn16', 'SecondViolinVoiceXVI'),
+                    ('2vn17', 'SecondViolinVoiceXVII'),
+                    ('2vn18', 'SecondViolinVoiceXVIII'),
+                    ('va1', 'ViolaVoiceI'),
+                    ('va2', 'ViolaVoiceII'),
+                    ('va3', 'ViolaVoiceIII'),
+                    ('va4', 'ViolaVoiceIV'),
+                    ('va5', 'ViolaVoiceV'),
+                    ('va6', 'ViolaVoiceVI'),
+                    ('va7', 'ViolaVoiceVII'),
+                    ('va8', 'ViolaVoiceVIII'),
+                    ('va9', 'ViolaVoiceIX'),
+                    ('va10', 'ViolaVoiceX'),
+                    ('va11', 'ViolaVoiceXI'),
+                    ('va12', 'ViolaVoiceXII'),
+                    ('va13', 'ViolaVoiceXIII'),
+                    ('va14', 'ViolaVoiceXIV'),
+                    ('va15', 'ViolaVoiceXV'),
+                    ('va16', 'ViolaVoiceXVI'),
+                    ('va17', 'ViolaVoiceXVII'),
+                    ('va18', 'ViolaVoiceXVIII'),
+                    ('vc1', 'CelloVoiceI'),
+                    ('vc2', 'CelloVoiceII'),
+                    ('vc3', 'CelloVoiceIII'),
+                    ('vc4', 'CelloVoiceIV'),
+                    ('vc5', 'CelloVoiceV'),
+                    ('vc6', 'CelloVoiceVI'),
+                    ('vc7', 'CelloVoiceVII'),
+                    ('vc8', 'CelloVoiceVIII'),
+                    ('vc9', 'CelloVoiceIX'),
+                    ('vc10', 'CelloVoiceX'),
+                    ('vc11', 'CelloVoiceXI'),
+                    ('vc12', 'CelloVoiceXII'),
+                    ('vc13', 'CelloVoiceXIII'),
+                    ('vc14', 'CelloVoiceXIV'),
+                    ('cb1', 'ContrabassVoiceI'),
+                    ('cb2', 'ContrabassVoiceII'),
+                    ('cb3', 'ContrabassVoiceIII'),
+                    ('cb4', 'ContrabassVoiceIV'),
+                    ('cb5', 'ContrabassVoiceV'),
+                    ('cb6', 'ContrabassVoiceVI'),
+                    ]
+                )
+
+        '''
+        return super(ScoreTemplate, self).voice_abbreviations
 
     @staticmethod
     def voice_to_instrument(voice):
