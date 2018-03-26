@@ -1,6 +1,7 @@
 import abjad
 import animales
 import baca
+import os
 
 
 ###############################################################################
@@ -44,19 +45,19 @@ maker(
 # single-staff percussion
 
 maker(
-    'PercussionVoiceI',
+    'perc1',
     animales.parts('Percussion', 1),
     baca.staff_lines(1),
     )
 
 maker(
-    'PercussionVoiceII',
+    'perc2',
     animales.parts('Percussion', 2),
     baca.staff_lines(1),
     )
 
 maker(
-    'PercussionVoiceIV',
+    'perc4',
     animales.parts('Percussion', 4),
     baca.staff_lines(1),
     )
@@ -64,31 +65,31 @@ maker(
 # start markup
 
 voice_to_start_markup = {
-    'FirstViolinVoiceI': [
+    '1vn1': [
         animales.margin_markup('Vni. I (1-10)'),
         baca.start_markup(['Violins I', '(1-10)'], hcenter_in=16),
         ],
-    'FirstViolinVoiceIII': [
+    '1vn3': [
         animales.margin_markup('Vni. I (11-18)'),
         baca.start_markup(['Violins I', '(11-18)'], hcenter_in=16),
         ],
-    'SecondViolinVoiceI': [
+    '2vn1': [
         animales.margin_markup('Vni. II (1-10)'),
         baca.start_markup(['Violins II', '(1-10)'], hcenter_in=16),
         ],
-    'SecondViolinVoiceIII': [
+    '2vn3': [
         animales.margin_markup('Vni. II (11-18)'),
         baca.start_markup(['Violins II', '(11-18)'], hcenter_in=16),
         ],
-    'ViolaVoiceI': [
+    'va1': [
         animales.margin_markup('Vle. (1-10)'),
         baca.start_markup(['Violas', '(1-10)'], hcenter_in=16),
         ],
-    'ViolaVoiceIII': [
+    'va3': [
         animales.margin_markup('Vle. (11-18)'),
         baca.start_markup(['Violas', '(11-18)'], hcenter_in=16),
         ],
-    'CelloVoiceI': [
+    'vc1': [
         baca.start_markup('Cellos', hcenter_in=16),
         ],
     }
@@ -105,23 +106,23 @@ animales.assign_trill_parts(maker)
 animales.make_trill_rhythm(maker)
 
 maker(
-    ('CelloVoiceI', 1),
+    ('vc1', 1),
     baca.clef('tenor'),
     )
 
 strings = [
-    'FirstViolinVoiceI',
-    'FirstViolinVoiceIII',
-    'SecondViolinVoiceI',
-    'SecondViolinVoiceIII',
-    'ViolaVoiceI',
-    'ViolaVoiceIII',
-    'CelloVoiceI',
+    '1vn1',
+    '1vn3',
+    '2vn1',
+    '2vn3',
+    'va1',
+    'va3',
+    'vc1',
     ]
 
 # first accents ...
 maker(
-    ('FirstViolinVoiceI', 1),
+    ('1vn1', 1),
     baca.accents(baca.phead(0)),
     )
 
@@ -152,16 +153,16 @@ maker(
     )
 
 raised_trill = [
-    'FirstViolinVoiceIII',
-    'SecondViolinVoiceIII',
+    '1vn3',
+    '2vn3',
     ]
 
 unraised_trill = [
-    'FirstViolinVoiceI',
-    'SecondViolinVoiceI',
-    'ViolaVoiceI',
-    'ViolaVoiceIII',
-    'CelloVoiceI',
+    '1vn1',
+    '2vn1',
+    'va1',
+    'va3',
+    'vc1',
     ]
 
 maker(

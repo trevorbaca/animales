@@ -1,6 +1,7 @@
 import abjad
 import animales
 import baca
+import os
 
 
 ###############################################################################
@@ -69,72 +70,72 @@ def swell():
 # oboes
 
 maker(
-    'OboeVoiceI',
+    'ob1',
     animales.parts('Oboe'),
     )
 
 maker(
-    ('OboeVoiceI', (1, 5)),
+    ('ob1', (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.pitch('A4'),
     )
 
 maker(
-    ('OboeVoiceI', (1, 6)),
+    ('ob1', (1, 6)),
     swell(),
     )
 
 # english horn
 
 maker(
-    'EnglishHornVoiceI',
+    'eh1',
     animales.parts('EnglishHorn'),
     )
 
 maker(
-    ('EnglishHornVoiceI', (1, 5)),
+    ('eh1', (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.pitch('G3'),
     )
 
 maker(
-    ('EnglishHornVoiceI', (1, 6)),
+    ('eh1', (1, 6)),
     swell(),
     )
 
 # bassoons
 
 maker(
-    'BassoonVoiceI',
+    'bsn1',
     animales.parts('Bassoon', 1),
     baca.not_parts(baca.voice_one()),
     )
 
 maker(
-    'BassoonVoiceII',
+    'bsn2',
     animales.parts('Bassoon', 2),
     baca.not_parts(baca.voice_two()),
     )
 
 maker(
-    ('BassoonVoiceI', (1, 5)),
+    ('bsn1', (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.pitch('B3'),
     )
 
 maker(
-    ('BassoonVoiceI', (1, 6)),
+    ('bsn1', (1, 6)),
     baca.only_parts(swell()),
     )
 
 maker(
-    ('BassoonVoiceII', (1, 5)),
+    ('bsn2', (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.pitch('G2'),
     )
 
 maker(
-    ('BassoonVoiceII', (1, 6)),
+    ('bsn2', (1, 6)),
     swell(),
     )
 
@@ -173,7 +174,7 @@ def lower_voice_suite(n=5):
 # solo violin
 
 maker(
-    'FirstViolinVoiceV',
+    '1vn5',
     animales.margin_markup('Vni. I 18'),
     animales.parts('FirstViolin', 18),
     baca.dynamic('f'),
@@ -189,21 +190,21 @@ maker(
 # part assignments
 
 voice_to_members = {
-    'FirstViolinVoiceI': (1, 4),
-    'FirstViolinVoiceII': (5, 8),
-    'FirstViolinVoiceIII': (9, 12),
-    'FirstViolinVoiceIV': (13, 17),
-    'SecondViolinVoiceI': (1, 4),
-    'SecondViolinVoiceII': (5, 8),
-    'SecondViolinVoiceIII': (9, 12),
-    'SecondViolinVoiceIV': (13, 18),
-    'ViolaVoiceI': (1, 4),
-    'ViolaVoiceII': (5, 8),
-    'ViolaVoiceIII': (9, 12),
-    'ViolaVoiceIV': (13, 18),
-    'CelloVoiceI': (1, 8),
-    'CelloVoiceII': (9, 14),
-    'ContrabassVoiceIII': None,
+    '1vn1': (1, 4),
+    '1vn2': (5, 8),
+    '1vn3': (9, 12),
+    '1vn4': (13, 17),
+    '2vn1': (1, 4),
+    '2vn2': (5, 8),
+    '2vn3': (9, 12),
+    '2vn4': (13, 18),
+    'va1': (1, 4),
+    'va2': (5, 8),
+    'va3': (9, 12),
+    'va4': (13, 18),
+    'vc1': (1, 8),
+    'vc2': (9, 14),
+    'cb3': None,
     }
 
 for voice, members in voice_to_members.items():
@@ -215,8 +216,8 @@ for voice, members in voice_to_members.items():
 
 maker(
     [
-        'SecondViolinVoiceI',
-        'CelloVoiceI',
+        '2vn1',
+        'vc1',
         ],
     baca.repeat_ties_up(),
     )
@@ -224,7 +225,7 @@ maker(
 # first violins
 
 maker(
-    ('FirstViolinVoiceI', (1, 10)),
+    ('1vn1', (1, 10)),
     animales.margin_markup('Vni. I (1-4) (5-8)'),
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.markup.boxed('tutti: ext. ponticello: like acid')),
@@ -235,7 +236,7 @@ maker(
     )
 
 maker(
-    ('FirstViolinVoiceII', (1, 10)),
+    ('1vn2', (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.pitch('F5'),
     lower_voice_suite(8),
@@ -243,7 +244,7 @@ maker(
     )
 
 maker(
-    ('FirstViolinVoiceIII', (1, 10)),
+    ('1vn3', (1, 10)),
     animales.margin_markup('Vni. I (9-12) (13-17)'),
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.markup('9-12 + 13-17')),
@@ -253,7 +254,7 @@ maker(
     )
 
 maker(
-    ('FirstViolinVoiceIV', (1, 10)),
+    ('1vn4', (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.pitch('D5'),
     lower_voice_suite(8),
@@ -263,7 +264,7 @@ maker(
 # second violins
 
 maker(
-    ('SecondViolinVoiceI', (1, 10)),
+    ('2vn1', (1, 10)),
     animales.margin_markup('Vni. II (1-4) (5-8)'),
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.markup('1-4 + 5-8')),
@@ -273,7 +274,7 @@ maker(
     )
 
 maker(
-    ('SecondViolinVoiceII', (1, 10)),
+    ('2vn2', (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.pitch('G4'),
     lower_voice_suite(),
@@ -281,7 +282,7 @@ maker(
     )
 
 maker(
-    ('SecondViolinVoiceIII', (1, 10)),
+    ('2vn3', (1, 10)),
     animales.margin_markup('Vni. II (9-12) (13-18)'),
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.markup('9-12 + 13-18')),
@@ -291,7 +292,7 @@ maker(
     )
 
 maker(
-    ('SecondViolinVoiceIV', (1, 10)),
+    ('2vn4', (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.pitch('F4'),
     lower_voice_suite(),
@@ -301,7 +302,7 @@ maker(
 # violas
 
 maker(
-    ('ViolaVoiceI', (1, 10)),
+    ('va1', (1, 10)),
     animales.margin_markup('Vle. (1-4) (5-8)'),
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.markup('1-4 + 5-8')),
@@ -311,7 +312,7 @@ maker(
     )
 
 maker(
-    ('ViolaVoiceII', (1, 10)),
+    ('va2', (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.pitch('A3'),
     lower_voice_suite(),
@@ -319,7 +320,7 @@ maker(
     )
 
 maker(
-    ('ViolaVoiceIII', (1, 10)),
+    ('va3', (1, 10)),
     animales.margin_markup('Vle. (9-12) (13-18)'),
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.markup('9-12 + 13-18')),
@@ -329,7 +330,7 @@ maker(
     )
 
 maker(
-    ('ViolaVoiceIV', (1, 10)),
+    ('va4', (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.pitch('G3'),
     lower_voice_suite(),
@@ -339,7 +340,7 @@ maker(
 # cellos
 
 maker(
-    ('CelloVoiceI', (1, 10)),
+    ('vc1', (1, 10)),
     animales.margin_markup('Vc. (1-8) (9-14)'),
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.markup('1-8 + 9-14')),
@@ -349,7 +350,7 @@ maker(
     )
 
 maker(
-    ('CelloVoiceII', (1, 10)),
+    ('vc2', (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.pitch('G2'),
     lower_voice_suite(),
@@ -359,7 +360,7 @@ maker(
 # contrabasses
 
 maker(
-    ('ContrabassVoiceIII', (1, 10)),
+    ('cb3', (1, 10)),
     animales.margin_markup('Cb.'),
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.markup('Cb. tutti')),

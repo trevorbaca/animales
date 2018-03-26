@@ -1,6 +1,7 @@
 import abjad
 import animales
 import baca
+import os
 
 
 ###############################################################################
@@ -68,7 +69,7 @@ maker(
 # clarinet
 
 maker(
-    ('ClarinetVoiceI', (1, 6)),
+    ('cl1', (1, 6)),
     animales.margin_markup('Cl. 1'),
     animales.parts('Clarinet', 1),
     baca.hairpin('mp <', right_broken=True),
@@ -80,21 +81,21 @@ maker(
 # bass clarinet
 
 maker(
-    ('BassClarinetVoiceI', (5, 6)),
+    ('bcl1', (5, 6)),
     baca.hairpin('niente <', right_broken=True),
     baca.make_repeat_tied_notes(),
     baca.pitch('A2'),
     )
 
 maker(
-    'BassClarinetVoiceI',
+    'bcl1',
     animales.parts('BassClarinet'),
     )
 
 # harp
 
 maker(
-    'HarpVoiceI',
+    'hp1',
     animales.parts('Harp'),
     animales.harp_exchange_rhythm(2),
     baca.laissez_vibrer(),
@@ -105,7 +106,7 @@ maker(
 # piano
 
 maker(
-    'PianoVoiceI',
+    'pf1',
     animales.parts('Piano'),
     animales.harp_exchange_rhythm(3),
     baca.laissez_vibrer(),
@@ -118,7 +119,7 @@ maker(
 # cymbal
 
 maker(
-    'PercussionVoiceII',
+    'perc2',
     animales.parts('Percussion', 2),
     baca.hairpin('mp >', right_broken='niente'),
     baca.make_repeat_tied_notes(),
@@ -129,7 +130,7 @@ maker(
     )
 
 maker(
-    'PercussionVoiceIII',
+    'perc3',
     animales.parts('Percussion', 3),
     animales.harp_exchange_rhythm(0),
     baca.laissez_vibrer(),
@@ -139,7 +140,7 @@ maker(
 # strings
 
 maker(
-    'FirstViolinVoiceI',
+    '1vn1',
     animales.parts('FirstViolin'),
     baca.articulation('trill'),
     baca.glissando(
@@ -154,7 +155,7 @@ maker(
     )
 
 maker(
-    'SecondViolinVoiceI',
+    '2vn1',
     animales.parts('SecondViolin'),
     baca.articulation('trill'),
     baca.glissando(
@@ -169,7 +170,7 @@ maker(
     )
 
 maker(
-    'ViolaVoiceI',
+    'va1',
     animales.parts('Viola'),
     baca.articulation('trill'),
     baca.glissando(
@@ -184,7 +185,7 @@ maker(
     )
 
 maker(
-    'CelloVoiceI',
+    'vc1',
     animales.parts('Cello'),
     baca.articulation('trill'),
     baca.glissando(
@@ -199,7 +200,7 @@ maker(
     )
 
 maker(
-    'ContrabassVoiceIII',
+    'cb3',
     animales.parts('Contrabass', (2, 6)),
     baca.articulation('trill'),
     baca.glissando(
@@ -215,7 +216,7 @@ maker(
 # contrabass solo
 
 maker(
-    'ContrabassVoiceI',
+    'cb1',
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(1),
     baca.laissez_vibrer(),

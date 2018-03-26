@@ -1,6 +1,7 @@
 import abjad
 import animales
 import baca
+import os
 
 
 ###############################################################################
@@ -104,7 +105,7 @@ animales.brass_sforzando(maker, 1)
 # cymbal
 
 maker(
-    'PercussionVoiceII',
+    'perc2',
     animales.parts('Percussion', 2),
     baca.dynamic('p'),
     baca.make_repeat_tied_notes(),

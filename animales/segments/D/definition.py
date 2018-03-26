@@ -1,6 +1,7 @@
 import abjad
 import animales
 import baca
+import os
 
 
 ###############################################################################
@@ -54,7 +55,7 @@ maker(
 # clarinet
 
 maker(
-    'ClarinetVoiceI',
+    'cl1',
     animales.margin_markup('Cl. 2'),
     animales.parts('Clarinet', 2),
     baca.hairpin('mp < mf'),
@@ -68,7 +69,7 @@ maker(
 # triangle
 
 maker(
-    'PercussionVoiceI',
+    'perc1',
     animales.parts('Percussion', 1),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -80,7 +81,7 @@ maker(
 # cymbal
 
 maker(
-    'PercussionVoiceII',
+    'perc2',
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -92,7 +93,7 @@ maker(
 # strings
 
 maker(
-    'FirstViolinVoiceII',
+    '1vn2',
     animales.glissando_rhythm(),
     animales.parts('FirstViolin', 1),
     baca.hairpin('p < f', baca.notes().group_by_measure()[0].rleak()),
@@ -114,23 +115,23 @@ animales.assign_trill_parts(maker, exclude_first_violin=True)
 animales.make_trill_rhythm(maker)
 
 maker(
-    ('FirstViolinVoiceI', 1),
+    ('1vn1', 1),
     baca.not_parts(baca.voice_two()),
     )
 
 maker(
-    ('CelloVoiceI', 1),
+    ('vc1', 1),
     baca.clef('bass'),
     )
 
 strings = [
-    'FirstViolinVoiceI',
-    'FirstViolinVoiceIII',
-    'SecondViolinVoiceI',
-    'SecondViolinVoiceIII',
-    'ViolaVoiceI',
-    'ViolaVoiceIII',
-    'CelloVoiceI',
+    '1vn1',
+    '1vn3',
+    '2vn1',
+    '2vn3',
+    'va1',
+    'va3',
+    'vc1',
     ]
 
 maker(
@@ -144,7 +145,7 @@ maker(
 # contrabasses
 
 maker(
-    'ContrabassVoiceIII',
+    'cb3',
     animales.parts('Contrabass'),
     baca.hairpin('< ff', baca.pleaves()[:4], left_broken=True),
     baca.make_repeat_tied_notes(),

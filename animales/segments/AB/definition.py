@@ -88,12 +88,12 @@ animales.attach_grand_pause_fermatas(maker, measure=-1)
 # triangle
 
 maker(
-    'PercussionVoiceI',
+    'perc1',
     animales.parts('Percussion', 1),
     )
 
 maker(
-    ('PercussionVoiceI', (1, 3)),
+    ('perc1', (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie_to(),
