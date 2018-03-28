@@ -409,7 +409,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     all_music_in_part_containers = True
 
-    always_make_global_rests = True
+    _always_make_global_rests = True
 
     ### INITIALIZER ###
 
