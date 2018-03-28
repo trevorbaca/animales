@@ -118,178 +118,164 @@
             <<
                 \context StaffGroup = "WindStaffGroup"
                 <<
-                    \context StaffGroup = "FluteFamilySquareStaffGroup"
+                    \context StaffGroup = "FluteSquareStaffGroup"
                     \with
                     {
                         systemStartDelimiter = #'SystemStartSquare
                     }
                     <<
-                        \context StaffGroup = "PiccoloSquareStaffGroup"
-                        \with
                         {
-                            systemStartDelimiter = #'SystemStartSquare
+                            \context Staff = "FluteStaffI"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Fl.
+                                                (1+3)
+                                            }
+                                    }
+                            }
+                            \clef "treble"
+                            \i_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \A_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \B_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \C_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \D_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \E_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \F_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \G_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \H_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \I_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \J_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \K_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \L_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \M_FluteStaffI
+                            \context Staff = "FluteStaffI"
+                            \N_FluteStaffI
+                            \context Staff = "FluteStaffI"
+                            \O_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \P_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \Q_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \R_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \S_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \T_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \U_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \V_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \W_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \X_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \Y_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \Z_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \AA_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \AB_GlobalRests
+                            \context Staff = "FluteStaffI"
+                            \AC_GlobalRests
                         }
-                        <<
-                        >>
-                        \context StaffGroup = "FluteSquareStaffGroup"
-                        \with
                         {
-                            systemStartDelimiter = #'SystemStartSquare
+                            \context Staff = "FluteStaffII"
+                            \with
+                            {
+                                shortInstrumentName =
+                                \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                Fl.
+                                                (2+4)
+                                            }
+                                    }
+                            }
+                            \clef "treble"
+                            \i_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \A_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \B_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \C_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \D_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \E_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \F_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \G_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \H_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \I_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \J_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \K_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \L_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \M_FluteStaffII
+                            \context Staff = "FluteStaffII"
+                            \N_FluteStaffII
+                            \context Staff = "FluteStaffII"
+                            \O_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \P_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \Q_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \R_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \S_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \T_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \U_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \V_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \W_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \X_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \Y_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \Z_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \AA_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \AB_GlobalRests
+                            \context Staff = "FluteStaffII"
+                            \AC_GlobalRests
                         }
-                        <<
-                            {
-                                \context Staff = "FluteStaffI"
-                                \with
-                                {
-                                    shortInstrumentName =
-                                    \markup {
-                                        \hcenter-in
-                                            #16
-                                            \center-column
-                                                {
-                                                    Fl.
-                                                    (1+3)
-                                                }
-                                        }
-                                }
-                                \clef "treble"
-                                \i_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \A_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \B_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \C_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \D_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \E_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \F_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \G_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \H_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \I_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \J_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \K_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \L_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \M_FluteStaffI
-                                \context Staff = "FluteStaffI"
-                                \N_FluteStaffI
-                                \context Staff = "FluteStaffI"
-                                \O_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \P_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \Q_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \R_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \S_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \T_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \U_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \V_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \W_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \X_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \Y_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \Z_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \AA_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \AB_GlobalRests
-                                \context Staff = "FluteStaffI"
-                                \AC_GlobalRests
-                            }
-                            {
-                                \context Staff = "FluteStaffII"
-                                \with
-                                {
-                                    shortInstrumentName =
-                                    \markup {
-                                        \hcenter-in
-                                            #16
-                                            \center-column
-                                                {
-                                                    Fl.
-                                                    (2+4)
-                                                }
-                                        }
-                                }
-                                \clef "treble"
-                                \i_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \A_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \B_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \C_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \D_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \E_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \F_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \G_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \H_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \I_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \J_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \K_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \L_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \M_FluteStaffII
-                                \context Staff = "FluteStaffII"
-                                \N_FluteStaffII
-                                \context Staff = "FluteStaffII"
-                                \O_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \P_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \Q_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \R_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \S_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \T_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \U_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \V_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \W_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \X_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \Y_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \Z_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \AA_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \AB_GlobalRests
-                                \context Staff = "FluteStaffII"
-                                \AC_GlobalRests
-                            }
-                        >>
                     >>
                     \context StaffGroup = "OboeFamilySquareStaffGroup"
                     \with
@@ -1418,21 +1404,8 @@
                 <<
                     {
                         \context Staff = "PercussionStaffI"
-                        \with
-                        {
-                            shortInstrumentName =
-                            \markup {
-                                \hcenter-in
-                                    #16
-                                    \center-column
-                                        {
-                                            "Perc. 1"
-                                            (tri.)
-                                        }
-                                }
-                        }
                         \clef "percussion"
-                        \i_GlobalRests
+                        \i_PercussionStaffI
                         \context Staff = "PercussionStaffI"
                         \A_GlobalRests
                         \context Staff = "PercussionStaffI"
@@ -1494,21 +1467,8 @@
                     }
                     {
                         \context Staff = "PercussionStaffII"
-                        \with
-                        {
-                            shortInstrumentName =
-                            \markup {
-                                \hcenter-in
-                                    #16
-                                    \center-column
-                                        {
-                                            "Perc. 2"
-                                            (cym.)
-                                        }
-                                }
-                        }
                         \clef "percussion"
-                        \i_GlobalRests
+                        \i_PercussionStaffII
                         \context Staff = "PercussionStaffII"
                         \A_GlobalRests
                         \context Staff = "PercussionStaffII"
@@ -1660,7 +1620,7 @@
                                 }
                         }
                         \clef "percussion"
-                        \i_GlobalRests
+                        \i_PercussionStaffIV
                         \context Staff = "PercussionStaffIV"
                         \A_GlobalRests
                         \context Staff = "PercussionStaffIV"

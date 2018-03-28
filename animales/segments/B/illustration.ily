@@ -276,6 +276,11 @@ B_FirstViolinVoiceI_a = {
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override TrillSpanner.staff-padding = #4            %! OC1
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -300,6 +305,10 @@ B_FirstViolinVoiceI_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vni. I (1-10)”]"          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                    %! SM12
+                    {                                    %! SM12
+                        OCTAVE                           %! SM12
+                    }                                    %! SM12
             }
         }
     \startTrillSpan f'                                   %! SC
@@ -327,28 +336,63 @@ B_FirstViolinVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [B FirstViolinVoiceI measure 14]                   %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'1
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B FirstViolinVoiceI measure 15]                   %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'1
     -\accent                                             %! IC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B FirstViolinVoiceI measure 16]                   %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     ef'2
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     \startTrillSpan e'                                   %! SC
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ef'2
     -\accent                                             %! IC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B FirstViolinVoiceI measure 17]                   %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ef'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -389,6 +433,11 @@ B_FirstViolinVoiceIII_a = {
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override TrillSpanner.staff-padding = #6            %! OC1
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -413,6 +462,10 @@ B_FirstViolinVoiceIII_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vni. I (11-18)”]"         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                    %! SM12
+                    {                                    %! SM12
+                        OCTAVE                           %! SM12
+                    }                                    %! SM12
             }
         }
     \startTrillSpan f'                                   %! SC
@@ -440,40 +493,96 @@ B_FirstViolinVoiceIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [B FirstViolinVoiceIII measure 14]                 %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'1
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B FirstViolinVoiceIII measure 15]                 %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'4
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'2.
     -\accent                                             %! IC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B FirstViolinVoiceIII measure 16]                 %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     ef'2
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     \startTrillSpan e'                                   %! SC
     \times 2/3 {
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'8
         \repeatTie
+        - \tweak color #red                              %! SM12
+        ^ \markup { OCTAVE }                             %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
         ef'4
         -\accent                                         %! IC
+        - \tweak color #red                              %! SM12
+        ^ \markup { OCTAVE }                             %! SM12
     }
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ef'4
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B FirstViolinVoiceIII measure 17]                 %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ef'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -514,6 +623,11 @@ B_SecondViolinVoiceI_a = {
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override TrillSpanner.staff-padding = #4            %! OC1
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -538,6 +652,10 @@ B_SecondViolinVoiceI_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vni. II (1-10)”]"         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                    %! SM12
+                    {                                    %! SM12
+                        OCTAVE                           %! SM12
+                    }                                    %! SM12
             }
         }
     \startTrillSpan f'                                   %! SC
@@ -564,41 +682,104 @@ B_SecondViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'8
     -\accent                                             %! IC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'2
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B SecondViolinVoiceI measure 14]                  %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'1
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B SecondViolinVoiceI measure 15]                  %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'2
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'8
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'4.
     -\accent                                             %! IC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B SecondViolinVoiceI measure 16]                  %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     ef'1
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     \startTrillSpan e'                                   %! SC
     
     % [B SecondViolinVoiceI measure 17]                  %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ef'8
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ef'4.
     -\accent                                             %! IC
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -639,6 +820,11 @@ B_SecondViolinVoiceIII_a = {
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override TrillSpanner.staff-padding = #6            %! OC1
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -663,6 +849,10 @@ B_SecondViolinVoiceIII_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vni. II (11-18)”]"        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                    %! SM12
+                    {                                    %! SM12
+                        OCTAVE                           %! SM12
+                    }                                    %! SM12
             }
         }
     \startTrillSpan f'                                   %! SC
@@ -690,52 +880,129 @@ B_SecondViolinVoiceIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \times 2/3 {
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'8
         \repeatTie
+        - \tweak color #red                              %! SM12
+        ^ \markup { OCTAVE }                             %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
         e'4
         -\accent                                         %! IC
+        - \tweak color #red                              %! SM12
+        ^ \markup { OCTAVE }                             %! SM12
     }
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'4
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B SecondViolinVoiceIII measure 14]                %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'1
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B SecondViolinVoiceIII measure 15]                %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'2
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'4
         \repeatTie
+        - \tweak color #red                              %! SM12
+        ^ \markup { OCTAVE }                             %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'8
         -\accent                                         %! IC
+        - \tweak color #red                              %! SM12
+        ^ \markup { OCTAVE }                             %! SM12
     }
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
     e'4
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B SecondViolinVoiceIII measure 16]                %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     ef'1
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     \startTrillSpan e'                                   %! SC
     
     % [B SecondViolinVoiceIII measure 17]                %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ef'4
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ef'4
     -\accent                                             %! IC
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -776,6 +1043,11 @@ B_ViolaVoiceI_a = {
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override TrillSpanner.staff-padding = #4            %! OC1
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \clef "alto"                                         %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -800,6 +1072,10 @@ B_ViolaVoiceI_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vle. (1-10)”]"            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                    %! SM12
+                    {                                    %! SM12
+                        OCTAVE                           %! SM12
+                    }                                    %! SM12
             }
         }
     \startTrillSpan f'                                   %! SC
@@ -827,31 +1103,73 @@ B_ViolaVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [B ViolaVoiceI measure 14]                         %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'8
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'2..
     -\accent                                             %! IC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B ViolaVoiceI measure 15]                         %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'2.
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'4
     -\accent                                             %! IC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B ViolaVoiceI measure 16]                         %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     ef'1
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     \startTrillSpan e'                                   %! SC
     
     % [B ViolaVoiceI measure 17]                         %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ef'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -892,6 +1210,11 @@ B_ViolaVoiceIII_a = {
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override TrillSpanner.staff-padding = #4            %! OC1
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \clef "alto"                                         %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -916,6 +1239,10 @@ B_ViolaVoiceIII_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vle. (11-18)”]"           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                    %! SM12
+                    {                                    %! SM12
+                        OCTAVE                           %! SM12
+                    }                                    %! SM12
             }
         }
     \startTrillSpan f'                                   %! SC
@@ -943,29 +1270,64 @@ B_ViolaVoiceIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [B ViolaVoiceIII measure 14]                       %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'4
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'2.
     -\accent                                             %! IC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B ViolaVoiceIII measure 15]                       %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'1
     \repeatTie
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [B ViolaVoiceIII measure 16]                       %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     ef'1
     -\accent                                             %! IC
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     \startTrillSpan e'                                   %! SC
     
     % [B ViolaVoiceIII measure 17]                       %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ef'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -998,6 +1360,11 @@ B_CelloVoiceI_a = {
             Vc.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override TrillSpanner.staff-padding = #4                %! OC1
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \clef "tenor"                                            %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1022,6 +1389,10 @@ B_CelloVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Vc.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                        %! SM12
+                    {                                        %! SM12
+                        OCTAVE                               %! SM12
+                    }                                        %! SM12
             }
         }
     \startTrillSpan f'                                       %! SC
@@ -1041,34 +1412,83 @@ B_CelloVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [B CelloVoiceI measure 14]                             %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'2..
     \repeatTie
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'8
     -\accent                                                 %! IC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [B CelloVoiceI measure 15]                             %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'1
     \repeatTie
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [B CelloVoiceI measure 16]                             %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                            %! SC
     ef'4.
     \p_sub_but_accents_continue_sffz                         %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                           %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     \startTrillSpan e'                                       %! SC
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ef'8
     -\accent                                                 %! IC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ef'2
     \repeatTie
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [B CelloVoiceI measure 17]                             %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ef'2
     \repeatTie
     \stopTrillSpan                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     \revert TrillSpanner.staff-padding                       %! OC2
     
 }

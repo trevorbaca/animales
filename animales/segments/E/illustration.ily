@@ -300,6 +300,11 @@ E_ClarinetVoiceI_a = {
                     3                                        %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
                 }                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -336,6 +341,10 @@ E_ClarinetVoiceI_a = {
                             #(x11-color 'blue)               %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Cl. 3”]"                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+                \line                                        %! SM12
+                    {                                        %! SM12
+                        OCTAVE                               %! SM12
+                    }                                        %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -362,26 +371,61 @@ E_ClarinetVoiceI_a = {
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [E ClarinetVoiceI measure 31]                          %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ds''1
     \repeatTie
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ClarinetVoiceI measure 32]                          %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ds''2
     \repeatTie
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ClarinetVoiceI measure 33]                          %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ds''2.
     \repeatTie
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ClarinetVoiceI measure 34]                          %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ds''2.
     \repeatTie
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ClarinetVoiceI measure 35]                          %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     ds''1
     \repeatTie
     \mf                                                      %! HC1
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
 }
 
@@ -426,6 +470,11 @@ E_PercussionVoiceI_a = {
     \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
     \override RepeatTie.direction = #up                      %! OC1
     \once \override Hairpin.circled-tip = ##t                %! HC1
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \clef "percussion"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -453,6 +502,10 @@ E_PercussionVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Perc. 1 (tri.)”]"             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                        %! SM12
+                    {                                        %! SM12
+                        OCTAVE                               %! SM12
+                    }                                        %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -480,34 +533,69 @@ E_PercussionVoiceI_a = {
     
     % [E PercussionVoiceI measure 31]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceI measure 32]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'2
     :32                                                      %! IC
     \repeatTie                                               %! TCC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceI measure 33]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceI measure 34]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceI measure 35]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     \revert RepeatTie.direction                              %! OC2
     
 }
@@ -552,6 +640,11 @@ E_PercussionVoiceII_a = {
     \once \override Staff.StaffSymbol.line-count = 1         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
     \override RepeatTie.direction = #up                      %! OC1
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \clef "percussion"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -578,6 +671,10 @@ E_PercussionVoiceII_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Perc. 2 (cym.)”]"             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                        %! SM12
+                    {                                        %! SM12
+                        OCTAVE                               %! SM12
+                    }                                        %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -604,29 +701,64 @@ E_PercussionVoiceII_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [E PercussionVoiceII measure 31]                       %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceII measure 32]                       %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'2
     :32                                                      %! IC
     \repeatTie                                               %! TCC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceII measure 33]                       %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceII measure 34]                       %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceII measure 35]                       %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     \revert RepeatTie.direction                              %! OC2
     
 }
@@ -658,6 +790,11 @@ E_FirstViolinVoiceI_a = {
             #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
             "Vni. I"                                     %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \override Glissando.style = #'trill                  %! SC
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -687,6 +824,10 @@ E_FirstViolinVoiceI_a = {
                             #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Vni. I”]"                 %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+                \line                                    %! SM12
+                    {                                    %! SM12
+                        OCTAVE                           %! SM12
+                    }                                    %! SM12
             }
         }
 %%% \stopTrillSpan                                       %! IC:-SEGMENT
@@ -706,76 +847,209 @@ E_FirstViolinVoiceI_a = {
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     \hide NoteHead                                       %! SC
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \override Accidental.stencil = ##f                   %! SC
     \override NoteColumn.glissando-skip = ##t            %! SC
     \override NoteHead.no-ledgers = ##t                  %! SC
     c'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E FirstViolinVoiceI measure 31]                   %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     f'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     g'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     b'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E FirstViolinVoiceI measure 32]                   %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E FirstViolinVoiceI measure 33]                   %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     f''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     g''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E FirstViolinVoiceI measure 34]                   %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     b''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d'''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E FirstViolinVoiceI measure 35]                   %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     f'''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     g'''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     \revert Accidental.stencil                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert Glissando.style                              %! SC
     \revert NoteColumn.glissando-skip                    %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                          %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a'''4
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
 %@% \revert Accidental.stencil                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -906,6 +1180,11 @@ E_SecondViolinVoiceI_a = {
             #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
             "Vni. II"                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \override Glissando.style = #'trill                  %! SC
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -934,6 +1213,10 @@ E_SecondViolinVoiceI_a = {
                             #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Vni. II”]"                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+                \line                                    %! SM12
+                    {                                    %! SM12
+                        OCTAVE                           %! SM12
+                    }                                    %! SM12
             }
         }
 %%% \stopTrillSpan                                       %! IC:-SEGMENT
@@ -953,76 +1236,209 @@ E_SecondViolinVoiceI_a = {
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     \hide NoteHead                                       %! SC
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \override Accidental.stencil = ##f                   %! SC
     \override NoteColumn.glissando-skip = ##t            %! SC
     \override NoteHead.no-ledgers = ##t                  %! SC
     c'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E SecondViolinVoiceI measure 31]                  %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     f'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     g'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E SecondViolinVoiceI measure 32]                  %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     g'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E SecondViolinVoiceI measure 33]                  %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     b'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E SecondViolinVoiceI measure 34]                  %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E SecondViolinVoiceI measure 35]                  %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     f''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     g''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     g''4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     \revert Accidental.stencil                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert Glissando.style                              %! SC
     \revert NoteColumn.glissando-skip                    %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                          %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a''4
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
 %@% \revert Accidental.stencil                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -1153,6 +1569,11 @@ E_ViolaVoiceI_a = {
             #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
             Vle.                                         %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \override Glissando.style = #'trill                  %! SC
     \clef "alto"                                         %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -1181,6 +1602,10 @@ E_ViolaVoiceI_a = {
                             #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             [“Vle.”]                     %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+                \line                                    %! SM12
+                    {                                    %! SM12
+                        OCTAVE                           %! SM12
+                    }                                    %! SM12
             }
         }
 %%% \stopTrillSpan                                       %! IC:-SEGMENT
@@ -1200,76 +1625,209 @@ E_ViolaVoiceI_a = {
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     \hide NoteHead                                       %! SC
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \override Accidental.stencil = ##f                   %! SC
     \override NoteColumn.glissando-skip = ##t            %! SC
     \override NoteHead.no-ledgers = ##t                  %! SC
     b4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E ViolaVoiceI measure 31]                         %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E ViolaVoiceI measure 32]                         %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E ViolaVoiceI measure 33]                         %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     f'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E ViolaVoiceI measure 34]                         %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     f'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     f'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     g'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E ViolaVoiceI measure 35]                         %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     g'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     g'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a'4
     \glissando                                           %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
     
     \revert Accidental.stencil                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert Glissando.style                              %! SC
     \revert NoteColumn.glissando-skip                    %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                          %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a'4
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
+    - \tweak color #red                                  %! SM12
+    ^ \markup { OCTAVE }                                 %! SM12
 %@% \revert Accidental.stencil                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -1400,6 +1958,11 @@ E_CelloVoiceI_a = {
             #16                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Vc.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \override Glissando.style = #'trill                      %! SC
     \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -1428,6 +1991,10 @@ E_CelloVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Vc.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                        %! SM12
+                    {                                        %! SM12
+                        OCTAVE                               %! SM12
+                    }                                        %! SM12
             }
         }
 %%% \stopTrillSpan                                           %! IC:-SEGMENT
@@ -1447,76 +2014,209 @@ E_CelloVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     \hide NoteHead                                           %! SC
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \override Accidental.stencil = ##f                       %! SC
     \override NoteColumn.glissando-skip = ##t                %! SC
     \override NoteHead.no-ledgers = ##t                      %! SC
     b4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E CelloVoiceI measure 31]                             %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     g4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     g4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     g4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E CelloVoiceI measure 32]                             %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     f4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     f4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E CelloVoiceI measure 33]                             %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     f4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     f4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E CelloVoiceI measure 34]                             %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E CelloVoiceI measure 35]                             %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     \revert Accidental.stencil                               %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert Glissando.style                                  %! SC
     \revert NoteColumn.glissando-skip                        %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c4
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
 %@% \revert Accidental.stencil                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                        %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -1551,6 +2251,11 @@ E_ContrabassVoiceIII_a = {
             #16                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Cb.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1577,6 +2282,10 @@ E_ContrabassVoiceIII_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Cb.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                        %! SM12
+                    {                                        %! SM12
+                        OCTAVE                               %! SM12
+                    }                                        %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1595,75 +2304,208 @@ E_ContrabassVoiceIII_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     \hide NoteHead                                           %! SC
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \override Accidental.stencil = ##f                       %! SC
     \override NoteColumn.glissando-skip = ##t                %! SC
     \override NoteHead.no-ledgers = ##t                      %! SC
     b,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     b,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     b,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ContrabassVoiceIII measure 31]                      %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     b,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     b,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     b,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     b,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ContrabassVoiceIII measure 32]                      %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     b,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     b,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ContrabassVoiceIII measure 33]                      %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ContrabassVoiceIII measure 34]                      %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ContrabassVoiceIII measure 35]                      %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a,4
     \glissando                                               %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
     
     \revert Accidental.stencil                               %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteColumn.glissando-skip                        %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     a,4
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
+    - \tweak color #red                                      %! SM12
+    ^ \markup { OCTAVE }                                     %! SM12
 %@% \revert Accidental.stencil                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                        %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
