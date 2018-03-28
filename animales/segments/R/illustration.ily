@@ -2704,11 +2704,7 @@ R_FirstViolinVoiceXVIII_a = {
     % [R FirstViolinVoiceXVIII measure 133]              %! SM4
     r8.
     
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     b16
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
@@ -3702,22 +3698,14 @@ R_SecondViolinVoiceXII_a = {
         % [R SecondViolinVoiceXII measure 133]           %! SM4
         r4
         
-        \once \override Accidental.color = #red
-        \once \override Beam.color = #red
-        \once \override Dots.color = #red
-        \once \override NoteHead.color = #red
-        \once \override Stem.color = #red
+        \makeRed                                         %! SM12
         b8
         - \tweak color #red                              %! SM12
         ^ \markup { OCTAVE }                             %! SM12
     }
     \times 2/3 {
         
-        \once \override Accidental.color = #red
-        \once \override Beam.color = #red
-        \once \override Dots.color = #red
-        \once \override NoteHead.color = #red
-        \once \override Stem.color = #red
+        \makeRed                                         %! SM12
         b8
         - \tweak color #red                              %! SM12
         ^ \markup { OCTAVE }                             %! SM12
@@ -4697,21 +4685,13 @@ R_ViolaVoiceVI_a = {
     
     r8
     
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     b16
     [
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     b16
     ]
     - \tweak color #red                                  %! SM12
@@ -5211,11 +5191,7 @@ R_ViolaVoiceXII_a = {
         
         r4
         
-        \once \override Accidental.color = #red
-        \once \override Beam.color = #red
-        \once \override Dots.color = #red
-        \once \override NoteHead.color = #red
-        \once \override Stem.color = #red
+        \makeRed                                         %! SM12
         b8
         - \tweak color #red                              %! SM12
         ^ \markup { OCTAVE }                             %! SM12
@@ -7358,11 +7334,7 @@ R_ContrabassVoiceVI_a = {
     
     r16
     
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     b16
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
