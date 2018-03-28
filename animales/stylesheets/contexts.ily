@@ -30,6 +30,7 @@
         \consists Multi_measure_rest_engraver
 
         \override MultiMeasureRest.transparent = ##t
+
         \override MultiMeasureRestText.font-size = 3
         \override MultiMeasureRestText.outside-staff-priority = 0
         \override MultiMeasureRestText.padding = 0
@@ -75,7 +76,6 @@
         \override RehearsalMark.self-alignment-X = #center
 
         % prevents StaffSymbol from starting too early after cut-away measures:
-        %\override TimeSignature.X-extent = #'(0 . 0)
         \override TimeSignature.X-extent = ##f
         \override TimeSignature.break-align-symbol = #'left-edge
         \override TimeSignature.break-visibility = #end-of-line-invisible
@@ -162,8 +162,6 @@
 
         \override NoteCollision.merge-differently-dotted = ##t
 
-        %\override NoteColumn.ignore-collision = ##t
-
         \shape #'((-2 . 0) (-1 . 0) (-0.5 . 0) (0 . 0)) RepeatTie                 
         \override RepeatTie.X-extent = ##f
 
@@ -186,11 +184,8 @@
 
         \override TupletBracket.breakable = ##t
         \override TupletBracket.full-length-to-extent = ##f
-        %\override TupletBracket.padding = 2
-        %\override TupletBracket.staff-padding = 1.5
 
         \override TupletNumber.font-size = 1
-        %\override TupletNumber.text = #tuplet-number::calc-fraction-text
 
         autoBeaming = ##f
         barNumberFormatter = #format-oval-barnumbers
