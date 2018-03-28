@@ -552,11 +552,6 @@ Q_HornVoiceI_a = {
                     (1+3)                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \clef "bass"                                         %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -565,6 +560,7 @@ Q_HornVoiceI_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
+    \makeRed                                             %! SM12
     d'8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     ^ \markup {
@@ -669,13 +665,9 @@ Q_HornVoiceI = {
 Q_HornVoiceIII_a = {
     
     % [Q HornVoiceIII measure 119]                       %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeRed                                             %! SM12
     ef'8
     \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
@@ -786,11 +778,6 @@ Q_HornVoiceII_a = {
                     (2+4)                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \clef "bass"                                         %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -799,6 +786,7 @@ Q_HornVoiceII_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
+    \makeRed                                             %! SM12
     d'8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     ^ \markup {
@@ -903,13 +891,9 @@ Q_HornVoiceII = {
 Q_HornVoiceIV_a = {
     
     % [Q HornVoiceIV measure 119]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeRed                                             %! SM12
     ef'8
     \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
@@ -1020,11 +1004,6 @@ Q_TrumpetVoiceI_a = {
                     (1+3)                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1033,6 +1012,7 @@ Q_TrumpetVoiceI_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
+    \makeRed                                             %! SM12
     af'8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     ^ \markup {
@@ -1137,13 +1117,9 @@ Q_TrumpetVoiceI = {
 Q_TrumpetVoiceIII_a = {
     
     % [Q TrumpetVoiceIII measure 119]                    %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeRed                                             %! SM12
     f'8
     \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
@@ -1254,11 +1230,6 @@ Q_TrumpetVoiceII_a = {
                     (2+4)                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1267,6 +1238,7 @@ Q_TrumpetVoiceII_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
+    \makeRed                                             %! SM12
     af'8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     ^ \markup {
@@ -1371,13 +1343,9 @@ Q_TrumpetVoiceII = {
 Q_TrumpetVoiceIV_a = {
     
     % [Q TrumpetVoiceIV measure 119]                     %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeRed                                             %! SM12
     f'8
     \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
@@ -1488,11 +1456,6 @@ Q_TromboneVoiceI_a = {
                     (1+3)                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \clef "tenor"                                        %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1501,6 +1464,7 @@ Q_TromboneVoiceI_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
+    \makeRed                                             %! SM12
     af8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     ^ \markup {
@@ -1605,13 +1569,9 @@ Q_TromboneVoiceI = {
 Q_TromboneVoiceIII_a = {
     
     % [Q TromboneVoiceIII measure 119]                   %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeRed                                             %! SM12
     f8
     \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
@@ -1722,11 +1682,6 @@ Q_TromboneVoiceII_a = {
                     (2+4)                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \clef "tenor"                                        %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1735,6 +1690,7 @@ Q_TromboneVoiceII_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
+    \makeRed                                             %! SM12
     gf8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     ^ \markup {
@@ -1839,13 +1795,9 @@ Q_TromboneVoiceII = {
 Q_TromboneVoiceIV_a = {
     
     % [Q TromboneVoiceIV measure 119]                    %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeRed                                             %! SM12
     f8
     \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
@@ -2029,11 +1981,6 @@ Q_FirstViolinVoiceI_a = {
     
     % [Q FirstViolinVoiceI measure 122]                  %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2057,6 +2004,7 @@ Q_FirstViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -2065,11 +2013,7 @@ Q_FirstViolinVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceI measure 123]                  %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     \repeatTie
@@ -2078,11 +2022,6 @@ Q_FirstViolinVoiceI_a = {
     
     % [Q FirstViolinVoiceI measure 124]                  %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2116,6 +2055,7 @@ Q_FirstViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     \repeatTie
@@ -2145,11 +2085,6 @@ Q_FirstViolinVoiceI_a = {
     
     % [Q FirstViolinVoiceI measure 127]                  %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2173,6 +2108,7 @@ Q_FirstViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     a''2.
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -2181,11 +2117,7 @@ Q_FirstViolinVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceI measure 128]                  %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     \repeatTie
@@ -2194,11 +2126,6 @@ Q_FirstViolinVoiceI_a = {
     
     % [Q FirstViolinVoiceI measure 129]                  %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2232,6 +2159,7 @@ Q_FirstViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     \repeatTie
@@ -2285,11 +2213,6 @@ Q_FirstViolinVoiceII_a = {
     
     % [Q FirstViolinVoiceII measure 122]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2313,6 +2236,7 @@ Q_FirstViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -2321,11 +2245,7 @@ Q_FirstViolinVoiceII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceII measure 123]                 %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     \repeatTie
@@ -2334,11 +2254,6 @@ Q_FirstViolinVoiceII_a = {
     
     % [Q FirstViolinVoiceII measure 124]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2372,6 +2287,7 @@ Q_FirstViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     \repeatTie
@@ -2401,11 +2317,6 @@ Q_FirstViolinVoiceII_a = {
     
     % [Q FirstViolinVoiceII measure 127]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2429,6 +2340,7 @@ Q_FirstViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     f''2.
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -2437,11 +2349,7 @@ Q_FirstViolinVoiceII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceII measure 128]                 %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     \repeatTie
@@ -2450,11 +2358,6 @@ Q_FirstViolinVoiceII_a = {
     
     % [Q FirstViolinVoiceII measure 129]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2488,6 +2391,7 @@ Q_FirstViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     \repeatTie
@@ -2617,11 +2521,6 @@ Q_FirstViolinVoiceIII_a = {
     
     % [Q FirstViolinVoiceIII measure 122]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2645,6 +2544,7 @@ Q_FirstViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -2653,11 +2553,7 @@ Q_FirstViolinVoiceIII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIII measure 123]                %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     \repeatTie
@@ -2666,11 +2562,6 @@ Q_FirstViolinVoiceIII_a = {
     
     % [Q FirstViolinVoiceIII measure 124]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2704,6 +2595,7 @@ Q_FirstViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     \repeatTie
@@ -2733,11 +2625,6 @@ Q_FirstViolinVoiceIII_a = {
     
     % [Q FirstViolinVoiceIII measure 127]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2761,6 +2648,7 @@ Q_FirstViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     g''2.
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -2769,11 +2657,7 @@ Q_FirstViolinVoiceIII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIII measure 128]                %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     \repeatTie
@@ -2782,11 +2666,6 @@ Q_FirstViolinVoiceIII_a = {
     
     % [Q FirstViolinVoiceIII measure 129]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2820,6 +2699,7 @@ Q_FirstViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     \repeatTie
@@ -2873,11 +2753,6 @@ Q_FirstViolinVoiceIV_a = {
     
     % [Q FirstViolinVoiceIV measure 122]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2901,6 +2776,7 @@ Q_FirstViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -2909,11 +2785,7 @@ Q_FirstViolinVoiceIV_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIV measure 123]                 %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     \repeatTie
@@ -2922,11 +2794,6 @@ Q_FirstViolinVoiceIV_a = {
     
     % [Q FirstViolinVoiceIV measure 124]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -2960,6 +2827,7 @@ Q_FirstViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     \repeatTie
@@ -2989,11 +2857,6 @@ Q_FirstViolinVoiceIV_a = {
     
     % [Q FirstViolinVoiceIV measure 127]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -3017,6 +2880,7 @@ Q_FirstViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     d''2.
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -3025,11 +2889,7 @@ Q_FirstViolinVoiceIV_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIV measure 128]                 %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     \repeatTie
@@ -3038,11 +2898,6 @@ Q_FirstViolinVoiceIV_a = {
     
     % [Q FirstViolinVoiceIV measure 129]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -3076,6 +2931,7 @@ Q_FirstViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     \repeatTie
@@ -3132,17 +2988,13 @@ Q_FirstViolinVoiceV_a = {
                     18                                   %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \makeRed                                             %! SM12
     cs'2.
     :32                                                  %! IC
     \f                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
@@ -3208,22 +3060,14 @@ Q_FirstViolinVoiceV_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q FirstViolinVoiceV measure 122]                  %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceV measure 123]                  %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
     \repeatTie
@@ -3231,11 +3075,7 @@ Q_FirstViolinVoiceV_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceV measure 124]                  %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
     \repeatTie
@@ -3259,22 +3099,14 @@ Q_FirstViolinVoiceV_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q FirstViolinVoiceV measure 127]                  %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     cs'2.
     :32                                                  %! IC
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceV measure 128]                  %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
     \repeatTie
@@ -3282,11 +3114,7 @@ Q_FirstViolinVoiceV_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceV measure 129]                  %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
     \repeatTie
@@ -3409,11 +3237,6 @@ Q_SecondViolinVoiceI_a = {
     % [Q SecondViolinVoiceI measure 122]                 %! SM4
     \override RepeatTie.direction = #up                  %! OC1
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -3437,6 +3260,7 @@ Q_SecondViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -3445,11 +3269,7 @@ Q_SecondViolinVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceI measure 123]                 %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     \repeatTie
@@ -3458,11 +3278,6 @@ Q_SecondViolinVoiceI_a = {
     
     % [Q SecondViolinVoiceI measure 124]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -3496,6 +3311,7 @@ Q_SecondViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     \repeatTie
@@ -3525,11 +3341,6 @@ Q_SecondViolinVoiceI_a = {
     
     % [Q SecondViolinVoiceI measure 127]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -3553,6 +3364,7 @@ Q_SecondViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     b'2.
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -3561,11 +3373,7 @@ Q_SecondViolinVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceI measure 128]                 %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     \repeatTie
@@ -3574,11 +3382,6 @@ Q_SecondViolinVoiceI_a = {
     
     % [Q SecondViolinVoiceI measure 129]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -3612,6 +3415,7 @@ Q_SecondViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     \repeatTie
@@ -3666,11 +3470,6 @@ Q_SecondViolinVoiceII_a = {
     
     % [Q SecondViolinVoiceII measure 122]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -3694,6 +3493,7 @@ Q_SecondViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -3702,11 +3502,7 @@ Q_SecondViolinVoiceII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceII measure 123]                %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     \repeatTie
@@ -3715,11 +3511,6 @@ Q_SecondViolinVoiceII_a = {
     
     % [Q SecondViolinVoiceII measure 124]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -3753,6 +3544,7 @@ Q_SecondViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     \repeatTie
@@ -3782,11 +3574,6 @@ Q_SecondViolinVoiceII_a = {
     
     % [Q SecondViolinVoiceII measure 127]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -3810,6 +3597,7 @@ Q_SecondViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     g'2.
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -3818,11 +3606,7 @@ Q_SecondViolinVoiceII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceII measure 128]                %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     \repeatTie
@@ -3831,11 +3615,6 @@ Q_SecondViolinVoiceII_a = {
     
     % [Q SecondViolinVoiceII measure 129]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -3869,6 +3648,7 @@ Q_SecondViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     \repeatTie
@@ -3998,11 +3778,6 @@ Q_SecondViolinVoiceIII_a = {
     
     % [Q SecondViolinVoiceIII measure 122]               %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4026,6 +3801,7 @@ Q_SecondViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -4034,11 +3810,7 @@ Q_SecondViolinVoiceIII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIII measure 123]               %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     \repeatTie
@@ -4047,11 +3819,6 @@ Q_SecondViolinVoiceIII_a = {
     
     % [Q SecondViolinVoiceIII measure 124]               %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4085,6 +3852,7 @@ Q_SecondViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     \repeatTie
@@ -4114,11 +3882,6 @@ Q_SecondViolinVoiceIII_a = {
     
     % [Q SecondViolinVoiceIII measure 127]               %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4142,6 +3905,7 @@ Q_SecondViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     a'2.
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -4150,11 +3914,7 @@ Q_SecondViolinVoiceIII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIII measure 128]               %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     \repeatTie
@@ -4163,11 +3923,6 @@ Q_SecondViolinVoiceIII_a = {
     
     % [Q SecondViolinVoiceIII measure 129]               %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4201,6 +3956,7 @@ Q_SecondViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     \repeatTie
@@ -4254,11 +4010,6 @@ Q_SecondViolinVoiceIV_a = {
     
     % [Q SecondViolinVoiceIV measure 122]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4282,6 +4033,7 @@ Q_SecondViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -4290,11 +4042,7 @@ Q_SecondViolinVoiceIV_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIV measure 123]                %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     \repeatTie
@@ -4303,11 +4051,6 @@ Q_SecondViolinVoiceIV_a = {
     
     % [Q SecondViolinVoiceIV measure 124]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4341,6 +4084,7 @@ Q_SecondViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     \repeatTie
@@ -4370,11 +4114,6 @@ Q_SecondViolinVoiceIV_a = {
     
     % [Q SecondViolinVoiceIV measure 127]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4398,6 +4137,7 @@ Q_SecondViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     f'2.
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -4406,11 +4146,7 @@ Q_SecondViolinVoiceIV_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIV measure 128]                %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     \repeatTie
@@ -4419,11 +4155,6 @@ Q_SecondViolinVoiceIV_a = {
     
     % [Q SecondViolinVoiceIV measure 129]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4457,6 +4188,7 @@ Q_SecondViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     \repeatTie
@@ -4586,11 +4318,6 @@ Q_ViolaVoiceI_a = {
     
     % [Q ViolaVoiceI measure 122]                        %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4614,6 +4341,7 @@ Q_ViolaVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -4622,11 +4350,7 @@ Q_ViolaVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceI measure 123]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     \repeatTie
@@ -4635,11 +4359,6 @@ Q_ViolaVoiceI_a = {
     
     % [Q ViolaVoiceI measure 124]                        %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4673,6 +4392,7 @@ Q_ViolaVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     \repeatTie
@@ -4702,11 +4422,6 @@ Q_ViolaVoiceI_a = {
     
     % [Q ViolaVoiceI measure 127]                        %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4730,6 +4445,7 @@ Q_ViolaVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     d'2.
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -4738,11 +4454,7 @@ Q_ViolaVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceI measure 128]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     \repeatTie
@@ -4751,11 +4463,6 @@ Q_ViolaVoiceI_a = {
     
     % [Q ViolaVoiceI measure 129]                        %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4789,6 +4496,7 @@ Q_ViolaVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     \repeatTie
@@ -4842,11 +4550,6 @@ Q_ViolaVoiceII_a = {
     
     % [Q ViolaVoiceII measure 122]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4870,6 +4573,7 @@ Q_ViolaVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -4878,11 +4582,7 @@ Q_ViolaVoiceII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceII measure 123]                       %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     \repeatTie
@@ -4891,11 +4591,6 @@ Q_ViolaVoiceII_a = {
     
     % [Q ViolaVoiceII measure 124]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4929,6 +4624,7 @@ Q_ViolaVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     \repeatTie
@@ -4958,11 +4654,6 @@ Q_ViolaVoiceII_a = {
     
     % [Q ViolaVoiceII measure 127]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4986,6 +4677,7 @@ Q_ViolaVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     a2.
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -4994,11 +4686,7 @@ Q_ViolaVoiceII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceII measure 128]                       %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     \repeatTie
@@ -5007,11 +4695,6 @@ Q_ViolaVoiceII_a = {
     
     % [Q ViolaVoiceII measure 129]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -5045,6 +4728,7 @@ Q_ViolaVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     \repeatTie
@@ -5174,11 +4858,6 @@ Q_ViolaVoiceIII_a = {
     
     % [Q ViolaVoiceIII measure 122]                      %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -5202,6 +4881,7 @@ Q_ViolaVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -5210,11 +4890,7 @@ Q_ViolaVoiceIII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIII measure 123]                      %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     \repeatTie
@@ -5223,11 +4899,6 @@ Q_ViolaVoiceIII_a = {
     
     % [Q ViolaVoiceIII measure 124]                      %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -5261,6 +4932,7 @@ Q_ViolaVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     \repeatTie
@@ -5290,11 +4962,6 @@ Q_ViolaVoiceIII_a = {
     
     % [Q ViolaVoiceIII measure 127]                      %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -5318,6 +4985,7 @@ Q_ViolaVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     b2.
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -5326,11 +4994,7 @@ Q_ViolaVoiceIII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIII measure 128]                      %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     \repeatTie
@@ -5339,11 +5003,6 @@ Q_ViolaVoiceIII_a = {
     
     % [Q ViolaVoiceIII measure 129]                      %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -5377,6 +5036,7 @@ Q_ViolaVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     \repeatTie
@@ -5430,11 +5090,6 @@ Q_ViolaVoiceIV_a = {
     
     % [Q ViolaVoiceIV measure 122]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -5458,6 +5113,7 @@ Q_ViolaVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -5466,11 +5122,7 @@ Q_ViolaVoiceIV_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIV measure 123]                       %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     \repeatTie
@@ -5479,11 +5131,6 @@ Q_ViolaVoiceIV_a = {
     
     % [Q ViolaVoiceIV measure 124]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -5517,6 +5164,7 @@ Q_ViolaVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     \repeatTie
@@ -5546,11 +5194,6 @@ Q_ViolaVoiceIV_a = {
     
     % [Q ViolaVoiceIV measure 127]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -5574,6 +5217,7 @@ Q_ViolaVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     g2.
     :32                                                  %! IC
     \<                                                   %! PCW1
@@ -5582,11 +5226,7 @@ Q_ViolaVoiceIV_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIV measure 128]                       %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     \repeatTie
@@ -5595,11 +5235,6 @@ Q_ViolaVoiceIV_a = {
     
     % [Q ViolaVoiceIV measure 129]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f           %! PCW1
     \once \override TextSpanner.arrow-width = 0.25       %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -5633,6 +5268,7 @@ Q_ViolaVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
     \once \override TextSpanner.dash-period = 1.5        %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     \repeatTie
@@ -5763,11 +5399,6 @@ Q_CelloVoiceI_a = {
     % [Q CelloVoiceI measure 122]                            %! SM4
     \override RepeatTie.direction = #up                      %! OC1
     \once \override Hairpin.circled-tip = ##t                %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -5791,6 +5422,7 @@ Q_CelloVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
     \once \override TextSpanner.dash-period = 1.5            %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     \<                                                       %! PCW1
@@ -5799,11 +5431,7 @@ Q_CelloVoiceI_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceI measure 123]                            %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     \repeatTie
@@ -5812,11 +5440,6 @@ Q_CelloVoiceI_a = {
     
     % [Q CelloVoiceI measure 124]                            %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -5850,6 +5473,7 @@ Q_CelloVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
     \once \override TextSpanner.dash-period = 1.5            %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     \repeatTie
@@ -5879,11 +5503,6 @@ Q_CelloVoiceI_a = {
     
     % [Q CelloVoiceI measure 127]                            %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -5907,6 +5526,7 @@ Q_CelloVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
     \once \override TextSpanner.dash-period = 1.5            %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                                 %! SM12
     d2.
     :32                                                      %! IC
     \<                                                       %! PCW1
@@ -5915,11 +5535,7 @@ Q_CelloVoiceI_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceI measure 128]                            %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     \repeatTie
@@ -5928,11 +5544,6 @@ Q_CelloVoiceI_a = {
     
     % [Q CelloVoiceI measure 129]                            %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -5966,6 +5577,7 @@ Q_CelloVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
     \once \override TextSpanner.dash-period = 1.5            %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     \repeatTie
@@ -6020,11 +5632,6 @@ Q_CelloVoiceII_a = {
     
     % [Q CelloVoiceII measure 122]                           %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -6048,6 +5655,7 @@ Q_CelloVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
     \once \override TextSpanner.dash-period = 1.5            %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \<                                                       %! PCW1
@@ -6056,11 +5664,7 @@ Q_CelloVoiceII_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceII measure 123]                           %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
@@ -6069,11 +5673,6 @@ Q_CelloVoiceII_a = {
     
     % [Q CelloVoiceII measure 124]                           %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -6107,6 +5706,7 @@ Q_CelloVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
     \once \override TextSpanner.dash-period = 1.5            %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
@@ -6136,11 +5736,6 @@ Q_CelloVoiceII_a = {
     
     % [Q CelloVoiceII measure 127]                           %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -6164,6 +5759,7 @@ Q_CelloVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
     \once \override TextSpanner.dash-period = 1.5            %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                                 %! SM12
     g,2.
     :32                                                      %! IC
     \<                                                       %! PCW1
@@ -6172,11 +5768,7 @@ Q_CelloVoiceII_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceII measure 128]                           %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
@@ -6185,11 +5777,6 @@ Q_CelloVoiceII_a = {
     
     % [Q CelloVoiceII measure 129]                           %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -6223,6 +5810,7 @@ Q_CelloVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
     \once \override TextSpanner.dash-period = 1.5            %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
@@ -6327,11 +5915,6 @@ Q_ContrabassVoiceIII_a = {
     
     % [Q ContrabassVoiceIII measure 122]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -6355,6 +5938,7 @@ Q_ContrabassVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
     \once \override TextSpanner.dash-period = 1.5            %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \<                                                       %! PCW1
@@ -6363,11 +5947,7 @@ Q_ContrabassVoiceIII_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q ContrabassVoiceIII measure 123]                     %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
@@ -6376,11 +5956,6 @@ Q_ContrabassVoiceIII_a = {
     
     % [Q ContrabassVoiceIII measure 124]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -6414,6 +5989,7 @@ Q_ContrabassVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
     \once \override TextSpanner.dash-period = 1.5            %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
@@ -6443,11 +6019,6 @@ Q_ContrabassVoiceIII_a = {
     
     % [Q ContrabassVoiceIII measure 127]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -6471,6 +6042,7 @@ Q_ContrabassVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
     \once \override TextSpanner.dash-period = 1.5            %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                                 %! SM12
     g,2.
     :32                                                      %! IC
     \<                                                       %! PCW1
@@ -6479,11 +6051,7 @@ Q_ContrabassVoiceIII_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q ContrabassVoiceIII measure 128]                     %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
+    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
@@ -6492,11 +6060,6 @@ Q_ContrabassVoiceIII_a = {
     
     % [Q ContrabassVoiceIII measure 129]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PCW1
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f               %! PCW1
     \once \override TextSpanner.arrow-width = 0.25           %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -6530,6 +6093,7 @@ Q_ContrabassVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
     \once \override TextSpanner.dash-period = 1.5            %! PCW1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
