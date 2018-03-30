@@ -21,10 +21,7 @@ instruments = abjad.OrderedDict([
         ),
     (
         'Contrabass',
-        abjad.Contrabass(
-            hide=True,
-            pitch_range='[E1, D6]',
-            ),
+        abjad.Contrabass(hide=True, pitch_range='[E1, D6]'),
         ),
     (
         'EnglishHorn',
