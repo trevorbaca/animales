@@ -562,12 +562,9 @@ G_PianoVoiceI_a = {
     \times 2/3 {
         
         % [G PianoVoiceI measure 45]                         %! SM4
-        \makeRed                                             %! SM12
         d''8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         r4
     }
@@ -757,7 +754,6 @@ G_PercussionVoiceII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
@@ -778,10 +774,6 @@ G_PercussionVoiceII_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Perc. 2 (cym.)”]"             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -809,49 +801,34 @@ G_PercussionVoiceII_a = {
     
     % [G PercussionVoiceII measure 45]                       %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [G PercussionVoiceII measure 46]                       %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [G PercussionVoiceII measure 47]                       %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
-    \makeRed                                                 %! SM12
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [G PercussionVoiceII measure 48]                       %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
-    \makeRed                                                 %! SM12
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [G PercussionVoiceII measure 49]                       %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     \revert RepeatTie.direction                              %! OC2
     
 }
@@ -1089,11 +1066,8 @@ G_FirstViolinVoiceI_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [G FirstViolinVoiceI measure 45]                       %! SM4
-    \makeRed                                                 %! SM12
     e'''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \makeRed                                                 %! SM12
     d'''4
@@ -1312,11 +1286,8 @@ G_SecondViolinVoiceI_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [G SecondViolinVoiceI measure 45]                      %! SM4
-    \makeRed                                                 %! SM12
     f''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \makeRed                                                 %! SM12
     f''4
@@ -1535,11 +1506,8 @@ G_ViolaVoiceI_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [G ViolaVoiceI measure 45]                             %! SM4
-    \makeRed                                                 %! SM12
     a'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \makeRed                                                 %! SM12
     g'4
@@ -1758,11 +1726,8 @@ G_CelloVoiceI_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [G CelloVoiceI measure 45]                             %! SM4
-    \makeRed                                                 %! SM12
     c4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \makeRed                                                 %! SM12
     d4
@@ -2135,11 +2100,8 @@ G_ContrabassVoiceIII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [G ContrabassVoiceIII measure 45]                  %! SM4
-    \makeRed                                             %! SM12
     b,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     b,4
