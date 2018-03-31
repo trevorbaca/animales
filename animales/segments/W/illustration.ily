@@ -1108,7 +1108,6 @@ W_FirstViolinVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceOne                                            %! IC:-PARTS
-    \makeRed                                             %! SM12
     d'16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -1126,10 +1125,6 @@ W_FirstViolinVoiceI_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vni. I (1-2)”]"           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -1188,10 +1183,7 @@ W_FirstViolinVoiceII_a = {
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r4..
     
@@ -1200,10 +1192,7 @@ W_FirstViolinVoiceII_a = {
     
     r8
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     
@@ -1299,10 +1288,7 @@ W_FirstViolinVoiceIII_a = {
         % [W FirstViolinVoiceIII measure 147]            %! SM4
         r8
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -1315,10 +1301,7 @@ W_FirstViolinVoiceIII_a = {
         
         r8
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -1442,10 +1425,7 @@ W_FirstViolinVoiceV_a = {
     
     r8
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     
@@ -1484,10 +1464,7 @@ W_FirstViolinVoiceVI_a = {
     % [W FirstViolinVoiceVI measure 147]                 %! SM4
     r8
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     
@@ -1604,10 +1581,7 @@ W_FirstViolinVoiceVIII_a = {
         % [W FirstViolinVoiceVIII measure 147]           %! SM4
         r8
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -1620,17 +1594,11 @@ W_FirstViolinVoiceVIII_a = {
         
         r8
         
-        \makeRed                                         %! SM12
         b8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         b8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r4
@@ -1704,10 +1672,7 @@ W_FirstViolinVoiceIX_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     
@@ -1716,10 +1681,7 @@ W_FirstViolinVoiceIX_a = {
     % [W FirstViolinVoiceIX measure 147]                 %! SM4
     r4
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8.
     
@@ -1765,10 +1727,7 @@ W_FirstViolinVoiceX_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
@@ -1879,10 +1838,7 @@ W_FirstViolinVoiceXII_a = {
         
         r4
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r2
@@ -1893,18 +1849,12 @@ W_FirstViolinVoiceXII_a = {
         
         r4
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     \times 2/3 {
         
         % [W FirstViolinVoiceXII measure 148]            %! SM4
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r4
     }
@@ -1989,10 +1939,7 @@ W_FirstViolinVoiceXIII_a = {
         
         r4
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r4
@@ -2026,10 +1973,7 @@ W_FirstViolinVoiceXIV_a = {
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     
@@ -2043,10 +1987,7 @@ W_FirstViolinVoiceXIV_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
@@ -2121,10 +2062,7 @@ W_FirstViolinVoiceXV_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r2
     
@@ -2167,17 +2105,11 @@ W_FirstViolinVoiceXVI_a = {
     r4
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         b8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         b8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -2190,10 +2122,7 @@ W_FirstViolinVoiceXVI_a = {
         
         r8
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
         
@@ -2394,10 +2323,7 @@ W_SecondViolinVoiceI_a = {
     % [W SecondViolinVoiceI measure 147]                 %! SM4
     r8.
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r2.
     
@@ -2406,10 +2332,7 @@ W_SecondViolinVoiceI_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
@@ -2441,15 +2364,9 @@ W_SecondViolinVoiceII_a = {
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r4..
     
@@ -2458,10 +2375,7 @@ W_SecondViolinVoiceII_a = {
     
     r8
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     
@@ -2593,10 +2507,7 @@ W_SecondViolinVoiceIV_a = {
     r2.
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r4
     }
@@ -2678,20 +2589,14 @@ W_SecondViolinVoiceV_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
     % [W SecondViolinVoiceV measure 148]                 %! SM4
     r2...
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
 }
 
@@ -2714,23 +2619,12 @@ W_SecondViolinVoiceVI_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
-    \makeRed                                             %! SM12
     b16
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Violin”)                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Violin”)                                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
     r2...
@@ -2813,10 +2707,7 @@ W_SecondViolinVoiceVII_a = {
         
         r4
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r4
@@ -2828,10 +2719,7 @@ W_SecondViolinVoiceVII_a = {
         % [W SecondViolinVoiceVII measure 148]           %! SM4
         r4
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r2.
@@ -2869,10 +2757,7 @@ W_SecondViolinVoiceVIII_a = {
         % [W SecondViolinVoiceVIII measure 147]          %! SM4
         r8
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -2885,10 +2770,7 @@ W_SecondViolinVoiceVIII_a = {
         
         r8
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -2970,15 +2852,9 @@ W_SecondViolinVoiceIX_a = {
     % [W SecondViolinVoiceIX measure 148]                %! SM4
     r4..
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r4..
     
@@ -3013,10 +2889,7 @@ W_SecondViolinVoiceX_a = {
     
     r8
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     
@@ -3100,10 +2973,7 @@ W_SecondViolinVoiceXI_a = {
     % [W SecondViolinVoiceXI measure 147]                %! SM4
     r8
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     
@@ -3220,10 +3090,7 @@ W_SecondViolinVoiceXIII_a = {
         % [W SecondViolinVoiceXIII measure 147]          %! SM4
         r8
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -3236,17 +3103,11 @@ W_SecondViolinVoiceXIII_a = {
         
         r8
         
-        \makeRed                                         %! SM12
         d'8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         d'8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r4
@@ -3280,10 +3141,7 @@ W_SecondViolinVoiceXIV_a = {
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     
@@ -3292,10 +3150,7 @@ W_SecondViolinVoiceXIV_a = {
     % [W SecondViolinVoiceXIV measure 147]               %! SM4
     r4
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8.
     
@@ -3381,10 +3236,7 @@ W_SecondViolinVoiceXV_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
@@ -3495,10 +3347,7 @@ W_SecondViolinVoiceXVII_a = {
         
         r4
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r2
@@ -3509,18 +3358,12 @@ W_SecondViolinVoiceXVII_a = {
         
         r4
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     \times 2/3 {
         
         % [W SecondViolinVoiceXVII measure 148]          %! SM4
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r4
     }
@@ -3560,10 +3403,7 @@ W_SecondViolinVoiceXVIII_a = {
     r1
     
     % [W SecondViolinVoiceXVIII measure 148]             %! SM4
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r2...
     
@@ -3650,10 +3490,7 @@ W_ViolaVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     
@@ -3667,10 +3504,7 @@ W_ViolaVoiceI_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
@@ -3702,10 +3536,7 @@ W_ViolaVoiceII_a = {
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r2
     
@@ -3802,17 +3633,11 @@ W_ViolaVoiceIII_a = {
     r4
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         d'8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         d'8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -3825,10 +3650,7 @@ W_ViolaVoiceIII_a = {
         
         r8
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
         
@@ -3972,10 +3794,7 @@ W_ViolaVoiceVI_a = {
     % [W ViolaVoiceVI measure 147]                       %! SM4
     r8.
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r2.
     
@@ -3984,10 +3803,7 @@ W_ViolaVoiceVI_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
@@ -4065,17 +3881,11 @@ W_ViolaVoiceVII_a = {
         
         r8
         
-        \makeRed                                         %! SM12
         d'8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         d'8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r4
@@ -4087,10 +3897,7 @@ W_ViolaVoiceVII_a = {
         % [W ViolaVoiceVII measure 148]                  %! SM4
         r4
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r2.
@@ -4204,10 +4011,7 @@ W_ViolaVoiceIX_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
@@ -4250,20 +4054,14 @@ W_ViolaVoiceX_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
     % [W ViolaVoiceX measure 148]                        %! SM4
     r2...
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
 }
 
@@ -4306,23 +4104,12 @@ W_ViolaVoiceXI_a = {
         }                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \voiceOne                                            %! IC:-PARTS
-    \makeRed                                             %! SM12
     d'16
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Vle. (11-12)”]"           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Vle. (11-12)”]"                           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \markup {                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -4385,10 +4172,7 @@ W_ViolaVoiceXII_a = {
         
         r4
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r4
@@ -4400,10 +4184,7 @@ W_ViolaVoiceXII_a = {
         % [W ViolaVoiceXII measure 148]                  %! SM4
         r4
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r2.
@@ -4481,10 +4262,7 @@ W_ViolaVoiceXIII_a = {
         % [W ViolaVoiceXIII measure 147]                 %! SM4
         r8
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -4497,10 +4275,7 @@ W_ViolaVoiceXIII_a = {
         
         r8
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -4542,15 +4317,9 @@ W_ViolaVoiceXIV_a = {
     % [W ViolaVoiceXIV measure 148]                      %! SM4
     r4..
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r4..
     
@@ -4625,10 +4394,7 @@ W_ViolaVoiceXV_a = {
     
     r8
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     
@@ -4789,26 +4555,17 @@ W_ViolaVoiceXVIII_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
     % [W ViolaVoiceXVIII measure 147]                    %! SM4
     r2...
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [W ViolaVoiceXVIII measure 148]                    %! SM4
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r2...
     
@@ -4895,10 +4652,7 @@ W_CelloVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     
@@ -4907,10 +4661,7 @@ W_CelloVoiceI_a = {
     % [W CelloVoiceI measure 147]                        %! SM4
     r4
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8.
     
@@ -4953,10 +4704,7 @@ W_CelloVoiceII_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
@@ -5067,10 +4815,7 @@ W_CelloVoiceIV_a = {
         
         r4
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r2
@@ -5081,18 +4826,12 @@ W_CelloVoiceIV_a = {
         
         r4
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     \times 2/3 {
         
         % [W CelloVoiceIV measure 148]                   %! SM4
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r4
     }
@@ -5172,10 +4911,7 @@ W_CelloVoiceV_a = {
     r1
     
     % [W CelloVoiceV measure 148]                        %! SM4
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r2...
     
@@ -5208,10 +4944,7 @@ W_CelloVoiceVI_a = {
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     
@@ -5225,10 +4958,7 @@ W_CelloVoiceVI_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
@@ -5306,10 +5036,7 @@ W_CelloVoiceVII_a = {
         
         r8
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -5355,17 +5082,11 @@ W_CelloVoiceVIII_a = {
     r4
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         b8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         b8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -5378,10 +5099,7 @@ W_CelloVoiceVIII_a = {
         
         r8
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
         
@@ -5463,10 +5181,7 @@ W_CelloVoiceIX_a = {
     
     r8
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     
@@ -5579,10 +5294,7 @@ W_CelloVoiceXI_a = {
     % [W CelloVoiceXI measure 147]                       %! SM4
     r8.
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r2.
     
@@ -5591,10 +5303,7 @@ W_CelloVoiceXI_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
@@ -5632,17 +5341,11 @@ W_CelloVoiceXII_a = {
         
         r8
         
-        \makeRed                                         %! SM12
         b8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         b8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r4
@@ -5654,10 +5357,7 @@ W_CelloVoiceXII_a = {
         % [W CelloVoiceXII measure 148]                  %! SM4
         r4
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r2.
@@ -5771,10 +5471,7 @@ W_CelloVoiceXIV_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
@@ -5871,20 +5568,14 @@ W_ContrabassVoiceI_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
     % [W ContrabassVoiceI measure 148]                   %! SM4
     r2...
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
 }
 
@@ -5908,10 +5599,7 @@ W_ContrabassVoiceII_a = {
         \set Staff.forceClef = ##t                       %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
         \voiceTwo                                        %! IC:-PARTS
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         
         r4
@@ -6011,10 +5699,7 @@ W_ContrabassVoiceIII_a = {
         
         r4
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r4
@@ -6026,10 +5711,7 @@ W_ContrabassVoiceIII_a = {
         % [W ContrabassVoiceIII measure 148]             %! SM4
         r4
         
-        \makeRed                                         %! SM12
         d'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r2.
@@ -6060,20 +5742,14 @@ W_ContrabassVoiceIV_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
     % [W ContrabassVoiceIV measure 147]                  %! SM4
     r2...
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [W ContrabassVoiceIV measure 148]                  %! SM4
     r1
@@ -6153,15 +5829,9 @@ W_ContrabassVoiceV_a = {
     % [W ContrabassVoiceV measure 148]                   %! SM4
     r4..
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     d'16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r4..
     
@@ -6196,10 +5866,7 @@ W_ContrabassVoiceVI_a = {
     
     r8
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r16
     

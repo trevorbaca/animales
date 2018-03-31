@@ -374,11 +374,8 @@ E_ClarinetVoiceI_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ClarinetVoiceI measure 32]                          %! SM4
-    \makeRed                                                 %! SM12
     ds''2
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ClarinetVoiceI measure 33]                          %! SM4
     \makeRed                                                 %! SM12
@@ -453,7 +450,6 @@ E_PercussionVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
@@ -474,10 +470,6 @@ E_PercussionVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Perc. 1 (tri.)”]"             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -505,49 +497,34 @@ E_PercussionVoiceI_a = {
     
     % [E PercussionVoiceI measure 31]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceI measure 32]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
-    \makeRed                                                 %! SM12
     c'2
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceI measure 33]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
-    \makeRed                                                 %! SM12
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceI measure 34]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
-    \makeRed                                                 %! SM12
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceI measure 35]                        %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     \revert RepeatTie.direction                              %! OC2
     
 }
@@ -599,7 +576,6 @@ E_PercussionVoiceII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
     \p                                                       %! SM8:REAPPLIED_DYNAMIC:SM37
@@ -619,10 +595,6 @@ E_PercussionVoiceII_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Perc. 2 (cym.)”]"             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -649,44 +621,29 @@ E_PercussionVoiceII_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [E PercussionVoiceII measure 31]                       %! SM4
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceII measure 32]                       %! SM4
-    \makeRed                                                 %! SM12
     c'2
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceII measure 33]                       %! SM4
-    \makeRed                                                 %! SM12
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceII measure 34]                       %! SM4
-    \makeRed                                                 %! SM12
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E PercussionVoiceII measure 35]                       %! SM4
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     \revert RepeatTie.direction                              %! OC2
     
 }
@@ -786,18 +743,12 @@ E_FirstViolinVoiceI_a = {
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     e'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E FirstViolinVoiceI measure 31]                   %! SM4
-    \makeRed                                             %! SM12
     f'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     g'4
@@ -805,11 +756,8 @@ E_FirstViolinVoiceI_a = {
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     b'4
@@ -818,17 +766,11 @@ E_FirstViolinVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [E FirstViolinVoiceI measure 32]                   %! SM4
-    \makeRed                                             %! SM12
     c''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     d''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E FirstViolinVoiceI measure 33]                   %! SM4
     \makeRed                                             %! SM12
@@ -837,11 +779,8 @@ E_FirstViolinVoiceI_a = {
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     a''4
@@ -850,11 +789,8 @@ E_FirstViolinVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [E FirstViolinVoiceI measure 34]                   %! SM4
-    \makeRed                                             %! SM12
     b''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     c'''4
@@ -869,11 +805,8 @@ E_FirstViolinVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [E FirstViolinVoiceI measure 35]                   %! SM4
-    \makeRed                                             %! SM12
     e'''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     f'''4
@@ -1095,18 +1028,12 @@ E_SecondViolinVoiceI_a = {
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     d'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E SecondViolinVoiceI measure 31]                  %! SM4
-    \makeRed                                             %! SM12
     e'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     e'4
@@ -1114,11 +1041,8 @@ E_SecondViolinVoiceI_a = {
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     f'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     g'4
@@ -1127,17 +1051,11 @@ E_SecondViolinVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [E SecondViolinVoiceI measure 32]                  %! SM4
-    \makeRed                                             %! SM12
     g'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E SecondViolinVoiceI measure 33]                  %! SM4
     \makeRed                                             %! SM12
@@ -1146,11 +1064,8 @@ E_SecondViolinVoiceI_a = {
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     c''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     c''4
@@ -1159,11 +1074,8 @@ E_SecondViolinVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [E SecondViolinVoiceI measure 34]                  %! SM4
-    \makeRed                                             %! SM12
     d''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     e''4
@@ -1178,11 +1090,8 @@ E_SecondViolinVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [E SecondViolinVoiceI measure 35]                  %! SM4
-    \makeRed                                             %! SM12
     f''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     g''4
@@ -1404,18 +1313,12 @@ E_ViolaVoiceI_a = {
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     c'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E ViolaVoiceI measure 31]                         %! SM4
-    \makeRed                                             %! SM12
     c'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     d'4
@@ -1423,11 +1326,8 @@ E_ViolaVoiceI_a = {
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     d'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     d'4
@@ -1436,17 +1336,11 @@ E_ViolaVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [E ViolaVoiceI measure 32]                         %! SM4
-    \makeRed                                             %! SM12
     e'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     e'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E ViolaVoiceI measure 33]                         %! SM4
     \makeRed                                             %! SM12
@@ -1455,11 +1349,8 @@ E_ViolaVoiceI_a = {
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     e'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     f'4
@@ -1468,11 +1359,8 @@ E_ViolaVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [E ViolaVoiceI measure 34]                         %! SM4
-    \makeRed                                             %! SM12
     f'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     f'4
@@ -1487,11 +1375,8 @@ E_ViolaVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [E ViolaVoiceI measure 35]                         %! SM4
-    \makeRed                                             %! SM12
     g'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \makeRed                                             %! SM12
     g'4
@@ -1713,18 +1598,12 @@ E_CelloVoiceI_a = {
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     a4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E CelloVoiceI measure 31]                             %! SM4
-    \makeRed                                                 %! SM12
     a4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \makeRed                                                 %! SM12
     g4
@@ -1732,11 +1611,8 @@ E_CelloVoiceI_a = {
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     g4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \makeRed                                                 %! SM12
     g4
@@ -1745,17 +1621,11 @@ E_CelloVoiceI_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [E CelloVoiceI measure 32]                             %! SM4
-    \makeRed                                                 %! SM12
     f4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     f4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E CelloVoiceI measure 33]                             %! SM4
     \makeRed                                                 %! SM12
@@ -1764,11 +1634,8 @@ E_CelloVoiceI_a = {
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     f4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \makeRed                                                 %! SM12
     e4
@@ -1777,11 +1644,8 @@ E_CelloVoiceI_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [E CelloVoiceI measure 34]                             %! SM4
-    \makeRed                                                 %! SM12
     e4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \makeRed                                                 %! SM12
     e4
@@ -1796,11 +1660,8 @@ E_CelloVoiceI_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [E CelloVoiceI measure 35]                             %! SM4
-    \makeRed                                                 %! SM12
     d4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \makeRed                                                 %! SM12
     d4
@@ -1923,18 +1784,12 @@ E_ContrabassVoiceIII_a = {
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     b,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ContrabassVoiceIII measure 31]                      %! SM4
-    \makeRed                                                 %! SM12
     b,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \makeRed                                                 %! SM12
     b,4
@@ -1942,11 +1797,8 @@ E_ContrabassVoiceIII_a = {
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     b,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \makeRed                                                 %! SM12
     b,4
@@ -1955,17 +1807,11 @@ E_ContrabassVoiceIII_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ContrabassVoiceIII measure 32]                      %! SM4
-    \makeRed                                                 %! SM12
     b,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     b,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ContrabassVoiceIII measure 33]                      %! SM4
     \makeRed                                                 %! SM12
@@ -1974,11 +1820,8 @@ E_ContrabassVoiceIII_a = {
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     a,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \makeRed                                                 %! SM12
     a,4
@@ -1987,11 +1830,8 @@ E_ContrabassVoiceIII_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ContrabassVoiceIII measure 34]                      %! SM4
-    \makeRed                                                 %! SM12
     a,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \makeRed                                                 %! SM12
     a,4
@@ -2006,11 +1846,8 @@ E_ContrabassVoiceIII_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ContrabassVoiceIII measure 35]                      %! SM4
-    \makeRed                                                 %! SM12
     a,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \makeRed                                                 %! SM12
     a,4

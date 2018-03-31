@@ -1431,52 +1431,32 @@ C_PercussionVoiceI_a = {
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)          %! IC:+PARTS:TEMPORARY
     \override RepeatTie.direction = #up                      %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
     \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                        %! IC
-                    {                                        %! IC
-                        \whiteout                            %! IC
-                            \upright                         %! IC
-                                \override                    %! IC
-                                    #'(box-padding . 0.5)    %! IC
-                                    \box                     %! IC
-                                        "triangle (small beater)" %! IC
-                    }                                        %! IC
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
-            }
-        }
+    ^ \markup {                                              %! IC
+        \whiteout                                            %! IC
+            \upright                                         %! IC
+                \override                                    %! IC
+                    #'(box-padding . 0.5)                    %! IC
+                    \box                                     %! IC
+                        "triangle (small beater)"            %! IC
+        }                                                    %! IC
     
     % [C PercussionVoiceI measure 21]                        %! SM4
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [C PercussionVoiceI measure 22]                        %! SM4
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [C PercussionVoiceI measure 23]                        %! SM4
-    \makeRed                                                 %! SM12
     c'2.
     :32                                                      %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     \revert RepeatTie.direction                              %! OC2
     
 }
@@ -1574,52 +1554,32 @@ C_PercussionVoiceII_a = {
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)          %! IC:+PARTS:TEMPORARY
     \override RepeatTie.direction = #up                      %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
     \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                        %! IC
-                    {                                        %! IC
-                        \whiteout                            %! IC
-                            \upright                         %! IC
-                                \override                    %! IC
-                                    #'(box-padding . 0.5)    %! IC
-                                    \box                     %! IC
-                                        "suspended cymbal (soft yarn mallets: attackless sound)" %! IC
-                    }                                        %! IC
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
-            }
-        }
+    ^ \markup {                                              %! IC
+        \whiteout                                            %! IC
+            \upright                                         %! IC
+                \override                                    %! IC
+                    #'(box-padding . 0.5)                    %! IC
+                    \box                                     %! IC
+                        "suspended cymbal (soft yarn mallets: attackless sound)" %! IC
+        }                                                    %! IC
     
     % [C PercussionVoiceII measure 21]                       %! SM4
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [C PercussionVoiceII measure 22]                       %! SM4
-    \makeRed                                                 %! SM12
     c'1
     :32                                                      %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [C PercussionVoiceII measure 23]                       %! SM4
-    \makeRed                                                 %! SM12
     c'2.
     :32                                                      %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     \revert RepeatTie.direction                              %! OC2
     
 }
@@ -1642,7 +1602,6 @@ C_FirstViolinVoiceII_a = {
     \override DynamicLineSpanner.direction = #up         %! OC1:-PARTS
     \voiceOne                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     c''2
     \glissando                                           %! SC
     \<                                                   %! HC1
@@ -1662,128 +1621,76 @@ C_FirstViolinVoiceII_a = {
             %%%             \upright                     %! IC:+PARTS
             %%%                 solo                     %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
 %%% \stopTrillSpan                                       %! IC:+PARTS
     
-    \makeRed                                             %! SM12
     b'8
     \glissando                                           %! SC
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g''8
     ]
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [C FirstViolinVoiceII measure 21]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     d'''8
     \f                                                   %! HC1
     \glissando                                           %! SC
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     e''8
     ]
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     c'''2
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     d''8
     \glissando                                           %! SC
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g'''8
     ]
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [C FirstViolinVoiceII measure 22]                  %! SM4
-    \makeRed                                             %! SM12
     c'''8
     \glissando                                           %! SC
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     f'''8
     ]
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g''2
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     b'''8
     \glissando                                           %! SC
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     d'''8
     ]
     \glissando                                           %! SC
     \>                                                   %! HC1
     \f                                                   %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [C FirstViolinVoiceII measure 23]                  %! SM4
-    \makeRed                                             %! SM12
     a'''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     c'''8
     ~                                                    %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     c'''4.
     \p                                                   %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert DynamicLineSpanner.direction                 %! OC2:-PARTS
     
 }

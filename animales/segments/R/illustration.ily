@@ -2704,10 +2704,7 @@ R_FirstViolinVoiceXVIII_a = {
     % [R FirstViolinVoiceXVIII measure 133]              %! SM4
     r8.
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r2.
     
@@ -3698,17 +3695,11 @@ R_SecondViolinVoiceXII_a = {
         % [R SecondViolinVoiceXII measure 133]           %! SM4
         r4
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r4
     }
@@ -4685,17 +4676,11 @@ R_ViolaVoiceVI_a = {
     
     r8
     
-    \makeRed                                             %! SM12
     b16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     b16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r4
     
@@ -5191,10 +5176,7 @@ R_ViolaVoiceXII_a = {
         
         r4
         
-        \makeRed                                         %! SM12
         b8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r4
@@ -7334,10 +7316,7 @@ R_ContrabassVoiceVI_a = {
     
     r16
     
-    \makeRed                                             %! SM12
     b16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
