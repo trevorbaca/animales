@@ -17,7 +17,7 @@ def downbeat_attack(count=1, denominator=8):
         ...             (1, [1]),
         ...         ],
         ...     ),
-        ...     spacing=baca.minimum_width((1, 8)),
+        ...     spacing=baca.minimum_duration((1, 8)),
         ...     time_signatures=[(4, 4), (3, 4), (2, 4)],
         ...     )
 
