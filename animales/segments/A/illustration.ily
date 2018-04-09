@@ -322,7 +322,6 @@ A_FirstViolinVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     \pitchedTrill                                        %! SC
     gf'2
     \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
@@ -341,10 +340,6 @@ A_FirstViolinVoiceI_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vni. I (1-10)”]"          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \startTrillSpan af'                                  %! SC
@@ -371,63 +366,39 @@ A_FirstViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \makeRed                                             %! SM12
     gf'2
     -\accent                                             %! IC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A FirstViolinVoiceI measure 8]                    %! SM4
-    \makeRed                                             %! SM12
     gf'2
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A FirstViolinVoiceI measure 9]                    %! SM4
-    \makeRed                                             %! SM12
     gf'2
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     gf'4
     -\accent                                             %! IC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A FirstViolinVoiceI measure 10]                   %! SM4
-    \makeRed                                             %! SM12
     gf'2.
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A FirstViolinVoiceI measure 11]                   %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     \pitchedTrill                                        %! SC
     f'1
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \startTrillSpan gf'                                  %! SC
     
     % [A FirstViolinVoiceI measure 12]                   %! SM4
-    \makeRed                                             %! SM12
     f'4
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     f'4
     -\accent                                             %! IC
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -474,7 +445,6 @@ A_FirstViolinVoiceIII_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     \pitchedTrill                                        %! SC
     gf'2.
     \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
@@ -493,10 +463,6 @@ A_FirstViolinVoiceIII_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vni. I (11-18)”]"         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \startTrillSpan af'                                  %! SC
@@ -523,66 +489,42 @@ A_FirstViolinVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \makeRed                                             %! SM12
     gf'4
     -\accent                                             %! IC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A FirstViolinVoiceIII measure 8]                  %! SM4
-    \makeRed                                             %! SM12
     gf'2
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A FirstViolinVoiceIII measure 9]                  %! SM4
-    \makeRed                                             %! SM12
     gf'2
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         gf'8
         \repeatTie
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeRed                                         %! SM12
         gf'4
         -\accent                                         %! IC
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     % [A FirstViolinVoiceIII measure 10]                 %! SM4
-    \makeRed                                             %! SM12
     gf'2.
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A FirstViolinVoiceIII measure 11]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     \pitchedTrill                                        %! SC
     f'1
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \startTrillSpan gf'                                  %! SC
     
     % [A FirstViolinVoiceIII measure 12]                 %! SM4
-    \makeRed                                             %! SM12
     f'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -629,7 +571,6 @@ A_SecondViolinVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     \pitchedTrill                                        %! SC
     gf'1
     \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
@@ -648,10 +589,6 @@ A_SecondViolinVoiceI_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vni. II (1-10)”]"         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \startTrillSpan af'                                  %! SC
@@ -679,56 +616,35 @@ A_SecondViolinVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [A SecondViolinVoiceI measure 8]                   %! SM4
-    \makeRed                                             %! SM12
     gf'8
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     gf'4.
     -\accent                                             %! IC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A SecondViolinVoiceI measure 9]                   %! SM4
-    \makeRed                                             %! SM12
     gf'2.
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A SecondViolinVoiceI measure 10]                  %! SM4
-    \makeRed                                             %! SM12
     gf'4.
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     gf'4.
     -\accent                                             %! IC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A SecondViolinVoiceI measure 11]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     \pitchedTrill                                        %! SC
     f'1
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \startTrillSpan gf'                                  %! SC
     
     % [A SecondViolinVoiceI measure 12]                  %! SM4
-    \makeRed                                             %! SM12
     f'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -775,7 +691,6 @@ A_SecondViolinVoiceIII_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     \pitchedTrill                                        %! SC
     gf'1
     \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
@@ -794,10 +709,6 @@ A_SecondViolinVoiceIII_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vni. II (11-18)”]"        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \startTrillSpan af'                                  %! SC
@@ -826,64 +737,40 @@ A_SecondViolinVoiceIII_a = {
     \times 2/3 {
         
         % [A SecondViolinVoiceIII measure 8]             %! SM4
-        \makeRed                                         %! SM12
         gf'4
         \repeatTie
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         gf'8
         -\accent                                         %! IC
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-    \makeRed                                             %! SM12
     gf'4
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A SecondViolinVoiceIII measure 9]                 %! SM4
-    \makeRed                                             %! SM12
     gf'2.
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A SecondViolinVoiceIII measure 10]                %! SM4
-    \makeRed                                             %! SM12
     gf'2
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     gf'4
     -\accent                                             %! IC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A SecondViolinVoiceIII measure 11]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     \pitchedTrill                                        %! SC
     f'1
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \startTrillSpan gf'                                  %! SC
     
     % [A SecondViolinVoiceIII measure 12]                %! SM4
-    \makeRed                                             %! SM12
     f'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -930,7 +817,6 @@ A_ViolaVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     \pitchedTrill                                        %! SC
     gf'1
     \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
@@ -949,10 +835,6 @@ A_ViolaVoiceI_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vle. (1-10)”]"            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \startTrillSpan af'                                  %! SC
@@ -980,62 +862,38 @@ A_ViolaVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [A ViolaVoiceI measure 8]                          %! SM4
-    \makeRed                                             %! SM12
     gf'4
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     gf'4
     -\accent                                             %! IC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A ViolaVoiceI measure 9]                          %! SM4
-    \makeRed                                             %! SM12
     gf'2.
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A ViolaVoiceI measure 10]                         %! SM4
-    \makeRed                                             %! SM12
     gf'2.
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A ViolaVoiceI measure 11]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     \pitchedTrill                                        %! SC
     f'4.
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \startTrillSpan gf'                                  %! SC
     
-    \makeRed                                             %! SM12
     f'8
     -\accent                                             %! IC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     f'2
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A ViolaVoiceI measure 12]                         %! SM4
-    \makeRed                                             %! SM12
     f'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -1082,7 +940,6 @@ A_ViolaVoiceIII_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     \pitchedTrill                                        %! SC
     gf'1
     \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
@@ -1101,10 +958,6 @@ A_ViolaVoiceIII_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vle. (11-18)”]"           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \startTrillSpan af'                                  %! SC
@@ -1132,50 +985,32 @@ A_ViolaVoiceIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [A ViolaVoiceIII measure 8]                        %! SM4
-    \makeRed                                             %! SM12
     gf'2
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A ViolaVoiceIII measure 9]                        %! SM4
-    \makeRed                                             %! SM12
     gf'2.
     -\accent                                             %! IC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A ViolaVoiceIII measure 10]                       %! SM4
-    \makeRed                                             %! SM12
     gf'2.
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A ViolaVoiceIII measure 11]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     \pitchedTrill                                        %! SC
     f'2
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \startTrillSpan gf'                                  %! SC
     
-    \makeRed                                             %! SM12
     f'2
     -\accent                                             %! IC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [A ViolaVoiceIII measure 12]                       %! SM4
-    \makeRed                                             %! SM12
     f'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert TrillSpanner.staff-padding                   %! OC2
     
 }
@@ -1214,7 +1049,6 @@ A_CelloVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                                 %! SM12
     \pitchedTrill                                            %! SC
     gf'4.
     \f_sub_but_accents_continue_sffz                         %! SM8:EXPLICIT_DYNAMIC:IC
@@ -1233,10 +1067,6 @@ A_CelloVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Vc.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
     \startTrillSpan af'                                      %! SC
@@ -1255,69 +1085,42 @@ A_CelloVoiceI_a = {
             Vc.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \makeRed                                                 %! SM12
     gf'8
     -\accent                                                 %! IC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     gf'2
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [A CelloVoiceI measure 8]                              %! SM4
-    \makeRed                                                 %! SM12
     gf'2
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [A CelloVoiceI measure 9]                              %! SM4
-    \makeRed                                                 %! SM12
     gf'4.
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     gf'4.
     -\accent                                                 %! IC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [A CelloVoiceI measure 10]                             %! SM4
-    \makeRed                                                 %! SM12
     gf'2.
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [A CelloVoiceI measure 11]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                                 %! SM12
     \pitchedTrill                                            %! SC
     f'1
     \p_sub_but_accents_continue_sffz                         %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                           %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     \startTrillSpan gf'                                      %! SC
     
     % [A CelloVoiceI measure 12]                             %! SM4
-    \makeRed                                                 %! SM12
     f'8
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     f'4.
     -\accent                                                 %! IC
     \stopTrillSpan                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     \revert TrillSpanner.staff-padding                       %! OC2
     
 }

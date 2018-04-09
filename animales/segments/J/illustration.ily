@@ -305,7 +305,6 @@ J_ClarinetVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     c''1
     \<                                                       %! HC1
     \mp                                                      %! HC1
@@ -324,10 +323,6 @@ J_ClarinetVoiceI_a = {
                             #(x11-color 'blue)               %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Cl. 2”]"                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -354,41 +349,26 @@ J_ClarinetVoiceI_a = {
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [J ClarinetVoiceI measure 63]                          %! SM4
-    \makeRed                                                 %! SM12
     c''1
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J ClarinetVoiceI measure 64]                          %! SM4
-    \makeRed                                                 %! SM12
     c''1
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J ClarinetVoiceI measure 65]                          %! SM4
-    \makeRed                                                 %! SM12
     c''2
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J ClarinetVoiceI measure 66]                          %! SM4
-    \makeRed                                                 %! SM12
     c''1
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J ClarinetVoiceI measure 67]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                                 %! SM12
     c''1
     \repeatTie
     \mf                                                      %! HC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
 }
 
@@ -434,25 +414,14 @@ J_HornVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    \makeRed                                             %! SM12
     fs'4
     ~
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Hn. (1+3)”]"              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Hn. (1+3)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -478,137 +447,86 @@ J_HornVoiceI_a = {
     \times 2/3 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \makeRed                                         %! SM12
         fs'8
         \f                                               %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r4
     }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     e'2
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J HornVoiceI measure 63]                          %! SM4
-    \makeRed                                             %! SM12
     e'4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         e'4
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         fs'8
         ~
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
-    \makeRed                                             %! SM12
     fs'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J HornVoiceI measure 64]                          %! SM4
-    \makeRed                                             %! SM12
     fs'4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \makeRed                                         %! SM12
         fs'8
         \ff                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r4
     }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     e'2
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J HornVoiceI measure 65]                          %! SM4
-    \makeRed                                             %! SM12
     e'4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         e'4
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         fs'8
         ~
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     % [J HornVoiceI measure 66]                          %! SM4
-    \makeRed                                             %! SM12
     fs'2.
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \makeRed                                         %! SM12
         fs'8
         \ff                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r4
     }
     
     % [J HornVoiceI measure 67]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     e'2.
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         e'4
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \makeRed                                         %! SM12
         fs'8
         \ff                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
     }
 }
@@ -623,106 +541,62 @@ J_HornVoiceIII_a = {
     
     % [J HornVoiceIII measure 62]                        %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    \makeRed                                             %! SM12
     ef'4.
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Horn”)                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    \makeRed                                             %! SM12
     f'8
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     f'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J HornVoiceIII measure 63]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     f'4
     \f                                                   %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     ef'2
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J HornVoiceIII measure 64]                        %! SM4
-    \makeRed                                             %! SM12
     ef'4.
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     f'8
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     f'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J HornVoiceIII measure 65]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     f'4
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r4
     
     % [J HornVoiceIII measure 66]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     ef'2..
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     f'8
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J HornVoiceIII measure 67]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     f'2.
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r4
     
@@ -773,24 +647,13 @@ J_HornVoiceII_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     fs'2.
     \f                                                   %! HC1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Hn. (2+4)”]"              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Hn. (2+4)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -818,116 +681,74 @@ J_HornVoiceII_a = {
         r4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \makeRed                                         %! SM12
         e'8
         ~
         \<                                               %! HC1
         \mp                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     % [J HornVoiceII measure 63]                         %! SM4
-    \makeRed                                             %! SM12
     e'2.
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         e'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         fs'4
         ~
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     % [J HornVoiceII measure 64]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     fs'2.
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         r4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \makeRed                                         %! SM12
         e'8
         ~
         \<                                               %! HC1
         \mp                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     % [J HornVoiceII measure 65]                         %! SM4
-    \makeRed                                             %! SM12
     e'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J HornVoiceII measure 66]                         %! SM4
-    \makeRed                                             %! SM12
     e'4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         e'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         fs'4
         ~
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
-    \makeRed                                             %! SM12
     fs'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J HornVoiceII measure 67]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     fs'4
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         r4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \makeRed                                         %! SM12
         e'8
         ~
         \<                                               %! HC1
         \mp                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     e'2
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
 }
 
@@ -941,45 +762,25 @@ J_HornVoiceIV_a = {
     
     % [J HornVoiceIV measure 62]                         %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    \makeRed                                             %! SM12
     ef'2.
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Horn”)                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    \makeRed                                             %! SM12
     f'4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J HornVoiceIV measure 63]                         %! SM4
-    \makeRed                                             %! SM12
     f'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \makeRed                                         %! SM12
         f'4
         \f                                               %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -987,41 +788,26 @@ J_HornVoiceIV_a = {
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     ef'8
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J HornVoiceIV measure 64]                         %! SM4
-    \makeRed                                             %! SM12
     ef'2.
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     f'4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J HornVoiceIV measure 65]                         %! SM4
-    \makeRed                                             %! SM12
     f'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         % [J HornVoiceIV measure 66]                     %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \makeRed                                         %! SM12
         f'4
         \ff                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -1029,32 +815,20 @@ J_HornVoiceIV_a = {
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     ef'8
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     ef'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J HornVoiceIV measure 67]                         %! SM4
-    \makeRed                                             %! SM12
     ef'4
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     f'2.
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
 }
 
@@ -1102,24 +876,13 @@ J_TrumpetVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    \makeRed                                             %! SM12
     af'2
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Tp. (1+3)”]"              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Tp. (1+3)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1143,72 +906,45 @@ J_TrumpetVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \makeRed                                             %! SM12
     bf'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceI measure 63]                       %! SM4
-    \makeRed                                             %! SM12
     bf'4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \makeRed                                         %! SM12
         bf'8
         \f                                               %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r4
     }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     af'2
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceI measure 64]                       %! SM4
-    \makeRed                                             %! SM12
     af'4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         af'8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         bf'4
         ~
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
-    \makeRed                                             %! SM12
     bf'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceI measure 65]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     bf'8
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     \times 2/3 {
@@ -1216,51 +952,33 @@ J_TrumpetVoiceI_a = {
         r8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \makeRed                                         %! SM12
         af'4
         ~
         \<                                               %! HC1
         \mp                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     % [J TrumpetVoiceI measure 66]                       %! SM4
-    \makeRed                                             %! SM12
     af'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af'8
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     bf'4.
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceI measure 67]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     bf'4.
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     af'4.
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
 }
 
@@ -1274,111 +992,67 @@ J_TrumpetVoiceIII_a = {
     
     % [J TrumpetVoiceIII measure 62]                     %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    \makeRed                                             %! SM12
     a'2
     ~
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Trumpet”)                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     a'8
     \f                                                   %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     g'8
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceIII measure 63]                     %! SM4
-    \makeRed                                             %! SM12
     g'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g'8
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a'4.
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceIII measure 64]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     a'4.
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     g'4.
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceIII measure 65]                     %! SM4
-    \makeRed                                             %! SM12
     g'4.
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a'8
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceIII measure 66]                     %! SM4
-    \makeRed                                             %! SM12
     a'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \makeRed                                         %! SM12
         a'4
         \ff                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -1386,40 +1060,25 @@ J_TrumpetVoiceIII_a = {
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     g'8
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceIII measure 67]                     %! SM4
-    \makeRed                                             %! SM12
     g'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         g'4
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         a'8
         ~
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     a'4
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
 }
 
@@ -1498,91 +1157,58 @@ J_TrumpetVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \makeRed                                             %! SM12
     af'8
     ~
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af'2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         af'4
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         bf'8
         ~
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     % [J TrumpetVoiceII measure 63]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     bf'2.
     \f                                                   %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         r4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \makeRed                                         %! SM12
         af'8
         ~
         \<                                               %! HC1
         \mp                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     % [J TrumpetVoiceII measure 64]                      %! SM4
-    \makeRed                                             %! SM12
     af'2.
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     bf'4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceII measure 65]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     bf'2
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceII measure 66]                      %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     af'2.
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceII measure 67]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     bf'2.
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r4
     
@@ -1598,93 +1224,58 @@ J_TrumpetVoiceIV_a = {
     
     % [J TrumpetVoiceIV measure 62]                      %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    \makeRed                                             %! SM12
     g'4
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Trumpet”)                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     a'2.
     \f                                                   %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceIV measure 63]                      %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     g'2.
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceIV measure 64]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     a'2.
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r4
     
     % [J TrumpetVoiceIV measure 65]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     g'2
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TrumpetVoiceIV measure 66]                      %! SM4
-    \makeRed                                             %! SM12
     g'4
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a'2.
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         % [J TrumpetVoiceIV measure 67]                  %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \makeRed                                         %! SM12
         a'8
         \ff                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r4
     }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     g'2.
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
 }
 
@@ -1732,25 +1323,14 @@ J_TromboneVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    \makeRed                                             %! SM12
     af8
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     [
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Trb. (1+3)”]"             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Trb. (1+3)”]"                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1774,116 +1354,71 @@ J_TromboneVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \makeRed                                             %! SM12
     bf8
     ~
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     bf2
     \f                                                   %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r4
     
     % [J TromboneVoiceI measure 63]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     af2
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af8
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     bf4.
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceI measure 64]                      %! SM4
-    \makeRed                                             %! SM12
     bf4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         bf8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         af4
         ~
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     af2
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceI measure 65]                      %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     bf4
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceI measure 66]                      %! SM4
-    \makeRed                                             %! SM12
     bf4.
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af8
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af2
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceI measure 67]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     bf2.
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         r4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \makeRed                                         %! SM12
         af8
         \mp                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
     }
 }
@@ -1898,103 +1433,59 @@ J_TromboneVoiceIII_a = {
     
     % [J TromboneVoiceIII measure 62]                    %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    \makeRed                                             %! SM12
     g2
     ~
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Trombone”)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Trombone”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    \makeRed                                             %! SM12
     g8
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a4.
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceIII measure 63]                    %! SM4
-    \makeRed                                             %! SM12
     a4
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     g2.
     \f                                                   %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         % [J TromboneVoiceIII measure 64]                %! SM4
         r4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \makeRed                                         %! SM12
         a8
         ~
         \<                                               %! HC1
         \mp                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
-    \makeRed                                             %! SM12
     a2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a8
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g8
     ~
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceIII measure 65]                    %! SM4
-    \makeRed                                             %! SM12
     g2
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceIII measure 66]                    %! SM4
-    \makeRed                                             %! SM12
     a2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \makeRed                                         %! SM12
         a4
         \ff                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -2002,40 +1493,25 @@ J_TromboneVoiceIII_a = {
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     g8
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceIII measure 67]                    %! SM4
-    \makeRed                                             %! SM12
     g2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         g8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         a4
         ~
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     a4
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
 }
 
@@ -2083,24 +1559,13 @@ J_TromboneVoiceII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    \makeRed                                             %! SM12
     af2
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Trb. (2+4)”]"             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Trb. (2+4)”]"                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2124,57 +1589,36 @@ J_TromboneVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \makeRed                                             %! SM12
     bf2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceII measure 63]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     bf8
     \f                                                   %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     af8
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af2
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceII measure 64]                     %! SM4
-    \makeRed                                             %! SM12
     bf2.
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceII measure 65]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     af4.
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     
@@ -2182,51 +1626,30 @@ J_TromboneVoiceII_a = {
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     bf8
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     bf2
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceII measure 67]                     %! SM4
-    \makeRed                                             %! SM12
     af4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         af4
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         bf8
         ~
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     bf2
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
 }
 
@@ -2241,76 +1664,44 @@ J_TromboneVoiceIV_a = {
     % [J TromboneVoiceIV measure 62]                     %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     a8
     \f                                                   %! HC1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Trombone”)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Trombone”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     r8
     
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     g8
     ~
     \<                                                   %! HC1
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g2
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceIV measure 63]                     %! SM4
-    \makeRed                                             %! SM12
     a2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         a4
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         g8
         ~
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
-    \makeRed                                             %! SM12
     g4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceIV measure 64]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     g4.
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     r8
     \times 2/3 {
@@ -2318,69 +1709,42 @@ J_TromboneVoiceIV_a = {
         r8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \makeRed                                         %! SM12
         a4
         ~
         \<                                               %! HC1
         \mp                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
-    \makeRed                                             %! SM12
     a4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceIV measure 65]                     %! SM4
-    \makeRed                                             %! SM12
     a4
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g4
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J TromboneVoiceIV measure 66]                     %! SM4
-    \makeRed                                             %! SM12
     g4.
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a8
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a2
     ~
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         % [J TromboneVoiceIV measure 67]                 %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \makeRed                                         %! SM12
         a8
         \ff                                              %! HC1
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r4
     }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     g2.
     \mp                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
 }
 
@@ -2420,7 +1784,6 @@ J_PianoVoiceI_a = {
         \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-        \makeRed                                             %! SM12
         c''8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
@@ -2440,10 +1803,6 @@ J_PianoVoiceI_a = {
                                 #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                                 [“Pf.”]                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                         }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    \line                                    %! SM12
-                        {                                    %! SM12
-                            OCTAVE                           %! SM12
-                        }                                    %! SM12
                 }
             }
         \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -2476,12 +1835,9 @@ J_PianoVoiceI_a = {
         r8
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeRed                                             %! SM12
         c''8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         r8
     }
@@ -2496,12 +1852,9 @@ J_PianoVoiceI_a = {
         % [J PianoVoiceI measure 67]                         %! SM4
         r4
         
-        \makeRed                                             %! SM12
         c''8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     
     r2.
@@ -2582,12 +1935,9 @@ J_HarpVoiceI_a = {
     r2.
     \times 2/3 {
         
-        \makeRed                                             %! SM12
         c''8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         r4
     }
@@ -2599,12 +1949,9 @@ J_HarpVoiceI_a = {
     r2.
     \times 2/3 {
         
-        \makeRed                                             %! SM12
         c''8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         r4
     }
@@ -2822,11 +2169,8 @@ J_PercussionVoiceIII_a = {
     r4
     \times 2/3 {
         
-        \makeRed                                             %! SM12
         c''8
         -\laissezVibrer                                      %! IC
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         r4
     }
@@ -2838,11 +2182,8 @@ J_PercussionVoiceIII_a = {
     \times 2/3 {
         
         % [J PercussionVoiceIII measure 65]                  %! SM4
-        \makeRed                                             %! SM12
         c''8
         -\laissezVibrer                                      %! IC
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         r4
     }
@@ -2891,7 +2232,6 @@ J_FirstViolinVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     a4
     -\trill                                                  %! IC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
@@ -2913,10 +2253,6 @@ J_FirstViolinVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vni. I”]"                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
 %%% \stopTrillSpan                                           %! IC:-SEGMENT
@@ -2939,142 +2275,79 @@ J_FirstViolinVoiceI_a = {
     \override Accidental.stencil = ##f                       %! SC
     \override NoteColumn.glissando-skip = ##t                %! SC
     \override NoteHead.no-ledgers = ##t                      %! SC
-    \makeRed                                                 %! SM12
     b4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     c'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     d'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J FirstViolinVoiceI measure 63]                       %! SM4
-    \makeRed                                                 %! SM12
     e'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     f'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     g'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     a'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J FirstViolinVoiceI measure 64]                       %! SM4
-    \makeRed                                                 %! SM12
     b'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     c''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     d''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     d''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J FirstViolinVoiceI measure 65]                       %! SM4
-    \makeRed                                                 %! SM12
     e''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     f''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J FirstViolinVoiceI measure 66]                       %! SM4
-    \makeRed                                                 %! SM12
     g''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     a''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     b''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     c'''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J FirstViolinVoiceI measure 67]                       %! SM4
-    \makeRed                                                 %! SM12
     d'''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     e'''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     f'''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \revert Accidental.stencil                               %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert Glissando.style                                  %! SC
     \revert NoteColumn.glissando-skip                        %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    \makeRed                                                 %! SM12
     g'''4
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
 %@% \revert Accidental.stencil                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                        %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -3116,7 +2389,6 @@ J_SecondViolinVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     a4
     -\trill                                                  %! IC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
@@ -3138,10 +2410,6 @@ J_SecondViolinVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vni. II”]"                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
 %%% \stopTrillSpan                                           %! IC:-SEGMENT
@@ -3164,142 +2432,79 @@ J_SecondViolinVoiceI_a = {
     \override Accidental.stencil = ##f                       %! SC
     \override NoteColumn.glissando-skip = ##t                %! SC
     \override NoteHead.no-ledgers = ##t                      %! SC
-    \makeRed                                                 %! SM12
     b4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     b4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     c'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J SecondViolinVoiceI measure 63]                      %! SM4
-    \makeRed                                                 %! SM12
     c'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     d'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     e'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     e'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J SecondViolinVoiceI measure 64]                      %! SM4
-    \makeRed                                                 %! SM12
     f'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     g'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     g'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     a'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J SecondViolinVoiceI measure 65]                      %! SM4
-    \makeRed                                                 %! SM12
     a'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     b'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J SecondViolinVoiceI measure 66]                      %! SM4
-    \makeRed                                                 %! SM12
     c''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     c''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     d''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     e''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J SecondViolinVoiceI measure 67]                      %! SM4
-    \makeRed                                                 %! SM12
     e''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     f''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     f''4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \revert Accidental.stencil                               %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert Glissando.style                                  %! SC
     \revert NoteColumn.glissando-skip                        %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    \makeRed                                                 %! SM12
     g''4
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
 %@% \revert Accidental.stencil                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                        %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -3341,7 +2546,6 @@ J_ViolaVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     a4
     -\trill                                                  %! IC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
@@ -3363,10 +2567,6 @@ J_ViolaVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Vle.”]                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
 %%% \stopTrillSpan                                           %! IC:-SEGMENT
@@ -3389,142 +2589,79 @@ J_ViolaVoiceI_a = {
     \override Accidental.stencil = ##f                       %! SC
     \override NoteColumn.glissando-skip = ##t                %! SC
     \override NoteHead.no-ledgers = ##t                      %! SC
-    \makeRed                                                 %! SM12
     a4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     b4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     b4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J ViolaVoiceI measure 63]                             %! SM4
-    \makeRed                                                 %! SM12
     b4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     b4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     c'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     c'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J ViolaVoiceI measure 64]                             %! SM4
-    \makeRed                                                 %! SM12
     c'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     d'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     d'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     d'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J ViolaVoiceI measure 65]                             %! SM4
-    \makeRed                                                 %! SM12
     d'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     e'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J ViolaVoiceI measure 66]                             %! SM4
-    \makeRed                                                 %! SM12
     e'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     e'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     f'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     f'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J ViolaVoiceI measure 67]                             %! SM4
-    \makeRed                                                 %! SM12
     f'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     f'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     g'4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \revert Accidental.stencil                               %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert Glissando.style                                  %! SC
     \revert NoteColumn.glissando-skip                        %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    \makeRed                                                 %! SM12
     g'4
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
 %@% \revert Accidental.stencil                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                        %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -3566,7 +2703,6 @@ J_CelloVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     a4
     -\trill                                                  %! IC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
@@ -3588,10 +2724,6 @@ J_CelloVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Vc.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
 %%% \stopTrillSpan                                           %! IC:-SEGMENT
@@ -3614,142 +2746,79 @@ J_CelloVoiceI_a = {
     \override Accidental.stencil = ##f                       %! SC
     \override NoteColumn.glissando-skip = ##t                %! SC
     \override NoteHead.no-ledgers = ##t                      %! SC
-    \makeRed                                                 %! SM12
     a4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     g4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     g4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J CelloVoiceI measure 63]                             %! SM4
-    \makeRed                                                 %! SM12
     g4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     g4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     f4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     f4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J CelloVoiceI measure 64]                             %! SM4
-    \makeRed                                                 %! SM12
     f4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     e4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     e4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     e4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J CelloVoiceI measure 65]                             %! SM4
-    \makeRed                                                 %! SM12
     e4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     d4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J CelloVoiceI measure 66]                             %! SM4
-    \makeRed                                                 %! SM12
     d4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     d4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     c4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     c4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [J CelloVoiceI measure 67]                             %! SM4
-    \makeRed                                                 %! SM12
     c4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     c4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     b,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \revert Accidental.stencil                               %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert Glissando.style                                  %! SC
     \revert NoteColumn.glissando-skip                        %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    \makeRed                                                 %! SM12
     b,4
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
 %@% \revert Accidental.stencil                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                        %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -3845,11 +2914,8 @@ J_ContrabassVoiceI_a = {
     \times 2/3 {
         
         \override NoteHead.style = #'harmonic            %! OC1
-        \makeRed                                         %! SM12
         cqf''8
         -\laissezVibrer                                  %! IC
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r4
     }
@@ -3864,11 +2930,8 @@ J_ContrabassVoiceI_a = {
     \times 2/3 {
         
         % [J ContrabassVoiceI measure 66]                %! SM4
-        \makeRed                                         %! SM12
         cqf''8
         -\laissezVibrer                                  %! IC
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         \revert NoteHead.style                           %! OC2
         
         r4
@@ -3922,7 +2985,6 @@ J_ContrabassVoiceIII_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     a,4
     \glissando                                           %! SC
     \>                                                   %! HC1
@@ -3942,10 +3004,6 @@ J_ContrabassVoiceIII_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Cb. (2-6)”]"              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -3975,141 +3033,78 @@ J_ContrabassVoiceIII_a = {
     \override Accidental.stencil = ##f                   %! SC
     \override NoteColumn.glissando-skip = ##t            %! SC
     \override NoteHead.no-ledgers = ##t                  %! SC
-    \makeRed                                             %! SM12
     a,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J ContrabassVoiceIII measure 63]                  %! SM4
-    \makeRed                                             %! SM12
     a,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J ContrabassVoiceIII measure 64]                  %! SM4
-    \makeRed                                             %! SM12
     a,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J ContrabassVoiceIII measure 65]                  %! SM4
-    \makeRed                                             %! SM12
     g,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J ContrabassVoiceIII measure 66]                  %! SM4
-    \makeRed                                             %! SM12
     g,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [J ContrabassVoiceIII measure 67]                  %! SM4
-    \makeRed                                             %! SM12
     g,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g,4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \revert Accidental.stencil                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteColumn.glissando-skip                    %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                          %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    \makeRed                                             %! SM12
     g,4
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
 %@% \revert Accidental.stencil                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC

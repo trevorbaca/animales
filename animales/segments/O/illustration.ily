@@ -613,7 +613,6 @@ O_OboeVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     a'2.
     \<                                                   %! PWC1
     ^ \markup {
@@ -631,10 +630,6 @@ O_OboeVoiceI_a = {
                             #(x11-color 'DarkViolet)     %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
                             [“Ob.”]                      %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
                     }                                    %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \override Staff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
@@ -653,36 +648,24 @@ O_OboeVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     % [O OboeVoiceI measure 96]                          %! SM4
-    \makeRed                                             %! SM12
     a'2.
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O OboeVoiceI measure 97]                          %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     a'1
     \repeatTie
     \f                                                   %! PWC1
     \>                                                   %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O OboeVoiceI measure 98]                          %! SM4
-    \makeRed                                             %! SM12
     a'1
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O OboeVoiceI measure 99]                          %! SM4
-    \makeRed                                             %! SM12
     a'1
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O OboeVoiceI measure 100]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -749,7 +732,6 @@ O_EnglishHornVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     d'2.
     \<                                                   %! PWC1
     ^ \markup {
@@ -767,10 +749,6 @@ O_EnglishHornVoiceI_a = {
                             #(x11-color 'DarkViolet)     %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
                             "[“Eng. hn.”]"               %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
                     }                                    %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \override Staff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
@@ -789,36 +767,24 @@ O_EnglishHornVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     % [O EnglishHornVoiceI measure 96]                   %! SM4
-    \makeRed                                             %! SM12
     d'2.
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O EnglishHornVoiceI measure 97]                   %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     d'1
     \repeatTie
     \f                                                   %! PWC1
     \>                                                   %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O EnglishHornVoiceI measure 98]                   %! SM4
-    \makeRed                                             %! SM12
     d'1
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O EnglishHornVoiceI measure 99]                   %! SM4
-    \makeRed                                             %! SM12
     d'1
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O EnglishHornVoiceI measure 100]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -873,44 +839,29 @@ O_BassoonVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:DEFAULT_CLEF:SM33:ST3
     \voiceOne                                                %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3:+PARTS
-    \makeRed                                                 %! SM12
     b2.
 %%% \<                                                       %! PWC1:+PARTS
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     % [O BassoonVoiceI measure 96]                           %! SM4
-    \makeRed                                                 %! SM12
     b2.
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O BassoonVoiceI measure 97]                           %! SM4
 %%% \once \override Hairpin.circled-tip = ##t                %! PWC1:+PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3:+PARTS
-    \makeRed                                                 %! SM12
     b1
     \repeatTie
 %%% \f                                                       %! PWC1:+PARTS
 %%% \>                                                       %! PWC1:+PARTS
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O BassoonVoiceI measure 98]                           %! SM4
-    \makeRed                                                 %! SM12
     b1
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O BassoonVoiceI measure 99]                           %! SM4
-    \makeRed                                                 %! SM12
     b1
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O BassoonVoiceI measure 100]                          %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3:+PARTS
@@ -968,7 +919,6 @@ O_BassoonVoiceII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                                %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                                 %! SM12
     g,2.
     \<                                                       %! PWC1
     ^ \markup {
@@ -986,10 +936,6 @@ O_BassoonVoiceII_a = {
                             #(x11-color 'DarkViolet)         %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
                             [“Bsn.”]                         %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
                     }                                        %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
     \override Staff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
@@ -1007,36 +953,24 @@ O_BassoonVoiceII_a = {
         }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     
     % [O BassoonVoiceII measure 96]                          %! SM4
-    \makeRed                                                 %! SM12
     g,2.
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O BassoonVoiceII measure 97]                          %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                                 %! SM12
     g,1
     \repeatTie
     \f                                                       %! PWC1
     \>                                                       %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O BassoonVoiceII measure 98]                          %! SM4
-    \makeRed                                                 %! SM12
     g,1
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O BassoonVoiceII measure 99]                          %! SM4
-    \makeRed                                                 %! SM12
     g,1
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O BassoonVoiceII measure 100]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -1120,7 +1054,6 @@ O_FirstViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
-    \makeRed                                             %! SM12
     a''2.
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -1164,10 +1097,6 @@ O_FirstViolinVoiceI_a = {
                             #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Vni. I (1-4) (5-8)”]"     %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1196,13 +1125,10 @@ O_FirstViolinVoiceI_a = {
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [O FirstViolinVoiceI measure 96]                   %! SM4
-    \makeRed                                             %! SM12
     a''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceI measure 97]                   %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PWC1
@@ -1238,7 +1164,6 @@ O_FirstViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -1246,74 +1171,51 @@ O_FirstViolinVoiceI_a = {
     \>                                                   %! HC1
     \ff                                                  %! HC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceI measure 98]                   %! SM4
-    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceI measure 99]                   %! SM4
-    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceI measure 100]                  %! SM4
-    \makeRed                                             %! SM12
     a''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceI measure 101]                  %! SM4
-    \makeRed                                             %! SM12
     a''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceI measure 102]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceI measure 103]                  %! SM4
-    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceI measure 104]                  %! SM4
-    \makeRed                                             %! SM12
     a''2
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
 %%% \revert TextScript.extra-offset                      %! OC2:+PARTS
 %%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
@@ -1346,38 +1248,24 @@ O_FirstViolinVoiceII_a = {
     \override TextSpanner.staff-padding = #8             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     f''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
     % [O FirstViolinVoiceII measure 96]                  %! SM4
-    \makeRed                                             %! SM12
     f''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceII measure 97]                  %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PWC1
@@ -1413,7 +1301,6 @@ O_FirstViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -1421,74 +1308,51 @@ O_FirstViolinVoiceII_a = {
     \>                                                   %! HC1
     \ff                                                  %! HC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceII measure 98]                  %! SM4
-    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceII measure 99]                  %! SM4
-    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceII measure 100]                 %! SM4
-    \makeRed                                             %! SM12
     f''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceII measure 101]                 %! SM4
-    \makeRed                                             %! SM12
     f''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceII measure 102]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceII measure 103]                 %! SM4
-    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceII measure 104]                 %! SM4
-    \makeRed                                             %! SM12
     f''2
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
     
     % [O FirstViolinVoiceII measure 105]                 %! SM4
@@ -1556,7 +1420,6 @@ O_FirstViolinVoiceIII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     g''2.
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -1591,10 +1454,6 @@ O_FirstViolinVoiceIII_a = {
                             #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Vni. I (9-12) (13-17)”]"  %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1623,13 +1482,10 @@ O_FirstViolinVoiceIII_a = {
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [O FirstViolinVoiceIII measure 96]                 %! SM4
-    \makeRed                                             %! SM12
     g''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIII measure 97]                 %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PWC1
@@ -1665,7 +1521,6 @@ O_FirstViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -1673,74 +1528,51 @@ O_FirstViolinVoiceIII_a = {
     \>                                                   %! HC1
     \ff                                                  %! HC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIII measure 98]                 %! SM4
-    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIII measure 99]                 %! SM4
-    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIII measure 100]                %! SM4
-    \makeRed                                             %! SM12
     g''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIII measure 101]                %! SM4
-    \makeRed                                             %! SM12
     g''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIII measure 102]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIII measure 103]                %! SM4
-    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIII measure 104]                %! SM4
-    \makeRed                                             %! SM12
     g''2
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
 %%% \revert TextScript.extra-offset                      %! OC2:+PARTS
 %%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
@@ -1773,38 +1605,24 @@ O_FirstViolinVoiceIV_a = {
     \override TextSpanner.staff-padding = #8             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     d''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
     % [O FirstViolinVoiceIV measure 96]                  %! SM4
-    \makeRed                                             %! SM12
     d''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIV measure 97]                  %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PWC1
@@ -1840,7 +1658,6 @@ O_FirstViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -1848,74 +1665,51 @@ O_FirstViolinVoiceIV_a = {
     \>                                                   %! HC1
     \ff                                                  %! HC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIV measure 98]                  %! SM4
-    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIV measure 99]                  %! SM4
-    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIV measure 100]                 %! SM4
-    \makeRed                                             %! SM12
     d''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIV measure 101]                 %! SM4
-    \makeRed                                             %! SM12
     d''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIV measure 102]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIV measure 103]                 %! SM4
-    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIV measure 104]                 %! SM4
-    \makeRed                                             %! SM12
     d''2
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
     
     % [O FirstViolinVoiceIV measure 105]                 %! SM4
@@ -1975,7 +1769,6 @@ O_FirstViolinVoiceV_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     cs'2.
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC
@@ -2007,10 +1800,6 @@ O_FirstViolinVoiceV_a = {
                             #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Vni. I 18”]"              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'violet)    %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
@@ -2037,76 +1826,49 @@ O_FirstViolinVoiceV_a = {
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [O FirstViolinVoiceV measure 96]                   %! SM4
-    \makeRed                                             %! SM12
     cs'2.
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceV measure 97]                   %! SM4
-    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceV measure 98]                   %! SM4
-    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceV measure 99]                   %! SM4
-    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceV measure 100]                  %! SM4
-    \makeRed                                             %! SM12
     cs'2.
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceV measure 101]                  %! SM4
-    \makeRed                                             %! SM12
     cs'2.
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceV measure 102]                  %! SM4
-    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceV measure 103]                  %! SM4
-    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceV measure 104]                  %! SM4
-    \makeRed                                             %! SM12
     cs'2
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceV measure 105]                  %! SM4
     cs'2.
@@ -2180,7 +1942,6 @@ O_SecondViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
-    \makeRed                                             %! SM12
     b'2.
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -2215,10 +1976,6 @@ O_SecondViolinVoiceI_a = {
                             #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Vni. II (1-4) (5-8)”]"    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -2247,13 +2004,10 @@ O_SecondViolinVoiceI_a = {
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [O SecondViolinVoiceI measure 96]                  %! SM4
-    \makeRed                                             %! SM12
     b'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceI measure 97]                  %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PWC1
@@ -2289,7 +2043,6 @@ O_SecondViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -2297,74 +2050,51 @@ O_SecondViolinVoiceI_a = {
     \>                                                   %! HC1
     \ff                                                  %! HC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceI measure 98]                  %! SM4
-    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceI measure 99]                  %! SM4
-    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceI measure 100]                 %! SM4
-    \makeRed                                             %! SM12
     b'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceI measure 101]                 %! SM4
-    \makeRed                                             %! SM12
     b'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceI measure 102]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceI measure 103]                 %! SM4
-    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceI measure 104]                 %! SM4
-    \makeRed                                             %! SM12
     b'2
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert RepeatTie.direction                          %! OC2
 %%% \revert TextScript.extra-offset                      %! OC2:+PARTS
 %%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
@@ -2398,38 +2128,24 @@ O_SecondViolinVoiceII_a = {
     \override TextSpanner.staff-padding = #5             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     g'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
     % [O SecondViolinVoiceII measure 96]                 %! SM4
-    \makeRed                                             %! SM12
     g'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceII measure 97]                 %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PWC1
@@ -2465,7 +2181,6 @@ O_SecondViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -2473,74 +2188,51 @@ O_SecondViolinVoiceII_a = {
     \>                                                   %! HC1
     \ff                                                  %! HC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceII measure 98]                 %! SM4
-    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceII measure 99]                 %! SM4
-    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceII measure 100]                %! SM4
-    \makeRed                                             %! SM12
     g'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceII measure 101]                %! SM4
-    \makeRed                                             %! SM12
     g'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceII measure 102]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceII measure 103]                %! SM4
-    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceII measure 104]                %! SM4
-    \makeRed                                             %! SM12
     g'2
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
     
     % [O SecondViolinVoiceII measure 105]                %! SM4
@@ -2608,7 +2300,6 @@ O_SecondViolinVoiceIII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     a'2.
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -2643,10 +2334,6 @@ O_SecondViolinVoiceIII_a = {
                             #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Vni. II (9-12) (13-18)”]" %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -2675,13 +2362,10 @@ O_SecondViolinVoiceIII_a = {
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [O SecondViolinVoiceIII measure 96]                %! SM4
-    \makeRed                                             %! SM12
     a'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIII measure 97]                %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PWC1
@@ -2717,7 +2401,6 @@ O_SecondViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -2725,74 +2408,51 @@ O_SecondViolinVoiceIII_a = {
     \>                                                   %! HC1
     \ff                                                  %! HC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIII measure 98]                %! SM4
-    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIII measure 99]                %! SM4
-    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIII measure 100]               %! SM4
-    \makeRed                                             %! SM12
     a'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIII measure 101]               %! SM4
-    \makeRed                                             %! SM12
     a'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIII measure 102]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIII measure 103]               %! SM4
-    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIII measure 104]               %! SM4
-    \makeRed                                             %! SM12
     a'2
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
 %%% \revert TextScript.extra-offset                      %! OC2:+PARTS
 %%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
@@ -2825,38 +2485,24 @@ O_SecondViolinVoiceIV_a = {
     \override TextSpanner.staff-padding = #5             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     f'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
     % [O SecondViolinVoiceIV measure 96]                 %! SM4
-    \makeRed                                             %! SM12
     f'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIV measure 97]                 %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PWC1
@@ -2892,7 +2538,6 @@ O_SecondViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -2900,74 +2545,51 @@ O_SecondViolinVoiceIV_a = {
     \>                                                   %! HC1
     \ff                                                  %! HC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIV measure 98]                 %! SM4
-    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIV measure 99]                 %! SM4
-    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIV measure 100]                %! SM4
-    \makeRed                                             %! SM12
     f'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIV measure 101]                %! SM4
-    \makeRed                                             %! SM12
     f'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIV measure 102]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIV measure 103]                %! SM4
-    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIV measure 104]                %! SM4
-    \makeRed                                             %! SM12
     f'2
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
     
     % [O SecondViolinVoiceIV measure 105]                %! SM4
@@ -3035,7 +2657,6 @@ O_ViolaVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
-    \makeRed                                             %! SM12
     d'2.
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -3070,10 +2691,6 @@ O_ViolaVoiceI_a = {
                             #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Vle. (1-4) (5-8)”]"       %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -3102,13 +2719,10 @@ O_ViolaVoiceI_a = {
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [O ViolaVoiceI measure 96]                         %! SM4
-    \makeRed                                             %! SM12
     d'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceI measure 97]                         %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PWC1
@@ -3144,7 +2758,6 @@ O_ViolaVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -3152,74 +2765,51 @@ O_ViolaVoiceI_a = {
     \>                                                   %! HC1
     \ff                                                  %! HC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceI measure 98]                         %! SM4
-    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceI measure 99]                         %! SM4
-    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceI measure 100]                        %! SM4
-    \makeRed                                             %! SM12
     d'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceI measure 101]                        %! SM4
-    \makeRed                                             %! SM12
     d'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceI measure 102]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceI measure 103]                        %! SM4
-    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceI measure 104]                        %! SM4
-    \makeRed                                             %! SM12
     d'2
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
 %%% \revert TextScript.extra-offset                      %! OC2:+PARTS
 %%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
@@ -3252,38 +2842,24 @@ O_ViolaVoiceII_a = {
     \override TextSpanner.staff-padding = #5             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     a2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
     % [O ViolaVoiceII measure 96]                        %! SM4
-    \makeRed                                             %! SM12
     a2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceII measure 97]                        %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PWC1
@@ -3319,7 +2895,6 @@ O_ViolaVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -3327,74 +2902,51 @@ O_ViolaVoiceII_a = {
     \>                                                   %! HC1
     \ff                                                  %! HC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceII measure 98]                        %! SM4
-    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceII measure 99]                        %! SM4
-    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceII measure 100]                       %! SM4
-    \makeRed                                             %! SM12
     a2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceII measure 101]                       %! SM4
-    \makeRed                                             %! SM12
     a2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceII measure 102]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceII measure 103]                       %! SM4
-    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceII measure 104]                       %! SM4
-    \makeRed                                             %! SM12
     a2
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
     
     % [O ViolaVoiceII measure 105]                       %! SM4
@@ -3462,7 +3014,6 @@ O_ViolaVoiceIII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     b2.
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -3497,10 +3048,6 @@ O_ViolaVoiceIII_a = {
                             #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Vle. (9-12) (13-18)”]"    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -3529,13 +3076,10 @@ O_ViolaVoiceIII_a = {
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [O ViolaVoiceIII measure 96]                       %! SM4
-    \makeRed                                             %! SM12
     b2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIII measure 97]                       %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PWC1
@@ -3571,7 +3115,6 @@ O_ViolaVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -3579,74 +3122,51 @@ O_ViolaVoiceIII_a = {
     \>                                                   %! HC1
     \ff                                                  %! HC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIII measure 98]                       %! SM4
-    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIII measure 99]                       %! SM4
-    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIII measure 100]                      %! SM4
-    \makeRed                                             %! SM12
     b2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIII measure 101]                      %! SM4
-    \makeRed                                             %! SM12
     b2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIII measure 102]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIII measure 103]                      %! SM4
-    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIII measure 104]                      %! SM4
-    \makeRed                                             %! SM12
     b2
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
 %%% \revert TextScript.extra-offset                      %! OC2:+PARTS
 %%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
@@ -3679,38 +3199,24 @@ O_ViolaVoiceIV_a = {
     \override TextSpanner.staff-padding = #5             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     g2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \whiteout                                        %! IC:+PARTS
+%%%         \upright                                     %! IC:+PARTS
+%%%             \override                                %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
+%%%                 \box                                 %! IC:+PARTS
+%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     
     % [O ViolaVoiceIV measure 96]                        %! SM4
-    \makeRed                                             %! SM12
     g2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIV measure 97]                        %! SM4
     \once \override TextSpanner.Y-extent = ##f           %! PWC1
@@ -3746,7 +3252,6 @@ O_ViolaVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -3754,74 +3259,51 @@ O_ViolaVoiceIV_a = {
     \>                                                   %! HC1
     \ff                                                  %! HC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIV measure 98]                        %! SM4
-    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIV measure 99]                        %! SM4
-    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIV measure 100]                       %! SM4
-    \makeRed                                             %! SM12
     g2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIV measure 101]                       %! SM4
-    \makeRed                                             %! SM12
     g2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIV measure 102]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIV measure 103]                       %! SM4
-    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIV measure 104]                       %! SM4
-    \makeRed                                             %! SM12
     g2
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
     
     % [O ViolaVoiceIV measure 105]                       %! SM4
@@ -3890,7 +3372,6 @@ O_CelloVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     \voiceOne                                                %! IC:-PARTS
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
-    \makeRed                                                 %! SM12
     d2.
     :32                                                      %! IC
     -\accent                                                 %! IC
@@ -3925,10 +3406,6 @@ O_CelloVoiceI_a = {
                             #(x11-color 'blue)               %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Vc. (1-8) (9-14)”]"           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -3957,13 +3434,10 @@ O_CelloVoiceI_a = {
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [O CelloVoiceI measure 96]                             %! SM4
-    \makeRed                                                 %! SM12
     d2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceI measure 97]                             %! SM4
     \once \override TextSpanner.Y-extent = ##f               %! PWC1
@@ -3999,7 +3473,6 @@ O_CelloVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     -\accent                                                 %! IC
@@ -4007,74 +3480,51 @@ O_CelloVoiceI_a = {
     \>                                                       %! HC1
     \ff                                                      %! HC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceI measure 98]                             %! SM4
-    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceI measure 99]                             %! SM4
-    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceI measure 100]                            %! SM4
-    \makeRed                                                 %! SM12
     d2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceI measure 101]                            %! SM4
-    \makeRed                                                 %! SM12
     d2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceI measure 102]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     \pp                                                      %! HC1
     \stopTextSpan                                            %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceI measure 103]                            %! SM4
-    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceI measure 104]                            %! SM4
-    \makeRed                                                 %! SM12
     d2
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     \revert RepeatTie.direction                              %! OC2
 %%% \revert TextScript.extra-offset                          %! OC2:+PARTS
 %%% \revert TextSpanner.staff-padding                        %! OC2:+PARTS
@@ -4108,38 +3558,24 @@ O_CelloVoiceII_a = {
     \override TextSpanner.staff-padding = #5                 %! OC1:-PARTS
     \voiceTwo                                                %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                                 %! SM12
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-            %%% \line                                        %! IC:+PARTS
-            %%%     {                                        %! IC:+PARTS
-            %%%         \whiteout                            %! IC:+PARTS
-            %%%             \upright                         %! IC:+PARTS
-            %%%                 \override                    %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5)    %! IC:+PARTS
-            %%%                     \box                     %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
-            %%%     }                                        %! IC:+PARTS
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
-            }
-        }
+%%% ^ \markup {                                              %! IC:+PARTS
+%%%     \whiteout                                            %! IC:+PARTS
+%%%         \upright                                         %! IC:+PARTS
+%%%             \override                                    %! IC:+PARTS
+%%%                 #'(box-padding . 0.5)                    %! IC:+PARTS
+%%%                 \box                                     %! IC:+PARTS
+%%%                     "ext. ponticello: like acid"         %! IC:+PARTS
+%%%     }                                                    %! IC:+PARTS
     
     % [O CelloVoiceII measure 96]                            %! SM4
-    \makeRed                                                 %! SM12
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceII measure 97]                            %! SM4
     \once \override TextSpanner.Y-extent = ##f               %! PWC1
@@ -4175,7 +3611,6 @@ O_CelloVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
@@ -4183,74 +3618,51 @@ O_CelloVoiceII_a = {
     \>                                                       %! HC1
     \ff                                                      %! HC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceII measure 98]                            %! SM4
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceII measure 99]                            %! SM4
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceII measure 100]                           %! SM4
-    \makeRed                                                 %! SM12
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceII measure 101]                           %! SM4
-    \makeRed                                                 %! SM12
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceII measure 102]                           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     \pp                                                      %! HC1
     \stopTextSpan                                            %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceII measure 103]                           %! SM4
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceII measure 104]                           %! SM4
-    \makeRed                                                 %! SM12
     g,2
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     \revert TextSpanner.staff-padding                        %! OC2:-PARTS
     
     % [O CelloVoiceII measure 105]                           %! SM4
@@ -4303,7 +3715,6 @@ O_ContrabassVoiceIII_a = {
 %%% \set Staff.forceClef = ##t                               %! SM8:REDUNDANT_CLEF:SM33:IC:+LETTER_PARTS_CB-1
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
-    \makeRed                                                 %! SM12
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
@@ -4338,10 +3749,6 @@ O_ContrabassVoiceIII_a = {
                             #(x11-color 'blue)               %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             [“Cb.”]                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
 %%% \override Staff.Clef.color = #(x11-color 'DeepPink4)     %! SM6:REDUNDANT_CLEF_REDRAW_COLOR:IC:+LETTER_PARTS_CB-1
@@ -4360,13 +3767,10 @@ O_ContrabassVoiceIII_a = {
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [O ContrabassVoiceIII measure 96]                      %! SM4
-    \makeRed                                                 %! SM12
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O ContrabassVoiceIII measure 97]                      %! SM4
     \once \override TextSpanner.Y-extent = ##f               %! PWC1
@@ -4402,7 +3806,6 @@ O_ContrabassVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
@@ -4410,74 +3813,51 @@ O_ContrabassVoiceIII_a = {
     \>                                                       %! HC1
     \ff                                                      %! HC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O ContrabassVoiceIII measure 98]                      %! SM4
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O ContrabassVoiceIII measure 99]                      %! SM4
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O ContrabassVoiceIII measure 100]                     %! SM4
-    \makeRed                                                 %! SM12
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O ContrabassVoiceIII measure 101]                     %! SM4
-    \makeRed                                                 %! SM12
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O ContrabassVoiceIII measure 102]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     \pp                                                      %! HC1
     \stopTextSpan                                            %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O ContrabassVoiceIII measure 103]                     %! SM4
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O ContrabassVoiceIII measure 104]                     %! SM4
-    \makeRed                                                 %! SM12
     g,2
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [O ContrabassVoiceIII measure 105]                     %! SM4
     R1 * 3/4
