@@ -606,7 +606,7 @@ O_OboeVoiceI_a = {
             #16                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
             Ob.                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         }                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \once \override Hairpin.circled-tip = ##t            %! PCW1
+    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -615,7 +615,7 @@ O_OboeVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeRed                                             %! SM12
     a'2.
-    \<                                                   %! PCW1
+    \<                                                   %! PWC1
     ^ \markup {
         \column
             {
@@ -660,13 +660,13 @@ O_OboeVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [O OboeVoiceI measure 97]                          %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PCW1
+    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeRed                                             %! SM12
     a'1
     \repeatTie
-    \f                                                   %! PCW1
-    \>                                                   %! PCW1
+    \f                                                   %! PWC1
+    \>                                                   %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -687,7 +687,7 @@ O_OboeVoiceI_a = {
     % [O OboeVoiceI measure 100]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 3/4
-    \!                                                   %! PCW1
+    \!                                                   %! PWC1
     
     % [O OboeVoiceI measure 101]                         %! SM4
     R1 * 3/4
@@ -742,7 +742,7 @@ O_EnglishHornVoiceI_a = {
             #16                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
             "Eng. hn."                                   %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         }                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \once \override Hairpin.circled-tip = ##t            %! PCW1
+    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -751,7 +751,7 @@ O_EnglishHornVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeRed                                             %! SM12
     d'2.
-    \<                                                   %! PCW1
+    \<                                                   %! PWC1
     ^ \markup {
         \column
             {
@@ -796,13 +796,13 @@ O_EnglishHornVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [O EnglishHornVoiceI measure 97]                   %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PCW1
+    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeRed                                             %! SM12
     d'1
     \repeatTie
-    \f                                                   %! PCW1
-    \>                                                   %! PCW1
+    \f                                                   %! PWC1
+    \>                                                   %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -823,7 +823,7 @@ O_EnglishHornVoiceI_a = {
     % [O EnglishHornVoiceI measure 100]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 3/4
-    \!                                                   %! PCW1
+    \!                                                   %! PWC1
     
     % [O EnglishHornVoiceI measure 101]                  %! SM4
     R1 * 3/4
@@ -866,7 +866,7 @@ O_EnglishHornStaffI = {
 O_BassoonVoiceI_a = {
     
     % [O BassoonVoiceI measure 95]                           %! SM4
-%%% \once \override Hairpin.circled-tip = ##t                %! PCW1:+PARTS
+%%% \once \override Hairpin.circled-tip = ##t                %! PWC1:+PARTS
     \clef "bass"                                             %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
 %@% \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
@@ -875,7 +875,7 @@ O_BassoonVoiceI_a = {
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3:+PARTS
     \makeRed                                                 %! SM12
     b2.
-%%% \<                                                       %! PCW1:+PARTS
+%%% \<                                                       %! PWC1:+PARTS
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
@@ -888,13 +888,13 @@ O_BassoonVoiceI_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [O BassoonVoiceI measure 97]                           %! SM4
-%%% \once \override Hairpin.circled-tip = ##t                %! PCW1:+PARTS
+%%% \once \override Hairpin.circled-tip = ##t                %! PWC1:+PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3:+PARTS
     \makeRed                                                 %! SM12
     b1
     \repeatTie
-%%% \f                                                       %! PCW1:+PARTS
-%%% \>                                                       %! PCW1:+PARTS
+%%% \f                                                       %! PWC1:+PARTS
+%%% \>                                                       %! PWC1:+PARTS
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     
@@ -915,7 +915,7 @@ O_BassoonVoiceI_a = {
     % [O BassoonVoiceI measure 100]                          %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3:+PARTS
     R1 * 3/4
-%%% \!                                                       %! PCW1:+PARTS
+%%% \!                                                       %! PWC1:+PARTS
     
     % [O BassoonVoiceI measure 101]                          %! SM4
     R1 * 3/4
@@ -964,13 +964,13 @@ O_BassoonVoiceII_a = {
             #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
             Bsn.                                             %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \once \override Hairpin.circled-tip = ##t                %! PCW1
+    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                                %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeRed                                                 %! SM12
     g,2.
-    \<                                                       %! PCW1
+    \<                                                       %! PWC1
     ^ \markup {
         \column
             {
@@ -1014,13 +1014,13 @@ O_BassoonVoiceII_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [O BassoonVoiceII measure 97]                          %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! PCW1
+    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeRed                                                 %! SM12
     g,1
     \repeatTie
-    \f                                                       %! PCW1
-    \>                                                       %! PCW1
+    \f                                                       %! PWC1
+    \>                                                       %! PWC1
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     
@@ -1041,7 +1041,7 @@ O_BassoonVoiceII_a = {
     % [O BassoonVoiceII measure 100]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 3/4
-    \!                                                       %! PCW1
+    \!                                                       %! PWC1
     
     % [O BassoonVoiceII measure 101]                         %! SM4
     R1 * 3/4
@@ -1205,10 +1205,10 @@ O_FirstViolinVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceI measure 97]                   %! SM4
-    \once \override TextSpanner.Y-extent = ##f           %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25       %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f           %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -1218,13 +1218,13 @@ O_FirstViolinVoiceI_a = {
                 \hspace
                     #0.5
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -1234,9 +1234,9 @@ O_FirstViolinVoiceI_a = {
                     \upright
                         tasto
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
-    \once \override TextSpanner.dash-period = 1.5        %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
+    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                             %! SM12
     a''1
@@ -1245,7 +1245,7 @@ O_FirstViolinVoiceI_a = {
     \repeatTie
     \>                                                   %! HC1
     \ff                                                  %! HC1
-    \startTextSpan                                       %! PCW1
+    \startTextSpan                                       %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -1293,7 +1293,7 @@ O_FirstViolinVoiceI_a = {
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
-    \stopTextSpan                                        %! PCW1
+    \stopTextSpan                                        %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -1380,10 +1380,10 @@ O_FirstViolinVoiceII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceII measure 97]                  %! SM4
-    \once \override TextSpanner.Y-extent = ##f           %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25       %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f           %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -1393,13 +1393,13 @@ O_FirstViolinVoiceII_a = {
                 \hspace
                     #0.5
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -1409,9 +1409,9 @@ O_FirstViolinVoiceII_a = {
                     \upright
                         tasto
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
-    \once \override TextSpanner.dash-period = 1.5        %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
+    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                             %! SM12
     f''1
@@ -1420,7 +1420,7 @@ O_FirstViolinVoiceII_a = {
     \repeatTie
     \>                                                   %! HC1
     \ff                                                  %! HC1
-    \startTextSpan                                       %! PCW1
+    \startTextSpan                                       %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -1468,7 +1468,7 @@ O_FirstViolinVoiceII_a = {
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
-    \stopTextSpan                                        %! PCW1
+    \stopTextSpan                                        %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -1632,10 +1632,10 @@ O_FirstViolinVoiceIII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIII measure 97]                 %! SM4
-    \once \override TextSpanner.Y-extent = ##f           %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25       %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f           %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -1645,13 +1645,13 @@ O_FirstViolinVoiceIII_a = {
                 \hspace
                     #0.5
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -1661,9 +1661,9 @@ O_FirstViolinVoiceIII_a = {
                     \upright
                         tasto
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
-    \once \override TextSpanner.dash-period = 1.5        %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
+    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                             %! SM12
     g''1
@@ -1672,7 +1672,7 @@ O_FirstViolinVoiceIII_a = {
     \repeatTie
     \>                                                   %! HC1
     \ff                                                  %! HC1
-    \startTextSpan                                       %! PCW1
+    \startTextSpan                                       %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -1720,7 +1720,7 @@ O_FirstViolinVoiceIII_a = {
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
-    \stopTextSpan                                        %! PCW1
+    \stopTextSpan                                        %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -1807,10 +1807,10 @@ O_FirstViolinVoiceIV_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [O FirstViolinVoiceIV measure 97]                  %! SM4
-    \once \override TextSpanner.Y-extent = ##f           %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25       %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f           %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -1820,13 +1820,13 @@ O_FirstViolinVoiceIV_a = {
                 \hspace
                     #0.5
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -1836,9 +1836,9 @@ O_FirstViolinVoiceIV_a = {
                     \upright
                         tasto
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
-    \once \override TextSpanner.dash-period = 1.5        %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
+    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                             %! SM12
     d''1
@@ -1847,7 +1847,7 @@ O_FirstViolinVoiceIV_a = {
     \repeatTie
     \>                                                   %! HC1
     \ff                                                  %! HC1
-    \startTextSpan                                       %! PCW1
+    \startTextSpan                                       %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -1895,7 +1895,7 @@ O_FirstViolinVoiceIV_a = {
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
-    \stopTextSpan                                        %! PCW1
+    \stopTextSpan                                        %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -2256,10 +2256,10 @@ O_SecondViolinVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceI measure 97]                  %! SM4
-    \once \override TextSpanner.Y-extent = ##f           %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25       %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f           %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -2269,13 +2269,13 @@ O_SecondViolinVoiceI_a = {
                 \hspace
                     #0.5
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -2285,9 +2285,9 @@ O_SecondViolinVoiceI_a = {
                     \upright
                         tasto
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
-    \once \override TextSpanner.dash-period = 1.5        %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
+    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                             %! SM12
     b'1
@@ -2296,7 +2296,7 @@ O_SecondViolinVoiceI_a = {
     \repeatTie
     \>                                                   %! HC1
     \ff                                                  %! HC1
-    \startTextSpan                                       %! PCW1
+    \startTextSpan                                       %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -2344,7 +2344,7 @@ O_SecondViolinVoiceI_a = {
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
-    \stopTextSpan                                        %! PCW1
+    \stopTextSpan                                        %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -2432,10 +2432,10 @@ O_SecondViolinVoiceII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceII measure 97]                 %! SM4
-    \once \override TextSpanner.Y-extent = ##f           %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25       %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f           %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -2445,13 +2445,13 @@ O_SecondViolinVoiceII_a = {
                 \hspace
                     #0.5
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -2461,9 +2461,9 @@ O_SecondViolinVoiceII_a = {
                     \upright
                         tasto
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
-    \once \override TextSpanner.dash-period = 1.5        %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
+    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                             %! SM12
     g'1
@@ -2472,7 +2472,7 @@ O_SecondViolinVoiceII_a = {
     \repeatTie
     \>                                                   %! HC1
     \ff                                                  %! HC1
-    \startTextSpan                                       %! PCW1
+    \startTextSpan                                       %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -2520,7 +2520,7 @@ O_SecondViolinVoiceII_a = {
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
-    \stopTextSpan                                        %! PCW1
+    \stopTextSpan                                        %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -2684,10 +2684,10 @@ O_SecondViolinVoiceIII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIII measure 97]                %! SM4
-    \once \override TextSpanner.Y-extent = ##f           %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25       %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f           %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -2697,13 +2697,13 @@ O_SecondViolinVoiceIII_a = {
                 \hspace
                     #0.5
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -2713,9 +2713,9 @@ O_SecondViolinVoiceIII_a = {
                     \upright
                         tasto
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
-    \once \override TextSpanner.dash-period = 1.5        %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
+    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                             %! SM12
     a'1
@@ -2724,7 +2724,7 @@ O_SecondViolinVoiceIII_a = {
     \repeatTie
     \>                                                   %! HC1
     \ff                                                  %! HC1
-    \startTextSpan                                       %! PCW1
+    \startTextSpan                                       %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -2772,7 +2772,7 @@ O_SecondViolinVoiceIII_a = {
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
-    \stopTextSpan                                        %! PCW1
+    \stopTextSpan                                        %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -2859,10 +2859,10 @@ O_SecondViolinVoiceIV_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [O SecondViolinVoiceIV measure 97]                 %! SM4
-    \once \override TextSpanner.Y-extent = ##f           %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25       %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f           %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -2872,13 +2872,13 @@ O_SecondViolinVoiceIV_a = {
                 \hspace
                     #0.5
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -2888,9 +2888,9 @@ O_SecondViolinVoiceIV_a = {
                     \upright
                         tasto
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
-    \once \override TextSpanner.dash-period = 1.5        %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
+    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                             %! SM12
     f'1
@@ -2899,7 +2899,7 @@ O_SecondViolinVoiceIV_a = {
     \repeatTie
     \>                                                   %! HC1
     \ff                                                  %! HC1
-    \startTextSpan                                       %! PCW1
+    \startTextSpan                                       %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -2947,7 +2947,7 @@ O_SecondViolinVoiceIV_a = {
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
-    \stopTextSpan                                        %! PCW1
+    \stopTextSpan                                        %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -3111,10 +3111,10 @@ O_ViolaVoiceI_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceI measure 97]                         %! SM4
-    \once \override TextSpanner.Y-extent = ##f           %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25       %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f           %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -3124,13 +3124,13 @@ O_ViolaVoiceI_a = {
                 \hspace
                     #0.5
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -3140,9 +3140,9 @@ O_ViolaVoiceI_a = {
                     \upright
                         tasto
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
-    \once \override TextSpanner.dash-period = 1.5        %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
+    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                             %! SM12
     d'1
@@ -3151,7 +3151,7 @@ O_ViolaVoiceI_a = {
     \repeatTie
     \>                                                   %! HC1
     \ff                                                  %! HC1
-    \startTextSpan                                       %! PCW1
+    \startTextSpan                                       %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -3199,7 +3199,7 @@ O_ViolaVoiceI_a = {
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
-    \stopTextSpan                                        %! PCW1
+    \stopTextSpan                                        %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -3286,10 +3286,10 @@ O_ViolaVoiceII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceII measure 97]                        %! SM4
-    \once \override TextSpanner.Y-extent = ##f           %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25       %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f           %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -3299,13 +3299,13 @@ O_ViolaVoiceII_a = {
                 \hspace
                     #0.5
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -3315,9 +3315,9 @@ O_ViolaVoiceII_a = {
                     \upright
                         tasto
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
-    \once \override TextSpanner.dash-period = 1.5        %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
+    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                             %! SM12
     a1
@@ -3326,7 +3326,7 @@ O_ViolaVoiceII_a = {
     \repeatTie
     \>                                                   %! HC1
     \ff                                                  %! HC1
-    \startTextSpan                                       %! PCW1
+    \startTextSpan                                       %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -3374,7 +3374,7 @@ O_ViolaVoiceII_a = {
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
-    \stopTextSpan                                        %! PCW1
+    \stopTextSpan                                        %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -3538,10 +3538,10 @@ O_ViolaVoiceIII_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIII measure 97]                       %! SM4
-    \once \override TextSpanner.Y-extent = ##f           %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25       %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f           %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -3551,13 +3551,13 @@ O_ViolaVoiceIII_a = {
                 \hspace
                     #0.5
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -3567,9 +3567,9 @@ O_ViolaVoiceIII_a = {
                     \upright
                         tasto
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
-    \once \override TextSpanner.dash-period = 1.5        %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
+    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                             %! SM12
     b1
@@ -3578,7 +3578,7 @@ O_ViolaVoiceIII_a = {
     \repeatTie
     \>                                                   %! HC1
     \ff                                                  %! HC1
-    \startTextSpan                                       %! PCW1
+    \startTextSpan                                       %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -3626,7 +3626,7 @@ O_ViolaVoiceIII_a = {
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
-    \stopTextSpan                                        %! PCW1
+    \stopTextSpan                                        %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -3713,10 +3713,10 @@ O_ViolaVoiceIV_a = {
     ^ \markup { OCTAVE }                                 %! SM12
     
     % [O ViolaVoiceIV measure 97]                        %! SM4
-    \once \override TextSpanner.Y-extent = ##f           %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25       %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f           %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -3726,13 +3726,13 @@ O_ViolaVoiceIV_a = {
                 \hspace
                     #0.5
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -3742,9 +3742,9 @@ O_ViolaVoiceIV_a = {
                     \upright
                         tasto
             }
-        }                                                %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PCW1
-    \once \override TextSpanner.dash-period = 1.5        %! PCW1
+        }                                                %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
+    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                             %! SM12
     g1
@@ -3753,7 +3753,7 @@ O_ViolaVoiceIV_a = {
     \repeatTie
     \>                                                   %! HC1
     \ff                                                  %! HC1
-    \startTextSpan                                       %! PCW1
+    \startTextSpan                                       %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -3801,7 +3801,7 @@ O_ViolaVoiceIV_a = {
     -\accent                                             %! IC
     \repeatTie
     \pp                                                  %! HC1
-    \stopTextSpan                                        %! PCW1
+    \stopTextSpan                                        %! PWC1
     - \tweak color #red                                  %! SM12
     ^ \markup { OCTAVE }                                 %! SM12
     
@@ -3966,10 +3966,10 @@ O_CelloVoiceI_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceI measure 97]                             %! SM4
-    \once \override TextSpanner.Y-extent = ##f               %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25           %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f               %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -3979,13 +3979,13 @@ O_CelloVoiceI_a = {
                 \hspace
                     #0.5
             }
-        }                                                    %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                    %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -3995,9 +3995,9 @@ O_CelloVoiceI_a = {
                     \upright
                         tasto
             }
-        }                                                    %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
-    \once \override TextSpanner.dash-period = 1.5            %! PCW1
+        }                                                    %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+    \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                 %! SM12
     d1
@@ -4006,7 +4006,7 @@ O_CelloVoiceI_a = {
     \repeatTie
     \>                                                       %! HC1
     \ff                                                      %! HC1
-    \startTextSpan                                           %! PCW1
+    \startTextSpan                                           %! PWC1
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     
@@ -4054,7 +4054,7 @@ O_CelloVoiceI_a = {
     -\accent                                                 %! IC
     \repeatTie
     \pp                                                      %! HC1
-    \stopTextSpan                                            %! PCW1
+    \stopTextSpan                                            %! PWC1
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     
@@ -4142,10 +4142,10 @@ O_CelloVoiceII_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [O CelloVoiceII measure 97]                            %! SM4
-    \once \override TextSpanner.Y-extent = ##f               %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25           %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f               %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -4155,13 +4155,13 @@ O_CelloVoiceII_a = {
                 \hspace
                     #0.5
             }
-        }                                                    %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                    %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -4171,9 +4171,9 @@ O_CelloVoiceII_a = {
                     \upright
                         tasto
             }
-        }                                                    %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
-    \once \override TextSpanner.dash-period = 1.5            %! PCW1
+        }                                                    %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+    \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                 %! SM12
     g,1
@@ -4182,7 +4182,7 @@ O_CelloVoiceII_a = {
     \repeatTie
     \>                                                       %! HC1
     \ff                                                      %! HC1
-    \startTextSpan                                           %! PCW1
+    \startTextSpan                                           %! PWC1
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     
@@ -4230,7 +4230,7 @@ O_CelloVoiceII_a = {
     -\accent                                                 %! IC
     \repeatTie
     \pp                                                      %! HC1
-    \stopTextSpan                                            %! PCW1
+    \stopTextSpan                                            %! PWC1
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     
@@ -4369,10 +4369,10 @@ O_ContrabassVoiceIII_a = {
     ^ \markup { OCTAVE }                                     %! SM12
     
     % [O ContrabassVoiceIII measure 97]                      %! SM4
-    \once \override TextSpanner.Y-extent = ##f               %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25           %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f               %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -4382,13 +4382,13 @@ O_ContrabassVoiceIII_a = {
                 \hspace
                     #0.5
             }
-        }                                                    %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                    %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -4398,9 +4398,9 @@ O_ContrabassVoiceIII_a = {
                     \upright
                         tasto
             }
-        }                                                    %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
-    \once \override TextSpanner.dash-period = 1.5            %! PCW1
+        }                                                    %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+    \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                 %! SM12
     g,1
@@ -4409,7 +4409,7 @@ O_ContrabassVoiceIII_a = {
     \repeatTie
     \>                                                       %! HC1
     \ff                                                      %! HC1
-    \startTextSpan                                           %! PCW1
+    \startTextSpan                                           %! PWC1
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     
@@ -4457,7 +4457,7 @@ O_ContrabassVoiceIII_a = {
     -\accent                                                 %! IC
     \repeatTie
     \pp                                                      %! HC1
-    \stopTextSpan                                            %! PCW1
+    \stopTextSpan                                            %! PWC1
     - \tweak color #red                                      %! SM12
     ^ \markup { OCTAVE }                                     %! SM12
     
