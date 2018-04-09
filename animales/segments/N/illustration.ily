@@ -397,157 +397,82 @@ N_FluteVoiceI_a = {
     \times 2/3 {
         
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2:+PARTS
-        \makeRed                                         %! SM12
         g''8
     %%% \<                                               %! HC1:+PARTS
     %%% \mf                                              %! HC1:+PARTS
         [
         (                                                %! SC
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         af''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         g''8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     % [N FluteVoiceI measure 89]                         %! SM4
-    \makeRed                                             %! SM12
     fs''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     f''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     fs''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     bf''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [N FluteVoiceI measure 90]                         %! SM4
-    \makeRed                                             %! SM12
     af''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     bf''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         b''8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         bf''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         c'''8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         cs'''8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         b''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         c'''8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
-    \makeRed                                             %! SM12
     cs'''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     d'''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     cs'''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3:+PARTS
-    \makeRed                                             %! SM12
     c'''16
 %%% \ff                                                  %! HC1:+PARTS
     ]
     )                                                    %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [N FluteVoiceI measure 91]                         %! SM4
     R1 * 1
@@ -591,176 +516,92 @@ N_FluteVoiceIII_a = {
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     f''16
     \<                                                   %! HC1
     \mf                                                  %! HC1
     [
     (                                                    %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     fs''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     f''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     e''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         ef''8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         f''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         e''8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     \times 2/3 {
         
         % [N FluteVoiceIII measure 89]                   %! SM4
-        \makeRed                                         %! SM12
         f''8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         fs''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         af''8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
-    \makeRed                                             %! SM12
     g''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     fs''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     f''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [N FluteVoiceIII measure 90]                       %! SM4
-    \makeRed                                             %! SM12
     af''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     bf''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     b''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     bf''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     b''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         c'''8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         b''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         bf''8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         a''8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         b''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \makeRed                                         %! SM12
         bf''8
         \ff                                              %! HC1
         ]
         )                                                %! SC
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     % [N FluteVoiceIII measure 91]                       %! SM4
@@ -861,194 +702,101 @@ N_FluteVoiceII_a = {
     \times 2/3 {
         
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2:+PARTS
-        \makeRed                                         %! SM12
         ef''8
     %%% \<                                               %! HC1:+PARTS
     %%% \mf                                              %! HC1:+PARTS
         [
         (                                                %! SC
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         e''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         ef''8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         d''8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         cs''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         ef''8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
-    \makeRed                                             %! SM12
     d''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     ef''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     e''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     fs''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [N FluteVoiceII measure 89]                        %! SM4
-    \makeRed                                             %! SM12
     f''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     e''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     ef''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     f''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         fs''8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         g''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         fs''8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     \times 2/3 {
         
         % [N FluteVoiceII measure 90]                    %! SM4
-        \makeRed                                         %! SM12
         af''8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         a''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         g''8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
-    \makeRed                                             %! SM12
     af''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     bf''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         a''8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         bf''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3:+PARTS
-        \makeRed                                         %! SM12
         c'''8
     %%% \ff                                              %! HC1:+PARTS
         ]
         )                                                %! SC
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     % [N FluteVoiceII measure 91]                        %! SM4
@@ -1084,234 +832,118 @@ N_FluteVoiceIV_a = {
     % [N FluteVoiceIV measure 88]                        %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     d''16
     \<                                                   %! HC1
     \mf                                                  %! HC1
     [
     (                                                    %! SC
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Flute”)                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Flute”)                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    \makeRed                                             %! SM12
     ef''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     d''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     cs''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     c''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     d''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     cs''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     d''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         ef''8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         f''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         e''8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         ef''8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         d''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         e''8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     % [N FluteVoiceIV measure 89]                        %! SM4
-    \makeRed                                             %! SM12
     f''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     fs''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     f''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     fs''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \times 2/3 {
         
         % [N FluteVoiceIV measure 90]                    %! SM4
-        \makeRed                                         %! SM12
         a''8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         af''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         g''8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     \times 2/3 {
         
-        \makeRed                                         %! SM12
         fs''8
         [
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         af''8
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
-        \makeRed                                         %! SM12
         g''8
         ]
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
-    \makeRed                                             %! SM12
     af''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     b''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     bf''16
     ]
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a''16
     [
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     af''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     bf''16
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     b''16
     \ff                                                  %! HC1
     ]
     )                                                    %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [N FluteVoiceIV measure 91]                        %! SM4
     R1 * 1
@@ -1371,7 +1003,6 @@ N_BassClarinetVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     bf1
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \>                                                       %! HC1
@@ -1391,10 +1022,6 @@ N_BassClarinetVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“B. cl.”]"                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1420,34 +1047,22 @@ N_BassClarinetVoiceI_a = {
     % [N BassClarinetVoiceI measure 90]                      %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     bf1
     \<                                                       %! HC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [N BassClarinetVoiceI measure 91]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                                 %! SM12
     bf1
     \repeatTie
     \p                                                       %! HC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [N BassClarinetVoiceI measure 92]                      %! SM4
-    \makeRed                                                 %! SM12
     bf1
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [N BassClarinetVoiceI measure 93]                      %! SM4
-    \makeRed                                                 %! SM12
     bf1
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [N BassClarinetVoiceI measure 94]                      %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -1533,12 +1148,9 @@ N_PianoVoiceI_a = {
         r8
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeRed                                             %! SM12
         bf'8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         r8
     }
@@ -1558,12 +1170,9 @@ N_PianoVoiceI_a = {
         r8
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeRed                                             %! SM12
         bf'8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         r8
     }
@@ -1663,12 +1272,9 @@ N_HarpVoiceI_a = {
     r2.
     \times 2/3 {
         
-        \makeRed                                             %! SM12
         bf'8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         r4
     }
@@ -1683,12 +1289,9 @@ N_HarpVoiceI_a = {
     r2.
     \times 2/3 {
         
-        \makeRed                                             %! SM12
         bf'8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         r4
     }
@@ -2048,11 +1651,8 @@ N_PercussionVoiceIII_a = {
     r2
     \times 2/3 {
         
-        \makeRed                                             %! SM12
         bf'8
         -\laissezVibrer                                      %! IC
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         r4
     }
@@ -2064,11 +1664,8 @@ N_PercussionVoiceIII_a = {
     \times 2/3 {
         
         % [N PercussionVoiceIII measure 92]                  %! SM4
-        \makeRed                                             %! SM12
         bf'8
         -\laissezVibrer                                      %! IC
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         r4
     }
@@ -2213,7 +1810,6 @@ N_FirstViolinVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \voiceTwo                                                %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     \pitchedTrill                                            %! SC
     g1
     \<                                                       %! HC1
@@ -2233,10 +1829,6 @@ N_FirstViolinVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vni. I”]"                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
     \startTrillSpan af                                       %! SC
@@ -2256,20 +1848,14 @@ N_FirstViolinVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [N FirstViolinVoiceI measure 89]                       %! SM4
-    \makeRed                                                 %! SM12
     g2
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [N FirstViolinVoiceI measure 90]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                                 %! SM12
     g1
     \repeatTie
     \ff                                                      %! HC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [N FirstViolinVoiceI measure 91]                       %! SM4
     R1 * 1
@@ -2341,7 +1927,6 @@ N_SecondViolinVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     \pitchedTrill                                            %! SC
     g1
     \<                                                       %! HC1
@@ -2361,10 +1946,6 @@ N_SecondViolinVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vni. II”]"                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
     \startTrillSpan af                                       %! SC
@@ -2384,20 +1965,14 @@ N_SecondViolinVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [N SecondViolinVoiceI measure 89]                      %! SM4
-    \makeRed                                                 %! SM12
     g2
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [N SecondViolinVoiceI measure 90]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                                 %! SM12
     g1
     \repeatTie
     \ff                                                      %! HC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [N SecondViolinVoiceI measure 91]                      %! SM4
     R1 * 1
@@ -2467,7 +2042,6 @@ N_ViolaVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     \pitchedTrill                                            %! SC
     g1
     \<                                                       %! HC1
@@ -2487,10 +2061,6 @@ N_ViolaVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Vle.”]                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
     \startTrillSpan af                                       %! SC
@@ -2510,20 +2080,14 @@ N_ViolaVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [N ViolaVoiceI measure 89]                             %! SM4
-    \makeRed                                                 %! SM12
     g2
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [N ViolaVoiceI measure 90]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                                 %! SM12
     g1
     \repeatTie
     \ff                                                      %! HC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [N ViolaVoiceI measure 91]                             %! SM4
     R1 * 1
@@ -2593,7 +2157,6 @@ N_CelloVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     \pitchedTrill                                            %! SC
     g1
     \<                                                       %! HC1
@@ -2613,10 +2176,6 @@ N_CelloVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Vc.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
     \startTrillSpan af                                       %! SC
@@ -2636,20 +2195,14 @@ N_CelloVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [N CelloVoiceI measure 89]                             %! SM4
-    \makeRed                                                 %! SM12
     g2
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [N CelloVoiceI measure 90]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                                 %! SM12
     g1
     \repeatTie
     \ff                                                      %! HC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [N CelloVoiceI measure 91]                             %! SM4
     R1 * 1
@@ -2779,11 +2332,8 @@ N_ContrabassVoiceI_a = {
         r8
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeRed                                         %! SM12
         bf'8
         -\laissezVibrer                                  %! IC
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
         
         r8
     }
@@ -2797,11 +2347,8 @@ N_ContrabassVoiceI_a = {
         % [N ContrabassVoiceI measure 92]                %! SM4
         r4
         
-        \makeRed                                         %! SM12
         bf'8
         -\laissezVibrer                                  %! IC
-        - \tweak color #red                              %! SM12
-        ^ \markup { OCTAVE }                             %! SM12
     }
     
     r2.
@@ -2863,7 +2410,6 @@ N_ContrabassVoiceIII_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     g,1
     \<                                                   %! HC1
     \p                                                   %! HC1
@@ -2882,10 +2428,6 @@ N_ContrabassVoiceIII_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Cb. (2-6)”]"              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -2912,20 +2454,14 @@ N_ContrabassVoiceIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [N ContrabassVoiceIII measure 89]                  %! SM4
-    \makeRed                                             %! SM12
     g,2
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [N ContrabassVoiceIII measure 90]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                             %! SM12
     g,1
     \repeatTie
     \ff                                                  %! HC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [N ContrabassVoiceIII measure 91]                  %! SM4
     R1 * 1

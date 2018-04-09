@@ -560,24 +560,13 @@ Q_HornVoiceI_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
-    \makeRed                                             %! SM12
     d'8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Hn. (1+3)”]"              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Hn. (1+3)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -667,24 +656,13 @@ Q_HornVoiceIII_a = {
     % [Q HornVoiceIII measure 119]                       %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     ef'8
     \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Horn”)                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     r8
     
@@ -786,24 +764,13 @@ Q_HornVoiceII_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
-    \makeRed                                             %! SM12
     d'8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Hn. (2+4)”]"              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Hn. (2+4)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -893,24 +860,13 @@ Q_HornVoiceIV_a = {
     % [Q HornVoiceIV measure 119]                        %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     ef'8
     \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Horn”)                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     r8
     
@@ -1012,24 +968,13 @@ Q_TrumpetVoiceI_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
-    \makeRed                                             %! SM12
     af'8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Tp. (1+3)”]"              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Tp. (1+3)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1119,24 +1064,13 @@ Q_TrumpetVoiceIII_a = {
     % [Q TrumpetVoiceIII measure 119]                    %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     f'8
     \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Trumpet”)                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     r8
     
@@ -1238,24 +1172,13 @@ Q_TrumpetVoiceII_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
-    \makeRed                                             %! SM12
     af'8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Tp. (2+4)”]"              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Tp. (2+4)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1345,24 +1268,13 @@ Q_TrumpetVoiceIV_a = {
     % [Q TrumpetVoiceIV measure 119]                     %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     f'8
     \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Trumpet”)                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     r8
     
@@ -1464,24 +1376,13 @@ Q_TromboneVoiceI_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
-    \makeRed                                             %! SM12
     af8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Trb. (1+3)”]"             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Trb. (1+3)”]"                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1571,24 +1472,13 @@ Q_TromboneVoiceIII_a = {
     % [Q TromboneVoiceIII measure 119]                   %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     f8
     \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Trombone”)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Trombone”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     r8
     
@@ -1690,24 +1580,13 @@ Q_TromboneVoiceII_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
-    \makeRed                                             %! SM12
     gf8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Trb. (2+4)”]"             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Trb. (2+4)”]"                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1797,24 +1676,13 @@ Q_TromboneVoiceIV_a = {
     % [Q TromboneVoiceIV measure 119]                    %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                             %! SM12
     f8
     \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Trombone”)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Trombone”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
     r8
     
@@ -2004,21 +1872,15 @@ Q_FirstViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceI measure 123]                  %! SM4
-    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceI measure 124]                  %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -2055,7 +1917,6 @@ Q_FirstViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     \repeatTie
@@ -2063,8 +1924,6 @@ Q_FirstViolinVoiceI_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceI measure 125]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -2108,21 +1967,15 @@ Q_FirstViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     a''2.
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceI measure 128]                  %! SM4
-    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceI measure 129]                  %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -2159,7 +2012,6 @@ Q_FirstViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     a''1
     :32                                                  %! IC
     \repeatTie
@@ -2167,8 +2019,6 @@ Q_FirstViolinVoiceI_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceI measure 130]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -2236,21 +2086,15 @@ Q_FirstViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceII measure 123]                 %! SM4
-    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceII measure 124]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -2287,7 +2131,6 @@ Q_FirstViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     \repeatTie
@@ -2295,8 +2138,6 @@ Q_FirstViolinVoiceII_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceII measure 125]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -2340,21 +2181,15 @@ Q_FirstViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     f''2.
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceII measure 128]                 %! SM4
-    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceII measure 129]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -2391,7 +2226,6 @@ Q_FirstViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     f''1
     :32                                                  %! IC
     \repeatTie
@@ -2399,8 +2233,6 @@ Q_FirstViolinVoiceII_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceII measure 130]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -2544,21 +2376,15 @@ Q_FirstViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIII measure 123]                %! SM4
-    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIII measure 124]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -2595,7 +2421,6 @@ Q_FirstViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     \repeatTie
@@ -2603,8 +2428,6 @@ Q_FirstViolinVoiceIII_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIII measure 125]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -2648,21 +2471,15 @@ Q_FirstViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     g''2.
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIII measure 128]                %! SM4
-    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIII measure 129]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -2699,7 +2516,6 @@ Q_FirstViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     g''1
     :32                                                  %! IC
     \repeatTie
@@ -2707,8 +2523,6 @@ Q_FirstViolinVoiceIII_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIII measure 130]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -2776,21 +2590,15 @@ Q_FirstViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIV measure 123]                 %! SM4
-    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIV measure 124]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -2827,7 +2635,6 @@ Q_FirstViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     \repeatTie
@@ -2835,8 +2642,6 @@ Q_FirstViolinVoiceIV_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIV measure 125]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -2880,21 +2685,15 @@ Q_FirstViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     d''2.
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIV measure 128]                 %! SM4
-    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIV measure 129]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -2931,7 +2730,6 @@ Q_FirstViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     d''1
     :32                                                  %! IC
     \repeatTie
@@ -2939,8 +2737,6 @@ Q_FirstViolinVoiceIV_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceIV measure 130]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -2994,7 +2790,6 @@ Q_FirstViolinVoiceV_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeRed                                             %! SM12
     cs'2.
     :32                                                  %! IC
     \f                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
@@ -3014,10 +2809,6 @@ Q_FirstViolinVoiceV_a = {
                             #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vni. I 18”]"              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -3060,27 +2851,18 @@ Q_FirstViolinVoiceV_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q FirstViolinVoiceV measure 122]                  %! SM4
-    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceV measure 123]                  %! SM4
-    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceV measure 124]                  %! SM4
-    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceV measure 125]                  %! SM4
     cs'2.
@@ -3099,27 +2881,18 @@ Q_FirstViolinVoiceV_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q FirstViolinVoiceV measure 127]                  %! SM4
-    \makeRed                                             %! SM12
     cs'2.
     :32                                                  %! IC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceV measure 128]                  %! SM4
-    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceV measure 129]                  %! SM4
-    \makeRed                                             %! SM12
     cs'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q FirstViolinVoiceV measure 130]                  %! SM4
     cs'2
@@ -3260,21 +3033,15 @@ Q_SecondViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceI measure 123]                 %! SM4
-    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceI measure 124]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -3311,7 +3078,6 @@ Q_SecondViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     \repeatTie
@@ -3319,8 +3085,6 @@ Q_SecondViolinVoiceI_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceI measure 125]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -3364,21 +3128,15 @@ Q_SecondViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     b'2.
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceI measure 128]                 %! SM4
-    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceI measure 129]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -3415,7 +3173,6 @@ Q_SecondViolinVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     b'1
     :32                                                  %! IC
     \repeatTie
@@ -3423,8 +3180,6 @@ Q_SecondViolinVoiceI_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     \revert RepeatTie.direction                          %! OC2
     
     % [Q SecondViolinVoiceI measure 130]                 %! SM4
@@ -3493,21 +3248,15 @@ Q_SecondViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceII measure 123]                %! SM4
-    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceII measure 124]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -3544,7 +3293,6 @@ Q_SecondViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     \repeatTie
@@ -3552,8 +3300,6 @@ Q_SecondViolinVoiceII_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceII measure 125]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -3597,21 +3343,15 @@ Q_SecondViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     g'2.
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceII measure 128]                %! SM4
-    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceII measure 129]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -3648,7 +3388,6 @@ Q_SecondViolinVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     g'1
     :32                                                  %! IC
     \repeatTie
@@ -3656,8 +3395,6 @@ Q_SecondViolinVoiceII_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceII measure 130]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -3801,21 +3538,15 @@ Q_SecondViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIII measure 123]               %! SM4
-    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIII measure 124]               %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -3852,7 +3583,6 @@ Q_SecondViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     \repeatTie
@@ -3860,8 +3590,6 @@ Q_SecondViolinVoiceIII_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIII measure 125]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -3905,21 +3633,15 @@ Q_SecondViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     a'2.
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIII measure 128]               %! SM4
-    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIII measure 129]               %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -3956,7 +3678,6 @@ Q_SecondViolinVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     a'1
     :32                                                  %! IC
     \repeatTie
@@ -3964,8 +3685,6 @@ Q_SecondViolinVoiceIII_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIII measure 130]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -4033,21 +3752,15 @@ Q_SecondViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIV measure 123]                %! SM4
-    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIV measure 124]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -4084,7 +3797,6 @@ Q_SecondViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     \repeatTie
@@ -4092,8 +3804,6 @@ Q_SecondViolinVoiceIV_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIV measure 125]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -4137,21 +3847,15 @@ Q_SecondViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     f'2.
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIV measure 128]                %! SM4
-    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIV measure 129]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -4188,7 +3892,6 @@ Q_SecondViolinVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     f'1
     :32                                                  %! IC
     \repeatTie
@@ -4196,8 +3899,6 @@ Q_SecondViolinVoiceIV_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q SecondViolinVoiceIV measure 130]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -4341,21 +4042,15 @@ Q_ViolaVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceI measure 123]                        %! SM4
-    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceI measure 124]                        %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -4392,7 +4087,6 @@ Q_ViolaVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     \repeatTie
@@ -4400,8 +4094,6 @@ Q_ViolaVoiceI_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceI measure 125]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -4445,21 +4137,15 @@ Q_ViolaVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     d'2.
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceI measure 128]                        %! SM4
-    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceI measure 129]                        %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -4496,7 +4182,6 @@ Q_ViolaVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     d'1
     :32                                                  %! IC
     \repeatTie
@@ -4504,8 +4189,6 @@ Q_ViolaVoiceI_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceI measure 130]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -4573,21 +4256,15 @@ Q_ViolaVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceII measure 123]                       %! SM4
-    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceII measure 124]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -4624,7 +4301,6 @@ Q_ViolaVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     \repeatTie
@@ -4632,8 +4308,6 @@ Q_ViolaVoiceII_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceII measure 125]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -4677,21 +4351,15 @@ Q_ViolaVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     a2.
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceII measure 128]                       %! SM4
-    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceII measure 129]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -4728,7 +4396,6 @@ Q_ViolaVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     a1
     :32                                                  %! IC
     \repeatTie
@@ -4736,8 +4403,6 @@ Q_ViolaVoiceII_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceII measure 130]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -4881,21 +4546,15 @@ Q_ViolaVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIII measure 123]                      %! SM4
-    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIII measure 124]                      %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -4932,7 +4591,6 @@ Q_ViolaVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     \repeatTie
@@ -4940,8 +4598,6 @@ Q_ViolaVoiceIII_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIII measure 125]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -4985,21 +4641,15 @@ Q_ViolaVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     b2.
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIII measure 128]                      %! SM4
-    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIII measure 129]                      %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -5036,7 +4686,6 @@ Q_ViolaVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     b1
     :32                                                  %! IC
     \repeatTie
@@ -5044,8 +4693,6 @@ Q_ViolaVoiceIII_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIII measure 130]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -5113,21 +4760,15 @@ Q_ViolaVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIV measure 123]                       %! SM4
-    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIV measure 124]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -5164,7 +4805,6 @@ Q_ViolaVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     \repeatTie
@@ -5172,8 +4812,6 @@ Q_ViolaVoiceIV_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIV measure 125]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -5217,21 +4855,15 @@ Q_ViolaVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     g2.
     :32                                                  %! IC
     \<                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIV measure 128]                       %! SM4
-    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     \repeatTie
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIV measure 129]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
@@ -5268,7 +4900,6 @@ Q_ViolaVoiceIV_a = {
     \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
     \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                             %! SM12
     g1
     :32                                                  %! IC
     \repeatTie
@@ -5276,8 +4907,6 @@ Q_ViolaVoiceIV_a = {
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
     \startTextSpan                                       %! PWC1
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [Q ViolaVoiceIV measure 130]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -5422,21 +5051,15 @@ Q_CelloVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     \<                                                       %! PWC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceI measure 123]                            %! SM4
-    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceI measure 124]                            %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
@@ -5473,7 +5096,6 @@ Q_CelloVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     \repeatTie
@@ -5481,8 +5103,6 @@ Q_CelloVoiceI_a = {
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceI measure 125]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -5526,21 +5146,15 @@ Q_CelloVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                                 %! SM12
     d2.
     :32                                                      %! IC
     \<                                                       %! PWC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceI measure 128]                            %! SM4
-    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceI measure 129]                            %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
@@ -5577,7 +5191,6 @@ Q_CelloVoiceI_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                                 %! SM12
     d1
     :32                                                      %! IC
     \repeatTie
@@ -5585,8 +5198,6 @@ Q_CelloVoiceI_a = {
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     \revert RepeatTie.direction                              %! OC2
     
     % [Q CelloVoiceI measure 130]                            %! SM4
@@ -5655,21 +5266,15 @@ Q_CelloVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \<                                                       %! PWC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceII measure 123]                           %! SM4
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceII measure 124]                           %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
@@ -5706,7 +5311,6 @@ Q_CelloVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
@@ -5714,8 +5318,6 @@ Q_CelloVoiceII_a = {
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceII measure 125]                           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -5759,21 +5361,15 @@ Q_CelloVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                                 %! SM12
     g,2.
     :32                                                      %! IC
     \<                                                       %! PWC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceII measure 128]                           %! SM4
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceII measure 129]                           %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
@@ -5810,7 +5406,6 @@ Q_CelloVoiceII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
@@ -5818,8 +5413,6 @@ Q_CelloVoiceII_a = {
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q CelloVoiceII measure 130]                           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -5938,21 +5531,15 @@ Q_ContrabassVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \<                                                       %! PWC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q ContrabassVoiceIII measure 123]                     %! SM4
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q ContrabassVoiceIII measure 124]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
@@ -5989,7 +5576,6 @@ Q_ContrabassVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
@@ -5997,8 +5583,6 @@ Q_ContrabassVoiceIII_a = {
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q ContrabassVoiceIII measure 125]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -6042,21 +5626,15 @@ Q_ContrabassVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                                 %! SM12
     g,2.
     :32                                                      %! IC
     \<                                                       %! PWC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q ContrabassVoiceIII measure 128]                     %! SM4
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q ContrabassVoiceIII measure 129]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
@@ -6093,7 +5671,6 @@ Q_ContrabassVoiceIII_a = {
     \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
     \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \makeRed                                                 %! SM12
     g,1
     :32                                                      %! IC
     \repeatTie
@@ -6101,8 +5678,6 @@ Q_ContrabassVoiceIII_a = {
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
     \startTextSpan                                           %! PWC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [Q ContrabassVoiceIII measure 130]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3

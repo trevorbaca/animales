@@ -306,7 +306,6 @@ E_ClarinetVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     ds''1
     \<                                                       %! HC1
     \mp                                                      %! HC1
@@ -337,10 +336,6 @@ E_ClarinetVoiceI_a = {
                             #(x11-color 'blue)               %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Cl. 3”]"                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -367,38 +362,26 @@ E_ClarinetVoiceI_a = {
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [E ClarinetVoiceI measure 31]                          %! SM4
-    \makeRed                                                 %! SM12
     ds''1
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ClarinetVoiceI measure 32]                          %! SM4
     ds''2
     \repeatTie
     
     % [E ClarinetVoiceI measure 33]                          %! SM4
-    \makeRed                                                 %! SM12
     ds''2.
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ClarinetVoiceI measure 34]                          %! SM4
-    \makeRed                                                 %! SM12
     ds''2.
     \repeatTie
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ClarinetVoiceI measure 35]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                                 %! SM12
     ds''1
     \repeatTie
     \mf                                                      %! HC1
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
 }
 
@@ -683,7 +666,6 @@ E_FirstViolinVoiceI_a = {
     \oneVoice                                            %! IC:-PARTS
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     b4
     -\trill                                              %! IC
 %@% \repeatTie                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
@@ -705,10 +687,6 @@ E_FirstViolinVoiceI_a = {
                             #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Vni. I”]"                 %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
 %%% \stopTrillSpan                                       %! IC:-SEGMENT
@@ -731,17 +709,11 @@ E_FirstViolinVoiceI_a = {
     \override Accidental.stencil = ##f                   %! SC
     \override NoteColumn.glissando-skip = ##t            %! SC
     \override NoteHead.no-ledgers = ##t                  %! SC
-    \makeRed                                             %! SM12
     c'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     d'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     e'4
     \glissando                                           %! SC
@@ -750,20 +722,14 @@ E_FirstViolinVoiceI_a = {
     f'4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
     g'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     a'4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
     b'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E FirstViolinVoiceI measure 32]                   %! SM4
     c''4
@@ -773,64 +739,43 @@ E_FirstViolinVoiceI_a = {
     \glissando                                           %! SC
     
     % [E FirstViolinVoiceI measure 33]                   %! SM4
-    \makeRed                                             %! SM12
     f''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     g''4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
     a''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E FirstViolinVoiceI measure 34]                   %! SM4
     b''4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
     c'''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     d'''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E FirstViolinVoiceI measure 35]                   %! SM4
     e'''4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
     f'''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g'''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \revert Accidental.stencil                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert Glissando.style                              %! SC
     \revert NoteColumn.glissando-skip                    %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                          %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    \makeRed                                             %! SM12
     a'''4
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
 %@% \revert Accidental.stencil                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -968,7 +913,6 @@ E_SecondViolinVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     b4
     -\trill                                              %! IC
 %@% \repeatTie                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
@@ -990,10 +934,6 @@ E_SecondViolinVoiceI_a = {
                             #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             "[“Vni. II”]"                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
 %%% \stopTrillSpan                                       %! IC:-SEGMENT
@@ -1016,17 +956,11 @@ E_SecondViolinVoiceI_a = {
     \override Accidental.stencil = ##f                   %! SC
     \override NoteColumn.glissando-skip = ##t            %! SC
     \override NoteHead.no-ledgers = ##t                  %! SC
-    \makeRed                                             %! SM12
     c'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     c'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     d'4
     \glissando                                           %! SC
@@ -1035,20 +969,14 @@ E_SecondViolinVoiceI_a = {
     e'4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
     e'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     f'4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
     g'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E SecondViolinVoiceI measure 32]                  %! SM4
     g'4
@@ -1058,64 +986,43 @@ E_SecondViolinVoiceI_a = {
     \glissando                                           %! SC
     
     % [E SecondViolinVoiceI measure 33]                  %! SM4
-    \makeRed                                             %! SM12
     b'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     c''4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
     c''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E SecondViolinVoiceI measure 34]                  %! SM4
     d''4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
     e''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     e''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E SecondViolinVoiceI measure 35]                  %! SM4
     f''4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
     g''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g''4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \revert Accidental.stencil                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert Glissando.style                              %! SC
     \revert NoteColumn.glissando-skip                    %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                          %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    \makeRed                                             %! SM12
     a''4
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
 %@% \revert Accidental.stencil                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -1253,7 +1160,6 @@ E_ViolaVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                             %! SM12
     b4
     -\trill                                              %! IC
 %@% \repeatTie                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
@@ -1275,10 +1181,6 @@ E_ViolaVoiceI_a = {
                             #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                             [“Vle.”]                     %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                \line                                    %! SM12
-                    {                                    %! SM12
-                        OCTAVE                           %! SM12
-                    }                                    %! SM12
             }
         }
 %%% \stopTrillSpan                                       %! IC:-SEGMENT
@@ -1301,17 +1203,11 @@ E_ViolaVoiceI_a = {
     \override Accidental.stencil = ##f                   %! SC
     \override NoteColumn.glissando-skip = ##t            %! SC
     \override NoteHead.no-ledgers = ##t                  %! SC
-    \makeRed                                             %! SM12
     b4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     c'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     c'4
     \glissando                                           %! SC
@@ -1320,20 +1216,14 @@ E_ViolaVoiceI_a = {
     c'4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
-    d'4
-    \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
-    
     d'4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
     d'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
+    
+    d'4
+    \glissando                                           %! SC
     
     % [E ViolaVoiceI measure 32]                         %! SM4
     e'4
@@ -1343,64 +1233,43 @@ E_ViolaVoiceI_a = {
     \glissando                                           %! SC
     
     % [E ViolaVoiceI measure 33]                         %! SM4
-    \makeRed                                             %! SM12
     e'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     e'4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
     f'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E ViolaVoiceI measure 34]                         %! SM4
     f'4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
     f'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     g'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     % [E ViolaVoiceI measure 35]                         %! SM4
     g'4
     \glissando                                           %! SC
     
-    \makeRed                                             %! SM12
     g'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
-    \makeRed                                             %! SM12
     a'4
     \glissando                                           %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
     
     \revert Accidental.stencil                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert Glissando.style                              %! SC
     \revert NoteColumn.glissando-skip                    %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                          %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    \makeRed                                             %! SM12
     a'4
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                  %! SM12
-    ^ \markup { OCTAVE }                                 %! SM12
 %@% \revert Accidental.stencil                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -1538,7 +1407,6 @@ E_CelloVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     b4
     -\trill                                                  %! IC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
@@ -1560,10 +1428,6 @@ E_CelloVoiceI_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Vc.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
 %%% \stopTrillSpan                                           %! IC:-SEGMENT
@@ -1586,17 +1450,11 @@ E_CelloVoiceI_a = {
     \override Accidental.stencil = ##f                       %! SC
     \override NoteColumn.glissando-skip = ##t                %! SC
     \override NoteHead.no-ledgers = ##t                      %! SC
-    \makeRed                                                 %! SM12
     b4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     a4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     a4
     \glissando                                               %! SC
@@ -1605,20 +1463,14 @@ E_CelloVoiceI_a = {
     a4
     \glissando                                               %! SC
     
-    \makeRed                                                 %! SM12
-    g4
-    \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
-    
     g4
     \glissando                                               %! SC
     
-    \makeRed                                                 %! SM12
     g4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
+    
+    g4
+    \glissando                                               %! SC
     
     % [E CelloVoiceI measure 32]                             %! SM4
     f4
@@ -1628,64 +1480,43 @@ E_CelloVoiceI_a = {
     \glissando                                               %! SC
     
     % [E CelloVoiceI measure 33]                             %! SM4
-    \makeRed                                                 %! SM12
     f4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     f4
     \glissando                                               %! SC
     
-    \makeRed                                                 %! SM12
     e4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E CelloVoiceI measure 34]                             %! SM4
     e4
     \glissando                                               %! SC
     
-    \makeRed                                                 %! SM12
     e4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     d4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E CelloVoiceI measure 35]                             %! SM4
     d4
     \glissando                                               %! SC
     
-    \makeRed                                                 %! SM12
     d4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     c4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \revert Accidental.stencil                               %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert Glissando.style                                  %! SC
     \revert NoteColumn.glissando-skip                        %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    \makeRed                                                 %! SM12
     c4
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
 %@% \revert Accidental.stencil                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                        %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -1726,7 +1557,6 @@ E_ContrabassVoiceIII_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                 %! SM12
     b,4
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \glissando                                               %! SC
@@ -1747,10 +1577,6 @@ E_ContrabassVoiceIII_a = {
                             #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Cb.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                        %! SM12
-                    {                                        %! SM12
-                        OCTAVE                               %! SM12
-                    }                                        %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1772,17 +1598,11 @@ E_ContrabassVoiceIII_a = {
     \override Accidental.stencil = ##f                       %! SC
     \override NoteColumn.glissando-skip = ##t                %! SC
     \override NoteHead.no-ledgers = ##t                      %! SC
-    \makeRed                                                 %! SM12
     b,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     b,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     b,4
     \glissando                                               %! SC
@@ -1791,20 +1611,14 @@ E_ContrabassVoiceIII_a = {
     b,4
     \glissando                                               %! SC
     
-    \makeRed                                                 %! SM12
-    b,4
-    \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
-    
     b,4
     \glissando                                               %! SC
     
-    \makeRed                                                 %! SM12
     b,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
+    
+    b,4
+    \glissando                                               %! SC
     
     % [E ContrabassVoiceIII measure 32]                      %! SM4
     b,4
@@ -1814,63 +1628,42 @@ E_ContrabassVoiceIII_a = {
     \glissando                                               %! SC
     
     % [E ContrabassVoiceIII measure 33]                      %! SM4
-    \makeRed                                                 %! SM12
-    a,4
-    \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
-    
     a,4
     \glissando                                               %! SC
     
-    \makeRed                                                 %! SM12
     a,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
+    
+    a,4
+    \glissando                                               %! SC
     
     % [E ContrabassVoiceIII measure 34]                      %! SM4
     a,4
     \glissando                                               %! SC
     
-    \makeRed                                                 %! SM12
     a,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     a,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     % [E ContrabassVoiceIII measure 35]                      %! SM4
     a,4
     \glissando                                               %! SC
     
-    \makeRed                                                 %! SM12
     a,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
-    \makeRed                                                 %! SM12
     a,4
     \glissando                                               %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
     
     \revert Accidental.stencil                               %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteColumn.glissando-skip                        %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    \makeRed                                                 %! SM12
     a,4
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
 %@% \glissando                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    - \tweak color #red                                      %! SM12
-    ^ \markup { OCTAVE }                                     %! SM12
 %@% \revert Accidental.stencil                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                        %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
