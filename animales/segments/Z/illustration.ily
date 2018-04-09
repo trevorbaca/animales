@@ -5259,10 +5259,10 @@ Z_ContrabassVoiceIII_a = {
     \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 5         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override TextSpanner.Y-extent = ##f               %! PCW1
-    \once \override TextSpanner.arrow-width = 0.25           %! PCW1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+    \once \override TextSpanner.Y-extent = ##f               %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.left.text = \markup {
         \concat
             {
@@ -5272,13 +5272,13 @@ Z_ContrabassVoiceIII_a = {
                 \hspace
                     #0.5
             }
-        }                                                    %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+        }                                                    %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -5288,9 +5288,9 @@ Z_ContrabassVoiceIII_a = {
                     \upright
                         "ext. pont."
             }
-        }                                                    %! PCW1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
-    \once \override TextSpanner.dash-period = 1.5            %! PCW1
+        }                                                    %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+    \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -5301,7 +5301,7 @@ Z_ContrabassVoiceIII_a = {
     cs2
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \fff                                                     %! HC1
-    \startTextSpan                                           %! PCW1
+    \startTextSpan                                           %! PWC1
     ^ \markup {
         \column
             {
@@ -5349,7 +5349,7 @@ Z_ContrabassVoiceIII_a = {
     % [Z ContrabassVoiceIII measure 157]                     %! SM4
     cs1
     \repeatTie                                               %! TCC
-    \stopTextSpan                                            %! PCW1
+    \stopTextSpan                                            %! PWC1
     
 }
 
