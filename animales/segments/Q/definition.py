@@ -216,7 +216,7 @@ def tremolo(peak='f'):
             bookend=True,
             selector=baca.leaves().enchain([3, 2]),
             ),
-        baca.enchained_transition(
+        baca.transition(
             baca.markup('tasto'),
             baca.markup('ext. pont.'),
             baca.markup('tasto'),
