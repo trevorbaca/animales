@@ -147,7 +147,7 @@ def tremolo_suite():
         baca.dynamic('ff'),
         baca.hairpin('ff > pp', selector=baca.pleaves()[2:-2]),
         baca.only_parts(baca.markup.boxed('ext. ponticello: like acid')),
-        baca.single_segment_transition(
+        baca.enchained_transition(
             baca.markup('ext. pont.'),
             baca.markup('tasto'),
             selector=baca.pleaves()[2:-2].group(),
