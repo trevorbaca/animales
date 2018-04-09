@@ -220,7 +220,7 @@ def tremolo(peak='f'):
             baca.markup('tasto'),
             baca.markup('ext. pont.'),
             baca.markup('tasto'),
-            bookend=True,
+            preamble=False,
             selector=baca.leaves().enchain([3, 2]),
             ),
         baca.stem_tremolo(),
