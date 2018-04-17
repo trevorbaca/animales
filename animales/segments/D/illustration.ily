@@ -319,7 +319,7 @@ D_ClarinetVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ds''2.
+    ds''!2.
     \<                                                       %! HC1
     \mp                                                      %! HC1
     ^ \markup {
@@ -375,24 +375,24 @@ D_ClarinetVoiceI_a = {
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [D ClarinetVoiceI measure 25]                          %! SM4
-    ds''1
+    ds''!1
     \repeatTie
     
     % [D ClarinetVoiceI measure 26]                          %! SM4
-    ds''1
+    ds''!1
     \repeatTie
     
     % [D ClarinetVoiceI measure 27]                          %! SM4
-    ds''1
+    ds''!1
     \repeatTie
     
     % [D ClarinetVoiceI measure 28]                          %! SM4
-    ds''2.
+    ds''!2.
     \repeatTie
     
     % [D ClarinetVoiceI measure 29]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    ds''2.
+    ds''!2.
     \repeatTie
     \mf                                                      %! HC1
     

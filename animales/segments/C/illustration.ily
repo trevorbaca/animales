@@ -608,7 +608,7 @@ C_HornVoiceII_a = {
     
     % [C HornVoiceII measure 20]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    df'8
+    df'!8
     -\marcato                                            %! IC
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
     
@@ -874,7 +874,7 @@ C_TrumpetVoiceII_a = {
     
     % [C TrumpetVoiceII measure 20]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    af'8
+    af'!8
     -\marcato                                            %! IC
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
     
@@ -1140,7 +1140,7 @@ C_TromboneVoiceII_a = {
     
     % [C TromboneVoiceII measure 20]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    df'8
+    df'!8
     -\marcato                                            %! IC
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
     
@@ -1685,7 +1685,7 @@ C_FirstViolinVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
-    df'1
+    df'!1
     \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -1729,10 +1729,10 @@ C_FirstViolinVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [C FirstViolinVoiceI measure 19]                   %! SM4
-    df'4
+    df'!4
     \repeatTie
     
-    df'2.
+    df'!2.
     -\accent                                             %! IC
 }
 
@@ -1823,7 +1823,7 @@ C_FirstViolinVoiceIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
-    df'1
+    df'!1
     \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -1867,10 +1867,10 @@ C_FirstViolinVoiceIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [C FirstViolinVoiceIII measure 19]                 %! SM4
-    df'2
+    df'!2
     \repeatTie
     
-    df'2
+    df'!2
     -\accent                                             %! IC
     
     % [C FirstViolinVoiceIII measure 20]                 %! SM4
@@ -1942,7 +1942,7 @@ C_SecondViolinVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
-    df'1
+    df'!1
     \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -1986,10 +1986,10 @@ C_SecondViolinVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [C SecondViolinVoiceI measure 19]                  %! SM4
-    df'2..
+    df'!2..
     \repeatTie
     
-    df'8
+    df'!8
     -\accent                                             %! IC
     
     % [C SecondViolinVoiceI measure 20]                  %! SM4
@@ -2061,7 +2061,7 @@ C_SecondViolinVoiceIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
-    df'1
+    df'!1
     \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -2105,7 +2105,7 @@ C_SecondViolinVoiceIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [C SecondViolinVoiceIII measure 19]                %! SM4
-    df'1
+    df'!1
     \repeatTie
     
     % [C SecondViolinVoiceIII measure 20]                %! SM4
@@ -2177,7 +2177,7 @@ C_ViolaVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
-    df'4.
+    df'!4.
     \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -2220,14 +2220,14 @@ C_ViolaVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    df'8
+    df'!8
     -\accent                                             %! IC
     
-    df'2
+    df'!2
     \repeatTie
     
     % [C ViolaVoiceI measure 19]                         %! SM4
-    df'1
+    df'!1
     \repeatTie
     
     % [C ViolaVoiceI measure 20]                         %! SM4
@@ -2301,7 +2301,7 @@ C_ViolaVoiceIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
-    df'2
+    df'!2
     \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -2344,11 +2344,11 @@ C_ViolaVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    df'2
+    df'!2
     -\accent                                             %! IC
     
     % [C ViolaVoiceIII measure 19]                       %! SM4
-    df'1
+    df'!1
     \repeatTie
     
     % [C ViolaVoiceIII measure 20]                       %! SM4
@@ -2412,7 +2412,7 @@ C_CelloVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                            %! SC
-    df'1
+    df'!1
     \f_sub_but_accents_continue_sffz                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -2448,10 +2448,10 @@ C_CelloVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [C CelloVoiceI measure 19]                             %! SM4
-    df'8
+    df'!8
     \repeatTie
     
-    df'2..
+    df'!2..
     -\accent                                                 %! IC
     
     % [C CelloVoiceI measure 20]                             %! SM4

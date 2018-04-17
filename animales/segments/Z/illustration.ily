@@ -5298,7 +5298,7 @@ Z_ContrabassVoiceIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    cs2
+    cs!2
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \fff                                                     %! HC1
     \startTextSpan                                           %! PWC1
@@ -5343,11 +5343,11 @@ Z_ContrabassVoiceIII_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [Z ContrabassVoiceIII measure 156]                     %! SM4
-    cs1
+    cs!1
     \repeatTie                                               %! TCC
     
     % [Z ContrabassVoiceIII measure 157]                     %! SM4
-    cs1
+    cs!1
     \repeatTie                                               %! TCC
     \stopTextSpan                                            %! PWC1
     

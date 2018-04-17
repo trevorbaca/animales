@@ -337,16 +337,16 @@ B_FirstViolinVoiceI_a = {
     % [B FirstViolinVoiceI measure 16]                   %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
-    ef'2
+    ef'!2
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
     \startTrillSpan e'                                   %! SC
     
-    ef'2
+    ef'!2
     -\accent                                             %! IC
     
     % [B FirstViolinVoiceI measure 17]                   %! SM4
-    ef'2
+    ef'!2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
@@ -453,25 +453,25 @@ B_FirstViolinVoiceIII_a = {
     % [B FirstViolinVoiceIII measure 16]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
-    ef'2
+    ef'!2
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
     \startTrillSpan e'                                   %! SC
     \times 2/3 {
         
-        ef'8
+        ef'!8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        ef'4
+        ef'!4
         -\accent                                         %! IC
     }
     
-    ef'4
+    ef'!4
     \repeatTie
     
     % [B FirstViolinVoiceIII measure 17]                 %! SM4
-    ef'2
+    ef'!2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
@@ -587,16 +587,16 @@ B_SecondViolinVoiceI_a = {
     % [B SecondViolinVoiceI measure 16]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
-    ef'1
+    ef'!1
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
     \startTrillSpan e'                                   %! SC
     
     % [B SecondViolinVoiceI measure 17]                  %! SM4
-    ef'8
+    ef'!8
     \repeatTie
     
-    ef'4.
+    ef'!4.
     -\accent                                             %! IC
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
@@ -724,16 +724,16 @@ B_SecondViolinVoiceIII_a = {
     % [B SecondViolinVoiceIII measure 16]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
-    ef'1
+    ef'!1
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
     \startTrillSpan e'                                   %! SC
     
     % [B SecondViolinVoiceIII measure 17]                %! SM4
-    ef'4
+    ef'!4
     \repeatTie
     
-    ef'4
+    ef'!4
     -\accent                                             %! IC
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
@@ -843,13 +843,13 @@ B_ViolaVoiceI_a = {
     % [B ViolaVoiceI measure 16]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
-    ef'1
+    ef'!1
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
     \startTrillSpan e'                                   %! SC
     
     % [B ViolaVoiceI measure 17]                         %! SM4
-    ef'2
+    ef'!2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
@@ -956,14 +956,14 @@ B_ViolaVoiceIII_a = {
     % [B ViolaVoiceIII measure 16]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
-    ef'1
+    ef'!1
     -\accent                                             %! IC
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
     \startTrillSpan e'                                   %! SC
     
     % [B ViolaVoiceIII measure 17]                       %! SM4
-    ef'2
+    ef'!2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
@@ -1054,19 +1054,19 @@ B_CelloVoiceI_a = {
     % [B CelloVoiceI measure 16]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                            %! SC
-    ef'4.
+    ef'!4.
     \p_sub_but_accents_continue_sffz                         %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                           %! SC
     \startTrillSpan e'                                       %! SC
     
-    ef'8
+    ef'!8
     -\accent                                                 %! IC
     
-    ef'2
+    ef'!2
     \repeatTie
     
     % [B CelloVoiceI measure 17]                             %! SM4
-    ef'2
+    ef'!2
     \repeatTie
     \stopTrillSpan                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert TrillSpanner.staff-padding                       %! OC2
