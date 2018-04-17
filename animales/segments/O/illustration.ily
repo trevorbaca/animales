@@ -1769,7 +1769,7 @@ O_FirstViolinVoiceV_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    cs'2.
+    cs'!2.
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
@@ -1826,67 +1826,67 @@ O_FirstViolinVoiceV_a = {
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [O FirstViolinVoiceV measure 96]                   %! SM4
-    cs'2.
+    cs'!2.
     :32                                                  %! IC
     \repeatTie
     
     % [O FirstViolinVoiceV measure 97]                   %! SM4
-    cs'1
+    cs'!1
     :32                                                  %! IC
     \repeatTie
     
     % [O FirstViolinVoiceV measure 98]                   %! SM4
-    cs'1
+    cs'!1
     :32                                                  %! IC
     \repeatTie
     
     % [O FirstViolinVoiceV measure 99]                   %! SM4
-    cs'1
+    cs'!1
     :32                                                  %! IC
     \repeatTie
     
     % [O FirstViolinVoiceV measure 100]                  %! SM4
-    cs'2.
+    cs'!2.
     :32                                                  %! IC
     \repeatTie
     
     % [O FirstViolinVoiceV measure 101]                  %! SM4
-    cs'2.
+    cs'!2.
     :32                                                  %! IC
     \repeatTie
     
     % [O FirstViolinVoiceV measure 102]                  %! SM4
-    cs'1
+    cs'!1
     :32                                                  %! IC
     \repeatTie
     
     % [O FirstViolinVoiceV measure 103]                  %! SM4
-    cs'1
+    cs'!1
     :32                                                  %! IC
     \repeatTie
     
     % [O FirstViolinVoiceV measure 104]                  %! SM4
-    cs'2
+    cs'!2
     :32                                                  %! IC
     \repeatTie
     
     % [O FirstViolinVoiceV measure 105]                  %! SM4
-    cs'2.
+    cs'!2.
     :32                                                  %! IC
     \repeatTie
     
     % [O FirstViolinVoiceV measure 106]                  %! SM4
-    cs'2.
+    cs'!2.
     :32                                                  %! IC
     \repeatTie
     
     % [O FirstViolinVoiceV measure 107]                  %! SM4
-    cs'1
+    cs'!1
     :32                                                  %! IC
     \repeatTie
     
     % [O FirstViolinVoiceV measure 108]                  %! SM4
-    cs'2
+    cs'!2
     :32                                                  %! IC
     \repeatTie
     

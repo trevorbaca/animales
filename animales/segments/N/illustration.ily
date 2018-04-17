@@ -403,56 +403,56 @@ N_FluteVoiceI_a = {
         [
         (                                                %! SC
         
-        af''8
+        af''!8
         
         g''8
         ]
     }
     
     % [N FluteVoiceI measure 89]                         %! SM4
-    fs''16
+    fs''!16
     [
     
     f''16
     
     g''16
     
-    fs''16
+    fs''!16
     ]
     
     g''16
     [
     
-    af''16
+    af''!16
     
-    bf''16
+    bf''!16
     
     a''16
     ]
     
     % [N FluteVoiceI measure 90]                         %! SM4
-    af''16
+    af''!16
     [
     
     g''16
     
     a''16
     
-    bf''16
+    bf''!16
     ]
     \times 2/3 {
         
         b''8
         [
         
-        bf''8
+        bf''!8
         
         c'''8
         ]
     }
     \times 2/3 {
         
-        cs'''8
+        cs'''!8
         [
         
         b''8
@@ -461,12 +461,12 @@ N_FluteVoiceI_a = {
         ]
     }
     
-    cs'''16
+    cs'''!16
     [
     
     d'''16
     
-    cs'''16
+    cs'''!16
     
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3:+PARTS
     c'''16
@@ -522,7 +522,7 @@ N_FluteVoiceIII_a = {
     [
     (                                                    %! SC
     
-    fs''16
+    fs''!16
     
     f''16
     
@@ -530,7 +530,7 @@ N_FluteVoiceIII_a = {
     ]
     \times 2/3 {
         
-        ef''8
+        ef''!8
         [
         
         f''8
@@ -544,16 +544,16 @@ N_FluteVoiceIII_a = {
         f''8
         [
         
-        fs''8
+        fs''!8
         
-        af''8
+        af''!8
         ]
     }
     
     g''16
     [
     
-    fs''16
+    fs''!16
     
     f''16
     
@@ -561,14 +561,14 @@ N_FluteVoiceIII_a = {
     ]
     
     % [N FluteVoiceIII measure 90]                       %! SM4
-    af''16
+    af''!16
     [
     
     a''16
     
-    af''16
+    af''!16
     
-    bf''16
+    bf''!16
     ]
     
     b''16
@@ -576,7 +576,7 @@ N_FluteVoiceIII_a = {
     
     a''16
     
-    bf''16
+    bf''!16
     
     b''16
     ]
@@ -587,7 +587,7 @@ N_FluteVoiceIII_a = {
         
         b''8
         
-        bf''8
+        bf''!8
         ]
     }
     \times 2/3 {
@@ -598,7 +598,7 @@ N_FluteVoiceIII_a = {
         b''8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        bf''8
+        bf''!8
         \ff                                              %! HC1
         ]
         )                                                %! SC
@@ -702,7 +702,7 @@ N_FluteVoiceII_a = {
     \times 2/3 {
         
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2:+PARTS
-        ef''8
+        ef''!8
     %%% \<                                               %! HC1:+PARTS
     %%% \mf                                              %! HC1:+PARTS
         [
@@ -710,7 +710,7 @@ N_FluteVoiceII_a = {
         
         e''8
         
-        ef''8
+        ef''!8
         ]
     }
     \times 2/3 {
@@ -718,20 +718,20 @@ N_FluteVoiceII_a = {
         d''8
         [
         
-        cs''8
+        cs''!8
         
-        ef''8
+        ef''!8
         ]
     }
     
     d''16
     [
     
-    ef''16
+    ef''!16
     
     e''16
     
-    fs''16
+    fs''!16
     ]
     
     % [N FluteVoiceII measure 89]                        %! SM4
@@ -740,24 +740,24 @@ N_FluteVoiceII_a = {
     
     e''16
     
-    ef''16
+    ef''!16
     
     f''16
     ]
     \times 2/3 {
         
-        fs''8
+        fs''!8
         [
         
         g''8
         
-        fs''8
+        fs''!8
         ]
     }
     \times 2/3 {
         
         % [N FluteVoiceII measure 90]                    %! SM4
-        af''8
+        af''!8
         [
         
         a''8
@@ -766,31 +766,31 @@ N_FluteVoiceII_a = {
         ]
     }
     
-    af''16
+    af''!16
     [
     
     a''16
     
-    bf''16
+    bf''!16
     
     a''16
     ]
     
-    af''16
+    af''!16
     [
     
     g''16
     
     a''16
     
-    af''16
+    af''!16
     ]
     \times 2/3 {
         
         a''8
         [
         
-        bf''8
+        bf''!8
         
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3:+PARTS
         c'''8
@@ -843,11 +843,11 @@ N_FluteVoiceIV_a = {
             (“Flute”)                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    ef''16
+    ef''!16
     
     d''16
     
-    cs''16
+    cs''!16
     ]
     
     c''16
@@ -855,13 +855,13 @@ N_FluteVoiceIV_a = {
     
     d''16
     
-    cs''16
+    cs''!16
     
     d''16
     ]
     \times 2/3 {
         
-        ef''8
+        ef''!8
         [
         
         f''8
@@ -871,7 +871,7 @@ N_FluteVoiceIV_a = {
     }
     \times 2/3 {
         
-        ef''8
+        ef''!8
         [
         
         d''8
@@ -884,21 +884,21 @@ N_FluteVoiceIV_a = {
     f''16
     [
     
-    fs''16
+    fs''!16
     
     f''16
     
     g''16
     ]
     
-    af''16
+    af''!16
     [
     
-    fs''16
+    fs''!16
     
     g''16
     
-    af''16
+    af''!16
     ]
     \times 2/3 {
         
@@ -906,38 +906,38 @@ N_FluteVoiceIV_a = {
         a''8
         [
         
-        af''8
+        af''!8
         
         g''8
         ]
     }
     \times 2/3 {
         
-        fs''8
+        fs''!8
         [
         
-        af''8
+        af''!8
         
         g''8
         ]
     }
     
-    af''16
+    af''!16
     [
     
     a''16
     
     b''16
     
-    bf''16
+    bf''!16
     ]
     
     a''16
     [
     
-    af''16
+    af''!16
     
-    bf''16
+    bf''!16
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     b''16
@@ -1003,7 +1003,7 @@ N_BassClarinetVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    bf1
+    bf!1
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \>                                                       %! HC1
     \p                                                       %! HC1
@@ -1047,21 +1047,21 @@ N_BassClarinetVoiceI_a = {
     % [N BassClarinetVoiceI measure 90]                      %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    bf1
+    bf!1
     \<                                                       %! HC1
     
     % [N BassClarinetVoiceI measure 91]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf1
+    bf!1
     \repeatTie
     \p                                                       %! HC1
     
     % [N BassClarinetVoiceI measure 92]                      %! SM4
-    bf1
+    bf!1
     \repeatTie
     
     % [N BassClarinetVoiceI measure 93]                      %! SM4
-    bf1
+    bf!1
     \repeatTie
     
     % [N BassClarinetVoiceI measure 94]                      %! SM4
@@ -1148,7 +1148,7 @@ N_PianoVoiceI_a = {
         r8
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        bf'8
+        bf'!8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
         
@@ -1170,7 +1170,7 @@ N_PianoVoiceI_a = {
         r8
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        bf'8
+        bf'!8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
         
@@ -1272,7 +1272,7 @@ N_HarpVoiceI_a = {
     r2.
     \times 2/3 {
         
-        bf'8
+        bf'!8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
         
@@ -1289,7 +1289,7 @@ N_HarpVoiceI_a = {
     r2.
     \times 2/3 {
         
-        bf'8
+        bf'!8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
         
@@ -1651,7 +1651,7 @@ N_PercussionVoiceIII_a = {
     r2
     \times 2/3 {
         
-        bf'8
+        bf'!8
         -\laissezVibrer                                      %! IC
         
         r4
@@ -1664,7 +1664,7 @@ N_PercussionVoiceIII_a = {
     \times 2/3 {
         
         % [N PercussionVoiceIII measure 92]                  %! SM4
-        bf'8
+        bf'!8
         -\laissezVibrer                                      %! IC
         
         r4
@@ -2332,7 +2332,7 @@ N_ContrabassVoiceI_a = {
         r8
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        bf'8
+        bf'!8
         -\laissezVibrer                                  %! IC
         
         r8
@@ -2347,7 +2347,7 @@ N_ContrabassVoiceI_a = {
         % [N ContrabassVoiceI measure 92]                %! SM4
         r4
         
-        bf'8
+        bf'!8
         -\laissezVibrer                                  %! IC
     }
     

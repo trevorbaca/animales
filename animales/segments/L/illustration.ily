@@ -453,11 +453,11 @@ L_BassClarinetVoiceI_a = {
     % [L BassClarinetVoiceI measure 80]                      %! SM4
     \once \override Hairpin.circled-tip = ##t                %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    bf2
+    bf!2
     \<                                                       %! HC1
     
     % [L BassClarinetVoiceI measure 81]                      %! SM4
-    bf2.
+    bf!2.
     \repeatTie
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     
@@ -1062,7 +1062,7 @@ L_FirstViolinVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af'''4
+    af'''!4
     -\trill                                                  %! IC
     \glissando                                               %! SC
     \<                                                       %! HC1
@@ -1208,7 +1208,7 @@ L_SecondViolinVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af''4
+    af''!4
     -\trill                                                  %! IC
     \glissando                                               %! SC
     \<                                                       %! HC1
@@ -1354,7 +1354,7 @@ L_ViolaVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af'4
+    af'!4
     -\trill                                                  %! IC
     \glissando                                               %! SC
     \<                                                       %! HC1
@@ -1500,7 +1500,7 @@ L_CelloVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af,4
+    af,!4
     -\trill                                                  %! IC
     \glissando                                               %! SC
     \<                                                       %! HC1
@@ -1697,7 +1697,7 @@ L_ContrabassVoiceI_a = {
     \times 2/3 {
         
         \override NoteHead.style = #'harmonic            %! OC1
-        cqf''8
+        cqf''!8
         -\laissezVibrer                                  %! IC
         
         r4
@@ -1711,7 +1711,7 @@ L_ContrabassVoiceI_a = {
     \times 2/3 {
         
         % [L ContrabassVoiceI measure 79]                %! SM4
-        cqf''8
+        cqf''!8
         -\laissezVibrer                                  %! IC
         \revert NoteHead.style                           %! OC2
         
@@ -1769,7 +1769,7 @@ L_ContrabassVoiceIII_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af,4
+    af,!4
     -\trill                                              %! IC
     \glissando                                           %! SC
     \<                                                   %! HC1

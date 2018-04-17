@@ -362,40 +362,40 @@ M_FluteVoiceI_a = {
         [
         (                                                %! SC
         
-        af''8
+        af''!8
         
         g''8
         ]
     }
     
-    fs''16
+    fs''!16
     [
     
     f''16
     
     g''16
     
-    fs''16
+    fs''!16
     ]
     
     g''16
     [
     
-    af''16
+    af''!16
     
-    bf''16
+    bf''!16
     
     a''16
     ]
     
-    af''16
+    af''!16
     [
     
     g''16
     
     a''16
     
-    bf''16
+    bf''!16
     ]
     \times 2/3 {
         
@@ -403,14 +403,14 @@ M_FluteVoiceI_a = {
         b''8
         [
         
-        bf''8
+        bf''!8
         
         c'''8
         ]
     }
     \times 2/3 {
         
-        cs'''8
+        cs'''!8
         [
         
         b''8
@@ -457,7 +457,7 @@ M_FluteVoiceIII_a = {
     [
     (                                                    %! SC
     
-    fs''16
+    fs''!16
     
     f''16
     
@@ -466,7 +466,7 @@ M_FluteVoiceIII_a = {
     \times 2/3 {
         
         % [M FluteVoiceIII measure 83]                   %! SM4
-        ef''8
+        ef''!8
         [
         
         f''8
@@ -479,30 +479,30 @@ M_FluteVoiceIII_a = {
         f''8
         [
         
-        fs''8
+        fs''!8
         
-        af''8
+        af''!8
         ]
     }
     
     g''16
     [
     
-    fs''16
+    fs''!16
     
     f''16
     
     g''16
     ]
     
-    af''16
+    af''!16
     [
     
     a''16
     
-    af''16
+    af''!16
     
-    bf''16
+    bf''!16
     ]
     
     % [M FluteVoiceIII measure 84]                       %! SM4
@@ -511,7 +511,7 @@ M_FluteVoiceIII_a = {
     
     a''16
     
-    bf''16
+    bf''!16
     
     b''16
     ]
@@ -523,7 +523,7 @@ M_FluteVoiceIII_a = {
         b''8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        bf''8
+        bf''!8
         \ff                                              %! HC1
         ]
         )                                                %! SC
@@ -614,7 +614,7 @@ M_FluteVoiceII_a = {
     \times 2/3 {
         
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2:+PARTS
-        ef''8
+        ef''!8
     %%% \<                                               %! HC1:+PARTS
     %%% \mf                                              %! HC1:+PARTS
         [
@@ -622,7 +622,7 @@ M_FluteVoiceII_a = {
         
         e''8
         
-        ef''8
+        ef''!8
         ]
     }
     \times 2/3 {
@@ -630,9 +630,9 @@ M_FluteVoiceII_a = {
         d''8
         [
         
-        cs''8
+        cs''!8
         
-        ef''8
+        ef''!8
         ]
     }
     
@@ -640,11 +640,11 @@ M_FluteVoiceII_a = {
     d''16
     [
     
-    ef''16
+    ef''!16
     
     e''16
     
-    fs''16
+    fs''!16
     ]
     
     f''16
@@ -652,23 +652,23 @@ M_FluteVoiceII_a = {
     
     e''16
     
-    ef''16
+    ef''!16
     
     f''16
     ]
     \times 2/3 {
         
-        fs''8
+        fs''!8
         [
         
         g''8
         
-        fs''8
+        fs''!8
         ]
     }
     \times 2/3 {
         
-        af''8
+        af''!8
         [
         
         a''8
@@ -678,17 +678,17 @@ M_FluteVoiceII_a = {
     }
     
     % [M FluteVoiceII measure 84]                        %! SM4
-    af''16
+    af''!16
     [
     
     a''16
     
-    bf''16
+    bf''!16
     
     a''16
     ]
     
-    af''16
+    af''!16
     [
     
     g''16
@@ -696,7 +696,7 @@ M_FluteVoiceII_a = {
     a''16
     
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3:+PARTS
-    af''16
+    af''!16
 %%% \ff                                                  %! HC1:+PARTS
     ]
     )                                                    %! SC
@@ -734,11 +734,11 @@ M_FluteVoiceIV_a = {
             (“Flute”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    ef''16
+    ef''!16
     
     d''16
     
-    cs''16
+    cs''!16
     ]
     
     c''16
@@ -746,13 +746,13 @@ M_FluteVoiceIV_a = {
     
     d''16
     
-    cs''16
+    cs''!16
     
     d''16
     ]
     \times 2/3 {
         
-        ef''8
+        ef''!8
         [
         
         f''8
@@ -763,7 +763,7 @@ M_FluteVoiceIV_a = {
     \times 2/3 {
         
         % [M FluteVoiceIV measure 83]                    %! SM4
-        ef''8
+        ef''!8
         [
         
         d''8
@@ -775,28 +775,28 @@ M_FluteVoiceIV_a = {
     f''16
     [
     
-    fs''16
+    fs''!16
     
     f''16
     
     g''16
     ]
     
-    af''16
+    af''!16
     [
     
-    fs''16
+    fs''!16
     
     g''16
     
-    af''16
+    af''!16
     ]
     \times 2/3 {
         
         a''8
         [
         
-        af''8
+        af''!8
         
         g''8
         ]
@@ -804,16 +804,16 @@ M_FluteVoiceIV_a = {
     \times 2/3 {
         
         % [M FluteVoiceIV measure 84]                    %! SM4
-        fs''8
+        fs''!8
         [
         
-        af''8
+        af''!8
         
         g''8
         ]
     }
     
-    af''16
+    af''!16
     [
     
     a''16
@@ -821,7 +821,7 @@ M_FluteVoiceIV_a = {
     b''16
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf''16
+    bf''!16
     \ff                                                  %! HC1
     ]
     )                                                    %! SC
@@ -983,7 +983,7 @@ M_BassClarinetVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf2.
+    bf!2.
 %@% \repeatTie                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \p                                                   %! HC1
     ^ \markup {
@@ -1019,23 +1019,23 @@ M_BassClarinetVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [M BassClarinetVoiceI measure 83]                  %! SM4
-    bf1
+    bf!1
     \repeatTie                                           %! TCC
     
     % [M BassClarinetVoiceI measure 84]                  %! SM4
-    bf2
+    bf!2
     \repeatTie                                           %! TCC
     
     % [M BassClarinetVoiceI measure 85]                  %! SM4
-    bf1
+    bf!1
     \repeatTie                                           %! TCC
     
     % [M BassClarinetVoiceI measure 86]                  %! SM4
-    bf1
+    bf!1
     \repeatTie                                           %! TCC
     
     % [M BassClarinetVoiceI measure 87]                  %! SM4
-    bf1
+    bf!1
     \repeatTie                                           %! TCC
     
 }
@@ -1131,7 +1131,7 @@ M_PianoVoiceI_a = {
         r8
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        bf'8
+        bf'!8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
         
@@ -1230,7 +1230,7 @@ M_HarpVoiceI_a = {
     r2.
     \times 2/3 {
         
-        bf'8
+        bf'!8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
         
@@ -1244,7 +1244,7 @@ M_HarpVoiceI_a = {
     r2
     \times 2/3 {
         
-        bf'8
+        bf'!8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
         
@@ -1592,7 +1592,7 @@ M_PercussionVoiceIII_a = {
     \times 2/3 {
         
         % [M PercussionVoiceIII measure 87]                  %! SM4
-        bf'8
+        bf'!8
         -\laissezVibrer                                      %! IC
         
         r4
@@ -2184,7 +2184,7 @@ M_ContrabassVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \times 2/3 {
         
-        bf'8
+        bf'!8
         -\laissezVibrer                                  %! IC
         ^ \markup {                                      %! IC
             \whiteout                                    %! IC
@@ -2202,7 +2202,7 @@ M_ContrabassVoiceI_a = {
     \times 2/3 {
         
         % [M ContrabassVoiceI measure 84]                %! SM4
-        bf'8
+        bf'!8
         -\laissezVibrer                                  %! IC
         
         r4
@@ -2218,7 +2218,7 @@ M_ContrabassVoiceI_a = {
     \times 2/3 {
         
         % [M ContrabassVoiceI measure 87]                %! SM4
-        bf'8
+        bf'!8
         -\laissezVibrer                                  %! IC
         
         r4

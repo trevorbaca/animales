@@ -506,7 +506,7 @@ F_ClarinetVoiceI_b = {
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ef''1
+    ef''!1
     \<                                                       %! HC1
     \mp                                                      %! HC1
     ^ \markup {
@@ -555,16 +555,16 @@ F_ClarinetVoiceI_b = {
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [F ClarinetVoiceI measure 41]                          %! SM4
-    ef''2
+    ef''!2
     \repeatTie
     
     % [F ClarinetVoiceI measure 42]                          %! SM4
-    ef''1
+    ef''!1
     \repeatTie
     
     % [F ClarinetVoiceI measure 43]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    ef''1
+    ef''!1
     \repeatTie
     \mf                                                      %! HC1
     
@@ -1253,7 +1253,7 @@ F_FirstViolinVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bf'''2
+    bf'''!2
     \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -1303,31 +1303,31 @@ F_FirstViolinVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [F FirstViolinVoiceI measure 37]                       %! SM4
-    bf'''1
+    bf'''!1
     \repeatTie
     
     % [F FirstViolinVoiceI measure 38]                       %! SM4
-    bf'''1
+    bf'''!1
     \repeatTie
     
     % [F FirstViolinVoiceI measure 39]                       %! SM4
-    bf'''1
+    bf'''!1
     \repeatTie
     
     % [F FirstViolinVoiceI measure 40]                       %! SM4
-    bf'''1
+    bf'''!1
     \repeatTie
     
     % [F FirstViolinVoiceI measure 41]                       %! SM4
-    bf'''2
+    bf'''!2
     \repeatTie
     
     % [F FirstViolinVoiceI measure 42]                       %! SM4
-    bf'''1
+    bf'''!1
     \repeatTie
     
     % [F FirstViolinVoiceI measure 43]                       %! SM4
-    bf'''1
+    bf'''!1
     \repeatTie
     \revert RepeatTie.direction                              %! OC2
     
@@ -1366,7 +1366,7 @@ F_SecondViolinVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bf''2
+    bf''!2
     \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -1407,31 +1407,31 @@ F_SecondViolinVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [F SecondViolinVoiceI measure 37]                      %! SM4
-    bf''1
+    bf''!1
     \repeatTie
     
     % [F SecondViolinVoiceI measure 38]                      %! SM4
-    bf''1
+    bf''!1
     \repeatTie
     
     % [F SecondViolinVoiceI measure 39]                      %! SM4
-    bf''1
+    bf''!1
     \repeatTie
     
     % [F SecondViolinVoiceI measure 40]                      %! SM4
-    bf''1
+    bf''!1
     \repeatTie
     
     % [F SecondViolinVoiceI measure 41]                      %! SM4
-    bf''2
+    bf''!2
     \repeatTie
     
     % [F SecondViolinVoiceI measure 42]                      %! SM4
-    bf''1
+    bf''!1
     \repeatTie
     
     % [F SecondViolinVoiceI measure 43]                      %! SM4
-    bf''1
+    bf''!1
     \repeatTie
     
 }
@@ -1469,7 +1469,7 @@ F_ViolaVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bf'2
+    bf'!2
     \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -1510,31 +1510,31 @@ F_ViolaVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [F ViolaVoiceI measure 37]                             %! SM4
-    bf'1
+    bf'!1
     \repeatTie
     
     % [F ViolaVoiceI measure 38]                             %! SM4
-    bf'1
+    bf'!1
     \repeatTie
     
     % [F ViolaVoiceI measure 39]                             %! SM4
-    bf'1
+    bf'!1
     \repeatTie
     
     % [F ViolaVoiceI measure 40]                             %! SM4
-    bf'1
+    bf'!1
     \repeatTie
     
     % [F ViolaVoiceI measure 41]                             %! SM4
-    bf'2
+    bf'!2
     \repeatTie
     
     % [F ViolaVoiceI measure 42]                             %! SM4
-    bf'1
+    bf'!1
     \repeatTie
     
     % [F ViolaVoiceI measure 43]                             %! SM4
-    bf'1
+    bf'!1
     \repeatTie
     
 }
@@ -1572,7 +1572,7 @@ F_CelloVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bf,2
+    bf,!2
     \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -1613,31 +1613,31 @@ F_CelloVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [F CelloVoiceI measure 37]                             %! SM4
-    bf,1
+    bf,!1
     \repeatTie
     
     % [F CelloVoiceI measure 38]                             %! SM4
-    bf,1
+    bf,!1
     \repeatTie
     
     % [F CelloVoiceI measure 39]                             %! SM4
-    bf,1
+    bf,!1
     \repeatTie
     
     % [F CelloVoiceI measure 40]                             %! SM4
-    bf,1
+    bf,!1
     \repeatTie
     
     % [F CelloVoiceI measure 41]                             %! SM4
-    bf,2
+    bf,!2
     \repeatTie
     
     % [F CelloVoiceI measure 42]                             %! SM4
-    bf,1
+    bf,!1
     \repeatTie
     
     % [F CelloVoiceI measure 43]                             %! SM4
-    bf,1
+    bf,!1
     \repeatTie
     
 }
@@ -1683,7 +1683,7 @@ F_ContrabassVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    as,4
+    as,!4
     \p                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -1840,7 +1840,7 @@ F_ContrabassVoiceIII_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    as,2
+    as,!2
     \p                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -1895,7 +1895,7 @@ F_ContrabassVoiceIII_a = {
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
     % [F ContrabassVoiceIII measure 37]                  %! SM4
-    bf,1
+    bf,!1
     \repeatTie                                           %! TCC
 %%% ^ \markup {                                          %! IC:+PARTS
 %%%     \whiteout                                        %! IC:+PARTS
@@ -1959,27 +1959,27 @@ F_ContrabassVoiceIII_a = {
         }                                                %! IC:-PARTS
     
     % [F ContrabassVoiceIII measure 38]                  %! SM4
-    bf,1
+    bf,!1
     \repeatTie                                           %! TCC
     
     % [F ContrabassVoiceIII measure 39]                  %! SM4
-    bf,1
+    bf,!1
     \repeatTie                                           %! TCC
     
     % [F ContrabassVoiceIII measure 40]                  %! SM4
-    bf,1
+    bf,!1
     \repeatTie                                           %! TCC
     
     % [F ContrabassVoiceIII measure 41]                  %! SM4
-    bf,2
+    bf,!2
     \repeatTie                                           %! TCC
     
     % [F ContrabassVoiceIII measure 42]                  %! SM4
-    bf,1
+    bf,!1
     \repeatTie                                           %! TCC
     
     % [F ContrabassVoiceIII measure 43]                  %! SM4
-    bf,1
+    bf,!1
     \repeatTie                                           %! TCC
     
 }

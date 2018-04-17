@@ -470,7 +470,7 @@ AC_PianoVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    cs'2.
+    cs'!2.
     -\laissezVibrer                                          %! IC
     \mf                                                      %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -515,35 +515,35 @@ AC_PianoVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [AC PianoVoiceI measure 166]                           %! SM4
-    cs'2.
+    cs'!2.
     -\laissezVibrer                                          %! IC
     
     % [AC PianoVoiceI measure 167]                           %! SM4
-    cs'1
+    cs'!1
     -\laissezVibrer                                          %! IC
     
     % [AC PianoVoiceI measure 168]                           %! SM4
-    cs'1
+    cs'!1
     -\laissezVibrer                                          %! IC
     
     % [AC PianoVoiceI measure 169]                           %! SM4
-    cs'1
+    cs'!1
     -\laissezVibrer                                          %! IC
     
     % [AC PianoVoiceI measure 170]                           %! SM4
-    cs'2.
+    cs'!2.
     -\laissezVibrer                                          %! IC
     
     % [AC PianoVoiceI measure 171]                           %! SM4
-    cs'2.
+    cs'!2.
     -\laissezVibrer                                          %! IC
     
     % [AC PianoVoiceI measure 172]                           %! SM4
-    cs'1
+    cs'!1
     -\laissezVibrer                                          %! IC
     
     % [AC PianoVoiceI measure 173]                           %! SM4
-    cs'1
+    cs'!1
     -\laissezVibrer                                          %! IC
     \revert NoteHead.style                                   %! OC2
 %%% \revert TextScript.X-offset                              %! OC2:+PARTS

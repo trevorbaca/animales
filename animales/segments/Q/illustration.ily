@@ -656,7 +656,7 @@ Q_HornVoiceIII_a = {
     % [Q HornVoiceIII measure 119]                       %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    ef'8
+    ef'!8
     \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -860,7 +860,7 @@ Q_HornVoiceIV_a = {
     % [Q HornVoiceIV measure 119]                        %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    ef'8
+    ef'!8
     \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -968,7 +968,7 @@ Q_TrumpetVoiceI_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
-    af'8
+    af'!8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
@@ -1172,7 +1172,7 @@ Q_TrumpetVoiceII_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
-    af'8
+    af'!8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
@@ -1376,7 +1376,7 @@ Q_TromboneVoiceI_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
-    af8
+    af!8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
@@ -1580,7 +1580,7 @@ Q_TromboneVoiceII_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
-    gf8
+    gf!8
 %%% \sfz                                                 %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
@@ -2790,7 +2790,7 @@ Q_FirstViolinVoiceV_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    cs'2.
+    cs'!2.
     :32                                                  %! IC
     \f                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
 %@% \repeatTie                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
@@ -2835,7 +2835,7 @@ Q_FirstViolinVoiceV_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [Q FirstViolinVoiceV measure 120]                  %! SM4
-    cs'2.
+    cs'!2.
     :32                                                  %! IC
     \repeatTie                                           %! TCC
     
@@ -2851,21 +2851,21 @@ Q_FirstViolinVoiceV_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q FirstViolinVoiceV measure 122]                  %! SM4
-    cs'1
+    cs'!1
     :32                                                  %! IC
     
     % [Q FirstViolinVoiceV measure 123]                  %! SM4
-    cs'1
+    cs'!1
     :32                                                  %! IC
     \repeatTie
     
     % [Q FirstViolinVoiceV measure 124]                  %! SM4
-    cs'1
+    cs'!1
     :32                                                  %! IC
     \repeatTie
     
     % [Q FirstViolinVoiceV measure 125]                  %! SM4
-    cs'2.
+    cs'!2.
     :32                                                  %! IC
     \repeatTie
     
@@ -2881,21 +2881,21 @@ Q_FirstViolinVoiceV_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q FirstViolinVoiceV measure 127]                  %! SM4
-    cs'2.
+    cs'!2.
     :32                                                  %! IC
     
     % [Q FirstViolinVoiceV measure 128]                  %! SM4
-    cs'1
+    cs'!1
     :32                                                  %! IC
     \repeatTie
     
     % [Q FirstViolinVoiceV measure 129]                  %! SM4
-    cs'1
+    cs'!1
     :32                                                  %! IC
     \repeatTie
     
     % [Q FirstViolinVoiceV measure 130]                  %! SM4
-    cs'2
+    cs'!2
     :32                                                  %! IC
     \repeatTie
     

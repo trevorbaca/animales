@@ -955,7 +955,7 @@ H_FirstViolinVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \pitchedTrill                                            %! SC
-    af1
+    af!1
     \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {
         \column
@@ -992,12 +992,12 @@ H_FirstViolinVoiceI_a = {
     
     % [H FirstViolinVoiceI measure 51]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    af1
+    af!1
     \repeatTie
     \ff                                                      %! HC1
     
     % [H FirstViolinVoiceI measure 52]                       %! SM4
-    af2.
+    af!2.
     \repeatTie
     
     % [H FirstViolinVoiceI measure 53]                       %! SM4
@@ -1077,7 +1077,7 @@ H_SecondViolinVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \pitchedTrill                                            %! SC
-    af1
+    af!1
     \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {
         \column
@@ -1114,12 +1114,12 @@ H_SecondViolinVoiceI_a = {
     
     % [H SecondViolinVoiceI measure 51]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    af1
+    af!1
     \repeatTie
     \ff                                                      %! HC1
     
     % [H SecondViolinVoiceI measure 52]                      %! SM4
-    af2.
+    af!2.
     \repeatTie
     
     % [H SecondViolinVoiceI measure 53]                      %! SM4
@@ -1179,7 +1179,7 @@ H_ViolaVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \pitchedTrill                                            %! SC
-    af1
+    af!1
     \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {
         \column
@@ -1216,12 +1216,12 @@ H_ViolaVoiceI_a = {
     
     % [H ViolaVoiceI measure 51]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    af1
+    af!1
     \repeatTie
     \ff                                                      %! HC1
     
     % [H ViolaVoiceI measure 52]                             %! SM4
-    af2.
+    af!2.
     \repeatTie
     
     % [H ViolaVoiceI measure 53]                             %! SM4
@@ -1281,7 +1281,7 @@ H_CelloVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \pitchedTrill                                            %! SC
-    af1
+    af!1
     \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {
         \column
@@ -1318,12 +1318,12 @@ H_CelloVoiceI_a = {
     
     % [H CelloVoiceI measure 51]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    af1
+    af!1
     \repeatTie
     \ff                                                      %! HC1
     
     % [H CelloVoiceI measure 52]                             %! SM4
-    af2.
+    af!2.
     \repeatTie
     
     % [H CelloVoiceI measure 53]                             %! SM4
@@ -1438,7 +1438,7 @@ H_ContrabassVoiceI_a = {
     \times 2/3 {
         
         \override NoteHead.style = #'harmonic            %! OC1
-        cqf''8
+        cqf''!8
         -\laissezVibrer                                  %! IC
         ^ \markup {                                      %! IC
             \whiteout                                    %! IC
@@ -1461,7 +1461,7 @@ H_ContrabassVoiceI_a = {
     r2
     \times 2/3 {
         
-        cqf''8
+        cqf''!8
         -\laissezVibrer                                  %! IC
         \revert NoteHead.style                           %! OC2
         
@@ -1515,7 +1515,7 @@ H_ContrabassVoiceIII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    af,1
+    af,!1
     \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {
         \column
@@ -1559,12 +1559,12 @@ H_ContrabassVoiceIII_a = {
     
     % [H ContrabassVoiceIII measure 51]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    af,1
+    af,!1
     \repeatTie
     \ff                                                  %! HC1
     
     % [H ContrabassVoiceIII measure 52]                  %! SM4
-    af,2.
+    af,!2.
     \repeatTie
     
     % [H ContrabassVoiceIII measure 53]                  %! SM4
