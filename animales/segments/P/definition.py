@@ -71,15 +71,6 @@ maker(
         ),
     )
 
-# double reeds
-
-def swell():
-    return baca.enchained_hairpin(
-        *baca.dynamics('niente f niente'),
-        bookend=True,
-        selector=baca.leaves().enchain([3, 5]),
-        )
-
 # oboes
 
 maker(
@@ -95,7 +86,7 @@ maker(
 
 maker(
     ('ob1', (1, 6)),
-    swell(),
+    baca.swell('f', [3, 5]),
     )
 
 # english horn
@@ -113,7 +104,7 @@ maker(
 
 maker(
     ('eh1', (1, 6)),
-    swell(),
+    baca.swell('f', [3, 5]),
     )
 
 # bassoons
@@ -138,7 +129,7 @@ maker(
 
 maker(
     ('bsn1', (1, 6)),
-    baca.only_parts(swell()),
+    baca.only_parts(baca.swell('f', [3, 5])),
     )
 
 maker(
@@ -149,7 +140,7 @@ maker(
 
 maker(
     ('bsn2', (1, 6)),
-    swell(),
+    baca.swell('f', [3, 5]),
     )
 
 # brass

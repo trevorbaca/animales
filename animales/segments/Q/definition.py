@@ -211,11 +211,7 @@ string_parts = {
 
 def tremolo(peak='f'):
     return baca.suite([
-        baca.enchained_hairpin(
-            *baca.dynamics(f'niente {peak} niente'),
-            bookend=True,
-            selector=baca.leaves().enchain([3, 2]),
-            ),
+        baca.swell(peak, [3, 2]),
         baca.transition(
             baca.markup('tasto'),
             baca.markup('ext. pont.'),
