@@ -158,7 +158,7 @@ maker(
     'hn1',
     animales.brass_manifest_rhythm(1),
     animales.parts('Horn', 1),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.pitches('G3 A3', persist='seconds'),
     crescendi(),
@@ -177,7 +177,7 @@ maker(
     'hn2',
     animales.brass_manifest_rhythm(2),
     animales.parts('Horn', 2),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.pitches('G3 A3', persist='seconds'),
     crescendi(),
@@ -198,7 +198,7 @@ maker(
     'tp1',
     animales.brass_manifest_rhythm(5),
     animales.parts('Trumpet', 1),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.pitches('Gb4 Ab4', persist='seconds'),
     crescendi(),
@@ -217,7 +217,7 @@ maker(
     'tp2',
     animales.brass_manifest_rhythm(6),
     animales.parts('Trumpet', 2),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.pitches('Gb4 Ab4', persist='seconds'),
     crescendi(),
@@ -238,7 +238,7 @@ maker(
     'tbn1',
     animales.brass_manifest_rhythm(9),
     animales.parts('Trombone', 1),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.pitches('Gb3 Ab3', persist='seconds'),
     crescendi(),
@@ -257,7 +257,7 @@ maker(
     'tbn2',
     animales.brass_manifest_rhythm(10),
     animales.parts('Trombone', 2),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.pitches('Gb3 Ab3', persist='seconds'),
     crescendi(),
@@ -276,7 +276,7 @@ maker(
 
 def tremolo_suite():
     return baca.suite([
-        baca.accents(baca.pleaves()),
+        baca.accent(baca.pleaves()),
         baca.dynamic('ff'),
         baca.hairpin('ff > pp', selector=baca.pleaves()[2:-2]),
         baca.only_parts(baca.markup.boxed('ext. ponticello: like acid')),
@@ -311,7 +311,7 @@ maker(
         '2vn1',
         'vc1',
         ],
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     )
 
 # solo violin

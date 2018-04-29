@@ -213,7 +213,7 @@ maker(
     ('perc1', (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_to(),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_position(0),
     baca.stem_tremolo(),
     )
@@ -229,7 +229,7 @@ maker(
     ('perc2', (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_to(),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_position(0),
     baca.stem_tremolo(),
     )

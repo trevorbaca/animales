@@ -123,12 +123,12 @@ strings = [
 # first accents ...
 maker(
     ('1vn1', 1),
-    baca.accents(baca.phead(0)),
+    baca.accent(baca.phead(0)),
     )
 
 maker(
     strings,
-    baca.accents(baca.pheads()[1:]),
+    baca.accent(baca.pheads()[1:]),
     )
 
 # then untie ...

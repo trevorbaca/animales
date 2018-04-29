@@ -28,7 +28,7 @@ def brass_sforzando(maker, range_=(1, -1)):
         maker(
             (voice, range_),
             animales.downbeat_attack(),
-            baca.marcati(),
+            baca.marcato(),
             )
         words = abjad.String(voice).delimit_words()
         member = roman.fromRoman(words[-1])

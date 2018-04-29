@@ -100,7 +100,7 @@ maker(
     #baca.only_parts(baca.bar_extent_persistent((-2, 2))),
     baca.tag('TEMPORARY', baca.only_parts(baca.literal(string))),
 
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_position(0),
     baca.stem_tremolo(),
     )
@@ -200,7 +200,7 @@ strings = [
 
 maker(
     (strings, (1, 2)),
-    baca.accents(selector=baca.pheads()[1:]),
+    baca.accent(selector=baca.pheads()[1:]),
     baca.dynamic('f_sub_but_accents_continue_sffz', baca.pleaf(0)),
     baca.pitch('Db4'),
     baca.trill_spanner('Eb4'),
@@ -239,7 +239,7 @@ maker(
 
 maker(
     ('va1', (3, 6)),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     )
 
 maker(
