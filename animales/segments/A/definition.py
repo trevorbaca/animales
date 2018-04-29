@@ -60,7 +60,7 @@ strings = [
 # first accents ...
 maker(
     strings,
-    baca.accents(selector=baca.pheads()[1:]),
+    baca.accent(selector=baca.pheads()[1:]),
     )
 
 # then untie ...

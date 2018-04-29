@@ -134,7 +134,7 @@ maker(
 
 def tremolo_suite():
     return baca.suite([
-        baca.accents(baca.pleaves()),
+        baca.accent(baca.pleaves()),
         baca.dynamic('ff'),
         baca.hairpin('ff > pp', selector=baca.pleaves()[2:-2]),
         baca.only_parts(baca.markup.boxed('ext. ponticello: like acid')),
@@ -210,7 +210,7 @@ maker(
         '2vn1',
         'vc1',
         ],
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     )
 
 # first violins

@@ -85,7 +85,7 @@ animales.assign_brass_sforzando_parts(maker, omit_tuba=True)
 maker(
     ('hn1', 1),
     animales.downbeat_attack(),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('G3 A3', ignore_incomplete=True, persist='seconds'),
@@ -102,7 +102,7 @@ maker(
 maker(
     ('hn2', 1),
     animales.downbeat_attack(),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('G3 A3', ignore_incomplete=True, persist='seconds'),
@@ -121,7 +121,7 @@ maker(
 maker(
     ('tp1', 1),
     animales.downbeat_attack(),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Gb4 Ab4', ignore_incomplete=True, persist='seconds'),
@@ -138,7 +138,7 @@ maker(
 maker(
     ('tp2', 1),
     animales.downbeat_attack(),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Gb4 Ab4', ignore_incomplete=True, persist='seconds'),
@@ -157,7 +157,7 @@ maker(
 maker(
     ('tbn1', 1),
     animales.downbeat_attack(),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Gb3 Ab3', ignore_incomplete=True, persist='seconds'),
@@ -174,7 +174,7 @@ maker(
 maker(
     ('tbn2', 1),
     animales.downbeat_attack(),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Gb3 Ab3', ignore_incomplete=True, persist='seconds'),
@@ -278,7 +278,7 @@ maker(
         '2vn1',
         'vc1',
         ],
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     )
 
 # solo violin

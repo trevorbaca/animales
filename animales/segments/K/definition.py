@@ -119,8 +119,8 @@ animales.assign_brass_sforzando_parts(maker, omit_tuba=True)
 maker(
     ('hn1', 1),
     animales.downbeat_attack(),
-    baca.not_parts(baca.dynamics_up()),
-    baca.not_parts(baca.force_accidentals()),
+    baca.not_parts(baca.dynamic_up()),
+    baca.not_parts(baca.force_accidental()),
     baca.not_parts(baca.note_column_shift(1.7)),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
@@ -138,7 +138,7 @@ maker(
 maker(
     ('hn2', 1),
     animales.downbeat_attack(),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('A3 B3', ignore_incomplete=True, persist='seconds'),
@@ -157,7 +157,7 @@ maker(
 maker(
     ('tp1', 1),
     animales.downbeat_attack(),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Ab4 Bb4', ignore_incomplete=True, persist='seconds'),
@@ -174,7 +174,7 @@ maker(
 maker(
     ('tp2', 1),
     animales.downbeat_attack(),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Ab4 Bb4', ignore_incomplete=True, persist='seconds'),
@@ -184,7 +184,7 @@ maker(
     ('tp4', 1),
     animales.downbeat_attack(),
     baca.dynamic('sfz'),
-    baca.not_parts(baca.force_accidentals()),
+    baca.not_parts(baca.force_accidental()),
     baca.not_parts(baca.note_column_shift(1.0)),
     baca.not_parts(baca.voice_two()),
     baca.pitches('G4 A4', ignore_incomplete=True, persist='seconds'),
@@ -195,7 +195,7 @@ maker(
 maker(
     ('tbn1', 1),
     animales.downbeat_attack(),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
@@ -212,7 +212,7 @@ maker(
 maker(
     ('tbn2', 1),
     animales.downbeat_attack(),
-    baca.not_parts(baca.dynamics_up()),
+    baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
@@ -222,7 +222,7 @@ maker(
     ('tbn4', 1),
     animales.downbeat_attack(),
     baca.dynamic('sfz'),
-    baca.not_parts(baca.force_accidentals()),
+    baca.not_parts(baca.force_accidental()),
     baca.not_parts(baca.note_column_shift(1.0)),
     baca.not_parts(baca.voice_two()),
     baca.pitches('G3 A3', ignore_incomplete=True, persist='seconds'),
@@ -256,7 +256,7 @@ maker(
     'perc2',
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_position(0),
     baca.stem_tremolo(),
     )
@@ -326,6 +326,6 @@ maker(
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(1),
     baca.laissez_vibrer(),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.pitch('Cqf5', do_not_transpose=True),
     )

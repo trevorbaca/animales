@@ -152,7 +152,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie_to(),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.stem_tremolo(),
     )
 
@@ -180,7 +180,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.markup.boxed('strings: still (non vib.)')),
     baca.pitch('Bb6'),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     )
 
 maker(
@@ -284,6 +284,6 @@ maker(
     baca.laissez_vibrer(),
     baca.markup('8th partial / D (harmonics at sounding pitch)'),
     baca.markup.pizz(),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.pitch('D5', do_not_transpose=True),
     )

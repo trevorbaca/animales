@@ -74,7 +74,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie_to(),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.stem_tremolo(),
     )
 
@@ -86,7 +86,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie_to(),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.stem_tremolo(),
     )
 
@@ -136,7 +136,7 @@ strings = [
 
 maker(
     strings,
-    baca.accents(selector=baca.pheads()[1:]),
+    baca.accent(selector=baca.pheads()[1:]),
     baca.dynamic('f_but_accents_sffz', baca.pleaf(0)),
     baca.pitch('B3'),
     baca.trill_spanner('C4', right_broken=True),

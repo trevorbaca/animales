@@ -124,7 +124,7 @@ maker(
     baca.hairpin('mp >', right_broken='niente'),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_to(),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_position(0),
     baca.stem_tremolo(),
     )
@@ -220,6 +220,6 @@ maker(
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(1),
     baca.laissez_vibrer(),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.pitch('D5', do_not_transpose=True),
     )

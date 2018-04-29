@@ -97,7 +97,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie_to(),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.stem_tremolo(),
     )
 

@@ -54,7 +54,7 @@ maker(
 
 maker(
     ('pf1', (1, 9)),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.laissez_vibrer(),
     baca.make_notes(),
     baca.markup.boxed(
@@ -82,7 +82,7 @@ maker(
         ]),
     baca.only_parts(baca.text_script_x_offset(3)),
     baca.staff_position(0),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     )
 
 for voice in (
