@@ -108,7 +108,7 @@ maker(
     animales.parts('Harp'),
     animales.harp_exchange_rhythm(2),
     baca.dynamic('mf'),
-    baca.laissez_vibrer(),
+    baca.laissez_vibrer(baca.ptails()),
     baca.markup.edition(
         baca.markup.boxed('LH-damped près de la table'),
         baca.markup.boxed_lines([
@@ -118,7 +118,7 @@ maker(
         selector=baca.pleaf(0),
         ),
     baca.pitch('D5'),
-    baca.stopped(),
+    baca.stopped(baca.pheads()),
     )
 
 # piano
@@ -128,10 +128,10 @@ maker(
     animales.parts('Piano'),
     animales.harp_exchange_rhythm(3),
     baca.dynamic('mf'),
-    baca.laissez_vibrer(),
+    baca.laissez_vibrer(baca.ptails()),
     baca.markup.boxed('mute with LH inside piano: dull thud', baca.pleaf(0)),
     baca.pitch('D5'),
-    baca.stopped(),
+    baca.stopped(baca.pheads()),
     )
 
 # percussion
@@ -153,7 +153,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie_to(),
     baca.repeat_tie_up(),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 # vibraphone
@@ -166,7 +166,7 @@ maker(
     animales.harp_exchange_rhythm(0),
     baca.clef('treble'),
     baca.dynamic('mp'),
-    baca.laissez_vibrer(),
+    baca.laissez_vibrer(baca.ptails()),
     baca.markup.boxed('vibraphone'),
     baca.only_parts(baca.text_script_extra_offset((1.5, 1.5))),
     baca.pitch('D5'),
@@ -281,7 +281,7 @@ maker(
     ('cb1', (2, -1)),
     baca.clef('treble'),
     baca.dynamic('mf'),
-    baca.laissez_vibrer(),
+    baca.laissez_vibrer(baca.ptails()),
     baca.markup('8th partial / D (harmonics at sounding pitch)'),
     baca.markup.pizz(),
     baca.note_head_style_harmonic(),

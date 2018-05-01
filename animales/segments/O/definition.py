@@ -143,7 +143,7 @@ def tremolo_suite():
             baca.markup('tasto'),
             selector=baca.pleaves()[2:-2].group(),
             ),
-        baca.stem_tremolo(),
+        baca.stem_tremolo(baca.pleaves()),
         ])
 
 def upper_voice_suite():
@@ -175,7 +175,7 @@ maker(
         'non diminuendo: appear as if by magic',
         ]),
     baca.pitch('C#4'),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 # part assignments

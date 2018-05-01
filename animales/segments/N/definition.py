@@ -164,9 +164,9 @@ maker(
 maker(
     ('hp1', (1, 6)),
     animales.harp_exchange_rhythm(2),
-    baca.laissez_vibrer(),
+    baca.laissez_vibrer(baca.ptails()),
     baca.pitch('Bb4'),
-    baca.stopped(),
+    baca.stopped(baca.pheads()),
     )
 
 # piano
@@ -179,9 +179,9 @@ maker(
 maker(
     ('pf1', (1, 6)),
     animales.harp_exchange_rhythm(3),
-    baca.laissez_vibrer(),
+    baca.laissez_vibrer(baca.ptails()),
     baca.pitch('Bb4'),
-    baca.stopped(),
+    baca.stopped(baca.pheads()),
     )
 
 # percussion
@@ -199,7 +199,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_up(),
     baca.staff_position(0),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 # cymbal
@@ -215,7 +215,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_up(),
     baca.staff_position(0),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 # vibraphone
@@ -228,7 +228,7 @@ maker(
 maker(
     ('perc3', (1, 6)),
     animales.harp_exchange_rhythm(0),
-    baca.laissez_vibrer(),
+    baca.laissez_vibrer(baca.ptails()),
     baca.pitch('Bb4'),
     )
 
@@ -332,6 +332,6 @@ maker(
 maker(
     ('cb1', (1, 6)),
     animales.harp_exchange_rhythm(1),
-    baca.laissez_vibrer(),
+    baca.laissez_vibrer(baca.ptails()),
     baca.pitch('Bb4', do_not_transpose=True),
     )

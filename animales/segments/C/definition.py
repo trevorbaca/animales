@@ -102,7 +102,7 @@ maker(
 
     baca.repeat_tie_up(),
     baca.staff_position(0),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 maker(
