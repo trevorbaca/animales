@@ -200,7 +200,7 @@ strings = [
 
 maker(
     (strings, (1, 2)),
-    baca.accent(selector=baca.pheads()[1:]),
+    baca.accent(baca.pheads()[1:]),
     baca.dynamic('f_sub_but_accents_continue_sffz', baca.pleaf(0)),
     baca.pitch('Db4'),
     baca.trill_spanner('Eb4'),
