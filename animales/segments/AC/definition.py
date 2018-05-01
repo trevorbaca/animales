@@ -74,7 +74,7 @@ maker(
 maker(
     ('perc4', (1, 8)),
     animales.margin_markup('Perc. 4 (slate)'),
-    baca.effort_dynamic('mf'),
+    baca.dynamic('"mf"'),
     baca.make_tied_repeated_durations((1, 4)),
     baca.markup.boxed_lines([
         'stonecircle: scrape slate slowly in circle;',
