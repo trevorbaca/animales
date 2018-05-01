@@ -75,7 +75,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie_to(),
     baca.repeat_tie_up(),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 # cymbal
@@ -87,7 +87,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie_to(),
     baca.repeat_tie_up(),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 # strings

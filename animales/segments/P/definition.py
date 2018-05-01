@@ -285,7 +285,7 @@ def tremolo_suite():
             baca.markup('tasto'),
             selector=baca.pleaves()[2:-2].group(),
             ),
-        baca.stem_tremolo(),
+        baca.stem_tremolo(baca.pleaves()),
         ])
 
 def upper_voice_suite():
@@ -322,7 +322,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.pitch('C#4'),
     baca.repeat_tie_to(),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 # first violins

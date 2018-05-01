@@ -55,7 +55,7 @@ maker(
 maker(
     ('pf1', (1, 9)),
     baca.note_head_style_harmonic(),
-    baca.laissez_vibrer(),
+    baca.laissez_vibrer(baca.ptails()),
     baca.make_notes(),
     baca.markup.boxed(
         'harmonic: touch lowest string of piano 1 cm from hammers'
