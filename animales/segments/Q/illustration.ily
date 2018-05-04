@@ -1849,11 +1849,12 @@ Q_FirstViolinVoiceI_a = {
     
     % [Q FirstViolinVoiceI measure 122]                  %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    a''1
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -1863,18 +1864,17 @@ Q_FirstViolinVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    a''1
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceI measure 123]                  %! SM4
@@ -1884,26 +1884,6 @@ Q_FirstViolinVoiceI_a = {
     
     % [Q FirstViolinVoiceI measure 124]                  %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -1914,8 +1894,6 @@ Q_FirstViolinVoiceI_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a''1
     :32                                                  %! IC
@@ -1923,6 +1901,28 @@ Q_FirstViolinVoiceI_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceI measure 125]                  %! SM4
@@ -1944,11 +1944,12 @@ Q_FirstViolinVoiceI_a = {
     
     % [Q FirstViolinVoiceI measure 127]                  %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    a''2.
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -1958,18 +1959,17 @@ Q_FirstViolinVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    a''2.
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceI measure 128]                  %! SM4
@@ -1979,26 +1979,6 @@ Q_FirstViolinVoiceI_a = {
     
     % [Q FirstViolinVoiceI measure 129]                  %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -2009,8 +1989,6 @@ Q_FirstViolinVoiceI_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a''1
     :32                                                  %! IC
@@ -2018,6 +1996,28 @@ Q_FirstViolinVoiceI_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceI measure 130]                  %! SM4
@@ -2063,11 +2063,12 @@ Q_FirstViolinVoiceII_a = {
     
     % [Q FirstViolinVoiceII measure 122]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    f''1
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2077,18 +2078,17 @@ Q_FirstViolinVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    f''1
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceII measure 123]                 %! SM4
@@ -2098,26 +2098,6 @@ Q_FirstViolinVoiceII_a = {
     
     % [Q FirstViolinVoiceII measure 124]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -2128,8 +2108,6 @@ Q_FirstViolinVoiceII_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f''1
     :32                                                  %! IC
@@ -2137,6 +2115,28 @@ Q_FirstViolinVoiceII_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceII measure 125]                 %! SM4
@@ -2158,11 +2158,12 @@ Q_FirstViolinVoiceII_a = {
     
     % [Q FirstViolinVoiceII measure 127]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    f''2.
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2172,18 +2173,17 @@ Q_FirstViolinVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    f''2.
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceII measure 128]                 %! SM4
@@ -2193,26 +2193,6 @@ Q_FirstViolinVoiceII_a = {
     
     % [Q FirstViolinVoiceII measure 129]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -2223,8 +2203,6 @@ Q_FirstViolinVoiceII_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f''1
     :32                                                  %! IC
@@ -2232,6 +2210,28 @@ Q_FirstViolinVoiceII_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceII measure 130]                 %! SM4
@@ -2353,11 +2353,12 @@ Q_FirstViolinVoiceIII_a = {
     
     % [Q FirstViolinVoiceIII measure 122]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    g''1
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2367,18 +2368,17 @@ Q_FirstViolinVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    g''1
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIII measure 123]                %! SM4
@@ -2388,26 +2388,6 @@ Q_FirstViolinVoiceIII_a = {
     
     % [Q FirstViolinVoiceIII measure 124]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -2418,8 +2398,6 @@ Q_FirstViolinVoiceIII_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g''1
     :32                                                  %! IC
@@ -2427,6 +2405,28 @@ Q_FirstViolinVoiceIII_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIII measure 125]                %! SM4
@@ -2448,11 +2448,12 @@ Q_FirstViolinVoiceIII_a = {
     
     % [Q FirstViolinVoiceIII measure 127]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    g''2.
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2462,18 +2463,17 @@ Q_FirstViolinVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    g''2.
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIII measure 128]                %! SM4
@@ -2483,26 +2483,6 @@ Q_FirstViolinVoiceIII_a = {
     
     % [Q FirstViolinVoiceIII measure 129]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -2513,8 +2493,6 @@ Q_FirstViolinVoiceIII_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g''1
     :32                                                  %! IC
@@ -2522,6 +2500,28 @@ Q_FirstViolinVoiceIII_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIII measure 130]                %! SM4
@@ -2567,11 +2567,12 @@ Q_FirstViolinVoiceIV_a = {
     
     % [Q FirstViolinVoiceIV measure 122]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    d''1
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2581,18 +2582,17 @@ Q_FirstViolinVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    d''1
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIV measure 123]                 %! SM4
@@ -2602,26 +2602,6 @@ Q_FirstViolinVoiceIV_a = {
     
     % [Q FirstViolinVoiceIV measure 124]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -2632,8 +2612,6 @@ Q_FirstViolinVoiceIV_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d''1
     :32                                                  %! IC
@@ -2641,6 +2619,28 @@ Q_FirstViolinVoiceIV_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIV measure 125]                 %! SM4
@@ -2662,11 +2662,12 @@ Q_FirstViolinVoiceIV_a = {
     
     % [Q FirstViolinVoiceIV measure 127]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    d''2.
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2676,18 +2677,17 @@ Q_FirstViolinVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    d''2.
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIV measure 128]                 %! SM4
@@ -2697,26 +2697,6 @@ Q_FirstViolinVoiceIV_a = {
     
     % [Q FirstViolinVoiceIV measure 129]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -2727,8 +2707,6 @@ Q_FirstViolinVoiceIV_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d''1
     :32                                                  %! IC
@@ -2736,6 +2714,28 @@ Q_FirstViolinVoiceIV_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIV measure 130]                 %! SM4
@@ -3010,11 +3010,12 @@ Q_SecondViolinVoiceI_a = {
     % [Q SecondViolinVoiceI measure 122]                 %! SM4
     \override RepeatTie.direction = #up                  %! OC1
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    b'1
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3024,18 +3025,17 @@ Q_SecondViolinVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    b'1
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceI measure 123]                 %! SM4
@@ -3045,26 +3045,6 @@ Q_SecondViolinVoiceI_a = {
     
     % [Q SecondViolinVoiceI measure 124]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -3075,8 +3055,6 @@ Q_SecondViolinVoiceI_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b'1
     :32                                                  %! IC
@@ -3084,6 +3062,28 @@ Q_SecondViolinVoiceI_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceI measure 125]                 %! SM4
@@ -3105,11 +3105,12 @@ Q_SecondViolinVoiceI_a = {
     
     % [Q SecondViolinVoiceI measure 127]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    b'2.
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3119,18 +3120,17 @@ Q_SecondViolinVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    b'2.
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceI measure 128]                 %! SM4
@@ -3140,26 +3140,6 @@ Q_SecondViolinVoiceI_a = {
     
     % [Q SecondViolinVoiceI measure 129]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -3170,8 +3150,6 @@ Q_SecondViolinVoiceI_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b'1
     :32                                                  %! IC
@@ -3179,6 +3157,28 @@ Q_SecondViolinVoiceI_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     \revert RepeatTie.direction                          %! OC2
     
@@ -3225,11 +3225,12 @@ Q_SecondViolinVoiceII_a = {
     
     % [Q SecondViolinVoiceII measure 122]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    g'1
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3239,18 +3240,17 @@ Q_SecondViolinVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    g'1
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceII measure 123]                %! SM4
@@ -3260,26 +3260,6 @@ Q_SecondViolinVoiceII_a = {
     
     % [Q SecondViolinVoiceII measure 124]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -3290,8 +3270,6 @@ Q_SecondViolinVoiceII_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g'1
     :32                                                  %! IC
@@ -3299,6 +3277,28 @@ Q_SecondViolinVoiceII_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceII measure 125]                %! SM4
@@ -3320,11 +3320,12 @@ Q_SecondViolinVoiceII_a = {
     
     % [Q SecondViolinVoiceII measure 127]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    g'2.
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3334,18 +3335,17 @@ Q_SecondViolinVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    g'2.
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceII measure 128]                %! SM4
@@ -3355,26 +3355,6 @@ Q_SecondViolinVoiceII_a = {
     
     % [Q SecondViolinVoiceII measure 129]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -3385,8 +3365,6 @@ Q_SecondViolinVoiceII_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g'1
     :32                                                  %! IC
@@ -3394,6 +3372,28 @@ Q_SecondViolinVoiceII_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceII measure 130]                %! SM4
@@ -3515,11 +3515,12 @@ Q_SecondViolinVoiceIII_a = {
     
     % [Q SecondViolinVoiceIII measure 122]               %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    a'1
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3529,18 +3530,17 @@ Q_SecondViolinVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    a'1
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIII measure 123]               %! SM4
@@ -3550,26 +3550,6 @@ Q_SecondViolinVoiceIII_a = {
     
     % [Q SecondViolinVoiceIII measure 124]               %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -3580,8 +3560,6 @@ Q_SecondViolinVoiceIII_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a'1
     :32                                                  %! IC
@@ -3589,6 +3567,28 @@ Q_SecondViolinVoiceIII_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIII measure 125]               %! SM4
@@ -3610,11 +3610,12 @@ Q_SecondViolinVoiceIII_a = {
     
     % [Q SecondViolinVoiceIII measure 127]               %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    a'2.
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3624,18 +3625,17 @@ Q_SecondViolinVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    a'2.
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIII measure 128]               %! SM4
@@ -3645,26 +3645,6 @@ Q_SecondViolinVoiceIII_a = {
     
     % [Q SecondViolinVoiceIII measure 129]               %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -3675,8 +3655,6 @@ Q_SecondViolinVoiceIII_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a'1
     :32                                                  %! IC
@@ -3684,6 +3662,28 @@ Q_SecondViolinVoiceIII_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIII measure 130]               %! SM4
@@ -3729,11 +3729,12 @@ Q_SecondViolinVoiceIV_a = {
     
     % [Q SecondViolinVoiceIV measure 122]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    f'1
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3743,18 +3744,17 @@ Q_SecondViolinVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    f'1
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIV measure 123]                %! SM4
@@ -3764,26 +3764,6 @@ Q_SecondViolinVoiceIV_a = {
     
     % [Q SecondViolinVoiceIV measure 124]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -3794,8 +3774,6 @@ Q_SecondViolinVoiceIV_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f'1
     :32                                                  %! IC
@@ -3803,6 +3781,28 @@ Q_SecondViolinVoiceIV_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIV measure 125]                %! SM4
@@ -3824,11 +3824,12 @@ Q_SecondViolinVoiceIV_a = {
     
     % [Q SecondViolinVoiceIV measure 127]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    f'2.
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3838,18 +3839,17 @@ Q_SecondViolinVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    f'2.
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIV measure 128]                %! SM4
@@ -3859,26 +3859,6 @@ Q_SecondViolinVoiceIV_a = {
     
     % [Q SecondViolinVoiceIV measure 129]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -3889,8 +3869,6 @@ Q_SecondViolinVoiceIV_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f'1
     :32                                                  %! IC
@@ -3898,6 +3876,28 @@ Q_SecondViolinVoiceIV_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIV measure 130]                %! SM4
@@ -4019,11 +4019,12 @@ Q_ViolaVoiceI_a = {
     
     % [Q ViolaVoiceI measure 122]                        %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    d'1
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4033,18 +4034,17 @@ Q_ViolaVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    d'1
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceI measure 123]                        %! SM4
@@ -4054,26 +4054,6 @@ Q_ViolaVoiceI_a = {
     
     % [Q ViolaVoiceI measure 124]                        %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -4084,8 +4064,6 @@ Q_ViolaVoiceI_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d'1
     :32                                                  %! IC
@@ -4093,6 +4071,28 @@ Q_ViolaVoiceI_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceI measure 125]                        %! SM4
@@ -4114,11 +4114,12 @@ Q_ViolaVoiceI_a = {
     
     % [Q ViolaVoiceI measure 127]                        %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    d'2.
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4128,18 +4129,17 @@ Q_ViolaVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    d'2.
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceI measure 128]                        %! SM4
@@ -4149,26 +4149,6 @@ Q_ViolaVoiceI_a = {
     
     % [Q ViolaVoiceI measure 129]                        %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -4179,8 +4159,6 @@ Q_ViolaVoiceI_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d'1
     :32                                                  %! IC
@@ -4188,6 +4166,28 @@ Q_ViolaVoiceI_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceI measure 130]                        %! SM4
@@ -4233,11 +4233,12 @@ Q_ViolaVoiceII_a = {
     
     % [Q ViolaVoiceII measure 122]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    a1
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4247,18 +4248,17 @@ Q_ViolaVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    a1
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceII measure 123]                       %! SM4
@@ -4268,26 +4268,6 @@ Q_ViolaVoiceII_a = {
     
     % [Q ViolaVoiceII measure 124]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -4298,8 +4278,6 @@ Q_ViolaVoiceII_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a1
     :32                                                  %! IC
@@ -4307,6 +4285,28 @@ Q_ViolaVoiceII_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceII measure 125]                       %! SM4
@@ -4328,11 +4328,12 @@ Q_ViolaVoiceII_a = {
     
     % [Q ViolaVoiceII measure 127]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    a2.
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4342,18 +4343,17 @@ Q_ViolaVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    a2.
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceII measure 128]                       %! SM4
@@ -4363,26 +4363,6 @@ Q_ViolaVoiceII_a = {
     
     % [Q ViolaVoiceII measure 129]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -4393,8 +4373,6 @@ Q_ViolaVoiceII_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a1
     :32                                                  %! IC
@@ -4402,6 +4380,28 @@ Q_ViolaVoiceII_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceII measure 130]                       %! SM4
@@ -4523,11 +4523,12 @@ Q_ViolaVoiceIII_a = {
     
     % [Q ViolaVoiceIII measure 122]                      %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    b1
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4537,18 +4538,17 @@ Q_ViolaVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    b1
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIII measure 123]                      %! SM4
@@ -4558,26 +4558,6 @@ Q_ViolaVoiceIII_a = {
     
     % [Q ViolaVoiceIII measure 124]                      %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -4588,8 +4568,6 @@ Q_ViolaVoiceIII_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b1
     :32                                                  %! IC
@@ -4597,6 +4575,28 @@ Q_ViolaVoiceIII_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIII measure 125]                      %! SM4
@@ -4618,11 +4618,12 @@ Q_ViolaVoiceIII_a = {
     
     % [Q ViolaVoiceIII measure 127]                      %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    b2.
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4632,18 +4633,17 @@ Q_ViolaVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    b2.
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIII measure 128]                      %! SM4
@@ -4653,26 +4653,6 @@ Q_ViolaVoiceIII_a = {
     
     % [Q ViolaVoiceIII measure 129]                      %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -4683,8 +4663,6 @@ Q_ViolaVoiceIII_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b1
     :32                                                  %! IC
@@ -4692,6 +4670,28 @@ Q_ViolaVoiceIII_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIII measure 130]                      %! SM4
@@ -4737,11 +4737,12 @@ Q_ViolaVoiceIV_a = {
     
     % [Q ViolaVoiceIV measure 122]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    g1
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4751,18 +4752,17 @@ Q_ViolaVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    g1
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIV measure 123]                       %! SM4
@@ -4772,26 +4772,6 @@ Q_ViolaVoiceIV_a = {
     
     % [Q ViolaVoiceIV measure 124]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -4802,8 +4782,6 @@ Q_ViolaVoiceIV_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g1
     :32                                                  %! IC
@@ -4811,6 +4789,28 @@ Q_ViolaVoiceIV_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIV measure 125]                       %! SM4
@@ -4832,11 +4832,12 @@ Q_ViolaVoiceIV_a = {
     
     % [Q ViolaVoiceIV measure 127]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    g2.
+    :32                                                  %! IC
+    \<                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4846,18 +4847,17 @@ Q_ViolaVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    g2.
-    :32                                                  %! IC
-    \<                                                   %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIV measure 128]                       %! SM4
@@ -4867,26 +4867,6 @@ Q_ViolaVoiceIV_a = {
     
     % [Q ViolaVoiceIV measure 129]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.Y-extent = ##f           %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25       %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -4897,8 +4877,6 @@ Q_ViolaVoiceIV_a = {
                         tasto
             }
         }                                                %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25     %! PWC1
-    \once \override TextSpanner.dash-period = 1.5        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g1
     :32                                                  %! IC
@@ -4906,6 +4884,28 @@ Q_ViolaVoiceIV_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
+    -\tweak Y-extent ##f                                 %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                %! PWC1
+    -\tweak arrow-width 0.25                             %! PWC1
+    -\tweak dash-fraction 0.25                           %! PWC1
+    -\tweak dash-period 1.5                              %! PWC1
+    -\tweak bound-details.left-broken.text ##f           %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.arrow ##t                %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
+    -\tweak bound-details.right-broken.padding 0         %! PWC1
+    -\tweak bound-details.right-broken.text ##f          %! PWC1
+    -\tweak bound-details.right.padding 0.5              %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIV measure 130]                       %! SM4
@@ -5028,11 +5028,12 @@ Q_CelloVoiceI_a = {
     % [Q CelloVoiceI measure 122]                            %! SM4
     \override RepeatTie.direction = #up                      %! OC1
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.Y-extent = ##f               %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    d1
+    :32                                                      %! IC
+    \<                                                       %! PWC1
+    -\tweak Y-extent ##f                                     %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5042,18 +5043,17 @@ Q_CelloVoiceI_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
-    \once \override TextSpanner.dash-period = 1.5            %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    d1
-    :32                                                      %! IC
-    \<                                                       %! PWC1
+    -\tweak arrow-width 0.25                                 %! PWC1
+    -\tweak dash-fraction 0.25                               %! PWC1
+    -\tweak dash-period 1.5                                  %! PWC1
+    -\tweak bound-details.left-broken.text ##f               %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
+    -\tweak bound-details.right.arrow ##t                    %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
+    -\tweak bound-details.right-broken.padding 0             %! PWC1
+    -\tweak bound-details.right-broken.text ##f              %! PWC1
+    -\tweak bound-details.right.padding 0.5                  %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q CelloVoiceI measure 123]                            %! SM4
@@ -5063,26 +5063,6 @@ Q_CelloVoiceI_a = {
     
     % [Q CelloVoiceI measure 124]                            %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.Y-extent = ##f               %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                    %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -5093,8 +5073,6 @@ Q_CelloVoiceI_a = {
                         tasto
             }
         }                                                    %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
-    \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d1
     :32                                                      %! IC
@@ -5102,6 +5080,28 @@ Q_CelloVoiceI_a = {
     \f                                                       %! PWC1
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
+    -\tweak Y-extent ##f                                     %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                    %! PWC1
+    -\tweak arrow-width 0.25                                 %! PWC1
+    -\tweak dash-fraction 0.25                               %! PWC1
+    -\tweak dash-period 1.5                                  %! PWC1
+    -\tweak bound-details.left-broken.text ##f               %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
+    -\tweak bound-details.right.arrow ##t                    %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
+    -\tweak bound-details.right-broken.padding 0             %! PWC1
+    -\tweak bound-details.right-broken.text ##f              %! PWC1
+    -\tweak bound-details.right.padding 0.5                  %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q CelloVoiceI measure 125]                            %! SM4
@@ -5123,11 +5123,12 @@ Q_CelloVoiceI_a = {
     
     % [Q CelloVoiceI measure 127]                            %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.Y-extent = ##f               %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    d2.
+    :32                                                      %! IC
+    \<                                                       %! PWC1
+    -\tweak Y-extent ##f                                     %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5137,18 +5138,17 @@ Q_CelloVoiceI_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
-    \once \override TextSpanner.dash-period = 1.5            %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    d2.
-    :32                                                      %! IC
-    \<                                                       %! PWC1
+    -\tweak arrow-width 0.25                                 %! PWC1
+    -\tweak dash-fraction 0.25                               %! PWC1
+    -\tweak dash-period 1.5                                  %! PWC1
+    -\tweak bound-details.left-broken.text ##f               %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
+    -\tweak bound-details.right.arrow ##t                    %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
+    -\tweak bound-details.right-broken.padding 0             %! PWC1
+    -\tweak bound-details.right-broken.text ##f              %! PWC1
+    -\tweak bound-details.right.padding 0.5                  %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q CelloVoiceI measure 128]                            %! SM4
@@ -5158,26 +5158,6 @@ Q_CelloVoiceI_a = {
     
     % [Q CelloVoiceI measure 129]                            %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.Y-extent = ##f               %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                    %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -5188,8 +5168,6 @@ Q_CelloVoiceI_a = {
                         tasto
             }
         }                                                    %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
-    \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d1
     :32                                                      %! IC
@@ -5197,6 +5175,28 @@ Q_CelloVoiceI_a = {
     \mp                                                      %! PWC1
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
+    -\tweak Y-extent ##f                                     %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                    %! PWC1
+    -\tweak arrow-width 0.25                                 %! PWC1
+    -\tweak dash-fraction 0.25                               %! PWC1
+    -\tweak dash-period 1.5                                  %! PWC1
+    -\tweak bound-details.left-broken.text ##f               %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
+    -\tweak bound-details.right.arrow ##t                    %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
+    -\tweak bound-details.right-broken.padding 0             %! PWC1
+    -\tweak bound-details.right-broken.text ##f              %! PWC1
+    -\tweak bound-details.right.padding 0.5                  %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
     \startTextSpan                                           %! PWC1
     \revert RepeatTie.direction                              %! OC2
     
@@ -5243,11 +5243,12 @@ Q_CelloVoiceII_a = {
     
     % [Q CelloVoiceII measure 122]                           %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.Y-extent = ##f               %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    g,1
+    :32                                                      %! IC
+    \<                                                       %! PWC1
+    -\tweak Y-extent ##f                                     %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5257,18 +5258,17 @@ Q_CelloVoiceII_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
-    \once \override TextSpanner.dash-period = 1.5            %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    g,1
-    :32                                                      %! IC
-    \<                                                       %! PWC1
+    -\tweak arrow-width 0.25                                 %! PWC1
+    -\tweak dash-fraction 0.25                               %! PWC1
+    -\tweak dash-period 1.5                                  %! PWC1
+    -\tweak bound-details.left-broken.text ##f               %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
+    -\tweak bound-details.right.arrow ##t                    %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
+    -\tweak bound-details.right-broken.padding 0             %! PWC1
+    -\tweak bound-details.right-broken.text ##f              %! PWC1
+    -\tweak bound-details.right.padding 0.5                  %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q CelloVoiceII measure 123]                           %! SM4
@@ -5278,26 +5278,6 @@ Q_CelloVoiceII_a = {
     
     % [Q CelloVoiceII measure 124]                           %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.Y-extent = ##f               %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                    %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -5308,8 +5288,6 @@ Q_CelloVoiceII_a = {
                         tasto
             }
         }                                                    %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
-    \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     :32                                                      %! IC
@@ -5317,6 +5295,28 @@ Q_CelloVoiceII_a = {
     \f                                                       %! PWC1
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
+    -\tweak Y-extent ##f                                     %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                    %! PWC1
+    -\tweak arrow-width 0.25                                 %! PWC1
+    -\tweak dash-fraction 0.25                               %! PWC1
+    -\tweak dash-period 1.5                                  %! PWC1
+    -\tweak bound-details.left-broken.text ##f               %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
+    -\tweak bound-details.right.arrow ##t                    %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
+    -\tweak bound-details.right-broken.padding 0             %! PWC1
+    -\tweak bound-details.right-broken.text ##f              %! PWC1
+    -\tweak bound-details.right.padding 0.5                  %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q CelloVoiceII measure 125]                           %! SM4
@@ -5338,11 +5338,12 @@ Q_CelloVoiceII_a = {
     
     % [Q CelloVoiceII measure 127]                           %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.Y-extent = ##f               %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    g,2.
+    :32                                                      %! IC
+    \<                                                       %! PWC1
+    -\tweak Y-extent ##f                                     %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5352,18 +5353,17 @@ Q_CelloVoiceII_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
-    \once \override TextSpanner.dash-period = 1.5            %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    g,2.
-    :32                                                      %! IC
-    \<                                                       %! PWC1
+    -\tweak arrow-width 0.25                                 %! PWC1
+    -\tweak dash-fraction 0.25                               %! PWC1
+    -\tweak dash-period 1.5                                  %! PWC1
+    -\tweak bound-details.left-broken.text ##f               %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
+    -\tweak bound-details.right.arrow ##t                    %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
+    -\tweak bound-details.right-broken.padding 0             %! PWC1
+    -\tweak bound-details.right-broken.text ##f              %! PWC1
+    -\tweak bound-details.right.padding 0.5                  %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q CelloVoiceII measure 128]                           %! SM4
@@ -5373,26 +5373,6 @@ Q_CelloVoiceII_a = {
     
     % [Q CelloVoiceII measure 129]                           %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.Y-extent = ##f               %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                    %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -5403,8 +5383,6 @@ Q_CelloVoiceII_a = {
                         tasto
             }
         }                                                    %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
-    \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     :32                                                      %! IC
@@ -5412,6 +5390,28 @@ Q_CelloVoiceII_a = {
     \mp                                                      %! PWC1
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
+    -\tweak Y-extent ##f                                     %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                    %! PWC1
+    -\tweak arrow-width 0.25                                 %! PWC1
+    -\tweak dash-fraction 0.25                               %! PWC1
+    -\tweak dash-period 1.5                                  %! PWC1
+    -\tweak bound-details.left-broken.text ##f               %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
+    -\tweak bound-details.right.arrow ##t                    %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
+    -\tweak bound-details.right-broken.padding 0             %! PWC1
+    -\tweak bound-details.right-broken.text ##f              %! PWC1
+    -\tweak bound-details.right.padding 0.5                  %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q CelloVoiceII measure 130]                           %! SM4
@@ -5508,11 +5508,12 @@ Q_ContrabassVoiceIII_a = {
     
     % [Q ContrabassVoiceIII measure 122]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.Y-extent = ##f               %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    g,1
+    :32                                                      %! IC
+    \<                                                       %! PWC1
+    -\tweak Y-extent ##f                                     %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5522,18 +5523,17 @@ Q_ContrabassVoiceIII_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
-    \once \override TextSpanner.dash-period = 1.5            %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    g,1
-    :32                                                      %! IC
-    \<                                                       %! PWC1
+    -\tweak arrow-width 0.25                                 %! PWC1
+    -\tweak dash-fraction 0.25                               %! PWC1
+    -\tweak dash-period 1.5                                  %! PWC1
+    -\tweak bound-details.left-broken.text ##f               %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
+    -\tweak bound-details.right.arrow ##t                    %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
+    -\tweak bound-details.right-broken.padding 0             %! PWC1
+    -\tweak bound-details.right-broken.text ##f              %! PWC1
+    -\tweak bound-details.right.padding 0.5                  %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q ContrabassVoiceIII measure 123]                     %! SM4
@@ -5543,26 +5543,6 @@ Q_ContrabassVoiceIII_a = {
     
     % [Q ContrabassVoiceIII measure 124]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.Y-extent = ##f               %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                    %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -5573,8 +5553,6 @@ Q_ContrabassVoiceIII_a = {
                         tasto
             }
         }                                                    %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
-    \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     :32                                                      %! IC
@@ -5582,6 +5560,28 @@ Q_ContrabassVoiceIII_a = {
     \f                                                       %! PWC1
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
+    -\tweak Y-extent ##f                                     %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                    %! PWC1
+    -\tweak arrow-width 0.25                                 %! PWC1
+    -\tweak dash-fraction 0.25                               %! PWC1
+    -\tweak dash-period 1.5                                  %! PWC1
+    -\tweak bound-details.left-broken.text ##f               %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
+    -\tweak bound-details.right.arrow ##t                    %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
+    -\tweak bound-details.right-broken.padding 0             %! PWC1
+    -\tweak bound-details.right-broken.text ##f              %! PWC1
+    -\tweak bound-details.right.padding 0.5                  %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q ContrabassVoiceIII measure 125]                     %! SM4
@@ -5603,11 +5603,12 @@ Q_ContrabassVoiceIII_a = {
     
     % [Q ContrabassVoiceIII measure 127]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.Y-extent = ##f               %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    g,2.
+    :32                                                      %! IC
+    \<                                                       %! PWC1
+    -\tweak Y-extent ##f                                     %! PWC1
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5617,18 +5618,17 @@ Q_ContrabassVoiceIII_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
-    \once \override TextSpanner.dash-period = 1.5            %! PWC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    g,2.
-    :32                                                      %! IC
-    \<                                                       %! PWC1
+    -\tweak arrow-width 0.25                                 %! PWC1
+    -\tweak dash-fraction 0.25                               %! PWC1
+    -\tweak dash-period 1.5                                  %! PWC1
+    -\tweak bound-details.left-broken.text ##f               %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
+    -\tweak bound-details.right.arrow ##t                    %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
+    -\tweak bound-details.right-broken.padding 0             %! PWC1
+    -\tweak bound-details.right-broken.text ##f              %! PWC1
+    -\tweak bound-details.right.padding 0.5                  %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q ContrabassVoiceIII measure 128]                     %! SM4
@@ -5638,26 +5638,6 @@ Q_ContrabassVoiceIII_a = {
     
     % [Q ContrabassVoiceIII measure 129]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.Y-extent = ##f               %! PWC1
-    \once \override TextSpanner.arrow-width = 0.25           %! PWC1
-    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
-        }                                                    %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-    \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
     \once \override TextSpanner.bound-details.right.text = \markup {
         \concat
             {
@@ -5668,8 +5648,6 @@ Q_ContrabassVoiceIII_a = {
                         tasto
             }
         }                                                    %! PWC1
-    \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
-    \once \override TextSpanner.dash-period = 1.5            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     :32                                                      %! IC
@@ -5677,6 +5655,28 @@ Q_ContrabassVoiceIII_a = {
     \mp                                                      %! PWC1
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
+    -\tweak Y-extent ##f                                     %! PWC1
+    -\tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "ext. pont."
+                \hspace
+                    #0.5
+            }
+        }                                                    %! PWC1
+    -\tweak arrow-width 0.25                                 %! PWC1
+    -\tweak dash-fraction 0.25                               %! PWC1
+    -\tweak dash-period 1.5                                  %! PWC1
+    -\tweak bound-details.left-broken.text ##f               %! PWC1
+    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
+    -\tweak bound-details.right.arrow ##t                    %! PWC1
+    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
+    -\tweak bound-details.right-broken.padding 0             %! PWC1
+    -\tweak bound-details.right-broken.text ##f              %! PWC1
+    -\tweak bound-details.right.padding 0.5                  %! PWC1
+    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q ContrabassVoiceIII measure 130]                     %! SM4
