@@ -1884,16 +1884,6 @@ Q_FirstViolinVoiceI_a = {
     
     % [Q FirstViolinVoiceI measure 124]                  %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a''1
     :32                                                  %! IC
@@ -1923,6 +1913,16 @@ Q_FirstViolinVoiceI_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceI measure 125]                  %! SM4
@@ -1979,16 +1979,6 @@ Q_FirstViolinVoiceI_a = {
     
     % [Q FirstViolinVoiceI measure 129]                  %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a''1
     :32                                                  %! IC
@@ -2018,6 +2008,16 @@ Q_FirstViolinVoiceI_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceI measure 130]                  %! SM4
@@ -2098,16 +2098,6 @@ Q_FirstViolinVoiceII_a = {
     
     % [Q FirstViolinVoiceII measure 124]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f''1
     :32                                                  %! IC
@@ -2137,6 +2127,16 @@ Q_FirstViolinVoiceII_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceII measure 125]                 %! SM4
@@ -2193,16 +2193,6 @@ Q_FirstViolinVoiceII_a = {
     
     % [Q FirstViolinVoiceII measure 129]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f''1
     :32                                                  %! IC
@@ -2232,6 +2222,16 @@ Q_FirstViolinVoiceII_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceII measure 130]                 %! SM4
@@ -2388,16 +2388,6 @@ Q_FirstViolinVoiceIII_a = {
     
     % [Q FirstViolinVoiceIII measure 124]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g''1
     :32                                                  %! IC
@@ -2427,6 +2417,16 @@ Q_FirstViolinVoiceIII_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIII measure 125]                %! SM4
@@ -2483,16 +2483,6 @@ Q_FirstViolinVoiceIII_a = {
     
     % [Q FirstViolinVoiceIII measure 129]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g''1
     :32                                                  %! IC
@@ -2522,6 +2512,16 @@ Q_FirstViolinVoiceIII_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIII measure 130]                %! SM4
@@ -2602,16 +2602,6 @@ Q_FirstViolinVoiceIV_a = {
     
     % [Q FirstViolinVoiceIV measure 124]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d''1
     :32                                                  %! IC
@@ -2641,6 +2631,16 @@ Q_FirstViolinVoiceIV_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIV measure 125]                 %! SM4
@@ -2697,16 +2697,6 @@ Q_FirstViolinVoiceIV_a = {
     
     % [Q FirstViolinVoiceIV measure 129]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d''1
     :32                                                  %! IC
@@ -2736,6 +2726,16 @@ Q_FirstViolinVoiceIV_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIV measure 130]                 %! SM4
@@ -3045,16 +3045,6 @@ Q_SecondViolinVoiceI_a = {
     
     % [Q SecondViolinVoiceI measure 124]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b'1
     :32                                                  %! IC
@@ -3084,6 +3074,16 @@ Q_SecondViolinVoiceI_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceI measure 125]                 %! SM4
@@ -3140,16 +3140,6 @@ Q_SecondViolinVoiceI_a = {
     
     % [Q SecondViolinVoiceI measure 129]                 %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b'1
     :32                                                  %! IC
@@ -3179,6 +3169,16 @@ Q_SecondViolinVoiceI_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     \revert RepeatTie.direction                          %! OC2
     
@@ -3260,16 +3260,6 @@ Q_SecondViolinVoiceII_a = {
     
     % [Q SecondViolinVoiceII measure 124]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g'1
     :32                                                  %! IC
@@ -3299,6 +3289,16 @@ Q_SecondViolinVoiceII_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceII measure 125]                %! SM4
@@ -3355,16 +3355,6 @@ Q_SecondViolinVoiceII_a = {
     
     % [Q SecondViolinVoiceII measure 129]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g'1
     :32                                                  %! IC
@@ -3394,6 +3384,16 @@ Q_SecondViolinVoiceII_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceII measure 130]                %! SM4
@@ -3550,16 +3550,6 @@ Q_SecondViolinVoiceIII_a = {
     
     % [Q SecondViolinVoiceIII measure 124]               %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a'1
     :32                                                  %! IC
@@ -3589,6 +3579,16 @@ Q_SecondViolinVoiceIII_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIII measure 125]               %! SM4
@@ -3645,16 +3645,6 @@ Q_SecondViolinVoiceIII_a = {
     
     % [Q SecondViolinVoiceIII measure 129]               %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a'1
     :32                                                  %! IC
@@ -3684,6 +3674,16 @@ Q_SecondViolinVoiceIII_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIII measure 130]               %! SM4
@@ -3764,16 +3764,6 @@ Q_SecondViolinVoiceIV_a = {
     
     % [Q SecondViolinVoiceIV measure 124]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f'1
     :32                                                  %! IC
@@ -3803,6 +3793,16 @@ Q_SecondViolinVoiceIV_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIV measure 125]                %! SM4
@@ -3859,16 +3859,6 @@ Q_SecondViolinVoiceIV_a = {
     
     % [Q SecondViolinVoiceIV measure 129]                %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f'1
     :32                                                  %! IC
@@ -3898,6 +3888,16 @@ Q_SecondViolinVoiceIV_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIV measure 130]                %! SM4
@@ -4054,16 +4054,6 @@ Q_ViolaVoiceI_a = {
     
     % [Q ViolaVoiceI measure 124]                        %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d'1
     :32                                                  %! IC
@@ -4093,6 +4083,16 @@ Q_ViolaVoiceI_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceI measure 125]                        %! SM4
@@ -4149,16 +4149,6 @@ Q_ViolaVoiceI_a = {
     
     % [Q ViolaVoiceI measure 129]                        %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d'1
     :32                                                  %! IC
@@ -4188,6 +4178,16 @@ Q_ViolaVoiceI_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceI measure 130]                        %! SM4
@@ -4268,16 +4268,6 @@ Q_ViolaVoiceII_a = {
     
     % [Q ViolaVoiceII measure 124]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a1
     :32                                                  %! IC
@@ -4307,6 +4297,16 @@ Q_ViolaVoiceII_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceII measure 125]                       %! SM4
@@ -4363,16 +4363,6 @@ Q_ViolaVoiceII_a = {
     
     % [Q ViolaVoiceII measure 129]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a1
     :32                                                  %! IC
@@ -4402,6 +4392,16 @@ Q_ViolaVoiceII_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceII measure 130]                       %! SM4
@@ -4558,16 +4558,6 @@ Q_ViolaVoiceIII_a = {
     
     % [Q ViolaVoiceIII measure 124]                      %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b1
     :32                                                  %! IC
@@ -4597,6 +4587,16 @@ Q_ViolaVoiceIII_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIII measure 125]                      %! SM4
@@ -4653,16 +4653,6 @@ Q_ViolaVoiceIII_a = {
     
     % [Q ViolaVoiceIII measure 129]                      %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b1
     :32                                                  %! IC
@@ -4692,6 +4682,16 @@ Q_ViolaVoiceIII_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIII measure 130]                      %! SM4
@@ -4772,16 +4772,6 @@ Q_ViolaVoiceIV_a = {
     
     % [Q ViolaVoiceIV measure 124]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g1
     :32                                                  %! IC
@@ -4811,6 +4801,16 @@ Q_ViolaVoiceIV_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIV measure 125]                       %! SM4
@@ -4867,16 +4867,6 @@ Q_ViolaVoiceIV_a = {
     
     % [Q ViolaVoiceIV measure 129]                       %! SM4
     \once \override Hairpin.circled-tip = ##t            %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g1
     :32                                                  %! IC
@@ -4906,6 +4896,16 @@ Q_ViolaVoiceIV_a = {
     -\tweak bound-details.right-broken.text ##f          %! PWC1
     -\tweak bound-details.right.padding 0.5              %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIV measure 130]                       %! SM4
@@ -5063,16 +5063,6 @@ Q_CelloVoiceI_a = {
     
     % [Q CelloVoiceI measure 124]                            %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                    %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d1
     :32                                                      %! IC
@@ -5102,6 +5092,16 @@ Q_CelloVoiceI_a = {
     -\tweak bound-details.right-broken.text ##f              %! PWC1
     -\tweak bound-details.right.padding 0.5                  %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q CelloVoiceI measure 125]                            %! SM4
@@ -5158,16 +5158,6 @@ Q_CelloVoiceI_a = {
     
     % [Q CelloVoiceI measure 129]                            %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                    %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d1
     :32                                                      %! IC
@@ -5197,6 +5187,16 @@ Q_CelloVoiceI_a = {
     -\tweak bound-details.right-broken.text ##f              %! PWC1
     -\tweak bound-details.right.padding 0.5                  %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     \revert RepeatTie.direction                              %! OC2
     
@@ -5278,16 +5278,6 @@ Q_CelloVoiceII_a = {
     
     % [Q CelloVoiceII measure 124]                           %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                    %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     :32                                                      %! IC
@@ -5317,6 +5307,16 @@ Q_CelloVoiceII_a = {
     -\tweak bound-details.right-broken.text ##f              %! PWC1
     -\tweak bound-details.right.padding 0.5                  %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q CelloVoiceII measure 125]                           %! SM4
@@ -5373,16 +5373,6 @@ Q_CelloVoiceII_a = {
     
     % [Q CelloVoiceII measure 129]                           %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                    %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     :32                                                      %! IC
@@ -5412,6 +5402,16 @@ Q_CelloVoiceII_a = {
     -\tweak bound-details.right-broken.text ##f              %! PWC1
     -\tweak bound-details.right.padding 0.5                  %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q CelloVoiceII measure 130]                           %! SM4
@@ -5543,16 +5543,6 @@ Q_ContrabassVoiceIII_a = {
     
     % [Q ContrabassVoiceIII measure 124]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                    %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     :32                                                      %! IC
@@ -5582,6 +5572,16 @@ Q_ContrabassVoiceIII_a = {
     -\tweak bound-details.right-broken.text ##f              %! PWC1
     -\tweak bound-details.right.padding 0.5                  %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q ContrabassVoiceIII measure 125]                     %! SM4
@@ -5638,16 +5638,6 @@ Q_ContrabassVoiceIII_a = {
     
     % [Q ContrabassVoiceIII measure 129]                     %! SM4
     \once \override Hairpin.circled-tip = ##t                %! PWC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                    %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     :32                                                      %! IC
@@ -5677,6 +5667,16 @@ Q_ContrabassVoiceIII_a = {
     -\tweak bound-details.right-broken.text ##f              %! PWC1
     -\tweak bound-details.right.padding 0.5                  %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q ContrabassVoiceIII measure 130]                     %! SM4

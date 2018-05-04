@@ -5259,16 +5259,6 @@ Z_ContrabassVoiceIII_a = {
     \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 5         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "ext. pont."
-            }
-        }                                                    %! PWC1
     \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -5301,6 +5291,16 @@ Z_ContrabassVoiceIII_a = {
     -\tweak bound-details.right-broken.text ##f              %! PWC1
     -\tweak bound-details.right.padding 0.5                  %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "ext. pont."
+            }
+        }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     ^ \markup {
         \column
