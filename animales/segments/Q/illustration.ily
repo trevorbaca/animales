@@ -1853,8 +1853,8 @@ Q_FirstViolinVoiceI_a = {
     a''1
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -1864,17 +1864,17 @@ Q_FirstViolinVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceI measure 123]                  %! SM4
@@ -1891,8 +1891,8 @@ Q_FirstViolinVoiceI_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -1902,18 +1902,18 @@ Q_FirstViolinVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -1948,8 +1948,8 @@ Q_FirstViolinVoiceI_a = {
     a''2.
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -1959,17 +1959,17 @@ Q_FirstViolinVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceI measure 128]                  %! SM4
@@ -1986,8 +1986,8 @@ Q_FirstViolinVoiceI_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -1997,18 +1997,18 @@ Q_FirstViolinVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -2067,8 +2067,8 @@ Q_FirstViolinVoiceII_a = {
     f''1
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2078,17 +2078,17 @@ Q_FirstViolinVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceII measure 123]                 %! SM4
@@ -2105,8 +2105,8 @@ Q_FirstViolinVoiceII_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2116,18 +2116,18 @@ Q_FirstViolinVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -2162,8 +2162,8 @@ Q_FirstViolinVoiceII_a = {
     f''2.
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2173,17 +2173,17 @@ Q_FirstViolinVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceII measure 128]                 %! SM4
@@ -2200,8 +2200,8 @@ Q_FirstViolinVoiceII_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2211,18 +2211,18 @@ Q_FirstViolinVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -2357,8 +2357,8 @@ Q_FirstViolinVoiceIII_a = {
     g''1
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2368,17 +2368,17 @@ Q_FirstViolinVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIII measure 123]                %! SM4
@@ -2395,8 +2395,8 @@ Q_FirstViolinVoiceIII_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2406,18 +2406,18 @@ Q_FirstViolinVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -2452,8 +2452,8 @@ Q_FirstViolinVoiceIII_a = {
     g''2.
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2463,17 +2463,17 @@ Q_FirstViolinVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIII measure 128]                %! SM4
@@ -2490,8 +2490,8 @@ Q_FirstViolinVoiceIII_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2501,18 +2501,18 @@ Q_FirstViolinVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -2571,8 +2571,8 @@ Q_FirstViolinVoiceIV_a = {
     d''1
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2582,17 +2582,17 @@ Q_FirstViolinVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIV measure 123]                 %! SM4
@@ -2609,8 +2609,8 @@ Q_FirstViolinVoiceIV_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2620,18 +2620,18 @@ Q_FirstViolinVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -2666,8 +2666,8 @@ Q_FirstViolinVoiceIV_a = {
     d''2.
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2677,17 +2677,17 @@ Q_FirstViolinVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q FirstViolinVoiceIV measure 128]                 %! SM4
@@ -2704,8 +2704,8 @@ Q_FirstViolinVoiceIV_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2715,18 +2715,18 @@ Q_FirstViolinVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -3014,8 +3014,8 @@ Q_SecondViolinVoiceI_a = {
     b'1
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3025,17 +3025,17 @@ Q_SecondViolinVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceI measure 123]                 %! SM4
@@ -3052,8 +3052,8 @@ Q_SecondViolinVoiceI_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3063,18 +3063,18 @@ Q_SecondViolinVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -3109,8 +3109,8 @@ Q_SecondViolinVoiceI_a = {
     b'2.
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3120,17 +3120,17 @@ Q_SecondViolinVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceI measure 128]                 %! SM4
@@ -3147,8 +3147,8 @@ Q_SecondViolinVoiceI_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3158,18 +3158,18 @@ Q_SecondViolinVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -3229,8 +3229,8 @@ Q_SecondViolinVoiceII_a = {
     g'1
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3240,17 +3240,17 @@ Q_SecondViolinVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceII measure 123]                %! SM4
@@ -3267,8 +3267,8 @@ Q_SecondViolinVoiceII_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3278,18 +3278,18 @@ Q_SecondViolinVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -3324,8 +3324,8 @@ Q_SecondViolinVoiceII_a = {
     g'2.
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3335,17 +3335,17 @@ Q_SecondViolinVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceII measure 128]                %! SM4
@@ -3362,8 +3362,8 @@ Q_SecondViolinVoiceII_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3373,18 +3373,18 @@ Q_SecondViolinVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -3519,8 +3519,8 @@ Q_SecondViolinVoiceIII_a = {
     a'1
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3530,17 +3530,17 @@ Q_SecondViolinVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIII measure 123]               %! SM4
@@ -3557,8 +3557,8 @@ Q_SecondViolinVoiceIII_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3568,18 +3568,18 @@ Q_SecondViolinVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -3614,8 +3614,8 @@ Q_SecondViolinVoiceIII_a = {
     a'2.
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3625,17 +3625,17 @@ Q_SecondViolinVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIII measure 128]               %! SM4
@@ -3652,8 +3652,8 @@ Q_SecondViolinVoiceIII_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3663,18 +3663,18 @@ Q_SecondViolinVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -3733,8 +3733,8 @@ Q_SecondViolinVoiceIV_a = {
     f'1
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3744,17 +3744,17 @@ Q_SecondViolinVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIV measure 123]                %! SM4
@@ -3771,8 +3771,8 @@ Q_SecondViolinVoiceIV_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3782,18 +3782,18 @@ Q_SecondViolinVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -3828,8 +3828,8 @@ Q_SecondViolinVoiceIV_a = {
     f'2.
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3839,17 +3839,17 @@ Q_SecondViolinVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q SecondViolinVoiceIV measure 128]                %! SM4
@@ -3866,8 +3866,8 @@ Q_SecondViolinVoiceIV_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3877,18 +3877,18 @@ Q_SecondViolinVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -4023,8 +4023,8 @@ Q_ViolaVoiceI_a = {
     d'1
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4034,17 +4034,17 @@ Q_ViolaVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceI measure 123]                        %! SM4
@@ -4061,8 +4061,8 @@ Q_ViolaVoiceI_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4072,18 +4072,18 @@ Q_ViolaVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -4118,8 +4118,8 @@ Q_ViolaVoiceI_a = {
     d'2.
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4129,17 +4129,17 @@ Q_ViolaVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceI measure 128]                        %! SM4
@@ -4156,8 +4156,8 @@ Q_ViolaVoiceI_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4167,18 +4167,18 @@ Q_ViolaVoiceI_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -4237,8 +4237,8 @@ Q_ViolaVoiceII_a = {
     a1
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4248,17 +4248,17 @@ Q_ViolaVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceII measure 123]                       %! SM4
@@ -4275,8 +4275,8 @@ Q_ViolaVoiceII_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4286,18 +4286,18 @@ Q_ViolaVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -4332,8 +4332,8 @@ Q_ViolaVoiceII_a = {
     a2.
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4343,17 +4343,17 @@ Q_ViolaVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceII measure 128]                       %! SM4
@@ -4370,8 +4370,8 @@ Q_ViolaVoiceII_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4381,18 +4381,18 @@ Q_ViolaVoiceII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -4527,8 +4527,8 @@ Q_ViolaVoiceIII_a = {
     b1
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4538,17 +4538,17 @@ Q_ViolaVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIII measure 123]                      %! SM4
@@ -4565,8 +4565,8 @@ Q_ViolaVoiceIII_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4576,18 +4576,18 @@ Q_ViolaVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -4622,8 +4622,8 @@ Q_ViolaVoiceIII_a = {
     b2.
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4633,17 +4633,17 @@ Q_ViolaVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIII measure 128]                      %! SM4
@@ -4660,8 +4660,8 @@ Q_ViolaVoiceIII_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4671,18 +4671,18 @@ Q_ViolaVoiceIII_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -4741,8 +4741,8 @@ Q_ViolaVoiceIV_a = {
     g1
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4752,17 +4752,17 @@ Q_ViolaVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIV measure 123]                       %! SM4
@@ -4779,8 +4779,8 @@ Q_ViolaVoiceIV_a = {
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4790,18 +4790,18 @@ Q_ViolaVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -4836,8 +4836,8 @@ Q_ViolaVoiceIV_a = {
     g2.
     :32                                                  %! IC
     \<                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4847,17 +4847,17 @@ Q_ViolaVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                       %! PWC1
     
     % [Q ViolaVoiceIV measure 128]                       %! SM4
@@ -4874,8 +4874,8 @@ Q_ViolaVoiceIV_a = {
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
     \>                                                   %! PWC1
-    -\tweak Y-extent ##f                                 %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4885,18 +4885,18 @@ Q_ViolaVoiceIV_a = {
                     #0.5
             }
         }                                                %! PWC1
-    -\tweak arrow-width 0.25                             %! PWC1
-    -\tweak dash-fraction 0.25                           %! PWC1
-    -\tweak dash-period 1.5                              %! PWC1
-    -\tweak bound-details.left-broken.text ##f           %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.arrow ##t                %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f         %! PWC1
-    -\tweak bound-details.right-broken.padding 0         %! PWC1
-    -\tweak bound-details.right-broken.text ##f          %! PWC1
-    -\tweak bound-details.right.padding 0.5              %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                            %! PWC1
+    - \tweak dash-fraction 0.25                          %! PWC1
+    - \tweak dash-period 1.5                             %! PWC1
+    - \tweak bound-details.left-broken.text ##f          %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.arrow ##t               %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
+    - \tweak bound-details.right-broken.padding 0        %! PWC1
+    - \tweak bound-details.right-broken.text ##f         %! PWC1
+    - \tweak bound-details.right.padding 0.5             %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -5032,8 +5032,8 @@ Q_CelloVoiceI_a = {
     d1
     :32                                                      %! IC
     \<                                                       %! PWC1
-    -\tweak Y-extent ##f                                     %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                    %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5043,17 +5043,17 @@ Q_CelloVoiceI_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    -\tweak arrow-width 0.25                                 %! PWC1
-    -\tweak dash-fraction 0.25                               %! PWC1
-    -\tweak dash-period 1.5                                  %! PWC1
-    -\tweak bound-details.left-broken.text ##f               %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-    -\tweak bound-details.right.arrow ##t                    %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-    -\tweak bound-details.right-broken.padding 0             %! PWC1
-    -\tweak bound-details.right-broken.text ##f              %! PWC1
-    -\tweak bound-details.right.padding 0.5                  %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+    - \tweak arrow-width 0.25                                %! PWC1
+    - \tweak dash-fraction 0.25                              %! PWC1
+    - \tweak dash-period 1.5                                 %! PWC1
+    - \tweak bound-details.left-broken.text ##f              %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+    - \tweak bound-details.right.arrow ##t                   %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+    - \tweak bound-details.right-broken.padding 0            %! PWC1
+    - \tweak bound-details.right-broken.text ##f             %! PWC1
+    - \tweak bound-details.right.padding 0.5                 %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q CelloVoiceI measure 123]                            %! SM4
@@ -5070,8 +5070,8 @@ Q_CelloVoiceI_a = {
     \f                                                       %! PWC1
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
-    -\tweak Y-extent ##f                                     %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                    %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5081,18 +5081,18 @@ Q_CelloVoiceI_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    -\tweak arrow-width 0.25                                 %! PWC1
-    -\tweak dash-fraction 0.25                               %! PWC1
-    -\tweak dash-period 1.5                                  %! PWC1
-    -\tweak bound-details.left-broken.text ##f               %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-    -\tweak bound-details.right.arrow ##t                    %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-    -\tweak bound-details.right-broken.padding 0             %! PWC1
-    -\tweak bound-details.right-broken.text ##f              %! PWC1
-    -\tweak bound-details.right.padding 0.5                  %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                %! PWC1
+    - \tweak dash-fraction 0.25                              %! PWC1
+    - \tweak dash-period 1.5                                 %! PWC1
+    - \tweak bound-details.left-broken.text ##f              %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+    - \tweak bound-details.right.arrow ##t                   %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+    - \tweak bound-details.right-broken.padding 0            %! PWC1
+    - \tweak bound-details.right-broken.text ##f             %! PWC1
+    - \tweak bound-details.right.padding 0.5                 %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -5127,8 +5127,8 @@ Q_CelloVoiceI_a = {
     d2.
     :32                                                      %! IC
     \<                                                       %! PWC1
-    -\tweak Y-extent ##f                                     %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                    %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5138,17 +5138,17 @@ Q_CelloVoiceI_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    -\tweak arrow-width 0.25                                 %! PWC1
-    -\tweak dash-fraction 0.25                               %! PWC1
-    -\tweak dash-period 1.5                                  %! PWC1
-    -\tweak bound-details.left-broken.text ##f               %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-    -\tweak bound-details.right.arrow ##t                    %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-    -\tweak bound-details.right-broken.padding 0             %! PWC1
-    -\tweak bound-details.right-broken.text ##f              %! PWC1
-    -\tweak bound-details.right.padding 0.5                  %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+    - \tweak arrow-width 0.25                                %! PWC1
+    - \tweak dash-fraction 0.25                              %! PWC1
+    - \tweak dash-period 1.5                                 %! PWC1
+    - \tweak bound-details.left-broken.text ##f              %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+    - \tweak bound-details.right.arrow ##t                   %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+    - \tweak bound-details.right-broken.padding 0            %! PWC1
+    - \tweak bound-details.right-broken.text ##f             %! PWC1
+    - \tweak bound-details.right.padding 0.5                 %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q CelloVoiceI measure 128]                            %! SM4
@@ -5165,8 +5165,8 @@ Q_CelloVoiceI_a = {
     \mp                                                      %! PWC1
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
-    -\tweak Y-extent ##f                                     %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                    %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5176,18 +5176,18 @@ Q_CelloVoiceI_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    -\tweak arrow-width 0.25                                 %! PWC1
-    -\tweak dash-fraction 0.25                               %! PWC1
-    -\tweak dash-period 1.5                                  %! PWC1
-    -\tweak bound-details.left-broken.text ##f               %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-    -\tweak bound-details.right.arrow ##t                    %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-    -\tweak bound-details.right-broken.padding 0             %! PWC1
-    -\tweak bound-details.right-broken.text ##f              %! PWC1
-    -\tweak bound-details.right.padding 0.5                  %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                %! PWC1
+    - \tweak dash-fraction 0.25                              %! PWC1
+    - \tweak dash-period 1.5                                 %! PWC1
+    - \tweak bound-details.left-broken.text ##f              %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+    - \tweak bound-details.right.arrow ##t                   %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+    - \tweak bound-details.right-broken.padding 0            %! PWC1
+    - \tweak bound-details.right-broken.text ##f             %! PWC1
+    - \tweak bound-details.right.padding 0.5                 %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -5247,8 +5247,8 @@ Q_CelloVoiceII_a = {
     g,1
     :32                                                      %! IC
     \<                                                       %! PWC1
-    -\tweak Y-extent ##f                                     %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                    %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5258,17 +5258,17 @@ Q_CelloVoiceII_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    -\tweak arrow-width 0.25                                 %! PWC1
-    -\tweak dash-fraction 0.25                               %! PWC1
-    -\tweak dash-period 1.5                                  %! PWC1
-    -\tweak bound-details.left-broken.text ##f               %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-    -\tweak bound-details.right.arrow ##t                    %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-    -\tweak bound-details.right-broken.padding 0             %! PWC1
-    -\tweak bound-details.right-broken.text ##f              %! PWC1
-    -\tweak bound-details.right.padding 0.5                  %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+    - \tweak arrow-width 0.25                                %! PWC1
+    - \tweak dash-fraction 0.25                              %! PWC1
+    - \tweak dash-period 1.5                                 %! PWC1
+    - \tweak bound-details.left-broken.text ##f              %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+    - \tweak bound-details.right.arrow ##t                   %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+    - \tweak bound-details.right-broken.padding 0            %! PWC1
+    - \tweak bound-details.right-broken.text ##f             %! PWC1
+    - \tweak bound-details.right.padding 0.5                 %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q CelloVoiceII measure 123]                           %! SM4
@@ -5285,8 +5285,8 @@ Q_CelloVoiceII_a = {
     \f                                                       %! PWC1
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
-    -\tweak Y-extent ##f                                     %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                    %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5296,18 +5296,18 @@ Q_CelloVoiceII_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    -\tweak arrow-width 0.25                                 %! PWC1
-    -\tweak dash-fraction 0.25                               %! PWC1
-    -\tweak dash-period 1.5                                  %! PWC1
-    -\tweak bound-details.left-broken.text ##f               %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-    -\tweak bound-details.right.arrow ##t                    %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-    -\tweak bound-details.right-broken.padding 0             %! PWC1
-    -\tweak bound-details.right-broken.text ##f              %! PWC1
-    -\tweak bound-details.right.padding 0.5                  %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                %! PWC1
+    - \tweak dash-fraction 0.25                              %! PWC1
+    - \tweak dash-period 1.5                                 %! PWC1
+    - \tweak bound-details.left-broken.text ##f              %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+    - \tweak bound-details.right.arrow ##t                   %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+    - \tweak bound-details.right-broken.padding 0            %! PWC1
+    - \tweak bound-details.right-broken.text ##f             %! PWC1
+    - \tweak bound-details.right.padding 0.5                 %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -5342,8 +5342,8 @@ Q_CelloVoiceII_a = {
     g,2.
     :32                                                      %! IC
     \<                                                       %! PWC1
-    -\tweak Y-extent ##f                                     %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                    %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5353,17 +5353,17 @@ Q_CelloVoiceII_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    -\tweak arrow-width 0.25                                 %! PWC1
-    -\tweak dash-fraction 0.25                               %! PWC1
-    -\tweak dash-period 1.5                                  %! PWC1
-    -\tweak bound-details.left-broken.text ##f               %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-    -\tweak bound-details.right.arrow ##t                    %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-    -\tweak bound-details.right-broken.padding 0             %! PWC1
-    -\tweak bound-details.right-broken.text ##f              %! PWC1
-    -\tweak bound-details.right.padding 0.5                  %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+    - \tweak arrow-width 0.25                                %! PWC1
+    - \tweak dash-fraction 0.25                              %! PWC1
+    - \tweak dash-period 1.5                                 %! PWC1
+    - \tweak bound-details.left-broken.text ##f              %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+    - \tweak bound-details.right.arrow ##t                   %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+    - \tweak bound-details.right-broken.padding 0            %! PWC1
+    - \tweak bound-details.right-broken.text ##f             %! PWC1
+    - \tweak bound-details.right.padding 0.5                 %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q CelloVoiceII measure 128]                           %! SM4
@@ -5380,8 +5380,8 @@ Q_CelloVoiceII_a = {
     \mp                                                      %! PWC1
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
-    -\tweak Y-extent ##f                                     %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                    %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5391,18 +5391,18 @@ Q_CelloVoiceII_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    -\tweak arrow-width 0.25                                 %! PWC1
-    -\tweak dash-fraction 0.25                               %! PWC1
-    -\tweak dash-period 1.5                                  %! PWC1
-    -\tweak bound-details.left-broken.text ##f               %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-    -\tweak bound-details.right.arrow ##t                    %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-    -\tweak bound-details.right-broken.padding 0             %! PWC1
-    -\tweak bound-details.right-broken.text ##f              %! PWC1
-    -\tweak bound-details.right.padding 0.5                  %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                %! PWC1
+    - \tweak dash-fraction 0.25                              %! PWC1
+    - \tweak dash-period 1.5                                 %! PWC1
+    - \tweak bound-details.left-broken.text ##f              %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+    - \tweak bound-details.right.arrow ##t                   %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+    - \tweak bound-details.right-broken.padding 0            %! PWC1
+    - \tweak bound-details.right-broken.text ##f             %! PWC1
+    - \tweak bound-details.right.padding 0.5                 %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -5512,8 +5512,8 @@ Q_ContrabassVoiceIII_a = {
     g,1
     :32                                                      %! IC
     \<                                                       %! PWC1
-    -\tweak Y-extent ##f                                     %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                    %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5523,17 +5523,17 @@ Q_ContrabassVoiceIII_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    -\tweak arrow-width 0.25                                 %! PWC1
-    -\tweak dash-fraction 0.25                               %! PWC1
-    -\tweak dash-period 1.5                                  %! PWC1
-    -\tweak bound-details.left-broken.text ##f               %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-    -\tweak bound-details.right.arrow ##t                    %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-    -\tweak bound-details.right-broken.padding 0             %! PWC1
-    -\tweak bound-details.right-broken.text ##f              %! PWC1
-    -\tweak bound-details.right.padding 0.5                  %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+    - \tweak arrow-width 0.25                                %! PWC1
+    - \tweak dash-fraction 0.25                              %! PWC1
+    - \tweak dash-period 1.5                                 %! PWC1
+    - \tweak bound-details.left-broken.text ##f              %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+    - \tweak bound-details.right.arrow ##t                   %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+    - \tweak bound-details.right-broken.padding 0            %! PWC1
+    - \tweak bound-details.right-broken.text ##f             %! PWC1
+    - \tweak bound-details.right.padding 0.5                 %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q ContrabassVoiceIII measure 123]                     %! SM4
@@ -5550,8 +5550,8 @@ Q_ContrabassVoiceIII_a = {
     \f                                                       %! PWC1
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
-    -\tweak Y-extent ##f                                     %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                    %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5561,18 +5561,18 @@ Q_ContrabassVoiceIII_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    -\tweak arrow-width 0.25                                 %! PWC1
-    -\tweak dash-fraction 0.25                               %! PWC1
-    -\tweak dash-period 1.5                                  %! PWC1
-    -\tweak bound-details.left-broken.text ##f               %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-    -\tweak bound-details.right.arrow ##t                    %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-    -\tweak bound-details.right-broken.padding 0             %! PWC1
-    -\tweak bound-details.right-broken.text ##f              %! PWC1
-    -\tweak bound-details.right.padding 0.5                  %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                %! PWC1
+    - \tweak dash-fraction 0.25                              %! PWC1
+    - \tweak dash-period 1.5                                 %! PWC1
+    - \tweak bound-details.left-broken.text ##f              %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+    - \tweak bound-details.right.arrow ##t                   %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+    - \tweak bound-details.right-broken.padding 0            %! PWC1
+    - \tweak bound-details.right-broken.text ##f             %! PWC1
+    - \tweak bound-details.right.padding 0.5                 %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -5607,8 +5607,8 @@ Q_ContrabassVoiceIII_a = {
     g,2.
     :32                                                      %! IC
     \<                                                       %! PWC1
-    -\tweak Y-extent ##f                                     %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                    %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5618,17 +5618,17 @@ Q_ContrabassVoiceIII_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    -\tweak arrow-width 0.25                                 %! PWC1
-    -\tweak dash-fraction 0.25                               %! PWC1
-    -\tweak dash-period 1.5                                  %! PWC1
-    -\tweak bound-details.left-broken.text ##f               %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-    -\tweak bound-details.right.arrow ##t                    %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-    -\tweak bound-details.right-broken.padding 0             %! PWC1
-    -\tweak bound-details.right-broken.text ##f              %! PWC1
-    -\tweak bound-details.right.padding 0.5                  %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+    - \tweak arrow-width 0.25                                %! PWC1
+    - \tweak dash-fraction 0.25                              %! PWC1
+    - \tweak dash-period 1.5                                 %! PWC1
+    - \tweak bound-details.left-broken.text ##f              %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+    - \tweak bound-details.right.arrow ##t                   %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+    - \tweak bound-details.right-broken.padding 0            %! PWC1
+    - \tweak bound-details.right-broken.text ##f             %! PWC1
+    - \tweak bound-details.right.padding 0.5                 %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
     \startTextSpan                                           %! PWC1
     
     % [Q ContrabassVoiceIII measure 128]                     %! SM4
@@ -5645,8 +5645,8 @@ Q_ContrabassVoiceIII_a = {
     \mp                                                      %! PWC1
     \stopTextSpan                                            %! PWC1
     \>                                                       %! PWC1
-    -\tweak Y-extent ##f                                     %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                    %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5656,18 +5656,18 @@ Q_ContrabassVoiceIII_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    -\tweak arrow-width 0.25                                 %! PWC1
-    -\tweak dash-fraction 0.25                               %! PWC1
-    -\tweak dash-period 1.5                                  %! PWC1
-    -\tweak bound-details.left-broken.text ##f               %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-    -\tweak bound-details.right.arrow ##t                    %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-    -\tweak bound-details.right-broken.padding 0             %! PWC1
-    -\tweak bound-details.right-broken.text ##f              %! PWC1
-    -\tweak bound-details.right.padding 0.5                  %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                %! PWC1
+    - \tweak dash-fraction 0.25                              %! PWC1
+    - \tweak dash-period 1.5                                 %! PWC1
+    - \tweak bound-details.left-broken.text ##f              %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+    - \tweak bound-details.right.arrow ##t                   %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+    - \tweak bound-details.right-broken.padding 0            %! PWC1
+    - \tweak bound-details.right-broken.text ##f             %! PWC1
+    - \tweak bound-details.right.padding 0.5                 %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace

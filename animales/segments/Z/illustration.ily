@@ -5269,8 +5269,8 @@ Z_ContrabassVoiceIII_a = {
     cs!2
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \fff                                                     %! HC1
-    -\tweak Y-extent ##f                                     %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                    %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5280,18 +5280,18 @@ Z_ContrabassVoiceIII_a = {
                     #0.5
             }
         }                                                    %! PWC1
-    -\tweak arrow-width 0.25                                 %! PWC1
-    -\tweak dash-fraction 0.25                               %! PWC1
-    -\tweak dash-period 1.5                                  %! PWC1
-    -\tweak bound-details.left-broken.text ##f               %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-    -\tweak bound-details.right.arrow ##t                    %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-    -\tweak bound-details.right-broken.padding 0             %! PWC1
-    -\tweak bound-details.right-broken.text ##f              %! PWC1
-    -\tweak bound-details.right.padding 0.5                  %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                %! PWC1
+    - \tweak dash-fraction 0.25                              %! PWC1
+    - \tweak dash-period 1.5                                 %! PWC1
+    - \tweak bound-details.left-broken.text ##f              %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+    - \tweak bound-details.right.arrow ##t                   %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+    - \tweak bound-details.right-broken.padding 0            %! PWC1
+    - \tweak bound-details.right-broken.text ##f             %! PWC1
+    - \tweak bound-details.right.padding 0.5                 %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
