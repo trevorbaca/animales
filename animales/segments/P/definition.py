@@ -283,7 +283,8 @@ def tremolo_suite():
         baca.transition(
             baca.markup('ext. pont.'),
             baca.markup('tasto'),
-            selector=baca.pleaves()[2:-2].group(),
+            #selector=baca.pleaves()[2:-2].group(),
+            spanner_selector=baca.pleaves()[2:-2],
             ),
         baca.stem_tremolo(baca.pleaves()),
         ])
