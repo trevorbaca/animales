@@ -423,7 +423,6 @@ E_PercussionVoiceI_a = {
     \once \override Staff.StaffSymbol.line-count = 1         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
     \override RepeatTie.direction = #up                      %! OC1
-    \once \override Hairpin.circled-tip = ##t                %! HC1
     \clef "percussion"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -434,6 +433,7 @@ E_PercussionVoiceI_a = {
     c'1
     :32                                                      %! IC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
+    - \tweak circled-tip ##t                                 %! HC1
     \>                                                       %! HC1
     \p                                                       %! HC1
     ^ \markup {
@@ -477,31 +477,26 @@ E_PercussionVoiceI_a = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [E PercussionVoiceI measure 31]                        %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! HC1
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
     % [E PercussionVoiceI measure 32]                        %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! HC1
     c'2
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
     % [E PercussionVoiceI measure 33]                        %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! HC1
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
     % [E PercussionVoiceI measure 34]                        %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! HC1
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
     % [E PercussionVoiceI measure 35]                        %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! HC1
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
@@ -656,7 +651,6 @@ E_FirstViolinVoiceI_a = {
             #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
             "Vni. I"                                     %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
-    \override Glissando.style = #'trill                  %! SC
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -667,6 +661,7 @@ E_FirstViolinVoiceI_a = {
     b4
     -\trill                                              %! IC
 %@% \repeatTie                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
+    - \tweak style #'trill                               %! SC
     \glissando                                           %! SC
     \>                                                   %! HC1
     \f                                                   %! HC1
@@ -767,7 +762,6 @@ E_FirstViolinVoiceI_a = {
     \glissando                                           %! SC
     
     \revert Accidental.stencil                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    \revert Glissando.style                              %! SC
     \revert NoteColumn.glissando-skip                    %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                          %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -904,7 +898,6 @@ E_SecondViolinVoiceI_a = {
             #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
             "Vni. II"                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
-    \override Glissando.style = #'trill                  %! SC
     \clef "treble"                                       %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -914,6 +907,7 @@ E_SecondViolinVoiceI_a = {
     b4
     -\trill                                              %! IC
 %@% \repeatTie                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
+    - \tweak style #'trill                               %! SC
     \glissando                                           %! SC
     \>                                                   %! HC1
     \f                                                   %! HC1
@@ -1014,7 +1008,6 @@ E_SecondViolinVoiceI_a = {
     \glissando                                           %! SC
     
     \revert Accidental.stencil                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    \revert Glissando.style                              %! SC
     \revert NoteColumn.glissando-skip                    %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                          %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -1151,7 +1144,6 @@ E_ViolaVoiceI_a = {
             #16                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
             Vle.                                         %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
-    \override Glissando.style = #'trill                  %! SC
     \clef "alto"                                         %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1161,6 +1153,7 @@ E_ViolaVoiceI_a = {
     b4
     -\trill                                              %! IC
 %@% \repeatTie                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
+    - \tweak style #'trill                               %! SC
     \glissando                                           %! SC
     \>                                                   %! HC1
     \f                                                   %! HC1
@@ -1261,7 +1254,6 @@ E_ViolaVoiceI_a = {
     \glissando                                           %! SC
     
     \revert Accidental.stencil                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    \revert Glissando.style                              %! SC
     \revert NoteColumn.glissando-skip                    %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                          %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -1398,7 +1390,6 @@ E_CelloVoiceI_a = {
             #16                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Vc.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \override Glissando.style = #'trill                      %! SC
     \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1408,6 +1399,7 @@ E_CelloVoiceI_a = {
     b4
     -\trill                                                  %! IC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
+    - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
     \>                                                       %! HC1
     \f                                                       %! HC1
@@ -1508,7 +1500,6 @@ E_CelloVoiceI_a = {
     \glissando                                               %! SC
     
     \revert Accidental.stencil                               %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
-    \revert Glissando.style                                  %! SC
     \revert NoteColumn.glissando-skip                        %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \revert NoteHead.no-ledgers                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     \undo \hide NoteHead                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
