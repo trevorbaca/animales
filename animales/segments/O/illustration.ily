@@ -604,7 +604,6 @@ O_OboeVoiceI_a = {
             #16                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
             Ob.                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         }                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -612,6 +611,7 @@ O_OboeVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a'2.
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     ^ \markup {
         \column
@@ -650,11 +650,11 @@ O_OboeVoiceI_a = {
     \repeatTie
     
     % [O OboeVoiceI measure 97]                          %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a'1
     \repeatTie
     \f                                                   %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     
     % [O OboeVoiceI measure 98]                          %! SM4
@@ -723,7 +723,6 @@ O_EnglishHornVoiceI_a = {
             #16                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
             "Eng. hn."                                   %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         }                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \clef "treble"                                       %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -731,6 +730,7 @@ O_EnglishHornVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d'2.
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     ^ \markup {
         \column
@@ -769,11 +769,11 @@ O_EnglishHornVoiceI_a = {
     \repeatTie
     
     % [O EnglishHornVoiceI measure 97]                   %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d'1
     \repeatTie
     \f                                                   %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     
     % [O EnglishHornVoiceI measure 98]                   %! SM4
@@ -830,7 +830,6 @@ O_EnglishHornStaffI = {
 O_BassoonVoiceI_a = {
     
     % [O BassoonVoiceI measure 95]                           %! SM4
-%%% \once \override Hairpin.circled-tip = ##t                %! PWC1:+PARTS
     \clef "bass"                                             %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
 %@% \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
@@ -838,6 +837,7 @@ O_BassoonVoiceI_a = {
     \voiceOne                                                %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3:+PARTS
     b2.
+%%% - \tweak circled-tip ##t                                 %! PWC1:+PARTS
 %%% \<                                                       %! PWC1:+PARTS
     \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
@@ -846,11 +846,11 @@ O_BassoonVoiceI_a = {
     \repeatTie
     
     % [O BassoonVoiceI measure 97]                           %! SM4
-%%% \once \override Hairpin.circled-tip = ##t                %! PWC1:+PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3:+PARTS
     b1
     \repeatTie
 %%% \f                                                       %! PWC1:+PARTS
+%%% - \tweak circled-tip ##t                                 %! PWC1:+PARTS
 %%% \>                                                       %! PWC1:+PARTS
     
     % [O BassoonVoiceI measure 98]                           %! SM4
@@ -913,11 +913,11 @@ O_BassoonVoiceII_a = {
             #16                                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
             Bsn.                                             %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         }                                                    %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \voiceTwo                                                %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,2.
+    - \tweak circled-tip ##t                                 %! PWC1
     \<                                                       %! PWC1
     ^ \markup {
         \column
@@ -955,11 +955,11 @@ O_BassoonVoiceII_a = {
     \repeatTie
     
     % [O BassoonVoiceII measure 97]                          %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     \repeatTie
     \f                                                       %! PWC1
+    - \tweak circled-tip ##t                                 %! PWC1
     \>                                                       %! PWC1
     
     % [O BassoonVoiceII measure 98]                          %! SM4

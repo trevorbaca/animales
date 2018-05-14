@@ -1846,10 +1846,10 @@ Q_FirstViolinVoiceI_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q FirstViolinVoiceI measure 122]                  %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a''1
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -1881,13 +1881,13 @@ Q_FirstViolinVoiceI_a = {
     \repeatTie
     
     % [Q FirstViolinVoiceI measure 124]                  %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a''1
     :32                                                  %! IC
     \repeatTie
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -1941,10 +1941,10 @@ Q_FirstViolinVoiceI_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q FirstViolinVoiceI measure 127]                  %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a''2.
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -1976,13 +1976,13 @@ Q_FirstViolinVoiceI_a = {
     \repeatTie
     
     % [Q FirstViolinVoiceI measure 129]                  %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a''1
     :32                                                  %! IC
     \repeatTie
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -2060,10 +2060,10 @@ Q_FirstViolinVoiceII_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q FirstViolinVoiceII measure 122]                 %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f''1
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -2095,13 +2095,13 @@ Q_FirstViolinVoiceII_a = {
     \repeatTie
     
     % [Q FirstViolinVoiceII measure 124]                 %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f''1
     :32                                                  %! IC
     \repeatTie
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -2155,10 +2155,10 @@ Q_FirstViolinVoiceII_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q FirstViolinVoiceII measure 127]                 %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f''2.
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -2190,13 +2190,13 @@ Q_FirstViolinVoiceII_a = {
     \repeatTie
     
     % [Q FirstViolinVoiceII measure 129]                 %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f''1
     :32                                                  %! IC
     \repeatTie
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -2350,10 +2350,10 @@ Q_FirstViolinVoiceIII_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q FirstViolinVoiceIII measure 122]                %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g''1
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -2385,13 +2385,13 @@ Q_FirstViolinVoiceIII_a = {
     \repeatTie
     
     % [Q FirstViolinVoiceIII measure 124]                %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g''1
     :32                                                  %! IC
     \repeatTie
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -2445,10 +2445,10 @@ Q_FirstViolinVoiceIII_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q FirstViolinVoiceIII measure 127]                %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g''2.
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -2480,13 +2480,13 @@ Q_FirstViolinVoiceIII_a = {
     \repeatTie
     
     % [Q FirstViolinVoiceIII measure 129]                %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g''1
     :32                                                  %! IC
     \repeatTie
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -2564,10 +2564,10 @@ Q_FirstViolinVoiceIV_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q FirstViolinVoiceIV measure 122]                 %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d''1
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -2599,13 +2599,13 @@ Q_FirstViolinVoiceIV_a = {
     \repeatTie
     
     % [Q FirstViolinVoiceIV measure 124]                 %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d''1
     :32                                                  %! IC
     \repeatTie
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -2659,10 +2659,10 @@ Q_FirstViolinVoiceIV_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q FirstViolinVoiceIV measure 127]                 %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d''2.
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -2694,13 +2694,13 @@ Q_FirstViolinVoiceIV_a = {
     \repeatTie
     
     % [Q FirstViolinVoiceIV measure 129]                 %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d''1
     :32                                                  %! IC
     \repeatTie
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3007,10 +3007,10 @@ Q_SecondViolinVoiceI_a = {
     
     % [Q SecondViolinVoiceI measure 122]                 %! SM4
     \override RepeatTie.direction = #up                  %! OC1
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b'1
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3042,13 +3042,13 @@ Q_SecondViolinVoiceI_a = {
     \repeatTie
     
     % [Q SecondViolinVoiceI measure 124]                 %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b'1
     :32                                                  %! IC
     \repeatTie
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3102,10 +3102,10 @@ Q_SecondViolinVoiceI_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q SecondViolinVoiceI measure 127]                 %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b'2.
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3137,13 +3137,13 @@ Q_SecondViolinVoiceI_a = {
     \repeatTie
     
     % [Q SecondViolinVoiceI measure 129]                 %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b'1
     :32                                                  %! IC
     \repeatTie
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3222,10 +3222,10 @@ Q_SecondViolinVoiceII_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q SecondViolinVoiceII measure 122]                %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g'1
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3257,13 +3257,13 @@ Q_SecondViolinVoiceII_a = {
     \repeatTie
     
     % [Q SecondViolinVoiceII measure 124]                %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g'1
     :32                                                  %! IC
     \repeatTie
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3317,10 +3317,10 @@ Q_SecondViolinVoiceII_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q SecondViolinVoiceII measure 127]                %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g'2.
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3352,13 +3352,13 @@ Q_SecondViolinVoiceII_a = {
     \repeatTie
     
     % [Q SecondViolinVoiceII measure 129]                %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g'1
     :32                                                  %! IC
     \repeatTie
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3512,10 +3512,10 @@ Q_SecondViolinVoiceIII_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q SecondViolinVoiceIII measure 122]               %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a'1
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3547,13 +3547,13 @@ Q_SecondViolinVoiceIII_a = {
     \repeatTie
     
     % [Q SecondViolinVoiceIII measure 124]               %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a'1
     :32                                                  %! IC
     \repeatTie
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3607,10 +3607,10 @@ Q_SecondViolinVoiceIII_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q SecondViolinVoiceIII measure 127]               %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a'2.
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3642,13 +3642,13 @@ Q_SecondViolinVoiceIII_a = {
     \repeatTie
     
     % [Q SecondViolinVoiceIII measure 129]               %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a'1
     :32                                                  %! IC
     \repeatTie
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3726,10 +3726,10 @@ Q_SecondViolinVoiceIV_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q SecondViolinVoiceIV measure 122]                %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f'1
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3761,13 +3761,13 @@ Q_SecondViolinVoiceIV_a = {
     \repeatTie
     
     % [Q SecondViolinVoiceIV measure 124]                %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f'1
     :32                                                  %! IC
     \repeatTie
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3821,10 +3821,10 @@ Q_SecondViolinVoiceIV_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q SecondViolinVoiceIV measure 127]                %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f'2.
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3856,13 +3856,13 @@ Q_SecondViolinVoiceIV_a = {
     \repeatTie
     
     % [Q SecondViolinVoiceIV measure 129]                %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     f'1
     :32                                                  %! IC
     \repeatTie
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4016,10 +4016,10 @@ Q_ViolaVoiceI_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q ViolaVoiceI measure 122]                        %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d'1
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4051,13 +4051,13 @@ Q_ViolaVoiceI_a = {
     \repeatTie
     
     % [Q ViolaVoiceI measure 124]                        %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d'1
     :32                                                  %! IC
     \repeatTie
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4111,10 +4111,10 @@ Q_ViolaVoiceI_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q ViolaVoiceI measure 127]                        %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d'2.
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4146,13 +4146,13 @@ Q_ViolaVoiceI_a = {
     \repeatTie
     
     % [Q ViolaVoiceI measure 129]                        %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d'1
     :32                                                  %! IC
     \repeatTie
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4230,10 +4230,10 @@ Q_ViolaVoiceII_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q ViolaVoiceII measure 122]                       %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a1
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4265,13 +4265,13 @@ Q_ViolaVoiceII_a = {
     \repeatTie
     
     % [Q ViolaVoiceII measure 124]                       %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a1
     :32                                                  %! IC
     \repeatTie
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4325,10 +4325,10 @@ Q_ViolaVoiceII_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q ViolaVoiceII measure 127]                       %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a2.
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4360,13 +4360,13 @@ Q_ViolaVoiceII_a = {
     \repeatTie
     
     % [Q ViolaVoiceII measure 129]                       %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a1
     :32                                                  %! IC
     \repeatTie
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4520,10 +4520,10 @@ Q_ViolaVoiceIII_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q ViolaVoiceIII measure 122]                      %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b1
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4555,13 +4555,13 @@ Q_ViolaVoiceIII_a = {
     \repeatTie
     
     % [Q ViolaVoiceIII measure 124]                      %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b1
     :32                                                  %! IC
     \repeatTie
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4615,10 +4615,10 @@ Q_ViolaVoiceIII_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q ViolaVoiceIII measure 127]                      %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b2.
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4650,13 +4650,13 @@ Q_ViolaVoiceIII_a = {
     \repeatTie
     
     % [Q ViolaVoiceIII measure 129]                      %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     b1
     :32                                                  %! IC
     \repeatTie
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4734,10 +4734,10 @@ Q_ViolaVoiceIV_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q ViolaVoiceIV measure 122]                       %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g1
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4769,13 +4769,13 @@ Q_ViolaVoiceIV_a = {
     \repeatTie
     
     % [Q ViolaVoiceIV measure 124]                       %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g1
     :32                                                  %! IC
     \repeatTie
     \f                                                   %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4829,10 +4829,10 @@ Q_ViolaVoiceIV_a = {
 %%%     }                                                %! IC:+PARTS
     
     % [Q ViolaVoiceIV measure 127]                       %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g2.
     :32                                                  %! IC
+    - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4864,13 +4864,13 @@ Q_ViolaVoiceIV_a = {
     \repeatTie
     
     % [Q ViolaVoiceIV measure 129]                       %! SM4
-    \once \override Hairpin.circled-tip = ##t            %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g1
     :32                                                  %! IC
     \repeatTie
     \mp                                                  %! PWC1
     \stopTextSpan                                        %! PWC1
+    - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -5025,10 +5025,10 @@ Q_CelloVoiceI_a = {
     
     % [Q CelloVoiceI measure 122]                            %! SM4
     \override RepeatTie.direction = #up                      %! OC1
-    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d1
     :32                                                      %! IC
+    - \tweak circled-tip ##t                                 %! PWC1
     \<                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -5060,13 +5060,13 @@ Q_CelloVoiceI_a = {
     \repeatTie
     
     % [Q CelloVoiceI measure 124]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d1
     :32                                                      %! IC
     \repeatTie
     \f                                                       %! PWC1
     \stopTextSpan                                            %! PWC1
+    - \tweak circled-tip ##t                                 %! PWC1
     \>                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -5120,10 +5120,10 @@ Q_CelloVoiceI_a = {
 %%%     }                                                    %! IC:+PARTS
     
     % [Q CelloVoiceI measure 127]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d2.
     :32                                                      %! IC
+    - \tweak circled-tip ##t                                 %! PWC1
     \<                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -5155,13 +5155,13 @@ Q_CelloVoiceI_a = {
     \repeatTie
     
     % [Q CelloVoiceI measure 129]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d1
     :32                                                      %! IC
     \repeatTie
     \mp                                                      %! PWC1
     \stopTextSpan                                            %! PWC1
+    - \tweak circled-tip ##t                                 %! PWC1
     \>                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -5240,10 +5240,10 @@ Q_CelloVoiceII_a = {
 %%%     }                                                    %! IC:+PARTS
     
     % [Q CelloVoiceII measure 122]                           %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     :32                                                      %! IC
+    - \tweak circled-tip ##t                                 %! PWC1
     \<                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -5275,13 +5275,13 @@ Q_CelloVoiceII_a = {
     \repeatTie
     
     % [Q CelloVoiceII measure 124]                           %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     :32                                                      %! IC
     \repeatTie
     \f                                                       %! PWC1
     \stopTextSpan                                            %! PWC1
+    - \tweak circled-tip ##t                                 %! PWC1
     \>                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -5335,10 +5335,10 @@ Q_CelloVoiceII_a = {
 %%%     }                                                    %! IC:+PARTS
     
     % [Q CelloVoiceII measure 127]                           %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,2.
     :32                                                      %! IC
+    - \tweak circled-tip ##t                                 %! PWC1
     \<                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -5370,13 +5370,13 @@ Q_CelloVoiceII_a = {
     \repeatTie
     
     % [Q CelloVoiceII measure 129]                           %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     :32                                                      %! IC
     \repeatTie
     \mp                                                      %! PWC1
     \stopTextSpan                                            %! PWC1
+    - \tweak circled-tip ##t                                 %! PWC1
     \>                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -5505,10 +5505,10 @@ Q_ContrabassVoiceIII_a = {
 %%%     }                                                    %! IC:+PARTS
     
     % [Q ContrabassVoiceIII measure 122]                     %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     :32                                                      %! IC
+    - \tweak circled-tip ##t                                 %! PWC1
     \<                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -5540,13 +5540,13 @@ Q_ContrabassVoiceIII_a = {
     \repeatTie
     
     % [Q ContrabassVoiceIII measure 124]                     %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     :32                                                      %! IC
     \repeatTie
     \f                                                       %! PWC1
     \stopTextSpan                                            %! PWC1
+    - \tweak circled-tip ##t                                 %! PWC1
     \>                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -5600,10 +5600,10 @@ Q_ContrabassVoiceIII_a = {
 %%%     }                                                    %! IC:+PARTS
     
     % [Q ContrabassVoiceIII measure 127]                     %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,2.
     :32                                                      %! IC
+    - \tweak circled-tip ##t                                 %! PWC1
     \<                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -5635,13 +5635,13 @@ Q_ContrabassVoiceIII_a = {
     \repeatTie
     
     % [Q ContrabassVoiceIII measure 129]                     %! SM4
-    \once \override Hairpin.circled-tip = ##t                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     :32                                                      %! IC
     \repeatTie
     \mp                                                      %! PWC1
     \stopTextSpan                                            %! PWC1
+    - \tweak circled-tip ##t                                 %! PWC1
     \>                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {
