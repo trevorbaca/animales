@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def glissando_rhythm(rotate=0):
-    r'''Makes glissando rhythm.
-    '''
+    """
+    Makes glissando rhythm.
+    """
     counts = baca.sequence([5, 1, 2, 1])
     counts = counts.rotate(rotate)
     rhythm_maker = rhythmos.TaleaRhythmMaker(

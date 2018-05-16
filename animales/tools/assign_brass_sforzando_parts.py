@@ -4,8 +4,9 @@ import baca
 
 
 def assign_brass_sforzando_parts(maker, omit_tuba=False):
-    r'''Assigns brass sforzando parts.
-    '''
+    """
+    Assigns brass sforzando parts.
+    """
 
     maker(
         'HornVoiceI',

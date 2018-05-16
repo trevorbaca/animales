@@ -4,8 +4,9 @@ import baca
 
 
 def assign_trill_parts(maker, exclude_first_violin=False):
-    r'''Assigns trill parts.
-    '''
+    """
+    Assigns trill parts.
+    """
 
     voice_to_members = {
         'FirstViolinVoiceI': (1, 10),

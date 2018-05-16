@@ -3,10 +3,11 @@ import baca
 
 
 def attach_grand_pause_fermatas(maker, measure=-1):
-    r'''Attaches grand pause fermatas in parts.
+    """
+    Attaches grand pause fermatas in parts.
 
     Because voices alive in semgent do not receive GlobalRests variables.
-    '''
+    """
     dummy_score = maker.score_template()
     for voice in abjad.iterate(dummy_score).components(abjad.Voice):
         markup = abjad.Markup.musicglyph('scripts.ufermata')

@@ -138,8 +138,8 @@ maker(
 maker(
     'bcl1',
     animales.parts('BassClarinet'),
-    baca.hairpin('p > niente', baca.leaves()[:2]),
-    baca.hairpin('niente < p', baca.leaves()[2:4]),
+    baca.hairpin('p > niente', selector=baca.leaves()[:2]),
+    baca.hairpin('niente < p', selector=baca.leaves()[2:4]),
     baca.pitch('Ab2'),
     baca.repeat_tie_to(),
     )
@@ -164,9 +164,9 @@ maker(
 maker(
     ('hp1', (1, 6)),
     animales.harp_exchange_rhythm(2),
-    baca.laissez_vibrer(baca.ptails()),
+    baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('Bb4'),
-    baca.stopped(baca.pheads()),
+    baca.stopped(selector=baca.pheads()),
     )
 
 # piano
@@ -179,9 +179,9 @@ maker(
 maker(
     ('pf1', (1, 6)),
     animales.harp_exchange_rhythm(3),
-    baca.laissez_vibrer(baca.ptails()),
+    baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('Bb4'),
-    baca.stopped(baca.pheads()),
+    baca.stopped(selector=baca.pheads()),
     )
 
 # percussion
@@ -199,7 +199,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_up(),
     baca.staff_position(0),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 # cymbal
@@ -215,7 +215,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_up(),
     baca.staff_position(0),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 # vibraphone
@@ -228,7 +228,7 @@ maker(
 maker(
     ('perc3', (1, 6)),
     animales.harp_exchange_rhythm(0),
-    baca.laissez_vibrer(baca.ptails()),
+    baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('Bb4'),
     )
 
@@ -242,16 +242,16 @@ maker(
 maker(
     ('1vn2', (1, 3)),
     animales.glissando_rhythm(rotate=-2),
-    baca.hairpin('p < ff', baca.notes().group_by_measure()[0].rleak()),
-    baca.hairpin('ff > p', baca.notes().group_by_measure()[-1].lleak()),
+    baca.hairpin('p < ff', selector=baca.notes().group_by_measure()[0].rleak()),
+    baca.hairpin('ff > p', selector=baca.notes().group_by_measure()[-1].lleak()),
     baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
     baca.suite([
-        baca.untie_to(baca.leaves()),
+        baca.untie_to(selector=baca.leaves()),
         animales.glissando_positions(transpose=-3),
-        baca.pitch('G4', baca.pleaf(0)),
-        baca.pitch('G4', baca.pleaf(-1)),
+        baca.pitch('G4', selector=baca.pleaf(0)),
+        baca.pitch('G4', selector=baca.pleaf(-1)),
         baca.tie_repeat_pitches(),
         baca.glissando(),
         ]),
@@ -332,6 +332,6 @@ maker(
 maker(
     ('cb1', (1, 6)),
     animales.harp_exchange_rhythm(1),
-    baca.laissez_vibrer(baca.ptails()),
+    baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('Bb4', do_not_transpose=True),
     )

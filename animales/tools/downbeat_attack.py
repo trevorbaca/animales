@@ -4,7 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def downbeat_attack(count=1, denominator=8):
-    r'''Makes downbeat attack.
+    r"""
+    Makes downbeat attack.
 
     >>> import animales
 
@@ -155,7 +156,7 @@ def downbeat_attack(count=1, denominator=8):
                 >>
             >>
 
-    '''
+    """
 
     rhythm_maker = rhythmos.TaleaRhythmMaker(
         division_masks=[

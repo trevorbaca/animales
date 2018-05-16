@@ -643,9 +643,9 @@ F_PianoVoiceI_a = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d''8
+        \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
-        \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup {                                          %! IC
             \whiteout                                        %! IC
                 \upright                                     %! IC
@@ -767,9 +767,9 @@ F_HarpVoiceI_a = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d''8
+        \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
-        \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup {
             \column
                 {
@@ -1123,8 +1123,8 @@ F_PercussionVoiceIII_a = {
         \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d''8
-        -\laissezVibrer                                      %! IC
         \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC
+        -\laissezVibrer                                      %! IC
         ^ \markup {
             \column
                 {
@@ -1734,8 +1734,8 @@ F_ContrabassVoiceI_a = {
         \set Staff.forceClef = ##t                       %! SM8:EXPLICIT_CLEF:SM33:IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d''8
-        -\laissezVibrer                                  %! IC
         \mf                                              %! SM8:EXPLICIT_DYNAMIC:IC
+        -\laissezVibrer                                  %! IC
         ^ \markup {
             \column
                 {

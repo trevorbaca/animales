@@ -3,8 +3,9 @@ import baca
 
 
 def pennant_pitches(start_pitch, intervals=[0], direction=abjad.Up):
-    r'''Makes pennant pitches.
-    '''
+    """
+    Makes pennant pitches.
+    """
     start_pitch = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch.number
     intervals_ = [

@@ -4,8 +4,9 @@ import baca
 
 
 def make_trill_rhythm(maker, measures=(1, -1)):
-    r'''Makes trill rhythm.
-    '''
+    """
+    Makes trill rhythm.
+    """
 
     voice_to_part = {
         'FirstViolinVoiceI': 0,

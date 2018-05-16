@@ -112,7 +112,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie_up(),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 # bass drum
@@ -131,7 +131,7 @@ maker(
     baca.staff_lines(1),
     baca.staff_position(0),
     baca.repeat_tie_up(),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
     
 # tam-tam
@@ -149,7 +149,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie_up(),
     baca.staff_lines(1),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 # strings

@@ -469,8 +469,8 @@ AC_PianoVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     cs'!2.
-    -\laissezVibrer                                          %! IC
     \mf                                                      %! SM8:REAPPLIED_DYNAMIC:SM37
+    -\laissezVibrer                                          %! IC
     ^ \markup {
         \column
             {
