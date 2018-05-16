@@ -585,8 +585,8 @@ i_FirstViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     a'1
-    -\accent                                             %! IC
     \f_but_accents_sffz                                  %! SM8:EXPLICIT_DYNAMIC:IC
+    -\accent                                             %! IC
     ^ \markup {
         \column
             {
@@ -647,8 +647,8 @@ i_FirstViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     af'!2.
-    -\accent                                             %! IC
     \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    -\accent                                             %! IC
     \stopTrillSpan                                       %! SC
     \startTrillSpan a'                                   %! SC
     

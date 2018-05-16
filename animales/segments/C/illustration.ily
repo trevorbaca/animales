@@ -474,8 +474,8 @@ C_HornVoiceI_a = {
     % [C HornVoiceI measure 20]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'8
-    -\marcato                                            %! IC
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    -\marcato                                            %! IC
     
     r2..
     
@@ -513,8 +513,8 @@ C_HornVoiceIII_a = {
     % [C HornVoiceIII measure 20]                        %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     c'8
-    -\marcato                                            %! IC
 %%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+    -\marcato                                            %! IC
     
     r2..
     
@@ -607,8 +607,8 @@ C_HornVoiceII_a = {
     % [C HornVoiceII measure 20]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     df'!8
-    -\marcato                                            %! IC
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    -\marcato                                            %! IC
     
     r2..
     
@@ -646,8 +646,8 @@ C_HornVoiceIV_a = {
     % [C HornVoiceIV measure 20]                         %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     b8
-    -\marcato                                            %! IC
 %%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+    -\marcato                                            %! IC
     
     r2..
     
@@ -740,8 +740,8 @@ C_TrumpetVoiceI_a = {
     % [C TrumpetVoiceI measure 20]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d''8
-    -\marcato                                            %! IC
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    -\marcato                                            %! IC
     
     r2..
     
@@ -779,8 +779,8 @@ C_TrumpetVoiceIII_a = {
     % [C TrumpetVoiceIII measure 20]                     %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     g'8
-    -\marcato                                            %! IC
 %%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+    -\marcato                                            %! IC
     
     r2..
     
@@ -873,8 +873,8 @@ C_TrumpetVoiceII_a = {
     % [C TrumpetVoiceII measure 20]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     af'!8
-    -\marcato                                            %! IC
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    -\marcato                                            %! IC
     
     r2..
     
@@ -912,8 +912,8 @@ C_TrumpetVoiceIV_a = {
     % [C TrumpetVoiceIV measure 20]                      %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     f'8
-    -\marcato                                            %! IC
 %%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+    -\marcato                                            %! IC
     
     r2..
     
@@ -1006,8 +1006,8 @@ C_TromboneVoiceI_a = {
     % [C TromboneVoiceI measure 20]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'8
-    -\marcato                                            %! IC
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    -\marcato                                            %! IC
     
     r2..
     
@@ -1045,8 +1045,8 @@ C_TromboneVoiceIII_a = {
     % [C TromboneVoiceIII measure 20]                    %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     c'8
-    -\marcato                                            %! IC
 %%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+    -\marcato                                            %! IC
     
     r2..
     
@@ -1139,8 +1139,8 @@ C_TromboneVoiceII_a = {
     % [C TromboneVoiceII measure 20]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     df'!8
-    -\marcato                                            %! IC
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    -\marcato                                            %! IC
     
     r2..
     
@@ -1178,8 +1178,8 @@ C_TromboneVoiceIV_a = {
     % [C TromboneVoiceIV measure 20]                     %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     b8
-    -\marcato                                            %! IC
 %%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+    -\marcato                                            %! IC
     
     r2..
     
@@ -1267,8 +1267,8 @@ C_TubaVoiceI_a = {
     % [C TubaVoiceI measure 20]                              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c,8
-    -\marcato                                                %! IC
     \sffz                                                    %! SM8:EXPLICIT_DYNAMIC:IC
+    -\marcato                                                %! IC
     
     r2..
     

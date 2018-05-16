@@ -5,8 +5,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def sforzando_exchange_rhythm(this_part: int) -> baca.RhythmCommand:
-    r'''Makes sforzando-exchange rhythm.
-    '''
+    """
+    Makes sforzando-exchange rhythm.
+    """
     part_to_pattern = abjad.OrderedDict([
         (0, abjad.index([0, 15], period=18)),
         (1, abjad.index([0, 6, 8, 14, 16], period=24)),

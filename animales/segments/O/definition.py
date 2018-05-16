@@ -134,7 +134,7 @@ maker(
 
 def tremolo_suite():
     return baca.suite([
-        baca.accent(baca.pleaves()),
+        baca.accent(selector=baca.pleaves()),
         baca.dynamic('ff'),
         baca.hairpin('ff > pp', selector=baca.pleaves()[2:-2]),
         baca.only_parts(baca.markup.boxed('ext. ponticello: like acid')),
@@ -144,7 +144,7 @@ def tremolo_suite():
             #selector=baca.pleaves()[2:-2].group(),
             spanner_selector=baca.pleaves()[2:-2],
             ),
-        baca.stem_tremolo(baca.pleaves()),
+        baca.stem_tremolo(selector=baca.pleaves()),
         ])
 
 def upper_voice_suite():
@@ -176,7 +176,7 @@ maker(
         'non diminuendo: appear as if by magic',
         ]),
     baca.pitch('C#4'),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 # part assignments

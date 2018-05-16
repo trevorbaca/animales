@@ -9,8 +9,9 @@ def harp_exchange_rhythm(
     division_masks=None,
     no_logical_tie_masks=False,
     ):
-    r'''Makes harp-exchange rhythm.
-    '''
+    """
+    Makes harp-exchange rhythm.
+    """
     part_to_pattern = abjad.OrderedDict([
         (0, abjad.index([0, 30], period=36)),
         (1, abjad.index([0, 12, 16, 28, 32], period=48)),

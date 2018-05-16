@@ -11,8 +11,9 @@ def constellations(
     omit_contrabasses=False,
     range_=(1, -1),
     ):
-    r'''Makes constellations.
-    '''
+    """
+    Makes constellations.
+    """
 
     section_to_members = {
         'FirstViolin': 18,

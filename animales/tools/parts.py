@@ -9,7 +9,8 @@ def parts(
     section: str,
     token: typing.Union[int, list, tuple] = None,
     ) -> baca.ContainerCommand:
-    r'''Designates parts.
+    """
+    Designates parts.
 
     >>> import animales
 
@@ -39,7 +40,7 @@ def parts(
             ...
         Exception: no Part(instrument='Horn', member=5, section='Horn') in part manifest.
 
-    '''
+    """
     part_assignment = abjad.PartAssignment(section=section, token=token)
     if part_assignment.token is not None:
         score_template = animales.ScoreTemplate()

@@ -1178,9 +1178,9 @@ M_HarpVoiceI_a = {
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
         c''8
+        \mf                                                  %! SM8:REAPPLIED_DYNAMIC:SM37
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
-        \mf                                                  %! SM8:REAPPLIED_DYNAMIC:SM37
         ^ \markup {
             \column
                 {
@@ -1522,8 +1522,8 @@ M_PercussionVoiceIII_a = {
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
         c''8
-        -\laissezVibrer                                      %! IC
         \mp                                                  %! SM8:REAPPLIED_DYNAMIC:SM37
+        -\laissezVibrer                                      %! IC
         ^ \markup {
             \column
                 {

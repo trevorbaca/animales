@@ -219,7 +219,7 @@ def tremolo(peak='f'):
             selector=baca.leaves().enchain([3, 2]),
             spanner_selector=baca.leaves(),
             ),
-        baca.stem_tremolo(baca.pleaves()),
+        baca.stem_tremolo(selector=baca.pleaves()),
         ])
 
 def upper_voice():
@@ -286,7 +286,7 @@ maker(
 maker(
     '1vn5',
     baca.repeat_tie_to(selector=baca.leaf(0)),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(

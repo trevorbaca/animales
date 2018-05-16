@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def brass_manifest_rhythm(part, left_broken=False, right_broken=False):
-    r'''Makes brass manifest rhythm.
-    '''
+    """
+    'Makes brass manifest rhythm.
+    """
 
     assert part in range(1, 12 + 1), repr(part)
     counts, delay, extra_counts_per_division = {

@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def clb_rhythm(section, member, counts, wrap):
-    r'''Makes clb rhythm.
-    '''
+    """
+    Makes clb rhythm.
+    """
 
     if section in ('FirstViolin', 'SecondViolin', 'Viola'):
         assert member in range(1, 18 + 1), repr(member)

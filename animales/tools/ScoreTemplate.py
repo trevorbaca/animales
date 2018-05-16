@@ -6,7 +6,8 @@ import typing
 
 
 class ScoreTemplate(baca.ScoreTemplate):
-    r'''Score template.
+    r"""
+    Score template.
 
     >>> import animales
 
@@ -311,7 +312,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 >>
             >>
 
-    '''
+    """
 
     ### CLASS VARIABLES ###
 
@@ -481,8 +482,9 @@ class ScoreTemplate(baca.ScoreTemplate):
     ### SPECIAL METHODS ###
 
     def __call__(self) -> abjad.Score:
-        r'''Calls score template.
-        '''
+        """
+        Calls score template.
+        """
         # GLOBAL CONTEXT
         global_context = self._make_global_context()
 
@@ -749,7 +751,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         staff_name: str,
         instrument: abjad.Instrument,
         ) -> bool:
-        r'''Is true when ``staff_name`` allows ``instrument``.
+        """
+        Is true when ``staff_name`` allows ``instrument``.
 
         ..  container:: example
 
@@ -781,7 +784,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             ...     )
             True
 
-        '''
+        """
         dictionary = abjad.OrderedDict([
             ('Flute', [animales.instruments['Flute']]),
             ('Oboe', [animales.instruments['Oboe']]),
@@ -828,7 +831,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         voice_name: str,
         part_assignment: abjad.PartAssignment,
         ) -> bool:
-        r'''Is true when ``voice_name`` allows ``part_assignment``.
+        """
+        Is true when ``voice_name`` allows ``part_assignment``.
 
         ..  container:: example
 
@@ -859,7 +863,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             ...     )
             False
 
-        '''
+        """
         return super(ScoreTemplate, self).allows_part_assignment(
             voice_name,
             part_assignment,
@@ -867,7 +871,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     @staticmethod
     def skeleton() -> abjad.Score:
-        r'''Makes skeleton.
+        r"""
+        Makes skeleton.
 
         ..  container:: example
 
@@ -1026,7 +1031,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 >>
             >>
 
-        '''
+        """
         two_staff_token = [(1, [1]), (2, [2])]
         score_template = ScoreTemplate(
             flutes=two_staff_token,
@@ -1055,7 +1060,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     @property
     def voice_abbreviations(self):
-        r'''Gets voice abbreviations.
+        """
+        Gets voice abbreviations.
 
         ..  container:: example
         
@@ -1169,12 +1175,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                     ]
                 )
 
-        '''
+        """
         return super(ScoreTemplate, self).voice_abbreviations
 
     @staticmethod
     def voice_to_instrument(voice):
-        r'''Changes ``voice`` to instrument string.
+        """
+        Changes ``voice`` to instrument string.
 
         ..  container:: example
 
@@ -1190,7 +1197,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>> animales.ScoreTemplate.voice_to_instrument('ViolaVoiceI')
             'Viola'
 
-        '''
+        """
         assert isinstance(voice, str), repr(voice)
         score_template = ScoreTemplate()
         voice = score_template.voice_abbreviations.get(voice, voice)
@@ -1206,7 +1213,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     @staticmethod
     def voice_to_section(voice):
-        r'''Changes ``voice`` to section string.
+        """
+        Changes ``voice`` to section string.
 
         ..  container:: example
 
@@ -1222,7 +1230,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>> animales.ScoreTemplate.voice_to_section('ViolaVoiceI')
             'Viola'
 
-        '''
+        """
         assert isinstance(voice, str), repr(voice)
         score_template = ScoreTemplate()
         voice = score_template.voice_abbreviations.get(voice, voice)

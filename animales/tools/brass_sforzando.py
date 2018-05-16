@@ -5,8 +5,9 @@ import roman
 
 
 def brass_sforzando(maker, range_=(1, -1)):
-    r'''Makes brass sforzando.
-    '''
+    """
+    Makes brass sforzando.
+    """
     
     voice_to_pitch = {
         'HornVoiceI': 'C4',

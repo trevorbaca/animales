@@ -3,7 +3,8 @@ import baca
 
 
 def glissando_positions(reverse=False, rotate=0, transpose=0):
-    r'''Makes glissando positions.
+    """
+    Makes glissando positions.
 
     >>> import animales
 
@@ -35,7 +36,7 @@ def glissando_positions(reverse=False, rotate=0, transpose=0):
             selector=baca.plts(),
             )
 
-    '''
+    """
     positions = [
         8, 13, 9, 14,
         5, 11, 8, 12,

@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def pennant_rhythm(extra_counts=None, silences=None):
-    r'''Makes pennant rhythm.
-    '''
+    """
+    Makes pennant rhythm.
+    """
     if silences is not None:
         assert isinstance(silences, list), repr(silences)
         mask = abjad.silence(silences)
