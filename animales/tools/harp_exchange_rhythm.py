@@ -1,7 +1,7 @@
 import abjad
 import baca
 from typing import List
-from abjad import rhythmmakertools as rhythmos
+from abjad import rhythmos
 
 
 def harp_exchange_rhythm(
