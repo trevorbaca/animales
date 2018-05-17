@@ -1,33 +1,33 @@
 AC_GlobalRests = {
     
-    % [AC GlobalRests measure 165]                                       %! SM4
+    % [AC GlobalRests measure 165 / measure 1]                           %! SM4
     R1 * 3/4
     
-    % [AC GlobalRests measure 166]                                       %! SM4
+    % [AC GlobalRests measure 166 / measure 2]                           %! SM4
     R1 * 3/4
     
-    % [AC GlobalRests measure 167]                                       %! SM4
+    % [AC GlobalRests measure 167 / measure 3]                           %! SM4
     R1 * 1
     
-    % [AC GlobalRests measure 168]                                       %! SM4
+    % [AC GlobalRests measure 168 / measure 4]                           %! SM4
     R1 * 1
     
-    % [AC GlobalRests measure 169]                                       %! SM4
+    % [AC GlobalRests measure 169 / measure 5]                           %! SM4
     R1 * 1
     
-    % [AC GlobalRests measure 170]                                       %! SM4
+    % [AC GlobalRests measure 170 / measure 6]                           %! SM4
     R1 * 3/4
     
-    % [AC GlobalRests measure 171]                                       %! SM4
+    % [AC GlobalRests measure 171 / measure 7]                           %! SM4
     R1 * 3/4
     
-    % [AC GlobalRests measure 172]                                       %! SM4
+    % [AC GlobalRests measure 172 / measure 8]                           %! SM4
     R1 * 1
     
-    % [AC GlobalRests measure 173]                                       %! SM4
+    % [AC GlobalRests measure 173 / measure 9]                           %! SM4
     R1 * 1
     
-    % [AC GlobalRests measure 174]                                       %! SM4
+    % [AC GlobalRests measure 174 / measure 10]                          %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
     R1 * 1/4
@@ -41,7 +41,7 @@ AC_GlobalRests = {
 
 AC_GlobalSkips = {
     
-    % [AC GlobalSkips measure 165]                                       %! SM4
+    % [AC GlobalSkips measure 165 / measure 1]                           %! SM4
 %%% \once \override GlobalContext.RehearsalMark.Y-offset = #6            %! OC1:+TABLOID_SCORE
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \mark #29                                                            %! IC
@@ -128,7 +128,7 @@ AC_GlobalSkips = {
             }
         }
     
-    % [AC GlobalSkips measure 166]                                       %! SM4
+    % [AC GlobalSkips measure 166 / measure 2]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -162,7 +162,7 @@ AC_GlobalSkips = {
             }
         }
     
-    % [AC GlobalSkips measure 167]                                       %! SM4
+    % [AC GlobalSkips measure 167 / measure 3]                           %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -197,7 +197,7 @@ AC_GlobalSkips = {
             }
         }
     
-    % [AC GlobalSkips measure 168]                                       %! SM4
+    % [AC GlobalSkips measure 168 / measure 4]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -231,7 +231,7 @@ AC_GlobalSkips = {
             }
         }
     
-    % [AC GlobalSkips measure 169]                                       %! SM4
+    % [AC GlobalSkips measure 169 / measure 5]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -265,7 +265,7 @@ AC_GlobalSkips = {
             }
         }
     
-    % [AC GlobalSkips measure 170]                                       %! SM4
+    % [AC GlobalSkips measure 170 / measure 6]                           %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -300,7 +300,7 @@ AC_GlobalSkips = {
             }
         }
     
-    % [AC GlobalSkips measure 171]                                       %! SM4
+    % [AC GlobalSkips measure 171 / measure 7]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -334,7 +334,7 @@ AC_GlobalSkips = {
             }
         }
     
-    % [AC GlobalSkips measure 172]                                       %! SM4
+    % [AC GlobalSkips measure 172 / measure 8]                           %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -369,7 +369,7 @@ AC_GlobalSkips = {
             }
         }
     
-    % [AC GlobalSkips measure 173]                                       %! SM4
+    % [AC GlobalSkips measure 173 / measure 9]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -403,7 +403,7 @@ AC_GlobalSkips = {
             }
         }
     
-    % [AC GlobalSkips measure 174]                                       %! SM4
+    % [AC GlobalSkips measure 174 / measure 10]                          %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -446,7 +446,7 @@ AC_GlobalSkips = {
 
 AC_PianoVoiceI_a = {
     
-    % [AC PianoVoiceI measure 165]                           %! SM4
+    % [AC PianoVoiceI measure 165 / measure 1]               %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -512,41 +512,41 @@ AC_PianoVoiceI_a = {
             Pf.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [AC PianoVoiceI measure 166]                           %! SM4
+    % [AC PianoVoiceI measure 166 / measure 2]               %! SM4
     cs'!2.
     -\laissezVibrer                                          %! IC
     
-    % [AC PianoVoiceI measure 167]                           %! SM4
+    % [AC PianoVoiceI measure 167 / measure 3]               %! SM4
     cs'!1
     -\laissezVibrer                                          %! IC
     
-    % [AC PianoVoiceI measure 168]                           %! SM4
+    % [AC PianoVoiceI measure 168 / measure 4]               %! SM4
     cs'!1
     -\laissezVibrer                                          %! IC
     
-    % [AC PianoVoiceI measure 169]                           %! SM4
+    % [AC PianoVoiceI measure 169 / measure 5]               %! SM4
     cs'!1
     -\laissezVibrer                                          %! IC
     
-    % [AC PianoVoiceI measure 170]                           %! SM4
+    % [AC PianoVoiceI measure 170 / measure 6]               %! SM4
     cs'!2.
     -\laissezVibrer                                          %! IC
     
-    % [AC PianoVoiceI measure 171]                           %! SM4
+    % [AC PianoVoiceI measure 171 / measure 7]               %! SM4
     cs'!2.
     -\laissezVibrer                                          %! IC
     
-    % [AC PianoVoiceI measure 172]                           %! SM4
+    % [AC PianoVoiceI measure 172 / measure 8]               %! SM4
     cs'!1
     -\laissezVibrer                                          %! IC
     
-    % [AC PianoVoiceI measure 173]                           %! SM4
+    % [AC PianoVoiceI measure 173 / measure 9]               %! SM4
     cs'!1
     -\laissezVibrer                                          %! IC
     \revert NoteHead.style                                   %! OC2
 %%% \revert TextScript.X-offset                              %! OC2:+PARTS
     
-    % [AC PianoVoiceI measure 174]                           %! SM4
+    % [AC PianoVoiceI measure 174 / measure 10]              %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
     R1 * 1/4
@@ -573,7 +573,7 @@ AC_PianoStaffI = {
 
 AC_PercussionVoiceIV_a = {
     
-    % [AC PercussionVoiceIV measure 165]                     %! SM4
+    % [AC PercussionVoiceIV measure 165 / measure 1]         %! SM4
     \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -668,7 +668,7 @@ AC_PercussionVoiceIV_a = {
     c'4
     \repeatTie
     
-    % [AC PercussionVoiceIV measure 166]                     %! SM4
+    % [AC PercussionVoiceIV measure 166 / measure 2]         %! SM4
     c'4
     \repeatTie
     
@@ -678,20 +678,7 @@ AC_PercussionVoiceIV_a = {
     c'4
     \repeatTie
     
-    % [AC PercussionVoiceIV measure 167]                     %! SM4
-    c'4
-    \repeatTie
-    
-    c'4
-    \repeatTie
-    
-    c'4
-    \repeatTie
-    
-    c'4
-    \repeatTie
-    
-    % [AC PercussionVoiceIV measure 168]                     %! SM4
+    % [AC PercussionVoiceIV measure 167 / measure 3]         %! SM4
     c'4
     \repeatTie
     
@@ -704,7 +691,7 @@ AC_PercussionVoiceIV_a = {
     c'4
     \repeatTie
     
-    % [AC PercussionVoiceIV measure 169]                     %! SM4
+    % [AC PercussionVoiceIV measure 168 / measure 4]         %! SM4
     c'4
     \repeatTie
     
@@ -717,7 +704,7 @@ AC_PercussionVoiceIV_a = {
     c'4
     \repeatTie
     
-    % [AC PercussionVoiceIV measure 170]                     %! SM4
+    % [AC PercussionVoiceIV measure 169 / measure 5]         %! SM4
     c'4
     \repeatTie
     
@@ -727,7 +714,10 @@ AC_PercussionVoiceIV_a = {
     c'4
     \repeatTie
     
-    % [AC PercussionVoiceIV measure 171]                     %! SM4
+    c'4
+    \repeatTie
+    
+    % [AC PercussionVoiceIV measure 170 / measure 6]         %! SM4
     c'4
     \repeatTie
     
@@ -737,7 +727,17 @@ AC_PercussionVoiceIV_a = {
     c'4
     \repeatTie
     
-    % [AC PercussionVoiceIV measure 172]                     %! SM4
+    % [AC PercussionVoiceIV measure 171 / measure 7]         %! SM4
+    c'4
+    \repeatTie
+    
+    c'4
+    \repeatTie
+    
+    c'4
+    \repeatTie
+    
+    % [AC PercussionVoiceIV measure 172 / measure 8]         %! SM4
     c'4
     \repeatTie
     
@@ -752,10 +752,10 @@ AC_PercussionVoiceIV_a = {
 %%% \revert TextScript.X-offset                              %! OC2:+PARTS
     \revert RepeatTie.direction                              %! OC2
     
-    % [AC PercussionVoiceIV measure 173]                     %! SM4
+    % [AC PercussionVoiceIV measure 173 / measure 9]         %! SM4
     R1 * 1
     
-    % [AC PercussionVoiceIV measure 174]                     %! SM4
+    % [AC PercussionVoiceIV measure 174 / measure 10]        %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
     R1 * 1/4

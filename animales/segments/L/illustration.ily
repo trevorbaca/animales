@@ -1,21 +1,21 @@
 L_GlobalRests = {
     
-    % [L GlobalRests measure 76]                                         %! SM4
+    % [L GlobalRests measure 76 / measure 1]                             %! SM4
     R1 * 3/4
     
-    % [L GlobalRests measure 77]                                         %! SM4
+    % [L GlobalRests measure 77 / measure 2]                             %! SM4
     R1 * 3/4
     
-    % [L GlobalRests measure 78]                                         %! SM4
+    % [L GlobalRests measure 78 / measure 3]                             %! SM4
     R1 * 1
     
-    % [L GlobalRests measure 79]                                         %! SM4
+    % [L GlobalRests measure 79 / measure 4]                             %! SM4
     R1 * 1
     
-    % [L GlobalRests measure 80]                                         %! SM4
+    % [L GlobalRests measure 80 / measure 5]                             %! SM4
     R1 * 1/2
     
-    % [L GlobalRests measure 81]                                         %! SM4
+    % [L GlobalRests measure 81 / measure 6]                             %! SM4
     R1 * 3/4
     
 }
@@ -23,7 +23,7 @@ L_GlobalRests = {
 
 L_GlobalSkips = {
     
-    % [L GlobalSkips measure 76]                                         %! SM4
+    % [L GlobalSkips measure 76 / measure 1]                             %! SM4
 %%% \once \override GlobalContext.RehearsalMark.Y-offset = #6            %! OC1:+TABLOID_SCORE
 %%% \override TextSpanner.bound-details.left.padding = #3                %! OC1:+TABLOID_SCORE
 %%% \override TextSpanner.Y-offset = #8                                  %! OC1:+TABLOID_SCORE
@@ -96,7 +96,7 @@ L_GlobalSkips = {
         }
 %%% \stopTextSpan                                                        %! SM39:-SEGMENT
     
-    % [L GlobalSkips measure 77]                                         %! SM4
+    % [L GlobalSkips measure 77 / measure 2]                             %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -130,7 +130,7 @@ L_GlobalSkips = {
             }
         }
     
-    % [L GlobalSkips measure 78]                                         %! SM4
+    % [L GlobalSkips measure 78 / measure 3]                             %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -165,7 +165,7 @@ L_GlobalSkips = {
             }
         }
     
-    % [L GlobalSkips measure 79]                                         %! SM4
+    % [L GlobalSkips measure 79 / measure 4]                             %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -199,7 +199,7 @@ L_GlobalSkips = {
             }
         }
     
-    % [L GlobalSkips measure 80]                                         %! SM4
+    % [L GlobalSkips measure 80 / measure 5]                             %! SM4
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -234,7 +234,7 @@ L_GlobalSkips = {
             }
         }
     
-    % [L GlobalSkips measure 81]                                         %! SM4
+    % [L GlobalSkips measure 81 / measure 6]                             %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -279,7 +279,7 @@ L_GlobalSkips = {
 
 L_ClarinetVoiceI_a = {
     
-    % [L ClarinetVoiceI measure 76]                          %! SM4
+    % [L ClarinetVoiceI measure 76 / measure 1]              %! SM4
     \set Staff.instrumentName =                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -349,23 +349,23 @@ L_ClarinetVoiceI_a = {
                 }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
-    % [L ClarinetVoiceI measure 77]                          %! SM4
+    % [L ClarinetVoiceI measure 77 / measure 2]              %! SM4
     f''2.
     \repeatTie
     
-    % [L ClarinetVoiceI measure 78]                          %! SM4
+    % [L ClarinetVoiceI measure 78 / measure 3]              %! SM4
     f''1
     \repeatTie
     
-    % [L ClarinetVoiceI measure 79]                          %! SM4
+    % [L ClarinetVoiceI measure 79 / measure 4]              %! SM4
     f''1
     \repeatTie
     
-    % [L ClarinetVoiceI measure 80]                          %! SM4
+    % [L ClarinetVoiceI measure 80 / measure 5]              %! SM4
     f''2
     \repeatTie
     
-    % [L ClarinetVoiceI measure 81]                          %! SM4
+    % [L ClarinetVoiceI measure 81 / measure 6]              %! SM4
     f''2.
     \repeatTie
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
@@ -386,7 +386,7 @@ L_ClarinetStaffI = {
 
 L_BassClarinetVoiceI_a = {
     
-    % [L BassClarinetVoiceI measure 76]                      %! SM4
+    % [L BassClarinetVoiceI measure 76 / measure 1]          %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -439,22 +439,22 @@ L_BassClarinetVoiceI_a = {
             "B. cl."                                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [L BassClarinetVoiceI measure 77]                      %! SM4
+    % [L BassClarinetVoiceI measure 77 / measure 2]          %! SM4
     R1 * 3/4
     
-    % [L BassClarinetVoiceI measure 78]                      %! SM4
+    % [L BassClarinetVoiceI measure 78 / measure 3]          %! SM4
     R1 * 1
     
-    % [L BassClarinetVoiceI measure 79]                      %! SM4
+    % [L BassClarinetVoiceI measure 79 / measure 4]          %! SM4
     R1 * 1
     
-    % [L BassClarinetVoiceI measure 80]                      %! SM4
+    % [L BassClarinetVoiceI measure 80 / measure 5]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     bf!2
     - \tweak circled-tip ##t                                 %! HC1
     \<                                                       %! HC1
     
-    % [L BassClarinetVoiceI measure 81]                      %! SM4
+    % [L BassClarinetVoiceI measure 81 / measure 6]          %! SM4
     bf!2.
     \repeatTie
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
@@ -475,7 +475,7 @@ L_BassClarinetStaffI = {
 
 L_PianoVoiceI_a = {
     
-    % [L PianoVoiceI measure 76]                             %! SM4
+    % [L PianoVoiceI measure 76 / measure 1]                 %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -528,10 +528,10 @@ L_PianoVoiceI_a = {
             Pf.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [L PianoVoiceI measure 77]                             %! SM4
+    % [L PianoVoiceI measure 77 / measure 2]                 %! SM4
     r2.
     
-    % [L PianoVoiceI measure 78]                             %! SM4
+    % [L PianoVoiceI measure 78 / measure 3]                 %! SM4
     r4
     \times 2/3 {
         
@@ -547,11 +547,11 @@ L_PianoVoiceI_a = {
     
     r2
     
-    % [L PianoVoiceI measure 79]                             %! SM4
+    % [L PianoVoiceI measure 79 / measure 4]                 %! SM4
     r1
     \times 2/3 {
         
-        % [L PianoVoiceI measure 80]                         %! SM4
+        % [L PianoVoiceI measure 80 / measure 5]             %! SM4
         r4
         
         c''8
@@ -561,7 +561,7 @@ L_PianoVoiceI_a = {
     
     r4
     
-    % [L PianoVoiceI measure 81]                             %! SM4
+    % [L PianoVoiceI measure 81 / measure 6]                 %! SM4
     r2.
     
 }
@@ -580,7 +580,7 @@ L_PianoStaffI = {
 
 L_HarpVoiceI_a = {
     
-    % [L HarpVoiceI measure 76]                              %! SM4
+    % [L HarpVoiceI measure 76 / measure 1]                  %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -633,10 +633,10 @@ L_HarpVoiceI_a = {
             Hp.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [L HarpVoiceI measure 77]                              %! SM4
+    % [L HarpVoiceI measure 77 / measure 2]                  %! SM4
     r2.
     
-    % [L HarpVoiceI measure 78]                              %! SM4
+    % [L HarpVoiceI measure 78 / measure 3]                  %! SM4
     r4
     \times 2/3 {
         
@@ -649,7 +649,7 @@ L_HarpVoiceI_a = {
     
     r2
     
-    % [L HarpVoiceI measure 79]                              %! SM4
+    % [L HarpVoiceI measure 79 / measure 4]                  %! SM4
     r2.
     \times 2/3 {
         
@@ -660,10 +660,10 @@ L_HarpVoiceI_a = {
         r4
     }
     
-    % [L HarpVoiceI measure 80]                              %! SM4
+    % [L HarpVoiceI measure 80 / measure 5]                  %! SM4
     r2
     
-    % [L HarpVoiceI measure 81]                              %! SM4
+    % [L HarpVoiceI measure 81 / measure 6]                  %! SM4
     r2.
     
 }
@@ -682,7 +682,7 @@ L_HarpStaffI = {
 
 L_PercussionVoiceI_a = {
     
-    % [L PercussionVoiceI measure 76]                        %! SM4
+    % [L PercussionVoiceI measure 76 / measure 1]            %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -759,29 +759,29 @@ L_PercussionVoiceI_a = {
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [L PercussionVoiceI measure 77]                        %! SM4
+    % [L PercussionVoiceI measure 77 / measure 2]            %! SM4
     c'2.
     :32                                                      %! IC
     \repeatTie
     
-    % [L PercussionVoiceI measure 78]                        %! SM4
+    % [L PercussionVoiceI measure 78 / measure 3]            %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie
     
-    % [L PercussionVoiceI measure 79]                        %! SM4
+    % [L PercussionVoiceI measure 79 / measure 4]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     c'1
     :32                                                      %! IC
     \repeatTie
     \mp                                                      %! HC1
     
-    % [L PercussionVoiceI measure 80]                        %! SM4
+    % [L PercussionVoiceI measure 80 / measure 5]            %! SM4
     c'2
     :32                                                      %! IC
     \repeatTie
     
-    % [L PercussionVoiceI measure 81]                        %! SM4
+    % [L PercussionVoiceI measure 81 / measure 6]            %! SM4
     c'2.
     :32                                                      %! IC
     \repeatTie
@@ -803,7 +803,7 @@ L_PercussionStaffI = {
 
 L_PercussionVoiceII_a = {
     
-    % [L PercussionVoiceII measure 76]                       %! SM4
+    % [L PercussionVoiceII measure 76 / measure 1]           %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -880,27 +880,27 @@ L_PercussionVoiceII_a = {
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [L PercussionVoiceII measure 77]                       %! SM4
+    % [L PercussionVoiceII measure 77 / measure 2]           %! SM4
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [L PercussionVoiceII measure 78]                       %! SM4
+    % [L PercussionVoiceII measure 78 / measure 3]           %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [L PercussionVoiceII measure 79]                       %! SM4
+    % [L PercussionVoiceII measure 79 / measure 4]           %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [L PercussionVoiceII measure 80]                       %! SM4
+    % [L PercussionVoiceII measure 80 / measure 5]           %! SM4
     c'2
     :32                                                      %! IC
     \repeatTie                                               %! TCC
     
-    % [L PercussionVoiceII measure 81]                       %! SM4
+    % [L PercussionVoiceII measure 81 / measure 6]           %! SM4
     c'2.
     :32                                                      %! IC
     \repeatTie                                               %! TCC
@@ -922,7 +922,7 @@ L_PercussionStaffII = {
 
 L_PercussionVoiceIII_a = {
     
-    % [L PercussionVoiceIII measure 76]                      %! SM4
+    % [L PercussionVoiceIII measure 76 / measure 1]          %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1000,10 +1000,10 @@ L_PercussionVoiceIII_a = {
     
     r4
     
-    % [L PercussionVoiceIII measure 77]                      %! SM4
+    % [L PercussionVoiceIII measure 77 / measure 2]          %! SM4
     r2.
     
-    % [L PercussionVoiceIII measure 78]                      %! SM4
+    % [L PercussionVoiceIII measure 78 / measure 3]          %! SM4
     r2
     \times 2/3 {
         
@@ -1015,13 +1015,13 @@ L_PercussionVoiceIII_a = {
     
     r4
     
-    % [L PercussionVoiceIII measure 79]                      %! SM4
+    % [L PercussionVoiceIII measure 79 / measure 4]          %! SM4
     r1
     
-    % [L PercussionVoiceIII measure 80]                      %! SM4
+    % [L PercussionVoiceIII measure 80 / measure 5]          %! SM4
     r2
     
-    % [L PercussionVoiceIII measure 81]                      %! SM4
+    % [L PercussionVoiceIII measure 81 / measure 6]          %! SM4
     r2.
     
 }
@@ -1040,7 +1040,7 @@ L_PercussionStaffIII = {
 
 L_FirstViolinVoiceI_a = {
     
-    % [L FirstViolinVoiceI measure 76]                       %! SM4
+    % [L FirstViolinVoiceI measure 76 / measure 1]           %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1107,7 +1107,7 @@ L_FirstViolinVoiceI_a = {
     f'''4
     \glissando                                               %! SC
     
-    % [L FirstViolinVoiceI measure 77]                       %! SM4
+    % [L FirstViolinVoiceI measure 77 / measure 2]           %! SM4
     e'''4
     \glissando                                               %! SC
     
@@ -1117,7 +1117,7 @@ L_FirstViolinVoiceI_a = {
     b''4
     \glissando                                               %! SC
     
-    % [L FirstViolinVoiceI measure 78]                       %! SM4
+    % [L FirstViolinVoiceI measure 78 / measure 3]           %! SM4
     a''4
     \glissando                                               %! SC
     
@@ -1130,7 +1130,7 @@ L_FirstViolinVoiceI_a = {
     d''4
     \glissando                                               %! SC
     
-    % [L FirstViolinVoiceI measure 79]                       %! SM4
+    % [L FirstViolinVoiceI measure 79 / measure 4]           %! SM4
     c''4
     \glissando                                               %! SC
     
@@ -1143,14 +1143,14 @@ L_FirstViolinVoiceI_a = {
     g'4
     \glissando                                               %! SC
     
-    % [L FirstViolinVoiceI measure 80]                       %! SM4
+    % [L FirstViolinVoiceI measure 80 / measure 5]           %! SM4
     f'4
     \glissando                                               %! SC
     
     e'4
     \glissando                                               %! SC
     
-    % [L FirstViolinVoiceI measure 81]                       %! SM4
+    % [L FirstViolinVoiceI measure 81 / measure 6]           %! SM4
     c'4
     \glissando                                               %! SC
     
@@ -1185,7 +1185,7 @@ L_FirstViolinStaffI = {
 
 L_SecondViolinVoiceI_a = {
     
-    % [L SecondViolinVoiceI measure 76]                      %! SM4
+    % [L SecondViolinVoiceI measure 76 / measure 1]          %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1252,7 +1252,7 @@ L_SecondViolinVoiceI_a = {
     f''4
     \glissando                                               %! SC
     
-    % [L SecondViolinVoiceI measure 77]                      %! SM4
+    % [L SecondViolinVoiceI measure 77 / measure 2]          %! SM4
     f''4
     \glissando                                               %! SC
     
@@ -1262,7 +1262,7 @@ L_SecondViolinVoiceI_a = {
     d''4
     \glissando                                               %! SC
     
-    % [L SecondViolinVoiceI measure 78]                      %! SM4
+    % [L SecondViolinVoiceI measure 78 / measure 3]          %! SM4
     c''4
     \glissando                                               %! SC
     
@@ -1275,7 +1275,7 @@ L_SecondViolinVoiceI_a = {
     a'4
     \glissando                                               %! SC
     
-    % [L SecondViolinVoiceI measure 79]                      %! SM4
+    % [L SecondViolinVoiceI measure 79 / measure 4]          %! SM4
     g'4
     \glissando                                               %! SC
     
@@ -1288,14 +1288,14 @@ L_SecondViolinVoiceI_a = {
     e'4
     \glissando                                               %! SC
     
-    % [L SecondViolinVoiceI measure 80]                      %! SM4
+    % [L SecondViolinVoiceI measure 80 / measure 5]          %! SM4
     d'4
     \glissando                                               %! SC
     
     c'4
     \glissando                                               %! SC
     
-    % [L SecondViolinVoiceI measure 81]                      %! SM4
+    % [L SecondViolinVoiceI measure 81 / measure 6]          %! SM4
     c'4
     \glissando                                               %! SC
     
@@ -1330,7 +1330,7 @@ L_SecondViolinStaffI = {
 
 L_ViolaVoiceI_a = {
     
-    % [L ViolaVoiceI measure 76]                             %! SM4
+    % [L ViolaVoiceI measure 76 / measure 1]                 %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1397,7 +1397,7 @@ L_ViolaVoiceI_a = {
     g'4
     \glissando                                               %! SC
     
-    % [L ViolaVoiceI measure 77]                             %! SM4
+    % [L ViolaVoiceI measure 77 / measure 2]                 %! SM4
     g'4
     \glissando                                               %! SC
     
@@ -1407,7 +1407,7 @@ L_ViolaVoiceI_a = {
     f'4
     \glissando                                               %! SC
     
-    % [L ViolaVoiceI measure 78]                             %! SM4
+    % [L ViolaVoiceI measure 78 / measure 3]                 %! SM4
     f'4
     \glissando                                               %! SC
     
@@ -1420,7 +1420,7 @@ L_ViolaVoiceI_a = {
     e'4
     \glissando                                               %! SC
     
-    % [L ViolaVoiceI measure 79]                             %! SM4
+    % [L ViolaVoiceI measure 79 / measure 4]                 %! SM4
     d'4
     \glissando                                               %! SC
     
@@ -1433,14 +1433,14 @@ L_ViolaVoiceI_a = {
     c'4
     \glissando                                               %! SC
     
-    % [L ViolaVoiceI measure 80]                             %! SM4
+    % [L ViolaVoiceI measure 80 / measure 5]                 %! SM4
     c'4
     \glissando                                               %! SC
     
     b4
     \glissando                                               %! SC
     
-    % [L ViolaVoiceI measure 81]                             %! SM4
+    % [L ViolaVoiceI measure 81 / measure 6]                 %! SM4
     b4
     \glissando                                               %! SC
     
@@ -1475,7 +1475,7 @@ L_ViolaStaffI = {
 
 L_CelloVoiceI_a = {
     
-    % [L CelloVoiceI measure 76]                             %! SM4
+    % [L CelloVoiceI measure 76 / measure 1]                 %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1542,7 +1542,7 @@ L_CelloVoiceI_a = {
     b,4
     \glissando                                               %! SC
     
-    % [L CelloVoiceI measure 77]                             %! SM4
+    % [L CelloVoiceI measure 77 / measure 2]                 %! SM4
     b,4
     \glissando                                               %! SC
     
@@ -1552,7 +1552,7 @@ L_CelloVoiceI_a = {
     c4
     \glissando                                               %! SC
     
-    % [L CelloVoiceI measure 78]                             %! SM4
+    % [L CelloVoiceI measure 78 / measure 3]                 %! SM4
     c4
     \glissando                                               %! SC
     
@@ -1565,7 +1565,7 @@ L_CelloVoiceI_a = {
     d4
     \glissando                                               %! SC
     
-    % [L CelloVoiceI measure 79]                             %! SM4
+    % [L CelloVoiceI measure 79 / measure 4]                 %! SM4
     e4
     \glissando                                               %! SC
     
@@ -1578,14 +1578,14 @@ L_CelloVoiceI_a = {
     f4
     \glissando                                               %! SC
     
-    % [L CelloVoiceI measure 80]                             %! SM4
+    % [L CelloVoiceI measure 80 / measure 5]                 %! SM4
     f4
     \glissando                                               %! SC
     
     g4
     \glissando                                               %! SC
     
-    % [L CelloVoiceI measure 81]                             %! SM4
+    % [L CelloVoiceI measure 81 / measure 6]                 %! SM4
     g4
     \glissando                                               %! SC
     
@@ -1620,7 +1620,7 @@ L_CelloStaffI = {
 
 L_ContrabassVoiceI_a = {
     
-    % [L ContrabassVoiceI measure 76]                    %! SM4
+    % [L ContrabassVoiceI measure 76 / measure 1]        %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1697,14 +1697,14 @@ L_ContrabassVoiceI_a = {
         r4
     }
     
-    % [L ContrabassVoiceI measure 77]                    %! SM4
+    % [L ContrabassVoiceI measure 77 / measure 2]        %! SM4
     r2.
     
-    % [L ContrabassVoiceI measure 78]                    %! SM4
+    % [L ContrabassVoiceI measure 78 / measure 3]        %! SM4
     r1
     \times 2/3 {
         
-        % [L ContrabassVoiceI measure 79]                %! SM4
+        % [L ContrabassVoiceI measure 79 / measure 4]    %! SM4
         cqf''!8
         -\laissezVibrer                                  %! IC
         \revert NoteHead.style                           %! OC2
@@ -1714,10 +1714,10 @@ L_ContrabassVoiceI_a = {
     
     r2.
     
-    % [L ContrabassVoiceI measure 80]                    %! SM4
+    % [L ContrabassVoiceI measure 80 / measure 5]        %! SM4
     r2
     
-    % [L ContrabassVoiceI measure 81]                    %! SM4
+    % [L ContrabassVoiceI measure 81 / measure 6]        %! SM4
     r2.
     
 }
@@ -1736,7 +1736,7 @@ L_ContrabassStaffI = {
 
 L_ContrabassVoiceIII_a = {
     
-    % [L ContrabassVoiceIII measure 76]                  %! SM4
+    % [L ContrabassVoiceIII measure 76 / measure 1]      %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1818,7 +1818,7 @@ L_ContrabassVoiceIII_a = {
     a,4
     \glissando                                           %! SC
     
-    % [L ContrabassVoiceIII measure 77]                  %! SM4
+    % [L ContrabassVoiceIII measure 77 / measure 2]      %! SM4
     a,4
     \glissando                                           %! SC
     
@@ -1828,7 +1828,7 @@ L_ContrabassVoiceIII_a = {
     a,4
     \glissando                                           %! SC
     
-    % [L ContrabassVoiceIII measure 78]                  %! SM4
+    % [L ContrabassVoiceIII measure 78 / measure 3]      %! SM4
     a,4
     \glissando                                           %! SC
     
@@ -1841,7 +1841,7 @@ L_ContrabassVoiceIII_a = {
     a,4
     \glissando                                           %! SC
     
-    % [L ContrabassVoiceIII measure 79]                  %! SM4
+    % [L ContrabassVoiceIII measure 79 / measure 4]      %! SM4
     g,4
     \glissando                                           %! SC
     
@@ -1854,14 +1854,14 @@ L_ContrabassVoiceIII_a = {
     g,4
     \glissando                                           %! SC
     
-    % [L ContrabassVoiceIII measure 80]                  %! SM4
+    % [L ContrabassVoiceIII measure 80 / measure 5]      %! SM4
     g,4
     \glissando                                           %! SC
     
     g,4
     \glissando                                           %! SC
     
-    % [L ContrabassVoiceIII measure 81]                  %! SM4
+    % [L ContrabassVoiceIII measure 81 / measure 6]      %! SM4
     g,4
     \glissando                                           %! SC
     

@@ -1,31 +1,31 @@
 K_GlobalRests_a = {
     
-    % [K GlobalRests measure 68]                                     %! SM4
+    % [K GlobalRests measure 68 / measure 1]                         %! SM4
     R1 * 1
     
-    % [K GlobalRests measure 69]                                     %! SM4
+    % [K GlobalRests measure 69 / measure 2]                         %! SM4
     R1 * 1
     
-    % [K GlobalRests measure 70]                                     %! SM4
+    % [K GlobalRests measure 70 / measure 3]                         %! SM4
     R1 * 1
     
-    % [K GlobalRests measure 71]                                     %! SM4
+    % [K GlobalRests measure 71 / measure 4]                         %! SM4
     R1 * 3/4
 }
 
 
 K_GlobalRests_b = {
     
-    % [K GlobalRests measure 72]                                     %! SM4
+    % [K GlobalRests measure 72 / measure 5]                         %! SM4
     R1 * 3/4
     
-    % [K GlobalRests measure 73]                                     %! SM4
+    % [K GlobalRests measure 73 / measure 6]                         %! SM4
     R1 * 1
     
-    % [K GlobalRests measure 74]                                     %! SM4
+    % [K GlobalRests measure 74 / measure 7]                         %! SM4
     R1 * 1
     
-    % [K GlobalRests measure 75]                                     %! SM4
+    % [K GlobalRests measure 75 / measure 8]                         %! SM4
     R1 * 1
     
 }
@@ -39,7 +39,7 @@ K_GlobalRests = {
 
 K_GlobalSkips = {
     
-    % [K GlobalSkips measure 68]                                         %! SM4
+    % [K GlobalSkips measure 68 / measure 1]                             %! SM4
 %%% \once \override GlobalContext.RehearsalMark.Y-offset = #6            %! OC1:+TABLOID_SCORE
 %%% \override TextSpanner.bound-details.left.padding = #-8               %! OC1:+TABLOID_SCORE
 %%% \override TextSpanner.Y-offset = #8                                  %! OC1:+TABLOID_SCORE
@@ -130,7 +130,7 @@ K_GlobalSkips = {
         }
 %%% \stopTextSpan                                                        %! SM39:-SEGMENT
     
-    % [K GlobalSkips measure 69]                                         %! SM4
+    % [K GlobalSkips measure 69 / measure 2]                             %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -164,7 +164,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 70]                                         %! SM4
+    % [K GlobalSkips measure 70 / measure 3]                             %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -198,7 +198,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 71]                                         %! SM4
+    % [K GlobalSkips measure 71 / measure 4]                             %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -233,7 +233,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 72]                                         %! SM4
+    % [K GlobalSkips measure 72 / measure 5]                             %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -267,7 +267,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 73]                                         %! SM4
+    % [K GlobalSkips measure 73 / measure 6]                             %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -302,7 +302,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 74]                                         %! SM4
+    % [K GlobalSkips measure 74 / measure 7]                             %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -336,7 +336,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 75]                                         %! SM4
+    % [K GlobalSkips measure 75 / measure 8]                             %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     \stopTextSpan                                                        %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SM29:METRONOME_MARK_SPANNER
@@ -380,7 +380,7 @@ K_GlobalSkips = {
 
 K_ClarinetVoiceI_a = {
     
-    % [K ClarinetVoiceI measure 68]                          %! SM4
+    % [K ClarinetVoiceI measure 68 / measure 1]              %! SM4
     \set Staff.instrumentName =                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -450,15 +450,15 @@ K_ClarinetVoiceI_a = {
                 }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
-    % [K ClarinetVoiceI measure 69]                          %! SM4
+    % [K ClarinetVoiceI measure 69 / measure 2]              %! SM4
     d''1
     \repeatTie
     
-    % [K ClarinetVoiceI measure 70]                          %! SM4
+    % [K ClarinetVoiceI measure 70 / measure 3]              %! SM4
     d''1
     \repeatTie
     
-    % [K ClarinetVoiceI measure 71]                          %! SM4
+    % [K ClarinetVoiceI measure 71 / measure 4]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d''2.
     \repeatTie
@@ -468,7 +468,7 @@ K_ClarinetVoiceI_a = {
 
 K_ClarinetVoiceI_b = {
     
-    % [K ClarinetVoiceI measure 72]                          %! SM4
+    % [K ClarinetVoiceI measure 72 / measure 5]              %! SM4
     \set Staff.instrumentName =                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -521,15 +521,15 @@ K_ClarinetVoiceI_b = {
                 }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
-    % [K ClarinetVoiceI measure 73]                          %! SM4
+    % [K ClarinetVoiceI measure 73 / measure 6]              %! SM4
     df''!1
     \repeatTie
     
-    % [K ClarinetVoiceI measure 74]                          %! SM4
+    % [K ClarinetVoiceI measure 74 / measure 7]              %! SM4
     df''!1
     \repeatTie
     
-    % [K ClarinetVoiceI measure 75]                          %! SM4
+    % [K ClarinetVoiceI measure 75 / measure 8]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     df''!1
     \repeatTie
@@ -552,7 +552,7 @@ K_ClarinetStaffI = {
 
 K_HornVoiceI_a = {
     
-    % [K HornVoiceI measure 68]                          %! SM4
+    % [K HornVoiceI measure 68 / measure 1]              %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -615,25 +615,25 @@ K_HornVoiceI_a = {
     
     r2..
     
-    % [K HornVoiceI measure 69]                          %! SM4
+    % [K HornVoiceI measure 69 / measure 2]              %! SM4
     R1 * 1
     
-    % [K HornVoiceI measure 70]                          %! SM4
+    % [K HornVoiceI measure 70 / measure 3]              %! SM4
     R1 * 1
     
-    % [K HornVoiceI measure 71]                          %! SM4
+    % [K HornVoiceI measure 71 / measure 4]              %! SM4
     R1 * 3/4
     
-    % [K HornVoiceI measure 72]                          %! SM4
+    % [K HornVoiceI measure 72 / measure 5]              %! SM4
     R1 * 3/4
     
-    % [K HornVoiceI measure 73]                          %! SM4
+    % [K HornVoiceI measure 73 / measure 6]              %! SM4
     R1 * 1
     
-    % [K HornVoiceI measure 74]                          %! SM4
+    % [K HornVoiceI measure 74 / measure 7]              %! SM4
     R1 * 1
     
-    % [K HornVoiceI measure 75]                          %! SM4
+    % [K HornVoiceI measure 75 / measure 8]              %! SM4
     R1 * 1
     
 }
@@ -646,7 +646,7 @@ K_HornVoiceI = {
 
 K_HornVoiceIII_a = {
     
-    % [K HornVoiceIII measure 68]                        %! SM4
+    % [K HornVoiceIII measure 68 / measure 1]            %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     ef'!8
@@ -659,25 +659,25 @@ K_HornVoiceIII_a = {
     
     r2..
     
-    % [K HornVoiceIII measure 69]                        %! SM4
+    % [K HornVoiceIII measure 69 / measure 2]            %! SM4
     R1 * 1
     
-    % [K HornVoiceIII measure 70]                        %! SM4
+    % [K HornVoiceIII measure 70 / measure 3]            %! SM4
     R1 * 1
     
-    % [K HornVoiceIII measure 71]                        %! SM4
+    % [K HornVoiceIII measure 71 / measure 4]            %! SM4
     R1 * 3/4
     
-    % [K HornVoiceIII measure 72]                        %! SM4
+    % [K HornVoiceIII measure 72 / measure 5]            %! SM4
     R1 * 3/4
     
-    % [K HornVoiceIII measure 73]                        %! SM4
+    % [K HornVoiceIII measure 73 / measure 6]            %! SM4
     R1 * 1
     
-    % [K HornVoiceIII measure 74]                        %! SM4
+    % [K HornVoiceIII measure 74 / measure 7]            %! SM4
     R1 * 1
     
-    % [K HornVoiceIII measure 75]                        %! SM4
+    % [K HornVoiceIII measure 75 / measure 8]            %! SM4
     R1 * 1
     
 }
@@ -698,7 +698,7 @@ K_HornStaffI = <<
 
 K_HornVoiceII_a = {
     
-    % [K HornVoiceII measure 68]                         %! SM4
+    % [K HornVoiceII measure 68 / measure 1]             %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -759,25 +759,25 @@ K_HornVoiceII_a = {
     
     r2..
     
-    % [K HornVoiceII measure 69]                         %! SM4
+    % [K HornVoiceII measure 69 / measure 2]             %! SM4
     R1 * 1
     
-    % [K HornVoiceII measure 70]                         %! SM4
+    % [K HornVoiceII measure 70 / measure 3]             %! SM4
     R1 * 1
     
-    % [K HornVoiceII measure 71]                         %! SM4
+    % [K HornVoiceII measure 71 / measure 4]             %! SM4
     R1 * 3/4
     
-    % [K HornVoiceII measure 72]                         %! SM4
+    % [K HornVoiceII measure 72 / measure 5]             %! SM4
     R1 * 3/4
     
-    % [K HornVoiceII measure 73]                         %! SM4
+    % [K HornVoiceII measure 73 / measure 6]             %! SM4
     R1 * 1
     
-    % [K HornVoiceII measure 74]                         %! SM4
+    % [K HornVoiceII measure 74 / measure 7]             %! SM4
     R1 * 1
     
-    % [K HornVoiceII measure 75]                         %! SM4
+    % [K HornVoiceII measure 75 / measure 8]             %! SM4
     R1 * 1
     
 }
@@ -790,7 +790,7 @@ K_HornVoiceII = {
 
 K_HornVoiceIV_a = {
     
-    % [K HornVoiceIV measure 68]                         %! SM4
+    % [K HornVoiceIV measure 68 / measure 1]             %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     ef'!8
@@ -803,25 +803,25 @@ K_HornVoiceIV_a = {
     
     r2..
     
-    % [K HornVoiceIV measure 69]                         %! SM4
+    % [K HornVoiceIV measure 69 / measure 2]             %! SM4
     R1 * 1
     
-    % [K HornVoiceIV measure 70]                         %! SM4
+    % [K HornVoiceIV measure 70 / measure 3]             %! SM4
     R1 * 1
     
-    % [K HornVoiceIV measure 71]                         %! SM4
+    % [K HornVoiceIV measure 71 / measure 4]             %! SM4
     R1 * 3/4
     
-    % [K HornVoiceIV measure 72]                         %! SM4
+    % [K HornVoiceIV measure 72 / measure 5]             %! SM4
     R1 * 3/4
     
-    % [K HornVoiceIV measure 73]                         %! SM4
+    % [K HornVoiceIV measure 73 / measure 6]             %! SM4
     R1 * 1
     
-    % [K HornVoiceIV measure 74]                         %! SM4
+    % [K HornVoiceIV measure 74 / measure 7]             %! SM4
     R1 * 1
     
-    % [K HornVoiceIV measure 75]                         %! SM4
+    % [K HornVoiceIV measure 75 / measure 8]             %! SM4
     R1 * 1
     
 }
@@ -842,7 +842,7 @@ K_HornStaffII = <<
 
 K_TrumpetVoiceI_a = {
     
-    % [K TrumpetVoiceI measure 68]                       %! SM4
+    % [K TrumpetVoiceI measure 68 / measure 1]           %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -903,25 +903,25 @@ K_TrumpetVoiceI_a = {
     
     r2..
     
-    % [K TrumpetVoiceI measure 69]                       %! SM4
+    % [K TrumpetVoiceI measure 69 / measure 2]           %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceI measure 70]                       %! SM4
+    % [K TrumpetVoiceI measure 70 / measure 3]           %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceI measure 71]                       %! SM4
+    % [K TrumpetVoiceI measure 71 / measure 4]           %! SM4
     R1 * 3/4
     
-    % [K TrumpetVoiceI measure 72]                       %! SM4
+    % [K TrumpetVoiceI measure 72 / measure 5]           %! SM4
     R1 * 3/4
     
-    % [K TrumpetVoiceI measure 73]                       %! SM4
+    % [K TrumpetVoiceI measure 73 / measure 6]           %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceI measure 74]                       %! SM4
+    % [K TrumpetVoiceI measure 74 / measure 7]           %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceI measure 75]                       %! SM4
+    % [K TrumpetVoiceI measure 75 / measure 8]           %! SM4
     R1 * 1
     
 }
@@ -934,7 +934,7 @@ K_TrumpetVoiceI = {
 
 K_TrumpetVoiceIII_a = {
     
-    % [K TrumpetVoiceIII measure 68]                     %! SM4
+    % [K TrumpetVoiceIII measure 68 / measure 1]         %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'8
@@ -947,25 +947,25 @@ K_TrumpetVoiceIII_a = {
     
     r2..
     
-    % [K TrumpetVoiceIII measure 69]                     %! SM4
+    % [K TrumpetVoiceIII measure 69 / measure 2]         %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceIII measure 70]                     %! SM4
+    % [K TrumpetVoiceIII measure 70 / measure 3]         %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceIII measure 71]                     %! SM4
+    % [K TrumpetVoiceIII measure 71 / measure 4]         %! SM4
     R1 * 3/4
     
-    % [K TrumpetVoiceIII measure 72]                     %! SM4
+    % [K TrumpetVoiceIII measure 72 / measure 5]         %! SM4
     R1 * 3/4
     
-    % [K TrumpetVoiceIII measure 73]                     %! SM4
+    % [K TrumpetVoiceIII measure 73 / measure 6]         %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceIII measure 74]                     %! SM4
+    % [K TrumpetVoiceIII measure 74 / measure 7]         %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceIII measure 75]                     %! SM4
+    % [K TrumpetVoiceIII measure 75 / measure 8]         %! SM4
     R1 * 1
     
 }
@@ -986,7 +986,7 @@ K_TrumpetStaffI = <<
 
 K_TrumpetVoiceII_a = {
     
-    % [K TrumpetVoiceII measure 68]                      %! SM4
+    % [K TrumpetVoiceII measure 68 / measure 1]          %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1047,25 +1047,25 @@ K_TrumpetVoiceII_a = {
     
     r2..
     
-    % [K TrumpetVoiceII measure 69]                      %! SM4
+    % [K TrumpetVoiceII measure 69 / measure 2]          %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceII measure 70]                      %! SM4
+    % [K TrumpetVoiceII measure 70 / measure 3]          %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceII measure 71]                      %! SM4
+    % [K TrumpetVoiceII measure 71 / measure 4]          %! SM4
     R1 * 3/4
     
-    % [K TrumpetVoiceII measure 72]                      %! SM4
+    % [K TrumpetVoiceII measure 72 / measure 5]          %! SM4
     R1 * 3/4
     
-    % [K TrumpetVoiceII measure 73]                      %! SM4
+    % [K TrumpetVoiceII measure 73 / measure 6]          %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceII measure 74]                      %! SM4
+    % [K TrumpetVoiceII measure 74 / measure 7]          %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceII measure 75]                      %! SM4
+    % [K TrumpetVoiceII measure 75 / measure 8]          %! SM4
     R1 * 1
     
 }
@@ -1078,7 +1078,7 @@ K_TrumpetVoiceII = {
 
 K_TrumpetVoiceIV_a = {
     
-    % [K TrumpetVoiceIV measure 68]                      %! SM4
+    % [K TrumpetVoiceIV measure 68 / measure 1]          %! SM4
     \once \override NoteColumn.force-hshift = #1.0       %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -1093,25 +1093,25 @@ K_TrumpetVoiceIV_a = {
     
     r2..
     
-    % [K TrumpetVoiceIV measure 69]                      %! SM4
+    % [K TrumpetVoiceIV measure 69 / measure 2]          %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceIV measure 70]                      %! SM4
+    % [K TrumpetVoiceIV measure 70 / measure 3]          %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceIV measure 71]                      %! SM4
+    % [K TrumpetVoiceIV measure 71 / measure 4]          %! SM4
     R1 * 3/4
     
-    % [K TrumpetVoiceIV measure 72]                      %! SM4
+    % [K TrumpetVoiceIV measure 72 / measure 5]          %! SM4
     R1 * 3/4
     
-    % [K TrumpetVoiceIV measure 73]                      %! SM4
+    % [K TrumpetVoiceIV measure 73 / measure 6]          %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceIV measure 74]                      %! SM4
+    % [K TrumpetVoiceIV measure 74 / measure 7]          %! SM4
     R1 * 1
     
-    % [K TrumpetVoiceIV measure 75]                      %! SM4
+    % [K TrumpetVoiceIV measure 75 / measure 8]          %! SM4
     R1 * 1
     
 }
@@ -1132,7 +1132,7 @@ K_TrumpetStaffII = <<
 
 K_TromboneVoiceI_a = {
     
-    % [K TromboneVoiceI measure 68]                      %! SM4
+    % [K TromboneVoiceI measure 68 / measure 1]          %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1193,25 +1193,25 @@ K_TromboneVoiceI_a = {
     
     r2..
     
-    % [K TromboneVoiceI measure 69]                      %! SM4
+    % [K TromboneVoiceI measure 69 / measure 2]          %! SM4
     R1 * 1
     
-    % [K TromboneVoiceI measure 70]                      %! SM4
+    % [K TromboneVoiceI measure 70 / measure 3]          %! SM4
     R1 * 1
     
-    % [K TromboneVoiceI measure 71]                      %! SM4
+    % [K TromboneVoiceI measure 71 / measure 4]          %! SM4
     R1 * 3/4
     
-    % [K TromboneVoiceI measure 72]                      %! SM4
+    % [K TromboneVoiceI measure 72 / measure 5]          %! SM4
     R1 * 3/4
     
-    % [K TromboneVoiceI measure 73]                      %! SM4
+    % [K TromboneVoiceI measure 73 / measure 6]          %! SM4
     R1 * 1
     
-    % [K TromboneVoiceI measure 74]                      %! SM4
+    % [K TromboneVoiceI measure 74 / measure 7]          %! SM4
     R1 * 1
     
-    % [K TromboneVoiceI measure 75]                      %! SM4
+    % [K TromboneVoiceI measure 75 / measure 8]          %! SM4
     R1 * 1
     
 }
@@ -1224,7 +1224,7 @@ K_TromboneVoiceI = {
 
 K_TromboneVoiceIII_a = {
     
-    % [K TromboneVoiceIII measure 68]                    %! SM4
+    % [K TromboneVoiceIII measure 68 / measure 1]        %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g8
@@ -1237,25 +1237,25 @@ K_TromboneVoiceIII_a = {
     
     r2..
     
-    % [K TromboneVoiceIII measure 69]                    %! SM4
+    % [K TromboneVoiceIII measure 69 / measure 2]        %! SM4
     R1 * 1
     
-    % [K TromboneVoiceIII measure 70]                    %! SM4
+    % [K TromboneVoiceIII measure 70 / measure 3]        %! SM4
     R1 * 1
     
-    % [K TromboneVoiceIII measure 71]                    %! SM4
+    % [K TromboneVoiceIII measure 71 / measure 4]        %! SM4
     R1 * 3/4
     
-    % [K TromboneVoiceIII measure 72]                    %! SM4
+    % [K TromboneVoiceIII measure 72 / measure 5]        %! SM4
     R1 * 3/4
     
-    % [K TromboneVoiceIII measure 73]                    %! SM4
+    % [K TromboneVoiceIII measure 73 / measure 6]        %! SM4
     R1 * 1
     
-    % [K TromboneVoiceIII measure 74]                    %! SM4
+    % [K TromboneVoiceIII measure 74 / measure 7]        %! SM4
     R1 * 1
     
-    % [K TromboneVoiceIII measure 75]                    %! SM4
+    % [K TromboneVoiceIII measure 75 / measure 8]        %! SM4
     R1 * 1
     
 }
@@ -1276,7 +1276,7 @@ K_TromboneStaffI = <<
 
 K_TromboneVoiceII_a = {
     
-    % [K TromboneVoiceII measure 68]                     %! SM4
+    % [K TromboneVoiceII measure 68 / measure 1]         %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1337,25 +1337,25 @@ K_TromboneVoiceII_a = {
     
     r2..
     
-    % [K TromboneVoiceII measure 69]                     %! SM4
+    % [K TromboneVoiceII measure 69 / measure 2]         %! SM4
     R1 * 1
     
-    % [K TromboneVoiceII measure 70]                     %! SM4
+    % [K TromboneVoiceII measure 70 / measure 3]         %! SM4
     R1 * 1
     
-    % [K TromboneVoiceII measure 71]                     %! SM4
+    % [K TromboneVoiceII measure 71 / measure 4]         %! SM4
     R1 * 3/4
     
-    % [K TromboneVoiceII measure 72]                     %! SM4
+    % [K TromboneVoiceII measure 72 / measure 5]         %! SM4
     R1 * 3/4
     
-    % [K TromboneVoiceII measure 73]                     %! SM4
+    % [K TromboneVoiceII measure 73 / measure 6]         %! SM4
     R1 * 1
     
-    % [K TromboneVoiceII measure 74]                     %! SM4
+    % [K TromboneVoiceII measure 74 / measure 7]         %! SM4
     R1 * 1
     
-    % [K TromboneVoiceII measure 75]                     %! SM4
+    % [K TromboneVoiceII measure 75 / measure 8]         %! SM4
     R1 * 1
     
 }
@@ -1368,7 +1368,7 @@ K_TromboneVoiceII = {
 
 K_TromboneVoiceIV_a = {
     
-    % [K TromboneVoiceIV measure 68]                     %! SM4
+    % [K TromboneVoiceIV measure 68 / measure 1]         %! SM4
     \once \override NoteColumn.force-hshift = #1.0       %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -1383,25 +1383,25 @@ K_TromboneVoiceIV_a = {
     
     r2..
     
-    % [K TromboneVoiceIV measure 69]                     %! SM4
+    % [K TromboneVoiceIV measure 69 / measure 2]         %! SM4
     R1 * 1
     
-    % [K TromboneVoiceIV measure 70]                     %! SM4
+    % [K TromboneVoiceIV measure 70 / measure 3]         %! SM4
     R1 * 1
     
-    % [K TromboneVoiceIV measure 71]                     %! SM4
+    % [K TromboneVoiceIV measure 71 / measure 4]         %! SM4
     R1 * 3/4
     
-    % [K TromboneVoiceIV measure 72]                     %! SM4
+    % [K TromboneVoiceIV measure 72 / measure 5]         %! SM4
     R1 * 3/4
     
-    % [K TromboneVoiceIV measure 73]                     %! SM4
+    % [K TromboneVoiceIV measure 73 / measure 6]         %! SM4
     R1 * 1
     
-    % [K TromboneVoiceIV measure 74]                     %! SM4
+    % [K TromboneVoiceIV measure 74 / measure 7]         %! SM4
     R1 * 1
     
-    % [K TromboneVoiceIV measure 75]                     %! SM4
+    % [K TromboneVoiceIV measure 75 / measure 8]         %! SM4
     R1 * 1
     
 }
@@ -1422,7 +1422,7 @@ K_TromboneStaffII = <<
 
 K_PianoVoiceI_a = {
     
-    % [K PianoVoiceI measure 68]                             %! SM4
+    % [K PianoVoiceI measure 68 / measure 1]                 %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1475,11 +1475,11 @@ K_PianoVoiceI_a = {
             Pf.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [K PianoVoiceI measure 69]                             %! SM4
+    % [K PianoVoiceI measure 69 / measure 2]                 %! SM4
     r1
     \times 2/3 {
         
-        % [K PianoVoiceI measure 70]                         %! SM4
+        % [K PianoVoiceI measure 70 / measure 3]             %! SM4
         c''8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
@@ -1489,10 +1489,10 @@ K_PianoVoiceI_a = {
     
     r2.
     
-    % [K PianoVoiceI measure 71]                             %! SM4
+    % [K PianoVoiceI measure 71 / measure 4]                 %! SM4
     r2.
     
-    % [K PianoVoiceI measure 72]                             %! SM4
+    % [K PianoVoiceI measure 72 / measure 5]                 %! SM4
     r4
     \times 2/3 {
         
@@ -1505,14 +1505,14 @@ K_PianoVoiceI_a = {
     
     r4
     
-    % [K PianoVoiceI measure 73]                             %! SM4
+    % [K PianoVoiceI measure 73 / measure 6]                 %! SM4
     r1
     
-    % [K PianoVoiceI measure 74]                             %! SM4
+    % [K PianoVoiceI measure 74 / measure 7]                 %! SM4
     r1
     \times 2/3 {
         
-        % [K PianoVoiceI measure 75]                         %! SM4
+        % [K PianoVoiceI measure 75 / measure 8]             %! SM4
         c''8
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
@@ -1538,7 +1538,7 @@ K_PianoStaffI = {
 
 K_HarpVoiceI_a = {
     
-    % [K HarpVoiceI measure 68]                              %! SM4
+    % [K HarpVoiceI measure 68 / measure 1]                  %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1591,7 +1591,7 @@ K_HarpVoiceI_a = {
             Hp.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [K HarpVoiceI measure 69]                              %! SM4
+    % [K HarpVoiceI measure 69 / measure 2]                  %! SM4
     r2.
     \times 2/3 {
         
@@ -1602,10 +1602,10 @@ K_HarpVoiceI_a = {
         r4
     }
     
-    % [K HarpVoiceI measure 70]                              %! SM4
+    % [K HarpVoiceI measure 70 / measure 3]                  %! SM4
     r1
     
-    % [K HarpVoiceI measure 71]                              %! SM4
+    % [K HarpVoiceI measure 71 / measure 4]                  %! SM4
     r2
     \times 2/3 {
         
@@ -1616,13 +1616,13 @@ K_HarpVoiceI_a = {
         r4
     }
     
-    % [K HarpVoiceI measure 72]                              %! SM4
+    % [K HarpVoiceI measure 72 / measure 5]                  %! SM4
     r2.
     
-    % [K HarpVoiceI measure 73]                              %! SM4
+    % [K HarpVoiceI measure 73 / measure 6]                  %! SM4
     r1
     
-    % [K HarpVoiceI measure 74]                              %! SM4
+    % [K HarpVoiceI measure 74 / measure 7]                  %! SM4
     r2.
     \times 2/3 {
         
@@ -1633,7 +1633,7 @@ K_HarpVoiceI_a = {
         r4
     }
     
-    % [K HarpVoiceI measure 75]                              %! SM4
+    % [K HarpVoiceI measure 75 / measure 8]                  %! SM4
     r1
     
 }
@@ -1652,7 +1652,7 @@ K_HarpStaffI = {
 
 K_PercussionVoiceII_a = {
     
-    % [K PercussionVoiceII measure 68]                       %! SM4
+    % [K PercussionVoiceII measure 68 / measure 1]           %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1728,37 +1728,37 @@ K_PercussionVoiceII_a = {
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [K PercussionVoiceII measure 69]                       %! SM4
+    % [K PercussionVoiceII measure 69 / measure 2]           %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie
     
-    % [K PercussionVoiceII measure 70]                       %! SM4
+    % [K PercussionVoiceII measure 70 / measure 3]           %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie
     
-    % [K PercussionVoiceII measure 71]                       %! SM4
+    % [K PercussionVoiceII measure 71 / measure 4]           %! SM4
     c'2.
     :32                                                      %! IC
     \repeatTie
     
-    % [K PercussionVoiceII measure 72]                       %! SM4
+    % [K PercussionVoiceII measure 72 / measure 5]           %! SM4
     c'2.
     :32                                                      %! IC
     \repeatTie
     
-    % [K PercussionVoiceII measure 73]                       %! SM4
+    % [K PercussionVoiceII measure 73 / measure 6]           %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie
     
-    % [K PercussionVoiceII measure 74]                       %! SM4
+    % [K PercussionVoiceII measure 74 / measure 7]           %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie
     
-    % [K PercussionVoiceII measure 75]                       %! SM4
+    % [K PercussionVoiceII measure 75 / measure 8]           %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie
@@ -1780,7 +1780,7 @@ K_PercussionStaffII = {
 
 K_PercussionVoiceIII_a = {
     
-    % [K PercussionVoiceIII measure 68]                      %! SM4
+    % [K PercussionVoiceIII measure 68 / measure 1]          %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1858,13 +1858,13 @@ K_PercussionVoiceIII_a = {
     
     r2
     
-    % [K PercussionVoiceIII measure 69]                      %! SM4
+    % [K PercussionVoiceIII measure 69 / measure 2]          %! SM4
     r1
     
-    % [K PercussionVoiceIII measure 70]                      %! SM4
+    % [K PercussionVoiceIII measure 70 / measure 3]          %! SM4
     r1
     
-    % [K PercussionVoiceIII measure 71]                      %! SM4
+    % [K PercussionVoiceIII measure 71 / measure 4]          %! SM4
     r4
     \times 2/3 {
         
@@ -1876,10 +1876,10 @@ K_PercussionVoiceIII_a = {
     
     r4
     
-    % [K PercussionVoiceIII measure 72]                      %! SM4
+    % [K PercussionVoiceIII measure 72 / measure 5]          %! SM4
     r2.
     
-    % [K PercussionVoiceIII measure 73]                      %! SM4
+    % [K PercussionVoiceIII measure 73 / measure 6]          %! SM4
     r4
     \times 2/3 {
         
@@ -1891,10 +1891,10 @@ K_PercussionVoiceIII_a = {
     
     r2
     
-    % [K PercussionVoiceIII measure 74]                      %! SM4
+    % [K PercussionVoiceIII measure 74 / measure 7]          %! SM4
     r1
     
-    % [K PercussionVoiceIII measure 75]                      %! SM4
+    % [K PercussionVoiceIII measure 75 / measure 8]          %! SM4
     r1
     
 }
@@ -1913,7 +1913,7 @@ K_PercussionStaffIII = {
 
 K_FirstViolinVoiceI_a = {
     
-    % [K FirstViolinVoiceI measure 68]                       %! SM4
+    % [K FirstViolinVoiceI measure 68 / measure 1]           %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1966,31 +1966,31 @@ K_FirstViolinVoiceI_a = {
             "Vni. I"                                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [K FirstViolinVoiceI measure 69]                       %! SM4
+    % [K FirstViolinVoiceI measure 69 / measure 2]           %! SM4
     af'''!1
     \repeatTie
     
-    % [K FirstViolinVoiceI measure 70]                       %! SM4
+    % [K FirstViolinVoiceI measure 70 / measure 3]           %! SM4
     af'''!1
     \repeatTie
     
-    % [K FirstViolinVoiceI measure 71]                       %! SM4
+    % [K FirstViolinVoiceI measure 71 / measure 4]           %! SM4
     af'''!2.
     \repeatTie
     
-    % [K FirstViolinVoiceI measure 72]                       %! SM4
+    % [K FirstViolinVoiceI measure 72 / measure 5]           %! SM4
     af'''!2.
     \repeatTie
     
-    % [K FirstViolinVoiceI measure 73]                       %! SM4
+    % [K FirstViolinVoiceI measure 73 / measure 6]           %! SM4
     af'''!1
     \repeatTie
     
-    % [K FirstViolinVoiceI measure 74]                       %! SM4
+    % [K FirstViolinVoiceI measure 74 / measure 7]           %! SM4
     af'''!1
     \repeatTie
     
-    % [K FirstViolinVoiceI measure 75]                       %! SM4
+    % [K FirstViolinVoiceI measure 75 / measure 8]           %! SM4
     af'''!1
     \repeatTie
     
@@ -2010,7 +2010,7 @@ K_FirstViolinStaffI = {
 
 K_SecondViolinVoiceI_a = {
     
-    % [K SecondViolinVoiceI measure 68]                      %! SM4
+    % [K SecondViolinVoiceI measure 68 / measure 1]          %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2063,31 +2063,31 @@ K_SecondViolinVoiceI_a = {
             "Vni. II"                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [K SecondViolinVoiceI measure 69]                      %! SM4
+    % [K SecondViolinVoiceI measure 69 / measure 2]          %! SM4
     af''!1
     \repeatTie
     
-    % [K SecondViolinVoiceI measure 70]                      %! SM4
+    % [K SecondViolinVoiceI measure 70 / measure 3]          %! SM4
     af''!1
     \repeatTie
     
-    % [K SecondViolinVoiceI measure 71]                      %! SM4
+    % [K SecondViolinVoiceI measure 71 / measure 4]          %! SM4
     af''!2.
     \repeatTie
     
-    % [K SecondViolinVoiceI measure 72]                      %! SM4
+    % [K SecondViolinVoiceI measure 72 / measure 5]          %! SM4
     af''!2.
     \repeatTie
     
-    % [K SecondViolinVoiceI measure 73]                      %! SM4
+    % [K SecondViolinVoiceI measure 73 / measure 6]          %! SM4
     af''!1
     \repeatTie
     
-    % [K SecondViolinVoiceI measure 74]                      %! SM4
+    % [K SecondViolinVoiceI measure 74 / measure 7]          %! SM4
     af''!1
     \repeatTie
     
-    % [K SecondViolinVoiceI measure 75]                      %! SM4
+    % [K SecondViolinVoiceI measure 75 / measure 8]          %! SM4
     af''!1
     \repeatTie
     
@@ -2107,7 +2107,7 @@ K_SecondViolinStaffI = {
 
 K_ViolaVoiceI_a = {
     
-    % [K ViolaVoiceI measure 68]                             %! SM4
+    % [K ViolaVoiceI measure 68 / measure 1]                 %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2160,31 +2160,31 @@ K_ViolaVoiceI_a = {
             Vle.                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [K ViolaVoiceI measure 69]                             %! SM4
+    % [K ViolaVoiceI measure 69 / measure 2]                 %! SM4
     af'!1
     \repeatTie
     
-    % [K ViolaVoiceI measure 70]                             %! SM4
+    % [K ViolaVoiceI measure 70 / measure 3]                 %! SM4
     af'!1
     \repeatTie
     
-    % [K ViolaVoiceI measure 71]                             %! SM4
+    % [K ViolaVoiceI measure 71 / measure 4]                 %! SM4
     af'!2.
     \repeatTie
     
-    % [K ViolaVoiceI measure 72]                             %! SM4
+    % [K ViolaVoiceI measure 72 / measure 5]                 %! SM4
     af'!2.
     \repeatTie
     
-    % [K ViolaVoiceI measure 73]                             %! SM4
+    % [K ViolaVoiceI measure 73 / measure 6]                 %! SM4
     af'!1
     \repeatTie
     
-    % [K ViolaVoiceI measure 74]                             %! SM4
+    % [K ViolaVoiceI measure 74 / measure 7]                 %! SM4
     af'!1
     \repeatTie
     
-    % [K ViolaVoiceI measure 75]                             %! SM4
+    % [K ViolaVoiceI measure 75 / measure 8]                 %! SM4
     af'!1
     \repeatTie
     
@@ -2204,7 +2204,7 @@ K_ViolaStaffI = {
 
 K_CelloVoiceI_a = {
     
-    % [K CelloVoiceI measure 68]                             %! SM4
+    % [K CelloVoiceI measure 68 / measure 1]                 %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2257,31 +2257,31 @@ K_CelloVoiceI_a = {
             Vc.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [K CelloVoiceI measure 69]                             %! SM4
+    % [K CelloVoiceI measure 69 / measure 2]                 %! SM4
     af,!1
     \repeatTie
     
-    % [K CelloVoiceI measure 70]                             %! SM4
+    % [K CelloVoiceI measure 70 / measure 3]                 %! SM4
     af,!1
     \repeatTie
     
-    % [K CelloVoiceI measure 71]                             %! SM4
+    % [K CelloVoiceI measure 71 / measure 4]                 %! SM4
     af,!2.
     \repeatTie
     
-    % [K CelloVoiceI measure 72]                             %! SM4
+    % [K CelloVoiceI measure 72 / measure 5]                 %! SM4
     af,!2.
     \repeatTie
     
-    % [K CelloVoiceI measure 73]                             %! SM4
+    % [K CelloVoiceI measure 73 / measure 6]                 %! SM4
     af,!1
     \repeatTie
     
-    % [K CelloVoiceI measure 74]                             %! SM4
+    % [K CelloVoiceI measure 74 / measure 7]                 %! SM4
     af,!1
     \repeatTie
     
-    % [K CelloVoiceI measure 75]                             %! SM4
+    % [K CelloVoiceI measure 75 / measure 8]                 %! SM4
     af,!1
     \repeatTie
     
@@ -2301,7 +2301,7 @@ K_CelloStaffI = {
 
 K_ContrabassVoiceI_a = {
     
-    % [K ContrabassVoiceI measure 68]                    %! SM4
+    % [K ContrabassVoiceI measure 68 / measure 1]        %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2380,13 +2380,13 @@ K_ContrabassVoiceI_a = {
     
     r4
     
-    % [K ContrabassVoiceI measure 69]                    %! SM4
+    % [K ContrabassVoiceI measure 69 / measure 2]        %! SM4
     r1
     
-    % [K ContrabassVoiceI measure 70]                    %! SM4
+    % [K ContrabassVoiceI measure 70 / measure 3]        %! SM4
     r1
     
-    % [K ContrabassVoiceI measure 71]                    %! SM4
+    % [K ContrabassVoiceI measure 71 / measure 4]        %! SM4
     r4
     \times 2/3 {
         
@@ -2401,10 +2401,10 @@ K_ContrabassVoiceI_a = {
     
     r4
     
-    % [K ContrabassVoiceI measure 72]                    %! SM4
+    % [K ContrabassVoiceI measure 72 / measure 5]        %! SM4
     r2.
     
-    % [K ContrabassVoiceI measure 73]                    %! SM4
+    % [K ContrabassVoiceI measure 73 / measure 6]        %! SM4
     r2
     \times 2/3 {
         
@@ -2417,10 +2417,10 @@ K_ContrabassVoiceI_a = {
     
     r4
     
-    % [K ContrabassVoiceI measure 74]                    %! SM4
+    % [K ContrabassVoiceI measure 74 / measure 7]        %! SM4
     r1
     
-    % [K ContrabassVoiceI measure 75]                    %! SM4
+    % [K ContrabassVoiceI measure 75 / measure 8]        %! SM4
     r1
     
 }
@@ -2439,7 +2439,7 @@ K_ContrabassStaffI = {
 
 K_ContrabassVoiceIII_a = {
     
-    % [K ContrabassVoiceIII measure 68]                  %! SM4
+    % [K ContrabassVoiceIII measure 68 / measure 1]      %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2508,31 +2508,31 @@ K_ContrabassVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [K ContrabassVoiceIII measure 69]                  %! SM4
+    % [K ContrabassVoiceIII measure 69 / measure 2]      %! SM4
     af,!1
     \repeatTie
     
-    % [K ContrabassVoiceIII measure 70]                  %! SM4
+    % [K ContrabassVoiceIII measure 70 / measure 3]      %! SM4
     af,!1
     \repeatTie
     
-    % [K ContrabassVoiceIII measure 71]                  %! SM4
+    % [K ContrabassVoiceIII measure 71 / measure 4]      %! SM4
     af,!2.
     \repeatTie
     
-    % [K ContrabassVoiceIII measure 72]                  %! SM4
+    % [K ContrabassVoiceIII measure 72 / measure 5]      %! SM4
     af,!2.
     \repeatTie
     
-    % [K ContrabassVoiceIII measure 73]                  %! SM4
+    % [K ContrabassVoiceIII measure 73 / measure 6]      %! SM4
     af,!1
     \repeatTie
     
-    % [K ContrabassVoiceIII measure 74]                  %! SM4
+    % [K ContrabassVoiceIII measure 74 / measure 7]      %! SM4
     af,!1
     \repeatTie
     
-    % [K ContrabassVoiceIII measure 75]                  %! SM4
+    % [K ContrabassVoiceIII measure 75 / measure 8]      %! SM4
     af,!1
     \repeatTie
     
