@@ -1,21 +1,21 @@
 A_GlobalRests = {
     
-    % [A GlobalRests measure 7]                                          %! SM4
+    % [A GlobalRests measure 7 / measure 1]                              %! SM4
     R1 * 1
     
-    % [A GlobalRests measure 8]                                          %! SM4
+    % [A GlobalRests measure 8 / measure 2]                              %! SM4
     R1 * 1/2
     
-    % [A GlobalRests measure 9]                                          %! SM4
+    % [A GlobalRests measure 9 / measure 3]                              %! SM4
     R1 * 3/4
     
-    % [A GlobalRests measure 10]                                         %! SM4
+    % [A GlobalRests measure 10 / measure 4]                             %! SM4
     R1 * 3/4
     
-    % [A GlobalRests measure 11]                                         %! SM4
+    % [A GlobalRests measure 11 / measure 5]                             %! SM4
     R1 * 1
     
-    % [A GlobalRests measure 12]                                         %! SM4
+    % [A GlobalRests measure 12 / measure 6]                             %! SM4
     R1 * 1/2
     
 }
@@ -23,7 +23,7 @@ A_GlobalRests = {
 
 A_GlobalSkips = {
     
-    % [A GlobalSkips measure 7]                                          %! SM4
+    % [A GlobalSkips measure 7 / measure 1]                              %! SM4
 %%% \once \override GlobalContext.RehearsalMark.Y-offset = #-2           %! OC1:+SCORE
     \time 4/4                                                            %! SM8:REAPPLIED_TIME_SIGNATURE:SM38:SM1
     \mark #1                                                             %! IC
@@ -110,7 +110,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 8]                                          %! SM4
+    % [A GlobalSkips measure 8 / measure 2]                              %! SM4
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -145,7 +145,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 9]                                          %! SM4
+    % [A GlobalSkips measure 9 / measure 3]                              %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -180,7 +180,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 10]                                         %! SM4
+    % [A GlobalSkips measure 10 / measure 4]                             %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -214,7 +214,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 11]                                         %! SM4
+    % [A GlobalSkips measure 11 / measure 5]                             %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -249,7 +249,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 12]                                         %! SM4
+    % [A GlobalSkips measure 12 / measure 6]                             %! SM4
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -292,7 +292,7 @@ A_GlobalSkips = {
 
 A_FirstViolinVoiceI_a = {
     
-    % [A FirstViolinVoiceI measure 7]                    %! SM4
+    % [A FirstViolinVoiceI measure 7 / measure 1]        %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -367,22 +367,22 @@ A_FirstViolinVoiceI_a = {
     gf'!2
     -\accent                                             %! IC
     
-    % [A FirstViolinVoiceI measure 8]                    %! SM4
+    % [A FirstViolinVoiceI measure 8 / measure 2]        %! SM4
     gf'!2
     \repeatTie
     
-    % [A FirstViolinVoiceI measure 9]                    %! SM4
+    % [A FirstViolinVoiceI measure 9 / measure 3]        %! SM4
     gf'!2
     \repeatTie
     
     gf'!4
     -\accent                                             %! IC
     
-    % [A FirstViolinVoiceI measure 10]                   %! SM4
+    % [A FirstViolinVoiceI measure 10 / measure 4]       %! SM4
     gf'!2.
     \repeatTie
     
-    % [A FirstViolinVoiceI measure 11]                   %! SM4
+    % [A FirstViolinVoiceI measure 11 / measure 5]       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     f'1
@@ -390,7 +390,7 @@ A_FirstViolinVoiceI_a = {
     \stopTrillSpan                                       %! SC
     \startTrillSpan gf'                                  %! SC
     
-    % [A FirstViolinVoiceI measure 12]                   %! SM4
+    % [A FirstViolinVoiceI measure 12 / measure 6]       %! SM4
     f'4
     \repeatTie
     
@@ -415,7 +415,7 @@ A_FirstViolinStaffI = {
 
 A_FirstViolinVoiceIII_a = {
     
-    % [A FirstViolinVoiceIII measure 7]                  %! SM4
+    % [A FirstViolinVoiceIII measure 7 / measure 1]      %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -490,11 +490,11 @@ A_FirstViolinVoiceIII_a = {
     gf'!4
     -\accent                                             %! IC
     
-    % [A FirstViolinVoiceIII measure 8]                  %! SM4
+    % [A FirstViolinVoiceIII measure 8 / measure 2]      %! SM4
     gf'!2
     \repeatTie
     
-    % [A FirstViolinVoiceIII measure 9]                  %! SM4
+    % [A FirstViolinVoiceIII measure 9 / measure 3]      %! SM4
     gf'!2
     \repeatTie
     \times 2/3 {
@@ -507,11 +507,11 @@ A_FirstViolinVoiceIII_a = {
         -\accent                                         %! IC
     }
     
-    % [A FirstViolinVoiceIII measure 10]                 %! SM4
+    % [A FirstViolinVoiceIII measure 10 / measure 4]     %! SM4
     gf'!2.
     \repeatTie
     
-    % [A FirstViolinVoiceIII measure 11]                 %! SM4
+    % [A FirstViolinVoiceIII measure 11 / measure 5]     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     f'1
@@ -519,7 +519,7 @@ A_FirstViolinVoiceIII_a = {
     \stopTrillSpan                                       %! SC
     \startTrillSpan gf'                                  %! SC
     
-    % [A FirstViolinVoiceIII measure 12]                 %! SM4
+    % [A FirstViolinVoiceIII measure 12 / measure 6]     %! SM4
     f'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -541,7 +541,7 @@ A_FirstViolinStaffII = {
 
 A_SecondViolinVoiceI_a = {
     
-    % [A SecondViolinVoiceI measure 7]                   %! SM4
+    % [A SecondViolinVoiceI measure 7 / measure 1]       %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -613,25 +613,25 @@ A_SecondViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [A SecondViolinVoiceI measure 8]                   %! SM4
+    % [A SecondViolinVoiceI measure 8 / measure 2]       %! SM4
     gf'!8
     \repeatTie
     
     gf'!4.
     -\accent                                             %! IC
     
-    % [A SecondViolinVoiceI measure 9]                   %! SM4
+    % [A SecondViolinVoiceI measure 9 / measure 3]       %! SM4
     gf'!2.
     \repeatTie
     
-    % [A SecondViolinVoiceI measure 10]                  %! SM4
+    % [A SecondViolinVoiceI measure 10 / measure 4]      %! SM4
     gf'!4.
     \repeatTie
     
     gf'!4.
     -\accent                                             %! IC
     
-    % [A SecondViolinVoiceI measure 11]                  %! SM4
+    % [A SecondViolinVoiceI measure 11 / measure 5]      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     f'1
@@ -639,7 +639,7 @@ A_SecondViolinVoiceI_a = {
     \stopTrillSpan                                       %! SC
     \startTrillSpan gf'                                  %! SC
     
-    % [A SecondViolinVoiceI measure 12]                  %! SM4
+    % [A SecondViolinVoiceI measure 12 / measure 6]      %! SM4
     f'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -661,7 +661,7 @@ A_SecondViolinStaffI = {
 
 A_SecondViolinVoiceIII_a = {
     
-    % [A SecondViolinVoiceIII measure 7]                 %! SM4
+    % [A SecondViolinVoiceIII measure 7 / measure 1]     %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -734,7 +734,7 @@ A_SecondViolinVoiceIII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \times 2/3 {
         
-        % [A SecondViolinVoiceIII measure 8]             %! SM4
+        % [A SecondViolinVoiceIII measure 8 / measure 2] %! SM4
         gf'!4
         \repeatTie
         
@@ -746,18 +746,18 @@ A_SecondViolinVoiceIII_a = {
     gf'!4
     \repeatTie
     
-    % [A SecondViolinVoiceIII measure 9]                 %! SM4
+    % [A SecondViolinVoiceIII measure 9 / measure 3]     %! SM4
     gf'!2.
     \repeatTie
     
-    % [A SecondViolinVoiceIII measure 10]                %! SM4
+    % [A SecondViolinVoiceIII measure 10 / measure 4]    %! SM4
     gf'!2
     \repeatTie
     
     gf'!4
     -\accent                                             %! IC
     
-    % [A SecondViolinVoiceIII measure 11]                %! SM4
+    % [A SecondViolinVoiceIII measure 11 / measure 5]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     f'1
@@ -765,7 +765,7 @@ A_SecondViolinVoiceIII_a = {
     \stopTrillSpan                                       %! SC
     \startTrillSpan gf'                                  %! SC
     
-    % [A SecondViolinVoiceIII measure 12]                %! SM4
+    % [A SecondViolinVoiceIII measure 12 / measure 6]    %! SM4
     f'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -787,7 +787,7 @@ A_SecondViolinStaffII = {
 
 A_ViolaVoiceI_a = {
     
-    % [A ViolaVoiceI measure 7]                          %! SM4
+    % [A ViolaVoiceI measure 7 / measure 1]              %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -859,22 +859,22 @@ A_ViolaVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [A ViolaVoiceI measure 8]                          %! SM4
+    % [A ViolaVoiceI measure 8 / measure 2]              %! SM4
     gf'!4
     \repeatTie
     
     gf'!4
     -\accent                                             %! IC
     
-    % [A ViolaVoiceI measure 9]                          %! SM4
+    % [A ViolaVoiceI measure 9 / measure 3]              %! SM4
     gf'!2.
     \repeatTie
     
-    % [A ViolaVoiceI measure 10]                         %! SM4
+    % [A ViolaVoiceI measure 10 / measure 4]             %! SM4
     gf'!2.
     \repeatTie
     
-    % [A ViolaVoiceI measure 11]                         %! SM4
+    % [A ViolaVoiceI measure 11 / measure 5]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     f'4.
@@ -888,7 +888,7 @@ A_ViolaVoiceI_a = {
     f'2
     \repeatTie
     
-    % [A ViolaVoiceI measure 12]                         %! SM4
+    % [A ViolaVoiceI measure 12 / measure 6]             %! SM4
     f'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -910,7 +910,7 @@ A_ViolaStaffI = {
 
 A_ViolaVoiceIII_a = {
     
-    % [A ViolaVoiceIII measure 7]                        %! SM4
+    % [A ViolaVoiceIII measure 7 / measure 1]            %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -982,19 +982,19 @@ A_ViolaVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [A ViolaVoiceIII measure 8]                        %! SM4
+    % [A ViolaVoiceIII measure 8 / measure 2]            %! SM4
     gf'!2
     \repeatTie
     
-    % [A ViolaVoiceIII measure 9]                        %! SM4
+    % [A ViolaVoiceIII measure 9 / measure 3]            %! SM4
     gf'!2.
     -\accent                                             %! IC
     
-    % [A ViolaVoiceIII measure 10]                       %! SM4
+    % [A ViolaVoiceIII measure 10 / measure 4]           %! SM4
     gf'!2.
     \repeatTie
     
-    % [A ViolaVoiceIII measure 11]                       %! SM4
+    % [A ViolaVoiceIII measure 11 / measure 5]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     f'2
@@ -1005,7 +1005,7 @@ A_ViolaVoiceIII_a = {
     f'2
     -\accent                                             %! IC
     
-    % [A ViolaVoiceIII measure 12]                       %! SM4
+    % [A ViolaVoiceIII measure 12 / measure 6]           %! SM4
     f'2
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -1027,7 +1027,7 @@ A_ViolaStaffII = {
 
 A_CelloVoiceI_a = {
     
-    % [A CelloVoiceI measure 7]                              %! SM4
+    % [A CelloVoiceI measure 7 / measure 1]                  %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1089,22 +1089,22 @@ A_CelloVoiceI_a = {
     gf'!2
     \repeatTie
     
-    % [A CelloVoiceI measure 8]                              %! SM4
+    % [A CelloVoiceI measure 8 / measure 2]                  %! SM4
     gf'!2
     \repeatTie
     
-    % [A CelloVoiceI measure 9]                              %! SM4
+    % [A CelloVoiceI measure 9 / measure 3]                  %! SM4
     gf'!4.
     \repeatTie
     
     gf'!4.
     -\accent                                                 %! IC
     
-    % [A CelloVoiceI measure 10]                             %! SM4
+    % [A CelloVoiceI measure 10 / measure 4]                 %! SM4
     gf'!2.
     \repeatTie
     
-    % [A CelloVoiceI measure 11]                             %! SM4
+    % [A CelloVoiceI measure 11 / measure 5]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                            %! SC
     f'1
@@ -1112,7 +1112,7 @@ A_CelloVoiceI_a = {
     \stopTrillSpan                                           %! SC
     \startTrillSpan gf'                                      %! SC
     
-    % [A CelloVoiceI measure 12]                             %! SM4
+    % [A CelloVoiceI measure 12 / measure 6]                 %! SM4
     f'8
     \repeatTie
     

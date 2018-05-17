@@ -1,33 +1,33 @@
 P_GlobalRests = {
     
-    % [P GlobalRests measure 109]                                        %! SM4
+    % [P GlobalRests measure 109 / measure 1]                            %! SM4
     R1 * 3/4
     
-    % [P GlobalRests measure 110]                                        %! SM4
+    % [P GlobalRests measure 110 / measure 2]                            %! SM4
     R1 * 3/4
     
-    % [P GlobalRests measure 111]                                        %! SM4
+    % [P GlobalRests measure 111 / measure 3]                            %! SM4
     R1 * 1
     
-    % [P GlobalRests measure 112]                                        %! SM4
+    % [P GlobalRests measure 112 / measure 4]                            %! SM4
     R1 * 1
     
-    % [P GlobalRests measure 113]                                        %! SM4
+    % [P GlobalRests measure 113 / measure 5]                            %! SM4
     R1 * 1
     
-    % [P GlobalRests measure 114]                                        %! SM4
+    % [P GlobalRests measure 114 / measure 6]                            %! SM4
     R1 * 3/4
     
-    % [P GlobalRests measure 115]                                        %! SM4
+    % [P GlobalRests measure 115 / measure 7]                            %! SM4
     R1 * 3/4
     
-    % [P GlobalRests measure 116]                                        %! SM4
+    % [P GlobalRests measure 116 / measure 8]                            %! SM4
     R1 * 1
     
-    % [P GlobalRests measure 117]                                        %! SM4
+    % [P GlobalRests measure 117 / measure 9]                            %! SM4
     R1 * 1
     
-    % [P GlobalRests measure 118]                                        %! SM4
+    % [P GlobalRests measure 118 / measure 10]                           %! SM4
     R1 * 1/2
     
 }
@@ -35,7 +35,7 @@ P_GlobalRests = {
 
 P_GlobalSkips = {
     
-    % [P GlobalSkips measure 109]                                        %! SM4
+    % [P GlobalSkips measure 109 / measure 1]                            %! SM4
 %%% \once \override GlobalContext.RehearsalMark.Y-offset = #6            %! OC1:+TABLOID_SCORE
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \mark #16                                                            %! IC
@@ -122,7 +122,7 @@ P_GlobalSkips = {
             }
         }
     
-    % [P GlobalSkips measure 110]                                        %! SM4
+    % [P GlobalSkips measure 110 / measure 2]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -156,7 +156,7 @@ P_GlobalSkips = {
             }
         }
     
-    % [P GlobalSkips measure 111]                                        %! SM4
+    % [P GlobalSkips measure 111 / measure 3]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -191,7 +191,7 @@ P_GlobalSkips = {
             }
         }
     
-    % [P GlobalSkips measure 112]                                        %! SM4
+    % [P GlobalSkips measure 112 / measure 4]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -225,7 +225,7 @@ P_GlobalSkips = {
             }
         }
     
-    % [P GlobalSkips measure 113]                                        %! SM4
+    % [P GlobalSkips measure 113 / measure 5]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -259,7 +259,7 @@ P_GlobalSkips = {
             }
         }
     
-    % [P GlobalSkips measure 114]                                        %! SM4
+    % [P GlobalSkips measure 114 / measure 6]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -294,7 +294,7 @@ P_GlobalSkips = {
             }
         }
     
-    % [P GlobalSkips measure 115]                                        %! SM4
+    % [P GlobalSkips measure 115 / measure 7]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -328,7 +328,7 @@ P_GlobalSkips = {
             }
         }
     
-    % [P GlobalSkips measure 116]                                        %! SM4
+    % [P GlobalSkips measure 116 / measure 8]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -363,7 +363,7 @@ P_GlobalSkips = {
             }
         }
     
-    % [P GlobalSkips measure 117]                                        %! SM4
+    % [P GlobalSkips measure 117 / measure 9]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -397,7 +397,7 @@ P_GlobalSkips = {
             }
         }
     
-    % [P GlobalSkips measure 118]                                        %! SM4
+    % [P GlobalSkips measure 118 / measure 10]                           %! SM4
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -440,7 +440,7 @@ P_GlobalSkips = {
 
 P_OboeVoiceI_a = {
     
-    % [P OboeVoiceI measure 109]                         %! SM4
+    % [P OboeVoiceI measure 109 / measure 1]             %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -494,11 +494,11 @@ P_OboeVoiceI_a = {
             Ob.                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P OboeVoiceI measure 110]                         %! SM4
+    % [P OboeVoiceI measure 110 / measure 2]             %! SM4
     a'2.
     \repeatTie
     
-    % [P OboeVoiceI measure 111]                         %! SM4
+    % [P OboeVoiceI measure 111 / measure 3]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a'1
     \repeatTie
@@ -506,29 +506,29 @@ P_OboeVoiceI_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     
-    % [P OboeVoiceI measure 112]                         %! SM4
+    % [P OboeVoiceI measure 112 / measure 4]             %! SM4
     a'1
     \repeatTie
     
-    % [P OboeVoiceI measure 113]                         %! SM4
+    % [P OboeVoiceI measure 113 / measure 5]             %! SM4
     a'1
     \repeatTie
     
-    % [P OboeVoiceI measure 114]                         %! SM4
+    % [P OboeVoiceI measure 114 / measure 6]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 3/4
     \!                                                   %! PWC1
     
-    % [P OboeVoiceI measure 115]                         %! SM4
+    % [P OboeVoiceI measure 115 / measure 7]             %! SM4
     R1 * 3/4
     
-    % [P OboeVoiceI measure 116]                         %! SM4
+    % [P OboeVoiceI measure 116 / measure 8]             %! SM4
     R1 * 1
     
-    % [P OboeVoiceI measure 117]                         %! SM4
+    % [P OboeVoiceI measure 117 / measure 9]             %! SM4
     R1 * 1
     
-    % [P OboeVoiceI measure 118]                         %! SM4
+    % [P OboeVoiceI measure 118 / measure 10]            %! SM4
     R1 * 1/2
     
 }
@@ -547,7 +547,7 @@ P_OboeStaffI = {
 
 P_EnglishHornVoiceI_a = {
     
-    % [P EnglishHornVoiceI measure 109]                  %! SM4
+    % [P EnglishHornVoiceI measure 109 / measure 1]      %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -601,11 +601,11 @@ P_EnglishHornVoiceI_a = {
             "Eng. hn."                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P EnglishHornVoiceI measure 110]                  %! SM4
+    % [P EnglishHornVoiceI measure 110 / measure 2]      %! SM4
     d'2.
     \repeatTie
     
-    % [P EnglishHornVoiceI measure 111]                  %! SM4
+    % [P EnglishHornVoiceI measure 111 / measure 3]      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d'1
     \repeatTie
@@ -613,29 +613,29 @@ P_EnglishHornVoiceI_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     
-    % [P EnglishHornVoiceI measure 112]                  %! SM4
+    % [P EnglishHornVoiceI measure 112 / measure 4]      %! SM4
     d'1
     \repeatTie
     
-    % [P EnglishHornVoiceI measure 113]                  %! SM4
+    % [P EnglishHornVoiceI measure 113 / measure 5]      %! SM4
     d'1
     \repeatTie
     
-    % [P EnglishHornVoiceI measure 114]                  %! SM4
+    % [P EnglishHornVoiceI measure 114 / measure 6]      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 3/4
     \!                                                   %! PWC1
     
-    % [P EnglishHornVoiceI measure 115]                  %! SM4
+    % [P EnglishHornVoiceI measure 115 / measure 7]      %! SM4
     R1 * 3/4
     
-    % [P EnglishHornVoiceI measure 116]                  %! SM4
+    % [P EnglishHornVoiceI measure 116 / measure 8]      %! SM4
     R1 * 1
     
-    % [P EnglishHornVoiceI measure 117]                  %! SM4
+    % [P EnglishHornVoiceI measure 117 / measure 9]      %! SM4
     R1 * 1
     
-    % [P EnglishHornVoiceI measure 118]                  %! SM4
+    % [P EnglishHornVoiceI measure 118 / measure 10]     %! SM4
     R1 * 1/2
     
 }
@@ -654,7 +654,7 @@ P_EnglishHornStaffI = {
 
 P_BassoonVoiceI_a = {
     
-    % [P BassoonVoiceI measure 109]                          %! SM4
+    % [P BassoonVoiceI measure 109 / measure 1]              %! SM4
     \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -666,11 +666,11 @@ P_BassoonVoiceI_a = {
 %%% \<                                                       %! PWC1:+PARTS
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [P BassoonVoiceI measure 110]                          %! SM4
+    % [P BassoonVoiceI measure 110 / measure 2]              %! SM4
     b2.
     \repeatTie
     
-    % [P BassoonVoiceI measure 111]                          %! SM4
+    % [P BassoonVoiceI measure 111 / measure 3]              %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3:+PARTS
     b1
     \repeatTie
@@ -678,29 +678,29 @@ P_BassoonVoiceI_a = {
 %%% - \tweak circled-tip ##t                                 %! PWC1:+PARTS
 %%% \>                                                       %! PWC1:+PARTS
     
-    % [P BassoonVoiceI measure 112]                          %! SM4
+    % [P BassoonVoiceI measure 112 / measure 4]              %! SM4
     b1
     \repeatTie
     
-    % [P BassoonVoiceI measure 113]                          %! SM4
+    % [P BassoonVoiceI measure 113 / measure 5]              %! SM4
     b1
     \repeatTie
     
-    % [P BassoonVoiceI measure 114]                          %! SM4
+    % [P BassoonVoiceI measure 114 / measure 6]              %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3:+PARTS
     R1 * 3/4
 %%% \!                                                       %! PWC1:+PARTS
     
-    % [P BassoonVoiceI measure 115]                          %! SM4
+    % [P BassoonVoiceI measure 115 / measure 7]              %! SM4
     R1 * 3/4
     
-    % [P BassoonVoiceI measure 116]                          %! SM4
+    % [P BassoonVoiceI measure 116 / measure 8]              %! SM4
     R1 * 1
     
-    % [P BassoonVoiceI measure 117]                          %! SM4
+    % [P BassoonVoiceI measure 117 / measure 9]              %! SM4
     R1 * 1
     
-    % [P BassoonVoiceI measure 118]                          %! SM4
+    % [P BassoonVoiceI measure 118 / measure 10]             %! SM4
     R1 * 1/2
     
 }
@@ -713,7 +713,7 @@ P_BassoonVoiceI = {
 
 P_BassoonVoiceII_a = {
     
-    % [P BassoonVoiceII measure 109]                         %! SM4
+    % [P BassoonVoiceII measure 109 / measure 1]             %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -763,11 +763,11 @@ P_BassoonVoiceII_a = {
             Bsn.                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P BassoonVoiceII measure 110]                         %! SM4
+    % [P BassoonVoiceII measure 110 / measure 2]             %! SM4
     g,2.
     \repeatTie
     
-    % [P BassoonVoiceII measure 111]                         %! SM4
+    % [P BassoonVoiceII measure 111 / measure 3]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,1
     \repeatTie
@@ -775,29 +775,29 @@ P_BassoonVoiceII_a = {
     - \tweak circled-tip ##t                                 %! PWC1
     \>                                                       %! PWC1
     
-    % [P BassoonVoiceII measure 112]                         %! SM4
+    % [P BassoonVoiceII measure 112 / measure 4]             %! SM4
     g,1
     \repeatTie
     
-    % [P BassoonVoiceII measure 113]                         %! SM4
+    % [P BassoonVoiceII measure 113 / measure 5]             %! SM4
     g,1
     \repeatTie
     
-    % [P BassoonVoiceII measure 114]                         %! SM4
+    % [P BassoonVoiceII measure 114 / measure 6]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 3/4
     \!                                                       %! PWC1
     
-    % [P BassoonVoiceII measure 115]                         %! SM4
+    % [P BassoonVoiceII measure 115 / measure 7]             %! SM4
     R1 * 3/4
     
-    % [P BassoonVoiceII measure 116]                         %! SM4
+    % [P BassoonVoiceII measure 116 / measure 8]             %! SM4
     R1 * 1
     
-    % [P BassoonVoiceII measure 117]                         %! SM4
+    % [P BassoonVoiceII measure 117 / measure 9]             %! SM4
     R1 * 1
     
-    % [P BassoonVoiceII measure 118]                         %! SM4
+    % [P BassoonVoiceII measure 118 / measure 10]            %! SM4
     R1 * 1/2
     
 }
@@ -818,7 +818,7 @@ P_BassoonStaffI = <<
 
 P_HornVoiceI_a = {
     
-    % [P HornVoiceI measure 109]                         %! SM4
+    % [P HornVoiceI measure 109 / measure 1]             %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -877,7 +877,7 @@ P_HornVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P HornVoiceI measure 110]                         %! SM4
+    % [P HornVoiceI measure 110 / measure 2]             %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -886,7 +886,7 @@ P_HornVoiceI_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P HornVoiceI measure 111]                         %! SM4
+    % [P HornVoiceI measure 111 / measure 3]             %! SM4
     d'4
     ~
     \times 2/3 {
@@ -900,7 +900,7 @@ P_HornVoiceI_a = {
     e'2
     ~
     
-    % [P HornVoiceI measure 112]                         %! SM4
+    % [P HornVoiceI measure 112 / measure 4]             %! SM4
     e'4
     ~
     \times 2/3 {
@@ -918,7 +918,7 @@ P_HornVoiceI_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P HornVoiceI measure 113]                         %! SM4
+    % [P HornVoiceI measure 113 / measure 5]             %! SM4
     d'4
     ~
     \times 2/3 {
@@ -932,7 +932,7 @@ P_HornVoiceI_a = {
     e'2
     ~
     
-    % [P HornVoiceI measure 114]                         %! SM4
+    % [P HornVoiceI measure 114 / measure 6]             %! SM4
     e'4
     ~
     \times 2/3 {
@@ -950,7 +950,7 @@ P_HornVoiceI_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P HornVoiceI measure 115]                         %! SM4
+    % [P HornVoiceI measure 115 / measure 7]             %! SM4
     d'2
     ~
     \times 2/3 {
@@ -961,7 +961,7 @@ P_HornVoiceI_a = {
         ~
     }
     
-    % [P HornVoiceI measure 116]                         %! SM4
+    % [P HornVoiceI measure 116 / measure 8]             %! SM4
     e'2.
     ~
     \times 2/3 {
@@ -973,7 +973,7 @@ P_HornVoiceI_a = {
         r4
     }
     
-    % [P HornVoiceI measure 117]                         %! SM4
+    % [P HornVoiceI measure 117 / measure 9]             %! SM4
     d'2.
     ~
     \times 2/3 {
@@ -984,7 +984,7 @@ P_HornVoiceI_a = {
         ~
     }
     
-    % [P HornVoiceI measure 118]                         %! SM4
+    % [P HornVoiceI measure 118 / measure 10]            %! SM4
     e'2
     
 }
@@ -997,7 +997,7 @@ P_HornVoiceI = {
 
 P_HornVoiceIII_a = {
     
-    % [P HornVoiceIII measure 109]                       %! SM4
+    % [P HornVoiceIII measure 109 / measure 1]           %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     df'!2.
@@ -1010,7 +1010,7 @@ P_HornVoiceIII_a = {
             (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    % [P HornVoiceIII measure 110]                       %! SM4
+    % [P HornVoiceIII measure 110 / measure 2]           %! SM4
     df'!8
     [
     
@@ -1021,7 +1021,7 @@ P_HornVoiceIII_a = {
     ef'!2
     ~
     
-    % [P HornVoiceIII measure 111]                       %! SM4
+    % [P HornVoiceIII measure 111 / measure 3]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     ef'!4
     \mf                                                  %! HC1
@@ -1034,7 +1034,7 @@ P_HornVoiceIII_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P HornVoiceIII measure 112]                       %! SM4
+    % [P HornVoiceIII measure 112 / measure 4]           %! SM4
     df'!4.
     
     ef'!8
@@ -1043,7 +1043,7 @@ P_HornVoiceIII_a = {
     ef'!2
     ~
     
-    % [P HornVoiceIII measure 113]                       %! SM4
+    % [P HornVoiceIII measure 113 / measure 5]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     ef'!4
     \f                                                   %! HC1
@@ -1056,31 +1056,31 @@ P_HornVoiceIII_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P HornVoiceIII measure 114]                       %! SM4
+    % [P HornVoiceIII measure 114 / measure 6]           %! SM4
     df'!4.
     
     ef'!4.
     ~
     
-    % [P HornVoiceIII measure 115]                       %! SM4
+    % [P HornVoiceIII measure 115 / measure 7]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     ef'!2
     \ff                                                  %! HC1
     
     r4
     
-    % [P HornVoiceIII measure 116]                       %! SM4
+    % [P HornVoiceIII measure 116 / measure 8]           %! SM4
     df'!2..
     
     ef'!8
     ~
     
-    % [P HornVoiceIII measure 117]                       %! SM4
+    % [P HornVoiceIII measure 117 / measure 9]           %! SM4
     ef'!2.
     
     r4
     
-    % [P HornVoiceIII measure 118]                       %! SM4
+    % [P HornVoiceIII measure 118 / measure 10]          %! SM4
     df'!2
     
 }
@@ -1101,7 +1101,7 @@ P_HornStaffI = <<
 
 P_HornVoiceII_a = {
     
-    % [P HornVoiceII measure 109]                        %! SM4
+    % [P HornVoiceII measure 109 / measure 1]            %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1160,7 +1160,7 @@ P_HornVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P HornVoiceII measure 110]                        %! SM4
+    % [P HornVoiceII measure 110 / measure 2]            %! SM4
     r2
     \times 2/3 {
         
@@ -1173,7 +1173,7 @@ P_HornVoiceII_a = {
         \mp                                              %! HC1
     }
     
-    % [P HornVoiceII measure 111]                        %! SM4
+    % [P HornVoiceII measure 111 / measure 3]            %! SM4
     d'2.
     ~
     \times 2/3 {
@@ -1184,7 +1184,7 @@ P_HornVoiceII_a = {
         ~
     }
     
-    % [P HornVoiceII measure 112]                        %! SM4
+    % [P HornVoiceII measure 112 / measure 4]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     e'2.
     \mf                                                  %! HC1
@@ -1199,7 +1199,7 @@ P_HornVoiceII_a = {
         \mp                                              %! HC1
     }
     
-    % [P HornVoiceII measure 113]                        %! SM4
+    % [P HornVoiceII measure 113 / measure 5]            %! SM4
     d'2.
     ~
     \times 2/3 {
@@ -1210,13 +1210,13 @@ P_HornVoiceII_a = {
         ~
     }
     
-    % [P HornVoiceII measure 114]                        %! SM4
+    % [P HornVoiceII measure 114 / measure 6]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     e'2.
     \f                                                   %! HC1
     \times 2/3 {
         
-        % [P HornVoiceII measure 115]                    %! SM4
+        % [P HornVoiceII measure 115 / measure 7]        %! SM4
         r4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -1229,7 +1229,7 @@ P_HornVoiceII_a = {
     d'2
     ~
     
-    % [P HornVoiceII measure 116]                        %! SM4
+    % [P HornVoiceII measure 116 / measure 8]            %! SM4
     d'4
     ~
     \times 2/3 {
@@ -1243,7 +1243,7 @@ P_HornVoiceII_a = {
     e'2
     ~
     
-    % [P HornVoiceII measure 117]                        %! SM4
+    % [P HornVoiceII measure 117 / measure 9]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     e'4
     \ff                                                  %! HC1
@@ -1258,7 +1258,7 @@ P_HornVoiceII_a = {
     d'2
     ~
     
-    % [P HornVoiceII measure 118]                        %! SM4
+    % [P HornVoiceII measure 118 / measure 10]           %! SM4
     d'4
     ~
     \times 2/3 {
@@ -1278,7 +1278,7 @@ P_HornVoiceII = {
 
 P_HornVoiceIV_a = {
     
-    % [P HornVoiceIV measure 109]                        %! SM4
+    % [P HornVoiceIV measure 109 / measure 1]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     r4.
@@ -1295,13 +1295,13 @@ P_HornVoiceIV_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P HornVoiceIV measure 110]                        %! SM4
+    % [P HornVoiceIV measure 110 / measure 2]            %! SM4
     df'!2
     
     ef'!4
     ~
     
-    % [P HornVoiceIV measure 111]                        %! SM4
+    % [P HornVoiceIV measure 111 / measure 3]            %! SM4
     ef'!2
     ~
     \times 2/3 {
@@ -1321,13 +1321,13 @@ P_HornVoiceIV_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P HornVoiceIV measure 112]                        %! SM4
+    % [P HornVoiceIV measure 112 / measure 4]            %! SM4
     df'!2.
     
     ef'!4
     ~
     
-    % [P HornVoiceIV measure 113]                        %! SM4
+    % [P HornVoiceIV measure 113 / measure 5]            %! SM4
     ef'!2
     ~
     \times 2/3 {
@@ -1347,15 +1347,15 @@ P_HornVoiceIV_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P HornVoiceIV measure 114]                        %! SM4
+    % [P HornVoiceIV measure 114 / measure 6]            %! SM4
     df'!2.
     
-    % [P HornVoiceIV measure 115]                        %! SM4
+    % [P HornVoiceIV measure 115 / measure 7]            %! SM4
     ef'!2.
     ~
     \times 2/3 {
         
-        % [P HornVoiceIV measure 116]                    %! SM4
+        % [P HornVoiceIV measure 116 / measure 8]        %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         ef'!4
         \ff                                              %! HC1
@@ -1371,14 +1371,14 @@ P_HornVoiceIV_a = {
     df'!2
     ~
     
-    % [P HornVoiceIV measure 117]                        %! SM4
+    % [P HornVoiceIV measure 117 / measure 9]            %! SM4
     df'!4
     
     ef'!2.
     ~
     \times 2/3 {
         
-        % [P HornVoiceIV measure 118]                    %! SM4
+        % [P HornVoiceIV measure 118 / measure 10]       %! SM4
         ef'!4
         
         r8
@@ -1406,7 +1406,7 @@ P_HornStaffII = <<
 
 P_TrumpetVoiceI_a = {
     
-    % [P TrumpetVoiceI measure 109]                      %! SM4
+    % [P TrumpetVoiceI measure 109 / measure 1]          %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1465,20 +1465,20 @@ P_TrumpetVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P TrumpetVoiceI measure 110]                      %! SM4
+    % [P TrumpetVoiceI measure 110 / measure 2]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf'!2.
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P TrumpetVoiceI measure 111]                      %! SM4
+    % [P TrumpetVoiceI measure 111 / measure 3]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     af'!2.
     \mf                                                  %! HC1
     
     r4
     
-    % [P TrumpetVoiceI measure 112]                      %! SM4
+    % [P TrumpetVoiceI measure 112 / measure 4]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf'!2.
     \<                                                   %! HC1
@@ -1487,7 +1487,7 @@ P_TrumpetVoiceI_a = {
     af'!4
     ~
     
-    % [P TrumpetVoiceI measure 113]                      %! SM4
+    % [P TrumpetVoiceI measure 113 / measure 5]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     af'!2
     \f                                                   %! HC1
@@ -1500,13 +1500,13 @@ P_TrumpetVoiceI_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P TrumpetVoiceI measure 114]                      %! SM4
+    % [P TrumpetVoiceI measure 114 / measure 6]          %! SM4
     gf'!2
     
     af'!4
     ~
     
-    % [P TrumpetVoiceI measure 115]                      %! SM4
+    % [P TrumpetVoiceI measure 115 / measure 7]          %! SM4
     af'!2
     ~
     \times 2/3 {
@@ -1518,7 +1518,7 @@ P_TrumpetVoiceI_a = {
         r4
     }
     
-    % [P TrumpetVoiceI measure 116]                      %! SM4
+    % [P TrumpetVoiceI measure 116 / measure 8]          %! SM4
     gf'!2.
     ~
     \times 2/3 {
@@ -1529,7 +1529,7 @@ P_TrumpetVoiceI_a = {
         ~
     }
     
-    % [P TrumpetVoiceI measure 117]                      %! SM4
+    % [P TrumpetVoiceI measure 117 / measure 9]          %! SM4
     af'!2
     ~
     
@@ -1544,7 +1544,7 @@ P_TrumpetVoiceI_a = {
         ~
     }
     
-    % [P TrumpetVoiceI measure 118]                      %! SM4
+    % [P TrumpetVoiceI measure 118 / measure 10]         %! SM4
     gf'!2
     
 }
@@ -1557,7 +1557,7 @@ P_TrumpetVoiceI = {
 
 P_TrumpetVoiceIII_a = {
     
-    % [P TrumpetVoiceIII measure 109]                    %! SM4
+    % [P TrumpetVoiceIII measure 109 / measure 1]        %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'2.
@@ -1569,12 +1569,12 @@ P_TrumpetVoiceIII_a = {
             (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    % [P TrumpetVoiceIII measure 110]                    %! SM4
+    % [P TrumpetVoiceIII measure 110 / measure 2]        %! SM4
     g'2.
     ~
     \times 2/3 {
         
-        % [P TrumpetVoiceIII measure 111]                %! SM4
+        % [P TrumpetVoiceIII measure 111 / measure 3]    %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         g'8
         \mf                                              %! HC1
@@ -1589,7 +1589,7 @@ P_TrumpetVoiceIII_a = {
     \mp                                                  %! HC1
     \times 2/3 {
         
-        % [P TrumpetVoiceIII measure 112]                %! SM4
+        % [P TrumpetVoiceIII measure 112 / measure 4]    %! SM4
         f'8
         
         g'4
@@ -1606,7 +1606,7 @@ P_TrumpetVoiceIII_a = {
     r8
     \times 2/3 {
         
-        % [P TrumpetVoiceIII measure 113]                %! SM4
+        % [P TrumpetVoiceIII measure 113 / measure 5]    %! SM4
         r8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -1626,7 +1626,7 @@ P_TrumpetVoiceIII_a = {
     ~
     ]
     
-    % [P TrumpetVoiceIII measure 114]                    %! SM4
+    % [P TrumpetVoiceIII measure 114 / measure 6]        %! SM4
     g'2
     ~
     
@@ -1636,7 +1636,7 @@ P_TrumpetVoiceIII_a = {
     
     r8
     
-    % [P TrumpetVoiceIII measure 115]                    %! SM4
+    % [P TrumpetVoiceIII measure 115 / measure 7]        %! SM4
     r8
     
     f'8
@@ -1645,7 +1645,7 @@ P_TrumpetVoiceIII_a = {
     f'2
     ~
     
-    % [P TrumpetVoiceIII measure 116]                    %! SM4
+    % [P TrumpetVoiceIII measure 116 / measure 8]        %! SM4
     f'8
     [
     
@@ -1660,7 +1660,7 @@ P_TrumpetVoiceIII_a = {
     
     r8
     
-    % [P TrumpetVoiceIII measure 117]                    %! SM4
+    % [P TrumpetVoiceIII measure 117 / measure 9]        %! SM4
     r8
     
     f'8
@@ -1676,7 +1676,7 @@ P_TrumpetVoiceIII_a = {
     ~
     ]
     
-    % [P TrumpetVoiceIII measure 118]                    %! SM4
+    % [P TrumpetVoiceIII measure 118 / measure 10]       %! SM4
     g'2
     
 }
@@ -1697,7 +1697,7 @@ P_TrumpetStaffI = <<
 
 P_TrumpetVoiceII_a = {
     
-    % [P TrumpetVoiceII measure 109]                     %! SM4
+    % [P TrumpetVoiceII measure 109 / measure 1]         %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1756,7 +1756,7 @@ P_TrumpetVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P TrumpetVoiceII measure 110]                     %! SM4
+    % [P TrumpetVoiceII measure 110 / measure 2]         %! SM4
     r4.
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -1765,7 +1765,7 @@ P_TrumpetVoiceII_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P TrumpetVoiceII measure 111]                     %! SM4
+    % [P TrumpetVoiceII measure 111 / measure 3]         %! SM4
     gf'!4.
     
     af'!8
@@ -1774,7 +1774,7 @@ P_TrumpetVoiceII_a = {
     af'!2
     ~
     
-    % [P TrumpetVoiceII measure 112]                     %! SM4
+    % [P TrumpetVoiceII measure 112 / measure 4]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     af'!8
     \mf                                                  %! HC1
@@ -1792,7 +1792,7 @@ P_TrumpetVoiceII_a = {
     gf'!2
     ~
     
-    % [P TrumpetVoiceII measure 113]                     %! SM4
+    % [P TrumpetVoiceII measure 113 / measure 5]         %! SM4
     gf'!8
     [
     
@@ -1811,7 +1811,7 @@ P_TrumpetVoiceII_a = {
         r8
     }
     
-    % [P TrumpetVoiceII measure 114]                     %! SM4
+    % [P TrumpetVoiceII measure 114 / measure 6]         %! SM4
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -1824,7 +1824,7 @@ P_TrumpetVoiceII_a = {
     ~
     \times 2/3 {
         
-        % [P TrumpetVoiceII measure 115]                 %! SM4
+        % [P TrumpetVoiceII measure 115 / measure 7]     %! SM4
         gf'!4
         
         af'!8
@@ -1834,7 +1834,7 @@ P_TrumpetVoiceII_a = {
     af'!2
     ~
     
-    % [P TrumpetVoiceII measure 116]                     %! SM4
+    % [P TrumpetVoiceII measure 116 / measure 8]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     af'!4
     \ff                                                  %! HC1
@@ -1849,12 +1849,12 @@ P_TrumpetVoiceII_a = {
     gf'!2
     ~
     
-    % [P TrumpetVoiceII measure 117]                     %! SM4
+    % [P TrumpetVoiceII measure 117 / measure 9]         %! SM4
     gf'!4
     
     af'!2.
     
-    % [P TrumpetVoiceII measure 118]                     %! SM4
+    % [P TrumpetVoiceII measure 118 / measure 10]        %! SM4
     r4
     
     gf'!4
@@ -1869,7 +1869,7 @@ P_TrumpetVoiceII = {
 
 P_TrumpetVoiceIV_a = {
     
-    % [P TrumpetVoiceIV measure 109]                     %! SM4
+    % [P TrumpetVoiceIV measure 109 / measure 1]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     r4.
@@ -1886,7 +1886,7 @@ P_TrumpetVoiceIV_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P TrumpetVoiceIV measure 110]                     %! SM4
+    % [P TrumpetVoiceIV measure 110 / measure 2]         %! SM4
     f'4
     ~
     \times 2/3 {
@@ -1900,7 +1900,7 @@ P_TrumpetVoiceIV_a = {
     g'4
     ~
     
-    % [P TrumpetVoiceIV measure 111]                     %! SM4
+    % [P TrumpetVoiceIV measure 111 / measure 3]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g'2
     \mf                                                  %! HC1
@@ -1918,13 +1918,13 @@ P_TrumpetVoiceIV_a = {
     f'4
     ~
     
-    % [P TrumpetVoiceIV measure 112]                     %! SM4
+    % [P TrumpetVoiceIV measure 112 / measure 4]         %! SM4
     f'2
     
     g'2
     ~
     
-    % [P TrumpetVoiceIV measure 113]                     %! SM4
+    % [P TrumpetVoiceIV measure 113 / measure 5]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g'4
     \f                                                   %! HC1
@@ -1937,13 +1937,13 @@ P_TrumpetVoiceIV_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P TrumpetVoiceIV measure 114]                     %! SM4
+    % [P TrumpetVoiceIV measure 114 / measure 6]         %! SM4
     f'4
     
     g'2
     ~
     
-    % [P TrumpetVoiceIV measure 115]                     %! SM4
+    % [P TrumpetVoiceIV measure 115 / measure 7]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g'4
     \ff                                                  %! HC1
@@ -1953,13 +1953,13 @@ P_TrumpetVoiceIV_a = {
     f'4
     ~
     
-    % [P TrumpetVoiceIV measure 116]                     %! SM4
+    % [P TrumpetVoiceIV measure 116 / measure 8]         %! SM4
     f'2
     
     g'2
     ~
     
-    % [P TrumpetVoiceIV measure 117]                     %! SM4
+    % [P TrumpetVoiceIV measure 117 / measure 9]         %! SM4
     g'4
     
     r4
@@ -1967,7 +1967,7 @@ P_TrumpetVoiceIV_a = {
     f'2
     ~
     
-    % [P TrumpetVoiceIV measure 118]                     %! SM4
+    % [P TrumpetVoiceIV measure 118 / measure 10]        %! SM4
     f'4
     
     g'4
@@ -1990,7 +1990,7 @@ P_TrumpetStaffII = <<
 
 P_TromboneVoiceI_a = {
     
-    % [P TromboneVoiceI measure 109]                     %! SM4
+    % [P TromboneVoiceI measure 109 / measure 1]         %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2049,7 +2049,7 @@ P_TromboneVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P TromboneVoiceI measure 110]                     %! SM4
+    % [P TromboneVoiceI measure 110 / measure 2]         %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -2058,7 +2058,7 @@ P_TromboneVoiceI_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P TromboneVoiceI measure 111]                     %! SM4
+    % [P TromboneVoiceI measure 111 / measure 3]         %! SM4
     gf!4
     
     af!2
@@ -2071,7 +2071,7 @@ P_TromboneVoiceI_a = {
     ~
     ]
     
-    % [P TromboneVoiceI measure 112]                     %! SM4
+    % [P TromboneVoiceI measure 112 / measure 4]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gf!2
     \mf                                                  %! HC1
@@ -2084,7 +2084,7 @@ P_TromboneVoiceI_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P TromboneVoiceI measure 113]                     %! SM4
+    % [P TromboneVoiceI measure 113 / measure 5]         %! SM4
     af!4
     ~
     \times 2/3 {
@@ -2098,7 +2098,7 @@ P_TromboneVoiceI_a = {
     gf!2
     ~
     
-    % [P TromboneVoiceI measure 114]                     %! SM4
+    % [P TromboneVoiceI measure 114 / measure 6]         %! SM4
     gf!8
     [
     
@@ -2110,7 +2110,7 @@ P_TromboneVoiceI_a = {
     af!2
     \f                                                   %! HC1
     
-    % [P TromboneVoiceI measure 115]                     %! SM4
+    % [P TromboneVoiceI measure 115 / measure 7]         %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -2119,7 +2119,7 @@ P_TromboneVoiceI_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P TromboneVoiceI measure 116]                     %! SM4
+    % [P TromboneVoiceI measure 116 / measure 8]         %! SM4
     gf!8
     [
     
@@ -2137,7 +2137,7 @@ P_TromboneVoiceI_a = {
         ~
     }
     
-    % [P TromboneVoiceI measure 117]                     %! SM4
+    % [P TromboneVoiceI measure 117 / measure 9]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gf!2
     \ff                                                  %! HC1
@@ -2147,7 +2147,7 @@ P_TromboneVoiceI_a = {
     af!4
     ~
     
-    % [P TromboneVoiceI measure 118]                     %! SM4
+    % [P TromboneVoiceI measure 118 / measure 10]        %! SM4
     af!4.
     
     gf!8
@@ -2162,7 +2162,7 @@ P_TromboneVoiceI = {
 
 P_TromboneVoiceIII_a = {
     
-    % [P TromboneVoiceIII measure 109]                   %! SM4
+    % [P TromboneVoiceIII measure 109 / measure 1]       %! SM4
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f2
@@ -2182,7 +2182,7 @@ P_TromboneVoiceIII_a = {
         ~
     }
     
-    % [P TromboneVoiceIII measure 110]                   %! SM4
+    % [P TromboneVoiceIII measure 110 / measure 2]       %! SM4
     g2
     ~
     
@@ -2193,7 +2193,7 @@ P_TromboneVoiceIII_a = {
     ~
     ]
     
-    % [P TromboneVoiceIII measure 111]                   %! SM4
+    % [P TromboneVoiceIII measure 111 / measure 3]       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     f2
     \mf                                                  %! HC1
@@ -2206,7 +2206,7 @@ P_TromboneVoiceIII_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P TromboneVoiceIII measure 112]                   %! SM4
+    % [P TromboneVoiceIII measure 112 / measure 4]       %! SM4
     g4.
     
     f8
@@ -2216,7 +2216,7 @@ P_TromboneVoiceIII_a = {
     ~
     \times 2/3 {
         
-        % [P TromboneVoiceIII measure 113]               %! SM4
+        % [P TromboneVoiceIII measure 113 / measure 5]   %! SM4
         f8
         
         g4
@@ -2229,7 +2229,7 @@ P_TromboneVoiceIII_a = {
     
     r4
     
-    % [P TromboneVoiceIII measure 114]                   %! SM4
+    % [P TromboneVoiceIII measure 114 / measure 6]       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f2
     ~
@@ -2243,13 +2243,13 @@ P_TromboneVoiceIII_a = {
     ~
     ]
     
-    % [P TromboneVoiceIII measure 115]                   %! SM4
+    % [P TromboneVoiceIII measure 115 / measure 7]       %! SM4
     g2
     
     f4
     ~
     
-    % [P TromboneVoiceIII measure 116]                   %! SM4
+    % [P TromboneVoiceIII measure 116 / measure 8]       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     f2
     \ff                                                  %! HC1
@@ -2264,7 +2264,7 @@ P_TromboneVoiceIII_a = {
     g4
     ~
     
-    % [P TromboneVoiceIII measure 117]                   %! SM4
+    % [P TromboneVoiceIII measure 117 / measure 9]       %! SM4
     g4.
     
     f8
@@ -2272,7 +2272,7 @@ P_TromboneVoiceIII_a = {
     
     f2
     
-    % [P TromboneVoiceIII measure 118]                   %! SM4
+    % [P TromboneVoiceIII measure 118 / measure 10]      %! SM4
     g2
     
 }
@@ -2293,7 +2293,7 @@ P_TromboneStaffI = <<
 
 P_TromboneVoiceII_a = {
     
-    % [P TromboneVoiceII measure 109]                    %! SM4
+    % [P TromboneVoiceII measure 109 / measure 1]        %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2352,7 +2352,7 @@ P_TromboneVoiceII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P TromboneVoiceII measure 110]                    %! SM4
+    % [P TromboneVoiceII measure 110 / measure 2]        %! SM4
     r2
     \times 2/3 {
         
@@ -2365,7 +2365,7 @@ P_TromboneVoiceII_a = {
         \mp                                              %! HC1
     }
     
-    % [P TromboneVoiceII measure 111]                    %! SM4
+    % [P TromboneVoiceII measure 111 / measure 3]        %! SM4
     gf!2
     ~
     
@@ -2374,7 +2374,7 @@ P_TromboneVoiceII_a = {
     af!4.
     ~
     
-    % [P TromboneVoiceII measure 112]                    %! SM4
+    % [P TromboneVoiceII measure 112 / measure 4]        %! SM4
     af!4
     
     gf!2
@@ -2388,7 +2388,7 @@ P_TromboneVoiceII_a = {
         r8
     }
     
-    % [P TromboneVoiceII measure 113]                    %! SM4
+    % [P TromboneVoiceII measure 113 / measure 5]        %! SM4
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -2407,13 +2407,13 @@ P_TromboneVoiceII_a = {
         ~
     }
     
-    % [P TromboneVoiceII measure 114]                    %! SM4
+    % [P TromboneVoiceII measure 114 / measure 6]        %! SM4
     gf!2
     
     af!4
     ~
     
-    % [P TromboneVoiceII measure 115]                    %! SM4
+    % [P TromboneVoiceII measure 115 / measure 7]        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     af!4.
     \f                                                   %! HC1
@@ -2428,13 +2428,13 @@ P_TromboneVoiceII_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P TromboneVoiceII measure 116]                    %! SM4
+    % [P TromboneVoiceII measure 116 / measure 8]        %! SM4
     gf!2
     
     af!2
     ~
     
-    % [P TromboneVoiceII measure 117]                    %! SM4
+    % [P TromboneVoiceII measure 117 / measure 9]        %! SM4
     af!4
     
     gf!2
@@ -2446,7 +2446,7 @@ P_TromboneVoiceII_a = {
     
     r8
     
-    % [P TromboneVoiceII measure 118]                    %! SM4
+    % [P TromboneVoiceII measure 118 / measure 10]       %! SM4
     r8
     
     af!4.
@@ -2461,7 +2461,7 @@ P_TromboneVoiceII = {
 
 P_TromboneVoiceIV_a = {
     
-    % [P TromboneVoiceIV measure 109]                    %! SM4
+    % [P TromboneVoiceIV measure 109 / measure 1]        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                            %! IC:-PARTS
     r4.
@@ -2478,7 +2478,7 @@ P_TromboneVoiceIV_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P TromboneVoiceIV measure 110]                    %! SM4
+    % [P TromboneVoiceIV measure 110 / measure 2]        %! SM4
     f4
     ~
     \times 2/3 {
@@ -2492,7 +2492,7 @@ P_TromboneVoiceIV_a = {
     g4
     ~
     
-    % [P TromboneVoiceIV measure 111]                    %! SM4
+    % [P TromboneVoiceIV measure 111 / measure 3]        %! SM4
     g4
     
     f2
@@ -2504,7 +2504,7 @@ P_TromboneVoiceIV_a = {
     
     r8
     
-    % [P TromboneVoiceIV measure 112]                    %! SM4
+    % [P TromboneVoiceIV measure 112 / measure 4]        %! SM4
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -2518,13 +2518,13 @@ P_TromboneVoiceIV_a = {
     f4
     ~
     
-    % [P TromboneVoiceIV measure 113]                    %! SM4
+    % [P TromboneVoiceIV measure 113 / measure 5]        %! SM4
     f2
     
     g2
     ~
     
-    % [P TromboneVoiceIV measure 114]                    %! SM4
+    % [P TromboneVoiceIV measure 114 / measure 6]        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g8
     \f                                                   %! HC1
@@ -2539,14 +2539,14 @@ P_TromboneVoiceIV_a = {
     \<                                                   %! HC1
     \mp                                                  %! HC1
     
-    % [P TromboneVoiceIV measure 115]                    %! SM4
+    % [P TromboneVoiceIV measure 115 / measure 7]        %! SM4
     f4
     
     g2
     ~
     \times 2/3 {
         
-        % [P TromboneVoiceIV measure 116]                %! SM4
+        % [P TromboneVoiceIV measure 116 / measure 8]    %! SM4
         g4
         
         f8
@@ -2563,7 +2563,7 @@ P_TromboneVoiceIV_a = {
     r8
     \times 2/3 {
         
-        % [P TromboneVoiceIV measure 117]                %! SM4
+        % [P TromboneVoiceIV measure 117 / measure 9]    %! SM4
         r8
         
         g4
@@ -2575,7 +2575,7 @@ P_TromboneVoiceIV_a = {
     f4
     ~
     
-    % [P TromboneVoiceIV measure 118]                    %! SM4
+    % [P TromboneVoiceIV measure 118 / measure 10]       %! SM4
     f4.
     
     g8
@@ -2598,7 +2598,7 @@ P_TromboneStaffII = <<
 
 P_FirstViolinVoiceI_a = {
     
-    % [P FirstViolinVoiceI measure 109]                  %! SM4
+    % [P FirstViolinVoiceI measure 109 / measure 1]      %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2697,13 +2697,13 @@ P_FirstViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P FirstViolinVoiceI measure 110]                  %! SM4
+    % [P FirstViolinVoiceI measure 110 / measure 2]      %! SM4
     a''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceI measure 111]                  %! SM4
+    % [P FirstViolinVoiceI measure 111 / measure 3]      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''1
     :32                                                  %! IC
@@ -2745,31 +2745,31 @@ P_FirstViolinVoiceI_a = {
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
-    % [P FirstViolinVoiceI measure 112]                  %! SM4
+    % [P FirstViolinVoiceI measure 112 / measure 4]      %! SM4
     a''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceI measure 113]                  %! SM4
+    % [P FirstViolinVoiceI measure 113 / measure 5]      %! SM4
     a''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceI measure 114]                  %! SM4
+    % [P FirstViolinVoiceI measure 114 / measure 6]      %! SM4
     a''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceI measure 115]                  %! SM4
+    % [P FirstViolinVoiceI measure 115 / measure 7]      %! SM4
     a''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceI measure 116]                  %! SM4
+    % [P FirstViolinVoiceI measure 116 / measure 8]      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a''1
     :32                                                  %! IC
@@ -2778,13 +2778,13 @@ P_FirstViolinVoiceI_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
-    % [P FirstViolinVoiceI measure 117]                  %! SM4
+    % [P FirstViolinVoiceI measure 117 / measure 9]      %! SM4
     a''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceI measure 118]                  %! SM4
+    % [P FirstViolinVoiceI measure 118 / measure 10]     %! SM4
     a''2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -2805,7 +2805,7 @@ P_FirstViolinVoiceI = {
 
 P_FirstViolinVoiceII_a = {
     
-    % [P FirstViolinVoiceII measure 109]                 %! SM4
+    % [P FirstViolinVoiceII measure 109 / measure 1]     %! SM4
     \override TextSpanner.staff-padding = #8             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -2822,13 +2822,13 @@ P_FirstViolinVoiceII_a = {
 %%%                     "ext. ponticello: like acid"     %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
-    % [P FirstViolinVoiceII measure 110]                 %! SM4
+    % [P FirstViolinVoiceII measure 110 / measure 2]     %! SM4
     f''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceII measure 111]                 %! SM4
+    % [P FirstViolinVoiceII measure 111 / measure 3]     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f''1
     :32                                                  %! IC
@@ -2870,31 +2870,31 @@ P_FirstViolinVoiceII_a = {
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
-    % [P FirstViolinVoiceII measure 112]                 %! SM4
+    % [P FirstViolinVoiceII measure 112 / measure 4]     %! SM4
     f''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceII measure 113]                 %! SM4
+    % [P FirstViolinVoiceII measure 113 / measure 5]     %! SM4
     f''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceII measure 114]                 %! SM4
+    % [P FirstViolinVoiceII measure 114 / measure 6]     %! SM4
     f''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceII measure 115]                 %! SM4
+    % [P FirstViolinVoiceII measure 115 / measure 7]     %! SM4
     f''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceII measure 116]                 %! SM4
+    % [P FirstViolinVoiceII measure 116 / measure 8]     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     f''1
     :32                                                  %! IC
@@ -2903,13 +2903,13 @@ P_FirstViolinVoiceII_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
-    % [P FirstViolinVoiceII measure 117]                 %! SM4
+    % [P FirstViolinVoiceII measure 117 / measure 9]     %! SM4
     f''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceII measure 118]                 %! SM4
+    % [P FirstViolinVoiceII measure 118 / measure 10]    %! SM4
     f''2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -2934,7 +2934,7 @@ P_FirstViolinStaffI = <<
 
 P_FirstViolinVoiceIII_a = {
     
-    % [P FirstViolinVoiceIII measure 109]                %! SM4
+    % [P FirstViolinVoiceIII measure 109 / measure 1]    %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3024,13 +3024,13 @@ P_FirstViolinVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P FirstViolinVoiceIII measure 110]                %! SM4
+    % [P FirstViolinVoiceIII measure 110 / measure 2]    %! SM4
     g''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceIII measure 111]                %! SM4
+    % [P FirstViolinVoiceIII measure 111 / measure 3]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''1
     :32                                                  %! IC
@@ -3072,31 +3072,31 @@ P_FirstViolinVoiceIII_a = {
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
-    % [P FirstViolinVoiceIII measure 112]                %! SM4
+    % [P FirstViolinVoiceIII measure 112 / measure 4]    %! SM4
     g''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceIII measure 113]                %! SM4
+    % [P FirstViolinVoiceIII measure 113 / measure 5]    %! SM4
     g''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceIII measure 114]                %! SM4
+    % [P FirstViolinVoiceIII measure 114 / measure 6]    %! SM4
     g''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceIII measure 115]                %! SM4
+    % [P FirstViolinVoiceIII measure 115 / measure 7]    %! SM4
     g''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceIII measure 116]                %! SM4
+    % [P FirstViolinVoiceIII measure 116 / measure 8]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g''1
     :32                                                  %! IC
@@ -3105,13 +3105,13 @@ P_FirstViolinVoiceIII_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
-    % [P FirstViolinVoiceIII measure 117]                %! SM4
+    % [P FirstViolinVoiceIII measure 117 / measure 9]    %! SM4
     g''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceIII measure 118]                %! SM4
+    % [P FirstViolinVoiceIII measure 118 / measure 10]   %! SM4
     g''2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -3132,7 +3132,7 @@ P_FirstViolinVoiceIII = {
 
 P_FirstViolinVoiceIV_a = {
     
-    % [P FirstViolinVoiceIV measure 109]                 %! SM4
+    % [P FirstViolinVoiceIV measure 109 / measure 1]     %! SM4
     \override TextSpanner.staff-padding = #8             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -3149,13 +3149,13 @@ P_FirstViolinVoiceIV_a = {
 %%%                     "ext. ponticello: like acid"     %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
-    % [P FirstViolinVoiceIV measure 110]                 %! SM4
+    % [P FirstViolinVoiceIV measure 110 / measure 2]     %! SM4
     d''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceIV measure 111]                 %! SM4
+    % [P FirstViolinVoiceIV measure 111 / measure 3]     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''1
     :32                                                  %! IC
@@ -3197,31 +3197,31 @@ P_FirstViolinVoiceIV_a = {
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
-    % [P FirstViolinVoiceIV measure 112]                 %! SM4
+    % [P FirstViolinVoiceIV measure 112 / measure 4]     %! SM4
     d''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceIV measure 113]                 %! SM4
+    % [P FirstViolinVoiceIV measure 113 / measure 5]     %! SM4
     d''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceIV measure 114]                 %! SM4
+    % [P FirstViolinVoiceIV measure 114 / measure 6]     %! SM4
     d''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceIV measure 115]                 %! SM4
+    % [P FirstViolinVoiceIV measure 115 / measure 7]     %! SM4
     d''2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceIV measure 116]                 %! SM4
+    % [P FirstViolinVoiceIV measure 116 / measure 8]     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d''1
     :32                                                  %! IC
@@ -3230,13 +3230,13 @@ P_FirstViolinVoiceIV_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
-    % [P FirstViolinVoiceIV measure 117]                 %! SM4
+    % [P FirstViolinVoiceIV measure 117 / measure 9]     %! SM4
     d''1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P FirstViolinVoiceIV measure 118]                 %! SM4
+    % [P FirstViolinVoiceIV measure 118 / measure 10]    %! SM4
     d''2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -3261,7 +3261,7 @@ P_FirstViolinStaffII = <<
 
 P_FirstViolinVoiceV_a = {
     
-    % [P FirstViolinVoiceV measure 109]                  %! SM4
+    % [P FirstViolinVoiceV measure 109 / measure 1]      %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3332,47 +3332,47 @@ P_FirstViolinVoiceV_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P FirstViolinVoiceV measure 110]                  %! SM4
+    % [P FirstViolinVoiceV measure 110 / measure 2]      %! SM4
     cs'!2.
     :32                                                  %! IC
     \repeatTie                                           %! TCC
     
-    % [P FirstViolinVoiceV measure 111]                  %! SM4
+    % [P FirstViolinVoiceV measure 111 / measure 3]      %! SM4
     cs'!1
     :32                                                  %! IC
     \repeatTie                                           %! TCC
     
-    % [P FirstViolinVoiceV measure 112]                  %! SM4
+    % [P FirstViolinVoiceV measure 112 / measure 4]      %! SM4
     cs'!1
     :32                                                  %! IC
     \repeatTie                                           %! TCC
     
-    % [P FirstViolinVoiceV measure 113]                  %! SM4
+    % [P FirstViolinVoiceV measure 113 / measure 5]      %! SM4
     cs'!1
     :32                                                  %! IC
     \repeatTie                                           %! TCC
     
-    % [P FirstViolinVoiceV measure 114]                  %! SM4
+    % [P FirstViolinVoiceV measure 114 / measure 6]      %! SM4
     cs'!2.
     :32                                                  %! IC
     \repeatTie                                           %! TCC
     
-    % [P FirstViolinVoiceV measure 115]                  %! SM4
+    % [P FirstViolinVoiceV measure 115 / measure 7]      %! SM4
     cs'!2.
     :32                                                  %! IC
     \repeatTie                                           %! TCC
     
-    % [P FirstViolinVoiceV measure 116]                  %! SM4
+    % [P FirstViolinVoiceV measure 116 / measure 8]      %! SM4
     cs'!1
     :32                                                  %! IC
     \repeatTie                                           %! TCC
     
-    % [P FirstViolinVoiceV measure 117]                  %! SM4
+    % [P FirstViolinVoiceV measure 117 / measure 9]      %! SM4
     cs'!1
     :32                                                  %! IC
     \repeatTie                                           %! TCC
     
-    % [P FirstViolinVoiceV measure 118]                  %! SM4
+    % [P FirstViolinVoiceV measure 118 / measure 10]     %! SM4
     cs'!2
     :32                                                  %! IC
     \repeatTie                                           %! TCC
@@ -3393,7 +3393,7 @@ P_FirstViolinStaffIII = {
 
 P_SecondViolinVoiceI_a = {
     
-    % [P SecondViolinVoiceI measure 109]                 %! SM4
+    % [P SecondViolinVoiceI measure 109 / measure 1]     %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3484,13 +3484,13 @@ P_SecondViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P SecondViolinVoiceI measure 110]                 %! SM4
+    % [P SecondViolinVoiceI measure 110 / measure 2]     %! SM4
     b'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceI measure 111]                 %! SM4
+    % [P SecondViolinVoiceI measure 111 / measure 3]     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b'1
     :32                                                  %! IC
@@ -3532,31 +3532,31 @@ P_SecondViolinVoiceI_a = {
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
-    % [P SecondViolinVoiceI measure 112]                 %! SM4
+    % [P SecondViolinVoiceI measure 112 / measure 4]     %! SM4
     b'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceI measure 113]                 %! SM4
+    % [P SecondViolinVoiceI measure 113 / measure 5]     %! SM4
     b'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceI measure 114]                 %! SM4
+    % [P SecondViolinVoiceI measure 114 / measure 6]     %! SM4
     b'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceI measure 115]                 %! SM4
+    % [P SecondViolinVoiceI measure 115 / measure 7]     %! SM4
     b'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceI measure 116]                 %! SM4
+    % [P SecondViolinVoiceI measure 116 / measure 8]     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     b'1
     :32                                                  %! IC
@@ -3565,13 +3565,13 @@ P_SecondViolinVoiceI_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
-    % [P SecondViolinVoiceI measure 117]                 %! SM4
+    % [P SecondViolinVoiceI measure 117 / measure 9]     %! SM4
     b'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceI measure 118]                 %! SM4
+    % [P SecondViolinVoiceI measure 118 / measure 10]    %! SM4
     b'2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -3593,7 +3593,7 @@ P_SecondViolinVoiceI = {
 
 P_SecondViolinVoiceII_a = {
     
-    % [P SecondViolinVoiceII measure 109]                %! SM4
+    % [P SecondViolinVoiceII measure 109 / measure 1]    %! SM4
     \override TextSpanner.staff-padding = #5             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -3610,13 +3610,13 @@ P_SecondViolinVoiceII_a = {
 %%%                     "ext. ponticello: like acid"     %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
-    % [P SecondViolinVoiceII measure 110]                %! SM4
+    % [P SecondViolinVoiceII measure 110 / measure 2]    %! SM4
     g'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceII measure 111]                %! SM4
+    % [P SecondViolinVoiceII measure 111 / measure 3]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'1
     :32                                                  %! IC
@@ -3658,31 +3658,31 @@ P_SecondViolinVoiceII_a = {
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
-    % [P SecondViolinVoiceII measure 112]                %! SM4
+    % [P SecondViolinVoiceII measure 112 / measure 4]    %! SM4
     g'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceII measure 113]                %! SM4
+    % [P SecondViolinVoiceII measure 113 / measure 5]    %! SM4
     g'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceII measure 114]                %! SM4
+    % [P SecondViolinVoiceII measure 114 / measure 6]    %! SM4
     g'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceII measure 115]                %! SM4
+    % [P SecondViolinVoiceII measure 115 / measure 7]    %! SM4
     g'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceII measure 116]                %! SM4
+    % [P SecondViolinVoiceII measure 116 / measure 8]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g'1
     :32                                                  %! IC
@@ -3691,13 +3691,13 @@ P_SecondViolinVoiceII_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
-    % [P SecondViolinVoiceII measure 117]                %! SM4
+    % [P SecondViolinVoiceII measure 117 / measure 9]    %! SM4
     g'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceII measure 118]                %! SM4
+    % [P SecondViolinVoiceII measure 118 / measure 10]   %! SM4
     g'2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -3722,7 +3722,7 @@ P_SecondViolinStaffI = <<
 
 P_SecondViolinVoiceIII_a = {
     
-    % [P SecondViolinVoiceIII measure 109]               %! SM4
+    % [P SecondViolinVoiceIII measure 109 / measure 1]   %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3812,13 +3812,13 @@ P_SecondViolinVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P SecondViolinVoiceIII measure 110]               %! SM4
+    % [P SecondViolinVoiceIII measure 110 / measure 2]   %! SM4
     a'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceIII measure 111]               %! SM4
+    % [P SecondViolinVoiceIII measure 111 / measure 3]   %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'1
     :32                                                  %! IC
@@ -3860,31 +3860,31 @@ P_SecondViolinVoiceIII_a = {
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
-    % [P SecondViolinVoiceIII measure 112]               %! SM4
+    % [P SecondViolinVoiceIII measure 112 / measure 4]   %! SM4
     a'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceIII measure 113]               %! SM4
+    % [P SecondViolinVoiceIII measure 113 / measure 5]   %! SM4
     a'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceIII measure 114]               %! SM4
+    % [P SecondViolinVoiceIII measure 114 / measure 6]   %! SM4
     a'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceIII measure 115]               %! SM4
+    % [P SecondViolinVoiceIII measure 115 / measure 7]   %! SM4
     a'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceIII measure 116]               %! SM4
+    % [P SecondViolinVoiceIII measure 116 / measure 8]   %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a'1
     :32                                                  %! IC
@@ -3893,13 +3893,13 @@ P_SecondViolinVoiceIII_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
-    % [P SecondViolinVoiceIII measure 117]               %! SM4
+    % [P SecondViolinVoiceIII measure 117 / measure 9]   %! SM4
     a'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceIII measure 118]               %! SM4
+    % [P SecondViolinVoiceIII measure 118 / measure 10]  %! SM4
     a'2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -3920,7 +3920,7 @@ P_SecondViolinVoiceIII = {
 
 P_SecondViolinVoiceIV_a = {
     
-    % [P SecondViolinVoiceIV measure 109]                %! SM4
+    % [P SecondViolinVoiceIV measure 109 / measure 1]    %! SM4
     \override TextSpanner.staff-padding = #5             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -3937,13 +3937,13 @@ P_SecondViolinVoiceIV_a = {
 %%%                     "ext. ponticello: like acid"     %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
-    % [P SecondViolinVoiceIV measure 110]                %! SM4
+    % [P SecondViolinVoiceIV measure 110 / measure 2]    %! SM4
     f'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceIV measure 111]                %! SM4
+    % [P SecondViolinVoiceIV measure 111 / measure 3]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'1
     :32                                                  %! IC
@@ -3985,31 +3985,31 @@ P_SecondViolinVoiceIV_a = {
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
-    % [P SecondViolinVoiceIV measure 112]                %! SM4
+    % [P SecondViolinVoiceIV measure 112 / measure 4]    %! SM4
     f'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceIV measure 113]                %! SM4
+    % [P SecondViolinVoiceIV measure 113 / measure 5]    %! SM4
     f'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceIV measure 114]                %! SM4
+    % [P SecondViolinVoiceIV measure 114 / measure 6]    %! SM4
     f'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceIV measure 115]                %! SM4
+    % [P SecondViolinVoiceIV measure 115 / measure 7]    %! SM4
     f'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceIV measure 116]                %! SM4
+    % [P SecondViolinVoiceIV measure 116 / measure 8]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     f'1
     :32                                                  %! IC
@@ -4018,13 +4018,13 @@ P_SecondViolinVoiceIV_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
-    % [P SecondViolinVoiceIV measure 117]                %! SM4
+    % [P SecondViolinVoiceIV measure 117 / measure 9]    %! SM4
     f'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P SecondViolinVoiceIV measure 118]                %! SM4
+    % [P SecondViolinVoiceIV measure 118 / measure 10]   %! SM4
     f'2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -4049,7 +4049,7 @@ P_SecondViolinStaffII = <<
 
 P_ViolaVoiceI_a = {
     
-    % [P ViolaVoiceI measure 109]                        %! SM4
+    % [P ViolaVoiceI measure 109 / measure 1]            %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -4139,13 +4139,13 @@ P_ViolaVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P ViolaVoiceI measure 110]                        %! SM4
+    % [P ViolaVoiceI measure 110 / measure 2]            %! SM4
     d'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceI measure 111]                        %! SM4
+    % [P ViolaVoiceI measure 111 / measure 3]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d'1
     :32                                                  %! IC
@@ -4187,31 +4187,31 @@ P_ViolaVoiceI_a = {
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
-    % [P ViolaVoiceI measure 112]                        %! SM4
+    % [P ViolaVoiceI measure 112 / measure 4]            %! SM4
     d'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceI measure 113]                        %! SM4
+    % [P ViolaVoiceI measure 113 / measure 5]            %! SM4
     d'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceI measure 114]                        %! SM4
+    % [P ViolaVoiceI measure 114 / measure 6]            %! SM4
     d'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceI measure 115]                        %! SM4
+    % [P ViolaVoiceI measure 115 / measure 7]            %! SM4
     d'2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceI measure 116]                        %! SM4
+    % [P ViolaVoiceI measure 116 / measure 8]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d'1
     :32                                                  %! IC
@@ -4220,13 +4220,13 @@ P_ViolaVoiceI_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
-    % [P ViolaVoiceI measure 117]                        %! SM4
+    % [P ViolaVoiceI measure 117 / measure 9]            %! SM4
     d'1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceI measure 118]                        %! SM4
+    % [P ViolaVoiceI measure 118 / measure 10]           %! SM4
     d'2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -4247,7 +4247,7 @@ P_ViolaVoiceI = {
 
 P_ViolaVoiceII_a = {
     
-    % [P ViolaVoiceII measure 109]                       %! SM4
+    % [P ViolaVoiceII measure 109 / measure 1]           %! SM4
     \override TextSpanner.staff-padding = #5             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -4264,13 +4264,13 @@ P_ViolaVoiceII_a = {
 %%%                     "ext. ponticello: like acid"     %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
-    % [P ViolaVoiceII measure 110]                       %! SM4
+    % [P ViolaVoiceII measure 110 / measure 2]           %! SM4
     a2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceII measure 111]                       %! SM4
+    % [P ViolaVoiceII measure 111 / measure 3]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a1
     :32                                                  %! IC
@@ -4312,31 +4312,31 @@ P_ViolaVoiceII_a = {
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
-    % [P ViolaVoiceII measure 112]                       %! SM4
+    % [P ViolaVoiceII measure 112 / measure 4]           %! SM4
     a1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceII measure 113]                       %! SM4
+    % [P ViolaVoiceII measure 113 / measure 5]           %! SM4
     a1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceII measure 114]                       %! SM4
+    % [P ViolaVoiceII measure 114 / measure 6]           %! SM4
     a2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceII measure 115]                       %! SM4
+    % [P ViolaVoiceII measure 115 / measure 7]           %! SM4
     a2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceII measure 116]                       %! SM4
+    % [P ViolaVoiceII measure 116 / measure 8]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a1
     :32                                                  %! IC
@@ -4345,13 +4345,13 @@ P_ViolaVoiceII_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
-    % [P ViolaVoiceII measure 117]                       %! SM4
+    % [P ViolaVoiceII measure 117 / measure 9]           %! SM4
     a1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceII measure 118]                       %! SM4
+    % [P ViolaVoiceII measure 118 / measure 10]          %! SM4
     a2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -4376,7 +4376,7 @@ P_ViolaStaffI = <<
 
 P_ViolaVoiceIII_a = {
     
-    % [P ViolaVoiceIII measure 109]                      %! SM4
+    % [P ViolaVoiceIII measure 109 / measure 1]          %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -4466,13 +4466,13 @@ P_ViolaVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P ViolaVoiceIII measure 110]                      %! SM4
+    % [P ViolaVoiceIII measure 110 / measure 2]          %! SM4
     b2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceIII measure 111]                      %! SM4
+    % [P ViolaVoiceIII measure 111 / measure 3]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b1
     :32                                                  %! IC
@@ -4514,31 +4514,31 @@ P_ViolaVoiceIII_a = {
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
-    % [P ViolaVoiceIII measure 112]                      %! SM4
+    % [P ViolaVoiceIII measure 112 / measure 4]          %! SM4
     b1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceIII measure 113]                      %! SM4
+    % [P ViolaVoiceIII measure 113 / measure 5]          %! SM4
     b1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceIII measure 114]                      %! SM4
+    % [P ViolaVoiceIII measure 114 / measure 6]          %! SM4
     b2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceIII measure 115]                      %! SM4
+    % [P ViolaVoiceIII measure 115 / measure 7]          %! SM4
     b2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceIII measure 116]                      %! SM4
+    % [P ViolaVoiceIII measure 116 / measure 8]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     b1
     :32                                                  %! IC
@@ -4547,13 +4547,13 @@ P_ViolaVoiceIII_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
-    % [P ViolaVoiceIII measure 117]                      %! SM4
+    % [P ViolaVoiceIII measure 117 / measure 9]          %! SM4
     b1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceIII measure 118]                      %! SM4
+    % [P ViolaVoiceIII measure 118 / measure 10]         %! SM4
     b2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -4574,7 +4574,7 @@ P_ViolaVoiceIII = {
 
 P_ViolaVoiceIV_a = {
     
-    % [P ViolaVoiceIV measure 109]                       %! SM4
+    % [P ViolaVoiceIV measure 109 / measure 1]           %! SM4
     \override TextSpanner.staff-padding = #5             %! OC1:-PARTS
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -4591,13 +4591,13 @@ P_ViolaVoiceIV_a = {
 %%%                     "ext. ponticello: like acid"     %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
-    % [P ViolaVoiceIV measure 110]                       %! SM4
+    % [P ViolaVoiceIV measure 110 / measure 2]           %! SM4
     g2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceIV measure 111]                       %! SM4
+    % [P ViolaVoiceIV measure 111 / measure 3]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g1
     :32                                                  %! IC
@@ -4639,31 +4639,31 @@ P_ViolaVoiceIV_a = {
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
-    % [P ViolaVoiceIV measure 112]                       %! SM4
+    % [P ViolaVoiceIV measure 112 / measure 4]           %! SM4
     g1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceIV measure 113]                       %! SM4
+    % [P ViolaVoiceIV measure 113 / measure 5]           %! SM4
     g1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceIV measure 114]                       %! SM4
+    % [P ViolaVoiceIV measure 114 / measure 6]           %! SM4
     g2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceIV measure 115]                       %! SM4
+    % [P ViolaVoiceIV measure 115 / measure 7]           %! SM4
     g2.
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceIV measure 116]                       %! SM4
+    % [P ViolaVoiceIV measure 116 / measure 8]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g1
     :32                                                  %! IC
@@ -4672,13 +4672,13 @@ P_ViolaVoiceIV_a = {
     \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
-    % [P ViolaVoiceIV measure 117]                       %! SM4
+    % [P ViolaVoiceIV measure 117 / measure 9]           %! SM4
     g1
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
     
-    % [P ViolaVoiceIV measure 118]                       %! SM4
+    % [P ViolaVoiceIV measure 118 / measure 10]          %! SM4
     g2
     :32                                                  %! IC
     -\accent                                             %! IC
@@ -4703,7 +4703,7 @@ P_ViolaStaffII = <<
 
 P_CelloVoiceI_a = {
     
-    % [P CelloVoiceI measure 109]                            %! SM4
+    % [P CelloVoiceI measure 109 / measure 1]                %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -4794,13 +4794,13 @@ P_CelloVoiceI_a = {
                 }                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P CelloVoiceI measure 110]                            %! SM4
+    % [P CelloVoiceI measure 110 / measure 2]                %! SM4
     d2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P CelloVoiceI measure 111]                            %! SM4
+    % [P CelloVoiceI measure 111 / measure 3]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d1
     :32                                                      %! IC
@@ -4842,31 +4842,31 @@ P_CelloVoiceI_a = {
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     
-    % [P CelloVoiceI measure 112]                            %! SM4
+    % [P CelloVoiceI measure 112 / measure 4]                %! SM4
     d1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P CelloVoiceI measure 113]                            %! SM4
+    % [P CelloVoiceI measure 113 / measure 5]                %! SM4
     d1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P CelloVoiceI measure 114]                            %! SM4
+    % [P CelloVoiceI measure 114 / measure 6]                %! SM4
     d2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P CelloVoiceI measure 115]                            %! SM4
+    % [P CelloVoiceI measure 115 / measure 7]                %! SM4
     d2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P CelloVoiceI measure 116]                            %! SM4
+    % [P CelloVoiceI measure 116 / measure 8]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d1
     :32                                                      %! IC
@@ -4875,13 +4875,13 @@ P_CelloVoiceI_a = {
     \pp                                                      %! HC1
     \stopTextSpan                                            %! PWC1
     
-    % [P CelloVoiceI measure 117]                            %! SM4
+    % [P CelloVoiceI measure 117 / measure 9]                %! SM4
     d1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P CelloVoiceI measure 118]                            %! SM4
+    % [P CelloVoiceI measure 118 / measure 10]               %! SM4
     d2
     :32                                                      %! IC
     -\accent                                                 %! IC
@@ -4903,7 +4903,7 @@ P_CelloVoiceI = {
 
 P_CelloVoiceII_a = {
     
-    % [P CelloVoiceII measure 109]                           %! SM4
+    % [P CelloVoiceII measure 109 / measure 1]               %! SM4
     \override TextSpanner.staff-padding = #5                 %! OC1:-PARTS
     \voiceTwo                                                %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -4920,13 +4920,13 @@ P_CelloVoiceII_a = {
 %%%                     "ext. ponticello: like acid"         %! IC:+PARTS
 %%%     }                                                    %! IC:+PARTS
     
-    % [P CelloVoiceII measure 110]                           %! SM4
+    % [P CelloVoiceII measure 110 / measure 2]               %! SM4
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P CelloVoiceII measure 111]                           %! SM4
+    % [P CelloVoiceII measure 111 / measure 3]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g,1
     :32                                                      %! IC
@@ -4968,31 +4968,31 @@ P_CelloVoiceII_a = {
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     
-    % [P CelloVoiceII measure 112]                           %! SM4
+    % [P CelloVoiceII measure 112 / measure 4]               %! SM4
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P CelloVoiceII measure 113]                           %! SM4
+    % [P CelloVoiceII measure 113 / measure 5]               %! SM4
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P CelloVoiceII measure 114]                           %! SM4
+    % [P CelloVoiceII measure 114 / measure 6]               %! SM4
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P CelloVoiceII measure 115]                           %! SM4
+    % [P CelloVoiceII measure 115 / measure 7]               %! SM4
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P CelloVoiceII measure 116]                           %! SM4
+    % [P CelloVoiceII measure 116 / measure 8]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g,1
     :32                                                      %! IC
@@ -5001,13 +5001,13 @@ P_CelloVoiceII_a = {
     \pp                                                      %! HC1
     \stopTextSpan                                            %! PWC1
     
-    % [P CelloVoiceII measure 117]                           %! SM4
+    % [P CelloVoiceII measure 117 / measure 9]               %! SM4
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P CelloVoiceII measure 118]                           %! SM4
+    % [P CelloVoiceII measure 118 / measure 10]              %! SM4
     g,2
     :32                                                      %! IC
     -\accent                                                 %! IC
@@ -5032,7 +5032,7 @@ P_CelloStaffI = <<
 
 P_ContrabassVoiceIII_a = {
     
-    % [P ContrabassVoiceIII measure 109]                     %! SM4
+    % [P ContrabassVoiceIII measure 109 / measure 1]         %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -5096,13 +5096,13 @@ P_ContrabassVoiceIII_a = {
             Cb.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [P ContrabassVoiceIII measure 110]                     %! SM4
+    % [P ContrabassVoiceIII measure 110 / measure 2]         %! SM4
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P ContrabassVoiceIII measure 111]                     %! SM4
+    % [P ContrabassVoiceIII measure 111 / measure 3]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g,1
     :32                                                      %! IC
@@ -5144,31 +5144,31 @@ P_ContrabassVoiceIII_a = {
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     
-    % [P ContrabassVoiceIII measure 112]                     %! SM4
+    % [P ContrabassVoiceIII measure 112 / measure 4]         %! SM4
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P ContrabassVoiceIII measure 113]                     %! SM4
+    % [P ContrabassVoiceIII measure 113 / measure 5]         %! SM4
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P ContrabassVoiceIII measure 114]                     %! SM4
+    % [P ContrabassVoiceIII measure 114 / measure 6]         %! SM4
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P ContrabassVoiceIII measure 115]                     %! SM4
+    % [P ContrabassVoiceIII measure 115 / measure 7]         %! SM4
     g,2.
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P ContrabassVoiceIII measure 116]                     %! SM4
+    % [P ContrabassVoiceIII measure 116 / measure 8]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g,1
     :32                                                      %! IC
@@ -5177,13 +5177,13 @@ P_ContrabassVoiceIII_a = {
     \pp                                                      %! HC1
     \stopTextSpan                                            %! PWC1
     
-    % [P ContrabassVoiceIII measure 117]                     %! SM4
+    % [P ContrabassVoiceIII measure 117 / measure 9]         %! SM4
     g,1
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
     
-    % [P ContrabassVoiceIII measure 118]                     %! SM4
+    % [P ContrabassVoiceIII measure 118 / measure 10]        %! SM4
     g,2
     :32                                                      %! IC
     -\accent                                                 %! IC

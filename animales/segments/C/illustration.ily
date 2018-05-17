@@ -1,21 +1,21 @@
 C_GlobalRests = {
     
-    % [C GlobalRests measure 18]                                         %! SM4
+    % [C GlobalRests measure 18 / measure 1]                             %! SM4
     R1 * 1
     
-    % [C GlobalRests measure 19]                                         %! SM4
+    % [C GlobalRests measure 19 / measure 2]                             %! SM4
     R1 * 1
     
-    % [C GlobalRests measure 20]                                         %! SM4
+    % [C GlobalRests measure 20 / measure 3]                             %! SM4
     R1 * 1
     
-    % [C GlobalRests measure 21]                                         %! SM4
+    % [C GlobalRests measure 21 / measure 4]                             %! SM4
     R1 * 1
     
-    % [C GlobalRests measure 22]                                         %! SM4
+    % [C GlobalRests measure 22 / measure 5]                             %! SM4
     R1 * 1
     
-    % [C GlobalRests measure 23]                                         %! SM4
+    % [C GlobalRests measure 23 / measure 6]                             %! SM4
     R1 * 3/4
     
 }
@@ -23,7 +23,7 @@ C_GlobalRests = {
 
 C_GlobalSkips = {
     
-    % [C GlobalSkips measure 18]                                         %! SM4
+    % [C GlobalSkips measure 18 / measure 1]                             %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
@@ -108,7 +108,7 @@ C_GlobalSkips = {
             }
         }
     
-    % [C GlobalSkips measure 19]                                         %! SM4
+    % [C GlobalSkips measure 19 / measure 2]                             %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -142,7 +142,7 @@ C_GlobalSkips = {
             }
         }
     
-    % [C GlobalSkips measure 20]                                         %! SM4
+    % [C GlobalSkips measure 20 / measure 3]                             %! SM4
 %%% \once \override GlobalContext.RehearsalMark.Y-offset = #-2           %! OC1:+SCORE
     \mark #3                                                             %! IC
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -178,7 +178,7 @@ C_GlobalSkips = {
             }
         }
     
-    % [C GlobalSkips measure 21]                                         %! SM4
+    % [C GlobalSkips measure 21 / measure 4]                             %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -212,7 +212,7 @@ C_GlobalSkips = {
             }
         }
     
-    % [C GlobalSkips measure 22]                                         %! SM4
+    % [C GlobalSkips measure 22 / measure 5]                             %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -246,7 +246,7 @@ C_GlobalSkips = {
             }
         }
     
-    % [C GlobalSkips measure 23]                                         %! SM4
+    % [C GlobalSkips measure 23 / measure 6]                             %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -289,7 +289,7 @@ C_GlobalSkips = {
 
 C_ClarinetVoiceI_a = {
     
-    % [C ClarinetVoiceI measure 18]                          %! SM4
+    % [C ClarinetVoiceI measure 18 / measure 1]              %! SM4
     \set Staff.instrumentName =                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -356,10 +356,10 @@ C_ClarinetVoiceI_a = {
                 }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
-    % [C ClarinetVoiceI measure 19]                          %! SM4
+    % [C ClarinetVoiceI measure 19 / measure 2]              %! SM4
     R1 * 1
     
-    % [C ClarinetVoiceI measure 20]                          %! SM4
+    % [C ClarinetVoiceI measure 20 / measure 3]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''1
     \<                                                       %! HC1
@@ -382,15 +382,15 @@ C_ClarinetVoiceI_a = {
             }
         }
     
-    % [C ClarinetVoiceI measure 21]                          %! SM4
+    % [C ClarinetVoiceI measure 21 / measure 4]              %! SM4
     d''1
     \repeatTie
     
-    % [C ClarinetVoiceI measure 22]                          %! SM4
+    % [C ClarinetVoiceI measure 22 / measure 5]              %! SM4
     d''1
     \repeatTie
     
-    % [C ClarinetVoiceI measure 23]                          %! SM4
+    % [C ClarinetVoiceI measure 23 / measure 6]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d''2.
     \repeatTie
@@ -412,7 +412,7 @@ C_ClarinetStaffI = {
 
 C_HornVoiceI_a = {
     
-    % [C HornVoiceI measure 18]                          %! SM4
+    % [C HornVoiceI measure 18 / measure 1]              %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -468,10 +468,10 @@ C_HornVoiceI_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
-    % [C HornVoiceI measure 19]                          %! SM4
+    % [C HornVoiceI measure 19 / measure 2]              %! SM4
     R1 * 1
     
-    % [C HornVoiceI measure 20]                          %! SM4
+    % [C HornVoiceI measure 20 / measure 3]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'8
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
@@ -479,13 +479,13 @@ C_HornVoiceI_a = {
     
     r2..
     
-    % [C HornVoiceI measure 21]                          %! SM4
+    % [C HornVoiceI measure 21 / measure 4]              %! SM4
     R1 * 1
     
-    % [C HornVoiceI measure 22]                          %! SM4
+    % [C HornVoiceI measure 22 / measure 5]              %! SM4
     R1 * 1
     
-    % [C HornVoiceI measure 23]                          %! SM4
+    % [C HornVoiceI measure 23 / measure 6]              %! SM4
     R1 * 3/4
     
 }
@@ -498,7 +498,7 @@ C_HornVoiceI = {
 
 C_HornVoiceIII_a = {
     
-    % [C HornVoiceIII measure 18]                        %! SM4
+    % [C HornVoiceIII measure 18 / measure 1]            %! SM4
     \voiceTwo                                            %! IC:-PARTS
     R1 * 1
     ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -507,10 +507,10 @@ C_HornVoiceIII_a = {
             (“Horn”)                                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [C HornVoiceIII measure 19]                        %! SM4
+    % [C HornVoiceIII measure 19 / measure 2]            %! SM4
     R1 * 1
     
-    % [C HornVoiceIII measure 20]                        %! SM4
+    % [C HornVoiceIII measure 20 / measure 3]            %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     c'8
 %%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
@@ -518,13 +518,13 @@ C_HornVoiceIII_a = {
     
     r2..
     
-    % [C HornVoiceIII measure 21]                        %! SM4
+    % [C HornVoiceIII measure 21 / measure 4]            %! SM4
     R1 * 1
     
-    % [C HornVoiceIII measure 22]                        %! SM4
+    % [C HornVoiceIII measure 22 / measure 5]            %! SM4
     R1 * 1
     
-    % [C HornVoiceIII measure 23]                        %! SM4
+    % [C HornVoiceIII measure 23 / measure 6]            %! SM4
     R1 * 3/4
     
 }
@@ -545,7 +545,7 @@ C_HornStaffI = <<
 
 C_HornVoiceII_a = {
     
-    % [C HornVoiceII measure 18]                         %! SM4
+    % [C HornVoiceII measure 18 / measure 1]             %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -601,10 +601,10 @@ C_HornVoiceII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
-    % [C HornVoiceII measure 19]                         %! SM4
+    % [C HornVoiceII measure 19 / measure 2]             %! SM4
     R1 * 1
     
-    % [C HornVoiceII measure 20]                         %! SM4
+    % [C HornVoiceII measure 20 / measure 3]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     df'!8
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
@@ -612,13 +612,13 @@ C_HornVoiceII_a = {
     
     r2..
     
-    % [C HornVoiceII measure 21]                         %! SM4
+    % [C HornVoiceII measure 21 / measure 4]             %! SM4
     R1 * 1
     
-    % [C HornVoiceII measure 22]                         %! SM4
+    % [C HornVoiceII measure 22 / measure 5]             %! SM4
     R1 * 1
     
-    % [C HornVoiceII measure 23]                         %! SM4
+    % [C HornVoiceII measure 23 / measure 6]             %! SM4
     R1 * 3/4
     
 }
@@ -631,7 +631,7 @@ C_HornVoiceII = {
 
 C_HornVoiceIV_a = {
     
-    % [C HornVoiceIV measure 18]                         %! SM4
+    % [C HornVoiceIV measure 18 / measure 1]             %! SM4
     \voiceTwo                                            %! IC:-PARTS
     R1 * 1
     ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -640,10 +640,10 @@ C_HornVoiceIV_a = {
             (“Horn”)                                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [C HornVoiceIV measure 19]                         %! SM4
+    % [C HornVoiceIV measure 19 / measure 2]             %! SM4
     R1 * 1
     
-    % [C HornVoiceIV measure 20]                         %! SM4
+    % [C HornVoiceIV measure 20 / measure 3]             %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     b8
 %%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
@@ -651,13 +651,13 @@ C_HornVoiceIV_a = {
     
     r2..
     
-    % [C HornVoiceIV measure 21]                         %! SM4
+    % [C HornVoiceIV measure 21 / measure 4]             %! SM4
     R1 * 1
     
-    % [C HornVoiceIV measure 22]                         %! SM4
+    % [C HornVoiceIV measure 22 / measure 5]             %! SM4
     R1 * 1
     
-    % [C HornVoiceIV measure 23]                         %! SM4
+    % [C HornVoiceIV measure 23 / measure 6]             %! SM4
     R1 * 3/4
     
 }
@@ -678,7 +678,7 @@ C_HornStaffII = <<
 
 C_TrumpetVoiceI_a = {
     
-    % [C TrumpetVoiceI measure 18]                       %! SM4
+    % [C TrumpetVoiceI measure 18 / measure 1]           %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -734,10 +734,10 @@ C_TrumpetVoiceI_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
-    % [C TrumpetVoiceI measure 19]                       %! SM4
+    % [C TrumpetVoiceI measure 19 / measure 2]           %! SM4
     R1 * 1
     
-    % [C TrumpetVoiceI measure 20]                       %! SM4
+    % [C TrumpetVoiceI measure 20 / measure 3]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d''8
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
@@ -745,13 +745,13 @@ C_TrumpetVoiceI_a = {
     
     r2..
     
-    % [C TrumpetVoiceI measure 21]                       %! SM4
+    % [C TrumpetVoiceI measure 21 / measure 4]           %! SM4
     R1 * 1
     
-    % [C TrumpetVoiceI measure 22]                       %! SM4
+    % [C TrumpetVoiceI measure 22 / measure 5]           %! SM4
     R1 * 1
     
-    % [C TrumpetVoiceI measure 23]                       %! SM4
+    % [C TrumpetVoiceI measure 23 / measure 6]           %! SM4
     R1 * 3/4
     
 }
@@ -764,7 +764,7 @@ C_TrumpetVoiceI = {
 
 C_TrumpetVoiceIII_a = {
     
-    % [C TrumpetVoiceIII measure 18]                     %! SM4
+    % [C TrumpetVoiceIII measure 18 / measure 1]         %! SM4
     \voiceTwo                                            %! IC:-PARTS
     R1 * 1
     ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -773,10 +773,10 @@ C_TrumpetVoiceIII_a = {
             (“Trumpet”)                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [C TrumpetVoiceIII measure 19]                     %! SM4
+    % [C TrumpetVoiceIII measure 19 / measure 2]         %! SM4
     R1 * 1
     
-    % [C TrumpetVoiceIII measure 20]                     %! SM4
+    % [C TrumpetVoiceIII measure 20 / measure 3]         %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     g'8
 %%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
@@ -784,13 +784,13 @@ C_TrumpetVoiceIII_a = {
     
     r2..
     
-    % [C TrumpetVoiceIII measure 21]                     %! SM4
+    % [C TrumpetVoiceIII measure 21 / measure 4]         %! SM4
     R1 * 1
     
-    % [C TrumpetVoiceIII measure 22]                     %! SM4
+    % [C TrumpetVoiceIII measure 22 / measure 5]         %! SM4
     R1 * 1
     
-    % [C TrumpetVoiceIII measure 23]                     %! SM4
+    % [C TrumpetVoiceIII measure 23 / measure 6]         %! SM4
     R1 * 3/4
     
 }
@@ -811,7 +811,7 @@ C_TrumpetStaffI = <<
 
 C_TrumpetVoiceII_a = {
     
-    % [C TrumpetVoiceII measure 18]                      %! SM4
+    % [C TrumpetVoiceII measure 18 / measure 1]          %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -867,10 +867,10 @@ C_TrumpetVoiceII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
-    % [C TrumpetVoiceII measure 19]                      %! SM4
+    % [C TrumpetVoiceII measure 19 / measure 2]          %! SM4
     R1 * 1
     
-    % [C TrumpetVoiceII measure 20]                      %! SM4
+    % [C TrumpetVoiceII measure 20 / measure 3]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     af'!8
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
@@ -878,13 +878,13 @@ C_TrumpetVoiceII_a = {
     
     r2..
     
-    % [C TrumpetVoiceII measure 21]                      %! SM4
+    % [C TrumpetVoiceII measure 21 / measure 4]          %! SM4
     R1 * 1
     
-    % [C TrumpetVoiceII measure 22]                      %! SM4
+    % [C TrumpetVoiceII measure 22 / measure 5]          %! SM4
     R1 * 1
     
-    % [C TrumpetVoiceII measure 23]                      %! SM4
+    % [C TrumpetVoiceII measure 23 / measure 6]          %! SM4
     R1 * 3/4
     
 }
@@ -897,7 +897,7 @@ C_TrumpetVoiceII = {
 
 C_TrumpetVoiceIV_a = {
     
-    % [C TrumpetVoiceIV measure 18]                      %! SM4
+    % [C TrumpetVoiceIV measure 18 / measure 1]          %! SM4
     \voiceTwo                                            %! IC:-PARTS
     R1 * 1
     ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -906,10 +906,10 @@ C_TrumpetVoiceIV_a = {
             (“Trumpet”)                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [C TrumpetVoiceIV measure 19]                      %! SM4
+    % [C TrumpetVoiceIV measure 19 / measure 2]          %! SM4
     R1 * 1
     
-    % [C TrumpetVoiceIV measure 20]                      %! SM4
+    % [C TrumpetVoiceIV measure 20 / measure 3]          %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     f'8
 %%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
@@ -917,13 +917,13 @@ C_TrumpetVoiceIV_a = {
     
     r2..
     
-    % [C TrumpetVoiceIV measure 21]                      %! SM4
+    % [C TrumpetVoiceIV measure 21 / measure 4]          %! SM4
     R1 * 1
     
-    % [C TrumpetVoiceIV measure 22]                      %! SM4
+    % [C TrumpetVoiceIV measure 22 / measure 5]          %! SM4
     R1 * 1
     
-    % [C TrumpetVoiceIV measure 23]                      %! SM4
+    % [C TrumpetVoiceIV measure 23 / measure 6]          %! SM4
     R1 * 3/4
     
 }
@@ -944,7 +944,7 @@ C_TrumpetStaffII = <<
 
 C_TromboneVoiceI_a = {
     
-    % [C TromboneVoiceI measure 18]                      %! SM4
+    % [C TromboneVoiceI measure 18 / measure 1]          %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -1000,10 +1000,10 @@ C_TromboneVoiceI_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
-    % [C TromboneVoiceI measure 19]                      %! SM4
+    % [C TromboneVoiceI measure 19 / measure 2]          %! SM4
     R1 * 1
     
-    % [C TromboneVoiceI measure 20]                      %! SM4
+    % [C TromboneVoiceI measure 20 / measure 3]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'8
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
@@ -1011,13 +1011,13 @@ C_TromboneVoiceI_a = {
     
     r2..
     
-    % [C TromboneVoiceI measure 21]                      %! SM4
+    % [C TromboneVoiceI measure 21 / measure 4]          %! SM4
     R1 * 1
     
-    % [C TromboneVoiceI measure 22]                      %! SM4
+    % [C TromboneVoiceI measure 22 / measure 5]          %! SM4
     R1 * 1
     
-    % [C TromboneVoiceI measure 23]                      %! SM4
+    % [C TromboneVoiceI measure 23 / measure 6]          %! SM4
     R1 * 3/4
     
 }
@@ -1030,7 +1030,7 @@ C_TromboneVoiceI = {
 
 C_TromboneVoiceIII_a = {
     
-    % [C TromboneVoiceIII measure 18]                    %! SM4
+    % [C TromboneVoiceIII measure 18 / measure 1]        %! SM4
     \voiceTwo                                            %! IC:-PARTS
     R1 * 1
     ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -1039,10 +1039,10 @@ C_TromboneVoiceIII_a = {
             (“Trombone”)                                 %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [C TromboneVoiceIII measure 19]                    %! SM4
+    % [C TromboneVoiceIII measure 19 / measure 2]        %! SM4
     R1 * 1
     
-    % [C TromboneVoiceIII measure 20]                    %! SM4
+    % [C TromboneVoiceIII measure 20 / measure 3]        %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     c'8
 %%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
@@ -1050,13 +1050,13 @@ C_TromboneVoiceIII_a = {
     
     r2..
     
-    % [C TromboneVoiceIII measure 21]                    %! SM4
+    % [C TromboneVoiceIII measure 21 / measure 4]        %! SM4
     R1 * 1
     
-    % [C TromboneVoiceIII measure 22]                    %! SM4
+    % [C TromboneVoiceIII measure 22 / measure 5]        %! SM4
     R1 * 1
     
-    % [C TromboneVoiceIII measure 23]                    %! SM4
+    % [C TromboneVoiceIII measure 23 / measure 6]        %! SM4
     R1 * 3/4
     
 }
@@ -1077,7 +1077,7 @@ C_TromboneStaffI = <<
 
 C_TromboneVoiceII_a = {
     
-    % [C TromboneVoiceII measure 18]                     %! SM4
+    % [C TromboneVoiceII measure 18 / measure 1]         %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -1133,10 +1133,10 @@ C_TromboneVoiceII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
-    % [C TromboneVoiceII measure 19]                     %! SM4
+    % [C TromboneVoiceII measure 19 / measure 2]         %! SM4
     R1 * 1
     
-    % [C TromboneVoiceII measure 20]                     %! SM4
+    % [C TromboneVoiceII measure 20 / measure 3]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     df'!8
     \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
@@ -1144,13 +1144,13 @@ C_TromboneVoiceII_a = {
     
     r2..
     
-    % [C TromboneVoiceII measure 21]                     %! SM4
+    % [C TromboneVoiceII measure 21 / measure 4]         %! SM4
     R1 * 1
     
-    % [C TromboneVoiceII measure 22]                     %! SM4
+    % [C TromboneVoiceII measure 22 / measure 5]         %! SM4
     R1 * 1
     
-    % [C TromboneVoiceII measure 23]                     %! SM4
+    % [C TromboneVoiceII measure 23 / measure 6]         %! SM4
     R1 * 3/4
     
 }
@@ -1163,7 +1163,7 @@ C_TromboneVoiceII = {
 
 C_TromboneVoiceIV_a = {
     
-    % [C TromboneVoiceIV measure 18]                     %! SM4
+    % [C TromboneVoiceIV measure 18 / measure 1]         %! SM4
     \voiceTwo                                            %! IC:-PARTS
     R1 * 1
     ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -1172,10 +1172,10 @@ C_TromboneVoiceIV_a = {
             (“Trombone”)                                 %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    % [C TromboneVoiceIV measure 19]                     %! SM4
+    % [C TromboneVoiceIV measure 19 / measure 2]         %! SM4
     R1 * 1
     
-    % [C TromboneVoiceIV measure 20]                     %! SM4
+    % [C TromboneVoiceIV measure 20 / measure 3]         %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     b8
 %%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
@@ -1183,13 +1183,13 @@ C_TromboneVoiceIV_a = {
     
     r2..
     
-    % [C TromboneVoiceIV measure 21]                     %! SM4
+    % [C TromboneVoiceIV measure 21 / measure 4]         %! SM4
     R1 * 1
     
-    % [C TromboneVoiceIV measure 22]                     %! SM4
+    % [C TromboneVoiceIV measure 22 / measure 5]         %! SM4
     R1 * 1
     
-    % [C TromboneVoiceIV measure 23]                     %! SM4
+    % [C TromboneVoiceIV measure 23 / measure 6]         %! SM4
     R1 * 3/4
     
 }
@@ -1210,7 +1210,7 @@ C_TromboneStaffII = <<
 
 C_TubaVoiceI_a = {
     
-    % [C TubaVoiceI measure 18]                              %! SM4
+    % [C TubaVoiceI measure 18 / measure 1]                  %! SM4
     \set Staff.instrumentName =                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
     \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
@@ -1261,10 +1261,10 @@ C_TubaVoiceI_a = {
         }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [C TubaVoiceI measure 19]                              %! SM4
+    % [C TubaVoiceI measure 19 / measure 2]                  %! SM4
     R1 * 1
     
-    % [C TubaVoiceI measure 20]                              %! SM4
+    % [C TubaVoiceI measure 20 / measure 3]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c,8
     \sffz                                                    %! SM8:EXPLICIT_DYNAMIC:IC
@@ -1272,13 +1272,13 @@ C_TubaVoiceI_a = {
     
     r2..
     
-    % [C TubaVoiceI measure 21]                              %! SM4
+    % [C TubaVoiceI measure 21 / measure 4]                  %! SM4
     R1 * 1
     
-    % [C TubaVoiceI measure 22]                              %! SM4
+    % [C TubaVoiceI measure 22 / measure 5]                  %! SM4
     R1 * 1
     
-    % [C TubaVoiceI measure 23]                              %! SM4
+    % [C TubaVoiceI measure 23 / measure 6]                  %! SM4
     R1 * 3/4
     
 }
@@ -1297,7 +1297,7 @@ C_TubaStaffI = {
 
 C_PercussionVoiceI_a = {
     
-    % [C PercussionVoiceI measure 18]                        %! SM4
+    % [C PercussionVoiceI measure 18 / measure 1]            %! SM4
     \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -1368,10 +1368,10 @@ C_PercussionVoiceI_a = {
                 }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
-    % [C PercussionVoiceI measure 19]                        %! SM4
+    % [C PercussionVoiceI measure 19 / measure 2]            %! SM4
     R1 * 1
     
-    % [C PercussionVoiceI measure 20]                        %! SM4
+    % [C PercussionVoiceI measure 20 / measure 3]            %! SM4
     \override Staff.BarLine.bar-extent = #'(0 . 0)           %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:-PARTS
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)          %! IC:+PARTS:TEMPORARY
     \override RepeatTie.direction = #up                      %! OC1
@@ -1388,17 +1388,17 @@ C_PercussionVoiceI_a = {
                         "triangle (small beater)"            %! IC
         }                                                    %! IC
     
-    % [C PercussionVoiceI measure 21]                        %! SM4
+    % [C PercussionVoiceI measure 21 / measure 4]            %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie
     
-    % [C PercussionVoiceI measure 22]                        %! SM4
+    % [C PercussionVoiceI measure 22 / measure 5]            %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie
     
-    % [C PercussionVoiceI measure 23]                        %! SM4
+    % [C PercussionVoiceI measure 23 / measure 6]            %! SM4
     c'2.
     :32                                                      %! IC
     \repeatTie
@@ -1420,7 +1420,7 @@ C_PercussionStaffI = {
 
 C_PercussionVoiceII_a = {
     
-    % [C PercussionVoiceII measure 18]                       %! SM4
+    % [C PercussionVoiceII measure 18 / measure 1]           %! SM4
     \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -1491,10 +1491,10 @@ C_PercussionVoiceII_a = {
                 }                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
-    % [C PercussionVoiceII measure 19]                       %! SM4
+    % [C PercussionVoiceII measure 19 / measure 2]           %! SM4
     R1 * 1
     
-    % [C PercussionVoiceII measure 20]                       %! SM4
+    % [C PercussionVoiceII measure 20 / measure 3]           %! SM4
     \override Staff.BarLine.bar-extent = #'(0 . 0)           %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:-PARTS
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)          %! IC:+PARTS:TEMPORARY
     \override RepeatTie.direction = #up                      %! OC1
@@ -1511,17 +1511,17 @@ C_PercussionVoiceII_a = {
                         "suspended cymbal (soft yarn mallets: attackless sound)" %! IC
         }                                                    %! IC
     
-    % [C PercussionVoiceII measure 21]                       %! SM4
+    % [C PercussionVoiceII measure 21 / measure 4]           %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie
     
-    % [C PercussionVoiceII measure 22]                       %! SM4
+    % [C PercussionVoiceII measure 22 / measure 5]           %! SM4
     c'1
     :32                                                      %! IC
     \repeatTie
     
-    % [C PercussionVoiceII measure 23]                       %! SM4
+    % [C PercussionVoiceII measure 23 / measure 6]           %! SM4
     c'2.
     :32                                                      %! IC
     \repeatTie
@@ -1543,7 +1543,7 @@ C_PercussionStaffII = {
 
 C_FirstViolinVoiceII_a = {
     
-    % [C FirstViolinVoiceII measure 20]                  %! SM4
+    % [C FirstViolinVoiceII measure 20 / measure 3]      %! SM4
     \override DynamicLineSpanner.direction = #up         %! OC1:-PARTS
     \voiceOne                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -1581,7 +1581,7 @@ C_FirstViolinVoiceII_a = {
     a'4
     \glissando                                           %! SC
     
-    % [C FirstViolinVoiceII measure 21]                  %! SM4
+    % [C FirstViolinVoiceII measure 21 / measure 4]      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d'''8
     \f                                                   %! HC1
@@ -1603,7 +1603,7 @@ C_FirstViolinVoiceII_a = {
     ]
     \glissando                                           %! SC
     
-    % [C FirstViolinVoiceII measure 22]                  %! SM4
+    % [C FirstViolinVoiceII measure 22 / measure 5]      %! SM4
     c'''8
     \glissando                                           %! SC
     [
@@ -1626,7 +1626,7 @@ C_FirstViolinVoiceII_a = {
     \>                                                   %! HC1
     \f                                                   %! HC1
     
-    % [C FirstViolinVoiceII measure 23]                  %! SM4
+    % [C FirstViolinVoiceII measure 23 / measure 6]      %! SM4
     a'''4
     \glissando                                           %! SC
     
@@ -1643,10 +1643,10 @@ C_FirstViolinVoiceII_a = {
 
 C_FirstViolinVoiceII = {
     
-    % [C FirstViolinVoiceII measure 18]                      %! SM4
+    % [C FirstViolinVoiceII measure 18 / measure 1]          %! SM4
     R1 * 1
     
-    % [C FirstViolinVoiceII measure 19]                      %! SM4
+    % [C FirstViolinVoiceII measure 19 / measure 2]          %! SM4
     R1 * 1
     \C_FirstViolinVoiceII_a
 }
@@ -1654,7 +1654,7 @@ C_FirstViolinVoiceII = {
 
 C_FirstViolinVoiceI_a = {
     
-    % [C FirstViolinVoiceI measure 18]                   %! SM4
+    % [C FirstViolinVoiceI measure 18 / measure 1]       %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1726,7 +1726,7 @@ C_FirstViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C FirstViolinVoiceI measure 19]                   %! SM4
+    % [C FirstViolinVoiceI measure 19 / measure 2]       %! SM4
     df'!4
     \repeatTie
     
@@ -1737,7 +1737,7 @@ C_FirstViolinVoiceI_a = {
 
 C_FirstViolinVoiceI_b = {
     
-    % [C FirstViolinVoiceI measure 20]                   %! SM4
+    % [C FirstViolinVoiceI measure 20 / measure 3]       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
@@ -1761,15 +1761,15 @@ C_FirstViolinVoiceI_b = {
         }                                                %! IC:-PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
-    % [C FirstViolinVoiceI measure 21]                   %! SM4
+    % [C FirstViolinVoiceI measure 21 / measure 4]       %! SM4
     c'1
     \repeatTie
     
-    % [C FirstViolinVoiceI measure 22]                   %! SM4
+    % [C FirstViolinVoiceI measure 22 / measure 5]       %! SM4
     c'1
     \repeatTie
     
-    % [C FirstViolinVoiceI measure 23]                   %! SM4
+    % [C FirstViolinVoiceI measure 23 / measure 6]       %! SM4
     c'2.
     \repeatTie
     
@@ -1792,7 +1792,7 @@ C_FirstViolinStaffI = <<
 
 C_FirstViolinVoiceIII_a = {
     
-    % [C FirstViolinVoiceIII measure 18]                 %! SM4
+    % [C FirstViolinVoiceIII measure 18 / measure 1]     %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1864,14 +1864,14 @@ C_FirstViolinVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C FirstViolinVoiceIII measure 19]                 %! SM4
+    % [C FirstViolinVoiceIII measure 19 / measure 2]     %! SM4
     df'!2
     \repeatTie
     
     df'!2
     -\accent                                             %! IC
     
-    % [C FirstViolinVoiceIII measure 20]                 %! SM4
+    % [C FirstViolinVoiceIII measure 20 / measure 3]     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
@@ -1883,15 +1883,15 @@ C_FirstViolinVoiceIII_a = {
 %%%     }                                                %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
-    % [C FirstViolinVoiceIII measure 21]                 %! SM4
+    % [C FirstViolinVoiceIII measure 21 / measure 4]     %! SM4
     c'1
     \repeatTie
     
-    % [C FirstViolinVoiceIII measure 22]                 %! SM4
+    % [C FirstViolinVoiceIII measure 22 / measure 5]     %! SM4
     c'1
     \repeatTie
     
-    % [C FirstViolinVoiceIII measure 23]                 %! SM4
+    % [C FirstViolinVoiceIII measure 23 / measure 6]     %! SM4
     c'2.
     \repeatTie
     
@@ -1911,7 +1911,7 @@ C_FirstViolinStaffII = {
 
 C_SecondViolinVoiceI_a = {
     
-    % [C SecondViolinVoiceI measure 18]                  %! SM4
+    % [C SecondViolinVoiceI measure 18 / measure 1]      %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1983,14 +1983,14 @@ C_SecondViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C SecondViolinVoiceI measure 19]                  %! SM4
+    % [C SecondViolinVoiceI measure 19 / measure 2]      %! SM4
     df'!2..
     \repeatTie
     
     df'!8
     -\accent                                             %! IC
     
-    % [C SecondViolinVoiceI measure 20]                  %! SM4
+    % [C SecondViolinVoiceI measure 20 / measure 3]      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
@@ -2002,15 +2002,15 @@ C_SecondViolinVoiceI_a = {
 %%%     }                                                %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
-    % [C SecondViolinVoiceI measure 21]                  %! SM4
+    % [C SecondViolinVoiceI measure 21 / measure 4]      %! SM4
     c'1
     \repeatTie
     
-    % [C SecondViolinVoiceI measure 22]                  %! SM4
+    % [C SecondViolinVoiceI measure 22 / measure 5]      %! SM4
     c'1
     \repeatTie
     
-    % [C SecondViolinVoiceI measure 23]                  %! SM4
+    % [C SecondViolinVoiceI measure 23 / measure 6]      %! SM4
     c'2.
     \repeatTie
     
@@ -2030,7 +2030,7 @@ C_SecondViolinStaffI = {
 
 C_SecondViolinVoiceIII_a = {
     
-    % [C SecondViolinVoiceIII measure 18]                %! SM4
+    % [C SecondViolinVoiceIII measure 18 / measure 1]    %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2102,11 +2102,11 @@ C_SecondViolinVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C SecondViolinVoiceIII measure 19]                %! SM4
+    % [C SecondViolinVoiceIII measure 19 / measure 2]    %! SM4
     df'!1
     \repeatTie
     
-    % [C SecondViolinVoiceIII measure 20]                %! SM4
+    % [C SecondViolinVoiceIII measure 20 / measure 3]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
@@ -2118,15 +2118,15 @@ C_SecondViolinVoiceIII_a = {
 %%%     }                                                %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
-    % [C SecondViolinVoiceIII measure 21]                %! SM4
+    % [C SecondViolinVoiceIII measure 21 / measure 4]    %! SM4
     c'1
     \repeatTie
     
-    % [C SecondViolinVoiceIII measure 22]                %! SM4
+    % [C SecondViolinVoiceIII measure 22 / measure 5]    %! SM4
     c'1
     \repeatTie
     
-    % [C SecondViolinVoiceIII measure 23]                %! SM4
+    % [C SecondViolinVoiceIII measure 23 / measure 6]    %! SM4
     c'2.
     \repeatTie
     
@@ -2146,7 +2146,7 @@ C_SecondViolinStaffII = {
 
 C_ViolaVoiceI_a = {
     
-    % [C ViolaVoiceI measure 18]                         %! SM4
+    % [C ViolaVoiceI measure 18 / measure 1]             %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2224,11 +2224,11 @@ C_ViolaVoiceI_a = {
     df'!2
     \repeatTie
     
-    % [C ViolaVoiceI measure 19]                         %! SM4
+    % [C ViolaVoiceI measure 19 / measure 2]             %! SM4
     df'!1
     \repeatTie
     
-    % [C ViolaVoiceI measure 20]                         %! SM4
+    % [C ViolaVoiceI measure 20 / measure 3]             %! SM4
     \override RepeatTie.direction = #up                  %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
@@ -2241,15 +2241,15 @@ C_ViolaVoiceI_a = {
 %%%     }                                                %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
-    % [C ViolaVoiceI measure 21]                         %! SM4
+    % [C ViolaVoiceI measure 21 / measure 4]             %! SM4
     c'1
     \repeatTie
     
-    % [C ViolaVoiceI measure 22]                         %! SM4
+    % [C ViolaVoiceI measure 22 / measure 5]             %! SM4
     c'1
     \repeatTie
     
-    % [C ViolaVoiceI measure 23]                         %! SM4
+    % [C ViolaVoiceI measure 23 / measure 6]             %! SM4
     c'2.
     \repeatTie
     \revert RepeatTie.direction                          %! OC2
@@ -2270,7 +2270,7 @@ C_ViolaStaffI = {
 
 C_ViolaVoiceIII_a = {
     
-    % [C ViolaVoiceIII measure 18]                       %! SM4
+    % [C ViolaVoiceIII measure 18 / measure 1]           %! SM4
     \set Staff.instrumentName =                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2345,11 +2345,11 @@ C_ViolaVoiceIII_a = {
     df'!2
     -\accent                                             %! IC
     
-    % [C ViolaVoiceIII measure 19]                       %! SM4
+    % [C ViolaVoiceIII measure 19 / measure 2]           %! SM4
     df'!1
     \repeatTie
     
-    % [C ViolaVoiceIII measure 20]                       %! SM4
+    % [C ViolaVoiceIII measure 20 / measure 3]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
@@ -2361,15 +2361,15 @@ C_ViolaVoiceIII_a = {
 %%%     }                                                %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
-    % [C ViolaVoiceIII measure 21]                       %! SM4
+    % [C ViolaVoiceIII measure 21 / measure 4]           %! SM4
     c'1
     \repeatTie
     
-    % [C ViolaVoiceIII measure 22]                       %! SM4
+    % [C ViolaVoiceIII measure 22 / measure 5]           %! SM4
     c'1
     \repeatTie
     
-    % [C ViolaVoiceIII measure 23]                       %! SM4
+    % [C ViolaVoiceIII measure 23 / measure 6]           %! SM4
     c'2.
     \repeatTie
     
@@ -2389,7 +2389,7 @@ C_ViolaStaffII = {
 
 C_CelloVoiceI_a = {
     
-    % [C CelloVoiceI measure 18]                             %! SM4
+    % [C CelloVoiceI measure 18 / measure 1]                 %! SM4
     \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2445,14 +2445,14 @@ C_CelloVoiceI_a = {
             Vc.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C CelloVoiceI measure 19]                             %! SM4
+    % [C CelloVoiceI measure 19 / measure 2]                 %! SM4
     df'!8
     \repeatTie
     
     df'!2..
     -\accent                                                 %! IC
     
-    % [C CelloVoiceI measure 20]                             %! SM4
+    % [C CelloVoiceI measure 20 / measure 3]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                                   %! SM8:EXPLICIT_DYNAMIC:IC
@@ -2464,15 +2464,15 @@ C_CelloVoiceI_a = {
 %%%     }                                                    %! IC:+PARTS
     \revert TrillSpanner.staff-padding                       %! OC2
     
-    % [C CelloVoiceI measure 21]                             %! SM4
+    % [C CelloVoiceI measure 21 / measure 4]                 %! SM4
     c'1
     \repeatTie
     
-    % [C CelloVoiceI measure 22]                             %! SM4
+    % [C CelloVoiceI measure 22 / measure 5]                 %! SM4
     c'1
     \repeatTie
     
-    % [C CelloVoiceI measure 23]                             %! SM4
+    % [C CelloVoiceI measure 23 / measure 6]                 %! SM4
     c'2.
     \repeatTie
     
@@ -2492,7 +2492,7 @@ C_CelloStaffI = {
 
 C_ContrabassVoiceIII_a = {
     
-    % [C ContrabassVoiceIII measure 18]                      %! SM4
+    % [C ContrabassVoiceIII measure 18 / measure 1]          %! SM4
     \set Staff.instrumentName =                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
     \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
@@ -2543,24 +2543,24 @@ C_ContrabassVoiceIII_a = {
         }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [C ContrabassVoiceIII measure 19]                      %! SM4
+    % [C ContrabassVoiceIII measure 19 / measure 2]          %! SM4
     R1 * 1
     
-    % [C ContrabassVoiceIII measure 20]                      %! SM4
+    % [C ContrabassVoiceIII measure 20 / measure 3]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     c1
     \<                                                       %! HC1
     \p                                                       %! HC1
     
-    % [C ContrabassVoiceIII measure 21]                      %! SM4
+    % [C ContrabassVoiceIII measure 21 / measure 4]          %! SM4
     c1
     \repeatTie
     
-    % [C ContrabassVoiceIII measure 22]                      %! SM4
+    % [C ContrabassVoiceIII measure 22 / measure 5]          %! SM4
     c1
     \repeatTie
     
-    % [C ContrabassVoiceIII measure 23]                      %! SM4
+    % [C ContrabassVoiceIII measure 23 / measure 6]          %! SM4
     c2.
     \repeatTie
     \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
