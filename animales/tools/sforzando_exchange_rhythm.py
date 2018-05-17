@@ -1,7 +1,7 @@
 import abjad
 import baca
 from typing import List
-from abjad import rhythmmakertools as rhythmos
+from abjad import rhythmos
 
 
 def sforzando_exchange_rhythm(this_part: int) -> baca.RhythmCommand:

@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmmakertools as rhythmos
+from abjad import rhythmos
 
 
 def brass_manifest_rhythm(part, left_broken=False, right_broken=False):
