@@ -61,45 +61,45 @@ Q_GlobalSkips = {
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
-%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             76                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             76                                                       %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        76                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        76                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
     - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
@@ -1852,15 +1852,15 @@ Q_FirstViolinVoiceI_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -1890,15 +1890,15 @@ Q_FirstViolinVoiceI_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -1911,15 +1911,15 @@ Q_FirstViolinVoiceI_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -1947,15 +1947,15 @@ Q_FirstViolinVoiceI_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -1985,15 +1985,15 @@ Q_FirstViolinVoiceI_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -2006,15 +2006,15 @@ Q_FirstViolinVoiceI_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -2066,15 +2066,15 @@ Q_FirstViolinVoiceII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -2104,15 +2104,15 @@ Q_FirstViolinVoiceII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -2125,15 +2125,15 @@ Q_FirstViolinVoiceII_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -2161,15 +2161,15 @@ Q_FirstViolinVoiceII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -2199,15 +2199,15 @@ Q_FirstViolinVoiceII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -2220,15 +2220,15 @@ Q_FirstViolinVoiceII_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -2356,15 +2356,15 @@ Q_FirstViolinVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -2394,15 +2394,15 @@ Q_FirstViolinVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -2415,15 +2415,15 @@ Q_FirstViolinVoiceIII_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -2451,15 +2451,15 @@ Q_FirstViolinVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -2489,15 +2489,15 @@ Q_FirstViolinVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -2510,15 +2510,15 @@ Q_FirstViolinVoiceIII_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -2570,15 +2570,15 @@ Q_FirstViolinVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -2608,15 +2608,15 @@ Q_FirstViolinVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -2629,15 +2629,15 @@ Q_FirstViolinVoiceIV_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -2665,15 +2665,15 @@ Q_FirstViolinVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -2703,15 +2703,15 @@ Q_FirstViolinVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -2724,15 +2724,15 @@ Q_FirstViolinVoiceIV_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -3013,15 +3013,15 @@ Q_SecondViolinVoiceI_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3051,15 +3051,15 @@ Q_SecondViolinVoiceI_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3072,15 +3072,15 @@ Q_SecondViolinVoiceI_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -3108,15 +3108,15 @@ Q_SecondViolinVoiceI_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3146,15 +3146,15 @@ Q_SecondViolinVoiceI_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3167,15 +3167,15 @@ Q_SecondViolinVoiceI_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     \revert RepeatTie.direction                          %! OC2
@@ -3228,15 +3228,15 @@ Q_SecondViolinVoiceII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3266,15 +3266,15 @@ Q_SecondViolinVoiceII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3287,15 +3287,15 @@ Q_SecondViolinVoiceII_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -3323,15 +3323,15 @@ Q_SecondViolinVoiceII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3361,15 +3361,15 @@ Q_SecondViolinVoiceII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3382,15 +3382,15 @@ Q_SecondViolinVoiceII_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -3518,15 +3518,15 @@ Q_SecondViolinVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3556,15 +3556,15 @@ Q_SecondViolinVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3577,15 +3577,15 @@ Q_SecondViolinVoiceIII_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -3613,15 +3613,15 @@ Q_SecondViolinVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3651,15 +3651,15 @@ Q_SecondViolinVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3672,15 +3672,15 @@ Q_SecondViolinVoiceIII_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -3732,15 +3732,15 @@ Q_SecondViolinVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3770,15 +3770,15 @@ Q_SecondViolinVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3791,15 +3791,15 @@ Q_SecondViolinVoiceIV_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -3827,15 +3827,15 @@ Q_SecondViolinVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3865,15 +3865,15 @@ Q_SecondViolinVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -3886,15 +3886,15 @@ Q_SecondViolinVoiceIV_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -4022,15 +4022,15 @@ Q_ViolaVoiceI_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4060,15 +4060,15 @@ Q_ViolaVoiceI_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4081,15 +4081,15 @@ Q_ViolaVoiceI_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -4117,15 +4117,15 @@ Q_ViolaVoiceI_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4155,15 +4155,15 @@ Q_ViolaVoiceI_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4176,15 +4176,15 @@ Q_ViolaVoiceI_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -4236,15 +4236,15 @@ Q_ViolaVoiceII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4274,15 +4274,15 @@ Q_ViolaVoiceII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4295,15 +4295,15 @@ Q_ViolaVoiceII_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -4331,15 +4331,15 @@ Q_ViolaVoiceII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4369,15 +4369,15 @@ Q_ViolaVoiceII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4390,15 +4390,15 @@ Q_ViolaVoiceII_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -4526,15 +4526,15 @@ Q_ViolaVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4564,15 +4564,15 @@ Q_ViolaVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4585,15 +4585,15 @@ Q_ViolaVoiceIII_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -4621,15 +4621,15 @@ Q_ViolaVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4659,15 +4659,15 @@ Q_ViolaVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4680,15 +4680,15 @@ Q_ViolaVoiceIII_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -4740,15 +4740,15 @@ Q_ViolaVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4778,15 +4778,15 @@ Q_ViolaVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4799,15 +4799,15 @@ Q_ViolaVoiceIV_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -4835,15 +4835,15 @@ Q_ViolaVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \<                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4873,15 +4873,15 @@ Q_ViolaVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PWC1
     \>                                                   %! PWC1
     - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {           %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        "ext. pont."                     %! PWC1
+                \hspace                                  %! PWC1
+                    #0.5                                 %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     - \tweak arrow-width 0.25                            %! PWC1
     - \tweak dash-fraction 0.25                          %! PWC1
@@ -4894,15 +4894,15 @@ Q_ViolaVoiceIV_a = {
     - \tweak bound-details.right-broken.text ##f         %! PWC1
     - \tweak bound-details.right.padding 0.5             %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {          %! PWC1
+        \concat                                          %! PWC1
+            {                                            %! PWC1
+                \hspace                                  %! PWC1
+                    #0.0                                 %! PWC1
+                \whiteout                                %! PWC1
+                    \upright                             %! PWC1
+                        tasto                            %! PWC1
+            }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
     
@@ -5031,15 +5031,15 @@ Q_CelloVoiceI_a = {
     - \tweak circled-tip ##t                                 %! PWC1
     \<                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {               %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        tasto                                %! PWC1
+                \hspace                                      %! PWC1
+                    #0.5                                     %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     - \tweak arrow-width 0.25                                %! PWC1
     - \tweak dash-fraction 0.25                              %! PWC1
@@ -5069,15 +5069,15 @@ Q_CelloVoiceI_a = {
     - \tweak circled-tip ##t                                 %! PWC1
     \>                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {               %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        "ext. pont."                         %! PWC1
+                \hspace                                      %! PWC1
+                    #0.5                                     %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     - \tweak arrow-width 0.25                                %! PWC1
     - \tweak dash-fraction 0.25                              %! PWC1
@@ -5090,15 +5090,15 @@ Q_CelloVoiceI_a = {
     - \tweak bound-details.right-broken.text ##f             %! PWC1
     - \tweak bound-details.right.padding 0.5                 %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {              %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \hspace                                      %! PWC1
+                    #0.0                                     %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        tasto                                %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     
@@ -5126,15 +5126,15 @@ Q_CelloVoiceI_a = {
     - \tweak circled-tip ##t                                 %! PWC1
     \<                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {               %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        tasto                                %! PWC1
+                \hspace                                      %! PWC1
+                    #0.5                                     %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     - \tweak arrow-width 0.25                                %! PWC1
     - \tweak dash-fraction 0.25                              %! PWC1
@@ -5164,15 +5164,15 @@ Q_CelloVoiceI_a = {
     - \tweak circled-tip ##t                                 %! PWC1
     \>                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {               %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        "ext. pont."                         %! PWC1
+                \hspace                                      %! PWC1
+                    #0.5                                     %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     - \tweak arrow-width 0.25                                %! PWC1
     - \tweak dash-fraction 0.25                              %! PWC1
@@ -5185,15 +5185,15 @@ Q_CelloVoiceI_a = {
     - \tweak bound-details.right-broken.text ##f             %! PWC1
     - \tweak bound-details.right.padding 0.5                 %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {              %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \hspace                                      %! PWC1
+                    #0.0                                     %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        tasto                                %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     \revert RepeatTie.direction                              %! OC2
@@ -5246,15 +5246,15 @@ Q_CelloVoiceII_a = {
     - \tweak circled-tip ##t                                 %! PWC1
     \<                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {               %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        tasto                                %! PWC1
+                \hspace                                      %! PWC1
+                    #0.5                                     %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     - \tweak arrow-width 0.25                                %! PWC1
     - \tweak dash-fraction 0.25                              %! PWC1
@@ -5284,15 +5284,15 @@ Q_CelloVoiceII_a = {
     - \tweak circled-tip ##t                                 %! PWC1
     \>                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {               %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        "ext. pont."                         %! PWC1
+                \hspace                                      %! PWC1
+                    #0.5                                     %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     - \tweak arrow-width 0.25                                %! PWC1
     - \tweak dash-fraction 0.25                              %! PWC1
@@ -5305,15 +5305,15 @@ Q_CelloVoiceII_a = {
     - \tweak bound-details.right-broken.text ##f             %! PWC1
     - \tweak bound-details.right.padding 0.5                 %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {              %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \hspace                                      %! PWC1
+                    #0.0                                     %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        tasto                                %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     
@@ -5341,15 +5341,15 @@ Q_CelloVoiceII_a = {
     - \tweak circled-tip ##t                                 %! PWC1
     \<                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {               %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        tasto                                %! PWC1
+                \hspace                                      %! PWC1
+                    #0.5                                     %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     - \tweak arrow-width 0.25                                %! PWC1
     - \tweak dash-fraction 0.25                              %! PWC1
@@ -5379,15 +5379,15 @@ Q_CelloVoiceII_a = {
     - \tweak circled-tip ##t                                 %! PWC1
     \>                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {               %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        "ext. pont."                         %! PWC1
+                \hspace                                      %! PWC1
+                    #0.5                                     %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     - \tweak arrow-width 0.25                                %! PWC1
     - \tweak dash-fraction 0.25                              %! PWC1
@@ -5400,15 +5400,15 @@ Q_CelloVoiceII_a = {
     - \tweak bound-details.right-broken.text ##f             %! PWC1
     - \tweak bound-details.right.padding 0.5                 %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {              %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \hspace                                      %! PWC1
+                    #0.0                                     %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        tasto                                %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     
@@ -5511,15 +5511,15 @@ Q_ContrabassVoiceIII_a = {
     - \tweak circled-tip ##t                                 %! PWC1
     \<                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {               %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        tasto                                %! PWC1
+                \hspace                                      %! PWC1
+                    #0.5                                     %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     - \tweak arrow-width 0.25                                %! PWC1
     - \tweak dash-fraction 0.25                              %! PWC1
@@ -5549,15 +5549,15 @@ Q_ContrabassVoiceIII_a = {
     - \tweak circled-tip ##t                                 %! PWC1
     \>                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {               %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        "ext. pont."                         %! PWC1
+                \hspace                                      %! PWC1
+                    #0.5                                     %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     - \tweak arrow-width 0.25                                %! PWC1
     - \tweak dash-fraction 0.25                              %! PWC1
@@ -5570,15 +5570,15 @@ Q_ContrabassVoiceIII_a = {
     - \tweak bound-details.right-broken.text ##f             %! PWC1
     - \tweak bound-details.right.padding 0.5                 %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {              %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \hspace                                      %! PWC1
+                    #0.0                                     %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        tasto                                %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     
@@ -5606,15 +5606,15 @@ Q_ContrabassVoiceIII_a = {
     - \tweak circled-tip ##t                                 %! PWC1
     \<                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        tasto
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {               %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        tasto                                %! PWC1
+                \hspace                                      %! PWC1
+                    #0.5                                     %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     - \tweak arrow-width 0.25                                %! PWC1
     - \tweak dash-fraction 0.25                              %! PWC1
@@ -5644,15 +5644,15 @@ Q_ContrabassVoiceIII_a = {
     - \tweak circled-tip ##t                                 %! PWC1
     \>                                                       %! PWC1
     - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        "ext. pont."
-                \hspace
-                    #0.5
-            }
+    - \tweak bound-details.left.text \markup {               %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        "ext. pont."                         %! PWC1
+                \hspace                                      %! PWC1
+                    #0.5                                     %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     - \tweak arrow-width 0.25                                %! PWC1
     - \tweak dash-fraction 0.25                              %! PWC1
@@ -5665,15 +5665,15 @@ Q_ContrabassVoiceIII_a = {
     - \tweak bound-details.right-broken.text ##f             %! PWC1
     - \tweak bound-details.right.padding 0.5                 %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
+    - \tweak bound-details.right.text \markup {              %! PWC1
+        \concat                                              %! PWC1
+            {                                                %! PWC1
+                \hspace                                      %! PWC1
+                    #0.0                                     %! PWC1
+                \whiteout                                    %! PWC1
+                    \upright                                 %! PWC1
+                        tasto                                %! PWC1
+            }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
     
