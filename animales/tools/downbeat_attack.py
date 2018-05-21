@@ -170,7 +170,7 @@ def downbeat_attack(count=1, denominator=8):
             denominator=denominator,
             ),
         )
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )

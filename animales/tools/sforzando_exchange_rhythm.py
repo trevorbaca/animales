@@ -4,7 +4,7 @@ from typing import List
 from abjad import rhythmos
 
 
-def sforzando_exchange_rhythm(this_part: int) -> baca.RhythmCommand:
+def sforzando_exchange_rhythm(this_part: int) -> baca.rhythm:
     """
     Makes sforzando-exchange rhythm.
     """
@@ -71,7 +71,7 @@ def sforzando_exchange_rhythm(this_part: int) -> baca.RhythmCommand:
             trivialize=True,
             ),
         )
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_expression=baca.strict_quarter_divisions(),
         persist='sforzando_exchange_rhythm',
         rewrite_meter=True,

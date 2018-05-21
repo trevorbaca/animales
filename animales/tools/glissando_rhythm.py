@@ -15,7 +15,7 @@ def glissando_rhythm(rotate=0):
             denominator=8,
             ),
         )
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )
