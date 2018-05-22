@@ -102,12 +102,12 @@ maker(
 def crescendi():
     return baca.suite(
         baca.map(
-            baca.hairpin('mp < mf'),
             baca.runs()[:-1],
+            baca.hairpin('mp < mf'),
             ),
         baca.map(
-            baca.hairpin('mp <', right_broken=True),
             baca.run(-1),
+            baca.hairpin('mp <', right_broken=True),
             ),
         )
 
