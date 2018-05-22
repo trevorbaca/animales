@@ -13,7 +13,7 @@ def glissando_positions(reverse=False, rotate=0, transpose=0):
         >>> command = animales.glissando_positions()
         >>> abjad.f(command)
         baca.StaffPositionCommand(
-            abjad.CyclicTuple(
+            numbers=abjad.CyclicTuple(
                 [
                     8,
                     13,

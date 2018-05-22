@@ -133,7 +133,7 @@ maker(
 # strings
 
 def tremolo_suite():
-    return baca.suite([
+    return baca.suite(
         baca.accent(selector=baca.pleaves()),
         baca.dynamic('ff'),
         baca.hairpin('ff > pp', selector=baca.pleaves()[2:-2]),
@@ -145,23 +145,23 @@ def tremolo_suite():
             spanner_selector=baca.pleaves()[2:-2],
             ),
         baca.stem_tremolo(selector=baca.pleaves()),
-        ])
+        )
 
 def upper_voice_suite():
-    return baca.suite([
+    return baca.suite(
         baca.only_parts(baca.text_script_extra_offset((1, 3))),
         baca.only_parts(baca.text_spanner_staff_padding(5)),
         baca.not_parts(baca.dynamic_text_stencil_false(selector=baca.leaves())),
         baca.not_parts(baca.hairpin_stencil_false()),
         baca.not_parts(baca.text_spanner_stencil_false()),
         baca.not_parts(baca.voice_one()),
-        ])
+        )
 
 def lower_voice_suite(n=5):
-    return baca.suite([
+    return baca.suite(
         baca.not_parts(baca.voice_two()),
         baca.not_parts(baca.text_spanner_staff_padding(n)),
-        ])
+        )
 
 # solo violin
 
