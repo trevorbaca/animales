@@ -100,7 +100,7 @@ maker(
 # horns
 
 def crescendi():
-    return baca.suite([
+    return baca.suite(
         baca.map(
             baca.hairpin('mp < mf'),
             baca.runs()[:-1],
@@ -109,7 +109,7 @@ def crescendi():
             baca.hairpin('mp <', right_broken=True),
             baca.run(-1),
             ),
-        ])
+        )
 
 maker(
     'hn1',

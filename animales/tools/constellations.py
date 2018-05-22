@@ -32,16 +32,16 @@ def constellations(
         }
 
     def upper_voice():
-        return baca.suite([
+        return baca.suite(
             baca.not_parts(baca.voice_one()),
             baca.staff_position(1),
-            ])
+            )
 
     def lower_voice():
-        return baca.suite([
+        return baca.suite(
             baca.not_parts(baca.voice_two()),
             baca.staff_position(-1),
-            ])
+            )
 
     duration = sum([_.duration for _ in maker.time_signatures])
     wrap = duration.with_denominator(16).numerator

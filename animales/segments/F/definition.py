@@ -233,7 +233,7 @@ warning = abjad.Markup.line([
 warning = warning.scale((1.25, 1.25))
 maker(
     'cb3',
-    baca.suite([
+    baca.suite(
         baca.untie_to(selector=baca.leaf(1)),
         baca.pitch('A#1', selector=baca.pleaf(0)),
         baca.pitch('Bb1', selector=baca.leaves()[1:]),
@@ -243,7 +243,7 @@ maker(
             baca.markup(warning, selector=baca.leaf(0), direction=abjad.Up),
             selector=baca.leaf(1),
             ),
-        ]),
+        ),
     )
 
 upper_strings = [

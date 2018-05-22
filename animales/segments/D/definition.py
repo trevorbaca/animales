@@ -101,14 +101,14 @@ maker(
     baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
-    baca.suite([
+    baca.suite(
         baca.untie_to(selector=baca.leaves()),
         animales.glissando_positions(transpose=-1),
         baca.pitch('B4', selector=baca.pleaf(0)),
         baca.pitch('B3', selector=baca.pleaf(-1)),
         baca.tie_repeat_pitches(),
         baca.glissando(),
-        ]),
+        ),
     )
 
 animales.assign_trill_parts(maker, exclude_first_violin=True)

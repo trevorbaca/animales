@@ -96,7 +96,7 @@ maker(
 
 # horns
 
-crescendi = baca.suite([
+crescendi = baca.suite(
     baca.map(
         baca.hairpin('< f', left_broken=True),
         baca.run(0),
@@ -105,7 +105,7 @@ crescendi = baca.suite([
         baca.hairpin('mp < ff'),
         baca.runs()[1:],
         ),
-    ])
+    )
 
 maker(
     'hn1',

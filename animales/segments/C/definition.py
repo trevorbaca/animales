@@ -176,14 +176,14 @@ maker(
     baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
-    baca.suite([
+    baca.suite(
         baca.untie_to(selector=baca.leaves()),
         animales.glissando_positions(reverse=True),
         baca.pitch('C5', selector=baca.pleaf(0)),
         baca.pitch('C6', selector=baca.pleaf(-1)),
         baca.tie_repeat_pitches(),
         baca.glissando(),
-        ]),
+        ),
     )
 
 animales.make_trill_rhythm(maker, measures=(1, 2))
