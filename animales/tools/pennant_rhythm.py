@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def pennant_rhythm(extra_counts=None, silences=None):
@@ -14,14 +14,14 @@ def pennant_rhythm(extra_counts=None, silences=None):
     else:
         division_masks = None
 
-    rhythm_maker = rhythmos.TaleaRhythmMaker(
+    rhythm_maker = rmakers.TaleaRhythmMaker(
         division_masks=division_masks,
         extra_counts_per_division=extra_counts,
-        talea=rhythmos.Talea(
+        talea=rmakers.Talea(
             counts=[1],
             denominator=16,
             ),
-        tuplet_specifier=rhythmos.TupletSpecifier(
+        tuplet_specifier=rmakers.TupletSpecifier(
             extract_trivial=True,
             trivialize=True,
             ),
