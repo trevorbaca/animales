@@ -1,7 +1,7 @@
 import abjad
 import baca
 from typing import List
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def sforzando_exchange_rhythm(this_part: int) -> baca.rhythm:
@@ -56,17 +56,17 @@ def sforzando_exchange_rhythm(this_part: int) -> baca.rhythm:
 
     preamble = part_to_preamble[this_part]
     counts = part_to_counts[this_part]
-    talea = rhythmos.Talea(
+    talea = rmakers.Talea(
         counts=counts,
         denominator=16,
         preamble=preamble,
         )
 
-    rhythm_maker = rhythmos.TaleaRhythmMaker(
+    rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=[2],
         talea=talea,
-        tie_specifier=rhythmos.TieSpecifier(repeat_ties=True),
-        tuplet_specifier=rhythmos.TupletSpecifier(
+        tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
+        tuplet_specifier=rmakers.TupletSpecifier(
             extract_trivial=True,
             trivialize=True,
             ),

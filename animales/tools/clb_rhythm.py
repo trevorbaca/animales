@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def clb_rhythm(section, member, counts, wrap):
@@ -47,7 +47,7 @@ def clb_rhythm(section, member, counts, wrap):
     assert shards.weight() == counts.weight()
     counts = shards[index]
 
-    talea = rhythmos.Talea(
+    talea = rmakers.Talea(
         counts=counts,
         denominator=16,
         )
@@ -57,10 +57,10 @@ def clb_rhythm(section, member, counts, wrap):
     else:
         extra_counts_per_division = None
 
-    rhythm_maker = rhythmos.TaleaRhythmMaker(
+    rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=extra_counts_per_division,
         talea=talea,
-        tuplet_specifier=rhythmos.TupletSpecifier(
+        tuplet_specifier=rmakers.TupletSpecifier(
             extract_trivial=True,
             rewrite_rest_filled=True,
             trivialize=True,

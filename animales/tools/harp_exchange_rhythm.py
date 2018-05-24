@@ -1,7 +1,7 @@
 import abjad
 import baca
 from typing import List
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def harp_exchange_rhythm(
@@ -63,7 +63,7 @@ def harp_exchange_rhythm(
         counts.append(2)
         rest = -(count - 2)
         counts.append(rest)
-    talea = rhythmos.Talea(
+    talea = rmakers.Talea(
         counts=counts,
         denominator=16,
         preamble=preamble,
@@ -76,13 +76,13 @@ def harp_exchange_rhythm(
     else:
         logical_tie_masks = None
 
-    rhythm_maker = rhythmos.TaleaRhythmMaker(
+    rhythm_maker = rmakers.TaleaRhythmMaker(
         division_masks=division_masks,
         extra_counts_per_division=[2],
         logical_tie_masks=logical_tie_masks,
         talea=talea,
-        tie_specifier=rhythmos.TieSpecifier(repeat_ties=True),
-        tuplet_specifier=rhythmos.TupletSpecifier(
+        tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
+        tuplet_specifier=rmakers.TupletSpecifier(
             extract_trivial=True,
             trivialize=True,
             ),
