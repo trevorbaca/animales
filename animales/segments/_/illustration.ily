@@ -1,21 +1,21 @@
 i_GlobalRests = {
     
-    % [_ GlobalRests measure 1 / measure 1]                              %! SM4
+    % [_ GlobalRests measure 1]                                          %! SM4
     R1 * 1
     
-    % [_ GlobalRests measure 2 / measure 2]                              %! SM4
+    % [_ GlobalRests measure 2]                                          %! SM4
     R1 * 1
     
-    % [_ GlobalRests measure 3 / measure 3]                              %! SM4
+    % [_ GlobalRests measure 3]                                          %! SM4
     R1 * 1
     
-    % [_ GlobalRests measure 4 / measure 4]                              %! SM4
+    % [_ GlobalRests measure 4]                                          %! SM4
     R1 * 3/4
     
-    % [_ GlobalRests measure 5 / measure 5]                              %! SM4
+    % [_ GlobalRests measure 5]                                          %! SM4
     R1 * 3/4
     
-    % [_ GlobalRests measure 6 / measure 6]                              %! SM4
+    % [_ GlobalRests measure 6]                                          %! SM4
     R1 * 1
     
 }
@@ -23,7 +23,7 @@ i_GlobalRests = {
 
 i_GlobalSkips = {
     
-    % [_ GlobalSkips measure 1 / measure 1]                              %! SM4
+    % [_ GlobalSkips measure 1]                                          %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -107,7 +107,7 @@ i_GlobalSkips = {
             }
         }
     
-    % [_ GlobalSkips measure 2 / measure 2]                              %! SM4
+    % [_ GlobalSkips measure 2]                                          %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -141,7 +141,7 @@ i_GlobalSkips = {
             }
         }
     
-    % [_ GlobalSkips measure 3 / measure 3]                              %! SM4
+    % [_ GlobalSkips measure 3]                                          %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -175,7 +175,7 @@ i_GlobalSkips = {
             }
         }
     
-    % [_ GlobalSkips measure 4 / measure 4]                              %! SM4
+    % [_ GlobalSkips measure 4]                                          %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -210,7 +210,7 @@ i_GlobalSkips = {
             }
         }
     
-    % [_ GlobalSkips measure 5 / measure 5]                              %! SM4
+    % [_ GlobalSkips measure 5]                                          %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -244,7 +244,7 @@ i_GlobalSkips = {
             }
         }
     
-    % [_ GlobalSkips measure 6 / measure 6]                              %! SM4
+    % [_ GlobalSkips measure 6]                                          %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -287,7 +287,7 @@ i_GlobalSkips = {
 
 i_PercussionVoiceI_a = {
     
-    % [_ PercussionVoiceI measure 1 / measure 1]             %! SM4
+    % [_ PercussionVoiceI measure 1]                         %! SM4
     \set Staff.instrumentName =                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
     \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
@@ -342,19 +342,19 @@ i_PercussionVoiceI_a = {
         }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [_ PercussionVoiceI measure 2 / measure 2]             %! SM4
+    % [_ PercussionVoiceI measure 2]                         %! SM4
     R1 * 1
     
-    % [_ PercussionVoiceI measure 3 / measure 3]             %! SM4
+    % [_ PercussionVoiceI measure 3]                         %! SM4
     R1 * 1
     
-    % [_ PercussionVoiceI measure 4 / measure 4]             %! SM4
+    % [_ PercussionVoiceI measure 4]                         %! SM4
     R1 * 3/4
     
-    % [_ PercussionVoiceI measure 5 / measure 5]             %! SM4
+    % [_ PercussionVoiceI measure 5]                         %! SM4
     R1 * 3/4
     
-    % [_ PercussionVoiceI measure 6 / measure 6]             %! SM4
+    % [_ PercussionVoiceI measure 6]                         %! SM4
     R1 * 1
     
 }
@@ -373,7 +373,7 @@ i_PercussionStaffI = {
 
 i_PercussionVoiceII_a = {
     
-    % [_ PercussionVoiceII measure 1 / measure 1]            %! SM4
+    % [_ PercussionVoiceII measure 1]                        %! SM4
     \set Staff.instrumentName =                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
     \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
@@ -428,19 +428,19 @@ i_PercussionVoiceII_a = {
         }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [_ PercussionVoiceII measure 2 / measure 2]            %! SM4
+    % [_ PercussionVoiceII measure 2]                        %! SM4
     R1 * 1
     
-    % [_ PercussionVoiceII measure 3 / measure 3]            %! SM4
+    % [_ PercussionVoiceII measure 3]                        %! SM4
     R1 * 1
     
-    % [_ PercussionVoiceII measure 4 / measure 4]            %! SM4
+    % [_ PercussionVoiceII measure 4]                        %! SM4
     R1 * 3/4
     
-    % [_ PercussionVoiceII measure 5 / measure 5]            %! SM4
+    % [_ PercussionVoiceII measure 5]                        %! SM4
     R1 * 3/4
     
-    % [_ PercussionVoiceII measure 6 / measure 6]            %! SM4
+    % [_ PercussionVoiceII measure 6]                        %! SM4
     R1 * 1
     
 }
@@ -459,7 +459,7 @@ i_PercussionStaffII = {
 
 i_PercussionVoiceIV_a = {
     
-    % [_ PercussionVoiceIV measure 1 / measure 1]            %! SM4
+    % [_ PercussionVoiceIV measure 1]                        %! SM4
     \set Staff.instrumentName =                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
     \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
@@ -514,19 +514,19 @@ i_PercussionVoiceIV_a = {
         }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [_ PercussionVoiceIV measure 2 / measure 2]            %! SM4
+    % [_ PercussionVoiceIV measure 2]                        %! SM4
     R1 * 1
     
-    % [_ PercussionVoiceIV measure 3 / measure 3]            %! SM4
+    % [_ PercussionVoiceIV measure 3]                        %! SM4
     R1 * 1
     
-    % [_ PercussionVoiceIV measure 4 / measure 4]            %! SM4
+    % [_ PercussionVoiceIV measure 4]                        %! SM4
     R1 * 3/4
     
-    % [_ PercussionVoiceIV measure 5 / measure 5]            %! SM4
+    % [_ PercussionVoiceIV measure 5]                        %! SM4
     R1 * 3/4
     
-    % [_ PercussionVoiceIV measure 6 / measure 6]            %! SM4
+    % [_ PercussionVoiceIV measure 6]                        %! SM4
     R1 * 1
     
 }
@@ -545,7 +545,7 @@ i_PercussionStaffIV = {
 
 i_FirstViolinVoiceI_a = {
     
-    % [_ FirstViolinVoiceI measure 1 / measure 1]        %! SM4
+    % [_ FirstViolinVoiceI measure 1]                    %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -628,22 +628,22 @@ i_FirstViolinVoiceI_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
-    % [_ FirstViolinVoiceI measure 2 / measure 2]        %! SM4
+    % [_ FirstViolinVoiceI measure 2]                    %! SM4
     a'2
     \repeatTie
     
     a'2
     -\accent                                             %! IC
     
-    % [_ FirstViolinVoiceI measure 3 / measure 3]        %! SM4
+    % [_ FirstViolinVoiceI measure 3]                    %! SM4
     a'1
     \repeatTie
     
-    % [_ FirstViolinVoiceI measure 4 / measure 4]        %! SM4
+    % [_ FirstViolinVoiceI measure 4]                    %! SM4
     a'2.
     \repeatTie
     
-    % [_ FirstViolinVoiceI measure 5 / measure 5]        %! SM4
+    % [_ FirstViolinVoiceI measure 5]                    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     af'!2.
@@ -652,7 +652,7 @@ i_FirstViolinVoiceI_a = {
     \stopTrillSpan                                       %! SC
     \startTrillSpan a'                                   %! SC
     
-    % [_ FirstViolinVoiceI measure 6 / measure 6]        %! SM4
+    % [_ FirstViolinVoiceI measure 6]                    %! SM4
     af'!1
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -674,7 +674,7 @@ i_FirstViolinStaffI = {
 
 i_FirstViolinVoiceIII_a = {
     
-    % [_ FirstViolinVoiceIII measure 1 / measure 1]      %! SM4
+    % [_ FirstViolinVoiceIII measure 1]                  %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -759,7 +759,7 @@ i_FirstViolinVoiceIII_a = {
     a'2.
     -\accent                                             %! IC
     
-    % [_ FirstViolinVoiceIII measure 2 / measure 2]      %! SM4
+    % [_ FirstViolinVoiceIII measure 2]                  %! SM4
     a'2
     \repeatTie
     \times 2/3 {
@@ -775,15 +775,15 @@ i_FirstViolinVoiceIII_a = {
     a'4
     \repeatTie
     
-    % [_ FirstViolinVoiceIII measure 3 / measure 3]      %! SM4
+    % [_ FirstViolinVoiceIII measure 3]                  %! SM4
     a'1
     \repeatTie
     
-    % [_ FirstViolinVoiceIII measure 4 / measure 4]      %! SM4
+    % [_ FirstViolinVoiceIII measure 4]                  %! SM4
     a'2.
     \repeatTie
     
-    % [_ FirstViolinVoiceIII measure 5 / measure 5]      %! SM4
+    % [_ FirstViolinVoiceIII measure 5]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     af'!4
@@ -794,7 +794,7 @@ i_FirstViolinVoiceIII_a = {
     af'!2
     -\accent                                             %! IC
     
-    % [_ FirstViolinVoiceIII measure 6 / measure 6]      %! SM4
+    % [_ FirstViolinVoiceIII measure 6]                  %! SM4
     af'!1
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -816,7 +816,7 @@ i_FirstViolinStaffII = {
 
 i_SecondViolinVoiceI_a = {
     
-    % [_ SecondViolinVoiceI measure 1 / measure 1]       %! SM4
+    % [_ SecondViolinVoiceI measure 1]                   %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -904,22 +904,22 @@ i_SecondViolinVoiceI_a = {
     a'4.
     -\accent                                             %! IC
     
-    % [_ SecondViolinVoiceI measure 2 / measure 2]       %! SM4
+    % [_ SecondViolinVoiceI measure 2]                   %! SM4
     a'1
     \repeatTie
     
-    % [_ SecondViolinVoiceI measure 3 / measure 3]       %! SM4
+    % [_ SecondViolinVoiceI measure 3]                   %! SM4
     a'8
     \repeatTie
     
     a'2..
     -\accent                                             %! IC
     
-    % [_ SecondViolinVoiceI measure 4 / measure 4]       %! SM4
+    % [_ SecondViolinVoiceI measure 4]                   %! SM4
     a'2.
     \repeatTie
     
-    % [_ SecondViolinVoiceI measure 5 / measure 5]       %! SM4
+    % [_ SecondViolinVoiceI measure 5]                   %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     af'!2
@@ -935,7 +935,7 @@ i_SecondViolinVoiceI_a = {
     -\accent                                             %! IC
     ]
     
-    % [_ SecondViolinVoiceI measure 6 / measure 6]       %! SM4
+    % [_ SecondViolinVoiceI measure 6]                   %! SM4
     af'!1
     \repeatTie
     \stopTrillSpan                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -957,7 +957,7 @@ i_SecondViolinStaffI = {
 
 i_SecondViolinVoiceIII_a = {
     
-    % [_ SecondViolinVoiceIII measure 1 / measure 1]     %! SM4
+    % [_ SecondViolinVoiceIII measure 1]                 %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -1051,22 +1051,22 @@ i_SecondViolinVoiceIII_a = {
     a'4
     \repeatTie
     
-    % [_ SecondViolinVoiceIII measure 2 / measure 2]     %! SM4
+    % [_ SecondViolinVoiceIII measure 2]                 %! SM4
     a'1
     \repeatTie
     
-    % [_ SecondViolinVoiceIII measure 3 / measure 3]     %! SM4
+    % [_ SecondViolinVoiceIII measure 3]                 %! SM4
     a'4
     \repeatTie
     
     a'2.
     -\accent                                             %! IC
     
-    % [_ SecondViolinVoiceIII measure 4 / measure 4]     %! SM4
+    % [_ SecondViolinVoiceIII measure 4]                 %! SM4
     a'2.
     \repeatTie
     
-    % [_ SecondViolinVoiceIII measure 5 / measure 5]     %! SM4
+    % [_ SecondViolinVoiceIII measure 5]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     af'!2.
@@ -1075,7 +1075,7 @@ i_SecondViolinVoiceIII_a = {
     \startTrillSpan a'                                   %! SC
     \times 2/3 {
         
-        % [_ SecondViolinVoiceIII measure 6 / measure 6] %! SM4
+        % [_ SecondViolinVoiceIII measure 6]             %! SM4
         af'!8
         \repeatTie
         
@@ -1105,7 +1105,7 @@ i_SecondViolinStaffII = {
 
 i_ViolaVoiceI_a = {
     
-    % [_ ViolaVoiceI measure 1 / measure 1]              %! SM4
+    % [_ ViolaVoiceI measure 1]                          %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -1190,22 +1190,22 @@ i_ViolaVoiceI_a = {
     a'4
     -\accent                                             %! IC
     
-    % [_ ViolaVoiceI measure 2 / measure 2]              %! SM4
+    % [_ ViolaVoiceI measure 2]                          %! SM4
     a'1
     \repeatTie
     
-    % [_ ViolaVoiceI measure 3 / measure 3]              %! SM4
+    % [_ ViolaVoiceI measure 3]                          %! SM4
     a'2..
     \repeatTie
     
     a'8
     -\accent                                             %! IC
     
-    % [_ ViolaVoiceI measure 4 / measure 4]              %! SM4
+    % [_ ViolaVoiceI measure 4]                          %! SM4
     a'2.
     \repeatTie
     
-    % [_ ViolaVoiceI measure 5 / measure 5]              %! SM4
+    % [_ ViolaVoiceI measure 5]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     af'!2.
@@ -1213,7 +1213,7 @@ i_ViolaVoiceI_a = {
     \stopTrillSpan                                       %! SC
     \startTrillSpan a'                                   %! SC
     
-    % [_ ViolaVoiceI measure 6 / measure 6]              %! SM4
+    % [_ ViolaVoiceI measure 6]                          %! SM4
     af'!2
     \repeatTie
     
@@ -1241,7 +1241,7 @@ i_ViolaStaffI = {
 
 i_ViolaVoiceIII_a = {
     
-    % [_ ViolaVoiceIII measure 1 / measure 1]            %! SM4
+    % [_ ViolaVoiceIII measure 1]                        %! SM4
     \set Staff.instrumentName =                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
     \markup {                                            %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         \hcenter-in                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
@@ -1323,19 +1323,19 @@ i_ViolaVoiceIII_a = {
                 }                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     
-    % [_ ViolaVoiceIII measure 2 / measure 2]            %! SM4
+    % [_ ViolaVoiceIII measure 2]                        %! SM4
     a'1
     -\accent                                             %! IC
     
-    % [_ ViolaVoiceIII measure 3 / measure 3]            %! SM4
+    % [_ ViolaVoiceIII measure 3]                        %! SM4
     a'1
     \repeatTie
     
-    % [_ ViolaVoiceIII measure 4 / measure 4]            %! SM4
+    % [_ ViolaVoiceIII measure 4]                        %! SM4
     a'2.
     -\accent                                             %! IC
     
-    % [_ ViolaVoiceIII measure 5 / measure 5]            %! SM4
+    % [_ ViolaVoiceIII measure 5]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     af'!2.
@@ -1343,7 +1343,7 @@ i_ViolaVoiceIII_a = {
     \stopTrillSpan                                       %! SC
     \startTrillSpan a'                                   %! SC
     
-    % [_ ViolaVoiceIII measure 6 / measure 6]            %! SM4
+    % [_ ViolaVoiceIII measure 6]                        %! SM4
     af'!2.
     \repeatTie
     
@@ -1368,7 +1368,7 @@ i_ViolaStaffII = {
 
 i_CelloVoiceI_a = {
     
-    % [_ CelloVoiceI measure 1 / measure 1]                  %! SM4
+    % [_ CelloVoiceI measure 1]                              %! SM4
     \set Staff.instrumentName =                              %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
     \markup {                                                %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
         \hcenter-in                                          %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
@@ -1430,7 +1430,7 @@ i_CelloVoiceI_a = {
         }                                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
-    % [_ CelloVoiceI measure 2 / measure 2]                  %! SM4
+    % [_ CelloVoiceI measure 2]                              %! SM4
     a'4.
     \repeatTie
     
@@ -1440,11 +1440,11 @@ i_CelloVoiceI_a = {
     a'2
     \repeatTie
     
-    % [_ CelloVoiceI measure 3 / measure 3]                  %! SM4
+    % [_ CelloVoiceI measure 3]                              %! SM4
     a'1
     \repeatTie
     
-    % [_ CelloVoiceI measure 4 / measure 4]                  %! SM4
+    % [_ CelloVoiceI measure 4]                              %! SM4
     a'2
     \repeatTie
     
@@ -1456,7 +1456,7 @@ i_CelloVoiceI_a = {
     -\accent                                                 %! IC
     ]
     
-    % [_ CelloVoiceI measure 5 / measure 5]                  %! SM4
+    % [_ CelloVoiceI measure 5]                              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                            %! SC
     af'!2.
@@ -1464,7 +1464,7 @@ i_CelloVoiceI_a = {
     \stopTrillSpan                                           %! SC
     \startTrillSpan a'                                       %! SC
     
-    % [_ CelloVoiceI measure 6 / measure 6]                  %! SM4
+    % [_ CelloVoiceI measure 6]                              %! SM4
     af'!1
     \repeatTie
     \stopTrillSpan                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
