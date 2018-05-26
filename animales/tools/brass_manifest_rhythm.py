@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def brass_manifest_rhythm(part, left_broken=False, right_broken=False):

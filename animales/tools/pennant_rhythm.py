@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def pennant_rhythm(extra_counts=None, silences=None):
@@ -9,7 +9,7 @@ def pennant_rhythm(extra_counts=None, silences=None):
     """
     if silences is not None:
         assert isinstance(silences, list), repr(silences)
-        mask = abjad.silence(silences)
+        mask = rmakers.silence(silences)
         division_masks = [mask]
     else:
         division_masks = None

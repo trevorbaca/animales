@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def downbeat_attack(count=1, denominator=8):
@@ -160,10 +160,10 @@ def downbeat_attack(count=1, denominator=8):
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         division_masks=[
-            abjad.silence([0], inverted=True),
+            rmakers.silence([0], inverted=True),
             ],
         logical_tie_masks=[
-            abjad.silence([0], inverted=True),
+            rmakers.silence([0], inverted=True),
             ],
         talea=rmakers.Talea(
             counts=[count],
