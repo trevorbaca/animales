@@ -1,7 +1,7 @@
 import abjad
 import baca
 from typing import List
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def harp_exchange_rhythm(
@@ -72,7 +72,7 @@ def harp_exchange_rhythm(
     if this_part == 0:
         logical_tie_masks = None
     elif not no_logical_tie_masks:
-        logical_tie_masks = [abjad.silence([0])]
+        logical_tie_masks = [rmakers.silence([0])]
     else:
         logical_tie_masks = None
 
