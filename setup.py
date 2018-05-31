@@ -25,6 +25,6 @@ if __name__ == '__main__':
         keywords=keywords,
         name='Animales desconocidos',
         packages=['animales'],
-        paltforms='Any',
+        platforms='Any',
         url='https://github.com/trevorbaca/animales',
         )
