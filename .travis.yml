@@ -4,7 +4,7 @@ language: python
 
 python:
     - 3.6
-    - "3.7-dewv"
+    - "3.7-dev"
 
 before_install:
     # alias package
