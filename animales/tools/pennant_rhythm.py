@@ -22,6 +22,7 @@ def pennant_rhythm(extra_counts=None, silences=None):
             denominator=16,
             ),
         tuplet_specifier=rmakers.TupletSpecifier(
+            diminution=True,
             extract_trivial=True,
             trivialize=True,
             ),

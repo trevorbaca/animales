@@ -61,6 +61,7 @@ def clb_rhythm(section, member, counts, wrap):
         extra_counts_per_division=extra_counts_per_division,
         talea=talea,
         tuplet_specifier=rmakers.TupletSpecifier(
+            diminution=True,
             extract_trivial=True,
             rewrite_rest_filled=True,
             trivialize=True,
