@@ -212,7 +212,7 @@ maker(
     'cb3',
     animales.margin_markup(
         'Cb. (2-6)',
-        alert=baca.markup('(cb. 2-6)'),
+        alert=baca.markup.markup('(cb. 2-6)'),
         ),
     animales.parts('Contrabass', (2, 6)),
     baca.make_repeat_tied_notes(),
@@ -240,8 +240,8 @@ maker(
         baca.pitch('Bb1', selector=baca.leaves()[1:]),
         baca.repeat_tie_to(selector=baca.leaf(1)),
         baca.markup.edition(
-            baca.markup(warning, selector=baca.leaf(0), direction=abjad.Down),
-            baca.markup(warning, selector=baca.leaf(0), direction=abjad.Up),
+            baca.markup.markup(warning, selector=baca.leaf(0), direction=abjad.Down),
+            baca.markup.markup(warning, selector=baca.leaf(0), direction=abjad.Up),
             selector=baca.leaf(1),
             ),
         ),
@@ -257,13 +257,13 @@ upper_strings = [
 maker(
     (upper_strings, 1),
     baca.dynamic('pp'),
-    baca.only_parts(baca.markup('still (non vibrato)')),
+    baca.only_parts(baca.markup.markup('still (non vibrato)')),
     )
 
 maker(
     ('cb3', 1),
     baca.dynamic('p'),
-    baca.only_parts(baca.markup('still (non vibrato)')),
+    baca.only_parts(baca.markup.markup('still (non vibrato)')),
     )
 
 # contrabass solo
@@ -286,7 +286,7 @@ maker(
     baca.clef('treble'),
     baca.dynamic('mf'),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markup('8th partial / D (harmonics at sounding pitch)'),
+    baca.markup.markup('8th partial / D (harmonics at sounding pitch)'),
     baca.markup.pizz(),
     baca.note_head_style_harmonic(),
     baca.pitch('D5', do_not_transpose=True),
