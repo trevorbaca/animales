@@ -73,7 +73,7 @@ maker(
 
 maker(
     ('ob1', (1, 6)),
-    baca.swell('f', [3, 5]),
+    baca.hairpin_swell('f', [3, 5]),
     )
 
 # english horn
@@ -91,7 +91,7 @@ maker(
 
 maker(
     ('eh1', (1, 6)),
-    baca.swell('f', [3, 5]),
+    baca.hairpin_swell('f', [3, 5]),
     )
 
 # bassoons
@@ -116,7 +116,7 @@ maker(
 
 maker(
     ('bsn1', (1, 6)),
-    baca.only_parts(baca.swell('f', [3, 5])),
+    baca.only_parts(baca.hairpin_swell('f', [3, 5])),
     )
 
 maker(
@@ -127,7 +127,7 @@ maker(
 
 maker(
     ('bsn2', (1, 6)),
-    baca.swell('f', [3, 5]),
+    baca.hairpin_swell('f', [3, 5]),
     )
 
 # strings
