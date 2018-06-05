@@ -213,9 +213,9 @@ def tremolo(peak='f'):
     return baca.suite(
         baca.hairpin_swell(peak, [3, 2]),
         baca.transition(
-            baca.markup('tasto'),
-            baca.markup('ext. pont.'),
-            baca.markup('tasto'),
+            baca.markups.tasto(),
+            baca.markups.ext_pont(),
+            baca.markups.tasto(),
             pieces=baca.leaves().enchain([3, 2]),
             selector=baca.leaves(),
             ),
