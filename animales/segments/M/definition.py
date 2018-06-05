@@ -341,6 +341,6 @@ maker(
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(1),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markups.markup('as bell-like as possible (at sounding pitch)'),
+    baca.markup('as bell-like as possible (at sounding pitch)'),
     baca.pitch('Bb4', do_not_transpose=True),
     )
