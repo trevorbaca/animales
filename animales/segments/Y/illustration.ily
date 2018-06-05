@@ -5722,9 +5722,7 @@ Y_ContrabassVoiceIII_a = {
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                        %! IC
                     {                                        %! IC
-                        \whiteout                            %! IC
-                            \upright                         %! IC
-                                arco                         %! IC
+                        arco                                 %! IC
                     }                                        %! IC
             }
         }

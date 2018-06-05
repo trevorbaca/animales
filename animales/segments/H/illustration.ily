@@ -375,17 +375,15 @@ H_ClarinetVoiceI_a = {
 %%% \once \override MultiMeasureRestText.extra-offset = #'(-6 . 0) %! OC1:+SCORE
     R1 * 3/4
     ^ \markup {                                              %! IC
-        \whiteout                                            %! IC
-            \upright                                         %! IC
-                \override                                    %! IC
-                    #'(box-padding . 0.5)                    %! IC
-                    \box                                     %! IC
-                        \column                              %! IC
-                            {                                %! IC
-                                "choke sound suddenly:"      %! IC
-                                "touch tongue to reed"       %! IC
-                                "exactly on downbeat"        %! IC
-                            }                                %! IC
+        \override                                            %! IC
+            #'(box-padding . 0.5)                            %! IC
+            \box                                             %! IC
+                \column                                      %! IC
+                    {                                        %! IC
+                        "choke sound suddenly:"              %! IC
+                        "touch tongue to reed"               %! IC
+                        "exactly on downbeat"                %! IC
+                    }                                        %! IC
         }                                                    %! IC
     
     % [H ClarinetVoiceI measure 54 / measure 5]              %! SM4
@@ -1006,30 +1004,26 @@ H_FirstViolinVoiceI_a = {
             {
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
-            %%%         \whiteout                            %! IC:+PARTS
-            %%%             \upright                         %! IC:+PARTS
-            %%%                 \override                    %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5)    %! IC:+PARTS
-            %%%                     \box                     %! IC:+PARTS
-            %%%                         \column              %! IC:+PARTS
-            %%%                             {                %! IC:+PARTS
-            %%%                                 "suddenly ripped off;" %! IC:+PARTS
-            %%%                                 "las. vib. poss." %! IC:+PARTS
-            %%%                             }                %! IC:+PARTS
+            %%%         \override                            %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)            %! IC:+PARTS
+            %%%             \box                             %! IC:+PARTS
+            %%%                 \column                      %! IC:+PARTS
+            %%%                     {                        %! IC:+PARTS
+            %%%                         "suddenly ripped off;" %! IC:+PARTS
+            %%%                         "las. vib. poss."    %! IC:+PARTS
+            %%%                     }                        %! IC:+PARTS
             %%%     }                                        %! IC:+PARTS
                 \line                                        %! IC:-PARTS
                     {                                        %! IC:-PARTS
-                        \whiteout                            %! IC:-PARTS
-                            \upright                         %! IC:-PARTS
-                                \override                    %! IC:-PARTS
-                                    #'(box-padding . 0.5)    %! IC:-PARTS
-                                    \box                     %! IC:-PARTS
-                                        \column              %! IC:-PARTS
-                                            {                %! IC:-PARTS
-                                                strings:     %! IC:-PARTS
-                                                "suddenly ripped off;" %! IC:-PARTS
-                                                "las. vib. poss." %! IC:-PARTS
-                                            }                %! IC:-PARTS
+                        \override                            %! IC:-PARTS
+                            #'(box-padding . 0.5)            %! IC:-PARTS
+                            \box                             %! IC:-PARTS
+                                \column                      %! IC:-PARTS
+                                    {                        %! IC:-PARTS
+                                        strings:             %! IC:-PARTS
+                                        "suddenly ripped off;" %! IC:-PARTS
+                                        "las. vib. poss."    %! IC:-PARTS
+                                    }                        %! IC:-PARTS
                     }                                        %! IC:-PARTS
             }
         }
@@ -1124,16 +1118,14 @@ H_SecondViolinVoiceI_a = {
     R1 * 3/4
     \stopTrillSpan                                           %! SC
 %%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \override                                    %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                    %! IC:+PARTS
-%%%                 \box                                     %! IC:+PARTS
-%%%                     \column                              %! IC:+PARTS
-%%%                         {                                %! IC:+PARTS
-%%%                             "suddenly ripped off;"       %! IC:+PARTS
-%%%                             "las. vib. poss."            %! IC:+PARTS
-%%%                         }                                %! IC:+PARTS
+%%%     \override                                            %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                            %! IC:+PARTS
+%%%         \box                                             %! IC:+PARTS
+%%%             \column                                      %! IC:+PARTS
+%%%                 {                                        %! IC:+PARTS
+%%%                     "suddenly ripped off;"               %! IC:+PARTS
+%%%                     "las. vib. poss."                    %! IC:+PARTS
+%%%                 }                                        %! IC:+PARTS
 %%%     }                                                    %! IC:+PARTS
     
     % [H SecondViolinVoiceI measure 54 / measure 5]          %! SM4
@@ -1226,16 +1218,14 @@ H_ViolaVoiceI_a = {
     R1 * 3/4
     \stopTrillSpan                                           %! SC
 %%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \override                                    %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                    %! IC:+PARTS
-%%%                 \box                                     %! IC:+PARTS
-%%%                     \column                              %! IC:+PARTS
-%%%                         {                                %! IC:+PARTS
-%%%                             "suddenly ripped off;"       %! IC:+PARTS
-%%%                             "las. vib. poss."            %! IC:+PARTS
-%%%                         }                                %! IC:+PARTS
+%%%     \override                                            %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                            %! IC:+PARTS
+%%%         \box                                             %! IC:+PARTS
+%%%             \column                                      %! IC:+PARTS
+%%%                 {                                        %! IC:+PARTS
+%%%                     "suddenly ripped off;"               %! IC:+PARTS
+%%%                     "las. vib. poss."                    %! IC:+PARTS
+%%%                 }                                        %! IC:+PARTS
 %%%     }                                                    %! IC:+PARTS
     
     % [H ViolaVoiceI measure 54 / measure 5]                 %! SM4
@@ -1328,16 +1318,14 @@ H_CelloVoiceI_a = {
     R1 * 3/4
     \stopTrillSpan                                           %! SC
 %%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \override                                    %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                    %! IC:+PARTS
-%%%                 \box                                     %! IC:+PARTS
-%%%                     \column                              %! IC:+PARTS
-%%%                         {                                %! IC:+PARTS
-%%%                             "suddenly ripped off;"       %! IC:+PARTS
-%%%                             "las. vib. poss."            %! IC:+PARTS
-%%%                         }                                %! IC:+PARTS
+%%%     \override                                            %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                            %! IC:+PARTS
+%%%         \box                                             %! IC:+PARTS
+%%%             \column                                      %! IC:+PARTS
+%%%                 {                                        %! IC:+PARTS
+%%%                     "suddenly ripped off;"               %! IC:+PARTS
+%%%                     "las. vib. poss."                    %! IC:+PARTS
+%%%                 }                                        %! IC:+PARTS
 %%%     }                                                    %! IC:+PARTS
     
     % [H CelloVoiceI measure 54 / measure 5]                 %! SM4
@@ -1438,11 +1426,7 @@ H_ContrabassVoiceI_a = {
         \override NoteHead.style = #'harmonic            %! OC1
         cqf''!8
         -\laissezVibrer                                  %! IC
-        ^ \markup {                                      %! IC
-            \whiteout                                    %! IC
-                \upright                                 %! IC
-                    "7th partial / D (sounds slightly flat)" %! IC
-            }                                            %! IC
+        ^ \markup { "7th partial / D (sounds slightly flat)" } %! IC
         
         r4
     }
@@ -1568,16 +1552,14 @@ H_ContrabassVoiceIII_a = {
     % [H ContrabassVoiceIII measure 53 / measure 4]      %! SM4
     R1 * 3/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     \column                          %! IC:+PARTS
-%%%                         {                            %! IC:+PARTS
-%%%                             "suddenly ripped off;"   %! IC:+PARTS
-%%%                             "las. vib. poss."        %! IC:+PARTS
-%%%                         }                            %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "suddenly ripped off;"           %! IC:+PARTS
+%%%                     "las. vib. poss."                %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
     % [H ContrabassVoiceIII measure 54 / measure 5]      %! SM4

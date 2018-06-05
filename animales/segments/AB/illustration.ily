@@ -315,10 +315,8 @@ AB_PercussionVoiceI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
+%%%     \musicglyph                                          %! IC:+PARTS
+%%%         #"scripts.ufermata"                              %! IC:+PARTS
 %%%     }                                                    %! IC:+PARTS
     
 }
@@ -427,10 +425,8 @@ AB_FirstViolinVoiceI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -474,10 +470,8 @@ AB_FirstViolinVoiceII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -592,10 +586,8 @@ AB_FirstViolinVoiceIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -643,10 +635,8 @@ AB_FirstViolinVoiceIV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -755,10 +745,8 @@ AB_FirstViolinVoiceV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -806,10 +794,8 @@ AB_FirstViolinVoiceVI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -900,10 +886,8 @@ AB_FirstViolinVoiceVII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -956,10 +940,8 @@ AB_FirstViolinVoiceVIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -1044,10 +1026,8 @@ AB_FirstViolinVoiceIX_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -1104,10 +1084,8 @@ AB_FirstViolinVoiceX_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -1202,10 +1180,8 @@ AB_FirstViolinVoiceXI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -1256,10 +1232,8 @@ AB_FirstViolinVoiceXII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -1356,10 +1330,8 @@ AB_FirstViolinVoiceXIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -1408,10 +1380,8 @@ AB_FirstViolinVoiceXIV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -1508,10 +1478,8 @@ AB_FirstViolinVoiceXV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -1568,10 +1536,8 @@ AB_FirstViolinVoiceXVI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -1660,10 +1626,8 @@ AB_FirstViolinVoiceXVII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -1716,10 +1680,8 @@ AB_FirstViolinVoiceXVIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -1824,10 +1786,8 @@ AB_SecondViolinVoiceI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -1879,10 +1839,8 @@ AB_SecondViolinVoiceII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -1991,10 +1949,8 @@ AB_SecondViolinVoiceIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -2048,10 +2004,8 @@ AB_SecondViolinVoiceIV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -2144,10 +2098,8 @@ AB_SecondViolinVoiceV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -2194,10 +2146,8 @@ AB_SecondViolinVoiceVI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -2300,10 +2250,8 @@ AB_SecondViolinVoiceVII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -2354,10 +2302,8 @@ AB_SecondViolinVoiceVIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -2446,10 +2392,8 @@ AB_SecondViolinVoiceIX_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -2506,10 +2450,8 @@ AB_SecondViolinVoiceX_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -2596,10 +2538,8 @@ AB_SecondViolinVoiceXI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -2660,10 +2600,8 @@ AB_SecondViolinVoiceXII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -2754,10 +2692,8 @@ AB_SecondViolinVoiceXIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -2812,10 +2748,8 @@ AB_SecondViolinVoiceXIV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -2908,10 +2842,8 @@ AB_SecondViolinVoiceXV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -2962,10 +2894,8 @@ AB_SecondViolinVoiceXVI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -3058,10 +2988,8 @@ AB_SecondViolinVoiceXVII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -3106,10 +3034,8 @@ AB_SecondViolinVoiceXVIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -3220,10 +3146,8 @@ AB_ViolaVoiceI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -3275,10 +3199,8 @@ AB_ViolaVoiceII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -3383,10 +3305,8 @@ AB_ViolaVoiceIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -3440,10 +3360,8 @@ AB_ViolaVoiceIV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -3532,10 +3450,8 @@ AB_ViolaVoiceV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -3592,10 +3508,8 @@ AB_ViolaVoiceVI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -3692,10 +3606,8 @@ AB_ViolaVoiceVII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -3744,10 +3656,8 @@ AB_ViolaVoiceVIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -3840,10 +3750,8 @@ AB_ViolaVoiceIX_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -3894,10 +3802,8 @@ AB_ViolaVoiceX_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -3992,10 +3898,8 @@ AB_ViolaVoiceXI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -4050,10 +3954,8 @@ AB_ViolaVoiceXII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -4150,10 +4052,8 @@ AB_ViolaVoiceXIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -4206,10 +4106,8 @@ AB_ViolaVoiceXIV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -4296,10 +4194,8 @@ AB_ViolaVoiceXV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -4362,10 +4258,8 @@ AB_ViolaVoiceXVI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -4456,10 +4350,8 @@ AB_ViolaVoiceXVII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -4508,10 +4400,8 @@ AB_ViolaVoiceXVIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -4622,10 +4512,8 @@ AB_CelloVoiceI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -4669,10 +4557,8 @@ AB_CelloVoiceII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -4773,10 +4659,8 @@ AB_CelloVoiceIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -4827,10 +4711,8 @@ AB_CelloVoiceIV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -4925,10 +4807,8 @@ AB_CelloVoiceV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -4981,10 +4861,8 @@ AB_CelloVoiceVI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -5075,10 +4953,8 @@ AB_CelloVoiceVII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -5131,10 +5007,8 @@ AB_CelloVoiceVIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -5219,10 +5093,8 @@ AB_CelloVoiceIX_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -5279,10 +5151,8 @@ AB_CelloVoiceX_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -5377,10 +5247,8 @@ AB_CelloVoiceXI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -5431,10 +5299,8 @@ AB_CelloVoiceXII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -5531,10 +5397,8 @@ AB_CelloVoiceXIII_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
@@ -5583,10 +5447,8 @@ AB_CelloVoiceXIV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f    %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \musicglyph                              %! IC:+PARTS
-%%%                 #"scripts.ufermata"                  %! IC:+PARTS
+%%%     \musicglyph                                      %! IC:+PARTS
+%%%         #"scripts.ufermata"                          %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
 }
