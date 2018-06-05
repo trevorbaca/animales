@@ -147,7 +147,7 @@ maker(
     baca.pitch('C#2'),
     baca.repeat_tie_to(),
     baca.transition(
-        baca.markups.ord().upright(),
-        baca.markups.ext_pont().upright(),
+        baca.markups.ord(),
+        baca.markups.ext_pont(),
         ),
     )
