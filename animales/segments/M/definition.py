@@ -148,7 +148,7 @@ maker(
 
 maker(
     ('cl1', 4),
-    baca.markup.boxed('choke sound suddenly'),
+    baca.markups.boxed('choke sound suddenly'),
     )
 
 # bass clarinet
@@ -255,7 +255,7 @@ maker(
     animales.glissando_rhythm(rotate=-2),
     baca.hairpin('p < ff', selector=baca.notes().group_by_measure()[0].rleak()),
     baca.hairpin('ff > p', selector=baca.notes().group_by_measure()[-1].lleak()),
-    baca.markup.edition('solo (first violin)', 'solo'),
+    baca.markups.edition('solo (first violin)', 'solo'),
     baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
@@ -314,12 +314,12 @@ strings = ['suddenly ripped off;', 'las. vib. possibile']
 
 maker(
     ('1vn1', 4),
-    baca.markup.boxed_lines(strings)
+    baca.markups.boxed_lines(strings)
     )
 
 maker(
     (most_strings, 4),
-    baca.only_parts(baca.markup.boxed_lines(strings)),
+    baca.only_parts(baca.markups.boxed_lines(strings)),
     )
 
 maker(
@@ -341,6 +341,6 @@ maker(
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(1),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markup.markup('as bell-like as possible (at sounding pitch)'),
+    baca.markups.markup('as bell-like as possible (at sounding pitch)'),
     baca.pitch('Bb4', do_not_transpose=True),
     )
