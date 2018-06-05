@@ -107,14 +107,14 @@ maker(
 
 maker(
     ('perc1', (3, 6)),
-    baca.markups.boxed('triangle (small beater)'),
+    baca.markups.markup('triangle (small beater)').boxed(),
     )
 
 maker(
     ('perc2', (3, 6)),
-    baca.markups.boxed(
+    baca.markups.markup(
         'suspended cymbal (soft yarn mallets: attackless sound)',
-        ),
+        ).boxed(),
     )
 
 maker(
@@ -251,10 +251,10 @@ maker(
     ('1vn1', (3, 6)),
     animales.parts('FirstViolin', (2, 10)),
     baca.not_parts(
-        baca.markups.boxed_lines(
-            ['all other strings:', 'still (non vibrato)'],
+        baca.markup(
+            baca.markups.lines(['all other strings:', 'still (non vibrato)']).boxed(),
             direction=abjad.Down,
-            )
+            ),
         ),
     )
 

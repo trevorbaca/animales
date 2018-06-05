@@ -69,10 +69,14 @@ def constellations(
             else:
                 polyphony = upper_voice()
             if first:
-                command = baca.markups.boxed_lines([
+                markup = baca.markups.lines([
                     'col legno battuti: damp G string with LH; then',
                     'tap G string with wood of bow in rhythm indicated.',
-                    ])
+                    ]).boxed()
+                command = baca.markup(
+                    markup,
+                    selector=baca.leaf(0),
+                    )
                 command = baca.only_parts(command)
                 commands.append(command)
                 command = baca.only_parts(baca.bar_extent_persistent((-2, 2)))
