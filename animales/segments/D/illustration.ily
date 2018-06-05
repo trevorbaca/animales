@@ -331,15 +331,11 @@ D_ClarinetVoiceI_a = {
                     }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                        %! IC:-PARTS
                     {                                        %! IC:-PARTS
-                        \whiteout                            %! IC:-PARTS
-                            \upright                         %! IC:-PARTS
-                                "solo (cl. 2)"               %! IC:-PARTS
+                        "solo (cl. 2)"                       %! IC:-PARTS
                     }                                        %! IC:-PARTS
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
-            %%%         \whiteout                            %! IC:+PARTS
-            %%%             \upright                         %! IC:+PARTS
-            %%%                 solo                         %! IC:+PARTS
+            %%%         solo                                 %! IC:+PARTS
             %%%     }                                        %! IC:+PARTS
                 \line                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES

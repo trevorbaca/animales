@@ -2654,21 +2654,17 @@ P_FirstViolinVoiceI_a = {
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                    %! IC:-PARTS
                     {                                    %! IC:-PARTS
-                        \whiteout                        %! IC:-PARTS
-                            \upright                     %! IC:-PARTS
-                                \override                %! IC:-PARTS
-                                    #'(box-padding . 0.5) %! IC:-PARTS
-                                    \box                 %! IC:-PARTS
-                                        "tutti: sim."    %! IC:-PARTS
+                        \override                        %! IC:-PARTS
+                            #'(box-padding . 0.5)        %! IC:-PARTS
+                            \box                         %! IC:-PARTS
+                                "tutti: sim."            %! IC:-PARTS
                     }                                    %! IC:-PARTS
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -2810,12 +2806,10 @@ P_FirstViolinVoiceII_a = {
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                             %! IC
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             "ext. ponticello: like acid"             %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
     % [P FirstViolinVoiceII measure 110 / measure 2]     %! SM4
@@ -2982,12 +2976,10 @@ P_FirstViolinVoiceIII_a = {
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -3129,12 +3121,10 @@ P_FirstViolinVoiceIV_a = {
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                             %! IC
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             "ext. ponticello: like acid"             %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
     % [P FirstViolinVoiceIV measure 110 / measure 2]     %! SM4
@@ -3434,12 +3424,10 @@ P_SecondViolinVoiceI_a = {
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -3582,12 +3570,10 @@ P_SecondViolinVoiceII_a = {
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                             %! IC
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             "ext. ponticello: like acid"             %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
     % [P SecondViolinVoiceII measure 110 / measure 2]    %! SM4
@@ -3754,12 +3740,10 @@ P_SecondViolinVoiceIII_a = {
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -3901,12 +3885,10 @@ P_SecondViolinVoiceIV_a = {
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                             %! IC
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             "ext. ponticello: like acid"             %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
     % [P SecondViolinVoiceIV measure 110 / measure 2]    %! SM4
@@ -4073,12 +4055,10 @@ P_ViolaVoiceI_a = {
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -4220,12 +4200,10 @@ P_ViolaVoiceII_a = {
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                             %! IC
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             "ext. ponticello: like acid"             %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
     % [P ViolaVoiceII measure 110 / measure 2]           %! SM4
@@ -4392,12 +4370,10 @@ P_ViolaVoiceIII_a = {
                     }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -4539,12 +4515,10 @@ P_ViolaVoiceIV_a = {
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                             %! IC
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             "ext. ponticello: like acid"             %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
     % [P ViolaVoiceIV measure 110 / measure 2]           %! SM4
@@ -4712,12 +4686,10 @@ P_CelloVoiceI_a = {
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
-            %%%         \whiteout                            %! IC:+PARTS
-            %%%             \upright                         %! IC:+PARTS
-            %%%                 \override                    %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5)    %! IC:+PARTS
-            %%%                     \box                     %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                            %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)            %! IC:+PARTS
+            %%%             \box                             %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                        %! IC:+PARTS
             }
         }
@@ -4860,12 +4832,10 @@ P_CelloVoiceII_a = {
     \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                                 %! IC
 %%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \override                                    %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                    %! IC:+PARTS
-%%%                 \box                                     %! IC:+PARTS
-%%%                     "ext. ponticello: like acid"         %! IC:+PARTS
+%%%     \override                                            %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                            %! IC:+PARTS
+%%%         \box                                             %! IC:+PARTS
+%%%             "ext. ponticello: like acid"                 %! IC:+PARTS
 %%%     }                                                    %! IC:+PARTS
     
     % [P CelloVoiceII measure 110 / measure 2]               %! SM4
@@ -5016,12 +4986,10 @@ P_ContrabassVoiceIII_a = {
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
-            %%%         \whiteout                            %! IC:+PARTS
-            %%%             \upright                         %! IC:+PARTS
-            %%%                 \override                    %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5)    %! IC:+PARTS
-            %%%                     \box                     %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                            %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)            %! IC:+PARTS
+            %%%             \box                             %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                        %! IC:+PARTS
             }
         }

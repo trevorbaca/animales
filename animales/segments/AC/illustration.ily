@@ -488,12 +488,10 @@ AC_PianoVoiceI_a = {
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                        %! IC
                     {                                        %! IC
-                        \whiteout                            %! IC
-                            \upright                         %! IC
-                                \override                    %! IC
-                                    #'(box-padding . 0.5)    %! IC
-                                    \box                     %! IC
-                                        "harmonic: touch lowest string of piano 1 cm from hammers" %! IC
+                        \override                            %! IC
+                            #'(box-padding . 0.5)            %! IC
+                            \box                             %! IC
+                                "harmonic: touch lowest string of piano 1 cm from hammers" %! IC
                     }                                        %! IC
             }
         }
@@ -551,10 +549,8 @@ AC_PianoVoiceI_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
+%%%     \musicglyph                                          %! IC:+PARTS
+%%%         #"scripts.ufermata"                              %! IC:+PARTS
 %%%     }                                                    %! IC:+PARTS
     
 }
@@ -620,16 +616,14 @@ AC_PercussionVoiceIV_a = {
                     }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                        %! IC
                     {                                        %! IC
-                        \whiteout                            %! IC
-                            \upright                         %! IC
-                                \override                    %! IC
-                                    #'(box-padding . 0.5)    %! IC
-                                    \box                     %! IC
-                                        \column              %! IC
-                                            {                %! IC
-                                                "stonecircle: scrape slate slowly in circle;" %! IC
-                                                "one quarter diameter of circle every quarter note" %! IC
-                                            }                %! IC
+                        \override                            %! IC
+                            #'(box-padding . 0.5)            %! IC
+                            \box                             %! IC
+                                \column                      %! IC
+                                    {                        %! IC
+                                        "stonecircle: scrape slate slowly in circle;" %! IC
+                                        "one quarter diameter of circle every quarter note" %! IC
+                                    }                        %! IC
                     }                                        %! IC
                 \line                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -760,10 +754,8 @@ AC_PercussionVoiceIV_a = {
 %%% \once \override Score.TimeSignature.stencil = ##f        %! IC:+PARTS
     R1 * 1/4
 %%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \musicglyph                                  %! IC:+PARTS
-%%%                 #"scripts.ufermata"                      %! IC:+PARTS
+%%%     \musicglyph                                          %! IC:+PARTS
+%%%         #"scripts.ufermata"                              %! IC:+PARTS
 %%%     }                                                    %! IC:+PARTS
     
 }

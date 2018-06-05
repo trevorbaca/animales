@@ -422,15 +422,11 @@ F_ClarinetVoiceI_a = {
                     }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                        %! IC:-PARTS
                     {                                        %! IC:-PARTS
-                        \whiteout                            %! IC:-PARTS
-                            \upright                         %! IC:-PARTS
-                                "solo (cl. 1)"               %! IC:-PARTS
+                        "solo (cl. 1)"                       %! IC:-PARTS
                     }                                        %! IC:-PARTS
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
-            %%%         \whiteout                            %! IC:+PARTS
-            %%%             \upright                         %! IC:+PARTS
-            %%%                 solo                         %! IC:+PARTS
+            %%%         solo                                 %! IC:+PARTS
             %%%     }                                        %! IC:+PARTS
                 \line                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -512,15 +508,11 @@ F_ClarinetVoiceI_b = {
             {
                 \line                                        %! IC:-PARTS
                     {                                        %! IC:-PARTS
-                        \whiteout                            %! IC:-PARTS
-                            \upright                         %! IC:-PARTS
-                                "solo (cl. 2)"               %! IC:-PARTS
+                        "solo (cl. 2)"                       %! IC:-PARTS
                     }                                        %! IC:-PARTS
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
-            %%%         \whiteout                            %! IC:+PARTS
-            %%%             \upright                         %! IC:+PARTS
-            %%%                 solo                         %! IC:+PARTS
+            %%%         solo                                 %! IC:+PARTS
             %%%     }                                        %! IC:+PARTS
                 \line                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -647,12 +639,10 @@ F_PianoVoiceI_a = {
         -\laissezVibrer                                      %! IC
         -\stopped                                            %! IC
         ^ \markup {                                          %! IC
-            \whiteout                                        %! IC
-                \upright                                     %! IC
-                    \override                                %! IC
-                        #'(box-padding . 0.5)                %! IC
-                        \box                                 %! IC
-                            "mute with LH inside piano: dull thud" %! IC
+            \override                                        %! IC
+                #'(box-padding . 0.5)                        %! IC
+                \box                                         %! IC
+                    "mute with LH inside piano: dull thud"   %! IC
             }                                                %! IC
         
         r8
@@ -775,25 +765,21 @@ F_HarpVoiceI_a = {
                 {
                     \line                                    %! IC:-PARTS
                         {                                    %! IC:-PARTS
-                            \whiteout                        %! IC:-PARTS
-                                \upright                     %! IC:-PARTS
-                                    \override                %! IC:-PARTS
-                                        #'(box-padding . 0.5) %! IC:-PARTS
-                                        \box                 %! IC:-PARTS
-                                            "LH-damped près de la table" %! IC:-PARTS
+                            \override                        %! IC:-PARTS
+                                #'(box-padding . 0.5)        %! IC:-PARTS
+                                \box                         %! IC:-PARTS
+                                    "LH-damped près de la table" %! IC:-PARTS
                         }                                    %! IC:-PARTS
                 %%% \line                                    %! IC:+PARTS
                 %%%     {                                    %! IC:+PARTS
-                %%%         \whiteout                        %! IC:+PARTS
-                %%%             \upright                     %! IC:+PARTS
-                %%%                 \override                %! IC:+PARTS
-                %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-                %%%                     \box                 %! IC:+PARTS
-                %%%                         \column          %! IC:+PARTS
-                %%%                             {            %! IC:+PARTS
-                %%%                                 "LH-damped près de la table:" %! IC:+PARTS
-                %%%                                 "LH damps at soundboard; RH plucks string at usual position" %! IC:+PARTS
-                %%%                             }            %! IC:+PARTS
+                %%%         \override                        %! IC:+PARTS
+                %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+                %%%             \box                         %! IC:+PARTS
+                %%%                 \column                  %! IC:+PARTS
+                %%%                     {                    %! IC:+PARTS
+                %%%                         "LH-damped près de la table:" %! IC:+PARTS
+                %%%                         "LH damps at soundboard; RH plucks string at usual position" %! IC:+PARTS
+                %%%                     }                    %! IC:+PARTS
                 %%%     }                                    %! IC:+PARTS
                 }
             }
@@ -1130,12 +1116,10 @@ F_PercussionVoiceIII_a = {
                 {
                     \line                                    %! IC
                         {                                    %! IC
-                            \whiteout                        %! IC
-                                \upright                     %! IC
-                                    \override                %! IC
-                                        #'(box-padding . 0.5) %! IC
-                                        \box                 %! IC
-                                            vibraphone       %! IC
+                            \override                        %! IC
+                                #'(box-padding . 0.5)        %! IC
+                                \box                         %! IC
+                                    vibraphone               %! IC
                         }                                    %! IC
                     \line                                    %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
                         {                                    %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
@@ -1270,18 +1254,14 @@ F_FirstViolinVoiceI_a = {
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                        %! IC:-PARTS
                     {                                        %! IC:-PARTS
-                        \whiteout                            %! IC:-PARTS
-                            \upright                         %! IC:-PARTS
-                                \override                    %! IC:-PARTS
-                                    #'(box-padding . 0.5)    %! IC:-PARTS
-                                    \box                     %! IC:-PARTS
-                                        "strings: still (non vib.)" %! IC:-PARTS
+                        \override                            %! IC:-PARTS
+                            #'(box-padding . 0.5)            %! IC:-PARTS
+                            \box                             %! IC:-PARTS
+                                "strings: still (non vib.)"  %! IC:-PARTS
                     }                                        %! IC:-PARTS
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
-            %%%         \whiteout                            %! IC:+PARTS
-            %%%             \upright                         %! IC:+PARTS
-            %%%                 "still (non vibrato)"        %! IC:+PARTS
+            %%%         "still (non vibrato)"                %! IC:+PARTS
             %%%     }                                        %! IC:+PARTS
             }
         }
@@ -1383,9 +1363,7 @@ F_SecondViolinVoiceI_a = {
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
-            %%%         \whiteout                            %! IC:+PARTS
-            %%%             \upright                         %! IC:+PARTS
-            %%%                 "still (non vibrato)"        %! IC:+PARTS
+            %%%         "still (non vibrato)"                %! IC:+PARTS
             %%%     }                                        %! IC:+PARTS
             }
         }
@@ -1486,9 +1464,7 @@ F_ViolaVoiceI_a = {
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
-            %%%         \whiteout                            %! IC:+PARTS
-            %%%             \upright                         %! IC:+PARTS
-            %%%                 "still (non vibrato)"        %! IC:+PARTS
+            %%%         "still (non vibrato)"                %! IC:+PARTS
             %%%     }                                        %! IC:+PARTS
             }
         }
@@ -1589,9 +1565,7 @@ F_CelloVoiceI_a = {
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
-            %%%         \whiteout                            %! IC:+PARTS
-            %%%             \upright                         %! IC:+PARTS
-            %%%                 "still (non vibrato)"        %! IC:+PARTS
+            %%%         "still (non vibrato)"                %! IC:+PARTS
             %%%     }                                        %! IC:+PARTS
             }
         }
@@ -1741,15 +1715,11 @@ F_ContrabassVoiceI_a = {
                 {
                     \line                                %! IC
                         {                                %! IC
-                            \whiteout                    %! IC
-                                \upright                 %! IC
-                                    "8th partial / D (harmonics at sounding pitch)" %! IC
+                            "8th partial / D (harmonics at sounding pitch)" %! IC
                         }                                %! IC
                     \line                                %! IC
                         {                                %! IC
-                            \whiteout                    %! IC
-                                \upright                 %! IC
-                                    pizz.                %! IC
+                            pizz.                        %! IC
                         }                                %! IC
                 }
             }
@@ -1851,15 +1821,11 @@ F_ContrabassVoiceIII_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                    %! IC:-PARTS:ANIMALES
                     {                                    %! IC:-PARTS:ANIMALES
-                        \whiteout                        %! IC:-PARTS:ANIMALES
-                            \upright                     %! IC:-PARTS:ANIMALES
-                                "(cb. 2-6)"              %! IC:-PARTS:ANIMALES
+                        "(cb. 2-6)"                      %! IC:-PARTS:ANIMALES
                     }                                    %! IC:-PARTS:ANIMALES
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 "still (non vibrato)"    %! IC:+PARTS
+            %%%         "still (non vibrato)"            %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -1896,64 +1862,60 @@ F_ContrabassVoiceIII_a = {
     bf,!1
     \repeatTie                                           %! TCC
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \scale                                   %! IC:+PARTS
-%%%                 #'(1.25 . 1.25)                      %! IC:+PARTS
-%%%                 \line                                %! IC:+PARTS
+%%%     \scale                                           %! IC:+PARTS
+%%%         #'(1.25 . 1.25)                              %! IC:+PARTS
+%%%         \line                                        %! IC:+PARTS
+%%%             {                                        %! IC:+PARTS
+%%%                 \concat                              %! IC:+PARTS
 %%%                     {                                %! IC:+PARTS
-%%%                         \concat                      %! IC:+PARTS
-%%%                             {                        %! IC:+PARTS
-%%%                                 (                    %! IC:+PARTS
-%%%                                 B                    %! IC:+PARTS
-%%%                                 \raise               %! IC:+PARTS
-%%%                                     #0.5             %! IC:+PARTS
-%%%                                     \scale           %! IC:+PARTS
-%%%                                         #'(0.65 . 0.65) %! IC:+PARTS
-%%%                                         \flat        %! IC:+PARTS
-%%%                             }                        %! IC:+PARTS
-%%%                         =                            %! IC:+PARTS
-%%%                         \concat                      %! IC:+PARTS
-%%%                             {                        %! IC:+PARTS
-%%%                                 A                    %! IC:+PARTS
-%%%                                 \raise               %! IC:+PARTS
-%%%                                     #0.8             %! IC:+PARTS
-%%%                                     \scale           %! IC:+PARTS
-%%%                                         #'(0.55 . 0.55) %! IC:+PARTS
-%%%                                         \sharp       %! IC:+PARTS
-%%%                                 )                    %! IC:+PARTS
-%%%                             }                        %! IC:+PARTS
+%%%                         (                            %! IC:+PARTS
+%%%                         B                            %! IC:+PARTS
+%%%                         \raise                       %! IC:+PARTS
+%%%                             #0.5                     %! IC:+PARTS
+%%%                             \scale                   %! IC:+PARTS
+%%%                                 #'(0.65 . 0.65)      %! IC:+PARTS
+%%%                                 \flat                %! IC:+PARTS
 %%%                     }                                %! IC:+PARTS
+%%%                 =                                    %! IC:+PARTS
+%%%                 \concat                              %! IC:+PARTS
+%%%                     {                                %! IC:+PARTS
+%%%                         A                            %! IC:+PARTS
+%%%                         \raise                       %! IC:+PARTS
+%%%                             #0.8                     %! IC:+PARTS
+%%%                             \scale                   %! IC:+PARTS
+%%%                                 #'(0.55 . 0.55)      %! IC:+PARTS
+%%%                                 \sharp               %! IC:+PARTS
+%%%                         )                            %! IC:+PARTS
+%%%                     }                                %! IC:+PARTS
+%%%             }                                        %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     _ \markup {                                          %! IC:-PARTS
-        \whiteout                                        %! IC:-PARTS
-            \upright                                     %! IC:-PARTS
-                \scale                                   %! IC:-PARTS
-                    #'(1.25 . 1.25)                      %! IC:-PARTS
-                    \line                                %! IC:-PARTS
+        \scale                                           %! IC:-PARTS
+            #'(1.25 . 1.25)                              %! IC:-PARTS
+            \line                                        %! IC:-PARTS
+                {                                        %! IC:-PARTS
+                    \concat                              %! IC:-PARTS
                         {                                %! IC:-PARTS
-                            \concat                      %! IC:-PARTS
-                                {                        %! IC:-PARTS
-                                    (                    %! IC:-PARTS
-                                    B                    %! IC:-PARTS
-                                    \raise               %! IC:-PARTS
-                                        #0.5             %! IC:-PARTS
-                                        \scale           %! IC:-PARTS
-                                            #'(0.65 . 0.65) %! IC:-PARTS
-                                            \flat        %! IC:-PARTS
-                                }                        %! IC:-PARTS
-                            =                            %! IC:-PARTS
-                            \concat                      %! IC:-PARTS
-                                {                        %! IC:-PARTS
-                                    A                    %! IC:-PARTS
-                                    \raise               %! IC:-PARTS
-                                        #0.8             %! IC:-PARTS
-                                        \scale           %! IC:-PARTS
-                                            #'(0.55 . 0.55) %! IC:-PARTS
-                                            \sharp       %! IC:-PARTS
-                                    )                    %! IC:-PARTS
-                                }                        %! IC:-PARTS
+                            (                            %! IC:-PARTS
+                            B                            %! IC:-PARTS
+                            \raise                       %! IC:-PARTS
+                                #0.5                     %! IC:-PARTS
+                                \scale                   %! IC:-PARTS
+                                    #'(0.65 . 0.65)      %! IC:-PARTS
+                                    \flat                %! IC:-PARTS
                         }                                %! IC:-PARTS
+                    =                                    %! IC:-PARTS
+                    \concat                              %! IC:-PARTS
+                        {                                %! IC:-PARTS
+                            A                            %! IC:-PARTS
+                            \raise                       %! IC:-PARTS
+                                #0.8                     %! IC:-PARTS
+                                \scale                   %! IC:-PARTS
+                                    #'(0.55 . 0.55)      %! IC:-PARTS
+                                    \sharp               %! IC:-PARTS
+                            )                            %! IC:-PARTS
+                        }                                %! IC:-PARTS
+                }                                        %! IC:-PARTS
         }                                                %! IC:-PARTS
     
     % [F ContrabassVoiceIII measure 38 / measure 3]      %! SM4

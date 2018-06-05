@@ -1302,16 +1302,14 @@ R_FirstViolinVoiceI_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -1379,16 +1377,14 @@ R_FirstViolinVoiceII_a = {
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     \column                          %! IC:+PARTS
-%%%                         {                            %! IC:+PARTS
-%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-%%%                         }                            %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -1465,16 +1461,14 @@ R_FirstViolinVoiceIII_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -1540,16 +1534,14 @@ R_FirstViolinVoiceIV_a = {
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     \column                          %! IC:+PARTS
-%%%                         {                            %! IC:+PARTS
-%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-%%%                         }                            %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -1626,16 +1618,14 @@ R_FirstViolinVoiceV_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -1699,16 +1689,14 @@ R_FirstViolinVoiceVI_a = {
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     \column                          %! IC:+PARTS
-%%%                         {                            %! IC:+PARTS
-%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-%%%                         }                            %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -1783,16 +1771,14 @@ R_FirstViolinVoiceVII_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -1866,16 +1852,14 @@ R_FirstViolinVoiceVIII_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -1946,16 +1930,14 @@ R_FirstViolinVoiceIX_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -2029,16 +2011,14 @@ R_FirstViolinVoiceX_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -2109,16 +2089,14 @@ R_FirstViolinVoiceXI_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -2192,16 +2170,14 @@ R_FirstViolinVoiceXII_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -2272,16 +2248,14 @@ R_FirstViolinVoiceXIII_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -2355,16 +2329,14 @@ R_FirstViolinVoiceXIV_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -2435,16 +2407,14 @@ R_FirstViolinVoiceXV_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -2518,16 +2488,14 @@ R_FirstViolinVoiceXVI_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -2598,16 +2566,14 @@ R_FirstViolinVoiceXVII_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -2681,16 +2647,14 @@ R_FirstViolinVoiceXVIII_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -2773,16 +2737,14 @@ R_SecondViolinVoiceI_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -2848,16 +2810,14 @@ R_SecondViolinVoiceII_a = {
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     \column                          %! IC:+PARTS
-%%%                         {                            %! IC:+PARTS
-%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-%%%                         }                            %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -2934,16 +2894,14 @@ R_SecondViolinVoiceIII_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -3019,16 +2977,14 @@ R_SecondViolinVoiceIV_a = {
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     \column                          %! IC:+PARTS
-%%%                         {                            %! IC:+PARTS
-%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-%%%                         }                            %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -3097,16 +3053,14 @@ R_SecondViolinVoiceV_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -3180,16 +3134,14 @@ R_SecondViolinVoiceVI_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -3262,16 +3214,14 @@ R_SecondViolinVoiceVII_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -3345,16 +3295,14 @@ R_SecondViolinVoiceVIII_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -3425,16 +3373,14 @@ R_SecondViolinVoiceIX_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -3508,16 +3454,14 @@ R_SecondViolinVoiceX_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -3588,16 +3532,14 @@ R_SecondViolinVoiceXI_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -3671,16 +3613,14 @@ R_SecondViolinVoiceXII_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -3763,16 +3703,14 @@ R_SecondViolinVoiceXIII_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -3846,16 +3784,14 @@ R_SecondViolinVoiceXIV_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -3926,16 +3862,14 @@ R_SecondViolinVoiceXV_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -4009,16 +3943,14 @@ R_SecondViolinVoiceXVI_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -4089,16 +4021,14 @@ R_SecondViolinVoiceXVII_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -4172,16 +4102,14 @@ R_SecondViolinVoiceXVIII_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -4260,16 +4188,14 @@ R_ViolaVoiceI_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -4335,16 +4261,14 @@ R_ViolaVoiceII_a = {
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     \column                          %! IC:+PARTS
-%%%                         {                            %! IC:+PARTS
-%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-%%%                         }                            %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -4421,16 +4345,14 @@ R_ViolaVoiceIII_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -4496,16 +4418,14 @@ R_ViolaVoiceIV_a = {
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     \column                          %! IC:+PARTS
-%%%                         {                            %! IC:+PARTS
-%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-%%%                         }                            %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -4574,16 +4494,14 @@ R_ViolaVoiceV_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -4657,16 +4575,14 @@ R_ViolaVoiceVI_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -4747,16 +4663,14 @@ R_ViolaVoiceVII_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -4830,16 +4744,14 @@ R_ViolaVoiceVIII_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -4910,16 +4822,14 @@ R_ViolaVoiceIX_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -4993,16 +4903,14 @@ R_ViolaVoiceX_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -5073,16 +4981,14 @@ R_ViolaVoiceXI_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -5156,16 +5062,14 @@ R_ViolaVoiceXII_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -5244,16 +5148,14 @@ R_ViolaVoiceXIII_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -5327,16 +5229,14 @@ R_ViolaVoiceXIV_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -5407,16 +5307,14 @@ R_ViolaVoiceXV_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -5496,16 +5394,14 @@ R_ViolaVoiceXVI_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -5576,16 +5472,14 @@ R_ViolaVoiceXVII_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -5659,16 +5553,14 @@ R_ViolaVoiceXVIII_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -5753,16 +5645,14 @@ R_CelloVoiceI_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -5828,16 +5718,14 @@ R_CelloVoiceII_a = {
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     \column                          %! IC:+PARTS
-%%%                         {                            %! IC:+PARTS
-%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-%%%                         }                            %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -5906,16 +5794,14 @@ R_CelloVoiceIII_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -5989,16 +5875,14 @@ R_CelloVoiceIV_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -6069,16 +5953,14 @@ R_CelloVoiceV_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -6154,16 +6036,14 @@ R_CelloVoiceVI_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -6234,16 +6114,14 @@ R_CelloVoiceVII_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -6317,16 +6195,14 @@ R_CelloVoiceVIII_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -6397,16 +6273,14 @@ R_CelloVoiceIX_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -6480,16 +6354,14 @@ R_CelloVoiceX_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -6560,16 +6432,14 @@ R_CelloVoiceXI_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -6647,16 +6517,14 @@ R_CelloVoiceXII_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -6727,16 +6595,14 @@ R_CelloVoiceXIII_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -6810,16 +6676,14 @@ R_CelloVoiceXIV_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -6898,16 +6762,14 @@ R_ContrabassVoiceI_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -6971,16 +6833,14 @@ R_ContrabassVoiceII_a = {
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     \column                          %! IC:+PARTS
-%%%                         {                            %! IC:+PARTS
-%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-%%%                         }                            %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -7057,16 +6917,14 @@ R_ContrabassVoiceIII_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -7130,16 +6988,14 @@ R_ContrabassVoiceIV_a = {
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     \column                          %! IC:+PARTS
-%%%                         {                            %! IC:+PARTS
-%%%                             "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-%%%                             "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-%%%                         }                            %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -7208,16 +7064,14 @@ R_ContrabassVoiceV_a = {
             {
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -7291,16 +7145,14 @@ R_ContrabassVoiceVI_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         \column          %! IC:+PARTS
-            %%%                             {            %! IC:+PARTS
-            %%%                                 "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                                 "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                             }            %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 \column                  %! IC:+PARTS
+            %%%                     {                    %! IC:+PARTS
+            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+            %%%                     }                    %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }

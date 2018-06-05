@@ -1067,27 +1067,21 @@ O_FirstViolinVoiceI_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                    %! IC:-PARTS
                     {                                    %! IC:-PARTS
-                        \whiteout                        %! IC:-PARTS
-                            \upright                     %! IC:-PARTS
-                                \override                %! IC:-PARTS
-                                    #'(box-padding . 0.5) %! IC:-PARTS
-                                    \box                 %! IC:-PARTS
-                                        "tutti: ext. ponticello: like acid" %! IC:-PARTS
+                        \override                        %! IC:-PARTS
+                            #'(box-padding . 0.5)        %! IC:-PARTS
+                            \box                         %! IC:-PARTS
+                                "tutti: ext. ponticello: like acid" %! IC:-PARTS
                     }                                    %! IC:-PARTS
                 \line                                    %! IC:-PARTS
                     {                                    %! IC:-PARTS
-                        \whiteout                        %! IC:-PARTS
-                            \upright                     %! IC:-PARTS
-                                "1-4 + 5-8"              %! IC:-PARTS
+                        "1-4 + 5-8"                      %! IC:-PARTS
                     }                                    %! IC:-PARTS
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -1247,12 +1241,10 @@ O_FirstViolinVoiceII_a = {
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                             %! IC
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             "ext. ponticello: like acid"             %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
     % [O FirstViolinVoiceII measure 96 / measure 2]      %! SM4
@@ -1425,18 +1417,14 @@ O_FirstViolinVoiceIII_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                    %! IC:-PARTS
                     {                                    %! IC:-PARTS
-                        \whiteout                        %! IC:-PARTS
-                            \upright                     %! IC:-PARTS
-                                "9-12 + 13-17"           %! IC:-PARTS
+                        "9-12 + 13-17"                   %! IC:-PARTS
                     }                                    %! IC:-PARTS
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -1596,12 +1584,10 @@ O_FirstViolinVoiceIV_a = {
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                             %! IC
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             "ext. ponticello: like acid"             %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
     % [O FirstViolinVoiceIV measure 96 / measure 2]      %! SM4
@@ -1765,16 +1751,14 @@ O_FirstViolinVoiceV_a = {
                     }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                 \line                                    %! IC
                     {                                    %! IC
-                        \whiteout                        %! IC
-                            \upright                     %! IC
-                                \override                %! IC
-                                    #'(box-padding . 0.5) %! IC
-                                    \box                 %! IC
-                                        \column          %! IC
-                                            {            %! IC
-                                                "solo: absolutely fixed and determined; ponticello;" %! IC
-                                                "non diminuendo: appear as if by magic" %! IC
-                                            }            %! IC
+                        \override                        %! IC
+                            #'(box-padding . 0.5)        %! IC
+                            \box                         %! IC
+                                \column                  %! IC
+                                    {                    %! IC
+                                        "solo: absolutely fixed and determined; ponticello;" %! IC
+                                        "non diminuendo: appear as if by magic" %! IC
+                                    }                    %! IC
                     }                                    %! IC
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -1939,18 +1923,14 @@ O_SecondViolinVoiceI_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                    %! IC:-PARTS
                     {                                    %! IC:-PARTS
-                        \whiteout                        %! IC:-PARTS
-                            \upright                     %! IC:-PARTS
-                                "1-4 + 5-8"              %! IC:-PARTS
+                        "1-4 + 5-8"                      %! IC:-PARTS
                     }                                    %! IC:-PARTS
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -2111,12 +2091,10 @@ O_SecondViolinVoiceII_a = {
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                             %! IC
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             "ext. ponticello: like acid"             %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
     % [O SecondViolinVoiceII measure 96 / measure 2]     %! SM4
@@ -2289,18 +2267,14 @@ O_SecondViolinVoiceIII_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                    %! IC:-PARTS
                     {                                    %! IC:-PARTS
-                        \whiteout                        %! IC:-PARTS
-                            \upright                     %! IC:-PARTS
-                                "9-12 + 13-18"           %! IC:-PARTS
+                        "9-12 + 13-18"                   %! IC:-PARTS
                     }                                    %! IC:-PARTS
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -2460,12 +2434,10 @@ O_SecondViolinVoiceIV_a = {
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                             %! IC
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             "ext. ponticello: like acid"             %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
     % [O SecondViolinVoiceIV measure 96 / measure 2]     %! SM4
@@ -2638,18 +2610,14 @@ O_ViolaVoiceI_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                    %! IC:-PARTS
                     {                                    %! IC:-PARTS
-                        \whiteout                        %! IC:-PARTS
-                            \upright                     %! IC:-PARTS
-                                "1-4 + 5-8"              %! IC:-PARTS
+                        "1-4 + 5-8"                      %! IC:-PARTS
                     }                                    %! IC:-PARTS
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -2809,12 +2777,10 @@ O_ViolaVoiceII_a = {
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                             %! IC
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             "ext. ponticello: like acid"             %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
     % [O ViolaVoiceII measure 96 / measure 2]            %! SM4
@@ -2987,18 +2953,14 @@ O_ViolaVoiceIII_a = {
                     }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                    %! IC:-PARTS
                     {                                    %! IC:-PARTS
-                        \whiteout                        %! IC:-PARTS
-                            \upright                     %! IC:-PARTS
-                                "9-12 + 13-18"           %! IC:-PARTS
+                        "9-12 + 13-18"                   %! IC:-PARTS
                     }                                    %! IC:-PARTS
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 \override                %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5) %! IC:+PARTS
-            %%%                     \box                 %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                        %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
+            %%%             \box                         %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
                 \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -3158,12 +3120,10 @@ O_ViolaVoiceIV_a = {
     \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                             %! IC
 %%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             \override                                %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                %! IC:+PARTS
-%%%                 \box                                 %! IC:+PARTS
-%%%                     "ext. ponticello: like acid"     %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             "ext. ponticello: like acid"             %! IC:+PARTS
 %%%     }                                                %! IC:+PARTS
     
     % [O ViolaVoiceIV measure 96 / measure 2]            %! SM4
@@ -3337,18 +3297,14 @@ O_CelloVoiceI_a = {
                     }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                        %! IC:-PARTS
                     {                                        %! IC:-PARTS
-                        \whiteout                            %! IC:-PARTS
-                            \upright                         %! IC:-PARTS
-                                "1-8 + 9-14"                 %! IC:-PARTS
+                        "1-8 + 9-14"                         %! IC:-PARTS
                     }                                        %! IC:-PARTS
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
-            %%%         \whiteout                            %! IC:+PARTS
-            %%%             \upright                         %! IC:+PARTS
-            %%%                 \override                    %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5)    %! IC:+PARTS
-            %%%                     \box                     %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                            %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)            %! IC:+PARTS
+            %%%             \box                             %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                        %! IC:+PARTS
                 \line                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
@@ -3509,12 +3465,10 @@ O_CelloVoiceII_a = {
     \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                                 %! IC
 %%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             \override                                    %! IC:+PARTS
-%%%                 #'(box-padding . 0.5)                    %! IC:+PARTS
-%%%                 \box                                     %! IC:+PARTS
-%%%                     "ext. ponticello: like acid"         %! IC:+PARTS
+%%%     \override                                            %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                            %! IC:+PARTS
+%%%         \box                                             %! IC:+PARTS
+%%%             "ext. ponticello: like acid"                 %! IC:+PARTS
 %%%     }                                                    %! IC:+PARTS
     
     % [O CelloVoiceII measure 96 / measure 2]                %! SM4
@@ -3672,18 +3626,14 @@ O_ContrabassVoiceIII_a = {
                     }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                        %! IC:-PARTS
                     {                                        %! IC:-PARTS
-                        \whiteout                            %! IC:-PARTS
-                            \upright                         %! IC:-PARTS
-                                "Cb. tutti"                  %! IC:-PARTS
+                        "Cb. tutti"                          %! IC:-PARTS
                     }                                        %! IC:-PARTS
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
-            %%%         \whiteout                            %! IC:+PARTS
-            %%%             \upright                         %! IC:+PARTS
-            %%%                 \override                    %! IC:+PARTS
-            %%%                     #'(box-padding . 0.5)    %! IC:+PARTS
-            %%%                     \box                     %! IC:+PARTS
-            %%%                         "ext. ponticello: like acid" %! IC:+PARTS
+            %%%         \override                            %! IC:+PARTS
+            %%%             #'(box-padding . 0.5)            %! IC:+PARTS
+            %%%             \box                             %! IC:+PARTS
+            %%%                 "ext. ponticello: like acid" %! IC:+PARTS
             %%%     }                                        %! IC:+PARTS
                 \line                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
                     {                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES

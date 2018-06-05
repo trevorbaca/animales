@@ -369,15 +369,11 @@ C_ClarinetVoiceI_a = {
             {
                 \line                                        %! IC:-PARTS
                     {                                        %! IC:-PARTS
-                        \whiteout                            %! IC:-PARTS
-                            \upright                         %! IC:-PARTS
-                                "solo (cl. 3)"               %! IC:-PARTS
+                        "solo (cl. 3)"                       %! IC:-PARTS
                     }                                        %! IC:-PARTS
             %%% \line                                        %! IC:+PARTS
             %%%     {                                        %! IC:+PARTS
-            %%%         \whiteout                            %! IC:+PARTS
-            %%%             \upright                         %! IC:+PARTS
-            %%%                 solo                         %! IC:+PARTS
+            %%%         solo                                 %! IC:+PARTS
             %%%     }                                        %! IC:+PARTS
             }
         }
@@ -1380,12 +1376,10 @@ C_PercussionVoiceI_a = {
     :32                                                      %! IC
     \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                              %! IC
-        \whiteout                                            %! IC
-            \upright                                         %! IC
-                \override                                    %! IC
-                    #'(box-padding . 0.5)                    %! IC
-                    \box                                     %! IC
-                        "triangle (small beater)"            %! IC
+        \override                                            %! IC
+            #'(box-padding . 0.5)                            %! IC
+            \box                                             %! IC
+                "triangle (small beater)"                    %! IC
         }                                                    %! IC
     
     % [C PercussionVoiceI measure 21 / measure 4]            %! SM4
@@ -1503,12 +1497,10 @@ C_PercussionVoiceII_a = {
     :32                                                      %! IC
     \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                              %! IC
-        \whiteout                                            %! IC
-            \upright                                         %! IC
-                \override                                    %! IC
-                    #'(box-padding . 0.5)                    %! IC
-                    \box                                     %! IC
-                        "suspended cymbal (soft yarn mallets: attackless sound)" %! IC
+        \override                                            %! IC
+            #'(box-padding . 0.5)                            %! IC
+            \box                                             %! IC
+                "suspended cymbal (soft yarn mallets: attackless sound)" %! IC
         }                                                    %! IC
     
     % [C PercussionVoiceII measure 21 / measure 4]           %! SM4
@@ -1556,15 +1548,11 @@ C_FirstViolinVoiceII_a = {
             {
                 \line                                    %! IC:-PARTS
                     {                                    %! IC:-PARTS
-                        \whiteout                        %! IC:-PARTS
-                            \upright                     %! IC:-PARTS
-                                "solo (first violin)"    %! IC:-PARTS
+                        "solo (first violin)"            %! IC:-PARTS
                     }                                    %! IC:-PARTS
             %%% \line                                    %! IC:+PARTS
             %%%     {                                    %! IC:+PARTS
-            %%%         \whiteout                        %! IC:+PARTS
-            %%%             \upright                     %! IC:+PARTS
-            %%%                 solo                     %! IC:+PARTS
+            %%%         solo                             %! IC:+PARTS
             %%%     }                                    %! IC:+PARTS
             }
         }
@@ -1742,22 +1730,16 @@ C_FirstViolinVoiceI_b = {
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-%%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             "still (non vibrato)"                    %! IC:+PARTS
-%%%     }                                                %! IC:+PARTS
+%%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
     _ \markup {                                          %! IC:-PARTS
-        \whiteout                                        %! IC:-PARTS
-            \upright                                     %! IC:-PARTS
-                \override                                %! IC:-PARTS
-                    #'(box-padding . 0.5)                %! IC:-PARTS
-                    \box                                 %! IC:-PARTS
-                        \column                          %! IC:-PARTS
-                            {                            %! IC:-PARTS
-                                "all other strings:"     %! IC:-PARTS
-                                "still (non vibrato)"    %! IC:-PARTS
-                            }                            %! IC:-PARTS
+        \override                                        %! IC:-PARTS
+            #'(box-padding . 0.5)                        %! IC:-PARTS
+            \box                                         %! IC:-PARTS
+                \column                                  %! IC:-PARTS
+                    {                                    %! IC:-PARTS
+                        "all other strings:"             %! IC:-PARTS
+                        "still (non vibrato)"            %! IC:-PARTS
+                    }                                    %! IC:-PARTS
         }                                                %! IC:-PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
@@ -1876,11 +1858,7 @@ C_FirstViolinVoiceIII_a = {
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-%%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             "still (non vibrato)"                    %! IC:+PARTS
-%%%     }                                                %! IC:+PARTS
+%%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [C FirstViolinVoiceIII measure 21 / measure 4]     %! SM4
@@ -1995,11 +1973,7 @@ C_SecondViolinVoiceI_a = {
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-%%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             "still (non vibrato)"                    %! IC:+PARTS
-%%%     }                                                %! IC:+PARTS
+%%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [C SecondViolinVoiceI measure 21 / measure 4]      %! SM4
@@ -2111,11 +2085,7 @@ C_SecondViolinVoiceIII_a = {
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-%%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             "still (non vibrato)"                    %! IC:+PARTS
-%%%     }                                                %! IC:+PARTS
+%%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [C SecondViolinVoiceIII measure 21 / measure 4]    %! SM4
@@ -2234,11 +2204,7 @@ C_ViolaVoiceI_a = {
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-%%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             "still (non vibrato)"                    %! IC:+PARTS
-%%%     }                                                %! IC:+PARTS
+%%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [C ViolaVoiceI measure 21 / measure 4]             %! SM4
@@ -2354,11 +2320,7 @@ C_ViolaVoiceIII_a = {
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
-%%% ^ \markup {                                          %! IC:+PARTS
-%%%     \whiteout                                        %! IC:+PARTS
-%%%         \upright                                     %! IC:+PARTS
-%%%             "still (non vibrato)"                    %! IC:+PARTS
-%%%     }                                                %! IC:+PARTS
+%%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [C ViolaVoiceIII measure 21 / measure 4]           %! SM4
@@ -2457,11 +2419,7 @@ C_CelloVoiceI_a = {
     c'1
     \p_sub                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                           %! SC
-%%% ^ \markup {                                              %! IC:+PARTS
-%%%     \whiteout                                            %! IC:+PARTS
-%%%         \upright                                         %! IC:+PARTS
-%%%             "still (non vibrato)"                        %! IC:+PARTS
-%%%     }                                                    %! IC:+PARTS
+%%% ^ \markup { "still (non vibrato)" }                      %! IC:+PARTS
     \revert TrillSpanner.staff-padding                       %! OC2
     
     % [C CelloVoiceI measure 21 / measure 4]                 %! SM4
