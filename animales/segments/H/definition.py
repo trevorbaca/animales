@@ -79,11 +79,14 @@ maker(
 
 maker(
     ('cl1', 4),
-    baca.markups.boxed_lines([
-        'choke sound suddenly:',
-        'touch tongue to reed',
-        'exactly on downbeat',
-        ]),
+    baca.markup(
+        baca.markups.lines([
+            'choke sound suddenly:',
+            'touch tongue to reed',
+            'exactly on downbeat',
+            ]).boxed(),
+        selector=baca.leaf(0),
+        ),
     baca.only_score(baca.mmrest_text_extra_offset((-6, 0))),
     )
 
@@ -187,8 +190,9 @@ most_strings = [
 maker(
     (most_strings, 4),
     baca.only_parts(
-        baca.markups.boxed_lines(
-            ['suddenly ripped off;', 'las. vib. poss.']
+        baca.markup(
+            baca.markups.lines(['suddenly ripped off;', 'las. vib. poss.']).boxed(),
+            selector=baca.leaf(0),
             ),
         ),
     )
@@ -196,8 +200,9 @@ maker(
 maker(
     ('1vn1', 4),
     baca.not_parts(
-        baca.markups.boxed_lines(
-            ['strings:', 'suddenly ripped off;', 'las. vib. poss.']
+        baca.markup(
+            baca.markups.lines(['strings:', 'suddenly ripped off;', 'las. vib. poss.']).boxed(),
+            selector=baca.leaf(0),
             ),
         ),
     )

@@ -111,12 +111,12 @@ maker(
     baca.dynamic('mf'),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.markups.edition(
-        baca.markups.boxed('LH-damped près de la table'),
-        baca.markups.boxed_lines([
+        baca.markups.markup('LH-damped près de la table').boxed(),
+        baca.markups.lines([
             'LH-damped près de la table:',
             'LH damps at soundboard; RH plucks string at usual position',
-            ]),
-        selector=baca.pleaf(0),
+            ]).boxed(),
+        #selector=baca.pleaf(0),
         ),
     baca.pitch('D5'),
     baca.stopped(selector=baca.pheads()),
@@ -130,10 +130,7 @@ maker(
     animales.harp_exchange_rhythm(3),
     baca.dynamic('mf'),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markups.boxed(
-        'mute with LH inside piano: dull thud',
-        selector=baca.pleaf(0),
-        ),
+    baca.markups.markup('mute with LH inside piano: dull thud').boxed(),
     baca.pitch('D5'),
     baca.stopped(selector=baca.pheads()),
     )
@@ -171,7 +168,7 @@ maker(
     baca.clef('treble'),
     baca.dynamic('mp'),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markups.boxed('vibraphone'),
+    baca.markups.vibraphone().boxed(),
     baca.only_parts(baca.text_script_extra_offset((1.5, 1.5))),
     baca.pitch('D5'),
     )
@@ -182,7 +179,7 @@ maker(
     '1vn1',
     animales.parts('FirstViolin'),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markups.boxed('strings: still (non vib.)')),
+    baca.not_parts(baca.markups.markup('strings: still (non vib.)').boxed()),
     baca.pitch('Bb6'),
     baca.repeat_tie_up(),
     )
@@ -240,9 +237,11 @@ maker(
         baca.pitch('Bb1', selector=baca.leaves()[1:]),
         baca.repeat_tie_to(selector=baca.leaf(1)),
         baca.markups.edition(
-            baca.markup(warning, selector=baca.leaf(0), direction=abjad.Down),
-            baca.markup(warning, selector=baca.leaf(0), direction=abjad.Up),
-            selector=baca.leaf(1),
+            #baca.markup(warning, selector=baca.leaf(0), direction=abjad.Down),
+            #baca.markup(warning, selector=baca.leaf(0), direction=abjad.Up),
+            #selector=baca.leaf(1),
+            baca.markup(warning, selector=baca.leaf(1), direction=abjad.Down),
+            baca.markup(warning, selector=baca.leaf(1), direction=abjad.Up),
             ),
         ),
     )
