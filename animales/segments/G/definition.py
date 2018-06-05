@@ -74,7 +74,7 @@ maker(
     animales.parts('Clarinet', 1),
     baca.hairpin('mp <', right_broken=True),
     baca.make_repeat_tied_notes(),
-    baca.markup.edition('solo (cl. 1)', 'solo'),
+    baca.markups.edition('solo (cl. 1)', 'solo'),
     baca.pitch('F5'),
     )
 

@@ -79,7 +79,7 @@ maker(
 
 maker(
     ('cl1', 4),
-    baca.markup.boxed_lines([
+    baca.markups.boxed_lines([
         'choke sound suddenly:',
         'touch tongue to reed',
         'exactly on downbeat',
@@ -187,7 +187,7 @@ most_strings = [
 maker(
     (most_strings, 4),
     baca.only_parts(
-        baca.markup.boxed_lines(
+        baca.markups.boxed_lines(
             ['suddenly ripped off;', 'las. vib. poss.']
             ),
         ),
@@ -196,7 +196,7 @@ maker(
 maker(
     ('1vn1', 4),
     baca.not_parts(
-        baca.markup.boxed_lines(
+        baca.markups.boxed_lines(
             ['strings:', 'suddenly ripped off;', 'las. vib. poss.']
             ),
         ),
@@ -221,7 +221,7 @@ maker(
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(1),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markup.markup('7th partial / D (sounds slightly flat)'),
+    baca.markups.markup('7th partial / D (sounds slightly flat)'),
     baca.note_head_style_harmonic(),
     baca.pitch('Cqf5', do_not_transpose=True),
     )

@@ -302,12 +302,12 @@ strings = ['suddenly ripped off;', 'las. vib. possibile']
 
 maker(
     ('1vn1', 4),
-    baca.markup.boxed_lines(strings)
+    baca.markups.boxed_lines(strings)
     )
 
 maker(
     (most_strings, 4),
-    baca.only_parts(baca.markup.boxed_lines(strings)),
+    baca.only_parts(baca.markups.boxed_lines(strings)),
     )
 
 maker(
