@@ -305,8 +305,8 @@ E_ClarinetVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ds''!1
-    \<                                                       %! HC1
     \mp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -429,9 +429,9 @@ E_PercussionVoiceI_a = {
     c'1
     :32                                                      %! IC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
+    \p                                                       %! HC1
     - \tweak circled-tip ##t                                 %! HC1
     \>                                                       %! HC1
-    \p                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -659,8 +659,8 @@ E_FirstViolinVoiceI_a = {
 %@% \repeatTie                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                               %! SC
     \glissando                                           %! SC
-    \>                                                   %! HC1
     \f                                                   %! HC1
+    \>                                                   %! HC1
     ^ \markup {
         \column
             {
@@ -905,8 +905,8 @@ E_SecondViolinVoiceI_a = {
 %@% \repeatTie                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                               %! SC
     \glissando                                           %! SC
-    \>                                                   %! HC1
     \f                                                   %! HC1
+    \>                                                   %! HC1
     ^ \markup {
         \column
             {
@@ -1151,8 +1151,8 @@ E_ViolaVoiceI_a = {
 %@% \repeatTie                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                               %! SC
     \glissando                                           %! SC
-    \>                                                   %! HC1
     \f                                                   %! HC1
+    \>                                                   %! HC1
     ^ \markup {
         \column
             {
@@ -1397,8 +1397,8 @@ E_CelloVoiceI_a = {
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
-    \>                                                       %! HC1
     \f                                                       %! HC1
+    \>                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1545,8 +1545,8 @@ E_ContrabassVoiceIII_a = {
     b,4
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \glissando                                               %! SC
-    \>                                                       %! HC1
     \ff                                                      %! HC1
+    \>                                                       %! HC1
     ^ \markup {
         \column
             {

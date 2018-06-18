@@ -883,8 +883,8 @@ P_HornVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d'2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P HornVoiceI measure 111 / measure 3]             %! SM4
     d'4
@@ -915,8 +915,8 @@ P_HornVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d'2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P HornVoiceI measure 113 / measure 5]             %! SM4
     d'4
@@ -947,8 +947,8 @@ P_HornVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d'4
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P HornVoiceI measure 115 / measure 7]             %! SM4
     d'2
@@ -1002,8 +1002,8 @@ P_HornVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     df'!2.
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1031,8 +1031,8 @@ P_HornVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     df'!2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P HornVoiceIII measure 112 / measure 4]           %! SM4
     df'!4.
@@ -1053,8 +1053,8 @@ P_HornVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     df'!2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P HornVoiceIII measure 114 / measure 6]           %! SM4
     df'!4.
@@ -1169,8 +1169,8 @@ P_HornVoiceII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         d'8
         ~
-        \<                                               %! HC1
         \mp                                              %! HC1
+        \<                                               %! HC1
     }
     
     % [P HornVoiceII measure 111 / measure 3]            %! SM4
@@ -1195,8 +1195,8 @@ P_HornVoiceII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         d'8
         ~
-        \<                                               %! HC1
         \mp                                              %! HC1
+        \<                                               %! HC1
     }
     
     % [P HornVoiceII measure 113 / measure 5]            %! SM4
@@ -1222,8 +1222,8 @@ P_HornVoiceII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         d'8
         ~
-        \<                                               %! HC1
         \mp                                              %! HC1
+        \<                                               %! HC1
     }
     
     d'2
@@ -1292,8 +1292,8 @@ P_HornVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     df'!4.
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P HornVoiceIV measure 110 / measure 2]            %! SM4
     df'!2
@@ -1318,8 +1318,8 @@ P_HornVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     df'!8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P HornVoiceIV measure 112 / measure 4]            %! SM4
     df'!2.
@@ -1344,8 +1344,8 @@ P_HornVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     df'!8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P HornVoiceIV measure 114 / measure 6]            %! SM4
     df'!2.
@@ -1468,8 +1468,8 @@ P_TrumpetVoiceI_a = {
     % [P TrumpetVoiceI measure 110 / measure 2]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf'!2.
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P TrumpetVoiceI measure 111 / measure 3]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -1481,8 +1481,8 @@ P_TrumpetVoiceI_a = {
     % [P TrumpetVoiceI measure 112 / measure 4]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf'!2.
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     af'!4
     ~
@@ -1497,8 +1497,8 @@ P_TrumpetVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf'!4
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P TrumpetVoiceI measure 114 / measure 6]          %! SM4
     gf'!2
@@ -1561,8 +1561,8 @@ P_TrumpetVoiceIII_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'2.
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1585,8 +1585,8 @@ P_TrumpetVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'2.
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     \times 2/3 {
         
         % [P TrumpetVoiceIII measure 112 / measure 4]    %! SM4
@@ -1612,8 +1612,8 @@ P_TrumpetVoiceIII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'4
         ~
-        \<                                               %! HC1
         \mp                                              %! HC1
+        \<                                               %! HC1
     }
     
     f'2
@@ -1762,8 +1762,8 @@ P_TrumpetVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf'!4.
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P TrumpetVoiceII measure 111 / measure 3]         %! SM4
     gf'!4.
@@ -1786,8 +1786,8 @@ P_TrumpetVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf'!8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     gf'!2
     ~
@@ -1817,8 +1817,8 @@ P_TrumpetVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf'!8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     gf'!2
     ~
@@ -1883,8 +1883,8 @@ P_TrumpetVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'4.
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P TrumpetVoiceIV measure 110 / measure 2]         %! SM4
     f'4
@@ -1911,8 +1911,8 @@ P_TrumpetVoiceIV_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'8
         ~
-        \<                                               %! HC1
         \mp                                              %! HC1
+        \<                                               %! HC1
     }
     
     f'4
@@ -1934,8 +1934,8 @@ P_TrumpetVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P TrumpetVoiceIV measure 114 / measure 6]         %! SM4
     f'4
@@ -2055,8 +2055,8 @@ P_TromboneVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf!2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P TromboneVoiceI measure 111 / measure 3]         %! SM4
     gf!4
@@ -2081,8 +2081,8 @@ P_TromboneVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af!4
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P TromboneVoiceI measure 113 / measure 5]         %! SM4
     af!4
@@ -2116,8 +2116,8 @@ P_TromboneVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf!2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P TromboneVoiceI measure 116 / measure 8]         %! SM4
     gf!8
@@ -2167,8 +2167,8 @@ P_TromboneVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2203,8 +2203,8 @@ P_TromboneVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g4
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P TromboneVoiceIII measure 112 / measure 4]       %! SM4
     g4.
@@ -2233,8 +2233,8 @@ P_TromboneVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     f8
     [
@@ -2361,8 +2361,8 @@ P_TromboneVoiceII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gf!8
         ~
-        \<                                               %! HC1
         \mp                                              %! HC1
+        \<                                               %! HC1
     }
     
     % [P TromboneVoiceII measure 111 / measure 3]        %! SM4
@@ -2394,8 +2394,8 @@ P_TromboneVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af!8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     af!2
     ~
@@ -2425,8 +2425,8 @@ P_TromboneVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf!8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P TromboneVoiceII measure 116 / measure 8]        %! SM4
     gf!2
@@ -2475,8 +2475,8 @@ P_TromboneVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f4.
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P TromboneVoiceIV measure 110 / measure 2]        %! SM4
     f4
@@ -2510,8 +2510,8 @@ P_TromboneVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     g2
     
@@ -2536,8 +2536,8 @@ P_TromboneVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f4.
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [P TromboneVoiceIV measure 115 / measure 7]        %! SM4
     f4
@@ -2705,13 +2705,14 @@ P_FirstViolinVoiceI_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2732,7 +2733,8 @@ P_FirstViolinVoiceI_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -2824,13 +2826,14 @@ P_FirstViolinVoiceII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2851,7 +2854,8 @@ P_FirstViolinVoiceII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3020,13 +3024,14 @@ P_FirstViolinVoiceIII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3047,7 +3052,8 @@ P_FirstViolinVoiceIII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3139,13 +3145,14 @@ P_FirstViolinVoiceIV_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3166,7 +3173,8 @@ P_FirstViolinVoiceIV_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3468,13 +3476,14 @@ P_SecondViolinVoiceI_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3495,7 +3504,8 @@ P_SecondViolinVoiceI_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3588,13 +3598,14 @@ P_SecondViolinVoiceII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3615,7 +3626,8 @@ P_SecondViolinVoiceII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3784,13 +3796,14 @@ P_SecondViolinVoiceIII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3811,7 +3824,8 @@ P_SecondViolinVoiceIII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3903,13 +3917,14 @@ P_SecondViolinVoiceIV_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3930,7 +3945,8 @@ P_SecondViolinVoiceIV_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -4099,13 +4115,14 @@ P_ViolaVoiceI_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4126,7 +4143,8 @@ P_ViolaVoiceI_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -4218,13 +4236,14 @@ P_ViolaVoiceII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4245,7 +4264,8 @@ P_ViolaVoiceII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -4414,13 +4434,14 @@ P_ViolaVoiceIII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4441,7 +4462,8 @@ P_ViolaVoiceIII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -4533,13 +4555,14 @@ P_ViolaVoiceIV_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4560,7 +4583,8 @@ P_ViolaVoiceIV_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -4730,13 +4754,14 @@ P_CelloVoiceI_a = {
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    \>                                                       %! HC1
     \ff                                                      %! HC1
+    \>                                                       %! HC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                "ext. pont."                                 %! PWC1
+                \upright                                     %! PWC1
+                    "ext. pont."                             %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -4757,7 +4782,8 @@ P_CelloVoiceI_a = {
             {                                                %! PWC1
                 \hspace                                      %! PWC1
                     #0.0                                     %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
@@ -4850,13 +4876,14 @@ P_CelloVoiceII_a = {
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    \>                                                       %! HC1
     \ff                                                      %! HC1
+    \>                                                       %! HC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                "ext. pont."                                 %! PWC1
+                \upright                                     %! PWC1
+                    "ext. pont."                             %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -4877,7 +4904,8 @@ P_CelloVoiceII_a = {
             {                                                %! PWC1
                 \hspace                                      %! PWC1
                     #0.0                                     %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
@@ -5020,13 +5048,14 @@ P_ContrabassVoiceIII_a = {
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    \>                                                       %! HC1
     \ff                                                      %! HC1
+    \>                                                       %! HC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                "ext. pont."                                 %! PWC1
+                \upright                                     %! PWC1
+                    "ext. pont."                             %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -5047,7 +5076,8 @@ P_ContrabassVoiceIII_a = {
             {                                                %! PWC1
                 \hspace                                      %! PWC1
                     #0.0                                     %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1

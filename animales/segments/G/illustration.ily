@@ -301,8 +301,8 @@ G_ClarinetVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''1
-    \<                                                       %! HC1
     \mp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -715,9 +715,9 @@ G_PercussionVoiceII_a = {
     c'1
     :32                                                      %! IC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
+    \mp                                                      %! HC1
     - \tweak circled-tip ##t                                 %! HC1
     \>                                                       %! HC1
-    \mp                                                      %! HC1
     ^ \markup {
         \column
             {
@@ -949,8 +949,8 @@ G_FirstViolinVoiceI_a = {
     -\trill                                                  %! IC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
-    \<                                                       %! HC1
     \pp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1103,8 +1103,8 @@ G_SecondViolinVoiceI_a = {
     -\trill                                                  %! IC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
-    \<                                                       %! HC1
     \pp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1257,8 +1257,8 @@ G_ViolaVoiceI_a = {
     -\trill                                                  %! IC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
-    \<                                                       %! HC1
     \pp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1411,8 +1411,8 @@ G_CelloVoiceI_a = {
     -\trill                                                  %! IC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
-    \<                                                       %! HC1
     \pp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1702,8 +1702,8 @@ G_ContrabassVoiceIII_a = {
     bf,!4
     -\trill                                              %! IC
     \glissando                                           %! SC
-    \<                                                   %! HC1
     \pp                                                  %! HC1
+    \<                                                   %! HC1
     ^ \markup {
         \column
             {

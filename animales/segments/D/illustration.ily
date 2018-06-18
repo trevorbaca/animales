@@ -318,8 +318,8 @@ D_ClarinetVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ds''!2.
-    \<                                                       %! HC1
     \mp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -650,8 +650,8 @@ D_FirstViolinVoiceII_a = {
     \voiceOne                                            %! IC:-PARTS
     b'2
     \glissando                                           %! SC
-    \<                                                   %! HC1
     \p                                                   %! HC1
+    \<                                                   %! HC1
 %%% \stopTrillSpan                                       %! IC:+PARTS
     
     g'''8
@@ -733,8 +733,8 @@ D_FirstViolinVoiceII_a = {
     e'''8
     ]
     \glissando                                           %! SC
-    \>                                                   %! HC1
     \f                                                   %! HC1
+    \>                                                   %! HC1
     
     % [D FirstViolinVoiceII measure 29 / measure 6]      %! SM4
     b''2

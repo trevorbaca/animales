@@ -304,8 +304,8 @@ J_ClarinetVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     c''1
-    \<                                                       %! HC1
     \mp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -454,8 +454,8 @@ J_HornVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e'2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [J HornVoiceI measure 63 / measure 2]              %! SM4
     e'4
@@ -486,8 +486,8 @@ J_HornVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e'2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [J HornVoiceI measure 65 / measure 4]              %! SM4
     e'4
@@ -516,8 +516,8 @@ J_HornVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e'2.
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     \times 2/3 {
         
         e'4
@@ -563,8 +563,8 @@ J_HornVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef'!2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [J HornVoiceIII measure 64 / measure 3]            %! SM4
     ef'!4.
@@ -585,8 +585,8 @@ J_HornVoiceIII_a = {
     % [J HornVoiceIII measure 66 / measure 5]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef'!2..
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     f'8
     ~
@@ -681,8 +681,8 @@ J_HornVoiceII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         e'8
         ~
-        \<                                               %! HC1
         \mp                                              %! HC1
+        \<                                               %! HC1
     }
     
     % [J HornVoiceII measure 63 / measure 2]             %! SM4
@@ -707,8 +707,8 @@ J_HornVoiceII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         e'8
         ~
-        \<                                               %! HC1
         \mp                                              %! HC1
+        \<                                               %! HC1
     }
     
     % [J HornVoiceII measure 65 / measure 4]             %! SM4
@@ -740,8 +740,8 @@ J_HornVoiceII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         e'8
         ~
-        \<                                               %! HC1
         \mp                                              %! HC1
+        \<                                               %! HC1
     }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -788,8 +788,8 @@ J_HornVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef'!8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [J HornVoiceIV measure 64 / measure 3]             %! SM4
     ef'!2.
@@ -815,8 +815,8 @@ J_HornVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef'!8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     ef'!2
     ~
@@ -922,8 +922,8 @@ J_TrumpetVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af'!2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [J TrumpetVoiceI measure 64 / measure 3]           %! SM4
     af'!4
@@ -952,8 +952,8 @@ J_TrumpetVoiceI_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         af'!4
         ~
-        \<                                               %! HC1
         \mp                                              %! HC1
+        \<                                               %! HC1
     }
     
     % [J TrumpetVoiceI measure 66 / measure 5]           %! SM4
@@ -1010,8 +1010,8 @@ J_TrumpetVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [J TrumpetVoiceIII measure 63 / measure 2]         %! SM4
     g'2
@@ -1034,8 +1034,8 @@ J_TrumpetVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'4.
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [J TrumpetVoiceIII measure 65 / measure 4]         %! SM4
     g'4.
@@ -1060,8 +1060,8 @@ J_TrumpetVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [J TrumpetVoiceIII measure 67 / measure 6]         %! SM4
     g'2
@@ -1180,8 +1180,8 @@ J_TrumpetVoiceII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         af'!8
         ~
-        \<                                               %! HC1
         \mp                                              %! HC1
+        \<                                               %! HC1
     }
     
     % [J TrumpetVoiceII measure 64 / measure 3]          %! SM4
@@ -1200,8 +1200,8 @@ J_TrumpetVoiceII_a = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af'!2.
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [J TrumpetVoiceII measure 67 / measure 6]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -1239,8 +1239,8 @@ J_TrumpetVoiceIV_a = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2.
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [J TrumpetVoiceIV measure 64 / measure 3]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -1253,8 +1253,8 @@ J_TrumpetVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [J TrumpetVoiceIV measure 66 / measure 5]          %! SM4
     g'4
@@ -1366,8 +1366,8 @@ J_TromboneVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af!2
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     af!8
     
@@ -1395,8 +1395,8 @@ J_TromboneVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     bf!4
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [J TromboneVoiceI measure 66 / measure 5]          %! SM4
     bf!4.
@@ -1459,8 +1459,8 @@ J_TromboneVoiceIII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         a8
         ~
-        \<                                               %! HC1
         \mp                                              %! HC1
+        \<                                               %! HC1
     }
     
     a2
@@ -1493,8 +1493,8 @@ J_TromboneVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     % [J TromboneVoiceIII measure 67 / measure 6]        %! SM4
     g2
@@ -1602,8 +1602,8 @@ J_TromboneVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af!8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     af!2
     
@@ -1626,8 +1626,8 @@ J_TromboneVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     bf!8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     bf!2
     
@@ -1677,8 +1677,8 @@ J_TromboneVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g8
     ~
-    \<                                                   %! HC1
     \mp                                                  %! HC1
+    \<                                                   %! HC1
     
     g2
     
@@ -1709,8 +1709,8 @@ J_TromboneVoiceIV_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         a4
         ~
-        \<                                               %! HC1
         \mp                                              %! HC1
+        \<                                               %! HC1
     }
     
     a4
@@ -2234,8 +2234,8 @@ J_FirstViolinVoiceI_a = {
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
-    \>                                                       %! HC1
     \f                                                       %! HC1
+    \>                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -2390,8 +2390,8 @@ J_SecondViolinVoiceI_a = {
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
-    \>                                                       %! HC1
     \f                                                       %! HC1
+    \>                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -2546,8 +2546,8 @@ J_ViolaVoiceI_a = {
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
-    \>                                                       %! HC1
     \f                                                       %! HC1
+    \>                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -2702,8 +2702,8 @@ J_CelloVoiceI_a = {
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
-    \>                                                       %! HC1
     \f                                                       %! HC1
+    \>                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -2981,8 +2981,8 @@ J_ContrabassVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,4
     \glissando                                           %! SC
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     ^ \markup {
         \column
             {

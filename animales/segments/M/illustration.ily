@@ -355,8 +355,8 @@ M_FluteVoiceI_a = {
         % [M FluteVoiceI measure 83 / measure 2]         %! SM4
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2:+PARTS
         g''8
-    %%% \<                                               %! HC1:+PARTS
     %%% \mf                                              %! HC1:+PARTS
+    %%% \<                                               %! HC1:+PARTS
         [
         (                                                %! SC
         
@@ -450,8 +450,8 @@ M_FluteVoiceIII_a = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f''16
-    \<                                                   %! HC1
     \mf                                                  %! HC1
+    \<                                                   %! HC1
     [
     (                                                    %! SC
     
@@ -613,8 +613,8 @@ M_FluteVoiceII_a = {
         
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2:+PARTS
         ef''!8
-    %%% \<                                               %! HC1:+PARTS
     %%% \mf                                              %! HC1:+PARTS
+    %%% \<                                               %! HC1:+PARTS
         [
         (                                                %! SC
         
@@ -722,8 +722,8 @@ M_FluteVoiceIV_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''16
-    \<                                                   %! HC1
     \mf                                                  %! HC1
+    \<                                                   %! HC1
     [
     (                                                    %! SC
     ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -1618,8 +1618,8 @@ M_FirstViolinVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'4
     \glissando                                               %! SC
-    \<                                                       %! HC1
     \p                                                       %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1664,8 +1664,8 @@ M_FirstViolinVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'4
     \glissando                                               %! SC
-    \>                                                       %! HC1
     \ff                                                      %! HC1
+    \>                                                       %! HC1
     
     % [M FirstViolinVoiceIII measure 84 / measure 3]         %! SM4
     g''4.

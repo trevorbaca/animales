@@ -362,8 +362,8 @@ C_ClarinetVoiceI_a = {
     % [C ClarinetVoiceI measure 20 / measure 3]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''1
-    \<                                                       %! HC1
     \mp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1541,8 +1541,8 @@ C_FirstViolinVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     c''2
     \glissando                                           %! SC
-    \<                                                   %! HC1
     \p                                                   %! HC1
+    \<                                                   %! HC1
     ^ \markup {
         \column
             {
@@ -1611,8 +1611,8 @@ C_FirstViolinVoiceII_a = {
     d'''8
     ]
     \glissando                                           %! SC
-    \>                                                   %! HC1
     \f                                                   %! HC1
+    \>                                                   %! HC1
     
     % [C FirstViolinVoiceII measure 23 / measure 6]      %! SM4
     a'''4
@@ -2507,8 +2507,8 @@ C_ContrabassVoiceIII_a = {
     % [C ContrabassVoiceIII measure 20 / measure 3]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     c1
-    \<                                                       %! HC1
     \p                                                       %! HC1
+    \<                                                       %! HC1
     
     % [C ContrabassVoiceIII measure 21 / measure 4]          %! SM4
     c1

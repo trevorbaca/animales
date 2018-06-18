@@ -1128,13 +1128,14 @@ O_FirstViolinVoiceI_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -1155,7 +1156,8 @@ O_FirstViolinVoiceI_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -1259,13 +1261,14 @@ O_FirstViolinVoiceII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -1286,7 +1289,8 @@ O_FirstViolinVoiceII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -1471,13 +1475,14 @@ O_FirstViolinVoiceIII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -1498,7 +1503,8 @@ O_FirstViolinVoiceIII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -1602,13 +1608,14 @@ O_FirstViolinVoiceIV_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -1629,7 +1636,8 @@ O_FirstViolinVoiceIV_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -1977,13 +1985,14 @@ O_SecondViolinVoiceI_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2004,7 +2013,8 @@ O_SecondViolinVoiceI_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -2109,13 +2119,14 @@ O_SecondViolinVoiceII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2136,7 +2147,8 @@ O_SecondViolinVoiceII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -2321,13 +2333,14 @@ O_SecondViolinVoiceIII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2348,7 +2361,8 @@ O_SecondViolinVoiceIII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -2452,13 +2466,14 @@ O_SecondViolinVoiceIV_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2479,7 +2494,8 @@ O_SecondViolinVoiceIV_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -2664,13 +2680,14 @@ O_ViolaVoiceI_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2691,7 +2708,8 @@ O_ViolaVoiceI_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -2795,13 +2813,14 @@ O_ViolaVoiceII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2822,7 +2841,8 @@ O_ViolaVoiceII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3007,13 +3027,14 @@ O_ViolaVoiceIII_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3034,7 +3055,8 @@ O_ViolaVoiceIII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3138,13 +3160,14 @@ O_ViolaVoiceIV_a = {
     :32                                                  %! IC
     -\accent                                             %! IC
     \repeatTie
-    \>                                                   %! HC1
     \ff                                                  %! HC1
+    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3165,7 +3188,8 @@ O_ViolaVoiceIV_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3351,13 +3375,14 @@ O_CelloVoiceI_a = {
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    \>                                                       %! HC1
     \ff                                                      %! HC1
+    \>                                                       %! HC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                "ext. pont."                                 %! PWC1
+                \upright                                     %! PWC1
+                    "ext. pont."                             %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -3378,7 +3403,8 @@ O_CelloVoiceI_a = {
             {                                                %! PWC1
                 \hspace                                      %! PWC1
                     #0.0                                     %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
@@ -3483,13 +3509,14 @@ O_CelloVoiceII_a = {
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    \>                                                       %! HC1
     \ff                                                      %! HC1
+    \>                                                       %! HC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                "ext. pont."                                 %! PWC1
+                \upright                                     %! PWC1
+                    "ext. pont."                             %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -3510,7 +3537,8 @@ O_CelloVoiceII_a = {
             {                                                %! PWC1
                 \hspace                                      %! PWC1
                     #0.0                                     %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
@@ -3670,13 +3698,14 @@ O_ContrabassVoiceIII_a = {
     :32                                                      %! IC
     -\accent                                                 %! IC
     \repeatTie
-    \>                                                       %! HC1
     \ff                                                      %! HC1
+    \>                                                       %! HC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                "ext. pont."                                 %! PWC1
+                \upright                                     %! PWC1
+                    "ext. pont."                             %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -3697,7 +3726,8 @@ O_ContrabassVoiceIII_a = {
             {                                                %! PWC1
                 \hspace                                      %! PWC1
                     #0.0                                     %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1

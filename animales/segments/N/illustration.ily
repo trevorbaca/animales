@@ -396,8 +396,8 @@ N_FluteVoiceI_a = {
         
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2:+PARTS
         g''8
-    %%% \<                                               %! HC1:+PARTS
     %%% \mf                                              %! HC1:+PARTS
+    %%% \<                                               %! HC1:+PARTS
         [
         (                                                %! SC
         
@@ -513,8 +513,8 @@ N_FluteVoiceIII_a = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f''16
-    \<                                                   %! HC1
     \mf                                                  %! HC1
+    \<                                                   %! HC1
     [
     (                                                    %! SC
     
@@ -697,8 +697,8 @@ N_FluteVoiceII_a = {
         
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2:+PARTS
         ef''!8
-    %%% \<                                               %! HC1:+PARTS
     %%% \mf                                              %! HC1:+PARTS
+    %%% \<                                               %! HC1:+PARTS
         [
         (                                                %! SC
         
@@ -825,8 +825,8 @@ N_FluteVoiceIV_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''16
-    \<                                                   %! HC1
     \mf                                                  %! HC1
+    \<                                                   %! HC1
     [
     (                                                    %! SC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -994,9 +994,9 @@ N_BassClarinetVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     bf!1
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
+    \p                                                       %! HC1
     - \tweak circled-tip ##t                                 %! HC1
     \>                                                       %! HC1
-    \p                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1686,8 +1686,8 @@ N_FirstViolinVoiceII_a = {
     \voiceOne                                                %! IC:-PARTS
     g'4
     \glissando                                               %! SC
-    \<                                                       %! HC1
     \p                                                       %! HC1
+    \<                                                       %! HC1
 %%% \stopTrillSpan                                           %! IC:+PARTS
     
     e'''8
@@ -1718,8 +1718,8 @@ N_FirstViolinVoiceII_a = {
     d'''8
     ]
     \glissando                                               %! SC
-    \>                                                       %! HC1
     \ff                                                      %! HC1
+    \>                                                       %! HC1
     
     % [N FirstViolinVoiceII measure 90 / measure 3]          %! SM4
     a'2
@@ -1788,8 +1788,8 @@ N_FirstViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \pitchedTrill                                            %! SC
     g1
-    \<                                                       %! HC1
     \pp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1901,8 +1901,8 @@ N_SecondViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \pitchedTrill                                            %! SC
     g1
-    \<                                                       %! HC1
     \pp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -2012,8 +2012,8 @@ N_ViolaVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \pitchedTrill                                            %! SC
     g1
-    \<                                                       %! HC1
     \pp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -2123,8 +2123,8 @@ N_CelloVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \pitchedTrill                                            %! SC
     g1
-    \<                                                       %! HC1
     \pp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -2369,8 +2369,8 @@ N_ContrabassVoiceIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g,1
-    \<                                                   %! HC1
     \p                                                   %! HC1
+    \<                                                   %! HC1
     ^ \markup {
         \column
             {
