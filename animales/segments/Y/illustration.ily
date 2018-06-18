@@ -5703,8 +5703,8 @@ Y_ContrabassVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     cs!1
-    \<                                                       %! HC1
     \p                                                       %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {

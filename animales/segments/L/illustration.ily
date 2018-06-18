@@ -307,8 +307,8 @@ L_ClarinetVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f''2.
-    \<                                                       %! HC1
     \mp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1063,8 +1063,8 @@ L_FirstViolinVoiceI_a = {
     -\trill                                                  %! IC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
-    \<                                                       %! HC1
     \pp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1208,8 +1208,8 @@ L_SecondViolinVoiceI_a = {
     -\trill                                                  %! IC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
-    \<                                                       %! HC1
     \pp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1353,8 +1353,8 @@ L_ViolaVoiceI_a = {
     -\trill                                                  %! IC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
-    \<                                                       %! HC1
     \pp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1498,8 +1498,8 @@ L_CelloVoiceI_a = {
     -\trill                                                  %! IC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
-    \<                                                       %! HC1
     \pp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -1766,8 +1766,8 @@ L_ContrabassVoiceIII_a = {
     af,!4
     -\trill                                              %! IC
     \glissando                                           %! SC
-    \<                                                   %! HC1
     \pp                                                  %! HC1
+    \<                                                   %! HC1
     ^ \markup {
         \column
             {

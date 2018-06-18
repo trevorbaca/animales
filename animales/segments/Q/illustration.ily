@@ -1805,7 +1805,8 @@ Q_FirstViolinVoiceI_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -1841,7 +1842,8 @@ Q_FirstViolinVoiceI_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -1862,7 +1864,8 @@ Q_FirstViolinVoiceI_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -1892,7 +1895,8 @@ Q_FirstViolinVoiceI_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -1928,7 +1932,8 @@ Q_FirstViolinVoiceI_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -1949,7 +1954,8 @@ Q_FirstViolinVoiceI_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -2003,7 +2009,8 @@ Q_FirstViolinVoiceII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2039,7 +2046,8 @@ Q_FirstViolinVoiceII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2060,7 +2068,8 @@ Q_FirstViolinVoiceII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -2090,7 +2099,8 @@ Q_FirstViolinVoiceII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2126,7 +2136,8 @@ Q_FirstViolinVoiceII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2147,7 +2158,8 @@ Q_FirstViolinVoiceII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -2277,7 +2289,8 @@ Q_FirstViolinVoiceIII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2313,7 +2326,8 @@ Q_FirstViolinVoiceIII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2334,7 +2348,8 @@ Q_FirstViolinVoiceIII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -2364,7 +2379,8 @@ Q_FirstViolinVoiceIII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2400,7 +2416,8 @@ Q_FirstViolinVoiceIII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2421,7 +2438,8 @@ Q_FirstViolinVoiceIII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -2475,7 +2493,8 @@ Q_FirstViolinVoiceIV_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2511,7 +2530,8 @@ Q_FirstViolinVoiceIV_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2532,7 +2552,8 @@ Q_FirstViolinVoiceIV_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -2562,7 +2583,8 @@ Q_FirstViolinVoiceIV_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2598,7 +2620,8 @@ Q_FirstViolinVoiceIV_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2619,7 +2642,8 @@ Q_FirstViolinVoiceIV_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -2898,7 +2922,8 @@ Q_SecondViolinVoiceI_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2934,7 +2959,8 @@ Q_SecondViolinVoiceI_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -2955,7 +2981,8 @@ Q_SecondViolinVoiceI_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -2985,7 +3012,8 @@ Q_SecondViolinVoiceI_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3021,7 +3049,8 @@ Q_SecondViolinVoiceI_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3042,7 +3071,8 @@ Q_SecondViolinVoiceI_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3097,7 +3127,8 @@ Q_SecondViolinVoiceII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3133,7 +3164,8 @@ Q_SecondViolinVoiceII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3154,7 +3186,8 @@ Q_SecondViolinVoiceII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3184,7 +3217,8 @@ Q_SecondViolinVoiceII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3220,7 +3254,8 @@ Q_SecondViolinVoiceII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3241,7 +3276,8 @@ Q_SecondViolinVoiceII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3371,7 +3407,8 @@ Q_SecondViolinVoiceIII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3407,7 +3444,8 @@ Q_SecondViolinVoiceIII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3428,7 +3466,8 @@ Q_SecondViolinVoiceIII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3458,7 +3497,8 @@ Q_SecondViolinVoiceIII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3494,7 +3534,8 @@ Q_SecondViolinVoiceIII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3515,7 +3556,8 @@ Q_SecondViolinVoiceIII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3569,7 +3611,8 @@ Q_SecondViolinVoiceIV_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3605,7 +3648,8 @@ Q_SecondViolinVoiceIV_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3626,7 +3670,8 @@ Q_SecondViolinVoiceIV_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3656,7 +3701,8 @@ Q_SecondViolinVoiceIV_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3692,7 +3738,8 @@ Q_SecondViolinVoiceIV_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3713,7 +3760,8 @@ Q_SecondViolinVoiceIV_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3843,7 +3891,8 @@ Q_ViolaVoiceI_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3879,7 +3928,8 @@ Q_ViolaVoiceI_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3900,7 +3950,8 @@ Q_ViolaVoiceI_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -3930,7 +3981,8 @@ Q_ViolaVoiceI_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3966,7 +4018,8 @@ Q_ViolaVoiceI_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -3987,7 +4040,8 @@ Q_ViolaVoiceI_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -4041,7 +4095,8 @@ Q_ViolaVoiceII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4077,7 +4132,8 @@ Q_ViolaVoiceII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4098,7 +4154,8 @@ Q_ViolaVoiceII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -4128,7 +4185,8 @@ Q_ViolaVoiceII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4164,7 +4222,8 @@ Q_ViolaVoiceII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4185,7 +4244,8 @@ Q_ViolaVoiceII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -4315,7 +4375,8 @@ Q_ViolaVoiceIII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4351,7 +4412,8 @@ Q_ViolaVoiceIII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4372,7 +4434,8 @@ Q_ViolaVoiceIII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -4402,7 +4465,8 @@ Q_ViolaVoiceIII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4438,7 +4502,8 @@ Q_ViolaVoiceIII_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4459,7 +4524,8 @@ Q_ViolaVoiceIII_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -4513,7 +4579,8 @@ Q_ViolaVoiceIV_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4549,7 +4616,8 @@ Q_ViolaVoiceIV_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4570,7 +4638,8 @@ Q_ViolaVoiceIV_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -4600,7 +4669,8 @@ Q_ViolaVoiceIV_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4636,7 +4706,8 @@ Q_ViolaVoiceIV_a = {
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
             {                                            %! PWC1
-                "ext. pont."                             %! PWC1
+                \upright                                 %! PWC1
+                    "ext. pont."                         %! PWC1
                 \hspace                                  %! PWC1
                     #0.5                                 %! PWC1
             }                                            %! PWC1
@@ -4657,7 +4728,8 @@ Q_ViolaVoiceIV_a = {
             {                                            %! PWC1
                 \hspace                                  %! PWC1
                     #0.0                                 %! PWC1
-                tasto                                    %! PWC1
+                \upright                                 %! PWC1
+                    tasto                                %! PWC1
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
@@ -4788,7 +4860,8 @@ Q_CelloVoiceI_a = {
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -4824,7 +4897,8 @@ Q_CelloVoiceI_a = {
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                "ext. pont."                                 %! PWC1
+                \upright                                     %! PWC1
+                    "ext. pont."                             %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -4845,7 +4919,8 @@ Q_CelloVoiceI_a = {
             {                                                %! PWC1
                 \hspace                                      %! PWC1
                     #0.0                                     %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
@@ -4875,7 +4950,8 @@ Q_CelloVoiceI_a = {
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -4911,7 +4987,8 @@ Q_CelloVoiceI_a = {
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                "ext. pont."                                 %! PWC1
+                \upright                                     %! PWC1
+                    "ext. pont."                             %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -4932,7 +5009,8 @@ Q_CelloVoiceI_a = {
             {                                                %! PWC1
                 \hspace                                      %! PWC1
                     #0.0                                     %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
@@ -4987,7 +5065,8 @@ Q_CelloVoiceII_a = {
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -5023,7 +5102,8 @@ Q_CelloVoiceII_a = {
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                "ext. pont."                                 %! PWC1
+                \upright                                     %! PWC1
+                    "ext. pont."                             %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -5044,7 +5124,8 @@ Q_CelloVoiceII_a = {
             {                                                %! PWC1
                 \hspace                                      %! PWC1
                     #0.0                                     %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
@@ -5074,7 +5155,8 @@ Q_CelloVoiceII_a = {
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -5110,7 +5192,8 @@ Q_CelloVoiceII_a = {
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                "ext. pont."                                 %! PWC1
+                \upright                                     %! PWC1
+                    "ext. pont."                             %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -5131,7 +5214,8 @@ Q_CelloVoiceII_a = {
             {                                                %! PWC1
                 \hspace                                      %! PWC1
                     #0.0                                     %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
@@ -5236,7 +5320,8 @@ Q_ContrabassVoiceIII_a = {
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -5272,7 +5357,8 @@ Q_ContrabassVoiceIII_a = {
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                "ext. pont."                                 %! PWC1
+                \upright                                     %! PWC1
+                    "ext. pont."                             %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -5293,7 +5379,8 @@ Q_ContrabassVoiceIII_a = {
             {                                                %! PWC1
                 \hspace                                      %! PWC1
                     #0.0                                     %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
@@ -5323,7 +5410,8 @@ Q_ContrabassVoiceIII_a = {
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -5359,7 +5447,8 @@ Q_ContrabassVoiceIII_a = {
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
             {                                                %! PWC1
-                "ext. pont."                                 %! PWC1
+                \upright                                     %! PWC1
+                    "ext. pont."                             %! PWC1
                 \hspace                                      %! PWC1
                     #0.5                                     %! PWC1
             }                                                %! PWC1
@@ -5380,7 +5469,8 @@ Q_ContrabassVoiceIII_a = {
             {                                                %! PWC1
                 \hspace                                      %! PWC1
                     #0.0                                     %! PWC1
-                tasto                                        %! PWC1
+                \upright                                     %! PWC1
+                    tasto                                    %! PWC1
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1

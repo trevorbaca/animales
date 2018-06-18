@@ -409,8 +409,8 @@ F_ClarinetVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e''2
-    \<                                                       %! HC1
     \mp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
@@ -501,8 +501,8 @@ F_ClarinetVoiceI_b = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef''!1
-    \<                                                       %! HC1
     \mp                                                      %! HC1
+    \<                                                       %! HC1
     ^ \markup {
         \column
             {
