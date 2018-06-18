@@ -58,6 +58,13 @@ maker(
         ),
     )
 
+def swell(peak):
+    return baca.hairpin_chain(
+        baca.dynamics(f'niente {peak} niente'),
+        pieces=baca.leaves().partition_by_counts([2, 3, 1]),
+        selector=baca.leaves(),
+        )
+
 # oboes
 
 maker(
@@ -73,7 +80,7 @@ maker(
 
 maker(
     ('ob1', (1, 6)),
-    baca.hairpin_swell('f', [3, 5]),
+    swell('f'),
     )
 
 # english horn
@@ -91,7 +98,7 @@ maker(
 
 maker(
     ('eh1', (1, 6)),
-    baca.hairpin_swell('f', [3, 5]),
+    swell('f'),
     )
 
 # bassoons
@@ -116,7 +123,7 @@ maker(
 
 maker(
     ('bsn1', (1, 6)),
-    baca.only_parts(baca.hairpin_swell('f', [3, 5])),
+    baca.only_parts(swell('f')),
     )
 
 maker(
@@ -127,7 +134,7 @@ maker(
 
 maker(
     ('bsn2', (1, 6)),
-    baca.hairpin_swell('f', [3, 5]),
+    swell('f'),
     )
 
 # strings
