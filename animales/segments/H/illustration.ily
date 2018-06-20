@@ -113,7 +113,6 @@ H_GlobalSkips = {
 %%% \stopTextSpan                                                        %! SM39:-SEGMENT
     
     % [H GlobalSkips measure 51 / measure 2]                             %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
@@ -182,7 +181,6 @@ H_GlobalSkips = {
         }
     
     % [H GlobalSkips measure 53 / measure 4]                             %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
         \column
@@ -251,7 +249,6 @@ H_GlobalSkips = {
         }
     
     % [H GlobalSkips measure 55 / measure 6]                             %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
