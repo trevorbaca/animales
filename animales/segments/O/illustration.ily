@@ -135,7 +135,6 @@ O_GlobalSkips = {
         }
     
     % [O GlobalSkips measure 96 / measure 2]                             %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
         \column
@@ -204,7 +203,6 @@ O_GlobalSkips = {
         }
     
     % [O GlobalSkips measure 98 / measure 4]                             %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
@@ -238,7 +236,6 @@ O_GlobalSkips = {
         }
     
     % [O GlobalSkips measure 99 / measure 5]                             %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
@@ -307,7 +304,6 @@ O_GlobalSkips = {
         }
     
     % [O GlobalSkips measure 101 / measure 7]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
         \column
@@ -376,7 +372,6 @@ O_GlobalSkips = {
         }
     
     % [O GlobalSkips measure 103 / measure 9]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
@@ -480,7 +475,6 @@ O_GlobalSkips = {
         }
     
     % [O GlobalSkips measure 106 / measure 12]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
         \column

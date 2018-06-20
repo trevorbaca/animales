@@ -102,7 +102,6 @@ AA_GlobalSkips = {
         }
     
     % [AA GlobalSkips measure 159 / measure 2]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
@@ -136,7 +135,6 @@ AA_GlobalSkips = {
         }
     
     % [AA GlobalSkips measure 160 / measure 3]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
