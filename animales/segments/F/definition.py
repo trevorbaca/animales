@@ -237,9 +237,6 @@ maker(
         baca.pitch('Bb1', selector=baca.leaves()[1:]),
         baca.repeat_tie_to(selector=baca.leaf(1)),
         baca.markups.edition(
-            #baca.markup(warning, selector=baca.leaf(0), direction=abjad.Down),
-            #baca.markup(warning, selector=baca.leaf(0), direction=abjad.Up),
-            #selector=baca.leaf(1),
             baca.markup(warning, selector=baca.leaf(1), direction=abjad.Down),
             baca.markup(warning, selector=baca.leaf(1), direction=abjad.Up),
             ),
