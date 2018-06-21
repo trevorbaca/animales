@@ -70,107 +70,77 @@ R_GlobalSkips = {
     - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (131)                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             <0>                                          %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%             ((1))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [R.1]                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'19'']                                     %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
+%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
+%@%         (131)                                                        %! SM31:MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
+%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
+%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
+%@%         [R.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
+%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
+%@%         [4'19'']                                                     %! SM28:CLOCK_TIME_MARKUP
+%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     
     % [R GlobalSkips measure 132 / measure 2]                            %! SM4
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (132)                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             <1>                                          %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%             ((2))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [R.2]                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'22'']                                     %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
+%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
+%@%         (132)                                                        %! SM31:MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
+%@%         <1>                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
+%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%         ((2))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
+%@%         [R.2]                                                        %! SM3:STAGE_NUMBER_MARKUP
+%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
+%@%         [4'22'']                                                     %! SM28:CLOCK_TIME_MARKUP
+%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     
     % [R GlobalSkips measure 133 / measure 3]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (133)                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             <2>                                          %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%             ((3))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [R.3]                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'23'']                                     %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
+%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
+%@%         (133)                                                        %! SM31:MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
+%@%         <2>                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
+%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%         ((3))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
+%@%         [R.3]                                                        %! SM3:STAGE_NUMBER_MARKUP
+%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
+%@%         [4'23'']                                                     %! SM28:CLOCK_TIME_MARKUP
+%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
     
@@ -789,23 +759,16 @@ R_TubaVoiceI = {
     \magnifyStaff #3/5                                           %! SM41:-PARTS
     R1 * 1
     \sffz                                                        %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Tuba”)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            [“Tub.”]                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            }
-        }
+    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Tuba”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    ^ \markup {                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            [“Tub.”]                                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -860,23 +823,16 @@ R_PianoVoiceI = {
     \magnifyStaff #3/5                                           %! SM41:-PARTS
     R1 * 1
     \mf                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Piano”)                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            [“Pf.”]                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            }
-        }
+    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Piano”)                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    ^ \markup {                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            [“Pf.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -944,23 +900,16 @@ R_PercussionVoiceI = {
     \magnifyStaff #3/5                                           %! SM41:-PARTS
     R1 * 1
     \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Percussion”)                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Perc. 1 (tri.)”]"                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            }
-        }
+    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Percussion”)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    ^ \markup {                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Perc. 1 (tri.)”]"                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1036,23 +985,16 @@ R_PercussionVoiceII = {
     \magnifyStaff #3/5                                           %! SM41:-PARTS
     R1 * 1
     \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Percussion”)                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Perc. 2 (cym.)”]"                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            }
-        }
+    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Percussion”)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    ^ \markup {                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Perc. 2 (cym.)”]"                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1123,23 +1065,16 @@ R_PercussionVoiceIII = {
     \magnifyStaff #3/5                                           %! SM41:-PARTS
     R1 * 1
     \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Vibraphone”)                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Perc. 3 (vib.)”]"                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            }
-        }
+    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Vibraphone”)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    ^ \markup {                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            "[“Perc. 3 (vib.)”]"                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1204,23 +1139,16 @@ R_PercussionVoiceIV = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \magnifyStaff #3/5                                           %! SM41:-PARTS
     R1 * 1
-    ^ \markup {
-        \column
-            {
-                \line                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Percussion”)                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            [“Perc.”]                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            }
-        }
+    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Percussion”)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    ^ \markup {                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            [“Perc.”]                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1291,34 +1219,26 @@ R_FirstViolinVoiceI_a = {
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     d'16
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Violin”)                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. I (1-2)”]"           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Violin”)                                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. I (1-2)”]"                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -1450,34 +1370,26 @@ R_FirstViolinVoiceIII_a = {
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Violin”)                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. I (3-4)”]"           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Violin”)                                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. I (3-4)”]"                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -1607,34 +1519,26 @@ R_FirstViolinVoiceV_a = {
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
     \f                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Violin”)                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. I (5-6)”]"           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Violin”)                                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. I (5-6)”]"                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -1766,28 +1670,21 @@ R_FirstViolinVoiceVII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. I (7-8)”]"           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. I (7-8)”]"                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -1841,28 +1738,21 @@ R_FirstViolinVoiceVIII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceVIII measure 132 / measure 2]   %! SM4
@@ -1925,28 +1815,21 @@ R_FirstViolinVoiceIX_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. I (9-10)”]"          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. I (9-10)”]"                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -2000,28 +1883,21 @@ R_FirstViolinVoiceX_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceX measure 132 / measure 2]      %! SM4
@@ -2084,28 +1960,21 @@ R_FirstViolinVoiceXI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. I (11-12)”]"         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. I (11-12)”]"                         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -2159,28 +2028,21 @@ R_FirstViolinVoiceXII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceXII measure 132 / measure 2]    %! SM4
@@ -2243,28 +2105,21 @@ R_FirstViolinVoiceXIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. I (13-14)”]"         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. I (13-14)”]"                         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -2318,28 +2173,21 @@ R_FirstViolinVoiceXIV_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceXIV measure 132 / measure 2]    %! SM4
@@ -2402,28 +2250,21 @@ R_FirstViolinVoiceXV_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. I (15-16)”]"         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. I (15-16)”]"                         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -2477,28 +2318,21 @@ R_FirstViolinVoiceXVI_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceXVI measure 132 / measure 2]    %! SM4
@@ -2561,28 +2395,21 @@ R_FirstViolinVoiceXVII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. I (17-18)”]"         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. I (17-18)”]"                         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -2636,28 +2463,21 @@ R_FirstViolinVoiceXVIII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R FirstViolinVoiceXVIII measure 132 / measure 2]  %! SM4
@@ -2726,34 +2546,26 @@ R_SecondViolinVoiceI_a = {
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Violin”)                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. II (1-2)”]"          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Violin”)                                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. II (1-2)”]"                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -2883,34 +2695,26 @@ R_SecondViolinVoiceIII_a = {
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Violin”)                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. II (3-4)”]"          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Violin”)                                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. II (3-4)”]"                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -3048,28 +2852,21 @@ R_SecondViolinVoiceV_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. II (5-6)”]"          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. II (5-6)”]"                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -3123,28 +2920,21 @@ R_SecondViolinVoiceVI_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceVI measure 132 / measure 2]    %! SM4
@@ -3209,28 +2999,21 @@ R_SecondViolinVoiceVII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. II (7-8)”]"          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. II (7-8)”]"                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -3284,28 +3067,21 @@ R_SecondViolinVoiceVIII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceVIII measure 132 / measure 2]  %! SM4
@@ -3368,28 +3144,21 @@ R_SecondViolinVoiceIX_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. II (9-10)”]"         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. II (9-10)”]"                         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -3443,28 +3212,21 @@ R_SecondViolinVoiceX_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceX measure 132 / measure 2]     %! SM4
@@ -3527,28 +3289,21 @@ R_SecondViolinVoiceXI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. II (11-12)”]"        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. II (11-12)”]"                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -3602,28 +3357,21 @@ R_SecondViolinVoiceXII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceXII measure 132 / measure 2]   %! SM4
@@ -3698,28 +3446,21 @@ R_SecondViolinVoiceXIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. II (13-14)”]"        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. II (13-14)”]"                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -3773,28 +3514,21 @@ R_SecondViolinVoiceXIV_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceXIV measure 132 / measure 2]   %! SM4
@@ -3857,28 +3591,21 @@ R_SecondViolinVoiceXV_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. II (15-16)”]"        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. II (15-16)”]"                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -3932,28 +3659,21 @@ R_SecondViolinVoiceXVI_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceXVI measure 132 / measure 2]   %! SM4
@@ -4016,28 +3736,21 @@ R_SecondViolinVoiceXVII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vni. II (17-18)”]"        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vni. II (17-18)”]"                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -4091,28 +3804,21 @@ R_SecondViolinVoiceXVIII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Violin”)                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Violin”)                                   %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R SecondViolinVoiceXVIII measure 132 / measure 2] %! SM4
@@ -4177,34 +3883,26 @@ R_ViolaVoiceI_a = {
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Viola”)                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vle. (1-2)”]"             %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Viola”)                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vle. (1-2)”]"                             %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -4334,34 +4032,26 @@ R_ViolaVoiceIII_a = {
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Viola”)                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vle. (3-4)”]"             %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Viola”)                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vle. (3-4)”]"                             %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -4489,28 +4179,21 @@ R_ViolaVoiceV_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vle. (5-6)”]"             %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vle. (5-6)”]"                             %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -4564,28 +4247,21 @@ R_ViolaVoiceVI_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r2
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Viola”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     r8
@@ -4658,28 +4334,21 @@ R_ViolaVoiceVII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vle. (7-8)”]"             %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vle. (7-8)”]"                             %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -4733,28 +4402,21 @@ R_ViolaVoiceVIII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Viola”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R ViolaVoiceVIII measure 132 / measure 2]         %! SM4
@@ -4817,28 +4479,21 @@ R_ViolaVoiceIX_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vle. (9-10)”]"            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vle. (9-10)”]"                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -4892,28 +4547,21 @@ R_ViolaVoiceX_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Viola”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R ViolaVoiceX measure 132 / measure 2]            %! SM4
@@ -4976,28 +4624,21 @@ R_ViolaVoiceXI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vle. (11-12)”]"           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vle. (11-12)”]"                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -5051,28 +4692,21 @@ R_ViolaVoiceXII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r2
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Viola”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \times 2/3 {
         
@@ -5143,28 +4777,21 @@ R_ViolaVoiceXIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vle. (13-14)”]"           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vle. (13-14)”]"                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -5218,28 +4845,21 @@ R_ViolaVoiceXIV_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Viola”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R ViolaVoiceXIV measure 132 / measure 2]          %! SM4
@@ -5302,28 +4922,21 @@ R_ViolaVoiceXV_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r4.
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vle. (15-16)”]"           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vle. (15-16)”]"                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -5383,28 +4996,21 @@ R_ViolaVoiceXVI_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Viola”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R ViolaVoiceXVI measure 132 / measure 2]          %! SM4
@@ -5467,28 +5073,21 @@ R_ViolaVoiceXVII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vle. (17-18)”]"           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vle. (17-18)”]"                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -5542,28 +5141,21 @@ R_ViolaVoiceXVIII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r4
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Viola”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Viola”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     b16
@@ -5634,34 +5226,26 @@ R_CelloVoiceI_a = {
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Cello”)                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vc. (1-2)”]"              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Cello”)                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vc. (1-2)”]"                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -5789,28 +5373,21 @@ R_CelloVoiceIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vc. (3-4)”]"              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vc. (3-4)”]"                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -5864,28 +5441,21 @@ R_CelloVoiceIV_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Cello”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R CelloVoiceIV measure 132 / measure 2]           %! SM4
@@ -5948,28 +5518,21 @@ R_CelloVoiceV_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vc. (5-6)”]"              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vc. (5-6)”]"                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -6025,28 +5588,21 @@ R_CelloVoiceVI_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Cello”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R CelloVoiceVI measure 132 / measure 2]           %! SM4
@@ -6109,28 +5665,21 @@ R_CelloVoiceVII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vc. (7-8)”]"              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vc. (7-8)”]"                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -6184,28 +5733,21 @@ R_CelloVoiceVIII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Cello”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R CelloVoiceVIII measure 132 / measure 2]         %! SM4
@@ -6268,28 +5810,21 @@ R_CelloVoiceIX_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vc. (9-10)”]"             %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vc. (9-10)”]"                             %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -6343,28 +5878,21 @@ R_CelloVoiceX_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Cello”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R CelloVoiceX measure 132 / measure 2]            %! SM4
@@ -6427,28 +5955,21 @@ R_CelloVoiceXI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vc. (11-12)”]"            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vc. (11-12)”]"                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -6506,28 +6027,21 @@ R_CelloVoiceXII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Cello”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R CelloVoiceXII measure 132 / measure 2]          %! SM4
@@ -6590,28 +6104,21 @@ R_CelloVoiceXIII_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Vc. (13-14)”]"            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Vc. (13-14)”]"                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -6665,28 +6172,21 @@ R_CelloVoiceXIV_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Cello”)                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Cello”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R CelloVoiceXIV measure 132 / measure 2]          %! SM4
@@ -6751,34 +6251,26 @@ R_ContrabassVoiceI_a = {
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
     \mf                                                  %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Contrabass”)               %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Cb. (1-2)”]"              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Contrabass”)                               %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Cb. (1-2)”]"                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -6906,34 +6398,26 @@ R_ContrabassVoiceIII_a = {
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Contrabass”)               %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Cb. (3-4)”]"              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+    ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Contrabass”)                               %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Cb. (3-4)”]"                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -7059,28 +6543,21 @@ R_ContrabassVoiceV_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \magnifyStaff #3/5                                   %! SM41:-PARTS
     r1
-    ^ \markup {
-        \column
-            {
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-                \line                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    {                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                        \with-color                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            #(x11-color 'blue)           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                            "[“Cb. (5-6)”]"              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-                    }                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-            }
-        }
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
+    ^ \markup {                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        \with-color                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            #(x11-color 'blue)                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+            "[“Cb. (5-6)”]"                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
+        }                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -7134,28 +6611,21 @@ R_ContrabassVoiceVI_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                           %! SM8:EXPLICIT_CLEF:SM33:IC
     r1
-    ^ \markup {
-        \column
-            {
-                \line                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    {                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                        \with-color                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            #(x11-color 'DarkViolet)     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“Contrabass”)               %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                    }                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            %%% \line                                    %! IC:+PARTS
-            %%%     {                                    %! IC:+PARTS
-            %%%         \override                        %! IC:+PARTS
-            %%%             #'(box-padding . 0.5)        %! IC:+PARTS
-            %%%             \box                         %! IC:+PARTS
-            %%%                 \column                  %! IC:+PARTS
-            %%%                     {                    %! IC:+PARTS
-            %%%                         "col legno battuti: damp G string with LH; then" %! IC:+PARTS
-            %%%                         "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
-            %%%                     }                    %! IC:+PARTS
-            %%%     }                                    %! IC:+PARTS
-            }
-        }
+    ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Contrabass”)                               %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+%%% ^ \markup {                                          %! IC:+PARTS
+%%%     \override                                        %! IC:+PARTS
+%%%         #'(box-padding . 0.5)                        %! IC:+PARTS
+%%%         \box                                         %! IC:+PARTS
+%%%             \column                                  %! IC:+PARTS
+%%%                 {                                    %! IC:+PARTS
+%%%                     "col legno battuti: damp G string with LH; then" %! IC:+PARTS
+%%%                     "tap G string with wood of bow in rhythm indicated." %! IC:+PARTS
+%%%                 }                                    %! IC:+PARTS
+%%%     }                                                %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [R ContrabassVoiceVI measure 132 / measure 2]      %! SM4
