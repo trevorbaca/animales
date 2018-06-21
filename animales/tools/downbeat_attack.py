@@ -109,23 +109,16 @@ def downbeat_attack(count=1, denominator=8):
                                 %@% \override Staff.Clef.color = ##f                                 %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
                                     \set Staff.forceClef = ##t                                       %! SM8:DEFAULT_CLEF:SM33:ST3
                                     a8
-                                    ^ \markup {
-                                        \column
-                                            {
-                                                \line                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                                                    {                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                                                        \with-color                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                                                            #(x11-color 'DarkViolet)                 %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                                                            (FrenchHorn)                             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                                                    }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                                                \line                                                %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                                                    {                                                %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                                                        \with-color                                  %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                                                            #(x11-color 'DarkViolet)                 %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                                                            [“Hn.”]                                  %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                                                    }                                                %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                                            }
-                                        }
+                                    ^ \markup {                                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                                        \with-color                                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                                            #(x11-color 'DarkViolet)                                 %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                                            (FrenchHorn)                                             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                                        }                                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                                    ^ \markup {                                                      %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                                        \with-color                                                  %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                                            #(x11-color 'DarkViolet)                                 %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                                            [“Hn.”]                                                  %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+                                        }                                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
                                     \override Staff.InstrumentName.color = #(x11-color 'violet)      %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
                                     \set Staff.instrumentName =                                      %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
                                     \markup {                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
