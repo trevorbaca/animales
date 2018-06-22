@@ -67,7 +67,7 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.metronome_mark(abjad.Ritardando()),
+    baca.metronome_mark(baca.Ritardando()),
     baca.rehearsal_mark('J'),
     baca.tag(
         '+TABLOID_SCORE',
