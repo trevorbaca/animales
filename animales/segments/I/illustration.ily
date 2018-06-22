@@ -1019,8 +1019,8 @@ I_TrumpetVoiceIII_a = {
     
     a'8
 %@% ~                                                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
-    \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ]
+    \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     
 }
 

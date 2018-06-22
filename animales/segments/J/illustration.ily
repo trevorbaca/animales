@@ -1252,8 +1252,8 @@ J_TromboneVoiceI_a = {
     \dynamicUp                                           %! IC:-PARTS
     \voiceOne                                            %! IC:-PARTS
     af!8
-    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     [
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
