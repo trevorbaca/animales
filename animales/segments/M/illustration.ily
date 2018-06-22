@@ -293,9 +293,9 @@ M_FluteVoiceI_a = {
         % [M FluteVoiceI measure 83 / measure 2]         %! SM4
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2:+PARTS
         g''8
+        [
     %%% \mf                                              %! HC1:+PARTS
     %%% \<                                               %! HC1:+PARTS
-        [
         (                                                %! SC
         
         af''!8
@@ -353,8 +353,8 @@ M_FluteVoiceI_a = {
         
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3:+PARTS
         c'''8
-    %%% \ff                                              %! HC1:+PARTS
         ]
+    %%% \ff                                              %! HC1:+PARTS
         )                                                %! SC
     }
     
@@ -388,9 +388,9 @@ M_FluteVoiceIII_a = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f''16
+    [
     \mf                                                  %! HC1
     \<                                                   %! HC1
-    [
     (                                                    %! SC
     
     fs''!16
@@ -460,8 +460,8 @@ M_FluteVoiceIII_a = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         bf''!8
-        \ff                                              %! HC1
         ]
+        \ff                                              %! HC1
         )                                                %! SC
     }
     
@@ -551,9 +551,9 @@ M_FluteVoiceII_a = {
         
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2:+PARTS
         ef''!8
+        [
     %%% \mf                                              %! HC1:+PARTS
     %%% \<                                               %! HC1:+PARTS
-        [
         (                                                %! SC
         
         e''8
@@ -633,8 +633,8 @@ M_FluteVoiceII_a = {
     
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3:+PARTS
     af''!16
-%%% \ff                                                  %! HC1:+PARTS
     ]
+%%% \ff                                                  %! HC1:+PARTS
     )                                                    %! SC
     
     % [M FluteVoiceII measure 85 / measure 4]            %! SM4
@@ -660,9 +660,9 @@ M_FluteVoiceIV_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''16
+    [
     \mf                                                  %! HC1
     \<                                                   %! HC1
-    [
     (                                                    %! SC
     ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -758,8 +758,8 @@ M_FluteVoiceIV_a = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     bf''!16
-    \ff                                                  %! HC1
     ]
+    \ff                                                  %! HC1
     )                                                    %! SC
     
     % [M FluteVoiceIV measure 85 / measure 4]            %! SM4
@@ -1526,8 +1526,8 @@ M_FirstViolinVoiceIII_a = {
     \glissando                                               %! SC
     
     d''8
-    \glissando                                               %! SC
     [
+    \glissando                                               %! SC
     
     c'''8
     \glissando                                               %! SC

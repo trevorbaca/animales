@@ -565,8 +565,8 @@ D_FirstViolinVoiceII_a = {
 %%% \stopTrillSpan                                       %! IC:+PARTS
     
     g'''8
-    \glissando                                           %! SC
     [
+    \glissando                                           %! SC
     
     c'''8
     ]
@@ -579,8 +579,8 @@ D_FirstViolinVoiceII_a = {
     \glissando                                           %! SC
     
     f''8
-    \glissando                                           %! SC
     [
+    \glissando                                           %! SC
     
     e'''8
     ]
@@ -591,8 +591,8 @@ D_FirstViolinVoiceII_a = {
     
     % [D FirstViolinVoiceII measure 26 / measure 3]      %! SM4
     f'''8
-    \glissando                                           %! SC
     [
+    \glissando                                           %! SC
     
     c''8
     \glissando                                           %! SC
@@ -609,8 +609,8 @@ D_FirstViolinVoiceII_a = {
     
     % [D FirstViolinVoiceII measure 27 / measure 4]      %! SM4
     g'8
-    \glissando                                           %! SC
     [
+    \glissando                                           %! SC
     
     f''8
     ]
@@ -630,8 +630,8 @@ D_FirstViolinVoiceII_a = {
     \glissando                                           %! SC
     
     c'''8
-    \glissando                                           %! SC
     [
+    \glissando                                           %! SC
     
     a'''8
     \glissando                                           %! SC
@@ -651,13 +651,13 @@ D_FirstViolinVoiceII_a = {
     \glissando                                           %! SC
     
     f'''8
-    \glissando                                           %! SC
     [
+    \glissando                                           %! SC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     b8
-    \p                                                   %! HC1
     ]
+    \p                                                   %! HC1
     \revert DynamicLineSpanner.direction                 %! OC2:-PARTS
     
 }

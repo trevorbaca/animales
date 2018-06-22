@@ -323,9 +323,9 @@ N_FluteVoiceI_a = {
         
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2:+PARTS
         g''8
+        [
     %%% \mf                                              %! HC1:+PARTS
     %%% \<                                               %! HC1:+PARTS
-        [
         (                                                %! SC
         
         af''!8
@@ -395,8 +395,8 @@ N_FluteVoiceI_a = {
     
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3:+PARTS
     c'''16
-%%% \ff                                                  %! HC1:+PARTS
     ]
+%%% \ff                                                  %! HC1:+PARTS
     )                                                    %! SC
     
     % [N FluteVoiceI measure 91 / measure 4]             %! SM4
@@ -440,9 +440,9 @@ N_FluteVoiceIII_a = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f''16
+    [
     \mf                                                  %! HC1
     \<                                                   %! HC1
-    [
     (                                                    %! SC
     
     fs''!16
@@ -522,8 +522,8 @@ N_FluteVoiceIII_a = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         bf''!8
-        \ff                                              %! HC1
         ]
+        \ff                                              %! HC1
         )                                                %! SC
     }
     
@@ -624,9 +624,9 @@ N_FluteVoiceII_a = {
         
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2:+PARTS
         ef''!8
+        [
     %%% \mf                                              %! HC1:+PARTS
     %%% \<                                               %! HC1:+PARTS
-        [
         (                                                %! SC
         
         e''8
@@ -715,8 +715,8 @@ N_FluteVoiceII_a = {
         
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3:+PARTS
         c'''8
-    %%% \ff                                              %! HC1:+PARTS
         ]
+    %%% \ff                                              %! HC1:+PARTS
         )                                                %! SC
     }
     
@@ -752,9 +752,9 @@ N_FluteVoiceIV_a = {
     \voiceTwo                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''16
+    [
     \mf                                                  %! HC1
     \<                                                   %! HC1
-    [
     (                                                    %! SC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -860,8 +860,8 @@ N_FluteVoiceIV_a = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     b''16
-    \ff                                                  %! HC1
     ]
+    \ff                                                  %! HC1
     )                                                    %! SC
     
     % [N FluteVoiceIV measure 91 / measure 4]            %! SM4
@@ -1576,8 +1576,8 @@ N_FirstViolinVoiceII_a = {
 %%% \stopTrillSpan                                           %! IC:+PARTS
     
     e'''8
-    \glissando                                               %! SC
     [
+    \glissando                                               %! SC
     
     a''8
     ]
@@ -1590,8 +1590,8 @@ N_FirstViolinVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d''8
     \ff                                                      %! HC1
-    \glissando                                               %! SC
     [
+    \glissando                                               %! SC
     
     c'''8
     \glissando                                               %! SC
@@ -1611,8 +1611,8 @@ N_FirstViolinVoiceII_a = {
     \glissando                                               %! SC
     
     g''8
-    \glissando                                               %! SC
     [
+    \glissando                                               %! SC
     
     b'8
     ]

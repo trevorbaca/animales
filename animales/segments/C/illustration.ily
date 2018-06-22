@@ -1445,8 +1445,8 @@ C_FirstViolinVoiceII_a = {
 %%% \stopTrillSpan                                       %! IC:+PARTS
     
     b'8
-    \glissando                                           %! SC
     [
+    \glissando                                           %! SC
     
     g''8
     ]
@@ -1459,8 +1459,8 @@ C_FirstViolinVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d'''8
     \f                                                   %! HC1
-    \glissando                                           %! SC
     [
+    \glissando                                           %! SC
     
     e''8
     ]
@@ -1470,8 +1470,8 @@ C_FirstViolinVoiceII_a = {
     \glissando                                           %! SC
     
     d''8
-    \glissando                                           %! SC
     [
+    \glissando                                           %! SC
     
     g'''8
     ]
@@ -1479,8 +1479,8 @@ C_FirstViolinVoiceII_a = {
     
     % [C FirstViolinVoiceII measure 22 / measure 5]      %! SM4
     c'''8
-    \glissando                                           %! SC
     [
+    \glissando                                           %! SC
     
     f'''8
     ]
@@ -1490,8 +1490,8 @@ C_FirstViolinVoiceII_a = {
     \glissando                                           %! SC
     
     b'''8
-    \glissando                                           %! SC
     [
+    \glissando                                           %! SC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d'''8
