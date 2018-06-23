@@ -30,6 +30,27 @@ H_GlobalSkips = {
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'green4)     %! SM6:REAPPLIED_TIME_SIGNATURE_COLOR:SM38:SM1
     s1 * 1
+%%% \stopTextSpan                                                        %! SM39:-SEGMENT
+%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
+%@%         (50)                                                         %! SM31:MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
+%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
+%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
+%@%         [H.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
+%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
+%@%         [1'39'']                                                     %! SM28:CLOCK_TIME_MARKUP
+%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
 %@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
@@ -80,27 +101,6 @@ H_GlobalSkips = {
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
 %@% \stopTextSpan                                                        %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SM29:METRONOME_MARK_SPANNER
-%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
-%@%         (50)                                                         %! SM31:MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
-%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
-%@%         [H.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
-%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
-%@%         [1'39'']                                                     %! SM28:CLOCK_TIME_MARKUP
-%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
-%%% \stopTextSpan                                                        %! SM39:-SEGMENT
     
     % [H GlobalSkips measure 51 / measure 2]                             %! SM4
     s1 * 1
@@ -200,7 +200,6 @@ H_GlobalSkips = {
     
     % [H GlobalSkips measure 55 / measure 6]                             %! SM4
     s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@%         (55)                                                         %! SM31:MEASURE_NUMBER_MARKUP
@@ -221,6 +220,7 @@ H_GlobalSkips = {
 %@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
 %@%         [1'48'']                                                     %! SM28:CLOCK_TIME_MARKUP
 %@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
 %%% \revert TextSpanner.bound-details.left.padding                       %! OC2:+TABLOID_SCORE
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
@@ -257,7 +257,6 @@ H_ClarinetVoiceI_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     g''1
-    \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -268,6 +267,7 @@ H_ClarinetVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Cl. 1”]"                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -358,8 +358,6 @@ H_BassClarinetVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     b1
-%@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
-    \p                                                       %! HC1
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -370,6 +368,8 @@ H_BassClarinetVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“B. cl.”]"                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+%@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
+    \p                                                       %! HC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -653,7 +653,6 @@ H_PercussionVoiceII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     R1 * 1
-    \!                                                       %! HC1
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -664,6 +663,7 @@ H_PercussionVoiceII_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Perc. 2 (cym.)”]"                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    \!                                                       %! HC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -847,7 +847,6 @@ H_FirstViolinVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \pitchedTrill                                            %! SC
     af!1
-    \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -858,6 +857,7 @@ H_FirstViolinVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Vni. I”]"                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     \startTrillSpan bf                                       %! SC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -886,7 +886,6 @@ H_FirstViolinVoiceI_a = {
     
     % [H FirstViolinVoiceI measure 53 / measure 4]           %! SM4
     R1 * 3/4
-    \stopTrillSpan                                           %! SC
 %%% ^ \markup {                                              %! IC:+PARTS
 %%%     \override                                            %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                            %! IC:+PARTS
@@ -908,6 +907,7 @@ H_FirstViolinVoiceI_a = {
                         "las. vib. poss."                    %! IC:-PARTS
                     }                                        %! IC:-PARTS
         }                                                    %! IC:-PARTS
+    \stopTrillSpan                                           %! SC
     
     % [H FirstViolinVoiceI measure 54 / measure 5]           %! SM4
     R1 * 1
@@ -951,7 +951,6 @@ H_SecondViolinVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \pitchedTrill                                            %! SC
     af!1
-    \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -962,6 +961,7 @@ H_SecondViolinVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Vni. II”]"                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     \startTrillSpan bf                                       %! SC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -990,7 +990,6 @@ H_SecondViolinVoiceI_a = {
     
     % [H SecondViolinVoiceI measure 53 / measure 4]          %! SM4
     R1 * 3/4
-    \stopTrillSpan                                           %! SC
 %%% ^ \markup {                                              %! IC:+PARTS
 %%%     \override                                            %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                            %! IC:+PARTS
@@ -1001,6 +1000,7 @@ H_SecondViolinVoiceI_a = {
 %%%                     "las. vib. poss."                    %! IC:+PARTS
 %%%                 }                                        %! IC:+PARTS
 %%%     }                                                    %! IC:+PARTS
+    \stopTrillSpan                                           %! SC
     
     % [H SecondViolinVoiceI measure 54 / measure 5]          %! SM4
     R1 * 1
@@ -1044,7 +1044,6 @@ H_ViolaVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \pitchedTrill                                            %! SC
     af!1
-    \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1055,6 +1054,7 @@ H_ViolaVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Vle.”]                                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     \startTrillSpan bf                                       %! SC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -1083,7 +1083,6 @@ H_ViolaVoiceI_a = {
     
     % [H ViolaVoiceI measure 53 / measure 4]                 %! SM4
     R1 * 3/4
-    \stopTrillSpan                                           %! SC
 %%% ^ \markup {                                              %! IC:+PARTS
 %%%     \override                                            %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                            %! IC:+PARTS
@@ -1094,6 +1093,7 @@ H_ViolaVoiceI_a = {
 %%%                     "las. vib. poss."                    %! IC:+PARTS
 %%%                 }                                        %! IC:+PARTS
 %%%     }                                                    %! IC:+PARTS
+    \stopTrillSpan                                           %! SC
     
     % [H ViolaVoiceI measure 54 / measure 5]                 %! SM4
     R1 * 1
@@ -1137,7 +1137,6 @@ H_CelloVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \pitchedTrill                                            %! SC
     af!1
-    \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1148,6 +1147,7 @@ H_CelloVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Vc.”]                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     \startTrillSpan bf                                       %! SC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -1176,7 +1176,6 @@ H_CelloVoiceI_a = {
     
     % [H CelloVoiceI measure 53 / measure 4]                 %! SM4
     R1 * 3/4
-    \stopTrillSpan                                           %! SC
 %%% ^ \markup {                                              %! IC:+PARTS
 %%%     \override                                            %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                            %! IC:+PARTS
@@ -1187,6 +1186,7 @@ H_CelloVoiceI_a = {
 %%%                     "las. vib. poss."                    %! IC:+PARTS
 %%%                 }                                        %! IC:+PARTS
 %%%     }                                                    %! IC:+PARTS
+    \stopTrillSpan                                           %! SC
     
     % [H CelloVoiceI measure 54 / measure 5]                 %! SM4
     R1 * 1
@@ -1351,7 +1351,6 @@ H_ContrabassVoiceIII_a = {
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     af,!1
-    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1362,6 +1361,7 @@ H_ContrabassVoiceIII_a = {
             #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Cb. (2-6)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37

@@ -54,6 +54,26 @@ O_GlobalSkips = {
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
+%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
+%@%         (95)                                                         %! SM31:MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
+%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
+%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
+%@%         [O.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
+%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
+%@%         [3'10'']                                                     %! SM28:CLOCK_TIME_MARKUP
+%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
 %@% - \tweak bound-details.left.text \markup {                           %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
 %@%     \fontsize                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
@@ -103,26 +123,6 @@ O_GlobalSkips = {
     - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
-%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
-%@%         (95)                                                         %! SM31:MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
-%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
-%@%         [O.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
-%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
-%@%         [3'10'']                                                     %! SM28:CLOCK_TIME_MARKUP
-%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     
     % [O GlobalSkips measure 96 / measure 2]                             %! SM4
     s1 * 3/4
@@ -416,7 +416,6 @@ O_GlobalSkips = {
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@%         (108)                                                        %! SM31:MEASURE_NUMBER_MARKUP
@@ -437,6 +436,7 @@ O_GlobalSkips = {
 %@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
 %@%         [3'33'']                                                     %! SM28:CLOCK_TIME_MARKUP
 %@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
     
@@ -465,8 +465,6 @@ O_OboeVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     a'2.
-    - \tweak circled-tip ##t                             %! PWC1
-    \<                                                   %! PWC1
     ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -477,6 +475,8 @@ O_OboeVoiceI_a = {
             #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
             [“Ob.”]                                      %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
         }                                                %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+    - \tweak circled-tip ##t                             %! PWC1
+    \<                                                   %! PWC1
     \override Staff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \set Staff.instrumentName =                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     \markup {                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
@@ -577,8 +577,6 @@ O_EnglishHornVoiceI_a = {
     \set Staff.forceClef = ##t                           %! SM8:DEFAULT_CLEF:SM33:ST3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     d'2.
-    - \tweak circled-tip ##t                             %! PWC1
-    \<                                                   %! PWC1
     ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -589,6 +587,8 @@ O_EnglishHornVoiceI_a = {
             #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
             "[“Eng. hn.”]"                               %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
         }                                                %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+    - \tweak circled-tip ##t                             %! PWC1
+    \<                                                   %! PWC1
     \override Staff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \set Staff.instrumentName =                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     \markup {                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
@@ -757,8 +757,6 @@ O_BassoonVoiceII_a = {
     \voiceTwo                                                %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     g,2.
-    - \tweak circled-tip ##t                                 %! PWC1
-    \<                                                       %! PWC1
     ^ \markup {                                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         \with-color                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             #(x11-color 'DarkViolet)                         %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -769,6 +767,8 @@ O_BassoonVoiceII_a = {
             #(x11-color 'DarkViolet)                         %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
             [“Bsn.”]                                         %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
         }                                                    %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
+    - \tweak circled-tip ##t                                 %! PWC1
+    \<                                                       %! PWC1
     \override Staff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \set Staff.instrumentName =                              %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     \markup {                                                %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
