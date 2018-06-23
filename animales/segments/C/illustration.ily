@@ -28,6 +28,26 @@ C_GlobalSkips = {
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
+%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
+%@%         (18)                                                         %! SM31:MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
+%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
+%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
+%@%         [C.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
+%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
+%@%         [0'29'']                                                     %! SM28:CLOCK_TIME_MARKUP
+%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
 %@% - \tweak bound-details.left.text \markup {                           %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
 %@%     \fontsize                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
@@ -77,26 +97,6 @@ C_GlobalSkips = {
     - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
-%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
-%@%         (18)                                                         %! SM31:MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
-%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
-%@%         [C.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
-%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
-%@%         [0'29'']                                                     %! SM28:CLOCK_TIME_MARKUP
-%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     
     % [C GlobalSkips measure 19 / measure 2]                             %! SM4
     s1 * 1
@@ -196,7 +196,6 @@ C_GlobalSkips = {
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@%         (23)                                                         %! SM31:MEASURE_NUMBER_MARKUP
@@ -217,6 +216,7 @@ C_GlobalSkips = {
 %@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
 %@%         [0'39'']                                                     %! SM28:CLOCK_TIME_MARKUP
 %@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
     
@@ -291,10 +291,10 @@ C_ClarinetVoiceI_a = {
     % [C ClarinetVoiceI measure 20 / measure 3]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''1
-    \mp                                                      %! HC1
-    \<                                                       %! HC1
     ^ \markup { "solo (cl. 3)" }                             %! IC:-PARTS
 %%% ^ \markup { solo }                                       %! IC:+PARTS
+    \mp                                                      %! HC1
+    \<                                                       %! HC1
     
     % [C ClarinetVoiceI measure 21 / measure 4]              %! SM4
     d''1
@@ -1437,12 +1437,12 @@ C_FirstViolinVoiceII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     c''2
+%%% \stopTrillSpan                                       %! IC:+PARTS
+    ^ \markup { "solo (first violin)" }                  %! IC:-PARTS
+%%% ^ \markup { solo }                                   %! IC:+PARTS
     \glissando                                           %! SC
     \p                                                   %! HC1
     \<                                                   %! HC1
-    ^ \markup { "solo (first violin)" }                  %! IC:-PARTS
-%%% ^ \markup { solo }                                   %! IC:+PARTS
-%%% \stopTrillSpan                                       %! IC:+PARTS
     
     b'8
     [
@@ -1608,7 +1608,6 @@ C_FirstViolinVoiceI_b = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
-    \stopTrillSpan                                       %! SC
 %%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
     _ \markup {                                          %! IC:-PARTS
         \override                                        %! IC:-PARTS
@@ -1620,6 +1619,7 @@ C_FirstViolinVoiceI_b = {
                         "still (non vibrato)"            %! IC:-PARTS
                     }                                    %! IC:-PARTS
         }                                                %! IC:-PARTS
+    \stopTrillSpan                                       %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [C FirstViolinVoiceI measure 21 / measure 4]       %! SM4
@@ -1729,8 +1729,8 @@ C_FirstViolinVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
-    \stopTrillSpan                                       %! SC
 %%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
+    \stopTrillSpan                                       %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [C FirstViolinVoiceIII measure 21 / measure 4]     %! SM4
@@ -1837,8 +1837,8 @@ C_SecondViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
-    \stopTrillSpan                                       %! SC
 %%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
+    \stopTrillSpan                                       %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [C SecondViolinVoiceI measure 21 / measure 4]      %! SM4
@@ -1942,8 +1942,8 @@ C_SecondViolinVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
-    \stopTrillSpan                                       %! SC
 %%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
+    \stopTrillSpan                                       %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [C SecondViolinVoiceIII measure 21 / measure 4]    %! SM4
@@ -2054,8 +2054,8 @@ C_ViolaVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
-    \stopTrillSpan                                       %! SC
 %%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
+    \stopTrillSpan                                       %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [C ViolaVoiceI measure 21 / measure 4]             %! SM4
@@ -2163,8 +2163,8 @@ C_ViolaVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
-    \stopTrillSpan                                       %! SC
 %%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
+    \stopTrillSpan                                       %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
     
     % [C ViolaVoiceIII measure 21 / measure 4]           %! SM4
@@ -2255,8 +2255,8 @@ C_CelloVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \p_sub                                                   %! SM8:EXPLICIT_DYNAMIC:IC
-    \stopTrillSpan                                           %! SC
 %%% ^ \markup { "still (non vibrato)" }                      %! IC:+PARTS
+    \stopTrillSpan                                           %! SC
     \revert TrillSpanner.staff-padding                       %! OC2
     
     % [C CelloVoiceI measure 21 / measure 4]                 %! SM4
