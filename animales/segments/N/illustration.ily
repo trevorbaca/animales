@@ -324,9 +324,9 @@ N_FluteVoiceI_a = {
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS:BACA_HAIRPIN
         g''8
     %%% \mf                                              %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS:BACA_HAIRPIN
+    %%% \<                                               %! IC:+PARTS:BACA_HAIRPIN
         [
         (                                                %! SC
-    %%% \<                                               %! IC:+PARTS:BACA_HAIRPIN
         
         af''!8
         
@@ -441,9 +441,9 @@ N_FluteVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f''16
     \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \<                                                   %! IC:BACA_HAIRPIN
     [
     (                                                    %! SC
-    \<                                                   %! IC:BACA_HAIRPIN
     
     fs''!16
     
@@ -625,9 +625,9 @@ N_FluteVoiceII_a = {
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS:BACA_HAIRPIN
         ef''!8
     %%% \mf                                              %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS:BACA_HAIRPIN
+    %%% \<                                               %! IC:+PARTS:BACA_HAIRPIN
         [
         (                                                %! SC
-    %%% \<                                               %! IC:+PARTS:BACA_HAIRPIN
         
         e''8
         
@@ -758,9 +758,9 @@ N_FluteVoiceIV_a = {
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Flute”)                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    \<                                                   %! IC:BACA_HAIRPIN
     [
     (                                                    %! SC
-    \<                                                   %! IC:BACA_HAIRPIN
     
     ef''!16
     
@@ -931,9 +931,9 @@ N_BassClarinetVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“B. cl.”]"                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-%@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
     \>                                                       %! IC:BACA_HAIRPIN
+%@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1575,8 +1575,8 @@ N_FirstViolinVoiceII_a = {
     g'4
 %%% \stopTrillSpan                                           %! IC:+PARTS
     \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
-    \glissando                                               %! SC
     \<                                                       %! IC:BACA_HAIRPIN
+    \glissando                                               %! SC
     
     e'''8
     [
@@ -1687,8 +1687,8 @@ N_FirstViolinVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Vni. I”]"                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \startTrillSpan af                                       %! SC
     \<                                                       %! IC:BACA_HAIRPIN
+    \startTrillSpan af
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1793,8 +1793,8 @@ N_SecondViolinVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Vni. II”]"                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \startTrillSpan af                                       %! SC
     \<                                                       %! IC:BACA_HAIRPIN
+    \startTrillSpan af
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1897,8 +1897,8 @@ N_ViolaVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Vle.”]                                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \startTrillSpan af                                       %! SC
     \<                                                       %! IC:BACA_HAIRPIN
+    \startTrillSpan af
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2001,8 +2001,8 @@ N_CelloVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Vc.”]                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \startTrillSpan af                                       %! SC
     \<                                                       %! IC:BACA_HAIRPIN
+    \startTrillSpan af
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37

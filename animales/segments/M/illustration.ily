@@ -294,9 +294,9 @@ M_FluteVoiceI_a = {
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS:BACA_HAIRPIN
         g''8
     %%% \mf                                              %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS:BACA_HAIRPIN
+    %%% \<                                               %! IC:+PARTS:BACA_HAIRPIN
         [
         (                                                %! SC
-    %%% \<                                               %! IC:+PARTS:BACA_HAIRPIN
         
         af''!8
         
@@ -389,9 +389,9 @@ M_FluteVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f''16
     \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \<                                                   %! IC:BACA_HAIRPIN
     [
     (                                                    %! SC
-    \<                                                   %! IC:BACA_HAIRPIN
     
     fs''!16
     
@@ -552,9 +552,9 @@ M_FluteVoiceII_a = {
     %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS:BACA_HAIRPIN
         ef''!8
     %%% \mf                                              %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS:BACA_HAIRPIN
+    %%% \<                                               %! IC:+PARTS:BACA_HAIRPIN
         [
         (                                                %! SC
-    %%% \<                                               %! IC:+PARTS:BACA_HAIRPIN
         
         e''8
         
@@ -666,9 +666,9 @@ M_FluteVoiceIV_a = {
             #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             (“Flute”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    \<                                                   %! IC:BACA_HAIRPIN
     [
     (                                                    %! SC
-    \<                                                   %! IC:BACA_HAIRPIN
     
     ef''!16
     
@@ -1510,8 +1510,8 @@ M_FirstViolinVoiceIII_a = {
     \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { "solo (first violin)" }                      %! IC:-PARTS
 %%% ^ \markup { solo }                                       %! IC:+PARTS
-    \glissando                                               %! SC
     \<                                                       %! IC:BACA_HAIRPIN
+    \glissando                                               %! SC
     
     e'''8
     \glissando                                               %! SC
@@ -1542,8 +1542,8 @@ M_FirstViolinVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a'4
     \ff                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
-    \glissando                                               %! SC
     \>                                                       %! IC:BACA_HAIRPIN
+    \glissando                                               %! SC
     
     % [M FirstViolinVoiceIII measure 84 / measure 3]         %! SM4
     g''4.
@@ -1605,7 +1605,7 @@ M_FirstViolinVoiceI_a = {
             "[“Vni. I”]"                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    \startTrillSpan af                                       %! SC
+    \startTrillSpan af
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1700,7 +1700,7 @@ M_SecondViolinVoiceI_a = {
             "[“Vni. II”]"                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    \startTrillSpan af                                       %! SC
+    \startTrillSpan af
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1793,7 +1793,7 @@ M_ViolaVoiceI_a = {
             [“Vle.”]                                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    \startTrillSpan af                                       %! SC
+    \startTrillSpan af
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1886,7 +1886,7 @@ M_CelloVoiceI_a = {
             [“Vc.”]                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \<                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS %! HC1
-    \startTrillSpan af                                       %! SC
+    \startTrillSpan af
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
