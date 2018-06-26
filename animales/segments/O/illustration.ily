@@ -949,6 +949,7 @@ O_FirstViolinVoiceI_a = {
     :32                                                  %! IC
     \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
+    \>                                                   %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
@@ -981,7 +982,6 @@ O_FirstViolinVoiceI_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
-    \>                                                   %! IC:BACA_HAIRPIN
     
     % [O FirstViolinVoiceI measure 98 / measure 4]       %! SM4
     a''1
@@ -1082,6 +1082,7 @@ O_FirstViolinVoiceII_a = {
     :32                                                  %! IC
     \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
+    \>                                                   %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
@@ -1114,7 +1115,6 @@ O_FirstViolinVoiceII_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
-    \>                                                   %! IC:BACA_HAIRPIN
     
     % [O FirstViolinVoiceII measure 98 / measure 4]      %! SM4
     f''1
@@ -1285,6 +1285,7 @@ O_FirstViolinVoiceIII_a = {
     :32                                                  %! IC
     \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
+    \>                                                   %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
@@ -1317,7 +1318,6 @@ O_FirstViolinVoiceIII_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
-    \>                                                   %! IC:BACA_HAIRPIN
     
     % [O FirstViolinVoiceIII measure 98 / measure 4]     %! SM4
     g''1
@@ -1418,6 +1418,7 @@ O_FirstViolinVoiceIV_a = {
     :32                                                  %! IC
     \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
+    \>                                                   %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
@@ -1450,7 +1451,6 @@ O_FirstViolinVoiceIV_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
-    \>                                                   %! IC:BACA_HAIRPIN
     
     % [O FirstViolinVoiceIV measure 98 / measure 4]      %! SM4
     d''1
@@ -1776,6 +1776,7 @@ O_SecondViolinVoiceI_a = {
     :32                                                  %! IC
     \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
+    \>                                                   %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
@@ -1808,7 +1809,6 @@ O_SecondViolinVoiceI_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
-    \>                                                   %! IC:BACA_HAIRPIN
     
     % [O SecondViolinVoiceI measure 98 / measure 4]      %! SM4
     b'1
@@ -1910,6 +1910,7 @@ O_SecondViolinVoiceII_a = {
     :32                                                  %! IC
     \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
+    \>                                                   %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
@@ -1942,7 +1943,6 @@ O_SecondViolinVoiceII_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
-    \>                                                   %! IC:BACA_HAIRPIN
     
     % [O SecondViolinVoiceII measure 98 / measure 4]     %! SM4
     g'1
@@ -2113,6 +2113,7 @@ O_SecondViolinVoiceIII_a = {
     :32                                                  %! IC
     \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
+    \>                                                   %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
@@ -2145,7 +2146,6 @@ O_SecondViolinVoiceIII_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
-    \>                                                   %! IC:BACA_HAIRPIN
     
     % [O SecondViolinVoiceIII measure 98 / measure 4]    %! SM4
     a'1
@@ -2246,6 +2246,7 @@ O_SecondViolinVoiceIV_a = {
     :32                                                  %! IC
     \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
+    \>                                                   %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
@@ -2278,7 +2279,6 @@ O_SecondViolinVoiceIV_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
-    \>                                                   %! IC:BACA_HAIRPIN
     
     % [O SecondViolinVoiceIV measure 98 / measure 4]     %! SM4
     f'1
@@ -2449,6 +2449,7 @@ O_ViolaVoiceI_a = {
     :32                                                  %! IC
     \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
+    \>                                                   %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
@@ -2481,7 +2482,6 @@ O_ViolaVoiceI_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
-    \>                                                   %! IC:BACA_HAIRPIN
     
     % [O ViolaVoiceI measure 98 / measure 4]             %! SM4
     d'1
@@ -2582,6 +2582,7 @@ O_ViolaVoiceII_a = {
     :32                                                  %! IC
     \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
+    \>                                                   %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
@@ -2614,7 +2615,6 @@ O_ViolaVoiceII_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
-    \>                                                   %! IC:BACA_HAIRPIN
     
     % [O ViolaVoiceII measure 98 / measure 4]            %! SM4
     a1
@@ -2785,6 +2785,7 @@ O_ViolaVoiceIII_a = {
     :32                                                  %! IC
     \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
+    \>                                                   %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
@@ -2817,7 +2818,6 @@ O_ViolaVoiceIII_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
-    \>                                                   %! IC:BACA_HAIRPIN
     
     % [O ViolaVoiceIII measure 98 / measure 4]           %! SM4
     b1
@@ -2918,6 +2918,7 @@ O_ViolaVoiceIV_a = {
     :32                                                  %! IC
     \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
+    \>                                                   %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
@@ -2950,7 +2951,6 @@ O_ViolaVoiceIV_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
-    \>                                                   %! IC:BACA_HAIRPIN
     
     % [O ViolaVoiceIV measure 98 / measure 4]            %! SM4
     g1
@@ -3122,6 +3122,7 @@ O_CelloVoiceI_a = {
     :32                                                      %! IC
     \ff                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                                 %! IC
+    \>                                                       %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {               %! PWC1
@@ -3154,7 +3155,6 @@ O_CelloVoiceI_a = {
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
-    \>                                                       %! IC:BACA_HAIRPIN
     
     % [O CelloVoiceI measure 98 / measure 4]                 %! SM4
     d1
@@ -3256,6 +3256,7 @@ O_CelloVoiceII_a = {
     :32                                                      %! IC
     \ff                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                                 %! IC
+    \>                                                       %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {               %! PWC1
@@ -3288,7 +3289,6 @@ O_CelloVoiceII_a = {
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
-    \>                                                       %! IC:BACA_HAIRPIN
     
     % [O CelloVoiceII measure 98 / measure 4]                %! SM4
     g,1
@@ -3434,6 +3434,7 @@ O_ContrabassVoiceIII_a = {
     :32                                                      %! IC
     \ff                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                                 %! IC
+    \>                                                       %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {               %! PWC1
@@ -3466,7 +3467,6 @@ O_ContrabassVoiceIII_a = {
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
-    \>                                                       %! IC:BACA_HAIRPIN
     
     % [O ContrabassVoiceIII measure 98 / measure 4]          %! SM4
     g,1
