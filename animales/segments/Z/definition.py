@@ -142,7 +142,7 @@ animales.constellations(
 maker(
     'cb3',
     animales.parts('Contrabass'),
-    baca.hairpin('< fff', left_broken=True, selector=baca.leaf(0)),
+    baca.dynamic('fff'),
     baca.make_repeat_tied_notes(),
     baca.pitch('C#2'),
     baca.repeat_tie_to(),

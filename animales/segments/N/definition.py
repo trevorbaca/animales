@@ -258,7 +258,7 @@ maker(
         'p < ff',
         selector=baca.notes().group_by_measure()[0].rleak(),
         ),
-    baca.hairpin(
+    baca.new_hairpin(
         'ff > p',
         selector=baca.notes().group_by_measure()[-1].lleak(),
         ),
