@@ -212,16 +212,6 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
-                        'BassClarinetVoiceI',
-                        [
-                            abjad.Momento(
-                                context='BassClarinetVoiceI',
-                                prototype='abjad.Dynamic',
-                                value='\\!',
-                                ),
-                            ],
-                        ),
-                    (
                         'CelloStaffI',
                         [
                             abjad.Momento(

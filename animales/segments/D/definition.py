@@ -153,7 +153,7 @@ maker(
 maker(
     'cb3',
     animales.parts('Contrabass'),
-    baca.hairpin('< ff', selector=baca.pleaves()[:4], left_broken=True),
+    baca.new_hairpin('< ff', selector=baca.pleaves()[:4], left_broken=True),
     baca.make_repeat_tied_notes(),
     baca.pitch('B1'),
     )

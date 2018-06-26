@@ -160,6 +160,8 @@
         \override Glissando.breakable = ##t
         \override Glissando.thickness = 3
 
+        \override Hairpin.to-barline = ##f
+
         \override NoteCollision.merge-differently-dotted = ##t
 
         \shape #'((-2 . 0) (-1 . 0) (-0.5 . 0) (0 . 0)) RepeatTie                 

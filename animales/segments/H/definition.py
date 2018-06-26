@@ -72,7 +72,7 @@ maker(
 
 maker(
     ('cl1', (1, 3)),
-    baca.hairpin('< ff', left_broken=True),
+    baca.new_hairpin('< ff', left_broken=True),
     baca.make_repeat_tied_notes(),
     baca.pitch('F5'),
     )
@@ -95,7 +95,7 @@ maker(
 maker(
     'bcl1',
     animales.parts('BassClarinet'),
-    baca.hairpin('< p', left_broken=True, selector=baca.pleaf(0)),
+    baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
     baca.pitch('A2'),
     baca.repeat_tie_to(),
@@ -130,7 +130,7 @@ maker(
 maker(
     'perc2',
     animales.parts('Percussion', 2),
-    baca.hairpin('> niente', left_broken=True, selector=baca.leaf(0)),
+    baca.dynamic(baca.niente(), selector=baca.leaf(0)),
     )
 
 # vibraphone
@@ -210,7 +210,7 @@ maker(
 maker(
     ('cb3', (1, 3)),
     baca.make_repeat_tied_notes(),
-    baca.hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
+    baca.new_hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
     baca.pitch('Ab1'),
     )
 
