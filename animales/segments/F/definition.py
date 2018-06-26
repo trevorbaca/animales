@@ -142,7 +142,7 @@ maker(
 maker(
     'perc1',
     animales.parts('Percussion', 1),
-    baca.hairpin('> niente', left_broken=True, selector=baca.leaf(0)),
+    baca.dynamic('niente', selector=baca.leaf(0)),
     )
 
 # cymbal
