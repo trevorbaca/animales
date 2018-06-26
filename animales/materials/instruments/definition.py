@@ -5,74 +5,74 @@ import baca
 instruments = abjad.OrderedDict([
     (
         'BassClarinet',
-        abjad.BassClarinet(hide=True),
+        abjad.BassClarinet(),
         ),
     (
         'Bassoon',
-        abjad.Bassoon(hide=True),
+        abjad.Bassoon(),
         ),
     (
         'Cello',
-        abjad.Cello(hide=True),
+        abjad.Cello(),
         ),
     (
         'Clarinet',
-        abjad.ClarinetInBFlat(hide=True),
+        abjad.ClarinetInBFlat(),
         ),
     (
         'Contrabass',
-        abjad.Contrabass(hide=True, pitch_range='[E1, D6]'),
+        abjad.Contrabass(pitch_range='[E1, D6]'),
         ),
     (
         'EnglishHorn',
-        abjad.EnglishHorn(hide=True),
+        abjad.EnglishHorn(),
         ),
     (
         'Flute',
-        abjad.Flute(hide=True),
+        abjad.Flute(),
         ),
     (
         'Harp',
-        abjad.Harp(hide=True),
+        abjad.Harp(),
         ),
     (
         'Horn',
-        abjad.FrenchHorn(hide=True),
+        abjad.FrenchHorn(),
         ),
     (
         'Oboe',
-        abjad.Oboe(hide=True),
+        abjad.Oboe(),
         ),
     (
         'Percussion',
-        abjad.Percussion(hide=True),
+        abjad.Percussion(),
         ),
     (
         'Piano',
-        abjad.Piano(hide=True),
+        abjad.Piano(),
         ),
     (
         'Trombone',
-        abjad.TenorTrombone(hide=True),
+        abjad.TenorTrombone(),
         ),
     (
         'Trumpet',
-        abjad.Trumpet(hide=True),
+        abjad.Trumpet(),
         ),
     (
         'Tuba',
-        abjad.Tuba(hide=True),
+        abjad.Tuba(),
         ),
     (
         'Vibraphone',
-        abjad.Vibraphone(hide=True),
+        abjad.Vibraphone(),
         ),
     (
         'Viola',
-        abjad.Viola(hide=True),
+        abjad.Viola(),
         ),
     (
         'Violin',
-        abjad.Violin(hide=True),
+        abjad.Violin(),
         ),
     ])
