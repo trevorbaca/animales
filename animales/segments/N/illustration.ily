@@ -1602,12 +1602,12 @@ N_FirstViolinVoiceII_a = {
     g''8
     \glissando                                               %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d'''8
+    \ff                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \>                                                       %! IC:BACA_HAIRPIN
     ]
     \glissando                                               %! SC
-    \ff                                                      %! HC1
-    \>                                                       %! HC1
     
     % [N FirstViolinVoiceII measure 90 / measure 3]          %! SM4
     a'2
@@ -1621,9 +1621,9 @@ N_FirstViolinVoiceII_a = {
     ]
     \glissando                                               %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'4
-    \p                                                       %! HC1
+    \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \revert DynamicLineSpanner.direction                     %! OC2:-PARTS
     
     % [N FirstViolinVoiceII measure 91 / measure 4]          %! SM4

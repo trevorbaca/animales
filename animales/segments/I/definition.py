@@ -107,7 +107,7 @@ def crescendi():
             ),
         baca.map(
             baca.run(-1),
-            baca.hairpin('mp <', right_broken=True),
+            baca.new_hairpin('mp <', right_broken=True),
             ),
         )
 
@@ -275,7 +275,7 @@ most_strings = [
 maker(
     most_strings,
     baca.make_repeat_tied_notes(),
-    baca.hairpin('pp <', right_broken=True),
+    baca.new_hairpin('pp <', right_broken=True),
     baca.pitch('A3'),
     baca.trill_spanner('Ab3', right_broken=True),
     )
@@ -304,7 +304,7 @@ maker(
     'cb3',
     animales.parts('Contrabass', (2, 6)),
     baca.make_repeat_tied_notes(),
-    baca.hairpin('pp <', right_broken=True),
+    baca.new_hairpin('pp <', right_broken=True),
     baca.pitch('A1'),
     )
 
