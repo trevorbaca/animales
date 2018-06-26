@@ -126,7 +126,7 @@ maker(
 maker(
     'perc1',
     animales.parts('Percussion', 1),
-    baca.hairpin('niente < mp', selector=baca.pleaves()[:4]),
+    baca.new_hairpin('niente o< mp', selector=baca.pleaves()[:4]),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_up(),
     baca.staff_position(0),

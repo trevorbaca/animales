@@ -71,7 +71,7 @@ maker(
 
 maker(
     ('cl1', (3, 6)),
-    baca.hairpin('mp < mf'),
+    baca.new_hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.markups.edition('solo (cl. 3)', 'solo'),
     baca.pitch('C5'),
@@ -170,8 +170,14 @@ maker(
     ('1vn2', (3, 6)),
     animales.glissando_rhythm(),
     animales.parts('FirstViolin', 1),
-    baca.hairpin('p < f', selector=baca.notes().group_by_measure()[0].rleak()),
-    baca.hairpin('f > p', selector=baca.notes().group_by_measure()[-1].lleak()),
+    baca.new_hairpin(
+        'p < f',
+        selector=baca.notes().group_by_measure()[0].rleak(),
+        ),
+    baca.new_hairpin(
+        'f > p',
+        selector=baca.notes().group_by_measure()[-1].lleak(),
+        ),
     baca.markups.edition('solo (first violin)', 'solo'),
     baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
