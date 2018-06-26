@@ -253,8 +253,9 @@ D_ClarinetVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     ds''!2.
+    \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -267,8 +268,7 @@ D_ClarinetVoiceI_a = {
             #(x11-color 'blue)                               %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
             "[“Cl. 2”]"                                      %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
         }                                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-    \mp                                                      %! HC1
-    \<                                                       %! HC1
+    \<                                                       %! IC:BACA_HAIRPIN
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -309,10 +309,10 @@ D_ClarinetVoiceI_a = {
     \repeatTie
     
     % [D ClarinetVoiceI measure 29 / measure 6]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     ds''!2.
+    \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
-    \mf                                                      %! HC1
     
 }
 
@@ -556,13 +556,13 @@ D_FirstViolinVoiceII_a = {
     
     % [D FirstViolinVoiceII measure 24 / measure 1]      %! SM4
     \override DynamicLineSpanner.direction = #up         %! OC1:-PARTS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \voiceOne                                            %! IC:-PARTS
     b'2
 %%% \stopTrillSpan                                       %! IC:+PARTS
+    \p                                                   %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \glissando                                           %! SC
-    \p                                                   %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     g'''8
     [
@@ -573,9 +573,9 @@ D_FirstViolinVoiceII_a = {
     \glissando                                           %! SC
     
     % [D FirstViolinVoiceII measure 25 / measure 2]      %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a'''4
-    \f                                                   %! HC1
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \glissando                                           %! SC
     
     f''8
@@ -639,12 +639,12 @@ D_FirstViolinVoiceII_a = {
     f''8
     \glissando                                           %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     e'''8
+    \f                                                   %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     ]
     \glissando                                           %! SC
-    \f                                                   %! HC1
-    \>                                                   %! HC1
+    \>                                                   %! IC:BACA_HAIRPIN
     
     % [D FirstViolinVoiceII measure 29 / measure 6]      %! SM4
     b''2
@@ -654,10 +654,10 @@ D_FirstViolinVoiceII_a = {
     [
     \glissando                                           %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b8
+    \p                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ]
-    \p                                                   %! HC1
     \revert DynamicLineSpanner.direction                 %! OC2:-PARTS
     
 }

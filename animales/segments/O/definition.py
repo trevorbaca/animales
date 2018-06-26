@@ -143,7 +143,10 @@ def tremolo_suite():
     return baca.suite(
         baca.accent(selector=baca.pleaves()),
         baca.dynamic('ff'),
-        baca.hairpin('ff > pp', selector=baca.pleaves()[2:-2]),
+        baca.new_hairpin(
+            'ff > pp',
+            selector=baca.pleaves()[2:-2],
+            ),
         baca.only_parts(
             baca.markups.markup('ext. ponticello: like acid').boxed(),
             ),

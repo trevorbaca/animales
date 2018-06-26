@@ -754,11 +754,11 @@ P_HornVoiceI_a = {
     % [P HornVoiceI measure 110 / measure 2]             %! SM4
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d'2
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P HornVoiceI measure 111 / measure 3]             %! SM4
     d'4
@@ -779,18 +779,18 @@ P_HornVoiceI_a = {
     ~
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         e'8
-        \mf                                              %! HC1
+        \mf                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r4
     }
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d'2
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P HornVoiceI measure 113 / measure 5]             %! SM4
     d'4
@@ -811,18 +811,18 @@ P_HornVoiceI_a = {
     ~
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         e'8
-        \f                                               %! HC1
+        \f                                               %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r4
     }
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d'4
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P HornVoiceI measure 115 / measure 7]             %! SM4
     d'2
@@ -840,9 +840,9 @@ P_HornVoiceI_a = {
     ~
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         e'8
-        \ff                                              %! HC1
+        \ff                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r4
     }
@@ -873,16 +873,16 @@ P_HornVoiceIII_a = {
     
     % [P HornVoiceIII measure 109 / measure 1]           %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     df'!2.
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P HornVoiceIII measure 110 / measure 2]           %! SM4
     df'!8
@@ -896,17 +896,17 @@ P_HornVoiceIII_a = {
     ~
     
     % [P HornVoiceIII measure 111 / measure 3]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     ef'!4
-    \mf                                                  %! HC1
+    \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     df'!2
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P HornVoiceIII measure 112 / measure 4]           %! SM4
     df'!4.
@@ -918,17 +918,17 @@ P_HornVoiceIII_a = {
     ~
     
     % [P HornVoiceIII measure 113 / measure 5]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     ef'!4
-    \f                                                   %! HC1
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     df'!2
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P HornVoiceIII measure 114 / measure 6]           %! SM4
     df'!4.
@@ -937,9 +937,9 @@ P_HornVoiceIII_a = {
     ~
     
     % [P HornVoiceIII measure 115 / measure 7]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     ef'!2
-    \ff                                                  %! HC1
+    \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r4
     
@@ -1040,11 +1040,11 @@ P_HornVoiceII_a = {
         
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         d'8
+        \mp                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         ~
-        \mp                                              %! HC1
-        \<                                               %! HC1
+        \<                                               %! IC:BACA_HAIRPIN
     }
     
     % [P HornVoiceII measure 111 / measure 3]            %! SM4
@@ -1059,18 +1059,18 @@ P_HornVoiceII_a = {
     }
     
     % [P HornVoiceII measure 112 / measure 4]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     e'2.
-    \mf                                                  %! HC1
+    \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \times 2/3 {
         
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         d'8
+        \mp                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         ~
-        \mp                                              %! HC1
-        \<                                               %! HC1
+        \<                                               %! IC:BACA_HAIRPIN
     }
     
     % [P HornVoiceII measure 113 / measure 5]            %! SM4
@@ -1085,19 +1085,19 @@ P_HornVoiceII_a = {
     }
     
     % [P HornVoiceII measure 114 / measure 6]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     e'2.
-    \f                                                   %! HC1
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \times 2/3 {
         
         % [P HornVoiceII measure 115 / measure 7]        %! SM4
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         d'8
+        \mp                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         ~
-        \mp                                              %! HC1
-        \<                                               %! HC1
+        \<                                               %! IC:BACA_HAIRPIN
     }
     
     d'2
@@ -1118,9 +1118,9 @@ P_HornVoiceII_a = {
     ~
     
     % [P HornVoiceII measure 117 / measure 9]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     e'4
-    \ff                                                  %! HC1
+    \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \times 2/3 {
         
         r4
@@ -1163,11 +1163,11 @@ P_HornVoiceIV_a = {
             (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     df'!4.
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P HornVoiceIV measure 110 / measure 2]            %! SM4
     df'!2
@@ -1180,20 +1180,20 @@ P_HornVoiceIV_a = {
     ~
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         ef'!4
-        \mf                                              %! HC1
+        \mf                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r8
     }
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     df'!8
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P HornVoiceIV measure 112 / measure 4]            %! SM4
     df'!2.
@@ -1206,20 +1206,20 @@ P_HornVoiceIV_a = {
     ~
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         ef'!4
-        \f                                               %! HC1
+        \f                                               %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r8
     }
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     df'!8
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P HornVoiceIV measure 114 / measure 6]            %! SM4
     df'!2.
@@ -1230,9 +1230,9 @@ P_HornVoiceIV_a = {
     \times 2/3 {
         
         % [P HornVoiceIV measure 116 / measure 8]        %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         ef'!4
-        \ff                                              %! HC1
+        \ff                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r8
     }
@@ -1340,39 +1340,39 @@ P_TrumpetVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [P TrumpetVoiceI measure 110 / measure 2]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gf'!2.
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P TrumpetVoiceI measure 111 / measure 3]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     af'!2.
-    \mf                                                  %! HC1
+    \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r4
     
     % [P TrumpetVoiceI measure 112 / measure 4]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gf'!2.
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \<                                                   %! IC:BACA_HAIRPIN
     
     af'!4
     ~
     
     % [P TrumpetVoiceI measure 113 / measure 5]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     af'!2
-    \f                                                   %! HC1
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gf'!4
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P TrumpetVoiceI measure 114 / measure 6]          %! SM4
     gf'!2
@@ -1385,9 +1385,9 @@ P_TrumpetVoiceI_a = {
     ~
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         af'!8
-        \ff                                              %! HC1
+        \ff                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r4
     }
@@ -1433,15 +1433,15 @@ P_TrumpetVoiceIII_a = {
     
     % [P TrumpetVoiceIII measure 109 / measure 1]        %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'2.
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P TrumpetVoiceIII measure 110 / measure 2]        %! SM4
     g'2.
@@ -1449,18 +1449,18 @@ P_TrumpetVoiceIII_a = {
     \times 2/3 {
         
         % [P TrumpetVoiceIII measure 111 / measure 3]    %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         g'8
-        \mf                                              %! HC1
+        \mf                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r4
     }
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'2.
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     \times 2/3 {
         
         % [P TrumpetVoiceIII measure 112 / measure 4]    %! SM4
@@ -1473,9 +1473,9 @@ P_TrumpetVoiceIII_a = {
     g'2
     ~
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'8
-    \f                                                   %! HC1
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     \times 2/3 {
@@ -1483,11 +1483,11 @@ P_TrumpetVoiceIII_a = {
         % [P TrumpetVoiceIII measure 113 / measure 5]    %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'4
+        \mp                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         ~
-        \mp                                              %! HC1
-        \<                                               %! HC1
+        \<                                               %! IC:BACA_HAIRPIN
     }
     
     f'2
@@ -1504,9 +1504,9 @@ P_TrumpetVoiceIII_a = {
     g'2
     ~
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'8
-    \ff                                                  %! HC1
+    \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
@@ -1633,11 +1633,11 @@ P_TrumpetVoiceII_a = {
     % [P TrumpetVoiceII measure 110 / measure 2]         %! SM4
     r4.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gf'!4.
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P TrumpetVoiceII measure 111 / measure 3]         %! SM4
     gf'!4.
@@ -1649,19 +1649,19 @@ P_TrumpetVoiceII_a = {
     ~
     
     % [P TrumpetVoiceII measure 112 / measure 4]         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     af'!8
-    \mf                                                  %! HC1
+    \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gf'!8
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     gf'!2
     ~
@@ -1678,9 +1678,9 @@ P_TrumpetVoiceII_a = {
     ~
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         af'!4
-        \f                                               %! HC1
+        \f                                               %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r8
     }
@@ -1688,11 +1688,11 @@ P_TrumpetVoiceII_a = {
     % [P TrumpetVoiceII measure 114 / measure 6]         %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gf'!8
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     gf'!2
     ~
@@ -1709,9 +1709,9 @@ P_TrumpetVoiceII_a = {
     ~
     
     % [P TrumpetVoiceII measure 116 / measure 8]         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     af'!4
-    \ff                                                  %! HC1
+    \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \times 2/3 {
         
         r4
@@ -1754,11 +1754,11 @@ P_TrumpetVoiceIV_a = {
             (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'4.
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P TrumpetVoiceIV measure 110 / measure 2]         %! SM4
     f'4
@@ -1775,18 +1775,18 @@ P_TrumpetVoiceIV_a = {
     ~
     
     % [P TrumpetVoiceIV measure 111 / measure 3]         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'2
-    \mf                                                  %! HC1
+    \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \times 2/3 {
         
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'8
+        \mp                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         ~
-        \mp                                              %! HC1
-        \<                                               %! HC1
+        \<                                               %! IC:BACA_HAIRPIN
     }
     
     f'4
@@ -1799,17 +1799,17 @@ P_TrumpetVoiceIV_a = {
     ~
     
     % [P TrumpetVoiceIV measure 113 / measure 5]         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'4
-    \f                                                   %! HC1
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'2
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P TrumpetVoiceIV measure 114 / measure 6]         %! SM4
     f'4
@@ -1818,9 +1818,9 @@ P_TrumpetVoiceIV_a = {
     ~
     
     % [P TrumpetVoiceIV measure 115 / measure 7]         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'4
-    \ff                                                  %! HC1
+    \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r4
     
@@ -1926,11 +1926,11 @@ P_TromboneVoiceI_a = {
     % [P TromboneVoiceI measure 110 / measure 2]         %! SM4
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gf!2
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P TromboneVoiceI measure 111 / measure 3]         %! SM4
     gf!4
@@ -1946,17 +1946,17 @@ P_TromboneVoiceI_a = {
     ]
     
     % [P TromboneVoiceI measure 112 / measure 4]         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gf!2
-    \mf                                                  %! HC1
+    \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     af!4
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P TromboneVoiceI measure 113 / measure 5]         %! SM4
     af!4
@@ -1980,18 +1980,18 @@ P_TromboneVoiceI_a = {
     ~
     ]
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     af!2
-    \f                                                   %! HC1
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [P TromboneVoiceI measure 115 / measure 7]         %! SM4
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gf!2
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P TromboneVoiceI measure 116 / measure 8]         %! SM4
     gf!8
@@ -2012,9 +2012,9 @@ P_TromboneVoiceI_a = {
     }
     
     % [P TromboneVoiceI measure 117 / measure 9]         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gf!2
-    \ff                                                  %! HC1
+    \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r4
     
@@ -2038,16 +2038,16 @@ P_TromboneVoiceIII_a = {
     
     % [P TromboneVoiceIII measure 109 / measure 1]       %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f2
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Trombone”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     \times 2/3 {
         
         f4
@@ -2068,17 +2068,17 @@ P_TromboneVoiceIII_a = {
     ]
     
     % [P TromboneVoiceIII measure 111 / measure 3]       %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f2
-    \mf                                                  %! HC1
+    \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g4
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P TromboneVoiceIII measure 112 / measure 4]       %! SM4
     g4.
@@ -2097,18 +2097,18 @@ P_TromboneVoiceIII_a = {
         ~
     }
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g2
-    \f                                                   %! HC1
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r4
     
     % [P TromboneVoiceIII measure 114 / measure 6]       %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f2
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     f8
     [
@@ -2124,9 +2124,9 @@ P_TromboneVoiceIII_a = {
     ~
     
     % [P TromboneVoiceIII measure 116 / measure 8]       %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f2
-    \ff                                                  %! HC1
+    \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \times 2/3 {
         
         r4
@@ -2232,11 +2232,11 @@ P_TromboneVoiceII_a = {
         
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gf!8
+        \mp                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         ~
-        \mp                                              %! HC1
-        \<                                               %! HC1
+        \<                                               %! IC:BACA_HAIRPIN
     }
     
     % [P TromboneVoiceII measure 111 / measure 3]        %! SM4
@@ -2255,9 +2255,9 @@ P_TromboneVoiceII_a = {
     ~
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gf!4
-        \mf                                              %! HC1
+        \mf                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r8
     }
@@ -2265,11 +2265,11 @@ P_TromboneVoiceII_a = {
     % [P TromboneVoiceII measure 113 / measure 5]        %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     af!8
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     af!2
     ~
@@ -2288,19 +2288,19 @@ P_TromboneVoiceII_a = {
     ~
     
     % [P TromboneVoiceII measure 115 / measure 7]        %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     af!4.
-    \f                                                   %! HC1
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gf!8
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P TromboneVoiceII measure 116 / measure 8]        %! SM4
     gf!2
@@ -2314,9 +2314,9 @@ P_TromboneVoiceII_a = {
     gf!2
     ~
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gf!8
-    \ff                                                  %! HC1
+    \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
@@ -2346,11 +2346,11 @@ P_TromboneVoiceIV_a = {
             (“Trombone”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f4.
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P TromboneVoiceIV measure 110 / measure 2]        %! SM4
     f4
@@ -2372,20 +2372,20 @@ P_TromboneVoiceIV_a = {
     f2
     ~
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f8
-    \mf                                                  %! HC1
+    \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
     % [P TromboneVoiceIV measure 112 / measure 4]        %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g8
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     g2
     
@@ -2399,19 +2399,19 @@ P_TromboneVoiceIV_a = {
     ~
     
     % [P TromboneVoiceIV measure 114 / measure 6]        %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g8
-    \f                                                   %! HC1
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f4.
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ~
-    \mp                                                  %! HC1
-    \<                                                   %! HC1
+    \<                                                   %! IC:BACA_HAIRPIN
     
     % [P TromboneVoiceIV measure 115 / measure 7]        %! SM4
     f4
@@ -2430,9 +2430,9 @@ P_TromboneVoiceIV_a = {
     f2
     ~
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f8
-    \ff                                                  %! HC1
+    \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     \times 2/3 {
@@ -2565,13 +2565,12 @@ P_FirstViolinVoiceI_a = {
     \repeatTie
     
     % [P FirstViolinVoiceI measure 111 / measure 3]      %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''1
     :32                                                  %! IC
+    \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \ff                                                  %! HC1
-    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
@@ -2603,6 +2602,7 @@ P_FirstViolinVoiceI_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
+    \>                                                   %! IC:BACA_HAIRPIN
     
     % [P FirstViolinVoiceI measure 112 / measure 4]      %! SM4
     a''1
@@ -2629,12 +2629,12 @@ P_FirstViolinVoiceI_a = {
     \repeatTie
     
     % [P FirstViolinVoiceI measure 116 / measure 8]      %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''1
     :32                                                  %! IC
+    \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
     % [P FirstViolinVoiceI measure 117 / measure 9]      %! SM4
@@ -2686,13 +2686,12 @@ P_FirstViolinVoiceII_a = {
     \repeatTie
     
     % [P FirstViolinVoiceII measure 111 / measure 3]     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f''1
     :32                                                  %! IC
+    \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \ff                                                  %! HC1
-    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
@@ -2724,6 +2723,7 @@ P_FirstViolinVoiceII_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
+    \>                                                   %! IC:BACA_HAIRPIN
     
     % [P FirstViolinVoiceII measure 112 / measure 4]     %! SM4
     f''1
@@ -2750,12 +2750,12 @@ P_FirstViolinVoiceII_a = {
     \repeatTie
     
     % [P FirstViolinVoiceII measure 116 / measure 8]     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f''1
     :32                                                  %! IC
+    \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
     % [P FirstViolinVoiceII measure 117 / measure 9]     %! SM4
@@ -2876,13 +2876,12 @@ P_FirstViolinVoiceIII_a = {
     \repeatTie
     
     % [P FirstViolinVoiceIII measure 111 / measure 3]    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g''1
     :32                                                  %! IC
+    \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \ff                                                  %! HC1
-    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
@@ -2914,6 +2913,7 @@ P_FirstViolinVoiceIII_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
+    \>                                                   %! IC:BACA_HAIRPIN
     
     % [P FirstViolinVoiceIII measure 112 / measure 4]    %! SM4
     g''1
@@ -2940,12 +2940,12 @@ P_FirstViolinVoiceIII_a = {
     \repeatTie
     
     % [P FirstViolinVoiceIII measure 116 / measure 8]    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g''1
     :32                                                  %! IC
+    \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
     % [P FirstViolinVoiceIII measure 117 / measure 9]    %! SM4
@@ -2997,13 +2997,12 @@ P_FirstViolinVoiceIV_a = {
     \repeatTie
     
     % [P FirstViolinVoiceIV measure 111 / measure 3]     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d''1
     :32                                                  %! IC
+    \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \ff                                                  %! HC1
-    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
@@ -3035,6 +3034,7 @@ P_FirstViolinVoiceIV_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
+    \>                                                   %! IC:BACA_HAIRPIN
     
     % [P FirstViolinVoiceIV measure 112 / measure 4]     %! SM4
     d''1
@@ -3061,12 +3061,12 @@ P_FirstViolinVoiceIV_a = {
     \repeatTie
     
     % [P FirstViolinVoiceIV measure 116 / measure 8]     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d''1
     :32                                                  %! IC
+    \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
     % [P FirstViolinVoiceIV measure 117 / measure 9]     %! SM4
@@ -3313,13 +3313,12 @@ P_SecondViolinVoiceI_a = {
     \repeatTie
     
     % [P SecondViolinVoiceI measure 111 / measure 3]     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b'1
     :32                                                  %! IC
+    \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \ff                                                  %! HC1
-    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
@@ -3351,6 +3350,7 @@ P_SecondViolinVoiceI_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
+    \>                                                   %! IC:BACA_HAIRPIN
     
     % [P SecondViolinVoiceI measure 112 / measure 4]     %! SM4
     b'1
@@ -3377,12 +3377,12 @@ P_SecondViolinVoiceI_a = {
     \repeatTie
     
     % [P SecondViolinVoiceI measure 116 / measure 8]     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b'1
     :32                                                  %! IC
+    \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
     % [P SecondViolinVoiceI measure 117 / measure 9]     %! SM4
@@ -3435,13 +3435,12 @@ P_SecondViolinVoiceII_a = {
     \repeatTie
     
     % [P SecondViolinVoiceII measure 111 / measure 3]    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'1
     :32                                                  %! IC
+    \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \ff                                                  %! HC1
-    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
@@ -3473,6 +3472,7 @@ P_SecondViolinVoiceII_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
+    \>                                                   %! IC:BACA_HAIRPIN
     
     % [P SecondViolinVoiceII measure 112 / measure 4]    %! SM4
     g'1
@@ -3499,12 +3499,12 @@ P_SecondViolinVoiceII_a = {
     \repeatTie
     
     % [P SecondViolinVoiceII measure 116 / measure 8]    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'1
     :32                                                  %! IC
+    \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
     % [P SecondViolinVoiceII measure 117 / measure 9]    %! SM4
@@ -3625,13 +3625,12 @@ P_SecondViolinVoiceIII_a = {
     \repeatTie
     
     % [P SecondViolinVoiceIII measure 111 / measure 3]   %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a'1
     :32                                                  %! IC
+    \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \ff                                                  %! HC1
-    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
@@ -3663,6 +3662,7 @@ P_SecondViolinVoiceIII_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
+    \>                                                   %! IC:BACA_HAIRPIN
     
     % [P SecondViolinVoiceIII measure 112 / measure 4]   %! SM4
     a'1
@@ -3689,12 +3689,12 @@ P_SecondViolinVoiceIII_a = {
     \repeatTie
     
     % [P SecondViolinVoiceIII measure 116 / measure 8]   %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a'1
     :32                                                  %! IC
+    \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
     % [P SecondViolinVoiceIII measure 117 / measure 9]   %! SM4
@@ -3746,13 +3746,12 @@ P_SecondViolinVoiceIV_a = {
     \repeatTie
     
     % [P SecondViolinVoiceIV measure 111 / measure 3]    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'1
     :32                                                  %! IC
+    \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \ff                                                  %! HC1
-    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
@@ -3784,6 +3783,7 @@ P_SecondViolinVoiceIV_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
+    \>                                                   %! IC:BACA_HAIRPIN
     
     % [P SecondViolinVoiceIV measure 112 / measure 4]    %! SM4
     f'1
@@ -3810,12 +3810,12 @@ P_SecondViolinVoiceIV_a = {
     \repeatTie
     
     % [P SecondViolinVoiceIV measure 116 / measure 8]    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'1
     :32                                                  %! IC
+    \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
     % [P SecondViolinVoiceIV measure 117 / measure 9]    %! SM4
@@ -3936,13 +3936,12 @@ P_ViolaVoiceI_a = {
     \repeatTie
     
     % [P ViolaVoiceI measure 111 / measure 3]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d'1
     :32                                                  %! IC
+    \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \ff                                                  %! HC1
-    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
@@ -3974,6 +3973,7 @@ P_ViolaVoiceI_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
+    \>                                                   %! IC:BACA_HAIRPIN
     
     % [P ViolaVoiceI measure 112 / measure 4]            %! SM4
     d'1
@@ -4000,12 +4000,12 @@ P_ViolaVoiceI_a = {
     \repeatTie
     
     % [P ViolaVoiceI measure 116 / measure 8]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d'1
     :32                                                  %! IC
+    \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
     % [P ViolaVoiceI measure 117 / measure 9]            %! SM4
@@ -4057,13 +4057,12 @@ P_ViolaVoiceII_a = {
     \repeatTie
     
     % [P ViolaVoiceII measure 111 / measure 3]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a1
     :32                                                  %! IC
+    \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \ff                                                  %! HC1
-    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
@@ -4095,6 +4094,7 @@ P_ViolaVoiceII_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
+    \>                                                   %! IC:BACA_HAIRPIN
     
     % [P ViolaVoiceII measure 112 / measure 4]           %! SM4
     a1
@@ -4121,12 +4121,12 @@ P_ViolaVoiceII_a = {
     \repeatTie
     
     % [P ViolaVoiceII measure 116 / measure 8]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a1
     :32                                                  %! IC
+    \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
     % [P ViolaVoiceII measure 117 / measure 9]           %! SM4
@@ -4247,13 +4247,12 @@ P_ViolaVoiceIII_a = {
     \repeatTie
     
     % [P ViolaVoiceIII measure 111 / measure 3]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b1
     :32                                                  %! IC
+    \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \ff                                                  %! HC1
-    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
@@ -4285,6 +4284,7 @@ P_ViolaVoiceIII_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
+    \>                                                   %! IC:BACA_HAIRPIN
     
     % [P ViolaVoiceIII measure 112 / measure 4]          %! SM4
     b1
@@ -4311,12 +4311,12 @@ P_ViolaVoiceIII_a = {
     \repeatTie
     
     % [P ViolaVoiceIII measure 116 / measure 8]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b1
     :32                                                  %! IC
+    \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
     % [P ViolaVoiceIII measure 117 / measure 9]          %! SM4
@@ -4368,13 +4368,12 @@ P_ViolaVoiceIV_a = {
     \repeatTie
     
     % [P ViolaVoiceIV measure 111 / measure 3]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g1
     :32                                                  %! IC
+    \ff                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \ff                                                  %! HC1
-    \>                                                   %! HC1
     - \tweak Y-extent ##f                                %! PWC1
     - \tweak bound-details.left.text \markup {           %! PWC1
         \concat                                          %! PWC1
@@ -4406,6 +4405,7 @@ P_ViolaVoiceIV_a = {
             }                                            %! PWC1
         }                                                %! PWC1
     \startTextSpan                                       %! PWC1
+    \>                                                   %! IC:BACA_HAIRPIN
     
     % [P ViolaVoiceIV measure 112 / measure 4]           %! SM4
     g1
@@ -4432,12 +4432,12 @@ P_ViolaVoiceIV_a = {
     \repeatTie
     
     % [P ViolaVoiceIV measure 116 / measure 8]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g1
     :32                                                  %! IC
+    \pp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                             %! IC
     \repeatTie
-    \pp                                                  %! HC1
     \stopTextSpan                                        %! PWC1
     
     % [P ViolaVoiceIV measure 117 / measure 9]           %! SM4
@@ -4559,13 +4559,12 @@ P_CelloVoiceI_a = {
     \repeatTie
     
     % [P CelloVoiceI measure 111 / measure 3]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d1
     :32                                                      %! IC
+    \ff                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                                 %! IC
     \repeatTie
-    \ff                                                      %! HC1
-    \>                                                       %! HC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
@@ -4597,6 +4596,7 @@ P_CelloVoiceI_a = {
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
+    \>                                                       %! IC:BACA_HAIRPIN
     
     % [P CelloVoiceI measure 112 / measure 4]                %! SM4
     d1
@@ -4623,12 +4623,12 @@ P_CelloVoiceI_a = {
     \repeatTie
     
     % [P CelloVoiceI measure 116 / measure 8]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d1
     :32                                                      %! IC
+    \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                                 %! IC
     \repeatTie
-    \pp                                                      %! HC1
     \stopTextSpan                                            %! PWC1
     
     % [P CelloVoiceI measure 117 / measure 9]                %! SM4
@@ -4681,13 +4681,12 @@ P_CelloVoiceII_a = {
     \repeatTie
     
     % [P CelloVoiceII measure 111 / measure 3]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g,1
     :32                                                      %! IC
+    \ff                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                                 %! IC
     \repeatTie
-    \ff                                                      %! HC1
-    \>                                                       %! HC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
@@ -4719,6 +4718,7 @@ P_CelloVoiceII_a = {
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
+    \>                                                       %! IC:BACA_HAIRPIN
     
     % [P CelloVoiceII measure 112 / measure 4]               %! SM4
     g,1
@@ -4745,12 +4745,12 @@ P_CelloVoiceII_a = {
     \repeatTie
     
     % [P CelloVoiceII measure 116 / measure 8]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g,1
     :32                                                      %! IC
+    \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                                 %! IC
     \repeatTie
-    \pp                                                      %! HC1
     \stopTextSpan                                            %! PWC1
     
     % [P CelloVoiceII measure 117 / measure 9]               %! SM4
@@ -4845,13 +4845,12 @@ P_ContrabassVoiceIII_a = {
     \repeatTie
     
     % [P ContrabassVoiceIII measure 111 / measure 3]         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g,1
     :32                                                      %! IC
+    \ff                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                                 %! IC
     \repeatTie
-    \ff                                                      %! HC1
-    \>                                                       %! HC1
     - \tweak Y-extent ##f                                    %! PWC1
     - \tweak bound-details.left.text \markup {               %! PWC1
         \concat                                              %! PWC1
@@ -4883,6 +4882,7 @@ P_ContrabassVoiceIII_a = {
             }                                                %! PWC1
         }                                                    %! PWC1
     \startTextSpan                                           %! PWC1
+    \>                                                       %! IC:BACA_HAIRPIN
     
     % [P ContrabassVoiceIII measure 112 / measure 4]         %! SM4
     g,1
@@ -4909,12 +4909,12 @@ P_ContrabassVoiceIII_a = {
     \repeatTie
     
     % [P ContrabassVoiceIII measure 116 / measure 8]         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g,1
     :32                                                      %! IC
+    \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\accent                                                 %! IC
     \repeatTie
-    \pp                                                      %! HC1
     \stopTextSpan                                            %! PWC1
     
     % [P ContrabassVoiceIII measure 117 / measure 9]         %! SM4

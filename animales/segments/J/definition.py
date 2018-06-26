@@ -89,7 +89,7 @@ maker(
     'cl1',
     animales.margin_markup('Cl. 2'),
     animales.parts('Clarinet', 2),
-    baca.hairpin('mp < mf'),
+    baca.new_hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb4'),
     )
@@ -103,7 +103,7 @@ crescendi = baca.suite(
         ),
     baca.map(
         baca.runs()[1:],
-        baca.hairpin('mp < ff'),
+        baca.new_hairpin('mp < ff'),
         ),
     )
 
@@ -254,7 +254,7 @@ maker(
 maker(
     'perc2',
     animales.parts('Percussion', 2),
-    baca.hairpin('niente < p', selector=baca.pleaves()[:3]),
+    baca.new_hairpin('niente o< p', selector=baca.pleaves()[:3]),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_up(),
     baca.staff_position(0),

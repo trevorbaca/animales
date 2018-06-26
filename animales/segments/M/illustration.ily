@@ -291,12 +291,12 @@ M_FluteVoiceI_a = {
     \times 2/3 {
         
         % [M FluteVoiceI measure 83 / measure 2]         %! SM4
-    %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2:+PARTS
+    %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS:BACA_HAIRPIN
         g''8
+    %%% \mf                                              %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS:BACA_HAIRPIN
         [
-    %%% \mf                                              %! HC1:+PARTS
-    %%% \<                                               %! HC1:+PARTS
         (                                                %! SC
+    %%% \<                                               %! IC:+PARTS:BACA_HAIRPIN
         
         af''!8
         
@@ -351,10 +351,10 @@ M_FluteVoiceI_a = {
         
         b''8
         
-    %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3:+PARTS
+    %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS:BACA_HAIRPIN
         c'''8
+    %%% \ff                                              %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS:BACA_HAIRPIN
         ]
-    %%% \ff                                              %! HC1:+PARTS
         )                                                %! SC
     }
     
@@ -386,12 +386,12 @@ M_FluteVoiceIII_a = {
             (“Flute”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f''16
+    \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     [
-    \mf                                                  %! HC1
-    \<                                                   %! HC1
     (                                                    %! SC
+    \<                                                   %! IC:BACA_HAIRPIN
     
     fs''!16
     
@@ -458,10 +458,10 @@ M_FluteVoiceIII_a = {
         
         b''8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         bf''!8
+        \ff                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         ]
-        \ff                                              %! HC1
         )                                                %! SC
     }
     
@@ -549,12 +549,12 @@ M_FluteVoiceII_a = {
         }                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
     \times 2/3 {
         
-    %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2:+PARTS
+    %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS:BACA_HAIRPIN
         ef''!8
+    %%% \mf                                              %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS:BACA_HAIRPIN
         [
-    %%% \mf                                              %! HC1:+PARTS
-    %%% \<                                               %! HC1:+PARTS
         (                                                %! SC
+    %%% \<                                               %! IC:+PARTS:BACA_HAIRPIN
         
         e''8
         
@@ -631,10 +631,10 @@ M_FluteVoiceII_a = {
     
     a''16
     
-%%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3:+PARTS
+%%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS:BACA_HAIRPIN
     af''!16
+%%% \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS:BACA_HAIRPIN
     ]
-%%% \ff                                                  %! HC1:+PARTS
     )                                                    %! SC
     
     % [M FluteVoiceII measure 85 / measure 4]            %! SM4
@@ -658,17 +658,17 @@ M_FluteVoiceIV_a = {
     
     % [M FluteVoiceIV measure 82 / measure 1]            %! SM4
     \voiceTwo                                            %! IC:-PARTS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d''16
+    \mf                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup {                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         \with-color                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             #(x11-color 'DarkViolet)                     %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             (“Flute”)                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         }                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
     [
-    \mf                                                  %! HC1
-    \<                                                   %! HC1
     (                                                    %! SC
+    \<                                                   %! IC:BACA_HAIRPIN
     
     ef''!16
     
@@ -756,10 +756,10 @@ M_FluteVoiceIV_a = {
     
     b''16
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     bf''!16
+    \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ]
-    \ff                                                  %! HC1
     )                                                    %! SC
     
     % [M FluteVoiceIV measure 85 / measure 4]            %! SM4
@@ -1504,14 +1504,14 @@ M_FirstViolinVoiceIII_a = {
     % [M FirstViolinVoiceIII measure 82 / measure 1]         %! SM4
     \override DynamicLineSpanner.direction = #up             %! OC1:-PARTS
     \voiceOne                                                %! IC:-PARTS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'4
 %%% \stopTrillSpan                                           %! IC:+PARTS
+    \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { "solo (first violin)" }                      %! IC:-PARTS
 %%% ^ \markup { solo }                                       %! IC:+PARTS
     \glissando                                               %! SC
-    \p                                                       %! HC1
-    \<                                                       %! HC1
+    \<                                                       %! IC:BACA_HAIRPIN
     
     e'''8
     \glissando                                               %! SC
@@ -1520,9 +1520,9 @@ M_FirstViolinVoiceIII_a = {
     \glissando                                               %! SC
     
     % [M FirstViolinVoiceIII measure 83 / measure 2]         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''4
-    \ff                                                      %! HC1
+    \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \glissando                                               %! SC
     
     d''8
@@ -1539,19 +1539,19 @@ M_FirstViolinVoiceIII_a = {
     ]
     \glissando                                               %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a'4
+    \ff                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \glissando                                               %! SC
-    \ff                                                      %! HC1
-    \>                                                       %! HC1
+    \>                                                       %! IC:BACA_HAIRPIN
     
     % [M FirstViolinVoiceIII measure 84 / measure 3]         %! SM4
     g''4.
     \glissando                                               %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'8
-    \p                                                       %! HC1
+    \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \revert DynamicLineSpanner.direction                     %! OC2:-PARTS
     
     % [M FirstViolinVoiceIII measure 85 / measure 4]         %! SM4

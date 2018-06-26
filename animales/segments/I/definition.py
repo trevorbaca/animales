@@ -76,7 +76,7 @@ maker(
 maker(
     'cl1',
     animales.parts('Clarinet', 3),
-    baca.hairpin('mp < mf'),
+    baca.new_hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.pitch('A4'),
     baca.repeat_tie_up(),
@@ -86,7 +86,7 @@ maker(
 
 maker(
     ('bcl1', (1, 3)),
-    baca.hairpin('p > niente', selector=baca.pleaves().rleak()),
+    baca.new_hairpin('p >o niente', selector=baca.pleaves().rleak()),
     baca.make_repeat_tied_notes(),
     baca.pitch('A2'),
     baca.repeat_tie_to(),
@@ -103,7 +103,7 @@ def crescendi():
     return baca.suite(
         baca.map(
             baca.runs()[:-1],
-            baca.hairpin('mp < mf'),
+            baca.new_hairpin('mp < mf'),
             ),
         baca.map(
             baca.run(-1),
