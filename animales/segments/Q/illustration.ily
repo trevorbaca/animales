@@ -1704,6 +1704,7 @@ Q_FirstViolinVoiceI_a = {
     a''1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -1795,6 +1796,7 @@ Q_FirstViolinVoiceI_a = {
     a''1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -1910,6 +1912,7 @@ Q_FirstViolinVoiceII_a = {
     f''1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -2001,6 +2004,7 @@ Q_FirstViolinVoiceII_a = {
     f''1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -2185,6 +2189,7 @@ Q_FirstViolinVoiceIII_a = {
     g''1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -2276,6 +2281,7 @@ Q_FirstViolinVoiceIII_a = {
     g''1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -2391,6 +2397,7 @@ Q_FirstViolinVoiceIV_a = {
     d''1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -2482,6 +2489,7 @@ Q_FirstViolinVoiceIV_a = {
     d''1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -2808,6 +2816,7 @@ Q_SecondViolinVoiceI_a = {
     b'1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -2899,6 +2908,7 @@ Q_SecondViolinVoiceI_a = {
     b'1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -3015,6 +3025,7 @@ Q_SecondViolinVoiceII_a = {
     g'1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -3106,6 +3117,7 @@ Q_SecondViolinVoiceII_a = {
     g'1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -3290,6 +3302,7 @@ Q_SecondViolinVoiceIII_a = {
     a'1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -3381,6 +3394,7 @@ Q_SecondViolinVoiceIII_a = {
     a'1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -3496,6 +3510,7 @@ Q_SecondViolinVoiceIV_a = {
     f'1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -3587,6 +3602,7 @@ Q_SecondViolinVoiceIV_a = {
     f'1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -3771,6 +3787,7 @@ Q_ViolaVoiceI_a = {
     d'1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -3862,6 +3879,7 @@ Q_ViolaVoiceI_a = {
     d'1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -3977,6 +3995,7 @@ Q_ViolaVoiceII_a = {
     a1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -4068,6 +4087,7 @@ Q_ViolaVoiceII_a = {
     a1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -4252,6 +4272,7 @@ Q_ViolaVoiceIII_a = {
     b1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -4343,6 +4364,7 @@ Q_ViolaVoiceIII_a = {
     b1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -4458,6 +4480,7 @@ Q_ViolaVoiceIV_a = {
     g1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -4549,6 +4572,7 @@ Q_ViolaVoiceIV_a = {
     g1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -4734,6 +4758,7 @@ Q_CelloVoiceI_a = {
     d1
     :32                                                      %! IC
     \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                  %! PIC
     - \tweak circled-tip ##t                                 %! PIC
     \>                                                       %! PIC
     \repeatTie
@@ -4825,6 +4850,7 @@ Q_CelloVoiceI_a = {
     d1
     :32                                                      %! IC
     \mp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                  %! PIC
     - \tweak circled-tip ##t                                 %! PIC
     \>                                                       %! PIC
     \repeatTie
@@ -4941,6 +4967,7 @@ Q_CelloVoiceII_a = {
     g,1
     :32                                                      %! IC
     \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                  %! PIC
     - \tweak circled-tip ##t                                 %! PIC
     \>                                                       %! PIC
     \repeatTie
@@ -5032,6 +5059,7 @@ Q_CelloVoiceII_a = {
     g,1
     :32                                                      %! IC
     \mp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                  %! PIC
     - \tweak circled-tip ##t                                 %! PIC
     \>                                                       %! PIC
     \repeatTie
@@ -5191,6 +5219,7 @@ Q_ContrabassVoiceIII_a = {
     g,1
     :32                                                      %! IC
     \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                  %! PIC
     - \tweak circled-tip ##t                                 %! PIC
     \>                                                       %! PIC
     \repeatTie
@@ -5282,6 +5311,7 @@ Q_ContrabassVoiceIII_a = {
     g,1
     :32                                                      %! IC
     \mp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                  %! PIC
     - \tweak circled-tip ##t                                 %! PIC
     \>                                                       %! PIC
     \repeatTie

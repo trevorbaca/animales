@@ -931,6 +931,7 @@ N_BassClarinetVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“B. cl.”]"                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    - \tweak to-barline ##t                                  %! IC:BACA_HAIRPIN
     - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
     \>                                                       %! IC:BACA_HAIRPIN
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
