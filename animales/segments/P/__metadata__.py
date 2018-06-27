@@ -486,7 +486,7 @@ metadata = abjad.OrderedDict(
                                 context='BassoonVoiceI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='\\!',
                                 ),
                             ],
                         ),
@@ -496,7 +496,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='BassoonVoiceII',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='\\!',
                                 ),
                             ],
                         ),
@@ -662,7 +662,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='EnglishHornVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='\\!',
                                 ),
                             ],
                         ),
@@ -1008,7 +1008,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='OboeVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='\\!',
                                 ),
                             ],
                         ),
