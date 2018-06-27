@@ -59,10 +59,10 @@ maker(
     )
 
 def swell(peak):
-    return baca.hairpin_chain(
-        baca.make_dynamics(f'niente {peak} niente'),
-        pieces=baca.leaves().partition_by_counts([2, 3, 1]),
-        selector=baca.leaves(),
+    return baca.hairpin_indicator_chain(
+        f'niente o< {peak} >o niente',
+        pieces=baca.group_by_measures([2, 3, 1]),
+        selector=baca.rleaves(),
         )
 
 # oboes
