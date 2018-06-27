@@ -221,7 +221,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='BassClarinetVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='\\!',
+                                value='niente',
                                 ),
                             ],
                         ),

@@ -1939,10 +1939,10 @@ J_PercussionVoiceII_a = {
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     c'1
     :32                                                      %! IC
-    \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \!                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
