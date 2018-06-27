@@ -154,9 +154,9 @@ maker(
 
 def crescendi():
     return baca.suite(
-        baca.new_hairpin('mp < mf', selector=baca.run(0)),
-        baca.new_hairpin('mp < f', selector=baca.run(1)),
-        baca.new_hairpin('mp < ff', selector=baca.run(2)),
+        baca.hairpin('mp < mf', selector=baca.run(0)),
+        baca.hairpin('mp < f', selector=baca.run(1)),
+        baca.hairpin('mp < ff', selector=baca.run(2)),
         )
 
 # horns
@@ -285,7 +285,7 @@ def tremolo_suite():
     return baca.suite(
         baca.accent(selector=baca.pleaves()),
         baca.dynamic('ff'),
-        baca.new_hairpin('ff > pp', selector=baca.pleaves()[2:-2]),
+        baca.hairpin('ff > pp', selector=baca.pleaves()[2:-2]),
         baca.only_parts(
             baca.markups.markup('ext. ponticello: like acid').boxed(),
             ),
