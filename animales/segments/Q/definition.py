@@ -213,7 +213,7 @@ def tremolo(peak='f'):
     return baca.suite(
         baca.hairpin_chain(
             baca.make_dynamics(f'niente {peak} niente'),
-            pieces=baca.leaves().partition_by_counts([2, 1, 1]),
+            piece_selector=baca.leaves().partition_by_counts([2, 1, 1]),
             selector=baca.leaves(),
             ),
         baca.transition(
@@ -221,7 +221,7 @@ def tremolo(peak='f'):
             baca.markups.ext_pont(),
             baca.markups.tasto(),
             do_not_bookend=True,
-            pieces=baca.leaves().partition_by_counts([2, 1, 1]),
+            piece_selector=baca.leaves().partition_by_counts([2, 1, 1]),
             selector=baca.leaves(),
             ),
         baca.stem_tremolo(selector=baca.pleaves()),
