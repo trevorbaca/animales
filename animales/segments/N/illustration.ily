@@ -955,9 +955,9 @@ N_BassClarinetVoiceI_a = {
     \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [N BassClarinetVoiceI measure 90 / measure 3]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     bf!1
-    \!                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
     \<                                                       %! IC:BACA_HAIRPIN
     
@@ -1602,9 +1602,9 @@ N_FirstViolinVoiceII_a = {
     g''8
     \glissando                                               %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d'''8
-    \ff                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                       %! IC:BACA_HAIRPIN
     ]
     \glissando                                               %! SC

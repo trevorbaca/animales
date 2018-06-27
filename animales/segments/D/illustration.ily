@@ -639,9 +639,9 @@ D_FirstViolinVoiceII_a = {
     f''8
     \glissando                                           %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     e'''8
-    \f                                                   %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                   %! IC:BACA_HAIRPIN
     ]
     \glissando                                           %! SC
