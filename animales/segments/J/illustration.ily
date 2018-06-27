@@ -612,9 +612,9 @@ J_HornVoiceII_a = {
         
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         e'8
-        \mp                                              %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \mp                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                               %! IC:BACA_HAIRPIN
         ~
     }
@@ -1622,9 +1622,9 @@ J_TromboneVoiceIV_a = {
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g8
-    \mp                                                  %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \mp                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \<                                                   %! IC:BACA_HAIRPIN
     ~
     
