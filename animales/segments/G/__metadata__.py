@@ -656,7 +656,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='\\!',
+                                value='niente',
                                 ),
                             ],
                         ),
