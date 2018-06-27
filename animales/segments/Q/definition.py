@@ -212,7 +212,7 @@ string_parts = {
 def tremolo(peak='f'):
     return baca.suite(
         baca.hairpin_chain(
-            baca.dynamics(f'niente {peak} niente'),
+            baca.make_dynamics(f'niente {peak} niente'),
             pieces=baca.leaves().partition_by_counts([2, 1, 1]),
             selector=baca.leaves(),
             ),
