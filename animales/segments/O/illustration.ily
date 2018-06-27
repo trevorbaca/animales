@@ -501,6 +501,7 @@ O_OboeVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a'1
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -614,6 +615,7 @@ O_EnglishHornVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d'1
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                              %! PIC
     - \tweak circled-tip ##t                             %! PIC
     \>                                                   %! PIC
     \repeatTie
@@ -692,6 +694,7 @@ O_BassoonVoiceI_a = {
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC:+PARTS
     b1
 %%% \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC:+PARTS
+%%% - \tweak to-barline ##t                                  %! PIC:+PARTS
 %%% - \tweak circled-tip ##t                                 %! PIC:+PARTS
 %%% \>                                                       %! PIC:+PARTS
     \repeatTie
@@ -795,6 +798,7 @@ O_BassoonVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     g,1
     \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                  %! PIC
     - \tweak circled-tip ##t                                 %! PIC
     \>                                                       %! PIC
     \repeatTie
