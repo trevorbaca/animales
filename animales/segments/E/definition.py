@@ -84,7 +84,7 @@ maker(
 maker(
     'perc1',
     animales.parts('Percussion', 1),
-    baca.hairpin('p >o', right_broken=True),
+    baca.generalized_hairpin('p >o', right_broken=True),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie_to(),
@@ -171,7 +171,7 @@ maker(
         stems=True,
         style='trill',
         ),
-    baca.hairpin('f >', right_broken=True),
+    baca.generalized_hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('B3', 'A6'),
     )
 
@@ -184,7 +184,7 @@ maker(
         stems=True,
         style='trill',
         ),
-    baca.hairpin('f >', right_broken=True),
+    baca.generalized_hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('B3', 'A5'),
     )
 
@@ -197,7 +197,7 @@ maker(
         stems=True,
         style='trill',
         ),
-    baca.hairpin('f >', right_broken=True),
+    baca.generalized_hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('B3', 'A4'),
     )
 
@@ -210,14 +210,14 @@ maker(
         stems=True,
         style='trill',
         ),
-    baca.hairpin('f >', right_broken=True),
+    baca.generalized_hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('B3', 'C3'),
     )
 
 maker(
     'cb3',
     baca.glissando(allow_repeats=True, right_broken=True, stems=True),
-    baca.hairpin('ff >', right_broken=True),
+    baca.generalized_hairpin('ff >', right_broken=True),
     baca.interpolate_staff_positions('B1', 'A1'),
     baca.repeat_tie_to(),
     )

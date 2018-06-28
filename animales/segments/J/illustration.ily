@@ -350,7 +350,7 @@ J_HornVoiceI_a = {
             #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Hn. (1+3)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! IC:BACA_HAIRPIN
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! PIC
     ~
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -376,9 +376,9 @@ J_HornVoiceI_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         fs'!8
-        \f                                               %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \f                                               %! SM8:EXPLICIT_DYNAMIC:PIC
         
         r4
     }
@@ -479,7 +479,7 @@ J_HornVoiceIII_a = {
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! IC:BACA_HAIRPIN
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! PIC
     
     f'8
     ~
@@ -488,9 +488,9 @@ J_HornVoiceIII_a = {
     ~
     
     % [J HornVoiceIII measure 63 / measure 2]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     f'4
-    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     
     r4
     
@@ -586,6 +586,7 @@ J_HornVoiceII_a = {
             #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Hn. (2+4)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -702,7 +703,7 @@ J_HornVoiceIV_a = {
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Horn”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! IC:BACA_HAIRPIN
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! PIC
     
     f'4
     ~
@@ -712,9 +713,9 @@ J_HornVoiceIV_a = {
     ~
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         f'4
-        \f                                               %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \f                                               %! SM8:EXPLICIT_DYNAMIC:PIC
         
         r8
     }
@@ -818,7 +819,7 @@ J_TrumpetVoiceI_a = {
             #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Tp. (1+3)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! IC:BACA_HAIRPIN
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -850,9 +851,9 @@ J_TrumpetVoiceI_a = {
     ~
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         bf'!8
-        \f                                               %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \f                                               %! SM8:EXPLICIT_DYNAMIC:PIC
         
         r4
     }
@@ -936,12 +937,12 @@ J_TrumpetVoiceIII_a = {
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! IC:BACA_HAIRPIN
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! PIC
     ~
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a'8
-    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     
     r8
     
@@ -1096,7 +1097,7 @@ J_TrumpetVoiceII_a = {
         }                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     af'!8
-    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! IC:BACA_HAIRPIN
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! PIC
     ~
     
     af'!2
@@ -1110,9 +1111,9 @@ J_TrumpetVoiceII_a = {
     }
     
     % [J TrumpetVoiceII measure 63 / measure 2]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     bf'!2.
-    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \times 2/3 {
         
         r4
@@ -1170,11 +1171,11 @@ J_TrumpetVoiceIV_a = {
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Trumpet”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! IC:BACA_HAIRPIN
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a'2.
-    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [J TrumpetVoiceIV measure 63 / measure 2]          %! SM4
     r4
@@ -1271,7 +1272,7 @@ J_TromboneVoiceI_a = {
             #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Trb. (1+3)”]"                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! IC:BACA_HAIRPIN
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! PIC
     [
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -1300,9 +1301,9 @@ J_TromboneVoiceI_a = {
     ~
     ]
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     bf!2
-    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     
     r4
     
@@ -1383,7 +1384,7 @@ J_TromboneVoiceIII_a = {
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Trombone”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! IC:BACA_HAIRPIN
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! PIC
     ~
     
     g8
@@ -1394,9 +1395,9 @@ J_TromboneVoiceIII_a = {
     % [J TromboneVoiceIII measure 63 / measure 2]        %! SM4
     a4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     g2.
-    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \times 2/3 {
         
         % [J TromboneVoiceIII measure 64 / measure 3]    %! SM4
@@ -1511,7 +1512,7 @@ J_TromboneVoiceII_a = {
             #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Trb. (2+4)”]"                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! IC:BACA_HAIRPIN
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1539,9 +1540,9 @@ J_TromboneVoiceII_a = {
     ~
     
     % [J TromboneVoiceII measure 63 / measure 2]         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     bf!8
-    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     
     r8
     
@@ -1617,6 +1618,7 @@ J_TromboneVoiceIV_a = {
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Trombone”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    \<                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS %! PIC
     
     r8
     
@@ -2149,10 +2151,10 @@ J_FirstViolinVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a4
 %%% \stopTrillSpan                                           %! IC:-SEGMENT
-    \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
     -\trill                                                  %! IC
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2164,7 +2166,7 @@ J_FirstViolinVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Vni. I”]"                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \>                                                       %! IC:BACA_HAIRPIN
+    \>                                                       %! PIC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
@@ -2258,7 +2260,7 @@ J_FirstViolinVoiceI_a = {
     \undo \hide NoteHead                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     g'''4
 %@% \glissando                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    \!                                                       %! IC:BACA_HAIRPIN:HIDE_TO_JOIN_BROKEN_SPANNERS
+    \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
 %@% \revert Accidental.stencil                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                        %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -2298,10 +2300,10 @@ J_SecondViolinVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a4
 %%% \stopTrillSpan                                           %! IC:-SEGMENT
-    \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
     -\trill                                                  %! IC
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2313,7 +2315,7 @@ J_SecondViolinVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Vni. II”]"                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \>                                                       %! IC:BACA_HAIRPIN
+    \>                                                       %! PIC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
@@ -2407,7 +2409,7 @@ J_SecondViolinVoiceI_a = {
     \undo \hide NoteHead                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     g''4
 %@% \glissando                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    \!                                                       %! IC:BACA_HAIRPIN:HIDE_TO_JOIN_BROKEN_SPANNERS
+    \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
 %@% \revert Accidental.stencil                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                        %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -2447,10 +2449,10 @@ J_ViolaVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a4
 %%% \stopTrillSpan                                           %! IC:-SEGMENT
-    \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
     -\trill                                                  %! IC
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2462,7 +2464,7 @@ J_ViolaVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Vle.”]                                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \>                                                       %! IC:BACA_HAIRPIN
+    \>                                                       %! PIC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
@@ -2556,7 +2558,7 @@ J_ViolaVoiceI_a = {
     \undo \hide NoteHead                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     g'4
 %@% \glissando                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    \!                                                       %! IC:BACA_HAIRPIN:HIDE_TO_JOIN_BROKEN_SPANNERS
+    \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
 %@% \revert Accidental.stencil                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                        %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -2596,10 +2598,10 @@ J_CelloVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a4
 %%% \stopTrillSpan                                           %! IC:-SEGMENT
-    \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
     -\trill                                                  %! IC
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2611,7 +2613,7 @@ J_CelloVoiceI_a = {
             #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Vc.”]                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \>                                                       %! IC:BACA_HAIRPIN
+    \>                                                       %! PIC
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                                   %! SC
     \glissando                                               %! SC
@@ -2705,7 +2707,7 @@ J_CelloVoiceI_a = {
     \undo \hide NoteHead                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     b,4
 %@% \glissando                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    \!                                                       %! IC:BACA_HAIRPIN:HIDE_TO_JOIN_BROKEN_SPANNERS
+    \!                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
 %@% \revert Accidental.stencil                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                        %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
@@ -2864,9 +2866,9 @@ J_ContrabassVoiceIII_a = {
 %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a,4
-    \ff                                                  %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \ff                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2877,7 +2879,7 @@ J_ContrabassVoiceIII_a = {
             #(x11-color 'green4)                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Cb. (2-6)”]"                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \>                                                   %! IC:BACA_HAIRPIN
+    \>                                                   %! PIC
     \glissando                                           %! SC
     \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -2977,7 +2979,7 @@ J_ContrabassVoiceIII_a = {
     \undo \hide NoteHead                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SC
     g,4
 %@% \glissando                                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
-    \!                                                   %! IC:BACA_HAIRPIN:HIDE_TO_JOIN_BROKEN_SPANNERS
+    \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
 %@% \revert Accidental.stencil                           %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \revert NoteColumn.glissando-skip                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
 %@% \undo \hide NoteHead                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SC
