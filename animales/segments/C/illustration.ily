@@ -289,12 +289,12 @@ C_ClarinetVoiceI_a = {
     R1 * 1
     
     % [C ClarinetVoiceI measure 20 / measure 3]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d''1
-    \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \mp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "solo (cl. 3)" }                             %! IC:-PARTS
 %%% ^ \markup { solo }                                       %! IC:+PARTS
-    \<                                                       %! IC:BACA_HAIRPIN
+    \<                                                       %! PIC
     
     % [C ClarinetVoiceI measure 21 / measure 4]              %! SM4
     d''1
@@ -305,9 +305,9 @@ C_ClarinetVoiceI_a = {
     \repeatTie
     
     % [C ClarinetVoiceI measure 23 / measure 6]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d''2.
-    \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \mf                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
 }
@@ -1435,13 +1435,13 @@ C_FirstViolinVoiceII_a = {
     % [C FirstViolinVoiceII measure 20 / measure 3]      %! SM4
     \override DynamicLineSpanner.direction = #up         %! OC1:-PARTS
     \voiceOne                                            %! IC:-PARTS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     c''2
 %%% \stopTrillSpan                                       %! IC:+PARTS
-    \p                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \p                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "solo (first violin)" }                  %! IC:-PARTS
 %%% ^ \markup { solo }                                   %! IC:+PARTS
-    \<                                                   %! IC:BACA_HAIRPIN
+    \<                                                   %! PIC
     \glissando                                           %! SC
     
     b'8
@@ -1456,9 +1456,9 @@ C_FirstViolinVoiceII_a = {
     \glissando                                           %! SC
     
     % [C FirstViolinVoiceII measure 21 / measure 4]      %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d'''8
-    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     [
     \glissando                                           %! SC
     
@@ -1493,10 +1493,10 @@ C_FirstViolinVoiceII_a = {
     [
     \glissando                                           %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d'''8
-    \f                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \>                                                   %! IC:BACA_HAIRPIN
+    \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                   %! PIC
     ]
     \glissando                                           %! SC
     
@@ -1507,9 +1507,9 @@ C_FirstViolinVoiceII_a = {
     c'''8
     ~                                                    %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     c'''4.
-    \p                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \p                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \revert DynamicLineSpanner.direction                 %! OC2:-PARTS
     
 }
