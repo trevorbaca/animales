@@ -5162,37 +5162,37 @@ Z_ContrabassVoiceIII_a = {
             "[“Cb. (3-4)”]"                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
 %@% \repeatTie                                               %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
-    - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {               %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \upright                                     %! PWC1
-                    ord.                                     %! PWC1
-                \hspace                                      %! PWC1
-                    #0.5                                     %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    - \tweak arrow-width 0.25                                %! PWC1
-    - \tweak dash-fraction 0.25                              %! PWC1
-    - \tweak dash-period 1.5                                 %! PWC1
-    - \tweak bound-details.left-broken.text ##f              %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-    - \tweak bound-details.right.arrow ##t                   %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-    - \tweak bound-details.right-broken.padding 0            %! PWC1
-    - \tweak bound-details.right-broken.text ##f             %! PWC1
-    - \tweak bound-details.right.padding 0.5                 %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {              %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \hspace                                      %! PWC1
-                    #0.0                                     %! PWC1
-                \upright                                     %! PWC1
-                    "ext. pont."                             %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    \startTextSpan                                           %! PWC1
+    - \tweak Y-extent ##f                                    %! PSC1
+    - \tweak bound-details.left.text \markup {               %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \upright                                     %! PSC1
+                    ord.                                     %! PSC1
+                \hspace                                      %! PSC1
+                    #0.5                                     %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    - \tweak arrow-width 0.25                                %! PSC1
+    - \tweak dash-fraction 0.25                              %! PSC1
+    - \tweak dash-period 1.5                                 %! PSC1
+    - \tweak bound-details.left-broken.text ##f              %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+    - \tweak bound-details.right.arrow ##t                   %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+    - \tweak bound-details.right-broken.padding 0            %! PSC1
+    - \tweak bound-details.right-broken.text ##f             %! PSC1
+    - \tweak bound-details.right.padding 0.5                 %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {              %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \hspace                                      %! PSC1
+                    #0.0                                     %! PSC1
+                \upright                                     %! PSC1
+                    "ext. pont."                             %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    \startTextSpan                                           %! PSC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -5223,7 +5223,7 @@ Z_ContrabassVoiceIII_a = {
     % [Z ContrabassVoiceIII measure 157 / measure 3]         %! SM4
     cs!1
     \repeatTie                                               %! TCC
-    \stopTextSpan                                            %! PWC1
+    \stopTextSpan                                            %! PSC1
     
 }
 
