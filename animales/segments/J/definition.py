@@ -99,7 +99,7 @@ maker(
 crescendi = baca.suite(
     baca.map(
         baca.run(0),
-        baca.hairpin('< f', left_broken=True),
+        baca.generalized_hairpin('< f', left_broken=True),
         ),
     baca.map(
         baca.runs()[1:],
@@ -319,7 +319,7 @@ maker(
         stems=True,
         style='trill',
         ),
-    baca.hairpin('f >', right_broken=True),
+    baca.generalized_hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('A3', 'G6'),
     )
 
@@ -332,7 +332,7 @@ maker(
         stems=True,
         style='trill',
         ),
-    baca.hairpin('f >', right_broken=True),
+    baca.generalized_hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('A3', 'G5'),
     )
 
@@ -345,7 +345,7 @@ maker(
         stems=True,
         style='trill',
         ),
-    baca.hairpin('f >', right_broken=True),
+    baca.generalized_hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('A3', 'G4'),
     )
 
@@ -358,7 +358,7 @@ maker(
         stems=True,
         style='trill',
         ),
-    baca.hairpin('f >', right_broken=True),
+    baca.generalized_hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('A3', 'B2'),
     )
 
@@ -366,7 +366,7 @@ maker(
     'cb3',
     animales.parts('Contrabass', (2, 6)),
     baca.glissando(allow_repeats=True, right_broken=True, stems=True),
-    baca.hairpin('ff >', right_broken=True),
+    baca.generalized_hairpin('ff >', right_broken=True),
     baca.interpolate_staff_positions('A1', 'G1'),
     baca.make_repeated_duration_notes([(1, 4)]),
     )
