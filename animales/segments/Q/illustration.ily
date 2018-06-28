@@ -1671,28 +1671,28 @@ Q_FirstViolinVoiceI_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceI measure 123 / measure 5]      %! SM4
     a''1
@@ -1704,48 +1704,45 @@ Q_FirstViolinVoiceI_a = {
     a''1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceI measure 125 / measure 7]      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     
     % [Q FirstViolinVoiceI measure 126 / measure 8]      %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -1763,28 +1760,28 @@ Q_FirstViolinVoiceI_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceI measure 128 / measure 10]     %! SM4
     a''1
@@ -1796,48 +1793,45 @@ Q_FirstViolinVoiceI_a = {
     a''1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceI measure 130 / measure 12]     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
 %%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
@@ -1879,28 +1873,28 @@ Q_FirstViolinVoiceII_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceII measure 123 / measure 5]     %! SM4
     f''1
@@ -1912,48 +1906,45 @@ Q_FirstViolinVoiceII_a = {
     f''1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceII measure 125 / measure 7]     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     
     % [Q FirstViolinVoiceII measure 126 / measure 8]     %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -1971,28 +1962,28 @@ Q_FirstViolinVoiceII_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceII measure 128 / measure 10]    %! SM4
     f''1
@@ -2004,48 +1995,45 @@ Q_FirstViolinVoiceII_a = {
     f''1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceII measure 130 / measure 12]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
     
 }
@@ -2156,28 +2144,28 @@ Q_FirstViolinVoiceIII_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceIII measure 123 / measure 5]    %! SM4
     g''1
@@ -2189,48 +2177,45 @@ Q_FirstViolinVoiceIII_a = {
     g''1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceIII measure 125 / measure 7]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     
     % [Q FirstViolinVoiceIII measure 126 / measure 8]    %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -2248,28 +2233,28 @@ Q_FirstViolinVoiceIII_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceIII measure 128 / measure 10]   %! SM4
     g''1
@@ -2281,48 +2266,45 @@ Q_FirstViolinVoiceIII_a = {
     g''1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceIII measure 130 / measure 12]   %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
 %%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
@@ -2364,28 +2346,28 @@ Q_FirstViolinVoiceIV_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceIV measure 123 / measure 5]     %! SM4
     d''1
@@ -2397,48 +2379,45 @@ Q_FirstViolinVoiceIV_a = {
     d''1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceIV measure 125 / measure 7]     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     
     % [Q FirstViolinVoiceIV measure 126 / measure 8]     %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -2456,28 +2435,28 @@ Q_FirstViolinVoiceIV_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceIV measure 128 / measure 10]    %! SM4
     d''1
@@ -2489,48 +2468,45 @@ Q_FirstViolinVoiceIV_a = {
     d''1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q FirstViolinVoiceIV measure 130 / measure 12]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
     
 }
@@ -2783,28 +2759,28 @@ Q_SecondViolinVoiceI_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceI measure 123 / measure 5]     %! SM4
     b'1
@@ -2816,48 +2792,45 @@ Q_SecondViolinVoiceI_a = {
     b'1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceI measure 125 / measure 7]     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     
     % [Q SecondViolinVoiceI measure 126 / measure 8]     %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -2875,28 +2848,28 @@ Q_SecondViolinVoiceI_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceI measure 128 / measure 10]    %! SM4
     b'1
@@ -2908,49 +2881,46 @@ Q_SecondViolinVoiceI_a = {
     b'1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     \revert RepeatTie.direction                          %! OC2
     
     % [Q SecondViolinVoiceI measure 130 / measure 12]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
 %%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
@@ -2992,28 +2962,28 @@ Q_SecondViolinVoiceII_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceII measure 123 / measure 5]    %! SM4
     g'1
@@ -3025,48 +2995,45 @@ Q_SecondViolinVoiceII_a = {
     g'1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceII measure 125 / measure 7]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     
     % [Q SecondViolinVoiceII measure 126 / measure 8]    %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -3084,28 +3051,28 @@ Q_SecondViolinVoiceII_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceII measure 128 / measure 10]   %! SM4
     g'1
@@ -3117,48 +3084,45 @@ Q_SecondViolinVoiceII_a = {
     g'1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceII measure 130 / measure 12]   %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
     
 }
@@ -3269,28 +3233,28 @@ Q_SecondViolinVoiceIII_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceIII measure 123 / measure 5]   %! SM4
     a'1
@@ -3302,48 +3266,45 @@ Q_SecondViolinVoiceIII_a = {
     a'1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceIII measure 125 / measure 7]   %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     
     % [Q SecondViolinVoiceIII measure 126 / measure 8]   %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -3361,28 +3322,28 @@ Q_SecondViolinVoiceIII_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceIII measure 128 / measure 10]  %! SM4
     a'1
@@ -3394,48 +3355,45 @@ Q_SecondViolinVoiceIII_a = {
     a'1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceIII measure 130 / measure 12]  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
 %%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
@@ -3477,28 +3435,28 @@ Q_SecondViolinVoiceIV_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceIV measure 123 / measure 5]    %! SM4
     f'1
@@ -3510,48 +3468,45 @@ Q_SecondViolinVoiceIV_a = {
     f'1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceIV measure 125 / measure 7]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     
     % [Q SecondViolinVoiceIV measure 126 / measure 8]    %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -3569,28 +3524,28 @@ Q_SecondViolinVoiceIV_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceIV measure 128 / measure 10]   %! SM4
     f'1
@@ -3602,48 +3557,45 @@ Q_SecondViolinVoiceIV_a = {
     f'1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q SecondViolinVoiceIV measure 130 / measure 12]   %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
     
 }
@@ -3754,28 +3706,28 @@ Q_ViolaVoiceI_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceI measure 123 / measure 5]            %! SM4
     d'1
@@ -3787,48 +3739,45 @@ Q_ViolaVoiceI_a = {
     d'1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceI measure 125 / measure 7]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     
     % [Q ViolaVoiceI measure 126 / measure 8]            %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -3846,28 +3795,28 @@ Q_ViolaVoiceI_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceI measure 128 / measure 10]           %! SM4
     d'1
@@ -3879,48 +3828,45 @@ Q_ViolaVoiceI_a = {
     d'1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceI measure 130 / measure 12]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
 %%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
@@ -3962,28 +3908,28 @@ Q_ViolaVoiceII_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceII measure 123 / measure 5]           %! SM4
     a1
@@ -3995,48 +3941,45 @@ Q_ViolaVoiceII_a = {
     a1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceII measure 125 / measure 7]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     
     % [Q ViolaVoiceII measure 126 / measure 8]           %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -4054,28 +3997,28 @@ Q_ViolaVoiceII_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceII measure 128 / measure 10]          %! SM4
     a1
@@ -4087,48 +4030,45 @@ Q_ViolaVoiceII_a = {
     a1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceII measure 130 / measure 12]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
     
 }
@@ -4239,28 +4179,28 @@ Q_ViolaVoiceIII_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceIII measure 123 / measure 5]          %! SM4
     b1
@@ -4272,48 +4212,45 @@ Q_ViolaVoiceIII_a = {
     b1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceIII measure 125 / measure 7]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     
     % [Q ViolaVoiceIII measure 126 / measure 8]          %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -4331,28 +4268,28 @@ Q_ViolaVoiceIII_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceIII measure 128 / measure 10]         %! SM4
     b1
@@ -4364,48 +4301,45 @@ Q_ViolaVoiceIII_a = {
     b1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceIII measure 130 / measure 12]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
 %%% \revert TextSpanner.staff-padding                    %! OC2:+PARTS
     \revert DynamicText.stencil                          %! OC2:-PARTS
     \revert Hairpin.stencil                              %! OC2:-PARTS
@@ -4447,28 +4381,28 @@ Q_ViolaVoiceIV_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceIV measure 123 / measure 5]           %! SM4
     g1
@@ -4480,48 +4414,45 @@ Q_ViolaVoiceIV_a = {
     g1
     :32                                                  %! IC
     \f                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceIV measure 125 / measure 7]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     
     % [Q ViolaVoiceIV measure 126 / measure 8]           %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -4539,28 +4470,28 @@ Q_ViolaVoiceIV_a = {
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                       %! PWC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceIV measure 128 / measure 10]          %! SM4
     g1
@@ -4572,48 +4503,45 @@ Q_ViolaVoiceIV_a = {
     g1
     :32                                                  %! IC
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                              %! PIC
-    - \tweak circled-tip ##t                             %! PIC
-    \>                                                   %! PIC
     \repeatTie
-    \stopTextSpan                                        %! PWC1
-    - \tweak Y-extent ##f                                %! PWC1
-    - \tweak bound-details.left.text \markup {           %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \upright                                 %! PWC1
-                    "ext. pont."                         %! PWC1
-                \hspace                                  %! PWC1
-                    #0.5                                 %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    - \tweak arrow-width 0.25                            %! PWC1
-    - \tweak dash-fraction 0.25                          %! PWC1
-    - \tweak dash-period 1.5                             %! PWC1
-    - \tweak bound-details.left-broken.text ##f          %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.arrow ##t               %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f        %! PWC1
-    - \tweak bound-details.right-broken.padding 0        %! PWC1
-    - \tweak bound-details.right-broken.text ##f         %! PWC1
-    - \tweak bound-details.right.padding 0.5             %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {          %! PWC1
-        \concat                                          %! PWC1
-            {                                            %! PWC1
-                \hspace                                  %! PWC1
-                    #0.0                                 %! PWC1
-                \upright                                 %! PWC1
-                    tasto                                %! PWC1
-            }                                            %! PWC1
-        }                                                %! PWC1
-    \startTextSpan                                       %! PWC1
+    \stopTextSpan                                        %! PSC1
+    - \tweak Y-extent ##f                                %! PSC1
+    - \tweak bound-details.left.text \markup {           %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \upright                                 %! PSC1
+                    "ext. pont."                         %! PSC1
+                \hspace                                  %! PSC1
+                    #0.5                                 %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    - \tweak arrow-width 0.25                            %! PSC1
+    - \tweak dash-fraction 0.25                          %! PSC1
+    - \tweak dash-period 1.5                             %! PSC1
+    - \tweak bound-details.left-broken.text ##f          %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.arrow ##t               %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f        %! PSC1
+    - \tweak bound-details.right-broken.padding 0        %! PSC1
+    - \tweak bound-details.right-broken.text ##f         %! PSC1
+    - \tweak bound-details.right.padding 0.5             %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {          %! PSC1
+        \concat                                          %! PSC1
+            {                                            %! PSC1
+                \hspace                                  %! PSC1
+                    #0.0                                 %! PSC1
+                \upright                                 %! PSC1
+                    tasto                                %! PSC1
+            }                                            %! PSC1
+        }                                                %! PSC1
+    \startTextSpan                                       %! PSC1
     
     % [Q ViolaVoiceIV measure 130 / measure 12]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                        %! PWC1
+    \stopTextSpan                                        %! PSC1
     \revert TextSpanner.staff-padding                    %! OC2:-PARTS
     
 }
@@ -4725,28 +4653,28 @@ Q_CelloVoiceI_a = {
     \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                 %! PIC
     \<                                                       %! PIC
-    - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {               %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \upright                                     %! PWC1
-                    tasto                                    %! PWC1
-                \hspace                                      %! PWC1
-                    #0.5                                     %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    - \tweak arrow-width 0.25                                %! PWC1
-    - \tweak dash-fraction 0.25                              %! PWC1
-    - \tweak dash-period 1.5                                 %! PWC1
-    - \tweak bound-details.left-broken.text ##f              %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-    - \tweak bound-details.right.arrow ##t                   %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-    - \tweak bound-details.right-broken.padding 0            %! PWC1
-    - \tweak bound-details.right-broken.text ##f             %! PWC1
-    - \tweak bound-details.right.padding 0.5                 %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                           %! PWC1
+    - \tweak Y-extent ##f                                    %! PSC1
+    - \tweak bound-details.left.text \markup {               %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \upright                                     %! PSC1
+                    tasto                                    %! PSC1
+                \hspace                                      %! PSC1
+                    #0.5                                     %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    - \tweak arrow-width 0.25                                %! PSC1
+    - \tweak dash-fraction 0.25                              %! PSC1
+    - \tweak dash-period 1.5                                 %! PSC1
+    - \tweak bound-details.left-broken.text ##f              %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+    - \tweak bound-details.right.arrow ##t                   %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+    - \tweak bound-details.right-broken.padding 0            %! PSC1
+    - \tweak bound-details.right-broken.text ##f             %! PSC1
+    - \tweak bound-details.right.padding 0.5                 %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                           %! PSC1
     
     % [Q CelloVoiceI measure 123 / measure 5]                %! SM4
     d1
@@ -4758,48 +4686,45 @@ Q_CelloVoiceI_a = {
     d1
     :32                                                      %! IC
     \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                  %! PIC
-    - \tweak circled-tip ##t                                 %! PIC
-    \>                                                       %! PIC
     \repeatTie
-    \stopTextSpan                                            %! PWC1
-    - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {               %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \upright                                     %! PWC1
-                    "ext. pont."                             %! PWC1
-                \hspace                                      %! PWC1
-                    #0.5                                     %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    - \tweak arrow-width 0.25                                %! PWC1
-    - \tweak dash-fraction 0.25                              %! PWC1
-    - \tweak dash-period 1.5                                 %! PWC1
-    - \tweak bound-details.left-broken.text ##f              %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-    - \tweak bound-details.right.arrow ##t                   %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-    - \tweak bound-details.right-broken.padding 0            %! PWC1
-    - \tweak bound-details.right-broken.text ##f             %! PWC1
-    - \tweak bound-details.right.padding 0.5                 %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {              %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \hspace                                      %! PWC1
-                    #0.0                                     %! PWC1
-                \upright                                     %! PWC1
-                    tasto                                    %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    \startTextSpan                                           %! PWC1
+    \stopTextSpan                                            %! PSC1
+    - \tweak Y-extent ##f                                    %! PSC1
+    - \tweak bound-details.left.text \markup {               %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \upright                                     %! PSC1
+                    "ext. pont."                             %! PSC1
+                \hspace                                      %! PSC1
+                    #0.5                                     %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    - \tweak arrow-width 0.25                                %! PSC1
+    - \tweak dash-fraction 0.25                              %! PSC1
+    - \tweak dash-period 1.5                                 %! PSC1
+    - \tweak bound-details.left-broken.text ##f              %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+    - \tweak bound-details.right.arrow ##t                   %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+    - \tweak bound-details.right-broken.padding 0            %! PSC1
+    - \tweak bound-details.right-broken.text ##f             %! PSC1
+    - \tweak bound-details.right.padding 0.5                 %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {              %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \hspace                                      %! PSC1
+                    #0.0                                     %! PSC1
+                \upright                                     %! PSC1
+                    tasto                                    %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    \startTextSpan                                           %! PSC1
     
     % [Q CelloVoiceI measure 125 / measure 7]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                            %! PWC1
+    \stopTextSpan                                            %! PSC1
     
     % [Q CelloVoiceI measure 126 / measure 8]                %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -4817,28 +4742,28 @@ Q_CelloVoiceI_a = {
     \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                 %! PIC
     \<                                                       %! PIC
-    - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {               %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \upright                                     %! PWC1
-                    tasto                                    %! PWC1
-                \hspace                                      %! PWC1
-                    #0.5                                     %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    - \tweak arrow-width 0.25                                %! PWC1
-    - \tweak dash-fraction 0.25                              %! PWC1
-    - \tweak dash-period 1.5                                 %! PWC1
-    - \tweak bound-details.left-broken.text ##f              %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-    - \tweak bound-details.right.arrow ##t                   %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-    - \tweak bound-details.right-broken.padding 0            %! PWC1
-    - \tweak bound-details.right-broken.text ##f             %! PWC1
-    - \tweak bound-details.right.padding 0.5                 %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                           %! PWC1
+    - \tweak Y-extent ##f                                    %! PSC1
+    - \tweak bound-details.left.text \markup {               %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \upright                                     %! PSC1
+                    tasto                                    %! PSC1
+                \hspace                                      %! PSC1
+                    #0.5                                     %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    - \tweak arrow-width 0.25                                %! PSC1
+    - \tweak dash-fraction 0.25                              %! PSC1
+    - \tweak dash-period 1.5                                 %! PSC1
+    - \tweak bound-details.left-broken.text ##f              %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+    - \tweak bound-details.right.arrow ##t                   %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+    - \tweak bound-details.right-broken.padding 0            %! PSC1
+    - \tweak bound-details.right-broken.text ##f             %! PSC1
+    - \tweak bound-details.right.padding 0.5                 %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                           %! PSC1
     
     % [Q CelloVoiceI measure 128 / measure 10]               %! SM4
     d1
@@ -4850,49 +4775,46 @@ Q_CelloVoiceI_a = {
     d1
     :32                                                      %! IC
     \mp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                  %! PIC
-    - \tweak circled-tip ##t                                 %! PIC
-    \>                                                       %! PIC
     \repeatTie
-    \stopTextSpan                                            %! PWC1
-    - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {               %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \upright                                     %! PWC1
-                    "ext. pont."                             %! PWC1
-                \hspace                                      %! PWC1
-                    #0.5                                     %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    - \tweak arrow-width 0.25                                %! PWC1
-    - \tweak dash-fraction 0.25                              %! PWC1
-    - \tweak dash-period 1.5                                 %! PWC1
-    - \tweak bound-details.left-broken.text ##f              %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-    - \tweak bound-details.right.arrow ##t                   %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-    - \tweak bound-details.right-broken.padding 0            %! PWC1
-    - \tweak bound-details.right-broken.text ##f             %! PWC1
-    - \tweak bound-details.right.padding 0.5                 %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {              %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \hspace                                      %! PWC1
-                    #0.0                                     %! PWC1
-                \upright                                     %! PWC1
-                    tasto                                    %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    \startTextSpan                                           %! PWC1
+    \stopTextSpan                                            %! PSC1
+    - \tweak Y-extent ##f                                    %! PSC1
+    - \tweak bound-details.left.text \markup {               %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \upright                                     %! PSC1
+                    "ext. pont."                             %! PSC1
+                \hspace                                      %! PSC1
+                    #0.5                                     %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    - \tweak arrow-width 0.25                                %! PSC1
+    - \tweak dash-fraction 0.25                              %! PSC1
+    - \tweak dash-period 1.5                                 %! PSC1
+    - \tweak bound-details.left-broken.text ##f              %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+    - \tweak bound-details.right.arrow ##t                   %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+    - \tweak bound-details.right-broken.padding 0            %! PSC1
+    - \tweak bound-details.right-broken.text ##f             %! PSC1
+    - \tweak bound-details.right.padding 0.5                 %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {              %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \hspace                                      %! PSC1
+                    #0.0                                     %! PSC1
+                \upright                                     %! PSC1
+                    tasto                                    %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    \startTextSpan                                           %! PSC1
     \revert RepeatTie.direction                              %! OC2
     
     % [Q CelloVoiceI measure 130 / measure 12]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                            %! PWC1
+    \stopTextSpan                                            %! PSC1
 %%% \revert TextSpanner.staff-padding                        %! OC2:+PARTS
     \revert DynamicText.stencil                              %! OC2:-PARTS
     \revert Hairpin.stencil                                  %! OC2:-PARTS
@@ -4934,28 +4856,28 @@ Q_CelloVoiceII_a = {
     \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                 %! PIC
     \<                                                       %! PIC
-    - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {               %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \upright                                     %! PWC1
-                    tasto                                    %! PWC1
-                \hspace                                      %! PWC1
-                    #0.5                                     %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    - \tweak arrow-width 0.25                                %! PWC1
-    - \tweak dash-fraction 0.25                              %! PWC1
-    - \tweak dash-period 1.5                                 %! PWC1
-    - \tweak bound-details.left-broken.text ##f              %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-    - \tweak bound-details.right.arrow ##t                   %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-    - \tweak bound-details.right-broken.padding 0            %! PWC1
-    - \tweak bound-details.right-broken.text ##f             %! PWC1
-    - \tweak bound-details.right.padding 0.5                 %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                           %! PWC1
+    - \tweak Y-extent ##f                                    %! PSC1
+    - \tweak bound-details.left.text \markup {               %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \upright                                     %! PSC1
+                    tasto                                    %! PSC1
+                \hspace                                      %! PSC1
+                    #0.5                                     %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    - \tweak arrow-width 0.25                                %! PSC1
+    - \tweak dash-fraction 0.25                              %! PSC1
+    - \tweak dash-period 1.5                                 %! PSC1
+    - \tweak bound-details.left-broken.text ##f              %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+    - \tweak bound-details.right.arrow ##t                   %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+    - \tweak bound-details.right-broken.padding 0            %! PSC1
+    - \tweak bound-details.right-broken.text ##f             %! PSC1
+    - \tweak bound-details.right.padding 0.5                 %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                           %! PSC1
     
     % [Q CelloVoiceII measure 123 / measure 5]               %! SM4
     g,1
@@ -4967,48 +4889,45 @@ Q_CelloVoiceII_a = {
     g,1
     :32                                                      %! IC
     \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                  %! PIC
-    - \tweak circled-tip ##t                                 %! PIC
-    \>                                                       %! PIC
     \repeatTie
-    \stopTextSpan                                            %! PWC1
-    - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {               %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \upright                                     %! PWC1
-                    "ext. pont."                             %! PWC1
-                \hspace                                      %! PWC1
-                    #0.5                                     %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    - \tweak arrow-width 0.25                                %! PWC1
-    - \tweak dash-fraction 0.25                              %! PWC1
-    - \tweak dash-period 1.5                                 %! PWC1
-    - \tweak bound-details.left-broken.text ##f              %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-    - \tweak bound-details.right.arrow ##t                   %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-    - \tweak bound-details.right-broken.padding 0            %! PWC1
-    - \tweak bound-details.right-broken.text ##f             %! PWC1
-    - \tweak bound-details.right.padding 0.5                 %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {              %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \hspace                                      %! PWC1
-                    #0.0                                     %! PWC1
-                \upright                                     %! PWC1
-                    tasto                                    %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    \startTextSpan                                           %! PWC1
+    \stopTextSpan                                            %! PSC1
+    - \tweak Y-extent ##f                                    %! PSC1
+    - \tweak bound-details.left.text \markup {               %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \upright                                     %! PSC1
+                    "ext. pont."                             %! PSC1
+                \hspace                                      %! PSC1
+                    #0.5                                     %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    - \tweak arrow-width 0.25                                %! PSC1
+    - \tweak dash-fraction 0.25                              %! PSC1
+    - \tweak dash-period 1.5                                 %! PSC1
+    - \tweak bound-details.left-broken.text ##f              %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+    - \tweak bound-details.right.arrow ##t                   %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+    - \tweak bound-details.right-broken.padding 0            %! PSC1
+    - \tweak bound-details.right-broken.text ##f             %! PSC1
+    - \tweak bound-details.right.padding 0.5                 %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {              %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \hspace                                      %! PSC1
+                    #0.0                                     %! PSC1
+                \upright                                     %! PSC1
+                    tasto                                    %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    \startTextSpan                                           %! PSC1
     
     % [Q CelloVoiceII measure 125 / measure 7]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                            %! PWC1
+    \stopTextSpan                                            %! PSC1
     
     % [Q CelloVoiceII measure 126 / measure 8]               %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -5026,28 +4945,28 @@ Q_CelloVoiceII_a = {
     \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                 %! PIC
     \<                                                       %! PIC
-    - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {               %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \upright                                     %! PWC1
-                    tasto                                    %! PWC1
-                \hspace                                      %! PWC1
-                    #0.5                                     %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    - \tweak arrow-width 0.25                                %! PWC1
-    - \tweak dash-fraction 0.25                              %! PWC1
-    - \tweak dash-period 1.5                                 %! PWC1
-    - \tweak bound-details.left-broken.text ##f              %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-    - \tweak bound-details.right.arrow ##t                   %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-    - \tweak bound-details.right-broken.padding 0            %! PWC1
-    - \tweak bound-details.right-broken.text ##f             %! PWC1
-    - \tweak bound-details.right.padding 0.5                 %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                           %! PWC1
+    - \tweak Y-extent ##f                                    %! PSC1
+    - \tweak bound-details.left.text \markup {               %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \upright                                     %! PSC1
+                    tasto                                    %! PSC1
+                \hspace                                      %! PSC1
+                    #0.5                                     %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    - \tweak arrow-width 0.25                                %! PSC1
+    - \tweak dash-fraction 0.25                              %! PSC1
+    - \tweak dash-period 1.5                                 %! PSC1
+    - \tweak bound-details.left-broken.text ##f              %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+    - \tweak bound-details.right.arrow ##t                   %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+    - \tweak bound-details.right-broken.padding 0            %! PSC1
+    - \tweak bound-details.right-broken.text ##f             %! PSC1
+    - \tweak bound-details.right.padding 0.5                 %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                           %! PSC1
     
     % [Q CelloVoiceII measure 128 / measure 10]              %! SM4
     g,1
@@ -5059,48 +4978,45 @@ Q_CelloVoiceII_a = {
     g,1
     :32                                                      %! IC
     \mp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                  %! PIC
-    - \tweak circled-tip ##t                                 %! PIC
-    \>                                                       %! PIC
     \repeatTie
-    \stopTextSpan                                            %! PWC1
-    - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {               %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \upright                                     %! PWC1
-                    "ext. pont."                             %! PWC1
-                \hspace                                      %! PWC1
-                    #0.5                                     %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    - \tweak arrow-width 0.25                                %! PWC1
-    - \tweak dash-fraction 0.25                              %! PWC1
-    - \tweak dash-period 1.5                                 %! PWC1
-    - \tweak bound-details.left-broken.text ##f              %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-    - \tweak bound-details.right.arrow ##t                   %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-    - \tweak bound-details.right-broken.padding 0            %! PWC1
-    - \tweak bound-details.right-broken.text ##f             %! PWC1
-    - \tweak bound-details.right.padding 0.5                 %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {              %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \hspace                                      %! PWC1
-                    #0.0                                     %! PWC1
-                \upright                                     %! PWC1
-                    tasto                                    %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    \startTextSpan                                           %! PWC1
+    \stopTextSpan                                            %! PSC1
+    - \tweak Y-extent ##f                                    %! PSC1
+    - \tweak bound-details.left.text \markup {               %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \upright                                     %! PSC1
+                    "ext. pont."                             %! PSC1
+                \hspace                                      %! PSC1
+                    #0.5                                     %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    - \tweak arrow-width 0.25                                %! PSC1
+    - \tweak dash-fraction 0.25                              %! PSC1
+    - \tweak dash-period 1.5                                 %! PSC1
+    - \tweak bound-details.left-broken.text ##f              %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+    - \tweak bound-details.right.arrow ##t                   %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+    - \tweak bound-details.right-broken.padding 0            %! PSC1
+    - \tweak bound-details.right-broken.text ##f             %! PSC1
+    - \tweak bound-details.right.padding 0.5                 %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {              %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \hspace                                      %! PSC1
+                    #0.0                                     %! PSC1
+                \upright                                     %! PSC1
+                    tasto                                    %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    \startTextSpan                                           %! PSC1
     
     % [Q CelloVoiceII measure 130 / measure 12]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                            %! PWC1
+    \stopTextSpan                                            %! PSC1
     \revert TextSpanner.staff-padding                        %! OC2:-PARTS
     
 }
@@ -5186,28 +5102,28 @@ Q_ContrabassVoiceIII_a = {
     \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                 %! PIC
     \<                                                       %! PIC
-    - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {               %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \upright                                     %! PWC1
-                    tasto                                    %! PWC1
-                \hspace                                      %! PWC1
-                    #0.5                                     %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    - \tweak arrow-width 0.25                                %! PWC1
-    - \tweak dash-fraction 0.25                              %! PWC1
-    - \tweak dash-period 1.5                                 %! PWC1
-    - \tweak bound-details.left-broken.text ##f              %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-    - \tweak bound-details.right.arrow ##t                   %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-    - \tweak bound-details.right-broken.padding 0            %! PWC1
-    - \tweak bound-details.right-broken.text ##f             %! PWC1
-    - \tweak bound-details.right.padding 0.5                 %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                           %! PWC1
+    - \tweak Y-extent ##f                                    %! PSC1
+    - \tweak bound-details.left.text \markup {               %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \upright                                     %! PSC1
+                    tasto                                    %! PSC1
+                \hspace                                      %! PSC1
+                    #0.5                                     %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    - \tweak arrow-width 0.25                                %! PSC1
+    - \tweak dash-fraction 0.25                              %! PSC1
+    - \tweak dash-period 1.5                                 %! PSC1
+    - \tweak bound-details.left-broken.text ##f              %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+    - \tweak bound-details.right.arrow ##t                   %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+    - \tweak bound-details.right-broken.padding 0            %! PSC1
+    - \tweak bound-details.right-broken.text ##f             %! PSC1
+    - \tweak bound-details.right.padding 0.5                 %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                           %! PSC1
     
     % [Q ContrabassVoiceIII measure 123 / measure 5]         %! SM4
     g,1
@@ -5219,48 +5135,45 @@ Q_ContrabassVoiceIII_a = {
     g,1
     :32                                                      %! IC
     \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                  %! PIC
-    - \tweak circled-tip ##t                                 %! PIC
-    \>                                                       %! PIC
     \repeatTie
-    \stopTextSpan                                            %! PWC1
-    - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {               %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \upright                                     %! PWC1
-                    "ext. pont."                             %! PWC1
-                \hspace                                      %! PWC1
-                    #0.5                                     %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    - \tweak arrow-width 0.25                                %! PWC1
-    - \tweak dash-fraction 0.25                              %! PWC1
-    - \tweak dash-period 1.5                                 %! PWC1
-    - \tweak bound-details.left-broken.text ##f              %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-    - \tweak bound-details.right.arrow ##t                   %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-    - \tweak bound-details.right-broken.padding 0            %! PWC1
-    - \tweak bound-details.right-broken.text ##f             %! PWC1
-    - \tweak bound-details.right.padding 0.5                 %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {              %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \hspace                                      %! PWC1
-                    #0.0                                     %! PWC1
-                \upright                                     %! PWC1
-                    tasto                                    %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    \startTextSpan                                           %! PWC1
+    \stopTextSpan                                            %! PSC1
+    - \tweak Y-extent ##f                                    %! PSC1
+    - \tweak bound-details.left.text \markup {               %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \upright                                     %! PSC1
+                    "ext. pont."                             %! PSC1
+                \hspace                                      %! PSC1
+                    #0.5                                     %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    - \tweak arrow-width 0.25                                %! PSC1
+    - \tweak dash-fraction 0.25                              %! PSC1
+    - \tweak dash-period 1.5                                 %! PSC1
+    - \tweak bound-details.left-broken.text ##f              %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+    - \tweak bound-details.right.arrow ##t                   %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+    - \tweak bound-details.right-broken.padding 0            %! PSC1
+    - \tweak bound-details.right-broken.text ##f             %! PSC1
+    - \tweak bound-details.right.padding 0.5                 %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {              %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \hspace                                      %! PSC1
+                    #0.0                                     %! PSC1
+                \upright                                     %! PSC1
+                    tasto                                    %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    \startTextSpan                                           %! PSC1
     
     % [Q ContrabassVoiceIII measure 125 / measure 7]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 3/4
     \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                            %! PWC1
+    \stopTextSpan                                            %! PSC1
     
     % [Q ContrabassVoiceIII measure 126 / measure 8]         %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t %! IC:+PARTS
@@ -5278,28 +5191,28 @@ Q_ContrabassVoiceIII_a = {
     \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                 %! PIC
     \<                                                       %! PIC
-    - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {               %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \upright                                     %! PWC1
-                    tasto                                    %! PWC1
-                \hspace                                      %! PWC1
-                    #0.5                                     %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    - \tweak arrow-width 0.25                                %! PWC1
-    - \tweak dash-fraction 0.25                              %! PWC1
-    - \tweak dash-period 1.5                                 %! PWC1
-    - \tweak bound-details.left-broken.text ##f              %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-    - \tweak bound-details.right.arrow ##t                   %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-    - \tweak bound-details.right-broken.padding 0            %! PWC1
-    - \tweak bound-details.right-broken.text ##f             %! PWC1
-    - \tweak bound-details.right.padding 0.5                 %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    \startTextSpan                                           %! PWC1
+    - \tweak Y-extent ##f                                    %! PSC1
+    - \tweak bound-details.left.text \markup {               %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \upright                                     %! PSC1
+                    tasto                                    %! PSC1
+                \hspace                                      %! PSC1
+                    #0.5                                     %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    - \tweak arrow-width 0.25                                %! PSC1
+    - \tweak dash-fraction 0.25                              %! PSC1
+    - \tweak dash-period 1.5                                 %! PSC1
+    - \tweak bound-details.left-broken.text ##f              %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+    - \tweak bound-details.right.arrow ##t                   %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+    - \tweak bound-details.right-broken.padding 0            %! PSC1
+    - \tweak bound-details.right-broken.text ##f             %! PSC1
+    - \tweak bound-details.right.padding 0.5                 %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    \startTextSpan                                           %! PSC1
     
     % [Q ContrabassVoiceIII measure 128 / measure 10]        %! SM4
     g,1
@@ -5311,48 +5224,45 @@ Q_ContrabassVoiceIII_a = {
     g,1
     :32                                                      %! IC
     \mp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                  %! PIC
-    - \tweak circled-tip ##t                                 %! PIC
-    \>                                                       %! PIC
     \repeatTie
-    \stopTextSpan                                            %! PWC1
-    - \tweak Y-extent ##f                                    %! PWC1
-    - \tweak bound-details.left.text \markup {               %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \upright                                     %! PWC1
-                    "ext. pont."                             %! PWC1
-                \hspace                                      %! PWC1
-                    #0.5                                     %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    - \tweak arrow-width 0.25                                %! PWC1
-    - \tweak dash-fraction 0.25                              %! PWC1
-    - \tweak dash-period 1.5                                 %! PWC1
-    - \tweak bound-details.left-broken.text ##f              %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-    - \tweak bound-details.right.arrow ##t                   %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-    - \tweak bound-details.right-broken.padding 0            %! PWC1
-    - \tweak bound-details.right-broken.text ##f             %! PWC1
-    - \tweak bound-details.right.padding 0.5                 %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-    - \tweak bound-details.right.text \markup {              %! PWC1
-        \concat                                              %! PWC1
-            {                                                %! PWC1
-                \hspace                                      %! PWC1
-                    #0.0                                     %! PWC1
-                \upright                                     %! PWC1
-                    tasto                                    %! PWC1
-            }                                                %! PWC1
-        }                                                    %! PWC1
-    \startTextSpan                                           %! PWC1
+    \stopTextSpan                                            %! PSC1
+    - \tweak Y-extent ##f                                    %! PSC1
+    - \tweak bound-details.left.text \markup {               %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \upright                                     %! PSC1
+                    "ext. pont."                             %! PSC1
+                \hspace                                      %! PSC1
+                    #0.5                                     %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    - \tweak arrow-width 0.25                                %! PSC1
+    - \tweak dash-fraction 0.25                              %! PSC1
+    - \tweak dash-period 1.5                                 %! PSC1
+    - \tweak bound-details.left-broken.text ##f              %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+    - \tweak bound-details.right.arrow ##t                   %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+    - \tweak bound-details.right-broken.padding 0            %! PSC1
+    - \tweak bound-details.right-broken.text ##f             %! PSC1
+    - \tweak bound-details.right.padding 0.5                 %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+    - \tweak bound-details.right.text \markup {              %! PSC1
+        \concat                                              %! PSC1
+            {                                                %! PSC1
+                \hspace                                      %! PSC1
+                    #0.0                                     %! PSC1
+                \upright                                     %! PSC1
+                    tasto                                    %! PSC1
+            }                                                %! PSC1
+        }                                                    %! PSC1
+    \startTextSpan                                           %! PSC1
     
     % [Q ContrabassVoiceIII measure 130 / measure 12]        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     R1 * 1/2
     \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                            %! PWC1
+    \stopTextSpan                                            %! PSC1
     
 }
 

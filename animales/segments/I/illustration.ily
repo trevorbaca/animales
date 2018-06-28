@@ -591,7 +591,6 @@ I_HornVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef'!2
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                   %! PIC
 %@% ~                                                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     
@@ -807,7 +806,6 @@ I_HornVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef'!8
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                   %! PIC
 %@% ~                                                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     
@@ -932,7 +930,6 @@ I_TrumpetVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     af'!4
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                   %! PIC
 %@% ~                                                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     
@@ -1235,7 +1232,6 @@ I_TrumpetVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     g'2
     \mp                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                   %! PIC
 %@% ~                                                    %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \!                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     
