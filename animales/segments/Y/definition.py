@@ -150,7 +150,7 @@ maker(
     'cb3',
     animales.parts('Contrabass'),
     baca.clef('bass'),
-    baca.generalized_hairpin('p <', right_broken=True),
+    baca.hairpin('p <', right_broken=True),
     baca.make_repeat_tied_notes(),
     baca.markups.arco(),
     baca.pitch('C#2'),

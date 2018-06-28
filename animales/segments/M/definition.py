@@ -100,7 +100,7 @@ maker(
     animales.pennant_pitches('G5', [6]),
     animales.pennant_rhythm([0, 0, -1, -1, 0], [0, 1, 2]),
     baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.generalized_hairpin('mf < ff')),
+    baca.only_parts(baca.hairpin('mf < ff')),
     baca.slur(),
     )
 
@@ -108,7 +108,7 @@ maker(
     ('fl3', (1, 3)),
     animales.pennant_pitches('F5', [6]),
     animales.pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
-    baca.generalized_hairpin('mf < ff'),
+    baca.hairpin('mf < ff'),
     baca.not_parts(baca.voice_two()),
     baca.slur(),
     )
@@ -119,7 +119,7 @@ maker(
     animales.pennant_pitches('Eb5', [6]),
     animales.pennant_rhythm([0, -1, -1, 0], [0]),
     baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.generalized_hairpin('mf < ff')),
+    baca.only_parts(baca.hairpin('mf < ff')),
     baca.slur(),
     )
 
@@ -127,7 +127,7 @@ maker(
     ('fl4', (1, 3)),
     animales.pennant_pitches('D5', [6]),
     animales.pennant_rhythm([0, 0, -1, -1]),
-    baca.generalized_hairpin('mf < ff'),
+    baca.hairpin('mf < ff'),
     baca.not_parts(baca.voice_two()),
     baca.slur(),
     )
@@ -141,7 +141,7 @@ maker(
 
 maker(
     ('cl1', (1, 3)),
-    baca.generalized_hairpin('< ff', left_broken=True),
+    baca.hairpin('< ff', left_broken=True),
     baca.make_repeat_tied_notes(),
     baca.pitch('Eb5'),
     )
@@ -256,11 +256,11 @@ maker(
 maker(
     ('1vn3', (1, 3)),
     animales.glissando_rhythm(rotate=-2),
-    baca.generalized_hairpin(
+    baca.hairpin(
         'p < ff',
         selector=baca.notes().group_by_measure()[0].rleak(),
         ),
-    baca.generalized_hairpin(
+    baca.hairpin(
         'ff > p',
         selector=baca.notes().group_by_measure()[-1].lleak(),
         ),
@@ -286,7 +286,7 @@ maker(
         ('vc1', (1, 3)),
         ],
     baca.make_repeat_tied_notes(),
-    baca.generalized_hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
+    baca.hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
     baca.pitch('G3'),
     baca.trill_spanner('Ab3'),
     )
@@ -347,7 +347,7 @@ maker(
 maker(
     ('cb3', (1, 3)),
     baca.make_repeat_tied_notes(),
-    baca.generalized_hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
+    baca.hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
     baca.pitch('G1'),
     )
 

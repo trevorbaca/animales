@@ -72,7 +72,7 @@ maker(
 
 maker(
     ('cl1', (1, 3)),
-    baca.generalized_hairpin('< ff', left_broken=True),
+    baca.hairpin('< ff', left_broken=True),
     baca.make_repeat_tied_notes(),
     baca.pitch('F5'),
     )
@@ -153,7 +153,7 @@ maker(
         ('vc1', (1, 3)),
         ],
     baca.make_repeat_tied_notes(),
-    baca.generalized_hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
+    baca.hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
     baca.pitch('Ab3'),
     baca.trill_spanner('Bb3'),
     )
@@ -210,7 +210,7 @@ maker(
 maker(
     ('cb3', (1, 3)),
     baca.make_repeat_tied_notes(),
-    baca.generalized_hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
+    baca.hairpin('< ff', left_broken=True, selector=baca.pleaves()[:2]),
     baca.pitch('Ab1'),
     )
 

@@ -76,7 +76,7 @@ maker(
 maker(
     'cl1',
     animales.parts('Clarinet', 3),
-    baca.generalized_hairpin('mp < mf'),
+    baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.pitch('A4'),
     baca.repeat_tie_up(),
@@ -86,7 +86,7 @@ maker(
 
 maker(
     ('bcl1', (1, 3)),
-    baca.generalized_hairpin('p >o niente', selector=baca.pleaves().rleak()),
+    baca.hairpin('p >o niente', selector=baca.pleaves().rleak()),
     baca.make_repeat_tied_notes(),
     baca.pitch('A2'),
     baca.repeat_tie_to(),
@@ -103,11 +103,11 @@ def crescendi():
     return baca.suite(
         baca.map(
             baca.runs()[:-1],
-            baca.generalized_hairpin('mp < mf'),
+            baca.hairpin('mp < mf'),
             ),
         baca.map(
             baca.run(-1),
-            baca.generalized_hairpin('mp <', right_broken=True),
+            baca.hairpin('mp <', right_broken=True),
             ),
         )
 
@@ -275,7 +275,7 @@ most_strings = [
 maker(
     most_strings,
     baca.make_repeat_tied_notes(),
-    baca.generalized_hairpin('pp <', right_broken=True),
+    baca.hairpin('pp <', right_broken=True),
     baca.pitch('A3'),
     baca.trill_spanner('Ab3', right_broken=True),
     )
@@ -304,7 +304,7 @@ maker(
     'cb3',
     animales.parts('Contrabass', (2, 6)),
     baca.make_repeat_tied_notes(),
-    baca.generalized_hairpin('pp <', right_broken=True),
+    baca.hairpin('pp <', right_broken=True),
     baca.pitch('A1'),
     )
 

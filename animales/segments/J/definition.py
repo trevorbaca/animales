@@ -89,7 +89,7 @@ maker(
     'cl1',
     animales.margin_markup('Cl. 2'),
     animales.parts('Clarinet', 2),
-    baca.generalized_hairpin('mp < mf'),
+    baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb4'),
     )
@@ -99,11 +99,11 @@ maker(
 crescendi = baca.suite(
     baca.map(
         baca.run(0),
-        baca.generalized_hairpin('< f', left_broken=True),
+        baca.hairpin('< f', left_broken=True),
         ),
     baca.map(
         baca.runs()[1:],
-        baca.generalized_hairpin('mp < ff'),
+        baca.hairpin('mp < ff'),
         ),
     )
 
@@ -254,7 +254,7 @@ maker(
 maker(
     'perc2',
     animales.parts('Percussion', 2),
-    baca.generalized_hairpin('niente o< p', selector=baca.pleaves()[:3]),
+    baca.hairpin('niente o< p', selector=baca.pleaves()[:3]),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_up(),
     baca.staff_position(0),
@@ -319,7 +319,7 @@ maker(
         stems=True,
         style='trill',
         ),
-    baca.generalized_hairpin('f >', right_broken=True),
+    baca.hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('A3', 'G6'),
     )
 
@@ -332,7 +332,7 @@ maker(
         stems=True,
         style='trill',
         ),
-    baca.generalized_hairpin('f >', right_broken=True),
+    baca.hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('A3', 'G5'),
     )
 
@@ -345,7 +345,7 @@ maker(
         stems=True,
         style='trill',
         ),
-    baca.generalized_hairpin('f >', right_broken=True),
+    baca.hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('A3', 'G4'),
     )
 
@@ -358,7 +358,7 @@ maker(
         stems=True,
         style='trill',
         ),
-    baca.generalized_hairpin('f >', right_broken=True),
+    baca.hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('A3', 'B2'),
     )
 
@@ -366,7 +366,7 @@ maker(
     'cb3',
     animales.parts('Contrabass', (2, 6)),
     baca.glissando(allow_repeats=True, right_broken=True, stems=True),
-    baca.generalized_hairpin('ff >', right_broken=True),
+    baca.hairpin('ff >', right_broken=True),
     baca.interpolate_staff_positions('A1', 'G1'),
     baca.make_repeated_duration_notes([(1, 4)]),
     )

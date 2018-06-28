@@ -72,7 +72,7 @@ maker(
     )
 
 def swell(peak):
-    return baca.hairpin_chain(
+    return baca.hairpins(
         f'niente o< {peak} >o niente',
         piece_selector=baca.group_by_measures([2, 3, 1]),
         selector=baca.rleaves(),
@@ -154,9 +154,9 @@ maker(
 
 def crescendi():
     return baca.suite(
-        baca.generalized_hairpin('mp < mf', selector=baca.run(0)),
-        baca.generalized_hairpin('mp < f', selector=baca.run(1)),
-        baca.generalized_hairpin('mp < ff', selector=baca.run(2)),
+        baca.hairpin('mp < mf', selector=baca.run(0)),
+        baca.hairpin('mp < f', selector=baca.run(1)),
+        baca.hairpin('mp < ff', selector=baca.run(2)),
         )
 
 # horns
@@ -285,7 +285,7 @@ def tremolo_suite():
     return baca.suite(
         baca.accent(selector=baca.pleaves()),
         baca.dynamic('ff'),
-        baca.generalized_hairpin('ff > pp', selector=baca.pleaves()[2:-2]),
+        baca.hairpin('ff > pp', selector=baca.pleaves()[2:-2]),
         baca.only_parts(
             baca.markups.markup('ext. ponticello: like acid').boxed(),
             ),
