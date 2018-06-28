@@ -58,7 +58,7 @@ maker(
     'cl1',
     animales.margin_markup('Cl. 2'),
     animales.parts('Clarinet', 2),
-    baca.hairpin('mp < mf'),
+    baca.generalized_hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.markups.edition('solo (cl. 2)', 'solo'),
     baca.pitch('C#5'),
@@ -96,11 +96,11 @@ maker(
     '1vn2',
     animales.glissando_rhythm(),
     animales.parts('FirstViolin', 1),
-    baca.hairpin(
+    baca.generalized_hairpin(
         'p < f',
         selector=baca.notes().group_by_measure()[0].rleak(),
         ),
-    baca.hairpin(
+    baca.generalized_hairpin(
         'f > p',
         selector=baca.notes().group_by_measure()[-1].lleak(),
         ),

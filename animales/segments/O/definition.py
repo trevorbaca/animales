@@ -143,7 +143,7 @@ def tremolo_suite():
     return baca.suite(
         baca.accent(selector=baca.pleaves()),
         baca.dynamic('ff'),
-        baca.hairpin(
+        baca.generalized_hairpin(
             'ff > pp',
             selector=baca.pleaves()[2:-2],
             ),

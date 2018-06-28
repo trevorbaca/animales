@@ -73,7 +73,7 @@ maker(
     'cl1',
     animales.margin_markup('Cl. 3'),
     animales.parts('Clarinet', 3),
-    baca.hairpin('mp < mf'),
+    baca.generalized_hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.markups.edition('solo (cl. 3)', 'solo'),
     baca.pitch('C#5'),
