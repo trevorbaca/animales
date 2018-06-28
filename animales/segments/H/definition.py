@@ -130,7 +130,7 @@ maker(
 maker(
     'perc2',
     animales.parts('Percussion', 2),
-    baca.dynamic(baca.niente(), selector=baca.leaf(0)),
+    baca.dynamic('niente', selector=baca.leaf(0)),
     )
 
 # vibraphone
