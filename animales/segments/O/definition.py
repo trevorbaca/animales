@@ -59,7 +59,7 @@ maker(
     )
 
 def swell(peak):
-    return baca.hairpin_chain(
+    return baca.hairpins(
         f'niente o< {peak} >o niente',
         piece_selector=baca.group_by_measures([2, 3, 1]),
         selector=baca.rleaves(),
@@ -143,7 +143,7 @@ def tremolo_suite():
     return baca.suite(
         baca.accent(selector=baca.pleaves()),
         baca.dynamic('ff'),
-        baca.generalized_hairpin(
+        baca.hairpin(
             'ff > pp',
             selector=baca.pleaves()[2:-2],
             ),

@@ -102,7 +102,7 @@ maker(
     animales.pennant_pitches('G5', [6]),
     animales.pennant_rhythm([0, 0, -1, -1, 0], [0, 1, 2]),
     baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.generalized_hairpin('mf < ff')),
+    baca.only_parts(baca.hairpin('mf < ff')),
     baca.slur(),
     )
 
@@ -110,7 +110,7 @@ maker(
     ('fl3', (1, 3)),
     animales.pennant_pitches('F5', [6]),
     animales.pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
-    baca.generalized_hairpin('mf < ff'),
+    baca.hairpin('mf < ff'),
     baca.not_parts(baca.voice_two()),
     baca.slur(),
     )
@@ -120,7 +120,7 @@ maker(
     animales.pennant_pitches('Eb5', [6]),
     animales.pennant_rhythm([0, -1, -1, 0], [0]),
     baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.generalized_hairpin('mf < ff')),
+    baca.only_parts(baca.hairpin('mf < ff')),
     baca.slur(),
     )
 
@@ -128,7 +128,7 @@ maker(
     ('fl4', (1, 3)),
     animales.pennant_pitches('D5', [6]),
     animales.pennant_rhythm([0, 0, -1, -1]),
-    baca.generalized_hairpin('mf < ff'),
+    baca.hairpin('mf < ff'),
     baca.not_parts(baca.voice_two()),
     baca.slur(),
     )
@@ -138,11 +138,11 @@ maker(
 maker(
     'bcl1',
     animales.parts('BassClarinet'),
-    baca.generalized_hairpin(
+    baca.hairpin(
         'p >o niente',
         selector=baca.leaves()[:2],
         ),
-    baca.generalized_hairpin(
+    baca.hairpin(
         'niente o< p',
         selector=baca.leaves()[2:4],
         ),
@@ -201,7 +201,7 @@ maker(
 
 maker(
     ('perc1', (1, 3)),
-    baca.generalized_hairpin(
+    baca.hairpin(
         'niente o< mp',
         selector=baca.pleaves()[:2],
         ),
@@ -220,7 +220,7 @@ maker(
 
 maker(
     ('perc2', (1, 3)),
-    baca.generalized_hairpin(
+    baca.hairpin(
         'niente o< mp',
         selector=baca.pleaves()[:2],
         ),
@@ -254,11 +254,11 @@ maker(
 maker(
     ('1vn2', (1, 3)),
     animales.glissando_rhythm(rotate=-2),
-    baca.generalized_hairpin(
+    baca.hairpin(
         'p < ff',
         selector=baca.notes().group_by_measure()[0].rleak(),
         ),
-    baca.generalized_hairpin(
+    baca.hairpin(
         'ff > p',
         selector=baca.notes().group_by_measure()[-1].lleak(),
         ),
@@ -304,7 +304,7 @@ maker(
         ('vc1', (1, 3)),
         ],
     baca.make_repeat_tied_notes(),
-    baca.generalized_hairpin('pp < ff'),
+    baca.hairpin('pp < ff'),
     baca.pitch('G3'),
     baca.trill_spanner('Ab3'),
     )
@@ -344,7 +344,7 @@ maker(
 maker(
     ('cb3', (1, 3)),
     baca.make_repeat_tied_notes(),
-    baca.generalized_hairpin('p < ff'),
+    baca.hairpin('p < ff'),
     baca.pitch('G1'),
     )
 
