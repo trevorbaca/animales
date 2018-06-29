@@ -174,7 +174,7 @@ Y_HornVoiceI_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'8
-    \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC
     -\marcato                                            %! IC
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
@@ -226,7 +226,7 @@ Y_HornVoiceIII_a = {
     \voiceTwo                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     c'8
-%%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+%%% \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     -\marcato                                            %! IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -289,7 +289,7 @@ Y_HornVoiceII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     df'!8
-    \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC
     -\marcato                                            %! IC
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
@@ -341,7 +341,7 @@ Y_HornVoiceIV_a = {
     \voiceTwo                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     b8
-%%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+%%% \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     -\marcato                                            %! IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -404,7 +404,7 @@ Y_TrumpetVoiceI_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d''8
-    \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC
     -\marcato                                            %! IC
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
@@ -456,7 +456,7 @@ Y_TrumpetVoiceIII_a = {
     \voiceTwo                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     g'8
-%%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+%%% \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     -\marcato                                            %! IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -519,7 +519,7 @@ Y_TrumpetVoiceII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     af'!8
-    \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC
     -\marcato                                            %! IC
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
@@ -571,7 +571,7 @@ Y_TrumpetVoiceIV_a = {
     \voiceTwo                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     f'8
-%%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+%%% \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     -\marcato                                            %! IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -634,7 +634,7 @@ Y_TromboneVoiceI_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'8
-    \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC
     -\marcato                                            %! IC
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
@@ -686,7 +686,7 @@ Y_TromboneVoiceIII_a = {
     \voiceTwo                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     c'8
-%%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+%%% \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     -\marcato                                            %! IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -749,7 +749,7 @@ Y_TromboneVoiceII_a = {
     \voiceOne                                            %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     df'!8
-    \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC
     -\marcato                                            %! IC
     ^ \markup {                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         \with-color                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
@@ -801,7 +801,7 @@ Y_TromboneVoiceIV_a = {
     \voiceTwo                                            %! IC:-PARTS
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     b8
-%%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+%%% \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     -\marcato                                            %! IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -855,7 +855,7 @@ Y_TubaVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c,8
-    \sffz                                                    %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_sffz                                               %! SM8:EXPLICIT_DYNAMIC:IC
     -\marcato                                                %! IC
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
