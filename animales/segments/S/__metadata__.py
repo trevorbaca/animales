@@ -2890,7 +2890,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='TubaVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='sffz',
+                                value='\\baca_sffz',
                                 ),
                             ],
                         ),

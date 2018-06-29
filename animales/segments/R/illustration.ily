@@ -758,7 +758,7 @@ R_TubaVoiceI = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \magnifyStaff #3/5                                           %! SM41:-PARTS
     R1 * 1
-    \sffz                                                        %! SM8:REAPPLIED_DYNAMIC:SM37
+    \baca_sffz                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37

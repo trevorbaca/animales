@@ -261,7 +261,7 @@ A_FirstViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     gf'!2
-    \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_f_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -318,7 +318,7 @@ A_FirstViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     f'1
-    \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_p_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
     \startTrillSpan gf'
     
@@ -377,7 +377,7 @@ A_FirstViolinVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     gf'!2.
-    \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_f_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -440,7 +440,7 @@ A_FirstViolinVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     f'1
-    \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_p_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
     \startTrillSpan gf'
     
@@ -496,7 +496,7 @@ A_SecondViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     gf'!1
-    \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_f_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -553,7 +553,7 @@ A_SecondViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     f'1
-    \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_p_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
     \startTrillSpan gf'
     
@@ -609,7 +609,7 @@ A_SecondViolinVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     gf'!1
-    \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_f_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -672,7 +672,7 @@ A_SecondViolinVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     f'1
-    \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_p_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
     \startTrillSpan gf'
     
@@ -728,7 +728,7 @@ A_ViolaVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     gf'!1
-    \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_f_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -782,7 +782,7 @@ A_ViolaVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     f'4.
-    \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_p_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
     \startTrillSpan gf'
     
@@ -844,7 +844,7 @@ A_ViolaVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     gf'!1
-    \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_f_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -895,7 +895,7 @@ A_ViolaVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     f'2
-    \p_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_p_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                       %! SC
     \startTrillSpan gf'
     
@@ -946,7 +946,7 @@ A_CelloVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                            %! SC
     gf'!4.
-    \f_sub_but_accents_continue_sffz                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_f_sub_but_accents_continue_sffz                    %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -998,7 +998,7 @@ A_CelloVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                            %! SC
     f'1
-    \p_sub_but_accents_continue_sffz                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_p_sub_but_accents_continue_sffz                    %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTrillSpan                                           %! SC
     \startTrillSpan gf'
     

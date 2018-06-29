@@ -388,7 +388,7 @@ C_HornVoiceI_a = {
     % [C HornVoiceI measure 20 / measure 3]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'8
-    \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC
     -\marcato                                            %! IC
     
     r2..
@@ -427,7 +427,7 @@ C_HornVoiceIII_a = {
     % [C HornVoiceIII measure 20 / measure 3]            %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     c'8
-%%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+%%% \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     -\marcato                                            %! IC
     
     r2..
@@ -521,7 +521,7 @@ C_HornVoiceII_a = {
     % [C HornVoiceII measure 20 / measure 3]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     df'!8
-    \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC
     -\marcato                                            %! IC
     
     r2..
@@ -560,7 +560,7 @@ C_HornVoiceIV_a = {
     % [C HornVoiceIV measure 20 / measure 3]             %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     b8
-%%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+%%% \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     -\marcato                                            %! IC
     
     r2..
@@ -654,7 +654,7 @@ C_TrumpetVoiceI_a = {
     % [C TrumpetVoiceI measure 20 / measure 3]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d''8
-    \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC
     -\marcato                                            %! IC
     
     r2..
@@ -693,7 +693,7 @@ C_TrumpetVoiceIII_a = {
     % [C TrumpetVoiceIII measure 20 / measure 3]         %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     g'8
-%%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+%%% \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     -\marcato                                            %! IC
     
     r2..
@@ -787,7 +787,7 @@ C_TrumpetVoiceII_a = {
     % [C TrumpetVoiceII measure 20 / measure 3]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     af'!8
-    \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC
     -\marcato                                            %! IC
     
     r2..
@@ -826,7 +826,7 @@ C_TrumpetVoiceIV_a = {
     % [C TrumpetVoiceIV measure 20 / measure 3]          %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     f'8
-%%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+%%% \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     -\marcato                                            %! IC
     
     r2..
@@ -920,7 +920,7 @@ C_TromboneVoiceI_a = {
     % [C TromboneVoiceI measure 20 / measure 3]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'8
-    \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC
     -\marcato                                            %! IC
     
     r2..
@@ -959,7 +959,7 @@ C_TromboneVoiceIII_a = {
     % [C TromboneVoiceIII measure 20 / measure 3]        %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     c'8
-%%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+%%% \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     -\marcato                                            %! IC
     
     r2..
@@ -1053,7 +1053,7 @@ C_TromboneVoiceII_a = {
     % [C TromboneVoiceII measure 20 / measure 3]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     df'!8
-    \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC
     -\marcato                                            %! IC
     
     r2..
@@ -1092,7 +1092,7 @@ C_TromboneVoiceIV_a = {
     % [C TromboneVoiceIV measure 20 / measure 3]         %! SM4
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:+PARTS
     b8
-%%% \sffz                                                %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
+%%% \baca_sffz                                           %! SM8:EXPLICIT_DYNAMIC:IC:+PARTS
     -\marcato                                            %! IC
     
     r2..
@@ -1174,7 +1174,7 @@ C_TubaVoiceI_a = {
     % [C TubaVoiceI measure 20 / measure 3]                  %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c,8
-    \sffz                                                    %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_sffz                                               %! SM8:EXPLICIT_DYNAMIC:IC
     -\marcato                                                %! IC
     
     r2..
@@ -1558,7 +1558,7 @@ C_FirstViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     df'!1
-    \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_f_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1607,7 +1607,7 @@ C_FirstViolinVoiceI_b = {
     % [C FirstViolinVoiceI measure 20 / measure 3]       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
-    \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_p_sub                                          %! SM8:EXPLICIT_DYNAMIC:IC
 %%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
     _ \markup {                                          %! IC:-PARTS
         \override                                        %! IC:-PARTS
@@ -1683,7 +1683,7 @@ C_FirstViolinVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     df'!1
-    \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_f_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1728,7 +1728,7 @@ C_FirstViolinVoiceIII_a = {
     % [C FirstViolinVoiceIII measure 20 / measure 3]     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
-    \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_p_sub                                          %! SM8:EXPLICIT_DYNAMIC:IC
 %%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
     \stopTrillSpan                                       %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
@@ -1791,7 +1791,7 @@ C_SecondViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     df'!1
-    \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_f_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1836,7 +1836,7 @@ C_SecondViolinVoiceI_a = {
     % [C SecondViolinVoiceI measure 20 / measure 3]      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
-    \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_p_sub                                          %! SM8:EXPLICIT_DYNAMIC:IC
 %%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
     \stopTrillSpan                                       %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
@@ -1899,7 +1899,7 @@ C_SecondViolinVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     df'!1
-    \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_f_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1941,7 +1941,7 @@ C_SecondViolinVoiceIII_a = {
     % [C SecondViolinVoiceIII measure 20 / measure 3]    %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
-    \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_p_sub                                          %! SM8:EXPLICIT_DYNAMIC:IC
 %%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
     \stopTrillSpan                                       %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
@@ -2004,7 +2004,7 @@ C_ViolaVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     df'!4.
-    \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_f_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2053,7 +2053,7 @@ C_ViolaVoiceI_a = {
     \override RepeatTie.direction = #up                  %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
-    \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_p_sub                                          %! SM8:EXPLICIT_DYNAMIC:IC
 %%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
     \stopTrillSpan                                       %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
@@ -2117,7 +2117,7 @@ C_ViolaVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                        %! SC
     df'!2
-    \f_sub_but_accents_continue_sffz                     %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_f_sub_but_accents_continue_sffz                %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2162,7 +2162,7 @@ C_ViolaVoiceIII_a = {
     % [C ViolaVoiceIII measure 20 / measure 3]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
-    \p_sub                                               %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_p_sub                                          %! SM8:EXPLICIT_DYNAMIC:IC
 %%% ^ \markup { "still (non vibrato)" }                  %! IC:+PARTS
     \stopTrillSpan                                       %! SC
     \revert TrillSpanner.staff-padding                   %! OC2
@@ -2217,7 +2217,7 @@ C_CelloVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                            %! SC
     df'!1
-    \f_sub_but_accents_continue_sffz                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_f_sub_but_accents_continue_sffz                    %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2254,7 +2254,7 @@ C_CelloVoiceI_a = {
     % [C CelloVoiceI measure 20 / measure 3]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
-    \p_sub                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_p_sub                                              %! SM8:EXPLICIT_DYNAMIC:IC
 %%% ^ \markup { "still (non vibrato)" }                      %! IC:+PARTS
     \stopTrillSpan                                           %! SC
     \revert TrillSpanner.staff-padding                       %! OC2
