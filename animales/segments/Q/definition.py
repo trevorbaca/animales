@@ -211,7 +211,7 @@ string_parts = {
 
 def tremolo(peak='f'):
     return baca.suite(
-        baca.hairpins(
+        baca.hairpin(
             f'niente o< {peak} >o niente',
             piece_selector=baca.group_by_measures([2, 1, 1]),
             selector=baca.rleaves(),
