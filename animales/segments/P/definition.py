@@ -289,7 +289,7 @@ def tremolo_suite():
         baca.only_parts(
             baca.markups.markup('ext. ponticello: like acid').boxed(),
             ),
-        baca.transition(
+        baca.new_transition(
             baca.markups.ext_pont(),
             baca.markups.tasto(),
             selector=baca.pleaves()[2:-2],
