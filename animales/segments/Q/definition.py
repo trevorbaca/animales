@@ -213,15 +213,16 @@ def tremolo(peak='f'):
     return baca.suite(
         baca.hairpin(
             f'niente o< {peak} >o niente',
-            piece_selector=baca.group_by_measures([2, 1, 1]),
-            selector=baca.rleaves(),
+            piece_selector=baca.group_by_measures([2, 2]),
+            selector=baca.leaves(),
             ),
-        baca.transition(
+        baca.new_text_spanner(
             baca.markups.tasto(),
+            '=>',
             baca.markups.ext_pont(),
+            '=>',
             baca.markups.tasto(),
-            do_not_bookend=True,
-            piece_selector=baca.leaves().partition_by_counts([2, 1, 1]),
+            piece_selector=baca.group_by_measures([2]),
             selector=baca.leaves(),
             ),
         baca.stem_tremolo(selector=baca.pleaves()),
