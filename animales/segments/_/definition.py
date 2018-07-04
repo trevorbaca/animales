@@ -9,6 +9,7 @@ import os
 ###############################################################################
 
 maker = baca.SegmentMaker(
+    do_not_attach_metronome_mark_spanner=True,
     score_template=animales.ScoreTemplate(
         percussion=[
             (1, [1]),
@@ -39,7 +40,7 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.metronome_mark('114'),
+    baca.metronome_mark_new('114'),
     )
 
 # single-staff percussion
