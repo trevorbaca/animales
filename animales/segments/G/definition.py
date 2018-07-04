@@ -14,6 +14,7 @@ assert start == 43
 
 maker = baca.SegmentMaker(
     clock_time_override=abjad.MetronomeMark((1, 4), 95),
+    do_not_attach_metronome_mark_spanner=True,
     mmspanner_right_broken=True,
     mmspanner_right_padding=(8, '+TABLOID_SCORE'),
     score_template=animales.ScoreTemplate(
@@ -58,7 +59,7 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.metronome_mark(baca.Accelerando()),
+    baca.metronome_mark_new(baca.Accelerando()),
     baca.rehearsal_mark('G'),
     baca.tag(
         '+TABLOID_SCORE',

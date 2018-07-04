@@ -525,7 +525,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='GlobalSkips',
                                 prototype='abjad.MetronomeMark',
-                                value='abjad.Ritardando()',
+                                value='abjad.Ritardando(hide=True)',
                                 ),
                             abjad.Momento(
                                 context='GlobalSkips',

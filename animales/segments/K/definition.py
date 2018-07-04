@@ -13,6 +13,7 @@ start = metadata.get('last_measure_number')
 assert start == 67
 
 maker = baca.SegmentMaker(
+    do_not_attach_metronome_mark_spanner=True,
     mmspanner_right_broken=True,
     score_template=animales.ScoreTemplate(
         clarinets=[
@@ -65,7 +66,7 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.metronome_mark('76'),
+    baca.metronome_mark_new('76'),
     baca.rehearsal_mark('K'),
     baca.tag(
         '+TABLOID_SCORE',
