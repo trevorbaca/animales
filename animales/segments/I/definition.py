@@ -108,7 +108,11 @@ def crescendi():
             ),
         baca.map(
             baca.run(-1),
-            baca.hairpin('mp <', right_broken=True),
+            baca.hairpin(
+                'mp <',
+                remove_length_1_spanner_start=True,
+                right_broken=True,
+                ),
             ),
         )
 

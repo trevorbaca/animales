@@ -104,7 +104,10 @@ crescendi = baca.suite(
         ),
     baca.map(
         baca.runs()[1:],
-        baca.hairpin('mp < ff'),
+        baca.hairpin(
+            'mp < ff',
+            remove_length_1_spanner_start=True,
+            ),
         ),
     )
 
