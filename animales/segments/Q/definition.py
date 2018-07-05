@@ -18,7 +18,6 @@ time_signatures.insert(2, (1, 4))
 time_signatures.insert(7, (1, 4))
 
 maker = baca.SegmentMaker(
-    do_not_attach_metronome_mark_spanner=True,
     score_template=animales.ScoreTemplate(
         horns=[
             (1, [1, 3]),
@@ -60,7 +59,7 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.metronome_mark_new('76'),
+    baca.metronome_mark('76'),
     baca.rehearsal_mark('Q'),
     baca.tag(
         '+TABLOID_SCORE',
