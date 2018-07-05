@@ -14,7 +14,6 @@ assert start == 67
 
 maker = baca.SegmentMaker(
     do_not_attach_metronome_mark_spanner=True,
-    mmspanner_right_broken=True,
     score_template=animales.ScoreTemplate(
         clarinets=[
             (1, [1]),

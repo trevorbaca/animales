@@ -15,8 +15,6 @@ assert start == 43
 maker = baca.SegmentMaker(
     clock_time_override=abjad.MetronomeMark((1, 4), 95),
     do_not_attach_metronome_mark_spanner=True,
-    mmspanner_right_broken=True,
-    mmspanner_right_padding=(8, '+TABLOID_SCORE'),
     score_template=animales.ScoreTemplate(
         clarinets=[
             (1, [1]),
