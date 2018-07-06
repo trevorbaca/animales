@@ -60,7 +60,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -73,7 +72,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [H GlobalSkips measure 51 / measure 2]                             %! SM4
