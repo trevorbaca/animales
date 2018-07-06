@@ -1646,15 +1646,7 @@ Q_FirstViolinVoiceI_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q FirstViolinVoiceI measure 123 / measure 5]      %! SM4
@@ -1673,19 +1665,8 @@ Q_FirstViolinVoiceI_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -1713,15 +1694,7 @@ Q_FirstViolinVoiceI_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q FirstViolinVoiceI measure 128 / measure 10]     %! SM4
@@ -1740,19 +1713,8 @@ Q_FirstViolinVoiceI_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -1804,15 +1766,7 @@ Q_FirstViolinVoiceII_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q FirstViolinVoiceII measure 123 / measure 5]     %! SM4
@@ -1831,19 +1785,8 @@ Q_FirstViolinVoiceII_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -1871,15 +1814,7 @@ Q_FirstViolinVoiceII_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q FirstViolinVoiceII measure 128 / measure 10]    %! SM4
@@ -1898,19 +1833,8 @@ Q_FirstViolinVoiceII_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -2031,15 +1955,7 @@ Q_FirstViolinVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q FirstViolinVoiceIII measure 123 / measure 5]    %! SM4
@@ -2058,19 +1974,8 @@ Q_FirstViolinVoiceIII_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -2098,15 +2003,7 @@ Q_FirstViolinVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q FirstViolinVoiceIII measure 128 / measure 10]   %! SM4
@@ -2125,19 +2022,8 @@ Q_FirstViolinVoiceIII_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -2189,15 +2075,7 @@ Q_FirstViolinVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q FirstViolinVoiceIV measure 123 / measure 5]     %! SM4
@@ -2216,19 +2094,8 @@ Q_FirstViolinVoiceIV_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -2256,15 +2123,7 @@ Q_FirstViolinVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q FirstViolinVoiceIV measure 128 / measure 10]    %! SM4
@@ -2283,19 +2142,8 @@ Q_FirstViolinVoiceIV_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -2558,15 +2406,7 @@ Q_SecondViolinVoiceI_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q SecondViolinVoiceI measure 123 / measure 5]     %! SM4
@@ -2585,19 +2425,8 @@ Q_SecondViolinVoiceI_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -2625,15 +2454,7 @@ Q_SecondViolinVoiceI_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q SecondViolinVoiceI measure 128 / measure 10]    %! SM4
@@ -2652,19 +2473,8 @@ Q_SecondViolinVoiceI_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -2717,15 +2527,7 @@ Q_SecondViolinVoiceII_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q SecondViolinVoiceII measure 123 / measure 5]    %! SM4
@@ -2744,19 +2546,8 @@ Q_SecondViolinVoiceII_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -2784,15 +2575,7 @@ Q_SecondViolinVoiceII_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q SecondViolinVoiceII measure 128 / measure 10]   %! SM4
@@ -2811,19 +2594,8 @@ Q_SecondViolinVoiceII_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -2944,15 +2716,7 @@ Q_SecondViolinVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q SecondViolinVoiceIII measure 123 / measure 5]   %! SM4
@@ -2971,19 +2735,8 @@ Q_SecondViolinVoiceIII_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -3011,15 +2764,7 @@ Q_SecondViolinVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q SecondViolinVoiceIII measure 128 / measure 10]  %! SM4
@@ -3038,19 +2783,8 @@ Q_SecondViolinVoiceIII_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -3102,15 +2836,7 @@ Q_SecondViolinVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q SecondViolinVoiceIV measure 123 / measure 5]    %! SM4
@@ -3129,19 +2855,8 @@ Q_SecondViolinVoiceIV_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -3169,15 +2884,7 @@ Q_SecondViolinVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q SecondViolinVoiceIV measure 128 / measure 10]   %! SM4
@@ -3196,19 +2903,8 @@ Q_SecondViolinVoiceIV_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -3329,15 +3025,7 @@ Q_ViolaVoiceI_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q ViolaVoiceI measure 123 / measure 5]            %! SM4
@@ -3356,19 +3044,8 @@ Q_ViolaVoiceI_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -3396,15 +3073,7 @@ Q_ViolaVoiceI_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q ViolaVoiceI measure 128 / measure 10]           %! SM4
@@ -3423,19 +3092,8 @@ Q_ViolaVoiceI_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -3487,15 +3145,7 @@ Q_ViolaVoiceII_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q ViolaVoiceII measure 123 / measure 5]           %! SM4
@@ -3514,19 +3164,8 @@ Q_ViolaVoiceII_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -3554,15 +3193,7 @@ Q_ViolaVoiceII_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q ViolaVoiceII measure 128 / measure 10]          %! SM4
@@ -3581,19 +3212,8 @@ Q_ViolaVoiceII_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -3714,15 +3334,7 @@ Q_ViolaVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q ViolaVoiceIII measure 123 / measure 5]          %! SM4
@@ -3741,19 +3353,8 @@ Q_ViolaVoiceIII_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -3781,15 +3382,7 @@ Q_ViolaVoiceIII_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q ViolaVoiceIII measure 128 / measure 10]         %! SM4
@@ -3808,19 +3401,8 @@ Q_ViolaVoiceIII_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -3872,15 +3454,7 @@ Q_ViolaVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q ViolaVoiceIV measure 123 / measure 5]           %! SM4
@@ -3899,19 +3473,8 @@ Q_ViolaVoiceIV_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -3939,15 +3502,7 @@ Q_ViolaVoiceIV_a = {
     - \tweak circled-tip ##t                             %! PIC
     \<                                                   %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    tasto                                %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                       %! PIC
     
     % [Q ViolaVoiceIV measure 128 / measure 10]          %! SM4
@@ -3966,19 +3521,8 @@ Q_ViolaVoiceIV_a = {
     \repeatTie
     \stopTextSpan                                        %! PIC
     - \abjad_dashed_line_with_arrow                      %! PIC
-    - \tweak bound-details.left.text \markup {           %! PIC
-        \concat                                          %! PIC
-            {                                            %! PIC
-                \upright                                 %! PIC
-                    "ext. pont."                         %! PIC
-                \hspace                                  %! PIC
-                    #0.5                                 %! PIC
-            }                                            %! PIC
-        }                                                %! PIC
-    - \tweak bound-details.right.text \markup {          %! PIC
-        \upright                                         %! PIC
-            tasto                                        %! PIC
-        }                                                %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5            %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                       %! PIC
@@ -4100,15 +3644,7 @@ Q_CelloVoiceI_a = {
     - \tweak circled-tip ##t                                 %! PIC
     \<                                                       %! PIC
     - \abjad_dashed_line_with_arrow                          %! PIC
-    - \tweak bound-details.left.text \markup {               %! PIC
-        \concat                                              %! PIC
-            {                                                %! PIC
-                \upright                                     %! PIC
-                    tasto                                    %! PIC
-                \hspace                                      %! PIC
-                    #0.5                                     %! PIC
-            }                                                %! PIC
-        }                                                    %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                           %! PIC
     
     % [Q CelloVoiceI measure 123 / measure 5]                %! SM4
@@ -4127,19 +3663,8 @@ Q_CelloVoiceI_a = {
     \repeatTie
     \stopTextSpan                                            %! PIC
     - \abjad_dashed_line_with_arrow                          %! PIC
-    - \tweak bound-details.left.text \markup {               %! PIC
-        \concat                                              %! PIC
-            {                                                %! PIC
-                \upright                                     %! PIC
-                    "ext. pont."                             %! PIC
-                \hspace                                      %! PIC
-                    #0.5                                     %! PIC
-            }                                                %! PIC
-        }                                                    %! PIC
-    - \tweak bound-details.right.text \markup {              %! PIC
-        \upright                                             %! PIC
-            tasto                                            %! PIC
-        }                                                    %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5                %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                           %! PIC
@@ -4167,15 +3692,7 @@ Q_CelloVoiceI_a = {
     - \tweak circled-tip ##t                                 %! PIC
     \<                                                       %! PIC
     - \abjad_dashed_line_with_arrow                          %! PIC
-    - \tweak bound-details.left.text \markup {               %! PIC
-        \concat                                              %! PIC
-            {                                                %! PIC
-                \upright                                     %! PIC
-                    tasto                                    %! PIC
-                \hspace                                      %! PIC
-                    #0.5                                     %! PIC
-            }                                                %! PIC
-        }                                                    %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                           %! PIC
     
     % [Q CelloVoiceI measure 128 / measure 10]               %! SM4
@@ -4194,19 +3711,8 @@ Q_CelloVoiceI_a = {
     \repeatTie
     \stopTextSpan                                            %! PIC
     - \abjad_dashed_line_with_arrow                          %! PIC
-    - \tweak bound-details.left.text \markup {               %! PIC
-        \concat                                              %! PIC
-            {                                                %! PIC
-                \upright                                     %! PIC
-                    "ext. pont."                             %! PIC
-                \hspace                                      %! PIC
-                    #0.5                                     %! PIC
-            }                                                %! PIC
-        }                                                    %! PIC
-    - \tweak bound-details.right.text \markup {              %! PIC
-        \upright                                             %! PIC
-            tasto                                            %! PIC
-        }                                                    %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5                %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                           %! PIC
@@ -4259,15 +3765,7 @@ Q_CelloVoiceII_a = {
     - \tweak circled-tip ##t                                 %! PIC
     \<                                                       %! PIC
     - \abjad_dashed_line_with_arrow                          %! PIC
-    - \tweak bound-details.left.text \markup {               %! PIC
-        \concat                                              %! PIC
-            {                                                %! PIC
-                \upright                                     %! PIC
-                    tasto                                    %! PIC
-                \hspace                                      %! PIC
-                    #0.5                                     %! PIC
-            }                                                %! PIC
-        }                                                    %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                           %! PIC
     
     % [Q CelloVoiceII measure 123 / measure 5]               %! SM4
@@ -4286,19 +3784,8 @@ Q_CelloVoiceII_a = {
     \repeatTie
     \stopTextSpan                                            %! PIC
     - \abjad_dashed_line_with_arrow                          %! PIC
-    - \tweak bound-details.left.text \markup {               %! PIC
-        \concat                                              %! PIC
-            {                                                %! PIC
-                \upright                                     %! PIC
-                    "ext. pont."                             %! PIC
-                \hspace                                      %! PIC
-                    #0.5                                     %! PIC
-            }                                                %! PIC
-        }                                                    %! PIC
-    - \tweak bound-details.right.text \markup {              %! PIC
-        \upright                                             %! PIC
-            tasto                                            %! PIC
-        }                                                    %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5                %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                           %! PIC
@@ -4326,15 +3813,7 @@ Q_CelloVoiceII_a = {
     - \tweak circled-tip ##t                                 %! PIC
     \<                                                       %! PIC
     - \abjad_dashed_line_with_arrow                          %! PIC
-    - \tweak bound-details.left.text \markup {               %! PIC
-        \concat                                              %! PIC
-            {                                                %! PIC
-                \upright                                     %! PIC
-                    tasto                                    %! PIC
-                \hspace                                      %! PIC
-                    #0.5                                     %! PIC
-            }                                                %! PIC
-        }                                                    %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                           %! PIC
     
     % [Q CelloVoiceII measure 128 / measure 10]              %! SM4
@@ -4353,19 +3832,8 @@ Q_CelloVoiceII_a = {
     \repeatTie
     \stopTextSpan                                            %! PIC
     - \abjad_dashed_line_with_arrow                          %! PIC
-    - \tweak bound-details.left.text \markup {               %! PIC
-        \concat                                              %! PIC
-            {                                                %! PIC
-                \upright                                     %! PIC
-                    "ext. pont."                             %! PIC
-                \hspace                                      %! PIC
-                    #0.5                                     %! PIC
-            }                                                %! PIC
-        }                                                    %! PIC
-    - \tweak bound-details.right.text \markup {              %! PIC
-        \upright                                             %! PIC
-            tasto                                            %! PIC
-        }                                                    %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5                %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                           %! PIC
@@ -4461,15 +3929,7 @@ Q_ContrabassVoiceIII_a = {
     - \tweak circled-tip ##t                                 %! PIC
     \<                                                       %! PIC
     - \abjad_dashed_line_with_arrow                          %! PIC
-    - \tweak bound-details.left.text \markup {               %! PIC
-        \concat                                              %! PIC
-            {                                                %! PIC
-                \upright                                     %! PIC
-                    tasto                                    %! PIC
-                \hspace                                      %! PIC
-                    #0.5                                     %! PIC
-            }                                                %! PIC
-        }                                                    %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                           %! PIC
     
     % [Q ContrabassVoiceIII measure 123 / measure 5]         %! SM4
@@ -4488,19 +3948,8 @@ Q_ContrabassVoiceIII_a = {
     \repeatTie
     \stopTextSpan                                            %! PIC
     - \abjad_dashed_line_with_arrow                          %! PIC
-    - \tweak bound-details.left.text \markup {               %! PIC
-        \concat                                              %! PIC
-            {                                                %! PIC
-                \upright                                     %! PIC
-                    "ext. pont."                             %! PIC
-                \hspace                                      %! PIC
-                    #0.5                                     %! PIC
-            }                                                %! PIC
-        }                                                    %! PIC
-    - \tweak bound-details.right.text \markup {              %! PIC
-        \upright                                             %! PIC
-            tasto                                            %! PIC
-        }                                                    %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5                %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                           %! PIC
@@ -4528,15 +3977,7 @@ Q_ContrabassVoiceIII_a = {
     - \tweak circled-tip ##t                                 %! PIC
     \<                                                       %! PIC
     - \abjad_dashed_line_with_arrow                          %! PIC
-    - \tweak bound-details.left.text \markup {               %! PIC
-        \concat                                              %! PIC
-            {                                                %! PIC
-                \upright                                     %! PIC
-                    tasto                                    %! PIC
-                \hspace                                      %! PIC
-                    #0.5                                     %! PIC
-            }                                                %! PIC
-        }                                                    %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto" %! PIC
     \startTextSpan                                           %! PIC
     
     % [Q ContrabassVoiceIII measure 128 / measure 10]        %! SM4
@@ -4555,19 +3996,8 @@ Q_ContrabassVoiceIII_a = {
     \repeatTie
     \stopTextSpan                                            %! PIC
     - \abjad_dashed_line_with_arrow                          %! PIC
-    - \tweak bound-details.left.text \markup {               %! PIC
-        \concat                                              %! PIC
-            {                                                %! PIC
-                \upright                                     %! PIC
-                    "ext. pont."                             %! PIC
-                \hspace                                      %! PIC
-                    #0.5                                     %! PIC
-            }                                                %! PIC
-        }                                                    %! PIC
-    - \tweak bound-details.right.text \markup {              %! PIC
-        \upright                                             %! PIC
-            tasto                                            %! PIC
-        }                                                    %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5                %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
     \startTextSpan                                           %! PIC
