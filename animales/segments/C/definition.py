@@ -237,7 +237,7 @@ maker(
 
 maker(
     (strings, (3, 6)),
-    baca.subito_dynamic('p'),
+    baca.dynamic('p_sub'),
     baca.make_repeat_tied_notes(),
     baca.only_parts(baca.markup('still (non vibrato)')),
     baca.pitch(0),
