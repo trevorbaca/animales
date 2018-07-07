@@ -146,8 +146,9 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.pitch('C#2'),
     baca.repeat_tie_to(),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.ord(),
+        '=>',
         baca.markups.ext_pont(),
         ),
     )
