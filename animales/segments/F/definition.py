@@ -78,7 +78,7 @@ maker(
     animales.parts('Clarinet', 1),
     baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
-    baca.markups.edition('solo (cl. 1)', 'solo'),
+    baca.markuplib.edition('solo (cl. 1)', 'solo'),
     baca.pitch('D5'),
     )
 
@@ -98,7 +98,7 @@ maker(
     animales.parts('Clarinet', 2),
     baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
-    baca.markups.edition('solo (cl. 2)', 'solo'),
+    baca.markuplib.edition('solo (cl. 2)', 'solo'),
     baca.pitch('Db5'),
     )
 
@@ -110,9 +110,9 @@ maker(
     animales.harp_exchange_rhythm(2),
     baca.dynamic('mf'),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markups.edition(
-        baca.markups.markup('LH-damped près de la table').boxed(),
-        baca.markups.lines([
+    baca.markuplib.edition(
+        baca.markuplib.markup('LH-damped près de la table').boxed(),
+        baca.markuplib.lines([
             'LH-damped près de la table:',
             'LH damps at soundboard; RH plucks string at usual position',
             ]).boxed(),
@@ -130,7 +130,7 @@ maker(
     animales.harp_exchange_rhythm(3),
     baca.dynamic('mf'),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markups.markup('mute with LH inside piano: dull thud').boxed(),
+    baca.markuplib.markup('mute with LH inside piano: dull thud').boxed(),
     baca.pitch('D5'),
     baca.stopped(selector=baca.pheads()),
     )
@@ -168,7 +168,7 @@ maker(
     baca.clef('treble'),
     baca.dynamic('mp'),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markups.vibraphone().boxed(),
+    baca.markuplib.vibraphone().boxed(),
     baca.only_parts(baca.text_script_extra_offset((1.5, 1.5))),
     baca.pitch('D5'),
     )
@@ -179,7 +179,7 @@ maker(
     '1vn1',
     animales.parts('FirstViolin'),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markups.markup('strings: still (non vib.)').boxed()),
+    baca.not_parts(baca.markuplib.markup('strings: still (non vib.)').boxed()),
     baca.pitch('Bb6'),
     baca.repeat_tie_up(),
     )
@@ -236,7 +236,7 @@ maker(
         baca.pitch('A#1', selector=baca.pleaf(0)),
         baca.pitch('Bb1', selector=baca.leaves()[1:]),
         baca.repeat_tie_to(selector=baca.leaf(1)),
-        baca.markups.edition(
+        baca.markuplib.edition(
             baca.markup(warning, selector=baca.leaf(1), direction=abjad.Down),
             baca.markup(warning, selector=baca.leaf(1), direction=abjad.Up),
             ),
@@ -283,7 +283,7 @@ maker(
     baca.dynamic('mf'),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.markup('8th partial / D (harmonics at sounding pitch)'),
-    baca.markups.pizz(),
+    baca.markuplib.pizz(),
     baca.note_head_style_harmonic(),
     baca.pitch('D5', do_not_transpose=True),
     )

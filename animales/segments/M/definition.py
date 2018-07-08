@@ -149,7 +149,7 @@ maker(
 maker(
     ('cl1', 4),
     baca.markup(
-        baca.markups.markup('choke sound suddenly').boxed(),
+        baca.markuplib.markup('choke sound suddenly').boxed(),
         selector=baca.leaf(0),
         ),
     )
@@ -264,7 +264,7 @@ maker(
         'ff > p',
         selector=baca.notes().group_by_measure()[-1].lleak(),
         ),
-    baca.markups.edition('solo (first violin)', 'solo'),
+    baca.markuplib.edition('solo (first violin)', 'solo'),
     baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
@@ -324,7 +324,7 @@ strings = ['suddenly ripped off;', 'las. vib. possibile']
 maker(
     ('1vn1', 4),
     baca.markup(
-        baca.markups.lines(strings).boxed(),
+        baca.markuplib.lines(strings).boxed(),
         selector=baca.leaf(0),
         ),
     )
@@ -333,7 +333,7 @@ maker(
     (most_strings, 4),
     baca.only_parts(
         baca.markup(
-            baca.markups.lines(strings).boxed(),
+            baca.markuplib.lines(strings).boxed(),
             selector=baca.leaf(0),
             ),
         ),

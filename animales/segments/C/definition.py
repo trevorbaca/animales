@@ -73,7 +73,7 @@ maker(
     ('cl1', (3, 6)),
     baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
-    baca.markups.edition('solo (cl. 3)', 'solo'),
+    baca.markuplib.edition('solo (cl. 3)', 'solo'),
     baca.pitch('C5'),
     )
 
@@ -107,12 +107,12 @@ maker(
 
 maker(
     ('perc1', (3, 6)),
-    baca.markups.markup('triangle (small beater)').boxed(),
+    baca.markuplib.markup('triangle (small beater)').boxed(),
     )
 
 maker(
     ('perc2', (3, 6)),
-    baca.markups.markup(
+    baca.markuplib.markup(
         'suspended cymbal (soft yarn mallets: attackless sound)',
         ).boxed(),
     )
@@ -178,7 +178,7 @@ maker(
         'f > p',
         selector=baca.notes().group_by_measure()[-1].lleak(),
         ),
-    baca.markups.edition('solo (first violin)', 'solo'),
+    baca.markuplib.edition('solo (first violin)', 'solo'),
     baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
@@ -258,7 +258,7 @@ maker(
     animales.parts('FirstViolin', (2, 10)),
     baca.not_parts(
         baca.markup(
-            baca.markups.lines(['all other strings:', 'still (non vibrato)']).boxed(),
+            baca.markuplib.lines(['all other strings:', 'still (non vibrato)']).boxed(),
             direction=abjad.Down,
             ),
         ),
