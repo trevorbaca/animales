@@ -57,7 +57,7 @@ maker(
     baca.note_head_style_harmonic(),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.make_notes(),
-    baca.markups.markup(
+    baca.markuplib.markup(
         'harmonic: touch lowest string of piano 1 cm from hammers'
         ).boxed(),
     baca.pitch('C#4'),
@@ -76,7 +76,7 @@ maker(
     animales.margin_markup('Perc. 4 (slate)'),
     baca.dynamic('"mf"'),
     baca.make_tied_repeated_durations((1, 4)),
-    baca.markups.lines([
+    baca.markuplib.lines([
         'stonecircle: scrape slate slowly in circle;',
         'one quarter diameter of circle every quarter note',
         ]).boxed(),

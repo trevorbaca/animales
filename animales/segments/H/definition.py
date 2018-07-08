@@ -80,7 +80,7 @@ maker(
 maker(
     ('cl1', 4),
     baca.markup(
-        baca.markups.lines([
+        baca.markuplib.lines([
             'choke sound suddenly:',
             'touch tongue to reed',
             'exactly on downbeat',
@@ -191,7 +191,7 @@ maker(
     (most_strings, 4),
     baca.only_parts(
         baca.markup(
-            baca.markups.lines(['suddenly ripped off;', 'las. vib. poss.']).boxed(),
+            baca.markuplib.lines(['suddenly ripped off;', 'las. vib. poss.']).boxed(),
             selector=baca.leaf(0),
             ),
         ),
@@ -201,7 +201,7 @@ maker(
     ('1vn1', 4),
     baca.not_parts(
         baca.markup(
-            baca.markups.lines(['strings:', 'suddenly ripped off;', 'las. vib. poss.']).boxed(),
+            baca.markuplib.lines(['strings:', 'suddenly ripped off;', 'las. vib. poss.']).boxed(),
             selector=baca.leaf(0),
             ),
         ),

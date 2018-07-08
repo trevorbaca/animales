@@ -147,8 +147,8 @@ maker(
     baca.pitch('C#2'),
     baca.repeat_tie_to(),
     baca.text_spanner(
-        baca.markups.ord(),
+        baca.markuplib.ord(),
         '=>',
-        baca.markups.ext_pont(),
+        baca.markuplib.ext_pont(),
         ),
     )
