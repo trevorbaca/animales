@@ -5137,19 +5137,8 @@ Z_ContrabassVoiceIII_a = {
         }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
 %@% \repeatTie                                                         %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup {                         %! PIC
-        \concat                                                        %! PIC
-            {                                                          %! PIC
-                \upright                                               %! PIC
-                    ord.                                               %! PIC
-                \hspace                                                %! PIC
-                    #0.5                                               %! PIC
-            }                                                          %! PIC
-        }                                                              %! PIC
-    - \tweak bound-details.right.text \markup {                        %! PIC
-        \upright                                                       %! PIC
-            "ext. pont."                                               %! PIC
-        }                                                              %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ord."         %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "ext. pont." %! PIC
     - \tweak bound-details.right.padding #0.5                          %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
     \startTextSpan                                                     %! PIC

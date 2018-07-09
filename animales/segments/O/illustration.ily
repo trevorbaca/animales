@@ -934,19 +934,8 @@ O_FirstViolinVoiceI_a = {
     \>                                                             %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup {                     %! PIC
-        \concat                                                    %! PIC
-            {                                                      %! PIC
-                \upright                                           %! PIC
-                    "ext. pont."                                   %! PIC
-                \hspace                                            %! PIC
-                    #0.5                                           %! PIC
-            }                                                      %! PIC
-        }                                                          %! PIC
-    - \tweak bound-details.right.text \markup {                    %! PIC
-        \upright                                                   %! PIC
-            tasto                                                  %! PIC
-        }                                                          %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
     - \tweak bound-details.right.padding #0.5                      %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
     \startTextSpan                                                 %! PIC
@@ -1053,19 +1042,8 @@ O_FirstViolinVoiceII_a = {
     \>                                                             %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup {                     %! PIC
-        \concat                                                    %! PIC
-            {                                                      %! PIC
-                \upright                                           %! PIC
-                    "ext. pont."                                   %! PIC
-                \hspace                                            %! PIC
-                    #0.5                                           %! PIC
-            }                                                      %! PIC
-        }                                                          %! PIC
-    - \tweak bound-details.right.text \markup {                    %! PIC
-        \upright                                                   %! PIC
-            tasto                                                  %! PIC
-        }                                                          %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
     - \tweak bound-details.right.padding #0.5                      %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
     \startTextSpan                                                 %! PIC
@@ -1242,19 +1220,8 @@ O_FirstViolinVoiceIII_a = {
     \>                                                             %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup {                     %! PIC
-        \concat                                                    %! PIC
-            {                                                      %! PIC
-                \upright                                           %! PIC
-                    "ext. pont."                                   %! PIC
-                \hspace                                            %! PIC
-                    #0.5                                           %! PIC
-            }                                                      %! PIC
-        }                                                          %! PIC
-    - \tweak bound-details.right.text \markup {                    %! PIC
-        \upright                                                   %! PIC
-            tasto                                                  %! PIC
-        }                                                          %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
     - \tweak bound-details.right.padding #0.5                      %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
     \startTextSpan                                                 %! PIC
@@ -1361,19 +1328,8 @@ O_FirstViolinVoiceIV_a = {
     \>                                                             %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup {                     %! PIC
-        \concat                                                    %! PIC
-            {                                                      %! PIC
-                \upright                                           %! PIC
-                    "ext. pont."                                   %! PIC
-                \hspace                                            %! PIC
-                    #0.5                                           %! PIC
-            }                                                      %! PIC
-        }                                                          %! PIC
-    - \tweak bound-details.right.text \markup {                    %! PIC
-        \upright                                                   %! PIC
-            tasto                                                  %! PIC
-        }                                                          %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
     - \tweak bound-details.right.padding #0.5                      %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
     \startTextSpan                                                 %! PIC
@@ -1705,19 +1661,8 @@ O_SecondViolinVoiceI_a = {
     \>                                                             %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup {                     %! PIC
-        \concat                                                    %! PIC
-            {                                                      %! PIC
-                \upright                                           %! PIC
-                    "ext. pont."                                   %! PIC
-                \hspace                                            %! PIC
-                    #0.5                                           %! PIC
-            }                                                      %! PIC
-        }                                                          %! PIC
-    - \tweak bound-details.right.text \markup {                    %! PIC
-        \upright                                                   %! PIC
-            tasto                                                  %! PIC
-        }                                                          %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
     - \tweak bound-details.right.padding #0.5                      %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
     \startTextSpan                                                 %! PIC
@@ -1825,19 +1770,8 @@ O_SecondViolinVoiceII_a = {
     \>                                                             %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup {                     %! PIC
-        \concat                                                    %! PIC
-            {                                                      %! PIC
-                \upright                                           %! PIC
-                    "ext. pont."                                   %! PIC
-                \hspace                                            %! PIC
-                    #0.5                                           %! PIC
-            }                                                      %! PIC
-        }                                                          %! PIC
-    - \tweak bound-details.right.text \markup {                    %! PIC
-        \upright                                                   %! PIC
-            tasto                                                  %! PIC
-        }                                                          %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
     - \tweak bound-details.right.padding #0.5                      %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
     \startTextSpan                                                 %! PIC
@@ -2014,19 +1948,8 @@ O_SecondViolinVoiceIII_a = {
     \>                                                             %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup {                     %! PIC
-        \concat                                                    %! PIC
-            {                                                      %! PIC
-                \upright                                           %! PIC
-                    "ext. pont."                                   %! PIC
-                \hspace                                            %! PIC
-                    #0.5                                           %! PIC
-            }                                                      %! PIC
-        }                                                          %! PIC
-    - \tweak bound-details.right.text \markup {                    %! PIC
-        \upright                                                   %! PIC
-            tasto                                                  %! PIC
-        }                                                          %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
     - \tweak bound-details.right.padding #0.5                      %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
     \startTextSpan                                                 %! PIC
@@ -2133,19 +2056,8 @@ O_SecondViolinVoiceIV_a = {
     \>                                                             %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup {                     %! PIC
-        \concat                                                    %! PIC
-            {                                                      %! PIC
-                \upright                                           %! PIC
-                    "ext. pont."                                   %! PIC
-                \hspace                                            %! PIC
-                    #0.5                                           %! PIC
-            }                                                      %! PIC
-        }                                                          %! PIC
-    - \tweak bound-details.right.text \markup {                    %! PIC
-        \upright                                                   %! PIC
-            tasto                                                  %! PIC
-        }                                                          %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
     - \tweak bound-details.right.padding #0.5                      %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
     \startTextSpan                                                 %! PIC
@@ -2322,19 +2234,8 @@ O_ViolaVoiceI_a = {
     \>                                                             %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup {                     %! PIC
-        \concat                                                    %! PIC
-            {                                                      %! PIC
-                \upright                                           %! PIC
-                    "ext. pont."                                   %! PIC
-                \hspace                                            %! PIC
-                    #0.5                                           %! PIC
-            }                                                      %! PIC
-        }                                                          %! PIC
-    - \tweak bound-details.right.text \markup {                    %! PIC
-        \upright                                                   %! PIC
-            tasto                                                  %! PIC
-        }                                                          %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
     - \tweak bound-details.right.padding #0.5                      %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
     \startTextSpan                                                 %! PIC
@@ -2441,19 +2342,8 @@ O_ViolaVoiceII_a = {
     \>                                                             %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup {                     %! PIC
-        \concat                                                    %! PIC
-            {                                                      %! PIC
-                \upright                                           %! PIC
-                    "ext. pont."                                   %! PIC
-                \hspace                                            %! PIC
-                    #0.5                                           %! PIC
-            }                                                      %! PIC
-        }                                                          %! PIC
-    - \tweak bound-details.right.text \markup {                    %! PIC
-        \upright                                                   %! PIC
-            tasto                                                  %! PIC
-        }                                                          %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
     - \tweak bound-details.right.padding #0.5                      %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
     \startTextSpan                                                 %! PIC
@@ -2630,19 +2520,8 @@ O_ViolaVoiceIII_a = {
     \>                                                             %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup {                     %! PIC
-        \concat                                                    %! PIC
-            {                                                      %! PIC
-                \upright                                           %! PIC
-                    "ext. pont."                                   %! PIC
-                \hspace                                            %! PIC
-                    #0.5                                           %! PIC
-            }                                                      %! PIC
-        }                                                          %! PIC
-    - \tweak bound-details.right.text \markup {                    %! PIC
-        \upright                                                   %! PIC
-            tasto                                                  %! PIC
-        }                                                          %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
     - \tweak bound-details.right.padding #0.5                      %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
     \startTextSpan                                                 %! PIC
@@ -2749,19 +2628,8 @@ O_ViolaVoiceIV_a = {
     \>                                                             %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup {                     %! PIC
-        \concat                                                    %! PIC
-            {                                                      %! PIC
-                \upright                                           %! PIC
-                    "ext. pont."                                   %! PIC
-                \hspace                                            %! PIC
-                    #0.5                                           %! PIC
-            }                                                      %! PIC
-        }                                                          %! PIC
-    - \tweak bound-details.right.text \markup {                    %! PIC
-        \upright                                                   %! PIC
-            tasto                                                  %! PIC
-        }                                                          %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
     - \tweak bound-details.right.padding #0.5                      %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
     \startTextSpan                                                 %! PIC
@@ -2939,19 +2807,8 @@ O_CelloVoiceI_a = {
     \>                                                                 %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup {                         %! PIC
-        \concat                                                        %! PIC
-            {                                                          %! PIC
-                \upright                                               %! PIC
-                    "ext. pont."                                       %! PIC
-                \hspace                                                %! PIC
-                    #0.5                                               %! PIC
-            }                                                          %! PIC
-        }                                                              %! PIC
-    - \tweak bound-details.right.text \markup {                        %! PIC
-        \upright                                                       %! PIC
-            tasto                                                      %! PIC
-        }                                                              %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC
     - \tweak bound-details.right.padding #0.5                          %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
     \startTextSpan                                                     %! PIC
@@ -3059,19 +2916,8 @@ O_CelloVoiceII_a = {
     \>                                                                 %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup {                         %! PIC
-        \concat                                                        %! PIC
-            {                                                          %! PIC
-                \upright                                               %! PIC
-                    "ext. pont."                                       %! PIC
-                \hspace                                                %! PIC
-                    #0.5                                               %! PIC
-            }                                                          %! PIC
-        }                                                              %! PIC
-    - \tweak bound-details.right.text \markup {                        %! PIC
-        \upright                                                       %! PIC
-            tasto                                                      %! PIC
-        }                                                              %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC
     - \tweak bound-details.right.padding #0.5                          %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
     \startTextSpan                                                     %! PIC
@@ -3223,19 +3069,8 @@ O_ContrabassVoiceIII_a = {
     \>                                                                 %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup {                         %! PIC
-        \concat                                                        %! PIC
-            {                                                          %! PIC
-                \upright                                               %! PIC
-                    "ext. pont."                                       %! PIC
-                \hspace                                                %! PIC
-                    #0.5                                               %! PIC
-            }                                                          %! PIC
-        }                                                              %! PIC
-    - \tweak bound-details.right.text \markup {                        %! PIC
-        \upright                                                       %! PIC
-            tasto                                                      %! PIC
-        }                                                              %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC
     - \tweak bound-details.right.padding #0.5                          %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
     \startTextSpan                                                     %! PIC

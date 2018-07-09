@@ -217,11 +217,7 @@ def tremolo(peak='f'):
             selector=baca.leaves(),
             ),
         baca.text_spanner(
-            'tasto',
-            '=>',
-            'ext. pont.',
-            '=>',
-            'tasto',
+            'tasto => ext. pont. => tasto',
             piece_selector=baca.group_by_measures([2]),
             selector=baca.leaves(),
             ),
