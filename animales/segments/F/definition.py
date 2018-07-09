@@ -111,11 +111,13 @@ maker(
     baca.dynamic('mf'),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.edition(
-        baca.markups.markup('LH-damped près de la table').boxed(),
+        baca.markup('LH-damped près de la table', boxed=True),
         baca.markups.lines([
             'LH-damped près de la table:',
             'LH damps at soundboard; RH plucks string at usual position',
-            ]).boxed(),
+            ],
+            boxed=True,
+            ),
         #selector=baca.pleaf(0),
         ),
     baca.pitch('D5'),
@@ -130,7 +132,7 @@ maker(
     animales.harp_exchange_rhythm(3),
     baca.dynamic('mf'),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markups.markup('mute with LH inside piano: dull thud').boxed(),
+    baca.markup('mute with LH inside piano: dull thud', boxed=True),
     baca.pitch('D5'),
     baca.stopped(selector=baca.pheads()),
     )
@@ -175,12 +177,13 @@ maker(
 
 # strings
 
-markup = baca.markups.markup('strings: still (non vib.)').boxed()
 maker(
     '1vn1',
     animales.parts('FirstViolin'),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup(markup)),
+    baca.not_parts(
+        baca.markup('strings: still (non vib.)', boxed=True),
+        ),
     baca.pitch('Bb6'),
     baca.repeat_tie_up(),
     )

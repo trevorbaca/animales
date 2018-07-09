@@ -140,7 +140,6 @@ maker(
 # strings
 
 def tremolo_suite():
-    markup = baca.markups.markup('ext. ponticello: like acid').boxed()
     return baca.suite(
         baca.accent(selector=baca.pleaves()),
         baca.dynamic('ff'),
@@ -148,7 +147,9 @@ def tremolo_suite():
             'ff > pp',
             selector=baca.pleaves()[2:-2],
             ),
-        baca.only_parts(baca.markup(markup)),
+        baca.only_parts(
+            baca.markup('ext. ponticello: like acid', boxed=True),
+            ),
         baca.text_spanner(
             'ext. pont. => tasto',
             selector=baca.pleaves()[2:-2],
@@ -225,12 +226,13 @@ maker(
 
 # first violins
 
-markup = baca.markups.markup('tutti: ext. ponticello: like acid').boxed()
 maker(
     ('1vn1', (1, 10)),
     animales.margin_markup('Vni. I (1-4) (5-8)'),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup(markup)),
+    baca.not_parts(
+        baca.markup('tutti: ext. ponticello: like acid', boxed=True),
+        ),
     baca.not_parts(baca.markup('1-4 + 5-8')),
     baca.pitch('A5'),
     tremolo_suite(),

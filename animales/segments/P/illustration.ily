@@ -2513,7 +2513,7 @@ P_FirstViolinVoiceI_a = {
 %%%     \override                                                  %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                  %! IC:+PARTS
 %%%         \box                                                   %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                       %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                      %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -2633,7 +2633,7 @@ P_FirstViolinVoiceII_a = {
 %%%     \override                                                  %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                  %! IC:+PARTS
 %%%         \box                                                   %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                       %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                      %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
     % [P FirstViolinVoiceII measure 110 / measure 2]               %! SM4
@@ -2774,7 +2774,7 @@ P_FirstViolinVoiceIII_a = {
 %%%     \override                                                  %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                  %! IC:+PARTS
 %%%         \box                                                   %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                       %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                      %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -2894,7 +2894,7 @@ P_FirstViolinVoiceIV_a = {
 %%%     \override                                                  %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                  %! IC:+PARTS
 %%%         \box                                                   %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                       %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                      %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
     % [P FirstViolinVoiceIV measure 110 / measure 2]               %! SM4
@@ -3161,7 +3161,7 @@ P_SecondViolinVoiceI_a = {
 %%%     \override                                                  %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                  %! IC:+PARTS
 %%%         \box                                                   %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                       %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                      %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -3282,7 +3282,7 @@ P_SecondViolinVoiceII_a = {
 %%%     \override                                                  %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                  %! IC:+PARTS
 %%%         \box                                                   %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                       %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                      %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
     % [P SecondViolinVoiceII measure 110 / measure 2]              %! SM4
@@ -3423,7 +3423,7 @@ P_SecondViolinVoiceIII_a = {
 %%%     \override                                                  %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                  %! IC:+PARTS
 %%%         \box                                                   %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                       %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                      %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -3543,7 +3543,7 @@ P_SecondViolinVoiceIV_a = {
 %%%     \override                                                  %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                  %! IC:+PARTS
 %%%         \box                                                   %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                       %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                      %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
     % [P SecondViolinVoiceIV measure 110 / measure 2]              %! SM4
@@ -3684,7 +3684,7 @@ P_ViolaVoiceI_a = {
 %%%     \override                                                  %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                  %! IC:+PARTS
 %%%         \box                                                   %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                       %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                      %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -3804,7 +3804,7 @@ P_ViolaVoiceII_a = {
 %%%     \override                                                  %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                  %! IC:+PARTS
 %%%         \box                                                   %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                       %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                      %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
     % [P ViolaVoiceII measure 110 / measure 2]                     %! SM4
@@ -3945,7 +3945,7 @@ P_ViolaVoiceIII_a = {
 %%%     \override                                                  %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                  %! IC:+PARTS
 %%%         \box                                                   %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                       %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                      %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -4065,7 +4065,7 @@ P_ViolaVoiceIV_a = {
 %%%     \override                                                  %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                  %! IC:+PARTS
 %%%         \box                                                   %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                       %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                      %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
     % [P ViolaVoiceIV measure 110 / measure 2]                     %! SM4
@@ -4207,7 +4207,7 @@ P_CelloVoiceI_a = {
 %%%     \override                                                      %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                      %! IC:+PARTS
 %%%         \box                                                       %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                           %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                          %! IC:+PARTS
 %%%     }                                                              %! IC:+PARTS
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -4328,7 +4328,7 @@ P_CelloVoiceII_a = {
 %%%     \override                                                      %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                      %! IC:+PARTS
 %%%         \box                                                       %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                           %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                          %! IC:+PARTS
 %%%     }                                                              %! IC:+PARTS
     
     % [P CelloVoiceII measure 110 / measure 2]                         %! SM4
@@ -4453,7 +4453,7 @@ P_ContrabassVoiceIII_a = {
 %%%     \override                                                      %! IC:+PARTS
 %%%         #'(box-padding . 0.5)                                      %! IC:+PARTS
 %%%         \box                                                       %! IC:+PARTS
-%%%             "ext. ponticello: like acid"                           %! IC:+PARTS
+%%%             "ext. ponticello: like acide"                          %! IC:+PARTS
 %%%     }                                                              %! IC:+PARTS
 %%% \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:+LETTER_PARTS_CB-1:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
