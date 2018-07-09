@@ -175,11 +175,12 @@ maker(
 
 # strings
 
+markup = baca.markups.markup('strings: still (non vib.)').boxed()
 maker(
     '1vn1',
     animales.parts('FirstViolin'),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markups.markup('strings: still (non vib.)').boxed()),
+    baca.not_parts(baca.markup(markup)),
     baca.pitch('Bb6'),
     baca.repeat_tie_up(),
     )
