@@ -151,9 +151,7 @@ def tremolo_suite():
             baca.markuplib.markup('ext. ponticello: like acid').boxed(),
             ),
         baca.text_spanner(
-            baca.markuplib.ext_pont(),
-            '=>',
-            baca.markuplib.tasto(),
+            'ext. pont. => tasto',
             selector=baca.pleaves()[2:-2],
             ),
         baca.stem_tremolo(selector=baca.pleaves()),
