@@ -149,7 +149,8 @@ maker(
 maker(
     ('cl1', 4),
     baca.markup(
-        baca.markups.markup('choke sound suddenly').boxed(),
+        'choke sound suddenly',
+        boxed=True,
         selector=baca.leaf(0),
         ),
     )

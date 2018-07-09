@@ -107,14 +107,15 @@ maker(
 
 maker(
     ('perc1', (3, 6)),
-    baca.markups.markup('triangle (small beater)').boxed(),
+    baca.markup('triangle (small beater)', boxed=True),
     )
 
 maker(
     ('perc2', (3, 6)),
-    baca.markups.markup(
+    baca.markup(
         'suspended cymbal (soft yarn mallets: attackless sound)',
-        ).boxed(),
+        boxed=True,
+        ),
     )
 
 maker(
