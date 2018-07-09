@@ -78,7 +78,7 @@ maker(
     animales.parts('Clarinet', 1),
     baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
-    baca.markuplib.edition('solo (cl. 1)', 'solo'),
+    baca.edition('solo (cl. 1)', 'solo'),
     baca.pitch('D5'),
     )
 
@@ -98,7 +98,7 @@ maker(
     animales.parts('Clarinet', 2),
     baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
-    baca.markuplib.edition('solo (cl. 2)', 'solo'),
+    baca.edition('solo (cl. 2)', 'solo'),
     baca.pitch('Db5'),
     )
 
@@ -110,7 +110,7 @@ maker(
     animales.harp_exchange_rhythm(2),
     baca.dynamic('mf'),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markuplib.edition(
+    baca.edition(
         baca.markuplib.markup('LH-damped près de la table').boxed(),
         baca.markuplib.lines([
             'LH-damped près de la table:',
@@ -236,7 +236,7 @@ maker(
         baca.pitch('A#1', selector=baca.pleaf(0)),
         baca.pitch('Bb1', selector=baca.leaves()[1:]),
         baca.repeat_tie_to(selector=baca.leaf(1)),
-        baca.markuplib.edition(
+        baca.edition(
             baca.markup(warning, selector=baca.leaf(1), direction=abjad.Down),
             baca.markup(warning, selector=baca.leaf(1), direction=abjad.Up),
             ),

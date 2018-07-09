@@ -60,7 +60,7 @@ maker(
     animales.parts('Clarinet', 2),
     baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
-    baca.markuplib.edition('solo (cl. 2)', 'solo'),
+    baca.edition('solo (cl. 2)', 'solo'),
     baca.pitch('C#5'),
     )
 

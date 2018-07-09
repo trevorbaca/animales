@@ -71,9 +71,9 @@ maker(
 
 maker(
     ('cl1', (3, 6)),
+    baca.edition('solo (cl. 3)', 'solo'),
     baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
-    baca.markuplib.edition('solo (cl. 3)', 'solo'),
     baca.pitch('C5'),
     )
 
@@ -178,7 +178,7 @@ maker(
         'f > p',
         selector=baca.notes().group_by_measure()[-1].lleak(),
         ),
-    baca.markuplib.edition('solo (first violin)', 'solo'),
+    baca.edition('solo (first violin)', 'solo'),
     baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
