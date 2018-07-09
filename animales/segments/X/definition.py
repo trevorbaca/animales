@@ -124,7 +124,7 @@ maker(
     baca.clef('percussion'),
     baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
-    baca.markuplib.markup(
+    baca.markups.markup(
         'bass drum (soft yarn mallets: attackless sound)',
         ).boxed(),
     baca.only_parts(baca.text_script_extra_offset((0, 4))),
@@ -142,7 +142,7 @@ maker(
     baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
     animales.margin_markup('Perc. 4 (tam.)'),
-    baca.markuplib.markup(
+    baca.markups.markup(
         'tam-tam (soft yarn mallets: attackless sound)',
         ).boxed(),
     baca.only_parts(baca.text_script_extra_offset((0, 4))),
