@@ -149,7 +149,7 @@ maker(
 maker(
     ('cl1', 4),
     baca.markup(
-        baca.markuplib.markup('choke sound suddenly').boxed(),
+        baca.markups.markup('choke sound suddenly').boxed(),
         selector=baca.leaf(0),
         ),
     )
@@ -324,7 +324,7 @@ strings = ['suddenly ripped off;', 'las. vib. possibile']
 maker(
     ('1vn1', 4),
     baca.markup(
-        baca.markuplib.lines(strings).boxed(),
+        baca.markups.lines(strings).boxed(),
         selector=baca.leaf(0),
         ),
     )
@@ -333,7 +333,7 @@ maker(
     (most_strings, 4),
     baca.only_parts(
         baca.markup(
-            baca.markuplib.lines(strings).boxed(),
+            baca.markups.lines(strings).boxed(),
             selector=baca.leaf(0),
             ),
         ),

@@ -69,7 +69,7 @@ def constellations(
             else:
                 polyphony = upper_voice()
             if first:
-                markup = baca.markuplib.lines([
+                markup = baca.markups.lines([
                     'col legno battuti: damp G string with LH; then',
                     'tap G string with wood of bow in rhythm indicated.',
                     ]).boxed()
