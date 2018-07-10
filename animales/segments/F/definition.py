@@ -170,7 +170,7 @@ maker(
     baca.clef('treble'),
     baca.dynamic('mp'),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markups.vibraphone().boxed(),
+    baca.markup('vibraphone', boxed=True),
     baca.only_parts(baca.text_script_extra_offset((1.5, 1.5))),
     baca.pitch('D5'),
     )
@@ -287,7 +287,7 @@ maker(
     baca.dynamic('mf'),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.markup('8th partial / D (harmonics at sounding pitch)'),
-    baca.markups.pizz(),
+    baca.markup('pizz.'),
     baca.note_head_style_harmonic(),
     baca.pitch('D5', do_not_transpose=True),
     )
