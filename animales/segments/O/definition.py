@@ -181,10 +181,14 @@ maker(
     animales.parts('FirstViolin', 18),
     baca.dynamic('f'),
     baca.make_repeat_tied_notes(),
-    baca.markups.lines([
-        'solo: absolutely fixed and determined; ponticello;',
-        'non diminuendo: appear as if by magic',
-        ]).boxed(),
+    baca.markup(
+        baca.markups.lines([
+            'solo: absolutely fixed and determined; ponticello;',
+            'non diminuendo: appear as if by magic',
+            ],
+            boxed=True,
+            ),
+        ),
     baca.pitch('C#4'),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
