@@ -12,14 +12,9 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get('last_measure_number')
 assert start == 87
 
-metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (7, abjad.Fermata()),
-    ])
-
 time_signatures = animales.time_signatures[start:start + 6] + ((1, 4),)
 
 maker = baca.SegmentMaker(
-    metronome_mark_measure_map=metronome_mark_measure_map,
     score_template=animales.ScoreTemplate(
         flutes=[
             (1, [1, 3]),
@@ -69,8 +64,12 @@ maker(
     )
 
 maker(
-    ('GlobalRests', 7),
-    baca.not_parts(baca.mmrest_text_extra_offset((0, -4))),
+    'GlobalRests',
+    baca.apply(
+        baca.leaf(7 - 1),
+        baca.global_fermata('fermata'),
+        baca.not_parts(baca.mmrest_text_extra_offset((0, -4))),
+        ),
     )
 
 animales.attach_grand_pause_fermatas(maker, measure=-1)

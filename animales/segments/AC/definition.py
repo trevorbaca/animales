@@ -11,15 +11,10 @@ import os
 metadata = baca.previous_metadata(__file__)
 start = 142
 
-metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (10, abjad.Fermata()),
-    ])
-
 time_signatures = animales.time_signatures[start: start + 9] + ((1, 4),)
 
 maker = baca.SegmentMaker(
     final_bar_line='|.',
-    metronome_mark_measure_map=metronome_mark_measure_map,
     score_template=animales.ScoreTemplate(
         piano=[
             (1, [1]),
@@ -41,6 +36,11 @@ maker(
         '+TABLOID_SCORE',
         baca.rehearsal_mark_y_offset(6),
         ),
+    )
+
+maker(
+    'GlobalRests',
+    baca.global_fermata('fermata', selector=baca.leaf(10 - 1)),
     )
 
 animales.attach_grand_pause_fermatas(maker, measure=-1)
