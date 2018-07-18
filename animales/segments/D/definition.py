@@ -98,11 +98,11 @@ maker(
     animales.parts('FirstViolin', 1),
     baca.hairpin(
         'p < f',
-        selector=baca.notes().group_by_measure()[0].rleak(),
+        selector=baca.mleaves(1).rleak(),
         ),
     baca.hairpin(
         'f > p',
-        selector=baca.notes().group_by_measure()[-1].lleak(),
+        selector=baca.mleaves(-1).lleak(),
         ),
     baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
