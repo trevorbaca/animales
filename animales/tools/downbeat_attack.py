@@ -58,19 +58,19 @@ def downbeat_attack(count=1, denominator=8):
                         % [GlobalSkips measure 1]                                                    %! SM4
                         \baca_new_spacing_section #1 #8                                              %! HSS1:SPACING
                         \time 4/4                                                                    %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color #'blue                                            %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color blue                                            %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 1
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                                    %! SM4
                         \baca_new_spacing_section #1 #8                                              %! HSS1:SPACING
                         \time 3/4                                                                    %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color #'blue                                            %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color blue                                            %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 3/4
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                                    %! SM4
                         \baca_new_spacing_section #1 #8                                              %! HSS1:SPACING
                         \time 2/4                                                                    %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color #'blue                                            %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color blue                                            %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 1/2
                         \baca_bar_line_visible                                                       %! SM5
                         \bar "|"                                                                     %! SM5
