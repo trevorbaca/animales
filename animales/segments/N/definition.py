@@ -101,7 +101,12 @@ maker(
     animales.pennant_pitches('G5', [6]),
     animales.pennant_rhythm([0, 0, -1, -1, 0], [0, 1, 2]),
     baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.hairpin('mf < ff')),
+    baca.only_parts(
+        baca.hairpin(
+            'mf < ff',
+            selector=baca.tleaves(),
+            ),
+        ),
     baca.slur(),
     )
 
@@ -109,7 +114,10 @@ maker(
     ('fl3', (1, 3)),
     animales.pennant_pitches('F5', [6]),
     animales.pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
-    baca.hairpin('mf < ff'),
+    baca.hairpin(
+        'mf < ff',
+        selector=baca.tleaves(),
+        ),
     baca.not_parts(baca.voice_two()),
     baca.slur(),
     )
@@ -119,7 +127,12 @@ maker(
     animales.pennant_pitches('Eb5', [6]),
     animales.pennant_rhythm([0, -1, -1, 0], [0]),
     baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.hairpin('mf < ff')),
+    baca.only_parts(
+        baca.hairpin(
+            'mf < ff',
+            selector=baca.tleaves(),
+            ),
+        ),
     baca.slur(),
     )
 
@@ -127,7 +140,10 @@ maker(
     ('fl4', (1, 3)),
     animales.pennant_pitches('D5', [6]),
     animales.pennant_rhythm([0, 0, -1, -1]),
-    baca.hairpin('mf < ff'),
+    baca.hairpin(
+        'mf < ff',
+        selector=baca.tleaves(),
+        ),
     baca.not_parts(baca.voice_two()),
     baca.slur(),
     )
