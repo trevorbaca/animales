@@ -220,14 +220,6 @@ for voice, members in voice_to_members.items():
         animales.parts(section, members),
         )
 
-maker(
-    [
-        '2vn1',
-        'vc1',
-        ],
-    baca.repeat_tie_up(),
-    )
-
 # first violins
 
 maker(

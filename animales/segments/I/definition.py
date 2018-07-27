@@ -79,7 +79,6 @@ maker(
     baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.pitch('A4'),
-    baca.repeat_tie_up(),
     )
 
 # bass clarinet

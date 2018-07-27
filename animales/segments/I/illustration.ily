@@ -136,7 +136,6 @@ I_ClarinetVoiceI_a = {
                     1                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \override RepeatTie.direction = #up                                %! OC1
     \clef "treble"                                                     %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -189,6 +188,7 @@ I_ClarinetVoiceI_a = {
     
     % [I ClarinetVoiceI measure 59 / measure 4]                        %! SM4
     b'1
+    - \tweak direction #up
     \repeatTie
     
     % [I ClarinetVoiceI measure 60 / measure 5]                        %! SM4
@@ -199,8 +199,8 @@ I_ClarinetVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b'1
     \mf                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak direction #up
     \repeatTie
-    \revert RepeatTie.direction                                        %! OC2
     
 }
 

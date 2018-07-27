@@ -1109,7 +1109,6 @@ N_PercussionVoiceI_a = {
     \stopStaff                                                         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                        %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \override RepeatTie.direction = #up                                %! OC1
     \clef "percussion"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1165,8 +1164,8 @@ N_PercussionVoiceI_a = {
     % [N PercussionVoiceI measure 90 / measure 3]                      %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up
     \repeatTie
-    \revert RepeatTie.direction                                        %! OC2
     
     % [N PercussionVoiceI measure 91 / measure 4]                      %! SM4
     R1 * 1
@@ -1227,7 +1226,6 @@ N_PercussionVoiceII_a = {
     \stopStaff                                                         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                        %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \override RepeatTie.direction = #up                                %! OC1
     \clef "percussion"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1283,8 +1281,8 @@ N_PercussionVoiceII_a = {
     % [N PercussionVoiceII measure 90 / measure 3]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up
     \repeatTie
-    \revert RepeatTie.direction                                        %! OC2
     
     % [N PercussionVoiceII measure 91 / measure 4]                     %! SM4
     R1 * 1

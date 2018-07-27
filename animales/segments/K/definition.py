@@ -255,7 +255,6 @@ maker(
     'perc2',
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
-    baca.repeat_tie_up(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=baca.pleaves()),
     )

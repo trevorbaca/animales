@@ -2980,7 +2980,6 @@ P_SecondViolinVoiceI_a = {
                     (5-8)                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \override RepeatTie.direction = #up                            %! OC1
 %%% \override TextScript.extra-offset = #'(1 . 3)                  %! OC1:+PARTS
 %%% \override TextSpanner.staff-padding = #5                       %! OC1:+PARTS
     \override DynamicText.stencil = ##f                            %! OC1:-PARTS
@@ -3051,6 +3050,7 @@ P_SecondViolinVoiceI_a = {
     \ff                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                       %! IC
     \>                                                             %! PIC
+    - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
@@ -3063,12 +3063,14 @@ P_SecondViolinVoiceI_a = {
     b'1
     :32                                                            %! IC
     -\accent                                                       %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [P SecondViolinVoiceI measure 113 / measure 5]               %! SM4
     b'1
     :32                                                            %! IC
     -\accent                                                       %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [P SecondViolinVoiceI measure 114 / measure 6]               %! SM4
@@ -3089,6 +3091,7 @@ P_SecondViolinVoiceI_a = {
     :32                                                            %! IC
     \pp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                       %! IC
+    - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                  %! PIC
     
@@ -3096,6 +3099,7 @@ P_SecondViolinVoiceI_a = {
     b'1
     :32                                                            %! IC
     -\accent                                                       %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [P SecondViolinVoiceI measure 118 / measure 10]              %! SM4
@@ -3103,7 +3107,6 @@ P_SecondViolinVoiceI_a = {
     :32                                                            %! IC
     -\accent                                                       %! IC
     \repeatTie
-    \revert RepeatTie.direction                                    %! OC2
 %%% \revert TextScript.extra-offset                                %! OC2:+PARTS
 %%% \revert TextSpanner.staff-padding                              %! OC2:+PARTS
     \revert DynamicText.stencil                                    %! OC2:-PARTS
@@ -4026,7 +4029,6 @@ P_CelloVoiceI_a = {
                     (9-14)                                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 }                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \override RepeatTie.direction = #up                                %! OC1
 %%% \override TextScript.extra-offset = #'(1 . 3)                      %! OC1:+PARTS
 %%% \override TextSpanner.staff-padding = #5                           %! OC1:+PARTS
     \override DynamicText.stencil = ##f                                %! OC1:-PARTS
@@ -4097,6 +4099,7 @@ P_CelloVoiceI_a = {
     \ff                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                           %! IC
     \>                                                                 %! PIC
+    - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                    %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC
@@ -4109,12 +4112,14 @@ P_CelloVoiceI_a = {
     d1
     :32                                                                %! IC
     -\accent                                                           %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [P CelloVoiceI measure 113 / measure 5]                          %! SM4
     d1
     :32                                                                %! IC
     -\accent                                                           %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [P CelloVoiceI measure 114 / measure 6]                          %! SM4
@@ -4135,6 +4140,7 @@ P_CelloVoiceI_a = {
     :32                                                                %! IC
     \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                           %! IC
+    - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                      %! PIC
     
@@ -4142,6 +4148,7 @@ P_CelloVoiceI_a = {
     d1
     :32                                                                %! IC
     -\accent                                                           %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [P CelloVoiceI measure 118 / measure 10]                         %! SM4
@@ -4149,7 +4156,6 @@ P_CelloVoiceI_a = {
     :32                                                                %! IC
     -\accent                                                           %! IC
     \repeatTie
-    \revert RepeatTie.direction                                        %! OC2
 %%% \revert TextScript.extra-offset                                    %! OC2:+PARTS
 %%% \revert TextSpanner.staff-padding                                  %! OC2:+PARTS
     \revert DynamicText.stencil                                        %! OC2:-PARTS

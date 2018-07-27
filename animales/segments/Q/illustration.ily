@@ -2218,7 +2218,6 @@ Q_SecondViolinVoiceI_a = {
 %%%     }                                                          %! IC:+PARTS
     
     % [Q SecondViolinVoiceI measure 122 / measure 4]               %! SM4
-    \override RepeatTie.direction = #up                            %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b'1
     :32                                                            %! IC
@@ -2232,6 +2231,7 @@ Q_SecondViolinVoiceI_a = {
     % [Q SecondViolinVoiceI measure 123 / measure 5]               %! SM4
     b'1
     :32                                                            %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [Q SecondViolinVoiceI measure 124 / measure 6]               %! SM4
@@ -2242,6 +2242,7 @@ Q_SecondViolinVoiceI_a = {
     - \tweak to-barline ##t                                        %! PIC
     - \tweak circled-tip ##t                                       %! PIC
     \>                                                             %! PIC
+    - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -2280,6 +2281,7 @@ Q_SecondViolinVoiceI_a = {
     % [Q SecondViolinVoiceI measure 128 / measure 10]              %! SM4
     b'1
     :32                                                            %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [Q SecondViolinVoiceI measure 129 / measure 11]              %! SM4
@@ -2290,6 +2292,7 @@ Q_SecondViolinVoiceI_a = {
     - \tweak to-barline ##t                                        %! PIC
     - \tweak circled-tip ##t                                       %! PIC
     \>                                                             %! PIC
+    - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -2298,7 +2301,6 @@ Q_SecondViolinVoiceI_a = {
     - \tweak bound-details.right.padding #0.5                      %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
     \startTextSpan                                                 %! PIC
-    \revert RepeatTie.direction                                    %! OC2
     
     % [Q SecondViolinVoiceI measure 130 / measure 12]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
@@ -3456,7 +3458,6 @@ Q_CelloVoiceI_a = {
 %%%     }                                                              %! IC:+PARTS
     
     % [Q CelloVoiceI measure 122 / measure 4]                          %! SM4
-    \override RepeatTie.direction = #up                                %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d1
     :32                                                                %! IC
@@ -3470,6 +3471,7 @@ Q_CelloVoiceI_a = {
     % [Q CelloVoiceI measure 123 / measure 5]                          %! SM4
     d1
     :32                                                                %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [Q CelloVoiceI measure 124 / measure 6]                          %! SM4
@@ -3480,6 +3482,7 @@ Q_CelloVoiceI_a = {
     - \tweak to-barline ##t                                            %! PIC
     - \tweak circled-tip ##t                                           %! PIC
     \>                                                                 %! PIC
+    - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                      %! PIC
     - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -3518,6 +3521,7 @@ Q_CelloVoiceI_a = {
     % [Q CelloVoiceI measure 128 / measure 10]                         %! SM4
     d1
     :32                                                                %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [Q CelloVoiceI measure 129 / measure 11]                         %! SM4
@@ -3528,6 +3532,7 @@ Q_CelloVoiceI_a = {
     - \tweak to-barline ##t                                            %! PIC
     - \tweak circled-tip ##t                                           %! PIC
     \>                                                                 %! PIC
+    - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                      %! PIC
     - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -3536,7 +3541,6 @@ Q_CelloVoiceI_a = {
     - \tweak bound-details.right.padding #0.5                          %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
     \startTextSpan                                                     %! PIC
-    \revert RepeatTie.direction                                        %! OC2
     
     % [Q CelloVoiceI measure 130 / measure 12]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC

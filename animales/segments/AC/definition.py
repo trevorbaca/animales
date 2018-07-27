@@ -87,7 +87,6 @@ maker(
         ),
     baca.only_parts(baca.text_script_x_offset(3)),
     baca.staff_position(0),
-    baca.repeat_tie_up(),
     )
 
 for voice in (

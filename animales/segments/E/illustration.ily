@@ -249,7 +249,6 @@ E_PercussionVoiceI_a = {
     \stopStaff                                                         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                        %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \override RepeatTie.direction = #up                                %! OC1
     \clef "percussion"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -273,6 +272,7 @@ E_PercussionVoiceI_a = {
     - \tweak to-barline ##t                                            %! PIC
     - \tweak circled-tip ##t                                           %! PIC
     \>                                                                 %! PIC
+%@% - \tweak direction #up                                             %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
 %@% \repeatTie                                                         %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -300,6 +300,7 @@ E_PercussionVoiceI_a = {
     % [E PercussionVoiceI measure 31 / measure 2]                      %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [E PercussionVoiceI measure 32 / measure 3]                      %! SM4
@@ -320,9 +321,9 @@ E_PercussionVoiceI_a = {
     % [E PercussionVoiceI measure 35 / measure 6]                      %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     \!                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    \revert RepeatTie.direction                                        %! OC2
     
 }
 
@@ -365,7 +366,6 @@ E_PercussionVoiceII_a = {
     \stopStaff                                                         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                        %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \override RepeatTie.direction = #up                                %! OC1
     \clef "percussion"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -386,6 +386,7 @@ E_PercussionVoiceII_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Perc. 2 (cym.)”]"                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+%@% - \tweak direction #up                                             %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
 %@% \repeatTie                                                         %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -413,6 +414,7 @@ E_PercussionVoiceII_a = {
     % [E PercussionVoiceII measure 31 / measure 2]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [E PercussionVoiceII measure 32 / measure 3]                     %! SM4
@@ -433,8 +435,8 @@ E_PercussionVoiceII_a = {
     % [E PercussionVoiceII measure 35 / measure 6]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
-    \revert RepeatTie.direction                                        %! OC2
     
 }
 

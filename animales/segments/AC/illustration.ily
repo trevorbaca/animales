@@ -305,7 +305,6 @@ AC_PercussionVoiceIV_a = {
                 }                                                      %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
         }                                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS:ANIMALES
 %%% \override TextScript.X-offset = #3                                 %! OC1:+PARTS
-    \override RepeatTie.direction = #up                                %! OC1
 %%% \magnifyStaff #10/7                                                %! IC:+TABLOID_SCORE
     \clef "percussion"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -447,7 +446,6 @@ AC_PercussionVoiceIV_a = {
     c'4
     \repeatTie
 %%% \revert TextScript.X-offset                                        %! OC2:+PARTS
-    \revert RepeatTie.direction                                        %! OC2
     
     % [AC PercussionVoiceIV measure 173 / measure 9]                   %! SM4
     R1 * 1

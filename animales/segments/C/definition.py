@@ -100,7 +100,6 @@ maker(
     #baca.only_parts(baca.bar_extent_persistent((-2, 2))),
     baca.tag('TEMPORARY', baca.only_parts(baca.literal(string))),
 
-    baca.repeat_tie_up(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
@@ -242,11 +241,6 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.only_parts(baca.markup('still (non vibrato)')),
     baca.pitch(0),
-    )
-
-maker(
-    ('va1', (3, 6)),
-    baca.repeat_tie_up(),
     )
 
 maker(
