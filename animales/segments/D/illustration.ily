@@ -239,7 +239,6 @@ D_PercussionVoiceI_a = {
     \stopStaff                                                         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                        %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \override RepeatTie.direction = #up                                %! OC1
     \clef "percussion"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -287,16 +286,19 @@ D_PercussionVoiceI_a = {
     % [D PercussionVoiceI measure 25 / measure 2]                      %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [D PercussionVoiceI measure 26 / measure 3]                      %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [D PercussionVoiceI measure 27 / measure 4]                      %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [D PercussionVoiceI measure 28 / measure 5]                      %! SM4
@@ -308,7 +310,6 @@ D_PercussionVoiceI_a = {
     c'2.
     :32                                                                %! IC
     \repeatTie                                                         %! TCC
-    \revert RepeatTie.direction                                        %! OC2
     
 }
 
@@ -351,7 +352,6 @@ D_PercussionVoiceII_a = {
     \stopStaff                                                         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                        %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \override RepeatTie.direction = #up                                %! OC1
     \clef "percussion"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -399,16 +399,19 @@ D_PercussionVoiceII_a = {
     % [D PercussionVoiceII measure 25 / measure 2]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [D PercussionVoiceII measure 26 / measure 3]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [D PercussionVoiceII measure 27 / measure 4]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [D PercussionVoiceII measure 28 / measure 5]                     %! SM4
@@ -420,7 +423,6 @@ D_PercussionVoiceII_a = {
     c'2.
     :32                                                                %! IC
     \repeatTie                                                         %! TCC
-    \revert RepeatTie.direction                                        %! OC2
     
 }
 

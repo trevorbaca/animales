@@ -1158,7 +1158,6 @@ C_PercussionVoiceI_a = {
     % [C PercussionVoiceI measure 20 / measure 3]                      %! SM4
     \override Staff.BarLine.bar-extent = #'(0 . 0)                     %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:-PARTS
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                    %! IC:+PARTS:TEMPORARY
-    \override RepeatTie.direction = #up                                %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     :32                                                                %! IC
@@ -1173,18 +1172,19 @@ C_PercussionVoiceI_a = {
     % [C PercussionVoiceI measure 21 / measure 4]                      %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [C PercussionVoiceI measure 22 / measure 5]                      %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [C PercussionVoiceI measure 23 / measure 6]                      %! SM4
     c'2.
     :32                                                                %! IC
     \repeatTie
-    \revert RepeatTie.direction                                        %! OC2
     
 }
 
@@ -1272,7 +1272,6 @@ C_PercussionVoiceII_a = {
     % [C PercussionVoiceII measure 20 / measure 3]                     %! SM4
     \override Staff.BarLine.bar-extent = #'(0 . 0)                     %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:-PARTS
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                    %! IC:+PARTS:TEMPORARY
-    \override RepeatTie.direction = #up                                %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     :32                                                                %! IC
@@ -1287,18 +1286,19 @@ C_PercussionVoiceII_a = {
     % [C PercussionVoiceII measure 21 / measure 4]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [C PercussionVoiceII measure 22 / measure 5]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [C PercussionVoiceII measure 23 / measure 6]                     %! SM4
     c'2.
     :32                                                                %! IC
     \repeatTie
-    \revert RepeatTie.direction                                        %! OC2
     
 }
 
@@ -1934,7 +1934,6 @@ C_ViolaVoiceI_a = {
     \repeatTie
     
     % [C ViolaVoiceI measure 20 / measure 3]                       %! SM4
-    \override RepeatTie.direction = #up                            %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \baca_p_sub                                                    %! SM8:EXPLICIT_DYNAMIC:IC
@@ -1944,16 +1943,17 @@ C_ViolaVoiceI_a = {
     
     % [C ViolaVoiceI measure 21 / measure 4]                       %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [C ViolaVoiceI measure 22 / measure 5]                       %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [C ViolaVoiceI measure 23 / measure 6]                       %! SM4
     c'2.
     \repeatTie
-    \revert RepeatTie.direction                                    %! OC2
     
 }
 
@@ -2053,10 +2053,12 @@ C_ViolaVoiceIII_a = {
     
     % [C ViolaVoiceIII measure 21 / measure 4]                     %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [C ViolaVoiceIII measure 22 / measure 5]                     %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [C ViolaVoiceIII measure 23 / measure 6]                     %! SM4

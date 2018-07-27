@@ -273,16 +273,6 @@ for voice, items in string_parts.items():
         tremolo('mp'),
         )
 
-# repeat ties
-
-maker(
-    [
-        '2vn1',
-        'vc1',
-        ],
-    baca.repeat_tie_up(),
-    )
-
 # solo violin
 
 maker(

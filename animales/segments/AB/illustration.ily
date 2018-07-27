@@ -120,7 +120,6 @@ AB_PercussionVoiceI_a = {
     \stopStaff                                                         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                        %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \override RepeatTie.direction = #up                                %! OC1
     \clef "percussion"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -168,13 +167,14 @@ AB_PercussionVoiceI_a = {
     % [AB PercussionVoiceI measure 162 / measure 2]                    %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [AB PercussionVoiceI measure 163 / measure 3]                    %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
-    \revert RepeatTie.direction                                        %! OC2
     
     % [AB PercussionVoiceI measure 164 / measure 4]                    %! SM4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! IC:+PARTS

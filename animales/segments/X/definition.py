@@ -111,7 +111,6 @@ maker(
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.repeat_tie_up(),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 
@@ -128,7 +127,6 @@ maker(
     baca.only_parts(baca.text_script_extra_offset((0, 4))),
     baca.staff_lines(1),
     baca.staff_position(0),
-    baca.repeat_tie_up(),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
     
@@ -143,7 +141,6 @@ maker(
     baca.markup('tam-tam (soft yarn mallets: attackless sound)', boxed=True),
     baca.only_parts(baca.text_script_extra_offset((0, 4))),
     baca.staff_position(0),
-    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.stem_tremolo(selector=baca.pleaves()),
     )

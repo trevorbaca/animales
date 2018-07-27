@@ -1423,7 +1423,6 @@ K_PercussionVoiceII_a = {
     \stopStaff                                                         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                        %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \override RepeatTie.direction = #up                                %! OC1
     \clef "percussion"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1470,11 +1469,13 @@ K_PercussionVoiceII_a = {
     % [K PercussionVoiceII measure 69 / measure 2]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [K PercussionVoiceII measure 70 / measure 3]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [K PercussionVoiceII measure 71 / measure 4]                     %! SM4
@@ -1490,18 +1491,20 @@ K_PercussionVoiceII_a = {
     % [K PercussionVoiceII measure 73 / measure 6]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [K PercussionVoiceII measure 74 / measure 7]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [K PercussionVoiceII measure 75 / measure 8]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up
     \repeatTie
-    \revert RepeatTie.direction                                        %! OC2
     
 }
 

@@ -520,7 +520,6 @@ L_PercussionVoiceI_a = {
     \stopStaff                                                         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                        %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \override RepeatTie.direction = #up                                %! OC1
     \clef "percussion"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -574,6 +573,7 @@ L_PercussionVoiceI_a = {
     % [L PercussionVoiceI measure 78 / measure 3]                      %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [L PercussionVoiceI measure 79 / measure 4]                      %! SM4
@@ -581,6 +581,7 @@ L_PercussionVoiceI_a = {
     c'1
     :32                                                                %! IC
     \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak direction #up
     \repeatTie
     
     % [L PercussionVoiceI measure 80 / measure 5]                      %! SM4
@@ -592,7 +593,6 @@ L_PercussionVoiceI_a = {
     c'2.
     :32                                                                %! IC
     \repeatTie
-    \revert RepeatTie.direction                                        %! OC2
     
 }
 
@@ -635,7 +635,6 @@ L_PercussionVoiceII_a = {
     \stopStaff                                                         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                        %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \override RepeatTie.direction = #up                                %! OC1
     \clef "percussion"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -688,11 +687,13 @@ L_PercussionVoiceII_a = {
     % [L PercussionVoiceII measure 78 / measure 3]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [L PercussionVoiceII measure 79 / measure 4]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [L PercussionVoiceII measure 80 / measure 5]                     %! SM4
@@ -704,7 +705,6 @@ L_PercussionVoiceII_a = {
     c'2.
     :32                                                                %! IC
     \repeatTie                                                         %! TCC
-    \revert RepeatTie.direction                                        %! OC2
     
 }
 

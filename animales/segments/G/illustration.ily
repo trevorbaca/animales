@@ -512,7 +512,6 @@ G_PercussionVoiceII_a = {
     \stopStaff                                                         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                        %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \override RepeatTie.direction = #up                                %! OC1
     \clef "percussion"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -536,6 +535,7 @@ G_PercussionVoiceII_a = {
     - \tweak to-barline ##t                                            %! PIC
     - \tweak circled-tip ##t                                           %! PIC
     \>                                                                 %! PIC
+%@% - \tweak direction #up                                             %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
 %@% \repeatTie                                                         %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -563,11 +563,13 @@ G_PercussionVoiceII_a = {
     % [G PercussionVoiceII measure 45 / measure 2]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [G PercussionVoiceII measure 46 / measure 3]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [G PercussionVoiceII measure 47 / measure 4]                     %! SM4
@@ -583,9 +585,9 @@ G_PercussionVoiceII_a = {
     % [G PercussionVoiceII measure 49 / measure 6]                     %! SM4
     c'1
     :32                                                                %! IC
+    - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     \!                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    \revert RepeatTie.direction                                        %! OC2
     
 }
 
