@@ -1,51 +1,51 @@
 Q_GlobalRests = {
     
-    % [Q GlobalRests measure 119 / measure 1]                                      %! SM4
+    % [Q GlobalRests measure 119 / measure 1]                                      %! SM_4
     R1 * 3/4
     
-    % [Q GlobalRests measure 120 / measure 2]                                      %! SM4
+    % [Q GlobalRests measure 120 / measure 2]                                      %! SM_4
     R1 * 3/4
     
-    % [Q GlobalRests measure 121 / measure 3]                                      %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
-    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
+    % [Q GlobalRests measure 121 / measure 3]                                      %! SM_4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC_2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC_2
     R1 * 1/4
-    ^ \markup {                                                                    %! GFC1
-        \musicglyph                                                                %! GFC1
-            #"scripts.ufermata"                                                    %! GFC1
-        }                                                                          %! GFC1
+    ^ \markup {                                                                    %! GFC_1
+        \musicglyph                                                                %! GFC_1
+            #"scripts.ufermata"                                                    %! GFC_1
+        }                                                                          %! GFC_1
     
-    % [Q GlobalRests measure 122 / measure 4]                                      %! SM4
+    % [Q GlobalRests measure 122 / measure 4]                                      %! SM_4
     R1 * 1
     
-    % [Q GlobalRests measure 123 / measure 5]                                      %! SM4
+    % [Q GlobalRests measure 123 / measure 5]                                      %! SM_4
     R1 * 1
     
-    % [Q GlobalRests measure 124 / measure 6]                                      %! SM4
+    % [Q GlobalRests measure 124 / measure 6]                                      %! SM_4
     R1 * 1
     
-    % [Q GlobalRests measure 125 / measure 7]                                      %! SM4
+    % [Q GlobalRests measure 125 / measure 7]                                      %! SM_4
     R1 * 3/4
     
-    % [Q GlobalRests measure 126 / measure 8]                                      %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
-    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
+    % [Q GlobalRests measure 126 / measure 8]                                      %! SM_4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC_2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC_2
     R1 * 1/4
-    ^ \markup {                                                                    %! GFC1
-        \musicglyph                                                                %! GFC1
-            #"scripts.ufermata"                                                    %! GFC1
-        }                                                                          %! GFC1
+    ^ \markup {                                                                    %! GFC_1
+        \musicglyph                                                                %! GFC_1
+            #"scripts.ufermata"                                                    %! GFC_1
+        }                                                                          %! GFC_1
     
-    % [Q GlobalRests measure 127 / measure 9]                                      %! SM4
+    % [Q GlobalRests measure 127 / measure 9]                                      %! SM_4
     R1 * 3/4
     
-    % [Q GlobalRests measure 128 / measure 10]                                     %! SM4
+    % [Q GlobalRests measure 128 / measure 10]                                     %! SM_4
     R1 * 1
     
-    % [Q GlobalRests measure 129 / measure 11]                                     %! SM4
+    % [Q GlobalRests measure 129 / measure 11]                                     %! SM_4
     R1 * 1
     
-    % [Q GlobalRests measure 130 / measure 12]                                     %! SM4
+    % [Q GlobalRests measure 130 / measure 12]                                     %! SM_4
     R1 * 1/2
     
 }
@@ -53,43 +53,43 @@ Q_GlobalRests = {
 
 Q_GlobalSkips = {
     
-    % [Q GlobalSkips measure 119 / measure 1]                                      %! SM4
+    % [Q GlobalSkips measure 119 / measure 1]                                      %! SM_4
 %%% \once \override GlobalContext.RehearsalMark.Y-offset = #12                     %! OC1:+TABLOID_SCORE
-    \time 3/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \time 3/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \mark #17                                                                      %! IC
     \bar ""                                                                        %! SM2:+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/4
 %@% ^ \markup \baca-dark-cyan-markup (119)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <0>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((1))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup [Q.1]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[3'51'']"                                    %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI1
-%@% - \abjad_invisible_line                                                        %! MMI2
-%@% - \tweak bound-details.left.text \markup {                                     %! MMI2
-%@%     \concat                                                                    %! MMI2
-%@%         {                                                                      %! MMI2
-%@%             \abjad-metronome-mark-markup #2 #0 #1 #"76"                        %! MMI2
-%@%             \hspace                                                            %! MMI2
-%@%                 #0.5                                                           %! MMI2
-%@%         }                                                                      %! MMI2
-%@%     }                                                                          %! MMI2
-%@% \startTextSpan                                                                 %! MMI2
-    - \abjad_invisible_line                                                        %! MMI3
-    - \tweak bound-details.left.text \markup {                                     %! MMI3
-        \concat                                                                    %! MMI3
-            {                                                                      %! MMI3
-                \with-color                                                        %! MMI3
-                    #(x11-color 'blue)                                             %! MMI3
-                    \abjad-metronome-mark-markup #2 #0 #1 #"76"                    %! MMI3
-                \hspace                                                            %! MMI3
-                    #0.5                                                           %! MMI3
-            }                                                                      %! MMI3
-        }                                                                          %! MMI3
-    \startTextSpan                                                                 %! MMI3
+    \stopTextSpan                                                                  %! MMI_1
+%@% - \abjad_invisible_line                                                        %! MMI_2
+%@% - \tweak bound-details.left.text \markup {                                     %! MMI_2
+%@%     \concat                                                                    %! MMI_2
+%@%         {                                                                      %! MMI_2
+%@%             \abjad-metronome-mark-markup #2 #0 #1 #"76"                        %! MMI_2
+%@%             \hspace                                                            %! MMI_2
+%@%                 #0.5                                                           %! MMI_2
+%@%         }                                                                      %! MMI_2
+%@%     }                                                                          %! MMI_2
+%@% \startTextSpan                                                                 %! MMI_2
+    - \abjad_invisible_line                                                        %! MMI_3
+    - \tweak bound-details.left.text \markup {                                     %! MMI_3
+        \concat                                                                    %! MMI_3
+            {                                                                      %! MMI_3
+                \with-color                                                        %! MMI_3
+                    #(x11-color 'blue)                                             %! MMI_3
+                    \abjad-metronome-mark-markup #2 #0 #1 #"76"                    %! MMI_3
+                \hspace                                                            %! MMI_3
+                    #0.5                                                           %! MMI_3
+            }                                                                      %! MMI_3
+        }                                                                          %! MMI_3
+    \startTextSpan                                                                 %! MMI_3
     
-    % [Q GlobalSkips measure 120 / measure 2]                                      %! SM4
+    % [Q GlobalSkips measure 120 / measure 2]                                      %! SM_4
     s1 * 3/4
 %@% ^ \markup \baca-dark-cyan-markup (120)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <1>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -97,9 +97,9 @@ Q_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [Q.2]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[3'53'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [Q GlobalSkips measure 121 / measure 3]                                      %! SM4
-    \time 1/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [Q GlobalSkips measure 121 / measure 3]                                      %! SM_4
+    \time 1/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/4
 %@% ^ \markup \baca-dark-cyan-markup (121)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <2>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -107,9 +107,9 @@ Q_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [Q.3]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[3'55'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [Q GlobalSkips measure 122 / measure 4]                                      %! SM4
-    \time 4/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [Q GlobalSkips measure 122 / measure 4]                                      %! SM_4
+    \time 4/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (122)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <3>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -117,7 +117,7 @@ Q_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [Q.4]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[3'56'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [Q GlobalSkips measure 123 / measure 5]                                      %! SM4
+    % [Q GlobalSkips measure 123 / measure 5]                                      %! SM_4
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (123)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <4>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -125,7 +125,7 @@ Q_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [Q.5]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[3'59'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [Q GlobalSkips measure 124 / measure 6]                                      %! SM4
+    % [Q GlobalSkips measure 124 / measure 6]                                      %! SM_4
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (124)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <5>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -133,9 +133,9 @@ Q_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [Q.6]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[4'02'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [Q GlobalSkips measure 125 / measure 7]                                      %! SM4
-    \time 3/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [Q GlobalSkips measure 125 / measure 7]                                      %! SM_4
+    \time 3/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/4
 %@% ^ \markup \baca-dark-cyan-markup (125)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <6>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -143,9 +143,9 @@ Q_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [Q.7]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[4'06'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [Q GlobalSkips measure 126 / measure 8]                                      %! SM4
-    \time 1/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [Q GlobalSkips measure 126 / measure 8]                                      %! SM_4
+    \time 1/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/4
 %@% ^ \markup \baca-dark-cyan-markup (126)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <7>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -153,9 +153,9 @@ Q_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [Q.8]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[4'08'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [Q GlobalSkips measure 127 / measure 9]                                      %! SM4
-    \time 3/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [Q GlobalSkips measure 127 / measure 9]                                      %! SM_4
+    \time 3/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/4
 %@% ^ \markup \baca-dark-cyan-markup (127)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <8>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -163,9 +163,9 @@ Q_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [Q.9]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[4'09'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [Q GlobalSkips measure 128 / measure 10]                                     %! SM4
-    \time 4/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [Q GlobalSkips measure 128 / measure 10]                                     %! SM_4
+    \time 4/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (128)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <9>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -173,7 +173,7 @@ Q_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [Q.10]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[4'11'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [Q GlobalSkips measure 129 / measure 11]                                     %! SM4
+    % [Q GlobalSkips measure 129 / measure 11]                                     %! SM_4
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (129)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <10>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -181,25 +181,25 @@ Q_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [Q.11]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[4'14'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [Q GlobalSkips measure 130 / measure 12]                                     %! SM4
-    \time 2/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [Q GlobalSkips measure 130 / measure 12]                                     %! SM_4
+    \time 2/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/2
 %@% ^ \markup \baca-dark-cyan-markup (130)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <11>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((12))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup [Q.12]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[4'17'']"                                    %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI4
-    \baca_bar_line_visible                                                         %! SM5
-    \bar "|"                                                                       %! SM5
+    \stopTextSpan                                                                  %! MMI_4
+    \baca_bar_line_visible                                                         %! SM_5
+    \bar "|"                                                                       %! SM_5
     
 }
 
 
 Q_HornVoiceI_a = {
     
-    % [Q HornVoiceI measure 119 / measure 1]                       %! SM4
+    % [Q HornVoiceI measure 119 / measure 1]                       %! SM_4
     \set Staff.instrumentName =                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -262,10 +262,10 @@ Q_HornVoiceI_a = {
     
     r2
     
-    % [Q HornVoiceI measure 120 / measure 2]                       %! SM4
+    % [Q HornVoiceI measure 120 / measure 2]                       %! SM_4
     R1 * 3/4
     
-    % [Q HornVoiceI measure 121 / measure 3]                       %! SM4
+    % [Q HornVoiceI measure 121 / measure 3]                       %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -274,19 +274,19 @@ Q_HornVoiceI_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q HornVoiceI measure 122 / measure 4]                       %! SM4
+    % [Q HornVoiceI measure 122 / measure 4]                       %! SM_4
     R1 * 1
     
-    % [Q HornVoiceI measure 123 / measure 5]                       %! SM4
+    % [Q HornVoiceI measure 123 / measure 5]                       %! SM_4
     R1 * 1
     
-    % [Q HornVoiceI measure 124 / measure 6]                       %! SM4
+    % [Q HornVoiceI measure 124 / measure 6]                       %! SM_4
     R1 * 1
     
-    % [Q HornVoiceI measure 125 / measure 7]                       %! SM4
+    % [Q HornVoiceI measure 125 / measure 7]                       %! SM_4
     R1 * 3/4
     
-    % [Q HornVoiceI measure 126 / measure 8]                       %! SM4
+    % [Q HornVoiceI measure 126 / measure 8]                       %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -295,16 +295,16 @@ Q_HornVoiceI_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q HornVoiceI measure 127 / measure 9]                       %! SM4
+    % [Q HornVoiceI measure 127 / measure 9]                       %! SM_4
     R1 * 3/4
     
-    % [Q HornVoiceI measure 128 / measure 10]                      %! SM4
+    % [Q HornVoiceI measure 128 / measure 10]                      %! SM_4
     R1 * 1
     
-    % [Q HornVoiceI measure 129 / measure 11]                      %! SM4
+    % [Q HornVoiceI measure 129 / measure 11]                      %! SM_4
     R1 * 1
     
-    % [Q HornVoiceI measure 130 / measure 12]                      %! SM4
+    % [Q HornVoiceI measure 130 / measure 12]                      %! SM_4
     R1 * 1/2
     
 }
@@ -317,7 +317,7 @@ Q_HornVoiceI = {
 
 Q_HornVoiceIII_a = {
     
-    % [Q HornVoiceIII measure 119 / measure 1]                     %! SM4
+    % [Q HornVoiceIII measure 119 / measure 1]                     %! SM_4
     \voiceTwo                                                      %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     ef'!8
@@ -332,10 +332,10 @@ Q_HornVoiceIII_a = {
     
     r2
     
-    % [Q HornVoiceIII measure 120 / measure 2]                     %! SM4
+    % [Q HornVoiceIII measure 120 / measure 2]                     %! SM_4
     R1 * 3/4
     
-    % [Q HornVoiceIII measure 121 / measure 3]                     %! SM4
+    % [Q HornVoiceIII measure 121 / measure 3]                     %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -344,19 +344,19 @@ Q_HornVoiceIII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q HornVoiceIII measure 122 / measure 4]                     %! SM4
+    % [Q HornVoiceIII measure 122 / measure 4]                     %! SM_4
     R1 * 1
     
-    % [Q HornVoiceIII measure 123 / measure 5]                     %! SM4
+    % [Q HornVoiceIII measure 123 / measure 5]                     %! SM_4
     R1 * 1
     
-    % [Q HornVoiceIII measure 124 / measure 6]                     %! SM4
+    % [Q HornVoiceIII measure 124 / measure 6]                     %! SM_4
     R1 * 1
     
-    % [Q HornVoiceIII measure 125 / measure 7]                     %! SM4
+    % [Q HornVoiceIII measure 125 / measure 7]                     %! SM_4
     R1 * 3/4
     
-    % [Q HornVoiceIII measure 126 / measure 8]                     %! SM4
+    % [Q HornVoiceIII measure 126 / measure 8]                     %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -365,16 +365,16 @@ Q_HornVoiceIII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q HornVoiceIII measure 127 / measure 9]                     %! SM4
+    % [Q HornVoiceIII measure 127 / measure 9]                     %! SM_4
     R1 * 3/4
     
-    % [Q HornVoiceIII measure 128 / measure 10]                    %! SM4
+    % [Q HornVoiceIII measure 128 / measure 10]                    %! SM_4
     R1 * 1
     
-    % [Q HornVoiceIII measure 129 / measure 11]                    %! SM4
+    % [Q HornVoiceIII measure 129 / measure 11]                    %! SM_4
     R1 * 1
     
-    % [Q HornVoiceIII measure 130 / measure 12]                    %! SM4
+    % [Q HornVoiceIII measure 130 / measure 12]                    %! SM_4
     R1 * 1/2
     
 }
@@ -395,7 +395,7 @@ Q_HornStaffI = <<
 
 Q_HornVoiceII_a = {
     
-    % [Q HornVoiceII measure 119 / measure 1]                      %! SM4
+    % [Q HornVoiceII measure 119 / measure 1]                      %! SM_4
     \set Staff.instrumentName =                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -458,10 +458,10 @@ Q_HornVoiceII_a = {
     
     r2
     
-    % [Q HornVoiceII measure 120 / measure 2]                      %! SM4
+    % [Q HornVoiceII measure 120 / measure 2]                      %! SM_4
     R1 * 3/4
     
-    % [Q HornVoiceII measure 121 / measure 3]                      %! SM4
+    % [Q HornVoiceII measure 121 / measure 3]                      %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -470,19 +470,19 @@ Q_HornVoiceII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q HornVoiceII measure 122 / measure 4]                      %! SM4
+    % [Q HornVoiceII measure 122 / measure 4]                      %! SM_4
     R1 * 1
     
-    % [Q HornVoiceII measure 123 / measure 5]                      %! SM4
+    % [Q HornVoiceII measure 123 / measure 5]                      %! SM_4
     R1 * 1
     
-    % [Q HornVoiceII measure 124 / measure 6]                      %! SM4
+    % [Q HornVoiceII measure 124 / measure 6]                      %! SM_4
     R1 * 1
     
-    % [Q HornVoiceII measure 125 / measure 7]                      %! SM4
+    % [Q HornVoiceII measure 125 / measure 7]                      %! SM_4
     R1 * 3/4
     
-    % [Q HornVoiceII measure 126 / measure 8]                      %! SM4
+    % [Q HornVoiceII measure 126 / measure 8]                      %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -491,16 +491,16 @@ Q_HornVoiceII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q HornVoiceII measure 127 / measure 9]                      %! SM4
+    % [Q HornVoiceII measure 127 / measure 9]                      %! SM_4
     R1 * 3/4
     
-    % [Q HornVoiceII measure 128 / measure 10]                     %! SM4
+    % [Q HornVoiceII measure 128 / measure 10]                     %! SM_4
     R1 * 1
     
-    % [Q HornVoiceII measure 129 / measure 11]                     %! SM4
+    % [Q HornVoiceII measure 129 / measure 11]                     %! SM_4
     R1 * 1
     
-    % [Q HornVoiceII measure 130 / measure 12]                     %! SM4
+    % [Q HornVoiceII measure 130 / measure 12]                     %! SM_4
     R1 * 1/2
     
 }
@@ -513,7 +513,7 @@ Q_HornVoiceII = {
 
 Q_HornVoiceIV_a = {
     
-    % [Q HornVoiceIV measure 119 / measure 1]                      %! SM4
+    % [Q HornVoiceIV measure 119 / measure 1]                      %! SM_4
     \voiceTwo                                                      %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     ef'!8
@@ -528,10 +528,10 @@ Q_HornVoiceIV_a = {
     
     r2
     
-    % [Q HornVoiceIV measure 120 / measure 2]                      %! SM4
+    % [Q HornVoiceIV measure 120 / measure 2]                      %! SM_4
     R1 * 3/4
     
-    % [Q HornVoiceIV measure 121 / measure 3]                      %! SM4
+    % [Q HornVoiceIV measure 121 / measure 3]                      %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -540,19 +540,19 @@ Q_HornVoiceIV_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q HornVoiceIV measure 122 / measure 4]                      %! SM4
+    % [Q HornVoiceIV measure 122 / measure 4]                      %! SM_4
     R1 * 1
     
-    % [Q HornVoiceIV measure 123 / measure 5]                      %! SM4
+    % [Q HornVoiceIV measure 123 / measure 5]                      %! SM_4
     R1 * 1
     
-    % [Q HornVoiceIV measure 124 / measure 6]                      %! SM4
+    % [Q HornVoiceIV measure 124 / measure 6]                      %! SM_4
     R1 * 1
     
-    % [Q HornVoiceIV measure 125 / measure 7]                      %! SM4
+    % [Q HornVoiceIV measure 125 / measure 7]                      %! SM_4
     R1 * 3/4
     
-    % [Q HornVoiceIV measure 126 / measure 8]                      %! SM4
+    % [Q HornVoiceIV measure 126 / measure 8]                      %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -561,16 +561,16 @@ Q_HornVoiceIV_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q HornVoiceIV measure 127 / measure 9]                      %! SM4
+    % [Q HornVoiceIV measure 127 / measure 9]                      %! SM_4
     R1 * 3/4
     
-    % [Q HornVoiceIV measure 128 / measure 10]                     %! SM4
+    % [Q HornVoiceIV measure 128 / measure 10]                     %! SM_4
     R1 * 1
     
-    % [Q HornVoiceIV measure 129 / measure 11]                     %! SM4
+    % [Q HornVoiceIV measure 129 / measure 11]                     %! SM_4
     R1 * 1
     
-    % [Q HornVoiceIV measure 130 / measure 12]                     %! SM4
+    % [Q HornVoiceIV measure 130 / measure 12]                     %! SM_4
     R1 * 1/2
     
 }
@@ -591,7 +591,7 @@ Q_HornStaffII = <<
 
 Q_TrumpetVoiceI_a = {
     
-    % [Q TrumpetVoiceI measure 119 / measure 1]                    %! SM4
+    % [Q TrumpetVoiceI measure 119 / measure 1]                    %! SM_4
     \set Staff.instrumentName =                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -654,10 +654,10 @@ Q_TrumpetVoiceI_a = {
     
     r2
     
-    % [Q TrumpetVoiceI measure 120 / measure 2]                    %! SM4
+    % [Q TrumpetVoiceI measure 120 / measure 2]                    %! SM_4
     R1 * 3/4
     
-    % [Q TrumpetVoiceI measure 121 / measure 3]                    %! SM4
+    % [Q TrumpetVoiceI measure 121 / measure 3]                    %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -666,19 +666,19 @@ Q_TrumpetVoiceI_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TrumpetVoiceI measure 122 / measure 4]                    %! SM4
+    % [Q TrumpetVoiceI measure 122 / measure 4]                    %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceI measure 123 / measure 5]                    %! SM4
+    % [Q TrumpetVoiceI measure 123 / measure 5]                    %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceI measure 124 / measure 6]                    %! SM4
+    % [Q TrumpetVoiceI measure 124 / measure 6]                    %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceI measure 125 / measure 7]                    %! SM4
+    % [Q TrumpetVoiceI measure 125 / measure 7]                    %! SM_4
     R1 * 3/4
     
-    % [Q TrumpetVoiceI measure 126 / measure 8]                    %! SM4
+    % [Q TrumpetVoiceI measure 126 / measure 8]                    %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -687,16 +687,16 @@ Q_TrumpetVoiceI_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TrumpetVoiceI measure 127 / measure 9]                    %! SM4
+    % [Q TrumpetVoiceI measure 127 / measure 9]                    %! SM_4
     R1 * 3/4
     
-    % [Q TrumpetVoiceI measure 128 / measure 10]                   %! SM4
+    % [Q TrumpetVoiceI measure 128 / measure 10]                   %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceI measure 129 / measure 11]                   %! SM4
+    % [Q TrumpetVoiceI measure 129 / measure 11]                   %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceI measure 130 / measure 12]                   %! SM4
+    % [Q TrumpetVoiceI measure 130 / measure 12]                   %! SM_4
     R1 * 1/2
     
 }
@@ -709,7 +709,7 @@ Q_TrumpetVoiceI = {
 
 Q_TrumpetVoiceIII_a = {
     
-    % [Q TrumpetVoiceIII measure 119 / measure 1]                  %! SM4
+    % [Q TrumpetVoiceIII measure 119 / measure 1]                  %! SM_4
     \voiceTwo                                                      %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f'8
@@ -724,10 +724,10 @@ Q_TrumpetVoiceIII_a = {
     
     r2
     
-    % [Q TrumpetVoiceIII measure 120 / measure 2]                  %! SM4
+    % [Q TrumpetVoiceIII measure 120 / measure 2]                  %! SM_4
     R1 * 3/4
     
-    % [Q TrumpetVoiceIII measure 121 / measure 3]                  %! SM4
+    % [Q TrumpetVoiceIII measure 121 / measure 3]                  %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -736,19 +736,19 @@ Q_TrumpetVoiceIII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TrumpetVoiceIII measure 122 / measure 4]                  %! SM4
+    % [Q TrumpetVoiceIII measure 122 / measure 4]                  %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceIII measure 123 / measure 5]                  %! SM4
+    % [Q TrumpetVoiceIII measure 123 / measure 5]                  %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceIII measure 124 / measure 6]                  %! SM4
+    % [Q TrumpetVoiceIII measure 124 / measure 6]                  %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceIII measure 125 / measure 7]                  %! SM4
+    % [Q TrumpetVoiceIII measure 125 / measure 7]                  %! SM_4
     R1 * 3/4
     
-    % [Q TrumpetVoiceIII measure 126 / measure 8]                  %! SM4
+    % [Q TrumpetVoiceIII measure 126 / measure 8]                  %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -757,16 +757,16 @@ Q_TrumpetVoiceIII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TrumpetVoiceIII measure 127 / measure 9]                  %! SM4
+    % [Q TrumpetVoiceIII measure 127 / measure 9]                  %! SM_4
     R1 * 3/4
     
-    % [Q TrumpetVoiceIII measure 128 / measure 10]                 %! SM4
+    % [Q TrumpetVoiceIII measure 128 / measure 10]                 %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceIII measure 129 / measure 11]                 %! SM4
+    % [Q TrumpetVoiceIII measure 129 / measure 11]                 %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceIII measure 130 / measure 12]                 %! SM4
+    % [Q TrumpetVoiceIII measure 130 / measure 12]                 %! SM_4
     R1 * 1/2
     
 }
@@ -787,7 +787,7 @@ Q_TrumpetStaffI = <<
 
 Q_TrumpetVoiceII_a = {
     
-    % [Q TrumpetVoiceII measure 119 / measure 1]                   %! SM4
+    % [Q TrumpetVoiceII measure 119 / measure 1]                   %! SM_4
     \set Staff.instrumentName =                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -850,10 +850,10 @@ Q_TrumpetVoiceII_a = {
     
     r2
     
-    % [Q TrumpetVoiceII measure 120 / measure 2]                   %! SM4
+    % [Q TrumpetVoiceII measure 120 / measure 2]                   %! SM_4
     R1 * 3/4
     
-    % [Q TrumpetVoiceII measure 121 / measure 3]                   %! SM4
+    % [Q TrumpetVoiceII measure 121 / measure 3]                   %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -862,19 +862,19 @@ Q_TrumpetVoiceII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TrumpetVoiceII measure 122 / measure 4]                   %! SM4
+    % [Q TrumpetVoiceII measure 122 / measure 4]                   %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceII measure 123 / measure 5]                   %! SM4
+    % [Q TrumpetVoiceII measure 123 / measure 5]                   %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceII measure 124 / measure 6]                   %! SM4
+    % [Q TrumpetVoiceII measure 124 / measure 6]                   %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceII measure 125 / measure 7]                   %! SM4
+    % [Q TrumpetVoiceII measure 125 / measure 7]                   %! SM_4
     R1 * 3/4
     
-    % [Q TrumpetVoiceII measure 126 / measure 8]                   %! SM4
+    % [Q TrumpetVoiceII measure 126 / measure 8]                   %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -883,16 +883,16 @@ Q_TrumpetVoiceII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TrumpetVoiceII measure 127 / measure 9]                   %! SM4
+    % [Q TrumpetVoiceII measure 127 / measure 9]                   %! SM_4
     R1 * 3/4
     
-    % [Q TrumpetVoiceII measure 128 / measure 10]                  %! SM4
+    % [Q TrumpetVoiceII measure 128 / measure 10]                  %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceII measure 129 / measure 11]                  %! SM4
+    % [Q TrumpetVoiceII measure 129 / measure 11]                  %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceII measure 130 / measure 12]                  %! SM4
+    % [Q TrumpetVoiceII measure 130 / measure 12]                  %! SM_4
     R1 * 1/2
     
 }
@@ -905,7 +905,7 @@ Q_TrumpetVoiceII = {
 
 Q_TrumpetVoiceIV_a = {
     
-    % [Q TrumpetVoiceIV measure 119 / measure 1]                   %! SM4
+    % [Q TrumpetVoiceIV measure 119 / measure 1]                   %! SM_4
     \voiceTwo                                                      %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f'8
@@ -920,10 +920,10 @@ Q_TrumpetVoiceIV_a = {
     
     r2
     
-    % [Q TrumpetVoiceIV measure 120 / measure 2]                   %! SM4
+    % [Q TrumpetVoiceIV measure 120 / measure 2]                   %! SM_4
     R1 * 3/4
     
-    % [Q TrumpetVoiceIV measure 121 / measure 3]                   %! SM4
+    % [Q TrumpetVoiceIV measure 121 / measure 3]                   %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -932,19 +932,19 @@ Q_TrumpetVoiceIV_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TrumpetVoiceIV measure 122 / measure 4]                   %! SM4
+    % [Q TrumpetVoiceIV measure 122 / measure 4]                   %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceIV measure 123 / measure 5]                   %! SM4
+    % [Q TrumpetVoiceIV measure 123 / measure 5]                   %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceIV measure 124 / measure 6]                   %! SM4
+    % [Q TrumpetVoiceIV measure 124 / measure 6]                   %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceIV measure 125 / measure 7]                   %! SM4
+    % [Q TrumpetVoiceIV measure 125 / measure 7]                   %! SM_4
     R1 * 3/4
     
-    % [Q TrumpetVoiceIV measure 126 / measure 8]                   %! SM4
+    % [Q TrumpetVoiceIV measure 126 / measure 8]                   %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -953,16 +953,16 @@ Q_TrumpetVoiceIV_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TrumpetVoiceIV measure 127 / measure 9]                   %! SM4
+    % [Q TrumpetVoiceIV measure 127 / measure 9]                   %! SM_4
     R1 * 3/4
     
-    % [Q TrumpetVoiceIV measure 128 / measure 10]                  %! SM4
+    % [Q TrumpetVoiceIV measure 128 / measure 10]                  %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceIV measure 129 / measure 11]                  %! SM4
+    % [Q TrumpetVoiceIV measure 129 / measure 11]                  %! SM_4
     R1 * 1
     
-    % [Q TrumpetVoiceIV measure 130 / measure 12]                  %! SM4
+    % [Q TrumpetVoiceIV measure 130 / measure 12]                  %! SM_4
     R1 * 1/2
     
 }
@@ -983,7 +983,7 @@ Q_TrumpetStaffII = <<
 
 Q_TromboneVoiceI_a = {
     
-    % [Q TromboneVoiceI measure 119 / measure 1]                   %! SM4
+    % [Q TromboneVoiceI measure 119 / measure 1]                   %! SM_4
     \set Staff.instrumentName =                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1046,10 +1046,10 @@ Q_TromboneVoiceI_a = {
     
     r2
     
-    % [Q TromboneVoiceI measure 120 / measure 2]                   %! SM4
+    % [Q TromboneVoiceI measure 120 / measure 2]                   %! SM_4
     R1 * 3/4
     
-    % [Q TromboneVoiceI measure 121 / measure 3]                   %! SM4
+    % [Q TromboneVoiceI measure 121 / measure 3]                   %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1058,19 +1058,19 @@ Q_TromboneVoiceI_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TromboneVoiceI measure 122 / measure 4]                   %! SM4
+    % [Q TromboneVoiceI measure 122 / measure 4]                   %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceI measure 123 / measure 5]                   %! SM4
+    % [Q TromboneVoiceI measure 123 / measure 5]                   %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceI measure 124 / measure 6]                   %! SM4
+    % [Q TromboneVoiceI measure 124 / measure 6]                   %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceI measure 125 / measure 7]                   %! SM4
+    % [Q TromboneVoiceI measure 125 / measure 7]                   %! SM_4
     R1 * 3/4
     
-    % [Q TromboneVoiceI measure 126 / measure 8]                   %! SM4
+    % [Q TromboneVoiceI measure 126 / measure 8]                   %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1079,16 +1079,16 @@ Q_TromboneVoiceI_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TromboneVoiceI measure 127 / measure 9]                   %! SM4
+    % [Q TromboneVoiceI measure 127 / measure 9]                   %! SM_4
     R1 * 3/4
     
-    % [Q TromboneVoiceI measure 128 / measure 10]                  %! SM4
+    % [Q TromboneVoiceI measure 128 / measure 10]                  %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceI measure 129 / measure 11]                  %! SM4
+    % [Q TromboneVoiceI measure 129 / measure 11]                  %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceI measure 130 / measure 12]                  %! SM4
+    % [Q TromboneVoiceI measure 130 / measure 12]                  %! SM_4
     R1 * 1/2
     
 }
@@ -1101,7 +1101,7 @@ Q_TromboneVoiceI = {
 
 Q_TromboneVoiceIII_a = {
     
-    % [Q TromboneVoiceIII measure 119 / measure 1]                 %! SM4
+    % [Q TromboneVoiceIII measure 119 / measure 1]                 %! SM_4
     \voiceTwo                                                      %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f8
@@ -1116,10 +1116,10 @@ Q_TromboneVoiceIII_a = {
     
     r2
     
-    % [Q TromboneVoiceIII measure 120 / measure 2]                 %! SM4
+    % [Q TromboneVoiceIII measure 120 / measure 2]                 %! SM_4
     R1 * 3/4
     
-    % [Q TromboneVoiceIII measure 121 / measure 3]                 %! SM4
+    % [Q TromboneVoiceIII measure 121 / measure 3]                 %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1128,19 +1128,19 @@ Q_TromboneVoiceIII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TromboneVoiceIII measure 122 / measure 4]                 %! SM4
+    % [Q TromboneVoiceIII measure 122 / measure 4]                 %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceIII measure 123 / measure 5]                 %! SM4
+    % [Q TromboneVoiceIII measure 123 / measure 5]                 %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceIII measure 124 / measure 6]                 %! SM4
+    % [Q TromboneVoiceIII measure 124 / measure 6]                 %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceIII measure 125 / measure 7]                 %! SM4
+    % [Q TromboneVoiceIII measure 125 / measure 7]                 %! SM_4
     R1 * 3/4
     
-    % [Q TromboneVoiceIII measure 126 / measure 8]                 %! SM4
+    % [Q TromboneVoiceIII measure 126 / measure 8]                 %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1149,16 +1149,16 @@ Q_TromboneVoiceIII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TromboneVoiceIII measure 127 / measure 9]                 %! SM4
+    % [Q TromboneVoiceIII measure 127 / measure 9]                 %! SM_4
     R1 * 3/4
     
-    % [Q TromboneVoiceIII measure 128 / measure 10]                %! SM4
+    % [Q TromboneVoiceIII measure 128 / measure 10]                %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceIII measure 129 / measure 11]                %! SM4
+    % [Q TromboneVoiceIII measure 129 / measure 11]                %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceIII measure 130 / measure 12]                %! SM4
+    % [Q TromboneVoiceIII measure 130 / measure 12]                %! SM_4
     R1 * 1/2
     
 }
@@ -1179,7 +1179,7 @@ Q_TromboneStaffI = <<
 
 Q_TromboneVoiceII_a = {
     
-    % [Q TromboneVoiceII measure 119 / measure 1]                  %! SM4
+    % [Q TromboneVoiceII measure 119 / measure 1]                  %! SM_4
     \set Staff.instrumentName =                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1242,10 +1242,10 @@ Q_TromboneVoiceII_a = {
     
     r2
     
-    % [Q TromboneVoiceII measure 120 / measure 2]                  %! SM4
+    % [Q TromboneVoiceII measure 120 / measure 2]                  %! SM_4
     R1 * 3/4
     
-    % [Q TromboneVoiceII measure 121 / measure 3]                  %! SM4
+    % [Q TromboneVoiceII measure 121 / measure 3]                  %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1254,19 +1254,19 @@ Q_TromboneVoiceII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TromboneVoiceII measure 122 / measure 4]                  %! SM4
+    % [Q TromboneVoiceII measure 122 / measure 4]                  %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceII measure 123 / measure 5]                  %! SM4
+    % [Q TromboneVoiceII measure 123 / measure 5]                  %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceII measure 124 / measure 6]                  %! SM4
+    % [Q TromboneVoiceII measure 124 / measure 6]                  %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceII measure 125 / measure 7]                  %! SM4
+    % [Q TromboneVoiceII measure 125 / measure 7]                  %! SM_4
     R1 * 3/4
     
-    % [Q TromboneVoiceII measure 126 / measure 8]                  %! SM4
+    % [Q TromboneVoiceII measure 126 / measure 8]                  %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1275,16 +1275,16 @@ Q_TromboneVoiceII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TromboneVoiceII measure 127 / measure 9]                  %! SM4
+    % [Q TromboneVoiceII measure 127 / measure 9]                  %! SM_4
     R1 * 3/4
     
-    % [Q TromboneVoiceII measure 128 / measure 10]                 %! SM4
+    % [Q TromboneVoiceII measure 128 / measure 10]                 %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceII measure 129 / measure 11]                 %! SM4
+    % [Q TromboneVoiceII measure 129 / measure 11]                 %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceII measure 130 / measure 12]                 %! SM4
+    % [Q TromboneVoiceII measure 130 / measure 12]                 %! SM_4
     R1 * 1/2
     
 }
@@ -1297,7 +1297,7 @@ Q_TromboneVoiceII = {
 
 Q_TromboneVoiceIV_a = {
     
-    % [Q TromboneVoiceIV measure 119 / measure 1]                  %! SM4
+    % [Q TromboneVoiceIV measure 119 / measure 1]                  %! SM_4
     \voiceTwo                                                      %! IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f8
@@ -1312,10 +1312,10 @@ Q_TromboneVoiceIV_a = {
     
     r2
     
-    % [Q TromboneVoiceIV measure 120 / measure 2]                  %! SM4
+    % [Q TromboneVoiceIV measure 120 / measure 2]                  %! SM_4
     R1 * 3/4
     
-    % [Q TromboneVoiceIV measure 121 / measure 3]                  %! SM4
+    % [Q TromboneVoiceIV measure 121 / measure 3]                  %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1324,19 +1324,19 @@ Q_TromboneVoiceIV_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TromboneVoiceIV measure 122 / measure 4]                  %! SM4
+    % [Q TromboneVoiceIV measure 122 / measure 4]                  %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceIV measure 123 / measure 5]                  %! SM4
+    % [Q TromboneVoiceIV measure 123 / measure 5]                  %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceIV measure 124 / measure 6]                  %! SM4
+    % [Q TromboneVoiceIV measure 124 / measure 6]                  %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceIV measure 125 / measure 7]                  %! SM4
+    % [Q TromboneVoiceIV measure 125 / measure 7]                  %! SM_4
     R1 * 3/4
     
-    % [Q TromboneVoiceIV measure 126 / measure 8]                  %! SM4
+    % [Q TromboneVoiceIV measure 126 / measure 8]                  %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1345,16 +1345,16 @@ Q_TromboneVoiceIV_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q TromboneVoiceIV measure 127 / measure 9]                  %! SM4
+    % [Q TromboneVoiceIV measure 127 / measure 9]                  %! SM_4
     R1 * 3/4
     
-    % [Q TromboneVoiceIV measure 128 / measure 10]                 %! SM4
+    % [Q TromboneVoiceIV measure 128 / measure 10]                 %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceIV measure 129 / measure 11]                 %! SM4
+    % [Q TromboneVoiceIV measure 129 / measure 11]                 %! SM_4
     R1 * 1
     
-    % [Q TromboneVoiceIV measure 130 / measure 12]                 %! SM4
+    % [Q TromboneVoiceIV measure 130 / measure 12]                 %! SM_4
     R1 * 1/2
     
 }
@@ -1375,7 +1375,7 @@ Q_TromboneStaffII = <<
 
 Q_FirstViolinVoiceI_a = {
     
-    % [Q FirstViolinVoiceI measure 119 / measure 1]                %! SM4
+    % [Q FirstViolinVoiceI measure 119 / measure 1]                %! SM_4
     \set Staff.instrumentName =                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1446,10 +1446,10 @@ Q_FirstViolinVoiceI_a = {
         }                                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [Q FirstViolinVoiceI measure 120 / measure 2]                %! SM4
+    % [Q FirstViolinVoiceI measure 120 / measure 2]                %! SM_4
     R1 * 3/4
     
-    % [Q FirstViolinVoiceI measure 121 / measure 3]                %! SM4
+    % [Q FirstViolinVoiceI measure 121 / measure 3]                %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1458,48 +1458,48 @@ Q_FirstViolinVoiceI_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q FirstViolinVoiceI measure 122 / measure 4]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceI measure 122 / measure 4]                %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     a''1
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceI measure 123 / measure 5]                %! SM4
+    % [Q FirstViolinVoiceI measure 123 / measure 5]                %! SM_4
     a''1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q FirstViolinVoiceI measure 124 / measure 6]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceI measure 124 / measure 6]                %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     a''1
     :32                                                            %! IC
-    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceI measure 125 / measure 7]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceI measure 125 / measure 7]                %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     
-    % [Q FirstViolinVoiceI measure 126 / measure 8]                %! SM4
+    % [Q FirstViolinVoiceI measure 126 / measure 8]                %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1508,46 +1508,46 @@ Q_FirstViolinVoiceI_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q FirstViolinVoiceI measure 127 / measure 9]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceI measure 127 / measure 9]                %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     a''2.
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceI measure 128 / measure 10]               %! SM4
+    % [Q FirstViolinVoiceI measure 128 / measure 10]               %! SM_4
     a''1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q FirstViolinVoiceI measure 129 / measure 11]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceI measure 129 / measure 11]               %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     a''1
     :32                                                            %! IC
-    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceI measure 130 / measure 12]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceI measure 130 / measure 12]               %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
 %%% \revert TextSpanner.staff-padding                              %! OC2:+PARTS
     \revert DynamicText.stencil                                    %! OC2:-PARTS
     \revert Hairpin.stencil                                        %! OC2:-PARTS
@@ -1563,17 +1563,17 @@ Q_FirstViolinVoiceI = {
 
 Q_FirstViolinVoiceII_a = {
     
-    % [Q FirstViolinVoiceII measure 119 / measure 1]               %! SM4
+    % [Q FirstViolinVoiceII measure 119 / measure 1]               %! SM_4
     \override TextSpanner.staff-padding = #5                       %! OC1:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                                      %! IC:-PARTS
     R1 * 3/4
     \pp                                                            %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [Q FirstViolinVoiceII measure 120 / measure 2]               %! SM4
+    % [Q FirstViolinVoiceII measure 120 / measure 2]               %! SM_4
     R1 * 3/4
     
-    % [Q FirstViolinVoiceII measure 121 / measure 3]               %! SM4
+    % [Q FirstViolinVoiceII measure 121 / measure 3]               %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1582,48 +1582,48 @@ Q_FirstViolinVoiceII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q FirstViolinVoiceII measure 122 / measure 4]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceII measure 122 / measure 4]               %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     f''1
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceII measure 123 / measure 5]               %! SM4
+    % [Q FirstViolinVoiceII measure 123 / measure 5]               %! SM_4
     f''1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q FirstViolinVoiceII measure 124 / measure 6]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceII measure 124 / measure 6]               %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     f''1
     :32                                                            %! IC
-    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceII measure 125 / measure 7]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceII measure 125 / measure 7]               %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     
-    % [Q FirstViolinVoiceII measure 126 / measure 8]               %! SM4
+    % [Q FirstViolinVoiceII measure 126 / measure 8]               %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1632,46 +1632,46 @@ Q_FirstViolinVoiceII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q FirstViolinVoiceII measure 127 / measure 9]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceII measure 127 / measure 9]               %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     f''2.
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceII measure 128 / measure 10]              %! SM4
+    % [Q FirstViolinVoiceII measure 128 / measure 10]              %! SM_4
     f''1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q FirstViolinVoiceII measure 129 / measure 11]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceII measure 129 / measure 11]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     f''1
     :32                                                            %! IC
-    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceII measure 130 / measure 12]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceII measure 130 / measure 12]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     \revert TextSpanner.staff-padding                              %! OC2:-PARTS
     
 }
@@ -1692,7 +1692,7 @@ Q_FirstViolinStaffI = <<
 
 Q_FirstViolinVoiceIII_a = {
     
-    % [Q FirstViolinVoiceIII measure 119 / measure 1]              %! SM4
+    % [Q FirstViolinVoiceIII measure 119 / measure 1]              %! SM_4
     \set Staff.instrumentName =                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1763,10 +1763,10 @@ Q_FirstViolinVoiceIII_a = {
         }                                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [Q FirstViolinVoiceIII measure 120 / measure 2]              %! SM4
+    % [Q FirstViolinVoiceIII measure 120 / measure 2]              %! SM_4
     R1 * 3/4
     
-    % [Q FirstViolinVoiceIII measure 121 / measure 3]              %! SM4
+    % [Q FirstViolinVoiceIII measure 121 / measure 3]              %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1775,48 +1775,48 @@ Q_FirstViolinVoiceIII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q FirstViolinVoiceIII measure 122 / measure 4]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceIII measure 122 / measure 4]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g''1
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceIII measure 123 / measure 5]              %! SM4
+    % [Q FirstViolinVoiceIII measure 123 / measure 5]              %! SM_4
     g''1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q FirstViolinVoiceIII measure 124 / measure 6]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceIII measure 124 / measure 6]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g''1
     :32                                                            %! IC
-    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceIII measure 125 / measure 7]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceIII measure 125 / measure 7]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     
-    % [Q FirstViolinVoiceIII measure 126 / measure 8]              %! SM4
+    % [Q FirstViolinVoiceIII measure 126 / measure 8]              %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1825,46 +1825,46 @@ Q_FirstViolinVoiceIII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q FirstViolinVoiceIII measure 127 / measure 9]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceIII measure 127 / measure 9]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g''2.
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceIII measure 128 / measure 10]             %! SM4
+    % [Q FirstViolinVoiceIII measure 128 / measure 10]             %! SM_4
     g''1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q FirstViolinVoiceIII measure 129 / measure 11]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceIII measure 129 / measure 11]             %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g''1
     :32                                                            %! IC
-    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceIII measure 130 / measure 12]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceIII measure 130 / measure 12]             %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
 %%% \revert TextSpanner.staff-padding                              %! OC2:+PARTS
     \revert DynamicText.stencil                                    %! OC2:-PARTS
     \revert Hairpin.stencil                                        %! OC2:-PARTS
@@ -1880,17 +1880,17 @@ Q_FirstViolinVoiceIII = {
 
 Q_FirstViolinVoiceIV_a = {
     
-    % [Q FirstViolinVoiceIV measure 119 / measure 1]               %! SM4
+    % [Q FirstViolinVoiceIV measure 119 / measure 1]               %! SM_4
     \override TextSpanner.staff-padding = #5                       %! OC1:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                                      %! IC:-PARTS
     R1 * 3/4
     \pp                                                            %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [Q FirstViolinVoiceIV measure 120 / measure 2]               %! SM4
+    % [Q FirstViolinVoiceIV measure 120 / measure 2]               %! SM_4
     R1 * 3/4
     
-    % [Q FirstViolinVoiceIV measure 121 / measure 3]               %! SM4
+    % [Q FirstViolinVoiceIV measure 121 / measure 3]               %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1899,48 +1899,48 @@ Q_FirstViolinVoiceIV_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q FirstViolinVoiceIV measure 122 / measure 4]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceIV measure 122 / measure 4]               %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     d''1
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceIV measure 123 / measure 5]               %! SM4
+    % [Q FirstViolinVoiceIV measure 123 / measure 5]               %! SM_4
     d''1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q FirstViolinVoiceIV measure 124 / measure 6]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceIV measure 124 / measure 6]               %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     d''1
     :32                                                            %! IC
-    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceIV measure 125 / measure 7]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceIV measure 125 / measure 7]               %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     
-    % [Q FirstViolinVoiceIV measure 126 / measure 8]               %! SM4
+    % [Q FirstViolinVoiceIV measure 126 / measure 8]               %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -1949,46 +1949,46 @@ Q_FirstViolinVoiceIV_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q FirstViolinVoiceIV measure 127 / measure 9]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceIV measure 127 / measure 9]               %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     d''2.
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceIV measure 128 / measure 10]              %! SM4
+    % [Q FirstViolinVoiceIV measure 128 / measure 10]              %! SM_4
     d''1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q FirstViolinVoiceIV measure 129 / measure 11]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceIV measure 129 / measure 11]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     d''1
     :32                                                            %! IC
-    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q FirstViolinVoiceIV measure 130 / measure 12]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q FirstViolinVoiceIV measure 130 / measure 12]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     \revert TextSpanner.staff-padding                              %! OC2:-PARTS
     
 }
@@ -2009,7 +2009,7 @@ Q_FirstViolinStaffII = <<
 
 Q_FirstViolinVoiceV_a = {
     
-    % [Q FirstViolinVoiceV measure 119 / measure 1]                %! SM4
+    % [Q FirstViolinVoiceV measure 119 / measure 1]                %! SM_4
     \set Staff.instrumentName =                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2073,12 +2073,12 @@ Q_FirstViolinVoiceV_a = {
         }                                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [Q FirstViolinVoiceV measure 120 / measure 2]                %! SM4
+    % [Q FirstViolinVoiceV measure 120 / measure 2]                %! SM_4
     cs'!2.
     :32                                                            %! IC
     \repeatTie                                                     %! TCC
     
-    % [Q FirstViolinVoiceV measure 121 / measure 3]                %! SM4
+    % [Q FirstViolinVoiceV measure 121 / measure 3]                %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -2087,26 +2087,26 @@ Q_FirstViolinVoiceV_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q FirstViolinVoiceV measure 122 / measure 4]                %! SM4
+    % [Q FirstViolinVoiceV measure 122 / measure 4]                %! SM_4
     cs'!1
     :32                                                            %! IC
     
-    % [Q FirstViolinVoiceV measure 123 / measure 5]                %! SM4
-    cs'!1
-    :32                                                            %! IC
-    \repeatTie
-    
-    % [Q FirstViolinVoiceV measure 124 / measure 6]                %! SM4
+    % [Q FirstViolinVoiceV measure 123 / measure 5]                %! SM_4
     cs'!1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q FirstViolinVoiceV measure 125 / measure 7]                %! SM4
+    % [Q FirstViolinVoiceV measure 124 / measure 6]                %! SM_4
+    cs'!1
+    :32                                                            %! IC
+    \repeatTie
+    
+    % [Q FirstViolinVoiceV measure 125 / measure 7]                %! SM_4
     cs'!2.
     :32                                                            %! IC
     \repeatTie
     
-    % [Q FirstViolinVoiceV measure 126 / measure 8]                %! SM4
+    % [Q FirstViolinVoiceV measure 126 / measure 8]                %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -2115,21 +2115,21 @@ Q_FirstViolinVoiceV_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q FirstViolinVoiceV measure 127 / measure 9]                %! SM4
+    % [Q FirstViolinVoiceV measure 127 / measure 9]                %! SM_4
     cs'!2.
     :32                                                            %! IC
     
-    % [Q FirstViolinVoiceV measure 128 / measure 10]               %! SM4
+    % [Q FirstViolinVoiceV measure 128 / measure 10]               %! SM_4
     cs'!1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q FirstViolinVoiceV measure 129 / measure 11]               %! SM4
+    % [Q FirstViolinVoiceV measure 129 / measure 11]               %! SM_4
     cs'!1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q FirstViolinVoiceV measure 130 / measure 12]               %! SM4
+    % [Q FirstViolinVoiceV measure 130 / measure 12]               %! SM_4
     cs'!2
     :32                                                            %! IC
     \repeatTie
@@ -2150,7 +2150,7 @@ Q_FirstViolinStaffIII = {
 
 Q_SecondViolinVoiceI_a = {
     
-    % [Q SecondViolinVoiceI measure 119 / measure 1]               %! SM4
+    % [Q SecondViolinVoiceI measure 119 / measure 1]               %! SM_4
     \set Staff.instrumentName =                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2221,10 +2221,10 @@ Q_SecondViolinVoiceI_a = {
         }                                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [Q SecondViolinVoiceI measure 120 / measure 2]               %! SM4
+    % [Q SecondViolinVoiceI measure 120 / measure 2]               %! SM_4
     R1 * 3/4
     
-    % [Q SecondViolinVoiceI measure 121 / measure 3]               %! SM4
+    % [Q SecondViolinVoiceI measure 121 / measure 3]               %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -2233,50 +2233,50 @@ Q_SecondViolinVoiceI_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q SecondViolinVoiceI measure 122 / measure 4]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceI measure 122 / measure 4]               %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     b'1
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceI measure 123 / measure 5]               %! SM4
+    % [Q SecondViolinVoiceI measure 123 / measure 5]               %! SM_4
     b'1
     :32                                                            %! IC
     - \tweak direction #up
     \repeatTie
     
-    % [Q SecondViolinVoiceI measure 124 / measure 6]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceI measure 124 / measure 6]               %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     b'1
     :32                                                            %! IC
-    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     - \tweak direction #up
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceI measure 125 / measure 7]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceI measure 125 / measure 7]               %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     
-    % [Q SecondViolinVoiceI measure 126 / measure 8]               %! SM4
+    % [Q SecondViolinVoiceI measure 126 / measure 8]               %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -2285,48 +2285,48 @@ Q_SecondViolinVoiceI_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q SecondViolinVoiceI measure 127 / measure 9]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceI measure 127 / measure 9]               %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     b'2.
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceI measure 128 / measure 10]              %! SM4
+    % [Q SecondViolinVoiceI measure 128 / measure 10]              %! SM_4
     b'1
     :32                                                            %! IC
     - \tweak direction #up
     \repeatTie
     
-    % [Q SecondViolinVoiceI measure 129 / measure 11]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceI measure 129 / measure 11]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     b'1
     :32                                                            %! IC
-    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     - \tweak direction #up
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceI measure 130 / measure 12]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceI measure 130 / measure 12]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
 %%% \revert TextSpanner.staff-padding                              %! OC2:+PARTS
     \revert DynamicText.stencil                                    %! OC2:-PARTS
     \revert Hairpin.stencil                                        %! OC2:-PARTS
@@ -2342,17 +2342,17 @@ Q_SecondViolinVoiceI = {
 
 Q_SecondViolinVoiceII_a = {
     
-    % [Q SecondViolinVoiceII measure 119 / measure 1]              %! SM4
+    % [Q SecondViolinVoiceII measure 119 / measure 1]              %! SM_4
     \override TextSpanner.staff-padding = #5                       %! OC1:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                                      %! IC:-PARTS
     R1 * 3/4
     \pp                                                            %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [Q SecondViolinVoiceII measure 120 / measure 2]              %! SM4
+    % [Q SecondViolinVoiceII measure 120 / measure 2]              %! SM_4
     R1 * 3/4
     
-    % [Q SecondViolinVoiceII measure 121 / measure 3]              %! SM4
+    % [Q SecondViolinVoiceII measure 121 / measure 3]              %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -2361,48 +2361,48 @@ Q_SecondViolinVoiceII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q SecondViolinVoiceII measure 122 / measure 4]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceII measure 122 / measure 4]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g'1
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceII measure 123 / measure 5]              %! SM4
+    % [Q SecondViolinVoiceII measure 123 / measure 5]              %! SM_4
     g'1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q SecondViolinVoiceII measure 124 / measure 6]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceII measure 124 / measure 6]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g'1
     :32                                                            %! IC
-    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceII measure 125 / measure 7]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceII measure 125 / measure 7]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     
-    % [Q SecondViolinVoiceII measure 126 / measure 8]              %! SM4
+    % [Q SecondViolinVoiceII measure 126 / measure 8]              %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -2411,46 +2411,46 @@ Q_SecondViolinVoiceII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q SecondViolinVoiceII measure 127 / measure 9]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceII measure 127 / measure 9]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g'2.
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceII measure 128 / measure 10]             %! SM4
+    % [Q SecondViolinVoiceII measure 128 / measure 10]             %! SM_4
     g'1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q SecondViolinVoiceII measure 129 / measure 11]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceII measure 129 / measure 11]             %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g'1
     :32                                                            %! IC
-    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceII measure 130 / measure 12]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceII measure 130 / measure 12]             %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     \revert TextSpanner.staff-padding                              %! OC2:-PARTS
     
 }
@@ -2471,7 +2471,7 @@ Q_SecondViolinStaffI = <<
 
 Q_SecondViolinVoiceIII_a = {
     
-    % [Q SecondViolinVoiceIII measure 119 / measure 1]             %! SM4
+    % [Q SecondViolinVoiceIII measure 119 / measure 1]             %! SM_4
     \set Staff.instrumentName =                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2542,10 +2542,10 @@ Q_SecondViolinVoiceIII_a = {
         }                                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [Q SecondViolinVoiceIII measure 120 / measure 2]             %! SM4
+    % [Q SecondViolinVoiceIII measure 120 / measure 2]             %! SM_4
     R1 * 3/4
     
-    % [Q SecondViolinVoiceIII measure 121 / measure 3]             %! SM4
+    % [Q SecondViolinVoiceIII measure 121 / measure 3]             %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -2554,48 +2554,48 @@ Q_SecondViolinVoiceIII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q SecondViolinVoiceIII measure 122 / measure 4]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceIII measure 122 / measure 4]             %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     a'1
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceIII measure 123 / measure 5]             %! SM4
+    % [Q SecondViolinVoiceIII measure 123 / measure 5]             %! SM_4
     a'1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q SecondViolinVoiceIII measure 124 / measure 6]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceIII measure 124 / measure 6]             %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     a'1
     :32                                                            %! IC
-    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceIII measure 125 / measure 7]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceIII measure 125 / measure 7]             %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     
-    % [Q SecondViolinVoiceIII measure 126 / measure 8]             %! SM4
+    % [Q SecondViolinVoiceIII measure 126 / measure 8]             %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -2604,46 +2604,46 @@ Q_SecondViolinVoiceIII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q SecondViolinVoiceIII measure 127 / measure 9]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceIII measure 127 / measure 9]             %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     a'2.
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceIII measure 128 / measure 10]            %! SM4
+    % [Q SecondViolinVoiceIII measure 128 / measure 10]            %! SM_4
     a'1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q SecondViolinVoiceIII measure 129 / measure 11]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceIII measure 129 / measure 11]            %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     a'1
     :32                                                            %! IC
-    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceIII measure 130 / measure 12]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceIII measure 130 / measure 12]            %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
 %%% \revert TextSpanner.staff-padding                              %! OC2:+PARTS
     \revert DynamicText.stencil                                    %! OC2:-PARTS
     \revert Hairpin.stencil                                        %! OC2:-PARTS
@@ -2659,17 +2659,17 @@ Q_SecondViolinVoiceIII = {
 
 Q_SecondViolinVoiceIV_a = {
     
-    % [Q SecondViolinVoiceIV measure 119 / measure 1]              %! SM4
+    % [Q SecondViolinVoiceIV measure 119 / measure 1]              %! SM_4
     \override TextSpanner.staff-padding = #5                       %! OC1:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                                      %! IC:-PARTS
     R1 * 3/4
     \pp                                                            %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [Q SecondViolinVoiceIV measure 120 / measure 2]              %! SM4
+    % [Q SecondViolinVoiceIV measure 120 / measure 2]              %! SM_4
     R1 * 3/4
     
-    % [Q SecondViolinVoiceIV measure 121 / measure 3]              %! SM4
+    % [Q SecondViolinVoiceIV measure 121 / measure 3]              %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -2678,48 +2678,48 @@ Q_SecondViolinVoiceIV_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q SecondViolinVoiceIV measure 122 / measure 4]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceIV measure 122 / measure 4]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     f'1
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceIV measure 123 / measure 5]              %! SM4
+    % [Q SecondViolinVoiceIV measure 123 / measure 5]              %! SM_4
     f'1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q SecondViolinVoiceIV measure 124 / measure 6]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceIV measure 124 / measure 6]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     f'1
     :32                                                            %! IC
-    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceIV measure 125 / measure 7]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceIV measure 125 / measure 7]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     
-    % [Q SecondViolinVoiceIV measure 126 / measure 8]              %! SM4
+    % [Q SecondViolinVoiceIV measure 126 / measure 8]              %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -2728,46 +2728,46 @@ Q_SecondViolinVoiceIV_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q SecondViolinVoiceIV measure 127 / measure 9]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceIV measure 127 / measure 9]              %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     f'2.
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceIV measure 128 / measure 10]             %! SM4
+    % [Q SecondViolinVoiceIV measure 128 / measure 10]             %! SM_4
     f'1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q SecondViolinVoiceIV measure 129 / measure 11]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceIV measure 129 / measure 11]             %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     f'1
     :32                                                            %! IC
-    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q SecondViolinVoiceIV measure 130 / measure 12]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q SecondViolinVoiceIV measure 130 / measure 12]             %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     \revert TextSpanner.staff-padding                              %! OC2:-PARTS
     
 }
@@ -2788,7 +2788,7 @@ Q_SecondViolinStaffII = <<
 
 Q_ViolaVoiceI_a = {
     
-    % [Q ViolaVoiceI measure 119 / measure 1]                      %! SM4
+    % [Q ViolaVoiceI measure 119 / measure 1]                      %! SM_4
     \set Staff.instrumentName =                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2859,10 +2859,10 @@ Q_ViolaVoiceI_a = {
         }                                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [Q ViolaVoiceI measure 120 / measure 2]                      %! SM4
+    % [Q ViolaVoiceI measure 120 / measure 2]                      %! SM_4
     R1 * 3/4
     
-    % [Q ViolaVoiceI measure 121 / measure 3]                      %! SM4
+    % [Q ViolaVoiceI measure 121 / measure 3]                      %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -2871,48 +2871,48 @@ Q_ViolaVoiceI_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q ViolaVoiceI measure 122 / measure 4]                      %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceI measure 122 / measure 4]                      %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     d'1
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceI measure 123 / measure 5]                      %! SM4
+    % [Q ViolaVoiceI measure 123 / measure 5]                      %! SM_4
     d'1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q ViolaVoiceI measure 124 / measure 6]                      %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceI measure 124 / measure 6]                      %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     d'1
     :32                                                            %! IC
-    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceI measure 125 / measure 7]                      %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceI measure 125 / measure 7]                      %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     
-    % [Q ViolaVoiceI measure 126 / measure 8]                      %! SM4
+    % [Q ViolaVoiceI measure 126 / measure 8]                      %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -2921,46 +2921,46 @@ Q_ViolaVoiceI_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q ViolaVoiceI measure 127 / measure 9]                      %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceI measure 127 / measure 9]                      %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     d'2.
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceI measure 128 / measure 10]                     %! SM4
+    % [Q ViolaVoiceI measure 128 / measure 10]                     %! SM_4
     d'1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q ViolaVoiceI measure 129 / measure 11]                     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceI measure 129 / measure 11]                     %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     d'1
     :32                                                            %! IC
-    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceI measure 130 / measure 12]                     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceI measure 130 / measure 12]                     %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
 %%% \revert TextSpanner.staff-padding                              %! OC2:+PARTS
     \revert DynamicText.stencil                                    %! OC2:-PARTS
     \revert Hairpin.stencil                                        %! OC2:-PARTS
@@ -2976,17 +2976,17 @@ Q_ViolaVoiceI = {
 
 Q_ViolaVoiceII_a = {
     
-    % [Q ViolaVoiceII measure 119 / measure 1]                     %! SM4
+    % [Q ViolaVoiceII measure 119 / measure 1]                     %! SM_4
     \override TextSpanner.staff-padding = #5                       %! OC1:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                                      %! IC:-PARTS
     R1 * 3/4
     \pp                                                            %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [Q ViolaVoiceII measure 120 / measure 2]                     %! SM4
+    % [Q ViolaVoiceII measure 120 / measure 2]                     %! SM_4
     R1 * 3/4
     
-    % [Q ViolaVoiceII measure 121 / measure 3]                     %! SM4
+    % [Q ViolaVoiceII measure 121 / measure 3]                     %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -2995,48 +2995,48 @@ Q_ViolaVoiceII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q ViolaVoiceII measure 122 / measure 4]                     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceII measure 122 / measure 4]                     %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     a1
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceII measure 123 / measure 5]                     %! SM4
+    % [Q ViolaVoiceII measure 123 / measure 5]                     %! SM_4
     a1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q ViolaVoiceII measure 124 / measure 6]                     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceII measure 124 / measure 6]                     %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     a1
     :32                                                            %! IC
-    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceII measure 125 / measure 7]                     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceII measure 125 / measure 7]                     %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     
-    % [Q ViolaVoiceII measure 126 / measure 8]                     %! SM4
+    % [Q ViolaVoiceII measure 126 / measure 8]                     %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -3045,46 +3045,46 @@ Q_ViolaVoiceII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q ViolaVoiceII measure 127 / measure 9]                     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceII measure 127 / measure 9]                     %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     a2.
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceII measure 128 / measure 10]                    %! SM4
+    % [Q ViolaVoiceII measure 128 / measure 10]                    %! SM_4
     a1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q ViolaVoiceII measure 129 / measure 11]                    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceII measure 129 / measure 11]                    %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     a1
     :32                                                            %! IC
-    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceII measure 130 / measure 12]                    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceII measure 130 / measure 12]                    %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     \revert TextSpanner.staff-padding                              %! OC2:-PARTS
     
 }
@@ -3105,7 +3105,7 @@ Q_ViolaStaffI = <<
 
 Q_ViolaVoiceIII_a = {
     
-    % [Q ViolaVoiceIII measure 119 / measure 1]                    %! SM4
+    % [Q ViolaVoiceIII measure 119 / measure 1]                    %! SM_4
     \set Staff.instrumentName =                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                      %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3176,10 +3176,10 @@ Q_ViolaVoiceIII_a = {
         }                                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [Q ViolaVoiceIII measure 120 / measure 2]                    %! SM4
+    % [Q ViolaVoiceIII measure 120 / measure 2]                    %! SM_4
     R1 * 3/4
     
-    % [Q ViolaVoiceIII measure 121 / measure 3]                    %! SM4
+    % [Q ViolaVoiceIII measure 121 / measure 3]                    %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -3188,48 +3188,48 @@ Q_ViolaVoiceIII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q ViolaVoiceIII measure 122 / measure 4]                    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceIII measure 122 / measure 4]                    %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     b1
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceIII measure 123 / measure 5]                    %! SM4
+    % [Q ViolaVoiceIII measure 123 / measure 5]                    %! SM_4
     b1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q ViolaVoiceIII measure 124 / measure 6]                    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceIII measure 124 / measure 6]                    %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     b1
     :32                                                            %! IC
-    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceIII measure 125 / measure 7]                    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceIII measure 125 / measure 7]                    %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     
-    % [Q ViolaVoiceIII measure 126 / measure 8]                    %! SM4
+    % [Q ViolaVoiceIII measure 126 / measure 8]                    %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -3238,46 +3238,46 @@ Q_ViolaVoiceIII_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q ViolaVoiceIII measure 127 / measure 9]                    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceIII measure 127 / measure 9]                    %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     b2.
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceIII measure 128 / measure 10]                   %! SM4
+    % [Q ViolaVoiceIII measure 128 / measure 10]                   %! SM_4
     b1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q ViolaVoiceIII measure 129 / measure 11]                   %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceIII measure 129 / measure 11]                   %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     b1
     :32                                                            %! IC
-    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceIII measure 130 / measure 12]                   %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceIII measure 130 / measure 12]                   %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
 %%% \revert TextSpanner.staff-padding                              %! OC2:+PARTS
     \revert DynamicText.stencil                                    %! OC2:-PARTS
     \revert Hairpin.stencil                                        %! OC2:-PARTS
@@ -3293,17 +3293,17 @@ Q_ViolaVoiceIII = {
 
 Q_ViolaVoiceIV_a = {
     
-    % [Q ViolaVoiceIV measure 119 / measure 1]                     %! SM4
+    % [Q ViolaVoiceIV measure 119 / measure 1]                     %! SM_4
     \override TextSpanner.staff-padding = #5                       %! OC1:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                                      %! IC:-PARTS
     R1 * 3/4
     \pp                                                            %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [Q ViolaVoiceIV measure 120 / measure 2]                     %! SM4
+    % [Q ViolaVoiceIV measure 120 / measure 2]                     %! SM_4
     R1 * 3/4
     
-    % [Q ViolaVoiceIV measure 121 / measure 3]                     %! SM4
+    % [Q ViolaVoiceIV measure 121 / measure 3]                     %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -3312,48 +3312,48 @@ Q_ViolaVoiceIV_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q ViolaVoiceIV measure 122 / measure 4]                     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceIV measure 122 / measure 4]                     %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g1
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceIV measure 123 / measure 5]                     %! SM4
+    % [Q ViolaVoiceIV measure 123 / measure 5]                     %! SM_4
     g1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q ViolaVoiceIV measure 124 / measure 6]                     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceIV measure 124 / measure 6]                     %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g1
     :32                                                            %! IC
-    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceIV measure 125 / measure 7]                     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceIV measure 125 / measure 7]                     %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     
-    % [Q ViolaVoiceIV measure 126 / measure 8]                     %! SM4
+    % [Q ViolaVoiceIV measure 126 / measure 8]                     %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t       %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f              %! IC:+PARTS
     R1 * 1/4
@@ -3362,46 +3362,46 @@ Q_ViolaVoiceIV_a = {
 %%%         #"scripts.ufermata"                                    %! IC:+PARTS
 %%%     }                                                          %! IC:+PARTS
     
-    % [Q ViolaVoiceIV measure 127 / measure 9]                     %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceIV measure 127 / measure 9]                     %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g2.
     :32                                                            %! IC
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
-    \startTextSpan                                                 %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceIV measure 128 / measure 10]                    %! SM4
+    % [Q ViolaVoiceIV measure 128 / measure 10]                    %! SM_4
     g1
     :32                                                            %! IC
     \repeatTie
     
-    % [Q ViolaVoiceIV measure 129 / measure 11]                    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceIV measure 129 / measure 11]                    %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g1
     :32                                                            %! IC
-    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                  %! PIC
-    - \abjad_dashed_line_with_arrow                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC
-    - \tweak bound-details.right.padding #0.5                      %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC
-    \startTextSpan                                                 %! PIC
+    \stopTextSpan                                                  %! PIC_1
+    - \abjad_dashed_line_with_arrow                                %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"  %! PIC_1
+    - \tweak bound-details.right.padding #0.5                      %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center       %! PIC_1
+    \startTextSpan                                                 %! PIC_1
     
-    % [Q ViolaVoiceIV measure 130 / measure 12]                    %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ViolaVoiceIV measure 130 / measure 12]                    %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                  %! PIC
+    \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                  %! PIC_2
     \revert TextSpanner.staff-padding                              %! OC2:-PARTS
     
 }
@@ -3422,7 +3422,7 @@ Q_ViolaStaffII = <<
 
 Q_CelloVoiceI_a = {
     
-    % [Q CelloVoiceI measure 119 / measure 1]                          %! SM4
+    % [Q CelloVoiceI measure 119 / measure 1]                          %! SM_4
     \set Staff.instrumentName =                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3493,10 +3493,10 @@ Q_CelloVoiceI_a = {
         }                                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [Q CelloVoiceI measure 120 / measure 2]                          %! SM4
+    % [Q CelloVoiceI measure 120 / measure 2]                          %! SM_4
     R1 * 3/4
     
-    % [Q CelloVoiceI measure 121 / measure 3]                          %! SM4
+    % [Q CelloVoiceI measure 121 / measure 3]                          %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f                  %! IC:+PARTS
     R1 * 1/4
@@ -3505,50 +3505,50 @@ Q_CelloVoiceI_a = {
 %%%         #"scripts.ufermata"                                        %! IC:+PARTS
 %%%     }                                                              %! IC:+PARTS
     
-    % [Q CelloVoiceI measure 122 / measure 4]                          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q CelloVoiceI measure 122 / measure 4]                          %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     d1
     :32                                                                %! IC
-    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC
-    \startTextSpan                                                     %! PIC
+    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                               %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                    %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC_1
+    \startTextSpan                                                     %! PIC_1
     
-    % [Q CelloVoiceI measure 123 / measure 5]                          %! SM4
+    % [Q CelloVoiceI measure 123 / measure 5]                          %! SM_4
     d1
     :32                                                                %! IC
     - \tweak direction #up
     \repeatTie
     
-    % [Q CelloVoiceI measure 124 / measure 6]                          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q CelloVoiceI measure 124 / measure 6]                          %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     d1
     :32                                                                %! IC
-    \f                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
     - \tweak direction #up
     \repeatTie
-    \stopTextSpan                                                      %! PIC
-    - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC
-    - \tweak bound-details.right.padding #0.5                          %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
-    \startTextSpan                                                     %! PIC
+    \stopTextSpan                                                      %! PIC_1
+    - \abjad_dashed_line_with_arrow                                    %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC_1
+    - \tweak bound-details.right.padding #0.5                          %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
+    \startTextSpan                                                     %! PIC_1
     
-    % [Q CelloVoiceI measure 125 / measure 7]                          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q CelloVoiceI measure 125 / measure 7]                          %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                      %! PIC
+    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                      %! PIC_2
     
-    % [Q CelloVoiceI measure 126 / measure 8]                          %! SM4
+    % [Q CelloVoiceI measure 126 / measure 8]                          %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f                  %! IC:+PARTS
     R1 * 1/4
@@ -3557,48 +3557,48 @@ Q_CelloVoiceI_a = {
 %%%         #"scripts.ufermata"                                        %! IC:+PARTS
 %%%     }                                                              %! IC:+PARTS
     
-    % [Q CelloVoiceI measure 127 / measure 9]                          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q CelloVoiceI measure 127 / measure 9]                          %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     d2.
     :32                                                                %! IC
-    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC
-    \startTextSpan                                                     %! PIC
+    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                               %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                    %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC_1
+    \startTextSpan                                                     %! PIC_1
     
-    % [Q CelloVoiceI measure 128 / measure 10]                         %! SM4
+    % [Q CelloVoiceI measure 128 / measure 10]                         %! SM_4
     d1
     :32                                                                %! IC
     - \tweak direction #up
     \repeatTie
     
-    % [Q CelloVoiceI measure 129 / measure 11]                         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q CelloVoiceI measure 129 / measure 11]                         %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     d1
     :32                                                                %! IC
-    \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
     - \tweak direction #up
     \repeatTie
-    \stopTextSpan                                                      %! PIC
-    - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC
-    - \tweak bound-details.right.padding #0.5                          %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
-    \startTextSpan                                                     %! PIC
+    \stopTextSpan                                                      %! PIC_1
+    - \abjad_dashed_line_with_arrow                                    %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC_1
+    - \tweak bound-details.right.padding #0.5                          %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
+    \startTextSpan                                                     %! PIC_1
     
-    % [Q CelloVoiceI measure 130 / measure 12]                         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q CelloVoiceI measure 130 / measure 12]                         %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                      %! PIC
+    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                      %! PIC_2
 %%% \revert TextSpanner.staff-padding                                  %! OC2:+PARTS
     \revert DynamicText.stencil                                        %! OC2:-PARTS
     \revert Hairpin.stencil                                            %! OC2:-PARTS
@@ -3614,17 +3614,17 @@ Q_CelloVoiceI = {
 
 Q_CelloVoiceII_a = {
     
-    % [Q CelloVoiceII measure 119 / measure 1]                         %! SM4
+    % [Q CelloVoiceII measure 119 / measure 1]                         %! SM_4
     \override TextSpanner.staff-padding = #5                           %! OC1:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'green4)     %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \voiceTwo                                                          %! IC:-PARTS
     R1 * 3/4
     \pp                                                                %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [Q CelloVoiceII measure 120 / measure 2]                         %! SM4
+    % [Q CelloVoiceII measure 120 / measure 2]                         %! SM_4
     R1 * 3/4
     
-    % [Q CelloVoiceII measure 121 / measure 3]                         %! SM4
+    % [Q CelloVoiceII measure 121 / measure 3]                         %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f                  %! IC:+PARTS
     R1 * 1/4
@@ -3633,48 +3633,48 @@ Q_CelloVoiceII_a = {
 %%%         #"scripts.ufermata"                                        %! IC:+PARTS
 %%%     }                                                              %! IC:+PARTS
     
-    % [Q CelloVoiceII measure 122 / measure 4]                         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q CelloVoiceII measure 122 / measure 4]                         %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g,1
     :32                                                                %! IC
-    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC
-    \startTextSpan                                                     %! PIC
+    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                               %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                    %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC_1
+    \startTextSpan                                                     %! PIC_1
     
-    % [Q CelloVoiceII measure 123 / measure 5]                         %! SM4
+    % [Q CelloVoiceII measure 123 / measure 5]                         %! SM_4
     g,1
     :32                                                                %! IC
     \repeatTie
     
-    % [Q CelloVoiceII measure 124 / measure 6]                         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q CelloVoiceII measure 124 / measure 6]                         %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g,1
     :32                                                                %! IC
-    \f                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                      %! PIC
-    - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC
-    - \tweak bound-details.right.padding #0.5                          %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
-    \startTextSpan                                                     %! PIC
+    \stopTextSpan                                                      %! PIC_1
+    - \abjad_dashed_line_with_arrow                                    %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC_1
+    - \tweak bound-details.right.padding #0.5                          %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
+    \startTextSpan                                                     %! PIC_1
     
-    % [Q CelloVoiceII measure 125 / measure 7]                         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q CelloVoiceII measure 125 / measure 7]                         %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                      %! PIC
+    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                      %! PIC_2
     
-    % [Q CelloVoiceII measure 126 / measure 8]                         %! SM4
+    % [Q CelloVoiceII measure 126 / measure 8]                         %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f                  %! IC:+PARTS
     R1 * 1/4
@@ -3683,46 +3683,46 @@ Q_CelloVoiceII_a = {
 %%%         #"scripts.ufermata"                                        %! IC:+PARTS
 %%%     }                                                              %! IC:+PARTS
     
-    % [Q CelloVoiceII measure 127 / measure 9]                         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q CelloVoiceII measure 127 / measure 9]                         %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g,2.
     :32                                                                %! IC
-    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC
-    \startTextSpan                                                     %! PIC
+    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                               %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                    %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC_1
+    \startTextSpan                                                     %! PIC_1
     
-    % [Q CelloVoiceII measure 128 / measure 10]                        %! SM4
+    % [Q CelloVoiceII measure 128 / measure 10]                        %! SM_4
     g,1
     :32                                                                %! IC
     \repeatTie
     
-    % [Q CelloVoiceII measure 129 / measure 11]                        %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q CelloVoiceII measure 129 / measure 11]                        %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g,1
     :32                                                                %! IC
-    \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                      %! PIC
-    - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC
-    - \tweak bound-details.right.padding #0.5                          %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
-    \startTextSpan                                                     %! PIC
+    \stopTextSpan                                                      %! PIC_1
+    - \abjad_dashed_line_with_arrow                                    %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC_1
+    - \tweak bound-details.right.padding #0.5                          %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
+    \startTextSpan                                                     %! PIC_1
     
-    % [Q CelloVoiceII measure 130 / measure 12]                        %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q CelloVoiceII measure 130 / measure 12]                        %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                      %! PIC
+    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                      %! PIC_2
     \revert TextSpanner.staff-padding                                  %! OC2:-PARTS
     
 }
@@ -3743,7 +3743,7 @@ Q_CelloStaffI = <<
 
 Q_ContrabassVoiceIII_a = {
     
-    % [Q ContrabassVoiceIII measure 119 / measure 1]                   %! SM4
+    % [Q ContrabassVoiceIII measure 119 / measure 1]                   %! SM_4
     \set Staff.instrumentName =                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3789,10 +3789,10 @@ Q_ContrabassVoiceIII_a = {
             Cb.                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [Q ContrabassVoiceIII measure 120 / measure 2]                   %! SM4
+    % [Q ContrabassVoiceIII measure 120 / measure 2]                   %! SM_4
     R1 * 3/4
     
-    % [Q ContrabassVoiceIII measure 121 / measure 3]                   %! SM4
+    % [Q ContrabassVoiceIII measure 121 / measure 3]                   %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f                  %! IC:+PARTS
     R1 * 1/4
@@ -3801,48 +3801,48 @@ Q_ContrabassVoiceIII_a = {
 %%%         #"scripts.ufermata"                                        %! IC:+PARTS
 %%%     }                                                              %! IC:+PARTS
     
-    % [Q ContrabassVoiceIII measure 122 / measure 4]                   %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ContrabassVoiceIII measure 122 / measure 4]                   %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g,1
     :32                                                                %! IC
-    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC
-    \startTextSpan                                                     %! PIC
+    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                               %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                    %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC_1
+    \startTextSpan                                                     %! PIC_1
     
-    % [Q ContrabassVoiceIII measure 123 / measure 5]                   %! SM4
+    % [Q ContrabassVoiceIII measure 123 / measure 5]                   %! SM_4
     g,1
     :32                                                                %! IC
     \repeatTie
     
-    % [Q ContrabassVoiceIII measure 124 / measure 6]                   %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ContrabassVoiceIII measure 124 / measure 6]                   %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g,1
     :32                                                                %! IC
-    \f                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \f                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                      %! PIC
-    - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC
-    - \tweak bound-details.right.padding #0.5                          %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
-    \startTextSpan                                                     %! PIC
+    \stopTextSpan                                                      %! PIC_1
+    - \abjad_dashed_line_with_arrow                                    %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC_1
+    - \tweak bound-details.right.padding #0.5                          %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
+    \startTextSpan                                                     %! PIC_1
     
-    % [Q ContrabassVoiceIII measure 125 / measure 7]                   %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ContrabassVoiceIII measure 125 / measure 7]                   %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 3/4
-    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                      %! PIC
+    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                      %! PIC_2
     
-    % [Q ContrabassVoiceIII measure 126 / measure 8]                   %! SM4
+    % [Q ContrabassVoiceIII measure 126 / measure 8]                   %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f                  %! IC:+PARTS
     R1 * 1/4
@@ -3851,46 +3851,46 @@ Q_ContrabassVoiceIII_a = {
 %%%         #"scripts.ufermata"                                        %! IC:+PARTS
 %%%     }                                                              %! IC:+PARTS
     
-    % [Q ContrabassVoiceIII measure 127 / measure 9]                   %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ContrabassVoiceIII measure 127 / measure 9]                   %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g,2.
     :32                                                                %! IC
-    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC
-    \startTextSpan                                                     %! PIC
+    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                               %! SM_43 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \abjad_dashed_line_with_arrow                                    %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC_1
+    \startTextSpan                                                     %! PIC_1
     
-    % [Q ContrabassVoiceIII measure 128 / measure 10]                  %! SM4
+    % [Q ContrabassVoiceIII measure 128 / measure 10]                  %! SM_4
     g,1
     :32                                                                %! IC
     \repeatTie
     
-    % [Q ContrabassVoiceIII measure 129 / measure 11]                  %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ContrabassVoiceIII measure 129 / measure 11]                  %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_1
     g,1
     :32                                                                %! IC
-    \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC_1
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_1
     \repeatTie
-    \stopTextSpan                                                      %! PIC
-    - \abjad_dashed_line_with_arrow                                    %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC
-    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC
-    - \tweak bound-details.right.padding #0.5                          %! PIC
-    - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
-    \startTextSpan                                                     %! PIC
+    \stopTextSpan                                                      %! PIC_1
+    - \abjad_dashed_line_with_arrow                                    %! PIC_1
+    - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC_1
+    - \tweak bound-details.right.text \markup \baca-right "tasto"      %! PIC_1
+    - \tweak bound-details.right.padding #0.5                          %! PIC_1
+    - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
+    \startTextSpan                                                     %! PIC_1
     
-    % [Q ContrabassVoiceIII measure 130 / measure 12]                  %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    % [Q ContrabassVoiceIII measure 130 / measure 12]                  %! SM_4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC_2
     R1 * 1/2
-    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                      %! PIC
+    \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC_2
+    \stopTextSpan                                                      %! PIC_2
     
 }
 
