@@ -154,7 +154,8 @@ I_ClarinetVoiceI_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Clarinet”)                                               %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \markup {                                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -249,9 +250,10 @@ I_BassClarinetVoiceI_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“BassClarinet”)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    - \tweak to-barline ##t                                            %! PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
 %@% \repeatTie                                                         %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -368,7 +370,8 @@ I_HornVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e'4
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     % [I HornVoiceI measure 58 / measure 3]                        %! SM4
@@ -398,7 +401,8 @@ I_HornVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e'2
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     % [I HornVoiceI measure 61 / measure 6]                        %! SM4
@@ -436,7 +440,8 @@ I_HornVoiceIII_a = {
             #(x11-color 'green4)                                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Horn”)                                               %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                             %! PIC
+    - \tweak color #'DeepPink1                                     %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     % [I HornVoiceIII measure 57 / measure 2]                      %! SM4
@@ -456,7 +461,8 @@ I_HornVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef'!2..
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #'DeepPink1                                     %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                             %! SM8:REDUNDANT_DYNAMIC:PIC
     
     f'8
     ~
@@ -565,7 +571,8 @@ I_HornVoiceII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         e'8
         \mp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                         %! PIC
+        - \tweak color #blue                                       %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                         %! SM8:EXPLICIT_DYNAMIC:PIC
         ~
     }
     
@@ -597,7 +604,8 @@ I_HornVoiceII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         e'8
         \mp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                         %! PIC
+        - \tweak color #blue                                       %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                         %! SM8:EXPLICIT_DYNAMIC:PIC
         ~
     }
     
@@ -637,7 +645,8 @@ I_HornVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef'!8
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #'DeepPink1                                     %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     % [I HornVoiceIV measure 57 / measure 2]                       %! SM4
@@ -661,7 +670,8 @@ I_HornVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef'!8
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #'DeepPink1                                     %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                             %! SM8:REDUNDANT_DYNAMIC:PIC
     ~
     
     ef'!2
@@ -776,7 +786,8 @@ I_TrumpetVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     af'!2
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #'DeepPink1                                     %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     % [I TrumpetVoiceI measure 58 / measure 3]                     %! SM4
@@ -795,7 +806,8 @@ I_TrumpetVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     af'!2
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #'DeepPink1                                     %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                             %! SM8:REDUNDANT_DYNAMIC:PIC
     ~
     
     % [I TrumpetVoiceI measure 60 / measure 5]                     %! SM4
@@ -837,7 +849,8 @@ I_TrumpetVoiceIII_a = {
             #(x11-color 'green4)                                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Trumpet”)                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                             %! PIC
+    - \tweak color #'DeepPink1                                     %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     % [I TrumpetVoiceIII measure 57 / measure 2]                   %! SM4
@@ -861,7 +874,8 @@ I_TrumpetVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     g'4
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #'DeepPink1                                     %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                             %! SM8:REDUNDANT_DYNAMIC:PIC
     ~
     
     % [I TrumpetVoiceIII measure 59 / measure 4]                   %! SM4
@@ -892,7 +906,8 @@ I_TrumpetVoiceIII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         g'4
         \mp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                         %! PIC
+        - \tweak color #blue                                       %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                         %! SM8:EXPLICIT_DYNAMIC:PIC
         ~
     }
     
@@ -992,7 +1007,8 @@ I_TrumpetVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     af'!8
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     % [I TrumpetVoiceII measure 58 / measure 3]                    %! SM4
@@ -1021,7 +1037,8 @@ I_TrumpetVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     af'!8
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     % [I TrumpetVoiceII measure 60 / measure 5]                    %! SM4
@@ -1070,7 +1087,8 @@ I_TrumpetVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     g'8
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #'DeepPink1                                     %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     % [I TrumpetVoiceIV measure 57 / measure 2]                    %! SM4
@@ -1096,7 +1114,8 @@ I_TrumpetVoiceIV_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         g'8
         \mp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                         %! PIC
+        - \tweak color #'DeepPink1                                 %! SM8:REDUNDANT_DYNAMIC:PIC
+        \<                                                         %! SM8:REDUNDANT_DYNAMIC:PIC
         ~
     }
     
@@ -1202,7 +1221,8 @@ I_TromboneVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     af!4
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     % [I TromboneVoiceI measure 58 / measure 3]                    %! SM4
@@ -1227,7 +1247,8 @@ I_TromboneVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     bf!4
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     % [I TromboneVoiceI measure 61 / measure 6]                    %! SM4
@@ -1265,7 +1286,8 @@ I_TromboneVoiceIII_a = {
             #(x11-color 'green4)                                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Trombone”)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     \times 2/3 {
         
@@ -1297,7 +1319,8 @@ I_TromboneVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a2
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     a8
@@ -1411,7 +1434,8 @@ I_TromboneVoiceII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         af!8
         \mp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                         %! PIC
+        - \tweak color #blue                                       %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                         %! SM8:EXPLICIT_DYNAMIC:PIC
         ~
     }
     
@@ -1449,7 +1473,8 @@ I_TromboneVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     bf!8
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     bf!2
@@ -1487,7 +1512,8 @@ I_TromboneVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     g8
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     % [I TromboneVoiceIV measure 57 / measure 2]                   %! SM4
@@ -1519,7 +1545,8 @@ I_TromboneVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a4.
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     % [I TromboneVoiceIV measure 60 / measure 5]                   %! SM4
@@ -1973,7 +2000,8 @@ I_FirstViolinVoiceI_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Violin”)                                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \startTrillSpan af
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2060,7 +2088,8 @@ I_SecondViolinVoiceI_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Violin”)                                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \startTrillSpan af
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2147,7 +2176,8 @@ I_ViolaVoiceI_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Viola”)                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \startTrillSpan af
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2234,7 +2264,8 @@ I_CelloVoiceI_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Cello”)                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \startTrillSpan af
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2440,7 +2471,8 @@ I_ContrabassVoiceIII_a = {
             #(x11-color 'green4)                                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Contrabass”)                                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \markup {                                                      %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37

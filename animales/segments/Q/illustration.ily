@@ -1463,8 +1463,9 @@ Q_FirstViolinVoiceI_a = {
     a''1
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -1479,9 +1480,10 @@ Q_FirstViolinVoiceI_a = {
     a''1
     :32                                                            %! IC
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -1511,8 +1513,9 @@ Q_FirstViolinVoiceI_a = {
     a''2.
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -1527,9 +1530,10 @@ Q_FirstViolinVoiceI_a = {
     a''1
     :32                                                            %! IC
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -1583,8 +1587,9 @@ Q_FirstViolinVoiceII_a = {
     f''1
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -1599,9 +1604,10 @@ Q_FirstViolinVoiceII_a = {
     f''1
     :32                                                            %! IC
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -1631,8 +1637,9 @@ Q_FirstViolinVoiceII_a = {
     f''2.
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -1647,9 +1654,10 @@ Q_FirstViolinVoiceII_a = {
     f''1
     :32                                                            %! IC
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -1772,8 +1780,9 @@ Q_FirstViolinVoiceIII_a = {
     g''1
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -1788,9 +1797,10 @@ Q_FirstViolinVoiceIII_a = {
     g''1
     :32                                                            %! IC
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -1820,8 +1830,9 @@ Q_FirstViolinVoiceIII_a = {
     g''2.
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -1836,9 +1847,10 @@ Q_FirstViolinVoiceIII_a = {
     g''1
     :32                                                            %! IC
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -1892,8 +1904,9 @@ Q_FirstViolinVoiceIV_a = {
     d''1
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -1908,9 +1921,10 @@ Q_FirstViolinVoiceIV_a = {
     d''1
     :32                                                            %! IC
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -1940,8 +1954,9 @@ Q_FirstViolinVoiceIV_a = {
     d''2.
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -1956,9 +1971,10 @@ Q_FirstViolinVoiceIV_a = {
     d''1
     :32                                                            %! IC
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -2222,8 +2238,9 @@ Q_SecondViolinVoiceI_a = {
     b'1
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -2239,9 +2256,10 @@ Q_SecondViolinVoiceI_a = {
     b'1
     :32                                                            %! IC
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                  %! PIC
@@ -2272,8 +2290,9 @@ Q_SecondViolinVoiceI_a = {
     b'2.
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -2289,9 +2308,10 @@ Q_SecondViolinVoiceI_a = {
     b'1
     :32                                                            %! IC
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                  %! PIC
@@ -2346,8 +2366,9 @@ Q_SecondViolinVoiceII_a = {
     g'1
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -2362,9 +2383,10 @@ Q_SecondViolinVoiceII_a = {
     g'1
     :32                                                            %! IC
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -2394,8 +2416,9 @@ Q_SecondViolinVoiceII_a = {
     g'2.
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -2410,9 +2433,10 @@ Q_SecondViolinVoiceII_a = {
     g'1
     :32                                                            %! IC
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -2535,8 +2559,9 @@ Q_SecondViolinVoiceIII_a = {
     a'1
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -2551,9 +2576,10 @@ Q_SecondViolinVoiceIII_a = {
     a'1
     :32                                                            %! IC
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -2583,8 +2609,9 @@ Q_SecondViolinVoiceIII_a = {
     a'2.
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -2599,9 +2626,10 @@ Q_SecondViolinVoiceIII_a = {
     a'1
     :32                                                            %! IC
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -2655,8 +2683,9 @@ Q_SecondViolinVoiceIV_a = {
     f'1
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -2671,9 +2700,10 @@ Q_SecondViolinVoiceIV_a = {
     f'1
     :32                                                            %! IC
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -2703,8 +2733,9 @@ Q_SecondViolinVoiceIV_a = {
     f'2.
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -2719,9 +2750,10 @@ Q_SecondViolinVoiceIV_a = {
     f'1
     :32                                                            %! IC
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -2844,8 +2876,9 @@ Q_ViolaVoiceI_a = {
     d'1
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -2860,9 +2893,10 @@ Q_ViolaVoiceI_a = {
     d'1
     :32                                                            %! IC
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -2892,8 +2926,9 @@ Q_ViolaVoiceI_a = {
     d'2.
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -2908,9 +2943,10 @@ Q_ViolaVoiceI_a = {
     d'1
     :32                                                            %! IC
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -2964,8 +3000,9 @@ Q_ViolaVoiceII_a = {
     a1
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -2980,9 +3017,10 @@ Q_ViolaVoiceII_a = {
     a1
     :32                                                            %! IC
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -3012,8 +3050,9 @@ Q_ViolaVoiceII_a = {
     a2.
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -3028,9 +3067,10 @@ Q_ViolaVoiceII_a = {
     a1
     :32                                                            %! IC
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -3153,8 +3193,9 @@ Q_ViolaVoiceIII_a = {
     b1
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -3169,9 +3210,10 @@ Q_ViolaVoiceIII_a = {
     b1
     :32                                                            %! IC
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -3201,8 +3243,9 @@ Q_ViolaVoiceIII_a = {
     b2.
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -3217,9 +3260,10 @@ Q_ViolaVoiceIII_a = {
     b1
     :32                                                            %! IC
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -3273,8 +3317,9 @@ Q_ViolaVoiceIV_a = {
     g1
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -3289,9 +3334,10 @@ Q_ViolaVoiceIV_a = {
     g1
     :32                                                            %! IC
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -3321,8 +3367,9 @@ Q_ViolaVoiceIV_a = {
     g2.
     :32                                                            %! IC
     \!                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"    %! PIC
     \startTextSpan                                                 %! PIC
@@ -3337,9 +3384,10 @@ Q_ViolaVoiceIV_a = {
     g1
     :32                                                            %! IC
     \mp                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                  %! PIC
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -3462,8 +3510,9 @@ Q_CelloVoiceI_a = {
     d1
     :32                                                                %! IC
     \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                    %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC
     \startTextSpan                                                     %! PIC
@@ -3479,9 +3528,10 @@ Q_CelloVoiceI_a = {
     d1
     :32                                                                %! IC
     \f                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                            %! PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                      %! PIC
@@ -3512,8 +3562,9 @@ Q_CelloVoiceI_a = {
     d2.
     :32                                                                %! IC
     \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                    %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC
     \startTextSpan                                                     %! PIC
@@ -3529,9 +3580,10 @@ Q_CelloVoiceI_a = {
     d1
     :32                                                                %! IC
     \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                            %! PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                      %! PIC
@@ -3586,8 +3638,9 @@ Q_CelloVoiceII_a = {
     g,1
     :32                                                                %! IC
     \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                    %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC
     \startTextSpan                                                     %! PIC
@@ -3602,9 +3655,10 @@ Q_CelloVoiceII_a = {
     g,1
     :32                                                                %! IC
     \f                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                            %! PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                      %! PIC
     - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -3634,8 +3688,9 @@ Q_CelloVoiceII_a = {
     g,2.
     :32                                                                %! IC
     \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                    %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC
     \startTextSpan                                                     %! PIC
@@ -3650,9 +3705,10 @@ Q_CelloVoiceII_a = {
     g,1
     :32                                                                %! IC
     \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                            %! PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                      %! PIC
     - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -3750,8 +3806,9 @@ Q_ContrabassVoiceIII_a = {
     g,1
     :32                                                                %! IC
     \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                    %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC
     \startTextSpan                                                     %! PIC
@@ -3766,9 +3823,10 @@ Q_ContrabassVoiceIII_a = {
     g,1
     :32                                                                %! IC
     \f                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                            %! PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                      %! PIC
     - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -3798,8 +3856,9 @@ Q_ContrabassVoiceIII_a = {
     g,2.
     :32                                                                %! IC
     \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                    %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto"        %! PIC
     \startTextSpan                                                     %! PIC
@@ -3814,9 +3873,10 @@ Q_ContrabassVoiceIII_a = {
     g,1
     :32                                                                %! IC
     \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                            %! PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \stopTextSpan                                                      %! PIC
     - \abjad_dashed_line_with_arrow                                    %! PIC
