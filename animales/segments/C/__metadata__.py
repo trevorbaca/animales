@@ -448,8 +448,8 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='ContrabassVoiceIII',
-                                prototype='abjad.Dynamic',
-                                value='p',
+                                prototype='abjad.DynamicTrend',
+                                value='<',
                                 ),
                             ],
                         ),

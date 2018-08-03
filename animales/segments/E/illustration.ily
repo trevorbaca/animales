@@ -162,7 +162,8 @@ E_ClarinetVoiceI_a = {
             #(x11-color 'blue)                                         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
             "[“Cl. 3”]"                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
         }                                                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)  %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -269,9 +270,10 @@ E_PercussionVoiceI_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    - \tweak to-barline ##t                                            %! PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
 %@% - \tweak direction #up                                             %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
 %@% \repeatTie                                                         %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -488,7 +490,8 @@ E_FirstViolinVoiceI_a = {
             #(x11-color 'blue)                                     %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
             "[“Vni. I”]"                                           %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
         }                                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
 %@% \repeatTie                                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                                         %! SC
     \glissando                                                     %! SC
@@ -720,7 +723,8 @@ E_SecondViolinVoiceI_a = {
             #(x11-color 'blue)                                     %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
             "[“Vni. II”]"                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
         }                                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
 %@% \repeatTie                                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                                         %! SC
     \glissando                                                     %! SC
@@ -952,7 +956,8 @@ E_ViolaVoiceI_a = {
             #(x11-color 'blue)                                     %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
             [“Vle.”]                                               %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
         }                                                          %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
 %@% \repeatTie                                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                                         %! SC
     \glissando                                                     %! SC
@@ -1184,7 +1189,8 @@ E_CelloVoiceI_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Cello”)                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
 %@% \repeatTie                                                         %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \tweak style #'trill                                             %! SC
     \glissando                                                         %! SC
@@ -1325,7 +1331,8 @@ E_ContrabassVoiceIII_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Contrabass”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
 %@% \repeatTie                                                         %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \glissando                                                         %! SC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37

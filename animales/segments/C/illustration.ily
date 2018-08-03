@@ -178,7 +178,8 @@ C_ClarinetVoiceI_a = {
     \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "solo (cl. 3)" }                                       %! IC:-PARTS
 %%% ^ \markup { solo }                                                 %! IC:+PARTS
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [C ClarinetVoiceI measure 21 / measure 4]                        %! SM4
     d''1
@@ -1325,7 +1326,8 @@ C_FirstViolinVoiceII_a = {
     \p                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "solo (first violin)" }                            %! IC:-PARTS
 %%% ^ \markup { solo }                                             %! IC:+PARTS
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \glissando                                                     %! SC
     
     b'8
@@ -1380,7 +1382,8 @@ C_FirstViolinVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d'''8
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ]
     \glissando                                                     %! SC
     
@@ -2224,7 +2227,8 @@ C_ContrabassVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     c1
     \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [C ContrabassVoiceIII measure 21 / measure 4]                    %! SM4
     c1

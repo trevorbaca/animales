@@ -157,7 +157,8 @@ G_ClarinetVoiceI_a = {
             #(x11-color 'blue)                                         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
             "[“Cl. 1”]"                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
         }                                                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS:ANIMALES
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)  %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS:ANIMALES
     \set Staff.instrumentName =                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS:ANIMALES
@@ -273,8 +274,9 @@ G_BassClarinetVoiceI_a = {
     
     % [G BassClarinetVoiceI measure 48 / measure 5]                    %! SM4
     b2.
-    - \tweak circled-tip ##t                                           %! PIC
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [G BassClarinetVoiceI measure 49 / measure 6]                    %! SM4
     b1
@@ -532,9 +534,10 @@ G_PercussionVoiceII_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    - \tweak to-barline ##t                                            %! PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
 %@% - \tweak direction #up                                             %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
 %@% \repeatTie                                                         %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -755,7 +758,8 @@ G_FirstViolinVoiceI_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Violin”)                                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak style #'trill                                             %! SC
     \glissando                                                         %! SC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -902,7 +906,8 @@ G_SecondViolinVoiceI_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Violin”)                                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak style #'trill                                             %! SC
     \glissando                                                         %! SC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -1049,7 +1054,8 @@ G_ViolaVoiceI_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Viola”)                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak style #'trill                                             %! SC
     \glissando                                                         %! SC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -1196,7 +1202,8 @@ G_CelloVoiceI_a = {
             #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Cello”)                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak style #'trill                                             %! SC
     \glissando                                                         %! SC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -1474,7 +1481,8 @@ G_ContrabassVoiceIII_a = {
             #(x11-color 'green4)                                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Contrabass”)                                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \glissando                                                     %! SC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37

@@ -240,8 +240,9 @@ O_OboeVoiceI_a = {
             #(x11-color 'DarkViolet)                               %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
             [“Ob.”]                                                %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
         }                                                          %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.InstrumentName.color = #(x11-color 'violet)    %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \set Staff.instrumentName =                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     \markup {                                                      %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
@@ -265,9 +266,10 @@ O_OboeVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a'1
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [O OboeVoiceI measure 98 / measure 4]                        %! SM4
@@ -354,8 +356,9 @@ O_EnglishHornVoiceI_a = {
             #(x11-color 'DarkViolet)                               %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
             "[“Eng. hn.”]"                                         %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
         }                                                          %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-    - \tweak circled-tip ##t                                       %! PIC
-    \<                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.InstrumentName.color = #(x11-color 'violet)    %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \set Staff.instrumentName =                                    %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     \markup {                                                      %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
@@ -379,9 +382,10 @@ O_EnglishHornVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d'1
     \f                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                        %! PIC
-    - \tweak circled-tip ##t                                       %! PIC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [O EnglishHornVoiceI measure 98 / measure 4]                 %! SM4
@@ -446,8 +450,9 @@ O_BassoonVoiceI_a = {
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC:+PARTS
     b2.
 %%% \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC:+PARTS
-%%% - \tweak circled-tip ##t                                           %! PIC:+PARTS
-%%% \<                                                                 %! PIC:+PARTS
+%%% - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC:+PARTS
+%%% - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC:+PARTS
+%%% \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC:+PARTS
     \override Staff.Clef.color = #(x11-color 'violet)                  %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     % [O BassoonVoiceI measure 96 / measure 2]                         %! SM4
@@ -458,9 +463,10 @@ O_BassoonVoiceI_a = {
 %%% \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC:+PARTS
     b1
 %%% \f                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC:+PARTS
-%%% - \tweak to-barline ##t                                            %! PIC:+PARTS
-%%% - \tweak circled-tip ##t                                           %! PIC:+PARTS
-%%% \>                                                                 %! PIC:+PARTS
+%%% - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC:+PARTS
+%%% - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC:+PARTS
+%%% - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC:+PARTS
+%%% \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC:+PARTS
     \repeatTie
     
     % [O BassoonVoiceI measure 98 / measure 4]                         %! SM4
@@ -538,8 +544,9 @@ O_BassoonVoiceII_a = {
             #(x11-color 'DarkViolet)                                   %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
             [“Bsn.”]                                                   %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
         }                                                              %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-    - \tweak circled-tip ##t                                           %! PIC
-    \<                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.InstrumentName.color = #(x11-color 'violet)        %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
     \set Staff.instrumentName =                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
     \markup {                                                          %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
@@ -562,9 +569,10 @@ O_BassoonVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     g,1
     \f                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                            %! PIC
-    - \tweak circled-tip ##t                                           %! PIC
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [O BassoonVoiceII measure 98 / measure 4]                        %! SM4
@@ -721,7 +729,8 @@ O_FirstViolinVoiceI_a = {
     :32                                                            %! IC
     \ff                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                       %! IC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
@@ -829,7 +838,8 @@ O_FirstViolinVoiceII_a = {
     :32                                                            %! IC
     \ff                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                       %! IC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
@@ -1007,7 +1017,8 @@ O_FirstViolinVoiceIII_a = {
     :32                                                            %! IC
     \ff                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                       %! IC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
@@ -1115,7 +1126,8 @@ O_FirstViolinVoiceIV_a = {
     :32                                                            %! IC
     \ff                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                       %! IC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
@@ -1447,7 +1459,8 @@ O_SecondViolinVoiceI_a = {
     :32                                                            %! IC
     \ff                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                       %! IC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
@@ -1560,7 +1573,8 @@ O_SecondViolinVoiceII_a = {
     :32                                                            %! IC
     \ff                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                       %! IC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
@@ -1738,7 +1752,8 @@ O_SecondViolinVoiceIII_a = {
     :32                                                            %! IC
     \ff                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                       %! IC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
@@ -1846,7 +1861,8 @@ O_SecondViolinVoiceIV_a = {
     :32                                                            %! IC
     \ff                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                       %! IC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
@@ -2024,7 +2040,8 @@ O_ViolaVoiceI_a = {
     :32                                                            %! IC
     \ff                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                       %! IC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
@@ -2132,7 +2149,8 @@ O_ViolaVoiceII_a = {
     :32                                                            %! IC
     \ff                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                       %! IC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
@@ -2310,7 +2328,8 @@ O_ViolaVoiceIII_a = {
     :32                                                            %! IC
     \ff                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                       %! IC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
@@ -2418,7 +2437,8 @@ O_ViolaVoiceIV_a = {
     :32                                                            %! IC
     \ff                                                            %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                       %! IC
-    \>                                                             %! PIC
+    - \tweak color #blue                                           %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont." %! PIC
@@ -2596,7 +2616,8 @@ O_CelloVoiceI_a = {
     :32                                                                %! IC
     \ff                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                           %! IC
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -2709,7 +2730,8 @@ O_CelloVoiceII_a = {
     :32                                                                %! IC
     \ff                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                           %! IC
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                    %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC
@@ -2862,7 +2884,8 @@ O_ContrabassVoiceIII_a = {
     :32                                                                %! IC
     \ff                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
     -\accent                                                           %! IC
-    \>                                                                 %! PIC
+    - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                    %! PIC
     - \tweak bound-details.left.text \markup \baca-left "ext. pont."   %! PIC
