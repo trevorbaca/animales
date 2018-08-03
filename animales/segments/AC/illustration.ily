@@ -1,83 +1,83 @@
 AC_GlobalRests = {
     
-    % [AC GlobalRests measure 165 / measure 1]                                     %! SM4
+    % [AC GlobalRests measure 165 / measure 1]                                     %! SM_4
     R1 * 3/4
     
-    % [AC GlobalRests measure 166 / measure 2]                                     %! SM4
+    % [AC GlobalRests measure 166 / measure 2]                                     %! SM_4
     R1 * 3/4
     
-    % [AC GlobalRests measure 167 / measure 3]                                     %! SM4
+    % [AC GlobalRests measure 167 / measure 3]                                     %! SM_4
     R1 * 1
     
-    % [AC GlobalRests measure 168 / measure 4]                                     %! SM4
+    % [AC GlobalRests measure 168 / measure 4]                                     %! SM_4
     R1 * 1
     
-    % [AC GlobalRests measure 169 / measure 5]                                     %! SM4
+    % [AC GlobalRests measure 169 / measure 5]                                     %! SM_4
     R1 * 1
     
-    % [AC GlobalRests measure 170 / measure 6]                                     %! SM4
+    % [AC GlobalRests measure 170 / measure 6]                                     %! SM_4
     R1 * 3/4
     
-    % [AC GlobalRests measure 171 / measure 7]                                     %! SM4
+    % [AC GlobalRests measure 171 / measure 7]                                     %! SM_4
     R1 * 3/4
     
-    % [AC GlobalRests measure 172 / measure 8]                                     %! SM4
+    % [AC GlobalRests measure 172 / measure 8]                                     %! SM_4
     R1 * 1
     
-    % [AC GlobalRests measure 173 / measure 9]                                     %! SM4
+    % [AC GlobalRests measure 173 / measure 9]                                     %! SM_4
     R1 * 1
     
-    % [AC GlobalRests measure 174 / measure 10]                                    %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
-    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
+    % [AC GlobalRests measure 174 / measure 10]                                    %! SM_4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC_2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC_2
     R1 * 1/4
-    ^ \markup {                                                                    %! GFC1
-        \musicglyph                                                                %! GFC1
-            #"scripts.ufermata"                                                    %! GFC1
-        }                                                                          %! GFC1
+    ^ \markup {                                                                    %! GFC_1
+        \musicglyph                                                                %! GFC_1
+            #"scripts.ufermata"                                                    %! GFC_1
+        }                                                                          %! GFC_1
     
 }
 
 
 AC_GlobalSkips = {
     
-    % [AC GlobalSkips measure 165 / measure 1]                                     %! SM4
+    % [AC GlobalSkips measure 165 / measure 1]                                     %! SM_4
 %%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                      %! OC1:+TABLOID_SCORE
-    \time 3/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \time 3/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \mark #29                                                                      %! IC
     \bar ""                                                                        %! SM2:+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/4
 %@% ^ \markup \baca-dark-cyan-markup (165)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <0>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((1))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup [AC.1]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[5'47'']"                                    %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI1
-%@% - \abjad_invisible_line                                                        %! MMI2
-%@% - \tweak bound-details.left.text \markup {                                     %! MMI2
-%@%     \concat                                                                    %! MMI2
-%@%         {                                                                      %! MMI2
-%@%             \abjad-metronome-mark-markup #2 #0 #1 #"76"                        %! MMI2
-%@%             \hspace                                                            %! MMI2
-%@%                 #0.5                                                           %! MMI2
-%@%         }                                                                      %! MMI2
-%@%     }                                                                          %! MMI2
-%@% \startTextSpan                                                                 %! MMI2
-    - \abjad_invisible_line                                                        %! MMI3
-    - \tweak bound-details.left.text \markup {                                     %! MMI3
-        \concat                                                                    %! MMI3
-            {                                                                      %! MMI3
-                \with-color                                                        %! MMI3
-                    #(x11-color 'green4)                                           %! MMI3
-                    \abjad-metronome-mark-markup #2 #0 #1 #"76"                    %! MMI3
-                \hspace                                                            %! MMI3
-                    #0.5                                                           %! MMI3
-            }                                                                      %! MMI3
-        }                                                                          %! MMI3
-    \startTextSpan                                                                 %! MMI3
+    \stopTextSpan                                                                  %! MMI_1
+%@% - \abjad_invisible_line                                                        %! MMI_2
+%@% - \tweak bound-details.left.text \markup {                                     %! MMI_2
+%@%     \concat                                                                    %! MMI_2
+%@%         {                                                                      %! MMI_2
+%@%             \abjad-metronome-mark-markup #2 #0 #1 #"76"                        %! MMI_2
+%@%             \hspace                                                            %! MMI_2
+%@%                 #0.5                                                           %! MMI_2
+%@%         }                                                                      %! MMI_2
+%@%     }                                                                          %! MMI_2
+%@% \startTextSpan                                                                 %! MMI_2
+    - \abjad_invisible_line                                                        %! MMI_3
+    - \tweak bound-details.left.text \markup {                                     %! MMI_3
+        \concat                                                                    %! MMI_3
+            {                                                                      %! MMI_3
+                \with-color                                                        %! MMI_3
+                    #(x11-color 'green4)                                           %! MMI_3
+                    \abjad-metronome-mark-markup #2 #0 #1 #"76"                    %! MMI_3
+                \hspace                                                            %! MMI_3
+                    #0.5                                                           %! MMI_3
+            }                                                                      %! MMI_3
+        }                                                                          %! MMI_3
+    \startTextSpan                                                                 %! MMI_3
     
-    % [AC GlobalSkips measure 166 / measure 2]                                     %! SM4
+    % [AC GlobalSkips measure 166 / measure 2]                                     %! SM_4
     s1 * 3/4
 %@% ^ \markup \baca-dark-cyan-markup (166)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <1>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -85,9 +85,9 @@ AC_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [AC.2]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[5'49'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [AC GlobalSkips measure 167 / measure 3]                                     %! SM4
-    \time 4/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [AC GlobalSkips measure 167 / measure 3]                                     %! SM_4
+    \time 4/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (167)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <2>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -95,7 +95,7 @@ AC_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [AC.3]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[5'51'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [AC GlobalSkips measure 168 / measure 4]                                     %! SM4
+    % [AC GlobalSkips measure 168 / measure 4]                                     %! SM_4
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (168)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <3>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -103,7 +103,7 @@ AC_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [AC.4]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[5'54'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [AC GlobalSkips measure 169 / measure 5]                                     %! SM4
+    % [AC GlobalSkips measure 169 / measure 5]                                     %! SM_4
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (169)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <4>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -111,9 +111,9 @@ AC_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [AC.5]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[5'58'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [AC GlobalSkips measure 170 / measure 6]                                     %! SM4
-    \time 3/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [AC GlobalSkips measure 170 / measure 6]                                     %! SM_4
+    \time 3/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/4
 %@% ^ \markup \baca-dark-cyan-markup (170)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <5>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -121,7 +121,7 @@ AC_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [AC.6]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[6'01'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [AC GlobalSkips measure 171 / measure 7]                                     %! SM4
+    % [AC GlobalSkips measure 171 / measure 7]                                     %! SM_4
     s1 * 3/4
 %@% ^ \markup \baca-dark-cyan-markup (171)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <6>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -129,9 +129,9 @@ AC_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [AC.7]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[6'03'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [AC GlobalSkips measure 172 / measure 8]                                     %! SM4
-    \time 4/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [AC GlobalSkips measure 172 / measure 8]                                     %! SM_4
+    \time 4/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (172)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <7>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -139,7 +139,7 @@ AC_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [AC.8]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[6'05'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [AC GlobalSkips measure 173 / measure 9]                                     %! SM4
+    % [AC GlobalSkips measure 173 / measure 9]                                     %! SM_4
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (173)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <8>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -147,25 +147,25 @@ AC_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [AC.9]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[6'09'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [AC GlobalSkips measure 174 / measure 10]                                    %! SM4
-    \time 1/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [AC GlobalSkips measure 174 / measure 10]                                    %! SM_4
+    \time 1/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/4
 %@% ^ \markup \baca-dark-cyan-markup (174)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <9>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((10))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup [AC.10]                                       %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[6'12'']"                                    %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI4
-    \baca_bar_line_visible                                                         %! SM5
-    \bar "|."                                                                      %! SM5
+    \stopTextSpan                                                                  %! MMI_4
+    \baca_bar_line_visible                                                         %! SM_5
+    \bar "|."                                                                      %! SM_5
     
 }
 
 
 AC_PianoVoiceI_a = {
     
-    % [AC PianoVoiceI measure 165 / measure 1]                         %! SM4
+    % [AC PianoVoiceI measure 165 / measure 1]                         %! SM_4
     \set Staff.instrumentName =                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -221,41 +221,41 @@ AC_PianoVoiceI_a = {
         }                                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [AC PianoVoiceI measure 166 / measure 2]                         %! SM4
+    % [AC PianoVoiceI measure 166 / measure 2]                         %! SM_4
     cs'!2.
     -\laissezVibrer                                                    %! IC
     
-    % [AC PianoVoiceI measure 167 / measure 3]                         %! SM4
+    % [AC PianoVoiceI measure 167 / measure 3]                         %! SM_4
     cs'!1
     -\laissezVibrer                                                    %! IC
     
-    % [AC PianoVoiceI measure 168 / measure 4]                         %! SM4
+    % [AC PianoVoiceI measure 168 / measure 4]                         %! SM_4
     cs'!1
     -\laissezVibrer                                                    %! IC
     
-    % [AC PianoVoiceI measure 169 / measure 5]                         %! SM4
+    % [AC PianoVoiceI measure 169 / measure 5]                         %! SM_4
     cs'!1
     -\laissezVibrer                                                    %! IC
     
-    % [AC PianoVoiceI measure 170 / measure 6]                         %! SM4
+    % [AC PianoVoiceI measure 170 / measure 6]                         %! SM_4
     cs'!2.
     -\laissezVibrer                                                    %! IC
     
-    % [AC PianoVoiceI measure 171 / measure 7]                         %! SM4
+    % [AC PianoVoiceI measure 171 / measure 7]                         %! SM_4
     cs'!2.
     -\laissezVibrer                                                    %! IC
     
-    % [AC PianoVoiceI measure 172 / measure 8]                         %! SM4
+    % [AC PianoVoiceI measure 172 / measure 8]                         %! SM_4
     cs'!1
     -\laissezVibrer                                                    %! IC
     
-    % [AC PianoVoiceI measure 173 / measure 9]                         %! SM4
+    % [AC PianoVoiceI measure 173 / measure 9]                         %! SM_4
     cs'!1
     -\laissezVibrer                                                    %! IC
     \revert NoteHead.style                                             %! OC2
 %%% \revert TextScript.X-offset                                        %! OC2:+PARTS
     
-    % [AC PianoVoiceI measure 174 / measure 10]                        %! SM4
+    % [AC PianoVoiceI measure 174 / measure 10]                        %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f                  %! IC:+PARTS
     R1 * 1/4
@@ -280,7 +280,7 @@ AC_PianoStaffI = {
 
 AC_PercussionVoiceIV_a = {
     
-    % [AC PercussionVoiceIV measure 165 / measure 1]                   %! SM4
+    % [AC PercussionVoiceIV measure 165 / measure 1]                   %! SM_4
     \stopStaff                                                         %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                        %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -364,7 +364,7 @@ AC_PercussionVoiceIV_a = {
     c'4
     \repeatTie
     
-    % [AC PercussionVoiceIV measure 166 / measure 2]                   %! SM4
+    % [AC PercussionVoiceIV measure 166 / measure 2]                   %! SM_4
     c'4
     \repeatTie
     
@@ -374,20 +374,7 @@ AC_PercussionVoiceIV_a = {
     c'4
     \repeatTie
     
-    % [AC PercussionVoiceIV measure 167 / measure 3]                   %! SM4
-    c'4
-    \repeatTie
-    
-    c'4
-    \repeatTie
-    
-    c'4
-    \repeatTie
-    
-    c'4
-    \repeatTie
-    
-    % [AC PercussionVoiceIV measure 168 / measure 4]                   %! SM4
+    % [AC PercussionVoiceIV measure 167 / measure 3]                   %! SM_4
     c'4
     \repeatTie
     
@@ -400,7 +387,7 @@ AC_PercussionVoiceIV_a = {
     c'4
     \repeatTie
     
-    % [AC PercussionVoiceIV measure 169 / measure 5]                   %! SM4
+    % [AC PercussionVoiceIV measure 168 / measure 4]                   %! SM_4
     c'4
     \repeatTie
     
@@ -413,7 +400,7 @@ AC_PercussionVoiceIV_a = {
     c'4
     \repeatTie
     
-    % [AC PercussionVoiceIV measure 170 / measure 6]                   %! SM4
+    % [AC PercussionVoiceIV measure 169 / measure 5]                   %! SM_4
     c'4
     \repeatTie
     
@@ -423,7 +410,10 @@ AC_PercussionVoiceIV_a = {
     c'4
     \repeatTie
     
-    % [AC PercussionVoiceIV measure 171 / measure 7]                   %! SM4
+    c'4
+    \repeatTie
+    
+    % [AC PercussionVoiceIV measure 170 / measure 6]                   %! SM_4
     c'4
     \repeatTie
     
@@ -433,7 +423,17 @@ AC_PercussionVoiceIV_a = {
     c'4
     \repeatTie
     
-    % [AC PercussionVoiceIV measure 172 / measure 8]                   %! SM4
+    % [AC PercussionVoiceIV measure 171 / measure 7]                   %! SM_4
+    c'4
+    \repeatTie
+    
+    c'4
+    \repeatTie
+    
+    c'4
+    \repeatTie
+    
+    % [AC PercussionVoiceIV measure 172 / measure 8]                   %! SM_4
     c'4
     \repeatTie
     
@@ -447,10 +447,10 @@ AC_PercussionVoiceIV_a = {
     \repeatTie
 %%% \revert TextScript.X-offset                                        %! OC2:+PARTS
     
-    % [AC PercussionVoiceIV measure 173 / measure 9]                   %! SM4
+    % [AC PercussionVoiceIV measure 173 / measure 9]                   %! SM_4
     R1 * 1
     
-    % [AC PercussionVoiceIV measure 174 / measure 10]                  %! SM4
+    % [AC PercussionVoiceIV measure 174 / measure 10]                  %! SM_4
 %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! IC:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f                  %! IC:+PARTS
     R1 * 1/4

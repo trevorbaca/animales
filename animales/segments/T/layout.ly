@@ -13,7 +13,7 @@
         \context PageLayout = "PageLayout"
         {   %*% PageLayout
             
-            % [PageLayout measure 137]                                                   %! SM4
+            % [PageLayout measure 137]                                                   %! SM_4
             \baca_new_spacing_section #1 #12                                             %! HSS1:SPACING
             \autoPageBreaksOff                                                           %! BMM1:BREAK
             \noBreak                                                                     %! BMM2:BREAK
@@ -22,13 +22,13 @@
             s1 * 1/2
         %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 138]                                                   %! SM4
+            % [PageLayout measure 138]                                                   %! SM_4
             \baca_new_spacing_section #1 #12                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 139]                                                   %! SM4
+            % [PageLayout measure 139]                                                   %! SM_4
             \baca_new_spacing_section #35 #288                                           %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1

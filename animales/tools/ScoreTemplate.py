@@ -66,7 +66,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #16                      %! ST2:-PARTS
                                         Fl.                      %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
-                                \clef "treble" %! ST3
+                                \clef "treble" %! ST_3
                                 s1
                             }
                             \context Voice = "FluteVoiceII"
@@ -90,7 +90,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #16                      %! ST2:-PARTS
                                         Fl.                      %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
-                                \clef "treble" %! ST3
+                                \clef "treble" %! ST_3
                                 s1
                             }
                         }
@@ -120,7 +120,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #16                      %! ST2:-PARTS
                                         "Vni. I"                 %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
-                                \clef "treble" %! ST3
+                                \clef "treble" %! ST_3
                                 s1
                             }
                         }
@@ -140,7 +140,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #16                      %! ST2:-PARTS
                                         "Vni. I"                 %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
-                                \clef "treble" %! ST3
+                                \clef "treble" %! ST_3
                                 s1
                             }
                         }
@@ -167,7 +167,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #16                      %! ST2:-PARTS
                                         "Vni. II"                %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
-                                \clef "treble" %! ST3
+                                \clef "treble" %! ST_3
                                 s1
                             }
                         }
@@ -187,7 +187,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #16                      %! ST2:-PARTS
                                         "Vni. II"                %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
-                                \clef "treble" %! ST3
+                                \clef "treble" %! ST_3
                                 s1
                             }
                         }
@@ -208,7 +208,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #16                      %! ST2:-PARTS
                                     Vle.                     %! ST2:-PARTS
                                 }                            %! ST2:-PARTS
-                            \clef "alto" %! ST3
+                            \clef "alto" %! ST_3
                             s1
                         }
                     }
@@ -228,7 +228,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #16                      %! ST2:-PARTS
                                     Vc.                      %! ST2:-PARTS
                                 }                            %! ST2:-PARTS
-                            \clef "bass" %! ST3
+                            \clef "bass" %! ST_3
                             s1
                         }
                     }
@@ -248,7 +248,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #16                      %! ST2:-PARTS
                                     Cb.                      %! ST2:-PARTS
                                 }                            %! ST2:-PARTS
-                            \clef "bass" %! ST3
+                            \clef "bass" %! ST_3
                             s1
                         }
                     }
@@ -304,7 +304,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #16                      %! ST2:-PARTS
                                         Bsn.                     %! ST2:-PARTS
                                     }                            %! ST2:-PARTS
-                                \clef "bass" %! ST3
+                                \clef "bass" %! ST_3
                                 s1
                             }
                         }
