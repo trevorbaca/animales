@@ -42,38 +42,38 @@ def downbeat_attack(count=1, denominator=8):
                     \context GlobalRests = "GlobalRests"
                     {
             <BLANKLINE>
-                        % [GlobalRests measure 1]                                                    %! SM_4
-                        R1 * 1
+                        % [GlobalRests measure 1]                                                    %! COMMENT_MEASURE_NUMBERS
+                        R1 * 1                                                                       %! MAKE_GLOBAL_RESTS
             <BLANKLINE>
-                        % [GlobalRests measure 2]                                                    %! SM_4
-                        R1 * 3/4
+                        % [GlobalRests measure 2]                                                    %! COMMENT_MEASURE_NUMBERS
+                        R1 * 3/4                                                                     %! MAKE_GLOBAL_RESTS
             <BLANKLINE>
-                        % [GlobalRests measure 3]                                                    %! SM_4
-                        R1 * 1/2
+                        % [GlobalRests measure 3]                                                    %! COMMENT_MEASURE_NUMBERS
+                        R1 * 1/2                                                                     %! MAKE_GLOBAL_RESTS
             <BLANKLINE>
                     }
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                                    %! SM_4
+                        % [GlobalSkips measure 1]                                                    %! COMMENT_MEASURE_NUMBERS
                         \baca_new_spacing_section #1 #8                                              %! HSS1:SPACING
-                        \time 4/4                                                                    %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                            %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        \time 4/4                                                                    %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                            %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 1                                                                       %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                                    %! SM_4
+                        % [GlobalSkips measure 2]                                                    %! COMMENT_MEASURE_NUMBERS
                         \baca_new_spacing_section #1 #8                                              %! HSS1:SPACING
-                        \time 3/4                                                                    %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                            %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        \time 3/4                                                                    %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                            %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 3/4                                                                     %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                                    %! SM_4
+                        % [GlobalSkips measure 3]                                                    %! COMMENT_MEASURE_NUMBERS
                         \baca_new_spacing_section #1 #8                                              %! HSS1:SPACING
-                        \time 2/4                                                                    %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                            %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        \time 2/4                                                                    %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                            %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 1/2                                                                     %! MAKE_GLOBAL_SKIPS_1
-                        \baca_bar_line_visible                                                       %! SM_5
-                        \bar "|"                                                                     %! SM_5
+                        \baca_bar_line_visible                                                       %! ATTACH_FINAL_BAR_LINE
+                        \bar "|"                                                                     %! ATTACH_FINAL_BAR_LINE
             <BLANKLINE>
                     }
                 >>
@@ -87,24 +87,24 @@ def downbeat_attack(count=1, denominator=8):
                             {
                                 {   %*% PartAssignment('Horn')
             <BLANKLINE>
-                                    % [HornVoiceI measure 1]                                         %! SM_4
-                                    \set Staff.instrumentName =                                      %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-                                    \markup {                                                        %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-                                        \hcenter-in                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-                                            #16                                                      %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-                                            Hn.                                                      %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-                                        }                                                            %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-                                    \set Staff.shortInstrumentName =                                 %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-                                    \markup {                                                        %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-                                        \hcenter-in                                                  %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-                                            #16                                                      %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-                                            Hn.                                                      %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-                                        }                                                            %! SM8:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
-                                    \clef "bass"                                                     %! SM8:DEFAULT_CLEF:ST_3
-                                    \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
-                                    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)      %! SM6:DEFAULT_CLEF_COLOR:ST_3
-                                %@% \override Staff.Clef.color = ##f                                 %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST_3
-                                    \set Staff.forceClef = ##t                                       %! SM8:DEFAULT_CLEF:SM33:ST_3
+                                    % [HornVoiceI measure 1]                                         %! COMMENT_MEASURE_NUMBERS
+                                    \set Staff.instrumentName =                                      %! SET_STATUS_TAG:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+                                    \markup {                                                        %! SET_STATUS_TAG:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+                                        \hcenter-in                                                  %! SET_STATUS_TAG:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+                                            #16                                                      %! SET_STATUS_TAG:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+                                            Hn.                                                      %! SET_STATUS_TAG:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+                                        }                                                            %! SET_STATUS_TAG:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+                                    \set Staff.shortInstrumentName =                                 %! SET_STATUS_TAG:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+                                    \markup {                                                        %! SET_STATUS_TAG:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+                                        \hcenter-in                                                  %! SET_STATUS_TAG:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+                                            #16                                                      %! SET_STATUS_TAG:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+                                            Hn.                                                      %! SET_STATUS_TAG:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+                                        }                                                            %! SET_STATUS_TAG:DEFAULT_MARGIN_MARKUP:ST2:-PARTS
+                                    \clef "bass"                                                     %! SET_STATUS_TAG:DEFAULT_CLEF:ST_3
+                                    \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! ATTACH_COLOR_LITERAL_2:DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
+                                    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)      %! ATTACH_COLOR_LITERAL_2:DEFAULT_CLEF_COLOR:ST_3
+                                %@% \override Staff.Clef.color = ##f                                 %! ATTACH_COLOR_LITERAL_1:DEFAULT_CLEF_COLOR_CANCELLATION:ST_3
+                                    \set Staff.forceClef = ##t                                       %! SET_STATUS_TAG:DEFAULT_CLEF:SM33:ST_3
                                     a8
                                     ^ \markup {                                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST_1
                                         \with-color                                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST_1
@@ -116,28 +116,28 @@ def downbeat_attack(count=1, denominator=8):
                                             #(x11-color 'DarkViolet)                                 %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
                                             [“Hn.”]                                                  %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
                                         }                                                            %! SM11:DEFAULT_MARGIN_MARKUP_ALERT:ST2:-PARTS
-                                    \override Staff.InstrumentName.color = #(x11-color 'violet)      %! SM6:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
-                                    \set Staff.instrumentName =                                      %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-                                    \markup {                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-                                        \hcenter-in                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-                                            #16                                                      %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-                                            Hn.                                                      %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-                                        }                                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-                                    \set Staff.shortInstrumentName =                                 %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-                                    \markup {                                                        %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-                                        \hcenter-in                                                  %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-                                            #16                                                      %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-                                            Hn.                                                      %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-                                        }                                                            %! SM8:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
-                                    \override Staff.Clef.color = #(x11-color 'violet)                %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST_3
+                                    \override Staff.InstrumentName.color = #(x11-color 'violet)      %! ATTACH_COLOR_LITERAL_2:REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:ST2:-PARTS
+                                    \set Staff.instrumentName =                                      %! SET_STATUS_TAG:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+                                    \markup {                                                        %! SET_STATUS_TAG:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+                                        \hcenter-in                                                  %! SET_STATUS_TAG:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+                                            #16                                                      %! SET_STATUS_TAG:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+                                            Hn.                                                      %! SET_STATUS_TAG:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+                                        }                                                            %! SET_STATUS_TAG:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+                                    \set Staff.shortInstrumentName =                                 %! SET_STATUS_TAG:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+                                    \markup {                                                        %! SET_STATUS_TAG:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+                                        \hcenter-in                                                  %! SET_STATUS_TAG:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+                                            #16                                                      %! SET_STATUS_TAG:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+                                            Hn.                                                      %! SET_STATUS_TAG:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+                                        }                                                            %! SET_STATUS_TAG:REDRAWN_DEFAULT_MARGIN_MARKUP:SM34:ST2:-PARTS
+                                    \override Staff.Clef.color = #(x11-color 'violet)                %! ATTACH_COLOR_LITERAL_2:DEFAULT_CLEF_REDRAW_COLOR:ST_3
             <BLANKLINE>
                                     r2..
                                 }   %*% PartAssignment('Horn')
             <BLANKLINE>
-                                % [HornVoiceI measure 2]                                             %! SM_4
+                                % [HornVoiceI measure 2]                                             %! COMMENT_MEASURE_NUMBERS
                                 R1 * 3/4
             <BLANKLINE>
-                                % [HornVoiceI measure 3]                                             %! SM_4
+                                % [HornVoiceI measure 3]                                             %! COMMENT_MEASURE_NUMBERS
                                 R1 * 1/2
             <BLANKLINE>
                             }
