@@ -137,7 +137,7 @@ E_ClarinetVoiceI_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)    %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ds''!1
+    ds''!1                                                             %! baca_make_repeat_tied_notes
     \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "(“Clarinet”)"          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "solo (cl. 3)" }                                       %! IndicatorCommand:-PARTS
@@ -159,24 +159,24 @@ E_ClarinetVoiceI_a = {
         }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
     
     % [E ClarinetVoiceI measure 31 / measure 2]                        %! _comment_measure_numbers
-    ds''!1
+    ds''!1                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E ClarinetVoiceI measure 32 / measure 3]                        %! _comment_measure_numbers
-    ds''!2
+    ds''!2                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E ClarinetVoiceI measure 33 / measure 4]                        %! _comment_measure_numbers
-    ds''!2.
+    ds''!2.                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E ClarinetVoiceI measure 34 / measure 5]                        %! _comment_measure_numbers
-    ds''!2.
+    ds''!2.                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E ClarinetVoiceI measure 35 / measure 6]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ds''!1
+    ds''!1                                                             %! baca_make_repeat_tied_notes
     \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
@@ -218,7 +218,7 @@ E_PercussionVoiceI_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)  %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc. 1 (tri.)”]"    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -243,28 +243,28 @@ E_PercussionVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [E PercussionVoiceI measure 31 / measure 2]                      %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [E PercussionVoiceI measure 32 / measure 3]                      %! _comment_measure_numbers
-    c'2
+    c'2                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie                                                         %! TCC
     
     % [E PercussionVoiceI measure 33 / measure 4]                      %! _comment_measure_numbers
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie                                                         %! TCC
     
     % [E PercussionVoiceI measure 34 / measure 5]                      %! _comment_measure_numbers
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie                                                         %! TCC
     
     % [E PercussionVoiceI measure 35 / measure 6]                      %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
@@ -308,7 +308,7 @@ E_PercussionVoiceII_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)     %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -329,28 +329,28 @@ E_PercussionVoiceII_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [E PercussionVoiceII measure 31 / measure 2]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [E PercussionVoiceII measure 32 / measure 3]                     %! _comment_measure_numbers
-    c'2
+    c'2                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie                                                         %! TCC
     
     % [E PercussionVoiceII measure 33 / measure 4]                     %! _comment_measure_numbers
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie                                                         %! TCC
     
     % [E PercussionVoiceII measure 34 / measure 5]                     %! _comment_measure_numbers
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie                                                         %! TCC
     
     % [E PercussionVoiceII measure 35 / measure 6]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
@@ -385,7 +385,7 @@ E_FirstViolinVoiceI_a = {
     \oneVoice                                                      %! IndicatorCommand:-PARTS
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b4
+    b4                                                             %! baca_make_repeated_duration_notes
 %%% \stopTrillSpan                                                 %! IndicatorCommand:-SEGMENT
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     -\trill                                                        %! IndicatorCommand
@@ -409,70 +409,70 @@ E_FirstViolinVoiceI_a = {
     \override Accidental.stencil = ##f                             %! SpannerCommand
     \override NoteColumn.glissando-skip = ##t                      %! SpannerCommand
     \override NoteHead.no-ledgers = ##t                            %! SpannerCommand
-    c'4
+    c'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    d'4
+    d'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    e'4
+    e'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E FirstViolinVoiceI measure 31 / measure 2]                 %! _comment_measure_numbers
-    f'4
+    f'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    g'4
+    g'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    a'4
+    a'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    b'4
+    b'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E FirstViolinVoiceI measure 32 / measure 3]                 %! _comment_measure_numbers
-    c''4
+    c''4                                                           %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    d''4
+    d''4                                                           %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E FirstViolinVoiceI measure 33 / measure 4]                 %! _comment_measure_numbers
-    f''4
+    f''4                                                           %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    g''4
+    g''4                                                           %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    a''4
+    a''4                                                           %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E FirstViolinVoiceI measure 34 / measure 5]                 %! _comment_measure_numbers
-    b''4
+    b''4                                                           %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    c'''4
+    c'''4                                                          %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    d'''4
+    d'''4                                                          %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E FirstViolinVoiceI measure 35 / measure 6]                 %! _comment_measure_numbers
-    e'''4
+    e'''4                                                          %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    f'''4
+    f'''4                                                          %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    g'''4
+    g'''4                                                          %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     \revert Accidental.stencil                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert NoteColumn.glissando-skip                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert NoteHead.no-ledgers                                    %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \undo \hide NoteHead                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
-    a'''4
+    a'''4                                                          %! baca_make_repeated_duration_notes
 %@% \glissando                                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \!                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS
 %@% \revert Accidental.stencil                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
@@ -570,7 +570,7 @@ E_SecondViolinVoiceI_a = {
     \set Staff.forceClef = ##t                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b4
+    b4                                                             %! baca_make_repeated_duration_notes
 %%% \stopTrillSpan                                                 %! IndicatorCommand:-SEGMENT
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     -\trill                                                        %! IndicatorCommand
@@ -594,70 +594,70 @@ E_SecondViolinVoiceI_a = {
     \override Accidental.stencil = ##f                             %! SpannerCommand
     \override NoteColumn.glissando-skip = ##t                      %! SpannerCommand
     \override NoteHead.no-ledgers = ##t                            %! SpannerCommand
-    c'4
+    c'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    c'4
+    c'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    d'4
+    d'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E SecondViolinVoiceI measure 31 / measure 2]                %! _comment_measure_numbers
-    e'4
+    e'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    e'4
+    e'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    f'4
+    f'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    g'4
+    g'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E SecondViolinVoiceI measure 32 / measure 3]                %! _comment_measure_numbers
-    g'4
+    g'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    a'4
+    a'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E SecondViolinVoiceI measure 33 / measure 4]                %! _comment_measure_numbers
-    b'4
+    b'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    c''4
+    c''4                                                           %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    c''4
+    c''4                                                           %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E SecondViolinVoiceI measure 34 / measure 5]                %! _comment_measure_numbers
-    d''4
+    d''4                                                           %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    e''4
+    e''4                                                           %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    e''4
+    e''4                                                           %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E SecondViolinVoiceI measure 35 / measure 6]                %! _comment_measure_numbers
-    f''4
+    f''4                                                           %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    g''4
+    g''4                                                           %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    g''4
+    g''4                                                           %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     \revert Accidental.stencil                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert NoteColumn.glissando-skip                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert NoteHead.no-ledgers                                    %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \undo \hide NoteHead                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
-    a''4
+    a''4                                                           %! baca_make_repeated_duration_notes
 %@% \glissando                                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \!                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS
 %@% \revert Accidental.stencil                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
@@ -755,7 +755,7 @@ E_ViolaVoiceI_a = {
     \set Staff.forceClef = ##t                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b4
+    b4                                                             %! baca_make_repeated_duration_notes
 %%% \stopTrillSpan                                                 %! IndicatorCommand:-SEGMENT
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     -\trill                                                        %! IndicatorCommand
@@ -779,70 +779,70 @@ E_ViolaVoiceI_a = {
     \override Accidental.stencil = ##f                             %! SpannerCommand
     \override NoteColumn.glissando-skip = ##t                      %! SpannerCommand
     \override NoteHead.no-ledgers = ##t                            %! SpannerCommand
-    b4
+    b4                                                             %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    c'4
+    c'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    c'4
+    c'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E ViolaVoiceI measure 31 / measure 2]                       %! _comment_measure_numbers
-    c'4
+    c'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    d'4
+    d'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    d'4
+    d'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    d'4
+    d'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E ViolaVoiceI measure 32 / measure 3]                       %! _comment_measure_numbers
-    e'4
+    e'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    e'4
+    e'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E ViolaVoiceI measure 33 / measure 4]                       %! _comment_measure_numbers
-    e'4
+    e'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    e'4
+    e'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    f'4
+    f'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E ViolaVoiceI measure 34 / measure 5]                       %! _comment_measure_numbers
-    f'4
+    f'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    f'4
+    f'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    g'4
+    g'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     % [E ViolaVoiceI measure 35 / measure 6]                       %! _comment_measure_numbers
-    g'4
+    g'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    g'4
+    g'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
-    a'4
+    a'4                                                            %! baca_make_repeated_duration_notes
     \glissando                                                     %! SpannerCommand
     
     \revert Accidental.stencil                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert NoteColumn.glissando-skip                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert NoteHead.no-ledgers                                    %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \undo \hide NoteHead                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
-    a'4
+    a'4                                                            %! baca_make_repeated_duration_notes
 %@% \glissando                                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \!                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS
 %@% \revert Accidental.stencil                                     %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
@@ -940,7 +940,7 @@ E_CelloVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b4
+    b4                                                                 %! baca_make_repeated_duration_notes
 %%% \stopTrillSpan                                                     %! IndicatorCommand:-SEGMENT
     \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     -\trill                                                            %! IndicatorCommand
@@ -964,70 +964,70 @@ E_CelloVoiceI_a = {
     \override Accidental.stencil = ##f                                 %! SpannerCommand
     \override NoteColumn.glissando-skip = ##t                          %! SpannerCommand
     \override NoteHead.no-ledgers = ##t                                %! SpannerCommand
-    b4
+    b4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    a4
+    a4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    a4
+    a4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
     % [E CelloVoiceI measure 31 / measure 2]                           %! _comment_measure_numbers
-    a4
+    a4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    g4
+    g4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    g4
+    g4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    g4
+    g4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
     % [E CelloVoiceI measure 32 / measure 3]                           %! _comment_measure_numbers
-    f4
+    f4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    f4
+    f4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
     % [E CelloVoiceI measure 33 / measure 4]                           %! _comment_measure_numbers
-    f4
+    f4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    f4
+    f4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    e4
+    e4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
     % [E CelloVoiceI measure 34 / measure 5]                           %! _comment_measure_numbers
-    e4
+    e4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    e4
+    e4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    d4
+    d4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
     % [E CelloVoiceI measure 35 / measure 6]                           %! _comment_measure_numbers
-    d4
+    d4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    d4
+    d4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    c4
+    c4                                                                 %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
     \revert Accidental.stencil                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert NoteColumn.glissando-skip                                  %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert NoteHead.no-ledgers                                        %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \undo \hide NoteHead                                               %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
-    c4
+    c4                                                                 %! baca_make_repeated_duration_notes
 %@% \glissando                                                         %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \!                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
 %@% \revert Accidental.stencil                                         %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
@@ -1064,7 +1064,7 @@ E_ContrabassVoiceIII_a = {
 %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)  %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b,4
+    b,4                                                                %! baca_make_repeated_duration_notes
     \ff                                                                %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "[“Cb.”]"               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Contrabass”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1085,70 +1085,70 @@ E_ContrabassVoiceIII_a = {
     \override Accidental.stencil = ##f                                 %! SpannerCommand
     \override NoteColumn.glissando-skip = ##t                          %! SpannerCommand
     \override NoteHead.no-ledgers = ##t                                %! SpannerCommand
-    b,4
+    b,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    b,4
+    b,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    b,4
+    b,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
     % [E ContrabassVoiceIII measure 31 / measure 2]                    %! _comment_measure_numbers
-    b,4
+    b,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    b,4
+    b,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    b,4
+    b,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    b,4
+    b,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
     % [E ContrabassVoiceIII measure 32 / measure 3]                    %! _comment_measure_numbers
-    b,4
+    b,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    b,4
+    b,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
     % [E ContrabassVoiceIII measure 33 / measure 4]                    %! _comment_measure_numbers
-    a,4
+    a,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    a,4
+    a,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    a,4
+    a,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
     % [E ContrabassVoiceIII measure 34 / measure 5]                    %! _comment_measure_numbers
-    a,4
+    a,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    a,4
+    a,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    a,4
+    a,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
     % [E ContrabassVoiceIII measure 35 / measure 6]                    %! _comment_measure_numbers
-    a,4
+    a,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    a,4
+    a,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
-    a,4
+    a,4                                                                %! baca_make_repeated_duration_notes
     \glissando                                                         %! SpannerCommand
     
     \revert Accidental.stencil                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert NoteColumn.glissando-skip                                  %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert NoteHead.no-ledgers                                        %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \undo \hide NoteHead                                               %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
-    a,4
+    a,4                                                                %! baca_make_repeated_duration_notes
 %@% \glissando                                                         %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \!                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
 %@% \revert Accidental.stencil                                         %! SHOW_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand

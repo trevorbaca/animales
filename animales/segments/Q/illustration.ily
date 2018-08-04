@@ -1261,7 +1261,7 @@ Q_FirstViolinVoiceI_a = {
     
     % [Q FirstViolinVoiceI measure 122 / measure 4]                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    a''1
+    a''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1272,13 +1272,13 @@ Q_FirstViolinVoiceI_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q FirstViolinVoiceI measure 123 / measure 5]                %! _comment_measure_numbers
-    a''1
+    a''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q FirstViolinVoiceI measure 124 / measure 6]                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    a''1
+    a''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1311,7 +1311,7 @@ Q_FirstViolinVoiceI_a = {
     
     % [Q FirstViolinVoiceI measure 127 / measure 9]                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    a''2.
+    a''2.                                                          %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1322,13 +1322,13 @@ Q_FirstViolinVoiceI_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q FirstViolinVoiceI measure 128 / measure 10]               %! _comment_measure_numbers
-    a''1
+    a''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q FirstViolinVoiceI measure 129 / measure 11]               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    a''1
+    a''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1385,7 +1385,7 @@ Q_FirstViolinVoiceII_a = {
     
     % [Q FirstViolinVoiceII measure 122 / measure 4]               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f''1
+    f''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1396,13 +1396,13 @@ Q_FirstViolinVoiceII_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q FirstViolinVoiceII measure 123 / measure 5]               %! _comment_measure_numbers
-    f''1
+    f''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q FirstViolinVoiceII measure 124 / measure 6]               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f''1
+    f''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1435,7 +1435,7 @@ Q_FirstViolinVoiceII_a = {
     
     % [Q FirstViolinVoiceII measure 127 / measure 9]               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f''2.
+    f''2.                                                          %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1446,13 +1446,13 @@ Q_FirstViolinVoiceII_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q FirstViolinVoiceII measure 128 / measure 10]              %! _comment_measure_numbers
-    f''1
+    f''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q FirstViolinVoiceII measure 129 / measure 11]              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f''1
+    f''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1548,7 +1548,7 @@ Q_FirstViolinVoiceIII_a = {
     
     % [Q FirstViolinVoiceIII measure 122 / measure 4]              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g''1
+    g''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1559,13 +1559,13 @@ Q_FirstViolinVoiceIII_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q FirstViolinVoiceIII measure 123 / measure 5]              %! _comment_measure_numbers
-    g''1
+    g''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q FirstViolinVoiceIII measure 124 / measure 6]              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g''1
+    g''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1598,7 +1598,7 @@ Q_FirstViolinVoiceIII_a = {
     
     % [Q FirstViolinVoiceIII measure 127 / measure 9]              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g''2.
+    g''2.                                                          %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1609,13 +1609,13 @@ Q_FirstViolinVoiceIII_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q FirstViolinVoiceIII measure 128 / measure 10]             %! _comment_measure_numbers
-    g''1
+    g''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q FirstViolinVoiceIII measure 129 / measure 11]             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g''1
+    g''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1672,7 +1672,7 @@ Q_FirstViolinVoiceIV_a = {
     
     % [Q FirstViolinVoiceIV measure 122 / measure 4]               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d''1
+    d''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1683,13 +1683,13 @@ Q_FirstViolinVoiceIV_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q FirstViolinVoiceIV measure 123 / measure 5]               %! _comment_measure_numbers
-    d''1
+    d''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q FirstViolinVoiceIV measure 124 / measure 6]               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d''1
+    d''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1722,7 +1722,7 @@ Q_FirstViolinVoiceIV_a = {
     
     % [Q FirstViolinVoiceIV measure 127 / measure 9]               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d''2.
+    d''2.                                                          %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1733,13 +1733,13 @@ Q_FirstViolinVoiceIV_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q FirstViolinVoiceIV measure 128 / measure 10]              %! _comment_measure_numbers
-    d''1
+    d''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q FirstViolinVoiceIV measure 129 / measure 11]              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d''1
+    d''1                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1797,7 +1797,7 @@ Q_FirstViolinVoiceV_a = {
 %@% \override Staff.Clef.color = ##f                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    cs'!2.
+    cs'!2.                                                         %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \f                                                             %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I 18”]"     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1817,7 +1817,7 @@ Q_FirstViolinVoiceV_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [Q FirstViolinVoiceV measure 120 / measure 2]                %! _comment_measure_numbers
-    cs'!2.
+    cs'!2.                                                         %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie                                                     %! TCC
     
@@ -1831,21 +1831,21 @@ Q_FirstViolinVoiceV_a = {
 %%%     }                                                          %! IndicatorCommand:+PARTS
     
     % [Q FirstViolinVoiceV measure 122 / measure 4]                %! _comment_measure_numbers
-    cs'!1
+    cs'!1                                                          %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     
     % [Q FirstViolinVoiceV measure 123 / measure 5]                %! _comment_measure_numbers
-    cs'!1
+    cs'!1                                                          %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q FirstViolinVoiceV measure 124 / measure 6]                %! _comment_measure_numbers
-    cs'!1
+    cs'!1                                                          %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q FirstViolinVoiceV measure 125 / measure 7]                %! _comment_measure_numbers
-    cs'!2.
+    cs'!2.                                                         %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
@@ -1859,21 +1859,21 @@ Q_FirstViolinVoiceV_a = {
 %%%     }                                                          %! IndicatorCommand:+PARTS
     
     % [Q FirstViolinVoiceV measure 127 / measure 9]                %! _comment_measure_numbers
-    cs'!2.
+    cs'!2.                                                         %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     
     % [Q FirstViolinVoiceV measure 128 / measure 10]               %! _comment_measure_numbers
-    cs'!1
+    cs'!1                                                          %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q FirstViolinVoiceV measure 129 / measure 11]               %! _comment_measure_numbers
-    cs'!1
+    cs'!1                                                          %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q FirstViolinVoiceV measure 130 / measure 12]               %! _comment_measure_numbers
-    cs'!2
+    cs'!2                                                          %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
@@ -1948,7 +1948,7 @@ Q_SecondViolinVoiceI_a = {
     
     % [Q SecondViolinVoiceI measure 122 / measure 4]               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b'1
+    b'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1959,14 +1959,14 @@ Q_SecondViolinVoiceI_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q SecondViolinVoiceI measure 123 / measure 5]               %! _comment_measure_numbers
-    b'1
+    b'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [Q SecondViolinVoiceI measure 124 / measure 6]               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b'1
+    b'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2000,7 +2000,7 @@ Q_SecondViolinVoiceI_a = {
     
     % [Q SecondViolinVoiceI measure 127 / measure 9]               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b'2.
+    b'2.                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2011,14 +2011,14 @@ Q_SecondViolinVoiceI_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q SecondViolinVoiceI measure 128 / measure 10]              %! _comment_measure_numbers
-    b'1
+    b'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [Q SecondViolinVoiceI measure 129 / measure 11]              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b'1
+    b'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2076,7 +2076,7 @@ Q_SecondViolinVoiceII_a = {
     
     % [Q SecondViolinVoiceII measure 122 / measure 4]              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'1
+    g'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2087,13 +2087,13 @@ Q_SecondViolinVoiceII_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q SecondViolinVoiceII measure 123 / measure 5]              %! _comment_measure_numbers
-    g'1
+    g'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q SecondViolinVoiceII measure 124 / measure 6]              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'1
+    g'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2126,7 +2126,7 @@ Q_SecondViolinVoiceII_a = {
     
     % [Q SecondViolinVoiceII measure 127 / measure 9]              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'2.
+    g'2.                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2137,13 +2137,13 @@ Q_SecondViolinVoiceII_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q SecondViolinVoiceII measure 128 / measure 10]             %! _comment_measure_numbers
-    g'1
+    g'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q SecondViolinVoiceII measure 129 / measure 11]             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'1
+    g'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2239,7 +2239,7 @@ Q_SecondViolinVoiceIII_a = {
     
     % [Q SecondViolinVoiceIII measure 122 / measure 4]             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    a'1
+    a'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2250,13 +2250,13 @@ Q_SecondViolinVoiceIII_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q SecondViolinVoiceIII measure 123 / measure 5]             %! _comment_measure_numbers
-    a'1
+    a'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q SecondViolinVoiceIII measure 124 / measure 6]             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    a'1
+    a'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2289,7 +2289,7 @@ Q_SecondViolinVoiceIII_a = {
     
     % [Q SecondViolinVoiceIII measure 127 / measure 9]             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    a'2.
+    a'2.                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2300,13 +2300,13 @@ Q_SecondViolinVoiceIII_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q SecondViolinVoiceIII measure 128 / measure 10]            %! _comment_measure_numbers
-    a'1
+    a'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q SecondViolinVoiceIII measure 129 / measure 11]            %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    a'1
+    a'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2363,7 +2363,7 @@ Q_SecondViolinVoiceIV_a = {
     
     % [Q SecondViolinVoiceIV measure 122 / measure 4]              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f'1
+    f'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2374,13 +2374,13 @@ Q_SecondViolinVoiceIV_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q SecondViolinVoiceIV measure 123 / measure 5]              %! _comment_measure_numbers
-    f'1
+    f'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q SecondViolinVoiceIV measure 124 / measure 6]              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f'1
+    f'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2413,7 +2413,7 @@ Q_SecondViolinVoiceIV_a = {
     
     % [Q SecondViolinVoiceIV measure 127 / measure 9]              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f'2.
+    f'2.                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2424,13 +2424,13 @@ Q_SecondViolinVoiceIV_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q SecondViolinVoiceIV measure 128 / measure 10]             %! _comment_measure_numbers
-    f'1
+    f'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q SecondViolinVoiceIV measure 129 / measure 11]             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f'1
+    f'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2526,7 +2526,7 @@ Q_ViolaVoiceI_a = {
     
     % [Q ViolaVoiceI measure 122 / measure 4]                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d'1
+    d'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2537,13 +2537,13 @@ Q_ViolaVoiceI_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q ViolaVoiceI measure 123 / measure 5]                      %! _comment_measure_numbers
-    d'1
+    d'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q ViolaVoiceI measure 124 / measure 6]                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d'1
+    d'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2576,7 +2576,7 @@ Q_ViolaVoiceI_a = {
     
     % [Q ViolaVoiceI measure 127 / measure 9]                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d'2.
+    d'2.                                                           %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2587,13 +2587,13 @@ Q_ViolaVoiceI_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q ViolaVoiceI measure 128 / measure 10]                     %! _comment_measure_numbers
-    d'1
+    d'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q ViolaVoiceI measure 129 / measure 11]                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d'1
+    d'1                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2650,7 +2650,7 @@ Q_ViolaVoiceII_a = {
     
     % [Q ViolaVoiceII measure 122 / measure 4]                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    a1
+    a1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2661,13 +2661,13 @@ Q_ViolaVoiceII_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q ViolaVoiceII measure 123 / measure 5]                     %! _comment_measure_numbers
-    a1
+    a1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q ViolaVoiceII measure 124 / measure 6]                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    a1
+    a1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2700,7 +2700,7 @@ Q_ViolaVoiceII_a = {
     
     % [Q ViolaVoiceII measure 127 / measure 9]                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    a2.
+    a2.                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2711,13 +2711,13 @@ Q_ViolaVoiceII_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q ViolaVoiceII measure 128 / measure 10]                    %! _comment_measure_numbers
-    a1
+    a1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q ViolaVoiceII measure 129 / measure 11]                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    a1
+    a1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2813,7 +2813,7 @@ Q_ViolaVoiceIII_a = {
     
     % [Q ViolaVoiceIII measure 122 / measure 4]                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b1
+    b1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2824,13 +2824,13 @@ Q_ViolaVoiceIII_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q ViolaVoiceIII measure 123 / measure 5]                    %! _comment_measure_numbers
-    b1
+    b1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q ViolaVoiceIII measure 124 / measure 6]                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b1
+    b1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2863,7 +2863,7 @@ Q_ViolaVoiceIII_a = {
     
     % [Q ViolaVoiceIII measure 127 / measure 9]                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b2.
+    b2.                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2874,13 +2874,13 @@ Q_ViolaVoiceIII_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q ViolaVoiceIII measure 128 / measure 10]                   %! _comment_measure_numbers
-    b1
+    b1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q ViolaVoiceIII measure 129 / measure 11]                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b1
+    b1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2937,7 +2937,7 @@ Q_ViolaVoiceIV_a = {
     
     % [Q ViolaVoiceIV measure 122 / measure 4]                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g1
+    g1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2948,13 +2948,13 @@ Q_ViolaVoiceIV_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q ViolaVoiceIV measure 123 / measure 5]                     %! _comment_measure_numbers
-    g1
+    g1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q ViolaVoiceIV measure 124 / measure 6]                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g1
+    g1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2987,7 +2987,7 @@ Q_ViolaVoiceIV_a = {
     
     % [Q ViolaVoiceIV measure 127 / measure 9]                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g2.
+    g2.                                                            %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \!                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2998,13 +2998,13 @@ Q_ViolaVoiceIV_a = {
     \startTextSpan                                                 %! PiecewiseIndicatorCommand(1)
     
     % [Q ViolaVoiceIV measure 128 / measure 10]                    %! _comment_measure_numbers
-    g1
+    g1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \repeatTie
     
     % [Q ViolaVoiceIV measure 129 / measure 11]                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g1
+    g1                                                             %! baca_make_repeat_tied_notes
     :32                                                            %! IndicatorCommand
     \mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3100,7 +3100,7 @@ Q_CelloVoiceI_a = {
     
     % [Q CelloVoiceI measure 122 / measure 4]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d1
+    d1                                                                 %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3111,14 +3111,14 @@ Q_CelloVoiceI_a = {
     \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
     
     % [Q CelloVoiceI measure 123 / measure 5]                          %! _comment_measure_numbers
-    d1
+    d1                                                                 %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [Q CelloVoiceI measure 124 / measure 6]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d1
+    d1                                                                 %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3152,7 +3152,7 @@ Q_CelloVoiceI_a = {
     
     % [Q CelloVoiceI measure 127 / measure 9]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d2.
+    d2.                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3163,14 +3163,14 @@ Q_CelloVoiceI_a = {
     \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
     
     % [Q CelloVoiceI measure 128 / measure 10]                         %! _comment_measure_numbers
-    d1
+    d1                                                                 %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [Q CelloVoiceI measure 129 / measure 11]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d1
+    d1                                                                 %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3228,7 +3228,7 @@ Q_CelloVoiceII_a = {
     
     % [Q CelloVoiceII measure 122 / measure 4]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g,1
+    g,1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3239,13 +3239,13 @@ Q_CelloVoiceII_a = {
     \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
     
     % [Q CelloVoiceII measure 123 / measure 5]                         %! _comment_measure_numbers
-    g,1
+    g,1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie
     
     % [Q CelloVoiceII measure 124 / measure 6]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g,1
+    g,1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3278,7 +3278,7 @@ Q_CelloVoiceII_a = {
     
     % [Q CelloVoiceII measure 127 / measure 9]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g,2.
+    g,2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3289,13 +3289,13 @@ Q_CelloVoiceII_a = {
     \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
     
     % [Q CelloVoiceII measure 128 / measure 10]                        %! _comment_measure_numbers
-    g,1
+    g,1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie
     
     % [Q CelloVoiceII measure 129 / measure 11]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g,1
+    g,1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3376,7 +3376,7 @@ Q_ContrabassVoiceIII_a = {
     
     % [Q ContrabassVoiceIII measure 122 / measure 4]                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g,1
+    g,1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3387,13 +3387,13 @@ Q_ContrabassVoiceIII_a = {
     \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
     
     % [Q ContrabassVoiceIII measure 123 / measure 5]                   %! _comment_measure_numbers
-    g,1
+    g,1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie
     
     % [Q ContrabassVoiceIII measure 124 / measure 6]                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g,1
+    g,1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3426,7 +3426,7 @@ Q_ContrabassVoiceIII_a = {
     
     % [Q ContrabassVoiceIII measure 127 / measure 9]                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g,2.
+    g,2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3437,13 +3437,13 @@ Q_ContrabassVoiceIII_a = {
     \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
     
     % [Q ContrabassVoiceIII measure 128 / measure 10]                  %! _comment_measure_numbers
-    g,1
+    g,1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie
     
     % [Q ContrabassVoiceIII measure 129 / measure 11]                  %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g,1
+    g,1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)

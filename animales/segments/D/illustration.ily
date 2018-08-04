@@ -127,7 +127,7 @@ D_ClarinetVoiceI_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)    %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ds''!2.
+    ds''!2.                                                            %! baca_make_repeat_tied_notes
     \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "(“Clarinet”)"          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "solo (cl. 2)" }                                       %! IndicatorCommand:-PARTS
@@ -149,24 +149,24 @@ D_ClarinetVoiceI_a = {
         }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
     
     % [D ClarinetVoiceI measure 25 / measure 2]                        %! _comment_measure_numbers
-    ds''!1
+    ds''!1                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D ClarinetVoiceI measure 26 / measure 3]                        %! _comment_measure_numbers
-    ds''!1
+    ds''!1                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D ClarinetVoiceI measure 27 / measure 4]                        %! _comment_measure_numbers
-    ds''!1
+    ds''!1                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D ClarinetVoiceI measure 28 / measure 5]                        %! _comment_measure_numbers
-    ds''!2.
+    ds''!2.                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D ClarinetVoiceI measure 29 / measure 6]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ds''!2.
+    ds''!2.                                                            %! baca_make_repeat_tied_notes
     \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
@@ -208,7 +208,7 @@ D_PercussionVoiceI_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)     %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc. 1 (tri.)”]"    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -228,30 +228,30 @@ D_PercussionVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [D PercussionVoiceI measure 25 / measure 2]                      %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [D PercussionVoiceI measure 26 / measure 3]                      %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [D PercussionVoiceI measure 27 / measure 4]                      %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [D PercussionVoiceI measure 28 / measure 5]                      %! _comment_measure_numbers
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie                                                         %! TCC
     
     % [D PercussionVoiceI measure 29 / measure 6]                      %! _comment_measure_numbers
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie                                                         %! TCC
     
@@ -293,7 +293,7 @@ D_PercussionVoiceII_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)     %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -313,30 +313,30 @@ D_PercussionVoiceII_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [D PercussionVoiceII measure 25 / measure 2]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [D PercussionVoiceII measure 26 / measure 3]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [D PercussionVoiceII measure 27 / measure 4]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [D PercussionVoiceII measure 28 / measure 5]                     %! _comment_measure_numbers
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie                                                         %! TCC
     
     % [D PercussionVoiceII measure 29 / measure 6]                     %! _comment_measure_numbers
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie                                                         %! TCC
     
@@ -1079,7 +1079,7 @@ D_ContrabassVoiceIII_a = {
     \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    b,2.
+    b,2.                                                               %! baca_make_repeat_tied_notes
     ^ \markup \baca-reapplied-indicator-markup "[“Cb.”]"               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Contrabass”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1094,25 +1094,25 @@ D_ContrabassVoiceIII_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [D ContrabassVoiceIII measure 25 / measure 2]                    %! _comment_measure_numbers
-    b,1
+    b,1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D ContrabassVoiceIII measure 26 / measure 3]                    %! _comment_measure_numbers
-    b,1
+    b,1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D ContrabassVoiceIII measure 27 / measure 4]                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b,1
+    b,1                                                                %! baca_make_repeat_tied_notes
     \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
     % [D ContrabassVoiceIII measure 28 / measure 5]                    %! _comment_measure_numbers
-    b,2.
+    b,2.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D ContrabassVoiceIII measure 29 / measure 6]                    %! _comment_measure_numbers
-    b,2.
+    b,2.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
 }

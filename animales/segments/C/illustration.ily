@@ -145,7 +145,7 @@ C_ClarinetVoiceI_a = {
     
     % [C ClarinetVoiceI measure 20 / measure 3]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d''1
+    d''1                                                               %! baca_make_repeat_tied_notes
     \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup { "solo (cl. 3)" }                                       %! IndicatorCommand:-PARTS
 %%% ^ \markup { solo }                                                 %! IndicatorCommand:+PARTS
@@ -153,16 +153,16 @@ C_ClarinetVoiceI_a = {
     \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     % [C ClarinetVoiceI measure 21 / measure 4]                        %! _comment_measure_numbers
-    d''1
+    d''1                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C ClarinetVoiceI measure 22 / measure 5]                        %! _comment_measure_numbers
-    d''1
+    d''1                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C ClarinetVoiceI measure 23 / measure 6]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d''2.
+    d''2.                                                              %! baca_make_repeat_tied_notes
     \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
@@ -915,7 +915,7 @@ C_PercussionVoiceI_a = {
     \override Staff.BarLine.bar-extent = #'(0 . 0)                     %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:IndicatorCommand:-PARTS
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                    %! IndicatorCommand:+PARTS:TEMPORARY
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                        %! IndicatorCommand
@@ -926,19 +926,19 @@ C_PercussionVoiceI_a = {
         }                                                              %! IndicatorCommand
     
     % [C PercussionVoiceI measure 21 / measure 4]                      %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [C PercussionVoiceI measure 22 / measure 5]                      %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [C PercussionVoiceI measure 23 / measure 6]                      %! _comment_measure_numbers
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie
     
@@ -1001,7 +1001,7 @@ C_PercussionVoiceII_a = {
     \override Staff.BarLine.bar-extent = #'(0 . 0)                     %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:IndicatorCommand:-PARTS
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                    %! IndicatorCommand:+PARTS:TEMPORARY
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                        %! IndicatorCommand
@@ -1012,19 +1012,19 @@ C_PercussionVoiceII_a = {
         }                                                              %! IndicatorCommand
     
     % [C PercussionVoiceII measure 21 / measure 4]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [C PercussionVoiceII measure 22 / measure 5]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [C PercussionVoiceII measure 23 / measure 6]                     %! _comment_measure_numbers
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie
     
@@ -1192,7 +1192,7 @@ C_FirstViolinVoiceI_b = {
     
     % [C FirstViolinVoiceI measure 20 / measure 3]                 %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     \baca_p_sub                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                            %! IndicatorCommand:+PARTS
     _ \markup {                                                    %! IndicatorCommand:-PARTS
@@ -1209,15 +1209,15 @@ C_FirstViolinVoiceI_b = {
     \revert TrillSpanner.staff-padding                             %! OverrideCommand(2)
     
     % [C FirstViolinVoiceI measure 21 / measure 4]                 %! _comment_measure_numbers
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C FirstViolinVoiceI measure 22 / measure 5]                 %! _comment_measure_numbers
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C FirstViolinVoiceI measure 23 / measure 6]                 %! _comment_measure_numbers
-    c'2.
+    c'2.                                                           %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -1285,22 +1285,22 @@ C_FirstViolinVoiceIII_a = {
     
     % [C FirstViolinVoiceIII measure 20 / measure 3]               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     \baca_p_sub                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                            %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                 %! SpannerCommand
     \revert TrillSpanner.staff-padding                             %! OverrideCommand(2)
     
     % [C FirstViolinVoiceIII measure 21 / measure 4]               %! _comment_measure_numbers
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C FirstViolinVoiceIII measure 22 / measure 5]               %! _comment_measure_numbers
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C FirstViolinVoiceIII measure 23 / measure 6]               %! _comment_measure_numbers
-    c'2.
+    c'2.                                                           %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -1365,22 +1365,22 @@ C_SecondViolinVoiceI_a = {
     
     % [C SecondViolinVoiceI measure 20 / measure 3]                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     \baca_p_sub                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                            %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                 %! SpannerCommand
     \revert TrillSpanner.staff-padding                             %! OverrideCommand(2)
     
     % [C SecondViolinVoiceI measure 21 / measure 4]                %! _comment_measure_numbers
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C SecondViolinVoiceI measure 22 / measure 5]                %! _comment_measure_numbers
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C SecondViolinVoiceI measure 23 / measure 6]                %! _comment_measure_numbers
-    c'2.
+    c'2.                                                           %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -1442,22 +1442,22 @@ C_SecondViolinVoiceIII_a = {
     
     % [C SecondViolinVoiceIII measure 20 / measure 3]              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     \baca_p_sub                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                            %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                 %! SpannerCommand
     \revert TrillSpanner.staff-padding                             %! OverrideCommand(2)
     
     % [C SecondViolinVoiceIII measure 21 / measure 4]              %! _comment_measure_numbers
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C SecondViolinVoiceIII measure 22 / measure 5]              %! _comment_measure_numbers
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C SecondViolinVoiceIII measure 23 / measure 6]              %! _comment_measure_numbers
-    c'2.
+    c'2.                                                           %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -1525,24 +1525,24 @@ C_ViolaVoiceI_a = {
     
     % [C ViolaVoiceI measure 20 / measure 3]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     \baca_p_sub                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                            %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                 %! SpannerCommand
     \revert TrillSpanner.staff-padding                             %! OverrideCommand(2)
     
     % [C ViolaVoiceI measure 21 / measure 4]                       %! _comment_measure_numbers
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [C ViolaVoiceI measure 22 / measure 5]                       %! _comment_measure_numbers
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [C ViolaVoiceI measure 23 / measure 6]                       %! _comment_measure_numbers
-    c'2.
+    c'2.                                                           %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -1607,24 +1607,24 @@ C_ViolaVoiceIII_a = {
     
     % [C ViolaVoiceIII measure 20 / measure 3]                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     \baca_p_sub                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                            %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                 %! SpannerCommand
     \revert TrillSpanner.staff-padding                             %! OverrideCommand(2)
     
     % [C ViolaVoiceIII measure 21 / measure 4]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [C ViolaVoiceIII measure 22 / measure 5]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                            %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [C ViolaVoiceIII measure 23 / measure 6]                     %! _comment_measure_numbers
-    c'2.
+    c'2.                                                           %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -1681,22 +1681,22 @@ C_CelloVoiceI_a = {
     
     % [C CelloVoiceI measure 20 / measure 3]                           %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \baca_p_sub                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                     %! SpannerCommand
     \revert TrillSpanner.staff-padding                                 %! OverrideCommand(2)
     
     % [C CelloVoiceI measure 21 / measure 4]                           %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C CelloVoiceI measure 22 / measure 5]                           %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C CelloVoiceI measure 23 / measure 6]                           %! _comment_measure_numbers
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -1744,21 +1744,21 @@ C_ContrabassVoiceIII_a = {
     
     % [C ContrabassVoiceIII measure 20 / measure 3]                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c1
+    c1                                                                 %! baca_make_repeat_tied_notes
     \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     % [C ContrabassVoiceIII measure 21 / measure 4]                    %! _comment_measure_numbers
-    c1
+    c1                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C ContrabassVoiceIII measure 22 / measure 5]                    %! _comment_measure_numbers
-    c1
+    c1                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C ContrabassVoiceIII measure 23 / measure 6]                    %! _comment_measure_numbers
-    c2.
+    c2.                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     \!                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
     
