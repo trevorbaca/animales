@@ -54,19 +54,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                         <<
                             \context Voice = "FluteVoiceI"
                             {
-                                \set Staff.instrumentName =      %! ST2:-PARTS
-                                \markup {                        %! ST2:-PARTS
-                                    \hcenter-in                  %! ST2:-PARTS
-                                        #16                      %! ST2:-PARTS
-                                        Fl.                      %! ST2:-PARTS
-                                    }                            %! ST2:-PARTS
-                                \set Staff.shortInstrumentName = %! ST2:-PARTS
-                                \markup {                        %! ST2:-PARTS
-                                    \hcenter-in                  %! ST2:-PARTS
-                                        #16                      %! ST2:-PARTS
-                                        Fl.                      %! ST2:-PARTS
-                                    }                            %! ST2:-PARTS
-                                \clef "treble" %! ST_3
+                                \set Staff.shortInstrumentName = %! ScoreTemplate(2):-PARTS
+                                \markup {                        %! ScoreTemplate(2):-PARTS
+                                    \hcenter-in                  %! ScoreTemplate(2):-PARTS
+                                        #16                      %! ScoreTemplate(2):-PARTS
+                                        Fl.                      %! ScoreTemplate(2):-PARTS
+                                    }                            %! ScoreTemplate(2):-PARTS
+                                \clef "treble" %! ScoreTemplate(3)
                                 s1
                             }
                             \context Voice = "FluteVoiceII"
@@ -78,19 +72,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                         {
                             \context Voice = "FluteVoiceIII"
                             {
-                                \set Staff.instrumentName =      %! ST2:-PARTS
-                                \markup {                        %! ST2:-PARTS
-                                    \hcenter-in                  %! ST2:-PARTS
-                                        #16                      %! ST2:-PARTS
-                                        Fl.                      %! ST2:-PARTS
-                                    }                            %! ST2:-PARTS
-                                \set Staff.shortInstrumentName = %! ST2:-PARTS
-                                \markup {                        %! ST2:-PARTS
-                                    \hcenter-in                  %! ST2:-PARTS
-                                        #16                      %! ST2:-PARTS
-                                        Fl.                      %! ST2:-PARTS
-                                    }                            %! ST2:-PARTS
-                                \clef "treble" %! ST_3
+                                \set Staff.shortInstrumentName = %! ScoreTemplate(2):-PARTS
+                                \markup {                        %! ScoreTemplate(2):-PARTS
+                                    \hcenter-in                  %! ScoreTemplate(2):-PARTS
+                                        #16                      %! ScoreTemplate(2):-PARTS
+                                        Fl.                      %! ScoreTemplate(2):-PARTS
+                                    }                            %! ScoreTemplate(2):-PARTS
+                                \clef "treble" %! ScoreTemplate(3)
                                 s1
                             }
                         }
@@ -108,19 +96,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                         {
                             \context Voice = "FirstViolinVoiceI"
                             {
-                                \set Staff.instrumentName =      %! ST2:-PARTS
-                                \markup {                        %! ST2:-PARTS
-                                    \hcenter-in                  %! ST2:-PARTS
-                                        #16                      %! ST2:-PARTS
-                                        "Vni. I"                 %! ST2:-PARTS
-                                    }                            %! ST2:-PARTS
-                                \set Staff.shortInstrumentName = %! ST2:-PARTS
-                                \markup {                        %! ST2:-PARTS
-                                    \hcenter-in                  %! ST2:-PARTS
-                                        #16                      %! ST2:-PARTS
-                                        "Vni. I"                 %! ST2:-PARTS
-                                    }                            %! ST2:-PARTS
-                                \clef "treble" %! ST_3
+                                \set Staff.shortInstrumentName = %! ScoreTemplate(2):-PARTS
+                                \markup {                        %! ScoreTemplate(2):-PARTS
+                                    \hcenter-in                  %! ScoreTemplate(2):-PARTS
+                                        #16                      %! ScoreTemplate(2):-PARTS
+                                        "Vni. I"                 %! ScoreTemplate(2):-PARTS
+                                    }                            %! ScoreTemplate(2):-PARTS
+                                \clef "treble" %! ScoreTemplate(3)
                                 s1
                             }
                         }
@@ -128,19 +110,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                         {
                             \context Voice = "FirstViolinVoiceI"
                             {
-                                \set Staff.instrumentName =      %! ST2:-PARTS
-                                \markup {                        %! ST2:-PARTS
-                                    \hcenter-in                  %! ST2:-PARTS
-                                        #16                      %! ST2:-PARTS
-                                        "Vni. I"                 %! ST2:-PARTS
-                                    }                            %! ST2:-PARTS
-                                \set Staff.shortInstrumentName = %! ST2:-PARTS
-                                \markup {                        %! ST2:-PARTS
-                                    \hcenter-in                  %! ST2:-PARTS
-                                        #16                      %! ST2:-PARTS
-                                        "Vni. I"                 %! ST2:-PARTS
-                                    }                            %! ST2:-PARTS
-                                \clef "treble" %! ST_3
+                                \set Staff.shortInstrumentName = %! ScoreTemplate(2):-PARTS
+                                \markup {                        %! ScoreTemplate(2):-PARTS
+                                    \hcenter-in                  %! ScoreTemplate(2):-PARTS
+                                        #16                      %! ScoreTemplate(2):-PARTS
+                                        "Vni. I"                 %! ScoreTemplate(2):-PARTS
+                                    }                            %! ScoreTemplate(2):-PARTS
+                                \clef "treble" %! ScoreTemplate(3)
                                 s1
                             }
                         }
@@ -155,19 +131,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                         {
                             \context Voice = "SecondViolinVoiceI"
                             {
-                                \set Staff.instrumentName =      %! ST2:-PARTS
-                                \markup {                        %! ST2:-PARTS
-                                    \hcenter-in                  %! ST2:-PARTS
-                                        #16                      %! ST2:-PARTS
-                                        "Vni. II"                %! ST2:-PARTS
-                                    }                            %! ST2:-PARTS
-                                \set Staff.shortInstrumentName = %! ST2:-PARTS
-                                \markup {                        %! ST2:-PARTS
-                                    \hcenter-in                  %! ST2:-PARTS
-                                        #16                      %! ST2:-PARTS
-                                        "Vni. II"                %! ST2:-PARTS
-                                    }                            %! ST2:-PARTS
-                                \clef "treble" %! ST_3
+                                \set Staff.shortInstrumentName = %! ScoreTemplate(2):-PARTS
+                                \markup {                        %! ScoreTemplate(2):-PARTS
+                                    \hcenter-in                  %! ScoreTemplate(2):-PARTS
+                                        #16                      %! ScoreTemplate(2):-PARTS
+                                        "Vni. II"                %! ScoreTemplate(2):-PARTS
+                                    }                            %! ScoreTemplate(2):-PARTS
+                                \clef "treble" %! ScoreTemplate(3)
                                 s1
                             }
                         }
@@ -175,19 +145,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                         {
                             \context Voice = "SecondViolinVoiceI"
                             {
-                                \set Staff.instrumentName =      %! ST2:-PARTS
-                                \markup {                        %! ST2:-PARTS
-                                    \hcenter-in                  %! ST2:-PARTS
-                                        #16                      %! ST2:-PARTS
-                                        "Vni. II"                %! ST2:-PARTS
-                                    }                            %! ST2:-PARTS
-                                \set Staff.shortInstrumentName = %! ST2:-PARTS
-                                \markup {                        %! ST2:-PARTS
-                                    \hcenter-in                  %! ST2:-PARTS
-                                        #16                      %! ST2:-PARTS
-                                        "Vni. II"                %! ST2:-PARTS
-                                    }                            %! ST2:-PARTS
-                                \clef "treble" %! ST_3
+                                \set Staff.shortInstrumentName = %! ScoreTemplate(2):-PARTS
+                                \markup {                        %! ScoreTemplate(2):-PARTS
+                                    \hcenter-in                  %! ScoreTemplate(2):-PARTS
+                                        #16                      %! ScoreTemplate(2):-PARTS
+                                        "Vni. II"                %! ScoreTemplate(2):-PARTS
+                                    }                            %! ScoreTemplate(2):-PARTS
+                                \clef "treble" %! ScoreTemplate(3)
                                 s1
                             }
                         }
@@ -196,19 +160,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "ViolaVoiceI"
                         {
-                            \set Staff.instrumentName =      %! ST2:-PARTS
-                            \markup {                        %! ST2:-PARTS
-                                \hcenter-in                  %! ST2:-PARTS
-                                    #16                      %! ST2:-PARTS
-                                    Vle.                     %! ST2:-PARTS
-                                }                            %! ST2:-PARTS
-                            \set Staff.shortInstrumentName = %! ST2:-PARTS
-                            \markup {                        %! ST2:-PARTS
-                                \hcenter-in                  %! ST2:-PARTS
-                                    #16                      %! ST2:-PARTS
-                                    Vle.                     %! ST2:-PARTS
-                                }                            %! ST2:-PARTS
-                            \clef "alto" %! ST_3
+                            \set Staff.shortInstrumentName = %! ScoreTemplate(2):-PARTS
+                            \markup {                        %! ScoreTemplate(2):-PARTS
+                                \hcenter-in                  %! ScoreTemplate(2):-PARTS
+                                    #16                      %! ScoreTemplate(2):-PARTS
+                                    Vle.                     %! ScoreTemplate(2):-PARTS
+                                }                            %! ScoreTemplate(2):-PARTS
+                            \clef "alto" %! ScoreTemplate(3)
                             s1
                         }
                     }
@@ -216,19 +174,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "CelloVoiceI"
                         {
-                            \set Staff.instrumentName =      %! ST2:-PARTS
-                            \markup {                        %! ST2:-PARTS
-                                \hcenter-in                  %! ST2:-PARTS
-                                    #16                      %! ST2:-PARTS
-                                    Vc.                      %! ST2:-PARTS
-                                }                            %! ST2:-PARTS
-                            \set Staff.shortInstrumentName = %! ST2:-PARTS
-                            \markup {                        %! ST2:-PARTS
-                                \hcenter-in                  %! ST2:-PARTS
-                                    #16                      %! ST2:-PARTS
-                                    Vc.                      %! ST2:-PARTS
-                                }                            %! ST2:-PARTS
-                            \clef "bass" %! ST_3
+                            \set Staff.shortInstrumentName = %! ScoreTemplate(2):-PARTS
+                            \markup {                        %! ScoreTemplate(2):-PARTS
+                                \hcenter-in                  %! ScoreTemplate(2):-PARTS
+                                    #16                      %! ScoreTemplate(2):-PARTS
+                                    Vc.                      %! ScoreTemplate(2):-PARTS
+                                }                            %! ScoreTemplate(2):-PARTS
+                            \clef "bass" %! ScoreTemplate(3)
                             s1
                         }
                     }
@@ -236,19 +188,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "ContrabassVoiceI"
                         {
-                            \set Staff.instrumentName =      %! ST2:-PARTS
-                            \markup {                        %! ST2:-PARTS
-                                \hcenter-in                  %! ST2:-PARTS
-                                    #16                      %! ST2:-PARTS
-                                    Cb.                      %! ST2:-PARTS
-                                }                            %! ST2:-PARTS
-                            \set Staff.shortInstrumentName = %! ST2:-PARTS
-                            \markup {                        %! ST2:-PARTS
-                                \hcenter-in                  %! ST2:-PARTS
-                                    #16                      %! ST2:-PARTS
-                                    Cb.                      %! ST2:-PARTS
-                                }                            %! ST2:-PARTS
-                            \clef "bass" %! ST_3
+                            \set Staff.shortInstrumentName = %! ScoreTemplate(2):-PARTS
+                            \markup {                        %! ScoreTemplate(2):-PARTS
+                                \hcenter-in                  %! ScoreTemplate(2):-PARTS
+                                    #16                      %! ScoreTemplate(2):-PARTS
+                                    Cb.                      %! ScoreTemplate(2):-PARTS
+                                }                            %! ScoreTemplate(2):-PARTS
+                            \clef "bass" %! ScoreTemplate(3)
                             s1
                         }
                     }
@@ -292,19 +238,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                         {
                             \context Voice = "BassoonVoiceI"
                             {
-                                \set Staff.instrumentName =      %! ST2:-PARTS
-                                \markup {                        %! ST2:-PARTS
-                                    \hcenter-in                  %! ST2:-PARTS
-                                        #16                      %! ST2:-PARTS
-                                        Bsn.                     %! ST2:-PARTS
-                                    }                            %! ST2:-PARTS
-                                \set Staff.shortInstrumentName = %! ST2:-PARTS
-                                \markup {                        %! ST2:-PARTS
-                                    \hcenter-in                  %! ST2:-PARTS
-                                        #16                      %! ST2:-PARTS
-                                        Bsn.                     %! ST2:-PARTS
-                                    }                            %! ST2:-PARTS
-                                \clef "bass" %! ST_3
+                                \set Staff.shortInstrumentName = %! ScoreTemplate(2):-PARTS
+                                \markup {                        %! ScoreTemplate(2):-PARTS
+                                    \hcenter-in                  %! ScoreTemplate(2):-PARTS
+                                        #16                      %! ScoreTemplate(2):-PARTS
+                                        Bsn.                     %! ScoreTemplate(2):-PARTS
+                                    }                            %! ScoreTemplate(2):-PARTS
+                                \clef "bass" %! ScoreTemplate(3)
                                 s1
                             }
                         }

@@ -13,67 +13,67 @@
         \context PageLayout = "PageLayout"
         {   %*% PageLayout
             
-            % [PageLayout measure 109]                                                   %! COMMENT_MEASURE_NUMBERS
+            % [PageLayout measure 109]                                                   %! _comment_measure_numbers
             \baca_new_spacing_section #1 #12                                             %! HSS1:SPACING
             \autoPageBreaksOff                                                           %! BMM1:BREAK
             \noBreak                                                                     %! BMM2:BREAK
-            \baca_lbsd #0 #'(20 24)                                                      %! INDICATOR_COMMAND:BREAK
-            \pageBreak                                                                   %! INDICATOR_COMMAND:BREAK
-            s1 * 3/4                                                                     %! MAKE_GLOBAL_SKIPS_1
+            \baca_lbsd #0 #'(20 24)                                                      %! IndicatorCommand:BREAK
+            \pageBreak                                                                   %! IndicatorCommand:BREAK
+            s1 * 3/4                                                                     %! _make_global_skips(1)
         %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 110]                                                   %! COMMENT_MEASURE_NUMBERS
+            % [PageLayout measure 110]                                                   %! _comment_measure_numbers
             \baca_new_spacing_section #1 #12                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 3/4                                                                     %! MAKE_GLOBAL_SKIPS_1
+            s1 * 3/4                                                                     %! _make_global_skips(1)
         %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 111]                                                   %! COMMENT_MEASURE_NUMBERS
+            % [PageLayout measure 111]                                                   %! _comment_measure_numbers
             \baca_new_spacing_section #1 #12                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1                                                                       %! MAKE_GLOBAL_SKIPS_1
+            s1 * 1                                                                       %! _make_global_skips(1)
         %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 112]                                                   %! COMMENT_MEASURE_NUMBERS
+            % [PageLayout measure 112]                                                   %! _comment_measure_numbers
             \baca_new_spacing_section #1 #12                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1                                                                       %! MAKE_GLOBAL_SKIPS_1
+            s1 * 1                                                                       %! _make_global_skips(1)
         %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 113]                                                   %! COMMENT_MEASURE_NUMBERS
+            % [PageLayout measure 113]                                                   %! _comment_measure_numbers
             \baca_new_spacing_section #1 #12                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1                                                                       %! MAKE_GLOBAL_SKIPS_1
+            s1 * 1                                                                       %! _make_global_skips(1)
         %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 114]                                                   %! COMMENT_MEASURE_NUMBERS
+            % [PageLayout measure 114]                                                   %! _comment_measure_numbers
             \baca_new_spacing_section #1 #12                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 3/4                                                                     %! MAKE_GLOBAL_SKIPS_1
+            s1 * 3/4                                                                     %! _make_global_skips(1)
         %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 115]                                                   %! COMMENT_MEASURE_NUMBERS
+            % [PageLayout measure 115]                                                   %! _comment_measure_numbers
             \baca_new_spacing_section #1 #12                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 3/4                                                                     %! MAKE_GLOBAL_SKIPS_1
+            s1 * 3/4                                                                     %! _make_global_skips(1)
         %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 116]                                                   %! COMMENT_MEASURE_NUMBERS
+            % [PageLayout measure 116]                                                   %! _comment_measure_numbers
             \baca_new_spacing_section #1 #12                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1                                                                       %! MAKE_GLOBAL_SKIPS_1
+            s1 * 1                                                                       %! _make_global_skips(1)
         %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 117]                                                   %! COMMENT_MEASURE_NUMBERS
+            % [PageLayout measure 117]                                                   %! _comment_measure_numbers
             \baca_new_spacing_section #1 #12                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1                                                                       %! MAKE_GLOBAL_SKIPS_1
+            s1 * 1                                                                       %! _make_global_skips(1)
         %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 118]                                                   %! COMMENT_MEASURE_NUMBERS
+            % [PageLayout measure 118]                                                   %! _comment_measure_numbers
             \baca_new_spacing_section #35 #288                                           %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2                                                                     %! MAKE_GLOBAL_SKIPS_1
+            s1 * 1/2                                                                     %! _make_global_skips(1)
         %@% ^ \markup { \baca-forest-green-markup "[[1/12 * 35/24]]" }                   %! HSS2:SPACING_MARKUP
             
         }   %*% PageLayout
