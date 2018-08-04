@@ -13,22 +13,22 @@
         \context PageLayout = "PageLayout"
         {   %*% PageLayout
             
-            % [PageLayout measure 155]                                                   %! SM_4
+            % [PageLayout measure 155]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #1 #20                                             %! HSS1:SPACING
             \autoPageBreaksOff                                                           %! BMM1:BREAK
             \noBreak                                                                     %! BMM2:BREAK
-            \baca_lbsd #0 #'(20 20)                                                      %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            \baca_lbsd #0 #'(20 20)                                                      %! INDICATOR_COMMAND:BREAK
+            \pageBreak                                                                   %! INDICATOR_COMMAND:BREAK
             s1 * 1/2                                                                     %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 156]                                                   %! SM_4
+            % [PageLayout measure 156]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #1 #20                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1                                                                       %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 157]                                                   %! SM_4
+            % [PageLayout measure 157]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #35 #480                                           %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1                                                                       %! MAKE_GLOBAL_SKIPS_1
