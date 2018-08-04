@@ -47,7 +47,6 @@ P_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup ((1))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup [P.1]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[3'34'']"                                    %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI_1
 %@% - \abjad_invisible_line                                                        %! MMI_2
 %@% - \tweak bound-details.left.text \markup {                                     %! MMI_2
 %@%     \concat                                                                    %! MMI_2
