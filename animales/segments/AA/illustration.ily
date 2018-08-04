@@ -95,7 +95,7 @@ AA_PercussionVoiceI_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)     %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc. 1 (tri.)”]"    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -116,13 +116,13 @@ AA_PercussionVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [AA PercussionVoiceI measure 159 / measure 2]                    %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [AA PercussionVoiceI measure 160 / measure 3]                    %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
@@ -165,7 +165,7 @@ AA_PercussionVoiceII_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)     %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -186,13 +186,13 @@ AA_PercussionVoiceII_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [AA PercussionVoiceII measure 159 / measure 2]                   %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [AA PercussionVoiceII measure 160 / measure 3]                   %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
@@ -234,7 +234,7 @@ AA_PercussionVoiceIII_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)     %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc. 3 (BD)”]"      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -255,13 +255,13 @@ AA_PercussionVoiceIII_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [AA PercussionVoiceIII measure 159 / measure 2]                  %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [AA PercussionVoiceIII measure 160 / measure 3]                  %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
@@ -303,7 +303,7 @@ AA_PercussionVoiceIV_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)     %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc. 4 (tam.)”]"    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -324,13 +324,13 @@ AA_PercussionVoiceIV_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [AA PercussionVoiceIV measure 159 / measure 2]                   %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [AA PercussionVoiceIV measure 160 / measure 3]                   %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC

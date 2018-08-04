@@ -163,7 +163,7 @@ K_ClarinetVoiceI_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)    %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d''1
+    d''1                                                               %! baca_make_repeat_tied_notes
     \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "(“Clarinet”)"          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-explicit-indicator-markup "[“Cl. 1”]"              %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -183,16 +183,16 @@ K_ClarinetVoiceI_a = {
         }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
     
     % [K ClarinetVoiceI measure 69 / measure 2]                        %! _comment_measure_numbers
-    d''1
+    d''1                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ClarinetVoiceI measure 70 / measure 3]                        %! _comment_measure_numbers
-    d''1
+    d''1                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ClarinetVoiceI measure 71 / measure 4]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d''2.
+    d''2.                                                              %! baca_make_repeat_tied_notes
     \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
 }
@@ -213,7 +213,7 @@ K_ClarinetVoiceI_b = {
         }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)    %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    df''!2.
+    df''!2.                                                            %! baca_make_repeat_tied_notes
     \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-explicit-indicator-markup "[“Cl. 2”]"              %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -231,16 +231,16 @@ K_ClarinetVoiceI_b = {
         }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
     
     % [K ClarinetVoiceI measure 73 / measure 6]                        %! _comment_measure_numbers
-    df''!1
+    df''!1                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ClarinetVoiceI measure 74 / measure 7]                        %! _comment_measure_numbers
-    df''!1
+    df''!1                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ClarinetVoiceI measure 75 / measure 8]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    df''!1
+    df''!1                                                             %! baca_make_repeat_tied_notes
     \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
@@ -1161,7 +1161,7 @@ K_PercussionVoiceII_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)     %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1180,41 +1180,41 @@ K_PercussionVoiceII_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [K PercussionVoiceII measure 69 / measure 2]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [K PercussionVoiceII measure 70 / measure 3]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [K PercussionVoiceII measure 71 / measure 4]                     %! _comment_measure_numbers
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie
     
     % [K PercussionVoiceII measure 72 / measure 5]                     %! _comment_measure_numbers
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie
     
     % [K PercussionVoiceII measure 73 / measure 6]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [K PercussionVoiceII measure 74 / measure 7]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [K PercussionVoiceII measure 75 / measure 8]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
@@ -1346,7 +1346,7 @@ K_FirstViolinVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af'''!1
+    af'''!1                                                            %! baca_make_repeat_tied_notes
     \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I”]"            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1360,31 +1360,31 @@ K_FirstViolinVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [K FirstViolinVoiceI measure 69 / measure 2]                     %! _comment_measure_numbers
-    af'''!1
+    af'''!1                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K FirstViolinVoiceI measure 70 / measure 3]                     %! _comment_measure_numbers
-    af'''!1
+    af'''!1                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K FirstViolinVoiceI measure 71 / measure 4]                     %! _comment_measure_numbers
-    af'''!2.
+    af'''!2.                                                           %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K FirstViolinVoiceI measure 72 / measure 5]                     %! _comment_measure_numbers
-    af'''!2.
+    af'''!2.                                                           %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K FirstViolinVoiceI measure 73 / measure 6]                     %! _comment_measure_numbers
-    af'''!1
+    af'''!1                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K FirstViolinVoiceI measure 74 / measure 7]                     %! _comment_measure_numbers
-    af'''!1
+    af'''!1                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K FirstViolinVoiceI measure 75 / measure 8]                     %! _comment_measure_numbers
-    af'''!1
+    af'''!1                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -1416,7 +1416,7 @@ K_SecondViolinVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af''!1
+    af''!1                                                             %! baca_make_repeat_tied_notes
     \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II”]"           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1430,31 +1430,31 @@ K_SecondViolinVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [K SecondViolinVoiceI measure 69 / measure 2]                    %! _comment_measure_numbers
-    af''!1
+    af''!1                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K SecondViolinVoiceI measure 70 / measure 3]                    %! _comment_measure_numbers
-    af''!1
+    af''!1                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K SecondViolinVoiceI measure 71 / measure 4]                    %! _comment_measure_numbers
-    af''!2.
+    af''!2.                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K SecondViolinVoiceI measure 72 / measure 5]                    %! _comment_measure_numbers
-    af''!2.
+    af''!2.                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K SecondViolinVoiceI measure 73 / measure 6]                    %! _comment_measure_numbers
-    af''!1
+    af''!1                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K SecondViolinVoiceI measure 74 / measure 7]                    %! _comment_measure_numbers
-    af''!1
+    af''!1                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K SecondViolinVoiceI measure 75 / measure 8]                    %! _comment_measure_numbers
-    af''!1
+    af''!1                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -1486,7 +1486,7 @@ K_ViolaVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af'!1
+    af'!1                                                              %! baca_make_repeat_tied_notes
     \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vle.”]"              %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1500,31 +1500,31 @@ K_ViolaVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [K ViolaVoiceI measure 69 / measure 2]                           %! _comment_measure_numbers
-    af'!1
+    af'!1                                                              %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolaVoiceI measure 70 / measure 3]                           %! _comment_measure_numbers
-    af'!1
+    af'!1                                                              %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolaVoiceI measure 71 / measure 4]                           %! _comment_measure_numbers
-    af'!2.
+    af'!2.                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolaVoiceI measure 72 / measure 5]                           %! _comment_measure_numbers
-    af'!2.
+    af'!2.                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolaVoiceI measure 73 / measure 6]                           %! _comment_measure_numbers
-    af'!1
+    af'!1                                                              %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolaVoiceI measure 74 / measure 7]                           %! _comment_measure_numbers
-    af'!1
+    af'!1                                                              %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolaVoiceI measure 75 / measure 8]                           %! _comment_measure_numbers
-    af'!1
+    af'!1                                                              %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -1556,7 +1556,7 @@ K_CelloVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af,!1
+    af,!1                                                              %! baca_make_repeat_tied_notes
     \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1570,31 +1570,31 @@ K_CelloVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [K CelloVoiceI measure 69 / measure 2]                           %! _comment_measure_numbers
-    af,!1
+    af,!1                                                              %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K CelloVoiceI measure 70 / measure 3]                           %! _comment_measure_numbers
-    af,!1
+    af,!1                                                              %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K CelloVoiceI measure 71 / measure 4]                           %! _comment_measure_numbers
-    af,!2.
+    af,!2.                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K CelloVoiceI measure 72 / measure 5]                           %! _comment_measure_numbers
-    af,!2.
+    af,!2.                                                             %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K CelloVoiceI measure 73 / measure 6]                           %! _comment_measure_numbers
-    af,!1
+    af,!1                                                              %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K CelloVoiceI measure 74 / measure 7]                           %! _comment_measure_numbers
-    af,!1
+    af,!1                                                              %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K CelloVoiceI measure 75 / measure 8]                           %! _comment_measure_numbers
-    af,!1
+    af,!1                                                              %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -1733,7 +1733,7 @@ K_ContrabassVoiceIII_a = {
 %@% \override Staff.Clef.color = ##f                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af,!1
+    af,!1                                                          %! baca_make_repeat_tied_notes
     \p                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Cb. (2-6)”]"     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Contrabass”)"    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1751,31 +1751,31 @@ K_ContrabassVoiceIII_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [K ContrabassVoiceIII measure 69 / measure 2]                %! _comment_measure_numbers
-    af,!1
+    af,!1                                                          %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ContrabassVoiceIII measure 70 / measure 3]                %! _comment_measure_numbers
-    af,!1
+    af,!1                                                          %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ContrabassVoiceIII measure 71 / measure 4]                %! _comment_measure_numbers
-    af,!2.
+    af,!2.                                                         %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ContrabassVoiceIII measure 72 / measure 5]                %! _comment_measure_numbers
-    af,!2.
+    af,!2.                                                         %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ContrabassVoiceIII measure 73 / measure 6]                %! _comment_measure_numbers
-    af,!1
+    af,!1                                                          %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ContrabassVoiceIII measure 74 / measure 7]                %! _comment_measure_numbers
-    af,!1
+    af,!1                                                          %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ContrabassVoiceIII measure 75 / measure 8]                %! _comment_measure_numbers
-    af,!1
+    af,!1                                                          %! baca_make_repeat_tied_notes
     \repeatTie
     
 }

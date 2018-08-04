@@ -672,7 +672,7 @@ X_PercussionVoiceII_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)     %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -691,12 +691,12 @@ X_PercussionVoiceII_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [X PercussionVoiceII measure 150 / measure 2]                    %! _comment_measure_numbers
-    c'2
+    c'2                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie
     
     % [X PercussionVoiceII measure 151 / measure 3]                    %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
@@ -741,7 +741,7 @@ X_PercussionVoiceIII_a = {
     \set Staff.forceClef = ##t                                         %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Vibraphone”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -766,12 +766,12 @@ X_PercussionVoiceIII_a = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)            %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [X PercussionVoiceIII measure 150 / measure 2]                   %! _comment_measure_numbers
-    c'2
+    c'2                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie
     
     % [X PercussionVoiceIII measure 151 / measure 3]                   %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
@@ -815,7 +815,7 @@ X_PercussionVoiceIV_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'DeepPink1)  %! REDUNDANT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)    %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -840,12 +840,12 @@ X_PercussionVoiceIV_a = {
         }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
     
     % [X PercussionVoiceIV measure 150 / measure 2]                    %! _comment_measure_numbers
-    c'2
+    c'2                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie
     
     % [X PercussionVoiceIV measure 151 / measure 3]                    %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up
     \repeatTie

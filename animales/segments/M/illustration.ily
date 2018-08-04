@@ -634,7 +634,7 @@ M_ClarinetVoiceI_a = {
     \once \override Staff.Clef.color = #(x11-color 'green4)        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    f''2.
+    f''2.                                                          %! baca_make_repeat_tied_notes
     ^ \markup \baca-reapplied-indicator-markup "[“Cl. 1”]"         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Clarinet”)"      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -653,12 +653,12 @@ M_ClarinetVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [M ClarinetVoiceI measure 83 / measure 2]                    %! _comment_measure_numbers
-    f''1
+    f''1                                                           %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ClarinetVoiceI measure 84 / measure 3]                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f''2
+    f''2                                                           %! baca_make_repeat_tied_notes
     \ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
@@ -706,7 +706,7 @@ M_BassClarinetVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    bf!2.
+    bf!2.                                                          %! baca_make_repeat_tied_notes
     \p                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“B. cl.”]"        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“BassClarinet”)"  %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -721,23 +721,23 @@ M_BassClarinetVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [M BassClarinetVoiceI measure 83 / measure 2]                %! _comment_measure_numbers
-    bf!1
+    bf!1                                                           %! baca_make_repeat_tied_notes
     \repeatTie                                                     %! TCC
     
     % [M BassClarinetVoiceI measure 84 / measure 3]                %! _comment_measure_numbers
-    bf!2
+    bf!2                                                           %! baca_make_repeat_tied_notes
     \repeatTie                                                     %! TCC
     
     % [M BassClarinetVoiceI measure 85 / measure 4]                %! _comment_measure_numbers
-    bf!1
+    bf!1                                                           %! baca_make_repeat_tied_notes
     \repeatTie                                                     %! TCC
     
     % [M BassClarinetVoiceI measure 86 / measure 5]                %! _comment_measure_numbers
-    bf!1
+    bf!1                                                           %! baca_make_repeat_tied_notes
     \repeatTie                                                     %! TCC
     
     % [M BassClarinetVoiceI measure 87 / measure 6]                %! _comment_measure_numbers
-    bf!1
+    bf!1                                                           %! baca_make_repeat_tied_notes
     \repeatTie                                                     %! TCC
     
 }
@@ -939,7 +939,7 @@ M_PercussionVoiceI_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)     %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \mp                                                                %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc. 1 (tri.)”]"    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -959,13 +959,13 @@ M_PercussionVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [M PercussionVoiceI measure 83 / measure 2]                      %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [M PercussionVoiceI measure 84 / measure 3]                      %! _comment_measure_numbers
-    c'2
+    c'2                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie                                                         %! TCC
     
@@ -1016,7 +1016,7 @@ M_PercussionVoiceII_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)     %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \p                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1036,13 +1036,13 @@ M_PercussionVoiceII_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [M PercussionVoiceII measure 83 / measure 2]                     %! _comment_measure_numbers
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     - \tweak direction #up                                             %! TCC
     \repeatTie                                                         %! TCC
     
     % [M PercussionVoiceII measure 84 / measure 3]                     %! _comment_measure_numbers
-    c'2
+    c'2                                                                %! baca_make_repeat_tied_notes
     :32                                                                %! IndicatorCommand
     \repeatTie                                                         %! TCC
     
@@ -1245,7 +1245,7 @@ M_FirstViolinVoiceI_a = {
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \voiceTwo                                                          %! IndicatorCommand:-PARTS
     \pitchedTrill                                                      %! SpannerCommand
-    g2.
+    g2.                                                                %! baca_make_repeat_tied_notes
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I”]"            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1262,12 +1262,12 @@ M_FirstViolinVoiceI_a = {
     
     % [M FirstViolinVoiceI measure 83 / measure 2]                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g1
+    g1                                                                 %! baca_make_repeat_tied_notes
     \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
     % [M FirstViolinVoiceI measure 84 / measure 3]                     %! _comment_measure_numbers
-    g2
+    g2                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M FirstViolinVoiceI measure 85 / measure 4]                     %! _comment_measure_numbers
@@ -1321,7 +1321,7 @@ M_SecondViolinVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \pitchedTrill                                                      %! SpannerCommand
-    g2.
+    g2.                                                                %! baca_make_repeat_tied_notes
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II”]"           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1338,12 +1338,12 @@ M_SecondViolinVoiceI_a = {
     
     % [M SecondViolinVoiceI measure 83 / measure 2]                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g1
+    g1                                                                 %! baca_make_repeat_tied_notes
     \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
     % [M SecondViolinVoiceI measure 84 / measure 3]                    %! _comment_measure_numbers
-    g2
+    g2                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M SecondViolinVoiceI measure 85 / measure 4]                    %! _comment_measure_numbers
@@ -1395,7 +1395,7 @@ M_ViolaVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \pitchedTrill                                                      %! SpannerCommand
-    g2.
+    g2.                                                                %! baca_make_repeat_tied_notes
     ^ \markup \baca-reapplied-indicator-markup "[“Vle.”]"              %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1412,12 +1412,12 @@ M_ViolaVoiceI_a = {
     
     % [M ViolaVoiceI measure 83 / measure 2]                           %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g1
+    g1                                                                 %! baca_make_repeat_tied_notes
     \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
     % [M ViolaVoiceI measure 84 / measure 3]                           %! _comment_measure_numbers
-    g2
+    g2                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolaVoiceI measure 85 / measure 4]                           %! _comment_measure_numbers
@@ -1469,7 +1469,7 @@ M_CelloVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \pitchedTrill                                                      %! SpannerCommand
-    g2.
+    g2.                                                                %! baca_make_repeat_tied_notes
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1486,12 +1486,12 @@ M_CelloVoiceI_a = {
     
     % [M CelloVoiceI measure 83 / measure 2]                           %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g1
+    g1                                                                 %! baca_make_repeat_tied_notes
     \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
     % [M CelloVoiceI measure 84 / measure 3]                           %! _comment_measure_numbers
-    g2
+    g2                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloVoiceI measure 85 / measure 4]                           %! _comment_measure_numbers
@@ -1635,7 +1635,7 @@ M_ContrabassVoiceIII_a = {
     \once \override Staff.Clef.color = #(x11-color 'green4)        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    g,2.
+    g,2.                                                           %! baca_make_repeat_tied_notes
     ^ \markup \baca-reapplied-indicator-markup "[“Cb. (2-6)”]"     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Contrabass”)"    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1655,12 +1655,12 @@ M_ContrabassVoiceIII_a = {
     
     % [M ContrabassVoiceIII measure 83 / measure 2]                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g,1
+    g,1                                                            %! baca_make_repeat_tied_notes
     \ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
     % [M ContrabassVoiceIII measure 84 / measure 3]                %! _comment_measure_numbers
-    g,2
+    g,2                                                            %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ContrabassVoiceIII measure 85 / measure 4]                %! _comment_measure_numbers
