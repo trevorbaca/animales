@@ -87,7 +87,7 @@ S_FirstViolinVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    d'16
+    d'16                                                                                           %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (1-2)”]"                                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -103,13 +103,13 @@ S_FirstViolinVoiceI_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    r2...
+    r2...                                                                                          %! clb_rhythm
     
     % [S FirstViolinVoiceI measure 135 / measure 2]                                                %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S FirstViolinVoiceI measure 136 / measure 3]                                                %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -133,27 +133,27 @@ S_FirstViolinVoiceII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r2
+    r2                                                                                             %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
     % [S FirstViolinVoiceII measure 135 / measure 2]                                               %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [S FirstViolinVoiceII measure 136 / measure 3]                                               %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -202,28 +202,28 @@ S_FirstViolinVoiceIII_a = {
                     (3-4)                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [S FirstViolinVoiceIII measure 135 / measure 2]                                          %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2.
     
     % [S FirstViolinVoiceIII measure 136 / measure 3]                                              %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -291,7 +291,7 @@ S_FirstViolinVoiceV_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r2
+    r2                                                                                             %! clb_rhythm
     \f                                                                                             %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (5-6)”]"                                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -307,19 +307,19 @@ S_FirstViolinVoiceV_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [S FirstViolinVoiceV measure 135 / measure 2]                                                %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S FirstViolinVoiceV measure 136 / measure 3]                                                %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -342,20 +342,20 @@ S_FirstViolinVoiceVI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [S FirstViolinVoiceVI measure 135 / measure 2]                                               %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
     % [S FirstViolinVoiceVI measure 136 / measure 3]                                               %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -432,30 +432,30 @@ S_FirstViolinVoiceVIII_a = {
     r1
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [S FirstViolinVoiceVIII measure 135 / measure 2]                                         %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2.
     
     % [S FirstViolinVoiceVIII measure 136 / measure 3]                                             %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -490,7 +490,7 @@ S_FirstViolinVoiceIX_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r8
+    r8                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (9-10)”]"                                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -504,23 +504,23 @@ S_FirstViolinVoiceIX_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
     % [S FirstViolinVoiceIX measure 135 / measure 2]                                               %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [S FirstViolinVoiceIX measure 136 / measure 3]                                               %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -543,21 +543,21 @@ S_FirstViolinVoiceX_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [S FirstViolinVoiceX measure 135 / measure 2]                                                %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S FirstViolinVoiceX measure 136 / measure 3]                                                %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
 }
 
@@ -590,7 +590,7 @@ S_FirstViolinVoiceXI_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (11-12)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -605,10 +605,10 @@ S_FirstViolinVoiceXI_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
     % [S FirstViolinVoiceXI measure 135 / measure 2]                                               %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S FirstViolinVoiceXI measure 136 / measure 3]                                               %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -634,30 +634,30 @@ S_FirstViolinVoiceXII_a = {
     r4
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
     
     % [S FirstViolinVoiceXII measure 135 / measure 2]                                              %! _comment_measure_numbers
     r2.
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [S FirstViolinVoiceXII measure 136 / measure 3]                                          %! _comment_measure_numbers
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2.
     
@@ -711,12 +711,12 @@ S_FirstViolinVoiceXIII_a = {
     
     % [S FirstViolinVoiceXIII measure 136 / measure 3]                                             %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -741,29 +741,29 @@ S_FirstViolinVoiceXIV_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r8
+    r8                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
     % [S FirstViolinVoiceXIV measure 135 / measure 2]                                              %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S FirstViolinVoiceXIV measure 136 / measure 3]                                              %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
 }
 
@@ -796,7 +796,7 @@ S_FirstViolinVoiceXV_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r4..
+    r4..                                                                                           %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (15-16)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -810,15 +810,15 @@ S_FirstViolinVoiceXV_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [S FirstViolinVoiceXV measure 135 / measure 2]                                               %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S FirstViolinVoiceXV measure 136 / measure 3]                                               %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -847,30 +847,30 @@ S_FirstViolinVoiceXVI_a = {
     
     % [S FirstViolinVoiceXVI measure 135 / measure 2]                                              %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
     
     % [S FirstViolinVoiceXVI measure 136 / measure 3]                                              %! _comment_measure_numbers
     r2.
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -943,15 +943,15 @@ S_FirstViolinVoiceXVIII_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [S FirstViolinVoiceXVIII measure 135 / measure 2]                                            %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S FirstViolinVoiceXVIII measure 136 / measure 3]                                            %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -985,7 +985,7 @@ S_SecondViolinVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (1-2)”]"                                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1002,22 +1002,22 @@ S_SecondViolinVoiceI_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
     % [S SecondViolinVoiceI measure 135 / measure 2]                                               %! _comment_measure_numbers
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
     % [S SecondViolinVoiceI measure 136 / measure 3]                                               %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
 }
 
@@ -1041,33 +1041,33 @@ S_SecondViolinVoiceII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r4..
+    r4..                                                                                           %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
     % [S SecondViolinVoiceII measure 135 / measure 2]                                              %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [S SecondViolinVoiceII measure 136 / measure 3]                                              %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
 }
 
@@ -1151,12 +1151,12 @@ S_SecondViolinVoiceIV_a = {
     
     % [S SecondViolinVoiceIV measure 135 / measure 2]                                              %! _comment_measure_numbers
     r2.
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [S SecondViolinVoiceIV measure 136 / measure 3]                                              %! _comment_measure_numbers
     r1
@@ -1192,7 +1192,7 @@ S_SecondViolinVoiceV_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (5-6)”]"                                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1207,18 +1207,18 @@ S_SecondViolinVoiceV_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
     % [S SecondViolinVoiceV measure 135 / measure 2]                                               %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
     % [S SecondViolinVoiceV measure 136 / measure 3]                                               %! _comment_measure_numbers
-    r2...
+    r2...                                                                                          %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
 }
 
@@ -1241,17 +1241,17 @@ S_SecondViolinVoiceVI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    b16
+    b16                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    r2...
+    r2...                                                                                          %! clb_rhythm
     
     % [S SecondViolinVoiceVI measure 135 / measure 2]                                              %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S SecondViolinVoiceVI measure 136 / measure 3]                                              %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -1297,24 +1297,24 @@ S_SecondViolinVoiceVII_a = {
                     (7-8)                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
     % [S SecondViolinVoiceVII measure 135 / measure 2]                                             %! _comment_measure_numbers
     r1
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [S SecondViolinVoiceVII measure 136 / measure 3]                                         %! _comment_measure_numbers
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2.
     
@@ -1342,28 +1342,28 @@ S_SecondViolinVoiceVIII_a = {
     r1
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [S SecondViolinVoiceVIII measure 135 / measure 2]                                        %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2.
     
     % [S SecondViolinVoiceVIII measure 136 / measure 3]                                            %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -1398,7 +1398,7 @@ S_SecondViolinVoiceIX_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (9-10)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1413,16 +1413,16 @@ S_SecondViolinVoiceIX_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
     % [S SecondViolinVoiceIX measure 135 / measure 2]                                              %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S SecondViolinVoiceIX measure 136 / measure 3]                                              %! _comment_measure_numbers
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
 }
 
@@ -1445,23 +1445,23 @@ S_SecondViolinVoiceX_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r2
+    r2                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [S SecondViolinVoiceX measure 135 / measure 2]                                               %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S SecondViolinVoiceX measure 136 / measure 3]                                               %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -1494,7 +1494,7 @@ S_SecondViolinVoiceXI_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (11-12)”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1509,16 +1509,16 @@ S_SecondViolinVoiceXI_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
     % [S SecondViolinVoiceXI measure 135 / measure 2]                                              %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
     % [S SecondViolinVoiceXI measure 136 / measure 3]                                              %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -1595,30 +1595,30 @@ S_SecondViolinVoiceXIII_a = {
                     (13-14)                                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [S SecondViolinVoiceXIII measure 135 / measure 2]                                        %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2.
     
     % [S SecondViolinVoiceXIII measure 136 / measure 3]                                            %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -1643,27 +1643,27 @@ S_SecondViolinVoiceXIV_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r8
+    r8                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
     % [S SecondViolinVoiceXIV measure 135 / measure 2]                                             %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [S SecondViolinVoiceXIV measure 136 / measure 3]                                             %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -1696,7 +1696,7 @@ S_SecondViolinVoiceXV_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (15-16)”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1711,16 +1711,16 @@ S_SecondViolinVoiceXV_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
     % [S SecondViolinVoiceXV measure 135 / measure 2]                                              %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S SecondViolinVoiceXV measure 136 / measure 3]                                              %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
 }
 
@@ -1797,30 +1797,30 @@ S_SecondViolinVoiceXVII_a = {
                     (17-18)                                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
     
     % [S SecondViolinVoiceXVII measure 135 / measure 2]                                            %! _comment_measure_numbers
     r2.
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [S SecondViolinVoiceXVII measure 136 / measure 3]                                        %! _comment_measure_numbers
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2.
     
@@ -1845,17 +1845,17 @@ S_SecondViolinVoiceXVIII_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [S SecondViolinVoiceXVIII measure 135 / measure 2]                                           %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S SecondViolinVoiceXVIII measure 136 / measure 3]                                           %! _comment_measure_numbers
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r2...
+    r2...                                                                                          %! clb_rhythm
     
 }
 
@@ -1889,7 +1889,7 @@ S_ViolaVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r8
+    r8                                                                                             %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (1-2)”]"                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1905,25 +1905,25 @@ S_ViolaVoiceI_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
     % [S ViolaVoiceI measure 135 / measure 2]                                                      %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S ViolaVoiceI measure 136 / measure 3]                                                      %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
 }
 
@@ -1947,19 +1947,19 @@ S_ViolaVoiceII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r4..
+    r4..                                                                                           %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [S ViolaVoiceII measure 135 / measure 2]                                                     %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S ViolaVoiceII measure 136 / measure 3]                                                     %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -2011,30 +2011,30 @@ S_ViolaVoiceIII_a = {
     
     % [S ViolaVoiceIII measure 135 / measure 2]                                                    %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
     
     % [S ViolaVoiceIII measure 136 / measure 3]                                                    %! _comment_measure_numbers
     r2.
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -2098,7 +2098,7 @@ S_ViolaVoiceV_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (5-6)”]"                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2113,10 +2113,10 @@ S_ViolaVoiceV_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
     % [S ViolaVoiceV measure 135 / measure 2]                                                      %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S ViolaVoiceV measure 136 / measure 3]                                                      %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -2139,27 +2139,27 @@ S_ViolaVoiceVI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [S ViolaVoiceVI measure 135 / measure 2]                                                     %! _comment_measure_numbers
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
     % [S ViolaVoiceVI measure 136 / measure 3]                                                     %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
 }
 
@@ -2205,28 +2205,28 @@ S_ViolaVoiceVII_a = {
                     (7-8)                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
     % [S ViolaVoiceVII measure 135 / measure 2]                                                    %! _comment_measure_numbers
     r1
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [S ViolaVoiceVII measure 136 / measure 3]                                                %! _comment_measure_numbers
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2.
     
@@ -2292,7 +2292,7 @@ S_ViolaVoiceIX_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (9-10)”]"                                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2307,18 +2307,18 @@ S_ViolaVoiceIX_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
     % [S ViolaVoiceIX measure 135 / measure 2]                                                     %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [S ViolaVoiceIX measure 136 / measure 3]                                                     %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -2341,23 +2341,23 @@ S_ViolaVoiceX_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [S ViolaVoiceX measure 135 / measure 2]                                                      %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
     % [S ViolaVoiceX measure 136 / measure 3]                                                      %! _comment_measure_numbers
-    r2...
+    r2...                                                                                          %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
 }
 
@@ -2390,7 +2390,7 @@ S_ViolaVoiceXI_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    d'16
+    d'16                                                                                           %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (11-12)”]"                                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2404,13 +2404,13 @@ S_ViolaVoiceXI_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    r2...
+    r2...                                                                                          %! clb_rhythm
     
     % [S ViolaVoiceXI measure 135 / measure 2]                                                     %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S ViolaVoiceXI measure 136 / measure 3]                                                     %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -2436,24 +2436,24 @@ S_ViolaVoiceXII_a = {
     r2
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
     % [S ViolaVoiceXII measure 135 / measure 2]                                                    %! _comment_measure_numbers
     r1
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [S ViolaVoiceXII measure 136 / measure 3]                                                %! _comment_measure_numbers
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2.
     
@@ -2501,28 +2501,28 @@ S_ViolaVoiceXIII_a = {
                     (13-14)                                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [S ViolaVoiceXIII measure 135 / measure 2]                                               %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2.
     
     % [S ViolaVoiceXIII measure 136 / measure 3]                                                   %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -2547,21 +2547,21 @@ S_ViolaVoiceXIV_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [S ViolaVoiceXIV measure 135 / measure 2]                                                    %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S ViolaVoiceXIV measure 136 / measure 3]                                                    %! _comment_measure_numbers
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
 }
 
@@ -2594,7 +2594,7 @@ S_ViolaVoiceXV_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r2
+    r2                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (15-16)”]"                                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2608,19 +2608,19 @@ S_ViolaVoiceXV_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [S ViolaVoiceXV measure 135 / measure 2]                                                     %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S ViolaVoiceXV measure 136 / measure 3]                                                     %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -2649,12 +2649,12 @@ S_ViolaVoiceXVI_a = {
     
     % [S ViolaVoiceXVI measure 135 / measure 2]                                                    %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -2733,25 +2733,25 @@ S_ViolaVoiceXVIII_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r2.
+    r2.                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
     % [S ViolaVoiceXVIII measure 135 / measure 2]                                                  %! _comment_measure_numbers
-    r2...
+    r2...                                                                                          %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
     % [S ViolaVoiceXVIII measure 136 / measure 3]                                                  %! _comment_measure_numbers
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r2...
+    r2...                                                                                          %! clb_rhythm
     
 }
 
@@ -2785,7 +2785,7 @@ S_CelloVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r8
+    r8                                                                                             %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vc. (1-2)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -2801,23 +2801,23 @@ S_CelloVoiceI_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
     % [S CelloVoiceI measure 135 / measure 2]                                                      %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [S CelloVoiceI measure 136 / measure 3]                                                      %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -2841,21 +2841,21 @@ S_CelloVoiceII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [S CelloVoiceII measure 135 / measure 2]                                                     %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S CelloVoiceII measure 136 / measure 3]                                                     %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
 }
 
@@ -2932,30 +2932,30 @@ S_CelloVoiceIV_a = {
     r4
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
     
     % [S CelloVoiceIV measure 135 / measure 2]                                                     %! _comment_measure_numbers
     r2.
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [S CelloVoiceIV measure 136 / measure 3]                                                 %! _comment_measure_numbers
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2.
     
@@ -2990,7 +2990,7 @@ S_CelloVoiceV_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vc. (5-6)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3005,12 +3005,12 @@ S_CelloVoiceV_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
     % [S CelloVoiceV measure 135 / measure 2]                                                      %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S CelloVoiceV measure 136 / measure 3]                                                      %! _comment_measure_numbers
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r2...
+    r2...                                                                                          %! clb_rhythm
     
 }
 
@@ -3033,29 +3033,29 @@ S_CelloVoiceVI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r8
+    r8                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
     % [S CelloVoiceVI measure 135 / measure 2]                                                     %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S CelloVoiceVI measure 136 / measure 3]                                                     %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
 }
 
@@ -3101,14 +3101,14 @@ S_CelloVoiceVII_a = {
                     (7-8)                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -3145,30 +3145,30 @@ S_CelloVoiceVIII_a = {
     
     % [S CelloVoiceVIII measure 135 / measure 2]                                                   %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
     
     % [S CelloVoiceVIII measure 136 / measure 3]                                                   %! _comment_measure_numbers
     r2.
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -3200,7 +3200,7 @@ S_CelloVoiceIX_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vc. (9-10)”]"                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3215,18 +3215,18 @@ S_CelloVoiceIX_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
     % [S CelloVoiceIX measure 135 / measure 2]                                                     %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S CelloVoiceIX measure 136 / measure 3]                                                     %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
 }
 
@@ -3249,15 +3249,15 @@ S_CelloVoiceX_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [S CelloVoiceX measure 135 / measure 2]                                                      %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S CelloVoiceX measure 136 / measure 3]                                                      %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -3290,7 +3290,7 @@ S_CelloVoiceXI_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vc. (11-12)”]"                                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3305,22 +3305,22 @@ S_CelloVoiceXI_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
     % [S CelloVoiceXI measure 135 / measure 2]                                                     %! _comment_measure_numbers
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
     % [S CelloVoiceXI measure 136 / measure 3]                                                     %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
 }
 
@@ -3346,28 +3346,28 @@ S_CelloVoiceXII_a = {
     r2
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
     % [S CelloVoiceXII measure 135 / measure 2]                                                    %! _comment_measure_numbers
     r1
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [S CelloVoiceXII measure 136 / measure 3]                                                %! _comment_measure_numbers
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2.
     
@@ -3443,23 +3443,23 @@ S_CelloVoiceXIV_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [S CelloVoiceXIV measure 135 / measure 2]                                                    %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [S CelloVoiceXIV measure 136 / measure 3]                                                    %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -3493,7 +3493,7 @@ S_ContrabassVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     \mf                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Cb. (1-2)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Contrabass”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -3510,18 +3510,18 @@ S_ContrabassVoiceI_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
     % [S ContrabassVoiceI measure 135 / measure 2]                                                 %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
     % [S ContrabassVoiceI measure 136 / measure 3]                                                 %! _comment_measure_numbers
-    r2...
+    r2...                                                                                          %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
 }
 
@@ -3532,7 +3532,7 @@ S_ContrabassVoiceI = {
 
 
 S_ContrabassVoiceII_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [S ContrabassVoiceII measure 134 / measure 1]                                            %! _comment_measure_numbers
     %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -3545,11 +3545,11 @@ S_ContrabassVoiceII_a = {
         \set Staff.forceClef = ##t                                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \voiceTwo                                                                                  %! IndicatorCommand:-PARTS
-        b8
+        b8                                                                                         %! clb_rhythm
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2.
     
@@ -3606,24 +3606,24 @@ S_ContrabassVoiceIII_a = {
                     (3-4)                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
     % [S ContrabassVoiceIII measure 135 / measure 2]                                               %! _comment_measure_numbers
     r1
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [S ContrabassVoiceIII measure 136 / measure 3]                                           %! _comment_measure_numbers
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2.
     
@@ -3648,22 +3648,22 @@ S_ContrabassVoiceIV_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r2.
+    r2.                                                                                            %! clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
     % [S ContrabassVoiceIV measure 135 / measure 2]                                                %! _comment_measure_numbers
-    r2...
+    r2...                                                                                          %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
     % [S ContrabassVoiceIV measure 136 / measure 3]                                                %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 
@@ -3696,7 +3696,7 @@ S_ContrabassVoiceV_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r1
+    r1                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Cb. (5-6)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3711,16 +3711,16 @@ S_ContrabassVoiceV_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
     % [S ContrabassVoiceV measure 135 / measure 2]                                                 %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S ContrabassVoiceV measure 136 / measure 3]                                                 %! _comment_measure_numbers
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
 }
 
@@ -3743,23 +3743,23 @@ S_ContrabassVoiceVI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r2
+    r2                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Contrabass”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [S ContrabassVoiceVI measure 135 / measure 2]                                                %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
     % [S ContrabassVoiceVI measure 136 / measure 3]                                                %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! clb_rhythm
     
 }
 

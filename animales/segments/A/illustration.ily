@@ -133,7 +133,7 @@ A_FirstViolinVoiceI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    gf'!2
+    gf'!2                                                                                          %! sforzando_exchange_rhythm
     \baca_f_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (1-10)”]"                                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -151,37 +151,37 @@ A_FirstViolinVoiceI_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    gf'!2
+    gf'!2                                                                                          %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
     % [A FirstViolinVoiceI measure 8 / measure 2]                                                  %! _comment_measure_numbers
-    gf'!2
+    gf'!2                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A FirstViolinVoiceI measure 9 / measure 3]                                                  %! _comment_measure_numbers
-    gf'!2
+    gf'!2                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
-    gf'!4
+    gf'!4                                                                                          %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
     % [A FirstViolinVoiceI measure 10 / measure 4]                                                 %! _comment_measure_numbers
-    gf'!2.
+    gf'!2.                                                                                         %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A FirstViolinVoiceI measure 11 / measure 5]                                                 %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    f'1
+    f'1                                                                                            %! sforzando_exchange_rhythm
     \baca_p_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \stopTrillSpan                                                                                 %! SpannerCommand
     \startTrillSpan gf'
     
     % [A FirstViolinVoiceI measure 12 / measure 6]                                                 %! _comment_measure_numbers
-    f'4
+    f'4                                                                                            %! sforzando_exchange_rhythm
     \repeatTie
     
-    f'4
+    f'4                                                                                            %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
@@ -221,7 +221,7 @@ A_FirstViolinVoiceIII_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    gf'!2.
+    gf'!2.                                                                                         %! sforzando_exchange_rhythm
     \baca_f_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (11-18)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -239,40 +239,40 @@ A_FirstViolinVoiceIII_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    gf'!4
+    gf'!4                                                                                          %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
     % [A FirstViolinVoiceIII measure 8 / measure 2]                                                %! _comment_measure_numbers
-    gf'!2
+    gf'!2                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A FirstViolinVoiceIII measure 9 / measure 3]                                                %! _comment_measure_numbers
-    gf'!2
+    gf'!2                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! sforzando_exchange_rhythm
         
-        gf'!8
+        gf'!8                                                                                      %! sforzando_exchange_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        gf'!4
+        gf'!4                                                                                      %! sforzando_exchange_rhythm
         - \accent                                                                                  %! IndicatorCommand
-    }
+    }                                                                                              %! sforzando_exchange_rhythm
     
     % [A FirstViolinVoiceIII measure 10 / measure 4]                                               %! _comment_measure_numbers
-    gf'!2.
+    gf'!2.                                                                                         %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A FirstViolinVoiceIII measure 11 / measure 5]                                               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    f'1
+    f'1                                                                                            %! sforzando_exchange_rhythm
     \baca_p_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \stopTrillSpan                                                                                 %! SpannerCommand
     \startTrillSpan gf'
     
     % [A FirstViolinVoiceIII measure 12 / measure 6]                                               %! _comment_measure_numbers
-    f'2
+    f'2                                                                                            %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
@@ -312,7 +312,7 @@ A_SecondViolinVoiceI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    gf'!1
+    gf'!1                                                                                          %! sforzando_exchange_rhythm
     \baca_f_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (1-10)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -331,33 +331,33 @@ A_SecondViolinVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A SecondViolinVoiceI measure 8 / measure 2]                                                 %! _comment_measure_numbers
-    gf'!8
+    gf'!8                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
-    gf'!4.
+    gf'!4.                                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
     % [A SecondViolinVoiceI measure 9 / measure 3]                                                 %! _comment_measure_numbers
-    gf'!2.
+    gf'!2.                                                                                         %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A SecondViolinVoiceI measure 10 / measure 4]                                                %! _comment_measure_numbers
-    gf'!4.
+    gf'!4.                                                                                         %! sforzando_exchange_rhythm
     \repeatTie
     
-    gf'!4.
+    gf'!4.                                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
     % [A SecondViolinVoiceI measure 11 / measure 5]                                                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    f'1
+    f'1                                                                                            %! sforzando_exchange_rhythm
     \baca_p_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \stopTrillSpan                                                                                 %! SpannerCommand
     \startTrillSpan gf'
     
     % [A SecondViolinVoiceI measure 12 / measure 6]                                                %! _comment_measure_numbers
-    f'2
+    f'2                                                                                            %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
@@ -397,7 +397,7 @@ A_SecondViolinVoiceIII_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    gf'!1
+    gf'!1                                                                                          %! sforzando_exchange_rhythm
     \baca_f_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (11-18)”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -414,41 +414,41 @@ A_SecondViolinVoiceIII_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! sforzando_exchange_rhythm
         
         % [A SecondViolinVoiceIII measure 8 / measure 2]                                           %! _comment_measure_numbers
-        gf'!4
+        gf'!4                                                                                      %! sforzando_exchange_rhythm
         \repeatTie
         
-        gf'!8
+        gf'!8                                                                                      %! sforzando_exchange_rhythm
         - \accent                                                                                  %! IndicatorCommand
-    }
+    }                                                                                              %! sforzando_exchange_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    gf'!4
+    gf'!4                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A SecondViolinVoiceIII measure 9 / measure 3]                                               %! _comment_measure_numbers
-    gf'!2.
+    gf'!2.                                                                                         %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A SecondViolinVoiceIII measure 10 / measure 4]                                              %! _comment_measure_numbers
-    gf'!2
+    gf'!2                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
-    gf'!4
+    gf'!4                                                                                          %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
     % [A SecondViolinVoiceIII measure 11 / measure 5]                                              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    f'1
+    f'1                                                                                            %! sforzando_exchange_rhythm
     \baca_p_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \stopTrillSpan                                                                                 %! SpannerCommand
     \startTrillSpan gf'
     
     % [A SecondViolinVoiceIII measure 12 / measure 6]                                              %! _comment_measure_numbers
-    f'2
+    f'2                                                                                            %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
@@ -488,7 +488,7 @@ A_ViolaVoiceI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    gf'!1
+    gf'!1                                                                                          %! sforzando_exchange_rhythm
     \baca_f_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (1-10)”]"                                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -507,36 +507,36 @@ A_ViolaVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A ViolaVoiceI measure 8 / measure 2]                                                        %! _comment_measure_numbers
-    gf'!4
+    gf'!4                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
-    gf'!4
+    gf'!4                                                                                          %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
     % [A ViolaVoiceI measure 9 / measure 3]                                                        %! _comment_measure_numbers
-    gf'!2.
+    gf'!2.                                                                                         %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A ViolaVoiceI measure 10 / measure 4]                                                       %! _comment_measure_numbers
-    gf'!2.
+    gf'!2.                                                                                         %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A ViolaVoiceI measure 11 / measure 5]                                                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    f'4.
+    f'4.                                                                                           %! sforzando_exchange_rhythm
     \baca_p_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \stopTrillSpan                                                                                 %! SpannerCommand
     \startTrillSpan gf'
     
-    f'8
+    f'8                                                                                            %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
-    f'2
+    f'2                                                                                            %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A ViolaVoiceI measure 12 / measure 6]                                                       %! _comment_measure_numbers
-    f'2
+    f'2                                                                                            %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
@@ -576,7 +576,7 @@ A_ViolaVoiceIII_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    gf'!1
+    gf'!1                                                                                          %! sforzando_exchange_rhythm
     \baca_f_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (11-18)”]"                                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -595,30 +595,30 @@ A_ViolaVoiceIII_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A ViolaVoiceIII measure 8 / measure 2]                                                      %! _comment_measure_numbers
-    gf'!2
+    gf'!2                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A ViolaVoiceIII measure 9 / measure 3]                                                      %! _comment_measure_numbers
-    gf'!2.
+    gf'!2.                                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
     % [A ViolaVoiceIII measure 10 / measure 4]                                                     %! _comment_measure_numbers
-    gf'!2.
+    gf'!2.                                                                                         %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A ViolaVoiceIII measure 11 / measure 5]                                                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    f'2
+    f'2                                                                                            %! sforzando_exchange_rhythm
     \baca_p_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \stopTrillSpan                                                                                 %! SpannerCommand
     \startTrillSpan gf'
     
-    f'2
+    f'2                                                                                            %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
     % [A ViolaVoiceIII measure 12 / measure 6]                                                     %! _comment_measure_numbers
-    f'2
+    f'2                                                                                            %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
@@ -654,7 +654,7 @@ A_CelloVoiceI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    gf'!4.
+    gf'!4.                                                                                         %! sforzando_exchange_rhythm
     \baca_f_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -668,40 +668,40 @@ A_CelloVoiceI_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    gf'!8
+    gf'!8                                                                                          %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
-    gf'!2
+    gf'!2                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A CelloVoiceI measure 8 / measure 2]                                                        %! _comment_measure_numbers
-    gf'!2
+    gf'!2                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A CelloVoiceI measure 9 / measure 3]                                                        %! _comment_measure_numbers
-    gf'!4.
+    gf'!4.                                                                                         %! sforzando_exchange_rhythm
     \repeatTie
     
-    gf'!4.
+    gf'!4.                                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
     % [A CelloVoiceI measure 10 / measure 4]                                                       %! _comment_measure_numbers
-    gf'!2.
+    gf'!2.                                                                                         %! sforzando_exchange_rhythm
     \repeatTie
     
     % [A CelloVoiceI measure 11 / measure 5]                                                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    f'1
+    f'1                                                                                            %! sforzando_exchange_rhythm
     \baca_p_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \stopTrillSpan                                                                                 %! SpannerCommand
     \startTrillSpan gf'
     
     % [A CelloVoiceI measure 12 / measure 6]                                                       %! _comment_measure_numbers
-    f'8
+    f'8                                                                                            %! sforzando_exchange_rhythm
     \repeatTie
     
-    f'4.
+    f'4.                                                                                           %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)

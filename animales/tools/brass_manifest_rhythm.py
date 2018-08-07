@@ -37,6 +37,7 @@ def brass_manifest_rhythm(part, left_broken=False, right_broken=False):
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=extra_counts_per_division,
+        tag='brass_manifest_rhythm',
         talea=talea,
         tuplet_specifier=rmakers.TupletSpecifier(
             extract_trivial=True,
