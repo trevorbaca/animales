@@ -254,7 +254,7 @@ K_ClarinetVoiceI = {
 
 
 K_ClarinetStaffI = {
-    \context Voice = "ClarinetVoiceI"
+    \context Voice = "ClarinetVoiceI"                                                              %! ScoreTemplate
     \K_ClarinetVoiceI                                                                              %! extern
 }
 
@@ -370,9 +370,9 @@ K_HornVoiceIII = {
 
 
 K_HornStaffI = <<
-    \context Voice = "HornVoiceI"
+    \context Voice = "HornVoiceI"                                                                  %! ScoreTemplate
     \K_HornVoiceI                                                                                  %! extern
-    \context Voice = "HornVoiceIII"
+    \context Voice = "HornVoiceIII"                                                                %! ScoreTemplate
     \K_HornVoiceIII                                                                                %! extern
 >>
 
@@ -486,9 +486,9 @@ K_HornVoiceIV = {
 
 
 K_HornStaffII = <<
-    \context Voice = "HornVoiceII"
+    \context Voice = "HornVoiceII"                                                                 %! ScoreTemplate
     \K_HornVoiceII                                                                                 %! extern
-    \context Voice = "HornVoiceIV"
+    \context Voice = "HornVoiceIV"                                                                 %! ScoreTemplate
     \K_HornVoiceIV                                                                                 %! extern
 >>
 
@@ -602,9 +602,9 @@ K_TrumpetVoiceIII = {
 
 
 K_TrumpetStaffI = <<
-    \context Voice = "TrumpetVoiceI"
+    \context Voice = "TrumpetVoiceI"                                                               %! ScoreTemplate
     \K_TrumpetVoiceI                                                                               %! extern
-    \context Voice = "TrumpetVoiceIII"
+    \context Voice = "TrumpetVoiceIII"                                                             %! ScoreTemplate
     \K_TrumpetVoiceIII                                                                             %! extern
 >>
 
@@ -720,9 +720,9 @@ K_TrumpetVoiceIV = {
 
 
 K_TrumpetStaffII = <<
-    \context Voice = "TrumpetVoiceII"
+    \context Voice = "TrumpetVoiceII"                                                              %! ScoreTemplate
     \K_TrumpetVoiceII                                                                              %! extern
-    \context Voice = "TrumpetVoiceIV"
+    \context Voice = "TrumpetVoiceIV"                                                              %! ScoreTemplate
     \K_TrumpetVoiceIV                                                                              %! extern
 >>
 
@@ -836,9 +836,9 @@ K_TromboneVoiceIII = {
 
 
 K_TromboneStaffI = <<
-    \context Voice = "TromboneVoiceI"
+    \context Voice = "TromboneVoiceI"                                                              %! ScoreTemplate
     \K_TromboneVoiceI                                                                              %! extern
-    \context Voice = "TromboneVoiceIII"
+    \context Voice = "TromboneVoiceIII"                                                            %! ScoreTemplate
     \K_TromboneVoiceIII                                                                            %! extern
 >>
 
@@ -954,9 +954,9 @@ K_TromboneVoiceIV = {
 
 
 K_TromboneStaffII = <<
-    \context Voice = "TromboneVoiceII"
+    \context Voice = "TromboneVoiceII"                                                             %! ScoreTemplate
     \K_TromboneVoiceII                                                                             %! extern
-    \context Voice = "TromboneVoiceIV"
+    \context Voice = "TromboneVoiceIV"                                                             %! ScoreTemplate
     \K_TromboneVoiceIV                                                                             %! extern
 >>
 
@@ -1045,7 +1045,7 @@ K_PianoVoiceI = {
 
 
 K_PianoStaffI = {
-    \context Voice = "PianoVoiceI"
+    \context Voice = "PianoVoiceI"                                                                 %! ScoreTemplate
     \K_PianoVoiceI                                                                                 %! extern
 }
 
@@ -1132,7 +1132,7 @@ K_HarpVoiceI = {
 
 
 K_HarpStaffI = {
-    \context Voice = "HarpVoiceI"
+    \context Voice = "HarpVoiceI"                                                                  %! ScoreTemplate
     \K_HarpVoiceI                                                                                  %! extern
 }
 
@@ -1228,7 +1228,7 @@ K_PercussionVoiceII = {
 
 
 K_PercussionStaffII = {
-    \context Voice = "PercussionVoiceII"
+    \context Voice = "PercussionVoiceII"                                                           %! ScoreTemplate
     \K_PercussionVoiceII                                                                           %! extern
 }
 
@@ -1326,7 +1326,7 @@ K_PercussionVoiceIII = {
 
 
 K_PercussionStaffIII = {
-    \context Voice = "PercussionVoiceIII"
+    \context Voice = "PercussionVoiceIII"                                                          %! ScoreTemplate
     \K_PercussionVoiceIII                                                                          %! extern
 }
 
@@ -1396,7 +1396,7 @@ K_FirstViolinVoiceI = {
 
 
 K_FirstViolinStaffI = {
-    \context Voice = "FirstViolinVoiceI"
+    \context Voice = "FirstViolinVoiceI"                                                           %! ScoreTemplate
     \K_FirstViolinVoiceI                                                                           %! extern
 }
 
@@ -1466,7 +1466,7 @@ K_SecondViolinVoiceI = {
 
 
 K_SecondViolinStaffI = {
-    \context Voice = "SecondViolinVoiceI"
+    \context Voice = "SecondViolinVoiceI"                                                          %! ScoreTemplate
     \K_SecondViolinVoiceI                                                                          %! extern
 }
 
@@ -1536,7 +1536,7 @@ K_ViolaVoiceI = {
 
 
 K_ViolaStaffI = {
-    \context Voice = "ViolaVoiceI"
+    \context Voice = "ViolaVoiceI"                                                                 %! ScoreTemplate
     \K_ViolaVoiceI                                                                                 %! extern
 }
 
@@ -1606,7 +1606,7 @@ K_CelloVoiceI = {
 
 
 K_CelloStaffI = {
-    \context Voice = "CelloVoiceI"
+    \context Voice = "CelloVoiceI"                                                                 %! ScoreTemplate
     \K_CelloVoiceI                                                                                 %! extern
 }
 
@@ -1709,7 +1709,7 @@ K_ContrabassVoiceI = {
 
 
 K_ContrabassStaffI = {
-    \context Voice = "ContrabassVoiceI"
+    \context Voice = "ContrabassVoiceI"                                                            %! ScoreTemplate
     \K_ContrabassVoiceI                                                                            %! extern
 }
 
@@ -1787,6 +1787,6 @@ K_ContrabassVoiceIII = {
 
 
 K_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceIII"
+    \context Voice = "ContrabassVoiceIII"                                                          %! ScoreTemplate
     \K_ContrabassVoiceIII                                                                          %! extern
 }

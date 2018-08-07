@@ -195,7 +195,7 @@ A_FirstViolinVoiceI = {
 
 
 A_FirstViolinStaffI = {
-    \context Voice = "FirstViolinVoiceI"
+    \context Voice = "FirstViolinVoiceI"                                                           %! ScoreTemplate
     \A_FirstViolinVoiceI                                                                           %! extern
 }
 
@@ -286,7 +286,7 @@ A_FirstViolinVoiceIII = {
 
 
 A_FirstViolinStaffII = {
-    \context Voice = "FirstViolinVoiceIII"
+    \context Voice = "FirstViolinVoiceIII"                                                         %! ScoreTemplate
     \A_FirstViolinVoiceIII                                                                         %! extern
 }
 
@@ -371,7 +371,7 @@ A_SecondViolinVoiceI = {
 
 
 A_SecondViolinStaffI = {
-    \context Voice = "SecondViolinVoiceI"
+    \context Voice = "SecondViolinVoiceI"                                                          %! ScoreTemplate
     \A_SecondViolinVoiceI                                                                          %! extern
 }
 
@@ -462,7 +462,7 @@ A_SecondViolinVoiceIII = {
 
 
 A_SecondViolinStaffII = {
-    \context Voice = "SecondViolinVoiceIII"
+    \context Voice = "SecondViolinVoiceIII"                                                        %! ScoreTemplate
     \A_SecondViolinVoiceIII                                                                        %! extern
 }
 
@@ -550,7 +550,7 @@ A_ViolaVoiceI = {
 
 
 A_ViolaStaffI = {
-    \context Voice = "ViolaVoiceI"
+    \context Voice = "ViolaVoiceI"                                                                 %! ScoreTemplate
     \A_ViolaVoiceI                                                                                 %! extern
 }
 
@@ -632,7 +632,7 @@ A_ViolaVoiceIII = {
 
 
 A_ViolaStaffII = {
-    \context Voice = "ViolaVoiceIII"
+    \context Voice = "ViolaVoiceIII"                                                               %! ScoreTemplate
     \A_ViolaVoiceIII                                                                               %! extern
 }
 
@@ -715,6 +715,6 @@ A_CelloVoiceI = {
 
 
 A_CelloStaffI = {
-    \context Voice = "CelloVoiceI"
+    \context Voice = "CelloVoiceI"                                                                 %! ScoreTemplate
     \A_CelloVoiceI                                                                                 %! extern
 }

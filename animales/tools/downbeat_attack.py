@@ -35,8 +35,8 @@ def downbeat_attack(count=1, denominator=8):
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=89)
-            \context Score = "Score"
-            <<
+            \context Score = "Score"                                                                 %! ScoreTemplate
+            <<                                                                                       %! ScoreTemplate
                 \context GlobalContext = "GlobalContext"                                             %! _make_global_context
                 <<                                                                                   %! _make_global_context
                     \context GlobalRests = "GlobalRests"                                             %! _make_global_context
@@ -77,14 +77,14 @@ def downbeat_attack(count=1, denominator=8):
             <BLANKLINE>
                     }                                                                                %! _make_global_context
                 >>                                                                                   %! _make_global_context
-                \context MusicContext = "MusicContext"
-                <<
-                    \context StaffGroup = "BrassStaffGroup"
-                    <<
-                        \context Staff = "HornStaffI"
-                        {
-                            \context Voice = "HornVoiceI"
-                            {
+                \context MusicContext = "MusicContext"                                               %! make_music_context
+                <<                                                                                   %! make_music_context
+                    \context StaffGroup = "BrassStaffGroup"                                          %! make_staff_group
+                    <<                                                                               %! make_staff_group
+                        \context Staff = "HornStaffI"                                                %! ScoreTemplate
+                        {                                                                            %! ScoreTemplate
+                            \context Voice = "HornVoiceI"                                            %! ScoreTemplate
+                            {                                                                        %! ScoreTemplate
                                 {   %*% PartAssignment('Horn')
             <BLANKLINE>
                                     % [HornVoiceI measure 1]                                         %! _comment_measure_numbers
@@ -120,11 +120,11 @@ def downbeat_attack(count=1, denominator=8):
                                 % [HornVoiceI measure 3]                                             %! _comment_measure_numbers
                                 R1 * 1/2                                                             %! _make_measure_silences
             <BLANKLINE>
-                            }
-                        }
-                    >>
-                >>
-            >>
+                            }                                                                        %! ScoreTemplate
+                        }                                                                            %! ScoreTemplate
+                    >>                                                                               %! make_staff_group
+                >>                                                                                   %! make_music_context
+            >>                                                                                       %! ScoreTemplate
 
     """
 

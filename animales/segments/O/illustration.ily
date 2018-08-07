@@ -297,7 +297,7 @@ O_OboeVoiceI = {
 
 
 O_OboeStaffI = {
-    \context Voice = "OboeVoiceI"
+    \context Voice = "OboeVoiceI"                                                                  %! ScoreTemplate
     \O_OboeVoiceI                                                                                  %! extern
 }
 
@@ -393,7 +393,7 @@ O_EnglishHornVoiceI = {
 
 
 O_EnglishHornStaffI = {
-    \context Voice = "EnglishHornVoiceI"
+    \context Voice = "EnglishHornVoiceI"                                                           %! ScoreTemplate
     \O_EnglishHornVoiceI                                                                           %! extern
 }
 
@@ -560,9 +560,9 @@ O_BassoonVoiceII = {
 
 
 O_BassoonStaffI = <<
-    \context Voice = "BassoonVoiceI"
+    \context Voice = "BassoonVoiceI"                                                               %! ScoreTemplate
     \O_BassoonVoiceI                                                                               %! extern
-    \context Voice = "BassoonVoiceII"
+    \context Voice = "BassoonVoiceII"                                                              %! ScoreTemplate
     \O_BassoonVoiceII                                                                              %! extern
 >>
 
@@ -824,9 +824,9 @@ O_FirstViolinVoiceII = {
 
 
 O_FirstViolinStaffI = <<
-    \context Voice = "FirstViolinVoiceI"
+    \context Voice = "FirstViolinVoiceI"                                                           %! ScoreTemplate
     \O_FirstViolinVoiceI                                                                           %! extern
-    \context Voice = "FirstViolinVoiceII"
+    \context Voice = "FirstViolinVoiceII"                                                          %! ScoreTemplate
     \O_FirstViolinVoiceII                                                                          %! extern
 >>
 
@@ -1082,9 +1082,9 @@ O_FirstViolinVoiceIV = {
 
 
 O_FirstViolinStaffII = <<
-    \context Voice = "FirstViolinVoiceIII"
+    \context Voice = "FirstViolinVoiceIII"                                                         %! ScoreTemplate
     \O_FirstViolinVoiceIII                                                                         %! extern
-    \context Voice = "FirstViolinVoiceIV"
+    \context Voice = "FirstViolinVoiceIV"                                                          %! ScoreTemplate
     \O_FirstViolinVoiceIV                                                                          %! extern
 >>
 
@@ -1210,7 +1210,7 @@ O_FirstViolinVoiceV = {
 
 
 O_FirstViolinStaffIII = {
-    \context Voice = "FirstViolinVoiceV"
+    \context Voice = "FirstViolinVoiceV"                                                           %! ScoreTemplate
     \O_FirstViolinVoiceV                                                                           %! extern
 }
 
@@ -1471,9 +1471,9 @@ O_SecondViolinVoiceII = {
 
 
 O_SecondViolinStaffI = <<
-    \context Voice = "SecondViolinVoiceI"
+    \context Voice = "SecondViolinVoiceI"                                                          %! ScoreTemplate
     \O_SecondViolinVoiceI                                                                          %! extern
-    \context Voice = "SecondViolinVoiceII"
+    \context Voice = "SecondViolinVoiceII"                                                         %! ScoreTemplate
     \O_SecondViolinVoiceII                                                                         %! extern
 >>
 
@@ -1729,9 +1729,9 @@ O_SecondViolinVoiceIV = {
 
 
 O_SecondViolinStaffII = <<
-    \context Voice = "SecondViolinVoiceIII"
+    \context Voice = "SecondViolinVoiceIII"                                                        %! ScoreTemplate
     \O_SecondViolinVoiceIII                                                                        %! extern
-    \context Voice = "SecondViolinVoiceIV"
+    \context Voice = "SecondViolinVoiceIV"                                                         %! ScoreTemplate
     \O_SecondViolinVoiceIV                                                                         %! extern
 >>
 
@@ -1987,9 +1987,9 @@ O_ViolaVoiceII = {
 
 
 O_ViolaStaffI = <<
-    \context Voice = "ViolaVoiceI"
+    \context Voice = "ViolaVoiceI"                                                                 %! ScoreTemplate
     \O_ViolaVoiceI                                                                                 %! extern
-    \context Voice = "ViolaVoiceII"
+    \context Voice = "ViolaVoiceII"                                                                %! ScoreTemplate
     \O_ViolaVoiceII                                                                                %! extern
 >>
 
@@ -2245,9 +2245,9 @@ O_ViolaVoiceIV = {
 
 
 O_ViolaStaffII = <<
-    \context Voice = "ViolaVoiceIII"
+    \context Voice = "ViolaVoiceIII"                                                               %! ScoreTemplate
     \O_ViolaVoiceIII                                                                               %! extern
-    \context Voice = "ViolaVoiceIV"
+    \context Voice = "ViolaVoiceIV"                                                                %! ScoreTemplate
     \O_ViolaVoiceIV                                                                                %! extern
 >>
 
@@ -2508,9 +2508,9 @@ O_CelloVoiceII = {
 
 
 O_CelloStaffI = <<
-    \context Voice = "CelloVoiceI"
+    \context Voice = "CelloVoiceI"                                                                 %! ScoreTemplate
     \O_CelloVoiceI                                                                                 %! extern
-    \context Voice = "CelloVoiceII"
+    \context Voice = "CelloVoiceII"                                                                %! ScoreTemplate
     \O_CelloVoiceII                                                                                %! extern
 >>
 
@@ -2641,6 +2641,6 @@ O_ContrabassVoiceIII = {
 
 
 O_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceIII"
+    \context Voice = "ContrabassVoiceIII"                                                          %! ScoreTemplate
     \O_ContrabassVoiceIII                                                                          %! extern
 }

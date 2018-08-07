@@ -396,9 +396,9 @@ N_FluteVoiceIII = {
 
 
 N_FluteStaffI = <<
-    \context Voice = "FluteVoiceI"
+    \context Voice = "FluteVoiceI"                                                                 %! ScoreTemplate
     \N_FluteVoiceI                                                                                 %! extern
-    \context Voice = "FluteVoiceIII"
+    \context Voice = "FluteVoiceIII"                                                               %! ScoreTemplate
     \N_FluteVoiceIII                                                                               %! extern
 >>
 
@@ -707,9 +707,9 @@ N_FluteVoiceIV = {
 
 
 N_FluteStaffII = <<
-    \context Voice = "FluteVoiceII"
+    \context Voice = "FluteVoiceII"                                                                %! ScoreTemplate
     \N_FluteVoiceII                                                                                %! extern
-    \context Voice = "FluteVoiceIV"
+    \context Voice = "FluteVoiceIV"                                                                %! ScoreTemplate
     \N_FluteVoiceIV                                                                                %! extern
 >>
 
@@ -792,7 +792,7 @@ N_BassClarinetVoiceI = {
 
 
 N_BassClarinetStaffI = {
-    \context Voice = "BassClarinetVoiceI"
+    \context Voice = "BassClarinetVoiceI"                                                          %! ScoreTemplate
     \N_BassClarinetVoiceI                                                                          %! extern
 }
 
@@ -884,7 +884,7 @@ N_PianoVoiceI = {
 
 
 N_PianoStaffI = {
-    \context Voice = "PianoVoiceI"
+    \context Voice = "PianoVoiceI"                                                                 %! ScoreTemplate
     \N_PianoVoiceI                                                                                 %! extern
 }
 
@@ -966,7 +966,7 @@ N_HarpVoiceI = {
 
 
 N_HarpStaffI = {
-    \context Voice = "HarpVoiceI"
+    \context Voice = "HarpVoiceI"                                                                  %! ScoreTemplate
     \N_HarpVoiceI                                                                                  %! extern
 }
 
@@ -1056,7 +1056,7 @@ N_PercussionVoiceI = {
 
 
 N_PercussionStaffI = {
-    \context Voice = "PercussionVoiceI"
+    \context Voice = "PercussionVoiceI"                                                            %! ScoreTemplate
     \N_PercussionVoiceI                                                                            %! extern
 }
 
@@ -1146,7 +1146,7 @@ N_PercussionVoiceII = {
 
 
 N_PercussionStaffII = {
-    \context Voice = "PercussionVoiceII"
+    \context Voice = "PercussionVoiceII"                                                           %! ScoreTemplate
     \N_PercussionVoiceII                                                                           %! extern
 }
 
@@ -1236,7 +1236,7 @@ N_PercussionVoiceIII = {
 
 
 N_PercussionStaffIII = {
-    \context Voice = "PercussionVoiceIII"
+    \context Voice = "PercussionVoiceIII"                                                          %! ScoreTemplate
     \N_PercussionVoiceIII                                                                          %! extern
 }
 
@@ -1410,9 +1410,9 @@ N_FirstViolinVoiceI = {
 
 
 N_FirstViolinStaffI = <<
-    \context Voice = "FirstViolinVoiceII"
+    \context Voice = "FirstViolinVoiceII"                                                          %! ScoreTemplate
     \N_FirstViolinVoiceII                                                                          %! extern
-    \context Voice = "FirstViolinVoiceI"
+    \context Voice = "FirstViolinVoiceI"                                                           %! ScoreTemplate
     \N_FirstViolinVoiceI                                                                           %! extern
 >>
 
@@ -1497,7 +1497,7 @@ N_SecondViolinVoiceI = {
 
 
 N_SecondViolinStaffI = {
-    \context Voice = "SecondViolinVoiceI"
+    \context Voice = "SecondViolinVoiceI"                                                          %! ScoreTemplate
     \N_SecondViolinVoiceI                                                                          %! extern
 }
 
@@ -1582,7 +1582,7 @@ N_ViolaVoiceI = {
 
 
 N_ViolaStaffI = {
-    \context Voice = "ViolaVoiceI"
+    \context Voice = "ViolaVoiceI"                                                                 %! ScoreTemplate
     \N_ViolaVoiceI                                                                                 %! extern
 }
 
@@ -1667,7 +1667,7 @@ N_CelloVoiceI = {
 
 
 N_CelloStaffI = {
-    \context Voice = "CelloVoiceI"
+    \context Voice = "CelloVoiceI"                                                                 %! ScoreTemplate
     \N_CelloVoiceI                                                                                 %! extern
 }
 
@@ -1760,7 +1760,7 @@ N_ContrabassVoiceI = {
 
 
 N_ContrabassStaffI = {
-    \context Voice = "ContrabassVoiceI"
+    \context Voice = "ContrabassVoiceI"                                                            %! ScoreTemplate
     \N_ContrabassVoiceI                                                                            %! extern
 }
 
@@ -1850,6 +1850,6 @@ N_ContrabassVoiceIII = {
 
 
 N_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceIII"
+    \context Voice = "ContrabassVoiceIII"                                                          %! ScoreTemplate
     \N_ContrabassVoiceIII                                                                          %! extern
 }

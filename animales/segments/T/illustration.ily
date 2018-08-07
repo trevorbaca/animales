@@ -170,9 +170,9 @@ T_FirstViolinVoiceII = {
 
 
 T_FirstViolinStaffI = <<
-    \context Voice = "FirstViolinVoiceI"
+    \context Voice = "FirstViolinVoiceI"                                                           %! ScoreTemplate
     \T_FirstViolinVoiceI                                                                           %! extern
-    \context Voice = "FirstViolinVoiceII"
+    \context Voice = "FirstViolinVoiceII"                                                          %! ScoreTemplate
     \T_FirstViolinVoiceII                                                                          %! extern
 >>
 
@@ -288,9 +288,9 @@ T_FirstViolinVoiceIV = {
 
 
 T_FirstViolinStaffII = <<
-    \context Voice = "FirstViolinVoiceIII"
+    \context Voice = "FirstViolinVoiceIII"                                                         %! ScoreTemplate
     \T_FirstViolinVoiceIII                                                                         %! extern
-    \context Voice = "FirstViolinVoiceIV"
+    \context Voice = "FirstViolinVoiceIV"                                                          %! ScoreTemplate
     \T_FirstViolinVoiceIV                                                                          %! extern
 >>
 
@@ -398,9 +398,9 @@ T_FirstViolinVoiceVI = {
 
 
 T_FirstViolinStaffIII = <<
-    \context Voice = "FirstViolinVoiceV"
+    \context Voice = "FirstViolinVoiceV"                                                           %! ScoreTemplate
     \T_FirstViolinVoiceV                                                                           %! extern
-    \context Voice = "FirstViolinVoiceVI"
+    \context Voice = "FirstViolinVoiceVI"                                                          %! ScoreTemplate
     \T_FirstViolinVoiceVI                                                                          %! extern
 >>
 
@@ -506,9 +506,9 @@ T_FirstViolinVoiceVIII = {
 
 
 T_FirstViolinStaffIV = <<
-    \context Voice = "FirstViolinVoiceVII"
+    \context Voice = "FirstViolinVoiceVII"                                                         %! ScoreTemplate
     \T_FirstViolinVoiceVII                                                                         %! extern
-    \context Voice = "FirstViolinVoiceVIII"
+    \context Voice = "FirstViolinVoiceVIII"                                                        %! ScoreTemplate
     \T_FirstViolinVoiceVIII                                                                        %! extern
 >>
 
@@ -606,9 +606,9 @@ T_FirstViolinVoiceX = {
 
 
 T_FirstViolinStaffV = <<
-    \context Voice = "FirstViolinVoiceIX"
+    \context Voice = "FirstViolinVoiceIX"                                                          %! ScoreTemplate
     \T_FirstViolinVoiceIX                                                                          %! extern
-    \context Voice = "FirstViolinVoiceX"
+    \context Voice = "FirstViolinVoiceX"                                                           %! ScoreTemplate
     \T_FirstViolinVoiceX                                                                           %! extern
 >>
 
@@ -720,9 +720,9 @@ T_FirstViolinVoiceXII = {
 
 
 T_FirstViolinStaffVI = <<
-    \context Voice = "FirstViolinVoiceXI"
+    \context Voice = "FirstViolinVoiceXI"                                                          %! ScoreTemplate
     \T_FirstViolinVoiceXI                                                                          %! extern
-    \context Voice = "FirstViolinVoiceXII"
+    \context Voice = "FirstViolinVoiceXII"                                                         %! ScoreTemplate
     \T_FirstViolinVoiceXII                                                                         %! extern
 >>
 
@@ -826,9 +826,9 @@ T_FirstViolinVoiceXIV = {
 
 
 T_FirstViolinStaffVII = <<
-    \context Voice = "FirstViolinVoiceXIII"
+    \context Voice = "FirstViolinVoiceXIII"                                                        %! ScoreTemplate
     \T_FirstViolinVoiceXIII                                                                        %! extern
-    \context Voice = "FirstViolinVoiceXIV"
+    \context Voice = "FirstViolinVoiceXIV"                                                         %! ScoreTemplate
     \T_FirstViolinVoiceXIV                                                                         %! extern
 >>
 
@@ -926,9 +926,9 @@ T_FirstViolinVoiceXVI = {
 
 
 T_FirstViolinStaffVIII = <<
-    \context Voice = "FirstViolinVoiceXV"
+    \context Voice = "FirstViolinVoiceXV"                                                          %! ScoreTemplate
     \T_FirstViolinVoiceXV                                                                          %! extern
-    \context Voice = "FirstViolinVoiceXVI"
+    \context Voice = "FirstViolinVoiceXVI"                                                         %! ScoreTemplate
     \T_FirstViolinVoiceXVI                                                                         %! extern
 >>
 
@@ -1032,9 +1032,9 @@ T_FirstViolinVoiceXVIII = {
 
 
 T_FirstViolinStaffIX = <<
-    \context Voice = "FirstViolinVoiceXVII"
+    \context Voice = "FirstViolinVoiceXVII"                                                        %! ScoreTemplate
     \T_FirstViolinVoiceXVII                                                                        %! extern
-    \context Voice = "FirstViolinVoiceXVIII"
+    \context Voice = "FirstViolinVoiceXVIII"                                                       %! ScoreTemplate
     \T_FirstViolinVoiceXVIII                                                                       %! extern
 >>
 
@@ -1142,9 +1142,9 @@ T_SecondViolinVoiceII = {
 
 
 T_SecondViolinStaffI = <<
-    \context Voice = "SecondViolinVoiceI"
+    \context Voice = "SecondViolinVoiceI"                                                          %! ScoreTemplate
     \T_SecondViolinVoiceI                                                                          %! extern
-    \context Voice = "SecondViolinVoiceII"
+    \context Voice = "SecondViolinVoiceII"                                                         %! ScoreTemplate
     \T_SecondViolinVoiceII                                                                         %! extern
 >>
 
@@ -1254,9 +1254,9 @@ T_SecondViolinVoiceIV = {
 
 
 T_SecondViolinStaffII = <<
-    \context Voice = "SecondViolinVoiceIII"
+    \context Voice = "SecondViolinVoiceIII"                                                        %! ScoreTemplate
     \T_SecondViolinVoiceIII                                                                        %! extern
-    \context Voice = "SecondViolinVoiceIV"
+    \context Voice = "SecondViolinVoiceIV"                                                         %! ScoreTemplate
     \T_SecondViolinVoiceIV                                                                         %! extern
 >>
 
@@ -1356,9 +1356,9 @@ T_SecondViolinVoiceVI = {
 
 
 T_SecondViolinStaffIII = <<
-    \context Voice = "SecondViolinVoiceV"
+    \context Voice = "SecondViolinVoiceV"                                                          %! ScoreTemplate
     \T_SecondViolinVoiceV                                                                          %! extern
-    \context Voice = "SecondViolinVoiceVI"
+    \context Voice = "SecondViolinVoiceVI"                                                         %! ScoreTemplate
     \T_SecondViolinVoiceVI                                                                         %! extern
 >>
 
@@ -1458,9 +1458,9 @@ T_SecondViolinVoiceVIII = {
 
 
 T_SecondViolinStaffIV = <<
-    \context Voice = "SecondViolinVoiceVII"
+    \context Voice = "SecondViolinVoiceVII"                                                        %! ScoreTemplate
     \T_SecondViolinVoiceVII                                                                        %! extern
-    \context Voice = "SecondViolinVoiceVIII"
+    \context Voice = "SecondViolinVoiceVIII"                                                       %! ScoreTemplate
     \T_SecondViolinVoiceVIII                                                                       %! extern
 >>
 
@@ -1566,9 +1566,9 @@ T_SecondViolinVoiceX = {
 
 
 T_SecondViolinStaffV = <<
-    \context Voice = "SecondViolinVoiceIX"
+    \context Voice = "SecondViolinVoiceIX"                                                         %! ScoreTemplate
     \T_SecondViolinVoiceIX                                                                         %! extern
-    \context Voice = "SecondViolinVoiceX"
+    \context Voice = "SecondViolinVoiceX"                                                          %! ScoreTemplate
     \T_SecondViolinVoiceX                                                                          %! extern
 >>
 
@@ -1670,9 +1670,9 @@ T_SecondViolinVoiceXII = {
 
 
 T_SecondViolinStaffVI = <<
-    \context Voice = "SecondViolinVoiceXI"
+    \context Voice = "SecondViolinVoiceXI"                                                         %! ScoreTemplate
     \T_SecondViolinVoiceXI                                                                         %! extern
-    \context Voice = "SecondViolinVoiceXII"
+    \context Voice = "SecondViolinVoiceXII"                                                        %! ScoreTemplate
     \T_SecondViolinVoiceXII                                                                        %! extern
 >>
 
@@ -1778,9 +1778,9 @@ T_SecondViolinVoiceXIV = {
 
 
 T_SecondViolinStaffVII = <<
-    \context Voice = "SecondViolinVoiceXIII"
+    \context Voice = "SecondViolinVoiceXIII"                                                       %! ScoreTemplate
     \T_SecondViolinVoiceXIII                                                                       %! extern
-    \context Voice = "SecondViolinVoiceXIV"
+    \context Voice = "SecondViolinVoiceXIV"                                                        %! ScoreTemplate
     \T_SecondViolinVoiceXIV                                                                        %! extern
 >>
 
@@ -1882,9 +1882,9 @@ T_SecondViolinVoiceXVI = {
 
 
 T_SecondViolinStaffVIII = <<
-    \context Voice = "SecondViolinVoiceXV"
+    \context Voice = "SecondViolinVoiceXV"                                                         %! ScoreTemplate
     \T_SecondViolinVoiceXV                                                                         %! extern
-    \context Voice = "SecondViolinVoiceXVI"
+    \context Voice = "SecondViolinVoiceXVI"                                                        %! ScoreTemplate
     \T_SecondViolinVoiceXVI                                                                        %! extern
 >>
 
@@ -1992,9 +1992,9 @@ T_SecondViolinVoiceXVIII = {
 
 
 T_SecondViolinStaffIX = <<
-    \context Voice = "SecondViolinVoiceXVII"
+    \context Voice = "SecondViolinVoiceXVII"                                                       %! ScoreTemplate
     \T_SecondViolinVoiceXVII                                                                       %! extern
-    \context Voice = "SecondViolinVoiceXVIII"
+    \context Voice = "SecondViolinVoiceXVIII"                                                      %! ScoreTemplate
     \T_SecondViolinVoiceXVIII                                                                      %! extern
 >>
 
@@ -2100,9 +2100,9 @@ T_ViolaVoiceII = {
 
 
 T_ViolaStaffI = <<
-    \context Voice = "ViolaVoiceI"
+    \context Voice = "ViolaVoiceI"                                                                 %! ScoreTemplate
     \T_ViolaVoiceI                                                                                 %! extern
-    \context Voice = "ViolaVoiceII"
+    \context Voice = "ViolaVoiceII"                                                                %! ScoreTemplate
     \T_ViolaVoiceII                                                                                %! extern
 >>
 
@@ -2212,9 +2212,9 @@ T_ViolaVoiceIV = {
 
 
 T_ViolaStaffII = <<
-    \context Voice = "ViolaVoiceIII"
+    \context Voice = "ViolaVoiceIII"                                                               %! ScoreTemplate
     \T_ViolaVoiceIII                                                                               %! extern
-    \context Voice = "ViolaVoiceIV"
+    \context Voice = "ViolaVoiceIV"                                                                %! ScoreTemplate
     \T_ViolaVoiceIV                                                                                %! extern
 >>
 
@@ -2314,9 +2314,9 @@ T_ViolaVoiceVI = {
 
 
 T_ViolaStaffIII = <<
-    \context Voice = "ViolaVoiceV"
+    \context Voice = "ViolaVoiceV"                                                                 %! ScoreTemplate
     \T_ViolaVoiceV                                                                                 %! extern
-    \context Voice = "ViolaVoiceVI"
+    \context Voice = "ViolaVoiceVI"                                                                %! ScoreTemplate
     \T_ViolaVoiceVI                                                                                %! extern
 >>
 
@@ -2428,9 +2428,9 @@ T_ViolaVoiceVIII = {
 
 
 T_ViolaStaffIV = <<
-    \context Voice = "ViolaVoiceVII"
+    \context Voice = "ViolaVoiceVII"                                                               %! ScoreTemplate
     \T_ViolaVoiceVII                                                                               %! extern
-    \context Voice = "ViolaVoiceVIII"
+    \context Voice = "ViolaVoiceVIII"                                                              %! ScoreTemplate
     \T_ViolaVoiceVIII                                                                              %! extern
 >>
 
@@ -2530,9 +2530,9 @@ T_ViolaVoiceX = {
 
 
 T_ViolaStaffV = <<
-    \context Voice = "ViolaVoiceIX"
+    \context Voice = "ViolaVoiceIX"                                                                %! ScoreTemplate
     \T_ViolaVoiceIX                                                                                %! extern
-    \context Voice = "ViolaVoiceX"
+    \context Voice = "ViolaVoiceX"                                                                 %! ScoreTemplate
     \T_ViolaVoiceX                                                                                 %! extern
 >>
 
@@ -2628,9 +2628,9 @@ T_ViolaVoiceXII = {
 
 
 T_ViolaStaffVI = <<
-    \context Voice = "ViolaVoiceXI"
+    \context Voice = "ViolaVoiceXI"                                                                %! ScoreTemplate
     \T_ViolaVoiceXI                                                                                %! extern
-    \context Voice = "ViolaVoiceXII"
+    \context Voice = "ViolaVoiceXII"                                                               %! ScoreTemplate
     \T_ViolaVoiceXII                                                                               %! extern
 >>
 
@@ -2740,9 +2740,9 @@ T_ViolaVoiceXIV = {
 
 
 T_ViolaStaffVII = <<
-    \context Voice = "ViolaVoiceXIII"
+    \context Voice = "ViolaVoiceXIII"                                                              %! ScoreTemplate
     \T_ViolaVoiceXIII                                                                              %! extern
-    \context Voice = "ViolaVoiceXIV"
+    \context Voice = "ViolaVoiceXIV"                                                               %! ScoreTemplate
     \T_ViolaVoiceXIV                                                                               %! extern
 >>
 
@@ -2846,9 +2846,9 @@ T_ViolaVoiceXVI = {
 
 
 T_ViolaStaffVIII = <<
-    \context Voice = "ViolaVoiceXV"
+    \context Voice = "ViolaVoiceXV"                                                                %! ScoreTemplate
     \T_ViolaVoiceXV                                                                                %! extern
-    \context Voice = "ViolaVoiceXVI"
+    \context Voice = "ViolaVoiceXVI"                                                               %! ScoreTemplate
     \T_ViolaVoiceXVI                                                                               %! extern
 >>
 
@@ -2946,9 +2946,9 @@ T_ViolaVoiceXVIII = {
 
 
 T_ViolaStaffIX = <<
-    \context Voice = "ViolaVoiceXVII"
+    \context Voice = "ViolaVoiceXVII"                                                              %! ScoreTemplate
     \T_ViolaVoiceXVII                                                                              %! extern
-    \context Voice = "ViolaVoiceXVIII"
+    \context Voice = "ViolaVoiceXVIII"                                                             %! ScoreTemplate
     \T_ViolaVoiceXVIII                                                                             %! extern
 >>
 
@@ -3050,9 +3050,9 @@ T_CelloVoiceII = {
 
 
 T_CelloStaffI = <<
-    \context Voice = "CelloVoiceI"
+    \context Voice = "CelloVoiceI"                                                                 %! ScoreTemplate
     \T_CelloVoiceI                                                                                 %! extern
-    \context Voice = "CelloVoiceII"
+    \context Voice = "CelloVoiceII"                                                                %! ScoreTemplate
     \T_CelloVoiceII                                                                                %! extern
 >>
 
@@ -3164,9 +3164,9 @@ T_CelloVoiceIV = {
 
 
 T_CelloStaffII = <<
-    \context Voice = "CelloVoiceIII"
+    \context Voice = "CelloVoiceIII"                                                               %! ScoreTemplate
     \T_CelloVoiceIII                                                                               %! extern
-    \context Voice = "CelloVoiceIV"
+    \context Voice = "CelloVoiceIV"                                                                %! ScoreTemplate
     \T_CelloVoiceIV                                                                                %! extern
 >>
 
@@ -3272,9 +3272,9 @@ T_CelloVoiceVI = {
 
 
 T_CelloStaffIII = <<
-    \context Voice = "CelloVoiceV"
+    \context Voice = "CelloVoiceV"                                                                 %! ScoreTemplate
     \T_CelloVoiceV                                                                                 %! extern
-    \context Voice = "CelloVoiceVI"
+    \context Voice = "CelloVoiceVI"                                                                %! ScoreTemplate
     \T_CelloVoiceVI                                                                                %! extern
 >>
 
@@ -3380,9 +3380,9 @@ T_CelloVoiceVIII = {
 
 
 T_CelloStaffIV = <<
-    \context Voice = "CelloVoiceVII"
+    \context Voice = "CelloVoiceVII"                                                               %! ScoreTemplate
     \T_CelloVoiceVII                                                                               %! extern
-    \context Voice = "CelloVoiceVIII"
+    \context Voice = "CelloVoiceVIII"                                                              %! ScoreTemplate
     \T_CelloVoiceVIII                                                                              %! extern
 >>
 
@@ -3480,9 +3480,9 @@ T_CelloVoiceX = {
 
 
 T_CelloStaffV = <<
-    \context Voice = "CelloVoiceIX"
+    \context Voice = "CelloVoiceIX"                                                                %! ScoreTemplate
     \T_CelloVoiceIX                                                                                %! extern
-    \context Voice = "CelloVoiceX"
+    \context Voice = "CelloVoiceX"                                                                 %! ScoreTemplate
     \T_CelloVoiceX                                                                                 %! extern
 >>
 
@@ -3594,9 +3594,9 @@ T_CelloVoiceXII = {
 
 
 T_CelloStaffVI = <<
-    \context Voice = "CelloVoiceXI"
+    \context Voice = "CelloVoiceXI"                                                                %! ScoreTemplate
     \T_CelloVoiceXI                                                                                %! extern
-    \context Voice = "CelloVoiceXII"
+    \context Voice = "CelloVoiceXII"                                                               %! ScoreTemplate
     \T_CelloVoiceXII                                                                               %! extern
 >>
 
@@ -3700,9 +3700,9 @@ T_CelloVoiceXIV = {
 
 
 T_CelloStaffVII = <<
-    \context Voice = "CelloVoiceXIII"
+    \context Voice = "CelloVoiceXIII"                                                              %! ScoreTemplate
     \T_CelloVoiceXIII                                                                              %! extern
-    \context Voice = "CelloVoiceXIV"
+    \context Voice = "CelloVoiceXIV"                                                               %! ScoreTemplate
     \T_CelloVoiceXIV                                                                               %! extern
 >>
 
@@ -3802,9 +3802,9 @@ T_ContrabassVoiceII = {
 
 
 T_ContrabassStaffI = <<
-    \context Voice = "ContrabassVoiceI"
+    \context Voice = "ContrabassVoiceI"                                                            %! ScoreTemplate
     \T_ContrabassVoiceI                                                                            %! extern
-    \context Voice = "ContrabassVoiceII"
+    \context Voice = "ContrabassVoiceII"                                                           %! ScoreTemplate
     \T_ContrabassVoiceII                                                                           %! extern
 >>
 
@@ -3910,9 +3910,9 @@ T_ContrabassVoiceIV = {
 
 
 T_ContrabassStaffII = <<
-    \context Voice = "ContrabassVoiceIII"
+    \context Voice = "ContrabassVoiceIII"                                                          %! ScoreTemplate
     \T_ContrabassVoiceIII                                                                          %! extern
-    \context Voice = "ContrabassVoiceIV"
+    \context Voice = "ContrabassVoiceIV"                                                           %! ScoreTemplate
     \T_ContrabassVoiceIV                                                                           %! extern
 >>
 
@@ -4016,8 +4016,8 @@ T_ContrabassVoiceVI = {
 
 
 T_ContrabassStaffIII = <<
-    \context Voice = "ContrabassVoiceV"
+    \context Voice = "ContrabassVoiceV"                                                            %! ScoreTemplate
     \T_ContrabassVoiceV                                                                            %! extern
-    \context Voice = "ContrabassVoiceVI"
+    \context Voice = "ContrabassVoiceVI"                                                           %! ScoreTemplate
     \T_ContrabassVoiceVI                                                                           %! extern
 >>

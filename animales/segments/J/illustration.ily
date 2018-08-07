@@ -185,7 +185,7 @@ J_ClarinetVoiceI = {
 
 
 J_ClarinetStaffI = {
-    \context Voice = "ClarinetVoiceI"
+    \context Voice = "ClarinetVoiceI"                                                              %! ScoreTemplate
     \J_ClarinetVoiceI                                                                              %! extern
 }
 
@@ -394,9 +394,9 @@ J_HornVoiceIII = {
 
 
 J_HornStaffI = <<
-    \context Voice = "HornVoiceI"
+    \context Voice = "HornVoiceI"                                                                  %! ScoreTemplate
     \J_HornVoiceI                                                                                  %! extern
-    \context Voice = "HornVoiceIII"
+    \context Voice = "HornVoiceIII"                                                                %! ScoreTemplate
     \J_HornVoiceIII                                                                                %! extern
 >>
 
@@ -602,9 +602,9 @@ J_HornVoiceIV = {
 
 
 J_HornStaffII = <<
-    \context Voice = "HornVoiceII"
+    \context Voice = "HornVoiceII"                                                                 %! ScoreTemplate
     \J_HornVoiceII                                                                                 %! extern
-    \context Voice = "HornVoiceIV"
+    \context Voice = "HornVoiceIV"                                                                 %! ScoreTemplate
     \J_HornVoiceIV                                                                                 %! extern
 >>
 
@@ -831,9 +831,9 @@ J_TrumpetVoiceIII = {
 
 
 J_TrumpetStaffI = <<
-    \context Voice = "TrumpetVoiceI"
+    \context Voice = "TrumpetVoiceI"                                                               %! ScoreTemplate
     \J_TrumpetVoiceI                                                                               %! extern
-    \context Voice = "TrumpetVoiceIII"
+    \context Voice = "TrumpetVoiceIII"                                                             %! ScoreTemplate
     \J_TrumpetVoiceIII                                                                             %! extern
 >>
 
@@ -1006,9 +1006,9 @@ J_TrumpetVoiceIV = {
 
 
 J_TrumpetStaffII = <<
-    \context Voice = "TrumpetVoiceII"
+    \context Voice = "TrumpetVoiceII"                                                              %! ScoreTemplate
     \J_TrumpetVoiceII                                                                              %! extern
-    \context Voice = "TrumpetVoiceIV"
+    \context Voice = "TrumpetVoiceIV"                                                              %! ScoreTemplate
     \J_TrumpetVoiceIV                                                                              %! extern
 >>
 
@@ -1220,9 +1220,9 @@ J_TromboneVoiceIII = {
 
 
 J_TromboneStaffI = <<
-    \context Voice = "TromboneVoiceI"
+    \context Voice = "TromboneVoiceI"                                                              %! ScoreTemplate
     \J_TromboneVoiceI                                                                              %! extern
-    \context Voice = "TromboneVoiceIII"
+    \context Voice = "TromboneVoiceIII"                                                            %! ScoreTemplate
     \J_TromboneVoiceIII                                                                            %! extern
 >>
 
@@ -1430,9 +1430,9 @@ J_TromboneVoiceIV = {
 
 
 J_TromboneStaffII = <<
-    \context Voice = "TromboneVoiceII"
+    \context Voice = "TromboneVoiceII"                                                             %! ScoreTemplate
     \J_TromboneVoiceII                                                                             %! extern
-    \context Voice = "TromboneVoiceIV"
+    \context Voice = "TromboneVoiceIV"                                                             %! ScoreTemplate
     \J_TromboneVoiceIV                                                                             %! extern
 >>
 
@@ -1516,7 +1516,7 @@ J_PianoVoiceI = {
 
 
 J_PianoStaffI = {
-    \context Voice = "PianoVoiceI"
+    \context Voice = "PianoVoiceI"                                                                 %! ScoreTemplate
     \J_PianoVoiceI                                                                                 %! extern
 }
 
@@ -1589,7 +1589,7 @@ J_HarpVoiceI = {
 
 
 J_HarpStaffI = {
-    \context Voice = "HarpVoiceI"
+    \context Voice = "HarpVoiceI"                                                                  %! ScoreTemplate
     \J_HarpVoiceI                                                                                  %! extern
 }
 
@@ -1679,7 +1679,7 @@ J_PercussionVoiceII = {
 
 
 J_PercussionStaffII = {
-    \context Voice = "PercussionVoiceII"
+    \context Voice = "PercussionVoiceII"                                                           %! ScoreTemplate
     \J_PercussionVoiceII                                                                           %! extern
 }
 
@@ -1760,7 +1760,7 @@ J_PercussionVoiceIII = {
 
 
 J_PercussionStaffIII = {
-    \context Voice = "PercussionVoiceIII"
+    \context Voice = "PercussionVoiceIII"                                                          %! ScoreTemplate
     \J_PercussionVoiceIII                                                                          %! extern
 }
 
@@ -1890,7 +1890,7 @@ J_FirstViolinVoiceI = {
 
 
 J_FirstViolinStaffI = {
-    \context Voice = "FirstViolinVoiceI"
+    \context Voice = "FirstViolinVoiceI"                                                           %! ScoreTemplate
     \J_FirstViolinVoiceI                                                                           %! extern
 }
 
@@ -2020,7 +2020,7 @@ J_SecondViolinVoiceI = {
 
 
 J_SecondViolinStaffI = {
-    \context Voice = "SecondViolinVoiceI"
+    \context Voice = "SecondViolinVoiceI"                                                          %! ScoreTemplate
     \J_SecondViolinVoiceI                                                                          %! extern
 }
 
@@ -2150,7 +2150,7 @@ J_ViolaVoiceI = {
 
 
 J_ViolaStaffI = {
-    \context Voice = "ViolaVoiceI"
+    \context Voice = "ViolaVoiceI"                                                                 %! ScoreTemplate
     \J_ViolaVoiceI                                                                                 %! extern
 }
 
@@ -2280,7 +2280,7 @@ J_CelloVoiceI = {
 
 
 J_CelloStaffI = {
-    \context Voice = "CelloVoiceI"
+    \context Voice = "CelloVoiceI"                                                                 %! ScoreTemplate
     \J_CelloVoiceI                                                                                 %! extern
 }
 
@@ -2363,7 +2363,7 @@ J_ContrabassVoiceI = {
 
 
 J_ContrabassStaffI = {
-    \context Voice = "ContrabassVoiceI"
+    \context Voice = "ContrabassVoiceI"                                                            %! ScoreTemplate
     \J_ContrabassVoiceI                                                                            %! extern
 }
 
@@ -2497,6 +2497,6 @@ J_ContrabassVoiceIII = {
 
 
 J_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceIII"
+    \context Voice = "ContrabassVoiceIII"                                                          %! ScoreTemplate
     \J_ContrabassVoiceIII                                                                          %! extern
 }

@@ -252,7 +252,7 @@ AC_PianoVoiceI = {
 
 
 AC_PianoStaffI = {
-    \context Voice = "PianoVoiceI"
+    \context Voice = "PianoVoiceI"                                                                 %! ScoreTemplate
     \AC_PianoVoiceI                                                                                %! extern
 }
 
@@ -419,6 +419,6 @@ AC_PercussionVoiceIV = {
 
 
 AC_PercussionStaffIV = {
-    \context Voice = "PercussionVoiceIV"
+    \context Voice = "PercussionVoiceIV"                                                           %! ScoreTemplate
     \AC_PercussionVoiceIV                                                                          %! extern
 }
