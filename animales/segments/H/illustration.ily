@@ -286,8 +286,8 @@ H_PianoVoiceI_a = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r8
     }
@@ -302,8 +302,8 @@ H_PianoVoiceI_a = {
         r4
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
     }
     
     % [H PianoVoiceI measure 53 / measure 4]                                                       %! _comment_measure_numbers
@@ -359,8 +359,8 @@ H_HarpVoiceI_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -373,8 +373,8 @@ H_HarpVoiceI_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -392,8 +392,8 @@ H_HarpVoiceI_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
         
@@ -521,7 +521,7 @@ H_PercussionVoiceIII_a = {
         
         % [H PercussionVoiceIII measure 51 / measure 2]                                            %! _comment_measure_numbers
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -539,7 +539,7 @@ H_PercussionVoiceIII_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -912,7 +912,7 @@ H_ContrabassVoiceI_a = {
         
         \override NoteHead.style = #'harmonic                                                      %! OverrideCommand(1)
         cqf''!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         ^ \markup { "7th partial / D (sounds slightly flat)" }                                     %! IndicatorCommand
         
         r4
@@ -931,7 +931,7 @@ H_ContrabassVoiceI_a = {
     \times 2/3 {
         
         cqf''!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         \revert NoteHead.style                                                                     %! OverrideCommand(2)
         
         r4

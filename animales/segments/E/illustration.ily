@@ -388,7 +388,7 @@ E_FirstViolinVoiceI_a = {
     b4                                                                                             %! baca_make_repeated_duration_notes
 %%% \stopTrillSpan                                                                                 %! IndicatorCommand:-SEGMENT
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\trill                                                                                        %! IndicatorCommand
+    - \trill                                                                                       %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-explicit-indicator-markup "[“Vni. I”]"                                         %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -573,7 +573,7 @@ E_SecondViolinVoiceI_a = {
     b4                                                                                             %! baca_make_repeated_duration_notes
 %%% \stopTrillSpan                                                                                 %! IndicatorCommand:-SEGMENT
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\trill                                                                                        %! IndicatorCommand
+    - \trill                                                                                       %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-explicit-indicator-markup "[“Vni. II”]"                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -758,7 +758,7 @@ E_ViolaVoiceI_a = {
     b4                                                                                             %! baca_make_repeated_duration_notes
 %%% \stopTrillSpan                                                                                 %! IndicatorCommand:-SEGMENT
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\trill                                                                                        %! IndicatorCommand
+    - \trill                                                                                       %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-explicit-indicator-markup "[“Vle.”]"                                           %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -943,7 +943,7 @@ E_CelloVoiceI_a = {
     b4                                                                                             %! baca_make_repeated_duration_notes
 %%% \stopTrillSpan                                                                                 %! IndicatorCommand:-SEGMENT
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\trill                                                                                        %! IndicatorCommand
+    - \trill                                                                                       %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)

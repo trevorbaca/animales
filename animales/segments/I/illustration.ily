@@ -1379,8 +1379,8 @@ I_PianoVoiceI_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'green4)                             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
         c''8
         \mf                                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         ^ \markup \baca-reapplied-indicator-markup "(“Piano”)"                                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "[“Pf.”]"                                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1406,8 +1406,8 @@ I_PianoVoiceI_a = {
         
         % [I PianoVoiceI measure 59 / measure 4]                                                   %! _comment_measure_numbers
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -1470,8 +1470,8 @@ I_HarpVoiceI_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -1489,8 +1489,8 @@ I_HarpVoiceI_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
         
@@ -1616,7 +1616,7 @@ I_PercussionVoiceIII_a = {
         
         % [I PercussionVoiceIII measure 58 / measure 3]                                            %! _comment_measure_numbers
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -1628,7 +1628,7 @@ I_PercussionVoiceIII_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -1971,7 +1971,7 @@ I_ContrabassVoiceI_a = {
         \override NoteHead.style = #'harmonic                                                      %! OverrideCommand(1)
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         cqf''!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r8
     }
@@ -1986,7 +1986,7 @@ I_ContrabassVoiceI_a = {
         r4
         
         cqf''!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         \revert NoteHead.style                                                                     %! OverrideCommand(2)
     }
     

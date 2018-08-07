@@ -995,8 +995,8 @@ K_PianoVoiceI_a = {
         
         % [K PianoVoiceI measure 70 / measure 3]                                                   %! _comment_measure_numbers
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -1011,8 +1011,8 @@ K_PianoVoiceI_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -1028,8 +1028,8 @@ K_PianoVoiceI_a = {
         
         % [K PianoVoiceI measure 75 / measure 8]                                                   %! _comment_measure_numbers
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -1083,8 +1083,8 @@ K_HarpVoiceI_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -1097,8 +1097,8 @@ K_HarpVoiceI_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -1114,8 +1114,8 @@ K_HarpVoiceI_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -1271,7 +1271,7 @@ K_PercussionVoiceIII_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -1289,7 +1289,7 @@ K_PercussionVoiceIII_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -1304,7 +1304,7 @@ K_PercussionVoiceIII_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -1650,7 +1650,7 @@ K_ContrabassVoiceI_a = {
         
         \override NoteHead.style = #'harmonic                                                      %! OverrideCommand(1)
         cqf''!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -1671,7 +1671,7 @@ K_ContrabassVoiceI_a = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         cqf''!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r8
     }
@@ -1688,7 +1688,7 @@ K_ContrabassVoiceI_a = {
         r4
         
         cqf''!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         \revert NoteHead.style                                                                     %! OverrideCommand(2)
     }
     

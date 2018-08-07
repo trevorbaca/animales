@@ -315,7 +315,7 @@ i_FirstViolinVoiceI_a = {
     \pitchedTrill                                                                                  %! SpannerCommand
     a'1
     \baca_f_but_accents_sffz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-explicit-indicator-markup "[“Vni. I (1-10)”]"                                  %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \startTrillSpan b'
@@ -337,7 +337,7 @@ i_FirstViolinVoiceI_a = {
     \repeatTie
     
     a'2
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ FirstViolinVoiceI measure 3]                                                              %! _comment_measure_numbers
     a'1
@@ -352,7 +352,7 @@ i_FirstViolinVoiceI_a = {
     \pitchedTrill                                                                                  %! SpannerCommand
     af'!2.
     \baca_p_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \stopTrillSpan                                                                                 %! SpannerCommand
     \startTrillSpan a'
     
@@ -426,7 +426,7 @@ i_FirstViolinVoiceIII_a = {
         }                                                                                          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
     
     a'2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ FirstViolinVoiceIII measure 2]                                                            %! _comment_measure_numbers
     a'2
@@ -438,7 +438,7 @@ i_FirstViolinVoiceIII_a = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         a'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
     }
     
     a'4
@@ -461,7 +461,7 @@ i_FirstViolinVoiceIII_a = {
     \startTrillSpan a'
     
     af'!2
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ FirstViolinVoiceIII measure 6]                                                            %! _comment_measure_numbers
     af'!1
@@ -536,7 +536,7 @@ i_SecondViolinVoiceI_a = {
     \repeatTie
     
     a'4.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ SecondViolinVoiceI measure 2]                                                             %! _comment_measure_numbers
     a'1
@@ -547,7 +547,7 @@ i_SecondViolinVoiceI_a = {
     \repeatTie
     
     a'2..
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ SecondViolinVoiceI measure 4]                                                             %! _comment_measure_numbers
     a'2.
@@ -566,7 +566,7 @@ i_SecondViolinVoiceI_a = {
     [
     
     af'!8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ]
     
     % [_ SecondViolinVoiceI measure 6]                                                             %! _comment_measure_numbers
@@ -643,7 +643,7 @@ i_SecondViolinVoiceIII_a = {
         \repeatTie
         
         a'8
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
@@ -659,7 +659,7 @@ i_SecondViolinVoiceIII_a = {
     \repeatTie
     
     a'2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ SecondViolinVoiceIII measure 4]                                                           %! _comment_measure_numbers
     a'2.
@@ -680,7 +680,7 @@ i_SecondViolinVoiceIII_a = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         af'!4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
     }
     
     af'!2.
@@ -752,7 +752,7 @@ i_ViolaVoiceI_a = {
         }                                                                                          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
     
     a'4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ ViolaVoiceI measure 2]                                                                    %! _comment_measure_numbers
     a'1
@@ -763,7 +763,7 @@ i_ViolaVoiceI_a = {
     \repeatTie
     
     a'8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ ViolaVoiceI measure 4]                                                                    %! _comment_measure_numbers
     a'2.
@@ -785,7 +785,7 @@ i_ViolaVoiceI_a = {
     \repeatTie
     
     af'!4.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
     
@@ -854,7 +854,7 @@ i_ViolaVoiceIII_a = {
     
     % [_ ViolaVoiceIII measure 2]                                                                  %! _comment_measure_numbers
     a'1
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ ViolaVoiceIII measure 3]                                                                  %! _comment_measure_numbers
     a'1
@@ -862,7 +862,7 @@ i_ViolaVoiceIII_a = {
     
     % [_ ViolaVoiceIII measure 4]                                                                  %! _comment_measure_numbers
     a'2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ ViolaVoiceIII measure 5]                                                                  %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -877,7 +877,7 @@ i_ViolaVoiceIII_a = {
     \repeatTie
     
     af'!4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
     
@@ -937,7 +937,7 @@ i_CelloVoiceI_a = {
     \repeatTie
     
     a'8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     a'2
     \repeatTie
@@ -955,7 +955,7 @@ i_CelloVoiceI_a = {
     [
     
     a'8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ]
     
     % [_ CelloVoiceI measure 5]                                                                    %! _comment_measure_numbers

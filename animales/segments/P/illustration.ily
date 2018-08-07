@@ -2146,7 +2146,7 @@ P_FirstViolinVoiceI_a = {
     a''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (1-4) (5-8)”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup {                                                                                    %! IndicatorCommand:-PARTS
@@ -2178,7 +2178,7 @@ P_FirstViolinVoiceI_a = {
     % [P FirstViolinVoiceI measure 110 / measure 2]                                                %! _comment_measure_numbers
     a''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceI measure 111 / measure 3]                                                %! _comment_measure_numbers
@@ -2186,7 +2186,7 @@ P_FirstViolinVoiceI_a = {
     a''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
@@ -2200,25 +2200,25 @@ P_FirstViolinVoiceI_a = {
     % [P FirstViolinVoiceI measure 112 / measure 4]                                                %! _comment_measure_numbers
     a''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceI measure 113 / measure 5]                                                %! _comment_measure_numbers
     a''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceI measure 114 / measure 6]                                                %! _comment_measure_numbers
     a''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceI measure 115 / measure 7]                                                %! _comment_measure_numbers
     a''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceI measure 116 / measure 8]                                                %! _comment_measure_numbers
@@ -2226,20 +2226,20 @@ P_FirstViolinVoiceI_a = {
     a''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [P FirstViolinVoiceI measure 117 / measure 9]                                                %! _comment_measure_numbers
     a''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceI measure 118 / measure 10]                                               %! _comment_measure_numbers
     a''2                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
 %%% \revert TextScript.extra-offset                                                                %! OverrideCommand(2):+PARTS
 %%% \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):+PARTS
@@ -2264,7 +2264,7 @@ P_FirstViolinVoiceII_a = {
     f''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -2275,7 +2275,7 @@ P_FirstViolinVoiceII_a = {
     % [P FirstViolinVoiceII measure 110 / measure 2]                                               %! _comment_measure_numbers
     f''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceII measure 111 / measure 3]                                               %! _comment_measure_numbers
@@ -2283,7 +2283,7 @@ P_FirstViolinVoiceII_a = {
     f''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
@@ -2297,25 +2297,25 @@ P_FirstViolinVoiceII_a = {
     % [P FirstViolinVoiceII measure 112 / measure 4]                                               %! _comment_measure_numbers
     f''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceII measure 113 / measure 5]                                               %! _comment_measure_numbers
     f''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceII measure 114 / measure 6]                                               %! _comment_measure_numbers
     f''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceII measure 115 / measure 7]                                               %! _comment_measure_numbers
     f''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceII measure 116 / measure 8]                                               %! _comment_measure_numbers
@@ -2323,20 +2323,20 @@ P_FirstViolinVoiceII_a = {
     f''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [P FirstViolinVoiceII measure 117 / measure 9]                                               %! _comment_measure_numbers
     f''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceII measure 118 / measure 10]                                              %! _comment_measure_numbers
     f''2                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):-PARTS
     
@@ -2385,7 +2385,7 @@ P_FirstViolinVoiceIII_a = {
     g''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (9-12) (13-17)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
@@ -2411,7 +2411,7 @@ P_FirstViolinVoiceIII_a = {
     % [P FirstViolinVoiceIII measure 110 / measure 2]                                              %! _comment_measure_numbers
     g''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceIII measure 111 / measure 3]                                              %! _comment_measure_numbers
@@ -2419,7 +2419,7 @@ P_FirstViolinVoiceIII_a = {
     g''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
@@ -2433,25 +2433,25 @@ P_FirstViolinVoiceIII_a = {
     % [P FirstViolinVoiceIII measure 112 / measure 4]                                              %! _comment_measure_numbers
     g''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceIII measure 113 / measure 5]                                              %! _comment_measure_numbers
     g''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceIII measure 114 / measure 6]                                              %! _comment_measure_numbers
     g''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceIII measure 115 / measure 7]                                              %! _comment_measure_numbers
     g''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceIII measure 116 / measure 8]                                              %! _comment_measure_numbers
@@ -2459,20 +2459,20 @@ P_FirstViolinVoiceIII_a = {
     g''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [P FirstViolinVoiceIII measure 117 / measure 9]                                              %! _comment_measure_numbers
     g''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceIII measure 118 / measure 10]                                             %! _comment_measure_numbers
     g''2                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
 %%% \revert TextScript.extra-offset                                                                %! OverrideCommand(2):+PARTS
 %%% \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):+PARTS
@@ -2497,7 +2497,7 @@ P_FirstViolinVoiceIV_a = {
     d''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -2508,7 +2508,7 @@ P_FirstViolinVoiceIV_a = {
     % [P FirstViolinVoiceIV measure 110 / measure 2]                                               %! _comment_measure_numbers
     d''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceIV measure 111 / measure 3]                                               %! _comment_measure_numbers
@@ -2516,7 +2516,7 @@ P_FirstViolinVoiceIV_a = {
     d''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
@@ -2530,25 +2530,25 @@ P_FirstViolinVoiceIV_a = {
     % [P FirstViolinVoiceIV measure 112 / measure 4]                                               %! _comment_measure_numbers
     d''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceIV measure 113 / measure 5]                                               %! _comment_measure_numbers
     d''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceIV measure 114 / measure 6]                                               %! _comment_measure_numbers
     d''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceIV measure 115 / measure 7]                                               %! _comment_measure_numbers
     d''2.                                                                                          %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceIV measure 116 / measure 8]                                               %! _comment_measure_numbers
@@ -2556,20 +2556,20 @@ P_FirstViolinVoiceIV_a = {
     d''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [P FirstViolinVoiceIV measure 117 / measure 9]                                               %! _comment_measure_numbers
     d''1                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P FirstViolinVoiceIV measure 118 / measure 10]                                              %! _comment_measure_numbers
     d''2                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):-PARTS
     
@@ -2715,7 +2715,7 @@ P_SecondViolinVoiceI_a = {
     b'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (1-4) (5-8)”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
@@ -2741,7 +2741,7 @@ P_SecondViolinVoiceI_a = {
     % [P SecondViolinVoiceI measure 110 / measure 2]                                               %! _comment_measure_numbers
     b'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceI measure 111 / measure 3]                                               %! _comment_measure_numbers
@@ -2749,7 +2749,7 @@ P_SecondViolinVoiceI_a = {
     b'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak direction #up
@@ -2764,27 +2764,27 @@ P_SecondViolinVoiceI_a = {
     % [P SecondViolinVoiceI measure 112 / measure 4]                                               %! _comment_measure_numbers
     b'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [P SecondViolinVoiceI measure 113 / measure 5]                                               %! _comment_measure_numbers
     b'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [P SecondViolinVoiceI measure 114 / measure 6]                                               %! _comment_measure_numbers
     b'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceI measure 115 / measure 7]                                               %! _comment_measure_numbers
     b'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceI measure 116 / measure 8]                                               %! _comment_measure_numbers
@@ -2792,7 +2792,7 @@ P_SecondViolinVoiceI_a = {
     b'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
@@ -2800,14 +2800,14 @@ P_SecondViolinVoiceI_a = {
     % [P SecondViolinVoiceI measure 117 / measure 9]                                               %! _comment_measure_numbers
     b'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [P SecondViolinVoiceI measure 118 / measure 10]                                              %! _comment_measure_numbers
     b'2                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
 %%% \revert TextScript.extra-offset                                                                %! OverrideCommand(2):+PARTS
 %%% \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):+PARTS
@@ -2832,7 +2832,7 @@ P_SecondViolinVoiceII_a = {
     g'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -2843,7 +2843,7 @@ P_SecondViolinVoiceII_a = {
     % [P SecondViolinVoiceII measure 110 / measure 2]                                              %! _comment_measure_numbers
     g'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceII measure 111 / measure 3]                                              %! _comment_measure_numbers
@@ -2851,7 +2851,7 @@ P_SecondViolinVoiceII_a = {
     g'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
@@ -2865,25 +2865,25 @@ P_SecondViolinVoiceII_a = {
     % [P SecondViolinVoiceII measure 112 / measure 4]                                              %! _comment_measure_numbers
     g'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceII measure 113 / measure 5]                                              %! _comment_measure_numbers
     g'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceII measure 114 / measure 6]                                              %! _comment_measure_numbers
     g'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceII measure 115 / measure 7]                                              %! _comment_measure_numbers
     g'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceII measure 116 / measure 8]                                              %! _comment_measure_numbers
@@ -2891,20 +2891,20 @@ P_SecondViolinVoiceII_a = {
     g'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [P SecondViolinVoiceII measure 117 / measure 9]                                              %! _comment_measure_numbers
     g'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceII measure 118 / measure 10]                                             %! _comment_measure_numbers
     g'2                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):-PARTS
     
@@ -2953,7 +2953,7 @@ P_SecondViolinVoiceIII_a = {
     a'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (9-12) (13-18)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
@@ -2979,7 +2979,7 @@ P_SecondViolinVoiceIII_a = {
     % [P SecondViolinVoiceIII measure 110 / measure 2]                                             %! _comment_measure_numbers
     a'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceIII measure 111 / measure 3]                                             %! _comment_measure_numbers
@@ -2987,7 +2987,7 @@ P_SecondViolinVoiceIII_a = {
     a'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
@@ -3001,25 +3001,25 @@ P_SecondViolinVoiceIII_a = {
     % [P SecondViolinVoiceIII measure 112 / measure 4]                                             %! _comment_measure_numbers
     a'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceIII measure 113 / measure 5]                                             %! _comment_measure_numbers
     a'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceIII measure 114 / measure 6]                                             %! _comment_measure_numbers
     a'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceIII measure 115 / measure 7]                                             %! _comment_measure_numbers
     a'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceIII measure 116 / measure 8]                                             %! _comment_measure_numbers
@@ -3027,20 +3027,20 @@ P_SecondViolinVoiceIII_a = {
     a'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [P SecondViolinVoiceIII measure 117 / measure 9]                                             %! _comment_measure_numbers
     a'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceIII measure 118 / measure 10]                                            %! _comment_measure_numbers
     a'2                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
 %%% \revert TextScript.extra-offset                                                                %! OverrideCommand(2):+PARTS
 %%% \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):+PARTS
@@ -3065,7 +3065,7 @@ P_SecondViolinVoiceIV_a = {
     f'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -3076,7 +3076,7 @@ P_SecondViolinVoiceIV_a = {
     % [P SecondViolinVoiceIV measure 110 / measure 2]                                              %! _comment_measure_numbers
     f'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceIV measure 111 / measure 3]                                              %! _comment_measure_numbers
@@ -3084,7 +3084,7 @@ P_SecondViolinVoiceIV_a = {
     f'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
@@ -3098,25 +3098,25 @@ P_SecondViolinVoiceIV_a = {
     % [P SecondViolinVoiceIV measure 112 / measure 4]                                              %! _comment_measure_numbers
     f'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceIV measure 113 / measure 5]                                              %! _comment_measure_numbers
     f'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceIV measure 114 / measure 6]                                              %! _comment_measure_numbers
     f'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceIV measure 115 / measure 7]                                              %! _comment_measure_numbers
     f'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceIV measure 116 / measure 8]                                              %! _comment_measure_numbers
@@ -3124,20 +3124,20 @@ P_SecondViolinVoiceIV_a = {
     f'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [P SecondViolinVoiceIV measure 117 / measure 9]                                              %! _comment_measure_numbers
     f'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P SecondViolinVoiceIV measure 118 / measure 10]                                             %! _comment_measure_numbers
     f'2                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):-PARTS
     
@@ -3186,7 +3186,7 @@ P_ViolaVoiceI_a = {
     d'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (1-4) (5-8)”]"                              %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
@@ -3212,7 +3212,7 @@ P_ViolaVoiceI_a = {
     % [P ViolaVoiceI measure 110 / measure 2]                                                      %! _comment_measure_numbers
     d'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceI measure 111 / measure 3]                                                      %! _comment_measure_numbers
@@ -3220,7 +3220,7 @@ P_ViolaVoiceI_a = {
     d'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
@@ -3234,25 +3234,25 @@ P_ViolaVoiceI_a = {
     % [P ViolaVoiceI measure 112 / measure 4]                                                      %! _comment_measure_numbers
     d'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceI measure 113 / measure 5]                                                      %! _comment_measure_numbers
     d'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceI measure 114 / measure 6]                                                      %! _comment_measure_numbers
     d'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceI measure 115 / measure 7]                                                      %! _comment_measure_numbers
     d'2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceI measure 116 / measure 8]                                                      %! _comment_measure_numbers
@@ -3260,20 +3260,20 @@ P_ViolaVoiceI_a = {
     d'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [P ViolaVoiceI measure 117 / measure 9]                                                      %! _comment_measure_numbers
     d'1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceI measure 118 / measure 10]                                                     %! _comment_measure_numbers
     d'2                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
 %%% \revert TextScript.extra-offset                                                                %! OverrideCommand(2):+PARTS
 %%% \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):+PARTS
@@ -3298,7 +3298,7 @@ P_ViolaVoiceII_a = {
     a2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -3309,7 +3309,7 @@ P_ViolaVoiceII_a = {
     % [P ViolaVoiceII measure 110 / measure 2]                                                     %! _comment_measure_numbers
     a2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceII measure 111 / measure 3]                                                     %! _comment_measure_numbers
@@ -3317,7 +3317,7 @@ P_ViolaVoiceII_a = {
     a1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
@@ -3331,25 +3331,25 @@ P_ViolaVoiceII_a = {
     % [P ViolaVoiceII measure 112 / measure 4]                                                     %! _comment_measure_numbers
     a1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceII measure 113 / measure 5]                                                     %! _comment_measure_numbers
     a1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceII measure 114 / measure 6]                                                     %! _comment_measure_numbers
     a2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceII measure 115 / measure 7]                                                     %! _comment_measure_numbers
     a2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceII measure 116 / measure 8]                                                     %! _comment_measure_numbers
@@ -3357,20 +3357,20 @@ P_ViolaVoiceII_a = {
     a1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [P ViolaVoiceII measure 117 / measure 9]                                                     %! _comment_measure_numbers
     a1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceII measure 118 / measure 10]                                                    %! _comment_measure_numbers
     a2                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):-PARTS
     
@@ -3419,7 +3419,7 @@ P_ViolaVoiceIII_a = {
     b2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (9-12) (13-18)”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
@@ -3445,7 +3445,7 @@ P_ViolaVoiceIII_a = {
     % [P ViolaVoiceIII measure 110 / measure 2]                                                    %! _comment_measure_numbers
     b2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceIII measure 111 / measure 3]                                                    %! _comment_measure_numbers
@@ -3453,7 +3453,7 @@ P_ViolaVoiceIII_a = {
     b1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
@@ -3467,25 +3467,25 @@ P_ViolaVoiceIII_a = {
     % [P ViolaVoiceIII measure 112 / measure 4]                                                    %! _comment_measure_numbers
     b1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceIII measure 113 / measure 5]                                                    %! _comment_measure_numbers
     b1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceIII measure 114 / measure 6]                                                    %! _comment_measure_numbers
     b2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceIII measure 115 / measure 7]                                                    %! _comment_measure_numbers
     b2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceIII measure 116 / measure 8]                                                    %! _comment_measure_numbers
@@ -3493,20 +3493,20 @@ P_ViolaVoiceIII_a = {
     b1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [P ViolaVoiceIII measure 117 / measure 9]                                                    %! _comment_measure_numbers
     b1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceIII measure 118 / measure 10]                                                   %! _comment_measure_numbers
     b2                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
 %%% \revert TextScript.extra-offset                                                                %! OverrideCommand(2):+PARTS
 %%% \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):+PARTS
@@ -3531,7 +3531,7 @@ P_ViolaVoiceIV_a = {
     g2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -3542,7 +3542,7 @@ P_ViolaVoiceIV_a = {
     % [P ViolaVoiceIV measure 110 / measure 2]                                                     %! _comment_measure_numbers
     g2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceIV measure 111 / measure 3]                                                     %! _comment_measure_numbers
@@ -3550,7 +3550,7 @@ P_ViolaVoiceIV_a = {
     g1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
@@ -3564,25 +3564,25 @@ P_ViolaVoiceIV_a = {
     % [P ViolaVoiceIV measure 112 / measure 4]                                                     %! _comment_measure_numbers
     g1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceIV measure 113 / measure 5]                                                     %! _comment_measure_numbers
     g1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceIV measure 114 / measure 6]                                                     %! _comment_measure_numbers
     g2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceIV measure 115 / measure 7]                                                     %! _comment_measure_numbers
     g2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceIV measure 116 / measure 8]                                                     %! _comment_measure_numbers
@@ -3590,20 +3590,20 @@ P_ViolaVoiceIV_a = {
     g1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [P ViolaVoiceIV measure 117 / measure 9]                                                     %! _comment_measure_numbers
     g1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ViolaVoiceIV measure 118 / measure 10]                                                    %! _comment_measure_numbers
     g2                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):-PARTS
     
@@ -3652,7 +3652,7 @@ P_CelloVoiceI_a = {
     d2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vc. (1-8) (9-14)”]"                              %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
@@ -3678,7 +3678,7 @@ P_CelloVoiceI_a = {
     % [P CelloVoiceI measure 110 / measure 2]                                                      %! _comment_measure_numbers
     d2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P CelloVoiceI measure 111 / measure 3]                                                      %! _comment_measure_numbers
@@ -3686,7 +3686,7 @@ P_CelloVoiceI_a = {
     d1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak direction #up
@@ -3701,27 +3701,27 @@ P_CelloVoiceI_a = {
     % [P CelloVoiceI measure 112 / measure 4]                                                      %! _comment_measure_numbers
     d1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [P CelloVoiceI measure 113 / measure 5]                                                      %! _comment_measure_numbers
     d1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [P CelloVoiceI measure 114 / measure 6]                                                      %! _comment_measure_numbers
     d2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P CelloVoiceI measure 115 / measure 7]                                                      %! _comment_measure_numbers
     d2.                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P CelloVoiceI measure 116 / measure 8]                                                      %! _comment_measure_numbers
@@ -3729,7 +3729,7 @@ P_CelloVoiceI_a = {
     d1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
@@ -3737,14 +3737,14 @@ P_CelloVoiceI_a = {
     % [P CelloVoiceI measure 117 / measure 9]                                                      %! _comment_measure_numbers
     d1                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [P CelloVoiceI measure 118 / measure 10]                                                     %! _comment_measure_numbers
     d2                                                                                             %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
 %%% \revert TextScript.extra-offset                                                                %! OverrideCommand(2):+PARTS
 %%% \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):+PARTS
@@ -3769,7 +3769,7 @@ P_CelloVoiceII_a = {
     g,2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -3780,7 +3780,7 @@ P_CelloVoiceII_a = {
     % [P CelloVoiceII measure 110 / measure 2]                                                     %! _comment_measure_numbers
     g,2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P CelloVoiceII measure 111 / measure 3]                                                     %! _comment_measure_numbers
@@ -3788,7 +3788,7 @@ P_CelloVoiceII_a = {
     g,1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
@@ -3802,25 +3802,25 @@ P_CelloVoiceII_a = {
     % [P CelloVoiceII measure 112 / measure 4]                                                     %! _comment_measure_numbers
     g,1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P CelloVoiceII measure 113 / measure 5]                                                     %! _comment_measure_numbers
     g,1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P CelloVoiceII measure 114 / measure 6]                                                     %! _comment_measure_numbers
     g,2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P CelloVoiceII measure 115 / measure 7]                                                     %! _comment_measure_numbers
     g,2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P CelloVoiceII measure 116 / measure 8]                                                     %! _comment_measure_numbers
@@ -3828,20 +3828,20 @@ P_CelloVoiceII_a = {
     g,1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [P CelloVoiceII measure 117 / measure 9]                                                     %! _comment_measure_numbers
     g,1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P CelloVoiceII measure 118 / measure 10]                                                    %! _comment_measure_numbers
     g,2                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):-PARTS
     
@@ -3879,7 +3879,7 @@ P_ContrabassVoiceIII_a = {
     g,2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Cb.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Contrabass”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
@@ -3900,7 +3900,7 @@ P_ContrabassVoiceIII_a = {
     % [P ContrabassVoiceIII measure 110 / measure 2]                                               %! _comment_measure_numbers
     g,2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ContrabassVoiceIII measure 111 / measure 3]                                               %! _comment_measure_numbers
@@ -3908,7 +3908,7 @@ P_ContrabassVoiceIII_a = {
     g,1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
@@ -3922,25 +3922,25 @@ P_ContrabassVoiceIII_a = {
     % [P ContrabassVoiceIII measure 112 / measure 4]                                               %! _comment_measure_numbers
     g,1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ContrabassVoiceIII measure 113 / measure 5]                                               %! _comment_measure_numbers
     g,1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ContrabassVoiceIII measure 114 / measure 6]                                               %! _comment_measure_numbers
     g,2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ContrabassVoiceIII measure 115 / measure 7]                                               %! _comment_measure_numbers
     g,2.                                                                                           %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ContrabassVoiceIII measure 116 / measure 8]                                               %! _comment_measure_numbers
@@ -3948,20 +3948,20 @@ P_ContrabassVoiceIII_a = {
     g,1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [P ContrabassVoiceIII measure 117 / measure 9]                                               %! _comment_measure_numbers
     g,1                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
     % [P ContrabassVoiceIII measure 118 / measure 10]                                              %! _comment_measure_numbers
     g,2                                                                                            %! baca_make_repeat_tied_notes
     :32                                                                                            %! IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \repeatTie
     
 }
