@@ -6,20 +6,20 @@
 \include "illustration.ily"
 
 
-\score {
-    <<
-        {
-            \include "layout.ly"
-        }
+\score {                                                                                           %! _make_lilypond_file
+    <<                                                                                             %! _make_lilypond_file
+        {                                                                                          %! _make_lilypond_file
+            \include "layout.ly"                                                                   %! _make_lilypond_file
+        }                                                                                          %! _make_lilypond_file
         \context Score = "Score"
         <<
-            \context GlobalContext = "GlobalContext"
-            <<
-                \context GlobalRests = "GlobalRests"
-                \B_GlobalRests
-                \context GlobalSkips = "GlobalSkips"
-                \B_GlobalSkips
-            >>
+            \context GlobalContext = "GlobalContext"                                               %! _make_global_context
+            <<                                                                                     %! _make_global_context
+                \context GlobalRests = "GlobalRests"                                               %! _make_global_context
+                \B_GlobalRests                                                                     %! extern
+                \context GlobalSkips = "GlobalSkips"                                               %! _make_global_context
+                \B_GlobalSkips                                                                     %! extern
+            >>                                                                                     %! _make_global_context
             \context MusicContext = "MusicContext"
             <<
                 \context StaffGroup = "StringStaffGroup"
@@ -31,9 +31,9 @@
                     }
                     <<
                         \context Staff = "FirstViolinStaffI"
-                        \B_FirstViolinStaffI
+                        \B_FirstViolinStaffI                                                       %! extern
                         \context Staff = "FirstViolinStaffII"
-                        \B_FirstViolinStaffII
+                        \B_FirstViolinStaffII                                                      %! extern
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup"
                     \with
@@ -42,9 +42,9 @@
                     }
                     <<
                         \context Staff = "SecondViolinStaffI"
-                        \B_SecondViolinStaffI
+                        \B_SecondViolinStaffI                                                      %! extern
                         \context Staff = "SecondViolinStaffII"
-                        \B_SecondViolinStaffII
+                        \B_SecondViolinStaffII                                                     %! extern
                     >>
                     \context StaffGroup = "ViolaSquareStaffGroup"
                     \with
@@ -53,14 +53,14 @@
                     }
                     <<
                         \context Staff = "ViolaStaffI"
-                        \B_ViolaStaffI
+                        \B_ViolaStaffI                                                             %! extern
                         \context Staff = "ViolaStaffII"
-                        \B_ViolaStaffII
+                        \B_ViolaStaffII                                                            %! extern
                     >>
                     \context Staff = "CelloStaffI"
-                    \B_CelloStaffI
+                    \B_CelloStaffI                                                                 %! extern
                 >>
             >>
         >>
-    >>
-}
+    >>                                                                                             %! _make_lilypond_file
+}                                                                                                  %! _make_lilypond_file
