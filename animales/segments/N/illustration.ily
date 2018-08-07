@@ -830,8 +830,8 @@ N_PianoVoiceI_a = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r8
     }
@@ -852,8 +852,8 @@ N_PianoVoiceI_a = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r8
     }
@@ -925,8 +925,8 @@ N_HarpVoiceI_a = {
     \times 2/3 {
         
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -942,8 +942,8 @@ N_HarpVoiceI_a = {
     \times 2/3 {
         
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -1195,7 +1195,7 @@ N_PercussionVoiceIII_a = {
     \times 2/3 {
         
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -1208,7 +1208,7 @@ N_PercussionVoiceIII_a = {
         
         % [N PercussionVoiceIII measure 92 / measure 5]                                            %! _comment_measure_numbers
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -1719,7 +1719,7 @@ N_ContrabassVoiceI_a = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r8
     }
@@ -1734,7 +1734,7 @@ N_ContrabassVoiceI_a = {
         r4
         
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
     }
     
     r2.

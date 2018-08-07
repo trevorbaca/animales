@@ -292,8 +292,8 @@ L_PianoVoiceI_a = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r8
     }
@@ -308,8 +308,8 @@ L_PianoVoiceI_a = {
         r4
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
     }
     
     r4
@@ -367,8 +367,8 @@ L_HarpVoiceI_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -380,8 +380,8 @@ L_HarpVoiceI_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -616,7 +616,7 @@ L_PercussionVoiceIII_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -631,7 +631,7 @@ L_PercussionVoiceIII_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -678,7 +678,7 @@ L_FirstViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                              %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     af'''!4                                                                                        %! baca_make_repeated_duration_notes
     \pp                                                                                            %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\trill                                                                                        %! IndicatorCommand
+    - \trill                                                                                       %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I”]"                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -797,7 +797,7 @@ L_SecondViolinVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                              %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     af''!4                                                                                         %! baca_make_repeated_duration_notes
     \pp                                                                                            %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\trill                                                                                        %! IndicatorCommand
+    - \trill                                                                                       %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II”]"                                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -916,7 +916,7 @@ L_ViolaVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                              %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     af'!4                                                                                          %! baca_make_repeated_duration_notes
     \pp                                                                                            %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\trill                                                                                        %! IndicatorCommand
+    - \trill                                                                                       %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vle.”]"                                          %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1035,7 +1035,7 @@ L_CelloVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                              %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     af,!4                                                                                          %! baca_make_repeated_duration_notes
     \pp                                                                                            %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\trill                                                                                        %! IndicatorCommand
+    - \trill                                                                                       %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1176,7 +1176,7 @@ L_ContrabassVoiceI_a = {
         
         \override NoteHead.style = #'harmonic                                                      %! OverrideCommand(1)
         cqf''!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -1190,7 +1190,7 @@ L_ContrabassVoiceI_a = {
         
         % [L ContrabassVoiceI measure 79 / measure 4]                                              %! _comment_measure_numbers
         cqf''!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         \revert NoteHead.style                                                                     %! OverrideCommand(2)
         
         r4
@@ -1239,7 +1239,7 @@ L_ContrabassVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     af,!4                                                                                          %! baca_make_repeated_duration_notes
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\trill                                                                                        %! IndicatorCommand
+    - \trill                                                                                       %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Cb. (2-6)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Contrabass”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)

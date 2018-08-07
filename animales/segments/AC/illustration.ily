@@ -182,7 +182,7 @@ AC_PianoVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     cs'!2.                                                                                         %! baca_make_notes
     \mf                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    -\laissezVibrer                                                                                %! IndicatorCommand
+    - \laissezVibrer                                                                               %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Piano”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "[“Pf.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup {                                                                                    %! IndicatorCommand
@@ -202,35 +202,35 @@ AC_PianoVoiceI_a = {
     
     % [AC PianoVoiceI measure 166 / measure 2]                                                     %! _comment_measure_numbers
     cs'!2.                                                                                         %! baca_make_notes
-    -\laissezVibrer                                                                                %! IndicatorCommand
+    - \laissezVibrer                                                                               %! IndicatorCommand
     
     % [AC PianoVoiceI measure 167 / measure 3]                                                     %! _comment_measure_numbers
     cs'!1                                                                                          %! baca_make_notes
-    -\laissezVibrer                                                                                %! IndicatorCommand
+    - \laissezVibrer                                                                               %! IndicatorCommand
     
     % [AC PianoVoiceI measure 168 / measure 4]                                                     %! _comment_measure_numbers
     cs'!1                                                                                          %! baca_make_notes
-    -\laissezVibrer                                                                                %! IndicatorCommand
+    - \laissezVibrer                                                                               %! IndicatorCommand
     
     % [AC PianoVoiceI measure 169 / measure 5]                                                     %! _comment_measure_numbers
     cs'!1                                                                                          %! baca_make_notes
-    -\laissezVibrer                                                                                %! IndicatorCommand
+    - \laissezVibrer                                                                               %! IndicatorCommand
     
     % [AC PianoVoiceI measure 170 / measure 6]                                                     %! _comment_measure_numbers
     cs'!2.                                                                                         %! baca_make_notes
-    -\laissezVibrer                                                                                %! IndicatorCommand
+    - \laissezVibrer                                                                               %! IndicatorCommand
     
     % [AC PianoVoiceI measure 171 / measure 7]                                                     %! _comment_measure_numbers
     cs'!2.                                                                                         %! baca_make_notes
-    -\laissezVibrer                                                                                %! IndicatorCommand
+    - \laissezVibrer                                                                               %! IndicatorCommand
     
     % [AC PianoVoiceI measure 172 / measure 8]                                                     %! _comment_measure_numbers
     cs'!1                                                                                          %! baca_make_notes
-    -\laissezVibrer                                                                                %! IndicatorCommand
+    - \laissezVibrer                                                                               %! IndicatorCommand
     
     % [AC PianoVoiceI measure 173 / measure 9]                                                     %! _comment_measure_numbers
     cs'!1                                                                                          %! baca_make_notes
-    -\laissezVibrer                                                                                %! IndicatorCommand
+    - \laissezVibrer                                                                               %! IndicatorCommand
     \revert NoteHead.style                                                                         %! OverrideCommand(2)
 %%% \revert TextScript.X-offset                                                                    %! OverrideCommand(2):+PARTS
     

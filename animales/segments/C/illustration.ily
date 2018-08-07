@@ -221,7 +221,7 @@ C_HornVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g'8
     \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     r2..
     
@@ -256,7 +256,7 @@ C_HornVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'8
 %%% \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     r2..
     
@@ -326,7 +326,7 @@ C_HornVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     df'!8
     \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     r2..
     
@@ -361,7 +361,7 @@ C_HornVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b8
 %%% \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     r2..
     
@@ -431,7 +431,7 @@ C_TrumpetVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     d''8
     \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     r2..
     
@@ -466,7 +466,7 @@ C_TrumpetVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g'8
 %%% \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     r2..
     
@@ -536,7 +536,7 @@ C_TrumpetVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     af'!8
     \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     r2..
     
@@ -571,7 +571,7 @@ C_TrumpetVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     f'8
 %%% \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     r2..
     
@@ -641,7 +641,7 @@ C_TromboneVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g'8
     \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     r2..
     
@@ -676,7 +676,7 @@ C_TromboneVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'8
 %%% \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     r2..
     
@@ -746,7 +746,7 @@ C_TromboneVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     df'!8
     \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     r2..
     
@@ -781,7 +781,7 @@ C_TromboneVoiceIV_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b8
 %%% \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     r2..
     
@@ -843,7 +843,7 @@ C_TubaVoiceI_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c,8
     \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     r2..
     
@@ -1184,7 +1184,7 @@ C_FirstViolinVoiceI_a = {
     \repeatTie
     
     df'!2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
 }
 
 
@@ -1281,7 +1281,7 @@ C_FirstViolinVoiceIII_a = {
     \repeatTie
     
     df'!2
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [C FirstViolinVoiceIII measure 20 / measure 3]                                               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -1361,7 +1361,7 @@ C_SecondViolinVoiceI_a = {
     \repeatTie
     
     df'!8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [C SecondViolinVoiceI measure 20 / measure 3]                                                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -1514,7 +1514,7 @@ C_ViolaVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     df'!8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     df'!2
     \repeatTie
@@ -1599,7 +1599,7 @@ C_ViolaVoiceIII_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     df'!2
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [C ViolaVoiceIII measure 19 / measure 2]                                                     %! _comment_measure_numbers
     df'!1
@@ -1677,7 +1677,7 @@ C_CelloVoiceI_a = {
     \repeatTie
     
     df'!2..
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [C CelloVoiceI measure 20 / measure 3]                                                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)

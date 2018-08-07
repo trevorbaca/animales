@@ -152,7 +152,7 @@ A_FirstViolinVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     gf'!2
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [A FirstViolinVoiceI measure 8 / measure 2]                                                  %! _comment_measure_numbers
     gf'!2
@@ -163,7 +163,7 @@ A_FirstViolinVoiceI_a = {
     \repeatTie
     
     gf'!4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [A FirstViolinVoiceI measure 10 / measure 4]                                                 %! _comment_measure_numbers
     gf'!2.
@@ -182,7 +182,7 @@ A_FirstViolinVoiceI_a = {
     \repeatTie
     
     f'4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
     
@@ -240,7 +240,7 @@ A_FirstViolinVoiceIII_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     gf'!4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [A FirstViolinVoiceIII measure 8 / measure 2]                                                %! _comment_measure_numbers
     gf'!2
@@ -256,7 +256,7 @@ A_FirstViolinVoiceIII_a = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         gf'!4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
     }
     
     % [A FirstViolinVoiceIII measure 10 / measure 4]                                               %! _comment_measure_numbers
@@ -335,7 +335,7 @@ A_SecondViolinVoiceI_a = {
     \repeatTie
     
     gf'!4.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [A SecondViolinVoiceI measure 9 / measure 3]                                                 %! _comment_measure_numbers
     gf'!2.
@@ -346,7 +346,7 @@ A_SecondViolinVoiceI_a = {
     \repeatTie
     
     gf'!4.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [A SecondViolinVoiceI measure 11 / measure 5]                                                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -421,7 +421,7 @@ A_SecondViolinVoiceIII_a = {
         \repeatTie
         
         gf'!8
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
@@ -437,7 +437,7 @@ A_SecondViolinVoiceIII_a = {
     \repeatTie
     
     gf'!4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [A SecondViolinVoiceIII measure 11 / measure 5]                                              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -511,7 +511,7 @@ A_ViolaVoiceI_a = {
     \repeatTie
     
     gf'!4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [A ViolaVoiceI measure 9 / measure 3]                                                        %! _comment_measure_numbers
     gf'!2.
@@ -530,7 +530,7 @@ A_ViolaVoiceI_a = {
     \startTrillSpan gf'
     
     f'8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     f'2
     \repeatTie
@@ -600,7 +600,7 @@ A_ViolaVoiceIII_a = {
     
     % [A ViolaVoiceIII measure 9 / measure 3]                                                      %! _comment_measure_numbers
     gf'!2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [A ViolaVoiceIII measure 10 / measure 4]                                                     %! _comment_measure_numbers
     gf'!2.
@@ -615,7 +615,7 @@ A_ViolaVoiceIII_a = {
     \startTrillSpan gf'
     
     f'2
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [A ViolaVoiceIII measure 12 / measure 6]                                                     %! _comment_measure_numbers
     f'2
@@ -669,7 +669,7 @@ A_CelloVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     gf'!8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     gf'!2
     \repeatTie
@@ -683,7 +683,7 @@ A_CelloVoiceI_a = {
     \repeatTie
     
     gf'!4.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [A CelloVoiceI measure 10 / measure 4]                                                       %! _comment_measure_numbers
     gf'!2.
@@ -702,7 +702,7 @@ A_CelloVoiceI_a = {
     \repeatTie
     
     f'4.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
     

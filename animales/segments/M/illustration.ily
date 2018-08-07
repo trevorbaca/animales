@@ -785,8 +785,8 @@ M_PianoVoiceI_a = {
         
         % [M PianoVoiceI measure 83 / measure 2]                                                   %! _comment_measure_numbers
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -807,8 +807,8 @@ M_PianoVoiceI_a = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r8
     }
@@ -850,8 +850,8 @@ M_HarpVoiceI_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'green4)                             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
         c''8
         \mf                                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         ^ \markup \baca-reapplied-indicator-markup "(“Harp”)"                                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "[“Hp.”]"                                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -879,8 +879,8 @@ M_HarpVoiceI_a = {
     \times 2/3 {
         
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -893,8 +893,8 @@ M_HarpVoiceI_a = {
     \times 2/3 {
         
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
-        -\stopped                                                                                  %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
+        - \stopped                                                                                 %! IndicatorCommand
         
         r4
     }
@@ -1091,7 +1091,7 @@ M_PercussionVoiceIII_a = {
         \once \override Voice.DynamicText.color = #(x11-color 'green4)                             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
         c''8
         \mp                                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         ^ \markup \baca-reapplied-indicator-markup "[“Perc. 3 (vib.)”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“Vibraphone”)"                                %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1117,7 +1117,7 @@ M_PercussionVoiceIII_a = {
     \times 2/3 {
         
         c''8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -1134,7 +1134,7 @@ M_PercussionVoiceIII_a = {
         
         % [M PercussionVoiceIII measure 87 / measure 6]                                            %! _comment_measure_numbers
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -1566,7 +1566,7 @@ M_ContrabassVoiceI_a = {
     \times 2/3 {
         
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         ^ \markup { "as bell-like as possible (at sounding pitch)" }                               %! IndicatorCommand
         
         r4
@@ -1580,7 +1580,7 @@ M_ContrabassVoiceI_a = {
         
         % [M ContrabassVoiceI measure 84 / measure 3]                                              %! _comment_measure_numbers
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }
@@ -1596,7 +1596,7 @@ M_ContrabassVoiceI_a = {
         
         % [M ContrabassVoiceI measure 87 / measure 6]                                              %! _comment_measure_numbers
         bf'!8
-        -\laissezVibrer                                                                            %! IndicatorCommand
+        - \laissezVibrer                                                                           %! IndicatorCommand
         
         r4
     }

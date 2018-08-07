@@ -140,7 +140,7 @@ B_FirstViolinVoiceI_a = {
     
     % [B FirstViolinVoiceI measure 15 / measure 3]                                                 %! _comment_measure_numbers
     e'1
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [B FirstViolinVoiceI measure 16 / measure 4]                                                 %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -151,7 +151,7 @@ B_FirstViolinVoiceI_a = {
     \startTrillSpan e'
     
     ef'!2
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [B FirstViolinVoiceI measure 17 / measure 5]                                                 %! _comment_measure_numbers
     ef'!2
@@ -221,7 +221,7 @@ B_FirstViolinVoiceIII_a = {
     \repeatTie
     
     e'2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [B FirstViolinVoiceIII measure 16 / measure 4]                                               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -237,7 +237,7 @@ B_FirstViolinVoiceIII_a = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         ef'!4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
     }
     
     ef'!4
@@ -303,7 +303,7 @@ B_SecondViolinVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     e'8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     e'2
     \repeatTie
@@ -320,7 +320,7 @@ B_SecondViolinVoiceI_a = {
     \repeatTie
     
     e'4.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [B SecondViolinVoiceI measure 16 / measure 4]                                                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -335,7 +335,7 @@ B_SecondViolinVoiceI_a = {
     \repeatTie
     
     ef'!4.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
     
@@ -398,7 +398,7 @@ B_SecondViolinVoiceIII_a = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         e'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
     }
     
     e'4
@@ -417,7 +417,7 @@ B_SecondViolinVoiceIII_a = {
         \repeatTie
         
         e'8
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
@@ -437,7 +437,7 @@ B_SecondViolinVoiceIII_a = {
     \repeatTie
     
     ef'!4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
     
@@ -499,14 +499,14 @@ B_ViolaVoiceI_a = {
     \repeatTie
     
     e'2..
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [B ViolaVoiceI measure 15 / measure 3]                                                       %! _comment_measure_numbers
     e'2.
     \repeatTie
     
     e'4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [B ViolaVoiceI measure 16 / measure 4]                                                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -580,7 +580,7 @@ B_ViolaVoiceIII_a = {
     \repeatTie
     
     e'2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [B ViolaVoiceIII measure 15 / measure 3]                                                     %! _comment_measure_numbers
     e'1
@@ -591,7 +591,7 @@ B_ViolaVoiceIII_a = {
     \pitchedTrill                                                                                  %! SpannerCommand
     ef'!1
     \baca_p_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \stopTrillSpan                                                                                 %! SpannerCommand
     \startTrillSpan e'
     
@@ -651,7 +651,7 @@ B_CelloVoiceI_a = {
     \repeatTie
     
     e'8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [B CelloVoiceI measure 15 / measure 3]                                                       %! _comment_measure_numbers
     e'1
@@ -666,7 +666,7 @@ B_CelloVoiceI_a = {
     \startTrillSpan e'
     
     ef'!8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     ef'!2
     \repeatTie

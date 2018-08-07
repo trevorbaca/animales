@@ -516,7 +516,7 @@ D_FirstViolinVoiceI_a = {
     \repeatTie
     
     b4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [D FirstViolinVoiceI measure 26 / measure 3]                                                 %! _comment_measure_numbers
     b1
@@ -527,7 +527,7 @@ D_FirstViolinVoiceI_a = {
     \repeatTie
     
     b2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [D FirstViolinVoiceI measure 28 / measure 5]                                                 %! _comment_measure_numbers
     b2.
@@ -598,7 +598,7 @@ D_FirstViolinVoiceIII_a = {
     
     % [D FirstViolinVoiceIII measure 26 / measure 3]                                               %! _comment_measure_numbers
     b1
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [D FirstViolinVoiceIII measure 27 / measure 4]                                               %! _comment_measure_numbers
     b4
@@ -610,7 +610,7 @@ D_FirstViolinVoiceIII_a = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         b4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
     }
     
     b2
@@ -686,7 +686,7 @@ D_SecondViolinVoiceI_a = {
     \repeatTie
     
     b8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     b2
     \repeatTie
@@ -696,7 +696,7 @@ D_SecondViolinVoiceI_a = {
     \repeatTie
     
     b8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [D SecondViolinVoiceI measure 28 / measure 5]                                                %! _comment_measure_numbers
     b2.
@@ -762,7 +762,7 @@ D_SecondViolinVoiceIII_a = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         b4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
     }
     
     b2
@@ -781,7 +781,7 @@ D_SecondViolinVoiceIII_a = {
         \repeatTie
         
         b8
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
@@ -794,7 +794,7 @@ D_SecondViolinVoiceIII_a = {
     
     % [D SecondViolinVoiceIII measure 28 / measure 5]                                              %! _comment_measure_numbers
     b2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [D SecondViolinVoiceIII measure 29 / measure 6]                                              %! _comment_measure_numbers
     b2.
@@ -858,7 +858,7 @@ D_ViolaVoiceI_a = {
     [
     
     b8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ]
     
     % [D ViolaVoiceI measure 25 / measure 2]                                                       %! _comment_measure_numbers
@@ -870,7 +870,7 @@ D_ViolaVoiceI_a = {
     \repeatTie
     
     b2
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [D ViolaVoiceI measure 27 / measure 4]                                                       %! _comment_measure_numbers
     b1
@@ -885,7 +885,7 @@ D_ViolaVoiceI_a = {
     [
     
     b8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ]
     
     % [D ViolaVoiceI measure 29 / measure 6]                                                       %! _comment_measure_numbers
@@ -947,14 +947,14 @@ D_ViolaVoiceIII_a = {
     
     % [D ViolaVoiceIII measure 25 / measure 2]                                                     %! _comment_measure_numbers
     b1
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [D ViolaVoiceIII measure 26 / measure 3]                                                     %! _comment_measure_numbers
     b2.
     \repeatTie
     
     b4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [D ViolaVoiceIII measure 27 / measure 4]                                                     %! _comment_measure_numbers
     b1
@@ -966,7 +966,7 @@ D_ViolaVoiceIII_a = {
     
     % [D ViolaVoiceIII measure 29 / measure 6]                                                     %! _comment_measure_numbers
     b2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     
 }
@@ -1021,7 +1021,7 @@ D_CelloVoiceI_a = {
     \repeatTie
     
     b4.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [D CelloVoiceI measure 26 / measure 3]                                                       %! _comment_measure_numbers
     b1
@@ -1032,7 +1032,7 @@ D_CelloVoiceI_a = {
     \repeatTie
     
     b2..
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [D CelloVoiceI measure 28 / measure 5]                                                       %! _comment_measure_numbers
     b2.
@@ -1047,7 +1047,7 @@ D_CelloVoiceI_a = {
     [
     
     b8
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ]
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
     
