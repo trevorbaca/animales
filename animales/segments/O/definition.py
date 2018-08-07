@@ -61,7 +61,7 @@ maker(
 def swell(peak):
     return baca.hairpin(
         f'niente o< {peak} >o niente',
-        piece_selector=baca.mgroups([2, 3, 1]),
+        piece_selector=baca.cmgroups([2, 3, 1]),
         selector=baca.rleaves(),
         )
 
