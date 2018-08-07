@@ -357,9 +357,9 @@ Q_HornVoiceIII = {
 
 
 Q_HornStaffI = <<
-    \context Voice = "HornVoiceI"
+    \context Voice = "HornVoiceI"                                                                  %! ScoreTemplate
     \Q_HornVoiceI                                                                                  %! extern
-    \context Voice = "HornVoiceIII"
+    \context Voice = "HornVoiceIII"                                                                %! ScoreTemplate
     \Q_HornVoiceIII                                                                                %! extern
 >>
 
@@ -525,9 +525,9 @@ Q_HornVoiceIV = {
 
 
 Q_HornStaffII = <<
-    \context Voice = "HornVoiceII"
+    \context Voice = "HornVoiceII"                                                                 %! ScoreTemplate
     \Q_HornVoiceII                                                                                 %! extern
-    \context Voice = "HornVoiceIV"
+    \context Voice = "HornVoiceIV"                                                                 %! ScoreTemplate
     \Q_HornVoiceIV                                                                                 %! extern
 >>
 
@@ -693,9 +693,9 @@ Q_TrumpetVoiceIII = {
 
 
 Q_TrumpetStaffI = <<
-    \context Voice = "TrumpetVoiceI"
+    \context Voice = "TrumpetVoiceI"                                                               %! ScoreTemplate
     \Q_TrumpetVoiceI                                                                               %! extern
-    \context Voice = "TrumpetVoiceIII"
+    \context Voice = "TrumpetVoiceIII"                                                             %! ScoreTemplate
     \Q_TrumpetVoiceIII                                                                             %! extern
 >>
 
@@ -861,9 +861,9 @@ Q_TrumpetVoiceIV = {
 
 
 Q_TrumpetStaffII = <<
-    \context Voice = "TrumpetVoiceII"
+    \context Voice = "TrumpetVoiceII"                                                              %! ScoreTemplate
     \Q_TrumpetVoiceII                                                                              %! extern
-    \context Voice = "TrumpetVoiceIV"
+    \context Voice = "TrumpetVoiceIV"                                                              %! ScoreTemplate
     \Q_TrumpetVoiceIV                                                                              %! extern
 >>
 
@@ -1029,9 +1029,9 @@ Q_TromboneVoiceIII = {
 
 
 Q_TromboneStaffI = <<
-    \context Voice = "TromboneVoiceI"
+    \context Voice = "TromboneVoiceI"                                                              %! ScoreTemplate
     \Q_TromboneVoiceI                                                                              %! extern
-    \context Voice = "TromboneVoiceIII"
+    \context Voice = "TromboneVoiceIII"                                                            %! ScoreTemplate
     \Q_TromboneVoiceIII                                                                            %! extern
 >>
 
@@ -1197,9 +1197,9 @@ Q_TromboneVoiceIV = {
 
 
 Q_TromboneStaffII = <<
-    \context Voice = "TromboneVoiceII"
+    \context Voice = "TromboneVoiceII"                                                             %! ScoreTemplate
     \Q_TromboneVoiceII                                                                             %! extern
-    \context Voice = "TromboneVoiceIV"
+    \context Voice = "TromboneVoiceIV"                                                             %! ScoreTemplate
     \Q_TromboneVoiceIV                                                                             %! extern
 >>
 
@@ -1484,9 +1484,9 @@ Q_FirstViolinVoiceII = {
 
 
 Q_FirstViolinStaffI = <<
-    \context Voice = "FirstViolinVoiceI"
+    \context Voice = "FirstViolinVoiceI"                                                           %! ScoreTemplate
     \Q_FirstViolinVoiceI                                                                           %! extern
-    \context Voice = "FirstViolinVoiceII"
+    \context Voice = "FirstViolinVoiceII"                                                          %! ScoreTemplate
     \Q_FirstViolinVoiceII                                                                          %! extern
 >>
 
@@ -1771,9 +1771,9 @@ Q_FirstViolinVoiceIV = {
 
 
 Q_FirstViolinStaffII = <<
-    \context Voice = "FirstViolinVoiceIII"
+    \context Voice = "FirstViolinVoiceIII"                                                         %! ScoreTemplate
     \Q_FirstViolinVoiceIII                                                                         %! extern
-    \context Voice = "FirstViolinVoiceIV"
+    \context Voice = "FirstViolinVoiceIV"                                                          %! ScoreTemplate
     \Q_FirstViolinVoiceIV                                                                          %! extern
 >>
 
@@ -1886,7 +1886,7 @@ Q_FirstViolinVoiceV = {
 
 
 Q_FirstViolinStaffIII = {
-    \context Voice = "FirstViolinVoiceV"
+    \context Voice = "FirstViolinVoiceV"                                                           %! ScoreTemplate
     \Q_FirstViolinVoiceV                                                                           %! extern
 }
 
@@ -2175,9 +2175,9 @@ Q_SecondViolinVoiceII = {
 
 
 Q_SecondViolinStaffI = <<
-    \context Voice = "SecondViolinVoiceI"
+    \context Voice = "SecondViolinVoiceI"                                                          %! ScoreTemplate
     \Q_SecondViolinVoiceI                                                                          %! extern
-    \context Voice = "SecondViolinVoiceII"
+    \context Voice = "SecondViolinVoiceII"                                                         %! ScoreTemplate
     \Q_SecondViolinVoiceII                                                                         %! extern
 >>
 
@@ -2462,9 +2462,9 @@ Q_SecondViolinVoiceIV = {
 
 
 Q_SecondViolinStaffII = <<
-    \context Voice = "SecondViolinVoiceIII"
+    \context Voice = "SecondViolinVoiceIII"                                                        %! ScoreTemplate
     \Q_SecondViolinVoiceIII                                                                        %! extern
-    \context Voice = "SecondViolinVoiceIV"
+    \context Voice = "SecondViolinVoiceIV"                                                         %! ScoreTemplate
     \Q_SecondViolinVoiceIV                                                                         %! extern
 >>
 
@@ -2749,9 +2749,9 @@ Q_ViolaVoiceII = {
 
 
 Q_ViolaStaffI = <<
-    \context Voice = "ViolaVoiceI"
+    \context Voice = "ViolaVoiceI"                                                                 %! ScoreTemplate
     \Q_ViolaVoiceI                                                                                 %! extern
-    \context Voice = "ViolaVoiceII"
+    \context Voice = "ViolaVoiceII"                                                                %! ScoreTemplate
     \Q_ViolaVoiceII                                                                                %! extern
 >>
 
@@ -3036,9 +3036,9 @@ Q_ViolaVoiceIV = {
 
 
 Q_ViolaStaffII = <<
-    \context Voice = "ViolaVoiceIII"
+    \context Voice = "ViolaVoiceIII"                                                               %! ScoreTemplate
     \Q_ViolaVoiceIII                                                                               %! extern
-    \context Voice = "ViolaVoiceIV"
+    \context Voice = "ViolaVoiceIV"                                                                %! ScoreTemplate
     \Q_ViolaVoiceIV                                                                                %! extern
 >>
 
@@ -3327,9 +3327,9 @@ Q_CelloVoiceII = {
 
 
 Q_CelloStaffI = <<
-    \context Voice = "CelloVoiceI"
+    \context Voice = "CelloVoiceI"                                                                 %! ScoreTemplate
     \Q_CelloVoiceI                                                                                 %! extern
-    \context Voice = "CelloVoiceII"
+    \context Voice = "CelloVoiceII"                                                                %! ScoreTemplate
     \Q_CelloVoiceII                                                                                %! extern
 >>
 
@@ -3474,6 +3474,6 @@ Q_ContrabassVoiceIII = {
 
 
 Q_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceIII"
+    \context Voice = "ContrabassVoiceIII"                                                          %! ScoreTemplate
     \Q_ContrabassVoiceIII                                                                          %! extern
 }

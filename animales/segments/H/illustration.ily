@@ -185,7 +185,7 @@ H_ClarinetVoiceI = {
 
 
 H_ClarinetStaffI = {
-    \context Voice = "ClarinetVoiceI"
+    \context Voice = "ClarinetVoiceI"                                                              %! ScoreTemplate
     \H_ClarinetVoiceI                                                                              %! extern
 }
 
@@ -248,7 +248,7 @@ H_BassClarinetVoiceI = {
 
 
 H_BassClarinetStaffI = {
-    \context Voice = "BassClarinetVoiceI"
+    \context Voice = "BassClarinetVoiceI"                                                          %! ScoreTemplate
     \H_BassClarinetVoiceI                                                                          %! extern
 }
 
@@ -324,7 +324,7 @@ H_PianoVoiceI = {
 
 
 H_PianoStaffI = {
-    \context Voice = "PianoVoiceI"
+    \context Voice = "PianoVoiceI"                                                                 %! ScoreTemplate
     \H_PianoVoiceI                                                                                 %! extern
 }
 
@@ -407,7 +407,7 @@ H_HarpVoiceI = {
 
 
 H_HarpStaffI = {
-    \context Voice = "HarpVoiceI"
+    \context Voice = "HarpVoiceI"                                                                  %! ScoreTemplate
     \H_HarpVoiceI                                                                                  %! extern
 }
 
@@ -477,7 +477,7 @@ H_PercussionVoiceII = {
 
 
 H_PercussionStaffII = {
-    \context Voice = "PercussionVoiceII"
+    \context Voice = "PercussionVoiceII"                                                           %! ScoreTemplate
     \H_PercussionVoiceII                                                                           %! extern
 }
 
@@ -558,7 +558,7 @@ H_PercussionVoiceIII = {
 
 
 H_PercussionStaffIII = {
-    \context Voice = "PercussionVoiceIII"
+    \context Voice = "PercussionVoiceIII"                                                          %! ScoreTemplate
     \H_PercussionVoiceIII                                                                          %! extern
 }
 
@@ -643,7 +643,7 @@ H_FirstViolinVoiceI = {
 
 
 H_FirstViolinStaffI = {
-    \context Voice = "FirstViolinVoiceI"
+    \context Voice = "FirstViolinVoiceI"                                                           %! ScoreTemplate
     \H_FirstViolinVoiceI                                                                           %! extern
 }
 
@@ -717,7 +717,7 @@ H_SecondViolinVoiceI = {
 
 
 H_SecondViolinStaffI = {
-    \context Voice = "SecondViolinVoiceI"
+    \context Voice = "SecondViolinVoiceI"                                                          %! ScoreTemplate
     \H_SecondViolinVoiceI                                                                          %! extern
 }
 
@@ -791,7 +791,7 @@ H_ViolaVoiceI = {
 
 
 H_ViolaStaffI = {
-    \context Voice = "ViolaVoiceI"
+    \context Voice = "ViolaVoiceI"                                                                 %! ScoreTemplate
     \H_ViolaVoiceI                                                                                 %! extern
 }
 
@@ -865,7 +865,7 @@ H_CelloVoiceI = {
 
 
 H_CelloStaffI = {
-    \context Voice = "CelloVoiceI"
+    \context Voice = "CelloVoiceI"                                                                 %! ScoreTemplate
     \H_CelloVoiceI                                                                                 %! extern
 }
 
@@ -951,7 +951,7 @@ H_ContrabassVoiceI = {
 
 
 H_ContrabassStaffI = {
-    \context Voice = "ContrabassVoiceI"
+    \context Voice = "ContrabassVoiceI"                                                            %! ScoreTemplate
     \H_ContrabassVoiceI                                                                            %! extern
 }
 
@@ -1030,6 +1030,6 @@ H_ContrabassVoiceIII = {
 
 
 H_ContrabassStaffII = {
-    \context Voice = "ContrabassVoiceIII"
+    \context Voice = "ContrabassVoiceIII"                                                          %! ScoreTemplate
     \H_ContrabassVoiceIII                                                                          %! extern
 }
