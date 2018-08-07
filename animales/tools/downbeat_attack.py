@@ -37,10 +37,10 @@ def downbeat_attack(count=1, denominator=8):
             >>> abjad.f(lilypond_file[abjad.Score], strict=89)
             \context Score = "Score"
             <<
-                \context GlobalContext = "GlobalContext"
-                <<
-                    \context GlobalRests = "GlobalRests"
-                    {
+                \context GlobalContext = "GlobalContext"                                             %! _make_global_context
+                <<                                                                                   %! _make_global_context
+                    \context GlobalRests = "GlobalRests"                                             %! _make_global_context
+                    {                                                                                %! _make_global_context
             <BLANKLINE>
                         % [GlobalRests measure 1]                                                    %! _comment_measure_numbers
                         R1 * 1                                                                       %! _make_global_rests
@@ -51,9 +51,9 @@ def downbeat_attack(count=1, denominator=8):
                         % [GlobalRests measure 3]                                                    %! _comment_measure_numbers
                         R1 * 1/2                                                                     %! _make_global_rests
             <BLANKLINE>
-                    }
-                    \context GlobalSkips = "GlobalSkips"
-                    {
+                    }                                                                                %! _make_global_context
+                    \context GlobalSkips = "GlobalSkips"                                             %! _make_global_context
+                    {                                                                                %! _make_global_context
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                                    %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #8                                              %! HorizontalSpacingSpecifier(1):SPACING
@@ -75,8 +75,8 @@ def downbeat_attack(count=1, denominator=8):
                         \baca_bar_line_visible                                                       %! _attach_final_bar_line
                         \bar "|"                                                                     %! _attach_final_bar_line
             <BLANKLINE>
-                    }
-                >>
+                    }                                                                                %! _make_global_context
+                >>                                                                                   %! _make_global_context
                 \context MusicContext = "MusicContext"
                 <<
                     \context StaffGroup = "BrassStaffGroup"
@@ -88,37 +88,37 @@ def downbeat_attack(count=1, denominator=8):
                                 {   %*% PartAssignment('Horn')
             <BLANKLINE>
                                     % [HornVoiceI measure 1]                                         %! _comment_measure_numbers
-                                    \set Staff.shortInstrumentName =                                 %! DEFAULT_MARGIN_MARKUP:_set_status_tag:ScoreTemplate(2):-PARTS
-                                    \markup {                                                        %! DEFAULT_MARGIN_MARKUP:_set_status_tag:ScoreTemplate(2):-PARTS
-                                        \hcenter-in                                                  %! DEFAULT_MARGIN_MARKUP:_set_status_tag:ScoreTemplate(2):-PARTS
-                                            #16                                                      %! DEFAULT_MARGIN_MARKUP:_set_status_tag:ScoreTemplate(2):-PARTS
-                                            Hn.                                                      %! DEFAULT_MARGIN_MARKUP:_set_status_tag:ScoreTemplate(2):-PARTS
-                                        }                                                            %! DEFAULT_MARGIN_MARKUP:_set_status_tag:ScoreTemplate(2):-PARTS
-                                    \clef "bass"                                                     %! DEFAULT_CLEF:_set_status_tag:ScoreTemplate(3)
+                                    \set Staff.shortInstrumentName =                                 %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
+                                    \markup {                                                        %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
+                                        \hcenter-in                                                  %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
+                                            #16                                                      %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
+                                            Hn.                                                      %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
+                                        }                                                            %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
+                                    \clef "bass"                                                     %! DEFAULT_CLEF:_set_status_tag:attach_defaults
                                     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
                                     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)      %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
                                 %@% \override Staff.Clef.color = ##f                                 %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-                                    \set Staff.forceClef = ##t                                       %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):ScoreTemplate(3)
+                                    \set Staff.forceClef = ##t                                       %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
                                     a8
                                     ^ \markup \baca-default-indicator-markup "(FrenchHorn)"          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
                                     ^ \markup \baca-default-indicator-markup "[“Hn.”]"               %! DEFAULT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
                                     \override Staff.InstrumentName.color = #(x11-color 'violet)      %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-                                    \set Staff.shortInstrumentName =                                 %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):ScoreTemplate(2):-PARTS
-                                    \markup {                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):ScoreTemplate(2):-PARTS
-                                        \hcenter-in                                                  %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):ScoreTemplate(2):-PARTS
-                                            #16                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):ScoreTemplate(2):-PARTS
-                                            Hn.                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):ScoreTemplate(2):-PARTS
-                                        }                                                            %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):ScoreTemplate(2):-PARTS
+                                    \set Staff.shortInstrumentName =                                 %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
+                                    \markup {                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
+                                        \hcenter-in                                                  %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
+                                            #16                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
+                                            Hn.                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
+                                        }                                                            %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
                                     \override Staff.Clef.color = #(x11-color 'violet)                %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
             <BLANKLINE>
                                     r2..
                                 }   %*% PartAssignment('Horn')
             <BLANKLINE>
                                 % [HornVoiceI measure 2]                                             %! _comment_measure_numbers
-                                R1 * 3/4
+                                R1 * 3/4                                                             %! _make_measure_silences
             <BLANKLINE>
                                 % [HornVoiceI measure 3]                                             %! _comment_measure_numbers
-                                R1 * 1/2
+                                R1 * 1/2                                                             %! _make_measure_silences
             <BLANKLINE>
                             }
                         }

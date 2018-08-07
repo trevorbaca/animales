@@ -6,20 +6,20 @@
 \include "illustration.ily"
 
 
-\score {
-    <<
-        {
-            \include "layout.ly"
-        }
+\score {                                                                                           %! _make_lilypond_file
+    <<                                                                                             %! _make_lilypond_file
+        {                                                                                          %! _make_lilypond_file
+            \include "layout.ly"                                                                   %! _make_lilypond_file
+        }                                                                                          %! _make_lilypond_file
         \context Score = "Score"
         <<
-            \context GlobalContext = "GlobalContext"
-            <<
-                \context GlobalRests = "GlobalRests"
-                \P_GlobalRests
-                \context GlobalSkips = "GlobalSkips"
-                \P_GlobalSkips
-            >>
+            \context GlobalContext = "GlobalContext"                                               %! _make_global_context
+            <<                                                                                     %! _make_global_context
+                \context GlobalRests = "GlobalRests"                                               %! _make_global_context
+                \P_GlobalRests                                                                     %! extern
+                \context GlobalSkips = "GlobalSkips"                                               %! _make_global_context
+                \P_GlobalSkips                                                                     %! extern
+            >>                                                                                     %! _make_global_context
             \context MusicContext = "MusicContext"
             <<
                 \context StaffGroup = "WindStaffGroup"
@@ -31,12 +31,12 @@
                     }
                     <<
                         \context Staff = "OboeStaffI"
-                        \P_OboeStaffI
+                        \P_OboeStaffI                                                              %! extern
                         \context Staff = "EnglishHornStaffI"
-                        \P_EnglishHornStaffI
+                        \P_EnglishHornStaffI                                                       %! extern
                     >>
                     \context Staff = "BassoonStaffI"
-                    \P_BassoonStaffI
+                    \P_BassoonStaffI                                                               %! extern
                 >>
                 \context StaffGroup = "BrassStaffGroup"
                 <<
@@ -47,9 +47,9 @@
                     }
                     <<
                         \context Staff = "HornStaffI"
-                        \P_HornStaffI
+                        \P_HornStaffI                                                              %! extern
                         \context Staff = "HornStaffII"
-                        \P_HornStaffII
+                        \P_HornStaffII                                                             %! extern
                     >>
                     \context StaffGroup = "TrumpetSquareStaffGroup"
                     \with
@@ -58,9 +58,9 @@
                     }
                     <<
                         \context Staff = "TrumpetStaffI"
-                        \P_TrumpetStaffI
+                        \P_TrumpetStaffI                                                           %! extern
                         \context Staff = "TrumpetStaffII"
-                        \P_TrumpetStaffII
+                        \P_TrumpetStaffII                                                          %! extern
                     >>
                     \context StaffGroup = "TromboneSquareStaffGroup"
                     \with
@@ -69,9 +69,9 @@
                     }
                     <<
                         \context Staff = "TromboneStaffI"
-                        \P_TromboneStaffI
+                        \P_TromboneStaffI                                                          %! extern
                         \context Staff = "TromboneStaffII"
-                        \P_TromboneStaffII
+                        \P_TromboneStaffII                                                         %! extern
                     >>
                 >>
                 \context StaffGroup = "StringStaffGroup"
@@ -83,11 +83,11 @@
                     }
                     <<
                         \context Staff = "FirstViolinStaffI"
-                        \P_FirstViolinStaffI
+                        \P_FirstViolinStaffI                                                       %! extern
                         \context Staff = "FirstViolinStaffII"
-                        \P_FirstViolinStaffII
+                        \P_FirstViolinStaffII                                                      %! extern
                         \context Staff = "FirstViolinStaffIII"
-                        \P_FirstViolinStaffIII
+                        \P_FirstViolinStaffIII                                                     %! extern
                     >>
                     \context StaffGroup = "SecondViolinSquareStaffGroup"
                     \with
@@ -96,9 +96,9 @@
                     }
                     <<
                         \context Staff = "SecondViolinStaffI"
-                        \P_SecondViolinStaffI
+                        \P_SecondViolinStaffI                                                      %! extern
                         \context Staff = "SecondViolinStaffII"
-                        \P_SecondViolinStaffII
+                        \P_SecondViolinStaffII                                                     %! extern
                     >>
                     \context StaffGroup = "ViolaSquareStaffGroup"
                     \with
@@ -107,16 +107,16 @@
                     }
                     <<
                         \context Staff = "ViolaStaffI"
-                        \P_ViolaStaffI
+                        \P_ViolaStaffI                                                             %! extern
                         \context Staff = "ViolaStaffII"
-                        \P_ViolaStaffII
+                        \P_ViolaStaffII                                                            %! extern
                     >>
                     \context Staff = "CelloStaffI"
-                    \P_CelloStaffI
+                    \P_CelloStaffI                                                                 %! extern
                     \context Staff = "ContrabassStaffII"
-                    \P_ContrabassStaffII
+                    \P_ContrabassStaffII                                                           %! extern
                 >>
             >>
         >>
-    >>
-}
+    >>                                                                                             %! _make_lilypond_file
+}                                                                                                  %! _make_lilypond_file
